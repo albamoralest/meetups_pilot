@@ -1,0 +1,38 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX fx:   <http://sparql.xyz/facade-x/ns/>
+PREFIX xyz:  <http://sparql.xyz/facade-x/data/>
+PREFIX ont: <http://w3id.org/polifonia/ontology/meetups#>
+PREFIX meetup: <http://w3id.org/polifonia/pilot/meetups/>
+
+# 9039,http://dbpedia.org/resource/Django_Reinhardt,1910-01-23,9039.txt
+# "http://dbpedia.org/resource/Ian_Anderson"                           | "223497.txt"
+
+CONSTRUCT{
+?meetup a ont:MusicalMeetup ;
+	ont:person ?personIRI
+#?sentence ?entity ?type
+} WHERE {
+   SERVICE <x-sparql-anything:> {
+   	 fx:properties fx:location "../extractedEntities/223497.csv" ; fx:csv.headers "true" .
+
+	 [] xyz:paragraphIndex ?paragraph ; 
+	    xyz:sentenceIndex ?sentence ; 
+	 	<http://sparql.xyz/facade-x/data/@URI> ?person ;
+		xyz:entType "person"
+		.
+   	 [] xyz:paragraphIndex ?paragraph ; 
+	    xyz:sentenceIndex ?sentence ; 
+   	 	<http://sparql.xyz/facade-x/data/@URI> ?place ;
+   		xyz:entType "place"
+		.
+	 [] xyz:paragraphIndex ?paragraph ; 
+   	    xyz:sentenceIndex ?sentence ; 
+   	 	xyz:entity ?time ;
+   		xyz:entType "time"
+		.
+	 BIND ( IRI(?person) as ?personIRI ) .
+     BIND (fx:entity (meetup:, fx:String.toLowerCase("Ian_Anderson"), "/", ?paragraph, "/", ?sentence) AS ?meetup )
+   }
+}
