@@ -1,3 +1,24 @@
+---
+id: meetups-dataset
+name: MEETUPS Dataset
+brief-description: Dataset for experiments within the MEETUPS Pilot
+type: Dataset
+release-date: TBD
+release-number: TBD
+work-package: 
+- WP1
+- WP4
+pilot:
+- MEETUPS
+licence: TBD
+related-component:
+- led
+links:
+- https://github.com/polifonia-project/meetups-dataset
+credits:
+- https://github.com/albamoralest
+- https://github.com/enridaga
+---
 # MEETUPS PILOT
 
 Extracting information of musical artist from Wikipedia pages.
