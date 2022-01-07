@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1194878/7/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Manson> ;
+        ont:place           "http://dbpedia.org/resource/10050_Cielo_Drive" , "http://dbpedia.org/resource/Manson_Family" ;
+        ont:subject         <http://dbpedia.org/resource/Terry_Melcher> ;
+        ont:timeExpression  "2019 book" .
+
+<http://w3id.org/polifonia/pilot/meetups/1194878/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Manson> ;
+        ont:place           "http://dbpedia.org/resource/Bergen" , "http://dbpedia.org/resource/10050_Cielo_Drive" ;
+        ont:subject         <http://dbpedia.org/resource/Terry_Melcher> ;
+        ont:timeExpression  "at 10050" .
+
+<http://w3id.org/polifonia/pilot/meetups/1194878/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Terrence_Paul> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Terry_Melcher> ;
+        ont:timeExpression  "February 8 , 1942" , "November 19 , 2004" , "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1194878/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Scott_McKenzie> , <http://dbpedia.org/resource/Mike_Love> ;
+        ont:place           "http://dbpedia.org/resource/Kokomo,_Indiana" , "http://dbpedia.org/resource/Carmel-by-the-Sea,_California" , "http://dbpedia.org/resource/Cypress_Inn,_Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Terry_Melcher> ;
+        ont:timeExpression  "California.In 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/1194878/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Patricia_Krenwinkel> , <http://dbpedia.org/resource/Jo_Silvagni> , <http://dbpedia.org/resource/Charles_Manson> , <http://dbpedia.org/resource/Glen_Ella> , <http://dbpedia.org/resource/Woodrow_Wilson> ;
+        ont:place           "http://dbpedia.org/resource/Manson_Family" , "http://dbpedia.org/resource/Sunset_Boulevard" ;
+        ont:subject         <http://dbpedia.org/resource/Terry_Melcher> ;
+        ont:timeExpression  "house at 14400" .

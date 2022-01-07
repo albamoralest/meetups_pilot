@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/208956/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rick_Parfitt> ;
+        ont:place           "http://dbpedia.org/resource/British_Empire" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Brown_(singer)> ;
+        ont:timeExpression  "nine" , "2010" , "throughout 2011" , "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/208956/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/George_Harrison> ;
+        ont:place           "http://dbpedia.org/resource/Goes" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Brown_(singer)> ;
+        ont:timeExpression  "November 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/208956/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marty_Wilde> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Brown_(singer)> ;
+        ont:timeExpression  "December 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/208956/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joe_L._Brown> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Brown_(singer)> ;
+        ont:timeExpression  "13 October 2008" , "in 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/208956/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_E._Brown> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Brown_(singer)> ;
+        ont:timeExpression  "'Top" , "two" , "1962" , "in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/208956/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Hoskins> ;
+        ont:place           "http://dbpedia.org/resource/Dudley" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Brown_(singer)> ;
+        ont:timeExpression  "in 1987" , "1986 film" , "one series" .
+
+<http://w3id.org/polifonia/pilot/meetups/208956/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_E._Brown> , <http://dbpedia.org/resource/Jools_Holland> , <http://dbpedia.org/resource/Dennis_Wilson> , <http://dbpedia.org/resource/Dave_Edmunds> , <http://dbpedia.org/resource/Mark_Knopfler> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Albert_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Brown_(singer)> ;
+        ont:timeExpression  "over 100,000" , "In 2008" .

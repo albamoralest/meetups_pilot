@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/762314/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rich_Robinson> ;
+        ont:place           "http://dbpedia.org/resource/London_Palladium" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Noone> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/762314/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bede> ;
+        ont:place           "http://dbpedia.org/resource/Flixton_railway_station" , "http://dbpedia.org/resource/Urmston" , "http://dbpedia.org/resource/Lancashire" , "http://dbpedia.org/resource/Manchester" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Noone> ;
+        ont:timeExpression  "second of five" .

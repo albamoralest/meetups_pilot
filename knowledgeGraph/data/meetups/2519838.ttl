@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2519838/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Billie_Holiday> ;
+        ont:place           "http://dbpedia.org/resource/Fort_Lauderdale,_Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Flip_Phillips> ;
+        ont:timeExpression  "August 2001" , "age of 86" , "1952 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/2519838/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Flip_Phillips> , <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Flip_Phillips> ;
+        ont:timeExpression  "March 26 , 1915" , "August 17 , 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/2519838/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kai_Winding> , <http://dbpedia.org/resource/Sonny_Criss> , <http://dbpedia.org/resource/Shelly_Manne> , <http://dbpedia.org/resource/Buddy_Morrow> , <http://dbpedia.org/resource/Tommy_Turk> ;
+        ont:place           "http://dbpedia.org/resource/Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Flip_Phillips> ;
+        ont:timeExpression  "80s.He" , "1940s" , "1949 album" , "1950s" .

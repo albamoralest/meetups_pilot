@@ -1,0 +1,91 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/7/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Grand_Duchess_Anna_Petrovna_of_Russia> , <http://dbpedia.org/resource/Peter_II_of_Russia> ;
+        ont:place           "http://dbpedia.org/resource/Russian_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "in 1730" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Catherine_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Russia" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "in 1766" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/7/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Daniel_Bernoulli> ;
+        ont:place           "http://dbpedia.org/resource/Basel" , "http://dbpedia.org/resource/Saint_Petersburg" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/9/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> , <http://dbpedia.org/resource/Friederike_Charlotte_of_Brandenburg-Schwedt> ;
+        ont:place           "http://dbpedia.org/resource/Charlottenburg" , "http://dbpedia.org/resource/Anhalt-Dessau" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "In 1753" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "7 January 1734" , "1707–1773" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/10/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_of_Russia> ;
+        ont:place           "http://dbpedia.org/resource/Russian_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "4000 roubles—an" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/7/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" , "http://dbpedia.org/resource/Berlin" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "in 1740" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johann_Bernoulli> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" , "http://dbpedia.org/resource/Russian_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "two" , "in 1725" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Berlin" , "http://dbpedia.org/resource/Prussia" , "http://dbpedia.org/resource/Russia" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "June 1741" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_of_Valois> , <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:place           "http://dbpedia.org/resource/Basel" , "http://dbpedia.org/resource/Switzerland" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "15 April 1707" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johann_Bernoulli> ;
+        ont:place           "http://dbpedia.org/resource/Basel" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "In 1748" .
+
+<http://w3id.org/polifonia/pilot/meetups/17902/7/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> , <http://dbpedia.org/resource/Anna_of_Russia> ;
+        ont:place           "http://dbpedia.org/resource/Berlin" , "http://dbpedia.org/resource/Russia" ;
+        ont:subject         <http://dbpedia.org/resource/Leonhard_Euler> ;
+        ont:timeExpression  "1600" .

@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/735176/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jonathan_Brewster_Bingham> ;
+        ont:place           "http://dbpedia.org/resource/The_Bronx" ;
+        ont:subject         <http://dbpedia.org/resource/Hiram_Bingham_I> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/735176/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hiram_Bingham_I> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Hawaiian_Islands" , "http://dbpedia.org/resource/Bingham_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/Hiram_Bingham_I> ;
+        ont:timeExpression  "November 11 , 1869" , "October 30 , 1789" .
+
+<http://w3id.org/polifonia/pilot/meetups/735176/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jude_the_Apostle> , <http://dbpedia.org/resource/Lucy_Goodale_Thurston> ;
+        ont:place           "http://dbpedia.org/resource/Hawaiian_Islands" , "http://dbpedia.org/resource/Boston" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Hawaiian_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Hiram_Bingham_I> ;
+        ont:timeExpression  "October 23 , 1819" .
+
+<http://w3id.org/polifonia/pilot/meetups/735176/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tom_Bingham,_Baron_Bingham_of_Cornhill> ;
+        ont:place           "http://dbpedia.org/resource/Connecticut" , "http://dbpedia.org/resource/Thirteen_Colonies" ;
+        ont:subject         <http://dbpedia.org/resource/Hiram_Bingham_I> ;
+        ont:timeExpression  "in 1650" .

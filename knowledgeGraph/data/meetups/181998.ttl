@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/181998/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elia_Kazan> , <http://dbpedia.org/resource/Jo_Van_Fleet> , <http://dbpedia.org/resource/Montgomery_Clift> ;
+        ont:place           "http://dbpedia.org/resource/Wild_river" ;
+        ont:subject         <http://dbpedia.org/resource/Lee_Remick> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/181998/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Orson_Welles> ;
+        ont:place           "http://dbpedia.org/resource/Varner_Unit" ;
+        ont:subject         <http://dbpedia.org/resource/Lee_Remick> ;
+        ont:timeExpression  "1958" , "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/181998/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Orson_Welles> , <http://dbpedia.org/resource/Kay_Summersby> , <http://dbpedia.org/resource/James_VI_and_I> , <http://dbpedia.org/resource/Dwight_D._Eisenhower> , <http://dbpedia.org/resource/Richard_Burton> , <http://dbpedia.org/resource/Charles_Bronson> ;
+        ont:place           "http://dbpedia.org/resource/Hudson_River" ;
+        ont:subject         <http://dbpedia.org/resource/Lee_Remick> ;
+        ont:timeExpression  "1972" , "1978" , "1979" , "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/181998/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Newman> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Lee_Remick> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/181998/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lee_Remick> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Lee_Remick> ;
+        ont:timeExpression  "in 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/181998/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Francis_of_Assisi> , <http://dbpedia.org/resource/Gertrude_Stein> , <http://dbpedia.org/resource/Darwood_Kaye> , <http://dbpedia.org/resource/Patricia_Arquette> ;
+        ont:place           "http://dbpedia.org/resource/Episcopal_Diocese_of_Quincy" , "http://dbpedia.org/resource/Massachusetts" ;
+        ont:subject         <http://dbpedia.org/resource/Lee_Remick> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/181998/22/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Katharine_Hepburn> , <http://dbpedia.org/resource/Greg_Valentine> , <http://dbpedia.org/resource/William_Holden> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Lee_Remick> ;
+        ont:timeExpression  "1972" , "1974" , "1973" .

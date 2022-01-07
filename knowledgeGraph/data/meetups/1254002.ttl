@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254002/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Francis_of_Assisi> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn" ;
+        ont:subject         <http://dbpedia.org/resource/James_Truslow_Adams> ;
+        ont:timeExpression  "in 1900" , "in 1898" , "in 1638.Adams" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254002/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Truslow_Adams> ;
+        ont:place           "http://dbpedia.org/resource/New_England" ;
+        ont:subject         <http://dbpedia.org/resource/James_Truslow_Adams> ;
+        ont:timeExpression  "1 November 2001" , "1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254002/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Truslow_Adams> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/James_Truslow_Adams> ;
+        ont:timeExpression  "October 18 , 1878" , "May 18 , 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254002/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/T._Michael_Coleman> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/James_Truslow_Adams> ;
+        ont:timeExpression  "4" , "1943" .

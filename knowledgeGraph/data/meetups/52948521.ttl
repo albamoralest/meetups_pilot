@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "28 December 1997" , "19 February 1905" .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "17/12/1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marya_Freund> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "in 1932" .

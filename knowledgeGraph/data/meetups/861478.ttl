@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/861478/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Amalia_Mendoza> ;
+        ont:place           "http://dbpedia.org/resource/Los_Mochis" ;
+        ont:subject         <http://dbpedia.org/resource/Chayito_Valdez> ;
+        ont:timeExpression  "four" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/861478/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Wilson_Valdez> ;
+        ont:place           "http://dbpedia.org/resource/Mexico" ;
+        ont:subject         <http://dbpedia.org/resource/Chayito_Valdez> ;
+        ont:timeExpression  "1500" , "over 300" .
+
+<http://w3id.org/polifonia/pilot/meetups/861478/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ronaldo_Valdez> , <http://dbpedia.org/resource/Rosario_Flores> ;
+        ont:place           "http://dbpedia.org/resource/Guasave" , "http://dbpedia.org/resource/Sinaloa" , "http://dbpedia.org/resource/Mexico" ;
+        ont:subject         <http://dbpedia.org/resource/Chayito_Valdez> ;
+        ont:timeExpression  "28 May 1945" , "20 June 2016" .

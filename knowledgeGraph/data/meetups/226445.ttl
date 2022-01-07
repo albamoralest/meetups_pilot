@@ -1,0 +1,112 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Clonakilty" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "11 May 2003" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/8/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> , <http://dbpedia.org/resource/Jimi_Hendrix> ;
+        ont:place           "http://dbpedia.org/resource/Red_House_Museum" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/14/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Appleby-in-Westmorland" , "http://dbpedia.org/resource/Glounthaune" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "DVDs.In 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/18/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mitch_Mitchell> , <http://dbpedia.org/resource/Noel_Gallagher> , <http://dbpedia.org/resource/Jimi_Hendrix> , <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Folkestone" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/14/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "in 1997" , "3:05" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/14/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Clonakilty" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "May 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Ireland" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "in 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/14/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Appleby-in-Westmorland" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "after four" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Neil_Landon> , <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Kent" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "In 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/1/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Appleby-in-Westmorland" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Neil_Landon> , <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "1962" , "At 17" , "November 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/8/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "June 29 , 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/14/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Lade_Pawsey> , <http://dbpedia.org/resource/Jacques-Melchior_Saint-Laurent,_Comte_de_Barras> , <http://dbpedia.org/resource/Jim_O'Neil_(American_football)> , <http://dbpedia.org/resource/Jeff_Ward_(motorsports)> , <http://dbpedia.org/resource/Eric_Bell> , <http://dbpedia.org/resource/Charles_Goodnight> ;
+        ont:place           "http://dbpedia.org/resource/Clonakilty" , "http://dbpedia.org/resource/Republic_of_Ireland" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "20" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Clonakilty" , "http://dbpedia.org/resource/Republic_of_Ireland" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "Experience in 1969" , "in 1970" , "in 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/226445/14/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> , <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Appleby-in-Westmorland" ;
+        ont:subject         <http://dbpedia.org/resource/Noel_Redding> ;
+        ont:timeExpression  "1997" , "two" , "edition of 1000" .

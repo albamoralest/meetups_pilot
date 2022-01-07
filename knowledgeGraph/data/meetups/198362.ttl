@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/198362/21/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Don_Redman> , <http://dbpedia.org/resource/Victor_Young> , <http://dbpedia.org/resource/Red_Nichols> ;
+        ont:place           "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/The_Boswell_Sisters> ;
+        ont:timeExpression  "1934 recording" , "handful of 12" .
+
+<http://w3id.org/polifonia/pilot/meetups/198362/22/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> , <http://dbpedia.org/resource/Martha_Boswell> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/The_Boswell_Sisters> ;
+        ont:timeExpression  "one month" .
+
+<http://w3id.org/polifonia/pilot/meetups/198362/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Boswell> , <http://dbpedia.org/resource/Martha_Wainwright> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Sydney_Lyric" ;
+        ont:subject         <http://dbpedia.org/resource/The_Boswell_Sisters> ;
+        ont:timeExpression  "1925 interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/198362/22/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jack_Kapp> , <http://dbpedia.org/resource/Ella_Fitzgerald> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/The_Boswell_Sisters> ;
+        ont:timeExpression  "1936" , "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/198362/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Martha_Boswell> , <http://dbpedia.org/resource/Connee_Boswell> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/The_Boswell_Sisters> ;
+        ont:timeExpression  "July 2 , 1958" , "October 11 , 1976" , "December 3 , 1907" , "June 9 , 1905" , "November 12 , 1988" , "of three" , "May 20 , 1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/198362/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Boswell> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/The_Boswell_Sisters> ;
+        ont:timeExpression  "in 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/198362/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Boswell> , <http://dbpedia.org/resource/Michael_Brooks_(basketball)> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/The_Boswell_Sisters> ;
+        ont:timeExpression  "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/198362/17/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_McCain> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/The_Boswell_Sisters> ;
+        ont:timeExpression  "in 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/198362/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Boswell> ;
+        ont:place           "http://dbpedia.org/resource/Arkansas_City,_Kansas" , "http://dbpedia.org/resource/Oklahoma" , "http://dbpedia.org/resource/Texas" , "http://dbpedia.org/resource/Arkansas" , "http://dbpedia.org/resource/Midwestern_United_States" ;
+        ont:subject         <http://dbpedia.org/resource/The_Boswell_Sisters> ;
+        ont:timeExpression  "December 1928" , "December 10 , 1928" .

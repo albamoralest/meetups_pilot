@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paolo_Bonolis> ;
+        ont:place           "http://dbpedia.org/resource/Dominica" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "In 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dwayne_Johnson> , <http://dbpedia.org/resource/Antonio_Paoli> ;
+        ont:place           "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:place           "http://dbpedia.org/resource/Canta_Province" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dalida> ;
+        ont:place           "http://dbpedia.org/resource/Ancient_Rome" , "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Luigi_Tenco> , <http://dbpedia.org/resource/Dalida> ;
+        ont:place           "http://dbpedia.org/resource/Rome" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "In 1999" .

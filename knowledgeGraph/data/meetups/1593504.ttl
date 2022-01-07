@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1593504/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ellen_Terry> , <http://dbpedia.org/resource/Mick_Tucker> ;
+        ont:place           "http://dbpedia.org/resource/Kingsbury_tube_station" , "http://dbpedia.org/resource/NW_postcode_area" ;
+        ont:subject         <http://dbpedia.org/resource/Mick_Tucker> ;
+        ont:timeExpression  "July 17 , 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/1593504/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Steve_Priest> , <http://dbpedia.org/resource/Pat_Torpey> , <http://dbpedia.org/resource/Brian_Connolly> ;
+        ont:place           "http://dbpedia.org/resource/NW_postcode_area" , "http://dbpedia.org/resource/Kilburn_tube_station" ;
+        ont:subject         <http://dbpedia.org/resource/Mick_Tucker> ;
+        ont:timeExpression  "30 April 1947" , "January 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1593504/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sacred_Heart> ;
+        ont:place           "http://dbpedia.org/resource/Ruislip" , "http://dbpedia.org/resource/Middlesex" ;
+        ont:subject         <http://dbpedia.org/resource/Mick_Tucker> ;
+        ont:timeExpression  "28 July 1973" .

@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fred_Williams_(artist)> ;
+        ont:place           "http://dbpedia.org/resource/Sarasota,_Florida" ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Buddy_DeFranco> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "age of nine" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kenny_Clarke> , <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/Dizzy_Gillespie> , <http://dbpedia.org/resource/Lester_Patrick> , <http://dbpedia.org/resource/Buddy_Rich> , <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/Caracas" , "http://dbpedia.org/resource/Venezuela" , "http://dbpedia.org/resource/La_Porta" ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "August 12 , 1956" .

@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/386760/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Clayton_(folksinger)> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:timeExpression  "May 1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/386760/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:timeExpression  "February 12 , 1900" , "October 12 , 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/386760/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Roy_Book_Binder> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:timeExpression  "1970s" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/386760/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Blind_Simmie_Dooley> ;
+        ont:place           "http://dbpedia.org/resource/Spartanburg,_South_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:timeExpression  "in 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/386760/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> , <http://dbpedia.org/resource/Reverend_Gary_Davis> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/386760/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:place           "http://dbpedia.org/resource/Simmie,_Saskatchewan" ;
+        ont:subject         <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:timeExpression  "Columbia 14400-D" , "April 14 , 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/386760/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:place           "http://dbpedia.org/resource/Simmie,_Saskatchewan" ;
+        ont:subject         <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:timeExpression  "Columbia 14336-D" , "April 14 , 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/386760/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chief_Thundercloud> , <http://dbpedia.org/resource/Peg_Leg_Sam> , <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:place           "http://dbpedia.org/resource/Jonesville,_South_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Pink_Anderson> ;
+        ont:timeExpression  "1950s" .

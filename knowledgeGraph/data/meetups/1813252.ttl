@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1813252/13/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bria_Hartley> , <http://dbpedia.org/resource/Richard_Branson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Titanic_Belfast" , "http://dbpedia.org/resource/Pigeon_Forge,_Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Wallace_Hartley> ;
+        ont:timeExpression  "owner of one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1813252/13/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Aldridge> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Devizes" , "http://dbpedia.org/resource/Wiltshire" , "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Wallace_Hartley> ;
+        ont:timeExpression  "1.7" , "million" , "19 October 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/1813252/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maria_Robinson> ;
+        ont:place           "http://dbpedia.org/resource/Great_Britain" ;
+        ont:subject         <http://dbpedia.org/resource/Wallace_Hartley> ;
+        ont:timeExpression  "in 1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/1813252/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Aldridge> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Wallace_Hartley> ;
+        ont:timeExpression  "March 2013" , "seven" , "after two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1813252/13/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Heather_Rankin_(singer)> , <http://dbpedia.org/resource/Wallace_Hartley> , <http://dbpedia.org/resource/Thom_Fitzgerald> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Wallace_Hartley> ;
+        ont:timeExpression  "two" , "2014.The story" .
+
+<http://w3id.org/polifonia/pilot/meetups/1813252/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Renwick_Jr.> , <http://dbpedia.org/resource/Maria_Robinson> ;
+        ont:place           "http://dbpedia.org/resource/Bridlington" ;
+        ont:subject         <http://dbpedia.org/resource/Wallace_Hartley> ;
+        ont:timeExpression  "death in 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/1813252/12/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Aldridge> , <http://dbpedia.org/resource/Wallace_Hartley> ;
+        ont:place           "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Wallace_Hartley> ;
+        ont:timeExpression  "19 July 1912" .

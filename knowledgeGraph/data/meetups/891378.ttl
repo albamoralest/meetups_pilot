@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/891378/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Boxcar_Willie> ;
+        ont:place           "http://dbpedia.org/resource/Red_Oak,_Texas" , "http://dbpedia.org/resource/Ovilla,_Texas" , "http://dbpedia.org/resource/Interstate_35E_(Texas)" ;
+        ont:subject         <http://dbpedia.org/resource/Boxcar_Willie> ;
+        ont:timeExpression  "four" , "Market Road 664" , "Interstate 35E" .
+
+<http://w3id.org/polifonia/pilot/meetups/891378/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Boxcar_Willie> , <http://dbpedia.org/resource/Travis_McElroy> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Boxcar_Willie> ;
+        ont:timeExpression  "April 12 , 1999" , "September 1 , 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/891378/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> , <http://dbpedia.org/resource/Boxcar_Willie> ;
+        ont:place           "http://dbpedia.org/resource/Washington_Union_Station" , "http://dbpedia.org/resource/L'Enfant_Plaza_station" , "http://dbpedia.org/resource/National_Mall" ;
+        ont:subject         <http://dbpedia.org/resource/Boxcar_Willie> ;
+        ont:timeExpression  "two" .

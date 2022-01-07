@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Fort> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "15" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Erté> ;
+        ont:place           "http://dbpedia.org/resource/Poum" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "23" , "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joan_of_France,_Duchess_of_Berry> ;
+        ont:place           "http://dbpedia.org/resource/Ans" , "http://dbpedia.org/resource/Bordeaux" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "in 1875" , "8 tableaux" , "lyrique in 4" , "5–8 May 1929" , "10 May 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean_Racine> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "22 December 1924" , "8 February 1925" .

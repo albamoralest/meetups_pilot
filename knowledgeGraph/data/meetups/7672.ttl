@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/7672/15/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_V> , <http://dbpedia.org/resource/Rudyard_Kipling> , <http://dbpedia.org/resource/George_B._Selden> ;
+        ont:place           "http://dbpedia.org/resource/Times_Square" ;
+        ont:subject         <http://dbpedia.org/resource/Chuck_Jones> ;
+        ont:timeExpression  "two sequels.Three" , "In 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/7672/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chuck_Jones> , <http://dbpedia.org/resource/Charles_Adams_(ice_hockey)> , <http://dbpedia.org/resource/Mabel_Gardiner_Hubbard> ;
+        ont:place           "http://dbpedia.org/resource/McCarthey_Athletic_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Chuck_Jones> ;
+        ont:timeExpression  "September 21 , 1912" .
+
+<http://w3id.org/polifonia/pilot/meetups/7672/17/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jordan_Crawford> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Chuck_Jones> ;
+        ont:timeExpression  "1977" , "1980" , "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/7672/13/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Walt_Kelly> ;
+        ont:place           "http://dbpedia.org/resource/Rab" ;
+        ont:subject         <http://dbpedia.org/resource/Chuck_Jones> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/7672/22/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chuck_Jones> , <http://dbpedia.org/resource/Edward_MacDowell> ;
+        ont:place           "http://dbpedia.org/resource/Costa_Mesa,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Chuck_Jones> ;
+        ont:timeExpression  "Edward MacDowell Medal.In 1999" , "Animated Special Project.In 1997" .

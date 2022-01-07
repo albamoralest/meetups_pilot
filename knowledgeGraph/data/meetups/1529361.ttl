@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "September 16 , 1921" , "November 22 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/84/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Al_Grey> ;
+        ont:place           "http://dbpedia.org/resource/Capri" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/72/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Russell,_New_York" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/11/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1975" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/91/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mark_Twain> , <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:place           "http://dbpedia.org/resource/John_F._Kennedy_Center_for_the_Performing_Arts" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "Mark Twain Prize 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kurt_Elling> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georgie_Fame> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "in 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/9/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_O._Westwood> , <http://dbpedia.org/resource/Mark_J._Green> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" , "http://dbpedia.org/resource/Burton_upon_Trent" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "for five" , "In 1961" .

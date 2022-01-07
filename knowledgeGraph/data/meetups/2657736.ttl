@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2657736/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Andy_Mackay> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Pigalle_Club" ;
+        ont:subject         <http://dbpedia.org/resource/Andy_Mackay> ;
+        ont:timeExpression  "18/11/08" .
+
+<http://w3id.org/polifonia/pilot/meetups/2657736/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Mellencamp> , <http://dbpedia.org/resource/Paul_McCartney> , <http://dbpedia.org/resource/Yukihiro_Takahashi> , <http://dbpedia.org/resource/Tomoyasu_Hotei> , <http://dbpedia.org/resource/Ivan_Pavlov> , <http://dbpedia.org/resource/John_Cale> , <http://dbpedia.org/resource/Mickey_Jupp> ;
+        ont:place           "http://dbpedia.org/resource/Arcadia" ;
+        ont:subject         <http://dbpedia.org/resource/Andy_Mackay> ;
+        ont:timeExpression  "801" .
+
+<http://w3id.org/polifonia/pilot/meetups/2657736/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clive_Langer> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Andy_Mackay> ;
+        ont:timeExpression  "two" , "In 2014" , "1990s" , "October 2014" .

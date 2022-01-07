@@ -1,0 +1,98 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "1960s.On" , "6 September 2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:place           "http://dbpedia.org/resource/Marylebone" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "14 December 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Birkin> , <http://dbpedia.org/resource/George_Mallory> , <http://dbpedia.org/resource/Jane_Fonda> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "14 December 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:place           "http://dbpedia.org/resource/California" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "in 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Birkin> , <http://dbpedia.org/resource/Hector_Zazou> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Birkin> , <http://dbpedia.org/resource/Michelangelo_Antonioni> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean-Louis_Dumas> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "In 1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/11/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Daniel_arap_Moi> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "In 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Agatha_Christie> ;
+        ont:place           "http://dbpedia.org/resource/Nile" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "1982" , "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/1/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Agatha_Christie> , <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:place           "http://dbpedia.org/resource/Nile" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "1978" , "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/18/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charlotte_Gainsbourg> , <http://dbpedia.org/resource/Lou_Doillon> , <http://dbpedia.org/resource/Jane_Birkin> , <http://dbpedia.org/resource/Christopher_Marlowe> ;
+        ont:place           "http://dbpedia.org/resource/Ancient_Rome" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "1987" , "2011" , "1997" , "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/84783/15/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joni_Mitchell> , <http://dbpedia.org/resource/Iggy_Pop> , <http://dbpedia.org/resource/Jane_Birkin> , <http://dbpedia.org/resource/Courtney_Love> , <http://dbpedia.org/resource/Slimane_of_Morocco> , <http://dbpedia.org/resource/Marianne_Faithfull> ;
+        ont:place           "http://dbpedia.org/resource/Tahiti" ;
+        ont:subject         <http://dbpedia.org/resource/Jane_Birkin> ;
+        ont:timeExpression  "2016" , "In 2006" , "in 2010" .

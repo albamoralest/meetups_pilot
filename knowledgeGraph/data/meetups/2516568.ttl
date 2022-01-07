@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2516568/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Daniel_Viglietti> ;
+        ont:place           "http://dbpedia.org/resource/Uruguay" ;
+        ont:subject         <http://dbpedia.org/resource/Daniel_Viglietti> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/2516568/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Braulio_of_Zaragoza> , <http://dbpedia.org/resource/Muhammed_Bello> , <http://dbpedia.org/resource/Pepe_Romero> ;
+        ont:place           "http://dbpedia.org/resource/Uruguay" ;
+        ont:subject         <http://dbpedia.org/resource/Daniel_Viglietti> ;
+        ont:timeExpression  "in 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/2516568/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean-Paul_Sartre> ;
+        ont:place           "http://dbpedia.org/resource/South_America" ;
+        ont:subject         <http://dbpedia.org/resource/Daniel_Viglietti> ;
+        ont:timeExpression  "1970s" .

@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1244554/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sadao_Watanabe_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Boston" , "http://dbpedia.org/resource/Japan" ;
+        ont:subject         <http://dbpedia.org/resource/Sadao_Watanabe_(musician)> ;
+        ont:timeExpression  "1962" , "In 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1244554/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carlos_Santana> ;
+        ont:place           "http://dbpedia.org/resource/Nippon_Budokan" ;
+        ont:subject         <http://dbpedia.org/resource/Sadao_Watanabe_(musician)> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/1244554/2/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Coltrane> ;
+        ont:place           "http://dbpedia.org/resource/Tokyo" , "http://dbpedia.org/resource/Japan" ;
+        ont:subject         <http://dbpedia.org/resource/Sadao_Watanabe_(musician)> ;
+        ont:timeExpression  "Japan 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1244554/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dave_Grusin> ;
+        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:subject         <http://dbpedia.org/resource/Sadao_Watanabe_(musician)> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/1244554/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Armando_Peraza> ;
+        ont:place           "http://dbpedia.org/resource/Isle_of_Skye" ;
+        ont:subject         <http://dbpedia.org/resource/Sadao_Watanabe_(musician)> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/1244554/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ithamara_Koorax> ;
+        ont:place           "http://dbpedia.org/resource/Red_River_of_the_South" ;
+        ont:subject         <http://dbpedia.org/resource/Sadao_Watanabe_(musician)> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/1244554/2/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sadao_Watanabe_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Kunitachi,_Tokyo" ;
+        ont:subject         <http://dbpedia.org/resource/Sadao_Watanabe_(musician)> ;
+        ont:timeExpression  "1970s" , "1970" , "six photography" , "since 2010" , "than 70" , "1980s" .

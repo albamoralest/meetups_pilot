@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1384081/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Wardell_Gray> , <http://dbpedia.org/resource/Barney_Kessel> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Hampton_Hawes> ;
+        ont:timeExpression  "1978 ]" , "1952 [" .
+
+<http://w3id.org/polifonia/pilot/meetups/1384081/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_F._Kennedy> ;
+        ont:place           "http://dbpedia.org/resource/Carswell_Air_Force_Base" ;
+        ont:subject         <http://dbpedia.org/resource/Hampton_Hawes> ;
+        ont:timeExpression  "In 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1384081/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Mingus> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Hampton_Hawes> ;
+        ont:timeExpression  "1957" , "in 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/1384081/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Art_Pepper> , <http://dbpedia.org/resource/Red_Mitchell> ;
+        ont:place           "http://dbpedia.org/resource/Bethlehem" ;
+        ont:subject         <http://dbpedia.org/resource/Hampton_Hawes> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/1384081/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Mingus> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Hampton_Hawes> ;
+        ont:timeExpression  "1979 ]" , "1952 [" .
+
+<http://w3id.org/polifonia/pilot/meetups/1384081/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Red_Mitchell> ;
+        ont:place           "http://dbpedia.org/resource/Japan" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Hampton_Hawes> ;
+        ont:timeExpression  "1954" , "from 1952" .

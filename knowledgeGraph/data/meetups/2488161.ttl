@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/20>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Peter_B._Lewis> ;
+        ont:place           "http://dbpedia.org/resource/Capitola,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_E._Lee> ;
+        ont:place           "http://dbpedia.org/resource/Windsor,_Ontario" , "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "in 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "April 18 , 1946" , "April 16 , 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Omar_Lye-Fook> , <http://dbpedia.org/resource/Tiran_Porter> , <http://dbpedia.org/resource/Dale_Jarrett> ;
+        ont:place           "http://dbpedia.org/resource/Santa_Cruz_de_la_Sierra" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/U.S._Route_66_in_California" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1914–1965" , "Route 66" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:place           "http://dbpedia.org/resource/Santa_Cruz_de_la_Sierra" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "as one" , "in 2008" , "June 2008" , "100" .

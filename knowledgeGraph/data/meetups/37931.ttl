@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/37931/77/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Andrea_Bocelli> ;
+        ont:place           "http://dbpedia.org/resource/Tuscany" ;
+        ont:subject         <http://dbpedia.org/resource/Pietro_Mascagni> ;
+        ont:timeExpression  "In 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/37931/31/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gabriele_D'Annunzio> , <http://dbpedia.org/resource/Anna_of_Russia> ;
+        ont:place           "http://dbpedia.org/resource/Bellevue_Hospital" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Pietro_Mascagni> ;
+        ont:timeExpression  "On 28" .
+
+<http://w3id.org/polifonia/pilot/meetups/37931/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Giacomo_Leopardi> ;
+        ont:place           "http://dbpedia.org/resource/Recanati" ;
+        ont:subject         <http://dbpedia.org/resource/Pietro_Mascagni> ;
+        ont:timeExpression  "19 June 1898" .
+
+<http://w3id.org/polifonia/pilot/meetups/37931/19/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Giacomo_Leopardi> ;
+        ont:place           "http://dbpedia.org/resource/Recanati" ;
+        ont:subject         <http://dbpedia.org/resource/Pietro_Mascagni> ;
+        ont:timeExpression  "29 June 1898" .
+
+<http://w3id.org/polifonia/pilot/meetups/37931/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hall_Caine> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Pietro_Mascagni> ;
+        ont:timeExpression  "August 1902" , "on 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/37931/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carlo_Lombardo> ;
+        ont:place           "http://dbpedia.org/resource/Rome" ;
+        ont:subject         <http://dbpedia.org/resource/Pietro_Mascagni> ;
+        ont:timeExpression  "on 13" .
+
+<http://w3id.org/polifonia/pilot/meetups/37931/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pope_Pius_XII> ;
+        ont:place           "http://dbpedia.org/resource/La_Scala" ;
+        ont:subject         <http://dbpedia.org/resource/Pietro_Mascagni> ;
+        ont:timeExpression  "In 1942" , "April 1943" .

@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Graeme_Segal> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "December 29 , 1992" , "April 19 , 1897" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lorenz_Hart> ;
+        ont:place           "http://dbpedia.org/resource/Connecticut" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "in 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/34/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/T._J._McFarland> ;
+        ont:place           "http://dbpedia.org/resource/Jefferson,_North_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Greenberg> , <http://dbpedia.org/resource/Gene_Kelly> , <http://dbpedia.org/resource/June_Havoc> ;
+        ont:place           "http://dbpedia.org/resource/Ethel_Barrymore_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "December 25 , 1940" .

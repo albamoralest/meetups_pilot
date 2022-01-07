@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/162348/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pat_Boone> ;
+        ont:place           "http://dbpedia.org/resource/Oklahoma" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/David_Gates> ;
+        ont:timeExpression  "Delta Tau Delta International Fraternity.In 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/162348/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Ashworth> , <http://dbpedia.org/resource/Jimmy_Griffin> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Europe" , "http://dbpedia.org/resource/North_America" ;
+        ont:subject         <http://dbpedia.org/resource/David_Gates> ;
+        ont:timeExpression  "December 11 , 1940" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/162348/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> ;
+        ont:place           "http://dbpedia.org/resource/Madison_Square_Garden" ;
+        ont:subject         <http://dbpedia.org/resource/David_Gates> ;
+        ont:timeExpression  "October 12 , 1974" .

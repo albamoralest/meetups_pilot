@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Little_Brother_Montgomery> , <http://dbpedia.org/resource/Henry_A._Wallace> , <http://dbpedia.org/resource/Roosevelt_Sykes> , <http://dbpedia.org/resource/Victoria_Spivey> ;
+        ont:place           "http://dbpedia.org/resource/Denmark" , "http://dbpedia.org/resource/Copenhagen" ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "comeback in 1966" , "October 31 , 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Wallace> ;
+        ont:place           "http://dbpedia.org/resource/Michigan" ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "in 1982" , "in 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfred_Russel_Wallace> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "in 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "In 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Matt_Wallace> , <http://dbpedia.org/resource/Leland_Stanford> , <http://dbpedia.org/resource/Thomas_Washington> , <http://dbpedia.org/resource/George_Wallace> ;
+        ont:place           "http://dbpedia.org/resource/Detroit" ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "March 6 , 1937.For" , "40" , "in 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "November 1 , 1898" , "November 1 , 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Wallace> ;
+        ont:place           "http://dbpedia.org/resource/Texas" , "http://dbpedia.org/resource/Louisiana" ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfred_Russel_Wallace> ;
+        ont:place           "http://dbpedia.org/resource/Detroit" ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "in 1929" , "poisoning in 1926" , "19.Wallace" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Wallace> ;
+        ont:place           "http://dbpedia.org/resource/Harrison,_Arkansas" ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "one" , "of 13" .

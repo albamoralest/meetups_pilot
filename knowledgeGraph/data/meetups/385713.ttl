@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jesus> ;
+        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1755" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Rheinsberg" , "http://dbpedia.org/resource/Margraviate_of_Brandenburg" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "In 1735" , "in 1733" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pietro_Metastasio> ;
+        ont:place           "http://dbpedia.org/resource/Utica,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1743" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Berlin" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "nineteen" , "throne in 1740" .

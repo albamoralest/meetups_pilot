@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1882145/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louis_Armstrong> , <http://dbpedia.org/resource/Stan_Getz> , <http://dbpedia.org/resource/Steve_Kuhn> , <http://dbpedia.org/resource/Svend_Asmussen> , <http://dbpedia.org/resource/Georg_Riedel_(jazz_musician)> , <http://dbpedia.org/resource/Bill_Evans> , <http://dbpedia.org/resource/Egil_Johansen_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Episcopal_Diocese_of_Quincy" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Monica_Zetterlund> ;
+        ont:timeExpression  "Jan Johansson.In 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1882145/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ghostface_Killah> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Monica_Zetterlund> ;
+        ont:timeExpression  "1996" .

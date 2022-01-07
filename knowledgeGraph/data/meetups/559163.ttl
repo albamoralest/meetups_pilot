@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/559163/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Hope> , <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:place           "http://dbpedia.org/resource/Bali" ;
+        ont:subject         <http://dbpedia.org/resource/Chico_Hamilton> ;
+        ont:timeExpression  "1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/559163/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dexter_Gordon> , <http://dbpedia.org/resource/Buddy_Collette> , <http://dbpedia.org/resource/Ernie_Royal> , <http://dbpedia.org/resource/Charles_Mingus> , <http://dbpedia.org/resource/Illinois_Jacquet> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Chico_Hamilton> ;
+        ont:timeExpression  "one" , "of three" .
+
+<http://w3id.org/polifonia/pilot/meetups/559163/79/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Horn_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Tanganyika" ;
+        ont:subject         <http://dbpedia.org/resource/Chico_Hamilton> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/559163/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chico_Marx> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Chico_Hamilton> ;
+        ont:timeExpression  "November 25 , 2013" , "September 20 , 1921" .
+
+<http://w3id.org/polifonia/pilot/meetups/559163/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Albert_King> , <http://dbpedia.org/resource/John_Milton> ;
+        ont:place           "http://dbpedia.org/resource/Montreux" ;
+        ont:subject         <http://dbpedia.org/resource/Chico_Hamilton> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/559163/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nat_King_Cole> , <http://dbpedia.org/resource/Billy_Eckstine> , <http://dbpedia.org/resource/Duke_Ellington> , <http://dbpedia.org/resource/Lena_Horne> , <http://dbpedia.org/resource/Lester_Young> , <http://dbpedia.org/resource/Gerry_Mulligan> , <http://dbpedia.org/resource/Billie_Holiday> , <http://dbpedia.org/resource/Miles_Davis> , <http://dbpedia.org/resource/Fred_Astaire> , <http://dbpedia.org/resource/Charlie_Barnet> , <http://dbpedia.org/resource/T-Bone_Walker> , <http://dbpedia.org/resource/Count_Basie> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Chico_Hamilton> ;
+        ont:timeExpression  "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/559163/78/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Buddy_Collette> , <http://dbpedia.org/resource/Louis_Armstrong> ;
+        ont:place           "http://dbpedia.org/resource/Amsterdam" ;
+        ont:subject         <http://dbpedia.org/resource/Chico_Hamilton> ;
+        ont:timeExpression  "1970" .

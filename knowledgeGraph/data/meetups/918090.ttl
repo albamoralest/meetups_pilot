@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/918090/31/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donovan_Mitchell> , <http://dbpedia.org/resource/Doris_Day> , <http://dbpedia.org/resource/Raoul_Walsh> ;
+        ont:place           "http://dbpedia.org/resource/Colorado" ;
+        ont:subject         <http://dbpedia.org/resource/James_Mitchell_(actor)> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/918090/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rita_Moreno> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/James_Mitchell_(actor)> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/918090/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donovan_Mitchell> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/James_Mitchell_(actor)> ;
+        ont:timeExpression  "in 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/918090/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Elmer_Mitchell> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/James_Mitchell_(actor)> ;
+        ont:timeExpression  "January 22 , 2010" , "February 29 , 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/918090/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donovan_Mitchell> ;
+        ont:place           "http://dbpedia.org/resource/Sacramento,_California" ;
+        ont:subject         <http://dbpedia.org/resource/James_Mitchell_(actor)> ;
+        ont:timeExpression  "1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/918090/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Elmer_Mitchell> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/James_Mitchell_(actor)> ;
+        ont:timeExpression  "January 22 , 2010" .

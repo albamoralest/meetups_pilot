@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/726151/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harry_James> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Harris> ;
+        ont:timeExpression  "1980s" , "1970s" , "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/726151/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bert_Williams> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Harris> ;
+        ont:timeExpression  "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/726151/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marcia_Ralston> ;
+        ont:place           "http://dbpedia.org/resource/Sydney" , "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Harris> ;
+        ont:timeExpression  "September 2 , 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/726151/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marcia_Ralston> ;
+        ont:place           "http://dbpedia.org/resource/Sydney" , "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Harris> ;
+        ont:timeExpression  "September 2 , 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/726151/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Philip_II_of_Spain> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Harris> ;
+        ont:timeExpression  "June 24 , 1904" , "August 11 , 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/726151/4/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Forrest_Tucker> , <http://dbpedia.org/resource/Walter_Brennan> ;
+        ont:place           "http://dbpedia.org/resource/Pacific_Ocean" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Harris> ;
+        ont:timeExpression  "1951" .

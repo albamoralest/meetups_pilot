@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/604066/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sheila_Mercier> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Sheila_(singer)> ;
+        ont:timeExpression  "1970s" , "16 August 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/604066/87/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eve> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Sheila_(singer)> ;
+        ont:timeExpression  "1973" , "5" .
+
+<http://w3id.org/polifonia/pilot/meetups/604066/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cher> ;
+        ont:place           "http://dbpedia.org/resource/Argentina" , "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Sheila_(singer)> ;
+        ont:timeExpression  "1966" , "1" , "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/604066/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louise_Sauvage> ;
+        ont:place           "http://dbpedia.org/resource/Olympia_London" ;
+        ont:subject         <http://dbpedia.org/resource/Sheila_(singer)> ;
+        ont:timeExpression  "in 1998" , "in 2009" , "in 2006" , "2010" , "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/604066/96/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Patrick> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Sheila_(singer)> ;
+        ont:timeExpression  "1976" , "1" .

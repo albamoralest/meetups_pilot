@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gabrielle_Drake> , <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:place           "http://dbpedia.org/resource/Queensland" ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/14/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Sewell> , <http://dbpedia.org/resource/George_V> ;
+        ont:place           "http://dbpedia.org/resource/Australia" , "http://dbpedia.org/resource/Essex" ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "in 1835" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:place           "http://dbpedia.org/resource/Western_Australia" , "http://dbpedia.org/resource/Geraldton" ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Suzanne_Falkiner> , <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:place           "http://dbpedia.org/resource/Western_Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "2016" .

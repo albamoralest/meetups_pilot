@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/76252/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Trajan> ;
+        ont:place           "http://dbpedia.org/resource/Europe" , "http://dbpedia.org/resource/Ancient_Rome" ;
+        ont:subject         <http://dbpedia.org/resource/Gottfried_Semper> ;
+        ont:timeExpression  "1 ]" , "1834 publication" .
+
+<http://w3id.org/polifonia/pilot/meetups/76252/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gottfried_Semper> ;
+        ont:place           "http://dbpedia.org/resource/Dresden" , "http://dbpedia.org/resource/Semperoper" ;
+        ont:subject         <http://dbpedia.org/resource/Gottfried_Semper> ;
+        ont:timeExpression  "29 November 1803" , "15 May 1879" , "between 1838" , "1841" .
+
+<http://w3id.org/polifonia/pilot/meetups/76252/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anthony_of_Saxony> ;
+        ont:place           "http://dbpedia.org/resource/Saxony" , "http://dbpedia.org/resource/Dresden" ;
+        ont:subject         <http://dbpedia.org/resource/Gottfried_Semper> ;
+        ont:timeExpression  "September 30 , 1834" .
+
+<http://w3id.org/polifonia/pilot/meetups/76252/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Heinrich_Heine> ;
+        ont:place           "http://dbpedia.org/resource/Zwickau" , "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Karlsruhe" , "http://dbpedia.org/resource/Hof_Hauptbahnhof" , "http://dbpedia.org/resource/Strasbourg" ;
+        ont:subject         <http://dbpedia.org/resource/Gottfried_Semper> ;
+        ont:timeExpression  "1848" .
+
+<http://w3id.org/polifonia/pilot/meetups/76252/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_II_of_France> ;
+        ont:place           "http://dbpedia.org/resource/Semperoper" ;
+        ont:subject         <http://dbpedia.org/resource/Gottfried_Semper> ;
+        ont:timeExpression  "one" , "in 1869" .

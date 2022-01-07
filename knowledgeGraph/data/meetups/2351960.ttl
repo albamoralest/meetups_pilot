@@ -1,0 +1,77 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2351960/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edward_Simmons_(painter)> , <http://dbpedia.org/resource/Willard_Metcalf> ;
+        ont:place           "http://dbpedia.org/resource/Concarneau" ;
+        ont:subject         <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:timeExpression  "summer of 1884" .
+
+<http://w3id.org/polifonia/pilot/meetups/2351960/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Bernard_Shaw> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:timeExpression  "1896" .
+
+<http://w3id.org/polifonia/pilot/meetups/2351960/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Salem,_Massachusetts" ;
+        ont:subject         <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:timeExpression  "March 24 , 1862" , "November 15 , 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/2351960/26/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Abbott_Handerson_Thayer> , <http://dbpedia.org/resource/Joseph_Lindon_Smith> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Dublin" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:timeExpression  "from 1889" , "1893" , "26" .
+
+<http://w3id.org/polifonia/pilot/meetups/2351960/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edmund_C._Tarbell> , <http://dbpedia.org/resource/Joseph_Lindon_Smith> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:timeExpression  "from 1883" , "1884" .
+
+<http://w3id.org/polifonia/pilot/meetups/2351960/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Empress_Elisabeth_of_Austria> , <http://dbpedia.org/resource/George_V> , <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:place           "http://dbpedia.org/resource/Salem,_Massachusetts" ;
+        ont:subject         <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:timeExpression  "13" .
+
+<http://w3id.org/polifonia/pilot/meetups/2351960/28/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Merritt_Chase> , <http://dbpedia.org/resource/Childe_Hassam> , <http://dbpedia.org/resource/Thomas_Dewing> ;
+        ont:place           "http://dbpedia.org/resource/Alden_Valley" ;
+        ont:subject         <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:timeExpression  "In 1898" , "Ten" , "nine" .
+
+<http://w3id.org/polifonia/pilot/meetups/2351960/28/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_I> , <http://dbpedia.org/resource/Sylvia_Pankhurst> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:timeExpression  "20" .
+
+<http://w3id.org/polifonia/pilot/meetups/2351960/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Mayer> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Carnegie_Museums_of_Pittsburgh" , "http://dbpedia.org/resource/Corcoran_Gallery_of_Art" , "http://dbpedia.org/resource/Akron_Art_Museum" , "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:timeExpression  "in 1917" , "in 1936" , "1950" , "in 1924" , "263–264" , "in 1921" , "241" , "in 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/2351960/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Lindon_Smith> , <http://dbpedia.org/resource/Edmund_C._Tarbell> , <http://dbpedia.org/resource/Robert_Reid_(architect)> ;
+        ont:place           "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/Frank_Weston_Benson> ;
+        ont:timeExpression  "263" , "in 1880" , "20" , "8" .

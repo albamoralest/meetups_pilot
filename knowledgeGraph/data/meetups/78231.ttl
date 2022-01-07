@@ -1,0 +1,140 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Christian> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" , "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "four" , "one" , "concert in 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Milt_Buckner> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "May 26 , 1942" , "group in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/11/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Oscar_Peterson> , <http://dbpedia.org/resource/Buddy_DeFranco> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "1940s" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David> ;
+        ont:place           "http://dbpedia.org/resource/Israel" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "In 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dwight_D._Eisenhower> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:place           "http://dbpedia.org/resource/Palomar_Ballroom" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "November 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/11/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Paul_Moody> , <http://dbpedia.org/resource/Big_Jay_McNeely> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "1950s" , "July 24 , 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louis_Armstrong> , <http://dbpedia.org/resource/Lara_Saint_Paul> ;
+        ont:place           "http://dbpedia.org/resource/Sanremo" , "http://dbpedia.org/resource/Hampton,_Virginia" , "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louis_Armstrong> , <http://dbpedia.org/resource/Slim_Gaillard> , <http://dbpedia.org/resource/Jack_McVea> , <http://dbpedia.org/resource/T-Bone_Walker> , <http://dbpedia.org/resource/Leon_Hefflin,_Sr.> ;
+        ont:place           "http://dbpedia.org/resource/Wrigley_Field" , "http://dbpedia.org/resource/Hampton,_Virginia" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "October 12 , 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louis_Armstrong> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "In 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/10/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Billy_Mackel> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_Pickford> ;
+        ont:place           "http://dbpedia.org/resource/Yuma,_Arizona" , "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "November 11 , 1936" , "1913–1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Oscar_Peterson> , <http://dbpedia.org/resource/Buddy_Rich> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "1429" , "September 2 , 1953" , "1951–1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Paul_Jeffrey> , <http://dbpedia.org/resource/John_Colianni> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/10/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Arnett_Cobb> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "in 1944" , "78" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/11/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clifford_Brown> , <http://dbpedia.org/resource/Dizzy_Gillespie> , <http://dbpedia.org/resource/Monk_Montgomery> , <http://dbpedia.org/resource/Kenny_Dorham> , <http://dbpedia.org/resource/Jamie_Lee_Curtis> , <http://dbpedia.org/resource/Jimmy_Cleveland> , <http://dbpedia.org/resource/Art_Farmer> , <http://dbpedia.org/resource/Gigi_Gryce> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Snooky_Young> , <http://dbpedia.org/resource/Cat_Anderson> , <http://dbpedia.org/resource/Annie_Ross> ;
+        ont:place           "http://dbpedia.org/resource/Wallington_railway_station" , "http://dbpedia.org/resource/Europe" , "http://dbpedia.org/resource/Hampton,_Virginia" , "http://dbpedia.org/resource/Episcopal_Diocese_of_Quincy" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "in 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/11/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Stan_Getz> , <http://dbpedia.org/resource/Norman_Granz> , <http://dbpedia.org/resource/Art_Tatum> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "In 1955" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/5/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nathaniel_Shilkret> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "ten" .
+
+<http://w3id.org/polifonia/pilot/meetups/78231/15/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Wilhelm_Ostwald> , <http://dbpedia.org/resource/Wynton_Marsalis> ;
+        ont:place           "http://dbpedia.org/resource/Manhattan" , "http://dbpedia.org/resource/Riverside_Church" , "http://dbpedia.org/resource/Harlem" ;
+        ont:subject         <http://dbpedia.org/resource/Lionel_Hampton> ;
+        ont:timeExpression  "September 7 , 2002" .

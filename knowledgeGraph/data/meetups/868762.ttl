@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/868762/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Adlai_Stevenson_II> ;
+        ont:place           "http://dbpedia.org/resource/Woodland_Hills,_Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Virginia_Bruce> ;
+        ont:timeExpression  "in 1951" , "72" , "in 1952" , "February 24 , 1982" , "1952" , "in 1964.Bruce" .
+
+<http://w3id.org/polifonia/pilot/meetups/868762/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Walter_Huston> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Kongo" , "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Ziegfeld_Theatre_(1927)" ;
+        ont:subject         <http://dbpedia.org/resource/Virginia_Bruce> ;
+        ont:timeExpression  "In 1930" , "in 1931.Bruce" , "in 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/868762/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ali> ;
+        ont:place           "http://dbpedia.org/resource/Turkey" ;
+        ont:subject         <http://dbpedia.org/resource/Virginia_Bruce> ;
+        ont:timeExpression  "in 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/868762/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Virginia_Bruce> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Virginia_Bruce> ;
+        ont:timeExpression  "September 29 , 1909" , "February 24 , 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/868762/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cedric_Gibbons> , <http://dbpedia.org/resource/Irving_Thalberg> , <http://dbpedia.org/resource/Donald_Ogden_Stewart> , <http://dbpedia.org/resource/Princess_Beatrice_of_the_United_Kingdom> ;
+        ont:place           "http://dbpedia.org/resource/Dolores_Hidalgo" ;
+        ont:subject         <http://dbpedia.org/resource/Virginia_Bruce> ;
+        ont:timeExpression  "May 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/868762/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Gilbert_(actor)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Virginia_Bruce> ;
+        ont:timeExpression  "In 1937" , "three" .

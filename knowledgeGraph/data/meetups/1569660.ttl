@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1569660/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Massiel> ;
+        ont:place           "http://dbpedia.org/resource/Chile" ;
+        ont:subject         <http://dbpedia.org/resource/Massiel> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1569660/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Francisco_Franco> ;
+        ont:place           "http://dbpedia.org/resource/Spain" ;
+        ont:subject         <http://dbpedia.org/resource/Massiel> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1569660/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Luis_Eduardo_Aute> ;
+        ont:place           "http://dbpedia.org/resource/Spain" , "http://dbpedia.org/resource/Latin_America" ;
+        ont:subject         <http://dbpedia.org/resource/Massiel> ;
+        ont:timeExpression  "in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1569660/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cliff_Richard> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Massiel> ;
+        ont:timeExpression  "one point" , "April 6" .
+
+<http://w3id.org/polifonia/pilot/meetups/1569660/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cliff_Richard> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Massiel> ;
+        ont:timeExpression  "Song Contest 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1569660/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Massiel> , <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:place           "http://dbpedia.org/resource/Spain" ;
+        ont:subject         <http://dbpedia.org/resource/Massiel> ;
+        ont:timeExpression  "29 March 1968" , "In 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1569660/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Patricio_Manns> , <http://dbpedia.org/resource/Salvador_Allende> ;
+        ont:place           "http://dbpedia.org/resource/Sweden" , "http://dbpedia.org/resource/Chile" ;
+        ont:subject         <http://dbpedia.org/resource/Massiel> ;
+        ont:timeExpression  "11 September 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/1569660/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bertolt_Brecht> , <http://dbpedia.org/resource/Massiel> , <http://dbpedia.org/resource/Cleopatra> ;
+        ont:place           "http://dbpedia.org/resource/Mexico" ;
+        ont:subject         <http://dbpedia.org/resource/Massiel> ;
+        ont:timeExpression  "Mexico 1910" , "1976" , "1980s" , "1972" .

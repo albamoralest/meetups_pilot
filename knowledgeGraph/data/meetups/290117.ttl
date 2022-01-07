@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/290117/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Booker_T._Jones> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Booker_T._Jones> ;
+        ont:timeExpression  "November 12 , 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/290117/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dwayne_Johnson> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Booker_T._Jones> ;
+        ont:timeExpression  "in 1992" , "February 11 , 2007.In" , "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/290117/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sam_Moore> , <http://dbpedia.org/resource/Jools_Holland> , <http://dbpedia.org/resource/William_Bell_(singer)> , <http://dbpedia.org/resource/Ruby_Turner> , <http://dbpedia.org/resource/Beverley_Knight> , <http://dbpedia.org/resource/Steve_Cropper> , <http://dbpedia.org/resource/James_W._Morrison> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Albert_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Booker_T._Jones> ;
+        ont:timeExpression  "September 1 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/290117/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Booker_T._Jones> ;
+        ont:place           "http://dbpedia.org/resource/Taliaferro_County,_Georgia" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Booker_T._Jones> ;
+        ont:timeExpression  "November 12 , 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/290117/92/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Booker_T._Jones> ;
+        ont:place           "http://dbpedia.org/resource/Isle_of_Lewis" ;
+        ont:subject         <http://dbpedia.org/resource/Booker_T._Jones> ;
+        ont:timeExpression  "June 2011" .

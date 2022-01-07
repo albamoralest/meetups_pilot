@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/363631/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/George_Carlin> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/University_Medical_Center_of_Southern_Nevada" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/New_Jersey" , "http://dbpedia.org/resource/Hackensack_River" ;
+        ont:subject         <http://dbpedia.org/resource/Ben_E._King> ;
+        ont:timeExpression  "one" , "as 2014" , "in 2013" , "age of 76" , "November 11 , 2010" , "April 30 , 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/363631/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benjamin> ;
+        ont:place           "http://dbpedia.org/resource/Henderson,_North_Carolina" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Harlem" ;
+        ont:subject         <http://dbpedia.org/resource/Ben_E._King> ;
+        ont:timeExpression  "September 28 , 1938" , "age of nine" , "in 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/363631/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Aretha_Franklin> , <http://dbpedia.org/resource/Ray_Charles> ;
+        ont:place           "http://dbpedia.org/resource/East_Harlem" ;
+        ont:subject         <http://dbpedia.org/resource/Ben_E._King> ;
+        ont:timeExpression  "in 1971" , "in 1970" .

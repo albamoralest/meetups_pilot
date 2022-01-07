@@ -1,0 +1,91 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bruce_Springsteen> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Murray_River" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "November 4 , 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_S._Kaufman> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Brooklyn" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "three" , "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Brown> ;
+        ont:place           "http://dbpedia.org/resource/Murray_River" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Don_Imus> , <http://dbpedia.org/resource/Wolfman_Jack> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "in 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:place           "http://dbpedia.org/resource/Murray_River" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "Part 1" , "1959" , "Part 2" , "Murray Kaufman Part 1/Part 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:place           "http://dbpedia.org/resource/West_Side_Tennis_Club" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "August 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clay_Cole> , <http://dbpedia.org/resource/George_S._Kaufman> , <http://dbpedia.org/resource/Bobby_Darin> ;
+        ont:place           "http://dbpedia.org/resource/Second_Avenue_Subway" , "http://dbpedia.org/resource/Manhattan" , "http://dbpedia.org/resource/Brooklyn" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "in 1960" , "theater on 14th" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Estelle_Bennett> , <http://dbpedia.org/resource/Nedra_Talley> ;
+        ont:place           "http://dbpedia.org/resource/Murray_River" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Brooklyn" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "February 7 , 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ira_Kaplan> ;
+        ont:place           "http://dbpedia.org/resource/New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "in 1997.Yo" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tex_McCrary> , <http://dbpedia.org/resource/Cher> , <http://dbpedia.org/resource/Phil_Ochs> ;
+        ont:place           "http://dbpedia.org/resource/Murray_River" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "In 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/23/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joe_Namath> , <http://dbpedia.org/resource/Aretha_Franklin> , <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Murray_River" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "May 1966.In 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/486934/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Murray_River" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_the_K> ;
+        ont:timeExpression  "February 14 , 1922" , "February 21 , 1982" , "'60s" , "'70s" , "1950s" .

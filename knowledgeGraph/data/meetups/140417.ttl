@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/140417/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ludwig_van_Beethoven> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Alfred_Brendel> ;
+        ont:timeExpression  "20 February 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/140417/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Baumgartner> ;
+        ont:place           "http://dbpedia.org/resource/Latin_America" , "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Alfred_Brendel> ;
+        ont:timeExpression  "age of 21" , "in 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/140417/3/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ludwig_van_Beethoven> , <http://dbpedia.org/resource/Elizabeth_Barnard> ;
+        ont:place           "http://dbpedia.org/resource/Queen_Elizabeth_Hall" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Alfred_Brendel> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/140417/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ludwig_van_Beethoven> , <http://dbpedia.org/resource/Daniel_Barenboim> , <http://dbpedia.org/resource/Artur_Schnabel> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Alfred_Brendel> ;
+        ont:timeExpression  "21 January 1973" , "in 2003" , "in 1983" , "81" , "in 1936" , "cycle in 1995/1996" , "in 1993" .

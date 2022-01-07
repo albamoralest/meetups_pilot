@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/70986/28/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kim_Kardashian> , <http://dbpedia.org/resource/James_Taylor> ;
+        ont:place           "http://dbpedia.org/resource/Ellis_Island" , "http://dbpedia.org/resource/Brooklyn_Bridge" ;
+        ont:subject         <http://dbpedia.org/resource/Art_Garfunkel> ;
+        ont:timeExpression  "1998 episode" , "1991 television series" , "35" .
+
+<http://w3id.org/polifonia/pilot/meetups/70986/19/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leah_Kunkel> , <http://dbpedia.org/resource/Arlen_Roth> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Art_Garfunkel> ;
+        ont:timeExpression  "In 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/70986/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Washington,_D.C." ;
+        ont:subject         <http://dbpedia.org/resource/Art_Garfunkel> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/70986/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Laurie_Bird> ;
+        ont:place           "http://dbpedia.org/resource/Manhattan" ;
+        ont:subject         <http://dbpedia.org/resource/Art_Garfunkel> ;
+        ont:timeExpression  "girlfriend since 1974" , "June 1979" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/70986/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nicolas_Roeg> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Art_Garfunkel> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/70986/49/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rockin'_Robin_Roberts> ;
+        ont:place           "http://dbpedia.org/resource/Ebbets_Field" ;
+        ont:subject         <http://dbpedia.org/resource/Art_Garfunkel> ;
+        ont:timeExpression  "8" , "One day" .
+
+<http://w3id.org/polifonia/pilot/meetups/70986/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/George_McGovern> ;
+        ont:place           "http://dbpedia.org/resource/Litchfield,_Connecticut" ;
+        ont:subject         <http://dbpedia.org/resource/Art_Garfunkel> ;
+        ont:timeExpression  "1972" , "1971" .

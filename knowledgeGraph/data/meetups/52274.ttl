@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/52274/20/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sgt._Slaughter> ;
+        ont:place           "http://dbpedia.org/resource/Oklahoma" , "http://dbpedia.org/resource/Tenth_Avenue_(Manhattan)" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Rodgers> ;
+        ont:timeExpression  "1954" , "in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/52274/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Greenberg> , <http://dbpedia.org/resource/Oscar_Hammerstein_II> , <http://dbpedia.org/resource/Lorenz_Hart> ;
+        ont:place           "http://dbpedia.org/resource/Connecticut" , "http://dbpedia.org/resource/Oklahoma" , "http://dbpedia.org/resource/Pacific_Ocean" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Rodgers> ;
+        ont:timeExpression  "1920s" , "1940s" , "1930s" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/52274/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Rodgers> ;
+        ont:place           "http://dbpedia.org/resource/Richard_Rodgers_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Rodgers> ;
+        ont:timeExpression  "In 1990" , "46th" .
+
+<http://w3id.org/polifonia/pilot/meetups/52274/11/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Bing_Crosby> , <http://dbpedia.org/resource/Al_Jolson> ;
+        ont:place           "http://dbpedia.org/resource/Mississippi_River" , "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Rodgers> ;
+        ont:timeExpression  "1935" , "1932" , "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/52274/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rouben_Mamoulian> , <http://dbpedia.org/resource/Lorenz_Hart> ;
+        ont:place           "http://dbpedia.org/resource/Oklahoma" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Rodgers> ;
+        ont:timeExpression  "1932" .

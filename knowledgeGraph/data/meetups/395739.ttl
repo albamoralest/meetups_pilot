@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/395739/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sue_Brown_(rowing)> ;
+        ont:place           "http://dbpedia.org/resource/Braly_Municipal_Stadium" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Alexander> ;
+        ont:timeExpression  "in 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/395739/70/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ry_Cooder> , <http://dbpedia.org/resource/Black_Francis> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Alexander> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/395739/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marshall_Crenshaw> ;
+        ont:place           "http://dbpedia.org/resource/Hamburg" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Alexander> ;
+        ont:timeExpression  "in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/395739/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Alexander> ;
+        ont:timeExpression  "May 10 , 1940" , "June 9 , 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/395739/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Amos> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Alexander> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/395739/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Kent" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Alexander> ;
+        ont:timeExpression  "1998" , "one track" .
+
+<http://w3id.org/polifonia/pilot/meetups/395739/60/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Kent" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Alexander> ;
+        ont:timeExpression  "1998" , "one track" , "Atlanta Soul Brotherhood Vol 2" .

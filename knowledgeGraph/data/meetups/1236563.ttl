@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1236563/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kate_Wolf> , <http://dbpedia.org/resource/Greg_Brown_(folk_musician)> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Kate_Wolf> ;
+        ont:timeExpression  "2004 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/1236563/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saul> ;
+        ont:place           "http://dbpedia.org/resource/Sonoma_County_wine" ;
+        ont:subject         <http://dbpedia.org/resource/Kate_Wolf> ;
+        ont:timeExpression  "in 1976" , "In 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/1236563/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kate_Wolf> , <http://dbpedia.org/resource/Louise_Allen_(tennis)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Kate_Wolf> ;
+        ont:timeExpression  "January 27 , 1942" , "December 10 , 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/1236563/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/JellyRoll> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/J._M._W._Turner> ;
+        ont:place           "http://dbpedia.org/resource/Big_Sur" ;
+        ont:subject         <http://dbpedia.org/resource/Kate_Wolf> ;
+        ont:timeExpression  "in 1967.In" , "1969" , "two" , "in 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1236563/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sarah> , <http://dbpedia.org/resource/Mike_Gordon> ;
+        ont:place           "http://dbpedia.org/resource/Yiddish_Book_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Kate_Wolf> ;
+        ont:timeExpression  "July 2019" .

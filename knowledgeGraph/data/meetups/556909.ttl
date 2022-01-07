@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Abrahams> ;
+        ont:place           "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "In 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gerrie_Coetzee> ;
+        ont:place           "http://dbpedia.org/resource/Manenberg" ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "2 February 1944" , "11 March 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Abdullah_Ibrahim> , <http://dbpedia.org/resource/Jeff_Coetzee> ;
+        ont:place           "http://dbpedia.org/resource/Manenberg" ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donovan_Mitchell> ;
+        ont:place           "http://dbpedia.org/resource/Ottery_St_Mary" ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "14 March 1998" .

@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/787997/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dizzy_Gillespie> ;
+        ont:place           "http://dbpedia.org/resource/Detroit" , "http://dbpedia.org/resource/Tangier" ;
+        ont:subject         <http://dbpedia.org/resource/Kenny_Burrell> ;
+        ont:timeExpression  "sextet in 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/787997/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dave_Burrell> , <http://dbpedia.org/resource/Tommy_Flanagan> , <http://dbpedia.org/resource/Oscar_Peterson> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Kenny_Burrell> ;
+        ont:timeExpression  "in 1955" , "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/787997/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gil_Evans> , <http://dbpedia.org/resource/Dave_Burrell> , <http://dbpedia.org/resource/Stanley_Turrentine> , <http://dbpedia.org/resource/Duke_Ellington> , <http://dbpedia.org/resource/John_Coltrane> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Kenny_Burrell> ;
+        ont:timeExpression  "in 1963" , "in 1957" , "1978" , "in 1965" .

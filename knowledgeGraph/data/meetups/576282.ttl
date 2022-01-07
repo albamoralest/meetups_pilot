@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/576282/41/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sandra_Crouch> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Andraé_Crouch> ;
+        ont:timeExpression  "November 11 , 2011" , "In 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/576282/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> , <http://dbpedia.org/resource/Sandra_Crouch> , <http://dbpedia.org/resource/Twila_Paris> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn_Tabernacle" ;
+        ont:subject         <http://dbpedia.org/resource/Andraé_Crouch> ;
+        ont:timeExpression  "Take 6" .
+
+<http://w3id.org/polifonia/pilot/meetups/576282/11/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:place           "http://dbpedia.org/resource/Staples_Center" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Andraé_Crouch> ;
+        ont:timeExpression  "July 7 , 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/576282/8/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vanessa_Bell> , <http://dbpedia.org/resource/Sherman_Hemsley> , <http://dbpedia.org/resource/Lance_Armstrong> ;
+        ont:place           "http://dbpedia.org/resource/River_Crouch" ;
+        ont:subject         <http://dbpedia.org/resource/Andraé_Crouch> ;
+        ont:timeExpression  "In 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/576282/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jesus> ;
+        ont:place           "http://dbpedia.org/resource/River_Crouch" ;
+        ont:subject         <http://dbpedia.org/resource/Andraé_Crouch> ;
+        ont:timeExpression  "in 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/576282/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Catherine_Parr> , <http://dbpedia.org/resource/Benjamin> , <http://dbpedia.org/resource/Sandra_Crouch> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Andraé_Crouch> ;
+        ont:timeExpression  "July 1 , 1942" .

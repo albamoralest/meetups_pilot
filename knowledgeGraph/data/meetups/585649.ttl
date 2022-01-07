@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/585649/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hans_Dulfer> ;
+        ont:place           "http://dbpedia.org/resource/Amsterdam" , "http://dbpedia.org/resource/Netherlands" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Dulfer> ;
+        ont:timeExpression  "28 May 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/585649/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Willem_Breuker> ;
+        ont:place           "http://dbpedia.org/resource/Holland" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Dulfer> ;
+        ont:timeExpression  "Relax 1966" , "June 1966" , "14th" .
+
+<http://w3id.org/polifonia/pilot/meetups/585649/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hans_Dulfer> ;
+        ont:place           "http://dbpedia.org/resource/Netherlands" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Dulfer> ;
+        ont:timeExpression  "28 May 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/585649/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Susanne_Alt> ;
+        ont:place           "http://dbpedia.org/resource/Venus" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Dulfer> ;
+        ont:timeExpression  "Venus 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/585649/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Candy_Dulfer> ;
+        ont:place           "http://dbpedia.org/resource/Amsterdam" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Dulfer> ;
+        ont:timeExpression  "2001" .

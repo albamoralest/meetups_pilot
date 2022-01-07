@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1790603/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Levon_Helm> , <http://dbpedia.org/resource/Robbie_Robertson> ;
+        ont:place           "http://dbpedia.org/resource/Northern_England" ;
+        ont:subject         <http://dbpedia.org/resource/Howard_Tate> ;
+        ont:timeExpression  "1972 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790603/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eric_Gale> , <http://dbpedia.org/resource/Richard_Tee> , <http://dbpedia.org/resource/Chuck_Rainey> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Howard_Tate> ;
+        ont:timeExpression  "from 1966" , "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790603/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Christgau> ;
+        ont:place           "http://dbpedia.org/resource/Macon,_Georgia" ;
+        ont:subject         <http://dbpedia.org/resource/Howard_Tate> ;
+        ont:timeExpression  "lament with one" .

@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1593203/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Dewar> , <http://dbpedia.org/resource/Robin_Trower> ;
+        ont:place           "http://dbpedia.org/resource/Glasgow" ;
+        ont:subject         <http://dbpedia.org/resource/James_Dewar_(musician)> ;
+        ont:timeExpression  "12 October 1942" , "16 May 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/1593203/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robin_Trower> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/James_Dewar_(musician)> ;
+        ont:timeExpression  "1974 release" .

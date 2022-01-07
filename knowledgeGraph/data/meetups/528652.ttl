@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/528652/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ludwig_van_Beethoven> ;
+        ont:place           "http://dbpedia.org/resource/Russian_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:timeExpression  "in 1855" .
+
+<http://w3id.org/polifonia/pilot/meetups/528652/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:timeExpression  "In 1854" .
+
+<http://w3id.org/polifonia/pilot/meetups/528652/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:place           "http://dbpedia.org/resource/Weimar" ;
+        ont:subject         <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:timeExpression  "one" , "summer of 1852" .
+
+<http://w3id.org/polifonia/pilot/meetups/528652/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johann_Sebastian_Bach> ;
+        ont:place           "http://dbpedia.org/resource/Mainz" ;
+        ont:subject         <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:timeExpression  "1894" .
+
+<http://w3id.org/polifonia/pilot/meetups/528652/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Palaiologos> , <http://dbpedia.org/resource/Karl_Klindworth> , <http://dbpedia.org/resource/Dorothea_Wilhelmine_of_Saxe-Zeitz> ;
+        ont:place           "http://dbpedia.org/resource/Hanover" ;
+        ont:subject         <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:timeExpression  "in 1830" , "1757–1805" , "1800–1853" .
+
+<http://w3id.org/polifonia/pilot/meetups/528652/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:place           "http://dbpedia.org/resource/Moscow" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:timeExpression  "in 1868" .
+
+<http://w3id.org/polifonia/pilot/meetups/528652/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:place           "http://dbpedia.org/resource/Potsdam" , "http://dbpedia.org/resource/Berlin" ;
+        ont:subject         <http://dbpedia.org/resource/Karl_Klindworth> ;
+        ont:timeExpression  "until 1893" .

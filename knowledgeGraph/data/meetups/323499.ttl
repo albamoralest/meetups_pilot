@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/323499/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sammy_Cahn> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Sammy_Cahn> ;
+        ont:timeExpression  "January 15 , 1993" , "June 18 , 1913" .
+
+<http://w3id.org/polifonia/pilot/meetups/323499/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kathryn_Grayson> , <http://dbpedia.org/resource/Nicholas_Brodszky> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/Sammy_Cahn> ;
+        ont:timeExpression  "1950 –" .
+
+<http://w3id.org/polifonia/pilot/meetups/323499/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Barrie" ;
+        ont:subject         <http://dbpedia.org/resource/Sammy_Cahn> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/323499/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jamie_Lee_Curtis> , <http://dbpedia.org/resource/Donald_Brooks> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Sammy_Cahn> ;
+        ont:timeExpression  "In 1970" .

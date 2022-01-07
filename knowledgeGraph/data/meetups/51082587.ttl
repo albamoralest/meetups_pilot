@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/51082587/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jacques_Bins,_comte_de_Saint-Victor> ;
+        ont:place           "http://dbpedia.org/resource/Uthal" , "http://dbpedia.org/resource/Tard,_Hungary" ;
+        ont:subject         <http://dbpedia.org/resource/Pierre-Ange_Vieillard> ;
+        ont:timeExpression  "31" , "1 act" , "1806" .
+
+<http://w3id.org/polifonia/pilot/meetups/51082587/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Natanael> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Pierre-Ange_Vieillard> ;
+        ont:timeExpression  "p. 1120-1122" , "1878" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/51082587/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pierre-Ange_Vieillard> ;
+        ont:place           "http://dbpedia.org/resource/Palace_of_Versailles" ;
+        ont:subject         <http://dbpedia.org/resource/Pierre-Ange_Vieillard> ;
+        ont:timeExpression  "16 November 1873" , "16 February 1802" , "29 March 1826" .
+
+<http://w3id.org/polifonia/pilot/meetups/51082587/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louis_XVI> , <http://dbpedia.org/resource/Antoine_of_Navarre> , <http://dbpedia.org/resource/Pierre-Ange_Vieillard> ;
+        ont:place           "http://dbpedia.org/resource/Rouen" ;
+        ont:subject         <http://dbpedia.org/resource/Pierre-Ange_Vieillard> ;
+        ont:timeExpression  "January 30 , 1790" .

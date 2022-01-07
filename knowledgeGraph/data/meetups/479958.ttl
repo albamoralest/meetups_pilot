@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eduard_Heinrich_von_Flottwell> ;
+        ont:place           "http://dbpedia.org/resource/Congress_Poland" , "http://dbpedia.org/resource/Russian_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1830" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_William_II_of_Prussia> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "From 1792" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hubertus> ;
+        ont:place           "http://dbpedia.org/resource/Bavaria" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1825" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otto_von_Bismarck> ;
+        ont:place           "http://dbpedia.org/resource/Reich_Chancellery" , "http://dbpedia.org/resource/Berlin" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "by one" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Napoleon> ;
+        ont:place           "http://dbpedia.org/resource/First_French_Empire" , "http://dbpedia.org/resource/Kingdom_of_Prussia" , "http://dbpedia.org/resource/Second_Polish_Republic" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1806 campaign" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_William_III_of_Prussia> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" , "http://dbpedia.org/resource/Grand_Duchy_of_Posen" , "http://dbpedia.org/resource/Vienna" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1815" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henryk_Rzewuski> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "7 April 1833" , "13 June 1775" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> , <http://dbpedia.org/resource/Augustus> , <http://dbpedia.org/resource/Ferdinand_I_of_Bulgaria> , <http://dbpedia.org/resource/Louise_of_Hesse-Kassel> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" , "http://dbpedia.org/resource/Prussia" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "In 1796" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_I_of_the_Netherlands> , <http://dbpedia.org/resource/Elisa_Bonaparte> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "in 1824" .

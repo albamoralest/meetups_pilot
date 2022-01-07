@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/376223/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benny_Goodman> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Mel_Tormé> ;
+        ont:timeExpression  "1979" , "from 1978" , "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/376223/19/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nat_King_Cole> , <http://dbpedia.org/resource/Robert_Wells_(songwriter)> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Mel_Tormé> ;
+        ont:timeExpression  "1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/376223/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/B._J._Armstrong> ;
+        ont:place           "http://dbpedia.org/resource/River_Trent" ;
+        ont:subject         <http://dbpedia.org/resource/Mel_Tormé> ;
+        ont:timeExpression  "1941" , "From 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/376223/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Shakespeare> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Mel_Tormé> ;
+        ont:timeExpression  "four" .

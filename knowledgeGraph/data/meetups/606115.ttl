@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/606115/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gordon_R._Dickson> ;
+        ont:place           "http://dbpedia.org/resource/Dunfermline" , "http://dbpedia.org/resource/Fife" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Dickson> ;
+        ont:timeExpression  "27 September 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/606115/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gordon_R._Dickson> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Ireland" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Dickson> ;
+        ont:timeExpression  "March 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/606115/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> , <http://dbpedia.org/resource/Leonard_Eugene_Dickson> ;
+        ont:place           "http://dbpedia.org/resource/Moon" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Dickson> ;
+        ont:timeExpression  "March 2008.In 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/606115/19/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gordon_R._Dickson> ;
+        ont:place           "http://dbpedia.org/resource/Liverpool" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Dickson> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/606115/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Willy_Russell> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Dickson> ;
+        ont:timeExpression  "1970s" .

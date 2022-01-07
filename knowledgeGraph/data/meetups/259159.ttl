@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/259159/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lucille_Ball> ;
+        ont:place           "http://dbpedia.org/resource/Goes" ;
+        ont:subject         <http://dbpedia.org/resource/William_Frawley> ;
+        ont:timeExpression  "October 25 , 1965" , "1958 episode" .
+
+<http://w3id.org/polifonia/pilot/meetups/259159/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mathew_Brady> , <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Burlington,_Iowa" ;
+        ont:subject         <http://dbpedia.org/resource/William_Frawley> ;
+        ont:timeExpression  "1857–1907" , "son of four" , "1859–1921" , "in 1887" .
+
+<http://w3id.org/polifonia/pilot/meetups/259159/19/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/William_Frawley> ;
+        ont:timeExpression  "July 12 , 2018" , "March 2012.The" .

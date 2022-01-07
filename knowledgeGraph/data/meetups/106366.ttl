@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/106366/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Blake> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn" ;
+        ont:subject         <http://dbpedia.org/resource/Eubie_Blake> ;
+        ont:timeExpression  "February 12 , 1983" , "96th birthday" , "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/106366/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Doris_Holmes_Blake> ;
+        ont:place           "http://dbpedia.org/resource/New_Jersey" , "http://dbpedia.org/resource/Atlantic_City,_New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/Eubie_Blake> ;
+        ont:timeExpression  "1938" , "In 1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/106366/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Bird_Sumner> , <http://dbpedia.org/resource/Doris_Holmes_Blake> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Baltimore" ;
+        ont:subject         <http://dbpedia.org/resource/Eubie_Blake> ;
+        ont:timeExpression  "in 1883" , "in 2003—U.S" .
+
+<http://w3id.org/polifonia/pilot/meetups/106366/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eubie_Blake> ;
+        ont:place           "http://dbpedia.org/resource/Maryland" ;
+        ont:subject         <http://dbpedia.org/resource/Eubie_Blake> ;
+        ont:timeExpression  "at 319" , "February 7 , 1887" .
+
+<http://w3id.org/polifonia/pilot/meetups/106366/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joe_Gans> ;
+        ont:place           "http://dbpedia.org/resource/Baltimore" , "http://dbpedia.org/resource/Goldfield_Hotel" ;
+        ont:subject         <http://dbpedia.org/resource/Eubie_Blake> ;
+        ont:timeExpression  "business in 1907" .

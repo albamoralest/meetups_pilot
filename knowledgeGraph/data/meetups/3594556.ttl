@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3594556/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anna_the_Prophetess> , <http://dbpedia.org/resource/Wiktoria_Johansson> ;
+        ont:place           "http://dbpedia.org/resource/Poland" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Anna_German> ;
+        ont:timeExpression  "26 August 1982" , "1960s–1970s" , "14 February 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/3594556/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anna_German> ;
+        ont:place           "http://dbpedia.org/resource/Italy" , "http://dbpedia.org/resource/Milan" ;
+        ont:subject         <http://dbpedia.org/resource/Anna_German> ;
+        ont:timeExpression  "27 August 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/3594556/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anna_German> ;
+        ont:place           "http://dbpedia.org/resource/Opole" , "http://dbpedia.org/resource/Poland" ;
+        ont:subject         <http://dbpedia.org/resource/Anna_German> ;
+        ont:timeExpression  "In 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/3594556/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anna_German> ;
+        ont:place           "http://dbpedia.org/resource/Ukraine" , "http://dbpedia.org/resource/Croatia" , "http://dbpedia.org/resource/Poland" ;
+        ont:subject         <http://dbpedia.org/resource/Anna_German> ;
+        ont:timeExpression  "In 2012" .

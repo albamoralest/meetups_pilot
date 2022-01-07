@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1354212/4/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dorothy_Maynor> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Nathaniel_Dett> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354212/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Percy_Grainger> , <http://dbpedia.org/resource/Roland_Hayes> , <http://dbpedia.org/resource/Marian_Anderson> , <http://dbpedia.org/resource/John_Philip_Sousa> , <http://dbpedia.org/resource/Clarence_Cameron_White> ;
+        ont:place           "http://dbpedia.org/resource/Belgium" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Nathaniel_Dett> ;
+        ont:timeExpression  "In 1919" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354212/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Drummondville" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Nathaniel_Dett> ;
+        ont:timeExpression  "in 1882" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354212/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Moses> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Cincinnati" , "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Nathaniel_Dett> ;
+        ont:timeExpression  "In 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354212/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Moses> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Nathaniel_Dett> ;
+        ont:timeExpression  "1938" , "1941–1943" , "1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354212/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Shakespeare> , <http://dbpedia.org/resource/Henry_Wadsworth_Longfellow> , <http://dbpedia.org/resource/Alfred,_Lord_Tennyson> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Niagara_River" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Nathaniel_Dett> ;
+        ont:timeExpression  "1893" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354212/20/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Nathaniel_Dett> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Nathaniel_Dett> ;
+        ont:timeExpression  "in 2001" .

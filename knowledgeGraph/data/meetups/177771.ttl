@@ -1,0 +1,84 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Jefferson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "one" , "In 1972" , "Achievement.In 1973" , "1983" , "Fame.In 1979" , "Jefferson Awards.In 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ronald_Reagan> , <http://dbpedia.org/resource/Adolphe_Menjou> , <http://dbpedia.org/resource/John_Wayne> , <http://dbpedia.org/resource/Ginger_Rogers> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "in 1988" , "one held" .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Shakespeare> , <http://dbpedia.org/resource/Celeste_Holm> , <http://dbpedia.org/resource/Percy_Bysshe_Shelley> , <http://dbpedia.org/resource/Joseph_Papp> , <http://dbpedia.org/resource/Harold_Scott_(director)> , <http://dbpedia.org/resource/Raul_Julia> , <http://dbpedia.org/resource/Irvin_McDowell> , <http://dbpedia.org/resource/Mary_Elizabeth_Mastrantonio> , <http://dbpedia.org/resource/Len_Cariou> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "In 1982" , "in 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Queen_Victoria> , <http://dbpedia.org/resource/Vincent_Price> , <http://dbpedia.org/resource/George_VI> , <http://dbpedia.org/resource/Beck> ;
+        ont:place           "http://dbpedia.org/resource/Broadhurst_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "in 1935" , "for three" .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:place           "http://dbpedia.org/resource/Washington,_D.C." ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "since 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Helen_Hayes> , <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Washington,_D.C." ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "October 10 , 1900" .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_MacArthur> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Shakespeare> ;
+        ont:place           "http://dbpedia.org/resource/Marquis_Theatre" , "http://dbpedia.org/resource/Fulton_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "Helen Hayes Theatre three" .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Papp> , <http://dbpedia.org/resource/William_Shakespeare> ;
+        ont:place           "http://dbpedia.org/resource/Upper_West_Side" , "http://dbpedia.org/resource/Fulton_Theatre" , "http://dbpedia.org/resource/Manhattan" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "in 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hayes_MacArthur> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "80" , "March 17 , 1993" , "October 10 , 1900" .
+
+<http://w3id.org/polifonia/pilot/meetups/177771/23/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_II_of_England> , <http://dbpedia.org/resource/Douglas_MacArthur> , <http://dbpedia.org/resource/James_A._McClure> , <http://dbpedia.org/resource/Charles_II_of_England> , <http://dbpedia.org/resource/James_VI_and_I> ;
+        ont:place           "http://dbpedia.org/resource/Nyack,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Hayes> ;
+        ont:timeExpression  "four" .

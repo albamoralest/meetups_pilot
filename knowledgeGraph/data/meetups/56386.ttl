@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/56386/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Linda_McCartney> ;
+        ont:place           "http://dbpedia.org/resource/Jordan" , "http://dbpedia.org/resource/Atlantic_Ocean" ;
+        ont:subject         <http://dbpedia.org/resource/Barry_White> ;
+        ont:timeExpression  "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/56386/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Barry_White> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Barry_White> ;
+        ont:timeExpression  "September 12 , 1944" , "July 4 , 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/56386/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Carter> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Barry_White> ;
+        ont:timeExpression  "September 12 , 1944" .

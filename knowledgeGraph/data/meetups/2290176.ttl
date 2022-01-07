@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2290176/2/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Leland> , <http://dbpedia.org/resource/Dino_De_Laurentiis> , <http://dbpedia.org/resource/Sabrina_Salerno> ;
+        ont:place           "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/David_Leland> ;
+        ont:timeExpression  "four" , "in 2007.David" .
+
+<http://w3id.org/polifonia/pilot/meetups/2290176/2/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeff_Daniels> , <http://dbpedia.org/resource/Liam_Neeson> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/David_Leland> ;
+        ont:timeExpression  "for ten" , "two" , "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/2290176/2/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Emily_Lloyd> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/David_Leland> ;
+        ont:timeExpression  "1987" .

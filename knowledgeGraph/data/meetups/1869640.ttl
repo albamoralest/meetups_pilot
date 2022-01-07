@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1869640/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Emma_Lucy_Braun> ;
+        ont:place           "http://dbpedia.org/resource/Cincinnati" , "http://dbpedia.org/resource/Ohio" ;
+        ont:subject         <http://dbpedia.org/resource/Bob_Braun> ;
+        ont:timeExpression  "June 7 , 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1869640/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Braun> ;
+        ont:place           "http://dbpedia.org/resource/California" , "http://dbpedia.org/resource/Cincinnati" ;
+        ont:subject         <http://dbpedia.org/resource/Bob_Braun> ;
+        ont:timeExpression  "one" , "until 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/1869640/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Emma_Lucy_Braun> , <http://dbpedia.org/resource/Bob_Braun> ;
+        ont:place           "http://dbpedia.org/resource/Cincinnati" ;
+        ont:subject         <http://dbpedia.org/resource/Bob_Braun> ;
+        ont:timeExpression  "in 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1869640/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Braun> , <http://dbpedia.org/resource/Chad_Qualls> ;
+        ont:place           "http://dbpedia.org/resource/Cincinnati" ;
+        ont:subject         <http://dbpedia.org/resource/Bob_Braun> ;
+        ont:timeExpression  "June 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/1869640/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Braun> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Cincinnati" , "http://dbpedia.org/resource/Ohio" ;
+        ont:subject         <http://dbpedia.org/resource/Bob_Braun> ;
+        ont:timeExpression  "April 20 , 1929" , "January 15 , 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/1869640/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sara_Braun> ;
+        ont:place           "http://dbpedia.org/resource/Cincinnati" , "http://dbpedia.org/resource/Spring_Grove_Cemetery" ;
+        ont:subject         <http://dbpedia.org/resource/Bob_Braun> ;
+        ont:timeExpression  "cancer in 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/1869640/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Scooter_Braun> ;
+        ont:place           "http://dbpedia.org/resource/Ohio" , "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Bob_Braun> ;
+        ont:timeExpression  "as one" , "March 1994" .

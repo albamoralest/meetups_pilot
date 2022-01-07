@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/981787/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Inge> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Alexis_Smith> ;
+        ont:timeExpression  "In 1972" , "1978" , "1973" , "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/981787/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jerome_Flynn> , <http://dbpedia.org/resource/Richard_Brinsley_Sheridan> , <http://dbpedia.org/resource/Linda_Porter_(historian)> ;
+        ont:place           "http://dbpedia.org/resource/San_Antonio" ;
+        ont:subject         <http://dbpedia.org/resource/Alexis_Smith> ;
+        ont:timeExpression  "1945" , "1946" , "in One" .
+
+<http://w3id.org/polifonia/pilot/meetups/981787/10/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clark_Gable> , <http://dbpedia.org/resource/Shoplifter_(artist)> , <http://dbpedia.org/resource/Andrea_King> , <http://dbpedia.org/resource/Brian_Flynn> ;
+        ont:place           "http://dbpedia.org/resource/Montana" ;
+        ont:subject         <http://dbpedia.org/resource/Alexis_Smith> ;
+        ont:timeExpression  "October 1949" , "1950" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/981787/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nanette_Fabray> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alexis_Smith> ;
+        ont:timeExpression  "in 1939" .

@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/310022/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gene_Kelly> , <http://dbpedia.org/resource/Rita_Hayworth> ;
+        ont:place           "http://dbpedia.org/resource/Coney_Island" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Silvers> ;
+        ont:timeExpression  "1950" , "1941" , "1943" , "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/310022/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sandy_Descher> , <http://dbpedia.org/resource/Stafford_Repp> , <http://dbpedia.org/resource/Buddy_Lester> , <http://dbpedia.org/resource/Elena_Verdugo> , <http://dbpedia.org/resource/Dapo_Torimiro> , <http://dbpedia.org/resource/Phil_Silvers> ;
+        ont:place           "http://dbpedia.org/resource/Grafton,_New_South_Wales" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Silvers> ;
+        ont:timeExpression  "1963–1964 television season" .
+
+<http://w3id.org/polifonia/pilot/meetups/310022/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Phil_Silvers> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Silvers> ;
+        ont:timeExpression  "November 1 , 1985" , "May 11 , 1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/310022/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Philip_Silver> , <http://dbpedia.org/resource/Saul> , <http://dbpedia.org/resource/Philip_II_of_Spain> , <http://dbpedia.org/resource/Sarah> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Silvers> ;
+        ont:timeExpression  "May 11 , 1911" .

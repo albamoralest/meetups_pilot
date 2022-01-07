@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/50963136/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nicolas_Dalayrac> , <http://dbpedia.org/resource/Prosper-Didier_Deshayes> ;
+        ont:place           "http://dbpedia.org/resource/Salle_Favart" ;
+        ont:subject         <http://dbpedia.org/resource/Ève_Demaillot> ;
+        ont:timeExpression  "8 ventôse" , "1794" , "comedy in three" , "26" .
+
+<http://w3id.org/polifonia/pilot/meetups/50963136/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sieur_Dubois> , <http://dbpedia.org/resource/Bob_Dole> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Ève_Demaillot> ;
+        ont:timeExpression  "18 July 1814" , "21 May 1747" .
+
+<http://w3id.org/polifonia/pilot/meetups/50963136/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pierre-Ange_Vieillard> , <http://dbpedia.org/resource/Otto_Dix> ;
+        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Ans" ;
+        ont:subject         <http://dbpedia.org/resource/Ève_Demaillot> ;
+        ont:timeExpression  "1814" .

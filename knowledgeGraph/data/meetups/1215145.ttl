@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1215145/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Wynter> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Edmund_Clarence_Stedman> ;
+        ont:timeExpression  "1909" .
+
+<http://w3id.org/polifonia/pilot/meetups/1215145/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edgar_Allan_Poe> , <http://dbpedia.org/resource/Ellen_Terry> , <http://dbpedia.org/resource/George_V> ;
+        ont:place           "http://dbpedia.org/resource/Woodberry,_Baltimore" , "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/Edmund_Clarence_Stedman> ;
+        ont:timeExpression  "1895" , "1888–90" , "1892" .
+
+<http://w3id.org/polifonia/pilot/meetups/1215145/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Wall_Street" , "http://dbpedia.org/resource/New_York_Stock_Exchange" ;
+        ont:subject         <http://dbpedia.org/resource/Edmund_Clarence_Stedman> ;
+        ont:timeExpression  "from 1865" , "1900" .
+
+<http://w3id.org/polifonia/pilot/meetups/1215145/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edward_VII> , <http://dbpedia.org/resource/George_VI> , <http://dbpedia.org/resource/Nathaniel_Hawthorne> ;
+        ont:place           "http://dbpedia.org/resource/Monmouth" ;
+        ont:subject         <http://dbpedia.org/resource/Edmund_Clarence_Stedman> ;
+        ont:timeExpression  "1864" , "1869" , "1877.An idyllic atmosphere" .
+
+<http://w3id.org/polifonia/pilot/meetups/1215145/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Gould> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Edmund_Clarence_Stedman> ;
+        ont:timeExpression  "two" , "1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/1215145/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> , <http://dbpedia.org/resource/Charles_II_of_England> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Mackay_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/Edmund_Clarence_Stedman> ;
+        ont:timeExpression  "1888-90" .
+
+<http://w3id.org/polifonia/pilot/meetups/1215145/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edmund_Burke> ;
+        ont:place           "http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Hartford" ;
+        ont:subject         <http://dbpedia.org/resource/Edmund_Clarence_Stedman> ;
+        ont:timeExpression  "October 8 , 1833" , "December 1835" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1215145/11/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bayard_Taylor> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Edmund_Clarence_Stedman> ;
+        ont:timeExpression  "In 1876" , "seven chosen" , "one" , "Literary Diversions.In 1904" .

@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/55608/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chita_Rivera> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Gwen_Verdon> ;
+        ont:timeExpression  "1988" , "1984" , "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/55608/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Fosse> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Gwen_Verdon> ;
+        ont:timeExpression  "1975" , "1979" , "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/55608/16/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> , <http://dbpedia.org/resource/Bob_Fosse> ;
+        ont:place           "http://dbpedia.org/resource/Willard_InterContinental_Washington" , "http://dbpedia.org/resource/Moon" , "http://dbpedia.org/resource/Washington_metropolitan_area" ;
+        ont:subject         <http://dbpedia.org/resource/Gwen_Verdon> ;
+        ont:timeExpression  "six" , "one time" , "September 1987.Verdon" .

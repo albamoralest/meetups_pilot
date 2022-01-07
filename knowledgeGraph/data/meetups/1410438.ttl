@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1410438/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Adler_(architect)> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Ivan_Lins> ;
+        ont:timeExpression  "October 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/1410438/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rosa_Passos> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Lincoln_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Ivan_Lins> ;
+        ont:timeExpression  "May 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1410438/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Monheit> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Maio,_Cape_Verde" ;
+        ont:subject         <http://dbpedia.org/resource/Ivan_Lins> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/1410438/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ivan_Lins> ;
+        ont:place           "http://dbpedia.org/resource/Doce_River" ;
+        ont:subject         <http://dbpedia.org/resource/Ivan_Lins> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/1410438/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carmen_McRae> , <http://dbpedia.org/resource/Jane_Monheit> , <http://dbpedia.org/resource/Diane_Schuur> , <http://dbpedia.org/resource/Nancy_Wilson_(jazz_singer)> , <http://dbpedia.org/resource/Joe_Pass> , <http://dbpedia.org/resource/Steve_Kuhn> , <http://dbpedia.org/resource/Barbra_Streisand> , <http://dbpedia.org/resource/Sarah_Vaughan> , <http://dbpedia.org/resource/Dan_Costa_(musician)> , <http://dbpedia.org/resource/Dave_Grusin> , <http://dbpedia.org/resource/Patti_Austin> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Shirley_Horn> , <http://dbpedia.org/resource/Ella_Fitzgerald> , <http://dbpedia.org/resource/Toots_Thielemans> , <http://dbpedia.org/resource/Lee_Ritenour> , <http://dbpedia.org/resource/Eliane_Elias> , <http://dbpedia.org/resource/David_Benoit_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Episcopal_Diocese_of_Quincy" ;
+        ont:subject         <http://dbpedia.org/resource/Ivan_Lins> ;
+        ont:timeExpression  "hit in 1989" , "one" , "Take 6" .

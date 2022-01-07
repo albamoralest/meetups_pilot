@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2520364/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Felipe_VI> , <http://dbpedia.org/resource/Pedro_II_of_Brazil> ;
+        ont:place           "http://dbpedia.org/resource/Bayamo" , "http://dbpedia.org/resource/Cuba" , "http://dbpedia.org/resource/Santiago_de_Cuba" ;
+        ont:subject         <http://dbpedia.org/resource/Perucho_Figueredo> ;
+        ont:timeExpression  "17 August 1870" , "18 February 1818" .
+
+<http://w3id.org/polifonia/pilot/meetups/2520364/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Candelaria_Figueredo> ;
+        ont:place           "http://dbpedia.org/resource/Bayamo" ;
+        ont:subject         <http://dbpedia.org/resource/Perucho_Figueredo> ;
+        ont:timeExpression  "in 1868" .

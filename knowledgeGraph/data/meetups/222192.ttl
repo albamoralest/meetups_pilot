@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/222192/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean-Baptiste_Louvet_de_Couvray> ;
+        ont:place           "http://dbpedia.org/resource/Phine_District" ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Juliette_Louvet> ;
+        ont:timeExpression  "1828–1871" , "1830–1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/222192/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Princess_Charlotte_of_Cambridge> , <http://dbpedia.org/resource/Louis_II,_Prince_of_Monaco> , <http://dbpedia.org/resource/Marie_Juliette_Louvet> ;
+        ont:place           "http://dbpedia.org/resource/Monaco" ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Juliette_Louvet> ;
+        ont:timeExpression  "24 September 1930" , "9 May 1867" .

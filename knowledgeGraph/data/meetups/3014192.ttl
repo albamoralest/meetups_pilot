@@ -1,0 +1,14 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ennio_Morricone> , <http://dbpedia.org/resource/Bruno_Nicolai> ;
+        ont:place           "http://dbpedia.org/resource/Rome" ;
+        ont:subject         <http://dbpedia.org/resource/Bruno_Nicolai> ;
+        ont:timeExpression  "20 May 1926" , "1980s.While" , "16 August 1991" .

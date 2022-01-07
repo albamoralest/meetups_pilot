@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1343880/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kevin_Rudd> , <http://dbpedia.org/resource/Nate_Robertson> ;
+        ont:place           "http://dbpedia.org/resource/Strathewen,_Victoria" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Rudd> ;
+        ont:timeExpression  "44 year partnership" , "7 August 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/1343880/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dallas_Brooks> , <http://dbpedia.org/resource/Nazril_Irham> ;
+        ont:place           "http://dbpedia.org/resource/Melbourne" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Rudd> ;
+        ont:timeExpression  "31 August 1977" , "July 1977" , "on two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1343880/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kevin_Rudd> , <http://dbpedia.org/resource/Nate_Robertson> , <http://dbpedia.org/resource/Mike_Rudd> ;
+        ont:place           "http://dbpedia.org/resource/Broc" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Rudd> ;
+        ont:timeExpression  "August 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/1343880/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nazril_Irham> , <http://dbpedia.org/resource/Kevin_Rudd> , <http://dbpedia.org/resource/Peter_Kember> ;
+        ont:place           "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Rudd> ;
+        ont:timeExpression  "15 June 1945" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1343880/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ross_Wilson_(musician)> , <http://dbpedia.org/resource/Kevin_Rudd> , <http://dbpedia.org/resource/Ross_Hannaford> ;
+        ont:place           "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Rudd> ;
+        ont:timeExpression  "one" , "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/1343880/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Mills> , <http://dbpedia.org/resource/Tim_Gaze> ;
+        ont:place           "http://dbpedia.org/resource/Sydney" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Rudd> ;
+        ont:timeExpression  "with two" .

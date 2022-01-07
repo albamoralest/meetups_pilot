@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1477038/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Fonda> , <http://dbpedia.org/resource/Johnny_Carson> ;
+        ont:place           "http://dbpedia.org/resource/Corpus_Christi,_Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Nichols> ;
+        ont:timeExpression  "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/1477038/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edward_Vernon> ;
+        ont:place           "http://dbpedia.org/resource/Oregon" ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Nichols> ;
+        ont:timeExpression  "4,000 attendance" , "1975–82" , "1960–72" .
+
+<http://w3id.org/polifonia/pilot/meetups/1477038/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Hanna> ;
+        ont:place           "http://dbpedia.org/resource/Oregon" , "http://dbpedia.org/resource/Western_Australia" , "http://dbpedia.org/resource/Arizona" , "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Nichols> ;
+        ont:timeExpression  "1982" , "– 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/1477038/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Esther> ;
+        ont:place           "http://dbpedia.org/resource/Louisville,_Kentucky" ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Nichols> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/1477038/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nicholas_II_of_Russia> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Nichols> ;
+        ont:timeExpression  "October 2 , 1928" .

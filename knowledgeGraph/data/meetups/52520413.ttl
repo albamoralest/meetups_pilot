@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/52520413/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfonso_XI_of_Castile> ;
+        ont:place           "http://dbpedia.org/resource/Lara_de_los_Infantes" ;
+        ont:subject         <http://dbpedia.org/resource/Elvira_Ríos> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/52520413/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cassandra_Peterson> ;
+        ont:place           "http://dbpedia.org/resource/Washington_metropolitan_area" ;
+        ont:subject         <http://dbpedia.org/resource/Elvira_Ríos> ;
+        ont:timeExpression  "18 November 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/52520413/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ray_Whitley_(singer-songwriter)> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Elvira_Ríos> ;
+        ont:timeExpression  "1940" , "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/52520413/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gonzalo_Pizarro> , <http://dbpedia.org/resource/Pepe_Romero> ;
+        ont:place           "http://dbpedia.org/resource/Cervera" ;
+        ont:subject         <http://dbpedia.org/resource/Elvira_Ríos> ;
+        ont:timeExpression  "In 1960" .

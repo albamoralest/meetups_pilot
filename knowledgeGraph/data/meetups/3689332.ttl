@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3689332/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> ;
+        ont:place           "http://dbpedia.org/resource/Goes" ;
+        ont:subject         <http://dbpedia.org/resource/Freddie_Green> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/3689332/5/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ralph_Patt> , <http://dbpedia.org/resource/Count_Basie> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Freddie_Green> ;
+        ont:timeExpression  "in 1955" , "two" , "in 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/3689332/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Freddie_Green> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/3689332/107/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sonny_Stitt> ;
+        ont:place           "http://dbpedia.org/resource/Quincy,_Massachusetts" ;
+        ont:subject         <http://dbpedia.org/resource/Freddie_Green> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/3689332/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> ;
+        ont:place           "http://dbpedia.org/resource/Sweden" ;
+        ont:subject         <http://dbpedia.org/resource/Freddie_Green> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/3689332/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Freddie_Green> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/3689332/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Freddie_Green> ;
+        ont:timeExpression  "January 16 , 1938" , "100" .

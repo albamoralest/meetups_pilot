@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2659490/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Achilles_Alferaki> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" ;
+        ont:subject         <http://dbpedia.org/resource/Achilles_Alferaki> ;
+        ont:timeExpression  "in 1919" .
+
+<http://w3id.org/polifonia/pilot/meetups/2659490/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Achilles_Alferaki> ;
+        ont:place           "http://dbpedia.org/resource/Taganrog" ;
+        ont:subject         <http://dbpedia.org/resource/Achilles_Alferaki> ;
+        ont:timeExpression  "In 1880" .
+
+<http://w3id.org/polifonia/pilot/meetups/2659490/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Achilles_Alferaki> ;
+        ont:place           "http://dbpedia.org/resource/Kharkiv" , "http://dbpedia.org/resource/Saint_Petersburg" , "http://dbpedia.org/resource/Russian_Empire" , "http://dbpedia.org/resource/Roman_Empire" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Achilles_Alferaki> ;
+        ont:timeExpression  "July 3 , 1846" , "December 27 , 1919" .
+
+<http://w3id.org/polifonia/pilot/meetups/2659490/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eve> ;
+        ont:place           "http://dbpedia.org/resource/Roman_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Achilles_Alferaki> ;
+        ont:timeExpression  "two" , "than 100" .
+
+<http://w3id.org/polifonia/pilot/meetups/2659490/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Achilles_Alferaki> ;
+        ont:place           "http://dbpedia.org/resource/Russia" , "http://dbpedia.org/resource/Taganrog" ;
+        ont:subject         <http://dbpedia.org/resource/Achilles_Alferaki> ;
+        ont:timeExpression  "as one" .

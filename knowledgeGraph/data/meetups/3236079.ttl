@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3236079/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Davey_Allison> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood_Boulevard" , "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Fran_Allison> ;
+        ont:timeExpression  "at 6763" .
+
+<http://w3id.org/polifonia/pilot/meetups/3236079/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anna_the_Prophetess> ;
+        ont:place           "http://dbpedia.org/resource/Iowa" , "http://dbpedia.org/resource/La_Porte,_Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Fran_Allison> ;
+        ont:timeExpression  "stroke in 1913" , "1876–1957" , "1871–1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/3236079/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fanny_Mendelssohn> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Fran_Allison> ;
+        ont:timeExpression  "in 1937" , "fixture for 25" .
+
+<http://w3id.org/polifonia/pilot/meetups/3236079/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Davey_Allison> , <http://dbpedia.org/resource/Burr_Tillstrom> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Fran_Allison> ;
+        ont:timeExpression  "In 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/3236079/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mickey_Rooney> , <http://dbpedia.org/resource/Fran_Allison> , <http://dbpedia.org/resource/Phil_Silvers> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Fran_Allison> ;
+        ont:timeExpression  "1972" , "1967" , "1957" , "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/3236079/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fran_Allison> ;
+        ont:place           "http://dbpedia.org/resource/London_Waterloo_station" ;
+        ont:subject         <http://dbpedia.org/resource/Fran_Allison> ;
+        ont:timeExpression  "July 26 , 1937" , "matinee at 3" .

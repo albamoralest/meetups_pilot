@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1571869/10/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Chaplin> , <http://dbpedia.org/resource/Miles_Davis> , <http://dbpedia.org/resource/Harold_Lloyd> , <http://dbpedia.org/resource/Buster_Keaton> , <http://dbpedia.org/resource/Napoleon> ;
+        ont:place           "http://dbpedia.org/resource/Arlene_Schnitzer_Concert_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Davis> ;
+        ont:timeExpression  "1987" , "March 2012" , "1983" , "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/1571869/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/Philharmonic_Hall,_Liverpool" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Davis> ;
+        ont:timeExpression  "in 2006" , "one excerpt" .
+
+<http://w3id.org/polifonia/pilot/meetups/1571869/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> , <http://dbpedia.org/resource/Kevin_Brownlow> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Davis> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/1571869/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anthony_Davis> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Davis> ;
+        ont:timeExpression  "since 1961" , "October 28 , 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/1571869/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean_Boht> , <http://dbpedia.org/resource/Anthony_Davis> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Davis> ;
+        ont:timeExpression  "December 28 , 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1571869/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Davis> ;
+        ont:timeExpression  "2008" , "1994" , "1985" , "1978" , "1989" , "2004" , "1993" , "1983" , "1981" , "2000" , "1975" , "1972" , "1988" , "1973" , "1990" .

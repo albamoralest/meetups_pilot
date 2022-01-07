@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nat_King_Cole> ;
+        ont:place           "http://dbpedia.org/resource/North_Macedonia" , "http://dbpedia.org/resource/Turkey" ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "49th issue" , "July 25 , 2009" , "July 27" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/14/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Rio_de_Janeiro" , "http://dbpedia.org/resource/Republic_of_Ireland" ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "May 2018" , "July 12 , 2018" , "July 2016" , "35" , "June 25 , 2019" , "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/12/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donny_Hathaway> , <http://dbpedia.org/resource/Ray_Charles> , <http://dbpedia.org/resource/Nat_King_Cole> ;
+        ont:place           "http://dbpedia.org/resource/Quincy,_Massachusetts" ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "March 22 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "one source" , "two" , "45rpm label" , "four" .

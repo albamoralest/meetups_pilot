@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1127222/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Worthy> , <http://dbpedia.org/resource/Empress_Matilda> ;
+        ont:place           "http://dbpedia.org/resource/Surrey" , "http://dbpedia.org/resource/South_London" , "http://dbpedia.org/resource/Camberwell" ;
+        ont:subject         <http://dbpedia.org/resource/Kaikhosru_Shapurji_Sorabji> ;
+        ont:timeExpression  "1866–1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1127222/65/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Matthew_Arnold> ;
+        ont:place           "http://dbpedia.org/resource/Darmstadt" ;
+        ont:subject         <http://dbpedia.org/resource/Kaikhosru_Shapurji_Sorabji> ;
+        ont:timeExpression  "1922 review" , "in 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/1127222/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_M._Tobin_Jr.> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Kaikhosru_Shapurji_Sorabji> ;
+        ont:timeExpression  "10 March 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/1127222/16/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_Delius> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Kaikhosru_Shapurji_Sorabji> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/1127222/14/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pierre_Curie> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Kaikhosru_Shapurji_Sorabji> ;
+        ont:timeExpression  "in 1988.Another" , "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/1127222/63/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/T._S._Eliot> , <http://dbpedia.org/resource/Hugh_MacDiarmid> ;
+        ont:place           "http://dbpedia.org/resource/Great_Britain" ;
+        ont:subject         <http://dbpedia.org/resource/Kaikhosru_Shapurji_Sorabji> ;
+        ont:timeExpression  "four" , "as one" , "one" .

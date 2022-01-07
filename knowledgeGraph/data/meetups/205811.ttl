@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/42/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "death as 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:place           "http://dbpedia.org/resource/42nd_Street_Shuttle" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "42nd" , "1934" , "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/37/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:place           "http://dbpedia.org/resource/Havana" , "http://dbpedia.org/resource/Pennsylvania" , "http://dbpedia.org/resource/Cuba" , "http://dbpedia.org/resource/Pittsburgh" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "in 1925" , "1930 census" , "1931 passenger list" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Ruby_Keeler> ;
+        ont:place           "http://dbpedia.org/resource/42nd_Street_Shuttle" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "in 42nd" , "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:place           "http://dbpedia.org/resource/Little_Rock,_Arkansas" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "in 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mildred_Harnack> ;
+        ont:place           "http://dbpedia.org/resource/Hemphill,_Texas" , "http://dbpedia.org/resource/Cuba" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "in 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "at 6915" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/32/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Howard_Duff> , <http://dbpedia.org/resource/Dante_Alighieri> , <http://dbpedia.org/resource/Ida_Lupino> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "In 1961" .

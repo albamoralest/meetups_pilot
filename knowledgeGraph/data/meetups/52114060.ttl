@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/52114060/3/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dustin_Hoffman> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/Andy_Rodgers_(musician)> ;
+        ont:timeExpression  "1987" , "1969 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/52114060/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/Shasta_County,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Andy_Rodgers_(musician)> ;
+        ont:timeExpression  "age of 82" , "August 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/52114060/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Andy_Rodgers> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Andy_Rodgers_(musician)> ;
+        ont:timeExpression  "August 14 , 2004" , "March 14 , 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/52114060/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Vernon_Gridley> , <http://dbpedia.org/resource/Gerald_Ford> ;
+        ont:place           "http://dbpedia.org/resource/Butte_Valley_National_Grassland" , "http://dbpedia.org/resource/California" , "http://dbpedia.org/resource/Fresno_River" ;
+        ont:subject         <http://dbpedia.org/resource/Andy_Rodgers_(musician)> ;
+        ont:timeExpression  "than 50" .

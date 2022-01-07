@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sergei_Vasilenko> ;
+        ont:place           "http://dbpedia.org/resource/Bukhara" , "http://dbpedia.org/resource/Samarkand" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "In 1928" , "Choreography.From 1934" , "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/8/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vladimir_Lenin> , <http://dbpedia.org/resource/Hamza_Hakimzade_Niyazi> ;
+        ont:place           "http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1975" , "11 June 1982" , "1970" , "from 1967" .

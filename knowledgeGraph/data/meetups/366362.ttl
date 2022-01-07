@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/366362/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anne_McLellan> , <http://dbpedia.org/resource/Aline_Wirley> , <http://dbpedia.org/resource/Ralph_Klein> , <http://dbpedia.org/resource/Preston_Manning> ;
+        ont:place           "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Aline_Chrétien> ;
+        ont:timeExpression  "in 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/366362/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Aline_Pellegrino> ;
+        ont:place           "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Aline_Chrétien> ;
+        ont:timeExpression  "May 14 , 1936" , "September 12 , 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/366362/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Allan_Fotheringham> , <http://dbpedia.org/resource/Aline_Pellegrino> , <http://dbpedia.org/resource/Eddie_Goldenberg> ;
+        ont:place           "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Aline_Chrétien> ;
+        ont:timeExpression  "two" , "magazine in 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/366362/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Aline_Pellegrino> ;
+        ont:place           "http://dbpedia.org/resource/Shawinigan" ;
+        ont:subject         <http://dbpedia.org/resource/Aline_Chrétien> ;
+        ont:timeExpression  "May 14 , 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/366362/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Roméo_Dallaire> ;
+        ont:place           "http://dbpedia.org/resource/24_Sussex_Drive" , "http://dbpedia.org/resource/Ottawa" ;
+        ont:subject         <http://dbpedia.org/resource/Aline_Chrétien> ;
+        ont:timeExpression  "November 5 , 1995" , "residence at 24" .

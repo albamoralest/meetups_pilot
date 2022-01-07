@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1291515/32/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nathan_Rees> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Maria_Williams> ;
+        ont:timeExpression  "London 1814" .
+
+<http://w3id.org/polifonia/pilot/meetups/1291515/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Julia_the_Elder> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Maria_Williams> ;
+        ont:timeExpression  "1790 novel" .
+
+<http://w3id.org/polifonia/pilot/meetups/1291515/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Napoleon> , <http://dbpedia.org/resource/Louis_XVIII> ;
+        ont:place           "http://dbpedia.org/resource/Bourbon_Restoration" , "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Maria_Williams> ;
+        ont:timeExpression  "1815" .
+
+<http://w3id.org/polifonia/pilot/meetups/1291515/31/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nathan_Rees> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Maria_Williams> ;
+        ont:timeExpression  "London 1814–1829" .
+
+<http://w3id.org/polifonia/pilot/meetups/1291515/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Napoleon> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_England" , "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Amiens" , "http://dbpedia.org/resource/French_First_Republic" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Maria_Williams> ;
+        ont:timeExpression  "1801" .
+
+<http://w3id.org/polifonia/pilot/meetups/1291515/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Helen_Maria_Williams> ;
+        ont:timeExpression  "17 June 1759" .

@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/788959/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Fort_Myer" , "http://dbpedia.org/resource/Washington_metropolitan_area" , "http://dbpedia.org/resource/Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Forrest_Tucker> ;
+        ont:timeExpression  "in 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/788959/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joan_Leslie> , <http://dbpedia.org/resource/Rod_Cameron_(actor)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Forrest_Tucker> ;
+        ont:timeExpression  "1954" , "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/788959/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cobina_Wright> , <http://dbpedia.org/resource/Wesley_Ruggles> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Forrest_Tucker> ;
+        ont:timeExpression  "height of six" , "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/788959/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frank_Lovejoy> , <http://dbpedia.org/resource/Randolph_Scott> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Forrest_Tucker> ;
+        ont:timeExpression  "of 1956" , "1956" , "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/788959/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Lockwood> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Forrest_Tucker> ;
+        ont:timeExpression  "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/788959/29/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dalton> ;
+        ont:place           "http://dbpedia.org/resource/Kansas" ;
+        ont:subject         <http://dbpedia.org/resource/Forrest_Tucker> ;
+        ont:timeExpression  "1963 episode" , "Three" .
+
+<http://w3id.org/polifonia/pilot/meetups/788959/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/P._G._T._Beauregard> ;
+        ont:place           "http://dbpedia.org/resource/City_of_Burnside" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Forrest_Tucker> ;
+        ont:timeExpression  "1958" .

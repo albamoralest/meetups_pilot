@@ -1,0 +1,77 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1068160/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carrie_Underwood> ;
+        ont:place           "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Paisley" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:timeExpression  "16 April 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/1068160/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gerry_Rafferty> , <http://dbpedia.org/resource/Nick_Drake> , <http://dbpedia.org/resource/Karl_Dallas> , <http://dbpedia.org/resource/Paul_McCartney> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Festival_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:timeExpression  "1970 appearance" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1068160/30/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Martha> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Hampstead" , "http://dbpedia.org/resource/Sussex" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:timeExpression  "in 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1068160/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Joseph> , <http://dbpedia.org/resource/Carrie_Underwood> , <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Saint_Mirin> ;
+        ont:place           "http://dbpedia.org/resource/Skeffington" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:timeExpression  "two" , "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/1068160/26/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ian_Paisley> ;
+        ont:place           "http://dbpedia.org/resource/Cuillin" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:timeExpression  "In 2012" , "remix of three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1068160/41/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ricky_Ross_(musician)> , <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:place           "http://dbpedia.org/resource/Glasgow" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:timeExpression  "BBC Radio 2" , "2012" , "January 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/1068160/26/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gerry_Rafferty> , <http://dbpedia.org/resource/Martha_Wainwright> , <http://dbpedia.org/resource/Barbara_Dickson> ;
+        ont:place           "http://dbpedia.org/resource/Baker_Street" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:timeExpression  "September 2013" , "album of 13" , "3 September 2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/1068160/28/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ian_Paisley> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:timeExpression  "in 1974" , "In 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/1068160/37/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Martha> , <http://dbpedia.org/resource/Saint_Mirin> ;
+        ont:place           "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Paisley" , "http://dbpedia.org/resource/Gloucestershire" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:timeExpression  "4 January 2011.A" , "21 January 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/1068160/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carla_Thomas> ;
+        ont:place           "http://dbpedia.org/resource/Clydebank" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Rafferty> ;
+        ont:timeExpression  "In 1965" .

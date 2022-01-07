@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/328330/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sharon_Lee_(writer)> , <http://dbpedia.org/resource/Jackie_DeShannon> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_DeShannon> ;
+        ont:timeExpression  "1960s" , "August 21 , 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/328330/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Robert_E._Lee> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Illinois" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_DeShannon> ;
+        ont:timeExpression  "June 10 , 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/328330/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jackie_DeShannon> , <http://dbpedia.org/resource/Brenda_Lee> ;
+        ont:place           "http://dbpedia.org/resource/Dum_Dum" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_DeShannon> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/328330/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jackie_DeShannon> , <http://dbpedia.org/resource/Alan_Jay_Lerner> ;
+        ont:place           "http://dbpedia.org/resource/Sherry" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_DeShannon> ;
+        ont:timeExpression  "record from 1956" , "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/328330/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pee_Wee_King> ;
+        ont:place           "http://dbpedia.org/resource/Illinois" , "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_DeShannon> ;
+        ont:timeExpression  "March 3" , "March 1956" , "Channel 2—the" .
+
+<http://w3id.org/polifonia/pilot/meetups/328330/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Freed> , <http://dbpedia.org/resource/Sharon_Sheeley> , <http://dbpedia.org/resource/Eddie_Cochran> ;
+        ont:place           "http://dbpedia.org/resource/River_Shannon" , "http://dbpedia.org/resource/Uptown_Theater_(Washington,_D.C.)" , "http://dbpedia.org/resource/California" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_DeShannon> ;
+        ont:timeExpression  "July 3 , 1957" , "in 1960" , "two" .

@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/419739/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carlos_Santana> ;
+        ont:place           "http://dbpedia.org/resource/Bahia" , "http://dbpedia.org/resource/Brazil" ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Zé> ;
+        ont:timeExpression  "11 October 1936" , "movement of 1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/419739/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gilberto_Gil> , <http://dbpedia.org/resource/Gal_Costa> , <http://dbpedia.org/resource/Caetano_Veloso> ;
+        ont:place           "http://dbpedia.org/resource/Nara_Prefecture" ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Zé> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/419739/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Byrne> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Rio_de_Janeiro" ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Zé> ;
+        ont:timeExpression  "1990s" , "one" , "1975" .

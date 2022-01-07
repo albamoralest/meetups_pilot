@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3798459/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lyndon_B._Johnson> ;
+        ont:place           "http://dbpedia.org/resource/East_Village,_Manhattan" ;
+        ont:subject         <http://dbpedia.org/resource/Billy_Name> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3798459/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ray_Johnson> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn" , "http://dbpedia.org/resource/Serendipity_3" ;
+        ont:subject         <http://dbpedia.org/resource/Billy_Name> ;
+        ont:timeExpression  "Serendipity 3" .
+
+<http://w3id.org/polifonia/pilot/meetups/3798459/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Dalton> , <http://dbpedia.org/resource/Andy_Warhol> , <http://dbpedia.org/resource/GZA> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Billy_Name> ;
+        ont:timeExpression  "N.Y. 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/3798459/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Billy_Name> , <http://dbpedia.org/resource/George_V> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Billy_Name> ;
+        ont:timeExpression  "February 22 , 1940" , "July 18 , 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/3798459/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Watson> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Billy_Name> ;
+        ont:timeExpression  "2003" .

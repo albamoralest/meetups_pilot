@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/251481/8/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Adam> ;
+        ont:place           "http://dbpedia.org/resource/Strand,_London" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Lowe> ;
+        ont:timeExpression  "10 January 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/251481/14/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Burton> ;
+        ont:place           "http://dbpedia.org/resource/Venice" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Lowe> ;
+        ont:timeExpression  "January 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/251481/12/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ben_Jonson> , <http://dbpedia.org/resource/Lindsay_Anderson> , <http://dbpedia.org/resource/William_Shakespeare> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Court_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Lowe> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/251481/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Arthur_Lowe> , <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Hayfield,_Derbyshire" ;
+        ont:subject         <http://dbpedia.org/resource/Arthur_Lowe> ;
+        ont:timeExpression  "1885–1981" , "1888–1971" .

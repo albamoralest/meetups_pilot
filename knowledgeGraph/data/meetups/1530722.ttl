@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1530722/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vadim_Kozin> , <http://dbpedia.org/resource/Anna_the_Prophetess> ;
+        ont:place           "http://dbpedia.org/resource/Magadan" ;
+        ont:subject         <http://dbpedia.org/resource/Vadim_Kozin> ;
+        ont:timeExpression  "in 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/1530722/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vadim_Kozin> , <http://dbpedia.org/resource/Winston_Churchill> , <http://dbpedia.org/resource/Joseph_Stalin> ;
+        ont:place           "http://dbpedia.org/resource/Siberia" , "http://dbpedia.org/resource/Yalta" ;
+        ont:subject         <http://dbpedia.org/resource/Vadim_Kozin> ;
+        ont:timeExpression  "Siberia [ 1" , "In 1993" , "February 4–11 , 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1530722/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Roger_Vadim> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" ;
+        ont:subject         <http://dbpedia.org/resource/Vadim_Kozin> ;
+        ont:timeExpression  "December 19 , 1994" , "man until 1934" , "in 1903" , "March 21 , 1903" .
+
+<http://w3id.org/polifonia/pilot/meetups/1530722/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Gerard> , <http://dbpedia.org/resource/Vadim_Kozin> ;
+        ont:place           "http://dbpedia.org/resource/Siberia" ;
+        ont:subject         <http://dbpedia.org/resource/Vadim_Kozin> ;
+        ont:timeExpression  "Siberia [ 2" , "July 1993" .

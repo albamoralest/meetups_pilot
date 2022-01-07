@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2403638/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bessie_Jones_(American_singer)> ;
+        ont:place           "http://dbpedia.org/resource/Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Bessie_Jones_(American_singer)> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/2403638/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Bessie_Smith> , <http://dbpedia.org/resource/Elizabeth_II> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Bessie_Jones_(American_singer)> ;
+        ont:timeExpression  "July 17 , 1984" , "February 8 , 1902" .
+
+<http://w3id.org/polifonia/pilot/meetups/2403638/2/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Moby> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Bessie_Jones_(American_singer)> ;
+        ont:timeExpression  "leukemia in 1984.Jones" , "1998" , "1960 song" , "2018 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/2403638/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Sea_Islands" ;
+        ont:subject         <http://dbpedia.org/resource/Bessie_Jones_(American_singer)> ;
+        ont:timeExpression  "in 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/2403638/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:place           "http://dbpedia.org/resource/LaCrosse,_Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Bessie_Jones_(American_singer)> ;
+        ont:timeExpression  "1982" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2403638/2/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fatboy_Slim> ;
+        ont:place           "http://dbpedia.org/resource/Burundi" ;
+        ont:subject         <http://dbpedia.org/resource/Bessie_Jones_(American_singer)> ;
+        ont:timeExpression  "1977 song" , "1990" .

@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/711489/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:place           "http://dbpedia.org/resource/Poland" ;
+        ont:subject         <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:timeExpression  "22 June 1830" .
+
+<http://w3id.org/polifonia/pilot/meetups/711489/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:place           "http://dbpedia.org/resource/Bad_Ischl" ;
+        ont:subject         <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/711489/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edwin_Hughes_(soldier)> ;
+        ont:place           "http://dbpedia.org/resource/Dresden" ;
+        ont:subject         <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:timeExpression  "in 1915" , "age of 85" , "assistant in 1909" , "1910.He taught" .
+
+<http://w3id.org/polifonia/pilot/meetups/711489/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:place           "http://dbpedia.org/resource/Lahn" ;
+        ont:subject         <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:timeExpression  "1910–1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/711489/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Galicia_and_Lodomeria" , "http://dbpedia.org/resource/Landshut" , "http://dbpedia.org/resource/Cisleithania" , "http://dbpedia.org/resource/Habsburg_Monarchy" , "http://dbpedia.org/resource/Second_Polish_Republic" ;
+        ont:subject         <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:timeExpression  "22 June 1830" , "14 November 1915" .

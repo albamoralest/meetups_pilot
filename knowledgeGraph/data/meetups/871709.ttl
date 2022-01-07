@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/871709/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alastair_Denniston> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Hastings" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Hastings> ;
+        ont:timeExpression  "in 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/871709/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Hastings> ;
+        ont:place           "http://dbpedia.org/resource/Hastings" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Hastings> ;
+        ont:timeExpression  "June 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/871709/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pope_Francis> , <http://dbpedia.org/resource/Michael_Hastings_(journalist)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Hastings> ;
+        ont:timeExpression  "April 1 , 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/871709/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/The_Edge> ;
+        ont:place           "http://dbpedia.org/resource/Hastings" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Hastings> ;
+        ont:timeExpression  "1960" , "from 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/871709/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Helen_Wagner> ;
+        ont:place           "http://dbpedia.org/resource/Hastings" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Hastings> ;
+        ont:timeExpression  "May 2010" , "April 2 , 1956" .

@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/980182/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gary_Driscoll> , <http://dbpedia.org/resource/Ronnie_James_Dio> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Gary_Driscoll> ;
+        ont:timeExpression  "June 1965" , "8 June 1987" , "18 April 1946" , "1960s" , "June 10 , 1987.He" .
+
+<http://w3id.org/polifonia/pilot/meetups/980182/1/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Duck_MacDonald> , <http://dbpedia.org/resource/Jerry_Kelly> , <http://dbpedia.org/resource/Jeff_Fenholt> , <http://dbpedia.org/resource/Craig_Gruber> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Scranton" ;
+        ont:subject         <http://dbpedia.org/resource/Gary_Driscoll> ;
+        ont:timeExpression  "1978–1980" .

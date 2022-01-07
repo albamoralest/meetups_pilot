@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1470994/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_I> , <http://dbpedia.org/resource/John_Curtin> ;
+        ont:place           "http://dbpedia.org/resource/Downey,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Hoyt_Curtin> ;
+        ont:timeExpression  "one son" .
+
+<http://w3id.org/polifonia/pilot/meetups/1470994/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Curtin> ;
+        ont:place           "http://dbpedia.org/resource/Thousand_Oaks,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Hoyt_Curtin> ;
+        ont:timeExpression  "78" , "December 3 , 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/1470994/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Curtin> , <http://dbpedia.org/resource/Charles_Warren_Stoddard> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Hoyt_Curtin> ;
+        ont:timeExpression  "in 1957" , "from 1965" , "retirement in 1986" , "September 9 , 1922" , "1972" , "December 3 , 2000" .

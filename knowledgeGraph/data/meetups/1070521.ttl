@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1070521/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tal_Henry> , <http://dbpedia.org/resource/Hal_Kemp> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Kay_Kyser> ;
+        ont:timeExpression  "million" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1070521/23/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christian_Science> ;
+        ont:place           "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/Kay_Kyser> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1070521/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kay_Kyser> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Kay_Kyser> ;
+        ont:timeExpression  "1940s" , "June 18 , 1905" , "1930s" , "July 23 , 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/1070521/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ish_Kabibble> , <http://dbpedia.org/resource/Bruce_King> , <http://dbpedia.org/resource/Mike_Douglas> , <http://dbpedia.org/resource/Ginny_Simms> , <http://dbpedia.org/resource/Georgia_Carroll> ;
+        ont:place           "http://dbpedia.org/resource/Sully-sur-Loire" ;
+        ont:subject         <http://dbpedia.org/resource/Kay_Kyser> ;
+        ont:timeExpression  "one hit" .

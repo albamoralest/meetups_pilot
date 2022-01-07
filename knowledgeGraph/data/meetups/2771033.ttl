@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2771033/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anthony_Davis> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Andrew_Davis_(conductor)> ;
+        ont:timeExpression  "1952–2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/2771033/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Andrew_Davis_(conductor)> ;
+        ont:timeExpression  "post until 1988" , "TSO.In 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/2771033/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Andrew_Davis_(conductor)> ;
+        ont:timeExpression  "2020–2021 season.In" , "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/2771033/5/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anthony_Davis> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Andrew_Davis_(conductor)> ;
+        ont:timeExpression  "April 2018" , "December 2019.Davis" .
+
+<http://w3id.org/polifonia/pilot/meetups/2771033/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Andrew_Davis_(conductor)> ;
+        ont:timeExpression  "in 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/2771033/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Andrew_Davis_(conductor)> ;
+        ont:timeExpression  "contract of 4" , "June 2012" , "January 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/2771033/3/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mother_Teresa> ;
+        ont:place           "http://dbpedia.org/resource/Penzance" ;
+        ont:subject         <http://dbpedia.org/resource/Andrew_Davis_(conductor)> ;
+        ont:timeExpression  "1997" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/2771033/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jefferson_Davis> ;
+        ont:place           "http://dbpedia.org/resource/British_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Andrew_Davis_(conductor)> ;
+        ont:timeExpression  "May 1992" , "1999" .

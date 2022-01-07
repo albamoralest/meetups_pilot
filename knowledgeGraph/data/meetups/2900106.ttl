@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2900106/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sarah> , <http://dbpedia.org/resource/William_Lowther_(diplomat)> ;
+        ont:place           "http://dbpedia.org/resource/Lonsdale_Hundred" , "http://dbpedia.org/resource/Cumberland" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fane,_11th_Earl_of_Westmorland> ;
+        ont:timeExpression  "1st" .
+
+<http://w3id.org/polifonia/pilot/meetups/2900106/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lord_Charles_Beresford> ;
+        ont:place           "http://dbpedia.org/resource/Portugal" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fane,_11th_Earl_of_Westmorland> ;
+        ont:timeExpression  "2nd" , "colonel on 9" , "6 May 1809" .
+
+<http://w3id.org/polifonia/pilot/meetups/2900106/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_Forbes_(musicologist)> , <http://dbpedia.org/resource/William_Wellesley-Pole,_3rd_Earl_of_Mornington> ;
+        ont:place           "http://dbpedia.org/resource/Westmorland" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fane,_11th_Earl_of_Westmorland> ;
+        ont:timeExpression  "26 June 1811" .
+
+<http://w3id.org/polifonia/pilot/meetups/2900106/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_IV> ;
+        ont:place           "http://dbpedia.org/resource/Burwash" , "http://dbpedia.org/resource/Cockermouth" , "http://dbpedia.org/resource/Lyme_Regis" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fane,_11th_Earl_of_Westmorland> ;
+        ont:timeExpression  "16 March 1806" , "on 1" , "as 1802" , "3rd" .

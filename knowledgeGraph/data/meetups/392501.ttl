@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/392501/18/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Magnus_of_Anagni> ;
+        ont:place           "http://dbpedia.org/resource/Myddfai" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Maxwell_Davies> ;
+        ont:timeExpression  "1980" , "1996" , "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/392501/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/George_Frideric_Handel> ;
+        ont:place           "http://dbpedia.org/resource/Hoy" , "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Sanday_Airport" , "http://dbpedia.org/resource/Orkney" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Maxwell_Davies> ;
+        ont:timeExpression  "1969" , "in 1971" , "One" , "King George III.In 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/392501/3/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elias_M._Stein> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Northern_England" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Maxwell_Davies> ;
+        ont:timeExpression  "in 1973" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/392501/19/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Clerk_Maxwell> , <http://dbpedia.org/resource/Mavis_Staples> ;
+        ont:place           "http://dbpedia.org/resource/Orkney" , "http://dbpedia.org/resource/Las_Vegas_Valley" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Maxwell_Davies> ;
+        ont:timeExpression  "in 2007" .

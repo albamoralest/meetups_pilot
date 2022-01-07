@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/797572/6/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Antonin_Artaud> , <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:timeExpression  "Two" , "New York City.In 2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/797572/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:timeExpression  "June 23 , 1938" , "July 16 , 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/797572/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Vega> , <http://dbpedia.org/resource/Lydia_Lunch> ;
+        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Lyon" , "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Borough_of_Copeland" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:timeExpression  "Miss Kittin.In 2009" , "In 2008" , "series of 10" .
+
+<http://w3id.org/polifonia/pilot/meetups/797572/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kurt_Seligmann> , <http://dbpedia.org/resource/Ad_Reinhardt> ;
+        ont:place           "http://dbpedia.org/resource/Lyon" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:timeExpression  "2009" , "Two" , "in 1960.In" , "1948 birth date" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/797572/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ben_Vaughn> ;
+        ont:place           "http://dbpedia.org/resource/Delran_Township,_New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:timeExpression  "2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/797572/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:timeExpression  "July 14" , "2017" , "New York City.In 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/797572/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:place           "http://dbpedia.org/resource/Lyon" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Vega> ;
+        ont:timeExpression  "2009" .

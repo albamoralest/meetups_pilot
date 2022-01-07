@@ -1,0 +1,77 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Stu_Cook> , <http://dbpedia.org/resource/Doug_Clifford> ;
+        ont:place           "http://dbpedia.org/resource/Winters,_California" , "http://dbpedia.org/resource/Putah_Creek" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "school in 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:place           "http://dbpedia.org/resource/Colorado" , "http://dbpedia.org/resource/Red_Rocks_Amphitheatre" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "November 2019" , "2008" , "50 Year" , "September 2017" , "June 25 , 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/50/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Shane_McMahon> , <http://dbpedia.org/resource/John_Tyler> ;
+        ont:place           "http://dbpedia.org/resource/Thousand_Oaks,_California" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "of 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/50/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Shane_McMahon> ;
+        ont:place           "http://dbpedia.org/resource/Elkhart,_Indiana" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "April 20 , 1991" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/28/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Keith_Urban> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Albert_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "June 24 , 2008" , "two" , "in 1971" , "March 22" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Johnson> ;
+        ont:place           "http://dbpedia.org/resource/Mississippi" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Cameron_of_Lochiel> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "May 28 , 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/19/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "May 31 , 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Galen> , <http://dbpedia.org/resource/Lucile_Gleason> ;
+        ont:place           "http://dbpedia.org/resource/Berkeley,_California" , "http://dbpedia.org/resource/El_Cerrito,_California" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "third of five" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Washington,_D.C." , "http://dbpedia.org/resource/Vietnam" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "July 4 , 1987" .

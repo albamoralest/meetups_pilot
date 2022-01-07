@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2708055/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Sandy_Bull> ;
+        ont:timeExpression  "February 25 , 1941" , "April 11 , 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/2708055/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hamza_El_Din> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Sandy_Bull> ;
+        ont:timeExpression  "in 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/2708055/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sandy_Bull> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Sandy_Bull> ;
+        ont:timeExpression  "Live" , "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/2708055/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leo_Kottke> ;
+        ont:place           "http://dbpedia.org/resource/Berkeley_Community_Theater" , "http://dbpedia.org/resource/Florida" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Sandy_Bull> ;
+        ont:timeExpression  "May 2 , 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/2708055/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Isaias_W._Hellman> ;
+        ont:place           "http://dbpedia.org/resource/New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/Sandy_Bull> ;
+        ont:timeExpression  "1916–2002" .

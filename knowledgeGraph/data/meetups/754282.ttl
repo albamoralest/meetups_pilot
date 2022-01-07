@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Cage> , <http://dbpedia.org/resource/Mark_Rothko> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "composition in 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mark_Rothko> ;
+        ont:place           "http://dbpedia.org/resource/Golden_Dreams" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "18" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Robin_Guthrie> , <http://dbpedia.org/resource/Daniel_Lanois> , <http://dbpedia.org/resource/Brian_Eno> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "In 2003" , "in 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:place           "http://dbpedia.org/resource/Finneran_Pavilion" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1978" , "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_Fraser> , <http://dbpedia.org/resource/Robin_Guthrie> , <http://dbpedia.org/resource/Simon_Raymonde> ;
+        ont:place           "http://dbpedia.org/resource/Moon" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1986" , "4AD" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woody_Guthrie> ;
+        ont:place           "http://dbpedia.org/resource/Moon" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1985 collaboration" .

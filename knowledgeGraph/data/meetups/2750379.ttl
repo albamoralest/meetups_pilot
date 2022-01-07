@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2750379/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Paul_Moody> , <http://dbpedia.org/resource/Gordon_Jacob> , <http://dbpedia.org/resource/Alan_Langford> , <http://dbpedia.org/resource/Francis_I_of_France> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Reilly_(harmonica_player)> ;
+        ont:timeExpression  "Three" , "1960" , "Five" .
+
+<http://w3id.org/polifonia/pilot/meetups/2750379/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Willie_Dixon> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Reilly_(harmonica_player)> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/2750379/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Reilly_(harmonica_player)> ;
+        ont:place           "http://dbpedia.org/resource/Surrey" , "http://dbpedia.org/resource/Frensham" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Reilly_(harmonica_player)> ;
+        ont:timeExpression  "81" .

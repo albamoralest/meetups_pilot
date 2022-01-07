@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Queen_Victoria> ;
+        ont:place           "http://dbpedia.org/resource/Windsor_Castle" , "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:timeExpression  "6 December 1897" .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edvard_Grieg> ;
+        ont:place           "http://dbpedia.org/resource/Denmark" , "http://dbpedia.org/resource/Copenhagen" , "http://dbpedia.org/resource/Norway" ;
+        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:timeExpression  "11 June 1867" .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Queen_Victoria> , <http://dbpedia.org/resource/Frederick_Delius> , <http://dbpedia.org/resource/Elijah> ;
+        ont:place           "http://dbpedia.org/resource/Bergen" ;
+        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:timeExpression  "in 1866.The" , "one" , "1888–1890" , "two" .

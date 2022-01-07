@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1195717/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marguerite_Monnot> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Marguerite_Monnot> ;
+        ont:timeExpression  "12 October 1961" , "age of 58" .
+
+<http://w3id.org/polifonia/pilot/meetups/1195717/27/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marguerite_Monnot> ;
+        ont:place           "http://dbpedia.org/resource/Decize" ;
+        ont:subject         <http://dbpedia.org/resource/Marguerite_Monnot> ;
+        ont:timeExpression  "In 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/1195717/22/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michelle_Senlis> , <http://dbpedia.org/resource/Daniel_arap_Moi> ;
+        ont:place           "http://dbpedia.org/resource/Hamburg" ;
+        ont:subject         <http://dbpedia.org/resource/Marguerite_Monnot> ;
+        ont:timeExpression  "1955" , "1957" , "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/1195717/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hubert_Giraud_(composer)> , <http://dbpedia.org/resource/Norbert_Glanzberg> ;
+        ont:place           "http://dbpedia.org/resource/Florence" , "http://dbpedia.org/resource/Chauvigny" ;
+        ont:subject         <http://dbpedia.org/resource/Marguerite_Monnot> ;
+        ont:timeExpression  "1950s" .

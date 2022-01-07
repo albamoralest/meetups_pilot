@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2464424/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Wayne_Rooney> ;
+        ont:place           "http://dbpedia.org/resource/Massachusetts" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Rowan> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/2464424/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Greg_Monroe> , <http://dbpedia.org/resource/Peter_Rowan> ;
+        ont:place           "http://dbpedia.org/resource/Nashville,_Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Rowan> ;
+        ont:timeExpression  "in 1963" , "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/2464424/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Peter_Rowan> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Rowan> ;
+        ont:timeExpression  "July 4 , 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/2464424/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dwight_L._Moody> , <http://dbpedia.org/resource/Peter_Rowan> , <http://dbpedia.org/resource/Mike_Pinder> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Rowan> ;
+        ont:timeExpression  "2013" , "2011 bluegrass tribute album" .

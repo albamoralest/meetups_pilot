@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/559173/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rudy_Vallée> , <http://dbpedia.org/resource/Abe_Lyman> , <http://dbpedia.org/resource/Jack_Kemp> , <http://dbpedia.org/resource/Paul_Whiteman> , <http://dbpedia.org/resource/Tommy_Dorsey> , <http://dbpedia.org/resource/Mannie_Klein> , <http://dbpedia.org/resource/Artie_Shaw> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Bunny_Berigan> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/559173/9/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Malachy> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Bunny_Berigan> ;
+        ont:timeExpression  "June 3" .
+
+<http://w3id.org/polifonia/pilot/meetups/559173/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joyce_Hansen> , <http://dbpedia.org/resource/Bunny_Berigan> ;
+        ont:place           "http://dbpedia.org/resource/Jubilee_line" , "http://dbpedia.org/resource/Wisconsin" ;
+        ont:subject         <http://dbpedia.org/resource/Bunny_Berigan> ;
+        ont:timeExpression  "in 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/559173/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> , <http://dbpedia.org/resource/Abe_Lyman> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Bunny_Berigan> ;
+        ont:timeExpression  "briefly in 1934.He" , "radio in 1934" , "1932" , "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/559173/18/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Patricia_Kennedy_Lawford> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Bunny_Berigan> ;
+        ont:timeExpression  "December 8 , 1998" , "July 23 , 1932" .

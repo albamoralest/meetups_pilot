@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2447748/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Evangeline_Booth> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Ray_Steadman-Allen> ;
+        ont:timeExpression  "in 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/2447748/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ray_Steadman-Allen> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Bristol" ;
+        ont:subject         <http://dbpedia.org/resource/Ray_Steadman-Allen> ;
+        ont:timeExpression  "15 December 2014" , "18 September 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/2447748/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Joyce> , <http://dbpedia.org/resource/David_Foster> ;
+        ont:place           "http://dbpedia.org/resource/Hastings" ;
+        ont:subject         <http://dbpedia.org/resource/Ray_Steadman-Allen> ;
+        ont:timeExpression  "officer in 1949" , "in 1951" , "in 1949" .

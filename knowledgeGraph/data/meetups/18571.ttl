@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/18571/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Katia_Mann> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Europe" , "http://dbpedia.org/resource/Nazi_Germany" , "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Leon_Theremin> ;
+        ont:timeExpression  "1927" , "30 December 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/18571/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bill_Goldberg> , <http://dbpedia.org/resource/Katia_Mann> ;
+        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Leon_Theremin> ;
+        ont:timeExpression  "1925" , "24 May 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/18571/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nikolai_Yudenich> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" , "http://dbpedia.org/resource/Volga" , "http://dbpedia.org/resource/Saratov" , "http://dbpedia.org/resource/Moscow" , "http://dbpedia.org/resource/Pushkin,_Saint_Petersburg" ;
+        ont:subject         <http://dbpedia.org/resource/Leon_Theremin> ;
+        ont:timeExpression  "October 1919" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/18571/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Moog> , <http://dbpedia.org/resource/Albert_Glinsky> ;
+        ont:place           "http://dbpedia.org/resource/Illinois" ;
+        ont:subject         <http://dbpedia.org/resource/Leon_Theremin> ;
+        ont:timeExpression  "In 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/18571/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leon_Theremin> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" , "http://dbpedia.org/resource/Roman_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Leon_Theremin> ;
+        ont:timeExpression  "in 1896" .

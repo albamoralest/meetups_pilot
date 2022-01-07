@@ -1,0 +1,14 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3533535/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ewan_McGregor> ;
+        ont:place           "http://dbpedia.org/resource/British_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Sydney_Devine> ;
+        ont:timeExpression  "September 2017" , "age of 81" , "13 February 2021" , "age of 77" , "Kidney'.In 2003" , "20" .

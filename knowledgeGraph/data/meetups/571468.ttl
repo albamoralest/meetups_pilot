@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/571468/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Stephen> , <http://dbpedia.org/resource/Dick_James> , <http://dbpedia.org/resource/Brian_Epstein> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_James> ;
+        ont:timeExpression  "12 December 1920" , "1 February 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/571468/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_VI_and_I> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_James> ;
+        ont:timeExpression  "June 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/571468/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/LeBron_James> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_James> ;
+        ont:timeExpression  "12 December 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/571468/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dick_James> ;
+        ont:place           "http://dbpedia.org/resource/Bron" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_James> ;
+        ont:timeExpression  "In 1958" , "in 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/571468/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dick_James> ;
+        ont:place           "http://dbpedia.org/resource/Northern_United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_James> ;
+        ont:timeExpression  "in 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/571468/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/LeBron_James> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_James> ;
+        ont:timeExpression  "age of 65" , "1 February 1986" .

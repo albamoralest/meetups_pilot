@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/858538/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Sebastian> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Academy_of_Arts" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_Perahia> ;
+        ont:timeExpression  "2016" , "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/858538/20/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Amir_Haddad> ;
+        ont:place           "http://dbpedia.org/resource/Talmon" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_Perahia> ;
+        ont:timeExpression  "12" , "July 2017" , "18" .
+
+<http://w3id.org/polifonia/pilot/meetups/858538/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_II> ;
+        ont:place           "http://dbpedia.org/resource/British_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_Perahia> ;
+        ont:timeExpression  "March 8 , 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/858538/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sonny_Curtis> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_Perahia> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/858538/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jessye_Norman> , <http://dbpedia.org/resource/Johann_Sebastian_Bach> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Academy_of_Arts" ;
+        ont:subject         <http://dbpedia.org/resource/Murray_Perahia> ;
+        ont:timeExpression  "In 2013" , "Music Bach PrizeIn 2015" .

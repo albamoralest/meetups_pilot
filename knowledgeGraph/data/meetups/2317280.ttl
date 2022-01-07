@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2317280/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/René_Laennec> ;
+        ont:place           "http://dbpedia.org/resource/Richmond,_California" , "http://dbpedia.org/resource/Kaiser_Richmond_Field_Hospital" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Brooks> ;
+        ont:timeExpression  "November 1963" , "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/2317280/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean_Brooks> , <http://dbpedia.org/resource/Kelly_Osbourne> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Brooks> ;
+        ont:timeExpression  "December 23 , 1915" , "November 25 , 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/2317280/14/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clarence_Thomas> ;
+        ont:place           "http://dbpedia.org/resource/Lansford,_Pennsylvania" , "http://dbpedia.org/resource/Long_Island" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Brooks> ;
+        ont:timeExpression  "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/2317280/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Horace> ;
+        ont:place           "http://dbpedia.org/resource/Costa_Rica" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Brooks> ;
+        ont:timeExpression  "in 1912" , "two" , "seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/2317280/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean_Brooks> ;
+        ont:place           "http://dbpedia.org/resource/Tokyo" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Brooks> ;
+        ont:timeExpression  "September 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/2317280/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Horace> ;
+        ont:place           "http://dbpedia.org/resource/Houston" , "http://dbpedia.org/resource/Robina_railway_station" , "http://dbpedia.org/resource/Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Brooks> ;
+        ont:timeExpression  "December 23 , 1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/2317280/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Brooks> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Brooks> ;
+        ont:timeExpression  "in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/2317280/7/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lenore_Ulric> ;
+        ont:place           "http://dbpedia.org/resource/CIBC_Theatre" , "http://dbpedia.org/resource/New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Brooks> ;
+        ont:timeExpression  "January 20 , 1936.In" , "1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/2317280/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Brooks> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Brooks> ;
+        ont:timeExpression  "in 1941" , "September 13 , 1944" .

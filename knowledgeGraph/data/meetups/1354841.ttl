@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1354841/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Princess_Beatrice_of_the_United_Kingdom> , <http://dbpedia.org/resource/Clarence_Cameron_White> ;
+        ont:place           "http://dbpedia.org/resource/New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_Cameron_White> ;
+        ont:timeExpression  "October 1942" , "March 11 , 1908–January" , "30" , "1913" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354841/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tim_Brooks_(historian)> ;
+        ont:place           "http://dbpedia.org/resource/Illinois" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_Cameron_White> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354841/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Samuel_Coleridge-Taylor> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_Cameron_White> ;
+        ont:timeExpression  "in 1906" , "from 1908" , "1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354841/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clarence_Cameron_White> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_Cameron_White> ;
+        ont:timeExpression  "August 10 , 1880" , "June 30 , 1960" .

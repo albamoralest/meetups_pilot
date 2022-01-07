@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1009725/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> ;
+        ont:place           "http://dbpedia.org/resource/Harris_County,_Georgia" ;
+        ont:subject         <http://dbpedia.org/resource/James_Landrum_White> ;
+        ont:timeExpression  "in 1842" .
+
+<http://w3id.org/polifonia/pilot/meetups/1009725/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Benjamin> ;
+        ont:place           "http://dbpedia.org/resource/Atlanta" ;
+        ont:subject         <http://dbpedia.org/resource/James_Landrum_White> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/1009725/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Landrum_White> , <http://dbpedia.org/resource/Melinda_Katz> , <http://dbpedia.org/resource/Mary_II_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Fulton_County,_Georgia" ;
+        ont:subject         <http://dbpedia.org/resource/James_Landrum_White> ;
+        ont:timeExpression  "January 19 , 1887" .

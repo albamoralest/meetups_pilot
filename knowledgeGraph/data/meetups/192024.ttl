@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/192024/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Big_Mama_Thornton> ;
+        ont:place           "http://dbpedia.org/resource/Houston" , "http://dbpedia.org/resource/Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Otis> ;
+        ont:timeExpression  "In 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/192024/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bardu_Ali> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Otis> ;
+        ont:timeExpression  "In 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/192024/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Esther_Phillips> ;
+        ont:place           "http://dbpedia.org/resource/New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Otis> ;
+        ont:timeExpression  "1" , "in 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/192024/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jackie_Wilson> , <http://dbpedia.org/resource/Johnny_Otis> , <http://dbpedia.org/resource/Hank_Ballard> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Otis> ;
+        ont:timeExpression  "in 1955.In" , "1955" , "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/192024/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leon_Hefflin,_Sr.> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Wrigley_Field" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Otis> ;
+        ont:timeExpression  "September 7 , 1947" .

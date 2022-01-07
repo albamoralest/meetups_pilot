@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louise_Smith> , <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "May 1 , 1924" , "January 23 , 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dinah_Washington> , <http://dbpedia.org/resource/Bert_Stern> , <http://dbpedia.org/resource/Mahalia_Jackson> ;
+        ont:place           "http://dbpedia.org/resource/Apollo_Theater" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "1950s" , "in 1957" , "1956" , "one" , "1958" , "in 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "May 1 , 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jerry_Lee_Lewis> , <http://dbpedia.org/resource/Lotta_Engberg> ;
+        ont:place           "http://dbpedia.org/resource/Gabbin,_Western_Australia" , "http://dbpedia.org/resource/Episcopal_Diocese_of_Quincy" ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "1955" , "3 hit" , "two" , "in 1953.In" .

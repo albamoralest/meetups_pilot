@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/166529/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_II_of_England> , <http://dbpedia.org/resource/Bertrand_Russell> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Charles_Brown_(musician)> ;
+        ont:timeExpression  "September 13 , 1922" , "January 21 , 1999" , "1940s" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/166529/7/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cosimo_Matassa> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/Charles_Brown_(musician)> ;
+        ont:timeExpression  "studio in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/166529/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Baytown,_Texas" , "http://dbpedia.org/resource/Richmond,_California" , "http://dbpedia.org/resource/Harrison,_Arkansas" , "http://dbpedia.org/resource/Uptown_Pittsburgh" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Charles_Brown_(musician)> ;
+        ont:timeExpression  "in 1943" .

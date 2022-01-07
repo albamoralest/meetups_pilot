@@ -6,7 +6,7 @@ PREFIX xyz:  <http://sparql.xyz/facade-x/data/>
 
 # 9039,http://dbpedia.org/resource/Django_Reinhardt,1910-01-23,9039.txt
 
-SELECT ?subject ?fileName WHERE {
+SELECT ?subject ?fileId WHERE {
 
     SERVICE <x-sparql-anything:> {
     	 fx:properties fx:location "../infoBiographies.csv" ; fx:csv.headers "true" .
@@ -18,4 +18,5 @@ SELECT ?subject ?fileName WHERE {
    	 fx:properties fx:location "../list_wikiIdSample.csv" ; fx:csv.headers "true" .
 	 [] xyz:file_name ?fileName
    }
+   BIND ( replace(?fileName, ".txt", "" ) AS ?fileId )
 }

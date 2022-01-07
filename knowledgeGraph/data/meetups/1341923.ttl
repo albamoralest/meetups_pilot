@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1341923/10/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rance_Howard> , <http://dbpedia.org/resource/Dina_Merrill> , <http://dbpedia.org/resource/John_Forsythe> ;
+        ont:place           "http://dbpedia.org/resource/Nice" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Blyden> ;
+        ont:timeExpression  "September 27" , "April 1960" , "October 4 , 1959" , "in two" , "February 1962" , "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1341923/7/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eileen_Heckart> , <http://dbpedia.org/resource/Valerie_Violet_French> ;
+        ont:place           "http://dbpedia.org/resource/Booth_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Blyden> ;
+        ont:timeExpression  "February 1 , 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/1341923/11/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Fonda> , <http://dbpedia.org/resource/Joshua_Logan> ;
+        ont:place           "http://dbpedia.org/resource/Imperial_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Blyden> ;
+        ont:timeExpression  "May 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/1341923/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ivan_Lawrence> , <http://dbpedia.org/resource/Larry_Blyden> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Blyden> ;
+        ont:timeExpression  "June 6 , 1975" , "June 23 , 1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/1341923/7/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anthony_Perkins> , <http://dbpedia.org/resource/Don_Adams> ;
+        ont:place           "http://dbpedia.org/resource/Brussels" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Blyden> ;
+        ont:timeExpression  "Expo 58" , "November 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1341923/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carol_Haney> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Blyden> ;
+        ont:timeExpression  "April 17 , 1955" .

@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3620666/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lawrence_Gowan> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Dorothy_Gibson> ;
+        ont:timeExpression  "in 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/3620666/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Indro_Montanelli> ;
+        ont:place           "http://dbpedia.org/resource/Milan" ;
+        ont:subject         <http://dbpedia.org/resource/Dorothy_Gibson> ;
+        ont:timeExpression  "with two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3620666/9/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_Pickford> , <http://dbpedia.org/resource/Dorothy_Gibson> , <http://dbpedia.org/resource/Dorothy_Gish> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Dorothy_Gibson> ;
+        ont:timeExpression  "January 1912" , "1912" , "in one" , "May 1912" , "1911" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3620666/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marion_Davies> , <http://dbpedia.org/resource/Ganna_Walska> , <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Dorothy_Gibson> ;
+        ont:timeExpression  "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/3620666/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harrison_Fisher> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Dorothy_Gibson> ;
+        ont:place           "http://dbpedia.org/resource/New_York_Hippodrome" ;
+        ont:subject         <http://dbpedia.org/resource/Dorothy_Gibson> ;
+        ont:timeExpression  "Hippodrome Theatre.In 1909" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3620666/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dorothy_Gibson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Dorothy_Gibson> ;
+        ont:timeExpression  "February 17 , 1946" , "May 17 , 1889" .

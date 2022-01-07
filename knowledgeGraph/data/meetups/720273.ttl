@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/720273/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Rivers> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/P._F._Sloan> ;
+        ont:timeExpression  "two" , "1966" , "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/720273/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jon_Tiven> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/P._F._Sloan> ;
+        ont:timeExpression  "In 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/720273/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hal_Blaine> , <http://dbpedia.org/resource/Tommy_Tedesco> , <http://dbpedia.org/resource/The_Wrecking_Crew_(music)> , <http://dbpedia.org/resource/Joe_Osborn> , <http://dbpedia.org/resource/Eve> , <http://dbpedia.org/resource/Larry_Knechtel> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/P._F._Sloan> ;
+        ont:timeExpression  "of 1971.Sloan" , "age from 21" , "18" .
+
+<http://w3id.org/polifonia/pilot/meetups/720273/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Philip_II_of_Spain> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/P._F._Sloan> ;
+        ont:timeExpression  "September 18 , 1945" , "November 15 , 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/720273/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jennifer_Warnes> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/P._F._Sloan> ;
+        ont:timeExpression  "in 1971" , "1970s –" .

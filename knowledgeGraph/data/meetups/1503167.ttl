@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1503167/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kitty_Wells> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Kitty_Wells> ;
+        ont:timeExpression  "July 16 , 2012" , "August 30 , 1919" .
+
+<http://w3id.org/polifonia/pilot/meetups/1503167/25/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tammy_Duckworth> , <http://dbpedia.org/resource/Dolly_Parton> , <http://dbpedia.org/resource/Loretta_Lynn> ;
+        ont:place           "http://dbpedia.org/resource/Madison_Avenue" ;
+        ont:subject         <http://dbpedia.org/resource/Kitty_Wells> ;
+        ont:timeExpression  "in 2000" , "In 1993" , "in 1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/1503167/30/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benjamin_Franklin> ;
+        ont:place           "http://dbpedia.org/resource/Kentucky" ;
+        ont:subject         <http://dbpedia.org/resource/Kitty_Wells> ;
+        ont:timeExpression  "anniversary in 2007" , "74" , "death in 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/1503167/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_I_of_England> , <http://dbpedia.org/resource/Ellen_Terry> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Kitty_Wells> ;
+        ont:timeExpression  "August 30 , 1919" , "of six" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1503167/25/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Autry> ;
+        ont:place           "http://dbpedia.org/resource/Southern_California" ;
+        ont:subject         <http://dbpedia.org/resource/Kitty_Wells> ;
+        ont:timeExpression  "1992" , "of 1991" , "for one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1503167/32/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kitty_Wells> ;
+        ont:place           "http://dbpedia.org/resource/Spring_Hill_Cemetery_Historic_District" ;
+        ont:subject         <http://dbpedia.org/resource/Kitty_Wells> ;
+        ont:timeExpression  "2008" , "June 25 , 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/1503167/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kitty_Wells> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Kitty_Wells> ;
+        ont:timeExpression  "July 16 , 2012" .

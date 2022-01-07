@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/460378/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ludwig_van_Beethoven> ;
+        ont:place           "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Alessandro_Moreschi> ;
+        ont:timeExpression  "In 1883" .
+
+<http://w3id.org/polifonia/pilot/meetups/460378/8/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Cecilia> ;
+        ont:place           "http://dbpedia.org/resource/Pope" ;
+        ont:subject         <http://dbpedia.org/resource/Alessandro_Moreschi> ;
+        ont:timeExpression  "One" , "22 November 1903" .
+
+<http://w3id.org/polifonia/pilot/meetups/460378/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alessandro_Moreschi> , <http://dbpedia.org/resource/Lorenzo_de'_Medici> ;
+        ont:place           "http://dbpedia.org/resource/Monte_Compatri" , "http://dbpedia.org/resource/Papal_States" , "http://dbpedia.org/resource/Frascati" , "http://dbpedia.org/resource/Lazio" ;
+        ont:subject         <http://dbpedia.org/resource/Alessandro_Moreschi> ;
+        ont:timeExpression  "11 November 1858" , "1840–1897" .

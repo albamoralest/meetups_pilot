@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3344033/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ole_Paus> , <http://dbpedia.org/resource/Marcus_Aurelius> ;
+        ont:place           "http://dbpedia.org/resource/Oslo" ;
+        ont:subject         <http://dbpedia.org/resource/Olav_Anton_Thommessen> ;
+        ont:timeExpression  "2006 letter" , "in 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/3344033/1/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marcus_Aurelius> ;
+        ont:place           "http://dbpedia.org/resource/Norway" ;
+        ont:subject         <http://dbpedia.org/resource/Olav_Anton_Thommessen> ;
+        ont:timeExpression  "2015 debate" , "1970s" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3344033/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Infanta_Cristina_of_Spain> ;
+        ont:place           "http://dbpedia.org/resource/Oslo" ;
+        ont:subject         <http://dbpedia.org/resource/Olav_Anton_Thommessen> ;
+        ont:timeExpression  "80s" .
+
+<http://w3id.org/polifonia/pilot/meetups/3344033/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sarah_Maldoror> ;
+        ont:place           "http://dbpedia.org/resource/Vadstena" ;
+        ont:subject         <http://dbpedia.org/resource/Olav_Anton_Thommessen> ;
+        ont:timeExpression  "80s saw" , "in 1976.The" .
+
+<http://w3id.org/polifonia/pilot/meetups/3344033/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Olav_Anton_Thommessen> ;
+        ont:place           "http://dbpedia.org/resource/Norway" ;
+        ont:subject         <http://dbpedia.org/resource/Olav_Anton_Thommessen> ;
+        ont:timeExpression  "16 May 1946" .

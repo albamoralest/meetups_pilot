@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/238175/17/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Horace> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Horace_Silver> ;
+        ont:timeExpression  "In 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/238175/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Stan_Getz> ;
+        ont:place           "http://dbpedia.org/resource/Connecticut" ;
+        ont:subject         <http://dbpedia.org/resource/Horace_Silver> ;
+        ont:timeExpression  "in 1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/238175/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Horace> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Horace_Silver> ;
+        ont:timeExpression  "December 1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/238175/14/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dave_Douglas_(trumpeter)> , <http://dbpedia.org/resource/Vincent_Herring> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Horace_Silver> ;
+        ont:timeExpression  "in 1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/238175/14/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donald_McKayle> , <http://dbpedia.org/resource/Sergei_Rachmaninoff> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Horace_Silver> ;
+        ont:timeExpression  "in 1991" , "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/238175/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Tavares> , <http://dbpedia.org/resource/Horace> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Horace_Silver> ;
+        ont:timeExpression  "September 2 , 1928" , "June 18 , 2014" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/238175/10/24>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Billy_Cobham> , <http://dbpedia.org/resource/Randy_Brecker> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Maupin,_Oregon" , "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Horace_Silver> ;
+        ont:timeExpression  "November 1968" .

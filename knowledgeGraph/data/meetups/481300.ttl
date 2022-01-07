@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/481300/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Doris_Holmes_Blake> , <http://dbpedia.org/resource/Adele> , <http://dbpedia.org/resource/Saint_Lawrence> ;
+        ont:place           "http://dbpedia.org/resource/Florence" ;
+        ont:subject         <http://dbpedia.org/resource/Louis_Auchincloss> ;
+        ont:timeExpression  "1931–1991" , "In 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/481300/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louis_Auchincloss> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Louis_Auchincloss> ;
+        ont:timeExpression  "January 26 , 2010" , "September 27 , 1917" .
+
+<http://w3id.org/polifonia/pilot/meetups/481300/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Doris_Holmes_Blake> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Lenox_Hill_Hospital" , "http://dbpedia.org/resource/New_York_City_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Louis_Auchincloss> ;
+        ont:timeExpression  "January 26 , 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/481300/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Theodore_Roosevelt> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Louis_Auchincloss> ;
+        ont:timeExpression  "2002" .

@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2812504/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Lawrence> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Betz> ;
+        ont:timeExpression  "March 9 , 1921" , "January 18 , 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/2812504/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cochise> , <http://dbpedia.org/resource/Nate_Diaz> , <http://dbpedia.org/resource/Alfred_Hitchcock> , <http://dbpedia.org/resource/Donna_Reed> ;
+        ont:place           "http://dbpedia.org/resource/Timble" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Betz> ;
+        ont:timeExpression  "1957 episode" .
+
+<http://w3id.org/polifonia/pilot/meetups/2812504/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Pittsburgh" , "http://dbpedia.org/resource/Pennsylvania" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Betz> ;
+        ont:timeExpression  "in 1921" , "four children—two" , "two daughters—of" .
+
+<http://w3id.org/polifonia/pilot/meetups/2812504/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donna_Reed> , <http://dbpedia.org/resource/Saint_Lawrence> ;
+        ont:place           "http://dbpedia.org/resource/River_Shannon" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Betz> ;
+        ont:timeExpression  "In 1964" .

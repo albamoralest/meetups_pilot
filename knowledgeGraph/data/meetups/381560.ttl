@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/381560/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dusty_Rhodes_(wrestler)> ;
+        ont:place           "http://dbpedia.org/resource/Fife,_Washington" ;
+        ont:subject         <http://dbpedia.org/resource/Buck_Owens> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/381560/10/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lyndon_B._Johnson> , <http://dbpedia.org/resource/Buck_Owens> ;
+        ont:place           "http://dbpedia.org/resource/Japan" , "http://dbpedia.org/resource/White_House" ;
+        ont:subject         <http://dbpedia.org/resource/Buck_Owens> ;
+        ont:timeExpression  "in 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/381560/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Don_Rich> ;
+        ont:place           "http://dbpedia.org/resource/Morro_Bay,_California" , "http://dbpedia.org/resource/California_State_Route_1" ;
+        ont:subject         <http://dbpedia.org/resource/Buck_Owens> ;
+        ont:timeExpression  "July 17 , 1974" , "Highway 1" .
+
+<http://w3id.org/polifonia/pilot/meetups/381560/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Don_Rich> ;
+        ont:place           "http://dbpedia.org/resource/Tacoma,_Washington" ;
+        ont:subject         <http://dbpedia.org/resource/Buck_Owens> ;
+        ont:timeExpression  "In 1958" , "Gay 90s" .
+
+<http://w3id.org/polifonia/pilot/meetups/381560/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chuck_Berry> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Buck_Owens> ;
+        ont:timeExpression  "In 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/381560/10/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ray_Charles> ;
+        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:subject         <http://dbpedia.org/resource/Buck_Owens> ;
+        ont:timeExpression  "1967" , "of two" .
+
+<http://w3id.org/polifonia/pilot/meetups/381560/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Buck_Owens> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Buck_Owens> ;
+        ont:timeExpression  "August 12 , 1929" , "March 25 , 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/381560/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Buck_Owens> , <http://dbpedia.org/resource/William_Tecumseh_Sherman> ;
+        ont:place           "http://dbpedia.org/resource/U.S._Route_82_in_Arkansas" ;
+        ont:subject         <http://dbpedia.org/resource/Buck_Owens> ;
+        ont:timeExpression  "US Highway 82" .

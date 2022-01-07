@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/782651/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richie_Furay> ;
+        ont:place           "http://dbpedia.org/resource/New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/Richie_Furay> ;
+        ont:timeExpression  "June 13 , 2018" .
+
+<http://w3id.org/polifonia/pilot/meetups/782651/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jay_Truax> , <http://dbpedia.org/resource/Richie_Furay> ;
+        ont:place           "http://dbpedia.org/resource/Sugarloaf_Mountain" , "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Colorado" ;
+        ont:subject         <http://dbpedia.org/resource/Richie_Furay> ;
+        ont:timeExpression  "in 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/782651/4/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Stephen> , <http://dbpedia.org/resource/Timothy_Bottoms> , <http://dbpedia.org/resource/Stephen_Stills> , <http://dbpedia.org/resource/Jim_Messina_(musician)> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Neil_Young> ;
+        ont:place           "http://dbpedia.org/resource/Indio,_California" , "http://dbpedia.org/resource/Grantham" , "http://dbpedia.org/resource/Shoreline_Amphitheatre" ;
+        ont:subject         <http://dbpedia.org/resource/Richie_Furay> ;
+        ont:timeExpression  "2011 tour" , "2011" , "24th" , "in 2009" , "October 23 , 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/782651/7/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richie_Furay> ;
+        ont:place           "http://dbpedia.org/resource/Farewell_and_Chorley" , "http://dbpedia.org/resource/New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/Richie_Furay> ;
+        ont:timeExpression  "November 2021.A" , "in 2020" .

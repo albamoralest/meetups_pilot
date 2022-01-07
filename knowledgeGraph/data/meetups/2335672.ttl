@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2335672/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lester_Young> , <http://dbpedia.org/resource/Ben_Webster> , <http://dbpedia.org/resource/Budd_Johnson> ;
+        ont:place           "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Chu_Berry> ;
+        ont:timeExpression  "one" , "1934–1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/2335672/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Billie_Holiday> , <http://dbpedia.org/resource/Teddy_Wilson> , <http://dbpedia.org/resource/Wingy_Manone> , <http://dbpedia.org/resource/Mildred_Bailey> , <http://dbpedia.org/resource/Bessie_Smith> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Chu_Berry> ;
+        ont:timeExpression  "1938–1939" , "four" , "1933" , "1935–1938" , "1939" .

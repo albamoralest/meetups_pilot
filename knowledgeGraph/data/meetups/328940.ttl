@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margi_Clarke> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:timeExpression  "Clause 28" , "in 1973.Reid" .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:timeExpression  "16 January 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Malcolm_McLaren> ;
+        ont:place           "http://dbpedia.org/resource/Croydon" ;
+        ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:timeExpression  "in 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Jacobs_(broadcaster)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:timeExpression  "October 2010" , "1970s" .

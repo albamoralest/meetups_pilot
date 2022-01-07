@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/690900/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Colley_Cibber> , <http://dbpedia.org/resource/Minnie_Pearl> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Minnie_Pearl> ;
+        ont:timeExpression  "from 1940" , "from 1969" , "than 50" , "October 25 , 1912" , "March 4 , 1996" , "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/690900/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Minnie_Pearl> ;
+        ont:place           "http://dbpedia.org/resource/Aiken,_South_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Minnie_Pearl> ;
+        ont:timeExpression  "in 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/690900/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Wallace> , <http://dbpedia.org/resource/George_V> ;
+        ont:place           "http://dbpedia.org/resource/Alabama" ;
+        ont:subject         <http://dbpedia.org/resource/Minnie_Pearl> ;
+        ont:timeExpression  "In 1956" , "3,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/690900/18/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Roy_Acuff> , <http://dbpedia.org/resource/Minnie_Pearl> ;
+        ont:place           "http://dbpedia.org/resource/Ryman_Auditorium" ;
+        ont:subject         <http://dbpedia.org/resource/Minnie_Pearl> ;
+        ont:timeExpression  "In 1992" , "for 15" .
+
+<http://w3id.org/polifonia/pilot/meetups/690900/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Colley_Cibber> ;
+        ont:place           "http://dbpedia.org/resource/Centerville,_Ohio" , "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Minnie_Pearl> ;
+        ont:timeExpression  "80 km" , "50" .

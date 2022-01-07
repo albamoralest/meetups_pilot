@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/316711/14/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Big_Walter_Horton> ;
+        ont:place           "http://dbpedia.org/resource/Mississippi_River" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Winter> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/316711/18/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Warren_Haynes> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" , "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Winter> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/316711/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Muddy_Waters> ;
+        ont:place           "http://dbpedia.org/resource/Mississippi_River" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Winter> ;
+        ont:timeExpression  "1978" , "three" , "1977" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/316711/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Dawson_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Leland,_Mississippi" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Winter> ;
+        ont:timeExpression  "1909–2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/316711/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Al_Kooper> , <http://dbpedia.org/resource/Samuel_Thomas_Bloomfield> , <http://dbpedia.org/resource/Mike_Bloomfield> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Fillmore_East" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Winter> ;
+        ont:timeExpression  "December 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/316711/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Roy_Head> ;
+        ont:place           "http://dbpedia.org/resource/Mississippi_State_Penitentiary" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Winter> ;
+        ont:timeExpression  "Universal Records 30496" , "in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/316711/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jim_Morrison> , <http://dbpedia.org/resource/Johnny_Winter> , <http://dbpedia.org/resource/Jimi_Hendrix> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Winter> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/316711/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Muddy_Waters> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Johnny_Winter> ;
+        ont:timeExpression  "chance in 1974" .

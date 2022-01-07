@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2512661/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cholly_Atkins> ;
+        ont:place           "http://dbpedia.org/resource/Alabama" ;
+        ont:subject         <http://dbpedia.org/resource/Cholly_Atkins> ;
+        ont:timeExpression  "service in 1942" , "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2512661/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_E._Lee> ;
+        ont:place           "http://dbpedia.org/resource/Wilmington,_Delaware" , "http://dbpedia.org/resource/Iowa" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Cholly_Atkins> ;
+        ont:timeExpression  "1922–1962" , "November 21 , 2014" , "September 2 , 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/2512661/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_R._Williams> , <http://dbpedia.org/resource/Paul_Williams_(saxophonist)> ;
+        ont:place           "http://dbpedia.org/resource/Apollo_Theater" ;
+        ont:subject         <http://dbpedia.org/resource/Cholly_Atkins> ;
+        ont:timeExpression  "October 11 , 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/2512661/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cholly_Atkins> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Cholly_Atkins> ;
+        ont:timeExpression  "September 13 , 1913" , "April 19 , 2003" .

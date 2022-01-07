@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2697408/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benjamin_Franklin_Keith> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Dolly_Sisters> ;
+        ont:timeExpression  "until 1909" .
+
+<http://w3id.org/polifonia/pilot/meetups/2697408/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Thelma_Furness,_Viscountess_Furness> , <http://dbpedia.org/resource/Jenny_Berggren> ;
+        ont:place           "http://dbpedia.org/resource/Cannes" ;
+        ont:subject         <http://dbpedia.org/resource/Dolly_Sisters> ;
+        ont:timeExpression  "one person" , "Cannes one" .
+
+<http://w3id.org/polifonia/pilot/meetups/2697408/8/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harry_Gordon_Selfridge> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Dolly_Sisters> ;
+        ont:timeExpression  "In 1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/2697408/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Walter_Janka> ;
+        ont:place           "http://dbpedia.org/resource/Balassagyarmat" , "http://dbpedia.org/resource/Kingdom_of_Hungary" ;
+        ont:subject         <http://dbpedia.org/resource/Dolly_Sisters> ;
+        ont:timeExpression  "October 24 , 1892" .

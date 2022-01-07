@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/741791/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anthony_Davis> ;
+        ont:place           "http://dbpedia.org/resource/Collins_Waterfront_Architectural_District" ;
+        ont:subject         <http://dbpedia.org/resource/Ossie_Davis> ;
+        ont:timeExpression  "February 4 , 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/741791/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alain_LeRoy_Locke> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Ossie_Davis> ;
+        ont:timeExpression  "in 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/741791/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gordon_Parks> , <http://dbpedia.org/resource/Melvin_Van_Peebles> , <http://dbpedia.org/resource/Mike_Gordon> ;
+        ont:place           "http://dbpedia.org/resource/Harlem" ;
+        ont:subject         <http://dbpedia.org/resource/Ossie_Davis> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/741791/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ruby_Dee> , <http://dbpedia.org/resource/Gray_Davis> ;
+        ont:place           "http://dbpedia.org/resource/Raiford,_Florida" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Ossie_Davis> ;
+        ont:timeExpression  "December 18 , 1917" , "February 4 , 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/741791/14/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anthony_Davis> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Ossie_Davis> ;
+        ont:timeExpression  "In 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/741791/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gray_Davis> , <http://dbpedia.org/resource/Laura_Bush> ;
+        ont:place           "http://dbpedia.org/resource/Raiford,_Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Ossie_Davis> ;
+        ont:timeExpression  "July 9 , 1898" , "June 6 , 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/741791/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rose_McClendon> ;
+        ont:place           "http://dbpedia.org/resource/Harlem" ;
+        ont:subject         <http://dbpedia.org/resource/Ossie_Davis> ;
+        ont:timeExpression  "in 1939" .

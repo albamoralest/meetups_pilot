@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/855002/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Strauss> , <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:place           "http://dbpedia.org/resource/Le_Lude" ;
+        ont:subject         <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:timeExpression  "faune in 1898" .
+
+<http://w3id.org/polifonia/pilot/meetups/855002/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gabriele_D'Annunzio> ;
+        ont:place           "http://dbpedia.org/resource/Venice" ;
+        ont:subject         <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:timeExpression  "In 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/855002/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leonardo_Bonucci> ;
+        ont:place           "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:timeExpression  "in 1930" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/855002/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:place           "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:timeExpression  "of 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/855002/115/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:place           "http://dbpedia.org/resource/Rome" ;
+        ont:subject         <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:timeExpression  "1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/855002/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:place           "http://dbpedia.org/resource/Monte_Carlo" ;
+        ont:subject         <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:timeExpression  "in 1908" , "symphony of 1905" .
+
+<http://w3id.org/polifonia/pilot/meetups/855002/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pietro_Fanna> ;
+        ont:place           "http://dbpedia.org/resource/Venice" ;
+        ont:subject         <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:timeExpression  "In 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/855002/119/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:place           "http://dbpedia.org/resource/Italy" , "http://dbpedia.org/resource/Florence" ;
+        ont:subject         <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:timeExpression  "1941" .

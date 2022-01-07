@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1495782/17/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ted_Snyder> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas" ;
+        ont:subject         <http://dbpedia.org/resource/Ruth_Etting> ;
+        ont:timeExpression  "December 14 , 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/1495782/21/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Powell> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Hollywood_Boulevard" ;
+        ont:subject         <http://dbpedia.org/resource/Ruth_Etting> ;
+        ont:timeExpression  "6500 block" .
+
+<http://w3id.org/polifonia/pilot/meetups/1495782/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ruth_Etting> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Ruth_Etting> ;
+        ont:timeExpression  "over 60" , "November 23 , 1896" , "September 24 , 1978" , "1920s" , "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1495782/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alma_Mahler> ;
+        ont:place           "http://dbpedia.org/resource/Tijuana" , "http://dbpedia.org/resource/Mexico" ;
+        ont:subject         <http://dbpedia.org/resource/Ruth_Etting> ;
+        ont:timeExpression  "December 1938" , "July 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/1495782/15/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alma_Mahler> ;
+        ont:place           "http://dbpedia.org/resource/Mexico" ;
+        ont:subject         <http://dbpedia.org/resource/Ruth_Etting> ;
+        ont:timeExpression  "January 9 , 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/1495782/7/20>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ray_Henderson> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Ruth_Etting> ;
+        ont:timeExpression  "In 1936" .

@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/973172/6/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Kissinger> ;
+        ont:place           "http://dbpedia.org/resource/Mars" ;
+        ont:subject         <http://dbpedia.org/resource/Kenneth_Mars> ;
+        ont:timeExpression  "1962" , "Affair.In 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/973172/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Francis_I_of_France> ;
+        ont:place           "http://dbpedia.org/resource/Mars" ;
+        ont:subject         <http://dbpedia.org/resource/Kenneth_Mars> ;
+        ont:timeExpression  "in two" .
+
+<http://w3id.org/polifonia/pilot/meetups/973172/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Norman_Lear> ;
+        ont:place           "http://dbpedia.org/resource/Mars" ;
+        ont:subject         <http://dbpedia.org/resource/Kenneth_Mars> ;
+        ont:timeExpression  "in five" , "1974" , "From 1970" , "Fernwood 2-Night" , "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/973172/6/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hugh_Simon> ;
+        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Kenneth_Mars> ;
+        ont:timeExpression  "1974" , "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/973172/6/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Butch_Cassidy> ;
+        ont:place           "http://dbpedia.org/resource/Mars" ;
+        ont:subject         <http://dbpedia.org/resource/Kenneth_Mars> ;
+        ont:timeExpression  "1969" .

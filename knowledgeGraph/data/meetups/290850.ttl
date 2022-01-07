@@ -1,0 +1,189 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/27/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Cuba" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "In 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/11/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "in 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louis_Jouvet> , <http://dbpedia.org/resource/Georges_Carpentier> , <http://dbpedia.org/resource/Henri_Christophe> ;
+        ont:place           "http://dbpedia.org/resource/Haiti" , "http://dbpedia.org/resource/Citadelle_of_Quebec" , "http://dbpedia.org/resource/Sans-Souci_Palace" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "In 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/49/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Isidor_Straus> , <http://dbpedia.org/resource/Fidel_Castro> , <http://dbpedia.org/resource/Georges_Carpentier> , <http://dbpedia.org/resource/Jay_Farrar> ;
+        ont:place           "http://dbpedia.org/resource/Cuba" , "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Cannock_Chase" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "over three" , "in 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/49/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Cannock_Chase" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "one" , "1989 translation" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/11/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Cuba" , "http://dbpedia.org/resource/Havana" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "in 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Havana" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "In 1921" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> , <http://dbpedia.org/resource/Fidel_Castro> ;
+        ont:place           "http://dbpedia.org/resource/Cuba" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "in 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/19/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean-François_de_La_Harpe> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "étranger in 1979" , "in 1977" , "April 24 , 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Cannock_Chase" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Havana" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "until 1939" , "in 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/54/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Havana" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "In 1921" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/11/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Amadeo_I_of_Spain> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Gaillard" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/11/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gerardo_Machado> , <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Havana" , "http://dbpedia.org/resource/Cuba" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "end in 1933" , "in 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Havana" , "http://dbpedia.org/resource/Cuba" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "Switzerland.In 1912" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/19/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> , <http://dbpedia.org/resource/Gabriel> ;
+        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "1966" , "draft of One" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/11/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miguel_I_of_Portugal> , <http://dbpedia.org/resource/Georges_Carpentier> , <http://dbpedia.org/resource/Pablo_Picasso> , <http://dbpedia.org/resource/Pablo_Neruda> ;
+        ont:place           "http://dbpedia.org/resource/Asturias" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Lausanne" , "http://dbpedia.org/resource/Switzerland" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "December 26 , 1904" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Caracas" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "In 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/1/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/County_Kerry" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Oswald_Spengler> ;
+        ont:place           "http://dbpedia.org/resource/County_Kerry" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/56/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/Haiti" , "http://dbpedia.org/resource/Venezuela" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "in 1949" , "1943 trip" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/25/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georges_Carpentier> ;
+        ont:place           "http://dbpedia.org/resource/El_Milagro,_Peru" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "1928" , "two" , "in 1926" , "1929" , "ballet in two" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/49/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gabriel> , <http://dbpedia.org/resource/Georges_Carpentier> , <http://dbpedia.org/resource/Mario_Vargas_Llosa> ;
+        ont:place           "http://dbpedia.org/resource/North_America" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/290850/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Frideric_Handel> ;
+        ont:place           "http://dbpedia.org/resource/Venice" ;
+        ont:subject         <http://dbpedia.org/resource/Alejo_Carpentier> ;
+        ont:timeExpression  "1974" , "1709 meeting" .

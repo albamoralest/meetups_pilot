@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1253793/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:place           "http://dbpedia.org/resource/Lewiston,_Maine" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_White> ;
+        ont:timeExpression  "June 7 , 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/1253793/17/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gram_Parsons> , <http://dbpedia.org/resource/Gene_Parsons> , <http://dbpedia.org/resource/Emmylou_Harris> , <http://dbpedia.org/resource/Alan_Munde> , <http://dbpedia.org/resource/Byron_Berline> , <http://dbpedia.org/resource/Chris_Ethridge> , <http://dbpedia.org/resource/Sneaky_Pete_Kleinow> ;
+        ont:place           "http://dbpedia.org/resource/Europe" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_White> ;
+        ont:timeExpression  "June 1973" , "May 1973.Returning" .
+
+<http://w3id.org/polifonia/pilot/meetups/1253793/14/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Siebel> , <http://dbpedia.org/resource/Chris_Ethridge> , <http://dbpedia.org/resource/Joel_Madden> ;
+        ont:place           "http://dbpedia.org/resource/Barbata" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_White> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/1253793/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Greene> , <http://dbpedia.org/resource/Joe_Boyd> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Record_Plant" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_White> ;
+        ont:timeExpression  "April 14 , 1973" , "March 27" .
+
+<http://w3id.org/polifonia/pilot/meetups/1253793/14/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chris_Hillman> , <http://dbpedia.org/resource/Joe_Lala> ;
+        ont:place           "http://dbpedia.org/resource/New_Jersey" , "http://dbpedia.org/resource/Capitol_Theatre,_Sydney" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_White> ;
+        ont:timeExpression  "time between 1969" , "February 24 , 1973" , "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1253793/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gram_Parsons> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_White> ;
+        ont:timeExpression  "as one" , "in 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/1253793/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Joseph> , <http://dbpedia.org/resource/Clarence_White> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_White> ;
+        ont:timeExpression  "June 7 , 1944" , "July 15 , 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/1253793/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gene_Parsons> , <http://dbpedia.org/resource/Ricky_Nelson> , <http://dbpedia.org/resource/Gib_Guilbeau> , <http://dbpedia.org/resource/Vern_Gosdin> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Clarence_White> ;
+        ont:timeExpression  "between 1965" , "into 1966" , "Gosdin Brothers.As 1965" , "1968" .

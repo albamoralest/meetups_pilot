@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Claudius> , <http://dbpedia.org/resource/Ola_Afolabi> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "25 June 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Claudius> , <http://dbpedia.org/resource/Ola_Afolabi> , <http://dbpedia.org/resource/Charlotte_of_Mecklenburg-Strelitz> ;
+        ont:place           "http://dbpedia.org/resource/Hammersmith" , "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "of five" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Annie_Ross> ;
+        ont:place           "http://dbpedia.org/resource/Soho" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "six" , "between 1970" , "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Arthur_Ransome> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "BBC Radio 4" , "In 2014" .

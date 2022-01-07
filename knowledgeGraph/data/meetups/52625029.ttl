@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dorothy_Johnstone> , <http://dbpedia.org/resource/Evelina_Haverfield> ;
+        ont:place           "http://dbpedia.org/resource/Kirkcudbright" ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "during 1919" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Evelina_Haverfield> ;
+        ont:place           "http://dbpedia.org/resource/River_Holme" ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "war in 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/River_Holme" ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "1 January 1969" , "29 August 1881" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Evelina_Haverfield> ;
+        ont:place           "http://dbpedia.org/resource/River_Holme" , "http://dbpedia.org/resource/Serbia" ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "death in 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_Blathwayt> ;
+        ont:place           "http://dbpedia.org/resource/Batheaston" , "http://dbpedia.org/resource/River_Holme" ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "In 1909" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Evelina_Haverfield> ;
+        ont:place           "http://dbpedia.org/resource/River_Holme" ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "death in 1920" , "from 1911" .

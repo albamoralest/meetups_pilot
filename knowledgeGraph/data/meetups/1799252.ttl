@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1799252/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bill_Putnam> ;
+        ont:place           "http://dbpedia.org/resource/Danville,_Illinois" ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Putnam> ;
+        ont:timeExpression  "February 20 , 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/1799252/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> , <http://dbpedia.org/resource/Frank_Sinatra> ;
+        ont:place           "http://dbpedia.org/resource/Sunset_Boulevard" , "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Putnam> ;
+        ont:timeExpression  "studio at 6050" , "In 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/1799252/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Milton> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Putnam> ;
+        ont:timeExpression  "April 13 , 1989" , "February 20 , 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/1799252/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco_Bay_Area" ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Putnam> ;
+        ont:timeExpression  "location at 960" , "In 1962" .

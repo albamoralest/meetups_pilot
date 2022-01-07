@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/313835/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Trenet> ;
+        ont:place           "http://dbpedia.org/resource/Narbonne" ;
+        ont:subject         <http://dbpedia.org/resource/Charles_Trenet> ;
+        ont:timeExpression  "November 2000" , "13" .
+
+<http://w3id.org/polifonia/pilot/meetups/313835/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sam_Cooke> , <http://dbpedia.org/resource/Keely_Smith> , <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Jean_Sablon> , <http://dbpedia.org/resource/Maurice_Chevalier> ;
+        ont:place           "http://dbpedia.org/resource/Hel_Peninsula" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Charles_Trenet> ;
+        ont:timeExpression  "in 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/313835/26/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gilbert_Rozon> ;
+        ont:place           "http://dbpedia.org/resource/Montreal" , "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Charles_Trenet> ;
+        ont:timeExpression  "in 1983" .

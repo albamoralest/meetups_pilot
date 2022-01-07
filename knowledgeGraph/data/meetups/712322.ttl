@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/712322/28/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vladimir_Putin> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Ukraine" ;
+        ont:subject         <http://dbpedia.org/resource/Nikita_Mikhalkov> ;
+        ont:timeExpression  "April 2010.In 2015" , "2014" , "October 2007" , "for 5" .
+
+<http://w3id.org/polifonia/pilot/meetups/712322/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sergey_Mikhalkov> ;
+        ont:place           "http://dbpedia.org/resource/Soviet_Union" ;
+        ont:subject         <http://dbpedia.org/resource/Nikita_Mikhalkov> ;
+        ont:timeExpression  "60" , "anthem on three" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/712322/10/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eldar_Ryazanov> ;
+        ont:place           "http://dbpedia.org/resource/Moscow" ;
+        ont:subject         <http://dbpedia.org/resource/Nikita_Mikhalkov> ;
+        ont:timeExpression  "for Two" , "1984" , "1980s" , "13th" , "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/712322/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georgiy_Daneliya> , <http://dbpedia.org/resource/Andrei_Konchalovsky> ;
+        ont:place           "http://dbpedia.org/resource/Moscow" ;
+        ont:subject         <http://dbpedia.org/resource/Nikita_Mikhalkov> ;
+        ont:timeExpression  "1964" , "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/712322/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Krzysztof_Zanussi> ;
+        ont:place           "http://dbpedia.org/resource/Uptown_Pittsburgh" ;
+        ont:subject         <http://dbpedia.org/resource/Nikita_Mikhalkov> ;
+        ont:timeExpression  "In 2005" , "in three" .

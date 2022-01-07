@@ -11,11 +11,16 @@ PREFIX meetup: <http://w3id.org/polifonia/pilot/meetups/>
 
 CONSTRUCT{
 ?meetup a ont:MusicalMeetup ;
-	ont:person ?personIRI
-#?sentence ?entity ?type
+	ont:person ?personIRI ;
+	ont:subject ?subjectIRI ;
+	ont:place ?place ;
+	ont:timeExpression ?time
+# ?sentence ?entity ?type
 } WHERE {
+
    SERVICE <x-sparql-anything:> {
-   	 fx:properties fx:location "../extractedEntities/223497.csv" ; fx:csv.headers "true" .
+	 BIND ( CONCAT ( "../extractedEntities/", ?_fileId , ".csv" ) AS ?location ) .
+   	 fx:properties fx:location ?location ; fx:csv.headers "true" .
 
 	 [] xyz:paragraphIndex ?paragraph ; 
 	    xyz:sentenceIndex ?sentence ; 
@@ -32,7 +37,8 @@ CONSTRUCT{
    	 	xyz:entity ?time ;
    		xyz:entType "time"
 		.
+   	 BIND ( IRI(?_subject) as ?subjectIRI ) .
 	 BIND ( IRI(?person) as ?personIRI ) .
-     BIND (fx:entity (meetup:, fx:String.toLowerCase("Ian_Anderson"), "/", ?paragraph, "/", ?sentence) AS ?meetup )
+     BIND (fx:entity (meetup:, fx:String.toLowerCase(?_fileId), "/", ?paragraph, "/", ?sentence) AS ?meetup )
    }
 }

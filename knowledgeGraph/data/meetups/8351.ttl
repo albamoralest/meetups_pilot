@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/8351/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Malkovich> , <http://dbpedia.org/resource/David_Mamet> ;
+        ont:place           "http://dbpedia.org/resource/Garrick_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/David_Mamet> ;
+        ont:timeExpression  "2019" , "In 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/8351/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leo_Frank> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/David_Mamet> ;
+        ont:timeExpression  "2004" , "1997" , "2011" , "Five" , "1991" , "2006" , "2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/8351/43/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harold_Pinter> ;
+        ont:place           "http://dbpedia.org/resource/Royal_National_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/David_Mamet> ;
+        ont:timeExpression  "in 1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/8351/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lenore_Romney> , <http://dbpedia.org/resource/Bernard_Morris> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/David_Mamet> ;
+        ont:timeExpression  "in 1947" .

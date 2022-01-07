@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/172563/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Janet_Jackson> , <http://dbpedia.org/resource/Klara_Hitler> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Janet_Malcolm> ;
+        ont:timeExpression  "June 16 , 2021" , "July 8 , 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/172563/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Joseph> , <http://dbpedia.org/resource/Norbert_Wiener> , <http://dbpedia.org/resource/Alan_Winn> ;
+        ont:place           "http://dbpedia.org/resource/Prague" ;
+        ont:subject         <http://dbpedia.org/resource/Janet_Malcolm> ;
+        ont:timeExpression  "in 1934" , "two daughters—the" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/172563/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Janet_Malcolm> ;
+        ont:timeExpression  "1981" .

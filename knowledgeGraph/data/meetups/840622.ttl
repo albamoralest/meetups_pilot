@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/840622/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nat_King_Cole> ;
+        ont:place           "http://dbpedia.org/resource/Tropicana_Club" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:timeExpression  "1957 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/840622/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ibrahim_Ferrer> ;
+        ont:place           "http://dbpedia.org/resource/Havana" ;
+        ont:subject         <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/840622/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Salvador_Allende> , <http://dbpedia.org/resource/Augusto_Pinochet> ;
+        ont:place           "http://dbpedia.org/resource/Chile" ;
+        ont:subject         <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:timeExpression  "In 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/840622/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfonso_XII> ;
+        ont:place           "http://dbpedia.org/resource/Cuba" ;
+        ont:subject         <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:timeExpression  "In 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/840622/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:place           "http://dbpedia.org/resource/Cuba" ;
+        ont:subject         <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:timeExpression  "29 October 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/840622/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ibrahim_Ferrer> ;
+        ont:place           "http://dbpedia.org/resource/Havana" ;
+        ont:subject         <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/840622/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Wim_Wenders> , <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:timeExpression  "2000" , "two" , "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/840622/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:place           "http://dbpedia.org/resource/Manteca,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Omara_Portuondo> ;
+        ont:timeExpression  "2006" .

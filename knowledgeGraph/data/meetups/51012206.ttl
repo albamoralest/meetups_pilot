@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/51012206/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Felix_Klein> , <http://dbpedia.org/resource/Klaus_Mann> , <http://dbpedia.org/resource/Clara_Schumann> ;
+        ont:place           "http://dbpedia.org/resource/Cologne" ;
+        ont:subject         <http://dbpedia.org/resource/Gustav_Nicolai> ;
+        ont:timeExpression  "Band 17" , "S. 473–489" , "Berlin 1832" , "1883" , "2015" , "ISBN 978-3-86846-028-5" .
+
+<http://w3id.org/polifonia/pilot/meetups/51012206/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Loewe> ;
+        ont:place           "http://dbpedia.org/resource/Jerusalem" ;
+        ont:subject         <http://dbpedia.org/resource/Gustav_Nicolai> ;
+        ont:timeExpression  "in 1833" .
+
+<http://w3id.org/polifonia/pilot/meetups/51012206/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chester_A._Arthur> ;
+        ont:place           "http://dbpedia.org/resource/Lentini" ;
+        ont:subject         <http://dbpedia.org/resource/Gustav_Nicolai> ;
+        ont:timeExpression  "1848–1868" , "1850" , "four" , "1834" , "in 1833" , "1845–1846" , "1837" , "1836" .
+
+<http://w3id.org/polifonia/pilot/meetups/51012206/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" ;
+        ont:subject         <http://dbpedia.org/resource/Gustav_Nicolai> ;
+        ont:timeExpression  "21 December 1868" , "28 May 1795" .
+
+<http://w3id.org/polifonia/pilot/meetups/51012206/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_William_III_of_Prussia> ;
+        ont:place           "http://dbpedia.org/resource/Prussia" ;
+        ont:subject         <http://dbpedia.org/resource/Gustav_Nicolai> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/51012206/18/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ludwig_Uhland> ;
+        ont:place           "http://dbpedia.org/resource/Balladen" ;
+        ont:subject         <http://dbpedia.org/resource/Gustav_Nicolai> ;
+        ont:timeExpression  "1837" , "3–7" .
+
+<http://w3id.org/polifonia/pilot/meetups/51012206/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeremiah> ;
+        ont:place           "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Gustav_Nicolai> ;
+        ont:timeExpression  "1830" , "25sten" .

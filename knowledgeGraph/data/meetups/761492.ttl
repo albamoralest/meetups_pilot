@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/761492/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Truman> , <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Washington,_D.C." ;
+        ont:subject         <http://dbpedia.org/resource/Margaret_Truman> ;
+        ont:timeExpression  "25" , "2011" , "From 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/761492/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harry_S._Truman> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Margaret_Truman> ;
+        ont:timeExpression  "one" , "two" , "In 1951" , "1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/761492/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Truman> , <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Harry_S._Truman> , <http://dbpedia.org/resource/Henry_A._Wallace> , <http://dbpedia.org/resource/Margaret_Tudor> ;
+        ont:place           "http://dbpedia.org/resource/Independence,_Missouri" , "http://dbpedia.org/resource/Delaware" ;
+        ont:subject         <http://dbpedia.org/resource/Margaret_Truman> ;
+        ont:timeExpression  "February 17 , 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/761492/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Tudor> ;
+        ont:place           "http://dbpedia.org/resource/White_House" ;
+        ont:subject         <http://dbpedia.org/resource/Margaret_Truman> ;
+        ont:timeExpression  "1945" , "1953" , "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/761492/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Truman> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Margaret_Truman> ;
+        ont:timeExpression  "February 17 , 1924" , "January 29 , 2008" .

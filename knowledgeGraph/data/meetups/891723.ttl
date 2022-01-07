@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woody_Herman> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "September 27 , 1927" , "May 27 , 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elliot_Lawrence> , <http://dbpedia.org/resource/Georgie_Auld> , <http://dbpedia.org/resource/Les_Brown_(bandleader)> , <http://dbpedia.org/resource/Jimmy_Dorsey> , <http://dbpedia.org/resource/Jerry_Wald> , <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:place           "http://dbpedia.org/resource/Pennsylvania" , "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "musician at 15" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lee_Konitz> ;
+        ont:place           "http://dbpedia.org/resource/Laren,_North_Holland" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ira_Sullivan> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clifford_Jordan> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1985" .

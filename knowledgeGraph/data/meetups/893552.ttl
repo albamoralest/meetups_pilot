@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/893552/23/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Guy_Burgess> , <http://dbpedia.org/resource/Coral_Browne> ;
+        ont:place           "http://dbpedia.org/resource/Moscow" , "http://dbpedia.org/resource/Soviet_Union" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Buchanan> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/893552/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Buchanan> ;
+        ont:place           "http://dbpedia.org/resource/Glasgow" , "http://dbpedia.org/resource/Apollo_Theatre" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Buchanan> ;
+        ont:timeExpression  "September 1912" .
+
+<http://w3id.org/polifonia/pilot/meetups/893552/23/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jack_Buchanan> ;
+        ont:place           "http://dbpedia.org/resource/Moscow" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Buchanan> ;
+        ont:timeExpression  "one" , "78rpm" .
+
+<http://w3id.org/polifonia/pilot/meetups/893552/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeffrey_Lyons> , <http://dbpedia.org/resource/Cyd_Charisse> , <http://dbpedia.org/resource/Fred_Astaire> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Buchanan> ;
+        ont:timeExpression  "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/893552/25/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Buchanan> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Buchanan> ;
+        ont:timeExpression  "in 1957" , "66" .
+
+<http://w3id.org/polifonia/pilot/meetups/893552/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Buchanan> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Buchanan> ;
+        ont:timeExpression  "In 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/893552/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Buchanan> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Buchanan> ;
+        ont:timeExpression  "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/893552/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Patricia_Arquette> , <http://dbpedia.org/resource/John_Buchanan> , <http://dbpedia.org/resource/James_Buchanan> ;
+        ont:place           "http://dbpedia.org/resource/Helensburgh" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Buchanan> ;
+        ont:timeExpression  "1865–1902" , "1860–1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/893552/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Buchanan> ;
+        ont:place           "http://dbpedia.org/resource/Monte_Carlo" , "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Buchanan> ;
+        ont:timeExpression  "1955" , "1932" , "1937" , "1939" , "1940" , "1929" , "1953" , "1933" , "1930" , "1935" , "1936" , "1938" .

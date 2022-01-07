@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2911472/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Randolph_Churchill> , <http://dbpedia.org/resource/Donald_James> , <http://dbpedia.org/resource/Don_Covay> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Covay> ;
+        ont:timeExpression  "January 31 , 2015" , "March 24 , 1936" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2911472/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> , <http://dbpedia.org/resource/Zach_Randolph> ;
+        ont:place           "http://dbpedia.org/resource/Washington,_D.C." ;
+        ont:subject         <http://dbpedia.org/resource/Don_Covay> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2911472/6/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Little_Richard> , <http://dbpedia.org/resource/Aretha_Franklin> , <http://dbpedia.org/resource/Otis_Redding> , <http://dbpedia.org/resource/Etta_James> ;
+        ont:place           "http://dbpedia.org/resource/Otis_Air_National_Guard_Base" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Covay> ;
+        ont:timeExpression  "1965 hit" , "in 1967" , "hit in 1968" .

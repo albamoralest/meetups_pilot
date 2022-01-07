@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/350673/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margrethe_II_of_Denmark> , <http://dbpedia.org/resource/Niels_Bohr> ;
+        ont:place           "http://dbpedia.org/resource/Copenhagen" ;
+        ont:subject         <http://dbpedia.org/resource/Blair_Brown> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/350673/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bonnie_Blair> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Blair_Brown> ;
+        ont:timeExpression  "April 23 , 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/350673/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sarah_Ruhl> ;
+        ont:place           "http://dbpedia.org/resource/Lincoln_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Blair_Brown> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/350673/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Molly_Dodd> ;
+        ont:place           "http://dbpedia.org/resource/Copenhagen" ;
+        ont:subject         <http://dbpedia.org/resource/Blair_Brown> ;
+        ont:timeExpression  "from 1987" , "1989" , "1980" , "1991" , "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/350673/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tom_Stoppard> , <http://dbpedia.org/resource/Molly_Dodd> ;
+        ont:place           "http://dbpedia.org/resource/Arcadia" , "http://dbpedia.org/resource/Vivian_Beaumont_Theater" ;
+        ont:subject         <http://dbpedia.org/resource/Blair_Brown> ;
+        ont:timeExpression  "1995" , "two" , "2003" , "1998" .

@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/143160/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nino_Rota> , <http://dbpedia.org/resource/Hans_Christian_Andersen> ;
+        ont:place           "http://dbpedia.org/resource/Milan" , "http://dbpedia.org/resource/San_Giovanni_dei_Fiorentini" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:timeExpression  "11" , "13" , "as 1923" , "in 1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/143160/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eduardo_De_Filippo> , <http://dbpedia.org/resource/Luchino_Visconti> ;
+        ont:place           "http://dbpedia.org/resource/Bari" , "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:timeExpression  "30" .
+
+<http://w3id.org/polifonia/pilot/meetups/143160/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eugene_Walter> ;
+        ont:place           "http://dbpedia.org/resource/Moon" ;
+        ont:subject         <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/143160/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Luchino_Visconti> , <http://dbpedia.org/resource/Nino_Rota> , <http://dbpedia.org/resource/Federico_Fellini> ;
+        ont:place           "http://dbpedia.org/resource/Vanni_chieftaincies" ;
+        ont:subject         <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:timeExpression  "10 April 1979" , "3 December 1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/143160/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nino_Rota> , <http://dbpedia.org/resource/Alfredo_Casella> , <http://dbpedia.org/resource/Giacomo_Orefice> , <http://dbpedia.org/resource/Ildebrando_Pizzetti> ;
+        ont:place           "http://dbpedia.org/resource/Rome" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:timeExpression  "from 1930" , "1932" , "in 1930.Encouraged" .
+
+<http://w3id.org/polifonia/pilot/meetups/143160/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Chaplin> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:timeExpression  "two" , "until 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/143160/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:place           "http://dbpedia.org/resource/Milan" , "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:timeExpression  "3 December 1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/143160/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:place           "http://dbpedia.org/resource/Bari" , "http://dbpedia.org/resource/Milan" ;
+        ont:subject         <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:timeExpression  "from 1950" , "until 1978" , "in 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/143160/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Giulietta_Masina> , <http://dbpedia.org/resource/Nino_Rota> , <http://dbpedia.org/resource/Mauro_Maur> ;
+        ont:place           "http://dbpedia.org/resource/Santa_Maria_degli_Angeli_e_dei_Martiri" ;
+        ont:subject         <http://dbpedia.org/resource/Nino_Rota> ;
+        ont:timeExpression  "1963" , "8½" , "as one" .

@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/188533/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ronnie_Lane> ;
+        ont:place           "http://dbpedia.org/resource/Manor_Park_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/Ronnie_Lane> ;
+        ont:timeExpression  "in 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/188533/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Albert_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Ronnie_Lane> ;
+        ont:timeExpression  "two" .

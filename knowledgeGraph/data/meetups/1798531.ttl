@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1798531/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Suman_Nagarkar> , <http://dbpedia.org/resource/Geeta_Dutt> , <http://dbpedia.org/resource/Mohammed_Rafi> ;
+        ont:place           "http://dbpedia.org/resource/Roka" ;
+        ont:subject         <http://dbpedia.org/resource/Suman_Kalyanpur> ;
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/1798531/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Suman_Nagarkar> ;
+        ont:place           "http://dbpedia.org/resource/Bangladesh" , "http://dbpedia.org/resource/Dhaka" , "http://dbpedia.org/resource/Kalyanpur_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/Suman_Kalyanpur> ;
+        ont:timeExpression  "28 January 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/1798531/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jahanara_Begum> , <http://dbpedia.org/resource/Noor_Jehan> , <http://dbpedia.org/resource/Muhammad_ibn_Zakariya_al-Razi> ;
+        ont:place           "http://dbpedia.org/resource/Kalyanpur_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/Suman_Kalyanpur> ;
+        ont:timeExpression  "1962" , "1964" , "1971" , "1963" , "1968" , "1960" , "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1798531/75/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lata_Mangeshkar> ;
+        ont:place           "http://dbpedia.org/resource/Maharashtra" ;
+        ont:subject         <http://dbpedia.org/resource/Suman_Kalyanpur> ;
+        ont:timeExpression  "Lata Mangeshkar Award 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/1798531/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Suman_Kalyanpur> , <http://dbpedia.org/resource/Suman_Nagarkar> ;
+        ont:place           "http://dbpedia.org/resource/Kalyanpur_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/Suman_Kalyanpur> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/1798531/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Suman_Kalyanpur> , <http://dbpedia.org/resource/Suman_Nagarkar> ;
+        ont:place           "http://dbpedia.org/resource/India" ;
+        ont:subject         <http://dbpedia.org/resource/Suman_Kalyanpur> ;
+        ont:timeExpression  "28 January 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/1798531/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lata_Mangeshkar> ;
+        ont:place           "http://dbpedia.org/resource/Mere,_Wiltshire" ;
+        ont:subject         <http://dbpedia.org/resource/Suman_Kalyanpur> ;
+        ont:timeExpression  "one" .

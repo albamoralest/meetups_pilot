@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:timeExpression  "January 30 , 1987" , "March 14 , 1905" .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harold_Loeffelmacher> , <http://dbpedia.org/resource/Lawrence_Welk> ;
+        ont:place           "http://dbpedia.org/resource/Minnesota" , "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_New_Ulm" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:timeExpression  "Minnesota.In 1990 , three" , "in 1988" .

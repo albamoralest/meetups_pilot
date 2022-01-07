@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/948305/15/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christopher_Awdry> , <http://dbpedia.org/resource/Paul_Eddington> , <http://dbpedia.org/resource/Peter_Jeffrey> , <http://dbpedia.org/resource/Anna_Massey> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Pete_Atkin> ;
+        ont:timeExpression  "over 14" , "in 1995" , "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/948305/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/LeBron_James> , <http://dbpedia.org/resource/Robert_Covington> ;
+        ont:place           "http://dbpedia.org/resource/Argentina" ;
+        ont:subject         <http://dbpedia.org/resource/Pete_Atkin> ;
+        ont:timeExpression  "in 1976" , "six" , "1970s" , "one hit" .
+
+<http://w3id.org/polifonia/pilot/meetups/948305/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pete_Atkin> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Pete_Atkin> ;
+        ont:timeExpression  "1970s" , "22 August 1945" , "BBC Radio 4" .
+
+<http://w3id.org/polifonia/pilot/meetups/948305/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/LeBron_James> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Pete_Atkin> ;
+        ont:timeExpression  "2003" , "2005" , "In 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/948305/75/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pete_Atkin> ;
+        ont:place           "http://dbpedia.org/resource/Monyash" ;
+        ont:subject         <http://dbpedia.org/resource/Pete_Atkin> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/948305/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_VI_and_I> ;
+        ont:place           "http://dbpedia.org/resource/Breux,_Meuse" ;
+        ont:subject         <http://dbpedia.org/resource/Pete_Atkin> ;
+        ont:timeExpression  "two" , "one" .

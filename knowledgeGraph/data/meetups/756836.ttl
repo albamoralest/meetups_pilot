@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/756836/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_Nance_Jr.> , <http://dbpedia.org/resource/Johnny_Hodges> , <http://dbpedia.org/resource/Russell_Procope> , <http://dbpedia.org/resource/Sonny_Greer> , <http://dbpedia.org/resource/Ivory_Joe_Hunter> ;
+        ont:place           "http://dbpedia.org/resource/Cincinnati" ;
+        ont:subject         <http://dbpedia.org/resource/Ray_Nance> ;
+        ont:timeExpression  "In 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/756836/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ray_Willis> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Ray_Nance> ;
+        ont:timeExpression  "December 10 , 1913" , "January 28 , 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/756836/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Duke_Ellington> , <http://dbpedia.org/resource/Lambert_of_Maastricht> ;
+        ont:place           "http://dbpedia.org/resource/Lanham,_Maryland" ;
+        ont:subject         <http://dbpedia.org/resource/Ray_Nance> ;
+        ont:timeExpression  "1998" , "ISBN 978-0-8108-3161-2" .
+
+<http://w3id.org/polifonia/pilot/meetups/756836/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_Nance> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Ray_Nance> ;
+        ont:timeExpression  "1937" , "from 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/756836/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_Nance_Jr.> , <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Ray_Nance> ;
+        ont:timeExpression  "four" , "for three" , "in 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/756836/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cootie_Williams> ;
+        ont:place           "http://dbpedia.org/resource/Middle_East" ;
+        ont:subject         <http://dbpedia.org/resource/Ray_Nance> ;
+        ont:timeExpression  "in 1963" .

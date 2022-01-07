@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/413210/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Francis_Webster> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Francis_Webster> ;
+        ont:timeExpression  "December 20 , 1907" , "March 18 , 1984" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/413210/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Horace> , <http://dbpedia.org/resource/Thomas_Mann> ;
+        ont:place           "http://dbpedia.org/resource/Riverdale,_Bronx" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Francis_Webster> ;
+        ont:timeExpression  "from 1927" , "in 1926" , "1928" , "from 1928" , "1930" .

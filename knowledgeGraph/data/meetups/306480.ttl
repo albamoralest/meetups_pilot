@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/306480/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:timeExpression  "2003–04" .
+
+<http://w3id.org/polifonia/pilot/meetups/306480/8/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_F._Kennedy> , <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:timeExpression  "one" , "In 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/306480/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:timeExpression  "March 31 , 2017" , "November 29 , 1933" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/306480/12/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mimi_Smith> , <http://dbpedia.org/resource/Klay_Thompson> ;
+        ont:place           "http://dbpedia.org/resource/Hernando_County,_Florida" ;
+        ont:subject         <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:timeExpression  "April 18 , 1987" , "for 30" , "one child" , "April 25 , 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/306480/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sarah> , <http://dbpedia.org/resource/Douglas_Coupland> , <http://dbpedia.org/resource/Walter_Hopps> ;
+        ont:place           "http://dbpedia.org/resource/Jewish_Museum_(Manhattan)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:timeExpression  "retrospective in 2003" , "in 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/306480/8/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leo_Castelli> ;
+        ont:place           "http://dbpedia.org/resource/Manhattan" ;
+        ont:subject         <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/306480/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/America_Young> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:timeExpression  "in 1988" , "in 1963" , "in 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/306480/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edwin_Dickinson> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/James_Rosenquist> ;
+        ont:timeExpression  "In 1955" , "age of 21" .

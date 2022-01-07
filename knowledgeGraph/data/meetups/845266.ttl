@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/845266/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Aleister_Crowley> ;
+        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Eva_Tanguay> ;
+        ont:timeExpression  "fame around 1910.After" , "3,500" , "in 2019" , "90,000" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/845266/15/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mitzi_Gaynor> , <http://dbpedia.org/resource/Eva_Tanguay> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Eva_Tanguay> ;
+        ont:timeExpression  "In 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/845266/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_C> ;
+        ont:place           "http://dbpedia.org/resource/Holyoke_Opera_House" ;
+        ont:subject         <http://dbpedia.org/resource/Eva_Tanguay> ;
+        ont:timeExpression  "by one" .

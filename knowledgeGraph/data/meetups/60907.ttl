@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/60907/17/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benjamin_Franklin> , <http://dbpedia.org/resource/Howard_Stern> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Empower_Field_at_Mile_High" , "http://dbpedia.org/resource/Philadelphia" , "http://dbpedia.org/resource/Denver" ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Rayburn> ;
+        ont:timeExpression  "in 1976" , "in 1977" , "for two" , "In 1992" , "show as one" .
+
+<http://w3id.org/polifonia/pilot/meetups/60907/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gene_Rayburn> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Rayburn> ;
+        ont:timeExpression  "December 22 , 1917" , "November 29 , 1999" .

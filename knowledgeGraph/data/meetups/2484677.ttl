@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Carter> ;
+        ont:place           "http://dbpedia.org/resource/Burlington,_Vermont" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Winchester" , "http://dbpedia.org/resource/Bozeman_Trail" ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "April 21 , 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Lee_III> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_VI_and_I> ;
+        ont:place           "http://dbpedia.org/resource/Winchester" ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "May 17 , 1944" , "April 11 , 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robbie_Robertson> ;
+        ont:place           "http://dbpedia.org/resource/Winchester" ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "career in 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Taylor> , <http://dbpedia.org/resource/Rosanne_Cash> , <http://dbpedia.org/resource/Lyle_Lovett> , <http://dbpedia.org/resource/Lucinda_Williams> , <http://dbpedia.org/resource/Jimmy_Buffett> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" , "http://dbpedia.org/resource/Winchester" ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "April 2014" , "in 2012" .

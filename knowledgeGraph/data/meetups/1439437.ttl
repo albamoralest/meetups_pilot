@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1439437/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Morgan_Fisher> , <http://dbpedia.org/resource/Luther_Grosvenor> ;
+        ont:place           "http://dbpedia.org/resource/Hunter_Region" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Grosvenor> ;
+        ont:timeExpression  "June 2018" , "1974" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1439437/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Luther_Grosvenor> , <http://dbpedia.org/resource/Morgan_Fisher> ;
+        ont:place           "http://dbpedia.org/resource/Hunter_Region" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Grosvenor> ;
+        ont:timeExpression  "six" , "14" , "April 2019" , "eight" , "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/1439437/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mick_Ralphs> , <http://dbpedia.org/resource/Lynsey_de_Paul> ;
+        ont:place           "http://dbpedia.org/resource/Germany" , "http://dbpedia.org/resource/Hunter_Region" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Grosvenor> ;
+        ont:timeExpression  "24 June 1973" .

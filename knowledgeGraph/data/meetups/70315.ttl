@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/70315/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Debbie_Reynolds> , <http://dbpedia.org/resource/Irene_of_Athens> ;
+        ont:place           "http://dbpedia.org/resource/Perth" ;
+        ont:subject         <http://dbpedia.org/resource/Debbie_Reynolds> ;
+        ont:timeExpression  "2008" , "Perth Western AustraliaIn 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/70315/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Irene_of_Athens> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Debbie_Reynolds> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/70315/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ronald_Fisher> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Ronald_Reagan_UCLA_Medical_Center" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Debbie_Reynolds> ;
+        ont:timeExpression  "December 27 , 2016" , "December 23 , 2016" , "age of 60" .
+
+<http://w3id.org/polifonia/pilot/meetups/70315/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Debbie_Reynolds> ;
+        ont:timeExpression  "December 28 , 2016" , "April 1 , 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/70315/15/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Steve_Hackett> ;
+        ont:place           "http://dbpedia.org/resource/2014_UZ224" ;
+        ont:subject         <http://dbpedia.org/resource/Debbie_Reynolds> ;
+        ont:timeExpression  "November 22 , 1994" , "One Thing" .
+
+<http://w3id.org/polifonia/pilot/meetups/70315/21/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donald_O'Connor> , <http://dbpedia.org/resource/Betty_Hutton> ;
+        ont:place           "http://dbpedia.org/resource/The_Burbank_Studios" ;
+        ont:subject         <http://dbpedia.org/resource/Debbie_Reynolds> ;
+        ont:timeExpression  "contest in 1948.Reynolds" .
+
+<http://w3id.org/polifonia/pilot/meetups/70315/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Brown> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Debbie_Reynolds> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/70315/0/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Debbie_Reynolds> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Debbie_Reynolds> ;
+        ont:timeExpression  "in 2019" , "In 1979" , "1969" .

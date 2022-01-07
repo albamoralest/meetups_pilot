@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1413284/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gianfranco_Ferré> , <http://dbpedia.org/resource/Sylvia_Rexach> ;
+        ont:place           "http://dbpedia.org/resource/San_Juan,_Puerto_Rico" ;
+        ont:subject         <http://dbpedia.org/resource/Sylvia_Rexach> ;
+        ont:timeExpression  "12" , "May 29 , 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413284/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sharon_Osbourne> , <http://dbpedia.org/resource/Sylvia_Anderson> ;
+        ont:place           "http://dbpedia.org/resource/Natural_Park_of_El_Fondo" ;
+        ont:subject         <http://dbpedia.org/resource/Sylvia_Rexach> ;
+        ont:timeExpression  "2001" , "Two television" .

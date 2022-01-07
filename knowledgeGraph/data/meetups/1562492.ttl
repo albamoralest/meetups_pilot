@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1562492/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Harrison> ;
+        ont:place           "http://dbpedia.org/resource/Spencer,_North_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Wilbert_Harrison> ;
+        ont:timeExpression  "age of 65" , "stroke in 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/1562492/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Antipope_Clement_III> , <http://dbpedia.org/resource/George_Harrison> ;
+        ont:place           "http://dbpedia.org/resource/Huntington,_West_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Wilbert_Harrison> ;
+        ont:timeExpression  "October 26 , 1994" , "January 5 , 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/1562492/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Harrison> ;
+        ont:place           "http://dbpedia.org/resource/Kansas_City_metropolitan_area" , "http://dbpedia.org/resource/Charlotte_metropolitan_area" ;
+        ont:subject         <http://dbpedia.org/resource/Wilbert_Harrison> ;
+        ont:timeExpression  "in 1959" , "1 record" .
+
+<http://w3id.org/polifonia/pilot/meetups/1562492/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Harrison> ;
+        ont:place           "http://dbpedia.org/resource/Kansas_City_metropolitan_area" ;
+        ont:subject         <http://dbpedia.org/resource/Wilbert_Harrison> ;
+        ont:timeExpression  "Billboard Hot 100" , "September 1959" , "1970" , "Billboard Top 40" , "Part 1" , "32" , "ten" .
+
+<http://w3id.org/polifonia/pilot/meetups/1562492/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Harrison> ;
+        ont:place           "http://dbpedia.org/resource/North_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Wilbert_Harrison> ;
+        ont:timeExpression  "in 2009" .

@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1205991/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mabel_Gardiner_Hubbard> , <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Washington,_D.C." ;
+        ont:subject         <http://dbpedia.org/resource/Donna_McKechnie> ;
+        ont:timeExpression  "fall of 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/1205991/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ruth_Johnson> , <http://dbpedia.org/resource/Carolyn_Franklin> ;
+        ont:place           "http://dbpedia.org/resource/Michigan" ;
+        ont:subject         <http://dbpedia.org/resource/Donna_McKechnie> ;
+        ont:timeExpression  "in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/1205991/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donna_McKechnie> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Donna_McKechnie> ;
+        ont:timeExpression  "November 16 , 1940" .

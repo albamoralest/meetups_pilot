@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1022191/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_Robinson> ;
+        ont:place           "http://dbpedia.org/resource/El_Salvador" ;
+        ont:subject         <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/1022191/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:place           "http://dbpedia.org/resource/Dublin" ;
+        ont:subject         <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:timeExpression  "in 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/1022191/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:place           "http://dbpedia.org/resource/Lisdoonvarna" ;
+        ont:subject         <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:timeExpression  "In 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/1022191/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:place           "http://dbpedia.org/resource/Glasgow" ;
+        ont:subject         <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/1022191/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Liam_O'Flynn> ;
+        ont:place           "http://dbpedia.org/resource/Irvine_Transportation_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:timeExpression  "four" , "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/1022191/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Francisco_Franco> , <http://dbpedia.org/resource/Mick_Hanly> ;
+        ont:place           "http://dbpedia.org/resource/Derry" , "http://dbpedia.org/resource/Enniskillen" ;
+        ont:subject         <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:timeExpression  "in 1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/1022191/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:place           "http://dbpedia.org/resource/Nottingham" ;
+        ont:subject         <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:timeExpression  "Nottingham November 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/1022191/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:place           "http://dbpedia.org/resource/Dublin" ;
+        ont:subject         <http://dbpedia.org/resource/Christy_Moore> ;
+        ont:timeExpression  "Dublin 2006" , "143" , "2006" .

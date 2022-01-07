@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3445142/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georgi_Rusev> ;
+        ont:place           "http://dbpedia.org/resource/Japan" , "http://dbpedia.org/resource/Tokyo" ;
+        ont:subject         <http://dbpedia.org/resource/Lili_Ivanova> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/3445142/3/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lili_Ivanova> ;
+        ont:place           "http://dbpedia.org/resource/Moscow" ;
+        ont:subject         <http://dbpedia.org/resource/Lili_Ivanova> ;
+        ont:timeExpression  "1968 ]" , "1968 [" .
+
+<http://w3id.org/polifonia/pilot/meetups/3445142/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lili_Ivanova> ;
+        ont:place           "http://dbpedia.org/resource/Bulgaria" , "http://dbpedia.org/resource/Balkan_Mountains" ;
+        ont:subject         <http://dbpedia.org/resource/Lili_Ivanova> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/3445142/15/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lili_Ivanova> ;
+        ont:place           "http://dbpedia.org/resource/Ruse,_Bulgaria" , "http://dbpedia.org/resource/OZK_Arena_Ruse" ;
+        ont:subject         <http://dbpedia.org/resource/Lili_Ivanova> ;
+        ont:timeExpression  "July 23 , 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/3445142/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georgi_Rusev> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Lili_Ivanova> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/3445142/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Viktor_Yosifov> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Lili_Ivanova> ;
+        ont:timeExpression  "from 1968" , "over 1" , "million" , "1986" .

@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/553740/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Klein> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Klein> ;
+        ont:timeExpression  "February 8 , 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/553740/10/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Calvin_Klein> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Decatur_station" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Klein> ;
+        ont:timeExpression  "2006" , "Grace Adler.In 2014" , "in two" , "29 January 2018" .
+
+<http://w3id.org/polifonia/pilot/meetups/553740/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_McCarthy> , <http://dbpedia.org/resource/Johnny_Mathis> , <http://dbpedia.org/resource/W._Averell_Harriman> , <http://dbpedia.org/resource/Yves_Klein> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Klein> ;
+        ont:timeExpression  "1973" , "50s" .
+
+<http://w3id.org/polifonia/pilot/meetups/553740/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Calvin_Klein> ;
+        ont:place           "http://dbpedia.org/resource/Olympia_London" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Klein> ;
+        ont:timeExpression  "1979" , "in 1978" , "in 1975" , "in 1978.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/553740/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benjamin> , <http://dbpedia.org/resource/Frieda_Lawrence> , <http://dbpedia.org/resource/Melanie_Klein> ;
+        ont:place           "http://dbpedia.org/resource/The_Bronx" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Klein> ;
+        ont:timeExpression  "1950s" .

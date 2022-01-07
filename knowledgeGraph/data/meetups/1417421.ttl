@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1417421/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Guillaume_Henri_Dufour> ;
+        ont:place           "http://dbpedia.org/resource/Canada" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jim_Perry_(television_personality)> ;
+        ont:timeExpression  "in 1969" , "Miss Canada 1981" , "100" .
+
+<http://w3id.org/polifonia/pilot/meetups/1417421/14/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Wink_Martindale> , <http://dbpedia.org/resource/Josh_Wink> ;
+        ont:place           "http://dbpedia.org/resource/Illinois" ;
+        ont:subject         <http://dbpedia.org/resource/Jim_Perry_(television_personality)> ;
+        ont:timeExpression  "August 1 , 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/1417421/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Wink_Martindale> , <http://dbpedia.org/resource/Art_James> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jim_Perry_(television_personality)> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/1417421/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mark_Goodson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jim_Perry_(television_personality)> ;
+        ont:timeExpression  "in 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/1417421/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Barker> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jim_Perry_(television_personality)> ;
+        ont:timeExpression  "from 1967" , "until 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/1417421/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joan_Rivers> ;
+        ont:place           "http://dbpedia.org/resource/Canada" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jim_Perry_(television_personality)> ;
+        ont:timeExpression  "in 1969" , "1970s" .

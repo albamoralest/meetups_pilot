@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/409969/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Little_Richard> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Williams> ;
+        ont:timeExpression  "In 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/409969/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_Williams> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Williams> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/409969/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lloyd_Price> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Williams> ;
+        ont:timeExpression  "in 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/409969/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lloyd_Price> , <http://dbpedia.org/resource/Percy_Mayfield> , <http://dbpedia.org/resource/Roy_Brown_(blues_musician)> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Williams> ;
+        ont:timeExpression  "In 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/409969/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_Williams> ;
+        ont:place           "http://dbpedia.org/resource/Louisiana" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Williams> ;
+        ont:timeExpression  "2019" , "2014.On June 25" , "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/409969/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Little_Richard> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Williams> ;
+        ont:timeExpression  "January 7 , 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/409969/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Iolo_Morganwg> , <http://dbpedia.org/resource/Saint_Lawrence> ;
+        ont:place           "http://dbpedia.org/resource/Louisiana" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Williams> ;
+        ont:timeExpression  "January 7 , 1980" , "May 10 , 1935" .

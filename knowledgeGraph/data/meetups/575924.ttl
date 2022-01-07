@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rius> ;
+        ont:place           "http://dbpedia.org/resource/Villarreal" ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "ISBN 84-88331-82-7" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pedro_II_of_Brazil> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Lyon" ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "In 1881" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lico> ;
+        ont:place           "http://dbpedia.org/resource/Carracedelo" ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "October 27 , 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maria_II_of_Portugal> ;
+        ont:place           "http://dbpedia.org/resource/Barcelona" , "http://dbpedia.org/resource/Madrid" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "in 1885" .

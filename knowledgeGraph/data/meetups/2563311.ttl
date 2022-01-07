@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2563311/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chris_Ethridge> , <http://dbpedia.org/resource/Chris_Hillman> , <http://dbpedia.org/resource/Gram_Parsons> ;
+        ont:place           "http://dbpedia.org/resource/Reseda,_Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Sneaky_Pete_Kleinow> ;
+        ont:timeExpression  "throughout 1968" , "in 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/2563311/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Al_Kooper> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Sneaky_Pete_Kleinow> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/2563311/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gram_Parsons> ;
+        ont:place           "http://dbpedia.org/resource/California" , "http://dbpedia.org/resource/Joshua_Tree_National_Park" ;
+        ont:subject         <http://dbpedia.org/resource/Sneaky_Pete_Kleinow> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/2563311/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/British_Empire" , "http://dbpedia.org/resource/Hudson_River" ;
+        ont:subject         <http://dbpedia.org/resource/Sneaky_Pete_Kleinow> ;
+        ont:timeExpression  "1991" , "Terminator 2" , "1980" , "2000" , "since 1989" , "1970" , "1983" , "three" , "1997" , "1984" , "2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/2563311/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chris_Strouth> , <http://dbpedia.org/resource/Joe_Cocker> , <http://dbpedia.org/resource/Harry_Nilsson> , <http://dbpedia.org/resource/Chris_Ethridge> , <http://dbpedia.org/resource/Stevie_Wonder> , <http://dbpedia.org/resource/Linda_Ronstadt> , <http://dbpedia.org/resource/John_Cale> , <http://dbpedia.org/resource/Joni_Mitchell> , <http://dbpedia.org/resource/Little_Richard> , <http://dbpedia.org/resource/Yoko_Ono> , <http://dbpedia.org/resource/John_Lennon> , <http://dbpedia.org/resource/Billy_Joel> , <http://dbpedia.org/resource/Leonard_Cohen> , <http://dbpedia.org/resource/Frank_Zappa> ;
+        ont:place           "http://dbpedia.org/resource/Cold_Spring_Harbor_Laboratory" ;
+        ont:subject         <http://dbpedia.org/resource/Sneaky_Pete_Kleinow> ;
+        ont:timeExpression  "Paris 1919 , 1973" , "1974" , "1973" , "1972" , "1969" , "1971" , "1977" , "1970" , "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/2563311/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Billy_Joel> ;
+        ont:place           "http://dbpedia.org/resource/Cold_Spring_Harbor_Laboratory" ;
+        ont:subject         <http://dbpedia.org/resource/Sneaky_Pete_Kleinow> ;
+        ont:timeExpression  "1971" .

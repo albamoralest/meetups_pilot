@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/232719/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/Markham_River" ;
+        ont:subject         <http://dbpedia.org/resource/Pigmeat_Markham> ;
+        ont:timeExpression  "March 25 , 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/232719/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pigmeat_Markham> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Pigmeat_Markham> ;
+        ont:timeExpression  "April 18 , 1904" , "December 13 , 1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/232719/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> , <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Markham_River" , "http://dbpedia.org/resource/Harlem" ;
+        ont:subject         <http://dbpedia.org/resource/Pigmeat_Markham> ;
+        ont:timeExpression  "1949 revue film" , "1968–69 television season" .

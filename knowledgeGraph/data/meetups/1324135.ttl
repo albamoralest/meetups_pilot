@@ -1,0 +1,84 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sol_Hurok> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "on 15,16" , "18 December 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lotta_Engberg> , <http://dbpedia.org/resource/Yoko_Ono> ;
+        ont:place           "http://dbpedia.org/resource/Moscow" , "http://dbpedia.org/resource/Saint_Petersburg" , "http://dbpedia.org/resource/Kyiv" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "Odessa.In 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Adolf_Hitler> ;
+        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "Six" .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leonard_Bernstein> , <http://dbpedia.org/resource/Charles_II_of_England> , <http://dbpedia.org/resource/MiKKa> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "1971" , "1958" , "1984" , "with two" , "50" , "in 1972" , "25 May 1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Giovanni_Battista_Rogeri> , <http://dbpedia.org/resource/Antonio_Stradivari> ;
+        ont:place           "http://dbpedia.org/resource/Bowden_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "1740" , "1737" , "1699" .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Max_Bruch> ;
+        ont:place           "http://dbpedia.org/resource/Europe" , "http://dbpedia.org/resource/Poland" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "in 1954" , "between 1954" , "PL 8660-" , "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Immanuel_Velikovsky> , <http://dbpedia.org/resource/Zvi_Zeitlin> ;
+        ont:place           "http://dbpedia.org/resource/Kamianets-Podilskyi" , "http://dbpedia.org/resource/Haifa" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "five" , "in 1921" , "25 August 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Spa,_Belgium" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "1938–1940" , "At 11" , "in 1935.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Adele> ;
+        ont:place           "http://dbpedia.org/resource/Alfortville" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "Bonifacio Music Festivals.In 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jascha_Heifetz> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1324135/22/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Antonio_Stradivari> , <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Ivry_Gitlis> ;
+        ont:timeExpression  "Paris 1944" , "1713" , "1951" .

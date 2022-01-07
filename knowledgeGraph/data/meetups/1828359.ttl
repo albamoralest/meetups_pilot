@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1828359/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lorenzo_de'_Medici> ;
+        ont:place           "http://dbpedia.org/resource/Negrete" ;
+        ont:subject         <http://dbpedia.org/resource/Jorge_Negrete> ;
+        ont:timeExpression  "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/1828359/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alberto_Moreno> , <http://dbpedia.org/resource/Pedro_Celestino_Negrete> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jorge_Negrete> ;
+        ont:timeExpression  "in 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/1828359/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leticia_Palma> , <http://dbpedia.org/resource/Manuel_I_Komnenos> ;
+        ont:place           "http://dbpedia.org/resource/Lez_(river)" , "http://dbpedia.org/resource/Negrete" ;
+        ont:subject         <http://dbpedia.org/resource/Jorge_Negrete> ;
+        ont:timeExpression  "In 1952" , "January 2 , 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/1828359/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pedro_Celestino_Negrete> ;
+        ont:place           "http://dbpedia.org/resource/Camarines_Norte" , "http://dbpedia.org/resource/Northern_United_States" , "http://dbpedia.org/resource/Mexico_City" , "http://dbpedia.org/resource/Guanajuato" ;
+        ont:subject         <http://dbpedia.org/resource/Jorge_Negrete> ;
+        ont:timeExpression  "two" , "around 1920" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1828359/3/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Xavier_Cugat> ;
+        ont:place           "http://dbpedia.org/resource/Negrete" ;
+        ont:subject         <http://dbpedia.org/resource/Jorge_Negrete> ;
+        ont:timeExpression  "1937" .

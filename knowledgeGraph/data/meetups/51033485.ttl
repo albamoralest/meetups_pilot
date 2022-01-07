@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:place           "http://dbpedia.org/resource/Bolshoi_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "In 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alexander_Ostrovsky> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "in 1959.Virtually" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Victor_Hugo> , <http://dbpedia.org/resource/Carlo_Goldoni> , <http://dbpedia.org/resource/Lyubov_Dostoevskaya> , <http://dbpedia.org/resource/Alexander_Pushkin> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "of Two" , "Konstantin Trenev.In 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Igor_Gorbachyov> , <http://dbpedia.org/resource/Anton_Chekhov> , <http://dbpedia.org/resource/Saint_Joseph> , <http://dbpedia.org/resource/Alexander_Yakushev> , <http://dbpedia.org/resource/Sergei_Kolosov> ;
+        ont:place           "http://dbpedia.org/resource/Suomenlinna" ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "Two" , "1984" , "1983" , "1966" , "1980s" , "1990s" , "1967" , "1982" , "1981" , "1972" , "in one" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:place           "http://dbpedia.org/resource/Iowa" ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "In 1992" .

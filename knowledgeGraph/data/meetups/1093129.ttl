@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1093129/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Gray_Davis> , <http://dbpedia.org/resource/Frank_Sinatra> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/500_Club" ;
+        ont:subject         <http://dbpedia.org/resource/Elvera_Sanchez> ;
+        ont:timeExpression  "death in 2000" , "1989" , "500" .
+
+<http://w3id.org/polifonia/pilot/meetups/1093129/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Wil_Haygood> , <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/San_Juan,_Puerto_Rico" ;
+        ont:subject         <http://dbpedia.org/resource/Elvera_Sanchez> ;
+        ont:timeExpression  "2003 biography" .
+
+<http://w3id.org/polifonia/pilot/meetups/1093129/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elvera_Sanchez> , <http://dbpedia.org/resource/Marco_Sanchez> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Elvera_Sanchez> ;
+        ont:timeExpression  "October 5 , 1996" , "February 14 , 1884" .
+
+<http://w3id.org/polifonia/pilot/meetups/1093129/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gray_Davis> , <http://dbpedia.org/resource/Elvera_Sanchez> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Elvera_Sanchez> ;
+        ont:timeExpression  "September 2 , 2000" , "September 1 , 1905" .
+
+<http://w3id.org/polifonia/pilot/meetups/1093129/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Billy_Eckstine> , <http://dbpedia.org/resource/Sarah_Vaughan> ;
+        ont:place           "http://dbpedia.org/resource/500_Club" ;
+        ont:subject         <http://dbpedia.org/resource/Elvera_Sanchez> ;
+        ont:timeExpression  "500" .

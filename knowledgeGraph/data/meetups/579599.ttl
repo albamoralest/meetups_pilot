@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/579599/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Montrezl_Harrell> , <http://dbpedia.org/resource/Serena_Williams> ;
+        ont:place           "http://dbpedia.org/resource/Gainesville,_Texas" , "http://dbpedia.org/resource/Dallas" ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Austin> ;
+        ont:timeExpression  "1956" , "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/579599/5/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> ;
+        ont:place           "http://dbpedia.org/resource/Dolores_Hidalgo" ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Austin> ;
+        ont:timeExpression  "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/579599/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mae_West> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Austin> ;
+        ont:timeExpression  "1940" , "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/579599/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fats_Waller> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Austin> ;
+        ont:timeExpression  "1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/579599/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gene_Austin> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Austin> ;
+        ont:timeExpression  "one" , "June 24 , 1900" , "January 24 , 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/579599/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Aileen_Stanley> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Austin> ;
+        ont:timeExpression  "1925" .

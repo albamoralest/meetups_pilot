@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/877017/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Terry_Gibbs> , <http://dbpedia.org/resource/Al_Cohn> , <http://dbpedia.org/resource/Zoot_Sims> , <http://dbpedia.org/resource/Serge_Chaloff> , <http://dbpedia.org/resource/Kai_Winding> , <http://dbpedia.org/resource/Gerry_Mulligan> , <http://dbpedia.org/resource/Allen_Eager> , <http://dbpedia.org/resource/Red_Rodney> , <http://dbpedia.org/resource/Joe_Marsala> , <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/Brew_Moore> , <http://dbpedia.org/resource/Dizzy_Gillespie> ;
+        ont:place           "http://dbpedia.org/resource/Wallington_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/George_Wallington> ;
+        ont:timeExpression  "1950" , "1953" , "From 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/877017/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Wallington_railway_station" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/George_Wallington> ;
+        ont:timeExpression  "February 15 , 1993" , "October 27 , 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/877017/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Phil_Woods> , <http://dbpedia.org/resource/Jackie_McLean> , <http://dbpedia.org/resource/Donald_Byrd> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/George_Wallington> ;
+        ont:timeExpression  "Phil Woods.From 1954" , "1960" .

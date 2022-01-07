@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/97205/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Teddy_Park> , <http://dbpedia.org/resource/Charles_Bukowski> , <http://dbpedia.org/resource/William_Shakespeare> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Norman> ;
+        ont:timeExpression  "In 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/97205/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_David> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Norman> ;
+        ont:timeExpression  "April 8 , 1947" , "February 24 , 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/97205/13/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_Norman> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles_International_Airport" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Norman> ;
+        ont:timeExpression  "in 1980" , "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/97205/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_Norman> ;
+        ont:place           "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Corpus_Christi" , "http://dbpedia.org/resource/Nebraska" ;
+        ont:subject         <http://dbpedia.org/resource/Larry_Norman> ;
+        ont:timeExpression  "April 28 , 1999" , "in 1925" , "December 9 , 1923" .

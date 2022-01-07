@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Simon_Wiesenthal> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Universal_Studios_Lot" ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "1995" , "February 4 , 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leopold_Mozart> , <http://dbpedia.org/resource/Thomas_Keneally> ;
+        ont:place           "http://dbpedia.org/resource/Pluto" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "Pluto.In 1982" , "in 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Terry_Gilliam> , <http://dbpedia.org/resource/Lew_Wasserman> ;
+        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "Brazil.In 1990" , "6.59 billion sale" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:place           "http://dbpedia.org/resource/Beverly_Hills,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "age of 84" , "March 7 , 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bryce_DeWitt> , <http://dbpedia.org/resource/Jimmy_Carter> ;
+        ont:place           "http://dbpedia.org/resource/Reddick,_Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "in 1989" , "In 1987" .

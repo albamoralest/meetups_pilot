@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/154959/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Nicholas> ;
+        ont:place           "http://dbpedia.org/resource/Graz" , "http://dbpedia.org/resource/Vienna" ;
+        ont:subject         <http://dbpedia.org/resource/Nikolaus_Harnoncourt> ;
+        ont:timeExpression  "19 March 2016" , "18 March 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/154959/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Nicholas> ;
+        ont:place           "http://dbpedia.org/resource/Berlin" , "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Nikolaus_Harnoncourt> ;
+        ont:timeExpression  "in 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/154959/57/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Nicholas> ;
+        ont:place           "http://dbpedia.org/resource/Freiburg_im_Breisgau" ;
+        ont:subject         <http://dbpedia.org/resource/Nikolaus_Harnoncourt> ;
+        ont:timeExpression  "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/154959/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leopold_Mozart> , <http://dbpedia.org/resource/Archduke_John_of_Austria> ;
+        ont:place           "http://dbpedia.org/resource/Habsburg_Monarchy" , "http://dbpedia.org/resource/Merano" ;
+        ont:subject         <http://dbpedia.org/resource/Nikolaus_Harnoncourt> ;
+        ont:timeExpression  "13th child" .
+
+<http://w3id.org/polifonia/pilot/meetups/154959/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Schumann> ;
+        ont:place           "http://dbpedia.org/resource/Zwickau" ;
+        ont:subject         <http://dbpedia.org/resource/Nikolaus_Harnoncourt> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/154959/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean_de_La_Fontaine> , <http://dbpedia.org/resource/Eberhard_of_Franconia> ;
+        ont:place           "http://dbpedia.org/resource/Berlin" ;
+        ont:subject         <http://dbpedia.org/resource/Nikolaus_Harnoncourt> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/154959/7/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johann_Sebastian_Bach> ;
+        ont:place           "http://dbpedia.org/resource/La_Scala" , "http://dbpedia.org/resource/Milan" ;
+        ont:subject         <http://dbpedia.org/resource/Nikolaus_Harnoncourt> ;
+        ont:timeExpression  "in 1970" , "1971" .

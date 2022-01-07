@@ -1,0 +1,14 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/51055506/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfred_de_Musset> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Alexandre_Dumas> ;
+        ont:place           "http://dbpedia.org/resource/Lâ" ;
+        ont:subject         <http://dbpedia.org/resource/Pierre-Julien_Nargeot> ;
+        ont:timeExpression  "1849" , "1848" , "1853" , "1845" , "1842" , "1852" , "1851" , "1840" .

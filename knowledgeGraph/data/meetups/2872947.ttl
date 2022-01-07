@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2872947/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Francis_Clay> ;
+        ont:place           "http://dbpedia.org/resource/Rock_Island,_Illinois" ;
+        ont:subject         <http://dbpedia.org/resource/George_%22Harmonica%22_Smith> ;
+        ont:timeExpression  "In 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/2872947/2/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Little_Willie_John> , <http://dbpedia.org/resource/Champion_Jack_Dupree> ;
+        ont:place           "http://dbpedia.org/resource/Cincinnati" ;
+        ont:subject         <http://dbpedia.org/resource/George_%22Harmonica%22_Smith> ;
+        ont:timeExpression  "In 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/2872947/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_V> ;
+        ont:place           "http://dbpedia.org/resource/Murray_River" ;
+        ont:subject         <http://dbpedia.org/resource/George_%22Harmonica%22_Smith> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/2872947/2/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rod_Piazza> , <http://dbpedia.org/resource/William_Clarke_(cricketer)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/West_Coast_of_the_United_States" ;
+        ont:subject         <http://dbpedia.org/resource/George_%22Harmonica%22_Smith> ;
+        ont:timeExpression  "in 1975.Smith" .
+
+<http://w3id.org/polifonia/pilot/meetups/2872947/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/George_%22Harmonica%22_Smith> ;
+        ont:timeExpression  "October 2 , 1983" , "April 22 , 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/2872947/2/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Muddy_Waters> ;
+        ont:place           "http://dbpedia.org/resource/West_Coast_of_the_United_States" ;
+        ont:subject         <http://dbpedia.org/resource/George_%22Harmonica%22_Smith> ;
+        ont:timeExpression  "In 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/2872947/2/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/George_%22Harmonica%22_Smith> ;
+        ont:timeExpression  "in 1983" , "age of 59" .

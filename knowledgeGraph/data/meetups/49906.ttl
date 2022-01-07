@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "August 6 , 1918" , "November 22 , 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dizzy_Gillespie> , <http://dbpedia.org/resource/Ella_Fitzgerald> ;
+        ont:place           "http://dbpedia.org/resource/Houston" , "http://dbpedia.org/resource/Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "In 1955" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/9/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Oscar_Peterson> , <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:place           "http://dbpedia.org/resource/Switzerland" ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Buddy_DeFranco> , <http://dbpedia.org/resource/Lester_Young> , <http://dbpedia.org/resource/Hank_Jones> , <http://dbpedia.org/resource/Bud_Powell> , <http://dbpedia.org/resource/Joe_Pass> , <http://dbpedia.org/resource/Buck_Clayton> , <http://dbpedia.org/resource/Ella_Fitzgerald> , <http://dbpedia.org/resource/Dizzy_Gillespie> , <http://dbpedia.org/resource/Herb_Ellis> , <http://dbpedia.org/resource/Stan_Getz> , <http://dbpedia.org/resource/Sonny_Stitt> , <http://dbpedia.org/resource/Flip_Phillips> , <http://dbpedia.org/resource/Billie_Holiday> , <http://dbpedia.org/resource/Anita_O'Day> , <http://dbpedia.org/resource/Illinois_Jacquet> , <http://dbpedia.org/resource/Tal_Farlow> , <http://dbpedia.org/resource/Coleman_Hawkins> , <http://dbpedia.org/resource/Mort_Sahl> , <http://dbpedia.org/resource/Gene_Krupa> , <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Louis_Armstrong> , <http://dbpedia.org/resource/Oscar_Peterson> , <http://dbpedia.org/resource/Ben_Webster> , <http://dbpedia.org/resource/Roy_Eldridge> , <http://dbpedia.org/resource/Louie_Bellson> , <http://dbpedia.org/resource/Buddy_Rich> , <http://dbpedia.org/resource/Norman_Granz> , <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/Art_Tatum> , <http://dbpedia.org/resource/Slim_Gaillard> , <http://dbpedia.org/resource/Johnny_Hodges> , <http://dbpedia.org/resource/Benny_Carter> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "with one" .

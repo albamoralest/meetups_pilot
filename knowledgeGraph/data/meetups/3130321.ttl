@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3130321/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Knut_Nystedt> ;
+        ont:place           "http://dbpedia.org/resource/Minsk" ;
+        ont:subject         <http://dbpedia.org/resource/Knut_Nystedt> ;
+        ont:timeExpression  "Opus 29" , "Strings Opus 17" , "Opus 26" , "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/3130321/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Knut_Nystedt> ;
+        ont:place           "http://dbpedia.org/resource/Atlanta" , "http://dbpedia.org/resource/Sandvika" ;
+        ont:subject         <http://dbpedia.org/resource/Knut_Nystedt> ;
+        ont:timeExpression  "1985" .

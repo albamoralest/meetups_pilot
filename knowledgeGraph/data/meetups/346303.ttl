@@ -1,0 +1,84 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hoagy_Carmichael> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "widow with two" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Euphemia> , <http://dbpedia.org/resource/Vance_Palmer> ;
+        ont:place           "http://dbpedia.org/resource/Kansas" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "July 26 , 1909" , "second of six" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vance_Palmer> ;
+        ont:place           "http://dbpedia.org/resource/Albuquerque_Little_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vivian_Kubrick> ;
+        ont:place           "http://dbpedia.org/resource/Wedmore" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "1962–1965" , "in 1965" , "1967–1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vance_Palmer> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "July 12 , 2018" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anna_Freud> ;
+        ont:place           "http://dbpedia.org/resource/Kansas" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "East 68th" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "1950" , "1951" , "in two" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lucille_Ball> , <http://dbpedia.org/resource/Zebulon_Baird_Vance> , <http://dbpedia.org/resource/Desi_Arnaz> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Jamestown,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "at 7030" , "in 1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vivian_Vance> , <http://dbpedia.org/resource/Vivian_Kubrick> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "July 26 , 1909" , "1951–1957" , "in 1954" , "August 17 , 1979" , "three" .

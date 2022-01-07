@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2682932/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vladimir_Putin> ;
+        ont:place           "http://dbpedia.org/resource/Ukraine" ;
+        ont:subject         <http://dbpedia.org/resource/Vasily_Lanovoy> ;
+        ont:timeExpression  "In 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/2682932/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vasili_III_of_Russia> , <http://dbpedia.org/resource/Yevgeny_Vakhtangov> ;
+        ont:place           "http://dbpedia.org/resource/Soviet_Union" , "http://dbpedia.org/resource/Moscow" ;
+        ont:subject         <http://dbpedia.org/resource/Vasily_Lanovoy> ;
+        ont:timeExpression  "16 January 1934" , "28 January 2021" .

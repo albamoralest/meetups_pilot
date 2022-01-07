@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2888557/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ernest_Hemingway> , <http://dbpedia.org/resource/Walter_Scott> , <http://dbpedia.org/resource/Gertrude_Stein> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Mabel_Mercer> ;
+        ont:timeExpression  "In 1928" , "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2888557/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bobby_Short> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Mabel_Mercer> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/2888557/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Mercer> ;
+        ont:place           "http://dbpedia.org/resource/Massachusetts" , "http://dbpedia.org/resource/Red_Rock_Canyon_National_Conservation_Area" , "http://dbpedia.org/resource/Chatham_(town),_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Mabel_Mercer> ;
+        ont:timeExpression  "20 April 1984" , "84" .
+
+<http://w3id.org/polifonia/pilot/meetups/2888557/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Mercer> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" , "http://dbpedia.org/resource/Mocambo_(nightclub)" ;
+        ont:subject         <http://dbpedia.org/resource/Mabel_Mercer> ;
+        ont:timeExpression  "78th birthday" .
+
+<http://w3id.org/polifonia/pilot/meetups/2888557/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Mercer> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Mabel_Mercer> ;
+        ont:timeExpression  "3 February 1900" , "20 April 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/2888557/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Mercer> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Mabel_Mercer> ;
+        ont:timeExpression  "in 1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/2888557/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Mercer> ;
+        ont:place           "http://dbpedia.org/resource/Burton_upon_Trent" , "http://dbpedia.org/resource/Staffordshire" , "http://dbpedia.org/resource/River_Trent" ;
+        ont:subject         <http://dbpedia.org/resource/Mabel_Mercer> ;
+        ont:timeExpression  "3 February 1900" .

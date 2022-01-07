@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/267627/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edgar_Benson> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" , "http://dbpedia.org/resource/Detroit" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Goldkette> ;
+        ont:timeExpression  "one" , "age of 18" .
+
+<http://w3id.org/polifonia/pilot/meetups/267627/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_II_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Detroit" , "http://dbpedia.org/resource/Graystone_Ballroom" , "http://dbpedia.org/resource/Detroit_Athletic_Club" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Goldkette> ;
+        ont:timeExpression  "over 20" .

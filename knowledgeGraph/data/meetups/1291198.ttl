@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1291198/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Pack_(basketball)> , <http://dbpedia.org/resource/Louis_Simpson> ;
+        ont:place           "http://dbpedia.org/resource/Atlantic_Ocean" ;
+        ont:subject         <http://dbpedia.org/resource/Donald_Hall> ;
+        ont:timeExpression  "In 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/1291198/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donald_Hall> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Donald_Hall> ;
+        ont:timeExpression  "December 18 , 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1291198/9/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sarah_Josepha_Hale> , <http://dbpedia.org/resource/Edna_St._Vincent_Millay> ;
+        ont:place           "http://dbpedia.org/resource/New_Hampshire" ;
+        ont:subject         <http://dbpedia.org/resource/Donald_Hall> ;
+        ont:timeExpression  "1984–89" , "1956" , "1987" , "1990" , "1963–64" , "two" , "1989" , "1983" , "for five" , "1988" , "1972–73" , "1955" , "1986" .

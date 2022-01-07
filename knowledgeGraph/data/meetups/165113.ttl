@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/165113/3/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pete_Seeger> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Neil_Diamond> ;
+        ont:timeExpression  "21" , "16" .
+
+<http://w3id.org/polifonia/pilot/meetups/165113/10/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Neil_Diamond> ;
+        ont:place           "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Neil_Diamond> ;
+        ont:timeExpression  "94" .
+
+<http://w3id.org/polifonia/pilot/meetups/165113/10/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Stephen> , <http://dbpedia.org/resource/Neil_Diamond> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Neil_Diamond> ;
+        ont:timeExpression  "[" , "93" .
+
+<http://w3id.org/polifonia/pilot/meetups/165113/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Barbra_Streisand> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn" , "http://dbpedia.org/resource/Erasmus_Hall_High_School" ;
+        ont:subject         <http://dbpedia.org/resource/Neil_Diamond> ;
+        ont:timeExpression  "two" , "155" .
+
+<http://w3id.org/polifonia/pilot/meetups/165113/35/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Erasmus> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn" ;
+        ont:subject         <http://dbpedia.org/resource/Neil_Diamond> ;
+        ont:timeExpression  "21.In September 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/165113/15/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Rodney_Bennett> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Neil_Diamond> ;
+        ont:timeExpression  "February 1979" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/165113/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ralph_Waldo_Emerson> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas" , "http://dbpedia.org/resource/MGM_Grand_Garden_Arena" , "http://dbpedia.org/resource/Boston" , "http://dbpedia.org/resource/Colonial_Theatre_(Boston)" ;
+        ont:subject         <http://dbpedia.org/resource/Neil_Diamond> ;
+        ont:timeExpression  "summer of 2022" , "April 2021" , "March 22 , 2020" , "March 7 , 2020" .

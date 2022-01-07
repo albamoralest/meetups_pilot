@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_the_Baptist> ;
+        ont:place           "http://dbpedia.org/resource/Newfoundland_Colony" , "http://dbpedia.org/resource/British_Guiana" ;
+        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:timeExpression  "in 1889" , "Diamond Jubilee Honours.In 1894" , "March 1901" , "1897" .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Boyle> ;
+        ont:place           "http://dbpedia.org/resource/Leeward_Islands" ;
+        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:timeExpression  "in 1879" .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Cavendish_(Nottingham_MP)> , <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:place           "http://dbpedia.org/resource/British_Guiana" , "http://dbpedia.org/resource/Mauritius" , "http://dbpedia.org/resource/Newfoundland_Colony" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:timeExpression  "17 September 1916" , "29 May 1849" .

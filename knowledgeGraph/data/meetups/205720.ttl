@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/205720/3/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Reggie_Harding> , <http://dbpedia.org/resource/J._G._Ballard> ;
+        ont:place           "http://dbpedia.org/resource/Graystone_Ballroom" , "http://dbpedia.org/resource/Detroit" ;
+        ont:subject         <http://dbpedia.org/resource/Florence_Ballard> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/205720/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edsel_Ford> ;
+        ont:place           "http://dbpedia.org/resource/Detroit" ;
+        ont:subject         <http://dbpedia.org/resource/Florence_Ballard> ;
+        ont:timeExpression  "June 25 , 1975" , "than five" .
+
+<http://w3id.org/polifonia/pilot/meetups/205720/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sabrina_Salerno> ;
+        ont:place           "http://dbpedia.org/resource/Hawaii" ;
+        ont:subject         <http://dbpedia.org/resource/Florence_Ballard> ;
+        ont:timeExpression  "three" , "in 1967" , "February 29 , 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/205720/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/J._G._Ballard> , <http://dbpedia.org/resource/A'ja_Wilson> ;
+        ont:place           "http://dbpedia.org/resource/Detroit" , "http://dbpedia.org/resource/Florence" ;
+        ont:subject         <http://dbpedia.org/resource/Florence_Ballard> ;
+        ont:timeExpression  "June 30 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/205720/6/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/J._G._Ballard> ;
+        ont:place           "http://dbpedia.org/resource/Midwestern_United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Florence_Ballard> ;
+        ont:timeExpression  "One track" .
+
+<http://w3id.org/polifonia/pilot/meetups/205720/21/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/J._G._Ballard> , <http://dbpedia.org/resource/Hank_Ballard> , <http://dbpedia.org/resource/Christian_Ballard> ;
+        ont:place           "http://dbpedia.org/resource/Detroit" ;
+        ont:subject         <http://dbpedia.org/resource/Florence_Ballard> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/205720/3/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Abraham_Lincoln> , <http://dbpedia.org/resource/Lambert_of_Maastricht> ;
+        ont:place           "http://dbpedia.org/resource/Brewster-Douglass_Housing_Projects" , "http://dbpedia.org/resource/Detroit" , "http://dbpedia.org/resource/Florence" ;
+        ont:subject         <http://dbpedia.org/resource/Florence_Ballard> ;
+        ont:timeExpression  "15" .
+
+<http://w3id.org/polifonia/pilot/meetups/205720/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Queen_Victoria> , <http://dbpedia.org/resource/J._G._Ballard> ;
+        ont:place           "http://dbpedia.org/resource/Houston" ;
+        ont:subject         <http://dbpedia.org/resource/Florence_Ballard> ;
+        ont:timeExpression  "February 2020" , "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/205720/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/J._G._Ballard> ;
+        ont:place           "http://dbpedia.org/resource/Rosetta" ;
+        ont:subject         <http://dbpedia.org/resource/Florence_Ballard> ;
+        ont:timeExpression  "14" , "at 13" .

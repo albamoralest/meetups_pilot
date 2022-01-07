@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/50931287/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean-Pierre_Lesguillon> ;
+        ont:place           "http://dbpedia.org/resource/Princely_Abbey_of_Corvey" ;
+        ont:subject         <http://dbpedia.org/resource/Édouard_d'Anglemont> ;
+        ont:timeExpression  "7" , "1827" .
+
+<http://w3id.org/polifonia/pilot/meetups/50931287/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean-Pierre_Lesguillon> , <http://dbpedia.org/resource/Jean-Joseph_Ader> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Édouard_d'Anglemont> ;
+        ont:timeExpression  "one act" , "1875" , "16" .
+
+<http://w3id.org/polifonia/pilot/meetups/50931287/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Philippe_Leclerc_de_Hauteclocque> ;
+        ont:place           "http://dbpedia.org/resource/Asse" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Édouard_d'Anglemont> ;
+        ont:timeExpression  "p. 205-341" , "1900" .

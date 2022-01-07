@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3027978/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dieter_Meier> ;
+        ont:place           "http://dbpedia.org/resource/Switzerland" ;
+        ont:subject         <http://dbpedia.org/resource/Dieter_Meier> ;
+        ont:timeExpression  "4 March 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/3027978/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dieter_Meier> ;
+        ont:place           "http://dbpedia.org/resource/Kassel" , "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Dieter_Meier> ;
+        ont:timeExpression  "Documenta 5" , "from 3" , "In 1972" , "4 pm" , "23 March 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/3027978/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Melanie_Griffith> , <http://dbpedia.org/resource/Jonathan_Demme> , <http://dbpedia.org/resource/Jeff_Daniels> ;
+        ont:place           "http://dbpedia.org/resource/Earth" ;
+        ont:subject         <http://dbpedia.org/resource/Dieter_Meier> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/3027978/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Daniel_Schmid> ;
+        ont:place           "http://dbpedia.org/resource/Switzerland" ;
+        ont:subject         <http://dbpedia.org/resource/Dieter_Meier> ;
+        ont:timeExpression  "In 1989" , "in 1992" .

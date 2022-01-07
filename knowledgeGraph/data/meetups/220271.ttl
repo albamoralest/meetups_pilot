@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/220271/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Baker> , <http://dbpedia.org/resource/Leonardo_De_Lorenzo> , <http://dbpedia.org/resource/John_Serry_Sr.> ;
+        ont:place           "http://dbpedia.org/resource/Europe" , "http://dbpedia.org/resource/Viggiano" , "http://dbpedia.org/resource/Italy" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Julius_Baker> ;
+        ont:timeExpression  "1999" , "in 1950" , "in 1983" , "two" , "Asia.In 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/220271/27/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean-Pierre_Rampal> ;
+        ont:place           "http://dbpedia.org/resource/Eighteenth_Dynasty_of_Egypt" ;
+        ont:subject         <http://dbpedia.org/resource/Julius_Baker> ;
+        ont:timeExpression  "1959" , "1952" , "1953" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/220271/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Julius_Baker> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Julius_Baker> ;
+        ont:timeExpression  "September 23 , 1915" , "one" , "August 6 , 2003" .

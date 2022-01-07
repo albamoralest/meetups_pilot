@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/52811997/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Augustine_of_Hippo> ;
+        ont:place           "http://dbpedia.org/resource/Tripoli" , "http://dbpedia.org/resource/Isla_de_Mona" ;
+        ont:subject         <http://dbpedia.org/resource/Patricia_Bishop> ;
+        ont:timeExpression  "for eight" .
+
+<http://w3id.org/polifonia/pilot/meetups/52811997/4/22>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Joyce> ;
+        ont:place           "http://dbpedia.org/resource/Trinidad" ;
+        ont:subject         <http://dbpedia.org/resource/Patricia_Bishop> ;
+        ont:timeExpression  "in 1987" , "In 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/52811997/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Patricia_Bishop> , <http://dbpedia.org/resource/Gregory_of_Nazianzus_the_Elder> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Patricia_Bishop> ;
+        ont:timeExpression  "January 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/52811997/4/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Liza_Minnelli> ;
+        ont:place           "http://dbpedia.org/resource/Apollo_Theater" , "http://dbpedia.org/resource/Carnegie_Hall" , "http://dbpedia.org/resource/Rockefeller_Center" , "http://dbpedia.org/resource/Brooklyn" ;
+        ont:subject         <http://dbpedia.org/resource/Patricia_Bishop> ;
+        ont:timeExpression  "In 1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/52811997/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Patricia_Kennedy_Lawford> , <http://dbpedia.org/resource/Victoria_Eugenie_of_Battenberg> , <http://dbpedia.org/resource/Sonny_Bishop> ;
+        ont:place           "http://dbpedia.org/resource/Spain" , "http://dbpedia.org/resource/Trinidad" ;
+        ont:subject         <http://dbpedia.org/resource/Patricia_Bishop> ;
+        ont:timeExpression  "6 May 1940" .

@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/177220/14/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:timeExpression  "September 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/177220/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Nash> ;
+        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Jamaica" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:timeExpression  "soundtrack in 1993" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/177220/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:place           "http://dbpedia.org/resource/Kingston_upon_Thames" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:timeExpression  "14" .
+
+<http://w3id.org/polifonia/pilot/meetups/177220/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tim_Armstrong> ;
+        ont:place           "http://dbpedia.org/resource/Jamaica" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:timeExpression  "story of one" , "2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/177220/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_the_Great> , <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:place           "http://dbpedia.org/resource/Jamaica" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:timeExpression  "30 July 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/177220/15/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:place           "http://dbpedia.org/resource/Caribbean" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:timeExpression  "25 June 2019" , "December 2012" , "2008" .

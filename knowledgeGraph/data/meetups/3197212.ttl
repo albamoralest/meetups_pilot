@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3197212/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Brunning> , <http://dbpedia.org/resource/B.B._King> ;
+        ont:place           "http://dbpedia.org/resource/Fleetwood" ;
+        ont:subject         <http://dbpedia.org/resource/Graham_Bond> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/3197212/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harry_L._Shapiro> , <http://dbpedia.org/resource/Mighty_Shadow> , <http://dbpedia.org/resource/Graham_Bond> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Graham_Bond> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/3197212/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Brunning> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Graham_Bond> ;
+        ont:timeExpression  "ISBN 1-900924-41-2" , "2002" , "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/3197212/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dick_Heckstall-Smith> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Graham_Bond> ;
+        ont:timeExpression  "Fifty" , "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/3197212/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harry_L._Shapiro> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Graham_Bond> ;
+        ont:timeExpression  "London 1997" .

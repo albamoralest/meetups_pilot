@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/70020/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nathan_Birnbaum> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/George_Burns> ;
+        ont:timeExpression  "March 9 , 1996" , "January 20 , 1896" .
+
+<http://w3id.org/polifonia/pilot/meetups/70020/29/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Steve_Allen> , <http://dbpedia.org/resource/Desi_Arnaz> , <http://dbpedia.org/resource/Lucille_Ball> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/George_Burns> ;
+        ont:timeExpression  "7" .
+
+<http://w3id.org/polifonia/pilot/meetups/70020/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lindsay_Lohan> , <http://dbpedia.org/resource/Cynthia_Lennon> ;
+        ont:place           "http://dbpedia.org/resource/Hobart" ;
+        ont:subject         <http://dbpedia.org/resource/George_Burns> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/70020/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Steve_Allen> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/George_Burns> ;
+        ont:timeExpression  "February 15 , 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/70020/49/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gracie_Allen> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Alden_Valley" ;
+        ont:subject         <http://dbpedia.org/resource/George_Burns> ;
+        ont:timeExpression  "99th birthday" , "January 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/70020/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Hollywood_Boulevard" , "http://dbpedia.org/resource/Vine_Street" ;
+        ont:subject         <http://dbpedia.org/resource/George_Burns> ;
+        ont:timeExpression  "star at 6510" , "star at 6672" , "three" , "star at 1639" .
+
+<http://w3id.org/polifonia/pilot/meetups/70020/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nathan_Birnbaum> , <http://dbpedia.org/resource/George_V> ;
+        ont:place           "http://dbpedia.org/resource/Principality_of_Lippe" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Second_Polish_Republic" , "http://dbpedia.org/resource/Kingdom_of_Galicia_and_Lodomeria" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Kolbuszowa" ;
+        ont:subject         <http://dbpedia.org/resource/George_Burns> ;
+        ont:timeExpression  "1857–1927" , "1855–1903" , "January 20 , 1896" , "ninth of 12" .

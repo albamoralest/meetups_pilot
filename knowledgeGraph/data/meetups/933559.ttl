@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/933559/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Barbara_Hutton> , <http://dbpedia.org/resource/Lance_Reventlow> ;
+        ont:place           "http://dbpedia.org/resource/Denmark" ;
+        ont:subject         <http://dbpedia.org/resource/Cheryl_Holdridge> ;
+        ont:timeExpression  "November 8 , 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/933559/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cheryl_Lynn> , <http://dbpedia.org/resource/William_H._Phelps_Sr.> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Cheryl_Holdridge> ;
+        ont:timeExpression  "June 20 , 1944" , "January 6 , 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/933559/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Coxsone_Dodd> , <http://dbpedia.org/resource/Jimmie_Dodd> ;
+        ont:place           "http://dbpedia.org/resource/Hawaii" ;
+        ont:subject         <http://dbpedia.org/resource/Cheryl_Holdridge> ;
+        ont:timeExpression  "1964 honeymoon" .

@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richie_Beirach> ;
+        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "in 1988" , "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Paul_Moody> ;
+        ont:place           "http://dbpedia.org/resource/Atlantic_Ocean" , "http://dbpedia.org/resource/Flute_Summit_(British_Columbia)" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:place           "http://dbpedia.org/resource/Sutherland" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "April 17 , 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Margaret_Mead> , <http://dbpedia.org/resource/Catherine_Parr> ;
+        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1970 album" , "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Bolin> ;
+        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "September 23 , 1942" , "April 13 , 2016" .

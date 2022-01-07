@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2475284/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Willy_Brandt> , <http://dbpedia.org/resource/Amanda_Aldridge> , <http://dbpedia.org/resource/Ira_Aldridge> ;
+        ont:place           "http://dbpedia.org/resource/Upper_Norwood" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Amanda_Aldridge> ;
+        ont:timeExpression  "10 March 1866" .
+
+<http://w3id.org/polifonia/pilot/meetups/2475284/3/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/LaMarcus_Aldridge> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Amanda_Aldridge> ;
+        ont:timeExpression  "age of 88" .
+
+<http://w3id.org/polifonia/pilot/meetups/2475284/3/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Amanda_Aldridge> , <http://dbpedia.org/resource/Stephen_V_of_Hungary> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Amanda_Aldridge> ;
+        ont:timeExpression  "2020 edition" , "9 March 1956.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/2475284/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/LaMarcus_Aldridge> ;
+        ont:place           "http://dbpedia.org/resource/Shepley" ;
+        ont:subject         <http://dbpedia.org/resource/Amanda_Aldridge> ;
+        ont:timeExpression  "invitation in 1921" .
+
+<http://w3id.org/polifonia/pilot/meetups/2475284/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Amanda_Aldridge> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Amanda_Aldridge> ;
+        ont:timeExpression  "10 March 1866" , "9 March 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/2475284/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ira_Aldridge> ;
+        ont:place           "http://dbpedia.org/resource/Robeson_County,_North_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Amanda_Aldridge> ;
+        ont:timeExpression  "In 1930" .

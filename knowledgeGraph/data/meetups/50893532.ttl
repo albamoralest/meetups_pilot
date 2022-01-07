@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/50893532/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alekseev_(singer)> , <http://dbpedia.org/resource/Aristarkh_Livanov> ;
+        ont:place           "http://dbpedia.org/resource/Moscow" ;
+        ont:subject         <http://dbpedia.org/resource/Aristarkh_Livanov> ;
+        ont:timeExpression  "in 1980" , "Green Chain.In 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/50893532/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Aristarkh_Livanov> ;
+        ont:place           "http://dbpedia.org/resource/Kyiv" ;
+        ont:subject         <http://dbpedia.org/resource/Aristarkh_Livanov> ;
+        ont:timeExpression  "March 17 , 1947" .

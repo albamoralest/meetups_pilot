@@ -1,0 +1,203 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/34/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Luchino_Visconti> ;
+        ont:place           "http://dbpedia.org/resource/Rome" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/5/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/El_Cid> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Scorsese> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "November 17 , 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mio_Shirai> ;
+        ont:place           "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "In 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/60/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Isabella_Rossellini> , <http://dbpedia.org/resource/Barbara_De_Fina> ;
+        ont:place           "http://dbpedia.org/resource/Dominica" , "http://dbpedia.org/resource/Cape_Fear_River" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "end of 1979" , "for four" , "in 1983.Scorsese" , "in 1991" , "of five" , "in 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/14/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ronnie_Wood> , <http://dbpedia.org/resource/Neil_Young> , <http://dbpedia.org/resource/Neil_Diamond> , <http://dbpedia.org/resource/Eric_Clapton> , <http://dbpedia.org/resource/Ringo_Starr> , <http://dbpedia.org/resource/Paul_Butterfield> , <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Joni_Mitchell> , <http://dbpedia.org/resource/Van_Morrison> , <http://dbpedia.org/resource/Muddy_Waters> ;
+        ont:place           "http://dbpedia.org/resource/Winterland_Ballroom" , "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "one" , "November 25 , 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/34/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Daniel_Day-Lewis> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "February 2003" , "10" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/24/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfred_Hitchcock> , <http://dbpedia.org/resource/Charles_Laughton> ;
+        ont:place           "http://dbpedia.org/resource/Hunter_Region" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/58/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Victor_Argo> , <http://dbpedia.org/resource/Verna_Bloom> , <http://dbpedia.org/resource/Barry_Primus> , <http://dbpedia.org/resource/Illeana_Douglas> , <http://dbpedia.org/resource/Joe_Pesci> , <http://dbpedia.org/resource/Harry_Northup> , <http://dbpedia.org/resource/Frank_Vincent> , <http://dbpedia.org/resource/Harvey_Keitel> ;
+        ont:place           "http://dbpedia.org/resource/Moston,_Manchester" , "http://dbpedia.org/resource/Murray_River" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "5" , "3" , "6" , "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/43/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nelson_Johnson> , <http://dbpedia.org/resource/Michael_Pitt> , <http://dbpedia.org/resource/Steve_Buscemi> ;
+        ont:place           "http://dbpedia.org/resource/Atlantic_City_International_Airport" , "http://dbpedia.org/resource/Wall_Street" , "http://dbpedia.org/resource/Roman_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "10,000" , "In 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edith_Wharton> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/5/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ingmar_Bergman> , <http://dbpedia.org/resource/Michelangelo_Antonioni> , <http://dbpedia.org/resource/Satyajit_Ray> , <http://dbpedia.org/resource/Federico_Fellini> ;
+        ont:place           "http://dbpedia.org/resource/The_Bronx" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "in 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/45/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Grann> ;
+        ont:place           "http://dbpedia.org/resource/Moon" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "HBO.In July 2019" , "2020 filming" , "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/5/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> , <http://dbpedia.org/resource/E._T._A._Hoffmann> ;
+        ont:place           "http://dbpedia.org/resource/The_Bronx" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "1951" , "one copy" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Giorgio_Armani> ;
+        ont:place           "http://dbpedia.org/resource/Milan" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "In 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leonardo_DiCaprio> , <http://dbpedia.org/resource/Howard_Hughes> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Wall_Street" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "in five" , "2013" , "2006" , "2004" , "2010" , "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/43/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jordan_Belfort> ;
+        ont:place           "http://dbpedia.org/resource/Wall_Street" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "3D film" , "November 23 , 2011.Scorsese" , "2013 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/43/32>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Andrew_Lau> , <http://dbpedia.org/resource/Celina_Murga> ;
+        ont:place           "http://dbpedia.org/resource/Manila" , "http://dbpedia.org/resource/Studio_City,_Los_Angeles" , "http://dbpedia.org/resource/Philippines" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "2014 film" , "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/43/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Harrison> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "October 5" , "over two" , "for five" , "2011" , "September 19 , 2010" , "6" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/14th_Dalai_Lama> ;
+        ont:place           "http://dbpedia.org/resource/India" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "14th" , "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Roger_Ebert> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "In 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/1/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harvey_Keitel> , <http://dbpedia.org/resource/Roger_Corman> , <http://dbpedia.org/resource/Robert_De_Niro> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "1973" , "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/43/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Laeta_Kalogridis> ;
+        ont:place           "http://dbpedia.org/resource/Massachusetts" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "March 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/45/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rodrigo_Prieto> ;
+        ont:place           "http://dbpedia.org/resource/Moon" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "March 2020" , "December 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/43/21>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Terence_Winter> , <http://dbpedia.org/resource/Leonardo_DiCaprio> , <http://dbpedia.org/resource/Jonah_Hill> ;
+        ont:place           "http://dbpedia.org/resource/Wall_Street" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "for five" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/43/27>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bobby_Cannavale> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "in 1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Griffin_Dunne> , <http://dbpedia.org/resource/Teri_Greeves> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Manhattan" , "http://dbpedia.org/resource/Soho" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "comedy about one" .
+
+<http://w3id.org/polifonia/pilot/meetups/18995/1/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Steven_Spielberg> , <http://dbpedia.org/resource/George_Lucas> , <http://dbpedia.org/resource/Brian_De_Palma> , <http://dbpedia.org/resource/Francis_Ford_Coppola> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Scorsese> ;
+        ont:timeExpression  "In 1971" .

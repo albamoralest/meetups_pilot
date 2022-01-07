@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1706070/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Atherton> , <http://dbpedia.org/resource/Tyler_Thornburg> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/William_Atherton> ;
+        ont:timeExpression  "July 30 , 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/1706070/8/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Shakespeare> , <http://dbpedia.org/resource/Roddy_McDowall> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Shire_of_Atherton" ;
+        ont:subject         <http://dbpedia.org/resource/William_Atherton> ;
+        ont:timeExpression  "2018.Atherton" , "December 2018" , "1542" , "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/1706070/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gigi_Hadid> , <http://dbpedia.org/resource/Yogi_Ferrell> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Shire_of_Atherton" ;
+        ont:subject         <http://dbpedia.org/resource/William_Atherton> ;
+        ont:timeExpression  "2012" , "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/1706070/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Rabe> , <http://dbpedia.org/resource/John_Guare> , <http://dbpedia.org/resource/Arthur_Miller> , <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:place           "http://dbpedia.org/resource/Shire_of_Atherton" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/William_Atherton> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/1706070/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tyler_Thornburg> ;
+        ont:place           "http://dbpedia.org/resource/Shire_of_Atherton" ;
+        ont:subject         <http://dbpedia.org/resource/William_Atherton> ;
+        ont:timeExpression  "1997" , "1986" , "2000" , "Die Hard 2" , "1990" , "1993" , "1988" , "2003" , "1995" , "1996" , "2005" .

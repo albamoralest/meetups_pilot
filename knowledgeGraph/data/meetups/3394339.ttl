@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3394339/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mildred_Harnack> , <http://dbpedia.org/resource/Fred_E._Ahlert> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Russian_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Ahlert> ;
+        ont:timeExpression  "Russia – 1955" , "three" , "1894" .
+
+<http://w3id.org/polifonia/pilot/meetups/3394339/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Roy_Turk> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Ahlert> ;
+        ont:timeExpression  "in 1970.Ahlert" .
+
+<http://w3id.org/polifonia/pilot/meetups/3394339/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Ahlert> ;
+        ont:timeExpression  "16 February 1926" , "one" , "8 September 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/3394339/35/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tony_Parker> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/West_Nyack,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Ahlert> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/3394339/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Ahlert> ;
+        ont:timeExpression  "September 19 , 1892" , "October 20 , 1953" .

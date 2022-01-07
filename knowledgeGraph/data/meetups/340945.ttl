@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/340945/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mel_Lewis> , <http://dbpedia.org/resource/Thad_Jones> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Greenwich_Village" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Knepper> ;
+        ont:timeExpression  "around 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/340945/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maxine_Elliott> , <http://dbpedia.org/resource/Maynard_Ferguson> ;
+        ont:place           "http://dbpedia.org/resource/Hi_Corbett_Field" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Knepper> ;
+        ont:timeExpression  "May 8 , 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/340945/85/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Al_Kooper> ;
+        ont:place           "http://dbpedia.org/resource/Laren,_North_Holland" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Knepper> ;
+        ont:timeExpression  "1979 [" , "1984 ]" .
+
+<http://w3id.org/polifonia/pilot/meetups/340945/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Knepper> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Knepper> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/340945/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Herbie_Mann> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Africa" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Knepper> ;
+        ont:timeExpression  "In 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/340945/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Knepper> ;
+        ont:timeExpression  "In 1962" .

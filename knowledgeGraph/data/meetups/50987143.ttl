@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeff_Adrien> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "p. 477-478" , "1874" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marcellin_Berthelot> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/La_Grande_River" ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "674" , "1886" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hyacinthe_Rigaud> ;
+        ont:place           "http://dbpedia.org/resource/Occitania" ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "29 January 1824" , "28 January 1750" .

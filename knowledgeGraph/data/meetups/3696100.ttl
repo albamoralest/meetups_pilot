@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "end of 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Woodstock,_New_York" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "In 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Cheshire" , "http://dbpedia.org/resource/Wallasey" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Brian_Epstein> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Saville_Theatre" , "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "In 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Liverpool" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "album since 1977" , "In 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hal_Blaine> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joe_Fagin> , <http://dbpedia.org/resource/Bobby_Thompson_(musician)> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Liverpool" , "http://dbpedia.org/resource/Kaiserkeller" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "Studio 2" , "13 April 2012" .

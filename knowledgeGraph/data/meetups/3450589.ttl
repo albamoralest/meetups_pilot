@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:place           "http://dbpedia.org/resource/Japan" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "in 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/67/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Shorty_Rogers> ;
+        ont:place           "http://dbpedia.org/resource/Capri" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "2" , "Capri 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carmen_McRae> ;
+        ont:place           "http://dbpedia.org/resource/South_America" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "tour in 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carmen_McRae> , <http://dbpedia.org/resource/Woody_Herman> , <http://dbpedia.org/resource/Shelly_Manne> , <http://dbpedia.org/resource/Monty_Budwig> , <http://dbpedia.org/resource/Red_Norvo> , <http://dbpedia.org/resource/Barney_Kessel> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "In 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Stan_Levey> , <http://dbpedia.org/resource/Jimmy_Knepper> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/74/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "CBS 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harry_Edison> , <http://dbpedia.org/resource/Monty_Budwig> , <http://dbpedia.org/resource/Spike_Robinson> ;
+        ont:place           "http://dbpedia.org/resource/Capri" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "Capri 1992" .

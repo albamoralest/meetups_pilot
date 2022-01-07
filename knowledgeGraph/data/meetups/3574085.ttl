@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3574085/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chris_Stamp> , <http://dbpedia.org/resource/Kit_Lambert> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Stamp> ;
+        ont:timeExpression  "In 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/3574085/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lambert_of_Maastricht> , <http://dbpedia.org/resource/Bill_Curbishley> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Stamp> ;
+        ont:timeExpression  "By 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/3574085/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lambert_of_Maastricht> ;
+        ont:place           "http://dbpedia.org/resource/London_Borough_of_Harrow" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Stamp> ;
+        ont:timeExpression  "during one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3574085/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chris_Stamp> , <http://dbpedia.org/resource/Pete_Townshend> ;
+        ont:place           "http://dbpedia.org/resource/Madison_Square_Garden" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Stamp> ;
+        ont:timeExpression  "September 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/3574085/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lambert_of_Maastricht> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Stamp> ;
+        ont:timeExpression  "in 1963" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3574085/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kit_Lambert> ;
+        ont:place           "http://dbpedia.org/resource/Italy" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Stamp> ;
+        ont:timeExpression  "in 1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/3574085/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christopher_Awdry> , <http://dbpedia.org/resource/Jimi_Hendrix> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Stamp> ;
+        ont:timeExpression  "24 November 2012" , "7 July 1942" , "1970s" .

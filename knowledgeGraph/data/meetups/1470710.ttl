@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1470710/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Abdul_Ghaffar_Khan> ;
+        ont:place           "http://dbpedia.org/resource/Dumraon" ;
+        ont:subject         <http://dbpedia.org/resource/Bismillah_Khan> ;
+        ont:timeExpression  "21 March 1916" .
+
+<http://w3id.org/polifonia/pilot/meetups/1470710/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Swathi_Reddy> , <http://dbpedia.org/resource/Sangeetha_Krish> ;
+        ont:place           "http://dbpedia.org/resource/Kerala" ;
+        ont:subject         <http://dbpedia.org/resource/Bismillah_Khan> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/1470710/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jawaharlal_Nehru> ;
+        ont:place           "http://dbpedia.org/resource/Red_Fort" , "http://dbpedia.org/resource/Delhi" ;
+        ont:subject         <http://dbpedia.org/resource/Bismillah_Khan> ;
+        ont:timeExpression  "15 August 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/1470710/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_Barnard> ;
+        ont:place           "http://dbpedia.org/resource/Queen_Elizabeth_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Bismillah_Khan> ;
+        ont:timeExpression  "September 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/1470710/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ali> , <http://dbpedia.org/resource/Abdul_Ghaffar_Khan> ;
+        ont:place           "http://dbpedia.org/resource/Varanasi" , "http://dbpedia.org/resource/Uttar_Pradesh" ;
+        ont:subject         <http://dbpedia.org/resource/Bismillah_Khan> ;
+        ont:timeExpression  "age of six" .
+
+<http://w3id.org/polifonia/pilot/meetups/1470710/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eric_Clapton> , <http://dbpedia.org/resource/Abdul_Ghaffar_Khan> ;
+        ont:place           "http://dbpedia.org/resource/Bihar" ;
+        ont:subject         <http://dbpedia.org/resource/Bismillah_Khan> ;
+        ont:timeExpression  "Life in 12" , "21 March 2018.In" , "102nd birth" .

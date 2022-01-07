@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/806373/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Augustine_Collins> , <http://dbpedia.org/resource/Ross_Tompkins> , <http://dbpedia.org/resource/Gerald_Wilson> , <http://dbpedia.org/resource/Jake_Hanna> ;
+        ont:place           "http://dbpedia.org/resource/Lincoln_Center" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Young> ;
+        ont:timeExpression  "October 17 , 2008" , "for 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/806373/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Mancini> ;
+        ont:place           "http://dbpedia.org/resource/Episcopal_Diocese_of_Quincy" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Young> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/806373/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hank_Crawford> ;
+        ont:place           "http://dbpedia.org/resource/Atlantic_Ocean" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Young> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/806373/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Yusef_Lateef> ;
+        ont:place           "http://dbpedia.org/resource/Atlantic_Ocean" , "http://dbpedia.org/resource/Detroit" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Young> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/806373/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bobby_Bland> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Coconut_Grove" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Young> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/806373/103/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gerald_Wilson> ;
+        ont:place           "http://dbpedia.org/resource/Monterey,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Young> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/806373/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Thad_Jones> , <http://dbpedia.org/resource/Mel_Lewis> , <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Gerald_Wilson> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Young> ;
+        ont:timeExpression  "until 1992" , "three" , "eight" , "in 1967" .

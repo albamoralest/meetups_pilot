@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/707930/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Benjamin_Franklin> , <http://dbpedia.org/resource/Boyd_Dunlop_Morehead> ;
+        ont:place           "http://dbpedia.org/resource/Arizona_Stadium" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Eden> ;
+        ont:timeExpression  "August 23 , 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/707930/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Madison> ;
+        ont:place           "http://dbpedia.org/resource/Florence" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Eden> ;
+        ont:timeExpression  "From 2000" , "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/707930/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Barbara> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Eden> ;
+        ont:timeExpression  "in 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/707930/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bill_Clinton> , <http://dbpedia.org/resource/Alex_Ferguson> , <http://dbpedia.org/resource/Elton_John> ;
+        ont:place           "http://dbpedia.org/resource/Vienna" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Eden> ;
+        ont:timeExpression  "May 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/707930/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lorelei_Lee> , <http://dbpedia.org/resource/John_Raitt> , <http://dbpedia.org/resource/Robert_Goulet> ;
+        ont:place           "http://dbpedia.org/resource/Pacific_Ocean" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Eden> ;
+        ont:timeExpression  "in 1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/707930/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_Hagman> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Eden> ;
+        ont:timeExpression  "March 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/707930/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Abraham_Lincoln> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Eden> ;
+        ont:timeExpression  "Class of 1949" , "one year" .
+
+<http://w3id.org/polifonia/pilot/meetups/707930/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Barbara_Bush> , <http://dbpedia.org/resource/Barbara_Eden> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_Eden> ;
+        ont:timeExpression  "August 23 , 1931" .

@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/51997395/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Luis_Spota> ;
+        ont:place           "http://dbpedia.org/resource/Acapulco" ;
+        ont:subject         <http://dbpedia.org/resource/Esperanza_López_Mateos> ;
+        ont:timeExpression  "August 7 , 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/51997395/21/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marcha> ;
+        ont:place           "http://dbpedia.org/resource/Mexico_City" ;
+        ont:subject         <http://dbpedia.org/resource/Esperanza_López_Mateos> ;
+        ont:timeExpression  "March 10 , 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/51997395/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leon_Trotsky> ;
+        ont:place           "http://dbpedia.org/resource/Esperanza_Base" ;
+        ont:subject         <http://dbpedia.org/resource/Esperanza_López_Mateos> ;
+        ont:timeExpression  "one" , "June 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/51997395/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vicente_Lombardo_Toledano> ;
+        ont:place           "http://dbpedia.org/resource/Mexico" , "http://dbpedia.org/resource/Nueva_Rosita" ;
+        ont:subject         <http://dbpedia.org/resource/Esperanza_López_Mateos> ;
+        ont:timeExpression  "1950–1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/51997395/2/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Roberto_Figueroa> ;
+        ont:place           "http://dbpedia.org/resource/Esperanza_Base" ;
+        ont:subject         <http://dbpedia.org/resource/Esperanza_López_Mateos> ;
+        ont:timeExpression  "In 1934" .

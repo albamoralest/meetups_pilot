@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Thomas_Edison> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Billie_Holiday> , <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Ella_Fitzgerald> , <http://dbpedia.org/resource/Billy_Daniels> , <http://dbpedia.org/resource/Nat_King_Cole> , <http://dbpedia.org/resource/Bing_Crosby> , <http://dbpedia.org/resource/Margaret_Whiting> ;
+        ont:place           "http://dbpedia.org/resource/West_Coast_of_the_United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Edison> , <http://dbpedia.org/resource/Elvin_Jones> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "2003 interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Redd_Foxx> , <http://dbpedia.org/resource/Thomas_Edison> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas_Valley" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "From 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "October 10 , 1915" , "July 27 , 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Edison> , <http://dbpedia.org/resource/Christopher_Columbus> ;
+        ont:place           "http://dbpedia.org/resource/Cleveland" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1933" .

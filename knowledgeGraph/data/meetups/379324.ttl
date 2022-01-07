@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/379324/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Jarman> ;
+        ont:place           "http://dbpedia.org/resource/Atlantic_Ocean" ;
+        ont:subject         <http://dbpedia.org/resource/Muhal_Richard_Abrams> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/379324/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Isle_of_Lewis" ;
+        ont:subject         <http://dbpedia.org/resource/Muhal_Richard_Abrams> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/379324/8/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chico_Freeman> , <http://dbpedia.org/resource/Anthony_Braxton> , <http://dbpedia.org/resource/Roscoe_Mitchell> , <http://dbpedia.org/resource/Chico_Marx> , <http://dbpedia.org/resource/Marion_Brown> ;
+        ont:place           "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Muhal_Richard_Abrams> ;
+        ont:timeExpression  "1976" , "Duets 1976 , 1976" , "1974" , "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/379324/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kenny_Dorham> , <http://dbpedia.org/resource/Larry_Gray> , <http://dbpedia.org/resource/Roscoe_Mitchell> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Muhal_Richard_Abrams> ;
+        ont:timeExpression  "2015 ]" , "2013 [" .
+
+<http://w3id.org/polifonia/pilot/meetups/379324/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marion_Brown> ;
+        ont:place           "http://dbpedia.org/resource/Hi_Hat,_Kentucky" ;
+        ont:subject         <http://dbpedia.org/resource/Muhal_Richard_Abrams> ;
+        ont:timeExpression  "2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/379324/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dave_Dreiwitz> ;
+        ont:place           "http://dbpedia.org/resource/Atlantic_Ocean" ;
+        ont:subject         <http://dbpedia.org/resource/Muhal_Richard_Abrams> ;
+        ont:timeExpression  "1971" .

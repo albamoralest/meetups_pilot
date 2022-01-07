@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/399509/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Mugabe> , <http://dbpedia.org/resource/Jean-Claude_Mukanya> ;
+        ont:place           "http://dbpedia.org/resource/Zimbabwe" ;
+        ont:subject         <http://dbpedia.org/resource/Thomas_Mapfumo> ;
+        ont:timeExpression  "July 3 , 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/399509/11/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Mugabe> ;
+        ont:place           "http://dbpedia.org/resource/Zimbabwe" , "http://dbpedia.org/resource/Harare" , "http://dbpedia.org/resource/Glamis" ;
+        ont:subject         <http://dbpedia.org/resource/Thomas_Mapfumo> ;
+        ont:timeExpression  "overthrow in 2017" , "April 28 , 2018" .
+
+<http://w3id.org/polifonia/pilot/meetups/399509/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elvis_Presley> , <http://dbpedia.org/resource/Otis_Redding> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Thomas_Mapfumo> ;
+        ont:timeExpression  "1972 band" .

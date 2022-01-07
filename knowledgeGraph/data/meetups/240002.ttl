@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/240002/19/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lazarus_Fuchs> ;
+        ont:place           "http://dbpedia.org/resource/Berlin" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gustav_Lejeune_Dirichlet> ;
+        ont:timeExpression  "in 1860" .
+
+<http://w3id.org/polifonia/pilot/meetups/240002/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maximilien_Sébastien_Foy> ;
+        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Prussia" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gustav_Lejeune_Dirichlet> ;
+        ont:timeExpression  "November 1825" .
+
+<http://w3id.org/polifonia/pilot/meetups/240002/15/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Liouville> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gustav_Lejeune_Dirichlet> ;
+        ont:timeExpression  "In 1839" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/240002/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Georg_Ohm> ;
+        ont:place           "http://dbpedia.org/resource/Widen" , "http://dbpedia.org/resource/Cologne" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gustav_Lejeune_Dirichlet> ;
+        ont:timeExpression  "In 1820" .
+
+<http://w3id.org/polifonia/pilot/meetups/240002/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Friedrich_Gauss> ;
+        ont:place           "http://dbpedia.org/resource/Nazi_Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gustav_Lejeune_Dirichlet> ;
+        ont:timeExpression  "May 1822" .

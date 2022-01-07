@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/113560/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Stilwell> ;
+        ont:place           "http://dbpedia.org/resource/China" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_W._Tuchman> ;
+        ont:timeExpression  "109537" , "1971" , "1911–45" .
+
+<http://w3id.org/polifonia/pilot/meetups/113560/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Morgenthau_Sr.> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_W._Tuchman> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/113560/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Barbara_Bush> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_W._Tuchman> ;
+        ont:timeExpression  "February 6 , 1989" , "January 30 , 1912" .
+
+<http://w3id.org/polifonia/pilot/meetups/113560/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Morgenthau_Sr.> , <http://dbpedia.org/resource/Woodrow_Wilson> ;
+        ont:place           "http://dbpedia.org/resource/German_Empire" , "http://dbpedia.org/resource/Ottoman_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_W._Tuchman> ;
+        ont:timeExpression  "for one" .
+
+<http://w3id.org/polifonia/pilot/meetups/113560/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Morgenthau_Sr.> , <http://dbpedia.org/resource/Maurice_Wertheim> ;
+        ont:place           "http://dbpedia.org/resource/Jerusalem" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_W._Tuchman> ;
+        ont:timeExpression  "August 29 , 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/113560/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Stilwell> ;
+        ont:place           "http://dbpedia.org/resource/China" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_W._Tuchman> ;
+        ont:timeExpression  "in 1972" , "In 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/113560/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Arthur_Balfour> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_England" , "http://dbpedia.org/resource/Mandatory_Palestine" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_W._Tuchman> ;
+        ont:timeExpression  "1956 book" .
+
+<http://w3id.org/polifonia/pilot/meetups/113560/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Stilwell> , <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:place           "http://dbpedia.org/resource/China" ;
+        ont:subject         <http://dbpedia.org/resource/Barbara_W._Tuchman> ;
+        ont:timeExpression  "1971" , "1962" .

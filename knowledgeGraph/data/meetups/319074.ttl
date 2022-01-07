@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/319074/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maria_II_of_Portugal> , <http://dbpedia.org/resource/Marie_of_Romania> ;
+        ont:place           "http://dbpedia.org/resource/Romania" ;
+        ont:subject         <http://dbpedia.org/resource/George_Enescu> ;
+        ont:timeExpression  "In 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/319074/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfred_Cortot> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Opera_House" ;
+        ont:subject         <http://dbpedia.org/resource/George_Enescu> ;
+        ont:timeExpression  "in 2016" , "one" , "80" .
+
+<http://w3id.org/polifonia/pilot/meetups/319074/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fritz_Kreisler> ;
+        ont:place           "http://dbpedia.org/resource/Vienna" ;
+        ont:subject         <http://dbpedia.org/resource/George_Enescu> ;
+        ont:timeExpression  "age of seven" , "than 14" , "1891" , "one" , "in 1882" .
+
+<http://w3id.org/polifonia/pilot/meetups/319074/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/George_Enescu> ;
+        ont:timeExpression  "death in 1955" .

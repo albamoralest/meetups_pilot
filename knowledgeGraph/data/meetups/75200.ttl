@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "in 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:place           "http://dbpedia.org/resource/Pantin" , "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/La_Celle-Saint-Cloud" ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "30 January 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "in 1913" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joan_of_Arc> , <http://dbpedia.org/resource/Father_Damien> , <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> ;
+        ont:place           "http://dbpedia.org/resource/Phine_District" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "5 December 1889" , "13th arrondissement" .

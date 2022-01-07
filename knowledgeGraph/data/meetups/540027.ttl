@@ -1,0 +1,84 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/14/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dwight_D._Eisenhower> ;
+        ont:place           "http://dbpedia.org/resource/White_House" , "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "in 1956" , "In 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Pasadena,_California" , "http://dbpedia.org/resource/John_Wayne_Airport" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "August 2 , 1976" , "February 26 , 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Les_Paul> , <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:place           "http://dbpedia.org/resource/Wisconsin" , "http://dbpedia.org/resource/Milwaukee" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "December 29" .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" , "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "summer of 1949" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Les_Paul> , <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "July 7 , 1924" , "September 30 , 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/20/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fritz_G._Lanham> , <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:place           "http://dbpedia.org/resource/El_Monte,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "one" , "9840" .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Judy_Garland> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Pasadena,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "In 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Foy_Willing> , <http://dbpedia.org/resource/Les_Paul> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "Purple Sage.By 1947" , "In 1946–48" .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_Ford> , <http://dbpedia.org/resource/William_McKinley> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Ridgway,_Illinois" , "http://dbpedia.org/resource/El_Monte,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "February 13 , 1896" , "August 5 , 1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Foy_Willing> ;
+        ont:place           "http://dbpedia.org/resource/Arkansas" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "Cliffie Stone.In 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/540027/12/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_II> ;
+        ont:place           "http://dbpedia.org/resource/London_Palladium" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_Ford> ;
+        ont:timeExpression  "September 1952" .

@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/51129468/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Shalom_Ronli-Riklis> ;
+        ont:place           "http://dbpedia.org/resource/Tel_Aviv" ;
+        ont:subject         <http://dbpedia.org/resource/Shalom_Ronli-Riklis> ;
+        ont:timeExpression  "in 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/51129468/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Juliana_of_the_Netherlands> ;
+        ont:place           "http://dbpedia.org/resource/Kerkrade" , "http://dbpedia.org/resource/Netherlands" ;
+        ont:subject         <http://dbpedia.org/resource/Shalom_Ronli-Riklis> ;
+        ont:timeExpression  "over 100" .
+
+<http://w3id.org/polifonia/pilot/meetups/51129468/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Danny_Kaye> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Shalom_Ronli-Riklis> ;
+        ont:timeExpression  "in 1967" .

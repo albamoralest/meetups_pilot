@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1043762/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/El_Greco> ;
+        ont:place           "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Levine> ;
+        ont:timeExpression  "in 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/1043762/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/D._C._Moore> , <http://dbpedia.org/resource/Jack_Levine> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Manhattan" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Levine> ;
+        ont:timeExpression  "1989 film documentary" , "age of 95.DC" , "November 8 , 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/1043762/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jack_Levine> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Levine> ;
+        ont:timeExpression  "November 8 , 2010" , "January 3 , 1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/1043762/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pope_Paul_VI> , <http://dbpedia.org/resource/Abel> ;
+        ont:place           "http://dbpedia.org/resource/Vatican_City" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Levine> ;
+        ont:timeExpression  "In 1973" , "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1043762/2/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ruth_Gikow> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Levine> ;
+        ont:timeExpression  "In 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/1043762/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Karl_Zerbe> ;
+        ont:place           "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Levine> ;
+        ont:timeExpression  "Boston Expressionism.From 1935" , "1940" .

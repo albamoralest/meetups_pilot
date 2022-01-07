@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/827409/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Horace> , <http://dbpedia.org/resource/Fess_Williams> , <http://dbpedia.org/resource/Fletcher_Henderson> , <http://dbpedia.org/resource/Elmer_Snowden> , <http://dbpedia.org/resource/Gerald_Henderson_Jr.> ;
+        ont:place           "http://dbpedia.org/resource/McKinney,_Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Rex_Stewart> ;
+        ont:timeExpression  "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/827409/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Rex_Stewart> ;
+        ont:timeExpression  "September 7 , 1967" , "February 22 , 1907" .

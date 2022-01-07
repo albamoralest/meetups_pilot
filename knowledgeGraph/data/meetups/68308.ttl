@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/68308/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jack_Albertson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Albertson> ;
+        ont:timeExpression  "June 16 , 1907" , "November 25 , 1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/68308/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leopold_Mozart> ;
+        ont:place           "http://dbpedia.org/resource/Malden,_Massachusetts" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Albertson> ;
+        ont:timeExpression  "June 16 , 1907" .
+
+<http://w3id.org/polifonia/pilot/meetups/68308/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edward_D._Brown> , <http://dbpedia.org/resource/Chico_Marx> ;
+        ont:place           "http://dbpedia.org/resource/Menier_Chocolate_Factory" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Albertson> ;
+        ont:timeExpression  "1971" , "1972" , "1974–78" .
+
+<http://w3id.org/polifonia/pilot/meetups/68308/17/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frances_Bavier> ;
+        ont:place           "http://dbpedia.org/resource/Bradford" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Albertson> ;
+        ont:timeExpression  "1967 episode" .
+
+<http://w3id.org/polifonia/pilot/meetups/68308/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ralph_Sampson> , <http://dbpedia.org/resource/Darren_McGavin> , <http://dbpedia.org/resource/DeForest_Kelley> ;
+        ont:place           "http://dbpedia.org/resource/Binton" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Albertson> ;
+        ont:timeExpression  "January 2 , 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/68308/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Percy_Bysshe_Shelley> ;
+        ont:place           "http://dbpedia.org/resource/Menier_Chocolate_Factory" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Albertson> ;
+        ont:timeExpression  "1972" , "1971" .

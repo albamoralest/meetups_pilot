@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/295574/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Marley> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Judge_Dread> ;
+        ont:timeExpression  "1970s" , "million" .
+
+<http://w3id.org/polifonia/pilot/meetups/295574/4/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elvis_Presley> , <http://dbpedia.org/resource/Alex_Hughes_(cartoonist)> , <http://dbpedia.org/resource/Lisa_Marie_Presley> ;
+        ont:place           "http://dbpedia.org/resource/Snodland" ;
+        ont:subject         <http://dbpedia.org/resource/Judge_Dread> ;
+        ont:timeExpression  "in 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/295574/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Judge_Dread> ;
+        ont:place           "http://dbpedia.org/resource/Tring" ;
+        ont:subject         <http://dbpedia.org/resource/Judge_Dread> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/295574/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Judge_Dread> ;
+        ont:place           "http://dbpedia.org/resource/Canterbury" ;
+        ont:subject         <http://dbpedia.org/resource/Judge_Dread> ;
+        ont:timeExpression  "13 March 1998" .

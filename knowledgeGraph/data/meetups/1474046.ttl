@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1474046/2/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Dankworth> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Academy_of_Arts" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Rendell> ;
+        ont:timeExpression  "for three" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1474046/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Palin> ;
+        ont:place           "http://dbpedia.org/resource/Manchester" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Rendell> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1474046/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ed_Rendell> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Rendell> ;
+        ont:timeExpression  "20 October 2015" , "convert in 1956" , "age of 89" .
+
+<http://w3id.org/polifonia/pilot/meetups/1474046/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leonard_Feather> ;
+        ont:place           "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Rendell> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/1474046/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Neil_Ardley> , <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:place           "http://dbpedia.org/resource/Aegean_Sea" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Rendell> ;
+        ont:timeExpression  "1970" .

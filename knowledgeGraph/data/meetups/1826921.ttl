@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1826921/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Horton> , <http://dbpedia.org/resource/Webb_Pierce> , <http://dbpedia.org/resource/Claude_King> , <http://dbpedia.org/resource/Ben_Franks> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Houston" ;
+        ont:subject         <http://dbpedia.org/resource/Tillman_Franks> ;
+        ont:timeExpression  "September 29 , 1920" , "October 26 , 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1826921/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Claude_King> ;
+        ont:place           "http://dbpedia.org/resource/Atlanta" , "http://dbpedia.org/resource/Shreveport_Regional_Airport" ;
+        ont:subject         <http://dbpedia.org/resource/Tillman_Franks> ;
+        ont:timeExpression  "1864 battle" , "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1826921/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Tomlinson> , <http://dbpedia.org/resource/Johnny_Horton> ;
+        ont:place           "http://dbpedia.org/resource/Milan" , "http://dbpedia.org/resource/Milam_County,_Texas" , "http://dbpedia.org/resource/Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Tillman_Franks> ;
+        ont:timeExpression  "November 5 , 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/1826921/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kix_Brooks> , <http://dbpedia.org/resource/Elvis_Presley> , <http://dbpedia.org/resource/David_Toms> , <http://dbpedia.org/resource/Terry_Bradshaw> , <http://dbpedia.org/resource/Claude_King> ;
+        ont:place           "http://dbpedia.org/resource/Louisiana" , "http://dbpedia.org/resource/Rockabilly_Hall_of_Fame" ;
+        ont:subject         <http://dbpedia.org/resource/Tillman_Franks> ;
+        ont:timeExpression  "induction in 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/1826921/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Don_Hathaway> , <http://dbpedia.org/resource/George_Bernard_Shaw> , <http://dbpedia.org/resource/Tillman_Franks> ;
+        ont:place           "http://dbpedia.org/resource/Louisiana" , "http://dbpedia.org/resource/Thomas_Cole_House" , "http://dbpedia.org/resource/Oakmont_Country_Club" , "http://dbpedia.org/resource/Ludlow" , "http://dbpedia.org/resource/Caddo_Parish,_Louisiana" ;
+        ont:subject         <http://dbpedia.org/resource/Tillman_Franks> ;
+        ont:timeExpression  "in 2000" , "KWKH.A 1940" , "July 11 , 1996" .

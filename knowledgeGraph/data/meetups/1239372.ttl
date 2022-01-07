@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1239372/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maureen_Forrester> , <http://dbpedia.org/resource/Benedict_Arnold> ;
+        ont:place           "http://dbpedia.org/resource/Montreal" ;
+        ont:subject         <http://dbpedia.org/resource/Maureen_Forrester> ;
+        ont:timeExpression  "of four" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1239372/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/MC_Kash> ;
+        ont:place           "http://dbpedia.org/resource/Toronto" ;
+        ont:subject         <http://dbpedia.org/resource/Maureen_Forrester> ;
+        ont:timeExpression  "in 1957.In" , "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/1239372/4/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marci_McDonald> ;
+        ont:place           "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Maureen_Forrester> ;
+        ont:timeExpression  "From 1983-88" , "Canada Council.In 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/1239372/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maureen_Forrester> ;
+        ont:place           "http://dbpedia.org/resource/Toronto" ;
+        ont:subject         <http://dbpedia.org/resource/Maureen_Forrester> ;
+        ont:timeExpression  "June 16 , 2010" , "79" .

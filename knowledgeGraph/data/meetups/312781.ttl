@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/312781/52/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Herbert_von_Karajan> ;
+        ont:place           "http://dbpedia.org/resource/Lucerne" , "http://dbpedia.org/resource/Switzerland" ;
+        ont:subject         <http://dbpedia.org/resource/Dinu_Lipatti> ;
+        ont:timeExpression  "21" , "K. 467" .
+
+<http://w3id.org/polifonia/pilot/meetups/312781/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Madeleine_of_Valois> ;
+        ont:place           "http://dbpedia.org/resource/Romania" ;
+        ont:subject         <http://dbpedia.org/resource/Dinu_Lipatti> ;
+        ont:timeExpression  "September 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/312781/10/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfred_Cortot> ;
+        ont:place           "http://dbpedia.org/resource/Poland" ;
+        ont:subject         <http://dbpedia.org/resource/Dinu_Lipatti> ;
+        ont:timeExpression  "In 1981" , "4th" .

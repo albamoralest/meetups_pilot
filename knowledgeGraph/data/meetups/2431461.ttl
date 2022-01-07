@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2431461/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Oscar_Peterson> ;
+        ont:place           "http://dbpedia.org/resource/Toronto" , "http://dbpedia.org/resource/Nimmons,_Arkansas" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Nimmons> ;
+        ont:timeExpression  "In 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/2431461/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Phil_Nimmons> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Phil_Nimmons> ;
+        ont:timeExpression  "1999" .

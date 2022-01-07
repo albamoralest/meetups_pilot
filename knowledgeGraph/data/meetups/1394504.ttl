@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1394504/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ninette_de_Valois> , <http://dbpedia.org/resource/Padraic_Colum> ;
+        ont:place           "http://dbpedia.org/resource/Abbey_Theatre" , "http://dbpedia.org/resource/Dublin" ;
+        ont:subject         <http://dbpedia.org/resource/William_Alwyn> ;
+        ont:timeExpression  "one scene" , "February 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/1394504/2/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michelle_Kwan> ;
+        ont:place           "http://dbpedia.org/resource/Dunwich" , "http://dbpedia.org/resource/Suffolk" , "http://dbpedia.org/resource/Blythburgh" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/William_Alwyn> ;
+        ont:timeExpression  "1998" .

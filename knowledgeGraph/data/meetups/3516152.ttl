@@ -1,0 +1,84 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nick_Mason> , <http://dbpedia.org/resource/Roswell_Rudd> ;
+        ont:place           "http://dbpedia.org/resource/Maiella" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "November 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christian_Friedrich_Hebbel> ;
+        ont:place           "http://dbpedia.org/resource/Copenhagen" , "http://dbpedia.org/resource/Berlin" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "Spring of 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cecil_Rhodes> , <http://dbpedia.org/resource/Archie_Shepp> , <http://dbpedia.org/resource/Roswell_Rudd> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "In 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christian_Friedrich_Hebbel> ;
+        ont:place           "http://dbpedia.org/resource/Berlin" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "November 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Davy_Arnaud> , <http://dbpedia.org/resource/Himiko> , <http://dbpedia.org/resource/Max_Brand> ;
+        ont:place           "http://dbpedia.org/resource/Austria" , "http://dbpedia.org/resource/Krems_an_der_Donau" , "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "2012" , "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Himiko> , <http://dbpedia.org/resource/Max_Brand> ;
+        ont:place           "http://dbpedia.org/resource/Vienna" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "with two" , "September 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Andy_Sheppard> , <http://dbpedia.org/resource/Michael_Gibbs_(composer)> ;
+        ont:place           "http://dbpedia.org/resource/Danube" , "http://dbpedia.org/resource/Vienna" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "June 1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carla_Bley> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Japan" , "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "From 1977" , "until 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nick_Mason> , <http://dbpedia.org/resource/Roland_Kluttig> , <http://dbpedia.org/resource/Roswell_Rudd> , <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:place           "http://dbpedia.org/resource/Maiella" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Giuseppe_Bertolucci> ;
+        ont:place           "http://dbpedia.org/resource/Italy" , "http://dbpedia.org/resource/Denmark" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "January 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Mantler> , <http://dbpedia.org/resource/Wolfgang_Puschnig> , <http://dbpedia.org/resource/Harry_Sokal_(musician)> , <http://dbpedia.org/resource/David_Helbock> ;
+        ont:place           "http://dbpedia.org/resource/Vienna" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "September 2013" .

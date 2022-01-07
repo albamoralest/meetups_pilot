@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/361339/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Powell> ;
+        ont:place           "http://dbpedia.org/resource/Spain" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Gregorio_Martínez_Sierra> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/361339/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Juan_Eslava_Galán> ;
+        ont:place           "http://dbpedia.org/resource/Madrid" , "http://dbpedia.org/resource/Spain" ;
+        ont:subject         <http://dbpedia.org/resource/Gregorio_Martínez_Sierra> ;
+        ont:timeExpression  "In 1917" , "until 1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/361339/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Francisco_Rovira_Beleta> ;
+        ont:place           "http://dbpedia.org/resource/Spain" ;
+        ont:subject         <http://dbpedia.org/resource/Gregorio_Martínez_Sierra> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/361339/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fernando_de_Fuentes> ;
+        ont:place           "http://dbpedia.org/resource/Mexico" ;
+        ont:subject         <http://dbpedia.org/resource/Gregorio_Martínez_Sierra> ;
+        ont:timeExpression  "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/361339/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dennis_Dugan> , <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Sano,_Tochigi" ;
+        ont:subject         <http://dbpedia.org/resource/Gregorio_Martínez_Sierra> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/361339/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carlos_Saura> ;
+        ont:place           "http://dbpedia.org/resource/Spain" ;
+        ont:subject         <http://dbpedia.org/resource/Gregorio_Martínez_Sierra> ;
+        ont:timeExpression  "1986" .

@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/722501/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Voltaire> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gay> ;
+        ont:timeExpression  "1967" , "1973" , "1966" , "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/722501/0/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Daniel_Coit_Gilman> , <http://dbpedia.org/resource/Carl_Linnaeus> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gay> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/722501/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sigmund_Freud> ;
+        ont:place           "http://dbpedia.org/resource/Nazi_Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gay> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/722501/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sigmund_Freud> ;
+        ont:place           "http://dbpedia.org/resource/Weimar" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gay> ;
+        ont:timeExpression  "1968 book" .
+
+<http://w3id.org/polifonia/pilot/meetups/722501/6/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sigmund_Freud> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gay> ;
+        ont:timeExpression  "1840s" , "2007 book Modernism" .
+
+<http://w3id.org/polifonia/pilot/meetups/722501/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sigmund_Freud> ;
+        ont:place           "http://dbpedia.org/resource/Cuba" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Gay> ;
+        ont:timeExpression  "in 1923" , "in 1941" , "25" , "1968" , "1988" .

@@ -1,0 +1,98 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bill_Wyman> , <http://dbpedia.org/resource/Eric_Clapton> , <http://dbpedia.org/resource/Steve_Winwood> , <http://dbpedia.org/resource/Jimmy_Page> , <http://dbpedia.org/resource/Ronnie_Lane> , <http://dbpedia.org/resource/Jeff_Beck> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "In 1983" , "1983 tour" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Billy_Joel> ;
+        ont:place           "http://dbpedia.org/resource/Madison_Square_Garden" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "17 September 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Page> , <http://dbpedia.org/resource/Big_Jim_Sullivan> ;
+        ont:place           "http://dbpedia.org/resource/Sheffield" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "Sheffield City Hall.In 1964" , "In 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/17/20>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richie_Havens> , <http://dbpedia.org/resource/Arlo_Guthrie> ;
+        ont:place           "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "1979" , "300,000 copies.In" , "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tina_Turner> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "In 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/6/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:place           "http://dbpedia.org/resource/Goes" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/24/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cornell_Dupree> , <http://dbpedia.org/resource/George_V> ;
+        ont:place           "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "in 2008" , "in 2011" , "20 March 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_McCullough> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "68" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leon_Russell> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_McCartney> , <http://dbpedia.org/resource/Philip_Oakey> , <http://dbpedia.org/resource/Ringo_Starr> ;
+        ont:place           "http://dbpedia.org/resource/Yorkshire" , "http://dbpedia.org/resource/Barrie" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "two" , "In 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/40/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jane_Fonda> ;
+        ont:place           "http://dbpedia.org/resource/Santa_Barbara,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "in 1976.In" , "1978" , "13" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/20/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jim_Vallance> , <http://dbpedia.org/resource/Diane_Warren> , <http://dbpedia.org/resource/Bryan_Adams> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "20 hit" , "January 1990" , "11" , "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/88371/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gene_Pitney> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:timeExpression  "1969" , "1968" .

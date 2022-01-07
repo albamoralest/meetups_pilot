@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/874840/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_Church_Terrell> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Terrell> ;
+        ont:timeExpression  "January 14 , 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/874840/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ernie_Terrell> , <http://dbpedia.org/resource/Berry_Gordy> ;
+        ont:place           "http://dbpedia.org/resource/Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Terrell> ;
+        ont:timeExpression  "in 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/874840/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean_Terrell> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Terrell> ;
+        ont:timeExpression  "November 26 , 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/874840/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Terrell> ;
+        ont:timeExpression  "In 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/874840/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_Church_Terrell> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Terrell> ;
+        ont:timeExpression  "1980s" .

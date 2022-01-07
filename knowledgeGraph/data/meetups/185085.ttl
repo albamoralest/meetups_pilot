@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" , "http://dbpedia.org/resource/North_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "age of 89" , "October 11 , 2012.Jackson" , "December 4 , 2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/10/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_V> , <http://dbpedia.org/resource/Juanita_Coulson> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "by 2012" , "January 11 , 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Stonewall_Jackson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "November 6 , 1932" , "December 4 , 2021" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:place           "http://dbpedia.org/resource/Tabor_City,_North_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "November 6 , 1932" , "of three" .

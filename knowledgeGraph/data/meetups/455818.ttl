@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/455818/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Édith_Piaf> ;
+        ont:place           "http://dbpedia.org/resource/Martinique" ;
+        ont:subject         <http://dbpedia.org/resource/Léo_Ferré> ;
+        ont:timeExpression  "Paris.In April 1947" , "In 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/455818/6/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Arthur_Rimbaud> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Montreux" ;
+        ont:subject         <http://dbpedia.org/resource/Léo_Ferré> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/455818/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Joseph> , <http://dbpedia.org/resource/Lucienne_Bloch> ;
+        ont:place           "http://dbpedia.org/resource/Monte_Carlo" , "http://dbpedia.org/resource/Piedmont" ;
+        ont:subject         <http://dbpedia.org/resource/Léo_Ferré> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/455818/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Queen_Victoria> ;
+        ont:place           "http://dbpedia.org/resource/Cathedral_of_Our_Lady_Immaculate" ;
+        ont:subject         <http://dbpedia.org/resource/Léo_Ferré> ;
+        ont:timeExpression  "age of seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/455818/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christophe_Maé> ;
+        ont:place           "http://dbpedia.org/resource/Milan" , "http://dbpedia.org/resource/La_Scala" ;
+        ont:subject         <http://dbpedia.org/resource/Léo_Ferré> ;
+        ont:timeExpression  "1952" , "1953–54" .
+
+<http://w3id.org/polifonia/pilot/meetups/455818/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pierre_Charles_L'Enfant> ;
+        ont:place           "http://dbpedia.org/resource/Bordighera" , "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Léo_Ferré> ;
+        ont:timeExpression  "nine" .

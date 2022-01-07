@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/630138/12/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bonnie_Raitt> , <http://dbpedia.org/resource/Lucinda_Williams> ;
+        ont:place           "http://dbpedia.org/resource/Whispering_Pines,_Lake_County,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Boz_Scaggs> ;
+        ont:timeExpression  "In 2015" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/630138/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_McDonald_(musician)> , <http://dbpedia.org/resource/Donald_Fagen> , <http://dbpedia.org/resource/Phoebe_Snow> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Boz_Scaggs> ;
+        ont:timeExpression  "in 1988" , "closure in 2020.From" , "1992" , "1989" .

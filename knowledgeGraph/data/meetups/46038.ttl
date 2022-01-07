@@ -1,0 +1,105 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/8/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Patrick> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "in 1812" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Grigory_Potemkin> , <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:place           "http://dbpedia.org/resource/Krychaw" , "http://dbpedia.org/resource/Belarus" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "In 1786" , "1787" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Lind_(politician)> ;
+        ont:place           "http://dbpedia.org/resource/Thirteen_Colonies" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "July 1776" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Pitt_the_Younger> ;
+        ont:place           "http://dbpedia.org/resource/Battersea" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "act of 1779" , "in 1794" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Houndsditch" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "15 February 1748" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:place           "http://dbpedia.org/resource/National_Hospital_for_Neurology_and_Neurosurgery" , "http://dbpedia.org/resource/Westminster" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "84" , "6 June 1832" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/50/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Gillies> , <http://dbpedia.org/resource/Percy_Bysshe_Shelley> ;
+        ont:place           "http://dbpedia.org/resource/Finsbury" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "36" , "From 1833" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeremy_Bentham> , <http://dbpedia.org/resource/James_Mill> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "In 1823" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/37/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Madison> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "in 1811" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeremy_Bentham> , <http://dbpedia.org/resource/John_Neal_(writer)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "in 1759" , "1827" , "association between 1825" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/50/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Southwark" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "3 p.m." , "two" , "8 June 1832" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Gouger> , <http://dbpedia.org/resource/Jeremy_Bentham> , <http://dbpedia.org/resource/Charles_Grey,_2nd_Earl_Grey> ;
+        ont:place           "http://dbpedia.org/resource/Southern_United_States" , "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "2nd" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/10/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Francisco_de_Miranda> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "1808" , "1810" .
+
+<http://w3id.org/polifonia/pilot/meetups/46038/63/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> ;
+        ont:place           "http://dbpedia.org/resource/Shaw_and_Crompton" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Bentham> ;
+        ont:timeExpression  "One" .

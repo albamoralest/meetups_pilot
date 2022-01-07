@@ -1,0 +1,105 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Empress_Elisabeth_of_Austria> , <http://dbpedia.org/resource/Patrice_de_MacMahon> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1876" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Adelina_Patti> , <http://dbpedia.org/resource/Edward_VII> ;
+        ont:place           "http://dbpedia.org/resource/Montreal" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "24 August 1860" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/19/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_W._McCormack> , <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Opera_House" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "two" , "1908" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johann_Sebastian_Bach> , <http://dbpedia.org/resource/Queen_Victoria> ;
+        ont:place           "http://dbpedia.org/resource/Windsor_Castle" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "July 1874" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:place           "http://dbpedia.org/resource/Toronto" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/15/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_of_Valois> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn" , "http://dbpedia.org/resource/Philadelphia" , "http://dbpedia.org/resource/Albany,_New_York" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "one" , "four" , "three" , "on 23" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Martha_Wainwright> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/19/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Queen_Victoria> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in 1901" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:place           "http://dbpedia.org/resource/Montreal" , "http://dbpedia.org/resource/Fort_Chambly" , "http://dbpedia.org/resource/Place-des-Arts_station" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Frideric_Handel> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Boston" , "http://dbpedia.org/resource/Philadelphia" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Baltimore" , "http://dbpedia.org/resource/Washington_Union_Station" , "http://dbpedia.org/resource/Albany,_New_York" , "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "fall of 1874" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pierre_Curie> ;
+        ont:place           "http://dbpedia.org/resource/Vachon_(electoral_district)" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Frideric_Handel> , <http://dbpedia.org/resource/Theodora_III_Porphyrogenita> ;
+        ont:place           "http://dbpedia.org/resource/Norwich" , "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Salle_Ventadour" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1872–1873 winter season" , "October 1872" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/15/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Emma_Eames> , <http://dbpedia.org/resource/Elsa_Triolet> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "Act 1" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ferdinand_II_of_Aragon> , <http://dbpedia.org/resource/Isabella_I_of_Castile> ;
+        ont:place           "http://dbpedia.org/resource/Europe" , "http://dbpedia.org/resource/Royal_Opera_House" , "http://dbpedia.org/resource/North_America" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "26 June 1880" , "1880s" .

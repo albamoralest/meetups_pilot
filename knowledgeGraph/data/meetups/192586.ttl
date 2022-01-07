@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/192586/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Peter_Stanley_Lyons> ;
+        ont:place           "http://dbpedia.org/resource/Witham" , "http://dbpedia.org/resource/Aberystwyth" ;
+        ont:subject         <http://dbpedia.org/resource/Walford_Davies> ;
+        ont:timeExpression  "in 1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/192586/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_V> , <http://dbpedia.org/resource/Randall_Davidson> , <http://dbpedia.org/resource/Walter_Parratt> ;
+        ont:place           "http://dbpedia.org/resource/Windsor_Castle" , "http://dbpedia.org/resource/Archbishop_of_Canterbury" , "http://dbpedia.org/resource/Royal_Palace_of_Madrid" , "http://dbpedia.org/resource/Windsor_Great_Park" ;
+        ont:subject         <http://dbpedia.org/resource/Walford_Davies> ;
+        ont:timeExpression  "In 1882" , "in 1885" .
+
+<http://w3id.org/polifonia/pilot/meetups/192586/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_V> , <http://dbpedia.org/resource/David_Lloyd_George> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Walford_Davies> ;
+        ont:timeExpression  "1924" , "in 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/192586/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Tudor> ;
+        ont:place           "http://dbpedia.org/resource/Narberth,_Pembrokeshire" , "http://dbpedia.org/resource/Konstanz" , "http://dbpedia.org/resource/Lincolnshire" ;
+        ont:subject         <http://dbpedia.org/resource/Walford_Davies> ;
+        ont:timeExpression  "one" , "1898–1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/192586/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_V> ;
+        ont:place           "http://dbpedia.org/resource/Windsor_Castle" ;
+        ont:subject         <http://dbpedia.org/resource/Walford_Davies> ;
+        ont:timeExpression  "1932" , "From 1927" .

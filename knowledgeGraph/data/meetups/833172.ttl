@@ -1,0 +1,77 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/833172/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johann_Wolfgang_von_Goethe> ;
+        ont:place           "http://dbpedia.org/resource/Kinde,_Michigan" ;
+        ont:subject         <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:timeExpression  "1835" .
+
+<http://w3id.org/polifonia/pilot/meetups/833172/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:place           "http://dbpedia.org/resource/Achim" ;
+        ont:subject         <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:timeExpression  "in 1831" .
+
+<http://w3id.org/polifonia/pilot/meetups/833172/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bettina_von_Arnim> , <http://dbpedia.org/resource/Johann_Wolfgang_von_Goethe> ;
+        ont:place           "http://dbpedia.org/resource/Weimar" ;
+        ont:subject         <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:timeExpression  "In 1807" .
+
+<http://w3id.org/polifonia/pilot/meetups/833172/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bettina_von_Arnim> , <http://dbpedia.org/resource/Empress_Elisabeth_of_Austria> ;
+        ont:place           "http://dbpedia.org/resource/Magdalena_Department" ;
+        ont:subject         <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:timeExpression  "20 January 1859" , "4 April 1785" .
+
+<http://w3id.org/polifonia/pilot/meetups/833172/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johann_Wolfgang_von_Goethe> , <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:place           "http://dbpedia.org/resource/Weimar" ;
+        ont:subject         <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:timeExpression  "in 1987" , "1911.The chamber opera" , "1813–1878" .
+
+<http://w3id.org/polifonia/pilot/meetups/833172/21/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gustav_Schleicher> , <http://dbpedia.org/resource/Bettina_von_Arnim> , <http://dbpedia.org/resource/Ferdinand_II_of_Aragon> ;
+        ont:place           "http://dbpedia.org/resource/Schleicher_County,_Texas" , "http://dbpedia.org/resource/Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:timeExpression  "in 1854" , "three" , "though two" .
+
+<http://w3id.org/polifonia/pilot/meetups/833172/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johann_Wolfgang_von_Goethe> ;
+        ont:place           "http://dbpedia.org/resource/Kinde,_Michigan" ;
+        ont:subject         <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:timeExpression  "in 1835" .
+
+<http://w3id.org/polifonia/pilot/meetups/833172/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Friedrich_Carl_von_Savigny> , <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:place           "http://dbpedia.org/resource/Fritzlar" , "http://dbpedia.org/resource/Offenbach_am_Main" , "http://dbpedia.org/resource/Marburg" ;
+        ont:subject         <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:timeExpression  "from 1794" , "1806" , "from 1803" , "1797" .
+
+<http://w3id.org/polifonia/pilot/meetups/833172/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Roger_Clemens> , <http://dbpedia.org/resource/Clemens_Brentano> ;
+        ont:place           "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:timeExpression  "1844" .
+
+<http://w3id.org/polifonia/pilot/meetups/833172/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:place           "http://dbpedia.org/resource/Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Bettina_von_Arnim> ;
+        ont:timeExpression  "in 1847" .

@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1151374/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Philip_Sousa> , <http://dbpedia.org/resource/Paulo_Cabral> , <http://dbpedia.org/resource/Agostinho_Neto> , <http://dbpedia.org/resource/Marcelino_dos_Santos> ;
+        ont:place           "http://dbpedia.org/resource/Angola" , "http://dbpedia.org/resource/Portuguese_Mozambique" ;
+        ont:subject         <http://dbpedia.org/resource/Alda_Neves_da_Graça_do_Espírito_Santo> ;
+        ont:timeExpression  "January 1953" , "In 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/1151374/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Manuel_I_of_Portugal> , <http://dbpedia.org/resource/Agostinho_Neto> ;
+        ont:place           "http://dbpedia.org/resource/Africa" ;
+        ont:subject         <http://dbpedia.org/resource/Alda_Neves_da_Graça_do_Espírito_Santo> ;
+        ont:timeExpression  "1992" , "1987" , "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1151374/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> ;
+        ont:place           "http://dbpedia.org/resource/Minneapolis" , "http://dbpedia.org/resource/Roman_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Alda_Neves_da_Graça_do_Espírito_Santo> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1151374/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/El_Sagrado> ;
+        ont:place           "http://dbpedia.org/resource/Earth" ;
+        ont:subject         <http://dbpedia.org/resource/Alda_Neves_da_Graça_do_Espírito_Santo> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/1151374/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Tavares> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Alda_Neves_da_Graça_do_Espírito_Santo> ;
+        ont:timeExpression  "ISBN 978-2-296-07575-7" , "294" , "2009" .

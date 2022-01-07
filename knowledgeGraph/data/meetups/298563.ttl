@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/298563/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lightnin'_Slim> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Lightnin'_Hopkins> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/298563/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sonny_Terry> , <http://dbpedia.org/resource/Louisiana_Red> , <http://dbpedia.org/resource/Brownie_McGhee> ;
+        ont:place           "http://dbpedia.org/resource/Rising_Sun_Auto_Camp" ;
+        ont:subject         <http://dbpedia.org/resource/Lightnin'_Hopkins> ;
+        ont:timeExpression  "1996 ]" , "1980 [" .
+
+<http://w3id.org/polifonia/pilot/meetups/298563/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Blind_Lemon_Jefferson> ;
+        ont:place           "http://dbpedia.org/resource/Buffalo,_Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Lightnin'_Hopkins> ;
+        ont:timeExpression  "age of 8" .
+
+<http://w3id.org/polifonia/pilot/meetups/298563/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Davy_Crockett> ;
+        ont:place           "http://dbpedia.org/resource/Houston" ;
+        ont:subject         <http://dbpedia.org/resource/Lightnin'_Hopkins> ;
+        ont:timeExpression  "age of 69" , "January 30 , 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/298563/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Samuel_John> , <http://dbpedia.org/resource/Lightnin'_Slim> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Centerville,_Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Lightnin'_Hopkins> ;
+        ont:timeExpression  "January 30 , 1982" , "March 15 , 1912" .
+
+<http://w3id.org/polifonia/pilot/meetups/298563/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pete_Seeger> , <http://dbpedia.org/resource/Joan_Baez> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Lightnin'_Hopkins> ;
+        ont:timeExpression  "October 14 , 1960" .

@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2834129/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rosko> ;
+        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Rebop_Kwaku_Baah> ;
+        ont:timeExpression  "in 1977" , "breakup in 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/2834129/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:place           "http://dbpedia.org/resource/Sweden" , "http://dbpedia.org/resource/Stockholm" ;
+        ont:subject         <http://dbpedia.org/resource/Rebop_Kwaku_Baah> ;
+        ont:timeExpression  "January 1983" .

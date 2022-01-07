@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/46284/32/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jackie_Gleason> , <http://dbpedia.org/resource/John_Milton> , <http://dbpedia.org/resource/Lucille_Ball> , <http://dbpedia.org/resource/Steve_Allen> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Earth" ;
+        ont:subject         <http://dbpedia.org/resource/Milton_Berle> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/46284/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Mendel> , <http://dbpedia.org/resource/John_Milton> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Milton_Berle> ;
+        ont:timeExpression  "July 12 , 1908" , "March 27 , 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/46284/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ulysses_S._Grant> , <http://dbpedia.org/resource/Charlie_Grant> , <http://dbpedia.org/resource/Cecil_Womack> , <http://dbpedia.org/resource/Perry_Johnson> ;
+        ont:place           "http://dbpedia.org/resource/Goes" ;
+        ont:subject         <http://dbpedia.org/resource/Milton_Berle> ;
+        ont:timeExpression  "of 1943" , "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/46284/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Milton> ;
+        ont:place           "http://dbpedia.org/resource/Sunset_Boulevard" , "http://dbpedia.org/resource/Savoy_Hotel" ;
+        ont:subject         <http://dbpedia.org/resource/Milton_Berle> ;
+        ont:timeExpression  "one" , "In 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/46284/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Milton> ;
+        ont:place           "http://dbpedia.org/resource/Manhattan" , "http://dbpedia.org/resource/Harlem" ;
+        ont:subject         <http://dbpedia.org/resource/Milton_Berle> ;
+        ont:timeExpression  "68 W. 118th" .
+
+<http://w3id.org/polifonia/pilot/meetups/46284/33/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henny_Youngman> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Milton_Berle> ;
+        ont:timeExpression  "show in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/46284/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maria_Shriver> , <http://dbpedia.org/resource/Arnold_Schwarzenegger> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Milton_Berle> ;
+        ont:timeExpression  "December 5 , 2007" .

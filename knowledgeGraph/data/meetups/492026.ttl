@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/15/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vladimir_Bukovsky> , <http://dbpedia.org/resource/Eleanor_Roosevelt> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "one show" , "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Ironside> ;
+        ont:place           "http://dbpedia.org/resource/Southern_United_States" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Russian_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1957" , "1951" , "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/13/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ruth_Bader_Ginsburg> , <http://dbpedia.org/resource/John_Marshall_Harlan_(1899–1971)> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Ronald_Reagan_UCLA_Medical_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "three" , "July 21 , 2015" , "December 29 , 2013.Bikel" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/15/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Carter> ;
+        ont:place           "http://dbpedia.org/resource/Soviet_Union" ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 1977" , "in 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chaim_Topol> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 2010.Bikel" , "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Max_Müller> ;
+        ont:place           "http://dbpedia.org/resource/Tel_Aviv" , "http://dbpedia.org/resource/Israel" ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1958" .

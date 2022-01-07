@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2591808/5/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Ladd> ;
+        ont:place           "http://dbpedia.org/resource/Mexico" ;
+        ont:subject         <http://dbpedia.org/resource/Sue_Carol> ;
+        ont:timeExpression  "March 15 , 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/2591808/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Steve_Allen> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Sue_Carol> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/2591808/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sue_Carol> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Sue_Carol> ;
+        ont:timeExpression  "October 30 , 1906" , "February 4 , 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/2591808/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sue_Carol> , <http://dbpedia.org/resource/Nick_Stuart> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Sue_Carol> ;
+        ont:timeExpression  "Page 32" , "July 23 , 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/2591808/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Ladd> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/California_State_Route_2" , "http://dbpedia.org/resource/Vine_Street" , "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Sue_Carol> ;
+        ont:timeExpression  "February 4 , 1982" , "at 1639" , "in 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/2591808/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sue_Carol> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Sue_Carol> ;
+        ont:timeExpression  "In 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/2591808/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harold_Wilson> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Sue_Carol> ;
+        ont:timeExpression  "Oct. 30 , 1936" .

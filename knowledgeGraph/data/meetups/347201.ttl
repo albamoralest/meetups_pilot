@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/347201/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benedict_Arnold> , <http://dbpedia.org/resource/Paula_of_Rome> ;
+        ont:place           "http://dbpedia.org/resource/Rome" ;
+        ont:subject         <http://dbpedia.org/resource/Anita_Pallenberg> ;
+        ont:timeExpression  "6 April 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/347201/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Keith_Richards> , <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:place           "http://dbpedia.org/resource/South_Salem,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Anita_Pallenberg> ;
+        ont:timeExpression  "20 July 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/347201/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Andy_Warhol> ;
+        ont:place           "http://dbpedia.org/resource/Ancient_Rome" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Anita_Pallenberg> ;
+        ont:timeExpression  "in four" , "16" .
+
+<http://w3id.org/polifonia/pilot/meetups/347201/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pier_Paolo_Pasolini> , <http://dbpedia.org/resource/Luchino_Visconti> , <http://dbpedia.org/resource/Federico_Fellini> ;
+        ont:place           "http://dbpedia.org/resource/Rome" ;
+        ont:subject         <http://dbpedia.org/resource/Anita_Pallenberg> ;
+        ont:timeExpression  "Alberto Moravia.In 1985" , "1960" , "16 March 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/347201/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Brian_Jones> , <http://dbpedia.org/resource/James_Coburn> ;
+        ont:place           "http://dbpedia.org/resource/Slovakia" ;
+        ont:subject         <http://dbpedia.org/resource/Anita_Pallenberg> ;
+        ont:timeExpression  "1969" , "1970" , "1967" , "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/347201/8/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Keith_Richards> ;
+        ont:place           "http://dbpedia.org/resource/Morocco" ;
+        ont:subject         <http://dbpedia.org/resource/Anita_Pallenberg> ;
+        ont:timeExpression  "in 1969.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/347201/14/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marlon_Brando> ;
+        ont:place           "http://dbpedia.org/resource/Long_Island" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Anita_Pallenberg> ;
+        ont:timeExpression  "eight" .

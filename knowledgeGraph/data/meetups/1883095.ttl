@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1883095/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Billy_Barnes_(composer)> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Ken_Berry> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1883095/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tony_Randall> , <http://dbpedia.org/resource/Denver_Pyle> , <http://dbpedia.org/resource/Janet_Leigh> ;
+        ont:place           "http://dbpedia.org/resource/Yosemite_National_Park" ;
+        ont:subject         <http://dbpedia.org/resource/Ken_Berry> ;
+        ont:timeExpression  "in 1976" , "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/1883095/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bud_Abbott> , <http://dbpedia.org/resource/Lou_Costello> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas_Strip" ;
+        ont:subject         <http://dbpedia.org/resource/Ken_Berry> ;
+        ont:timeExpression  "In 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/1883095/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carol_Burnett> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Ken_Berry> ;
+        ont:timeExpression  "one evening" .
+
+<http://w3id.org/polifonia/pilot/meetups/1883095/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jim_Nabors> , <http://dbpedia.org/resource/William_F._Harrah> ;
+        ont:place           "http://dbpedia.org/resource/Lawlor_Events_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Ken_Berry> ;
+        ont:timeExpression  "In 1967" .

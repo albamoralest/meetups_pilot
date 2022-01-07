@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/343176/3/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fred_Karno> , <http://dbpedia.org/resource/Stan_Laurel> , <http://dbpedia.org/resource/Hal_Roach> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Karno> ;
+        ont:timeExpression  "with one" , "in 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/343176/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fred_Karno> ;
+        ont:place           "http://dbpedia.org/resource/Devon" , "http://dbpedia.org/resource/Exeter" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Karno> ;
+        ont:timeExpression  "in 1866" .
+
+<http://w3id.org/polifonia/pilot/meetups/343176/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Westcott> , <http://dbpedia.org/resource/Frederick_the_Great> , <http://dbpedia.org/resource/Fred_Karno> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Karno> ;
+        ont:timeExpression  "26 March 1866" , "18 September 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/343176/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Chaplin> , <http://dbpedia.org/resource/Fred_Karno> , <http://dbpedia.org/resource/John_Thaw> ;
+        ont:place           "http://dbpedia.org/resource/London_Astoria" , "http://dbpedia.org/resource/Middlesex" , "http://dbpedia.org/resource/Hampton,_Virginia" , "http://dbpedia.org/resource/Camberwell" , "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Southwell_Minster" , "http://dbpedia.org/resource/River_Thames" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Karno> ;
+        ont:timeExpression  "1992" , "30 September 2012" , "at 38" .
+
+<http://w3id.org/polifonia/pilot/meetups/343176/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tagg_Romney> ;
+        ont:place           "http://dbpedia.org/resource/River_Thames" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Karno> ;
+        ont:timeExpression  "In 1904" , "in 1912" .
+
+<http://w3id.org/polifonia/pilot/meetups/343176/3/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Chaplin> , <http://dbpedia.org/resource/Fred_Karno> , <http://dbpedia.org/resource/Bennie_Green> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Fred_Karno> ;
+        ont:timeExpression  "75.Musician" , "in 1941" , "in 1936" .

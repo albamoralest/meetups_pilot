@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/189182/6/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bebe_Daniels> , <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:place           "http://dbpedia.org/resource/42nd_Street_Shuttle" ;
+        ont:subject         <http://dbpedia.org/resource/Ruby_Keeler> ;
+        ont:timeExpression  "19" , "42.In" , "1933" , "42nd" .
+
+<http://w3id.org/polifonia/pilot/meetups/189182/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donald_Saddler> , <http://dbpedia.org/resource/Burt_Shevelove> , <http://dbpedia.org/resource/Busby_Berkeley> ;
+        ont:place           "http://dbpedia.org/resource/42nd_Street_Shuttle" ;
+        ont:subject         <http://dbpedia.org/resource/Ruby_Keeler> ;
+        ont:timeExpression  "42nd" .
+
+<http://w3id.org/polifonia/pilot/meetups/189182/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jack_Palance> , <http://dbpedia.org/resource/Charlton_Heston> ;
+        ont:place           "http://dbpedia.org/resource/Earth" ;
+        ont:subject         <http://dbpedia.org/resource/Ruby_Keeler> ;
+        ont:timeExpression  "In 1963" , "1970 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/189182/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Catherine_of_Alexandria> ;
+        ont:place           "http://dbpedia.org/resource/Siena" , "http://dbpedia.org/resource/Lower_East_Side" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Ruby_Keeler> ;
+        ont:timeExpression  "one period" .
+
+<http://w3id.org/polifonia/pilot/meetups/189182/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dick_Powell> , <http://dbpedia.org/resource/Julius_and_Ethel_Rosenberg> , <http://dbpedia.org/resource/Ruby_Keeler> ;
+        ont:place           "http://dbpedia.org/resource/42nd_Street_Shuttle" ;
+        ont:subject         <http://dbpedia.org/resource/Ruby_Keeler> ;
+        ont:timeExpression  "February 28 , 1993" , "August 25 , 1909" , "42nd" , "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/189182/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Texas_Guinan> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Ruby_Keeler> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/189182/6/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> ;
+        ont:place           "http://dbpedia.org/resource/42nd_Street_Shuttle" ;
+        ont:subject         <http://dbpedia.org/resource/Ruby_Keeler> ;
+        ont:timeExpression  "of 1933" , "42nd" .

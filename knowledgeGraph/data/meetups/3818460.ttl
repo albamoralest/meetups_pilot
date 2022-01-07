@@ -1,0 +1,14 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3818460/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Klaus_Mann> , <http://dbpedia.org/resource/George_Frideric_Handel> , <http://dbpedia.org/resource/Kai_Wessel_(countertenor)> ;
+        ont:place           "http://dbpedia.org/resource/Bern" , "http://dbpedia.org/resource/Amsterdam" ;
+        ont:subject         <http://dbpedia.org/resource/Ton_Koopman> ;
+        ont:timeExpression  "Erato 1992" , "8" , "2 CD" .

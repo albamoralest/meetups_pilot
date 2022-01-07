@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2672499/0/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Oral_Roberts> ;
+        ont:place           "http://dbpedia.org/resource/Greater_Antilles" ;
+        ont:subject         <http://dbpedia.org/resource/Lanny_Wolfe> ;
+        ont:timeExpression  "for six" , "on 120" .
+
+<http://w3id.org/polifonia/pilot/meetups/2672499/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lanny_Wolfe> ;
+        ont:place           "http://dbpedia.org/resource/Azusa,_California" ;
+        ont:subject         <http://dbpedia.org/resource/Lanny_Wolfe> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/2672499/87/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lanny_Wolfe> , <http://dbpedia.org/resource/Bertrand_Russell> ;
+        ont:place           "http://dbpedia.org/resource/Mauldin,_South_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Lanny_Wolfe> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/2672499/0/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Cleveland> ;
+        ont:place           "http://dbpedia.org/resource/Houston" , "http://dbpedia.org/resource/Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Lanny_Wolfe> ;
+        ont:timeExpression  "in 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/2672499/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lanny_Wolfe> ;
+        ont:place           "http://dbpedia.org/resource/Illinois" , "http://dbpedia.org/resource/West_Frankfort,_Illinois" ;
+        ont:subject         <http://dbpedia.org/resource/Lanny_Wolfe> ;
+        ont:timeExpression  "in 2015" , "on 120" .
+
+<http://w3id.org/polifonia/pilot/meetups/2672499/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lanny_Wolfe> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Lanny_Wolfe> ;
+        ont:timeExpression  "February 2 , 1942" .

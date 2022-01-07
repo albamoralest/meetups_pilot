@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dorothy_Maynor> ;
+        ont:place           "http://dbpedia.org/resource/Detroit" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2000" , "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:place           "http://dbpedia.org/resource/New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "in 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Seiji_Ozawa> , <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:place           "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "In 1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jamie_Lee_Curtis> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "1997" , "1983" , "1996" , "2012" , "1982" , "recipient of two" , "in 2009" , "2001" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> , <http://dbpedia.org/resource/Marion_Barry> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Washington_metropolitan_area" , "http://dbpedia.org/resource/North_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "June 17 , 1997" , "North Carolina Governor Jim Hunt.In 1998" , "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Theophilus_of_Antioch> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "June 27 , 1922" , "August 23 , 2018" .

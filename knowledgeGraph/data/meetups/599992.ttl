@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/599992/15/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rupert_Murdoch> , <http://dbpedia.org/resource/Peter_Weir> , <http://dbpedia.org/resource/Madonna> ;
+        ont:place           "http://dbpedia.org/resource/Fan_district" , "http://dbpedia.org/resource/British_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Stigwood> ;
+        ont:timeExpression  "1981" , "1980 film" , "1997" , "Grease 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/599992/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Marley> ;
+        ont:place           "http://dbpedia.org/resource/Miami" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Stigwood> ;
+        ont:timeExpression  "1" , "1974" , "461" .
+
+<http://w3id.org/polifonia/pilot/meetups/599992/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jack_Bruce> , <http://dbpedia.org/resource/Graham_Bond> , <http://dbpedia.org/resource/Eric_Clapton> , <http://dbpedia.org/resource/Chuck_Berry> , <http://dbpedia.org/resource/P._J._Proby> , <http://dbpedia.org/resource/Ginger_Baker> , <http://dbpedia.org/resource/John_Mayall> ;
+        ont:place           "http://dbpedia.org/resource/Restronguet_Point" , "http://dbpedia.org/resource/Lindisfarne" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Stigwood> ;
+        ont:timeExpression  "from two" , "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/599992/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eric_Sykes> , <http://dbpedia.org/resource/Spike_Milligan> , <http://dbpedia.org/resource/Brian_Epstein> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Stigwood> ;
+        ont:timeExpression  "him.Also during 1967" , "in 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/599992/7/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Andrew_Lloyd_Webber> , <http://dbpedia.org/resource/Tim_Rice> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Stigwood> ;
+        ont:timeExpression  "In 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/599992/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gwendolyn_Garcia> , <http://dbpedia.org/resource/Mike_Gordon> ;
+        ont:place           "http://dbpedia.org/resource/Port_Pirie" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Stigwood> ;
+        ont:timeExpression  "in 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/599992/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joe_Meek> ;
+        ont:place           "http://dbpedia.org/resource/Leyton" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Stigwood> ;
+        ont:timeExpression  "October 1960" .

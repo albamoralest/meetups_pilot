@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1429918/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Luther_Allison> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Allison> ;
+        ont:timeExpression  "August 17 , 1939" , "August 12 , 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/1429918/2/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Davey_Allison> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Allison> ;
+        ont:timeExpression  "eight" .
+
+<http://w3id.org/polifonia/pilot/meetups/1429918/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Davey_Allison> ;
+        ont:place           "http://dbpedia.org/resource/Wisconsin" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Allison> ;
+        ont:timeExpression  "58th birthday" , "August 12 , 1997" , "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/1429918/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Muddy_Waters> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Allison> ;
+        ont:timeExpression  "in 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/1429918/2/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Hallyday> ;
+        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Allison> ;
+        ont:timeExpression  "In 1992" , "in 18" .
+
+<http://w3id.org/polifonia/pilot/meetups/1429918/2/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bill_Knight> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Jeffrey_Hammond> ;
+        ont:place           "http://dbpedia.org/resource/General_Wayne_A._Downing_Peoria_International_Airport" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Allison> ;
+        ont:timeExpression  "two" .

@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1188821/140/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaretha_Krook> , <http://dbpedia.org/resource/Hans_Alfredson> ;
+        ont:place           "http://dbpedia.org/resource/County_of_Tyrol" ;
+        ont:subject         <http://dbpedia.org/resource/Povel_Ramel> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/1188821/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kalle_Moraeus> ;
+        ont:place           "http://dbpedia.org/resource/Orsa_Municipality" ;
+        ont:subject         <http://dbpedia.org/resource/Povel_Ramel> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1188821/27/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mikael_of_Wollo> , <http://dbpedia.org/resource/Lotta_Engberg> ;
+        ont:place           "http://dbpedia.org/resource/Tétouan" ;
+        ont:subject         <http://dbpedia.org/resource/Povel_Ramel> ;
+        ont:timeExpression  "From 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/1188821/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Antonius_Felix> ;
+        ont:place           "http://dbpedia.org/resource/Alvo,_Nebraska" , "http://dbpedia.org/resource/Tétouan" ;
+        ont:subject         <http://dbpedia.org/resource/Povel_Ramel> ;
+        ont:timeExpression  "In 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/1188821/154/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Yngve_Gamlin> ;
+        ont:place           "http://dbpedia.org/resource/Africa" , "http://dbpedia.org/resource/Tétouan" ;
+        ont:subject         <http://dbpedia.org/resource/Povel_Ramel> ;
+        ont:timeExpression  "In 1955" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1188821/91/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Scarlett_Johansson> ;
+        ont:place           "http://dbpedia.org/resource/Tétouan" , "http://dbpedia.org/resource/Balladen" ;
+        ont:subject         <http://dbpedia.org/resource/Povel_Ramel> ;
+        ont:timeExpression  "1978.This" .

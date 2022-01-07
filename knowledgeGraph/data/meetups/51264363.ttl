@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/51264363/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mariska_Hargitay> ;
+        ont:place           "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/Mario_Cazes> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/51264363/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mistinguett> ;
+        ont:place           "http://dbpedia.org/resource/Pense,_Saskatchewan" , "http://dbpedia.org/resource/Hakodate" ;
+        ont:subject         <http://dbpedia.org/resource/Mario_Cazes> ;
+        ont:timeExpression  "1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/51264363/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Emma_Liébel> , <http://dbpedia.org/resource/Serge_Fiori> ;
+        ont:place           "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/Mario_Cazes> ;
+        ont:timeExpression  "1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/51264363/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benedetto_Cairoli> ;
+        ont:place           "http://dbpedia.org/resource/Porto" ;
+        ont:subject         <http://dbpedia.org/resource/Mario_Cazes> ;
+        ont:timeExpression  "1928" .

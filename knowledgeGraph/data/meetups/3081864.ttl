@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3081864/0/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woody_Shaw> , <http://dbpedia.org/resource/Michael_Wolff_(journalist)> , <http://dbpedia.org/resource/Joe_Henderson> , <http://dbpedia.org/resource/Larry_Coryell> , <http://dbpedia.org/resource/Charnett_Moffett> , <http://dbpedia.org/resource/Eddie_Henderson_(musician)> , <http://dbpedia.org/resource/Albert_King> , <http://dbpedia.org/resource/Chris_Potter_(jazz_saxophonist)> , <http://dbpedia.org/resource/Bobby_McFerrin> , <http://dbpedia.org/resource/Walter_Payton> , <http://dbpedia.org/resource/Gil_Evans> , <http://dbpedia.org/resource/Mark_Sherman_(musician)> , <http://dbpedia.org/resource/Rob_Dixon> , <http://dbpedia.org/resource/Herbie_Hancock> , <http://dbpedia.org/resource/Wallace_Roney> , <http://dbpedia.org/resource/Chase_Baird> , <http://dbpedia.org/resource/Wayne_Shorter> , <http://dbpedia.org/resource/Bobby_Hutcherson> , <http://dbpedia.org/resource/Vince_Guaraldi> , <http://dbpedia.org/resource/John_Scofield> , <http://dbpedia.org/resource/Lonnie_Smith> , <http://dbpedia.org/resource/Randy_Brecker> , <http://dbpedia.org/resource/Oscar_Brown> , <http://dbpedia.org/resource/Tony_Bennett> , <http://dbpedia.org/resource/Chet_Baker> , <http://dbpedia.org/resource/Christian_McBride> , <http://dbpedia.org/resource/Godfrey_Evans> , <http://dbpedia.org/resource/Donald_Harrison> , <http://dbpedia.org/resource/Antonio_Faraò> , <http://dbpedia.org/resource/Nat_Adderley> ;
+        ont:place           "http://dbpedia.org/resource/Iridium_Jazz_Club" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Clark_(jazz_musician)> ;
+        ont:timeExpression  "as one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3081864/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jeffrey> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Clark_(jazz_musician)> ;
+        ont:timeExpression  "October 3 , 1946" .

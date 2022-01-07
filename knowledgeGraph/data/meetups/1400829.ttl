@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1400829/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeffrey_Hammond> , <http://dbpedia.org/resource/Krishna_Das_(singer)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Krishna_Das_(singer)> ;
+        ont:timeExpression  "May 31 , 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/1400829/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Swami_Satchidananda_Saraswati> , <http://dbpedia.org/resource/Krishna_Das_(singer)> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Krishna_Das_(singer)> ;
+        ont:timeExpression  "2007 interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/1400829/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ram_Dass> , <http://dbpedia.org/resource/Krishna_Das_(singer)> ;
+        ont:place           "http://dbpedia.org/resource/India" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Karoli,_Rewari" ;
+        ont:subject         <http://dbpedia.org/resource/Krishna_Das_(singer)> ;
+        ont:timeExpression  "August 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1400829/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Krishna_Das_(singer)> ;
+        ont:place           "http://dbpedia.org/resource/Karoli,_Rewari" ;
+        ont:subject         <http://dbpedia.org/resource/Krishna_Das_(singer)> ;
+        ont:timeExpression  "April 2014" , "501c3 nonprofit" , "Krishna Das Music.In 2014" .

@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/523975/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pat_Metheny> , <http://dbpedia.org/resource/Jan_Garbarek> , <http://dbpedia.org/resource/Gary_Burton> ;
+        ont:place           "http://dbpedia.org/resource/Towner_Gallery" ;
+        ont:subject         <http://dbpedia.org/resource/Eberhard_Weber> ;
+        ont:timeExpression  "1977" , "1976" , "10" , "1998" , "1975" , "1974" , "between 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/523975/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Edward_Gray> ;
+        ont:place           "http://dbpedia.org/resource/Oklahoma" ;
+        ont:subject         <http://dbpedia.org/resource/Eberhard_Weber> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/523975/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vanessa_Redgrave> ;
+        ont:place           "http://dbpedia.org/resource/Kannur" ;
+        ont:subject         <http://dbpedia.org/resource/Eberhard_Weber> ;
+        ont:timeExpression  "1974" , "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/523975/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eberhard_Weber> ;
+        ont:place           "http://dbpedia.org/resource/Stuttgart" , "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Eberhard_Weber> ;
+        ont:timeExpression  "22 January 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/523975/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Stéphane_Grappelli> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Eberhard_Weber> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/523975/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kate_Bush> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Eberhard_Weber> ;
+        ont:timeExpression  "1982" , "on four" , "1985" , "2005" , "1980s" , "six studio" , "1989" .

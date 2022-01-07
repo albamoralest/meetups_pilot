@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/185202/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dave_Swarbrick> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Bonny" , "http://dbpedia.org/resource/Byker" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Carthy> ;
+        ont:timeExpression  "six" , "1971" , "Two Came" , "Dave Swarbrick [ six" .
+
+<http://w3id.org/polifonia/pilot/meetups/185202/91/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/The_Imagined_Village> ;
+        ont:place           "http://dbpedia.org/resource/Roman_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Carthy> ;
+        ont:timeExpression  "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/185202/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dave_Swarbrick> ;
+        ont:place           "http://dbpedia.org/resource/Byker" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Carthy> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/185202/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Paul_Simon> , <http://dbpedia.org/resource/Richard_Thompson_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Carthy> ;
+        ont:timeExpression  "21 May 1941" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/185202/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dave_Swarbrick> ;
+        ont:place           "http://dbpedia.org/resource/Byker" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Carthy> ;
+        ont:timeExpression  "1967" , "Dave Swarbrick [ six" , "three" , "Two Came" , "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/185202/107/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:place           "http://dbpedia.org/resource/Norfolk" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Carthy> ;
+        ont:timeExpression  "1993" .

@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1322881/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chaitanya_Mahaprabhu> , <http://dbpedia.org/resource/Mukul_Roy> , <http://dbpedia.org/resource/Rehman_(actor)> ;
+        ont:place           "http://dbpedia.org/resource/Kolkata" ;
+        ont:subject         <http://dbpedia.org/resource/Pannalal_Ghosh> ;
+        ont:timeExpression  "1976" , "1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/1322881/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mahesh_Babu> , <http://dbpedia.org/resource/Allari_Naresh> , <http://dbpedia.org/resource/Narain_(actor)> ;
+        ont:place           "http://dbpedia.org/resource/Kumta" ;
+        ont:subject         <http://dbpedia.org/resource/Pannalal_Ghosh> ;
+        ont:timeExpression  "1942" , "1935" , "2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/1322881/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mohan_Joshi> , <http://dbpedia.org/resource/Nalini_Nadkarni> , <http://dbpedia.org/resource/Nityanand_Haldipur> ;
+        ont:place           "http://dbpedia.org/resource/Nachane" ;
+        ont:subject         <http://dbpedia.org/resource/Pannalal_Ghosh> ;
+        ont:timeExpression  "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/1322881/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pannalal_Ghosh> ;
+        ont:place           "http://dbpedia.org/resource/Bengal" , "http://dbpedia.org/resource/Barisal" ;
+        ont:subject         <http://dbpedia.org/resource/Pannalal_Ghosh> ;
+        ont:timeExpression  "24 July 1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/1322881/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pannalal_Ghosh> ;
+        ont:place           "http://dbpedia.org/resource/Mandra" ;
+        ont:subject         <http://dbpedia.org/resource/Pannalal_Ghosh> ;
+        ont:timeExpression  "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/1322881/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tribhuvan_of_Nepal> ;
+        ont:place           "http://dbpedia.org/resource/Mumbai" ;
+        ont:subject         <http://dbpedia.org/resource/Pannalal_Ghosh> ;
+        ont:timeExpression  "2000" , "1923" , "2012" , "1926" .

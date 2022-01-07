@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/593468/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Foreman> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Muhammad_Ali> ;
+        ont:place           "http://dbpedia.org/resource/Kinshasa" , "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo" , "http://dbpedia.org/resource/Zaire" ;
+        ont:subject         <http://dbpedia.org/resource/Héctor_Lavoe> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/593468/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Una_Healy> , <http://dbpedia.org/resource/Miguel_Poventud> ;
+        ont:place           "http://dbpedia.org/resource/La_Navidad" ;
+        ont:subject         <http://dbpedia.org/resource/Héctor_Lavoe> ;
+        ont:timeExpression  "genre in 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/593468/11/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Celia_Cruz> ;
+        ont:place           "http://dbpedia.org/resource/Africa" ;
+        ont:subject         <http://dbpedia.org/resource/Héctor_Lavoe> ;
+        ont:timeExpression  "in three" .
+
+<http://w3id.org/polifonia/pilot/meetups/593468/19/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clare_of_Assisi> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Manhattan" ;
+        ont:subject         <http://dbpedia.org/resource/Héctor_Lavoe> ;
+        ont:timeExpression  "29 June 1993" , "April 1992.On" .

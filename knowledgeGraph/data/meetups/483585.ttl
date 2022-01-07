@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/483585/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ric_Ocasek> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Ric_Ocasek> ;
+        ont:timeExpression  "September 15 , 2019" , "March 23 , 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/483585/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paulina_Porizkova> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Ric_Ocasek> ;
+        ont:timeExpression  "September 15 , 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/483585/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benjamin_Orr> ;
+        ont:place           "http://dbpedia.org/resource/Cleveland" ;
+        ont:subject         <http://dbpedia.org/resource/Ric_Ocasek> ;
+        ont:timeExpression  "Big 5" , "in 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/483585/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lloyd_Cole> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Ric_Ocasek> ;
+        ont:timeExpression  "1984" , "Remixed three" .
+
+<http://w3id.org/polifonia/pilot/meetups/483585/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Waters> ;
+        ont:place           "http://dbpedia.org/resource/Ohio" ;
+        ont:subject         <http://dbpedia.org/resource/Ric_Ocasek> ;
+        ont:timeExpression  "1988" , "1987" , "in 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/483585/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Christopher_Columbus> ;
+        ont:place           "http://dbpedia.org/resource/Boston" , "http://dbpedia.org/resource/Michigan" ;
+        ont:subject         <http://dbpedia.org/resource/Ric_Ocasek> ;
+        ont:timeExpression  "1970s" .

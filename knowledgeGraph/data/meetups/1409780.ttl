@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1409780/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pedro_Ortiz_Dávila> , <http://dbpedia.org/resource/Juan_Antonio_Corretjer> ;
+        ont:place           "http://dbpedia.org/resource/Independencia_Province" ;
+        ont:subject         <http://dbpedia.org/resource/Daniel_Santos_(singer)> ;
+        ont:timeExpression  "from one" , "March 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/1409780/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rafael_Betancourt> , <http://dbpedia.org/resource/Daniel_Santos_(singer)> , <http://dbpedia.org/resource/Sara_Duterte> ;
+        ont:place           "http://dbpedia.org/resource/Santurce,_San_Juan,_Puerto_Rico" ;
+        ont:subject         <http://dbpedia.org/resource/Daniel_Santos_(singer)> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1409780/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Daniel_Santos_(singer)> ;
+        ont:place           "http://dbpedia.org/resource/Venezuela" ;
+        ont:subject         <http://dbpedia.org/resource/Daniel_Santos_(singer)> ;
+        ont:timeExpression  "one semi-autobiography" , "in 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1409780/8/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Linda_McCartney> ;
+        ont:place           "http://dbpedia.org/resource/Flores" ;
+        ont:subject         <http://dbpedia.org/resource/Daniel_Santos_(singer)> ;
+        ont:timeExpression  "for one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1409780/12/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fulgencio_Batista> ;
+        ont:place           "http://dbpedia.org/resource/Sierra_Maestra" ;
+        ont:subject         <http://dbpedia.org/resource/Daniel_Santos_(singer)> ;
+        ont:timeExpression  "26th" , "In 1958" .

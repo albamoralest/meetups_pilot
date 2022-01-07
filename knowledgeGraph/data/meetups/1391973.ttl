@@ -1,0 +1,91 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sally_Ann_Howes> ;
+        ont:place           "http://dbpedia.org/resource/Adelphi_Theatre" , "http://dbpedia.org/resource/Austria" , "http://dbpedia.org/resource/Thailand" , "http://dbpedia.org/resource/South_Africa" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "In 1974" , "for 260" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "December 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/15/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cyrano_de_Bergerac> , <http://dbpedia.org/resource/Vivien_Leigh> ;
+        ont:place           "http://dbpedia.org/resource/Bristol_Old_Vic" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "in 1959" , "in 1958" , "1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/J._G._Ballard> ;
+        ont:place           "http://dbpedia.org/resource/Shanghai" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "biographer in 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/25/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:place           "http://dbpedia.org/resource/Leers" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "1998" , "in 1970.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marc_Sinden> , <http://dbpedia.org/resource/Robert_M._Knight> , <http://dbpedia.org/resource/Ray_Winstone> , <http://dbpedia.org/resource/Raymond_Burr> , <http://dbpedia.org/resource/Edward_VII> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Alexandra_Theatre" , "http://dbpedia.org/resource/Toronto" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "in 1983.Wyngarde" , "1989" , "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_MacAulay> , <http://dbpedia.org/resource/Louis_Jouvet> ;
+        ont:place           "http://dbpedia.org/resource/Shanghai" , "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Switzerland" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/15/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Shakespeare> , <http://dbpedia.org/resource/Lucille_Ball> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "1897–1945" , "2020 name" , "in 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Peter_Wyngarde> , <http://dbpedia.org/resource/Charles_II_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_England" , "http://dbpedia.org/resource/Switzerland" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "two" , "2020 biography" , "in 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Paleologa> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "1908–1992" , "October 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1391973/15/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Julien_Green> ;
+        ont:place           "http://dbpedia.org/resource/Charleroi-South_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/Peter_Wyngarde> ;
+        ont:timeExpression  "1959" , "One" .

@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/852908/5/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sheldon_Harnick> ;
+        ont:place           "http://dbpedia.org/resource/John_F._Kennedy_Center_for_the_Performing_Arts" ;
+        ont:subject         <http://dbpedia.org/resource/Sheldon_Harnick> ;
+        ont:timeExpression  "1949–2013" , "in 2014" , "in 2007.Harnick" .
+
+<http://w3id.org/polifonia/pilot/meetups/852908/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michel_Legrand> ;
+        ont:place           "http://dbpedia.org/resource/Cherbourg-en-Cotentin" ;
+        ont:subject         <http://dbpedia.org/resource/Sheldon_Harnick> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/852908/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sheldon_Harnick> , <http://dbpedia.org/resource/Jerry_Bock> ;
+        ont:place           "http://dbpedia.org/resource/York_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Sheldon_Harnick> ;
+        ont:timeExpression  "in 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/852908/5/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Evgeny_Artyukhin> ;
+        ont:place           "http://dbpedia.org/resource/Soviet_Union" ;
+        ont:subject         <http://dbpedia.org/resource/Sheldon_Harnick> ;
+        ont:timeExpression  "In 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/852908/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Ney> ;
+        ont:place           "http://dbpedia.org/resource/Portofino" ;
+        ont:subject         <http://dbpedia.org/resource/Sheldon_Harnick> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/852908/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Inge> , <http://dbpedia.org/resource/Sheldon_Harnick> ;
+        ont:place           "http://dbpedia.org/resource/Kansas" ;
+        ont:subject         <http://dbpedia.org/resource/Sheldon_Harnick> ;
+        ont:timeExpression  "in 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/852908/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jerry_Bock> , <http://dbpedia.org/resource/Sheldon_Mayer> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Sheldon_Harnick> ;
+        ont:timeExpression  "April 30 , 1924" .

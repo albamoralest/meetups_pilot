@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_O._Westwood> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "November 7 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Twiggy> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Peter_Sellers> ;
+        ont:place           "http://dbpedia.org/resource/McCloud_River" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1974" , "1979" , "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Oscar_Hammerstein_II> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1939" , "for 59" , "in 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_S._Reed> , <http://dbpedia.org/resource/Jackie_Cooper> , <http://dbpedia.org/resource/Mickey_Rooney> , <http://dbpedia.org/resource/Frankie_Thomas> ;
+        ont:place           "http://dbpedia.org/resource/Flanders" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1933" , "1934" , "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sam_Katzman> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:place           "http://dbpedia.org/resource/Baghdad" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "June 10 , 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Peter_Falk> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "three" , "1970s" , "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "June 10 , 1989" , "November 12 , 1920" .

@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/592841/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Edward_Heyman> , <http://dbpedia.org/resource/Edward_Eliscu> , <http://dbpedia.org/resource/Leo_Robin> , <http://dbpedia.org/resource/Gus_Kahn> , <http://dbpedia.org/resource/Harold_Adamson> , <http://dbpedia.org/resource/Otto_Harbach> , <http://dbpedia.org/resource/Ira_Gershwin> , <http://dbpedia.org/resource/Howard_Dietz> , <http://dbpedia.org/resource/Billy_Rose> , <http://dbpedia.org/resource/Irving_Caesar> , <http://dbpedia.org/resource/Buddy_DeSylva> , <http://dbpedia.org/resource/Oscar_Hammerstein_II> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Vincent_Youmans> ;
+        ont:timeExpression  "September 27 , 1898" , "April 5 , 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/592841/2/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Irving_Caesar> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Vincent_Youmans> ;
+        ont:timeExpression  "in 1925" .

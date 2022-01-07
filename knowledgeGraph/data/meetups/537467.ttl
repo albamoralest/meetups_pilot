@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/537467/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Joni_James> ;
+        ont:timeExpression  "after 9/11" , "October 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/537467/2/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/LeBron_James> ;
+        ont:place           "http://dbpedia.org/resource/Asuncion_Island" , "http://dbpedia.org/resource/Manila" ;
+        ont:subject         <http://dbpedia.org/resource/Joni_James> ;
+        ont:timeExpression  "seven Top 10" , "Billboard Hot 100" .
+
+<http://w3id.org/polifonia/pilot/meetups/537467/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joni_James> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Joni_James> ;
+        ont:timeExpression  "September 22 , 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/537467/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bernard_Schriever> , <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Schriever,_Louisiana" , "http://dbpedia.org/resource/Washington,_D.C." , "http://dbpedia.org/resource/France" ;
+        ont:subject         <http://dbpedia.org/resource/Joni_James> ;
+        ont:timeExpression  "94" , "June 20 , 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/537467/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Patrick> , <http://dbpedia.org/resource/LeBron_James> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Joni_James> ;
+        ont:timeExpression  "in 1956" .

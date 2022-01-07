@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1103482/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Surabhi_Lakshmi> , <http://dbpedia.org/resource/Vani_Jairam> , <http://dbpedia.org/resource/Srinath> ;
+        ont:place           "http://dbpedia.org/resource/Bangalore" ;
+        ont:subject         <http://dbpedia.org/resource/P._B._Sreenivas> ;
+        ont:timeExpression  "7 May 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/1103482/11/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jayaprakash> ;
+        ont:place           "http://dbpedia.org/resource/Chowdiah_Memorial_Hall" , "http://dbpedia.org/resource/Bangalore" ;
+        ont:subject         <http://dbpedia.org/resource/P._B._Sreenivas> ;
+        ont:timeExpression  "24 July 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/1103482/2/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Barbad> , <http://dbpedia.org/resource/Naushad> ;
+        ont:place           "http://dbpedia.org/resource/Huye_District" ;
+        ont:subject         <http://dbpedia.org/resource/P._B._Sreenivas> ;
+        ont:timeExpression  "1951" .

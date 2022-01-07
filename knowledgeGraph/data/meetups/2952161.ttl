@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2952161/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Astrid_Lindgren> , <http://dbpedia.org/resource/Muslim_Magomayev_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Soviet_Union" ;
+        ont:subject         <http://dbpedia.org/resource/Vasily_Livanov> ;
+        ont:timeExpression  "from 38" .
+
+<http://w3id.org/polifonia/pilot/meetups/2952161/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vasili_III_of_Russia> ;
+        ont:place           "http://dbpedia.org/resource/Soviet_Union" , "http://dbpedia.org/resource/Moscow" ;
+        ont:subject         <http://dbpedia.org/resource/Vasily_Livanov> ;
+        ont:timeExpression  "In 1954" , "in 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/2952161/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Yuri_Orlov> , <http://dbpedia.org/resource/Vitaly_Solomin> , <http://dbpedia.org/resource/Vasily_Livanov> ;
+        ont:place           "http://dbpedia.org/resource/Moscow" , "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Smolenskaya_(Filyovskaya_line)" ;
+        ont:subject         <http://dbpedia.org/resource/Vasily_Livanov> ;
+        ont:timeExpression  "27 April 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/2952161/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vasili_III_of_Russia> ;
+        ont:place           "http://dbpedia.org/resource/Soviet_Union" ;
+        ont:subject         <http://dbpedia.org/resource/Vasily_Livanov> ;
+        ont:timeExpression  "19 July 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/2952161/12/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larisa_Golubkina> , <http://dbpedia.org/resource/Andrei_Mironov_(actor)> , <http://dbpedia.org/resource/Boris_Livanov> , <http://dbpedia.org/resource/Vasily_Livanov> , <http://dbpedia.org/resource/Vitaly_Solomin> , <http://dbpedia.org/resource/Grand_Duchess_Maria_Nikolaevna_of_Russia> , <http://dbpedia.org/resource/Rina_Zelyonaya> ;
+        ont:place           "http://dbpedia.org/resource/Hudson_River" ;
+        ont:subject         <http://dbpedia.org/resource/Vasily_Livanov> ;
+        ont:timeExpression  "June 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/2952161/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Inessa_Kovalevskaya> ;
+        ont:place           "http://dbpedia.org/resource/Bremen" ;
+        ont:subject         <http://dbpedia.org/resource/Vasily_Livanov> ;
+        ont:timeExpression  "1973" .

@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/910077/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Winnaretta_Singer> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Winnaretta_Singer> ;
+        ont:timeExpression  "In 1894" .
+
+<http://w3id.org/polifonia/pilot/meetups/910077/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Violet_Trefusis> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Winnaretta_Singer> ;
+        ont:timeExpression  "1933" , "From 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/910077/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Isadora_Duncan> , <http://dbpedia.org/resource/Paris_Singer> ;
+        ont:place           "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Palm_Beach" ;
+        ont:subject         <http://dbpedia.org/resource/Winnaretta_Singer> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/910077/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Le_Corbusier> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Winnaretta_Singer> ;
+        ont:timeExpression  "1920s" , "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/910077/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Lees-Milne> , <http://dbpedia.org/resource/Charlie_Chaplin> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Winnaretta_Singer> ;
+        ont:timeExpression  "two" , "1943" , "from 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/910077/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Washington_Singer> ;
+        ont:place           "http://dbpedia.org/resource/Exeter" ;
+        ont:subject         <http://dbpedia.org/resource/Winnaretta_Singer> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/910077/14/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Le_Corbusier> , <http://dbpedia.org/resource/Marie_Curie> ;
+        ont:place           "http://dbpedia.org/resource/Seine" , "http://dbpedia.org/resource/Pont_des_Arts" , "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Winnaretta_Singer> ;
+        ont:timeExpression  "in 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/910077/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Winnaretta_Singer> ;
+        ont:place           "http://dbpedia.org/resource/Yonkers,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Winnaretta_Singer> ;
+        ont:timeExpression  "24" .

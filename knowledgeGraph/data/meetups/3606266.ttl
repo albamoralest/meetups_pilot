@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3606266/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Armi_Aavikko> ;
+        ont:place           "http://dbpedia.org/resource/Finland" ;
+        ont:subject         <http://dbpedia.org/resource/Danny_(Finnish_singer)> ;
+        ont:timeExpression  "1978 duet" , "in 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/3606266/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Danny_Jones> ;
+        ont:place           "http://dbpedia.org/resource/Finland" ;
+        ont:subject         <http://dbpedia.org/resource/Danny_(Finnish_singer)> ;
+        ont:timeExpression  "army in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/3606266/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Danny_Jones> , <http://dbpedia.org/resource/Joe_Dassin> , <http://dbpedia.org/resource/Steve_Vai> , <http://dbpedia.org/resource/Frank_Farian> , <http://dbpedia.org/resource/Toto_Cutugno> ;
+        ont:place           "http://dbpedia.org/resource/Africa" ;
+        ont:subject         <http://dbpedia.org/resource/Danny_(Finnish_singer)> ;
+        ont:timeExpression  "1970s" .

@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/790333/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Campbell_Adamson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Adamson> ;
+        ont:timeExpression  "1940s" , "December 10 , 1906" , "August 17 , 1980" , "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/790333/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Pierce> , <http://dbpedia.org/resource/Joe_DiMaggio> ;
+        ont:place           "http://dbpedia.org/resource/Lake_Tahoe" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Adamson> ;
+        ont:timeExpression  "In 1941" .

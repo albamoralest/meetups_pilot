@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1285387/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> , <http://dbpedia.org/resource/Walter_Francis_White> , <http://dbpedia.org/resource/Eleanor_Roosevelt> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Lincoln_Memorial" ;
+        ont:subject         <http://dbpedia.org/resource/Sol_Hurok> ;
+        ont:timeExpression  "April 9 , 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/1285387/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Wassily_de_Basil> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Sol_Hurok> ;
+        ont:timeExpression  "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1285387/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sol_Hurok> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Sol_Hurok> ;
+        ont:timeExpression  "April 9 , 1888" , "March 5 , 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/1285387/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sol_Hurok> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Russia" , "http://dbpedia.org/resource/Bolshoi_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Sol_Hurok> ;
+        ont:timeExpression  "In 1959" , "after 35" .
+
+<http://w3id.org/polifonia/pilot/meetups/1285387/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marian_Anderson> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Sol_Hurok> ;
+        ont:timeExpression  "than two" .

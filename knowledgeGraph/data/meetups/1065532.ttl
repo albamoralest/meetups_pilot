@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1065532/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Phyllis_Hyman> ;
+        ont:place           "http://dbpedia.org/resource/Bridgwater" , "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Thom_Bell> ;
+        ont:timeExpression  "in 1981" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1065532/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Thom_Bell> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Thom_Bell> ;
+        ont:timeExpression  "as one" , "January 26 , 1943" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1065532/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Deniece_Williams> ;
+        ont:place           "http://dbpedia.org/resource/Silly-en-Gouffern" ;
+        ont:subject         <http://dbpedia.org/resource/Thom_Bell> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/1065532/3/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Mathis> , <http://dbpedia.org/resource/Ronnie_Dyson> , <http://dbpedia.org/resource/Billy_Paul> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Thom_Bell> ;
+        ont:timeExpression  "1970s" , "two" .

@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/103549/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sammy_Hagar> ;
+        ont:place           "http://dbpedia.org/resource/5150_Studios" ;
+        ont:subject         <http://dbpedia.org/resource/The_Big_Bopper> ;
+        ont:timeExpression  "5150" , "1986 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/103549/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/The_Big_Bopper> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/The_Big_Bopper> ;
+        ont:timeExpression  "February 3 , 1959" , "October 24 , 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/103549/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Stephen_I_of_Hungary> , <http://dbpedia.org/resource/Samuel_Richardson> ;
+        ont:place           "http://dbpedia.org/resource/Iowa" ;
+        ont:subject         <http://dbpedia.org/resource/The_Big_Bopper> ;
+        ont:timeExpression  "In 2010" , "as one" .
+
+<http://w3id.org/polifonia/pilot/meetups/103549/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Buddy_Holly> , <http://dbpedia.org/resource/Bill_Richardson> , <http://dbpedia.org/resource/Ritchie_Valens> ;
+        ont:place           "http://dbpedia.org/resource/Clear_Lake,_Iowa" ;
+        ont:subject         <http://dbpedia.org/resource/The_Big_Bopper> ;
+        ont:timeExpression  "in 1959" .

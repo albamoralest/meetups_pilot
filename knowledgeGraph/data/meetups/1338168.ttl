@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1338168/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Samson> , <http://dbpedia.org/resource/George_Frideric_Handel> , <http://dbpedia.org/resource/Raymond_Leppard> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Opera_House" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Vickers> ;
+        ont:timeExpression  "Covent Garden 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1338168/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leonard_Bernstein> ;
+        ont:place           "http://dbpedia.org/resource/Lincoln_Center" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Vickers> ;
+        ont:timeExpression  "Lincoln Center NY 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1338168/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carlo_Maria_Giulini> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Opera_House" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Vickers> ;
+        ont:timeExpression  "Covent Garden 1958" .

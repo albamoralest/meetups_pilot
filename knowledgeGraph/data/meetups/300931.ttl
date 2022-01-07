@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/300931/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Buck_Clayton> , <http://dbpedia.org/resource/Dicky_Wells> , <http://dbpedia.org/resource/Lyndon_B._Johnson> , <http://dbpedia.org/resource/Lester_Young> , <http://dbpedia.org/resource/John_P._Hammond> , <http://dbpedia.org/resource/LeBron_James> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Ida_Cox> ;
+        ont:timeExpression  "In 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/300931/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jelly_Roll_Morton> ;
+        ont:place           "http://dbpedia.org/resource/Atlanta" ;
+        ont:subject         <http://dbpedia.org/resource/Ida_Cox> ;
+        ont:timeExpression  "In 1920" , "81" .
+
+<http://w3id.org/polifonia/pilot/meetups/300931/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bessie_Smith> , <http://dbpedia.org/resource/Ma_Rainey> ;
+        ont:place           "http://dbpedia.org/resource/Port_Gibson,_Mississippi" , "http://dbpedia.org/resource/Connecticut" ;
+        ont:subject         <http://dbpedia.org/resource/Ida_Cox> ;
+        ont:timeExpression  "after 1918" .
+
+<http://w3id.org/polifonia/pilot/meetups/300931/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alfred_Adler> ;
+        ont:place           "http://dbpedia.org/resource/Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Ida_Cox> ;
+        ont:timeExpression  "By 1908" , "1916" .
+
+<http://w3id.org/polifonia/pilot/meetups/300931/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ida_Cox> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Ida_Cox> ;
+        ont:timeExpression  "November 10 , 1967" , "February 26 , 1888" , "1896" .
+
+<http://w3id.org/polifonia/pilot/meetups/300931/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Christian> , <http://dbpedia.org/resource/Red_Allen> , <http://dbpedia.org/resource/Hot_Lips_Page> ;
+        ont:place           "http://dbpedia.org/resource/Hampton,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Ida_Cox> ;
+        ont:timeExpression  "in 1939" , "in 1940" .

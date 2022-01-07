@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2930053/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woodrow_Wilson> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Al_Wilson_(singer)> ;
+        ont:timeExpression  "With 1979" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/2930053/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donald_Trump> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Pennsylvania" ;
+        ont:subject         <http://dbpedia.org/resource/Al_Wilson_(singer)> ;
+        ont:timeExpression  "March 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/2930053/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Harris_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Al_Wilson_(singer)> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/2930053/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woodrow_Wilson> ;
+        ont:place           "http://dbpedia.org/resource/Province_of_Lodi" ;
+        ont:subject         <http://dbpedia.org/resource/Al_Wilson_(singer)> ;
+        ont:timeExpression  "67" , "75" , "In 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/2930053/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woodrow_Wilson> ;
+        ont:place           "http://dbpedia.org/resource/California" , "http://dbpedia.org/resource/San_Bernardino_Mountains" ;
+        ont:subject         <http://dbpedia.org/resource/Al_Wilson_(singer)> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/2930053/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woodrow_Wilson> ;
+        ont:place           "http://dbpedia.org/resource/Soul_City,_North_Carolina" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Al_Wilson_(singer)> ;
+        ont:timeExpression  "1968" .

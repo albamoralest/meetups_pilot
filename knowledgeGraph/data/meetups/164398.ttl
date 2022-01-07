@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/164398/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jameer_Nelson> ;
+        ont:place           "http://dbpedia.org/resource/Texas" , "http://dbpedia.org/resource/Guntersville,_Alabama" , "http://dbpedia.org/resource/Dallas" ;
+        ont:subject         <http://dbpedia.org/resource/Ricky_Nelson> ;
+        ont:timeExpression  "December 31 , 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/164398/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Nader> ;
+        ont:place           "http://dbpedia.org/resource/Madison_Square_Garden" ;
+        ont:subject         <http://dbpedia.org/resource/Ricky_Nelson> ;
+        ont:timeExpression  "In 1972" , "40" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/164398/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Owen_Hart> ;
+        ont:place           "http://dbpedia.org/resource/McCloud_River" , "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Ricky_Nelson> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/164398/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ricky_Nelson> , <http://dbpedia.org/resource/Nicholas_Hilliard> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Ricky_Nelson> ;
+        ont:timeExpression  "May 8 , 1940" , "December 31 , 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/164398/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tony_Blair> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas" ;
+        ont:subject         <http://dbpedia.org/resource/Ricky_Nelson> ;
+        ont:timeExpression  "In 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/164398/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Howard_Hawks> , <http://dbpedia.org/resource/Jameer_Nelson> , <http://dbpedia.org/resource/John_Wayne> ;
+        ont:place           "http://dbpedia.org/resource/Rio_Grande" ;
+        ont:subject         <http://dbpedia.org/resource/Ricky_Nelson> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/164398/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Walter_Raleigh> , <http://dbpedia.org/resource/Red_Skelton> ;
+        ont:place           "http://dbpedia.org/resource/Tenafly,_New_Jersey" , "http://dbpedia.org/resource/New_Jersey" , "http://dbpedia.org/resource/Hollywood" ;
+        ont:subject         <http://dbpedia.org/resource/Ricky_Nelson> ;
+        ont:timeExpression  "1941–42 season" , "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/164398/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Wayne> , <http://dbpedia.org/resource/Howard_Hawks> , <http://dbpedia.org/resource/Jameer_Nelson> , <http://dbpedia.org/resource/Angie_Dickinson> ;
+        ont:place           "http://dbpedia.org/resource/Rio_Grande" ;
+        ont:subject         <http://dbpedia.org/resource/Ricky_Nelson> ;
+        ont:timeExpression  "1959" .

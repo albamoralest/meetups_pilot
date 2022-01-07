@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/362368/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Edison> ;
+        ont:place           "http://dbpedia.org/resource/New_Jersey" ;
+        ont:subject         <http://dbpedia.org/resource/George_W._Johnson_(singer)> ;
+        ont:timeExpression  "one" , "1891 recording" .
+
+<http://w3id.org/polifonia/pilot/meetups/362368/8/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lyndon_B._Johnson> ;
+        ont:place           "http://dbpedia.org/resource/Maple_Grove_Cemetery_(Queens)" , "http://dbpedia.org/resource/Kew_Gardens,_Queens" , "http://dbpedia.org/resource/Maple_Grove,_Minnesota" ;
+        ont:subject         <http://dbpedia.org/resource/George_W._Johnson_(singer)> ;
+        ont:timeExpression  "New York.In 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/362368/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lyndon_B._Johnson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/George_W._Johnson_(singer)> ;
+        ont:timeExpression  "1895" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/362368/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lyndon_B._Johnson> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/George_W._Johnson_(singer)> ;
+        ont:timeExpression  "October 1846" , "January 23 , 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/362368/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carleton_S._Coon> ;
+        ont:place           "http://dbpedia.org/resource/New_Jersey" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/George_W._Johnson_(singer)> ;
+        ont:timeExpression  "in 1891" .

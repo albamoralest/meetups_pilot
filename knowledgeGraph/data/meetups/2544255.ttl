@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2544255/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anne_of_Austria> ;
+        ont:place           "http://dbpedia.org/resource/Soviet_Union" , "http://dbpedia.org/resource/Austria" ;
+        ont:subject         <http://dbpedia.org/resource/Alisa_Freindlich> ;
+        ont:timeExpression  "1978" , "1993" , "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/2544255/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tom_Stoppard> ;
+        ont:place           "http://dbpedia.org/resource/Bolshoi_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Alisa_Freindlich> ;
+        ont:timeExpression  "6 June 2001" , "in 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/2544255/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Andrei_Tarkovsky> , <http://dbpedia.org/resource/Georgy_Tovstonogov> , <http://dbpedia.org/resource/Eldar_Ryazanov> ;
+        ont:place           "http://dbpedia.org/resource/Bolshoi_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Alisa_Freindlich> ;
+        ont:timeExpression  "1979" , "1977" , "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/2544255/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alisa_Kozhikina> ;
+        ont:place           "http://dbpedia.org/resource/Soviet_Union" , "http://dbpedia.org/resource/Saint_Petersburg" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alisa_Freindlich> ;
+        ont:timeExpression  "8 December 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/2544255/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alisa_Freindlich> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" ;
+        ont:subject         <http://dbpedia.org/resource/Alisa_Freindlich> ;
+        ont:timeExpression  "From 1957" , "1961" .

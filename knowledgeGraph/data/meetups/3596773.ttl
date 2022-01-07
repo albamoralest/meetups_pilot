@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3596773/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Horn_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Horn_(musician)> ;
+        ont:timeExpression  "June 29 , 2014" , "March 17 , 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/3596773/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maharishi_Mahesh_Yogi> ;
+        ont:place           "http://dbpedia.org/resource/India" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Horn_(musician)> ;
+        ont:timeExpression  "1968 trip" .
+
+<http://w3id.org/polifonia/pilot/meetups/3596773/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/L._Frank_Baum> ;
+        ont:place           "http://dbpedia.org/resource/Vancouver_Island" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Horn_(musician)> ;
+        ont:timeExpression  "two" , "In 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/3596773/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           "http://dbpedia.org/resource/Washington,_D.C." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Horn_(musician)> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/3596773/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chico_Hamilton> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/West_Coast_of_the_United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Horn_(musician)> ;
+        ont:timeExpression  "June 1953" , "1958" , "quintet from 1956" .

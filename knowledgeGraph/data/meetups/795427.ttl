@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:place           "http://dbpedia.org/resource/Turin" ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "24 October 1798" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Camillo_Benso,_Count_of_Cavour> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Sardinia" ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_IV_of_Spain> , <http://dbpedia.org/resource/Victor_Emmanuel_II_of_Italy> ;
+        ont:place           "http://dbpedia.org/resource/Novara" ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "23 March 1849" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:place           "http://dbpedia.org/resource/Turin" ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "1855 d'Azeglio" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Anton_von_Maffei> ;
+        ont:place           "http://dbpedia.org/resource/Milan" ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "in 1834" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Massimo_d'Azeglio> , <http://dbpedia.org/resource/Pope_Gregory_XVI> ;
+        ont:place           "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "1845 d'Azeglio" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Giuseppe_Mazzini> , <http://dbpedia.org/resource/Massimo_d'Azeglio> , <http://dbpedia.org/resource/Giuseppe_Garibaldi> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Sardinia" , "http://dbpedia.org/resource/Kingdom_of_the_Two_Sicilies" , "http://dbpedia.org/resource/Sicily" ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "in 1862" , "in 1861" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pope_Pius_IX> , <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:place           "http://dbpedia.org/resource/Vicenza" ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "1848" .

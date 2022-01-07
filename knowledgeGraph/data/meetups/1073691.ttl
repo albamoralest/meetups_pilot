@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1073691/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fats_Pichon> , <http://dbpedia.org/resource/Peter_Gabriel> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Fats_Pichon> ;
+        ont:timeExpression  "April 3 , 1906" , "February 25 , 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1073691/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fats_Pichon> , <http://dbpedia.org/resource/Luis_Russell> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Mississippi_River" ;
+        ont:subject         <http://dbpedia.org/resource/Fats_Pichon> ;
+        ont:timeExpression  "1930s" .

@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1178548/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Louis_Armstrong> , <http://dbpedia.org/resource/Gene_Austin> , <http://dbpedia.org/resource/Stepin_Fetchit> , <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:place           "http://dbpedia.org/resource/Robeson_County,_North_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Nathaniel_Shilkret> ;
+        ont:timeExpression  "than two" , "1929 part-talkie film version" .
+
+<http://w3id.org/polifonia/pilot/meetups/1178548/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maxwell_Anderson> ;
+        ont:place           "http://dbpedia.org/resource/Winterset,_Iowa" ;
+        ont:subject         <http://dbpedia.org/resource/Nathaniel_Shilkret> ;
+        ont:timeExpression  "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/1178548/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nathaniel_Shilkret> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Nathaniel_Shilkret> ;
+        ont:timeExpression  "December 25 , 1889" , "February 18 , 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1178548/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Nathaniel_Shilkret> ;
+        ont:timeExpression  "in 1929" , "one" , "of five" .
+
+<http://w3id.org/polifonia/pilot/meetups/1178548/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benjamin_Franklin> ;
+        ont:place           "http://dbpedia.org/resource/Franklin_Square,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Nathaniel_Shilkret> ;
+        ont:timeExpression  "death in 1982" .

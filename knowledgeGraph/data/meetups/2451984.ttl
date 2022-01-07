@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2451984/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_Harmon> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_W._Livingston> ;
+        ont:timeExpression  "one" , "After 10" .
+
+<http://w3id.org/polifonia/pilot/meetups/2451984/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mel_Blanc> ;
+        ont:place           "http://dbpedia.org/resource/River_Taw" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_W._Livingston> ;
+        ont:timeExpression  "1951 pop" .
+
+<http://w3id.org/polifonia/pilot/meetups/2451984/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nancy_Olson> ;
+        ont:place           "http://dbpedia.org/resource/Sunset_Boulevard" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_W._Livingston> ;
+        ont:timeExpression  "1950" , "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/2451984/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pinto_Colvig> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_W._Livingston> ;
+        ont:timeExpression  "KTTV-Channel 11" , "in 1949" .

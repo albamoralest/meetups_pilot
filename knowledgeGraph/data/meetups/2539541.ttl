@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2539541/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Estonia" ;
+        ont:subject         <http://dbpedia.org/resource/Manfred_Eicher> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/2539541/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chick_Corea> , <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> , <http://dbpedia.org/resource/Keith_Jarrett> , <http://dbpedia.org/resource/Pat_Metheny> , <http://dbpedia.org/resource/Jack_DeJohnette> , <http://dbpedia.org/resource/Terje_Rypdal> , <http://dbpedia.org/resource/Steve_Kuhn> , <http://dbpedia.org/resource/Gary_Burton> , <http://dbpedia.org/resource/Dave_Holland> , <http://dbpedia.org/resource/Jan_Garbarek> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Manfred_Eicher> ;
+        ont:timeExpression  "In 1969" , "than 50" .

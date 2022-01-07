@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "July 12 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Douglas_Trumbull> , <http://dbpedia.org/resource/Anne_V._Coates> ;
+        ont:place           "http://dbpedia.org/resource/Hertfordshire" ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "Arts.In 2018" , "in 2013" , "Garrett Brown.In 2016" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "1907–1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/13/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Koppelman> , <http://dbpedia.org/resource/Christopher_Tolkien> , <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:place           "http://dbpedia.org/resource/Vancouver" ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "Canada.In 2009" , "2004 book" , "Seen.In 2006" , "Christopher B. Smith Rafael Film Center.In 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/20/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> , <http://dbpedia.org/resource/Princess_Beatrice_of_the_United_Kingdom> ;
+        ont:place           "http://dbpedia.org/resource/Bolinas,_California" , "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "4" , "since 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Lucas> , <http://dbpedia.org/resource/Francis_Ford_Coppola> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "in 1969" .

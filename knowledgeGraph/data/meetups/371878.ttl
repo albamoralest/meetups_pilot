@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/371878/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fats_Waller> ;
+        ont:place           "http://dbpedia.org/resource/Birmingham" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Williams_(The_Temptations_singer)> ;
+        ont:timeExpression  "In 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/371878/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_R._Williams> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Williams_(The_Temptations_singer)> ;
+        ont:timeExpression  "July 2 , 1939" , "August 17 , 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/371878/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kell_Osborne> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Williams_(The_Temptations_singer)> ;
+        ont:timeExpression  "In 1961" .

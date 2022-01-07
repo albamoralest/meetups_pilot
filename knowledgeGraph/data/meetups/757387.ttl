@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/757387/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Terrelle_Pryor> ;
+        ont:place           "http://dbpedia.org/resource/James_River" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Pryor> ;
+        ont:timeExpression  "1921" , "September 15 , 1919" , "October 18 , 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/757387/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Homesick_James> ;
+        ont:place           "http://dbpedia.org/resource/Europe" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Pryor> ;
+        ont:timeExpression  "January 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/757387/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Rogers> , <http://dbpedia.org/resource/Terrelle_Pryor> ;
+        ont:place           "http://dbpedia.org/resource/Vance,_Mississippi" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Pryor> ;
+        ont:timeExpression  "of three" , "four harmonica" .
+
+<http://w3id.org/polifonia/pilot/meetups/757387/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Snooky_Pryor> ;
+        ont:place           "http://dbpedia.org/resource/Mississippi" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Pryor> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/757387/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jim_Simpson_(sportscaster)> , <http://dbpedia.org/resource/Homesick_James> , <http://dbpedia.org/resource/Bob_Margolin> , <http://dbpedia.org/resource/Snooky_Pryor> , <http://dbpedia.org/resource/Terrelle_Pryor> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Pryor> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/757387/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Terrelle_Pryor> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Pryor> ;
+        ont:timeExpression  "around 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/757387/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Terrelle_Pryor> ;
+        ont:place           "http://dbpedia.org/resource/Ullin,_Illinois" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Pryor> ;
+        ont:timeExpression  "In 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/757387/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Snooky_Pryor> , <http://dbpedia.org/resource/Homesick_James> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Birmingham" ;
+        ont:subject         <http://dbpedia.org/resource/Snooky_Pryor> ;
+        ont:timeExpression  "1973" .

@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/168478/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Billy_Joel> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Lincoln_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Itzhak_Perlman> ;
+        ont:timeExpression  "1989" , "In 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/168478/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kwon_Yu-ri> , <http://dbpedia.org/resource/Yo-Yo_Ma> , <http://dbpedia.org/resource/Jessye_Norman> , <http://dbpedia.org/resource/Pinchas_Zukerman> ;
+        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" ;
+        ont:subject         <http://dbpedia.org/resource/Itzhak_Perlman> ;
+        ont:timeExpression  "December 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/168478/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dorothy_DeLay> , <http://dbpedia.org/resource/Ivan_Galamian> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Itzhak_Perlman> ;
+        ont:timeExpression  "13" .
+
+<http://w3id.org/polifonia/pilot/meetups/168478/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elie_Wiesel> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Itzhak_Perlman> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/168478/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Zubin_Mehta> , <http://dbpedia.org/resource/Luciano_Pavarotti> ;
+        ont:place           "http://dbpedia.org/resource/Lincoln_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Itzhak_Perlman> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/168478/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leonard_Bernstein> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Itzhak_Perlman> ;
+        ont:timeExpression  "1995" .

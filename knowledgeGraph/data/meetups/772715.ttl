@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/772715/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leslie_West> , <http://dbpedia.org/resource/Tricky_Stewart> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Barre> ;
+        ont:timeExpression  "one guitarist" .
+
+<http://w3id.org/polifonia/pilot/meetups/772715/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Terry_Ellis> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Barre> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/772715/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ian_Tyson> , <http://dbpedia.org/resource/Mark_Knopfler> , <http://dbpedia.org/resource/Pete_Brown> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Barre> ;
+        ont:timeExpression  "2005 interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/772715/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_Spinetti> , <http://dbpedia.org/resource/Chris_Thompson_(English_musician)> , <http://dbpedia.org/resource/Gary_Brooker> , <http://dbpedia.org/resource/Dave_Pegg> ;
+        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Martin_Barre> ;
+        ont:timeExpression  "2010" .

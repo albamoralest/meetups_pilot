@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3683614/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Suzanne_Ciani> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Suzanne_Ciani> ;
+        ont:timeExpression  "June 4 , 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/3683614/18/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Anderson> ;
+        ont:place           "http://dbpedia.org/resource/Bolinas,_California" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Suzanne_Ciani> ;
+        ont:timeExpression  "2000" , "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/3683614/9/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/İlhan_Mimaroğlu> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Suzanne_Ciani> ;
+        ont:timeExpression  "In 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/3683614/16/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Edward_Gray> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Suzanne_Ciani> ;
+        ont:timeExpression  "four channel quadraphonic sound" , "March 5 , 2016" .

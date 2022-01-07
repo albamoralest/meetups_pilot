@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "February 8 , 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/T._Michael_Coleman> , <http://dbpedia.org/resource/Rashied_Ali> , <http://dbpedia.org/resource/Joe_Henderson> , <http://dbpedia.org/resource/Art_Blakey> , <http://dbpedia.org/resource/Paul_Bley> , <http://dbpedia.org/resource/Ornette_Coleman> ;
+        ont:place           "http://dbpedia.org/resource/Ulmer,_South_Carolina" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "in 1971" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Patton_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gary_Payton> , <http://dbpedia.org/resource/James_A._Carter> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Arthur_Blythe> ;
+        ont:place           "http://dbpedia.org/resource/Ulmer,_South_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1979" , "1980" , "two" .

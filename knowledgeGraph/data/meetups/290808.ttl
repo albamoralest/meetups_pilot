@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/290808/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Ortiz> ;
+        ont:place           "http://dbpedia.org/resource/Una_district" ;
+        ont:subject         <http://dbpedia.org/resource/Tony_Croatto> ;
+        ont:timeExpression  "one career refreshing hit" .
+
+<http://w3id.org/polifonia/pilot/meetups/290808/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alejandro_Sanz> ;
+        ont:place           "http://dbpedia.org/resource/Montero" , "http://dbpedia.org/resource/Venezuela" , "http://dbpedia.org/resource/South_America" ;
+        ont:subject         <http://dbpedia.org/resource/Tony_Croatto> ;
+        ont:timeExpression  "In 1968" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/290808/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tite_Curet_Alonso> ;
+        ont:place           "http://dbpedia.org/resource/Sierra_Nevada_del_Cocuy" , "http://dbpedia.org/resource/Sabana,_Orocovis,_Puerto_Rico" , "http://dbpedia.org/resource/Venezuela" ;
+        ont:subject         <http://dbpedia.org/resource/Tony_Croatto> ;
+        ont:timeExpression  "'The" .

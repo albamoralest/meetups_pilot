@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/125311/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Larry_Parnes> , <http://dbpedia.org/resource/Billy_Fury> ;
+        ont:place           "http://dbpedia.org/resource/Parnitha" , "http://dbpedia.org/resource/Liverpool" ;
+        ont:subject         <http://dbpedia.org/resource/Stu_Sutcliffe> ;
+        ont:timeExpression  "in 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/125311/6/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Harrison> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Stu_Sutcliffe> ;
+        ont:timeExpression  "5 December 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/125311/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eduardo_Paolozzi> ;
+        ont:place           "http://dbpedia.org/resource/Hamburg" ;
+        ont:subject         <http://dbpedia.org/resource/Stu_Sutcliffe> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/125311/4/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Percy_Bysshe_Shelley> , <http://dbpedia.org/resource/Margaret_Chapman> ;
+        ont:place           "http://dbpedia.org/resource/Gambier_Terrace" , "http://dbpedia.org/resource/Murray_River" , "http://dbpedia.org/resource/Liverpool" ;
+        ont:subject         <http://dbpedia.org/resource/Stu_Sutcliffe> ;
+        ont:timeExpression  "at 9" , "at 3" .
+
+<http://w3id.org/polifonia/pilot/meetups/125311/4/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Lennon> ;
+        ont:place           "http://dbpedia.org/resource/Gambier_Terrace" ;
+        ont:subject         <http://dbpedia.org/resource/Stu_Sutcliffe> ;
+        ont:timeExpression  "July 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/125311/6/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Astrid_Kirchherr> ;
+        ont:place           "http://dbpedia.org/resource/Liverpool" , "http://dbpedia.org/resource/Hamburg" ;
+        ont:subject         <http://dbpedia.org/resource/Stu_Sutcliffe> ;
+        ont:timeExpression  "March 1961" , "20 January 1961" , "Beatles.In July 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/125311/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Stuart_Sutcliffe> ;
+        ont:place           "http://dbpedia.org/resource/Thompson_River" ;
+        ont:subject         <http://dbpedia.org/resource/Stu_Sutcliffe> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/125311/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Joyce> , <http://dbpedia.org/resource/Charles_II_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Aigburth" , "http://dbpedia.org/resource/Edinburgh" , "http://dbpedia.org/resource/Liverpool" , "http://dbpedia.org/resource/Kingdom_of_England" , "http://dbpedia.org/resource/Edinburgh_Royal_Maternity_Hospital_and_Simpson_Memorial_Maternity_Pavilion" ;
+        ont:subject         <http://dbpedia.org/resource/Stu_Sutcliffe> ;
+        ont:timeExpression  "as three" , "two" , "at 37" .
+
+<http://w3id.org/polifonia/pilot/meetups/125311/4/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Lennon> , <http://dbpedia.org/resource/Sean_Hessey> , <http://dbpedia.org/resource/Mona_Best> , <http://dbpedia.org/resource/Pete_Best> ;
+        ont:place           "http://dbpedia.org/resource/Casbah_Coffee_Club" ;
+        ont:subject         <http://dbpedia.org/resource/Stu_Sutcliffe> ;
+        ont:timeExpression  "Sutcliffe one" , "Höfner President 500/5" .

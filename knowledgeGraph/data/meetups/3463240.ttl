@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3463240/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Florian> , <http://dbpedia.org/resource/Moses> ;
+        ont:place           "http://dbpedia.org/resource/Dessau" , "http://dbpedia.org/resource/Hamburg" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Dessau> ;
+        ont:timeExpression  "1909" .
+
+<http://w3id.org/polifonia/pilot/meetups/3463240/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elisabeth_Hauptmann> ;
+        ont:place           "http://dbpedia.org/resource/Berlin" , "http://dbpedia.org/resource/Dessau" , "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Dessau> ;
+        ont:timeExpression  "professor in 1959" , "in 1948.Starting" , "in 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/3463240/96/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Dessau> , <http://dbpedia.org/resource/Bertolt_Brecht> ;
+        ont:place           "http://dbpedia.org/resource/Berlin" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Dessau> ;
+        ont:timeExpression  "Berlin 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/3463240/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Otto_Klemperer> ;
+        ont:place           "http://dbpedia.org/resource/Bremen" , "http://dbpedia.org/resource/Hamburg" , "http://dbpedia.org/resource/Cologne_Opera" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Dessau> ;
+        ont:timeExpression  "between 1919" , "1923" , "in 1914" , "service in 1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/3463240/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dave_Krieg> ;
+        ont:place           "http://dbpedia.org/resource/Australia" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Dessau> ;
+        ont:timeExpression  "Dreißigjährigen Krieg 1946–1949" .

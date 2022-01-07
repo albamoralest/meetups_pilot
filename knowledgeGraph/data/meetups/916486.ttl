@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/916486/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Dickens> , <http://dbpedia.org/resource/Hazel_Dickens> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" , "http://dbpedia.org/resource/Charleston,_West_Virginia" , "http://dbpedia.org/resource/West_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Hazel_Dickens> ;
+        ont:timeExpression  "June 1 , 1925.Stating" , "June 1 , 1935" , "June 5 , 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/916486/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Dickens> ;
+        ont:place           "http://dbpedia.org/resource/Scottish_Highlands" , "http://dbpedia.org/resource/Mannington_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Hazel_Dickens> ;
+        ont:timeExpression  "October 1972" , "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/916486/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carl_Rutherford> , <http://dbpedia.org/resource/Charles_Dickens> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" , "http://dbpedia.org/resource/Charleston,_West_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Hazel_Dickens> ;
+        ont:timeExpression  "In 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/916486/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Dickens> ;
+        ont:place           "http://dbpedia.org/resource/Washington_(state)" ;
+        ont:subject         <http://dbpedia.org/resource/Hazel_Dickens> ;
+        ont:timeExpression  "In 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/916486/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Dickens> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Hazel_Dickens> ;
+        ont:timeExpression  "June 1 , 1925" , "April 22 , 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/916486/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hazel_Dickens> , <http://dbpedia.org/resource/Louis-Joseph_de_Montcalm> ;
+        ont:place           "http://dbpedia.org/resource/West_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Hazel_Dickens> ;
+        ont:timeExpression  "June 1 , 1925" , "5" , "family of 6" .
+
+<http://w3id.org/polifonia/pilot/meetups/916486/3/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Marshall_Harlan_(1899–1971)> , <http://dbpedia.org/resource/Charles_Dickens> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Hazel_Dickens> ;
+        ont:timeExpression  "four" .

@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:place           "http://dbpedia.org/resource/Soviet_Union" ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "in 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lyubov_Dostoevskaya> , <http://dbpedia.org/resource/Mikhail_Svetlov_(poet)> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn_Academy_of_Music" , "http://dbpedia.org/resource/Moscow" ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "1957" , "1975" , "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Semyon_Budyonny> ;
+        ont:place           "http://dbpedia.org/resource/Rostov-on-Don" ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "1920" .

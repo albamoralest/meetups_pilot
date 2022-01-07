@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/419012/3/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_F._Kennedy> ;
+        ont:place           "http://dbpedia.org/resource/Dallas" , "http://dbpedia.org/resource/Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Brian_Hyland> ;
+        ont:timeExpression  "in 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/419012/5/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Albert_West> , <http://dbpedia.org/resource/Allen_Toussaint> , <http://dbpedia.org/resource/Brian_Hyland> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/Brian_Hyland> ;
+        ont:timeExpression  "in 1979" , "June 1988" , "By 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/419012/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Brian_Hyland> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Brian_Hyland> ;
+        ont:timeExpression  "November 12 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/419012/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> , <http://dbpedia.org/resource/Paul_Vance> ;
+        ont:place           "http://dbpedia.org/resource/Brill_Building" ;
+        ont:subject         <http://dbpedia.org/resource/Brian_Hyland> ;
+        ont:timeExpression  "age of 16" , "Hyland.In August 1960" , "Four" .

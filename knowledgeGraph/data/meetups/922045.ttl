@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/922045/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Brian_G._Marsden> ;
+        ont:place           "http://dbpedia.org/resource/Merseyside" , "http://dbpedia.org/resource/Arrowe_Park_Hospital" , "http://dbpedia.org/resource/Anfield" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Marsden> ;
+        ont:timeExpression  "June 2019" , "November 2018" , "operation in 2016" , "3 January 2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/922045/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_McCartney> , <http://dbpedia.org/resource/Holly_Johnson> ;
+        ont:place           "http://dbpedia.org/resource/River_Mersey" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Marsden> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/922045/1/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tony_Warren> ;
+        ont:place           "http://dbpedia.org/resource/River_Mersey" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Marsden> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/922045/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gerry_Marsden> , <http://dbpedia.org/resource/Derek_Nimmo> ;
+        ont:place           "http://dbpedia.org/resource/Liverpool" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Marsden> ;
+        ont:timeExpression  "April 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/922045/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Samuel_Marsden> ;
+        ont:place           "http://dbpedia.org/resource/British_Empire" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Marsden> ;
+        ont:timeExpression  "In 2003" , "Liverpool.In 2010" , "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/922045/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Brendan_Behan> , <http://dbpedia.org/resource/Samuel_Marsden> ;
+        ont:place           "http://dbpedia.org/resource/Broad_Green_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Marsden> ;
+        ont:timeExpression  "Victoria.In September 2003" , "in 2006.In" , "two" , "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/922045/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> , <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Robert_Menzies> , <http://dbpedia.org/resource/Samuel_Marsden> ;
+        ont:place           "http://dbpedia.org/resource/Liverpool" , "http://dbpedia.org/resource/Toxteth" ;
+        ont:subject         <http://dbpedia.org/resource/Gerry_Marsden> ;
+        ont:timeExpression  "at 8" .

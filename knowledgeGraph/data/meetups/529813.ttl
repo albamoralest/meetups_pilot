@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/529813/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Greg_Monroe> ;
+        ont:place           "http://dbpedia.org/resource/Framingham,_Massachusetts" , "http://dbpedia.org/resource/The_Meadows_Racetrack_and_Casino" , "http://dbpedia.org/resource/Boston" , "http://dbpedia.org/resource/Massachusetts_Route_9" ;
+        ont:subject         <http://dbpedia.org/resource/Vaughn_Monroe> ;
+        ont:timeExpression  "Massachusetts Route 9" .
+
+<http://w3id.org/polifonia/pilot/meetups/529813/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Greg_Monroe> ;
+        ont:place           "http://dbpedia.org/resource/Moon" ;
+        ont:subject         <http://dbpedia.org/resource/Vaughn_Monroe> ;
+        ont:timeExpression  "until 1956" , "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/529813/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Greg_Monroe> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" , "http://dbpedia.org/resource/Arizona" ;
+        ont:subject         <http://dbpedia.org/resource/Vaughn_Monroe> ;
+        ont:timeExpression  "1947" , "1944" , "1952" , "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/529813/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marian_Shields_Robinson> , <http://dbpedia.org/resource/Greg_Monroe> ;
+        ont:place           "http://dbpedia.org/resource/Jeannette,_Pennsylvania" ;
+        ont:subject         <http://dbpedia.org/resource/Vaughn_Monroe> ;
+        ont:timeExpression  "April 2 , 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/529813/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Greg_Monroe> ;
+        ont:place           "http://dbpedia.org/resource/Boston" ;
+        ont:subject         <http://dbpedia.org/resource/Vaughn_Monroe> ;
+        ont:timeExpression  "in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/529813/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Greg_Monroe> ;
+        ont:place           "http://dbpedia.org/resource/The_Meadows_Racetrack_and_Casino" ;
+        ont:subject         <http://dbpedia.org/resource/Vaughn_Monroe> ;
+        ont:timeExpression  "in 1946" , "1973.The summer" , "of 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/529813/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Greg_Monroe> ;
+        ont:place           "http://dbpedia.org/resource/Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Vaughn_Monroe> ;
+        ont:timeExpression  "May 21 , 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/529813/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vaughn_Monroe> ;
+        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Vine_Street" ;
+        ont:subject         <http://dbpedia.org/resource/Vaughn_Monroe> ;
+        ont:timeExpression  "2008" , "at 1600" , "June 25 , 2019" , "two" , "radio at 1755" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/529813/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rashad_Vaughn> , <http://dbpedia.org/resource/Greg_Monroe> ;
+        ont:place           "http://dbpedia.org/resource/Wilton,_Wiltshire" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Vaughn_Monroe> ;
+        ont:timeExpression  "May 21 , 1973" , "1950s" , "1940s" , "October 7 , 1911" .

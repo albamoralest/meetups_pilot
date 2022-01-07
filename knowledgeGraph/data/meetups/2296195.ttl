@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2296195/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Merritt_Chase> , <http://dbpedia.org/resource/Frank_Vincent> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Eugene_Speicher> ;
+        ont:timeExpression  "in 1907" .
+
+<http://w3id.org/polifonia/pilot/meetups/2296195/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Potter_Palmer> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Eugene_Speicher> ;
+        ont:timeExpression  "In 1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/2296195/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Richard_Thomas_(herpetologist)> ;
+        ont:place           "http://dbpedia.org/resource/Appleton_Thorn" ;
+        ont:subject         <http://dbpedia.org/resource/Eugene_Speicher> ;
+        ont:timeExpression  "1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/2296195/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marianna_Mayer> ;
+        ont:place           "http://dbpedia.org/resource/Pennsylvania" ;
+        ont:subject         <http://dbpedia.org/resource/Eugene_Speicher> ;
+        ont:timeExpression  "in 1938" .

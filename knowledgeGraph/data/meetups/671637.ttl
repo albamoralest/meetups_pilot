@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/671637/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_II_of_England> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Guy_Clark> ;
+        ont:timeExpression  "November 6 , 1941" , "May 17 , 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/671637/2/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Denver> , <http://dbpedia.org/resource/John_Conlee> , <http://dbpedia.org/resource/Vince_Gill> ;
+        ont:place           "http://dbpedia.org/resource/Oklahoma" ;
+        ont:subject         <http://dbpedia.org/resource/Guy_Clark> ;
+        ont:timeExpression  "in 1985" , "in 1988" , "in 1987" , "10" .
+
+<http://w3id.org/polifonia/pilot/meetups/671637/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Verlon_Thompson> ;
+        ont:place           "http://dbpedia.org/resource/Washington,_D.C." ;
+        ont:subject         <http://dbpedia.org/resource/Guy_Clark> ;
+        ont:timeExpression  "July 4" , "After two" .
+
+<http://w3id.org/polifonia/pilot/meetups/671637/2/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Steve_Earle> ;
+        ont:place           "http://dbpedia.org/resource/Bluebird_Café" ;
+        ont:subject         <http://dbpedia.org/resource/Guy_Clark> ;
+        ont:timeExpression  "In 1995" , "October 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/671637/2/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jader_Volnei_Spindler> ;
+        ont:place           "http://dbpedia.org/resource/New_Cut,_Bristol" ;
+        ont:subject         <http://dbpedia.org/resource/Guy_Clark> ;
+        ont:timeExpression  "In 1982" , "Country Top 20" .

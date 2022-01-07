@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/221558/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Henry_IV_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Vivian_Beaumont_Theater" , "http://dbpedia.org/resource/Lincoln_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Kevin_Kline> ;
+        ont:timeExpression  "two" , "in 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/221558/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Cleese> , <http://dbpedia.org/resource/Jamie_Lee_Curtis> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Kevin_Kline> ;
+        ont:timeExpression  "In 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/221558/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sophie_Scholl> , <http://dbpedia.org/resource/Frank_Rich> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Kevin_Kline> ;
+        ont:timeExpression  "film in 1982" , "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/221558/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Linda_Ronstadt> , <http://dbpedia.org/resource/Rex_Smith_(entertainer)> ;
+        ont:place           "http://dbpedia.org/resource/The_Public_Theater" , "http://dbpedia.org/resource/Penzance" , "http://dbpedia.org/resource/Central_Park" ;
+        ont:subject         <http://dbpedia.org/resource/Kevin_Kline> ;
+        ont:timeExpression  "In 1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/221558/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Donna_Theodore> , <http://dbpedia.org/resource/Thomas_Hardy> ;
+        ont:place           "http://dbpedia.org/resource/Hudson_River" ;
+        ont:subject         <http://dbpedia.org/resource/Kevin_Kline> ;
+        ont:timeExpression  "stage in 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/221558/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Joseph> ;
+        ont:place           "http://dbpedia.org/resource/Missouri" ;
+        ont:subject         <http://dbpedia.org/resource/Kevin_Kline> ;
+        ont:timeExpression  "1909–1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/221558/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Shakespeare> , <http://dbpedia.org/resource/Angela_Lansbury> , <http://dbpedia.org/resource/Richard_III_of_England> ;
+        ont:place           "http://dbpedia.org/resource/The_Public_Theater" ;
+        ont:subject         <http://dbpedia.org/resource/Kevin_Kline> ;
+        ont:timeExpression  "1984" , "In 1983" , "in 1986" , "1988" , "two" , "1983" , "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/221558/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Ogden_Stiers> , <http://dbpedia.org/resource/Patti_LuPone> , <http://dbpedia.org/resource/William_Shakespeare> ;
+        ont:place           "http://dbpedia.org/resource/American_Repertory_Theater" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Kevin_Kline> ;
+        ont:timeExpression  "In 1972" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/221558/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kevin_Delaney> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Kevin_Kline> ;
+        ont:timeExpression  "October 24 , 1947" .

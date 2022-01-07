@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1788051/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lyndon_B._Johnson> , <http://dbpedia.org/resource/Ivor_Allchurch> , <http://dbpedia.org/resource/Robert_Farnon> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Farnon> ;
+        ont:timeExpression  "one" , "four" , "in 1991" , "in 1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/1788051/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dolf_Kessler> , <http://dbpedia.org/resource/William_Stevenson_(Canadian_writer)> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Colditz" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Farnon> ;
+        ont:timeExpression  "1979" , "1981" , "1972–74" , "1977–79" .
+
+<http://w3id.org/polifonia/pilot/meetups/1788051/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ivor_Allchurch> ;
+        ont:place           "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Farnon> ;
+        ont:timeExpression  "with four" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1788051/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Great_Britain" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Farnon> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1788051/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Patricia_Smith_(poet)> ;
+        ont:place           "http://dbpedia.org/resource/Channel_Islands" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Farnon> ;
+        ont:timeExpression  "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/1788051/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Farnon> ;
+        ont:place           "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Farnon> ;
+        ont:timeExpression  "home of 40" , "age of 87" , "in 1998.Robert" .
+
+<http://w3id.org/polifonia/pilot/meetups/1788051/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tony_Bennett> , <http://dbpedia.org/resource/Lena_Horne> , <http://dbpedia.org/resource/Sarah_Vaughan> , <http://dbpedia.org/resource/Lena_Meyer-Landrut> ;
+        ont:place           "http://dbpedia.org/resource/Denmark" , "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Cascade_Range" , "http://dbpedia.org/resource/Vaughan" ;
+        ont:subject         <http://dbpedia.org/resource/Robert_Farnon> ;
+        ont:timeExpression  "three" , "1968" , "one" , "1976" , "1964" , "1975" .

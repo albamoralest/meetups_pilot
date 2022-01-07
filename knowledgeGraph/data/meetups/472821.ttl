@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/472821/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Will_Friedwald> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Mitch_Miller> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/472821/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Guillermo_Miller> , <http://dbpedia.org/resource/Donovan_Mitchell> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Mitch_Miller> ;
+        ont:timeExpression  "July 4 , 1911" , "July 31 , 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/472821/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/Goddard_Lieberson> , <http://dbpedia.org/resource/Alec_Wilder> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/David_Mannes> , <http://dbpedia.org/resource/Percy_Faith> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Mitch_Miller> ;
+        ont:timeExpression  "1938–41" , "group in 1956.After" .
+
+<http://w3id.org/polifonia/pilot/meetups/472821/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mitch_Miller> ;
+        ont:place           "http://dbpedia.org/resource/Atlantic_Ocean" ;
+        ont:subject         <http://dbpedia.org/resource/Mitch_Miller> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/472821/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leopold_Mozart> , <http://dbpedia.org/resource/Alec_Wilder> , <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Richard_Strauss> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Mitch_Miller> ;
+        ont:timeExpression  "1946 recording" , "1947 recording" , "1948 radio broadcast" .
+
+<http://w3id.org/polifonia/pilot/meetups/472821/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Guillermo_Miller> , <http://dbpedia.org/resource/Donovan_Mitchell> ;
+        ont:place           "http://dbpedia.org/resource/Rochester,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Mitch_Miller> ;
+        ont:timeExpression  "July 4 , 1911" .

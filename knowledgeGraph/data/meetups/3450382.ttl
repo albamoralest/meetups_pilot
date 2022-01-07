@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3450382/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Alabama" ;
+        ont:subject         <http://dbpedia.org/resource/Dan_Penn> ;
+        ont:timeExpression  "ISBN 0-8173-1023-1" , "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450382/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chips_Moman> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Dan_Penn> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450382/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Aretha_Franklin> , <http://dbpedia.org/resource/Jerry_Wexler> ;
+        ont:place           "http://dbpedia.org/resource/FAME_Studios" ;
+        ont:subject         <http://dbpedia.org/resource/Dan_Penn> ;
+        ont:timeExpression  "in 1967" , "37" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450382/30/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Solomon_Burke> , <http://dbpedia.org/resource/Joe_Cocker> ;
+        ont:place           "http://dbpedia.org/resource/Whitsett,_North_Carolina" , "http://dbpedia.org/resource/Lindsey,_Lincolnshire" ;
+        ont:subject         <http://dbpedia.org/resource/Dan_Penn> ;
+        ont:timeExpression  "2005'sBetter" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450382/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Rodriguez> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Dan_Penn> ;
+        ont:timeExpression  "in 1976" , "5" , "2" .

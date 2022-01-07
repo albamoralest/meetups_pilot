@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/625857/15/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rich_Robinson> ;
+        ont:place           "http://dbpedia.org/resource/Germantown,_Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Rich> ;
+        ont:timeExpression  "July 22 , 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/625857/13/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rich_Alvarez> , <http://dbpedia.org/resource/Charlie_Rich> , <http://dbpedia.org/resource/Tom_Waits> ;
+        ont:place           "http://dbpedia.org/resource/Putnam_County,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Rich> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/625857/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Allan_Rich> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Rich> ;
+        ont:timeExpression  "December 14 , 1932" , "July 25 , 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/625857/15/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Tudor> ;
+        ont:place           "http://dbpedia.org/resource/Memorial_Park_Cemetery_(Memphis,_Tennessee)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Rich> ;
+        ont:timeExpression  "wife of 43" , "three" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/625857/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ray_Smith_(actor)> , <http://dbpedia.org/resource/Johnny_Cash> , <http://dbpedia.org/resource/Billy_Lee_Riley> , <http://dbpedia.org/resource/Rich_Robinson> , <http://dbpedia.org/resource/Warren_Smith_(jazz_percussionist)> ;
+        ont:place           "http://dbpedia.org/resource/Isle_of_Lewis" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Rich> ;
+        ont:timeExpression  "In 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/625857/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Margaret_Tudor> ;
+        ont:place           "http://dbpedia.org/resource/Oklahoma" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Rich> ;
+        ont:timeExpression  "one semester" , "in 1953.While" .

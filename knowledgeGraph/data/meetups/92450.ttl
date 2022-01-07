@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/92450/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jack_Lawrence> , <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:place           "http://dbpedia.org/resource/Fairfield,_Connecticut" ;
+        ont:subject         <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:timeExpression  "October 23 , 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/92450/18/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_Watson> ;
+        ont:place           "http://dbpedia.org/resource/Wake_Forest_Baptist_Medical_Center" ;
+        ont:subject         <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:timeExpression  "May 29 , 2012" , "age of 89" .
+
+<http://w3id.org/polifonia/pilot/meetups/92450/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:place           "http://dbpedia.org/resource/North_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:timeExpression  "Fall–Winter 2009" , "56" , "Number 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/92450/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:place           "http://dbpedia.org/resource/Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:timeExpression  "June 5 , 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/92450/23/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Merle_Watson> ;
+        ont:place           "http://dbpedia.org/resource/Boston" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:timeExpression  "In 2010" , "U.S. Route 421" .
+
+<http://w3id.org/polifonia/pilot/meetups/92450/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Emmanuel> ;
+        ont:place           "http://dbpedia.org/resource/Bass_Performance_Hall" ;
+        ont:subject         <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:timeExpression  "June 19 , 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/92450/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Boyd_Dunlop_Morehead> , <http://dbpedia.org/resource/Walter_Raleigh> , <http://dbpedia.org/resource/Terry_Gross> ;
+        ont:place           "http://dbpedia.org/resource/North_Carolina" ;
+        ont:subject         <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:timeExpression  "1989 radio interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/92450/23/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bill_Clinton> , <http://dbpedia.org/resource/James_Watson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Doc_Watson> ;
+        ont:timeExpression  "In 1997" .

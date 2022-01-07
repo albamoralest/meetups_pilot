@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/Frank_Chance> , <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Lower_East_Side" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "In 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> ;
+        ont:place           "http://dbpedia.org/resource/Brooklyn" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1967 hoax" , "two" , "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Peel_(musician)> , <http://dbpedia.org/resource/John_Lennon> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/John_Lennon> ;
+        ont:place           "http://dbpedia.org/resource/Michigan" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "Ten" , "December 10 , 1971" , "for Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/John_Lennon> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2006" , "1989" , "2004" , "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Rosario_Flores> , <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Cori_(lunar_crater)" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "August 3 , 1942" , "April 6 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Wall_Street" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "In 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woodrow_Wilson> , <http://dbpedia.org/resource/John_Peel> ;
+        ont:place           "http://dbpedia.org/resource/Manhattan" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "March 31 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/GG_Allin> , <http://dbpedia.org/resource/David_Peel_(musician)> , <http://dbpedia.org/resource/John_Peel> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1995" , "with two" .

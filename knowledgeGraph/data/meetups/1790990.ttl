@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harry_Emerson_Fosdick> ;
+        ont:place           "http://dbpedia.org/resource/Theatre_Royal_Haymarket" , "http://dbpedia.org/resource/Regent_Square" , "http://dbpedia.org/resource/Glasgow" ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "in 1855.Harry" , "in 1873" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marcus_Smart> ;
+        ont:place           "http://dbpedia.org/resource/Primrose_Hill" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "July 1879" .

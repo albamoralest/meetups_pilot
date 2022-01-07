@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/595133/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johan_Svendsen> ;
+        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Johan_Svendsen> ;
+        ont:timeExpression  "one time" .
+
+<http://w3id.org/polifonia/pilot/meetups/595133/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bertha_of_Kent> ;
+        ont:place           "http://dbpedia.org/resource/Oslo" ;
+        ont:subject         <http://dbpedia.org/resource/Johan_Svendsen> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/595133/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sarah> ;
+        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Johan_Svendsen> ;
+        ont:timeExpression  "summer of 1871" .
+
+<http://w3id.org/polifonia/pilot/meetups/595133/5/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eyvind_Johan-Svendsen> ;
+        ont:place           "http://dbpedia.org/resource/Denmark" ;
+        ont:subject         <http://dbpedia.org/resource/Johan_Svendsen> ;
+        ont:timeExpression  "1896–1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/595133/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johan_Svendsen> ;
+        ont:place           "http://dbpedia.org/resource/Ystad" , "http://dbpedia.org/resource/Norway" ;
+        ont:subject         <http://dbpedia.org/resource/Johan_Svendsen> ;
+        ont:timeExpression  "1981" .

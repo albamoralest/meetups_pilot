@@ -1,0 +1,63 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1359335/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hannah_Arendt> , <http://dbpedia.org/resource/Mary_McCarthy_(author)> , <http://dbpedia.org/resource/Janet_McTeer> ;
+        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_McCarthy_(author)> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359335/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Leon_Trotsky> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_McCarthy_(author)> ;
+        ont:timeExpression  "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359335/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_McCarthy> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_McCarthy_(author)> ;
+        ont:timeExpression  "two" , "1963 edition" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359335/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Havoc> ;
+        ont:place           "http://dbpedia.org/resource/North_Vietnam" , "http://dbpedia.org/resource/South_Vietnam" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_McCarthy_(author)> ;
+        ont:timeExpression  "March 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359335/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lillian_Hellman> , <http://dbpedia.org/resource/Edmund_Wilson> , <http://dbpedia.org/resource/Joseph_McCarthy> , <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_McCarthy_(author)> ;
+        ont:timeExpression  "June 21 , 1912" , "October 25 , 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359335/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_McCarthy_(author)> ;
+        ont:timeExpression  "1936–1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359335/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Martha_Washington> , <http://dbpedia.org/resource/Joseph_McCarthy> ;
+        ont:place           "http://dbpedia.org/resource/Seattle" , "http://dbpedia.org/resource/Winfield,_Kansas" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_McCarthy_(author)> ;
+        ont:timeExpression  "three" , "epidemic of 1918" , "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359335/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_McCarthy> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/NewYork–Presbyterian_Hospital" ;
+        ont:subject         <http://dbpedia.org/resource/Mary_McCarthy_(author)> ;
+        ont:timeExpression  "October 25 , 1989" .

@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/984155/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Noel_Gallagher> ;
+        ont:place           "http://dbpedia.org/resource/Grosvenor_Picture_Palace" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Read> ;
+        ont:timeExpression  "In 2014" , "Brian Pern.In 2021" , "from 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/984155/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Big_L> ;
+        ont:place           "http://dbpedia.org/resource/Kingston_upon_Hull" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Read> ;
+        ont:timeExpression  "3 pm" , "7" , "10–14" , "November 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/984155/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rupert_Brooke> ;
+        ont:place           "http://dbpedia.org/resource/Grantchester" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Read> ;
+        ont:timeExpression  "In 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/984155/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mike_Read> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Mike_Read> ;
+        ont:timeExpression  "Radio 1" , "in 1991" , "1995" .

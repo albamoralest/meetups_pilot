@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2334505/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bonga_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Rotterdam" , "http://dbpedia.org/resource/Portuguese_Angola" , "http://dbpedia.org/resource/Bonga" ;
+        ont:subject         <http://dbpedia.org/resource/Bonga_(musician)> ;
+        ont:timeExpression  "Angola 72" , "in 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/2334505/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maria_II_of_Portugal> , <http://dbpedia.org/resource/Kevin_Pereira> , <http://dbpedia.org/resource/Cesária_Évora> ;
+        ont:place           "http://dbpedia.org/resource/Cape_Verde" ;
+        ont:subject         <http://dbpedia.org/resource/Bonga_(musician)> ;
+        ont:timeExpression  "in 2016" , "9" , "1990 album" , "74" .
+
+<http://w3id.org/polifonia/pilot/meetups/2334505/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vinnie_Paz> ;
+        ont:place           "http://dbpedia.org/resource/Angola" ;
+        ont:subject         <http://dbpedia.org/resource/Bonga_(musician)> ;
+        ont:timeExpression  "1991" .

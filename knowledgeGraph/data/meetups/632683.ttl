@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/632683/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Pharoah_Sanders> ;
+        ont:place           "http://dbpedia.org/resource/River_Crouch" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Gary_Bartz> ;
+        ont:timeExpression  "one" , "2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/632683/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gary_Bartz> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Gary_Bartz> ;
+        ont:timeExpression  "September 26 , 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/632683/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/McCoy_Tyner> , <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/Washington_metropolitan_area" ;
+        ont:subject         <http://dbpedia.org/resource/Gary_Bartz> ;
+        ont:timeExpression  "six performance/four night" , "1971" , "2005" , "In 1968" .

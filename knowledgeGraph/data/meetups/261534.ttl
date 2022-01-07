@@ -1,0 +1,77 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Reggie_Workman> , <http://dbpedia.org/resource/Trudy_Pitts> , <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "November 2013" , "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Monk_Montgomery> ;
+        ont:place           "http://dbpedia.org/resource/Minneapolis" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bull_Moose_Jackson> ;
+        ont:place           "http://dbpedia.org/resource/Merritt_Parkway" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "band in 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Art_Blakey> ;
+        ont:place           "http://dbpedia.org/resource/Merritt_Parkway" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "group from 1957" , "until 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Blanton> , <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1946" , "from 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/A._Merritt> , <http://dbpedia.org/resource/Jymie_Merritt> , <http://dbpedia.org/resource/Max_Roach> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1962" , "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Don_Redman> , <http://dbpedia.org/resource/Charles_I_of_England> , <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:place           "http://dbpedia.org/resource/West_Virginia" , "http://dbpedia.org/resource/Virginia" , "http://dbpedia.org/resource/Philadelphia" , "http://dbpedia.org/resource/Piedmont,_West_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "June 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Max_Cavalera> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "for five" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Art_Blakey> ;
+        ont:place           "http://dbpedia.org/resource/Manhattan" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Merritt_Parkway" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "In 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "May 3 , 1926" , "April 10 , 2020" .

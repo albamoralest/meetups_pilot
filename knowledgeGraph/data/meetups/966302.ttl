@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Franklin_P._Adams> , <http://dbpedia.org/resource/Benjamin_Franklin> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "March 23 , 1960" , "November 15 , 1881" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clara_Schumann> , <http://dbpedia.org/resource/Hayden_Schlossberg> , <http://dbpedia.org/resource/Benjamin_Franklin> , <http://dbpedia.org/resource/Moses> , <http://dbpedia.org/resource/Leopold_II_of_Belgium> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "November 15 , 1881" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Harry_Hansen_(author)> ;
+        ont:place           "http://dbpedia.org/resource/Mount_Parnassus" ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "1902" , "1912" , "1911" , "1927 trivia book" , "1920 poetry book" .

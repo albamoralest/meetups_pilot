@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2815597/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jim_Hall_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Canada" , "http://dbpedia.org/resource/Europe" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Japan" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Thompson_(musician)> ;
+        ont:timeExpression  "1980s" , "trio in 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/2815597/8/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Ed_Bickert> ;
+        ont:place           "http://dbpedia.org/resource/Toronto" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Thompson_(musician)> ;
+        ont:timeExpression  "1976 debut album" .
+
+<http://w3id.org/polifonia/pilot/meetups/2815597/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Desmond> , <http://dbpedia.org/resource/Ed_Bickert> , <http://dbpedia.org/resource/Jerry_Fuller> , <http://dbpedia.org/resource/Tristan_Thompson> ;
+        ont:place           "http://dbpedia.org/resource/Toronto" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Thompson_(musician)> ;
+        ont:timeExpression  "One" , "from 1974" , "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/2815597/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Brazil" , "http://dbpedia.org/resource/Great_Britain" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Thompson_(musician)> ;
+        ont:timeExpression  "In 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/2815597/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Handy> , <http://dbpedia.org/resource/W._C._Handy> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Thompson_(musician)> ;
+        ont:timeExpression  "1966" , "1965" , "From 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/2815597/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kenny_Wheeler> , <http://dbpedia.org/resource/Hugh_Fraser_(actor)> ;
+        ont:place           "http://dbpedia.org/resource/Royal_Academy_of_Arts" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Don_Thompson_(musician)> ;
+        ont:timeExpression  "In 1996" .

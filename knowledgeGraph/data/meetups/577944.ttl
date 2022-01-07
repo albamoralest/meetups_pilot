@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Ivor_Allchurch> ;
+        ont:place           "http://dbpedia.org/resource/Glasgow" , "http://dbpedia.org/resource/Govan" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "in 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/1/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:place           "http://dbpedia.org/resource/Singly" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mark_Morris_(choreographer)> , <http://dbpedia.org/resource/Ivor_Allchurch> , <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:place           "http://dbpedia.org/resource/Royal_National_Theatre" , "http://dbpedia.org/resource/Seattle" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "October 2012" , "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "for 30" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jim_O'Rourke_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/Eureka,_California" , "http://dbpedia.org/resource/Peterculter" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1983 song" , "1999" .

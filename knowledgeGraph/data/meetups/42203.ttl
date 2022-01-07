@@ -1,0 +1,84 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Eddie_Duran> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "August 1955" , "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/20/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_H._Seward> , <http://dbpedia.org/resource/Eddie_Duran> , <http://dbpedia.org/resource/Bola_Sete> ;
+        ont:place           "http://dbpedia.org/resource/Kataoka_Station" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1970s" , "1950s" , "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "2012" , "Club Macumba San Francisco 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Berkeley> ;
+        ont:place           "http://dbpedia.org/resource/San_Francisco" , "http://dbpedia.org/resource/Grace_Cathedral,_San_Francisco" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "17th" , "group in 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lee_Mendelson> ;
+        ont:place           "http://dbpedia.org/resource/Golden_Gate_Bridge" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "In 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:place           "http://dbpedia.org/resource/North_Beach,_San_Francisco" , "http://dbpedia.org/resource/Oaxaca" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "2006" , "2" , "2004" , "Volumes 1" , "2011" , "2010" , "2008" , "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/40>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Stephen_Clark> , <http://dbpedia.org/resource/Vince_Lateano> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "in 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vincent_of_Saragossa> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "February 6 , 1976" , "July 17 , 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ron_Crotty> ;
+        ont:place           "http://dbpedia.org/resource/Ginza" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:place           "http://dbpedia.org/resource/Goes" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:place           "http://dbpedia.org/resource/Caliente_station" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1958" .

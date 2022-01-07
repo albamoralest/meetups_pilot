@@ -1,0 +1,343 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/70/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Pierce> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/79/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Rogier_metro_station" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "2004" , "DVD 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/67/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Pierce> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/31/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Lawrence,_Massachusetts" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "Harvard ten" , "In 1942" , "of one" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/11/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Burl_Ives> , <http://dbpedia.org/resource/Fiddlin'_Arthur_Smith> , <http://dbpedia.org/resource/Woody_Guthrie> , <http://dbpedia.org/resource/Pete_Seeger> , <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/Will_Geer> , <http://dbpedia.org/resource/Sonny_Terry> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" , "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1944" , "in 2000.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Zora_Neale_Hurston> , <http://dbpedia.org/resource/Rockin'_Robin_Roberts> , <http://dbpedia.org/resource/Lewis_Jones_(rugby)> , <http://dbpedia.org/resource/Joan_Halifax> , <http://dbpedia.org/resource/Elizabeth_I> , <http://dbpedia.org/resource/Jean_Ritchie> , <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/Marie_Antoinette> , <http://dbpedia.org/resource/Shirley_Collins> ;
+        ont:place           "http://dbpedia.org/resource/Southeastern_United_States" , "http://dbpedia.org/resource/Morocco" , "http://dbpedia.org/resource/Great_Britain" , "http://dbpedia.org/resource/Caribbean" , "http://dbpedia.org/resource/Florida" , "http://dbpedia.org/resource/Mississippi" , "http://dbpedia.org/resource/The_Bahamas" , "http://dbpedia.org/resource/Ireland" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1950" , "42" , "1935" , "1959" , "1961" , "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1940s" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/13/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/31/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Massachusetts" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "age of 17" , "in 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Reverend_Gary_Davis> , <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place           "http://dbpedia.org/resource/Ward_Hall_(Georgetown,_Kentucky)" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/11/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nelson_Rockefeller> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Mexico" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "February 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/53/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Sea_Islands" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1993 box" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/46/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jackie_Gleason> ;
+        ont:place           "http://dbpedia.org/resource/Mississippi" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "in 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/Elizabeth_I> ;
+        ont:place           "http://dbpedia.org/resource/Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "February 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/15/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Shirley_Collins> , <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/Peggy_Seeger> , <http://dbpedia.org/resource/Ewan_MacColl> ;
+        ont:place           "http://dbpedia.org/resource/Hunter_Region" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "In 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/10/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Wisconsin" , "http://dbpedia.org/resource/Mississippi_River" , "http://dbpedia.org/resource/Michigan" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "in 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1954–55 fieldwork" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/37/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bess_Lomax_Hawes> ;
+        ont:place           "http://dbpedia.org/resource/Austin,_Texas" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "in 1915" , "of four" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/6/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lead_Belly> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1934" , "17" , "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "in 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/15/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Attenborough> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Ireland" , "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Hunter_Region" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "In 1953" , "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/17/21>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Guy_Carawan> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" , "http://dbpedia.org/resource/Albany,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "in 1967.In" , "1961–62" , "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/40/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Losey> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "30a" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "2007" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Spain" , "http://dbpedia.org/resource/Ireland" , "http://dbpedia.org/resource/Caribbean" , "http://dbpedia.org/resource/Italy" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "After 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/18/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ludwig_van_Beethoven> , <http://dbpedia.org/resource/Louis_Armstrong> , <http://dbpedia.org/resource/Blind_Willie_Johnson> , <http://dbpedia.org/resource/Valya_Balkanska> , <http://dbpedia.org/resource/Johann_Sebastian_Bach> , <http://dbpedia.org/resource/Chuck_Berry> ;
+        ont:place           "http://dbpedia.org/resource/Zaire" , "http://dbpedia.org/resource/Sicily" , "http://dbpedia.org/resource/Bulgaria" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "two balaban" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "January 31 , 1915" , "July 19 , 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "In 2001" , "September 11" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/24/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Washington_metropolitan_area" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1983" , "since 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/10/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "two series" , "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/71/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Dunlap> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Archibald_MacLeish> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "June 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/1/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Southern_United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Johnson> ;
+        ont:place           "http://dbpedia.org/resource/Clarksdale,_Mississippi" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "On one" , "in 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/St_Pancras_railway_station" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "December 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/17/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Wade_Ward> , <http://dbpedia.org/resource/Hobart_Smith> , <http://dbpedia.org/resource/Irvin_McDowell> , <http://dbpedia.org/resource/Almeda_Riddle> , <http://dbpedia.org/resource/Charlie_Higgins> , <http://dbpedia.org/resource/Bessie_Jones_(American_singer)> ;
+        ont:place           "http://dbpedia.org/resource/Southern_United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "November 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Muddy_Waters> , <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/Memphis_Slim> , <http://dbpedia.org/resource/Jimmy_Driftwood> , <http://dbpedia.org/resource/Mike_Seeger> , <http://dbpedia.org/resource/Pete_Seeger> , <http://dbpedia.org/resource/Stoney_Cooper> ;
+        ont:place           "http://dbpedia.org/resource/Arkansas" , "http://dbpedia.org/resource/Carnegie_Hall" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "in 1959" , "Folksong '59" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/1/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Smithsonian_Institution" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1980s" , "in 1991" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/51/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woody_Guthrie> , <http://dbpedia.org/resource/Lead_Belly> , <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/Jelly_Roll_Morton> , <http://dbpedia.org/resource/Muddy_Waters> , <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:place           "http://dbpedia.org/resource/Virginia" , "http://dbpedia.org/resource/Wolf_Trap_National_Park_for_the_Performing_Arts" , "http://dbpedia.org/resource/Kentucky" , "http://dbpedia.org/resource/Haiti" , "http://dbpedia.org/resource/Greenwich_Village" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1937" , "August 24 , 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gil_Evans> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Miles_Davis> , <http://dbpedia.org/resource/Tyreke_Evans> ;
+        ont:place           "http://dbpedia.org/resource/Spain" , "http://dbpedia.org/resource/Kingdom_of_Galicia" , "http://dbpedia.org/resource/Seville" , "http://dbpedia.org/resource/Vigo" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1960 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/18/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Safety_Harbor,_Florida" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "age of 87" , "July 19 , 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/24/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Barry_Jean_Ancelet> ;
+        ont:place           "http://dbpedia.org/resource/Louisiana" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/10/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Canada" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Hawaii" , "http://dbpedia.org/resource/Alaska" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "ten" , "in 200,000" , "million" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/17/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1940s" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/46/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jelly_Roll_Morton> , <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/Elizabeth_II> ;
+        ont:place           "http://dbpedia.org/resource/Averill,_Vermont" , "http://dbpedia.org/resource/Haiti" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1936–1937" , "February 8 , 2006" , "in 2011" , "48th" , "for two" , "10" , "8" , "in two" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/15/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Rome" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "1954" , "in 1953" , "in 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/173225/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woody_Guthrie> , <http://dbpedia.org/resource/Lead_Belly> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           "http://dbpedia.org/resource/Southern_United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:timeExpression  "In 1940" , "two" .

@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/50902387/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tess_Daly> , <http://dbpedia.org/resource/Brad_Knighton> ;
+        ont:place           "http://dbpedia.org/resource/Warwick" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Morrow> ;
+        ont:timeExpression  "one day" .
+
+<http://w3id.org/polifonia/pilot/meetups/50902387/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Morrow> ;
+        ont:place           "http://dbpedia.org/resource/Hampstead" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Morrow> ;
+        ont:timeExpression  "July 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/50902387/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Grayston_Burgess> ;
+        ont:place           "http://dbpedia.org/resource/Hampstead" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Morrow> ;
+        ont:timeExpression  "chapel at 17" , "two" , "end of 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/50902387/6/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_Barnard> ;
+        ont:place           "http://dbpedia.org/resource/Queen_Elizabeth_Hall" , "http://dbpedia.org/resource/South_Bank" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Morrow> ;
+        ont:timeExpression  "26 June 1963" , "one" , "2 July 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/50902387/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Morrow> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Morrow> ;
+        ont:timeExpression  "20 April 1994" , "2 October 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/50902387/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_MacNamara> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Morrow> ;
+        ont:timeExpression  "2 October 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/50902387/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Beatrice_Behan> ;
+        ont:place           "http://dbpedia.org/resource/Dublin" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Morrow> ;
+        ont:timeExpression  "one" , "six" .

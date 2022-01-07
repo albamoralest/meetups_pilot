@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/52470803/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Woodrow_Wilson> , <http://dbpedia.org/resource/Tim_Duncan> ;
+        ont:place           "http://dbpedia.org/resource/Melbourne" , "http://dbpedia.org/resource/Sidney_Myer_Music_Bowl" ;
+        ont:subject         <http://dbpedia.org/resource/Wayne_Duncan_(musician)> ;
+        ont:timeExpression  "2004 tsunami" , "in 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/52470803/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Trevor_Griffin> , <http://dbpedia.org/resource/Harold_Wilson> , <http://dbpedia.org/resource/Tim_Duncan> , <http://dbpedia.org/resource/Bruce_Woodcock_(boxer)> , <http://dbpedia.org/resource/Mike_Rudd> , <http://dbpedia.org/resource/Ian_Chappell> ;
+        ont:place           "http://dbpedia.org/resource/Wettenhall" ;
+        ont:subject         <http://dbpedia.org/resource/Wayne_Duncan_(musician)> ;
+        ont:timeExpression  "in 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/52470803/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tim_Duncan> ;
+        ont:place           "http://dbpedia.org/resource/Melbourne" ;
+        ont:subject         <http://dbpedia.org/resource/Wayne_Duncan_(musician)> ;
+        ont:timeExpression  "as one" , "31 May 1944" , "of six" .

@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/364506/16/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Bega> ;
+        ont:place           "http://dbpedia.org/resource/Bassenthwaite" ;
+        ont:subject         <http://dbpedia.org/resource/Melvyn_Bragg> ;
+        ont:timeExpression  "April 2021.The" .
+
+<http://w3id.org/polifonia/pilot/meetups/364506/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Henry_Bragg> , <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Julius_and_Ethel_Rosenberg> ;
+        ont:place           "http://dbpedia.org/resource/Carlisle" ;
+        ont:subject         <http://dbpedia.org/resource/Melvyn_Bragg> ;
+        ont:timeExpression  "6 October 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/364506/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_Robinson> ;
+        ont:place           "http://dbpedia.org/resource/Buttermere" ;
+        ont:subject         <http://dbpedia.org/resource/Melvyn_Bragg> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/364506/16/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Melvyn_Bragg> ;
+        ont:place           "http://dbpedia.org/resource/Palace_of_Westminster" , "http://dbpedia.org/resource/Wigton" ;
+        ont:subject         <http://dbpedia.org/resource/Melvyn_Bragg> ;
+        ont:timeExpression  "BBC Two" , "6.At" , "18 July 2015" , "age of 75" .
+
+<http://w3id.org/polifonia/pilot/meetups/364506/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Catherine_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/Oxford" ;
+        ont:subject         <http://dbpedia.org/resource/Melvyn_Bragg> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/364506/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Melvyn_Bragg> , <http://dbpedia.org/resource/Tony_Blair> ;
+        ont:place           "http://dbpedia.org/resource/Cumbria" , "http://dbpedia.org/resource/Wigton" ;
+        ont:subject         <http://dbpedia.org/resource/Melvyn_Bragg> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/364506/16/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/William_Henry_Bragg> , <http://dbpedia.org/resource/Lawrence_Bragg> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Melvyn_Bragg> ;
+        ont:timeExpression  "in 1915" .

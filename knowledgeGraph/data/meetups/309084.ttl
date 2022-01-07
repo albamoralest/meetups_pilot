@@ -1,0 +1,84 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/7/25>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Antonio_Banderas> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "in 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sola_Aoi> ;
+        ont:place           "http://dbpedia.org/resource/Tokyo" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "Tokyo 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Tune> ;
+        ont:place           "http://dbpedia.org/resource/Grand_Brighton_Hotel" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "in 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Amos_Sawyer> , <http://dbpedia.org/resource/Barbra_Streisand> ;
+        ont:place           "http://dbpedia.org/resource/York_Theatre" , "http://dbpedia.org/resource/Kansas_City_metropolitan_area" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "1989" , "one" , "2009" , "2011" , "2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frank_Lloyd_Wright> ;
+        ont:place           "http://dbpedia.org/resource/Grand_Brighton_Hotel" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "November 1989" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/7/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Anita_Morris> ;
+        ont:place           "http://dbpedia.org/resource/Holy_See" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/7/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_II> ;
+        ont:place           "http://dbpedia.org/resource/New_Orleans" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "in 1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/12/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gerard_Alessandrini> , <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:place           "http://dbpedia.org/resource/Manhattan" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "March 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Andrea_Marcovicci> ;
+        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/12/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Meehan_(writer)> , <http://dbpedia.org/resource/Peter_Stone> , <http://dbpedia.org/resource/Alfredo_Casella> ;
+        ont:place           "http://dbpedia.org/resource/La_Morte" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "2009 revival" .
+
+<http://w3id.org/polifonia/pilot/meetups/309084/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Maury_Yeston> ;
+        ont:timeExpression  "October 23 , 1945" .

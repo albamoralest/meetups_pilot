@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ileana_Sonnabend> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "1969" , "1972" , "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Hannibal> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/The_Bronx" ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bernadette_Mayer> ;
+        ont:place           "http://dbpedia.org/resource/Toronto" ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "0 TO 9" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "January 24 , 1940" , "April 27 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Kupelwieser> , <http://dbpedia.org/resource/Hermann_Schlegel> , <http://dbpedia.org/resource/Kiki_Smith> , <http://dbpedia.org/resource/Zaha_Hadid> , <http://dbpedia.org/resource/Koen_Vanmechelen> , <http://dbpedia.org/resource/Hermann_Nitsch> , <http://dbpedia.org/resource/Luciano_Benetton> ;
+        ont:place           "http://dbpedia.org/resource/Austria" , "http://dbpedia.org/resource/Magdalena_Department" ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "161" , "2015" , "13 solo" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marc_Santo> ;
+        ont:place           "http://dbpedia.org/resource/SAP_Center" , "http://dbpedia.org/resource/Ichihara,_Chiba" ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "in 1985" , "In 2013" , "2014" .

@@ -1,0 +1,70 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048172/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mike_Tyson> ;
+        ont:place           "http://dbpedia.org/resource/Canada" ;
+        ont:subject         <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:timeExpression  "October 1994" , "in 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048172/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:place           "http://dbpedia.org/resource/Dawson_City" ;
+        ont:subject         <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:timeExpression  "1966" , "in 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048172/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Cash> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048172/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ian_Tyson> , <http://dbpedia.org/resource/Sylvia_Anderson> ;
+        ont:place           "http://dbpedia.org/resource/Orillia" ;
+        ont:subject         <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:timeExpression  "11 July 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048172/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mike_Tyson> , <http://dbpedia.org/resource/Ian_Tyson> , <http://dbpedia.org/resource/Sylvia_Pankhurst> ;
+        ont:place           "http://dbpedia.org/resource/Mariposa_Creek" ;
+        ont:subject         <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:timeExpression  "in 1992.Ian" , "in 2006" , "In 2003" , "in 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048172/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frank_Tyson> , <http://dbpedia.org/resource/Neil_Young> ;
+        ont:place           "http://dbpedia.org/resource/Calgary" ;
+        ont:subject         <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:timeExpression  "Four" , "In 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048172/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frank_Tyson> , <http://dbpedia.org/resource/Ian_Tyson> , <http://dbpedia.org/resource/Sylvia_Anderson> , <http://dbpedia.org/resource/Sylvia_Tyson> ;
+        ont:place           "http://dbpedia.org/resource/Dawson_City" ;
+        ont:subject         <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:timeExpression  "25 September 1933" , "Four" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048172/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:place           "http://dbpedia.org/resource/Woodstock,_New_York" ;
+        ont:subject         <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:timeExpression  "One" , "in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048172/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Sylvia_Tyson> , <http://dbpedia.org/resource/Neil_deGrasse_Tyson> ;
+        ont:place           "http://dbpedia.org/resource/Calgary" ;
+        ont:subject         <http://dbpedia.org/resource/Ian_Tyson> ;
+        ont:timeExpression  "1980" .

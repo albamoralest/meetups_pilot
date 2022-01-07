@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1321577/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Magnus_Magnusson> , <http://dbpedia.org/resource/Jimmy_Page> ;
+        ont:place           "http://dbpedia.org/resource/Germany" , "http://dbpedia.org/resource/Hamburg" , "http://dbpedia.org/resource/Birmingham" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Farlowe> ;
+        ont:timeExpression  "1988" , "sang on two" , "BBC Two" , "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1321577/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chris_Farlowe> ;
+        ont:place           "http://dbpedia.org/resource/Herrington" , "http://dbpedia.org/resource/Berlin" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Farlowe> ;
+        ont:timeExpression  "17/18 October 1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/1321577/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maggie_Bell> , <http://dbpedia.org/resource/Bobby_Tench> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Wembley_Arena" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Farlowe> ;
+        ont:timeExpression  "Van Morrison.In 2009" , "tour of 32" , "Since 1999" , "1966" , "1966 hit" , "30 July 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/1321577/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Andrew_Loog_Oldham> , <http://dbpedia.org/resource/Little_Joe_Cook> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Farlowe> ;
+        ont:timeExpression  "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/1321577/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Little_Joe_Cook> ;
+        ont:place           "http://dbpedia.org/resource/Wisconsin" ;
+        ont:subject         <http://dbpedia.org/resource/Chris_Farlowe> ;
+        ont:timeExpression  "Part One/Part Two" , "Island Sue WI 385" .

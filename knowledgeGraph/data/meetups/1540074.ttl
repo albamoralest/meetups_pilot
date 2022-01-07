@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1540074/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mel_Tillis> , <http://dbpedia.org/resource/Colt_McCoy> ;
+        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_McCoy> ;
+        ont:timeExpression  "stay in 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1540074/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:place           "http://dbpedia.org/resource/Scottish_Lowlands" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_McCoy> ;
+        ont:timeExpression  "Highway 61" .
+
+<http://w3id.org/polifonia/pilot/meetups/1540074/78/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Vince_Gill> ;
+        ont:place           "http://dbpedia.org/resource/Earth" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_McCoy> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/1540074/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Ray_(actor)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_McCoy> ;
+        ont:timeExpression  "March 28 , 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/1540074/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charlie_McCoy> ;
+        ont:place           "http://dbpedia.org/resource/Nashville,_Tennessee" , "http://dbpedia.org/resource/Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_McCoy> ;
+        ont:timeExpression  "In 2017" .

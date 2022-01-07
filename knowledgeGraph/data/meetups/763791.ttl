@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/763791/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gia_Scala> , <http://dbpedia.org/resource/Lana_Turner> , <http://dbpedia.org/resource/Glenn_Ford> , <http://dbpedia.org/resource/Norman_Page> ;
+        ont:place           "http://dbpedia.org/resource/Varsi" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Russ_Tamblyn> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/763791/26/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_II> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas" , "http://dbpedia.org/resource/Kempton_Park_Racecourse" ;
+        ont:subject         <http://dbpedia.org/resource/Russ_Tamblyn> ;
+        ont:timeExpression  "in 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/763791/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Lynn_Bari> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           "http://dbpedia.org/resource/Cleveland" ;
+        ont:subject         <http://dbpedia.org/resource/Russ_Tamblyn> ;
+        ont:timeExpression  "1949" , "age of 13" .
+
+<http://w3id.org/polifonia/pilot/meetups/763791/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Russell_Irving> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Russ_Tamblyn> ;
+        ont:timeExpression  "December 30 , 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/763791/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Aileen_Palmer> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Russ_Tamblyn> ;
+        ont:timeExpression  "December 30 , 1934" .

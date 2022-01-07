@@ -1,0 +1,84 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/18/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Madonna> ;
+        ont:place           "http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Rosario" , "http://dbpedia.org/resource/Rome" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "20 June 1863" .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/41/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michelangelo> , <http://dbpedia.org/resource/Raphael> ;
+        ont:place           "http://dbpedia.org/resource/Switzerland" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "set of three" .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/14/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Heinrich_Heine> ;
+        ont:place           "http://dbpedia.org/resource/Frankfurt" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "1841" .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Franz_Joseph_I_of_Austria> , <http://dbpedia.org/resource/Empress_Elisabeth_of_Austria> ;
+        ont:place           "http://dbpedia.org/resource/Bavaria" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "In 1866" .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maria_Anna_of_Spain> ;
+        ont:place           "http://dbpedia.org/resource/Sopron_County" , "http://dbpedia.org/resource/Holy_Roman_Empire" , "http://dbpedia.org/resource/Kingdom_of_Hungary" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "22 October 1811" .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/21/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Franz_Joseph_I_of_Austria> ;
+        ont:place           "http://dbpedia.org/resource/National_Theatre_in_Belgrade" , "http://dbpedia.org/resource/Budapest" , "http://dbpedia.org/resource/Royal_Academy_of_Arts" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "in 1872" , "grant of 4,000" , "4 June 1871" , "In 1871" .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/37/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jean-Louis_Boisselot> ;
+        ont:place           "http://dbpedia.org/resource/Kyiv" , "http://dbpedia.org/resource/Portugal" , "http://dbpedia.org/resource/Odessa" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "in 1847" .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/35/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "9 June 1840" , "March 1839" .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/114/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Carlos_Thompson> , <http://dbpedia.org/resource/Saint_Stephen> , <http://dbpedia.org/resource/Julian_Sands> , <http://dbpedia.org/resource/Max_Fleischer> , <http://dbpedia.org/resource/Ken_Russell> , <http://dbpedia.org/resource/Fritz_Leiber> , <http://dbpedia.org/resource/Peter_Patzak> , <http://dbpedia.org/resource/Sviatoslav_I> , <http://dbpedia.org/resource/Jeremy_Irons> , <http://dbpedia.org/resource/Brandon_Hurst> , <http://dbpedia.org/resource/Roger_Daltrey> , <http://dbpedia.org/resource/Dirk_Bogarde> , <http://dbpedia.org/resource/Henry_Daniell> , <http://dbpedia.org/resource/Anton_Diffring> ;
+        ont:place           "http://dbpedia.org/resource/Wahnfried" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "1991" , "1986" , "1974" , "1947 film" , "1952 film" , "1945 film" , "1935" , "1960 film" , "1975" , "1938 film" , "1955 film" , "1943 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/61/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Maximilian_I_of_Mexico> ;
+        ont:place           "http://dbpedia.org/resource/Mexico" , "http://dbpedia.org/resource/Marche" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "in 1867" , "19th" .
+
+<http://w3id.org/polifonia/pilot/meetups/67379/16/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Duchess_Marie_of_Mecklenburg-Schwerin> ;
+        ont:place           "http://dbpedia.org/resource/Russian_Empire" , "http://dbpedia.org/resource/Weimar" ;
+        ont:subject         <http://dbpedia.org/resource/Franz_Liszt> ;
+        ont:timeExpression  "in 1842" , "platform at 35" , "until 1861" .

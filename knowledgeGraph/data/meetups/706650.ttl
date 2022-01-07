@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/706650/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Francisco_Franco> ;
+        ont:place           "http://dbpedia.org/resource/Spain" , "http://dbpedia.org/resource/Mexico" ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:timeExpression  "In 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/706650/106/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Rosario_Flores> ;
+        ont:place           "http://dbpedia.org/resource/Argentina" , "http://dbpedia.org/resource/Ukrainian_People's_Republic" ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:timeExpression  "7 October 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/706650/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:place           "http://dbpedia.org/resource/Palau" , "http://dbpedia.org/resource/Catalonia" ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:timeExpression  "as one" , "performance in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/706650/28/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Francisco_Franco> ;
+        ont:place           "http://dbpedia.org/resource/Francoist_Spain" , "http://dbpedia.org/resource/Catalonia" ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:timeExpression  "in 1975" , "1 October 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/706650/88/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Miguel_I_of_Portugal> ;
+        ont:place           "http://dbpedia.org/resource/Elche" ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:timeExpression  "21 May 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/706650/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/San_Francisco" , "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:timeExpression  "In 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/706650/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:place           "http://dbpedia.org/resource/Barcelona" ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Manuel_Serrat> ;
+        ont:timeExpression  "27 December 1943" .

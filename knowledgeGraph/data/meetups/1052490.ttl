@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1052490/166/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Josh_Homme> ;
+        ont:place           "http://dbpedia.org/resource/La_Trompette" ;
+        ont:subject         <http://dbpedia.org/resource/Jehan_Alain> ;
+        ont:timeExpression  "JA 059" .
+
+<http://w3id.org/polifonia/pilot/meetups/1052490/6/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Madeleine_of_Valois> , <http://dbpedia.org/resource/Lise_de_Baissac> ;
+        ont:place           "http://dbpedia.org/resource/Nazi_Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Jehan_Alain> ;
+        ont:timeExpression  "three" , "in 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/1052490/138/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Nicholas> ;
+        ont:place           "http://dbpedia.org/resource/Marche" ;
+        ont:subject         <http://dbpedia.org/resource/Jehan_Alain> ;
+        ont:timeExpression  "1938 ]" , "JA 121" .
+
+<http://w3id.org/polifonia/pilot/meetups/1052490/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Nicholas> ;
+        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:subject         <http://dbpedia.org/resource/Jehan_Alain> ;
+        ont:timeExpression  "in 1935" , "48" , "for four" .

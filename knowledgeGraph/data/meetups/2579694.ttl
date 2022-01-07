@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2579694/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elton_John> ;
+        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/David_Ackles> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/2579694/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Thomas_(musician)> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/David_Ackles> ;
+        ont:timeExpression  "February 20 , 1937" , "March 2 , 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/2579694/18/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Phil_Collins> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/David_Ackles> ;
+        ont:timeExpression  "as one" , "eight" .
+
+<http://w3id.org/polifonia/pilot/meetups/2579694/18/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Julie_Driscoll> ;
+        ont:place           "http://dbpedia.org/resource/Cairo" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/David_Ackles> ;
+        ont:timeExpression  "In 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/2579694/18/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elvis_Costello> , <http://dbpedia.org/resource/Elton_John> ;
+        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Troubadour_(West_Hollywood,_California)" ;
+        ont:subject         <http://dbpedia.org/resource/David_Ackles> ;
+        ont:timeExpression  "August 1970" , "in 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/2579694/15/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Aimee_Semple_McPherson> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:subject         <http://dbpedia.org/resource/David_Ackles> ;
+        ont:timeExpression  "1990s" , "in 1997" , "in 1995" , "in 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/2579694/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Ackles> ;
+        ont:place           "http://dbpedia.org/resource/Cairo" ;
+        ont:subject         <http://dbpedia.org/resource/David_Ackles> ;
+        ont:timeExpression  "1968" , "in 1971" .

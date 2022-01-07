@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3365880/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Kingdom_of_Serbia" ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Dearmer> ;
+        ont:timeExpression  "typhus in 1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/3365880/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/George_Bernard_Shaw> ;
+        ont:place           "http://dbpedia.org/resource/Oxford" ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Dearmer> ;
+        ont:timeExpression  "1928" , "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/3365880/50/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/James_VI_and_I> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Dearmer> ;
+        ont:timeExpression  "1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/3365880/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Grant_Richards> ;
+        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Dearmer> ;
+        ont:timeExpression  "1899" .

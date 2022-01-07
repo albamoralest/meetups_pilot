@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1359293/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gerald_Henderson_Jr.> ;
+        ont:place           "http://dbpedia.org/resource/Kansas_City_metropolitan_area" , "http://dbpedia.org/resource/Harlem" , "http://dbpedia.org/resource/Missouri" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Henderson> ;
+        ont:timeExpression  "age of four" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359293/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Albert_Einstein> , <http://dbpedia.org/resource/Joya_(singer)> ;
+        ont:place           "http://dbpedia.org/resource/Birmingham" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Henderson> ;
+        ont:timeExpression  "in 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359293/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gerald_Henderson_Jr.> , <http://dbpedia.org/resource/Jule_Styne> , <http://dbpedia.org/resource/Duke_Ellington> , <http://dbpedia.org/resource/Lena_Horne> , <http://dbpedia.org/resource/Richard_Rodgers> ;
+        ont:place           "http://dbpedia.org/resource/Naval_Station_Great_Lakes" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Washington_Union_Station" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Henderson> ;
+        ont:timeExpression  "degree in 1942.Drafted" , "from 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359293/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clark_Terry> , <http://dbpedia.org/resource/Gerald_Henderson_Jr.> , <http://dbpedia.org/resource/Dianne_Reeves> ;
+        ont:place           "http://dbpedia.org/resource/Brandt_Centre" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Henderson> ;
+        ont:timeExpression  "course of two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1359293/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Luther_Henderson> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Luther_Henderson> ;
+        ont:timeExpression  "July 29 , 2003" , "March 14 , 1919" .

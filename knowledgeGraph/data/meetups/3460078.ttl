@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3460078/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Raveendran> ;
+        ont:place           "http://dbpedia.org/resource/Chennai" ;
+        ont:subject         <http://dbpedia.org/resource/Raveendran> ;
+        ont:timeExpression  "3 March 2005" , "61" .
+
+<http://w3id.org/polifonia/pilot/meetups/3460078/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Raveendran> ;
+        ont:place           "http://dbpedia.org/resource/Kollam" , "http://dbpedia.org/resource/Kulathupuzha" ;
+        ont:subject         <http://dbpedia.org/resource/Raveendran> ;
+        ont:timeExpression  "9 November 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/3460078/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/R._Madhavan> , <http://dbpedia.org/resource/Raveendran> ;
+        ont:place           "http://dbpedia.org/resource/Kollam" , "http://dbpedia.org/resource/Kulathupuzha" , "http://dbpedia.org/resource/Chennai" , "http://dbpedia.org/resource/Kerala" , "http://dbpedia.org/resource/Tamil_Nadu" , "http://dbpedia.org/resource/South_India" ;
+        ont:subject         <http://dbpedia.org/resource/Raveendran> ;
+        ont:timeExpression  "9 November 1943" , "3 March 2005" .

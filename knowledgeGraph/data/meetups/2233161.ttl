@@ -1,0 +1,49 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2233161/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place           "http://dbpedia.org/resource/Tokyo" ;
+        ont:subject         <http://dbpedia.org/resource/Fumihiko_Maki> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/2233161/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:place           "http://dbpedia.org/resource/Mildred_Lane_Kemper_Art_Museum" ;
+        ont:subject         <http://dbpedia.org/resource/Fumihiko_Maki> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/2233161/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:place           "http://dbpedia.org/resource/Mildred_Lane_Kemper_Art_Museum" ;
+        ont:subject         <http://dbpedia.org/resource/Fumihiko_Maki> ;
+        ont:timeExpression  "In 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/2233161/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saul_Steinberg> ;
+        ont:place           "http://dbpedia.org/resource/Danforth_Campus" ;
+        ont:subject         <http://dbpedia.org/resource/Fumihiko_Maki> ;
+        ont:timeExpression  "In 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/2233161/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Kenzō_Tange> ;
+        ont:place           "http://dbpedia.org/resource/Osaka" ;
+        ont:subject         <http://dbpedia.org/resource/Fumihiko_Maki> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/2233161/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> , <http://dbpedia.org/resource/Charles_E._Merrill> ;
+        ont:place           "http://dbpedia.org/resource/Massachusetts" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Fumihiko_Maki> ;
+        ont:timeExpression  "in 1965" .

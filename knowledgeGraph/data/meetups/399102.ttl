@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/399102/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Ron_Kenoly> ;
+        ont:place           "http://dbpedia.org/resource/Canaan" ;
+        ont:subject         <http://dbpedia.org/resource/Marion_Williams> ;
+        ont:timeExpression  "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/399102/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jesus> , <http://dbpedia.org/resource/Irene_of_Athens> ;
+        ont:place           "http://dbpedia.org/resource/Einstein_Medical_Center_Philadelphia" , "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Marion_Williams> ;
+        ont:timeExpression  "July 2 , 1994" , "66" .
+
+<http://w3id.org/polifonia/pilot/meetups/399102/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Clara_Ward> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Marion_Williams> ;
+        ont:timeExpression  "in 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/399102/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Gertrude_Stein> , <http://dbpedia.org/resource/Clara_Schumann> ;
+        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:subject         <http://dbpedia.org/resource/Marion_Williams> ;
+        ont:timeExpression  "In 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/399102/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Marion_Williams> ;
+        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Marion_Williams> ;
+        ont:timeExpression  "August 29 , 1927" , "July 2 , 1994" .

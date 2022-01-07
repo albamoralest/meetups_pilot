@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1263963/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Dickens> ;
+        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Watford_Palace_Theatre" ;
+        ont:subject         <http://dbpedia.org/resource/Jeff_Wayne> ;
+        ont:timeExpression  "In 1966" , "of Two" , "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1263963/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Saint_Stephen> , <http://dbpedia.org/resource/William_Halsey_Jr.> ;
+        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:subject         <http://dbpedia.org/resource/Jeff_Wayne> ;
+        ont:timeExpression  "one year" .
+
+<http://w3id.org/polifonia/pilot/meetups/1263963/13/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/David_Mallet_(director)> ;
+        ont:place           "http://dbpedia.org/resource/Wembley_Arena" ;
+        ont:subject         <http://dbpedia.org/resource/Jeff_Wayne> ;
+        ont:timeExpression  "23" .
+
+<http://w3id.org/polifonia/pilot/meetups/1263963/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeff_Wayne> , <http://dbpedia.org/resource/Justin_Masterson> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Jeff_Wayne> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/1263963/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Geraldine_Chaplin> , <http://dbpedia.org/resource/Jemma_Redgrave> , <http://dbpedia.org/resource/Olivia_Wayne> ;
+        ont:place           "http://dbpedia.org/resource/Hertfordshire" ;
+        ont:subject         <http://dbpedia.org/resource/Jeff_Wayne> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1263963/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jeff_Wayne> ;
+        ont:place           "http://dbpedia.org/resource/Forest_Hills,_Queens" , "http://dbpedia.org/resource/United_States" ;
+        ont:subject         <http://dbpedia.org/resource/Jeff_Wayne> ;
+        ont:timeExpression  "1 July 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/1263963/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Mike_Gordon> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:subject         <http://dbpedia.org/resource/Jeff_Wayne> ;
+        ont:timeExpression  "3,000 advertising" , "1970s" .

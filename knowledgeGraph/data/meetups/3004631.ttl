@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3004631/10/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jens_Stoltenberg> , <http://dbpedia.org/resource/Harald_V_of_Norway> ;
+        ont:place           "http://dbpedia.org/resource/Norway" ;
+        ont:subject         <http://dbpedia.org/resource/Wenche_Foss> ;
+        ont:timeExpression  "Air Shuttle Boeing 737-800" .
+
+<http://w3id.org/polifonia/pilot/meetups/3004631/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Fabian_Stang> ;
+        ont:place           "http://dbpedia.org/resource/Oslo" ;
+        ont:subject         <http://dbpedia.org/resource/Wenche_Foss> ;
+        ont:timeExpression  "2015" , "from 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/3004631/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Per_Ung> ;
+        ont:place           "http://dbpedia.org/resource/Norway" ;
+        ont:subject         <http://dbpedia.org/resource/Wenche_Foss> ;
+        ont:timeExpression  "In 2007" .

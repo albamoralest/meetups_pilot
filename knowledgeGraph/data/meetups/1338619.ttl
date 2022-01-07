@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1338619/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Charles_Ives> ;
+        ont:place           "http://dbpedia.org/resource/Cornwall" , "http://dbpedia.org/resource/Ireland" ;
+        ont:subject         <http://dbpedia.org/resource/Tony_O'Malley> ;
+        ont:timeExpression  "in 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/1338619/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tony_O'Malley> , <http://dbpedia.org/resource/Jane_Fonda> ;
+        ont:place           "http://dbpedia.org/resource/Kilkenny" , "http://dbpedia.org/resource/Royal_Hibernian_Academy" ;
+        ont:subject         <http://dbpedia.org/resource/Tony_O'Malley> ;
+        ont:timeExpression  "In 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/1338619/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Peter_Lanyon> , <http://dbpedia.org/resource/Charles_Ives> ;
+        ont:place           "http://dbpedia.org/resource/Cornwall" ;
+        ont:subject         <http://dbpedia.org/resource/Tony_O'Malley> ;
+        ont:timeExpression  "In 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/1338619/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tony_O'Malley> ;
+        ont:place           "http://dbpedia.org/resource/Tipton" ;
+        ont:subject         <http://dbpedia.org/resource/Tony_O'Malley> ;
+        ont:timeExpression  "2003" , "Tony O'Malley 1913–2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/1338619/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Tony_O'Malley> ;
+        ont:place           "http://dbpedia.org/resource/Oxfordshire" , "http://dbpedia.org/resource/Cornwall" ;
+        ont:subject         <http://dbpedia.org/resource/Tony_O'Malley> ;
+        ont:timeExpression  "2005" .

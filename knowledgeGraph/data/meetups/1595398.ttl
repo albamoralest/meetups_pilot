@@ -1,0 +1,21 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1595398/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Jack_Scott_(singer)> ;
+        ont:place           "http://dbpedia.org/resource/Michigan" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Scott_(singer)> ;
+        ont:timeExpression  "In 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/1595398/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> , <http://dbpedia.org/resource/Chris_Coleman_(footballer)> , <http://dbpedia.org/resource/Jack_Scott_(singer)> , <http://dbpedia.org/resource/Roy_Orbison> , <http://dbpedia.org/resource/Elvis_Presley> ;
+        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Netherlands" ;
+        ont:subject         <http://dbpedia.org/resource/Jack_Scott_(singer)> ;
+        ont:timeExpression  "1993 date" , "in 1994" .

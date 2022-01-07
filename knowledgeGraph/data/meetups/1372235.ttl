@@ -1,0 +1,35 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1372235/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Steven_T._Miller> , <http://dbpedia.org/resource/Jimmy_Miller> , <http://dbpedia.org/resource/Geraldine_Chaplin> ;
+        ont:place           "http://dbpedia.org/resource/Connecticut" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Miller> ;
+        ont:timeExpression  "25" .
+
+<http://w3id.org/polifonia/pilot/meetups/1372235/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Philip_Palmer_Green> , <http://dbpedia.org/resource/Denny_Laine> , <http://dbpedia.org/resource/Johnny_Thunders> , <http://dbpedia.org/resource/Dwight_L._Moody> ;
+        ont:place           "http://dbpedia.org/resource/Rhode_Island" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Miller> ;
+        ont:timeExpression  "in 1988" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1372235/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Judith_Miller> , <http://dbpedia.org/resource/Woodrow_Wilson> , <http://dbpedia.org/resource/Geraldine_Chaplin> , <http://dbpedia.org/resource/Jimmy_Miller> ;
+        ont:place           "http://dbpedia.org/resource/Colorado" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Miller> ;
+        ont:timeExpression  "age of 52" , "cancer in 1991" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1372235/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Elvis_Presley> , <http://dbpedia.org/resource/Dr._Bill_Miller> , <http://dbpedia.org/resource/Anne_Wingate> ;
+        ont:place           "http://dbpedia.org/resource/Las_Vegas_Valley" ;
+        ont:subject         <http://dbpedia.org/resource/Jimmy_Miller> ;
+        ont:timeExpression  "1969 return" .

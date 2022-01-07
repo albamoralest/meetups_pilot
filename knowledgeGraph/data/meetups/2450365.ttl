@@ -1,0 +1,42 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2450365/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Benjamin_Banneker> ;
+        ont:place           "http://dbpedia.org/resource/Arlington_County,_Virginia" ;
+        ont:subject         <http://dbpedia.org/resource/Dan_Kiley> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/2450365/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/John_Milton> , <http://dbpedia.org/resource/Robert_E._Lee> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Dan_Kiley> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/2450365/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Paul_Hopkins_(actor)> , <http://dbpedia.org/resource/Alec_Baldwin> ;
+        ont:place           "http://dbpedia.org/resource/Nuremberg" ;
+        ont:subject         <http://dbpedia.org/resource/Dan_Kiley> ;
+        ont:timeExpression  "In 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/2450365/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Jefferson> , <http://dbpedia.org/resource/Eero_Saarinen> ;
+        ont:place           "http://dbpedia.org/resource/Gateway_Arch_National_Park" ;
+        ont:subject         <http://dbpedia.org/resource/Dan_Kiley> ;
+        ont:timeExpression  "In 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/2450365/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Immaculate_Conception> ;
+        ont:place           "http://dbpedia.org/resource/Burlington,_Vermont" ;
+        ont:subject         <http://dbpedia.org/resource/Dan_Kiley> ;
+        ont:timeExpression  "1977" .

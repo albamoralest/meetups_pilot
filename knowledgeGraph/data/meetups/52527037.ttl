@@ -1,0 +1,28 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/52527037/22/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Nicolaus_Copernicus> ;
+        ont:place           "http://dbpedia.org/resource/Tonhalle,_Zürich" ;
+        ont:subject         <http://dbpedia.org/resource/Oskar_Gottlieb_Blarr> ;
+        ont:timeExpression  "7 October 2011" , "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/52527037/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Oskar_Gottlieb_Blarr> ;
+        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:subject         <http://dbpedia.org/resource/Oskar_Gottlieb_Blarr> ;
+        ont:timeExpression  "6 May 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/52527037/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Dietrich_Bonhoeffer> ;
+        ont:place           "http://dbpedia.org/resource/Neuss" ;
+        ont:subject         <http://dbpedia.org/resource/Oskar_Gottlieb_Blarr> ;
+        ont:timeExpression  "15 June 2006" , "2006" .

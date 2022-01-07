@@ -1,0 +1,56 @@
+@prefix fx:     <http://sparql.xyz/facade-x/ns/> .
+@prefix meetup: <http://w3id.org/polifonia/pilot/meetups/> .
+@prefix ont:    <http://w3id.org/polifonia/ontology/meetups#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/297375/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Johnnie_Jones> ;
+        ont:place           "http://dbpedia.org/resource/Jackson,_Mississippi" ;
+        ont:subject         <http://dbpedia.org/resource/Otis_Spann> ;
+        ont:timeExpression  "1930s" , "November 13 , 2012" , "1940s" , "at 547" .
+
+<http://w3id.org/polifonia/pilot/meetups/297375/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Giovanni_Battista_Belzoni> , <http://dbpedia.org/resource/Gerald_Ford> ;
+        ont:place           "http://dbpedia.org/resource/Jackson,_Mississippi" ;
+        ont:subject         <http://dbpedia.org/resource/Otis_Spann> ;
+        ont:timeExpression  "in 1930" , "in 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/297375/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Big_Maceo_Merriweather> ;
+        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:subject         <http://dbpedia.org/resource/Otis_Spann> ;
+        ont:timeExpression  "in 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/297375/4/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Robert_Lockwood_Jr.> ;
+        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:subject         <http://dbpedia.org/resource/Otis_Spann> ;
+        ont:timeExpression  "August 23 , 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/297375/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Howlin'_Wolf> , <http://dbpedia.org/resource/Bo_Diddley> , <http://dbpedia.org/resource/Muddy_Waters> ;
+        ont:place           "http://dbpedia.org/resource/The_Blue_Horizon" ;
+        ont:subject         <http://dbpedia.org/resource/Otis_Spann> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/297375/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Chuck_Berry> ;
+        ont:place           "http://dbpedia.org/resource/Fleetwood" ;
+        ont:subject         <http://dbpedia.org/resource/Otis_Spann> ;
+        ont:timeExpression  "1959 ]" .
+
+<http://w3id.org/polifonia/pilot/meetups/297375/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:person          <http://dbpedia.org/resource/Buddy_Guy> ;
+        ont:place           "http://dbpedia.org/resource/Fleetwood" , "http://dbpedia.org/resource/Chicago" , "http://dbpedia.org/resource/The_Blue_Horizon" ;
+        ont:subject         <http://dbpedia.org/resource/Otis_Spann> ;
+        ont:timeExpression  "1969" .
