@@ -25,7 +25,7 @@ Extracting information of musical artist from Wikipedia pages.
 
 The initial collection of Wikipedia pages can be found here: https://github.com/albamoralest/scrappingWikipediaMusicBiographies
 
-In this pilot we extract people, places, events and time entities from 543 wikipedia pages.
+In this pilot we extract people, places, events and time entities from 1002 wikipedia pages.
 
 Step 1: cleaning and organising information by sentences
 
