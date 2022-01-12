@@ -6,37 +6,244 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/3478434/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At age 11, she left show business briefly." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "11" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By age 6, she appeared on The Horn and Hardart Children's Hour, a radio program sponsored by Horn & Hardart's Automat, a then-well-known restaurant chain, and, by age 7, in 1936–37, she was working with Milton Berle on his Community Sing radio program, using the name \"Jolly Gillette\" and playing the sponsor's \"daughter\" (the sponsor was Gillette Razors)." ;
+        ont:person          <http://dbpedia.org/resource/John_Milton> ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "6" , "7" , "in 1936–37" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/27/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Episodic log of The Eileen Barton Show from radioGOLDINdex" ;
+        ont:person   <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The first record Barton cut was \"They Say It's Wonderful\" (b/w \"You Brought A New Kind of Love To Me\") for Mercury in 1946." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "in 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Barton married industrialist Dan Shaw in Juarez, Mexico, April 15, 1961." ;
+        ont:person          <http://dbpedia.org/resource/George_Bernard_Shaw> , <http://dbpedia.org/resource/Edmund_Barton> ;
+        ont:place           <http://dbpedia.org/resource/Mexico> ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "April 15 , 1961" .
+
 <http://w3id.org/polifonia/pilot/meetups/3478434/3/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At 3½, she appeared at the Palace Theater, doing two shows a day as part of comedian Ted Healy's routine (Healy would go on to put together The Three Stooges)." ;
         ont:person          <http://dbpedia.org/resource/Ted_Healy> ;
-        ont:place           "http://dbpedia.org/resource/Connor_Palace" ;
+        ont:place           <http://dbpedia.org/resource/Connor_Palace> ;
         ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
-        ont:timeExpression  "two" , "At 3½" .
+        ont:timeExpression  "At 3½" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After releasing singles for another four record labels, she retired from studio work in 1963." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "four record" , "work in 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/26/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Photo Gallery of Eileen Barton" ;
+        ont:person   <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Barton soon became a child star." ;
+        ont:person   <http://dbpedia.org/resource/Edmund_Barton> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/13/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The record became one of the best-selling records on an independent label of all time, charting at #1 best selling in stores for 2 weeks and most played by jockeys for 10 weeks, and altogether on the Billboard charts for over four months." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "over four" , "for 2" , "one" , "for 10" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She first appeared in her parents' act in Kansas City at age 2½, singing \"Ain't Misbehavin',\" as a dare to her parents from columnist (and later radio star) Goodman Ace." ;
+        ont:person          <http://dbpedia.org/resource/Goodman_Ace> ;
+        ont:place           <http://dbpedia.org/resource/Kansas_City_metropolitan_area> ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "2½" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/25/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Eileen Barton at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Barton was a regular performer on The Swift Show in 1948, on Broadway Open House in 1951, and on The Bill Goodwin Show in 1951–52." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "in 1951" , "in 1951–52" , "in 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She also appeared in motion pictures and television, and continued to perform live until the early 1980s." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/13/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When National's owner, Al Green, decided it had become too big a seller for National  to handle, the record was later distributed by Mercury Records, whose co-owner was Al Green's son, Irving Green." ;
+        ont:person   <http://dbpedia.org/resource/Al_Green> , <http://dbpedia.org/resource/Irving_Green> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was broadcast Saturday mornings on NBC.In 1954, she starred in The Eileen Barton Show, a 13-episode transcribed program for the United States Marine Corps." ;
+        ont:person          <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "NBC.In 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her birthdate is often given as 1929, but a certified copy of her birth certificate shows that she was born in 1924." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "as 1929" , "in 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1950s, she was a featured singer with Guy Lombardo and his orchestra.She moved to Coral Records in 1951 and charted with some cover versions of songs that were bigger hits for other artists, such as \"Cry\", \"Sway\", and others." ;
+        ont:person          <http://dbpedia.org/resource/Guy_Lombardo> ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "in 1951" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1956, Barton began recording for Epic Records." ;
+        ont:person          <http://dbpedia.org/resource/Edmund_Barton> ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "In 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At 10, she appeared twice on Rudy Vallée's network radio program in 1936." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "At 10" , "program in 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was first released by National Records, a small New York–based label, mostly specializing in rhythm & blues records, as catalog number 9103." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "9103" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She also appeared on her own and as a guest performer with such stars as Duke Ellington, Count Basie, Nat King Cole, and Danny Kaye." ;
+        ont:person   <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Danny_Kaye> , <http://dbpedia.org/resource/Nat_King_Cole> , <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "That November, the program's name was changed to The Eileen Barton Show." ;
+        ont:person   <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Barton was born in Brooklyn, New York." ;
+        ont:person   <http://dbpedia.org/resource/Will_Barton> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Brooklyn> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/15/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After the success of this record, she became a nightclub and stage performer, appearing at all the important clubs in New York City and many others." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She also was a regular on The Milton Berle Show in 1939.At 8, she had a daily singing program of her own on radio station WMCA, Arnold's Dinner Club." ;
+        ont:person          <http://dbpedia.org/resource/John_Milton> ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "in 1939.At" , "8" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(b/w \"A Thousand And One Nights\") (catalog number 402), with the orchestra of Lyle \"Skitch\" Henderson, in 1948." ;
+        ont:person          <http://dbpedia.org/resource/Skitch_Henderson> ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "in 1948" , "402" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She co-starred on Sinatra's show beginning August 16, 1944, and was also part of Sinatra's act at the Paramount Theater in 15 appearances there." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "in 15" , "August 16 , 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In a 2005 interview for the liner-notes of her Jasmine Records CD release, Eileen indicated that she never received a penny in royalties from either National or Mercury for her record's success, although by contract she was supposed to receive 5% of each sale." ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "5 %" , "2005 interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1945, Barton had her own radio program, Teen Timers." ;
+        ont:person          <http://dbpedia.org/resource/Edmund_Barton> ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "In 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/13/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She met success when she moved to National Records the following year and recorded \"If I Knew You Were Comin' I'd've Baked a Cake\" (written by Bob Merrill, Albert Hoffman and Al Trace; Trace used the pseudonym Clem Watts) and introduced it on Don McNeill's radio program, The Breakfast Club." ;
+        ont:person   <http://dbpedia.org/resource/Al_Trace> , <http://dbpedia.org/resource/Albert_Hofmann> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At age 14 she went on the Broadway stage as an understudy to Nancy Walker in Best Foot Forward, followed by an appearance under her own name with Elaine Stritch in Angel in the Wings." ;
+        ont:person          <http://dbpedia.org/resource/Elaine_Stritch> , <http://dbpedia.org/resource/Nancy_Walker> ;
+        ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:timeExpression  "14" .
 
 <http://w3id.org/polifonia/pilot/meetups/3478434/21/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Barton died at her West Hollywood home from ovarian cancer at the age of 81." ;
         ont:person          <http://dbpedia.org/resource/Edmund_Barton> ;
-        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:place           <http://dbpedia.org/resource/Hollywood> ;
         ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
         ont:timeExpression  "age of 81" .
 
 <http://w3id.org/polifonia/pilot/meetups/3478434/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Eileen Barton (November 24, 1924 – June 27, 2006) was an American singer best known for her 1950 hit song, \"If I Knew You Were Comin' I'd've Baked a Cake.\"" ;
         ont:person          <http://dbpedia.org/resource/Eileen_Barton> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
-        ont:timeExpression  "June 27 , 2006" , "November 24 , 1924" , "1950 hit song" .
+        ont:timeExpression  "1950 hit song" , "November 24 , 1924" , "June 27 , 2006" .
 
-<http://w3id.org/polifonia/pilot/meetups/3478434/19/0>
+<http://w3id.org/polifonia/pilot/meetups/3478434/12/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Bernard_Shaw> , <http://dbpedia.org/resource/Edmund_Barton> ;
-        ont:place           "http://dbpedia.org/resource/Mexico" ;
+        ont:excerpt         "After cutting a second single (\"As If I Didn't Have Enough On My Mind\" b/w \"One-zy Two-zy\") she recorded one single for Capitol Records, \"Would You Believe Me?\"" ;
         ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
-        ont:timeExpression  "April 15 , 1961" .
+        ont:timeExpression  "one" .
 
-<http://w3id.org/polifonia/pilot/meetups/3478434/3/1>
+<http://w3id.org/polifonia/pilot/meetups/3478434/7/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Goodman_Ace> ;
-        ont:place           "http://dbpedia.org/resource/Kansas_City_metropolitan_area" ;
+        ont:excerpt         "At age 15, she appeared as a guest singer on a Johnny Mercer variety series, leading to her being noticed by Frank Sinatra, who took her under his wing and put her in a regular spot on the CBS radio show that he hosted in the 1940s." ;
+        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Johnny_Mercer> ;
         ont:subject         <http://dbpedia.org/resource/Eileen_Barton> ;
-        ont:timeExpression  "2½" .
+        ont:timeExpression  "15" , "1940s" .
+
+<http://w3id.org/polifonia/pilot/meetups/3478434/19/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She divorced Lawrence Kane, a salesman and career criminal who was a suspect in the Zodiac Killer murders." ;
+        ont:person   <http://dbpedia.org/resource/Reginald_Frederick_Lawrence> , <http://dbpedia.org/resource/Dany_Kane> ;
+        ont:subject  <http://dbpedia.org/resource/Eileen_Barton> .

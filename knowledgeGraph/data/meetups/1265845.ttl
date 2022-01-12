@@ -6,9 +6,138 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/1265845/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Shania Twain, then known as Eileen Twain" ;
+        ont:person   <http://dbpedia.org/resource/Shania_Twain> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Hunter> .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He has received three Canadian Juno Awards and one Gemini Award." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "one" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Garth Brooks" ;
+        ont:person   <http://dbpedia.org/resource/Garth_Brooks> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Hunter> .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Canadian Encyclopedia: Tommy Hunter" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "Tommy" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Performers on the show included singer-songwriter Gordon Lightfoot in the early years of his own musical career." ;
+        ont:person   <http://dbpedia.org/resource/Gordon_Lightfoot> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Hunter> .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1986, Hunter was made a Member of the Order of Canada." ;
+        ont:place           <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/Hunter_Region> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "In 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "People who performed on The Tommy Hunter Show early in their careers include:" ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Hunter> .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/10/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The award is handed out annually by the Gospel Music Association of Canada." ;
+        ont:place    <http://dbpedia.org/resource/Canada> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Hunter> .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Hunter received the Queen Elizabeth II Golden Jubilee Medal in 2002 and the Queen Elizabeth II Diamond Jubilee Medal in 2012." ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_II> , <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "in 2002" , "in 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tommy Hunter at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Hunter> .
+
 <http://w3id.org/polifonia/pilot/meetups/1265845/2/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Tommy Hunter Show began as a CBC Radio program in 1960, replacing the long-running variety show The Happy Gang, and went on to replace Country Hoedown on CBC Television in 1965; Hunter's show was picked up by TNN in 1983 and ran on CBC until 1992." ;
         ont:person          <http://dbpedia.org/resource/Tommy_Hunter> ;
-        ont:place           "http://dbpedia.org/resource/Hunter_Region" ;
+        ont:place           <http://dbpedia.org/resource/Hunter_Region> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
-        ont:timeExpression  "program in 1960" , "in 1983" , "in 1965" , "until 1992" .
+        ont:timeExpression  "until 1992" , "in 1983" , "program in 1960" , "in 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The book Cue the Elephant by Knowlton Nash (1996, McClelland & Stewart) featured some disparaging remarks from the show's make-up artist." ;
+        ont:person          <http://dbpedia.org/resource/Knowlton_Nash> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hunter was inducted into the Canadian Country Music Hall of Fame in 1984." ;
+        ont:place           <http://dbpedia.org/resource/Hunter_Region> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "in 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/10/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2005 he was honored with a GMA Canada Lifetime Achievement Award." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "In 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1956, he began performing as a rhythm guitarist on the CBC Television show, Country Hoedown." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "In 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He retired after his final tour in 2012." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "tour in 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/10/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He became a member of the Order of Ontario in 1996." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "in 1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Alanis Morissette, when she was a country singerAfter his show was cancelled by the CBC, Hunter continued to tour with his band, The Travelling Men." ;
+        ont:person   <http://dbpedia.org/resource/Alanis_Morissette> ;
+        ont:place    <http://dbpedia.org/resource/Hunter_Region> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Hunter> .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/10/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A street (\"Tommy Hunter Way\") was also renamed in his honour in his hometown of London, Ontario, in the late 1990s." ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:place    <http://dbpedia.org/resource/London,_Ontario> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Hunter> .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Thomas James Hunter, CM, O.Ont (born March 20, 1937) is a Canadian country music performer, known as \"Canada's Country Gentleman\"." ;
+        ont:place           <http://dbpedia.org/resource/Hunter_Region> , <http://dbpedia.org/resource/Canada> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "March 20 , 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/1265845/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1990, he was given a place in the Country Music Hall of Fame's \"Walkway of Stars\"." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Hunter> ;
+        ont:timeExpression  "In 1990" .

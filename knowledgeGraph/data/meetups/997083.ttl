@@ -6,9 +6,182 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/997083/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "There Simon joined the Golden West Gospel Singers and became influenced by Sam Cooke and Arthur Prysock." ;
+        ont:person   <http://dbpedia.org/resource/Arthur_Prysock> , <http://dbpedia.org/resource/Sam_Cooke> ;
+        ont:subject  <http://dbpedia.org/resource/Joe_Simon_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "That year Simon released \"Teenager's Prayer\", which peaked at #11 on Billboard's R&B chart." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "11" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Drowning in the Sea of Love\" sold over 1.5 million copies and the RIAA on January 6, 1972 gave a gold disc." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "million" , "over 1.5" , "January 6 , 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1999, Simon was inducted as a Pioneer Award honoree by the Rhythm and Blues Foundation." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "In 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His biggest hits included three number one entries on the US Billboard R&B chart: \"The Chokin' Kind\" (1969), \"Power of Love\" (1972), and \"Get Down, Get Down (Get on the Floor)\" (1975)." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "three number" , "1972" , "one" , "1975" , "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Simon scored again in 1965 on the Chicago-based label with \"Let's Do It Over\", which landed a #13 spot on the US Billboard R&B chart." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "in 1965" , "13 spot" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1983, he produced the album Lay My Burden Down for former Davis Sisters second lead Jackie Verdell." ;
+        ont:person          <http://dbpedia.org/resource/Anthony_Davis> , <http://dbpedia.org/resource/Jackie_Verdell> ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "In 1983" .
+
 <http://w3id.org/polifonia/pilot/meetups/997083/4/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Simon caught the eye of Nashville, Tennessee, R&B disc jockey John Richbourg during this time, and Richbourg not only became Simon's manager/record producer but also brought the singer to Monument Records' subsidiary label Sound Stage 7 in 1966." ;
         ont:person          <http://dbpedia.org/resource/John_R.> ;
-        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:place           <http://dbpedia.org/resource/Tennessee> ;
         ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
-        ont:timeExpression  "Sound Stage 7" , "in 1966" .
+        ont:timeExpression  "in 1966" , "Sound Stage 7" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Both songs reached #11 on the Hot 100." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "Hot 100" , "11" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pop and R&B chart hits between 1964 and 1981, including eight times in the US top forty, thirty-eight times in the top 40 of the US R&B charts, and 13 chart hits in Canada." ;
+        ont:place           <http://dbpedia.org/resource/Canada> ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "1981" , "13 chart" , "between 1964" , "40" , "eight" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Simon began evangelist preaching in Flossmoor, Illinois." ;
+        ont:place    <http://dbpedia.org/resource/Flossmoor,_Illinois> ;
+        ont:subject  <http://dbpedia.org/resource/Joe_Simon_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hush Records label owners Gary and Carla Thompson urged Simon to record on his own, and in 1964 Simon scored a minor hit on the Vee-Jay label with \"My Adorable One\"." ;
+        ont:person          <http://dbpedia.org/resource/Garrie_Thompson> , <http://dbpedia.org/resource/Carla_Thomas> , <http://dbpedia.org/resource/Klay_Thompson> ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "One" , "in 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A From November 30, 1963 to January 23, 1965, Billboard Magazine did not publish a Hot R&B songs chart." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "January 23 , 1965" , "November 30 , 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The team scored a #3 R&B hit in 1971 with \"Drowning in the Sea of Love\" and a #1 R&B hit in the summer of 1972 with \"Power of Love\"." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "1" , "3" , "summer of 1972" , "hit in 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A consistent presence on the US charts between 1964 and 1981, Simon charted 51 U.S." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "51" , "between 1964" , "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Simon was born in Simmesport, Louisiana, United States." ;
+        ont:place    <http://dbpedia.org/resource/Simmesport,_Louisiana> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Joe_Simon_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Simon's success escalated with his writing/producing the theme tune for the film, Cleopatra Jones in 1973.In the late 1970s/early 1980s, Simon decided to remove his tenor/bass-baritone voice from the secular music world and devote it and other parts of his life to Christianity." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "1980s" , "in 1973.In" , "1970s/early" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In addition, Simon was given a Grammy Award in 1970 for Best Male R&B Vocal Performance.Under the encouragement of Richbourg, Simon moved to the Polydor distributed Spring Records label in 1970, which paired Simon with Kenny Gamble and Leon Huff." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "label in 1970" , "in 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He began as a Gospel artist singing with the Golden West Singers in the Bay Area in California." ;
+        ont:place    <http://dbpedia.org/resource/California> , <http://dbpedia.org/resource/San_Francisco_Bay_Area> ;
+        ont:subject  <http://dbpedia.org/resource/Joe_Simon_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"The Chokin' Kind\" was written by Harlan Howard, spent 12 weeks in the charts, and had sold one million copies by June 16, 1969." ;
+        ont:person          <http://dbpedia.org/resource/John_Marshall_Harlan_(1899–1971)> , <http://dbpedia.org/resource/Dwight_Howard> ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "million" , "12" , "one" , "June 16 , 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "awarded gold disc status on August 29, 1972.Simon continued to release R&B hits with \"Pool of Bad Luck\", \"Trouble in My Home\", \"Step By Step\" (his only UK success), \"I Need You, You Need Me\", \"Music in My Bones\", \"Carry Me\", and 1975's \"Get Down, Get Down (Get on the Floor)\", which gave Simon his third #1 R&B hit, and also a #8 Hot 100 hit." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "8 Hot 100" , "1975" , "August 29 , 1972.Simon" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Joe Simon (born September 2, 1943) is an American soul and R&B musician." ;
+        ont:person          <http://dbpedia.org/resource/Joe_Simon> ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "September 2 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Memphis Bleek sampled Simon's \"Trace Your Love\" for the track \"Alright\" on his 2005 534 album." ;
+        ont:person          <http://dbpedia.org/resource/Memphis_Bleek> ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "2005 534 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "With this, the group decided to turn secular and recorded \"Little Island Girl\" as the Golden Tones in 1959." ;
+        ont:place           <http://dbpedia.org/resource/Little_Island,_Cork> ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "in 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Within the next two years, Simon released a string of hits: \"(You Keep Me) Hanging On\", \"The Chokin' Kind\" (Billboard Hot 100 #13), \"Farther on Down The Road\", and \"Yours Love\"." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "Billboard Hot 100" , "13" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Power of Love\", written by Gamble, Huff and Simon was Simon's third million seller, and the R.I.A.A." ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "million seller" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Joss Stone covered \"The Chokin' Kind\" on her 2003 album, The Soul Sessions." ;
+        ont:person          <http://dbpedia.org/resource/Joss_Stone> ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "2003 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/997083/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Simon has had a number of his songs sampled by other artists, including OutKast, who sampled \"Before the Night is Over\" in their hit \"So Fresh, So Clean\" and Lil' Kim, who sampled Simon's \"It Be's That Way Sometimes\" in \"Magic Stick\", featuring 50 Cent." ;
+        ont:person          <http://dbpedia.org/resource/50_Cent> , <http://dbpedia.org/resource/Lil'_Kim> ;
+        ont:subject         <http://dbpedia.org/resource/Joe_Simon_(musician)> ;
+        ont:timeExpression  "50 Cent" .

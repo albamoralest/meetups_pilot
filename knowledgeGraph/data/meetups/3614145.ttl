@@ -6,16 +6,379 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/3614145/2/9>
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/7>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/James_Starks> , <http://dbpedia.org/resource/Big_Mama_Thornton> , <http://dbpedia.org/resource/John_Lee_Hooker> , <http://dbpedia.org/resource/Bobby_Bland> , <http://dbpedia.org/resource/Smiley_Lewis> ;
-        ont:place           "http://dbpedia.org/resource/Harlem" ;
+        ont:excerpt         "He toured and recorded with King for six years." ;
         ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
-        ont:timeExpression  "Wolf.In 1959" .
+        ont:timeExpression  "for six" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1965 to 1970 the band had two drummers, Starks and Clyde Stubblefield." ;
+        ont:person          <http://dbpedia.org/resource/Clyde_Stubblefield> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1970" , "two" , "From 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of his drum idols was Shep Sheppard of the Bill Doggett band." ;
+        ont:person          <http://dbpedia.org/resource/Bill_Doggett> , <http://dbpedia.org/resource/David_Sheppard> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Starks’ drum patterns have been sampled by LL Cool J, Kendrick Lamar, The Roots, A Tribe Called Quest, Black Eyed Peas, Kool Moe Dee, Rob Base and DJ E-Z Rock, Total and others." ;
+        ont:person   <http://dbpedia.org/resource/Kool_Moe_Dee> , <http://dbpedia.org/resource/LL_Cool_J> , <http://dbpedia.org/resource/Kendrick_Lamar> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2007 the duo joined Bootsy Collins for the first tribute concert in memory of James Brown and performed on the soundtrack for the movie Superbad.In his later years Starks lived in Mobile, Alabama." ;
+        ont:person          <http://dbpedia.org/resource/James_Brown> , <http://dbpedia.org/resource/James_Starks> , <http://dbpedia.org/resource/Bootsy_Collins> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "In 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In a 1995 interview with WGBH, Starks said: \"I'm not trying to outplay anybody else." ;
+        ont:person          <http://dbpedia.org/resource/James_Starks> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1995 interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of five children, he was nicknamed \"Jabo\" as a newborn." ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "One" , "of five" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/21>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The band also included trombonist Fred Wesley." ;
+        ont:person   <http://dbpedia.org/resource/Fred_Wesley> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/5/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He credits Starks' drum patterns for the birth of New Jack Swing and Baltimore club/Jersey club styles." ;
+        ont:place    <http://dbpedia.org/resource/Baltimore> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2013 Starks and Stubblefield received the Yamaha Legacy Award." ;
+        ont:person          <http://dbpedia.org/resource/Clyde_Stubblefield> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "In 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also recorded with other artists during this time such as Junior Parker and Joe Hinton, on songs \"Driving Wheel\" and \"Funny\".In 1965 Starks joined James Brown's band." ;
+        ont:person          <http://dbpedia.org/resource/Joe_Hinton> , <http://dbpedia.org/resource/James_Brown> , <http://dbpedia.org/resource/James_Starks> , <http://dbpedia.org/resource/Junior_Parker> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Often uncredited, Starks and Stubblefield rank as two of the most sampled drummers on contemporary hip hop and R&B recordings." ;
+        ont:person          <http://dbpedia.org/resource/Clyde_Stubblefield> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "as two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Starks was born in Jackson, Alabama, to Prince Starks and Ruth Watkins." ;
+        ont:place    <http://dbpedia.org/resource/Jackson,_Alabama> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/20>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Band members included bassist Bootsy Collins and rhythm guitarist Catfish Collins who along with Starks formed the rhythm section." ;
+        ont:person   <http://dbpedia.org/resource/Bootsy_Collins> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/5/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"According to drummer-journalist Ahmir Thompson, Starks was Brown's \"most effective drummer\" and called his eight-on-the-floor style \"unique\"." ;
+        ont:person   <http://dbpedia.org/resource/Klay_Thompson> , <http://dbpedia.org/resource/James_Starks> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fire (CJAM Productions, 2000)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1970 the band went through a major transformation with Stubblefield leaving the group in late 1970." ;
+        ont:person          <http://dbpedia.org/resource/Clyde_Stubblefield> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "In 1970" , "1970" .
 
 <http://w3id.org/polifonia/pilot/meetups/3614145/0/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/James_Starks> , <http://dbpedia.org/resource/Bobby_Bland> , <http://dbpedia.org/resource/John_W._Henry> , <http://dbpedia.org/resource/James_Brown> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "John Henry \"Jabo\" Starks ((); October 26, 1938 – May 1, 2018) was an American funk and blues drummer best known for playing with James Brown as well as other notable musicians including Bobby Bland and B.B." ;
+        ont:person          <http://dbpedia.org/resource/John_W._Henry> , <http://dbpedia.org/resource/James_Brown> , <http://dbpedia.org/resource/Bobby_Bland> , <http://dbpedia.org/resource/James_Starks> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
         ont:timeExpression  "October 26 , 1938" , "May 1 , 2018" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Funk for Your Ass (Columbia, 2008)With Johnny J. Blair" ;
+        ont:person          <http://dbpedia.org/resource/Tony_Blair> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was with the band from 1959 to 1965 and recorded on the band's releases over this period, including \"Turn on Your Love Light\", \"Stormy Monday Blues\", \"That's the Way Love Is\", \"I Pity the Fool\" and \"Don't Cry No More\"." ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "band from 1959" , "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was survived by his wife Naomi Taplin Starks, a daughter, a son, and two grandchildren." ;
+        ont:person          <http://dbpedia.org/resource/Naomi_Judd> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Superbad – soundtrack (Lakeshore, 2007)With Fred Wesley" ;
+        ont:person          <http://dbpedia.org/resource/Fred_Wesley> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Think (About It) (People, 1972)With B.B." ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Duke, 1962)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live at the Apollo, Volume II (King, 1968)With Lyn Collins" ;
+        ont:person          <http://dbpedia.org/resource/Lyn_Collins> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They released the album Find the Groove in 2001 and the album Come Get Summa This in 2006." ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "in 2006" , "in 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Damn Right I Am Somebody (People, 1974)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live at the Garden (King, 1967)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Trombonist Fred Wesley called Starks his favorite drummer and said \"I could just lose myself in that 'stop your heart' groove and just blow free.” According to The Pacemakers drummer Frank \"Kash\" Waddy, Starks was a disciplined player and his \"forte was to play very clean, very straight ahead." ;
+        ont:person          <http://dbpedia.org/resource/Fred_Wesley> , <http://dbpedia.org/resource/James_Starks> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "'stop" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Soul of the Funky Drummers (1999)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Doing It to Death (People, 1973)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ain't Nothing You Can Do (Duke, 1964)With Bobby Byrd" ;
+        ont:person          <http://dbpedia.org/resource/Bobby_Byrd> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The two \"created the grooves on many of Brown's biggest hits, and laid the foundation for modern funk drumming in the process.\"" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Food for Thought (People, 1972)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Call on Me/That's the Way Love Is (Duke, 1963)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He said over the years he learned little tricks to help him maintain his drumming skills.He died on May 1, 2018, at his home in Mobile, Alabama, at the age of 79 from leukemia and myelodysplastic syndrome." ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "age of 79" , "May 1 , 2018" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "King Size (ABC, 1977)With The J.B.'s" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/24>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also backed artists produced or managed by Brown, most notably Lyn Collins and Bobby Byrd, as well as the independent works released by The J.B.'s." ;
+        ont:person   <http://dbpedia.org/resource/Lyn_Collins> , <http://dbpedia.org/resource/Bobby_Byrd> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lucille Talks Back (ABC, 1975)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two Steps from the Blues (Duke, 1961)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "Two" , "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/5/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Bassist Bootsy Collins called Starks the steady rock that he built his bass grooves on while with James Brown." ;
+        ont:person   <http://dbpedia.org/resource/James_Brown> , <http://dbpedia.org/resource/Bootsy_Collins> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Come Get Summa This (Funkmasters, 2006)With Bobby Bland" ;
+        ont:person          <http://dbpedia.org/resource/Bobby_Bland> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1999 they performed on The J.B.'s album Bring the Funk on Down." ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "In 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Find the Groove (Funkmasters, 2001)" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He then performed at the Harlem Duke Social Club where he backed notable blues and R&B musicians including John Lee Hooker, Smiley Lewis, Clarence \"Gatemouth\" Brown, Big Mama Thornton and Howlin' Wolf.In 1959 Starks joined Bobby Bland's band and was the youngest member of the band." ;
+        ont:person          <http://dbpedia.org/resource/Bobby_Bland> , <http://dbpedia.org/resource/Smiley_Lewis> , <http://dbpedia.org/resource/James_Starks> , <http://dbpedia.org/resource/John_Lee_Hooker> , <http://dbpedia.org/resource/Big_Mama_Thornton> ;
+        ont:place           <http://dbpedia.org/resource/Harlem> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "Wolf.In 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He said band members Pluma Davis and Joe Scott taught him the importance of holding the drum rhythm steady and having other musicians lock-in with drums." ;
+        ont:person   <http://dbpedia.org/resource/Joe_Scott_(basketball_coach)> , <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He performed until March 2018." ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "March 2018" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In a 2015 interview with Mobile Bay Magazine, Starks said, \"When I'm playing music (...) there ain't nobody in the world higher than I am.\"" ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "2015 interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/23>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Starks' recordings during his eleven-year association with Brown include \"The Payback\", \"Sex Machine\", \"Soul Power\", \"Super Bad\", \"Talkin' Loud and Sayin' Nothing\", \"Doing It to Death\", \"Papa Don't Take No Mess\", \"Licking Stick – Licking Stick\"." ;
+        ont:person   <http://dbpedia.org/resource/James_Starks> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "According to National Public Radio, \"the grooves the two drummers (Starks and Stubblefield) created have inspired generations of artists – not just in funk, but in hip-hop, where their steady but intricate patterns make natural material for sampling." ;
+        ont:person          <http://dbpedia.org/resource/Clyde_Stubblefield> , <http://dbpedia.org/resource/James_Starks> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was one of the originators of funk drumming, and is one of the most sampled drummers." ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His recordings with King include the albums Lucille Talks Back and King Size.Starks and Stubblefield remained friends." ;
+        ont:person   <http://dbpedia.org/resource/Clyde_Stubblefield> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/15>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Starks came primarily from a blues background whereas Stubblefield came from a soul and jazz background." ;
+        ont:person   <http://dbpedia.org/resource/Clyde_Stubblefield> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He graduated from Mobile County Training School in 1955, at the time a high school." ;
+        ont:place           <http://dbpedia.org/resource/Mobile_County,_Alabama> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "in 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/3/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From the mid-1990s onward, when not touring or recording, he performed five nights a week at the Picolo Restaurant and Red Bar in Grayton Beach, Florida, and on Sundays he played drums at his church in Mobile." ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He grew up in Mobile, Alabama." ;
+        ont:place    <http://dbpedia.org/resource/Mobile,_Alabama> ;
+        ont:subject  <http://dbpedia.org/resource/John_%22Jabo%22_Starks> .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/2/22>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Starks toured and recorded with Brown until 1976." ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "until 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/5/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Drummer-author Jim Payne wrote: Starks \"could put the groove somewhere between 16th notes and 16th-note triplets and turn funk into an infectious, swinging half-time shuffle." ;
+        ont:person          <http://dbpedia.org/resource/Jim_Payne_(golfer)> , <http://dbpedia.org/resource/James_Starks> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "between 16th" .
+
+<http://w3id.org/polifonia/pilot/meetups/3614145/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2016 Rolling Stone magazine named Starks and Stubblefield the sixth best drummer of all time." ;
+        ont:person          <http://dbpedia.org/resource/Clyde_Stubblefield> ;
+        ont:subject         <http://dbpedia.org/resource/John_%22Jabo%22_Starks> ;
+        ont:timeExpression  "In 2016" .

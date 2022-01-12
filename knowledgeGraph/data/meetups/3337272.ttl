@@ -6,23 +6,128 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/3337272/0/2>
+<http://w3id.org/polifonia/pilot/meetups/3337272/8/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Dmitry_Pokrass> ;
-        ont:place           "http://dbpedia.org/resource/Soviet_Union" ;
+        ont:excerpt         "In 1940, Pokrass became a member of the Communist Party of the Soviet Union.From 1923 to 1926, Pokrass served as the principal conductor and musical director of the Moscow theatres \"Oriental Carpets\" and \"Hermitage\"." ;
+        ont:place           <http://dbpedia.org/resource/Moscow> , <http://dbpedia.org/resource/Soviet_Union> , <http://dbpedia.org/resource/Hermitage_Museum> ;
         ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
-        ont:timeExpression  "in 1975" .
+        ont:timeExpression  "Soviet Union.From 1923" , "In 1940" , "1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also composed music for the stage plays \"Red Devilkins\" (1950) and \"Konarmiya\" (1950), works for the violin, and romances." ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dmitry Yakovlevich Pokrass (Russian: Дми́трий Я́ковлевич Покра́сс; born on 7 November 1899 in Kiev – died on 20 December 1978 in Moscow) was a Soviet composer of Jewish origin." ;
+        ont:place           <http://dbpedia.org/resource/Soviet_Union> , <http://dbpedia.org/resource/Moscow> , <http://dbpedia.org/resource/Kyiv> ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "7 November 1899" , "20 December 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Relocating to Moscow in 1923, Pokrass worked in different genres of variety music." ;
+        ont:place           <http://dbpedia.org/resource/Moscow> ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "in 1923" .
 
 <http://w3id.org/polifonia/pilot/meetups/3337272/9/4>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After Daniel's death, Dmitry wrote the \"March of the Motorized Infantry\" (lyrics by Yevgeniy Dolmatovsky, 1957), \"Great City\" (\"A Song about Moscow\", the Newcomer's Poems, 1974), (Lyuba, Lyubushka, Lyubov; lyrics by P. Gradov), \"My Small Hometown\" (lyrics by M. Svetlov, 1975), \"The March of BAM\" (lyrics by M. Vershinin, 1975)." ;
         ont:person          <http://dbpedia.org/resource/Lyubov_Dostoevskaya> , <http://dbpedia.org/resource/Mikhail_Svetlov_(poet)> ;
-        ont:place           "http://dbpedia.org/resource/Brooklyn_Academy_of_Music" , "http://dbpedia.org/resource/Moscow" ;
+        ont:place           <http://dbpedia.org/resource/Brooklyn_Academy_of_Music> , <http://dbpedia.org/resource/Moscow> ;
         ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
-        ont:timeExpression  "1957" , "1975" , "1974" .
+        ont:timeExpression  "1957" , "1974" , "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the years 1914–1917, Pokrass studied piano at the Petrograd Conservatory." ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "1914–1917" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/3/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1919, he worked at the \"One-eyed Jimmy\" variety theatre in Rostov-on-Don." ;
+        ont:place           <http://dbpedia.org/resource/Rostov-on-Don> ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "In 1919" .
 
 <http://w3id.org/polifonia/pilot/meetups/3337272/5/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In honour of the taking of Rostov by the First Cavalry, he wrote the song which gained national popularity, \"Budyonny's March\" (1920, lyrics by A.d'Aktilj)." ;
         ont:person          <http://dbpedia.org/resource/Semyon_Budyonny> ;
-        ont:place           "http://dbpedia.org/resource/Rostov-on-Don" ;
+        ont:place           <http://dbpedia.org/resource/Rostov-on-Don> ;
         ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
         ont:timeExpression  "1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Touring cities, he absorbed the music of the suburbs of old Kiev, of military bands, Jewish weddings and celebrations, the cinema, synagogue services, and cheerful Ukrainian dances." ;
+        ont:place    <http://dbpedia.org/resource/Ukraine> , <http://dbpedia.org/resource/Kyiv> ;
+        ont:subject  <http://dbpedia.org/resource/Dmitry_Pokrass> .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/9/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He composed songs, film scores, and incidental music for the theatre, as well as military marches such as the March of the Soviet Tankmen." ;
+        ont:place    <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject  <http://dbpedia.org/resource/Dmitry_Pokrass> .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/3/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1917 he returned to Kiev, where he found work as an accompanist." ;
+        ont:place           <http://dbpedia.org/resource/Kyiv> ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "In 1917" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1919–1921, Pokrass served in the First Cavalry." ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "In 1919–1921" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1936 - 1972 he was the artistic director of the Variety orchestra of ЦДКЖ (ZDKZh)." ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "1972" , "In 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/3/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He wrote songs of the \"intimate genre\" to be performed by Gipsy singer V. Shuysky: \"The Bashful Tea Rose\", \"You Have Smiled at Me\", \"Warrant Officer Johns\", and \"Tango Dolores\" (lyrics by P.German and O.Osenin)." ;
+        ont:place    <http://dbpedia.org/resource/Dolores_Hidalgo> ;
+        ont:subject  <http://dbpedia.org/resource/Dmitry_Pokrass> .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At eight years of age, Dmitry Pokrass began performing as a means of earning money." ;
+        ont:person          <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "At eight" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Between 1932 and 1954 he worked in collaboration with his brother, Daniel Pokrass." ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "1954" , "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dmitry Pokrass was recognized in 1975 as a People's Artist of the USSR." ;
+        ont:person          <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:place           <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject         <http://dbpedia.org/resource/Dmitry_Pokrass> ;
+        ont:timeExpression  "in 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Pokrass tried to overcome the stale character of the variety genre in romances by using lyrics of \"highbrow\" poetry by Alexander Blok (\"I am at Your Feet\"), Igor Severyanin (\"I Feel How Flowers Fall\"), and others." ;
+        ont:person   <http://dbpedia.org/resource/Alexander_Blok> ;
+        ont:subject  <http://dbpedia.org/resource/Dmitry_Pokrass> .
+
+<http://w3id.org/polifonia/pilot/meetups/3337272/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In 1926-1936 he was the principal conductor and musical director of the Moscow music hall." ;
+        ont:place    <http://dbpedia.org/resource/Moscow> ;
+        ont:subject  <http://dbpedia.org/resource/Dmitry_Pokrass> .

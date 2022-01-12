@@ -6,9 +6,43 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/50782750/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Juanita García began her career at the age of eighteen in 1948, despite her parents disapproval of her career choice." ;
+        ont:person          <http://dbpedia.org/resource/Juanita_Coulson> ;
+        ont:subject         <http://dbpedia.org/resource/Juanita_García> ;
+        ont:timeExpression  "eighteen in 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/50782750/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1951, she won first place at a singing contest which landed her a recording contract with Falcon Records and became known for her bolero song \"Llorarás\"." ;
+        ont:subject         <http://dbpedia.org/resource/Juanita_García> ;
+        ont:timeExpression  "In 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/50782750/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was inducted into the tejano music hall of fame in 2005." ;
+        ont:subject         <http://dbpedia.org/resource/Juanita_García> ;
+        ont:timeExpression  "fame in 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/50782750/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Garcia achieved modicum success in the tejano music market during the 1960s along with other female singers Rosita Fernandez, Ventura Alonzo \"Queen of the Accordion\", Delia Gutiérrez, and Beatriz Llamaz.Garcia suffered from a medical condition in her throat, which ended her singing career in the early 1970s." ;
+        ont:person          <http://dbpedia.org/resource/Jerry_Garcia> , <http://dbpedia.org/resource/Beatrice_of_Portugal> ;
+        ont:subject         <http://dbpedia.org/resource/Juanita_García> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/50782750/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Garcia continued touring during the 1960s singing with accordionist Beto Villa, Mexican actors Piporro and Ángel Infante, as well as with norteño music singers Los Alegres de Terán and Los Donneños." ;
+        ont:person          <http://dbpedia.org/resource/Eulalio_González> , <http://dbpedia.org/resource/Jerry_Garcia> , <http://dbpedia.org/resource/Beto_Villa> ;
+        ont:subject         <http://dbpedia.org/resource/Juanita_García> ;
+        ont:timeExpression  "1960s singing" .
+
 <http://w3id.org/polifonia/pilot/meetups/50782750/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Juanita García (Bogota, February 14, 1943 — Morgantown, West Virginia, January 26, 2014) was a Tejano singer." ;
         ont:person          <http://dbpedia.org/resource/Juanita_Coulson> ;
-        ont:place           "http://dbpedia.org/resource/Virginia" , "http://dbpedia.org/resource/Morgantown,_West_Virginia" , "http://dbpedia.org/resource/El_Dorado_International_Airport" ;
+        ont:place           <http://dbpedia.org/resource/Virginia> , <http://dbpedia.org/resource/Morgantown,_West_Virginia> , <http://dbpedia.org/resource/El_Dorado_International_Airport> ;
         ont:subject         <http://dbpedia.org/resource/Juanita_García> ;
         ont:timeExpression  "January 26 , 2014" , "February 14 , 1943" .

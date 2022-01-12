@@ -6,16 +6,161 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/1733863/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ehud Weiner (later Manor) was born in Binyamina." ;
+        ont:person   <http://dbpedia.org/resource/Jeff_Weiner> ;
+        ont:place    <http://dbpedia.org/resource/Binyamina-Giv'at_Ada> ;
+        ont:subject  <http://dbpedia.org/resource/Ehud_Manor> .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In addition, he translated Barney songs into Hebrew for the Israeli coproduction \"Hachaverim Shel Barney\".Other famous Manor translations were the 1977 musical program \"Eretz Tropit Yafa\" (lit." ;
+        ont:place           <http://dbpedia.org/resource/Israel> ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The prize committee noted that \"For the past 30 years, he has expressed our mood through the hundreds of songs he has written together with the finest composers." ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "30" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Shortly before he died, Manor was chosen to receive an honorary doctorate from Bar-Ilan University in recognition of his prolific activity in the field of Hebrew music.Manor's songs are the most played on Israeli radio.In October 28, 2019, US House Speaker Nancy Pelosi recited a passage from I Have No Other Country during a J Street gala." ;
+        ont:person          <http://dbpedia.org/resource/Nancy_Pelosi> ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "October 28 , 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He is widely considered to have been Israel's most prolific lyricist of all time, having written or translated over 1,000 songs." ;
+        ont:place           <http://dbpedia.org/resource/Israel> ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "over 1,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Also a successful translator, Manor translated more than 600 works into Hebrew, including such Broadway hits as Cabaret, Hair, and Les Misérables." ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "than 600" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1998, Manor was awarded the Israel Prize for Hebrew song." ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "In 1998" .
+
 <http://w3id.org/polifonia/pilot/meetups/1733863/5/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The latter was written in memory of his brother, who was killed during his military service in 1968.He wrote the lyrics to several Israeli Eurovision Song Contest entries, including the 1978 winner \"Abanibi\", the 1975 entry \"At Va'Ani (You and Me)\" with its singer Shlomo Artzi, the 1983 entry \"Khay\" (Alive) and the 1992 song \"Ze Rak Sport\" (It's Just Sports)." ;
         ont:person          <http://dbpedia.org/resource/Shlomo_Artzi> ;
-        ont:place           "http://dbpedia.org/resource/Israel" ;
+        ont:place           <http://dbpedia.org/resource/Israel> ;
         ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
-        ont:timeExpression  "1978 winner" , "1983 entry" , "service in 1968.He" , "1975 entry" , "1992 song" .
+        ont:timeExpression  "1978 winner" , "service in 1968.He" , "1975 entry" , "1992 song" , "1983 entry" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ehud Manor (Hebrew: אהוד מנור; born Ehud Weiner; July 13, 1941 – April 12, 2005) was an Israeli lyricist, translator, poet and radio and TV personality." ;
+        ont:person          <http://dbpedia.org/resource/Ehud_Manor> , <http://dbpedia.org/resource/Jeff_Weiner> ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "July 13 , 1941" , "April 12 , 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ehud's other brother, Ze'ev, committed suicide in 2003 as a result of financial trouble." ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "suicide in 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He changed his surname to Manor as it was customary at the time for radio announcers to adopt Hebrew names.During his career, he wrote lyrics for over 1,250 Hebrew songs, including \"Ein Li Eretz Acheret\" (I Have No Other Country), \"Brit Olam\" (Everlasting Covenant), \"Ba-Shanah ha-Ba'ah\" (Next Year) which became an international standard, \"Zo Yalduti HaShniya\" (This Is My Second Childhood), and \"Ahi HaTza'ir Yehuda\" (My Younger Brother Yehuda)." ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "over 1,250" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Several of his songs commemorate his fond memories of his childhood in Binyamina, the most famous of which is \"Yemey Binyamina\" (The Binyamina Days)." ;
+        ont:place    <http://dbpedia.org/resource/Binyamina-Giv'at_Ada> ;
+        ont:subject  <http://dbpedia.org/resource/Ehud_Manor> .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was married to actress Ofra Fuchs for 40 years; together, they had three children: Gali, Libby and Yehuda (Yadi), who was named after Manor's late brother, a fallen soldier in War of Attrition in 1968." ;
+        ont:place           <http://dbpedia.org/resource/Gali_Municipality> ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "three" , "for 40" , "in 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ehud Manor began working for Israel radio in the 1960s as a musical editor." ;
+        ont:person   <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:subject  <http://dbpedia.org/resource/Ehud_Manor> .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/8/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"John the Strongman\", a translation of Jimmy Dean's \"Big Bad John\") – also became a huge hit." ;
+        ont:person   <http://dbpedia.org/resource/Jimmy_Dean> ;
+        ont:subject  <http://dbpedia.org/resource/Ehud_Manor> .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He graduated from the Hebrew Reali School in Haifa in 1959." ;
+        ont:place           <http://dbpedia.org/resource/Haifa> ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "in 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Although he recovered, the cancer treatment weakened his heart, and he died suddenly on April 12, 2005, aged 63, of cardiac arrest." ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "63" , "April 12 , 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The words of the committee refer to one of his most famous songs, Ein Li Eretz Acheret (I Have No Other Country), which is considered a patriotic classic in Israel – the lyrics outline a man who loves Israel and the Hebrew language, despite criticism he has toward his country." ;
+        ont:place           <http://dbpedia.org/resource/Israel> ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She learned about the song from Isaac Herzog, then the leader of the Israeli Labor Party in December 2016." ;
+        ont:person          <http://dbpedia.org/resource/Chaim_Herzog> ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "December 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had two brothers, Zvi and Yehuda." ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "two" .
 
 <http://w3id.org/polifonia/pilot/meetups/1733863/8/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"A Beautiful Tropical Country\", the theme of which was a translation of Jorge Ben's \"País Tropical\") which consisted of his translations of famous Brazilian songs, several of which became huge hits in Israel; and the 1982 Israeli television show \"Red River Valley\" in which he translated famous country songs, one of which – \"John Biryon\" (lit." ;
         ont:person          <http://dbpedia.org/resource/Jorge_Ben> ;
-        ont:place           "http://dbpedia.org/resource/Israel" ;
+        ont:place           <http://dbpedia.org/resource/Israel> ;
         ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
-        ont:timeExpression  "1982" , "one" .
+        ont:timeExpression  "one" , "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ehud Manor, who had been a heavy smoker earlier in his life, was diagnosed with lung cancer in the early 2000s." ;
+        ont:person          <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "2000s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On January 13, 2021, she again recited lines from the song urging her \"Republican colleagues to finally open their eyes\" regarding president Donald Trump." ;
+        ont:person          <http://dbpedia.org/resource/Donald_Trump> ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "January 13 , 2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/1733863/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1998, he was awarded the Israel Prize for his exceptional contributions to Israeli music." ;
+        ont:subject         <http://dbpedia.org/resource/Ehud_Manor> ;
+        ont:timeExpression  "In 1998" .

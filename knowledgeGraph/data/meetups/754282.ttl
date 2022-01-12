@@ -6,44 +6,353 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/754282/6/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Cage> , <http://dbpedia.org/resource/Mark_Rothko> ;
-        ont:place           "http://dbpedia.org/resource/California" ;
-        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
-        ont:timeExpression  "composition in 1969" .
+<http://w3id.org/polifonia/pilot/meetups/754282/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Born in Los Angeles and raised in the Mojave Desert, Budd became a respected composer in the minimalist and avant-garde scene of Southern California in the late 1960s, and later became better known for his work with figures such as Brian Eno and Robin Guthrie." ;
+        ont:person   <http://dbpedia.org/resource/Brian_Eno> , <http://dbpedia.org/resource/Robin_Guthrie> ;
+        ont:place    <http://dbpedia.org/resource/Los_Angeles> , <http://dbpedia.org/resource/Southern_California> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
 
-<http://w3id.org/polifonia/pilot/meetups/754282/8/1>
+<http://w3id.org/polifonia/pilot/meetups/754282/2/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Mark_Rothko> ;
-        ont:place           "http://dbpedia.org/resource/Golden_Dreams" ;
+        ont:excerpt         "Budd was born in Los Angeles, California, and spent his childhood in Victorville, California on the southwestern edge of the Mojave Desert.Harold was only 13 when his father passed away, and soon his family fell out of their comfortable middle class existence." ;
+        ont:place           <http://dbpedia.org/resource/California> , <http://dbpedia.org/resource/Victorville,_California> ;
         ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
-        ont:timeExpression  "18" .
-
-<http://w3id.org/polifonia/pilot/meetups/754282/11/8>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Robin_Guthrie> , <http://dbpedia.org/resource/Daniel_Lanois> , <http://dbpedia.org/resource/Brian_Eno> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
-        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
-        ont:timeExpression  "In 2003" , "in 2005" .
-
-<http://w3id.org/polifonia/pilot/meetups/754282/11/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Harold_Budd> ;
-        ont:place           "http://dbpedia.org/resource/Finneran_Pavilion" ;
-        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
-        ont:timeExpression  "1978" , "Two" .
-
-<http://w3id.org/polifonia/pilot/meetups/754282/21/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Elizabeth_Fraser> , <http://dbpedia.org/resource/Robin_Guthrie> , <http://dbpedia.org/resource/Simon_Raymonde> ;
-        ont:place           "http://dbpedia.org/resource/Moon" ;
-        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
-        ont:timeExpression  "1986" , "4AD" .
+        ont:timeExpression  "13" .
 
 <http://w3id.org/polifonia/pilot/meetups/754282/11/9>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They worked together initially when Budd worked with Guthrie's band Cocteau Twins on their 1985 collaboration The Moon and the Melodies." ;
         ont:person          <http://dbpedia.org/resource/Woody_Guthrie> ;
-        ont:place           "http://dbpedia.org/resource/Moon" ;
+        ont:place           <http://dbpedia.org/resource/Moon> ;
         ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
         ont:timeExpression  "1985 collaboration" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/9/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Eno contacted Budd and brought him to London to record for his Obscure Records label." ;
+        ont:place    <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Harold Montgomory Budd (May 24, 1936 – December 8, 2020) was an American avant-garde composer and poet." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "May 24 , 1936" , "December 8 , 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/15/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was 84 years old." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "84" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1970, he released his first piece, The Oak of the Golden Dreams, which he recorded with an early model Buchla modular synthesizer at the institute.Soon afterwards, Budd gave up composition, disgusted by the \"academic pyrotechnics\" of the avant-garde community." ;
+        ont:place           <http://dbpedia.org/resource/Golden_Dreams> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "In 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/19/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Records with Brian Eno" ;
+        ont:person   <http://dbpedia.org/resource/Brian_Eno> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/18/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Records with Brian Eno" ;
+        ont:person   <http://dbpedia.org/resource/Brian_Eno> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2003, Daniel Lanois, a producer for U2 and Bob Dylan, and occasional collaborator with Brian Eno, recorded an impromptu performance of Budd playing the piano in his Los Angeles living room, unaware; it was released in 2005 as the album La Bella Vista.He had a long-running collaboration with guitarist Robin Guthrie." ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Robin_Guthrie> , <http://dbpedia.org/resource/Brian_Eno> , <http://dbpedia.org/resource/Daniel_Lanois> ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "in 2005" , "In 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His 1972 work Madrigals of the Rose Angel was sent to English composer Gavin Bryars who passed it on to Brian Eno." ;
+        ont:person          <http://dbpedia.org/resource/Brian_Eno> , <http://dbpedia.org/resource/Gavin_Bryars> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1972 work" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mysterious Skin – Music from the Film (2005) Commotion Records/Rykodisc with Robin Guthrie" ;
+        ont:person          <http://dbpedia.org/resource/Robin_Guthrie> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/17/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Records produced by Brian Eno" ;
+        ont:person   <http://dbpedia.org/resource/Brian_Eno> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Avalon Sutra / As Long as I Can Hold My Breath 2-CD digipak (2004) Samadhisound produced by Harold Budd" ;
+        ont:person          <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The first performance of the piece was at a Franciscan church in California conducted by Daniel Lentz." ;
+        ont:place    <http://dbpedia.org/resource/California> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Translucence/Drift Music (2003) Edsel Records with John Foxx" ;
+        ont:person          <http://dbpedia.org/resource/John_Foxx> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died on December 8, in a hospital in Arcadia, California, from complications of COVID-19." ;
+        ont:place           <http://dbpedia.org/resource/Santa_Anita_Park> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "December 8" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Room (2000) Atlantic Records" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Budd's work of this period was primarily minimalist drone music influenced by John Cage and Morton Feldman, as well as the abstract expressionist painter Mark Rothko, with whom he corresponded.After completing his degree in composition in 1969, Budd took up a teaching position at the California Institute for the Arts." ;
+        ont:person          <http://dbpedia.org/resource/John_Cage> , <http://dbpedia.org/resource/Mark_Rothko> ;
+        ont:place           <http://dbpedia.org/resource/California> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "composition in 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Pearl (1984) E.G." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/20/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Records produced by Michael Hoenig" ;
+        ont:person   <http://dbpedia.org/resource/Michael_Hoenig> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Luxa (1996) All Saints Records" ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ambient 2: The Plateaux of Mirror (1980) E.G." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "2" , "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/13/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "But compared with the cyclical craft of Steve Reich and early Philip Glass, his low-key, expansive forays felt deftly maximalist." ;
+        ont:person   <http://dbpedia.org/resource/Philip_Glass> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His thematic 2000 release The Room saw a return to a more minimalist approach." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "2000 release" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Another Flower (2020) Darla Records with Robin Guthrie" ;
+        ont:person          <http://dbpedia.org/resource/Robin_Guthrie> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Music for 3 Pianos (1992) All Saints Records with Ruben Garcia and Daniel Lentz." ;
+        ont:person          <http://dbpedia.org/resource/Ruben_Garcia_(racing_driver)> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "for 3" , "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Pavilion of Dreams (1978) E.G." ;
+        ont:place           <http://dbpedia.org/resource/Finneran_Pavilion> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Budd and Guthrie subsequently released several albums together, including two soundtracks to the Greg Araki films Mysterious Skin (2004) and White Bird in a Blizzard (2014), with the last, 2020's Another Flower, released four days before Budd's death.Budd also collaborated with Andy Partridge of XTC on the album Through the Hill (1994), John Foxx on the album Translucence/Drift Music (2003) and work with Jah Wobble on the Solaris concert and live album in 2002.He composed music for the score of the 2020 miniseries I Know This Much Is True." ;
+        ont:person          <http://dbpedia.org/resource/Woody_Guthrie> , <http://dbpedia.org/resource/Gregg_Araki> , <http://dbpedia.org/resource/John_Foxx> , <http://dbpedia.org/resource/Jah_Wobble> , <http://dbpedia.org/resource/Andy_Partridge> , <http://dbpedia.org/resource/Stephen_Budd> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "2003" , "four" , "2020" , "album in 2002.He" , "two" , "1994" , "2014" , "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "White Bird in a Blizzard (2014) Lakeshore Records with Robin Guthrie" ;
+        ont:person          <http://dbpedia.org/resource/Robin_Guthrie> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By the Dawn's Early Light (1991) Opal Records with Bill Nelson, B. J. Cole, Susan Allen" ;
+        ont:person          <http://dbpedia.org/resource/Bill_Nelson> , <http://dbpedia.org/resource/Susan_Allen> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two years later, Harold Budd's debut album, The Pavilion of Dreams (1978), was released." ;
+        ont:person          <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:place           <http://dbpedia.org/resource/Finneran_Pavilion> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "Two" , "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The White Arcades (1988) Opal Records produced by Brian Eno" ;
+        ont:person          <http://dbpedia.org/resource/Brian_Eno> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Budd was undergoing therapy in a short-term rehabilitation facility after suffering a stroke on November 11, 2020, where he contracted COVID-19." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "November 11 , 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Budd studied music at the University of Southern California, under the tutelage of Ingolf Dahl, graduating in 1966." ;
+        ont:person          <http://dbpedia.org/resource/Ingolf_Dahl> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Moon and the Melodies (1986) 4AD with Simon Raymonde, Robin Guthrie and Elizabeth Fraser of Cocteau Twins" ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_Fraser> , <http://dbpedia.org/resource/Robin_Guthrie> , <http://dbpedia.org/resource/Simon_Raymonde> ;
+        ont:place           <http://dbpedia.org/resource/Moon> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1986" , "4AD" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/5/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He began to attend performances by artists like Chet Baker and Pharoah Sanders.“From that moment on,” he recalls, “I had an insatiable appetite." ;
+        ont:person   <http://dbpedia.org/resource/Chet_Baker> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lovely Thunder (1986) E.G." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/13/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Brian Eno called Budd \"a great abstract painter trapped in the body of a musician\".The Guardian said, \"The core Budd sound of yearning piano motifs and reverb-laden impressionism is often called minimalism." ;
+        ont:person   <http://dbpedia.org/resource/Brian_Eno> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Spanning from 1972 to 1975, he created four individual works under the collective title The Pavilion of Dreams." ;
+        ont:place           <http://dbpedia.org/resource/Finneran_Pavilion> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "four" , "from 1972" , "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In November 1986, the record charted on the UK Top 75 album chart, spending a week at number 46." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "November 1986" , "UK Top 75" , "46" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The early graph piece was followed by the Rothko orchestra work, the pieces for Source Magazine, the Feldman-derived chamber works, the pieces typed out or written in longhand, the out-and-out conceptual works among other things, and the model drone works (which include the sax and organ Coeur d'Orr and The Oak of the Golden Dreams, the latter based on the Balinese 'Slendro' scale which scale I used again 18 years later on 'The Real Dream of Sails')." ;
+        ont:person          <http://dbpedia.org/resource/Mark_Rothko> ;
+        ont:place           <http://dbpedia.org/resource/Golden_Dreams> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "18" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Budd joined him in gigs around the Monterey area." ;
+        ont:place    <http://dbpedia.org/resource/Monterey,_California> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Budd resigned from the institute in 1976 and began recording his new compositions, produced by Eno." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "institute in 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During this time Black culture had an enormous impact on Harold, especially jazz music and bebop, and he could be found in his teen age years playing drums in bars and jazz clubs in South Central Los Angeles." ;
+        ont:place    <http://dbpedia.org/resource/South_Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "I owe Eno everything, OK?" ;
+        ont:place    <http://dbpedia.org/resource/Oklahoma> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "While he is often placed in the Ambient category, he emphatically declared that he was not an Ambient artist, and felt that he got \"kidnapped\" into the category.His two collaborations with Eno, 1980's The Plateaux of Mirror and 1984's The Pearl, established his trademark atmospheric piano style." ;
+        ont:place           <http://dbpedia.org/resource/The_Pearl-Qatar> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "1980" , "1984" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1972, while still retaining his teaching career at the California Institute for the Arts, he resurfaced as a composer." ;
+        ont:place           <http://dbpedia.org/resource/California> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "In 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/11/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The record was released by 4AD under all the collaborator's names (rather than being a Cocteau Twins/Harold Budd record), with Budd being listed first as it was an alphabetical listing." ;
+        ont:person          <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "by 4AD" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The road from my first colored graph piece in 1962 to my renunciation of composing in 1970 to my resurfacing as a composer in 1972 was a process of trying out an idea and when it was obviously successful abandoning it." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "composer in 1972" , "in 1970" , "piece in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jazz saxophonist Albert Ayler was drafted at the same time and was also a member of the band." ;
+        ont:person   <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was sent him up to the desert to live with friends and relatives as often as possible, but the reality in Los Angeles was growing up in a tough neighborhood, and as the oldest son, being the man of the house." ;
+        ont:place    <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Budd> .
+
+<http://w3id.org/polifonia/pilot/meetups/754282/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Budd's career as a composer began in 1962." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:timeExpression  "in 1962" .

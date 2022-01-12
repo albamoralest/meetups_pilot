@@ -6,93 +6,931 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/98217/44/1>
+<http://w3id.org/polifonia/pilot/meetups/98217/40/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:place           "http://dbpedia.org/resource/Literary_Hall" , "http://dbpedia.org/resource/Chicago" ;
+        ont:excerpt         "On May 10, 1999, Silverstein died at age 68 of a heart attack at his home in Key West, Florida." ;
+        ont:place           <http://dbpedia.org/resource/Key_West> ;
         ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "in 2014" .
+        ont:timeExpression  "68" , "May 10 , 1999" .
 
-<http://w3id.org/polifonia/pilot/meetups/98217/16/4>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Bobby_Gould> , <http://dbpedia.org/resource/Dennis_Wilson> ;
-        ont:place           "http://dbpedia.org/resource/Markham_River" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "in 1979" , "1989" .
-
-<http://w3id.org/polifonia/pilot/meetups/98217/12/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jader_Volnei_Spindler> , <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Belinda_Carlisle> , <http://dbpedia.org/resource/Marianne_Faithfull> ;
-        ont:place           "http://dbpedia.org/resource/Jordan" , "http://dbpedia.org/resource/Montenegro" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "1996" , "1979" , "in 1975" , "2005" .
-
-<http://w3id.org/polifonia/pilot/meetups/98217/16/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Herb_Gardner> , <http://dbpedia.org/resource/Jean_Shepherd> ;
-        ont:place           "http://dbpedia.org/resource/Orpheum_Theatre_(Los_Angeles)" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Lower_East_Side" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "January 1959" .
-
-<http://w3id.org/polifonia/pilot/meetups/98217/38/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Jordan_Hastings> , <http://dbpedia.org/resource/Taylor_Pie> ;
-        ont:place           "http://dbpedia.org/resource/Hastings" , "http://dbpedia.org/resource/Playboy_Mansion" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "June 30 , 1970" .
-
-<http://w3id.org/polifonia/pilot/meetups/98217/38/5>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "June 25 , 2019" , "November 10 , 1984" , "2008" , "two" .
-
-<http://w3id.org/polifonia/pilot/meetups/98217/44/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:place           "http://dbpedia.org/resource/Nashville,_Tennessee" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "in 2002" .
-
-<http://w3id.org/polifonia/pilot/meetups/98217/0/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "September 25 , 1930" , "May 10 , 1999" .
-
-<http://w3id.org/polifonia/pilot/meetups/98217/72/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:place           "http://dbpedia.org/resource/Crestview,_Florida" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "1963" .
-
-<http://w3id.org/polifonia/pilot/meetups/98217/26/2>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Nick_Jonas> , <http://dbpedia.org/resource/Ross_Greenberg> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" , "http://dbpedia.org/resource/Market_Theatre_(Johannesburg)" , "http://dbpedia.org/resource/Massachusetts" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "repertory as two" , "MC.In December 2001" .
-
-<http://w3id.org/polifonia/pilot/meetups/98217/2/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "September 25 , 1930" .
-
-<http://w3id.org/polifonia/pilot/meetups/98217/16/6>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Atlantic_Theater_Company" ;
-        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
-        ont:timeExpression  "September 2001" .
+<http://w3id.org/polifonia/pilot/meetups/98217/33/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The phrase \"Renaissance man\" tends to get overused these days, but apply it to Shel Silverstein and it practically begins to seem inadequate." ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
 
 <http://w3id.org/polifonia/pilot/meetups/98217/26/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Blind Willie and the Talking Dog\"—Blind Willie's talking dog argues they could profit from his talent.A production of An Adult Evening of Shel Silverstein was produced by a Hofstra University theater group named The Spectrum Players, founded by Francis Ford Coppola in 1959." ;
         ont:person          <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Francis_Ford_Coppola> ;
-        ont:place           "http://dbpedia.org/resource/Spectrum_(arena)" ;
+        ont:place           <http://dbpedia.org/resource/Spectrum_(arena)> ;
         ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
         ont:timeExpression  "in 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It contains 17 children's songs written and produced by Silverstein and sung by Dailey (with Silverstein joining him on a few tracks)." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "17" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/0/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His songs have been recorded and popularized by a wide range of acts including Johnny Cash, The Irish Rovers, and Dr. Hook & the Medicine Show." ;
+        ont:person   <http://dbpedia.org/resource/Johnny_Cash> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Bus Stop\"—Irwin stands on a corner with a \"bus stop\" sign." ;
+        ont:place    <http://dbpedia.org/resource/Shire_of_Irwin> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Otto Penzler, in his crime anthology Murder for Revenge (1998), commented on Silverstein's versatility:" ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Buy One, Get One Free\"—Hookers offer a golden opportunity." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/8/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I did this cartoon because I had an idea about a funny situation about two guys.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "situation about two" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Among his better-known comedy songs were \"Sarah Cynthia Sylvia Stout (Would Not Take the Garbage Out)\", \"The Smoke-Off\" (a tale of a contest to determine who could roll—or smoke—marijuana joints faster), \"I Got Stoned and I Missed It\" and \"Stacy Brown Got Two.\"" ;
+        ont:person          <http://dbpedia.org/resource/Cynthia_Lennon> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "Stacy Brown Got Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/16/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Karen Kohlhaas directed An Adult Evening of Shel Silverstein, produced by New York's Atlantic Theater Company in September 2001 with a variety of short sketches:" ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:place           <http://dbpedia.org/resource/Atlantic_Theater_Company> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "September 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/11/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He wrote many of the songs performed by Bobby Bare, including \"Rosalie's Good Eats Café\", \"The Mermaid\", \"The Winner\", \"Warm and Free\", and \"Tequila Sheila\"." ;
+        ont:person   <http://dbpedia.org/resource/Jader_Volnei_Spindler> ;
+        ont:place    <http://dbpedia.org/resource/Rosalie_Mansion> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"One Tennis Shoe\"—Harvey claims his wife is becoming a bag lady." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Queen of the Silver Dollar\" was first recorded by Dr. Hook on their 1972 album Sloppy Seconds, and later by Doyle Holly (on his 1973 album Doyle Holly), Barbi Benton (on her 1974 album Barbi Doll), Emmylou Harris (on her 1975 album Pieces of the Sky) and Dave & Sugar (on their 1976 album Dave & Sugar).Silverstein composed original music for several films and displayed a musical versatility in these projects, playing guitar, piano, saxophone and trombone." ;
+        ont:person          <http://dbpedia.org/resource/Emmylou_Harris> , <http://dbpedia.org/resource/Doyle_Holly> , <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Barbi_Benton> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1974 album" , "1973 album" , "1975 album" , "1972 album" , "1976 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/30/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ursula Nordstrom, Silverstein's editor at Harper & Row, encouraged Silverstein to write children's poetry." ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Ursula_Nordstrom> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In January 1959, Look, Charlie: A Short History of the Pratfall was a chaotic off-Broadway comedy staged by Silverstein, Jean Shepherd and Herb Gardner at New York's Orpheum Theatre on Second Avenue in the Lower East Side." ;
+        ont:person          <http://dbpedia.org/resource/Herb_Gardner> , <http://dbpedia.org/resource/Jean_Shepherd> , <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:place           <http://dbpedia.org/resource/Orpheum_Theatre_(Los_Angeles)> , <http://dbpedia.org/resource/Lower_East_Side> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "January 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/38/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Silverstein later met Key West native Sarah Spencer, who drove a tourist train and inspired Silverstein's song \"The Great Conch Train Robbery\"." ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Sarah_Spencer> ;
+        ont:place    <http://dbpedia.org/resource/Key_West> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He enrolled in the Chicago Academy of Fine Arts, which he was attending when he was drafted into the U.S. Army; he served in Japan and Korea." ;
+        ont:place    <http://dbpedia.org/resource/Korea> , <http://dbpedia.org/resource/Japan> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Chicago> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His cartoons began appearing in Look, Sports Illustrated and This Week.Mass-market paperback readers across America were introduced to Silverstein in 1956 when Take Ten was reprinted by Ballantine Books as Grab Your Socks!" ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/22/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Smile\"—Bender plans to punish the man responsible for the phrase \"Have a nice day\"." ;
+        ont:person   <http://dbpedia.org/resource/Lionel_Bender> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I never saw their work 'til I was around 30." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "30" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of the latter musical projects Silverstein completed in his lifetime was Old Dogs, a 1998 album with songs about getting old, all of which Silverstein wrote or co-wrote.A longtime friend of singer-songwriter Pat Dailey, Silverstein collaborated with him on the posthumously released Underwater Land album (2002)." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "One" , "2002" , "1998 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His books have been translated into more than 30 languages and have sold more than 20 million copies." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "million" , "than 20" , "than 30" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/13/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In addition, Silverstein wrote \"Hey Nelly Nelly,\" a 1960s-era folk song recorded by Judy Collins.Silverstein had a popular following on Dr. Demento's radio show." ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/77/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Columbia/CBS Records) (1971) film soundtrack" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/28/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "(\"Bunky and Lucille\", \"Last Morning\")." ;
+        ont:person   <http://dbpedia.org/resource/Lucille_Ball> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Because it was unclear whether some of the material was intended for adults or children, the 1985 reprint had a conspicuous cover label." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1985 reprint" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/16/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1990, Silverstein's one-act modernized version of Hamlet starred Melvin Van Peebles playing all the roles." ;
+        ont:person          <http://dbpedia.org/resource/Melvin_Van_Peebles> , <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "In 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/11/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"He wrote the lyrics and music for most of the Dr. Hook & the Medicine Show songs on their first few albums, including \"The Cover of 'Rolling Stone'\", \"Freakin' at the Freakers' Ball,\" \"Sylvia's Mother\", \"The Things I Didn't Say\" and \"Don't Give a Dose to the One You Love Most\"." ;
+        ont:person   <http://dbpedia.org/resource/Sylvia_Pankhurst> , <http://dbpedia.org/resource/Thomas_Say> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein's \"The Ballad of Lucy Jordan\", first recorded by Dr. Hook in 1975, was re-recorded by Marianne Faithfull (1979), Belinda Carlisle (1996), and Bobby Bare (2005) and later featured in the films Montenegro and Thelma & Louise." ;
+        ont:person          <http://dbpedia.org/resource/Jader_Volnei_Spindler> , <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Belinda_Carlisle> , <http://dbpedia.org/resource/Marianne_Faithfull> ;
+        ont:place           <http://dbpedia.org/resource/Jordan> , <http://dbpedia.org/resource/Montenegro> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1996" , "1979" , "in 1975" , "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the cartoon, two prisoners are chained to the wall of a prison cell." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/38/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Silverstein's book A Light in the Attic is dedicated to her." ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/11/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Silverstein studied briefly at Chicago College of Performing Arts at Roosevelt University." ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:place    <http://dbpedia.org/resource/Chicago> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He then attended the University of Illinois, from which he was expelled." ;
+        ont:place    <http://dbpedia.org/resource/Illinois> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/14/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Other artists recording Silverstein songs include the Brothers Four, Andrew Bird, My Morning Jacket and Bobby Bare, Jr." ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Jader_Volnei_Spindler> , <http://dbpedia.org/resource/Andrew_Bird> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/7/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Silverstein biographer Lisa Rogak wrote:" ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/14>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He later said his time in college was a waste and would have been better spent traveling around the world meeting people.After returning to Chicago, Silverstein began submitting cartoons to magazines while also selling hot dogs at Chicago ballparks." ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:place    <http://dbpedia.org/resource/Chicago> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "I had developed my own style; I was creating before I knew there was a Thurber, a Benchley, a Price and a Steinberg." ;
+        ont:person   <http://dbpedia.org/resource/Saul_Steinberg> , <http://dbpedia.org/resource/James_Thurber> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/35/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Twenty million people I can't see?" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "million" , "Twenty" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/37/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was also a frequent presence at Hugh Hefner's Playboy Mansion and Playboy Clubs." ;
+        ont:person   <http://dbpedia.org/resource/Hugh_Hefner> ;
+        ont:place    <http://dbpedia.org/resource/Playboy_Mansion> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/86/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Twistable, Turnable Man: A Musical Tribute to the Songs of Shel Silverstein (Sugar Hill) (2010) (Tribute album)" ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/79/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Crouchin' on the Outside (Janus Records), collection of I'm So Good... and Drain My Brain (1973)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/85/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Best of Shel Silverstein: His Words His Songs His Friends (Legacy/Columbia]]/Sony BMG Music Entertainment]]) (2005) (released posthumously)" ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/78/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Freakin' at the Freakers Ball (Columbia/CBS Records) (1972)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He told Publishers Weekly: \"When I was a kid—12 to 14, I'd much rather have been a good baseball player or a hit with the girls, but I couldn't play ball." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "14" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/66/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "and Other Fantasies (HarperCollins, 2008 reissue)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "2008 reissue" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/28/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Other credits include the shorts De boom die gaf (based on his novel) and Lafcadio: The Lion Who Shot Back.His songs have been used in many TV shows and movies, including Almost Famous (\"The Cover of Rolling Stone\"), Thelma & Louise (\"The Ballad Of Lucy Jordan\") and Coal Miner's Daughter (\"One's on the Way\"), as well as the Dustin Hoffman film Who Is Harry Kellerman and Why Is He Saying Those Terrible Things About Me?" ;
+        ont:person          <http://dbpedia.org/resource/Dustin_Hoffman> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/16/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Devil and Billy Markham, published in Playboy in 1979, was later adapted into a solo one-act play that debuted on a double bill with Mamet's Bobby Gould in Hell (1989) with Dr. Hook vocalist Dennis Locorriere narrating." ;
+        ont:person          <http://dbpedia.org/resource/Bobby_Gould> , <http://dbpedia.org/resource/Dennis_Wilson> ;
+        ont:place           <http://dbpedia.org/resource/Markham_River> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1989" , "in 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/84/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Underwater Land (with Pat Dailey) (Olympia Records) (2002) (released posthumously)" ;
+        ont:place           <http://dbpedia.org/resource/Olympia_London> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein's cartoons appeared in issues of Playboy from 1957 through the mid-1970s, and one of his Playboy features was expanded into Uncle Shelby's ABZ Book (Simon & Schuster, 1961), his first book of new, original material for adults." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1961" , "from 1957" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In a Swiss village, he drew himself complaining, \"I'll give them 15 more minutes, and if nobody yodels, I'm going back to the hotel.\"" ;
+        ont:place           <http://dbpedia.org/resource/Switzerland> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "15" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The cartoon on the cover that provides the book's title would turn out to be one of his most famous and often-cited cartoons." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/83/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Light In the Attic (Columbia/CBS Records) (1985)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/76/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ned Kelly (United Artists) (1970) film soundtrack" ;
+        ont:person          <http://dbpedia.org/resource/Ned_Kelly> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/75/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Boy Named Sue and Other Country Songs (RCA Records) (1969)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/82/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Where the Sidewalk Ends (Columbia/CBS Records) (1984)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/38/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Shoshanna died of a cerebral aneurysm on April 24, 1982, at the age of 11." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "April 24 , 1982" , "age of 11" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/33/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A Light in the Attic, most remarkably, showed the kind of staying power on the New York Times chart—two years, to be precise—that most of the biggest names (John Grisham, Stephen King and Michael Crichton) have never equaled with their blockbusters." ;
+        ont:person   <http://dbpedia.org/resource/John_Grisham> , <http://dbpedia.org/resource/Michael_Crichton> , <http://dbpedia.org/resource/Stephen_I_of_Hungary> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Runny Babbit Returns (HarperCollins, 2017) (published posthumously)Silverstein believed that written works needed to be read on paper—the correct paper for the particular work." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A cartoon he made during the 1950s was featured on the cover of his next cartoon collection, titled Now Here's My Plan: A Book of Futilities, which was published by Simon & Schuster in 1960." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "in 1960" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/14/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Goodman also recorded Silverstein's \"Three-Legged Man\", as did Ray Stevens.In 2010, Bobby Bare and his son Bobby Bare Jr produced a CD called Twistable, Turnable Man: A Musical Tribute to the Songs of Shel Silverstein which was released on Sugar Hill Records." ;
+        ont:person          <http://dbpedia.org/resource/Jader_Volnei_Spindler> , <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "Ray Stevens.In 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His first book Take Ten, a compilation of his military Take Ten cartoon series, was published by Pacific Stars and Stripes in 1955." ;
+        ont:place           <http://dbpedia.org/resource/Pacific_Ocean> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "in 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He grew up in the Logan Square neighborhood of Chicago, where he attended Roosevelt High School." ;
+        ont:place    <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Logan_Square_station> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/37/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He never married, and according to the 2007 biography A Boy Named Shel, slept with \"hundreds, perhaps thousands of women\"." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "2007 biography" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/81/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Great Conch Train Robbery (Flying Fish Records) (1980)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/74/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Drain My Brain (Cadet Records) (1967)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Every Thing On It (HarperCollins, 2011) (published posthumously)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/55/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "and Other Fantasies (Simon & Schuster, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/31/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The relationship between Ursula Nordstrom and Shel Silverstein is mutually rewarding." ;
+        ont:person   <http://dbpedia.org/resource/Ursula_Nordstrom> , <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/54/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Macmillan, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/73/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I'm So Good That I Don't Have to Brag (Cadet Records) (1965)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/80/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Songs and Stories (Parachute Records) (1978)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein began drawing at age seven by tracing the works of Al Capp." ;
+        ont:person          <http://dbpedia.org/resource/Al_Capp> , <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Devil and Billy Markham (Playboy 25th Anniversary Issue, January 1979)" ;
+        ont:place           <http://dbpedia.org/resource/Markham_River> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "Playboy 25th" , "January 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/20>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "These illustrated travel essays were collected by the publisher Fireside in Playboy's Silverstein Around the World, published in 2007 with a foreword by Hugh Hefner and an introduction by music journalist Mitch Myers.In a similar vein were his illustrations for John Sack's Report from Practically Nowhere (1959), a collection of humorous travel vignettes previously appearing in Playboy and other magazines." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Mitch_Albom> , <http://dbpedia.org/resource/Hugh_Hefner> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1959" , "in 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/31/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Had he been surprised by the astronomical record of The Giving Tree, his biggest seller to date and one of the most successful children's books in years?" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/47/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Ballantine Books, 1956)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/28/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein wrote and narrated an animated short of The Giving Tree, first produced in 1973; a remake based on Silverstein's original screenplay but without his narration was released in 2015 by director Brian Brose." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "in 2015" , "in 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1984) were produced in New York." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/11/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Other songs co-written by Silverstein include \"The Taker\" written with Kris Kristofferson and recorded by Waylon Jennings, and a sequel to \"A Boy Named Sue\" titled \"Father of a Boy Named Sue\", which is less known, but he performed the song on television on The Johnny Cash Show." ;
+        ont:person   <http://dbpedia.org/resource/Kris_Kristofferson> , <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Waylon_Jennings> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/72/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Shel Silverstein's Stag Party (Crestview Records) (1963)" ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:place           <http://dbpedia.org/resource/Crestview,_Florida> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Runny Babbit (HarperCollins, 2005) (published posthumously)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Missing Piece (Harper & Row, 1976)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/18>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Employing a sketchbook format with typewriter-styled captions, he documented his own experiences at such locations as a New Jersey naturist community, the Chicago White Sox training camp, San Francisco's Haight-Ashbury, Fire Island, Mexico, London, Paris, Spain and Africa." ;
+        ont:place    <http://dbpedia.org/resource/Haight-Ashbury> , <http://dbpedia.org/resource/New_Jersey> , <http://dbpedia.org/resource/San_Francisco> , <http://dbpedia.org/resource/Mexico> , <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Spain> , <http://dbpedia.org/resource/Africa> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Inside Folk Songs (Atlantic Records) (1962)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Draw a Skinny Elephant (HarperCollins, 1998)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Where the Sidewalk Ends (Harper & Row, 1974) (first collection of poems)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/38/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Susan died on June 29, 1975, one day before Shoshanna's fifth birthday, and Shoshanna went to live with her uncle and aunt in Baltimore, Maryland." ;
+        ont:place           <http://dbpedia.org/resource/Maryland> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "one day" , "June 29 , 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/26/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The production was directed by Richard Traub of Chicago and starred several of Hofstra's most promising young actors: Nick Pacifico, Amanda Mac, Mike Quattrone, Ross Greenberg, Chelsea Lando, Allie Rightmeyer, and Paolo Perez as the MC.In December 2001, Shel's Shorts was produced in repertory as two separate evenings under the titles Signs of Trouble and Shel Shocked by the Market Theater in Cambridge, Massachusetts." ;
+        ont:person          <http://dbpedia.org/resource/Nick_Jonas> , <http://dbpedia.org/resource/Ross_Greenberg> ;
+        ont:place           <http://dbpedia.org/resource/Market_Theatre_(Johannesburg)> , <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Massachusetts> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "MC.In December 2001" , "repertory as two" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/12>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his time in the military, his cartoons were published in Pacific Stars and Stripes, where he had originally been assigned to do layouts and paste-up." ;
+        ont:place    <http://dbpedia.org/resource/Pacific_Ocean> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Falling Up (HarperCollins, 1996)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/70/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hairy Jazz (Elektra Records) (1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sheldon Allan Silverstein was born into a Jewish family in Chicago on September 25, 1930." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "September 25 , 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/35/15>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Johnny Carson?" ;
+        ont:person   <http://dbpedia.org/resource/Johnny_Carson> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "More Playboy's Teevee Jeebies (Playboy Press, 1965)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Uncle Shelby's ABZ Book (Simon & Schuster, 1960) (first book of original material for adults)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/44/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein was inducted into the Chicago Literary Hall of Fame in 2014." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Literary_Hall> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "in 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/37/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also owned homes in Martha's Vineyard, Massachusetts; Greenwich Village, New York; and Key West, Florida." ;
+        ont:place    <http://dbpedia.org/resource/Key_West> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Greenwich_Village> , <http://dbpedia.org/resource/Massachusetts> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/31/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"I like Uncle Shelby's ABZ, A Giraffe and a Half, and Lafcadio, the Lion Who Shot Back—I think I like that one the most.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Missing Piece Meets the Big O (Harper & Row, 1981)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Now Here's My Plan (Simon & Schuster, 1960) (first collection of American magazine cartoons)" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/11/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The third album by Tompall Glaser contained eight songs by Silverstein and three by Silverstein and others." ;
+        ont:person          <http://dbpedia.org/resource/Tompall_Glaser> , <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "eight" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/12/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The soundtrack of the 1970 film Ned Kelly features Silverstein songs performed by Waylon Jennings, Kris Kristofferson, and others." ;
+        ont:person          <http://dbpedia.org/resource/Kris_Kristofferson> , <http://dbpedia.org/resource/Ned_Kelly> , <http://dbpedia.org/resource/Waylon_Jennings> , <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1970 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/8/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Silverstein was both fascinated and distressed by the amount of analysis and commentary that almost immediately began to swirl around the cartoon." ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sheldon Allan Silverstein  (September 25, 1930 – May 10, 1999) was an American writer, poet, cartoonist, songwriter, and playwright." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "May 10 , 1999" , "September 25 , 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Light in the Attic (Harper & Row, 1981)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/54/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Who Wants a Cheap Rhinoceros?" ;
+        ont:place    <http://dbpedia.org/resource/Cheap_(ward)> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Take Ten (Pacific Stars and Stripes, 1955); reissued in paperback as Grab Your Socks!" ;
+        ont:place           <http://dbpedia.org/resource/Pacific_Ocean> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/42/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was nominated for an Academy Award and a Golden Globe Award for his song \"I'm Checkin' Out\" from the film Postcards from the Edge." ;
+        ont:person   <http://dbpedia.org/resource/The_Edge> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/30/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In an interview with Publishers Weekly in 1975, he was asked how he came to do children's books:" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "in 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Lady or the Tiger Show (1981) and Remember Crazy Zelda?" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein also wrote Cash's biggest hit, \"A Boy Named Sue\" as well as \"The Unicorn\", first recorded by Silverstein  in 1962 but better known in its version by The Irish Rovers." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/60/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Different Dances (Harper & Row, 1979)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Giving Tree (Harper & Row, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the 1950s and 1960s, he produced 23 installments called \"Shel Silverstein Visits...\" as a feature for Playboy." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1960s" , "23" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/68/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein's estate continues to control copyright permissions on his work and has blocked the quotations of that work in at least one biographical treatment." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/34/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "All three anthologies included Silverstein contributions." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Giraffe and a Half (Harper & Row, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/40/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was buried at Westlawn Cemetery in Norridge, Illinois." ;
+        ont:place    <http://dbpedia.org/resource/Norridge,_Illinois> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein reportedly met a woman from Sausalito named Susan Taylor Hastings at the Playboy Mansion, and they had a daughter named Shoshanna Jordan Hastings (born June 30, 1970)." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Jordan_Hastings> , <http://dbpedia.org/resource/Taylor_Pie> ;
+        ont:place           <http://dbpedia.org/resource/Hastings> , <http://dbpedia.org/resource/Playboy_Mansion> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "June 30 , 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/14/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The album features art by Silverstein.He was a friend of Chicago songwriter Steve Goodman, for whom he wrote the final verse of \"What Have You Done For Me Lately?\"" ;
+        ont:person   <http://dbpedia.org/resource/Steve_Goodman> ;
+        ont:place    <http://dbpedia.org/resource/Chicago> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"He was first published in the Roosevelt Torch, a student newspaper at Roosevelt University, where he studied English after leaving the Art Institute." ;
+        ont:person   <http://dbpedia.org/resource/Franklin_D._Roosevelt> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Uncle Shelby's Story of Lafcadio: The Lion Who Shot Back (Harper & Row, 1963) (first children's book)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/0/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was the recipient of two Grammy Awards as well as Golden Globe Award and Academy Award nominations." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "recipient of two" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein was posthumously inducted into the Nashville Songwriters Hall of Fame in 2002." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:place           <http://dbpedia.org/resource/Nashville,_Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "in 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From around 1967 to 1975, Silverstein lived on a houseboat in Sausalito, California." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1975" , "around 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/31/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "But The Giving Tree, which has been selling steadily since it appeared almost 10 years ago and has been translated into French, is not his own favorite among his books." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "10" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He wrote \"The Father of a Boy Named Sue\", in which he tells the story from the original song from the father's point of view, and the 1962 song \"Boa Constrictor\", sung by a person who is being swallowed by a snake (recorded by the folk group Peter, Paul, and Mary) as well as recorded by Johnny Cash for his 1966 album Everybody Loves a Nut." ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Cash> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1962 song" , "1966 album Everybody" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Playboy's Teevee Jeebies (Playboy Press, 1963)" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/11/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He co-wrote with Baxter Taylor \"Marie Laveau\", for which the songwriters received a 1975 BMI Award." ;
+        ont:person          <http://dbpedia.org/resource/Marie_Laveau> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Together with longtime friend and producer Ron Haffkine, Silverstein released \"Where the Sidewalk Ends\" on cassette in 1983, and as an LP phonograph record in 1984, winning the 1984 Grammy Award for Best Recording For Children." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/Ron_Haffkine> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1984" , "record in 1984" , "cassette in 1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/31/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was Tomi Ungerer, a friend of mine, who insisted—practically dragged me, kicking and screaming, into Ursula Nordstrom's office." ;
+        ont:person   <http://dbpedia.org/resource/Tomi_Ungerer> , <http://dbpedia.org/resource/Ursula_Nordstrom> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/12/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He wrote \"In the Hills of Shiloh\", a poignant song about the aftermath of the American Civil War, recorded by The New Christy Minstrels, Judy Collins, Bobby Bare, and others." ;
+        ont:person   <http://dbpedia.org/resource/Judy_Collins> , <http://dbpedia.org/resource/Jader_Volnei_Spindler> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One says to the other, \"Now here's my plan.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein's song \"A Boy Named Sue\" won a 1970 Grammy." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I would hope that people, no matter what age, would find something to identify with in my books, pick up one and experience a personal sense of discovery." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/28/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Silverstein co-wrote the screenplay for Things Change with David Mamet." ;
+        ont:person   <http://dbpedia.org/resource/Shel_Silverstein> , <http://dbpedia.org/resource/David_Mamet> ;
+        ont:subject  <http://dbpedia.org/resource/Shel_Silverstein> .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silverstein went on to write more than 100 one-act plays." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "than 100" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He wrote Tompall Glaser's highest-charting solo single \"Put Another Log on the Fire\", \"One's on the Way\" and \"Hey Loretta\" (both hits for Loretta Lynn, in 1971 and 1973 respectively), and \"25 Minutes to Go\", sung by Johnny Cash, about a man on Death Row with each line counting down one minute closer." ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Cash> , <http://dbpedia.org/resource/Loretta_Lynn> , <http://dbpedia.org/resource/Tompall_Glaser> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "in 1971" , "1973" , "25" , "one minute closer" , "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/38/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They had a son named Matthew De Ver (born November 10, 1984), who later became a New York City–based songwriter and producer.On June 25, 2019, two decades after Silverstein's death, The New York Times Magazine listed him among hundreds of artists whose material had been destroyed in the 2008 Universal Studios fire." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "two" , "November 10 , 1984" , "2008" , "June 25 , 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/33/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One can only marvel that he makes the time to respond so kindly to his friends' requests." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/5/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The edition included a foreword by Bill Mauldin.In 1957, Silverstein became one of the leading cartoonists in Playboy, which sent him around the world to create an illustrated travel journal with reports from far-flung locales." ;
+        ont:person          <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "Bill Mauldin.In 1957" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/98217/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This anthology was the second in a series, which also included Murder for Love (1996) and Murder and Obsession (1999)." ;
+        ont:subject         <http://dbpedia.org/resource/Shel_Silverstein> ;
+        ont:timeExpression  "1999" , "1996" .

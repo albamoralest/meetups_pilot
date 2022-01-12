@@ -6,37 +6,623 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1876457/12/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Paolo_Bonolis> ;
-        ont:place           "http://dbpedia.org/resource/Dominica" ;
-        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
-        ont:timeExpression  "In 2004" .
+<http://w3id.org/polifonia/pilot/meetups/1876457/10/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "I'm doing this not because I'm tired of life (I'm not) but as a gesture of dissent against the public who chose Io tu e le rose for the final night and against the commission that selected La rivoluzione." ;
+        ont:place    <http://dbpedia.org/resource/Io_(moon)> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
 
-<http://w3id.org/polifonia/pilot/meetups/1876457/3/2>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Dwayne_Johnson> , <http://dbpedia.org/resource/Antonio_Paoli> ;
-        ont:place           "http://dbpedia.org/resource/Italy" ;
-        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
-        ont:timeExpression  "one" .
+<http://w3id.org/polifonia/pilot/meetups/1876457/6/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During this period Tenco formed a strong friendship with the Genoese anarchist poet Riccardo Mannerini." ;
+        ont:place    <http://dbpedia.org/resource/Genoa> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
 
-<http://w3id.org/polifonia/pilot/meetups/1876457/27/0>
+<http://w3id.org/polifonia/pilot/meetups/1876457/2/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Luigi_Tenco> ;
-        ont:place           "http://dbpedia.org/resource/Canta_Province" ;
+        ont:excerpt         "Tenco was born in Cassine (province of Alessandria) in 1938, the son of Teresa Zoccola and Giuseppe Tenco." ;
+        ont:place           <http://dbpedia.org/resource/Cassine> , <http://dbpedia.org/resource/Province_of_Alessandria> ;
         ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
-        ont:timeExpression  "1972" .
+        ont:timeExpression  "in 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/13/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He describes Dalida as a woman: \"spoiled, neurotic, ignorant, who rejects the idea of being defeated in her profession as in private life\"." ;
+        ont:person   <http://dbpedia.org/resource/Dalida> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Luigi Tenco (21 March 1938 – 27 January 1967) was an Italian singer-songwriter." ;
+        ont:person          <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "21 March 1938" , "27 January 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The two were soon to become lovers." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The actual weapon might have been a Beretta 70, as it is possible to put a silencer on this type of gun (similar to a Walther PPK)." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "Beretta 70" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was released on the Italian record label Jolly as Side A of a 45 rpm, side B being \"Io lo so già\"." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "45 rpm" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/10/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Francesco De Gregori's album Bufalo Bill of 1976 contained a song, \"Festival\", about Tenco's suicide; it points out the hypocrisy with which the music establishment tried to minimize the dramatic event, to let the show go on." ;
+        ont:person          <http://dbpedia.org/resource/Francesco_De_Gregori> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "of 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/15/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The bullet trajectory" ;
+        ont:person   <http://dbpedia.org/resource/Bob_Armstrong> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/10/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tenco was found by Dalida in his hotel room with a bullet wound in his left temple and a note: \"I cared for the Italian public and I dedicated in vain five years of my life to them." ;
+        ont:person          <http://dbpedia.org/resource/Dalida> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In one of these letters, Tenco writes that his relationship with Dalida was nothing but a clumsy attempt to forget Valeria, who, months before, had left him." ;
+        ont:person          <http://dbpedia.org/resource/Dalida> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "In one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/17/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was journalist Piero Vivarelli who delivered the note to the police after having spent a few minutes in Dalida's room." ;
+        ont:person   <http://dbpedia.org/resource/Piero_Vivarelli> , <http://dbpedia.org/resource/Dalida> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
 
 <http://w3id.org/polifonia/pilot/meetups/1876457/8/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Moreover, under the military service one was not allowed to leave Italy and the punishment was detention, which he did not experience according to his service record book.In Rome during the same year, he met and befriended the Egyptian-Italian-French singer Dalida." ;
         ont:person          <http://dbpedia.org/resource/Dalida> ;
-        ont:place           "http://dbpedia.org/resource/Ancient_Rome" , "http://dbpedia.org/resource/Italy" ;
+        ont:place           <http://dbpedia.org/resource/Ancient_Rome> , <http://dbpedia.org/resource/Italy> ;
         ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
         ont:timeExpression  "one" .
 
+<http://w3id.org/polifonia/pilot/meetups/1876457/10/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Many of the most renowned Italian singer-songwriters from the 1970s explicitly declared the influence of Tenco on their work." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In September 1964, he released \"Ho capito che ti amo\", a song written by him with musical arrangement by Ezio Leoni." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "September 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1984: \"Serenella\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1960: \"Tell Me That You Love Me\"/\"Love Is Here to Stay\" (as Gordon Cliff)" ;
+        ont:person          <http://dbpedia.org/resource/Mike_Gordon> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/15/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "According to Italian experts, what had been thought to be the entry hole on the left temple was actually the exit site." ;
+        ont:place    <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The video of the performance is lost; however, the audio track, taken from the radio, survived.Tenco allegedly committed suicide on 27 January 1967, at the age of 28, after learning that his song had been eliminated from the final competition." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "age of 28" , "27 January 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/6/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Director Luigi Comencini considered Tenco for the role of Bube in his film La ragazza di Bube, based on Carlo Cassola's novel." ;
+        ont:person   <http://dbpedia.org/resource/Carlo_Cassola> , <http://dbpedia.org/resource/Luigi_Comencini> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1959: \"Vorrei sapere perché\"/\"Ieri\" (as Gigi Mai)" ;
+        ont:person          <http://dbpedia.org/resource/Gigi_Hadid> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1970: \"Vedrai vedrai\"/\"Ah... l'amore l'amore\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1967: \"Ciao amore, ciao\"/\"E se ci diranno\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1966: \"Lontano lontano\"/\"Ognuno è libero\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1968: \"Pensaci un po'\"/\"Il tempo dei limoni\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1959: \"Amore\"/\"Non so ancora\" (as Gigi Mai)" ;
+        ont:person          <http://dbpedia.org/resource/Gigi_Hadid> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Notwithstanding the account of Tenco and Dalida's love story on which the dramatization is based, at the beginning of the '90s Tenco's older brother Valentino met a woman, Valeria, who had in her possession several letters written by Tenco himself that would testify their love relationship started in 1964 and lasted until his death." ;
+        ont:person          <http://dbpedia.org/resource/Rudolph_Valentino> , <http://dbpedia.org/resource/Dalida> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "in 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1966: \"Se sapessi come fai\"/\"Un giorno dopo l'altro\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1967: \"Se stasera sono qui\"/\"Cara maestra\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1959: \"Mi chiedi solo amore\"/\"Senza parole\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1984: Luigi Tenco" ;
+        ont:person          <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/17/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He later confronted the songwriter who confessed that he took a gun because someone in the past few weeks had tried to drop him down a steep road near Santa Margherita Ligure while he was driving.The first witnesses who entered the room did not even see the suicide note." ;
+        ont:place    <http://dbpedia.org/resource/Santa_Margherita_Ligure> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/12/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Shortly after the quoted interview, Molinari died, killed by a thief." ;
+        ont:person   <http://dbpedia.org/resource/Edoardo_Molinari> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/8/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "How he managed to arrive in Argentina while his passport was still in possession of the Italian Army is unknown." ;
+        ont:place    <http://dbpedia.org/resource/Argentina> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1962: \"In qualche parte del mondo\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1965: \"Tu non hai capito niente\"/\"Non sono io\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/10/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1974, the Tenco Award was instituted, and has been held every year since in Sanremo." ;
+        ont:place           <http://dbpedia.org/resource/Sanremo> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "In 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1967: \"Io vorrei essere là\"/\"Io sono uno\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1959: \"Mai\"/\"Giurami tu\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1977: Agli amici cantautori" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The censors struck again in the following year, against his songs \"Io Sì\" (\"I Would\"), considered too sexually explicit, and \"Una Brava Ragazza\" (\"A Good Girl\"), where Tenco express his admiration for a '60s \"bad girl\"." ;
+        ont:person          <http://dbpedia.org/resource/Io_Shirai> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "'60s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1967: \"Guarda se io\"/\"Vedrai vedrai\"" ;
+        ont:place           <http://dbpedia.org/resource/Guarda_District> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1964: \"Ho capito che ti amo\"/\"Io lo so già\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1972: Luigi Tenco canta Tenco, De André, Jannacci, Bob Dylan" ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:place           <http://dbpedia.org/resource/Canta_Province> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1962: \"Come le altre\"/\"La mia geisha\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The song he presented was \"Ciao Amore Ciao\" (\"Bye, Bye my Love\"), which he sang together with Dalida." ;
+        ont:person   <http://dbpedia.org/resource/Dalida> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1967: \"Ti ricorderai\"/\"Angela\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1964: \"Ragazzo mio\"/\"No, non è vero\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1969: Pensaci un po'" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1966: TencoCompilations / Unreleased materials1972: Luigi Tenco" ;
+        ont:person          <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1961: \"Senza parole\"/\"In qualche parte del mondo\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Later he was enrolled in political science, where he only gave two exams." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/60/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1967: \"Quando\"/\"Mi sono innamorato di te\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1963: \"Io sì\"/\"Una brava ragazza\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1961: \"Quando\"/\"Se qualcuno ti dirà\"/\"Ti ricorderai\"/\"I miei giorni perduti\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1967: Se stasera sono qui" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1965: Luigi Tenco" ;
+        ont:person          <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "French journalist and novelist Philippe Brunel wrote a fiction book, La nuit de San Remo, in which he dramatizes the arduous search for truth about Tenco's death." ;
+        ont:person   <http://dbpedia.org/resource/Isambard_Kingdom_Brunel> ;
+        ont:place    <http://dbpedia.org/resource/Sanremo> , <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/13/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tenco was played by Alessandro Gassman, while Dalida was played by Sabrina Ferilli." ;
+        ont:person   <http://dbpedia.org/resource/Alessandro_Gassmann> , <http://dbpedia.org/resource/Dalida> , <http://dbpedia.org/resource/Sabrina_Ferilli> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1961 Tenco released his first single under his real name, entitled Quando (\"When\")." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "In 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1967: Ti ricorderai di me..." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1961: \"Ti ricorderai\"/\"Se qualcuno ti dirà\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1962: \"Quando\"/\"Il mio regno\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1962: Luigi Tenco" ;
+        ont:person          <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/17/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Music producer and friend Paolo Dossena stated that he drove Tenco's car from Rome (where the songwriter lived) to Sanremo and on the way, passing through a roadblock on the Aurelia, he discovered that Tenco had his Walther PPK in the dashboard of his car." ;
+        ont:place    <http://dbpedia.org/resource/Dossena> , <http://dbpedia.org/resource/Rome> , <http://dbpedia.org/resource/Sanremo> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The military service did not stop him from traveling to Argentina together with Gianfranco Reverberi to meet the fans of El amor tiene cara de mujer." ;
+        ont:person   <http://dbpedia.org/resource/Gian_Franco_Reverberi> ;
+        ont:place    <http://dbpedia.org/resource/Argentina> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gino Paoli, who would become one of Italy's most famous singers and songwriters as well, also played with Tenco in the band he was later involved in, I Diavoli del Rock (The Rock Devils)." ;
+        ont:person          <http://dbpedia.org/resource/Dwayne_Johnson> , <http://dbpedia.org/resource/Antonio_Paoli> ;
+        ont:place           <http://dbpedia.org/resource/Italy> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/10/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "On that morning Tenco and Dalida had privately announced their wedding to music producer Paolo Dossena.Tenco was buried in Ricaldone." ;
+        ont:person   <http://dbpedia.org/resource/Dalida> ;
+        ont:place    <http://dbpedia.org/resource/Ricaldone> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1962: \"Angela\"/\"Mi sono innamorato di te\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1961: \"Ti ricorderai\"/\"Quando\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "was said to be compatible with suicide.Nevertheless, criminologists Pasquale Ragone and Nicola Guarneri, in their book Le ombre del silenzio (The shadows of silence, 2013) pointed out several incongruencies between the shell casing of the bullet found in Tenco's room and the bullet Tenco's Walther PPK gun would eject." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of the songs, \"Cara Maestra\" (\"Dear Teacher\"), was censored by the then-thriving Italian media censorship." ;
+        ont:place           <http://dbpedia.org/resource/Italy> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It has been rumored that Luigi Tenco was the fruit of the extramarital relationship of his mother and the sixteen-year-old son of the wealthy family for whom she worked at the time." ;
+        ont:person   <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1962: \"Quello che conta\"/\"Tra tanta gente\"/\"La ballata dell'eroe\"" ;
+        ont:place           <http://dbpedia.org/resource/Tanta> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1961: \"Una vita inutile\"/\"Ti ricorderai\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 15 February 2006, Italian police exhumed Tenco's body for further investigation." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "15 February 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1962 he began a short-lived cinematic experience, with Luciano Salce's movie La Cuccagna." ;
+        ont:person          <http://dbpedia.org/resource/Luciano_Salce> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "In 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1961: \"Quando\"/\"Triste sera\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1961" .
+
 <http://w3id.org/polifonia/pilot/meetups/1876457/21/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1999, the play Solitudini – Luigi Tenco e Dalida, written and directed by Maurizio Valtieri, was performed in Rome." ;
         ont:person          <http://dbpedia.org/resource/Luigi_Tenco> , <http://dbpedia.org/resource/Dalida> ;
-        ont:place           "http://dbpedia.org/resource/Rome" ;
+        ont:place           <http://dbpedia.org/resource/Rome> ;
         ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
         ont:timeExpression  "In 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/14/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Italian judicial system later began re-examining Luigi Tenco's suicide." ;
+        ont:person   <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He twice failed the Analytic and Projective Geometry exam (a course he took with professor Eugenio Giuseppe Togliatti, the elder brother of the leader of the communist party Palmiro Togliatti)." ;
+        ont:person   <http://dbpedia.org/resource/Palmiro_Togliatti> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1961: \"Il mio regno\"/\"I miei giorni perduti\"" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2005, the French television channel TV5 carried a full-length dramatization of the love affair of Tenco and Dalida." ;
+        ont:person          <http://dbpedia.org/resource/Dalida> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "In 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "== 1967 Sanremo Festival and his death ==" ;
+        ont:place           <http://dbpedia.org/resource/Sanremo> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1960: \"Quando\"/\"Sempre la stessa storia\" (as Dick Ventuno)" ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2004, on TV program Domenica in, the detective who followed the inquiry, commissario Arrigo Molinari, when asked by host Paolo Bonolis, stated that he was sure that Tenco did not commit suicide and he defined his death: \"a collective murder\"." ;
+        ont:person          <http://dbpedia.org/resource/Paolo_Bonolis> ;
+        ont:place           <http://dbpedia.org/resource/Dominica> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "In 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1966, enduring a period of compulsory military service, he released Un Giorno Dopo L'Altro (One Day after Another) for RCA." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "One" , "In 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During high school, Tenco founded the Jelly Roll Morton Boys Jazz band, in which Tenco played the clarinet and another singer, later to become famous, Bruno Lauzi, the banjo." ;
+        ont:person   <http://dbpedia.org/resource/Jelly_Roll_Morton> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1963, however, his friendship with Gino Paoli broke up, due to a troubled relationship with the actress Stefania Sandrelli." ;
+        ont:person          <http://dbpedia.org/resource/Enrico_Lo_Verso> , <http://dbpedia.org/resource/Stefania_Sandrelli> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "In 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tenco's first LP, Ballate E Canzoni, was released in 1962." ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1967, Tenco took part in the Italian Song Festival in Sanremo." ;
+        ont:place           <http://dbpedia.org/resource/Sanremo> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "In 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/13/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Valentino Tenco identified those letters as written by his brother." ;
+        ont:person   <http://dbpedia.org/resource/Rudolph_Valentino> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tenco made his debut in the world of Italian professional music with the band I Cavalieri (The Knights), which included Giampiero Reverberi and Enzo Jannacci amongst others." ;
+        ont:person   <http://dbpedia.org/resource/Enzo_Jannacci> ;
+        ont:place    <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/16/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In fact, the night Tenco died (allegedly in his hotel room), no one heard the sound of the gunshot, not even singer Lucio Dalla, whose room was next to Tenco's, nor did journalist Sandro Ciotti, whose room was in front of Tenco's." ;
+        ont:person          <http://dbpedia.org/resource/Lucio_Dalla> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/7/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In Argentina, \"Ho capito che ti amo\" was the soundtrack of the popular soap opera El amor tiene cara de mujer." ;
+        ont:place    <http://dbpedia.org/resource/Argentina> ;
+        ont:subject  <http://dbpedia.org/resource/Luigi_Tenco> .
+
+<http://w3id.org/polifonia/pilot/meetups/1876457/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tenco spent his childhood in Cassine and Ricaldone until 1948, when he moved to Liguria, first to Nervi and then to Genoa, where his mother had a wine shop called Enos in the quarter of La Foce." ;
+        ont:place           <http://dbpedia.org/resource/Cassine> , <http://dbpedia.org/resource/Ricaldone> , <http://dbpedia.org/resource/Genoa> , <http://dbpedia.org/resource/Enez> , <http://dbpedia.org/resource/Liguria> , <http://dbpedia.org/resource/Nervi> ;
+        ont:subject         <http://dbpedia.org/resource/Luigi_Tenco> ;
+        ont:timeExpression  "until 1948" .

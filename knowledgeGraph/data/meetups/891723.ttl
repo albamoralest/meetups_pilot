@@ -6,44 +6,407 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/891723/4/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Woody_Herman> ;
-        ont:place           "http://dbpedia.org/resource/Las_Vegas" ;
-        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
-        ont:timeExpression  "1969" .
-
 <http://w3id.org/polifonia/pilot/meetups/891723/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Robert Roland Chudnick (September 27, 1927 – May 27, 1994), known professionally as Red Rodney, was an American jazz trumpeter." ;
         ont:person          <http://dbpedia.org/resource/Red_Rodney> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
         ont:timeExpression  "September 27 , 1927" , "May 27 , 1994" .
 
-<http://w3id.org/polifonia/pilot/meetups/891723/2/0>
+<http://w3id.org/polifonia/pilot/meetups/891723/52/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Elliot_Lawrence> , <http://dbpedia.org/resource/Georgie_Auld> , <http://dbpedia.org/resource/Les_Brown_(bandleader)> , <http://dbpedia.org/resource/Jimmy_Dorsey> , <http://dbpedia.org/resource/Jerry_Wald> , <http://dbpedia.org/resource/Benny_Goodman> ;
-        ont:place           "http://dbpedia.org/resource/Pennsylvania" , "http://dbpedia.org/resource/Philadelphia" ;
+        ont:excerpt         "The Penguin Guide to Jazz on CD, sixth Edition, London, Penguin, 2002, ISBN 0140515216" ;
+        ont:place           <http://dbpedia.org/resource/London> ;
         ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
-        ont:timeExpression  "musician at 15" .
+        ont:timeExpression  "2002" , "ISBN 0140515216" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/51/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Penguin Guide to Jazz, New Edition, London, Penguin, 1994" ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1980 to 1982, Rodney made five albums with Sullivan." ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "five" , "1982" , "From 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/55/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Red Rodney at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:subject  <http://dbpedia.org/resource/Red_Rodney> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/54/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Red Rodney discography at Discogs" ;
+        ont:person   <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:subject  <http://dbpedia.org/resource/Red_Rodney> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Claude Thornhill, The Uncollected Claude Thornhill and His Orchestra (Hindsight, 1977)" ;
+        ont:person          <http://dbpedia.org/resource/Claude_Thornhill> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bob Thiele, Louis Satchmo (Red Baron, 1992)" ;
+        ont:person          <http://dbpedia.org/resource/Louis_Armstrong> , <http://dbpedia.org/resource/Bob_Thiele> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1992" .
 
 <http://w3id.org/polifonia/pilot/meetups/891723/39/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lee Konitz, Live at Laren (Soul Note, 1984)" ;
         ont:person          <http://dbpedia.org/resource/Lee_Konitz> ;
-        ont:place           "http://dbpedia.org/resource/Laren,_North_Holland" ;
+        ont:place           <http://dbpedia.org/resource/Laren,_North_Holland> ;
         ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
         ont:timeExpression  "1984" .
 
-<http://w3id.org/polifonia/pilot/meetups/891723/4/0>
+<http://w3id.org/polifonia/pilot/meetups/891723/45/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ira Sullivan, Ira Sullivan Does It All (Muse, 1983)" ;
         ont:person          <http://dbpedia.org/resource/Ira_Sullivan> ;
-        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
         ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
-        ont:timeExpression  "1950s" .
+        ont:timeExpression  "1983" .
 
 <http://w3id.org/polifonia/pilot/meetups/891723/38/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Clifford Jordan, Dr. Chicago (Bee Hive, 1985)" ;
         ont:person          <http://dbpedia.org/resource/Clifford_Jordan> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
         ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
         ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ali Ryerson, Blue Flute (Red Baron, 1992)" ;
+        ont:person          <http://dbpedia.org/resource/Ali_Ryerson> , <http://dbpedia.org/resource/Manfred_von_Richthofen> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Woody Herman, The Fourth Herd (Jazzland, 1960)" ;
+        ont:person          <http://dbpedia.org/resource/Woody_Herman> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/5/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "While jailed he gave music lessons to guitarist Wayne Kramer of the MC5.He reunited with Ira Sullivan and performed with Dizzy Gillespie." ;
+        ont:person   <http://dbpedia.org/resource/Ira_Sullivan> , <http://dbpedia.org/resource/Wayne_Kramer_(guitarist)> , <http://dbpedia.org/resource/Dizzy_Gillespie> ;
+        ont:subject  <http://dbpedia.org/resource/Red_Rodney> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fresh Air on WHYY, December 30, 2002" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "December 30 , 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Charlie Parker, Swedish Schnapps (Verve, 1958)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Parker> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dizzy Gillespie, To Diz with Love (Telarc, 1992)" ;
+        ont:person          <http://dbpedia.org/resource/Dizzy_Gillespie> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Red Giant (SteepleChase, 1988)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Charlie Parker, Bird at St. Nick's (Jazz Workshop, 1957)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Parker> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alive in New York (Muse, 1986)" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Elliot Lawrence, The Uncollected Elliot Lawrence and His Orchestra 1946 (Hindsight, 1982)" ;
+        ont:person          <http://dbpedia.org/resource/Elliot_Lawrence> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1946" , "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Then and Now (Chesky, 1992)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Social Call with Charlie Rouse  (Uptown, 1984)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Rouse> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He provided an early showcase for saxophonist Chris Potter, who was a member of his group and only 19 years old when Rodney recorded Red Alert in late 1990." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Potter_(jazz_saxophonist)> , <http://dbpedia.org/resource/Kool_DJ_Red_Alert> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "19" , "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hi Jinx at the Vanguard (Muse, 1984)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gene Krupa, Gene Krupa's Sidekicks (Columbia, 1955)" ;
+        ont:person          <http://dbpedia.org/resource/Gene_Krupa> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Code Red (Continuum, 1989)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Michael Zelniker played him in the movie." ;
+        ont:person   <http://dbpedia.org/resource/Michael_Zelniker> ;
+        ont:subject  <http://dbpedia.org/resource/Red_Rodney> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Red, White and Blues (Muse, 1978)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Muse, 1974)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "No Turn on Red (Denon, 1989)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1975 he was incarcerated in Sandstone, Minnesota for drug offenses." ;
+        ont:place           <http://dbpedia.org/resource/Minnesota> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "In 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sprint (Elektra Musician, 1983)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Yard's Pad (Sonet, 1976)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Similar work continued through 1972." ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "through 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Red Giant (SteepleChase, 1988)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The 3R's Richie Cole and Ricky Ford (Muse, 1982)" ;
+        ont:person          <http://dbpedia.org/resource/Richie_Cole_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "3R" , "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Red Tornado (Muse, 1976)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Being the only white member of the group, when playing in the southern United States he was billed as \"Albino Red\" as a ruse to avoid prejudice against mixed race musical combos." ;
+        ont:place    <http://dbpedia.org/resource/Southern_United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Red_Rodney> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Red Snapper (SteepleChase, 1988)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Spirit Within with Ira Sullivan (Elektra Musician, 1982)" ;
+        ont:person          <http://dbpedia.org/resource/Ira_Sullivan> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Red Rodney with the Bebop Preservation Society (Spotlite, 1975)" ;
+        ont:person          <http://dbpedia.org/resource/Red_Rodney> , <http://dbpedia.org/resource/Bill_Le_Sage> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Night and Day (Muse, 1981)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Superbop (Muse, 1974)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/5/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He performed on a Charlie Parker tribute album by Charlie Watts, drummer for the Rolling Stones." ;
+        ont:person   <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/Charlie_Watts> ;
+        ont:subject  <http://dbpedia.org/resource/Red_Rodney> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He worked as an adviser for Bird, a movie about Charlie Parker directed by Clint Eastwood." ;
+        ont:person   <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/Clint_Eastwood> ;
+        ont:subject  <http://dbpedia.org/resource/Red_Rodney> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live at the Village Vanguard (Muse, 1980)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Home Free (Muse, 1979)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Broadway (Status, 1965)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He became addicted to heroin and started a pattern of dropping in and out of jazz.During 1969, Rodney played in Las Vegas with fellow Woody Herman colleague, trombonist Bill Harris, as part of the Flamingo casino house band led by Russ Black." ;
+        ont:person          <http://dbpedia.org/resource/Woody_Herman> ;
+        ont:place           <http://dbpedia.org/resource/Las_Vegas> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Red Rodney Returns (Argo, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "and was a member of the band from 1949 to 1951." ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "band from 1949" , "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Red Rodney: 1957 (Savoy, 1957)" ;
+        ont:person          <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rodney died on May 27, 1994, from lung cancer." ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "May 27 , 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was inspired by hearing Dizzy Gillespie and Charlie Parker to change his style to bebop, moving on to play with Claude Thornhill, Gene Krupa, and Woody Herman." ;
+        ont:person   <http://dbpedia.org/resource/Woody_Herman> , <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/Gene_Krupa> , <http://dbpedia.org/resource/Dizzy_Gillespie> , <http://dbpedia.org/resource/Claude_Thornhill> ;
+        ont:subject  <http://dbpedia.org/resource/Red_Rodney> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Modern Music from Chicago (Fantasy, 1956)" ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He continued to work and record into the 1990s." ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He performed at Jazz at Lincoln Center and the JVC Jazz Festival." ;
+        ont:place    <http://dbpedia.org/resource/Lincoln_Center> ;
+        ont:subject  <http://dbpedia.org/resource/Red_Rodney> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the early 1970s he was bankrupted by medical costs following a stroke." ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the 1950s, he worked as a bandleader in Philadelphia and recorded with Ira Sullivan." ;
+        ont:person          <http://dbpedia.org/resource/Ira_Sullivan> ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He accepted an invitation from Charlie Parker to join his quintet." ;
+        ont:person   <http://dbpedia.org/resource/Charlie_Parker> ;
+        ont:subject  <http://dbpedia.org/resource/Red_Rodney> .
+
+<http://w3id.org/polifonia/pilot/meetups/891723/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Born in Philadelphia, Pennsylvania, he became a professional musician at 15, working in the mid-1940s for the big bands of Jerry Wald, Jimmy Dorsey, Georgie Auld, Elliot Lawrence, Benny Goodman, and Les Brown." ;
+        ont:person          <http://dbpedia.org/resource/Elliot_Lawrence> , <http://dbpedia.org/resource/Georgie_Auld> , <http://dbpedia.org/resource/Les_Brown_(bandleader)> , <http://dbpedia.org/resource/Jimmy_Dorsey> , <http://dbpedia.org/resource/Jerry_Wald> , <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:place           <http://dbpedia.org/resource/Pennsylvania> , <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject         <http://dbpedia.org/resource/Red_Rodney> ;
+        ont:timeExpression  "musician at 15" .

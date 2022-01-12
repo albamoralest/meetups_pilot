@@ -6,30 +6,142 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/50937756/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1929: Une seule nuit, 9 March" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "9" , "1929" .
+
 <http://w3id.org/polifonia/pilot/meetups/50937756/15/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Paul Fort et les chroniques de France, Mercure de France, 15 September" ;
         ont:person          <http://dbpedia.org/resource/Paul_Fort> ;
-        ont:place           "http://dbpedia.org/resource/France" ;
+        ont:place           <http://dbpedia.org/resource/France> ;
         ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
         ont:timeExpression  "15" .
 
-<http://w3id.org/polifonia/pilot/meetups/50937756/9/0>
+<http://w3id.org/polifonia/pilot/meetups/50937756/16/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Erté> ;
-        ont:place           "http://dbpedia.org/resource/Poum" ;
+        ont:excerpt         "1927: La Teresina, three-act operetta, music by Oscar Straus, M. Eschig" ;
+        ont:place           <http://dbpedia.org/resource/Teresina> ;
         ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
-        ont:timeExpression  "23" , "1935" .
+        ont:timeExpression  "1927" .
 
-<http://w3id.org/polifonia/pilot/meetups/50937756/11/0>
+<http://w3id.org/polifonia/pilot/meetups/50937756/5/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Joan_of_France,_Duchess_of_Berry> ;
-        ont:place           "http://dbpedia.org/resource/Ans" , "http://dbpedia.org/resource/Bordeaux" ;
+        ont:excerpt         "1928: La Rose de Stamboul, 26 January" ;
         ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
-        ont:timeExpression  "in 1875" , "8 tableaux" , "lyrique in 4" , "5–8 May 1929" , "10 May 1931" .
+        ont:timeExpression  "1928" , "26" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alphonse Marius Gossez, Les Poètes du XXe, Eugène Figuière, 1929, p. 253" ;
+        ont:person          <http://dbpedia.org/resource/Gaius_Marius> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "1929" , "253" .
 
 <http://w3id.org/polifonia/pilot/meetups/50937756/23/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Le Sommeil de Racine, one-act play in verse, Revue française, 8 February 1925 ; Paris, Odéon, 22 December 1924" ;
         ont:person          <http://dbpedia.org/resource/Jean_Racine> ;
-        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
         ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
-        ont:timeExpression  "22 December 1924" , "8 February 1925" .
+        ont:timeExpression  "8 February 1925" , "22 December 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1927: Un théâtre national en France." ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1927: La Teresina, 4 May" ;
+        ont:place           <http://dbpedia.org/resource/Teresina> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "1927" , "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1927: Odyl, with a présentation by Paul Fort, Eugène Figuière" ;
+        ont:person          <http://dbpedia.org/resource/Paul_Fort> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1937: La Prière sur le tombeau, preface by Léon Frapié, Chanth" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1926: La Dernière valse, 5 May, three-act operetta, French adaptation of Der letzte Walzer on a music by Oscar Straus." ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "1926" , "5" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1950: La Dernière Valse, three-act operetta, libretto by Léon Uhl and Jean Marietti, music by Oscar Straus, M. Eschig" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1935: Lady Poum, 23 February, French adaptation of Die Erte Beste" ;
+        ont:person          <http://dbpedia.org/resource/Erté> ;
+        ont:place           <http://dbpedia.org/resource/Poum> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "1935" , "23" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Léon Uhl on ECMF (1918–1944" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "1918–1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Arlequin, rival de Don Juan, one-act play, Théâtre Athéna, 22 April 1931" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "22 April 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1932: Mariage à Hollywood, 2 March, operetta in 4 tableaux, French adaptation of Hochzeit in Hollywood on a music by Oscar Straus." ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "4 tableaux" , "2" , "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jeanne de France, mystère lyrique in 4 acts and 8 tableaux, poem by Léon Uhl, music by Jean Nouguès (operas composer born in Bordeaux in 1875), Orléans, 5–8 May 1929, Gaîté Lyrique, 10 May 1931" ;
+        ont:person          <http://dbpedia.org/resource/Joan_of_France,_Duchess_of_Berry> ;
+        ont:place           <http://dbpedia.org/resource/Ans> , <http://dbpedia.org/resource/Bordeaux> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "in 1875" , "8 tableaux" , "lyrique in 4" , "5–8 May 1929" , "10 May 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Léon Uhl (19 May 1889 in Paris – ? )" ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "19 May 1889" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1930: La Belle inconnue, 1 January" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_Uhl> ;
+        ont:timeExpression  "1930" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/33/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Cent ans de Mise en scène" ;
+        ont:place    <http://dbpedia.org/resource/Ans> ;
+        ont:subject  <http://dbpedia.org/resource/Léon_Uhl> .
+
+<http://w3id.org/polifonia/pilot/meetups/50937756/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dante, in collaboration with Jean Sardou at the Grand Théâtre de Bordeaux." ;
+        ont:person   <http://dbpedia.org/resource/Dante_Alighieri> ;
+        ont:place    <http://dbpedia.org/resource/Bordeaux> ;
+        ont:subject  <http://dbpedia.org/resource/Léon_Uhl> .

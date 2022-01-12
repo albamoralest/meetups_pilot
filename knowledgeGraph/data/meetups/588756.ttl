@@ -6,44 +6,172 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/588756/3/0>
+<http://w3id.org/polifonia/pilot/meetups/588756/3/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> , <http://dbpedia.org/resource/Steve_Hunt> ;
-        ont:place           "http://dbpedia.org/resource/Mars" ;
+        ont:excerpt         "Russell led the NRG Ensemble until his death.In addition to the NRG Ensemble, Russell always maintained several auxiliary bands, a partnership with pianist Joel Futterman, the rock-oriented trio NRG 3 with Ed Ludwig on drums and Noel Kupersmith on bass, and The Flying Luttenbachers with Chad Organ on tenor sax and Weasel Walter on drums.Cited by some as a missing link between the AACM and later Chicago free jazz, Russell was experiencing greater public awareness before his death." ;
+        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> , <http://dbpedia.org/resource/Noel_Gallagher> , <http://dbpedia.org/resource/Weasel_Walter> ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Chad> ;
         ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
-        ont:timeExpression  "In 1979" .
+        ont:timeExpression  "NRG 3" .
 
 <http://w3id.org/polifonia/pilot/meetups/588756/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hal Russell  (born Harold Russell Luttenbacher, August 28, 1926 – September 5, 1992) was an American free jazz composer, band leader and mult-instrumentalist who performed mainly on saxophone and drums but occasionally on trumpet or vibraphone." ;
         ont:person          <http://dbpedia.org/resource/Hal_Russell> , <http://dbpedia.org/resource/Harold_Russell> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
         ont:timeExpression  "August 28 , 1926" , "September 5 , 1992" .
 
-<http://w3id.org/polifonia/pilot/meetups/588756/2/0>
+<http://w3id.org/polifonia/pilot/meetups/588756/7/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> , <http://dbpedia.org/resource/Woody_Herman> ;
-        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Detroit" , "http://dbpedia.org/resource/Illinois" , "http://dbpedia.org/resource/Chicago" ;
+        ont:excerpt         "Eftsoons (Nessa, 1981) – with Mars Williams" ;
+        ont:place           <http://dbpedia.org/resource/Mars> ;
         ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
-        ont:timeExpression  "four" .
+        ont:timeExpression  "1981" .
 
-<http://w3id.org/polifonia/pilot/meetups/588756/0/3>
+<http://w3id.org/polifonia/pilot/meetups/588756/13/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:excerpt         "Naked Colours (Silkheart, 1991 [1994]) – with Joel Futterman" ;
         ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
-        ont:timeExpression  "1990s" .
+        ont:timeExpression  "1994 ]" , "1991 [" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/3/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the late 1980s, the group began playing frequently in Europe, and began recording for ECM with The Finnish/Swiss Tour." ;
+        ont:place    <http://dbpedia.org/resource/Europe> ;
+        ont:subject  <http://dbpedia.org/resource/Hal_Russell> .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "NRG Ensemble (Nessa, 1981) – with NRG Ensemble" ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albert's Lullaby (Southport, 1991, issued 2000) - with Michael Staron" ;
+        ont:place           <http://dbpedia.org/resource/Southport> ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "2000" , "1991" .
 
 <http://w3id.org/polifonia/pilot/meetups/588756/2/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1959, he joined the Joe Daley Trio, whose Newport' 1963, which was mostly studio material, was reputedly one of the earliest free jazz records.In the early 1970s, Russell was the regular percussionist for the band at the suburban Chicago Candlelight Dinner Playhouse." ;
         ont:person          <http://dbpedia.org/resource/Joe_Daley_(ice_hockey)> , <http://dbpedia.org/resource/Bertrand_Russell> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" , "http://dbpedia.org/resource/Liverpool_Playhouse" ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Liverpool_Playhouse> ;
         ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
         ont:timeExpression  "1970s" , "In 1959" , "one" , "1963" .
 
-<http://w3id.org/polifonia/pilot/meetups/588756/3/4>
+<http://w3id.org/polifonia/pilot/meetups/588756/3/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> , <http://dbpedia.org/resource/Noel_Gallagher> , <http://dbpedia.org/resource/Weasel_Walter> ;
-        ont:place           "http://dbpedia.org/resource/Chad" , "http://dbpedia.org/resource/Chicago" ;
+        ont:excerpt         "Russell finally issued his first album in 1981 for the Nessa label." ;
+        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> ;
         ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
-        ont:timeExpression  "NRG 3" .
+        ont:timeExpression  "album in 1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Finnish/Swiss Tour (ECM, 1991) – with NRG Ensemble" ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Elixir (Atavistic, 1979, issued 2001)" ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1979" , "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hal on Earth (Abduction, 1989) – with NRG Ensemble" ;
+        ont:place           <http://dbpedia.org/resource/Earth> ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         ": Live at WNUR 2-6-92 (ugEXPLODE, 1992)" ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Russell set the table for the free improv and free jazz scene which exploded later in the 1990s in Chicago." ;
+        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1950s he worked with musicians including Miles Davis, Billie Holiday, Sonny Rollins, John Coltrane, and Duke Ellington." ;
+        ont:person          <http://dbpedia.org/resource/John_Coltrane> , <http://dbpedia.org/resource/Miles_Davis> , <http://dbpedia.org/resource/Duke_Ellington> , <http://dbpedia.org/resource/Sonny_Rollins> , <http://dbpedia.org/resource/Billie_Holiday> ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1979, Russell formed the NRG Ensemble, which for most of its existence featured saxophonist Mars Williams, multi-instrumentalist Brian Sandstrom, and percussionist Steve Hunt, among others." ;
+        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> , <http://dbpedia.org/resource/Steve_Hunt> ;
+        ont:place           <http://dbpedia.org/resource/Mars> ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "In 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His music was so accessible that People magazine hailed The Finnish Swiss Tour on ECM as one of its top 5 albums of the year." ;
+        ont:place           <http://dbpedia.org/resource/Finland> ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "as one" , "5" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Born in Detroit, Michigan, United States, and raised in Chicago, Illinois, from the eighth grade, Russell began playing drums at age four, but majored in trumpet at college; he subsequently drummed in several big bands, including those of Woody Herman and Boyd Raeburn.As with many young players in the mid-1940s, Russell's life was irreversibly changed by bebop." ;
+        ont:person          <http://dbpedia.org/resource/Woody_Herman> , <http://dbpedia.org/resource/Bertrand_Russell> ;
+        ont:place           <http://dbpedia.org/resource/Detroit> , <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Illinois> ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Conserving NRG (Principally Jazz, 1984) – with NRG Ensemble" ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Hal Russell Story (ECM, 1993) – with NRG EnsembleWith The Flying Luttenbachers" ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Just after completing the semi-autobiographical album The Hal Russell Story, Russell died of a heart attack in September 1992." ;
+        ont:person          <http://dbpedia.org/resource/Bertrand_Russell> ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "September 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Russel's fiery music was marked by significant humor, not unlike much of Dutch drummer Han Bennink's output." ;
+        ont:person   <http://dbpedia.org/resource/Han_Bennink> ;
+        ont:subject  <http://dbpedia.org/resource/Hal_Russell> .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hal's Bells (ECM, 1992)" ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Generation (Nessa, 1982) – with NRG Ensemble & Charles Tyler" ;
+        ont:person          <http://dbpedia.org/resource/Charles_Tyler> ;
+        ont:subject         <http://dbpedia.org/resource/Hal_Russell> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/588756/2/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At the same time he would host many young jazz musicians for jam sessions at his home, or in Chicago nightclubs." ;
+        ont:place    <http://dbpedia.org/resource/Chicago> ;
+        ont:subject  <http://dbpedia.org/resource/Hal_Russell> .

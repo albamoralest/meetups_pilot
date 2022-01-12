@@ -6,65 +6,441 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1254005/12/0>
+<http://w3id.org/polifonia/pilot/meetups/1254005/5/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
-        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:excerpt         "At 15, he was hired as the principal cellist for the Bolshoi Theater." ;
+        ont:place           <http://dbpedia.org/resource/Bolshoi_Theatre> ;
         ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
-        ont:timeExpression  "in 1976" .
+        ont:timeExpression  "At 15" .
 
-<http://w3id.org/polifonia/pilot/meetups/1254005/9/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Leopold_Mozart> , <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Willem_Mengelberg> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
-        ont:timeExpression  "In 1929" .
-
-<http://w3id.org/polifonia/pilot/meetups/1254005/42/2>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Tigran_Petrosian> , <http://dbpedia.org/resource/Paul_Keres> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
-        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
-        ont:timeExpression  "In 1963" .
-
-<http://w3id.org/polifonia/pilot/meetups/1254005/51/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
-        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
-        ont:timeExpression  "1988" .
-
-<http://w3id.org/polifonia/pilot/meetups/1254005/11/2>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
-        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" ;
-        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
-        ont:timeExpression  "1965" , "1930s.In" .
+<http://w3id.org/polifonia/pilot/meetups/1254005/11/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Piatigorsky participated in a chamber group with Arthur Rubinstein (piano), William Primrose (viola) and Jascha Heifetz (violin)." ;
+        ont:person   <http://dbpedia.org/resource/William_Primrose> , <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Jascha_Heifetz> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
 
 <http://w3id.org/polifonia/pilot/meetups/1254005/9/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In Ann Arbor, Michigan, in January 1937 he married Jacqueline de Rothschild, daughter of Édouard Alphonse James de Rothschild of the wealthy Rothschild banking family of France." ;
         ont:person          <http://dbpedia.org/resource/Alphonse_James_de_Rothschild> , <http://dbpedia.org/resource/Jacqueline_Piatigorsky> ;
-        ont:place           "http://dbpedia.org/resource/Kingdom_of_France" ;
+        ont:place           <http://dbpedia.org/resource/Kingdom_of_France> ;
         ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
         ont:timeExpression  "January 1937" .
 
+<http://w3id.org/polifonia/pilot/meetups/1254005/49/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "McFarland." ;
+        ont:person   <http://dbpedia.org/resource/T._J._McFarland> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
 <http://w3id.org/polifonia/pilot/meetups/1254005/10/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1941 to 1949, Piatigorsky was head of the cello department at the Curtis Institute of Music in Philadelphia, and he also taught at Tanglewood, Boston University, and the University of Southern California, the last of which he remained associated with until his death." ;
         ont:person          <http://dbpedia.org/resource/Jamie_Lee_Curtis> , <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
-        ont:place           "http://dbpedia.org/resource/Philadelphia" , "http://dbpedia.org/resource/Tanglewood" ;
+        ont:place           <http://dbpedia.org/resource/Tanglewood> , <http://dbpedia.org/resource/Philadelphia> ;
         ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
-        ont:timeExpression  "From 1941" , "1949" .
+        ont:timeExpression  "1949" , "From 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After seeing and hearing the cello, he was determined to become a cellist and was given his first cello when he was seven." ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/48/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "117 (1604): 849." ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "1604" , "117" , "849" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/42/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A second Piatigorsky Cup was held in Santa Monica in 1966, and was won by Boris Spassky." ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Boris_Spassky> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of the women was a heavy-set soprano who, when the border guards started shooting at them, grabbed Piatigorsky and his cello." ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/46/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Limited edition reprint: Da Capo Press (1976)." ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Shortly afterwards, he started playing in the Lenin Quartet." ;
+        ont:person   <http://dbpedia.org/resource/Vladimir_Lenin> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1929, Piatigorsky first visited the United States, playing with the Philadelphia Orchestra under Leopold Stokowski and the New York Philharmonic under Willem Mengelberg." ;
+        ont:person          <http://dbpedia.org/resource/Leopold_Mozart> , <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Willem_Mengelberg> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "In 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/49/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Gregor Piatigorsky: The Life and Career of the Virtuoso Cellist." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Gregor_Strasser> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/44/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "University of Texas Press." ;
+        ont:place    <http://dbpedia.org/resource/Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== United States ===" ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/18/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On encountering him one day, the young Piatigorsky told him, \"You talk too much and don't sing enough.\"" ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "one day" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/50/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Pages 192-202 are devoted to Gregor Piatigorsky." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
 
 <http://w3id.org/polifonia/pilot/meetups/1254005/7/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Now 18, Piatigorsky studied briefly in Berlin and Leipzig, with Hugo Becker and Julius Klengel, playing in a trio in a Russian café to earn money for food." ;
         ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Julius_Klengel> ;
-        ont:place           "http://dbpedia.org/resource/Leipzig" ;
+        ont:place           <http://dbpedia.org/resource/Leipzig> ;
         ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
         ont:timeExpression  "18" .
 
+<http://w3id.org/polifonia/pilot/meetups/1254005/47/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Grisha: The Story of Cellist Gregor Piatigorsky." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/42/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1963, the Piatigorskys organized and financed a strong international tournament in Los Angeles, won by Paul Keres and Tigran Petrosian." ;
+        ont:person          <http://dbpedia.org/resource/Tigran_Petrosian> , <http://dbpedia.org/resource/Paul_Keres> ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "In 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Soviet authorities, specifically Anatoly Lunacharsky, would not allow Piatigorsky to travel abroad to further his studies, so he smuggled himself and his cello into Poland on a cattle train with a group of artists." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Anatoly_Lunacharsky> ;
+        ont:place    <http://dbpedia.org/resource/Poland> , <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Piatigorsky was 13 when the Russian Revolution took place." ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "13" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "April 4] 1903 – August 6, 1976) was a Russian-born American cellist." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "1903" , "April 4" , "August 6 , 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Piatigorsky won a scholarship to the Moscow Conservatory, studying with Alfred von Glehn, Anatoliy Brandukov, and a certain Gubariov." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/56/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Gregor Piatigorsky at Find a Grave  Media related to Gregor Piatigorsky at Wikimedia Commons" ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "King, Terry (2010)." ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/18/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Chaliapin, when portraying his dramatic roles, such as the title role in Boris Godunov, would not only sing, but declaim, almost shouting." ;
+        ont:person   <http://dbpedia.org/resource/Boris_Godunov> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Gregor Piatigorsky was born in Ekaterinoslav (now Dnipro, Ukraine) into a Jewish family." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Strasser> , <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:place    <http://dbpedia.org/resource/Ukraine> , <http://dbpedia.org/resource/Dnipro> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/48/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Gregor Piatigorsky\"." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/55/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Gregor Piatigorsky at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
 <http://w3id.org/polifonia/pilot/meetups/1254005/50/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "World Famed String Players Discuss Their Art, Samuel and Sada Applebaum, John Markert & Co., New York (1955)." ;
         ont:person          <http://dbpedia.org/resource/John_Markert_(politician)> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
         ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bartley, M. (2006)." ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/42/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His wife, Jacqueline Piatigorsky, was a strong player who played in several US women's championships and represented the United States in the women's Chess Olympiad." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Their son, Joram, was born in Elizabethtown in 1940." ;
+        ont:person          <http://dbpedia.org/resource/Joram_Piatigorsky> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His autobiography: Cellist (1965)." ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Heifetz & Piatigorsky (Stereo LP LSC-3009)     RCA Victor Red Seal  1968" ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Jascha_Heifetz> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "RCA Victor Red Seal 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gregor Piatigorsky (Russian: Григо́рий Па́влович Пятиго́рский, Grigoriy Pavlovich Pyatigorskiy; April 17 [O.S." ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "April 17" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Heifetz, Primrose & Piatigorsky (RCA Victor LP LSC-2563)     RCA Victor Red Seal  1961" ;
+        ont:person          <http://dbpedia.org/resource/William_Primrose> , <http://dbpedia.org/resource/Jascha_Heifetz> , <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "RCA Victor Red Seal 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jump in the Waves, a Memoir, Jacqueline Piatigorsky, St. Martin's Press, New York (1988)." ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Prieto, Carlos; Murray, Elena C.; Mutis, Alvaro (2006)." ;
+        ont:person          <http://dbpedia.org/resource/Andy_Murray> , <http://dbpedia.org/resource/Elena_Gheorghe> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/20/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "24) was composed in 1946 for cello and orchestra and was orchestrated by his longtime accompanist Ralph Berkowitz; it was later transcribed for cello and piano." ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "in 1946" , "24" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/17/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At a rehearsal of Richard Strauss's Don Quixote, which Piatigorsky performed with the composer conducting, after the dramatic slow variation in D minor, Strauss announced to the orchestra, \"Now I've heard my Don Quixote as I imagined him.\"" ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Richard_Strauss> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/42/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Piatigorsky also enjoyed playing chess." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/35/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Heifetz, and" ;
+        ont:person   <http://dbpedia.org/resource/Jascha_Heifetz> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Piatigorsky also performed at Carnegie Hall with Horowitz and Milstein in the 1930s.In 1965, his popular autobiography Cellist was published." ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:place           <http://dbpedia.org/resource/Carnegie_Hall> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "1965" , "1930s.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/9/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Following the Nazi occupation in World War II, the family fled the country back to the States and settled in Elizabethtown in the Adirondack Mountains, New York." ;
+        ont:place    <http://dbpedia.org/resource/Adirondack_Mountains> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Heifetz Piatigorsky Concerts (21-CD boxed set, original album collection) Sony-RCA 88725451452,  2013" ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Jascha_Heifetz> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "Sony-RCA 88725451452 , 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/26/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Salmond," ;
+        ont:person   <http://dbpedia.org/resource/Alex_Salmond> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/21/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Denis Brott, a student of Piatigorsky, identified them as:" ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1939 to 1951 Piatigorsky also owned the famous 1739 Domenico Montagnana cello known as the \"Sleeping Beauty\"." ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "From 1939" , "1739" , "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Piatigorsky had a magnificent sound characterized by a distinctive fast and intense vibrato and he was able to execute with consummate articulation all manner of extremely difficult bowings, including a downbow staccato of which other string players could not help but be in awe." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/31/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "a self-portrait of Piatigorsky himself," ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/17/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Many of those composers wrote pieces for him, including Sergei Prokofiev (Cello Concerto), Paul Hindemith (Cello Concerto), Mario Castelnuovo-Tedesco (Cello Concerto), William Walton (Cello Concerto), Vernon Duke (Cello Concerto), and Igor Stravinsky (Piatigorsky and Stravinsky collaborated on the arrangement of Stravinsky's \"Suite Italienne\", which was extracted from Pulcinella, for cello and piano; Stravinsky demonstrated an extraordinary method of calculating fifty-fifty royalties)." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Vernon_Duke> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/12/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was interred in the Westwood Village Memorial Park Cemetery in Los Angeles." ;
+        ont:place    <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/16/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It has been reported that the great violin pedagogue Ivan Galamian once described Piatigorsky as the greatest string player of all time." ;
+        ont:person   <http://dbpedia.org/resource/Ivan_Galamian> , <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/11/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Referred to in some circles as the \"Million Dollar Trio\", Rubinstein, Heifetz, and Piatigorsky made several recordings for RCA Victor.Piatigorsky played chamber music privately with Heifetz, Vladimir Horowitz, Leonard Pennario, and Nathan Milstein." ;
+        ont:person   <http://dbpedia.org/resource/Jascha_Heifetz> , <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/9/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "That fall, after returning to France, they had their first child, daughter Jephta." ;
+        ont:place    <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/49/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 978-0-7864-4635-3." ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "ISBN 978-0-7864-4635-3" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/44/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "249–251." ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "249–251" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "USC established the Piatigorsky Chair of Violoncello in 1974 to honor Piatigorsky." ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "in 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/18/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Piatigorsky thought about this and from that point on, tried to incorporate the kind of drama and expression he heard in Chaliapin's singing into his own artistic expression." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/48/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "October 1976." ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "October 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Each of the fifteen variations whimsically portrays one of Piatigorsky's musician colleagues." ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He owned two Stradivarius cellos, the \"Batta\" and the \"Baudiot\"." ;
+        ont:person          <http://dbpedia.org/resource/Antonio_Stradivari> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Furtwängler heard Piatigorsky and hired him as the principal cellist of the Berlin Philharmonic." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Piatigorsky was also a composer." ;
+        ont:person   <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:subject  <http://dbpedia.org/resource/Gregor_Piatigorsky> .
+
+<http://w3id.org/polifonia/pilot/meetups/1254005/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gregor Piatigorsky died of lung cancer at his home in Los Angeles, California, in 1976." ;
+        ont:person          <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:place           <http://dbpedia.org/resource/California> ;
+        ont:subject         <http://dbpedia.org/resource/Gregor_Piatigorsky> ;
+        ont:timeExpression  "in 1976" .

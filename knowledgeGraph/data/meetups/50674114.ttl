@@ -5,3 +5,54 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/50674114/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Charles-François Plantade (14 April 1787 – 26 May 1870) was a 19th-century French composer." ;
+        ont:person          <http://dbpedia.org/resource/Charles-Henri_Plantade> ;
+        ont:subject         <http://dbpedia.org/resource/Charles-François_Plantade> ;
+        ont:timeExpression  "14 April 1787" , "26 May 1870" .
+
+<http://w3id.org/polifonia/pilot/meetups/50674114/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Le Baptême du p'tit ébéniste : scène de famille on Paris bibliothèques" ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Charles-François_Plantade> .
+
+<http://w3id.org/polifonia/pilot/meetups/50674114/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The son of the composer and harpsichordist Charles-Henri Plantade (1764–1839), he was a founding member of the Orchestre de la Société des Concerts du Conservatoire (1828) and of the Société des auteurs, compositeurs et éditeurs de musique (SACEM) (1858)." ;
+        ont:person          <http://dbpedia.org/resource/Charles-Henri_Plantade> ;
+        ont:subject         <http://dbpedia.org/resource/Charles-François_Plantade> ;
+        ont:timeExpression  "1858" , "1764–1839" , "1828" .
+
+<http://w3id.org/polifonia/pilot/meetups/50674114/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Free scores by Charles-François Plantade at the International Music Score Library Project (IMSLP)" ;
+        ont:person   <http://dbpedia.org/resource/Charles-Henri_Plantade> ;
+        ont:subject  <http://dbpedia.org/resource/Charles-François_Plantade> .
+
+<http://w3id.org/polifonia/pilot/meetups/50674114/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Erik Kocevar: \"Charles-Henri Plantade\", in Joël-Marie Fauquet (ed." ;
+        ont:person   <http://dbpedia.org/resource/Charles-Henri_Plantade> ;
+        ont:subject  <http://dbpedia.org/resource/Charles-François_Plantade> .
+
+<http://w3id.org/polifonia/pilot/meetups/50674114/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "La cour des messageries ou le départ & l'arrivée : chansonnette on Paris bibliothèques" ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Charles-François_Plantade> .
+
+<http://w3id.org/polifonia/pilot/meetups/50674114/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Le vieux drapeau on Bibliothèques de Paris" ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Charles-François_Plantade> .
+
+<http://w3id.org/polifonia/pilot/meetups/50674114/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "): Dictionnaire de la musique en France au XIXe siècle (Paris: Fayard, 2003), ISBN 2-213-59316-7." ;
+        ont:place           <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Charles-François_Plantade> ;
+        ont:timeExpression  "2003" , "ISBN 2-213-59316-7" .

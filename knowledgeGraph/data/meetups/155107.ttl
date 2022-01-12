@@ -6,86 +6,718 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/155107/19/9>
+<http://w3id.org/polifonia/pilot/meetups/155107/13/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Cecil_Womack> , <http://dbpedia.org/resource/Rashied_Ali> , <http://dbpedia.org/resource/Eric_Dolphy> ;
-        ont:place           "http://dbpedia.org/resource/Greenwich_Village" ;
+        ont:excerpt         "In July 1970, Ayler returned to the free jazz idiom for a group of shows in France (including at the Fondation Maeght, documented on Nuits de la Fondation Maeght), but the band he was able to assemble (Call Cobbs, bassist Steve Tintweiss and drummer Allen Blairman) was not regarded as being of the caliber of his earlier groups.Ayler disappeared on November 5, 1970, and he was found dead in New York City's East River on November 25, a presumed suicide." ;
+        ont:place           <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/East_River> , <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:timeExpression  "March 1964" , "Take 3" , "space at 27" , "1965" , "fall of 1963" .
+        ont:timeExpression  "November 5 , 1970" , "November 25" , "July 1970" .
 
-<http://w3id.org/polifonia/pilot/meetups/155107/49/1>
+<http://w3id.org/polifonia/pilot/meetups/155107/9/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Coltrane> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:excerpt         "Ayler recorded Bells on May 1, 1965." ;
         ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:timeExpression  "1993" .
+        ont:timeExpression  "May 1 , 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/11/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bob Thiele." ;
+        ont:person   <http://dbpedia.org/resource/Bob_Thiele> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
 
 <http://w3id.org/polifonia/pilot/meetups/155107/3/10>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After his discharge from the army, Ayler tried to find work in Los Angeles and Cleveland, but his increasingly iconoclastic playing, which had moved away from traditional harmony, was not welcomed by traditionalists.Ayler relocated to Sweden in 1962, where his recording career began, leading Swedish and Danish groups on radio sessions and jamming as an unpaid member of Cecil Taylor's band in the winter of 1962–63." ;
         ont:person          <http://dbpedia.org/resource/Cecil_Womack> ;
-        ont:place           "http://dbpedia.org/resource/Denmark" , "http://dbpedia.org/resource/Cleveland" , "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Sweden" ;
+        ont:place           <http://dbpedia.org/resource/Sweden> , <http://dbpedia.org/resource/Denmark> , <http://dbpedia.org/resource/Cleveland> , <http://dbpedia.org/resource/Los_Angeles> ;
         ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
         ont:timeExpression  "in 1962" , "winter of 1962–63" .
 
-<http://w3id.org/polifonia/pilot/meetups/155107/21/1>
+<http://w3id.org/polifonia/pilot/meetups/155107/45/3>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Samuel_Johnson> , <http://dbpedia.org/resource/Giorgio_Gaslini> , <http://dbpedia.org/resource/Kent_Carter> , <http://dbpedia.org/resource/Douglas_Ewart> , <http://dbpedia.org/resource/George_Gershwin> ;
-        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/France" ;
+        ont:excerpt         "27." ;
         ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:timeExpression  "recreation of 1960s" , "1990" , "four" .
+        ont:timeExpression  "27" .
 
-<http://w3id.org/polifonia/pilot/meetups/155107/20/0>
+<http://w3id.org/polifonia/pilot/meetups/155107/11/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Roy_Harper_(singer)> , <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:place           "http://dbpedia.org/resource/Copenhagen" ;
+        ont:excerpt         "For the next two-and-a-half years Ayler began to move from a mostly improvisatory style to one that focused more closely on compositions." ;
         ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:timeExpression  "1969 album" , "One" .
-
-<http://w3id.org/polifonia/pilot/meetups/155107/5/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Cecil_Rhodes> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:timeExpression  "In 1963" .
-
-<http://w3id.org/polifonia/pilot/meetups/155107/0/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:timeExpression  "July 13 , 1936" , "November 25 , 1970" .
-
-<http://w3id.org/polifonia/pilot/meetups/155107/9/9>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Coltrane> ;
-        ont:place           "http://dbpedia.org/resource/Paris" ;
-        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:timeExpression  "in 1966" .
-
-<http://w3id.org/polifonia/pilot/meetups/155107/22/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:place           "http://dbpedia.org/resource/Vienna" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Mars" , "http://dbpedia.org/resource/Chicago" ;
-        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:timeExpression  "four" , "2008" , "in 2018" , "June 25 , 2019" .
+        ont:timeExpression  "one" .
 
 <http://w3id.org/polifonia/pilot/meetups/155107/7/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Just before 1 PM, Sunny Murray arrived, a large, genial walrus.…Gary Peacock was next, tall, thin, ascetic looking, and soft spoken.…Albert Ayler was last, small, wary, and laconic.On July 17, 1964, the members of this trio, along with trumpet player Don Cherry, alto saxophonist John Tchicai, and trombonist Roswell Rudd, collaborated in recording New York Eye and Ear Control, a freely improvised soundtrack to Canadian artist and filmmaker Michael Snow's film of the same name." ;
         ont:person          <http://dbpedia.org/resource/Roswell_Rudd> , <http://dbpedia.org/resource/Michael_Snow> , <http://dbpedia.org/resource/Albert_Ayler> , <http://dbpedia.org/resource/Sunny_Murray> , <http://dbpedia.org/resource/Don_Cherry> , <http://dbpedia.org/resource/John_Tchicai> , <http://dbpedia.org/resource/Gary_Peacock> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
         ont:timeExpression  "July 17 , 1964" , "1" .
 
-<http://w3id.org/polifonia/pilot/meetups/155107/9/7>
+<http://w3id.org/polifonia/pilot/meetups/155107/19/14>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"The Swedish filmmaker Kasper Collin was so inspired by Ayler's music and life that he produced a documentary, My Name Is Albert Ayler, which includes interviews with ESP-Disk founder Bernard Stollman, along with interviews with Ayler's family, girlfriends and bandmates." ;
+        ont:person   <http://dbpedia.org/resource/Bernard_Stollman> , <http://dbpedia.org/resource/Kasper_Collin> ;
+        ont:place    <http://dbpedia.org/resource/Sweden> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/19/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:place           "http://dbpedia.org/resource/Greenwich_Village" ;
+        ont:excerpt         "Just one sound - that's how profound this man was...\" According to Val Wilmer, \"the relationship between the two men was a very special one." ;
+        ont:person          <http://dbpedia.org/resource/Val_Wilmer> ;
         ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:timeExpression  "in 1966" .
+        ont:timeExpression  "one" , "two" , "one sound" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/56/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved June 28, 2008., in German language." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "June 28 , 2008." .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1964 was the most well-documented year of Ayler's career, during which he recorded many albums, the first of which was Spirits (re-released later as Witches and Devils) in March of that year." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Donald played with Albert until he experienced a debilitating nervous breakdown in 1967.In 1966 Ayler was signed to Impulse Records at the urging of Coltrane, the label's star attraction at that time." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1966" , "in 1967.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1963, Ayler returned to the US and settled in New York City, where he continued to develop his personal style and occasionally played alongside free jazz pianist Cecil Taylor." ;
+        ont:person          <http://dbpedia.org/resource/Cecil_Rhodes> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "In 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/12/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"His final album, Music Is the Healing Force of the Universe, featured rock musicians such as Henry Vestine of Canned Heat alongside jazz musicians like pianist Bobby Few." ;
+        ont:person   <http://dbpedia.org/resource/Henry_Vestine> , <http://dbpedia.org/resource/Bobby_Few> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
 
 <http://w3id.org/polifonia/pilot/meetups/155107/3/6>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As a teenager, Ayler's understanding of bebop style and mastery of standard repertoire earned him the nickname of \"Little Bird\", after Charlie \"Bird\" Parker, in the small Cleveland jazz scene.In 1952, at the age of 16, Ayler began playing bar-walking, honking, R&B-style tenor with blues singer and harmonica player Little Walter, spending two summer vacations with Walter's band." ;
         ont:person          <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/Little_Walter> ;
-        ont:place           "http://dbpedia.org/resource/Cleveland" ;
+        ont:place           <http://dbpedia.org/resource/Cleveland> ;
         ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
-        ont:timeExpression  "two summer" , "1952" , "age of 16" .
+        ont:timeExpression  "two summer" , "age of 16" , "1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/47/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wesleyan University Press, 2012." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/9/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Val Wilmer referred to his singing as \"tortuous,\" and critics have stated that \"his words and vocal delivery are truly frightening\", describing him as having \"a bellowing, untrained voice that was wavering at its most controlled,\" and delivering lyrics in \"a manic wail." ;
+        ont:person   <http://dbpedia.org/resource/Val_Wilmer> , <http://dbpedia.org/resource/Wail_al-Shehri> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/11/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(However, according to Gary Giddins, \"In interviews, Ayler left no doubt about who was responsible for New Grass: 'They told me to do this." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "'They" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/19/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Various recollections have placed Coltrane watching Ayler and Cecil Taylor at the Take 3 Coffeehouse in the West Village in the fall of 1963; watching Ayler and Eric Dolphy together at the Half Note sometime that year; inviting Ayler onstage at the Half Note in March 1964; hearing Ayler’s group with Rashied Ali at a little performance space at 27 Cooper Square in early 1965.\"" ;
+        ont:person          <http://dbpedia.org/resource/Rashied_Ali> , <http://dbpedia.org/resource/Cecil_Womack> , <http://dbpedia.org/resource/Eric_Dolphy> ;
+        ont:place           <http://dbpedia.org/resource/Greenwich_Village> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "March 1964" , "Take 3" , "space at 27" , "1965" , "fall of 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/46/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Continuum, 2001." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/39/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Da Capo Press, 1975." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Born in Cleveland, Ohio and raised in Shaker Heights, Ayler was first taught alto saxophone by his father Edward, who was a semiprofessional saxophonist and violinist." ;
+        ont:place    <http://dbpedia.org/resource/Cleveland> , <http://dbpedia.org/resource/Ohio> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/15/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ayler wished to free himself and his bandmates to improvise, relate to one another, and relate to their instruments on a more raw, \"primal\" level.The intensely spiritual aspect of Ayler's music was clearly aligned with the beliefs of jazz saxophonist John Coltrane, who was profoundly affected by the \"otherworldly\" sounds of Ayler's music." ;
+        ont:person          <http://dbpedia.org/resource/John_Coltrane> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/15/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "4 reeds on his tenor saxophone—and used a broad, pathos-filled vibrato.Ayler experimented with microtonality in his improvisations, seeking to explore the sounds that fall between the notes in a traditional scale." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/45/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "American Music, Vol." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/19/13>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "While in Antibes a month later, Coltrane \"remained... in his hotel room, practicing as usual, playing along to a tape of an Ayler concert." ;
+        ont:place    <http://dbpedia.org/resource/Antibes> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/56/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Archived from the original on July 18, 2011." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "July 18 , 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/51/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Schirmer Books, 1998." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/49/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As Serious As Your Life: John Coltrane and Beyond, London, Serpent's Tail, 1993" ;
+        ont:person          <http://dbpedia.org/resource/John_Coltrane> ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/44/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "August 13, 2010." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "August 13 , 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/18/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albert Ayler is one of the most revered historical figures in the genre of free jazz along with the likes of Sun Ra, Cecil Taylor, John Coltrane, Ornette Coleman, and Milford Graves (who drummed with Ayler)." ;
+        ont:person          <http://dbpedia.org/resource/John_Coltrane> , <http://dbpedia.org/resource/Milford_Graves> , <http://dbpedia.org/resource/Cecil_Rhodes> , <http://dbpedia.org/resource/Ornette_Coleman> , <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/48/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Albert Ayler: Testifying the Breaking Point\", NPR, May 8, 2001." ;
+        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "May 8 , 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/36/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Oxford University Press, 2011." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albert Ayler (; July 13, 1936 – November 25, 1970) was an American avant-garde jazz saxophonist, singer and composer.After early experience playing R&B and bebop, Ayler began recording music during the free jazz era of the 1960s." ;
+        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "July 13 , 1936" , "November 25 , 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/59/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Albert Ayler at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/42/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "William Morrow and Company, Inc, 1984." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/19/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Beginning that year, \"Coltrane and Ayler, when both in New York, were often in the same room." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/58/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Albert Ayler at NPR Music" ;
+        ont:person   <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/34/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Prentice-Hall, 1982." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/15/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Phil Hardy says that Ayler \"dismantled\" melody and harmony to more deeply explore \"the physical properties\" of his saxophone." ;
+        ont:person   <http://dbpedia.org/resource/Phil_Hardy> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The liner notes of Spiritual Unity include a brief description of the musicians on that day, July 10, 1964, in the Variety Arts Recording Studio:" ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "July 10 , 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/57/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Albert Ayler Discography Project" ;
+        ont:person   <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/45/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Review: Healing Force: The Songs of Albert Ayler.\"" ;
+        ont:person   <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/9/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For a tune titled \"For John Coltrane,\" Ayler returned to the alto saxophone for the first time in years.Ayler first sang on a recording in a version of \"Ghosts\" performed in Paris in 1966, in which his vocal style was similar to that of his saxophone, with an eerie disregard for pitch." ;
+        ont:person          <http://dbpedia.org/resource/John_Coltrane> ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/38/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Greenwood Press, 2004." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/21/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Composer and guitarist Marc Ribot recorded an album dedicated to Ayler's Spiritual Unity in 2005 with former Ayler bassist and free jazz leader Henry Grimes.Ayler's tune \"Ghosts\" has been recorded by a number of musicians, including Gary Lucas, David Moss, Crazy Backwards Alphabet, Lester Bowie, Eugene Chadbourne, and Gary Windo.Albert Ayler is the titular 'ghost of a jazzman' in Maurice G. Dantec's 2009 science-fiction novel Comme le fantôme d'un jazzman dans la station Mir en deroute." ;
+        ont:person          <http://dbpedia.org/resource/Gary_Lucas> , <http://dbpedia.org/resource/Eugene_Chadbourne> , <http://dbpedia.org/resource/Marc_Ribot> , <http://dbpedia.org/resource/Lester_Bowie> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "in 2005" , "2009 science-fiction novel" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/49/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Wilmer, Valerie." ;
+        ont:person   <http://dbpedia.org/resource/Elisha_Cook_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/56/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Albert Ayler\"." ;
+        ont:person   <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/51/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The John Coltrane Companion: Five Decades of Commentary." ;
+        ont:person          <http://dbpedia.org/resource/John_Coltrane> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "Five" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/44/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Funerals and Ghosts and Enjoying the Push\", Pitchfork." ;
+        ont:person   <http://dbpedia.org/resource/Mike_Dierickx> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/37/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Albert Ayler\", The Faber Companion to 20th Century Popular Music, 2001." ;
+        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/32/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Cricket 4." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "Cricket 4" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/50/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Obituary: Donald Ayler\", The Guardian, November 15, 2001." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "November 15 , 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/55/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Albert Ayler" ;
+        ont:person   <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/48/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Whitehead, Kevin." ;
+        ont:person   <http://dbpedia.org/resource/Alfred_North_Whitehead> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/43/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Albert Ayler's Fiery Sax, Now on Film\", NPR, June 7, 2008." ;
+        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "June 7 , 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/3/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He later studied at the Academy of Music in Cleveland with jazz saxophonist Benny Miller." ;
+        ont:place    <http://dbpedia.org/resource/Cleveland> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albert Ayler: His Life and Music (e-book by Jeff Schwartz, 1992)" ;
+        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/42/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Freedom Principle: Jazz After 1958." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "Jazz After 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/19/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In February of the following year, Ayler sat in with Coltrane's group for the first time during a gig at the Jazz Temple in Cleveland, Ohio." ;
+        ont:place    <http://dbpedia.org/resource/Ohio> , <http://dbpedia.org/resource/Cleveland> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/53/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Albert Ayler at AllMusic  Albert Ayler on Bandcamp  Albert Ayler discography at Discogs  Albert Ayler discography at MusicBrainz" ;
+        ont:person   <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/41/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"John Coltrane's Funeral\", The Guardian, June 16, 2011." ;
+        ont:person          <http://dbpedia.org/resource/John_Coltrane> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "June 16 , 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/6/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Spiritual Unity featured the trio that Ayler had just assembled that summer, including bassist Gary Peacock and drummer Sunny Murray." ;
+        ont:person   <http://dbpedia.org/resource/Gary_Peacock> , <http://dbpedia.org/resource/Sunny_Murray> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/18/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Frank Wright, Charles Tyler (on Ayler's album Bells), Marion Brown, and Frank Smith (on ESP-Disk Burton Greene Quartet)." ;
+        ont:person   <http://dbpedia.org/resource/Charles_Tyler> , <http://dbpedia.org/resource/Frank_Wright_(jazz_musician)> , <http://dbpedia.org/resource/Marion_Brown> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jenkins, Todd S. Free Jazz and Free Improvisation: An Encyclopedia, Volume 1." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/9/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ayler performed with his brother, Michel Samson, Beaver Harris, Henry Grimes, and Bill Folwell, while Coltrane was in attendance." ;
+        ont:person   <http://dbpedia.org/resource/Henry_Grimes> , <http://dbpedia.org/resource/Michel_Samson> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/40/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Albert Ayler.\"" ;
+        ont:person   <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/33/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"My Name is Albert Ayler\", The New Yorker, November 12, 2007." ;
+        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "November 12 , 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/21/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1999, John Lurie of the Lounge Lizards released a piece titled \"The Resurrection of Albert Ayler\"." ;
+        ont:person          <http://dbpedia.org/resource/John_Lurie> , <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "In 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His ecstatic music of 1965 and 1966, such as \"Spirits Rejoice\" and \"Truth Is Marching In\", has been compared by critics to the sound of a brass band, and involved simple, march-like themes which alternated with wild group improvisations and were regarded as retrieving jazz's pre-Louis Armstrong roots." ;
+        ont:person          <http://dbpedia.org/resource/Lance_Armstrong> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1966" , "music of 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/37/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hardy, Phil." ;
+        ont:person   <http://dbpedia.org/resource/Phil_Hardy_(journalist)> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/44/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Richardson, Mark." ;
+        ont:person   <http://dbpedia.org/resource/Josh_Richardson> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/3/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1959 he was stationed in France, where he was further exposed to the martial music that would be a core influence on his later work." ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "In 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/9/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It is said that during his performance, Ayler ripped his saxophone from his mouth at two points: once, to emit a cry of anguish, the other a cry of joy to symbolize his friend and mentor's ascension into heaven." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "mouth at two" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Spirits Rejoice was recorded on September 23, 1965, at Judson Hall in New York City, and features a much larger band than the sparse trio of his earlier album Spiritual Unity." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "September 23 , 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/50/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Wilmer, Valerie." ;
+        ont:person   <http://dbpedia.org/resource/Elisha_Cook_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/3/12>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The album My Name Is Albert Ayler is a session of standards recorded for a Copenhagen radio station with local musicians including Niels-Henning Ørsted Pedersen and drummer Ronnie Gardiner, with Ayler playing tenor and soprano on tracks such as \"Summertime\"." ;
+        ont:person   <http://dbpedia.org/resource/John_Eliot_Gardiner> , <http://dbpedia.org/resource/Herb_Pedersen> ;
+        ont:place    <http://dbpedia.org/resource/Copenhagen> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/43/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Mandel, Howard." ;
+        ont:person   <http://dbpedia.org/resource/Johnny_Mandel> , <http://dbpedia.org/resource/Dwight_Howard> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/36/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Gioia, Ted." ;
+        ont:person   <http://dbpedia.org/resource/Ted_Gioia> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/31/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Oxford University Press, November 17, 2006." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "November 17 , 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/12/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He \"saw in a vision the new Earth built by God coming out of Heaven,\" and implored the readers to share the message of Revelations, insisting that \"This is very important." ;
+        ont:place    <http://dbpedia.org/resource/Earth> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ayler's experience in the church and exposure to swing jazz artists also impacted his sound: his wide vibrato was similar to that of gospel saxophonists, who sought a more vocal-like sound with their instruments, and to that of brass players in New Orleans swing bands.Ayler attended John Adams High School on Cleveland's East Side, and graduated in 1954 at the age of 18." ;
+        ont:place           <http://dbpedia.org/resource/Cleveland> , <http://dbpedia.org/resource/New_Orleans> , <http://dbpedia.org/resource/Lower_East_Side> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "in 1954" , "age of 18" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Early Albums Collection (Enlightenment, 2020)" ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1967 and 1968, Ayler recorded three LPs that featured the lyrics and vocals of his girlfriend Mary Maria Parks and introduced regular chord changes, funky beats, and electronic instruments.Ayler himself sang on his album New Grass, which hearkened back to his roots in R&B as a teenager." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "In 1967" , "three" , "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/19/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Coltrane first heard Ayler in 1962, after which he told Ayler that \"he had heard himself playing like that in a dream once.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/41/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lewis, John." ;
+        ont:place    <http://dbpedia.org/resource/Isle_of_Lewis> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "European Radio Studio Recordings 1964 (hatOLOGY, 2016)" ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "Radio Studio Recordings 1964" , "2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/40/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Kernfeld, Barry." ;
+        ont:person   <http://dbpedia.org/resource/Barry_Kernfeld> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/18/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ayler was also a crucial influence on some of his renowned contemporaries such as Frank Lowe, Rev." ;
+        ont:person   <http://dbpedia.org/resource/Frank_Lowe> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/19/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Following the recording of Ascension in June 1965 (after Ayler had sent him copies of his albums Ghosts and Spiritual Unity), Coltrane \"called Ayler and told him, 'I recorded an album and found that I was playing just like you.'" ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "June 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/9/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ayler's first set for Impulse was recorded a few weeks before Christmas in 1966, entitled Albert Ayler in Greenwich Village." ;
+        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:place           <http://dbpedia.org/resource/Greenwich_Village> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/33/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Brody, Richard." ;
+        ont:place    <http://dbpedia.org/resource/Brody> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ayler developed a close friendship with John Coltrane, and the two influenced each other's playing." ;
+        ont:person          <http://dbpedia.org/resource/John_Coltrane> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Complete ESP-Disk Recordings (ESP, 2006)" ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/21/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Improvising Ayler's \"Spirits Rejoice\", four American musicians, George E. Lewis (trombone), Douglas Ewart (saxophone), Kent Carter (bass) and Oliver Johnson (drums), who lived in France during the free jazz period in the 1960s, perform in the installation, a recreation of 1960s French television.In 1990, pianist Giorgio Gaslini released Ayler's Wings, a CD consisting entirely of solo interpretations of Ayler's compositions." ;
+        ont:person          <http://dbpedia.org/resource/Samuel_Johnson> , <http://dbpedia.org/resource/Giorgio_Gaslini> , <http://dbpedia.org/resource/Kent_Carter> , <http://dbpedia.org/resource/Douglas_Ewart> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "recreation of 1960s" , "1990" , "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His innovations have inspired subsequent jazz musicians.His trio and quartet records of 1964, such as Spiritual Unity and The Hilversum Session, show him advancing the improvisational notions of John Coltrane and Ornette Coleman into abstract realms where whole timbre, and not just mainly harmony with melody, is the music's backbone." ;
+        ont:person          <http://dbpedia.org/resource/Ornette_Coleman> , <http://dbpedia.org/resource/John_Coltrane> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "of 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/3/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ayler also played in the regiment band, along with future composer Harold Budd." ;
+        ont:person   <http://dbpedia.org/resource/Harold_Budd> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Harper considered Ayler to be \"one of the leading jazzmen of the age\"." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/9/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(One of Coltrane's last wishes was that Ayler and Ornette Coleman should play at his funeral.)" ;
+        ont:person          <http://dbpedia.org/resource/Ornette_Coleman> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/3/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Long-rumored tapes of Ayler performing with Taylor's group were released by Revenant Records in 2004, as part of a 10-CD set.)" ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "in 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1969, he submitted an impassioned, rambling open letter to the Cricket magazine entitled \"To Mr. Jones—I Had a Vision,\" in which he described startling apocalyptic spiritual visions." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "In 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, later in 1964, Ayler, Peacock, Murray, and Cherry were invited to travel to Europe for a brief Scandinavian tour, which too yielded some new recordings, including The Copenhagen Tapes, Ghosts (re-released later as Vibrations), and The Hilversum Session." ;
+        ont:place           <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/Murray_River> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "in 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/16/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jazz historian Ted Gioia describes Ayler as a \"virtuoso of the coarse and anomalous,\" and claims that Ayler aimed to break away from the constraints of playing notes and instead to \"enter into a new realm in which the saxophone created \"sound\".\"" ;
+        ont:person   <http://dbpedia.org/resource/Ted_Gioia> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/19/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The film includes footage of Albert Ayler (from 1962, 1964, 1966 and 1970) and is built around his music and recordings of his voice (from interviews made between 1963 and 1970)." ;
+        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "from 1962" , "1970" , "between 1963" , "1966" , "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Starting in 2018, Chicago saxophonist Mars Williams has recorded and released four CDs in a series called \"Mars Williams Presents An Ayler Xmas\", documenting annual Christmastime live concerts, recorded in Chicago, Vienna, Krakow, and New York City and featuring intertwined holiday standards and Albert Ayler music.On June 25, 2019, The New York Times Magazine listed Albert Ayler among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire." ;
+        ont:person          <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:place           <http://dbpedia.org/resource/Vienna> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Mars> , <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "four" , "2008" , "in 2018" , "June 25 , 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ayler also began his rich relationship with ESP-Disk Records in 1964, recording his breakthrough album (and ESP's very first jazz album) Spiritual Unity for the then-fledgling record label." ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "in 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/18/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The so-called \"titans\" of free jazz in the 21st century who play saxophone, such as Charles Gayle, Ken Vandermark, Peter Brötzmann, and the late David S. Ware, were all heavily influenced by Albert Ayler." ;
+        ont:person   <http://dbpedia.org/resource/Charles_Gayle> , <http://dbpedia.org/resource/Ken_Vandermark> , <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/21/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Canadian artist Stan Douglas's video installation Hors-champs (meaning \"off-screen\") addresses the political context of free jazz in the 1960s, as an extension of black consciousness." ;
+        ont:person   <http://dbpedia.org/resource/Stan_Douglas> ;
+        ont:subject  <http://dbpedia.org/resource/Albert_Ayler> .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/3/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1958, after graduating from high school, Ayler joined the United States Army, where he switched from alto to tenor sax and jammed with other enlisted musicians, including tenor saxophonist Stanley Turrentine." ;
+        ont:person          <http://dbpedia.org/resource/Stanley_Turrentine> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "In 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/9/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In 1967, John Coltrane died of liver cancer, and Ayler was asked to perform at his iconic funeral." ;
+        ont:person          <http://dbpedia.org/resource/John_Coltrane> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "In 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/155107/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On his 1969 album Folkjokeopus, English guitarist/singer-songwriter Roy Harper, dedicated the song \"One for All\" (\"One for Al\") to Albert Ayler, \"who I knew and loved during my time in Copenhagen\"." ;
+        ont:person          <http://dbpedia.org/resource/Roy_Harper_(singer)> , <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:place           <http://dbpedia.org/resource/Copenhagen> ;
+        ont:subject         <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:timeExpression  "1969 album" , "One" .

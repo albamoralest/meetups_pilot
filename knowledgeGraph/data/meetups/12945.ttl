@@ -6,37 +6,331 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/12945/14/2>
+<http://w3id.org/polifonia/pilot/meetups/12945/12/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Nat_King_Cole> ;
-        ont:place           "http://dbpedia.org/resource/North_Macedonia" , "http://dbpedia.org/resource/Turkey" ;
+        ont:excerpt         "Despite returning to his jazz and guitar playing most recently, this theme was reflected again much later in Benson's 2000 release Absolute Benson, featuring a cover of one of Hathaway's most notable songs, \"The Ghetto.\"" ;
+        ont:person          <http://dbpedia.org/resource/Anne_Hathaway> ;
         ont:subject         <http://dbpedia.org/resource/George_Benson> ;
-        ont:timeExpression  "49th issue" , "July 25 , 2009" , "July 27" .
+        ont:timeExpression  "2000 release" , "cover of one" .
 
-<http://w3id.org/polifonia/pilot/meetups/12945/14/7>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Rio_de_Janeiro" , "http://dbpedia.org/resource/Republic_of_Ireland" ;
-        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
-        ont:timeExpression  "May 2018" , "July 12 , 2018" , "July 2016" , "35" , "June 25 , 2019" , "2008" .
+<http://w3id.org/polifonia/pilot/meetups/12945/1/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Benson has been honored with a star on the Hollywood Walk of Fame." ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
 
-<http://w3id.org/polifonia/pilot/meetups/12945/12/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Donny_Hathaway> , <http://dbpedia.org/resource/Ray_Charles> , <http://dbpedia.org/resource/Nat_King_Cole> ;
-        ont:place           "http://dbpedia.org/resource/Quincy,_Massachusetts" ;
-        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
-        ont:timeExpression  "1990s" .
+<http://w3id.org/polifonia/pilot/meetups/12945/5/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Benson's next recording was It's Uptown with the George Benson Quartet, including Lonnie Smith on organ and Ronnie Cuber on baritone saxophone." ;
+        ont:person   <http://dbpedia.org/resource/Lonnie_Smith> , <http://dbpedia.org/resource/Ronnie_Cuber> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
 
-<http://w3id.org/polifonia/pilot/meetups/12945/0/0>
+<http://w3id.org/polifonia/pilot/meetups/12945/14/3>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Washington> , <http://dbpedia.org/resource/George_Gershwin> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "In the fall of 2009, Benson finished recording an album entitled Songs and Stories with Marcus Miller, producer John Burk, and session musicians David Paich and Steve Lukather." ;
+        ont:person          <http://dbpedia.org/resource/Steve_Lukather> , <http://dbpedia.org/resource/David_Paich> , <http://dbpedia.org/resource/Marcus_Aurelius> ;
         ont:subject         <http://dbpedia.org/resource/George_Benson> ;
-        ont:timeExpression  "March 22 , 1943" .
+        ont:timeExpression  "fall of 2009" .
 
 <http://w3id.org/polifonia/pilot/meetups/12945/4/4>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Out of the four sides he cut, two were released: \"She Makes Me Mad\" backed with \"It Should Have Been Me\", with RCA Victor in New York; although one source indicates this record was released under the name \"Little Georgie\", the 45rpm label is printed with the name George Benson." ;
         ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/George_Benson> ;
-        ont:timeExpression  "one source" , "two" , "45rpm label" , "four" .
+        ont:timeExpression  "45rpm label" , "two" , "one source" , "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The rest of the album is instrumental, including his rendition of the 1975 Jose Feliciano composition \"Affirmation.\"" ;
+        ont:person          <http://dbpedia.org/resource/José_Feliciano> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/12/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "More importantly, Quincy Jones encouraged Benson to search his roots for further vocal inspiration, and he rediscovered his love for Nat Cole, Ray Charles and Donny Hathaway in the process, influencing a string of further vocal albums into the 1990s." ;
+        ont:person          <http://dbpedia.org/resource/Donny_Hathaway> , <http://dbpedia.org/resource/Ray_Charles> , <http://dbpedia.org/resource/Nat_King_Cole> ;
+        ont:place           <http://dbpedia.org/resource/Quincy,_Massachusetts> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/16/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Benson has been a resident of Englewood, New Jersey." ;
+        ont:place    <http://dbpedia.org/resource/New_Jersey> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He has worked with Freddie Hubbard on a number of his albums throughout the 1960s, 1970s and 1980s." ;
+        ont:person          <http://dbpedia.org/resource/Freddie_Hubbard> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1970s" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/6/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Benson played on numerous sessions for other CTI artists during this time, including Freddie Hubbard and Stanley Turrentine, notably on the latter's acclaimed album Sugar." ;
+        ont:person   <http://dbpedia.org/resource/Stanley_Turrentine> , <http://dbpedia.org/resource/Freddie_Hubbard> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/1/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His concerts were well attended through the 1980s, and he still has a large following." ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the age of 21, he recorded his first album as leader, The New Boss Guitar, featuring McDuff." ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "age of 21" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Benson performed at the 49th issue of the Ohrid Summer Festival in North Macedonia on July 25, 2009, and his tribute show to Nat King Cole An Unforgettable Tribute to Nat King Cole as part of the Istanbul International Jazz Festival in Turkey on July 27." ;
+        ont:person          <http://dbpedia.org/resource/Nat_King_Cole> ;
+        ont:place           <http://dbpedia.org/resource/North_Macedonia> , <http://dbpedia.org/resource/Turkey> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "July 27" , "July 25 , 2009" , "49th issue" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the age of 9, he started to record." ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "age of 9" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had many hit singles such as \"Love All the Hurt Away,\" \"Turn Your Love Around,\" \"Inside Love,\" \"Lady Love Me,\" \"20/20,\" \"Shiver,\" \"Kisses in the Moonlight.\"" ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "20/20" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The live take of \"On Broadway,\" recorded a few months later from the 1978 release Weekend in L.A., also won a Grammy." ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1978 release" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/14/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In September, he returned to perform at Rock in Rio festival, in Rio de Janeiro, 35 years after his first performance at this festival, which was then the inaugural one.In July 2016, Benson participated as a mentor in the Sky Arts program Guitar Star in the search for the UK and Republic of Ireland's most talented guitarist.In May 2018, Benson was featured on the Gorillaz single \"Humility\".On July 12, 2018, it was announced that Benson had signed to Mascot Label Group.On June 25, 2019, The New York Times Magazine listed George Benson among hundreds of musicians whose material was destroyed in the 2008 Universal fire." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Rio_de_Janeiro> , <http://dbpedia.org/resource/Republic_of_Ireland> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "May 2018" , "July 12 , 2018" , "July 2016" , "35" , "June 25 , 2019" , "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Benson also did a version of The Beatles's 1969 album Abbey Road called The Other Side of Abbey Road, also released in 1969, and a version of \"White Rabbit\", originally written and recorded by San Francisco rock group Great Society, and made famous by Jefferson Airplane." ;
+        ont:place           <http://dbpedia.org/resource/San_Francisco> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "in 1969" , "1969 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/1/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 on the Billboard album chart in 1976." ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "chart in 1976" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of his many early guitar heroes was country-jazz guitarist Hank Garland." ;
+        ont:person          <http://dbpedia.org/resource/Hank_Garland> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2009, Benson was recognized by the National Endowment of the Arts as a Jazz Master, the United States highest honor in jazz." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "In 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the age of eight, he played guitar in an unlicensed nightclub on Friday and Saturday nights, but the police soon closed the club down." ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "age of eight" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "With the 1976 release Breezin', Benson sang a lead vocal on the track \"This Masquerade\" (notable also for the lush, romantic piano intro and solo by Jorge Dalto), which became a huge pop hit and won a Grammy Award for Record of the Year." ;
+        ont:person          <http://dbpedia.org/resource/Jorge_Dalto> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1976 release" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/12/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Benson made it into the pop and R&B top ten with the song \"Give Me the Night\" (written by former Heatwave keyboardist Rod Temperton)." ;
+        ont:person   <http://dbpedia.org/resource/Rod_Temperton> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/23/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "George Benson at AllMusic" ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Benson has been married to Johnnie Lee since 1962 and has seven children." ;
+        ont:person          <http://dbpedia.org/resource/Robert_E._Lee> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "since 1962" , "seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/11/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During this time Benson recorded with the German conductor Claus Ogerman." ;
+        ont:person   <http://dbpedia.org/resource/Claus_Ogerman> ;
+        ont:place    <http://dbpedia.org/resource/Germany> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/14/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2011, Benson released the album Guitar Man, revisiting his 1960s/early-1970s guitar-playing roots with a 12-song collection of covers of both jazz and pop standards produced by John Burk.In June 2013, Benson released his fourth album for Concord, Inspiration: A Tribute to Nat King Cole, which included Wynton Marsalis, Idina Menzel, Till Brönner, and Judith Hill." ;
+        ont:person          <http://dbpedia.org/resource/Judith_Hill> , <http://dbpedia.org/resource/Wynton_Marsalis> , <http://dbpedia.org/resource/Idina_Menzel> , <http://dbpedia.org/resource/Nat_King_Cole> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "John Burk.In June 2013" , "In 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His 1974 release, Bad Benson, climbed to the top spot in the Billboard jazz chart, while the follow-ups, Good King Bad (#51 Pop album) and Benson & Farrell (with Joe Farrell), both reached the jazz top-three sellers." ;
+        ont:person          <http://dbpedia.org/resource/Joe_Farrell> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "51" , "1974 release" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/10/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Both tracks won Grammy Awards that year and the album put Benson into the musical limelight both in the US and in Europe." ;
+        ont:place    <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As a youth he learned how to play straight-ahead instrumental jazz during a relationship performing for several years with organist Jack McDuff." ;
+        ont:person   <http://dbpedia.org/resource/Jack_McDuff> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1990, Benson was awarded an Honorary Doctorate of Music from the Berklee College of Music.To commemorate the long relationship between Benson and Ibanez and to celebrate 30 years of collaboration on the GB Signature Models, Ibanez created the GB30TH, a limited-edition model with a gold-foil finish inspired by the traditional Japanese Garahaku art form." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "30" , "In 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1976, Benson toured with soul singer Minnie Riperton, who had been diagnosed with terminal breast cancer earlier that year and, in addition, appeared as a guitarist and backup vocalist on Stevie Wonder's song \"Another Star\" from Wonder's album Songs in the Key of Life." ;
+        ont:person          <http://dbpedia.org/resource/Stevie_Wonder> , <http://dbpedia.org/resource/Minnie_Riperton> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "In 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the age of seven, he first played the ukulele in a corner drug store, for which he was paid a few dollars." ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "age of seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "List of Grammy Awards received by George Benson" ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1990s to present ===" ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Qwest record label (a subsidiary of Warner Bros., run by Quincy Jones) released Benson's breakthrough pop album Give Me The Night, produced by Jones." ;
+        ont:place    <http://dbpedia.org/resource/Quincy,_Massachusetts> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1970s and 1980s ===" ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1980s ===" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also recorded the original version of \"The Greatest Love of All\" for the 1977 Muhammad Ali bio-pic, The Greatest, which was later covered by Whitney Houston as \"Greatest Love of All.\"" ;
+        ont:person          <http://dbpedia.org/resource/Muhammad_Ali> , <http://dbpedia.org/resource/Whitney_Houston> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Miles Davis employed Benson in the mid-1960s, featuring his guitar on \"Paraphernalia\" on his 1968 Columbia release, Miles in the Sky before Benson went to Verve Records." ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/14/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "and Late Night with Jimmy Fallon.He performed at the Java Jazz Festival March 4–6, 2011." ;
+        ont:place           <http://dbpedia.org/resource/Java> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "March 4–6 , 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Benson then signed with Creed Taylor's jazz label CTI Records, where he recorded several albums, with jazz heavyweights guesting, to some success, mainly in the jazz field." ;
+        ont:person   <http://dbpedia.org/resource/Creed_Taylor> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the same year, 1976, the top selling album Breezin' was released on the Warner Brothers label featuring the Bobby Womack penned title track and the Leon Russell penned \"This Masquerade\" which is now a jazz standard." ;
+        ont:person          <http://dbpedia.org/resource/Bobby_Womack> , <http://dbpedia.org/resource/Leon_Russell> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He began his professional career at the age of 19 as a jazz guitarist." ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "age of 19" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/12/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Benson accumulated three other platinum LPs and two gold albums." ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "two gold" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Benson was born and raised in the Hill District of Pittsburgh, Pennsylvania." ;
+        ont:place    <http://dbpedia.org/resource/Pennsylvania> , <http://dbpedia.org/resource/Pittsburgh> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/5/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Benson followed it up with The George Benson Cookbook, also with Lonnie Smith and Ronnie Cuber on baritone and drummer Marion Booker." ;
+        ont:person   <http://dbpedia.org/resource/Ronnie_Cuber> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Lonnie_Smith> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/14/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As a part of the promotion for his album Songs and Stories, Benson has appeared or performed on The Tavis Smiley Show, Jimmy Kimmel Live!" ;
+        ont:person   <http://dbpedia.org/resource/Jimmy_Kimmel> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A former child prodigy, Benson first came to prominence in the 1960s, playing soul jazz with Jack McDuff and others." ;
+        ont:person   <http://dbpedia.org/resource/Jack_McDuff> ;
+        ont:subject  <http://dbpedia.org/resource/George_Benson> .
+
+<http://w3id.org/polifonia/pilot/meetups/12945/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "George Washington Benson (born March 22, 1943) is an American guitarist, singer, and songwriter." ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/George_Benson> ;
+        ont:timeExpression  "March 22 , 1943" .

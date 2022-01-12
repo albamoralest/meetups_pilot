@@ -6,65 +6,878 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1529361/0/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:timeExpression  "September 16 , 1921" , "November 22 , 2017" .
-
-<http://w3id.org/polifonia/pilot/meetups/1529361/84/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:place           "http://dbpedia.org/resource/Paris" ;
-        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:timeExpression  "2008" .
-
-<http://w3id.org/polifonia/pilot/meetups/1529361/61/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Al_Grey> ;
-        ont:place           "http://dbpedia.org/resource/Capri" ;
-        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:timeExpression  "1990" .
-
-<http://w3id.org/polifonia/pilot/meetups/1529361/72/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
-        ont:place           "http://dbpedia.org/resource/Russell,_New_York" , "http://dbpedia.org/resource/New_York_City" ;
-        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:timeExpression  "1959" .
-
-<http://w3id.org/polifonia/pilot/meetups/1529361/11/8>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:timeExpression  "1975" , "two" .
-
 <http://w3id.org/polifonia/pilot/meetups/1529361/91/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On Stage at the Kennedy Center: The Mark Twain Prize 2002 – Behind the Curtain – Jon Hendricks from PBS" ;
         ont:person          <http://dbpedia.org/resource/Mark_Twain> , <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:place           "http://dbpedia.org/resource/John_F._Kennedy_Center_for_the_Performing_Arts" ;
+        ont:place           <http://dbpedia.org/resource/John_F._Kennedy_Center_for_the_Performing_Arts> ;
         ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
         ont:timeExpression  "Mark Twain Prize 2002" .
 
-<http://w3id.org/polifonia/pilot/meetups/1529361/59/0>
+<http://w3id.org/polifonia/pilot/meetups/1529361/84/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Kurt_Elling> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:excerpt         "Jon Hendricks, Tell Me The Truth, a documentary about the artist, directed by Audrey Lasbleiz (2008, production Mosaïque Films, Paris)." ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
         ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:timeExpression  "1999" .
+        ont:timeExpression  "2008" .
 
-<http://w3id.org/polifonia/pilot/meetups/1529361/9/1>
+<http://w3id.org/polifonia/pilot/meetups/1529361/11/5>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Georgie_Fame> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:excerpt         "In 1968, he moved the family again, this time to London, England, partly so that his four children could receive a better education, and partly to distance them from the pervasive Californian drug culture." ;
+        ont:place           <http://dbpedia.org/resource/London> ;
         ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:timeExpression  "in 1965" .
+        ont:timeExpression  "In 1968" , "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/7/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jon wrote the lyrics, and they sold the idea to Creed Taylor, who had recently started working as an A&R man for ABC-Paramount Ampar." ;
+        ont:person   <http://dbpedia.org/resource/Creed_Taylor> ;
+        ont:place    <http://dbpedia.org/resource/Ampar> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He has said: \"By the time I was 10, I was a local celebrity in Toledo." ;
+        ont:place           <http://dbpedia.org/resource/Province_of_Toledo> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "10" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/5/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They were married and eventually had 4 children." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/90/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jon Hendricks at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/83/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Foreign Student (1994): April's Father" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/76/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Royal Bopsters – The Royal Bopsters Project (Motema, 2015)" ;
+        ont:place           <http://dbpedia.org/resource/Motema> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bobby McFerrin, Spontaneous Inventions (Blue Note, 1986)" ;
+        ont:person          <http://dbpedia.org/resource/Bobby_McFerrin> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1986" .
 
 <http://w3id.org/polifonia/pilot/meetups/1529361/9/6>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1961, Columbia Records released an LP of the production and Hendricks later presented the show at the On Broadway Theater in San Francisco, where it ran for five years, and at the Westwood Playhouse in Los Angeles, where it was produced by attorneys Burton Marks and Mark Green." ;
         ont:person          <http://dbpedia.org/resource/John_O._Westwood> , <http://dbpedia.org/resource/Mark_J._Green> ;
-        ont:place           "http://dbpedia.org/resource/San_Francisco" , "http://dbpedia.org/resource/Burton_upon_Trent" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:place           <http://dbpedia.org/resource/San_Francisco> , <http://dbpedia.org/resource/Burton_upon_Trent> , <http://dbpedia.org/resource/Los_Angeles> ;
         ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
-        ont:timeExpression  "for five" , "In 1961" .
+        ont:timeExpression  "In 1961" , "for five" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/14/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He appeared in cameo roles in the films People I Know (2002) and White Men Can't Jump (1992)." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2002" , "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/82/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "White Men Can't Jump (1992): one of the Venice Beach Boys" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1992" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/75/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Larry Vuckovich, Cast Your Fate (Palo Alto, 1984)" ;
+        ont:person          <http://dbpedia.org/resource/Larry_Vuckovich> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wynton Marsalis, Blood on the Fields (Columbia, 1997)" ;
+        ont:person          <http://dbpedia.org/resource/Wynton_Marsalis> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When he and some black fellow soldiers were shot at by white US military police for consorting with white French women, they went on the run with truckloads of army supplies, remaining at large until eventually recaptured and court-martialled in November 1945." ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "November 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He is considered one of the best practitioners of scat singing, which involves vocal jazz soloing." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/81/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz Is Our Religion (1972)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/74/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Take 6, The Standard (Heads Up, 2008)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2008" , "6" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wynton Marsalis, Crescent City Christmas Card (Columbia, 1989)" ;
+        ont:person          <http://dbpedia.org/resource/Wynton_Marsalis> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Countless singers cite the work of LH&R as an influence, including Joni Mitchell, Van Morrison, Al Jarreau and Bobby McFerrin." ;
+        ont:person   <http://dbpedia.org/resource/Al_Jarreau> , <http://dbpedia.org/resource/Joni_Mitchell> , <http://dbpedia.org/resource/Van_Morrison> , <http://dbpedia.org/resource/Bobby_McFerrin> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/2/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Tatum family lived on the same street as the Hendrickses." ;
+        ont:person   <http://dbpedia.org/resource/Jayson_Tatum> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/7/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With Hendricks as lyricist and Lambert as arranger, the trio perfected the art of vocalese and took it around the world, earning them numerous awards and accolades." ;
+        ont:person   <http://dbpedia.org/resource/Lambert_of_Maastricht> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/12/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His final studio album, the Grammy-nominated Freddie Freeloader, was released in 1990, and featured an all-star line-up that included George Benson, Al Jarreau, Bobby McFerrin, Tommy Flanagan, Jimmy Cobb, Larry Goldings, Wynton Marsalis, Stanley Turrentine, Al Grey, The Manhattan Transfer and the Count Basie Orchestra." ;
+        ont:person          <http://dbpedia.org/resource/Al_Grey> , <http://dbpedia.org/resource/Stanley_Turrentine> , <http://dbpedia.org/resource/Jimmy_Cobb> , <http://dbpedia.org/resource/Bobby_McFerrin> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Wynton_Marsalis> , <http://dbpedia.org/resource/Tommy_Flanagan> , <http://dbpedia.org/resource/Al_Jarreau> , <http://dbpedia.org/resource/Larry_Goldings> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "in 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/80/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "NET Playhouse Duke Ellington – A Concert of Sacred Music (1967): Jon Hendricks" ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> , <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/73/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Janis Siegel, Experiment in White (Atlantic, 1982)" ;
+        ont:person          <http://dbpedia.org/resource/Janis_Siegel> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ellis Marsalis Jr., Ellis Marsalis Trio (Blue Note, 1991)" ;
+        ont:person          <http://dbpedia.org/resource/Ellis_Marsalis_Jr.> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Kurt Elling, Live in Chicago (Blue Note, 1999)" ;
+        ont:person          <http://dbpedia.org/resource/Kurt_Elling> ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hendricks typically wrote lyrics not just to melodies but to entire instrumental solos, a notable example being his take on Ben Webster's tenor saxophone solo on Duke Ellington's original recording of \"Cotton Tail\", as featured on the album Lambert, Hendricks and Ross Sing Ellington (1960)." ;
+        ont:person          <http://dbpedia.org/resource/Ben_Webster> , <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/16/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was premiered in New York by UK-based choir the London Vocal Project, with Hendricks in attendance, with a studio recording to follow." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/11/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Later that year he was invited by Duke Ellington to take part in the latter's Concert of Sacred Music at San Francisco's Grace Cathedral." ;
+        ont:person   <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:place    <http://dbpedia.org/resource/San_Francisco> , <http://dbpedia.org/resource/Grace_Cathedral,_San_Francisco> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/72/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "George Russell, New York, N.Y. (Decca, 1959)" ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           <http://dbpedia.org/resource/Russell,_New_York> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Manhattan Transfer, Vocalese (Atlantic, 1985)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Neil Diamond, In My Lifetime (Columbia, 1996)" ;
+        ont:person          <http://dbpedia.org/resource/Neil_Diamond> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After several years during which he wrote several songs for Louis Jordan and recorded with King Pleasure, he teamed up with Dave Lambert, who conceived the idea to record a selection of Count Basie's instrumental numbers with voices replacing the Basie orchestra's wind instruments." ;
+        ont:person   <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Louis_Jordan> , <http://dbpedia.org/resource/Dave_Lambert_(English_musician)> , <http://dbpedia.org/resource/King_Pleasure> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The house was often full of visiting jazz musicians, for whom Jon's mother provided meals.Hendricks began his singing career at the age of seven." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "age of seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/39/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(World Pacific, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/5/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jon met his first wife Colleen \"Connie\" Moore in Toledo." ;
+        ont:person   <http://dbpedia.org/resource/Colleen_Howe> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jimmy Rowles and Stan Getz, The Peacocks (Columbia, 1975)" ;
+        ont:person          <http://dbpedia.org/resource/Stan_Getz> , <http://dbpedia.org/resource/Jimmy_Rowles> , <http://dbpedia.org/resource/Jack_White> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Manhattan Transfer, Mecca for Moderns (Atlantic, 1981)" ;
+        ont:place           <http://dbpedia.org/resource/Mecca> , <http://dbpedia.org/resource/Atlantic_Ocean> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Benny Carter, Benny Carter Songbook Volume II (MusicMasters, 1997)" ;
+        ont:person          <http://dbpedia.org/resource/Benny_Carter> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== Lambert, Hendricks and Ross ==" ;
+        ont:person   <http://dbpedia.org/resource/Lambert_of_Maastricht> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/14/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 for the a cappella ensemble Pieces of 8's 2004 album Across the Blue Meridian." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2004 album" , "of 8" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As a soldier during World War II, Hendricks took part in the D-Day landings of June, 1944, and was later attached to the quartermaster's headquarters in France." ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/70/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Thelonious Monk, Underground (Columbia, 1968)" ;
+        ont:person          <http://dbpedia.org/resource/Thelonious_Monk> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "King Pleasure, King Pleasure Sings (Prestige, 1954)" ;
+        ont:person          <http://dbpedia.org/resource/King_Pleasure> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Benny Carter, Benny Carter Songbook (Musicmasters, 1997)" ;
+        ont:person          <http://dbpedia.org/resource/Benny_Carter> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Swingin' Till the Girls Come Home (Bluebird, 1987)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He is one of the originators of vocalese, which adds lyrics to existing instrumental songs and replaces many instruments with vocalists, such as the big-band arrangements of Duke Ellington and Count Basie." ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== World War II ==" ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/11/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After five years, the Hendricks family returned to Mill Valley, where Hendricks worked as the jazz critic for the San Francisco Chronicle and taught classes at California State University at Sonoma and the University of California at Berkeley." ;
+        ont:place           <http://dbpedia.org/resource/California> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "After five" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Joyce, Language and Love (Verve, 1991)" ;
+        ont:person          <http://dbpedia.org/resource/James_Joyce> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dave Brubeck, Young Lions & Old Tigers (Telarc, 1995)" ;
+        ont:person          <http://dbpedia.org/resource/Dave_Brubeck> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Havin' a Ball at the Village Gate (RCA Victor, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/12/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He served on the Kennedy Center Honors committee under presidents Carter, Reagan, and Clinton." ;
+        ont:person   <http://dbpedia.org/resource/Jimmy_Carter> , <http://dbpedia.org/resource/Bill_Clinton> , <http://dbpedia.org/resource/Ronald_Reagan> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Al Grey, Al Grey Fab (Capri, 1990)" ;
+        ont:person          <http://dbpedia.org/resource/Al_Grey> ;
+        ont:place           <http://dbpedia.org/resource/Capri> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Terence Blanchard, People I Know (Decca, 2003)" ;
+        ont:person          <http://dbpedia.org/resource/Terence_Blanchard> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Recorded Live at Basin Street East (RCA Victor, 1963)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/28/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "João Gilberto, Originator of the Bossa Nova (Reprise, 1963)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the time of the recording he was 93 and Horn was 23.In 2017, Hendricks' full lyricization of the album Miles Ahead, including Miles Davis' solos and Gil Evans' orchestrations, was completed fifty years after he had first conceived the idea." ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> , <http://dbpedia.org/resource/Gil_Evans> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2017" , "93" , "23.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/60/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Georgie Fame, Cool Cat Blues (Go Jazz, 1991)" ;
+        ont:person          <http://dbpedia.org/resource/Georgie_Fame> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At Newport '63 (RCA Victor, 1963)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/11/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1973 he recorded two songs with Art Blakey and the Jazz Messengers – Bobby Timmons's \"Moanin'\" and Benny Golson's \"Along Came Betty\" which appeared on Blakey's Buhaina album." ;
+        ont:person          <http://dbpedia.org/resource/Bobby_Timmons> , <http://dbpedia.org/resource/Art_Blakey> , <http://dbpedia.org/resource/Benny_Golson> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "two" , "In 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Art Blakey, Buhaina (Prestige, 1973)" ;
+        ont:person          <http://dbpedia.org/resource/Art_Blakey> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Born in 1921 in Newark, Ohio, Hendricks and his 14 siblings moved many times, following their father's assignments as an AME pastor, before settling permanently in Toledo." ;
+        ont:place           <http://dbpedia.org/resource/Ohio> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "14" , "in 1921" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Karrin Allyson, Footprints (Concord Jazz, 2006)" ;
+        ont:person          <http://dbpedia.org/resource/Karrin_Allyson> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Everybody's Boppin (Columbia, 1989)With Lambert, Hendricks and Bavan" ;
+        ont:person          <http://dbpedia.org/resource/Lambert_of_Maastricht> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sing Along with Basie (Roulette, 1958)" ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/9/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The ensemble played not only Hendricks' words and music but also Percy Mayfield's classic \"Please Send Me Someone to Love\", the driving D. Love gospel song \"That's Enough\", and the blues evergreen, \"C.C." ;
+        ont:person   <http://dbpedia.org/resource/Percy_Mayfield> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3 Cohens, Family (Anzic, 2011)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2011" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Basie Live in Person (Natural Organic, 1979)" ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Carl Hendricks (September 16, 1921 – November 22, 2017), known professionally as Jon Hendricks, was an American jazz lyricist and singer." ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "September 16 , 1921" , "November 22 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sing a Song of Basie (ABC-Paramount, 1958)" ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His 15-voice group, the Jon Hendricks Vocalstra at the University of Toledo, performed at the Sorbonne in 2002." ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "in 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/11/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hendricks also recorded two albums in London – Jon Hendricks Live (Fontana) and Times of Love (Philips), which was released in the US as September Songs (Stanyan, 1975)." ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1975" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Real Ambassadors (Columbia Masterworks, 1962)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Boppin' at the Blue Note (Telarc, 1995)With Lambert, Hendricks and Ross" ;
+        ont:person          <http://dbpedia.org/resource/Lambert_of_Maastricht> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Recorded in Person at the Trident (Smash, 1965)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/7/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The result was a best-selling album, Sing a Song of Basie." ;
+        ont:person   <http://dbpedia.org/resource/Count_Basie> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He collaborated with old friends The Manhattan Transfer for their seminal 1985 album, Vocalese, which won seven Grammy Awards." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1985 album" , "seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "High Flying (Columbia, 1961)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Freddie Freeloader (Denon, 1990)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He performs vocalese on \"Suddenly (In Walked Bud)\", is included in the ensemble on the album's title track \"Meet Me at Minton's\", and croons a duet of the Monk tune \"How I Wish (Ask Me Now)\" with singer and 2016 Thelonius Monk Competition winner Jazzmeia Horn." ;
+        ont:person          <http://dbpedia.org/resource/Jazzmeia_Horn> , <http://dbpedia.org/resource/Thelonious_Monk> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/11/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Having divorced Colleen and married Judith Dickstein, Hendricks moved to Mill Valley, California, reuniting with his children, who had been farmed out to relatives since the divorce." ;
+        ont:place    <http://dbpedia.org/resource/Mill_Valley,_California> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sing Ellington (Columbia, 1960)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Love (Muse, 1982)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fast Livin' Blues (Columbia, 1962)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2015, Hendricks lost his second wife Judith to a brain tumor." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "In 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Hottest New Group in Jazz (Columbia, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live Recording at Birdland with Count Basie (Roulette, 1961)" ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cloudburst (Enja, 1982)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hendricks wrote lyrics for several Thelonious Monk songs, including \"In Walked Bud\", which he performed on Monk's 1968 album Underground.For a performance at the 1960 Monterey Jazz Festival, he created and starred in a musical he called Evolution of the Blues Song (later shortened to Evolution of the Blues), which featured such acclaimed singers as Jimmy Witherspoon, Hannah Dean, and \"Big\" Miller, as well as saxophonists Ben Webster and Pony Poindexter." ;
+        ont:person          <http://dbpedia.org/resource/Ben_Webster> , <http://dbpedia.org/resource/Thelonious_Monk> , <http://dbpedia.org/resource/Pony_Poindexter> , <http://dbpedia.org/resource/Jimmy_Witherspoon> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1968 album" , "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He worked on setting words to and arranging Rachmaninoff's second piano concerto as well as on two books, teaching and touring with his Vocalstra." ;
+        ont:person          <http://dbpedia.org/resource/Sergei_Rachmaninoff> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "on two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/5/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hendricks moved his family there two years later and resumed his singing career." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tell Me the Truth (Arista, 1975)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sing Along with Basie with Count Basie, Joe Williams, Dave Lambert, Annie Ross (Roulette, 1959)" ;
+        ont:person          <http://dbpedia.org/resource/Smokey_Joe_Williams> , <http://dbpedia.org/resource/Annie_Ross> , <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Dave_Lambert_(English_musician)> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hendricks died on November 22, 2017 in Manhattan, New York City, aged 96." ;
+        ont:place           <http://dbpedia.org/resource/Manhattan> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "November 22 , 2017" , "96" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/13/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was selected to be the first American jazz artist to lecture at the Sorbonne in Paris." ;
+        ont:place    <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/11/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His sold-out club dates at Ronnie Scott's drew fans such as the Rolling Stones and the Beatles." ;
+        ont:person   <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Times of Love (Philips, 1972)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Good Git-Together (World Pacific, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had that song 'Me and My Shadow'." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "'Me" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Love (Muse, 1982) by Jon Hendricks & Company came next, and featured his daughter Michele." ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/5/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Parker encouraged him to come to New York and look him up." ;
+        ont:person   <http://dbpedia.org/resource/Tony_Parker> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jon Hendricks Live (Fontana, 1970)" ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Evolution of the Blues Song (Columbia, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hendricks also appeared on three tracks from the 2016 release of the JC Hopkins Biggish Band titled \"Meet Me at Minton's\"." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2016 release" , "on three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/0/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Al Jarreau called him \"pound-for-pound the best jazz singer on the planet—maybe that's ever been\"." ;
+        ont:person   <http://dbpedia.org/resource/Al_Jarreau> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/5/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bill as a pre-law major." ;
+        ont:person   <http://dbpedia.org/resource/Major_(American_musician)> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2012, Hendricks appeared in the documentary film No One But Me, discussing his former bandmate and friend, Annie Ross." ;
+        ont:person          <http://dbpedia.org/resource/Annie_Ross> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "In 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1966 Hendricks recorded \"Fire in the City\" with the Warlocks, who shortly after changed their name to the Grateful Dead." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "In 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the summer of 2003 Hendricks went on tour with the \"Four Brothers\", a quartet consisting of Hendricks, Kurt Elling, Mark Murphy and Kevin Mahogany." ;
+        ont:person          <http://dbpedia.org/resource/Mark_Murphy_(singer)> , <http://dbpedia.org/resource/Woody_Herman> , <http://dbpedia.org/resource/Kurt_Elling> , <http://dbpedia.org/resource/Kevin_Mahogany> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "summer of 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was replaced by Yolande Bavan, and the group was billed as Lambert, Hendricks and Bavan for the three live albums they recorded, 1962–64." ;
+        ont:person          <http://dbpedia.org/resource/Lambert_of_Maastricht> , <http://dbpedia.org/resource/Yolande_Bavan> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "three" , "1962–64" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hendricks was recognized with an NEA Jazz Master award in 1993, multiple Grammy Awards, and in 2004, he was honored in France with the Legion of Honour." ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "in 2004" , "award in 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2000 Hendricks returned to his home town to teach at the University of Toledo, where he was appointed Distinguished Professor of Jazz Studies and received an honorary Doctorate of the Performing Arts." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "In 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/89/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jon Hendricks discography at Discogs" ;
+        ont:person   <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/11/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Using London as his base, he toured Europe and Africa, performed frequently on British radio and television with such stars of the day as Lulu and Dusty Springfield, as well as Ronnie Scott and the comedian Marty Feldman." ;
+        ont:person   <http://dbpedia.org/resource/Marty_Feldman> , <http://dbpedia.org/resource/Walter_Scott> , <http://dbpedia.org/resource/Dusty_Springfield> ;
+        ont:place    <http://dbpedia.org/resource/Africa> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Europe> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After a disastrous initial attempt to record the songs with a choir, they decided to multi-track their own voices, with Annie Ross providing the high notes." ;
+        ont:person   <http://dbpedia.org/resource/Annie_Ross> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I had offers to go with Fats Waller when I was 12, and offers to go with Ted Lewis and be his shadow when I was 13." ;
+        ont:person          <http://dbpedia.org/resource/Edward_M._Lewis> , <http://dbpedia.org/resource/Fats_Waller> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "13" , "12" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His album Tell Me the Truth (Arista, 1975) was produced by Ben Sidran." ;
+        ont:person          <http://dbpedia.org/resource/Ben_Sidran> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One night in 1950, Hendricks got up and scatted at a Charlie Parker gig in Toledo." ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Parker> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "One night" , "in 1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/88/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jon Hendricks at AllMusic" ;
+        ont:person   <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hendricks recorded two albums in 1961 – Salud!" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "two" , "in 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By then the war was over, and Hendricks served only 11 months in the stockade before returning home to attend University of Toledo on the G.I." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "11" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/0/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jazz critic and historian Leonard Feather called him the \"Poet Laureate of Jazz\", while Time dubbed him the \"James Joyce of Jive\"." ;
+        ont:person   <http://dbpedia.org/resource/James_Joyce> , <http://dbpedia.org/resource/Leonard_Feather> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/79/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Steve Allen Plymouth Show Episode #4.11 (1958): Lambert, Hendricks & Ross" ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "4.11" , "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The song \"Yeh Yeh\", for which Hendricks composed the lyrics, became a no.1 hit in 1965 for British R&B-jazz singer Georgie Fame, who continues to record and perform Lambert, Hendricks & Ross compositions to this day." ;
+        ont:person          <http://dbpedia.org/resource/Georgie_Fame> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "in 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/7/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In September 1959, they appeared on the cover of Down Beat under the headline \"The Hottest New Group in Jazz\", which they adopted as the title of their Grammy-nominated fourth album." ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "September 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/85/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blues March: Soldier Jon Hendricks, a documentary about the artist fighting on two fronts in World War II by Malte Rauchof ( Strandfilm Productions (2009)" ;
+        ont:person          <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "2009" , "on two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jon Hendricks received his early musical training from piano prodigy Art Tatum, and the two of them began appearing together around town." ;
+        ont:person          <http://dbpedia.org/resource/Art_Tatum> , <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/78/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Music in Monk Time, a documentary tribute to Thelonious Monk, Hendricks served as co-writer, performer and narrator (1983, production by Songfilms International, Inc.)" ;
+        ont:person          <http://dbpedia.org/resource/Thelonious_Monk> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His lyrics to Benny Golson's \"I Remember Clifford\" have been recorded by several other vocalists, including Dinah Washington, Carmen McRae, Nancy Wilson, Ray Charles, The Manhattan Transfer and Helen Merrill.From 1957 through 1962, the trio recorded six albums, including High Flying (1961), which won a Grammy for Best Performance by a Vocal Group, before Annie Ross departed due to health problems." ;
+        ont:person          <http://dbpedia.org/resource/Nancy_Wilson_(jazz_singer)> , <http://dbpedia.org/resource/Benny_Golson> , <http://dbpedia.org/resource/Annie_Ross> , <http://dbpedia.org/resource/Ray_Charles> , <http://dbpedia.org/resource/Carmen_McRae> , <http://dbpedia.org/resource/Dinah_Washington> ;
+        ont:subject         <http://dbpedia.org/resource/Jon_Hendricks> ;
+        ont:timeExpression  "through 1962" , "1961" , "Helen Merrill.From 1957" , "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/1529361/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He continued performing around Toledo and Detroit until he was drafted into the US Army." ;
+        ont:place    <http://dbpedia.org/resource/Detroit> ;
+        ont:subject  <http://dbpedia.org/resource/Jon_Hendricks> .

@@ -6,58 +6,338 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/3263983/9/4>
+<http://w3id.org/polifonia/pilot/meetups/3263983/5/9>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
-        ont:place           "http://dbpedia.org/resource/Culver_City,_California" ;
+        ont:excerpt         "Lindsay and Dennis died by suicide as adults, Lindsay in 1989 and Dennis in 1991." ;
+        ont:person          <http://dbpedia.org/resource/Dennis_Crosby> , <http://dbpedia.org/resource/Lindsay_Crosby> ;
         ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
-        ont:timeExpression  "November 3" .
+        ont:timeExpression  "in 1991" , "in 1989" .
 
-<http://w3id.org/polifonia/pilot/meetups/3263983/31/0>
+<http://w3id.org/polifonia/pilot/meetups/3263983/29/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/E._H._Harriman> ;
-        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:excerpt         "The 1947 film Smash-Up, the Story of a Woman is loosely based on Dixie Lee's life." ;
+        ont:person          <http://dbpedia.org/resource/Dixie_Lee> ;
         ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
-        ont:timeExpression  "November 8 , 2019" , "46" , "1F" .
+        ont:timeExpression  "1947 film" .
 
-<http://w3id.org/polifonia/pilot/meetups/3263983/0/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Wyatt_Earp> , <http://dbpedia.org/resource/Dixie_Lee> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
-        ont:timeExpression  "November 4 , 1909" , "November 1 , 1952" .
+<http://w3id.org/polifonia/pilot/meetups/3263983/35/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dixie Lee at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:subject  <http://dbpedia.org/resource/Dixie_Lee> .
 
 <http://w3id.org/polifonia/pilot/meetups/3263983/9/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In January 1951, Press reports indicated that Crosby had recently moved back into his Holmby Hills home with Dixie Lee." ;
         ont:person          <http://dbpedia.org/resource/Dixie_Lee> , <http://dbpedia.org/resource/Bing_Crosby> ;
-        ont:place           "http://dbpedia.org/resource/Holmby_Hills,_Los_Angeles" ;
+        ont:place           <http://dbpedia.org/resource/Holmby_Hills,_Los_Angeles> ;
         ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
         ont:timeExpression  "January 1951" .
 
-<http://w3id.org/polifonia/pilot/meetups/3263983/2/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Wyatt_Earp> ;
-        ont:place           "http://dbpedia.org/resource/Tennessee" ;
-        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
-        ont:timeExpression  "November 4 , 1909" .
+<http://w3id.org/polifonia/pilot/meetups/3263983/34/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dixie Lee at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:subject  <http://dbpedia.org/resource/Dixie_Lee> .
 
-<http://w3id.org/polifonia/pilot/meetups/3263983/9/0>
+<http://w3id.org/polifonia/pilot/meetups/3263983/27/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
-        ont:place           "http://dbpedia.org/resource/Europe" ;
+        ont:excerpt         "1935: Redheads on Parade as Ginger Blair (final film role)" ;
+        ont:person          <http://dbpedia.org/resource/Tony_Blair> ;
         ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
-        ont:timeExpression  "in 1950" , "December 20 , 1950" .
+        ont:timeExpression  "1935" .
 
-<http://w3id.org/polifonia/pilot/meetups/3263983/4/0>
+<http://w3id.org/polifonia/pilot/meetups/3263983/26/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
-        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:excerpt         "1935: Love in Bloom as Violet Downey" ;
         ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
-        ont:timeExpression  "age of 20" , "September 29 , 1930" .
+        ont:timeExpression  "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1931: No Limit as Dotty 'Dodo' Potter" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1931" .
 
 <http://w3id.org/polifonia/pilot/meetups/3263983/2/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "While in Chicago she adopted the professional name \"Dixie Carroll\" to enter an amateur singing contest in May 1928." ;
         ont:person          <http://dbpedia.org/resource/Dixie_Carroll> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
         ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
         ont:timeExpression  "May 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "An hour and a half later, Crosby appeared at Agua Caliente, having flown down in an airplane, and all was well again.They had four sons: Gary (1933); twins Phillip and Dennis (1934); and Lindsay (1938)." ;
+        ont:person          <http://dbpedia.org/resource/Dennis_Crosby> , <http://dbpedia.org/resource/Lindsay_Crosby> , <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1938" , "1934" , "four" , "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1934: Manhattan Love Song as Geraldine Stewart" ;
+        ont:person          <http://dbpedia.org/resource/Geraldine_Chaplin> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1930: Cheer Up and Smile as Margie" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her most notable film is probably Love in Bloom (1935)." ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On November 8, 2019, the Tennessee Historical Commission and the City of Harriman, Tennessee, unveiled a Tennessee State Historical Marker (1F 46) near Dixie's birthplace in the Walnut Hill section of downtown Harriman." ;
+        ont:person          <http://dbpedia.org/resource/E._H._Harriman> ;
+        ont:place           <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "November 8 , 2019" , "46" , "1F" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1931: Darn Tootin (Short) as Singer" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1930: The Big Party as Kitty Collins" ;
+        ont:person          <http://dbpedia.org/resource/Judith_Collins> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Our separation is an amiable one, and the only reason for it is that we just cannot get along." ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1931: Night Life in Reno as Dorothy Pierce" ;
+        ont:person          <http://dbpedia.org/resource/Paul_Pierce> , <http://dbpedia.org/resource/Marcus_Reno> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1930: Let's Go Places as Dixie" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was her first professional appearance since 1936." ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "appearance since 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1931: Young Sinners as Girl (uncredited)" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1930: Harmony at Home as Rita Joyce" ;
+        ont:person          <http://dbpedia.org/resource/James_Joyce> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/6/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her final recordings were two duets with her husband recorded on August 19, 1936 - A Fine Romance and The Way You Look Tonight." ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "August 19 , 1936" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1931: Quick Millions as Stone's Secretary (uncredited)" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1929: Happy Days as Lead Dancer in 'Crazy Feet' number" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After moving to Chicago, she graduated from Senn High School." ;
+        ont:place    <http://dbpedia.org/resource/Chicago> ;
+        ont:subject  <http://dbpedia.org/resource/Dixie_Lee> .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/5/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The girl got Crosby on the long-distance telephone and presently he and Dixie were talking to each other." ;
+        ont:person   <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject  <http://dbpedia.org/resource/Dixie_Lee> .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1931: Mr." ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1929: Why Leave Home?" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dixie Lee made two appearances on the Shell Chateau radio program in 1935, and she made three more films." ;
+        ont:person          <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "two" , "three" , "program in 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1929: Fox Movietone Follies of 1929 as Lead Dancer In Fashion Number" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "of 1929" , "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She went on to say, \"We have only been married about six months, but we have already found out that we are not suited for each other." ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "about six" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1929: Knights Out (Short)" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bing Crosby went to Europe in 1950 for an extended visit and there were headlines stating that the Crosby marriage was strained, but this was subsequently denied.Crosby persuaded her to take part in his radio show broadcast on December 20, 1950, her first appearance with him on radio." ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:place           <http://dbpedia.org/resource/Europe> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "in 1950" , "December 20 , 1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dixie Lee was better known than Crosby at that time, as illustrated by the incorrect news release issued by the Associated Press, which reported she married \"Murray Crosey\"." ;
+        ont:person   <http://dbpedia.org/resource/Dixie_Lee> , <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:place    <http://dbpedia.org/resource/Murray_River> ;
+        ont:subject  <http://dbpedia.org/resource/Dixie_Lee> .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Crosby's biographer, Gary Giddins, describes Dixie Lee as a shy, private person with a sensible approach to life." ;
+        ont:person   <http://dbpedia.org/resource/Bing_Crosby> , <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:subject  <http://dbpedia.org/resource/Dixie_Lee> .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was encouraged back in to the recording studio again on July 27, 1936, and she recorded \"Until the Real Thing Comes Along\" and \"When a Lady Meets a Gentleman Down South\" for Decca Records." ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "July 27 , 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(When she entered show business, she gave her birth date as November 4, 1911.)" ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "November 4 , 1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "To one of the girls in the crowd, she confided she was not half as angry with Crosby as she was at the parting a week ago." ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "There were early problems with the marriage, and on March 4, 1931, Dixie announced that they had separated and that she would soon be filing a divorce suit charging mental cruelty." ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "March 4 , 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She was the first wife of singer Bing Crosby." ;
+        ont:person   <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject  <http://dbpedia.org/resource/Dixie_Lee> .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/8/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Crosby accompanied his wife to the hospital in an ambulance and remained at her bedside during the night." ;
+        ont:person   <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject  <http://dbpedia.org/resource/Dixie_Lee> .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She met Bing Crosby at the age of 20 and they married on September 29, 1930, at the Church of the Blessed Sacrament in Hollywood." ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:place           <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "age of 20" , "September 29 , 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/2/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A film contract was subsequently offered and Winfield Sheehan of the Fox film studio changed her name to Dixie Lee, to avoid confusion with actresses Nancy Carroll and Sue Carol." ;
+        ont:person   <http://dbpedia.org/resource/Winfield_Sheehan> , <http://dbpedia.org/resource/Nancy_Carroll> , <http://dbpedia.org/resource/Dixie_Lee> , <http://dbpedia.org/resource/Sue_Carol> ;
+        ont:subject  <http://dbpedia.org/resource/Dixie_Lee> .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was born Wilma Winifred Wyatt in Harriman, Tennessee, on November 4, 1909, to Evan Wyatt and the former Nora Scarborough." ;
+        ont:person          <http://dbpedia.org/resource/Wyatt_Earp> ;
+        ont:place           <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "November 4 , 1909" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was interred in the Crosby plot at Holy Cross Cemetery in Culver City, California, after a Requiem High Mass at the Church of the Good Shepherd in Beverly Hills on November 3." ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:place           <http://dbpedia.org/resource/Culver_City,_California> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "November 3" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wilma Winifred Wyatt (November 4, 1909 – November 1, 1952), better known as Dixie Lee, was an American actress, dancer, and singer." ;
+        ont:person          <http://dbpedia.org/resource/Wyatt_Earp> , <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "November 4 , 1909" , "November 1 , 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In January 1945, Dixie Lee was rushed to St. Vincent's Hospital after collapsing with a \"respiratory infection.\"" ;
+        ont:person          <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "January 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She made a couple of records on March 11, 1935, \"You've Got Me Doing Things,\" a song she introduced in the film Love in Bloom." ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "March 11 , 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had been spending much of his time at his home at Pebble Beach.Dixie Lee died from ovarian cancer on November 1, 1952, three days before her 43rd birthday." ;
+        ont:person          <http://dbpedia.org/resource/Robert_E._Lee> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "November 1 , 1952" , "43rd birthday" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/3263983/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This led to problems with the marriage and divorce was briefly contemplated by Crosby in January 1941." ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject         <http://dbpedia.org/resource/Dixie_Lee> ;
+        ont:timeExpression  "January 1941" .

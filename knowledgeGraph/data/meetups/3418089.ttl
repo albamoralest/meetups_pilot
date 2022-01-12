@@ -6,30 +6,77 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/3418089/4/0>
+<http://w3id.org/polifonia/pilot/meetups/3418089/3/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Maxwell_D._Taylor> ;
-        ont:place           "http://dbpedia.org/resource/Panama" ;
+        ont:excerpt         "He also voiced North American characters in series filmed by Gerry Anderson's production company Century 21, most prominently the leading character of Colonel Steve Zodiac in Fireball XL5 (1962) and the supporting character of Captain Grey in Captain Scarlet and the Mysterons (1967)." ;
+        ont:person          <http://dbpedia.org/resource/Gerry_Anderson> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Paul_Maxwell> ;
-        ont:timeExpression  "1989" , "1977" , "1976" .
+        ont:timeExpression  "1962" , "Century 21" , "1967" .
 
-<http://w3id.org/polifonia/pilot/meetups/3418089/0/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Pavel_Popovich> , <http://dbpedia.org/resource/Paul_Maxwell> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Paul_Maxwell> ;
-        ont:timeExpression  "12 November 1921" , "19 December 1991" .
+<http://w3id.org/polifonia/pilot/meetups/3418089/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His real passion, however, was theatre; he starred in the West End several times, with roles in Twelve Angry Men and the musical Promises, Promises.After the Second World War, Maxwell married Mary Lindsay." ;
+        ont:person   <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/James_Clerk_Maxwell> , <http://dbpedia.org/resource/Lindsay_Crosby> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Maxwell> .
+
+<http://w3id.org/polifonia/pilot/meetups/3418089/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Paul Maxwell at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Paul_Maxwell> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Maxwell> .
 
 <http://w3id.org/polifonia/pilot/meetups/3418089/3/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Maxwell started as an actor in the U.S., appearing in series such as Dragnet and Alfred Hitchcock Presents before emigrating to Britain in 1960." ;
         ont:person          <http://dbpedia.org/resource/James_Clerk_Maxwell> , <http://dbpedia.org/resource/Alfred_Hitchcock> ;
-        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Paul_Maxwell> ;
         ont:timeExpression  "in 1960" .
 
-<http://w3id.org/polifonia/pilot/meetups/3418089/3/2>
+<http://w3id.org/polifonia/pilot/meetups/3418089/3/3>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Gerry_Anderson> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "Maxwell also made several appearances in UFO (1970)." ;
+        ont:person          <http://dbpedia.org/resource/James_Clerk_Maxwell> ;
         ont:subject         <http://dbpedia.org/resource/Paul_Maxwell> ;
-        ont:timeExpression  "Century 21" , "1962" , "1967" .
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/3418089/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Paul Maxwell (born Maxim Popovich; 12 November 1921 – 19 December 1991) was a Canadian actor who worked mostly in British cinema and television, in which he was usually cast as American characters." ;
+        ont:person          <http://dbpedia.org/resource/Pavel_Popovich> , <http://dbpedia.org/resource/Paul_Maxwell> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Maxwell> ;
+        ont:timeExpression  "12 November 1921" , "19 December 1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/3418089/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the next decade, Maxwell appeared in many TV series produced by ITC Entertainment, such as Danger Man and The Baron." ;
+        ont:person   <http://dbpedia.org/resource/James_Clerk_Maxwell> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Maxwell> .
+
+<http://w3id.org/polifonia/pilot/meetups/3418089/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During World War II, Maxwell served in the Royal Canadian Artillery." ;
+        ont:person   <http://dbpedia.org/resource/James_Clerk_Maxwell> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Maxwell> .
+
+<http://w3id.org/polifonia/pilot/meetups/3418089/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The couple had one daughter." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Maxwell> ;
+        ont:timeExpression  "one daughter" .
+
+<http://w3id.org/polifonia/pilot/meetups/3418089/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Maxwell also starred as the \"Man with the Panama Hat\" in the film Indiana Jones and the Last Crusade (1989), as a C.I.A chief in The Pink Panther Strikes Again (1976), and as General Maxwell Taylor in A Bridge Too Far (1977)." ;
+        ont:person          <http://dbpedia.org/resource/Maxwell_D._Taylor> ;
+        ont:place           <http://dbpedia.org/resource/Panama> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Maxwell> ;
+        ont:timeExpression  "1977" , "1989" , "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/3418089/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In terms of audience, his most notable role was probably that of Steve Tanner, the ex-GI husband of Elsie Tanner in the soap opera Coronation Street in 1967." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Maxwell> ;
+        ont:timeExpression  "in 1967" .

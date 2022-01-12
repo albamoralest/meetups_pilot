@@ -6,16 +6,99 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/488800/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Minnesota Music Hall of Fame" ;
+        ont:place    <http://dbpedia.org/resource/Minnesota> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Loeffelmacher> .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Loeffelmacher was born in 1905 on a Minnesota farm near Fort Ridgely." ;
+        ont:place           <http://dbpedia.org/resource/Minnesota> , <http://dbpedia.org/resource/Fort_Ridgely> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:timeExpression  "in 1905" .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They played the Nebraska State Fair for 26 straight years.During Loeffelmacher's long career of touring from show to show, it is claimed that he eventually wore out seven buses while accumulating as much as 90,000 miles of road travel annually." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:timeExpression  "seven" , "for 26" , "as 90,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Loeffelmacher was inducted into the International Polka Association's Hall of Fame in 1975." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:timeExpression  "in 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "George's Ballroom, New Ulm, MInnesota on YouTube" ;
+        ont:place    <http://dbpedia.org/resource/Minnesota> , <http://dbpedia.org/resource/New_Ulm,_Minnesota> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Loeffelmacher> .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/3/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His son Harold and daughter-in-law Virginia accepted the award on his behalf." ;
+        ont:place    <http://dbpedia.org/resource/Virginia> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Loeffelmacher> .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The band, based in New Ulm, Minnesota, traveled extensively and played as many as 335 dates per year, mostly in the Midwestern United States." ;
+        ont:place           <http://dbpedia.org/resource/Midwestern_United_States> , <http://dbpedia.org/resource/New_Ulm,_Minnesota> , <http://dbpedia.org/resource/Minnesota> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:timeExpression  "as 335" .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After his family moved to New Ulm, he took violin lessons, then moved to wind instruments, including the tuba." ;
+        ont:place    <http://dbpedia.org/resource/Neu-Ulm> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Loeffelmacher> .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Video of Harold on Lawrence Welk Show on YouTube" ;
+        ont:person   <http://dbpedia.org/resource/Lawrence_Welk> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Loeffelmacher> .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His family currently resides near St. Paul/Minneapolis, Minnesota.In 2006, 74 years after the band's founding, a compilation CD of the Six Fat Dutchmen's original recordings was produced." ;
+        ont:place           <http://dbpedia.org/resource/Minneapolis> ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:timeExpression  "Minnesota.In 2006 , 74" .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1932, he started \"Six Fat Dutchmen,\"  which grew from the initial six to over a dozen musicians." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:timeExpression  "In 1932" , "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Over a span of 14 years the Six Fat Dutchmen recorded 800 polkas, waltzes and schottisches on the RCA Victor label, and for ten years they were signed by Dot Records." ;
+        ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:timeExpression  "span of 14" , "800 polkas" .
+
+<http://w3id.org/polifonia/pilot/meetups/488800/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Harold Loeffelmacher biography – International Polka Association" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
+        ont:subject  <http://dbpedia.org/resource/Harold_Loeffelmacher> .
+
 <http://w3id.org/polifonia/pilot/meetups/488800/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Harold Loeffelmacher (March 14, 1905 – January 30, 1987) was an American musician and bandleader best known for forming the polka band known as the Six Fat Dutchmen." ;
         ont:person          <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
-        ont:timeExpression  "January 30 , 1987" , "March 14 , 1905" .
+        ont:timeExpression  "March 14 , 1905" , "January 30 , 1987" .
 
 <http://w3id.org/polifonia/pilot/meetups/488800/3/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He performed a dozen times on the long-running nationally televised TV series, The Lawrence Welk Show.Loeffelmacher died in 1988 at Sioux Valley Hospital in New Ulm, Minnesota.In 1990, three years after his death, Harold Loeffelmacher and his Six Fat Dutchmen were inducted into the Minnesota Music Hall of Fame." ;
         ont:person          <http://dbpedia.org/resource/Harold_Loeffelmacher> , <http://dbpedia.org/resource/Lawrence_Welk> ;
-        ont:place           "http://dbpedia.org/resource/Minnesota" , "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_New_Ulm" ;
+        ont:place           <http://dbpedia.org/resource/Roman_Catholic_Diocese_of_New_Ulm> , <http://dbpedia.org/resource/Minnesota> ;
         ont:subject         <http://dbpedia.org/resource/Harold_Loeffelmacher> ;
         ont:timeExpression  "Minnesota.In 1990 , three" , "in 1988" .

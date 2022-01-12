@@ -6,30 +6,103 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/328940/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His work, featuring letters cut from newspaper headlines in the style of a ransom note, came close to defining the image of punk rock, particularly in the UK." ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Jamie_Reid> .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "– challenged claims that Reid created the \"Nowhere Buses\" graphic which appeared on the sleeve to the Sex Pistols' 1977 single Pretty Vacant and has subsequently been used many times for limited edition prints." ;
+        ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2009 following allegations Damien Hirst was to sue a student for copyright infringement, Reid called him a \"hypocritical and greedy art bully\" and in collaboration with Jimmy Cauty produced his For the Love of Disruptive Strategies and Utopian Visions in Contemporary Art and Culture image as a pastiche replacing the God Save The Queen with God Save Damien Hirst.He is also represented by John Marchant Gallery who look after Reid's extensive archive." ;
+        ont:person          <http://dbpedia.org/resource/Father_Damien> , <http://dbpedia.org/resource/Damien_Hirst> , <http://dbpedia.org/resource/Jimmy_Cauty> ;
+        ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:timeExpression  "In 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/1/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ten years later on the thirtieth anniversary of the release of God \"Save the Queen,\" Reid produced a new print entitled \"Never Trust a Punk,\" based on his original design which was exhibited at London Art Fair in the Islington area of the city \" \"." ;
+        ont:place           <http://dbpedia.org/resource/Islington> ;
+        ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:timeExpression  "Ten" .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He now exhibits and publishes work at Steve Lowe's new project space the L-13 Light Industrial Workshop in Clerkenwell, London." ;
+        ont:place    <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Clerkenwell> ;
+        ont:subject  <http://dbpedia.org/resource/Jamie_Reid> .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was educated at John Ruskin Grammar School in Croydon." ;
+        ont:place    <http://dbpedia.org/resource/Croydon> ;
+        ont:subject  <http://dbpedia.org/resource/Jamie_Reid> .
+
 <http://w3id.org/polifonia/pilot/meetups/328940/5/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jacobs said that he originated the design, which first appeared in a pamphlet as part of a protest about mass transit in San Francisco in 1973.Reid has also been involved in direct action campaigns on issues including the poll tax, Clause 28 and the Criminal Justice Bill.His former partner was actress Margi Clarke, with whom he had a daughter, Rowan." ;
         ont:person          <http://dbpedia.org/resource/Margi_Clarke> ;
-        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:place           <http://dbpedia.org/resource/San_Francisco> ;
         ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
         ont:timeExpression  "Clause 28" , "in 1973.Reid" .
 
-<http://w3id.org/polifonia/pilot/meetups/328940/0/0>
+<http://w3id.org/polifonia/pilot/meetups/328940/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His exhibitions include Peace is Tough at The Arches in Glasgow, and at the Microzine Gallery in Liverpool, where he now lives." ;
+        ont:place    <http://dbpedia.org/resource/Glasgow> ;
+        ont:subject  <http://dbpedia.org/resource/Jamie_Reid> .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/11/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jamie_Reid> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/London" ;
+        ont:excerpt         "Interview with Reid at 3:AM Magazine" ;
         ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
-        ont:timeExpression  "16 January 1947" .
+        ont:timeExpression  "at 3" .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His best known works include the Sex Pistols album Never Mind the Bollocks, Here's the Sex Pistols and the singles \"Anarchy in the UK\", \"God Save The Queen\" (based on a Cecil Beaton photograph of Queen Elizabeth II, with an added safety pin through her nose and swastikas in her eyes, described by Sean O'Hagan of The Observer as \"the single most iconic image of the punk era\"), \"Pretty Vacant\" and \"Holidays in the Sun\"." ;
+        ont:person   <http://dbpedia.org/resource/Mary_Beaton> , <http://dbpedia.org/resource/Sean_O'Hagan> , <http://dbpedia.org/resource/Elizabeth_II> ;
+        ont:subject  <http://dbpedia.org/resource/Jamie_Reid> .
 
 <http://w3id.org/polifonia/pilot/meetups/328940/1/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "With Malcolm McLaren, he took part in a sit-in at Croydon Art School.Reid produced a series of screen prints in 1997, the twentieth anniversary of the birth of punk rock." ;
         ont:person          <http://dbpedia.org/resource/Malcolm_McLaren> ;
-        ont:place           "http://dbpedia.org/resource/Croydon" ;
+        ont:place           <http://dbpedia.org/resource/Croydon> ;
         ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
         ont:timeExpression  "in 1997" .
 
 <http://w3id.org/polifonia/pilot/meetups/328940/5/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In October 2010, US activist David Jacobs – founder of the early 1970s Situationist group Point-Blank!" ;
         ont:person          <http://dbpedia.org/resource/David_Jacobs_(broadcaster)> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
         ont:timeExpression  "October 2010" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jamie Reid (born 16 January 1947 in London, United Kingdom) is an English artist and anarchist with connections to the Situationists." ;
+        ont:person          <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:place           <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:timeExpression  "16 January 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jamie Reid created the ransom-note look used with the Sex Pistols graphics while he was designing Suburban Press, a radical political magazine he ran for five years." ;
+        ont:person          <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:timeExpression  "for five" .
+
+<http://w3id.org/polifonia/pilot/meetups/328940/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Since 2004, Reid has been exhibiting and publishing prints with the Aquarium Gallery, where a career retrospective, May Day, May Day, was held in May 2007." ;
+        ont:subject         <http://dbpedia.org/resource/Jamie_Reid> ;
+        ont:timeExpression  "Since 2004" , "May 2007" .

@@ -6,44 +6,439 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/2488161/9/20>
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/25>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Peter_B._Lewis> ;
-        ont:place           "http://dbpedia.org/resource/Capitola,_California" ;
+        ont:excerpt         "At this final show, Spence led the group through a rendition of \"Sailing\" (a song performed during the 1971 reunion run) and an impromptu performance of \"J.P.P." ;
         ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
-        ont:timeExpression  "five" .
+        ont:timeExpression  "1971 reunion run" .
 
-<http://w3id.org/polifonia/pilot/meetups/2488161/3/0>
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Robert_E._Lee> ;
-        ont:place           "http://dbpedia.org/resource/Windsor,_Ontario" , "http://dbpedia.org/resource/Canada" ;
+        ont:excerpt         "He contributed to 20 Granite Creek (1971) and Live Grape (1978), though his bandmates always included at least one of his songs on group recordings, irrespective of whether he was capable of performing with the group at the time." ;
         ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
-        ont:timeExpression  "in 1946" .
+        ont:timeExpression  "one" , "1978" , "1971" , "20" .
 
-<http://w3id.org/polifonia/pilot/meetups/2488161/0/0>
+<http://w3id.org/polifonia/pilot/meetups/2488161/11/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "Spence died of lung cancer two days before his 53rd birthday." ;
         ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
-        ont:timeExpression  "April 18 , 1946" , "April 16 , 1999" .
+        ont:timeExpression  "53rd birthday" , "two" .
 
-<http://w3id.org/polifonia/pilot/meetups/2488161/13/3>
+<http://w3id.org/polifonia/pilot/meetups/2488161/6/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He went up to the 52nd floor of the CBS building where they had to wrestle him to the ground." ;
+        ont:place    <http://dbpedia.org/resource/CBS_Building> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/13/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Keith Graves of Quicksilver Messenger Service played drums.Peter Lewis joined the group onstage for the finale." ;
+        ont:place    <http://dbpedia.org/resource/Isle_of_Lewis> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Finally I just quit and went back to California." ;
+        ont:place    <http://dbpedia.org/resource/California> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/6/13>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Omar_Lye-Fook> , <http://dbpedia.org/resource/Tiran_Porter> , <http://dbpedia.org/resource/Dale_Jarrett> ;
-        ont:place           "http://dbpedia.org/resource/Santa_Cruz_de_la_Sierra" ;
+        ont:excerpt         "They shot him full of Thorazine for six months." ;
         ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
-        ont:timeExpression  "three" .
+        ont:timeExpression  "for six" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He briefly considered joining Buffalo Springfield as a drummer before returning to the guitar to co-found Moby Grape.During the recording session of Moby Grape's second album, Wow, in 1968, Spence attempted to break down a bandmate's hotel room door with a fire axe, while under the influence of LSD." ;
+        ont:person          <http://dbpedia.org/resource/Moby> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "in 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/24>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two years later, in 1996, he was commissioned to write a song for The X-Files soundtrack, Songs in the Key of X; though not used, it was included on the More Oar tribute record as \"Land of the Sun\".Spence's final performance with Moby Grape occurred on August 9, 1996 at Palookaville in Santa Cruz." ;
+        ont:place           <http://dbpedia.org/resource/Santa_Cruz_de_la_Sierra> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "in 1996" , "Two" , "August 9 , 1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Alexander Spence had been a decorated Canadian WW II bomber pilot, having been awarded the Distinguished Flying Cross.In the late 1950s, the family relocated from Windsor to San Jose, California, based on Spence's father finding work in the aircraft industry." ;
+        ont:person   <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place    <http://dbpedia.org/resource/Windsor_Castle> , <http://dbpedia.org/resource/SAP_Center> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/6/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He tried to chop down the hotel room door with a fire axe to kill Don (Stevenson) to save him from himself." ;
+        ont:person   <http://dbpedia.org/resource/Robert_Louis_Stevenson> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On the day of his release, he drove a motorcycle, and as the urban myth goes (and not true according to his wife), dressed in only his pajamas, directly to Nashville to record his only solo album, with no other musicians appearing on it, the now-classic psychedelic/folk album Oar (1969, Columbia Records)." ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "So we had to leave our families and spend months at a time in hotel rooms in New York City." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Spence drummed on their debut, Jefferson Airplane Takes Off, and was dismissed by the band after taking an unannounced vacation to Mexico." ;
+        ont:place    <http://dbpedia.org/resource/Mexico> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He released one solo album, 1969's Oar, and then largely withdrew from the music industry." ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1969" , "one solo album" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/11/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Spence is interred at Soquel Cemetery in Santa Cruz County." ;
+        ont:place    <http://dbpedia.org/resource/Santa_Cruz_County,_California> , <http://dbpedia.org/resource/Soquel,_California> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/23>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In 1994, he participated in a music program for the mentally ill, sponsored by the City of San Jose." ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "In 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the early 70s Spence also founded and experimented with a three-man rock band called Pachuca and later a larger ensemble called The Rhythm Dukes." ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "70s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== Decline: 1970–1999 ===" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1970–1999 ===" .
 
 <http://w3id.org/polifonia/pilot/meetups/2488161/3/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His father, Alexander Lett \"Jock\" Spence (1914–1965), was a machinist, a salesman, and played Route 66 as a solo singer-songwriter and piano player." ;
         ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
-        ont:place           "http://dbpedia.org/resource/U.S._Route_66_in_California" ;
+        ont:place           <http://dbpedia.org/resource/U.S._Route_66_in_California> ;
         ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
         ont:timeExpression  "1914–1965" , "Route 66" .
 
+<http://w3id.org/polifonia/pilot/meetups/2488161/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Omar Spence, singing his father's songs, was backed by the Santa Cruz White Album Ensemble, with Dale Ockerman and Tiran Porter, both formerly of the Doobie Brothers, and both of whom have played with various members of Moby Grape in several bands over the past three decades." ;
+        ont:person          <http://dbpedia.org/resource/Omar_Lye-Fook> , <http://dbpedia.org/resource/Tiran_Porter> , <http://dbpedia.org/resource/Dale_Jarrett> ;
+        ont:place           <http://dbpedia.org/resource/Santa_Cruz_de_la_Sierra> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During his six months in Bellevue, Spence was diagnosed with schizophrenia." ;
+        ont:place           <http://dbpedia.org/resource/Bellevue_Hospital> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of the parents finally called the cops, and they took him to the County Mental Health Hospital in Santa Cruz." ;
+        ont:place           <http://dbpedia.org/resource/Santa_Cruz_de_la_Sierra> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"We had to do (the album) in New York because the producer (David Rubinson) wanted to be with his family." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/6/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When he got out of there, he cut that album in Nashville." ;
+        ont:place    <http://dbpedia.org/resource/Nashville,_Tennessee> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As described by Peter Lewis, \"Skippy was just hanging around." ;
+        ont:person   <http://dbpedia.org/resource/Peter_B._Lewis> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Spence was a guitarist in the band the Other Side before Marty Balin recruited him to be the drummer for Jefferson Airplane (apparently because he looked the part)." ;
+        ont:person   <http://dbpedia.org/resource/Marty_Balin> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was co-founder of Moby Grape, and played guitar with them until 1969." ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "until 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== Music career: 1966–1969 ===" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1966–1969 ===" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"After Gene Autry\" b/w \"Motorcycle Irene\" (aka Previously Unissued Demo Recordings) (Sundazed, 2009)" ;
+        ont:person          <http://dbpedia.org/resource/Gene_Autry> , <http://dbpedia.org/resource/Irene_of_Athens> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alexander Lee Spence was born in Windsor, Ontario, Canada, in 1946." ;
+        ont:person          <http://dbpedia.org/resource/Robert_E._Lee> ;
+        ont:place           <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/Windsor,_Ontario> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "in 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/5/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"As described by bandmate Peter Lewis, it appears that both Jerry Miller and bandmate Don Stevenson were targets of Spence:" ;
+        ont:person   <http://dbpedia.org/resource/Peter_B._Lewis> , <http://dbpedia.org/resource/Jerry_Miller> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Land of the Sun\" (Sundazed, 1999)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/13/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The concert featured Spence's son Omar, who has sung with various configurations of Moby Grape in recent years." ;
+        ont:person   <http://dbpedia.org/resource/Omar_Lye-Fook> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== Early life: 1946–1965 ===" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1946–1965 ===" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/43/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Skip Spence at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Crosstalk: The Best of Moby Grape (Sony International, 2004)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/6/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "They took him to The Tombs (and then to Bellevue) and that's where he wrote Oar." ;
+        ont:place    <http://dbpedia.org/resource/Bellevue_Hospital> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/30/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Best of Moby Grape (Columbia/Legacy, 2007)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "AndOarAgain (Columbia, 1969), remastered and expanded \"Oar\" with three discs by Modern Harmonic/Sundazed" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "with three" , "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vintage: The Very Best of Moby Grape (Columbia/Legacy, 1993)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/11/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "More Oar: A Tribute to the Skip Spence Album, an album featuring contributions from Robert Plant, Tom Waits, and Beck, among others, was released a few weeks after his death." ;
+        ont:person   <http://dbpedia.org/resource/Tom_Waits> , <http://dbpedia.org/resource/Skip_Spence> , <http://dbpedia.org/resource/Robert_Plant> , <http://dbpedia.org/resource/Beck> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alexander Lee \"Skip\" Spence (April 18, 1946 – April 16, 1999) was a Canadian-born American singer, songwriter, and musician." ;
+        ont:person          <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "April 16 , 1999" , "April 18 , 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Murder in My Heart (Edsel, 1986)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/19>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He remained in and around San Jose and Santa Cruz." ;
+        ont:place    <http://dbpedia.org/resource/Santa_Cruz_de_la_Sierra> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "More Oar: A Tribute to the Skip Spence Album (Birdman, 1999)" ;
+        ont:person          <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Oar (Columbia, 1969), remastered and expanded in 1999 by Sundazed" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1969" , "in 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Great Grape (Columbia, 1972)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Original albumsMoby Grape (Columbia, 1967)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/6/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "They'd played a Fillmore East gig without me, and Skippy took off with some black witch afterward who fed him full of acid." ;
+        ont:place    <http://dbpedia.org/resource/Fillmore_East> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Moby Grape Live (Sundazed, 2010)CompilationsOmaha (Harmony, 1971)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "2010" , "1971" .
+
 <http://w3id.org/polifonia/pilot/meetups/2488161/13/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Spence wrote \"Omaha\" for Moby Grape's first album which Rolling Stone Magazine listed in 2008 as one of the 100 greatest guitar songs of all time.In June 2008, a Skip Spence tribute concert was held in Santa Cruz." ;
         ont:person          <http://dbpedia.org/resource/Skip_Spence> ;
-        ont:place           "http://dbpedia.org/resource/Santa_Cruz_de_la_Sierra" ;
+        ont:place           <http://dbpedia.org/resource/Santa_Cruz_de_la_Sierra> ;
         ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
-        ont:timeExpression  "as one" , "in 2008" , "June 2008" , "100" .
+        ont:timeExpression  "100" , "as one" , "in 2008" , "June 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/26>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "McStep B. Blues\", which he'd written for Jefferson Airplane in 1966." ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Place and the Time (Sundazed, 2009)" ;
+        ont:place           <http://dbpedia.org/resource/The_Place> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jefferson Airplane Loves You (RCA, 1992)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had been similarly remembered by Jefferson Airplane, whereby his song \"My Best Friend\" was included on the group's Surrealistic Pillow album (1967), despite his departure from the group.Due to his deteriorating state and notwithstanding that he was no longer functioning in the band, Spence was supported by Moby Grape band members for extended periods." ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live Grape (Akarma, 1978)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jefferson Airplane Takes Off (RCA, 1966)CompilationsEarly Flight (RCA, 1974)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1974" , "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was survived by his four children, eleven grandchildren, a half-brother (Rich Young) and his sister, Sherry Ferreira." ;
+        ont:person          <http://dbpedia.org/resource/Ricky_Ortiz> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/20>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Peter Lewis regularly visited Spence during the latter years of his life: \"The last five years I'd go up‚ he lived in a trailer up there‚ Capitola." ;
+        ont:person          <http://dbpedia.org/resource/Peter_B._Lewis> ;
+        ont:place           <http://dbpedia.org/resource/Capitola,_California> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "20 Granite Creek (Reprise, 1971)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "20" , "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/13/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "An additional Skip Spence tribute concert was held in October 2008.William Gibson paid tribute to Spence in his collection of essays, Distrust That Particular Flavor, in which he marvelled at his tailor adjusted jeans." ;
+        ont:person          <http://dbpedia.org/resource/William_Gibson> , <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "October 2008.William" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/18>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Much of his life was spent in third party care, as a ward of the State of California, and either homeless or in transient accommodations in his later years." ;
+        ont:place    <http://dbpedia.org/resource/California> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Moby Grape '69 (Columbia, 1969)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/9/12>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He had a little white rat named Oswald that would snort coke too." ;
+        ont:person   <http://dbpedia.org/resource/Oswald_of_Northumbria> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wow/Grape Jam (Columbia, 1968)" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Spence has been described on the Allmusic website as \"one of psychedelia's brightest lights\"." ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/5/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Spence's deterioration in New York and the \"fire axe incident\" are described by bandmate Jerry Miller as follows: \"Skippy changed radically when we were in New York." ;
+        ont:person   <http://dbpedia.org/resource/Jerry_Miller> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Skip_Spence> .
+
+<http://w3id.org/polifonia/pilot/meetups/2488161/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He has been described on the AllMusic website as \"one of psychedelia's brightest lights\"; however, his career was plagued by drug addictions coupled with mental health problems, and he has been described by a biographer as a man who \"neither died young nor had a chance to find his way out.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Skip_Spence> ;
+        ont:timeExpression  "one" .

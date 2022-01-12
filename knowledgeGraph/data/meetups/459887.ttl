@@ -6,44 +6,566 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/459887/0/0>
+<http://w3id.org/polifonia/pilot/meetups/459887/9/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_W._Henry> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "Musicians Hammond signed to the label included Leonard Cohen and Bruce Springsteen.Hammond retired from Columbia in 1975 but continued to scout for talent." ;
+        ont:person          <http://dbpedia.org/resource/Leonard_Cohen> ;
         ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
-        ont:timeExpression  "December 15 , 1910" , "July 10 , 1987" , "1930s" , "1980s" .
+        ont:timeExpression  "in 1975" .
 
-<http://w3id.org/polifonia/pilot/meetups/459887/8/6>
+<http://w3id.org/polifonia/pilot/meetups/459887/4/12>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Robert_Johnson> , <http://dbpedia.org/resource/Lyndon_B._Johnson> , <http://dbpedia.org/resource/James_VI_and_I> , <http://dbpedia.org/resource/Big_Joe_Turner> , <http://dbpedia.org/resource/Big_Bill_Broonzy> , <http://dbpedia.org/resource/Ida_Cox> , <http://dbpedia.org/resource/Sonny_Terry> , <http://dbpedia.org/resource/Pete_Johnson> , <http://dbpedia.org/resource/Sidney_Bechet> , <http://dbpedia.org/resource/Sister_Rosetta_Tharpe> , <http://dbpedia.org/resource/Albert_Ammons> , <http://dbpedia.org/resource/C._S._Lewis> , <http://dbpedia.org/resource/Count_Basie> ;
-        ont:place           "http://dbpedia.org/resource/Kansas_City_metropolitan_area" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:excerpt         "He learned that African American music was sold in different stores, so he began to search for this music in Harlem.In 1925 Hammond graduated from the elementary institution St. Bernard's School at the age of 14." ;
         ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
-        ont:timeExpression  "1938" , "Four" .
+        ont:timeExpression  "age of 14" , "Harlem.In 1925" .
 
-<http://w3id.org/polifonia/pilot/meetups/459887/16/2>
+<http://w3id.org/polifonia/pilot/meetups/459887/4/25>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Mae_Jemison> , <http://dbpedia.org/resource/Kayla_McBride> ;
-        ont:place           "http://dbpedia.org/resource/Manhattan" ;
+        ont:excerpt         "Much to the disappointment of his father, a Yale alumnus, in 1931 he dropped out of school for a career in the music industry, first becoming the U.S. correspondent for Melody Maker." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
-        ont:timeExpression  "in 1940" .
+        ont:timeExpression  "in 1931" .
 
-<http://w3id.org/polifonia/pilot/meetups/459887/11/17>
+<http://w3id.org/polifonia/pilot/meetups/459887/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It is said that Hammond convinced the musicians to 'swing' the current jazz hits, so that they could play in a free manner like the original New Orleans Jazz.Hammond always strived for racial integration within the musical scene." ;
+        ont:place    <http://dbpedia.org/resource/New_Orleans> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/12>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hammond proposed that Goodman produce a multiracial record; however, Goodman believed this route would hurt his musical reputation.In this year, Hammond broke out of the traditional role of a producer and became a talent scout, after hearing Billie Holiday." ;
+        ont:person   <http://dbpedia.org/resource/Billie_Holiday> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His father was a brother of Ogden H. Hammond, ambassador to Spain, and uncle to politician Millicent Fenwick." ;
+        ont:person   <http://dbpedia.org/resource/Millicent_Fenwick> ;
+        ont:place    <http://dbpedia.org/resource/Spain> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/25>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Teddy_Wilson> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:excerpt         "In 1936, the group appeared in a live concert at the Chicago Hot Jazz Society." ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
         ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
-        ont:timeExpression  "in 1933" .
+        ont:timeExpression  "In 1936" .
 
 <http://w3id.org/polifonia/pilot/meetups/459887/19/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Before the Civil Rights Act passed, Tom Wilson, an African American, replaced Hammond as Bob Dylan's record producer.In December 2015 Guinness featured John Hammond in its UK advertising campaign.Prince's song \"Avalanche\" mentions Hammond in the lyric \"Mr. John Hammond with his pen in hand... Sayin' 'Sign your kingdom over to me and be known throughout the land!'\"" ;
         ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/John_P._Hammond> , <http://dbpedia.org/resource/Thomas_F._Wilson> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
         ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
         ont:timeExpression  "December 2015" .
 
+<http://w3id.org/polifonia/pilot/meetups/459887/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His mother was one of three daughters of William Douglas Sloane and Emily Thorn Vanderbilt, and a granddaughter of William Henry Vanderbilt." ;
+        ont:person          <http://dbpedia.org/resource/William_Douglas_Sloane> , <http://dbpedia.org/resource/William_Henry_Vanderbilt> , <http://dbpedia.org/resource/Emily_Thorn_Vanderbilt> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "one" , "of three" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He moved to Greenwich Village, where he claimed to have engaged in bohemian life and worked for an integrated music world." ;
+        ont:place    <http://dbpedia.org/resource/Greenwich_Village> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In November 1942, Jemy gave birth to their first son, John P. Hammond.On March 21, 1942, Hammond's sister, Alice married Benny Goodman." ;
+        ont:person          <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "March 21 , 1942" , "November 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/42>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "While treatments worked for some time, she died May 19, 1986, of complications of AIDS, which she had contracted from a blood transfusion." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "May 19 , 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/17>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "However, the headmaster was not aware that outside his formal lessons, Hammond would go up to Harlem to hear jazz." ;
+        ont:place    <http://dbpedia.org/resource/Harlem> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/14>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He underwent his basic training at Fort Belvoir." ;
+        ont:place    <http://dbpedia.org/resource/Fort_Belvoir> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is the father of blues musician John P. Hammond.Hammond was instrumental in sparking or furthering numerous musical careers, including those of Bob Dylan, Bruce Springsteen, Benny Goodman, Harry James, Charlie Christian, Billie Holiday, Count Basie, Teddy Wilson, Big Joe Turner, Pete Seeger, Babatunde Olatunji, Aretha Franklin, George Benson, Freddie Green, Leonard Cohen, Arthur Russell, Jim Copp, Asha Puthli, Stevie Ray Vaughan and Mike Bloomfield." ;
+        ont:person   <http://dbpedia.org/resource/Billie_Holiday> , <http://dbpedia.org/resource/Bruce_Springsteen> , <http://dbpedia.org/resource/Harry_James> , <http://dbpedia.org/resource/Asha_Puthli> , <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Babatunde_Olatunji> , <http://dbpedia.org/resource/Stevie_Ray_Vaughan> , <http://dbpedia.org/resource/Big_Joe_Turner> , <http://dbpedia.org/resource/Freddie_Green> , <http://dbpedia.org/resource/Charlie_Christian> , <http://dbpedia.org/resource/Benny_Goodman> , <http://dbpedia.org/resource/Leonard_Cohen> , <http://dbpedia.org/resource/Mike_Bloomfield> , <http://dbpedia.org/resource/Teddy_Wilson> , <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Aretha_Franklin> , <http://dbpedia.org/resource/Pete_Seeger> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/8/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Four years later, he heard the Count Basie orchestra broadcasting from Kansas City and brought it to New York, where it began to receive national attention.In 1938, Hammond organized the first From Spirituals to Swing concert at Carnegie Hall, presenting a broad program of blues, jazz and gospel artists, including Ida Cox, Big Joe Turner, Albert Ammons, Pete Johnson, Meade \"Lux\" Lewis, Sister Rosetta Tharpe, the Count Basie orchestra, Sidney Bechet, Sonny Terry, James P. Johnson, and Big Bill Broonzy (who took the place of the murdered Robert Johnson)." ;
+        ont:person          <http://dbpedia.org/resource/Robert_Johnson> , <http://dbpedia.org/resource/Lyndon_B._Johnson> , <http://dbpedia.org/resource/James_VI_and_I> , <http://dbpedia.org/resource/Big_Joe_Turner> , <http://dbpedia.org/resource/Big_Bill_Broonzy> , <http://dbpedia.org/resource/Sonny_Terry> , <http://dbpedia.org/resource/Ida_Cox> , <http://dbpedia.org/resource/Pete_Johnson> , <http://dbpedia.org/resource/Sidney_Bechet> , <http://dbpedia.org/resource/Sister_Rosetta_Tharpe> , <http://dbpedia.org/resource/Albert_Ammons> , <http://dbpedia.org/resource/C._S._Lewis> , <http://dbpedia.org/resource/Count_Basie> ;
+        ont:place           <http://dbpedia.org/resource/Kansas_City_metropolitan_area> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Carnegie_Hall> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "1938" , "Four" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Later in 1933, he heard Teddy Wilson, a jazz pianist, on the Chicago radio." ;
+        ont:person          <http://dbpedia.org/resource/Teddy_Wilson> ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "in 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At four he began studying the piano, only to switch to the violin at age eight." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "eight" , "At four" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hammond oversaw the highly influential posthumous reissues of Robert Johnson's recorded work (produced by Frank Driggs), convincing Columbia Records to issue the album King of the Delta Blues Singers in 1961." ;
+        ont:person          <http://dbpedia.org/resource/Frank_Driggs> , <http://dbpedia.org/resource/Robert_Johnson> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "in 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Upon his return to the states, Hammond searched for records by black musicians but could not find them in the greater Manhattan area." ;
+        ont:place    <http://dbpedia.org/resource/Manhattan> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/7/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hammond recorded Fletcher Henderson, Benny Carter, Joe Venuti, Benny Goodman, and other jazz performers during a time when the economy was bad enough during the Great Depression that many of them would not have otherwise had the opportunity to enter a studio and play real jazz (a handful of these in this special series were issued in the US)." ;
+        ont:person   <http://dbpedia.org/resource/Fletcher_Henderson> , <http://dbpedia.org/resource/Joe_Venuti> , <http://dbpedia.org/resource/Benny_Carter> , <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1934, Hammond is known to have introduced Benny Goodman and Fletcher Henderson." ;
+        ont:person          <http://dbpedia.org/resource/Fletcher_Henderson> , <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "In 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His grandfather was Civil War General John Henry Hammond, who married Sophia Vernon Wolfe." ;
+        ont:person   <http://dbpedia.org/resource/Edward_Vernon> , <http://dbpedia.org/resource/Sophia_of_Hanover> , <http://dbpedia.org/resource/John_W._Henry> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/34>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jemy never remarried.A year later, in 1949, Hammond met Esme Sarnoff, originally Esme O'Brien, the former wife of NBC chairman Robert Sarnoff, and a daughter of Mary and Esmond O'Brien." ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "in 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/24>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, in 1935, the Goodman Trio began recording." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "in 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Hammond interviewed on the Pop Chronicles (1969)" ;
+        ont:person          <http://dbpedia.org/resource/John_P._Hammond> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hammond's son, John P. Hammond, became an American blues musician.Hammond was one of the first men to racially integrate the American music industry." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1932, Hammond acquired a nonpaying job on the WEVD radio station as a disc jockey." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "In 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was the youngest child and only son of John Henry Hammond and Emily Vanderbilt Sloane." ;
+        ont:person   <http://dbpedia.org/resource/John_W._Henry> , <http://dbpedia.org/resource/Emily_Vanderbilt_Sloane> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/25/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Hammond Papers at Yale University Music Library" ;
+        ont:person   <http://dbpedia.org/resource/John_P._Hammond> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"John's Idea\", originally titled \"I May Be Wrong It's John's Idea\", is a tribute to John Hammond written by Count Basie.Hammond received a Grammy Trustees Award for being credited with co-producing a Bessie Smith reissue in 1971, and in 1986 was inducted into the Rock and Roll Hall of Fame." ;
+        ont:person          <http://dbpedia.org/resource/John_P._Hammond> , <http://dbpedia.org/resource/Bessie_Smith> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "reissue in 1971" , "in 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1931, Hammond funded the recording of pianist Garland Wilson, marking the beginning of a long string of artistic successes as record producer." ;
+        ont:person          <http://dbpedia.org/resource/Garland_Wilson> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "In 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/16>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hammond succeeded in convincing the headmaster to allow him to go into the city every other weekend, a rare privilege, so that he could take lessons from Ronald Murat." ;
+        ont:person   <http://dbpedia.org/resource/Joachim_Murat> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, out of a sense of shared grief following Alice's death in 1978, John and Benny reconciled.In November 1943, after the United States entered World War II, Hammond began military training." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "November 1943" , "death in 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In his service as a talent scout, Hammond became one of the most influential figures in 20th-century popular music." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/26>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Toward the end of World War II, Hammond was transferred to Fort Benning, Georgia, known for its intense racism." ;
+        ont:place    <http://dbpedia.org/resource/Fort_Benning> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After hearing her sing for the first time, he wrote, \"She weighs over 200 pounds, is incredibly beautiful, and sings as well as anybody I have ever heard." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "over 200" .
+
 <http://w3id.org/polifonia/pilot/meetups/459887/8/5>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1933 he heard the seventeen-year-old Billie Holiday perform in Harlem and arranged for her recording debut, on a Benny Goodman session." ;
         ont:person          <http://dbpedia.org/resource/Billie_Holiday> , <http://dbpedia.org/resource/Benny_Goodman> ;
-        ont:place           "http://dbpedia.org/resource/Harlem" ;
+        ont:place           <http://dbpedia.org/resource/Harlem> ;
         ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
         ont:timeExpression  "In 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/3/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Well-known clergyman and peace activist William Sloane Coffin Jr. was a cousin." ;
+        ont:person   <http://dbpedia.org/resource/William_Sloane_Coffin> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/23/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Hammond on American Masters (PBS)" ;
+        ont:person   <http://dbpedia.org/resource/John_P._Hammond> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/39>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Left a widow, Emily Hammond became infatuated with Frank Buchman.In 1985, Hammond had his first stroke." ;
+        ont:person          <http://dbpedia.org/resource/Emily_Dickinson> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "Frank Buchman.In 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/7/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For this reason, Hammond quit his work with WEVD.By 1932–33, through his involvement in the UK music paper Melody Maker, Hammond arranged for the faltering US Columbia label to provide recordings for the UK Columbia label, mostly using the specially created Columbia W-265000 matrix series." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "WEVD.By 1932–33" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/23>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the fall semester of 1930, Hammond had to withdraw due to a recurring case of jaundice." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "semester of 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John had four sisters: Alice, Rachel, Adele, and Emily." ;
+        ont:person          <http://dbpedia.org/resource/Emily_Dickinson> , <http://dbpedia.org/resource/Adele> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1933, he helped Benny Goodman receive a record deal with Columbia Records, which at the time was only known as English Columbia." ;
+        ont:person          <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "In 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hammond was born in New York, christened John Henry Hammond Jr., although both his father and grandfather shared the same name." ;
+        ont:person   <http://dbpedia.org/resource/John_W._Henry> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/13/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "J. Edgar Hoover, FBI director, investigated Hammond's link to the Communist Party." ;
+        ont:person   <http://dbpedia.org/resource/J._Edgar_Hoover> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Although both sets of parents approved of the couple, neither set attended the wedding.In 1942, Hammond took his wife on a road trip to Los Angeles." ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "While he was in the basement, the rest of his family in the greater part of the five-story mansion would listen to \"the great opera tenor Enrico Caruso, as well as to standard classics by Beethoven, Brahms, and Mozart\".Hammond became interested in social reform at a young age." ;
+        ont:person   <http://dbpedia.org/resource/Ludwig_van_Beethoven> , <http://dbpedia.org/resource/Enrico_Caruso> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Henry Hammond II (December 15, 1910 – July 10, 1987) was an American record producer, civil rights activist, and music critic from the 1930s to the early 1980s." ;
+        ont:person          <http://dbpedia.org/resource/John_W._Henry> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "December 15 , 1910" , "1980s" , "1930s" , "July 10 , 1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/8/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His friendship with Benny Carter gave him a status that allowed him to enter this musical community.He played a role in organizing Benny Goodman's band, and in persuading him to hire black musicians such as Charlie Christian, Teddy Wilson and Lionel Hampton." ;
+        ont:person   <http://dbpedia.org/resource/Benny_Carter> , <http://dbpedia.org/resource/Charlie_Christian> , <http://dbpedia.org/resource/Teddy_Wilson> , <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:place    <http://dbpedia.org/resource/Hampton,_Virginia> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The youngest, Alice, married first Arthur Duckworth in 1927, and then, after divorcing him, the musician Benny Goodman in 1942." ;
+        ont:person          <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "in 1942" , "in 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/7/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When the station transferred from the Broadway Central Hotel to the Claridge Hotel, the new venue would not allow the black musicians to use the main elevator." ;
+        ont:place    <http://dbpedia.org/resource/Hotel_Claridge> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/22>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He made frequent trips into New York city and wrote regularly for trade magazines." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/32>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1948, Jemy asked Hammond for a divorce." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "In 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This pre-occupation with social issues was to continue, and in 1941 he was one of the founders of the Council on African Affairs." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "one" , "in 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/22>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Starting in 1935, musicians began to record in mixed-race groups." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "in 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/8/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1961, he heard folk singer Bob Dylan playing harmonica on a session for Carolyn Hester; he signed him to Columbia and kept him on the label despite the protests of executives, who referred to Dylan as \"Hammond's folly\"." ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Carolyn_Hester> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "In 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/14>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "That same year, he was able to get her involved in the Benny Goodman Orchestra." ;
+        ont:person   <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He worked \"as a banker, lawyer, and railroad executive\".Hammond had four sisters: Emily, Adele, Rachel, and Alice." ;
+        ont:person          <http://dbpedia.org/resource/Emily_Dickinson> , <http://dbpedia.org/resource/Adele> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/37>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By this marriage Hammond had one stepdaughter, (Esme) Rosita Sarnoff (born 1943)." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "one stepdaughter" , "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/7/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Various musicians were guests on his show, including Fletcher Henderson, Benny Carter, and Art Tatum." ;
+        ont:person   <http://dbpedia.org/resource/Benny_Carter> , <http://dbpedia.org/resource/Fletcher_Henderson> , <http://dbpedia.org/resource/Art_Tatum> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/21>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "While all nine boys were convicted, Hammond viewed this trial as a \"catalyst for black activism\".Record integration became an important component of jazz music." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "nine" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/44>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It is said that he died listening to the music of Billie Holiday." ;
+        ont:person   <http://dbpedia.org/resource/Billie_Holiday> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He heard a band called The Georgians, a white Dixieland jazz group, and saw an African American show called From Dixie to Broadway, that featured Sidney Bechet." ;
+        ont:person   <http://dbpedia.org/resource/Sidney_Bechet> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Its editor Ernest Gruening was also a Hotchkiss alumnus, class of 1903, who was interested in social issues and social justice.In the fall of 1929, Hammond entered Yale University as a member of the class of 1933." ;
+        ont:person          <http://dbpedia.org/resource/Ernest_Gruening> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "class of 1903" , "fall of 1929" , "class of 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "While he was still in basic training, Jemy gave birth to their second child, Douglas, early in 1944." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/29>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hammond was not much a part of the bebop movement, but he shared the sentiment against racism.In 1946, Hammond was discharged from the military." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/8/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Rejoining Columbia Records in the late 1950s, he signed Pete Seeger and Babatunde Olatunji to the label, and discovered Aretha Franklin, then an eighteen-year-old gospel singer." ;
+        ont:person   <http://dbpedia.org/resource/Babatunde_Olatunji> , <http://dbpedia.org/resource/Aretha_Franklin> , <http://dbpedia.org/resource/Pete_Seeger> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1933, he traveled South to attend a trial regarding the Scottsboro case, a case in which two white girls accused nine black boys of raping them." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "nine" , "two" , "In 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On March 8, 1941, Hammond married Jemy in New Haven, Connecticut." ;
+        ont:place           <http://dbpedia.org/resource/New_Haven_Colony> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "March 8 , 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After the instatement of Local 802, a union of professional musicians within New York City, Hammond saw more white people receiving jobs than black people." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "Local 802" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1983, he brought guitarist Stevie Ray Vaughan to Columbia and was credited as executive producer on his debut album." ;
+        ont:person          <http://dbpedia.org/resource/Stevie_Ray_Vaughan> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "In 1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/8/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "For this purpose, he frequently visited musicians in Harlem in order to connect with musicians in their own area." ;
+        ont:place    <http://dbpedia.org/resource/Harlem> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/13>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He remarks that he was astounded to discover that she was the daughter of Clarence Holiday from Fletcher Henderson's band." ;
+        ont:person   <http://dbpedia.org/resource/Fletcher_Henderson> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/8/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He produced Dylan's early recordings, \"Blowin' in the Wind\" and \"A Hard Rain's a-Gonna Fall\"." ;
+        ont:person   <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/20>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The testimonies of the two girls did not align with the story." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/30>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His family moved to Greenwich Village, where Jemy gave birth to their third son, Jason." ;
+        ont:place    <http://dbpedia.org/resource/Greenwich_Village> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He set up one of the first regular live jazz programs, and wrote regularly about the racial divide." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She had previously been married to Englishman George Duckworth, a member of the British House of Commons." ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/43>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hammond was distraught and died on July 10, 1987, after a series of strokes." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "July 10 , 1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During this time, he said that he heard Bessie Smith perform at The Harlem Alhambra, but her biographer disagrees about the dates.The summer after graduating from Hotchkiss in 1929, Hammond went to work for a newspaper in Maine, the Portland Evening News." ;
+        ont:person          <http://dbpedia.org/resource/Bessie_Smith> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "in 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hammond shared her desire to help the community with his privilege.Hammond notes that the first jazz music that he heard was in London in 1923 on a trip with his family." ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "in 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/0/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is also largely responsible for the revival of delta blues artist Robert Johnson's music." ;
+        ont:person   <http://dbpedia.org/resource/Robert_Johnson> ;
+        ont:subject  <http://dbpedia.org/resource/John_Hammond_(record_producer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/8/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He coordinated a second From Spirituals to Swing concert in 1939.After serving in the military during World War II, Hammond felt unmoved by the bebop jazz scene of the mid-1940s." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "1939.After serving" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, in 1940 at a Manhattan party, Hammond met Jemison \"Jemy\" McBride." ;
+        ont:person          <http://dbpedia.org/resource/Mae_Jemison> , <http://dbpedia.org/resource/Kayla_McBride> ;
+        ont:place           <http://dbpedia.org/resource/Manhattan> ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/459887/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hammond remembers that before the 1920s, black musicians could always find jobs, even if they were low paying." ;
+        ont:subject         <http://dbpedia.org/resource/John_Hammond_(record_producer)> ;
+        ont:timeExpression  "1920s" .

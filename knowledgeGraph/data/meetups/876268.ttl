@@ -8,14 +8,87 @@
 
 <http://w3id.org/polifonia/pilot/meetups/876268/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Norbert Brainin, OBE (12 March 1923 in Vienna – 10 April 2005 in London) was the first violinist of the Amadeus Quartet, one of the world's most highly regarded string quartets.Because of Brainin's Jewish origin, he was driven out of Vienna after Hitler's Anschluss of 1938, as were violinist Siegmund Nissel and violist Peter Schidlof." ;
         ont:person          <http://dbpedia.org/resource/Reuben_Brainin> , <http://dbpedia.org/resource/Adolf_Hitler> , <http://dbpedia.org/resource/Siegmund_Nissel> , <http://dbpedia.org/resource/Peter_Schidlof> ;
-        ont:place           "http://dbpedia.org/resource/Vienna" , "http://dbpedia.org/resource/London" ;
+        ont:place           <http://dbpedia.org/resource/Vienna> , <http://dbpedia.org/resource/London> ;
         ont:subject         <http://dbpedia.org/resource/Norbert_Brainin> ;
         ont:timeExpression  "one" , "of 1938" , "12 March 1923" , "10 April 2005" .
 
+<http://w3id.org/polifonia/pilot/meetups/876268/0/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Brainin won the 1946 Carl Flesch International Violin Competition, which Rostal co-founded.It was through Rostal that they met cellist Martin Lovett, and in 1947 they formed the Brainin Quartet, which was renamed the Amadeus Quartet in 1948." ;
+        ont:person          <http://dbpedia.org/resource/Reuben_Brainin> ;
+        ont:subject         <http://dbpedia.org/resource/Norbert_Brainin> ;
+        ont:timeExpression  "in 1948" , "1946" , "in 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/876268/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Doctorates from the Universities of London, York, and Caracas" ;
+        ont:place    <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Caracas> ;
+        ont:subject  <http://dbpedia.org/resource/Norbert_Brainin> .
+
 <http://w3id.org/polifonia/pilot/meetups/876268/4/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1992, he performed a benefit concert in Washington, D.C. for then-jailed presidential candidate Lyndon LaRouche.His instruments included the \"Rode\" Guarnerius del Gesu of 1734, the \"Chaconne\" Stradivarius of 1725 and the \"Gibson\" Stradivarius of 1713." ;
         ont:person          <http://dbpedia.org/resource/George_Washington> ;
-        ont:place           "http://dbpedia.org/resource/Church_of_the_Gesù" , "http://dbpedia.org/resource/Washington_metropolitan_area" ;
+        ont:place           <http://dbpedia.org/resource/Washington_metropolitan_area> , <http://dbpedia.org/resource/Church_of_the_Gesù> ;
         ont:subject         <http://dbpedia.org/resource/Norbert_Brainin> ;
-        ont:timeExpression  "of 1725" , "of 1734" , "In 1992" , "of 1713" .
+        ont:timeExpression  "of 1725" , "In 1992" , "of 1713" , "of 1734" .
+
+<http://w3id.org/polifonia/pilot/meetups/876268/0/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Brainin was released after a few months, but Schidlof remained in the camp, where he met Nissel." ;
+        ont:person   <http://dbpedia.org/resource/Reuben_Brainin> ;
+        ont:subject  <http://dbpedia.org/resource/Norbert_Brainin> .
+
+<http://w3id.org/polifonia/pilot/meetups/876268/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Austrian Cross of Honour for Science and Art (1974)The quartet disbanded in 1987 on the death of Schidlof, whom the surviving members considered irreplacible." ;
+        ont:place           <http://dbpedia.org/resource/Austria> ;
+        ont:subject         <http://dbpedia.org/resource/Norbert_Brainin> ;
+        ont:timeExpression  "in 1987" , "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/876268/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Brainin and Schidlof met in a British internment camp." ;
+        ont:person   <http://dbpedia.org/resource/Reuben_Brainin> ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Norbert_Brainin> .
+
+<http://w3id.org/polifonia/pilot/meetups/876268/0/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They became one of the most celebrated quartets of the 20th century; its members were awarded numerous honours, including:" ;
+        ont:subject         <http://dbpedia.org/resource/Norbert_Brainin> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/876268/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Officer of the Order of the British Empire, presented by the Queen (1960)" ;
+        ont:place           <http://dbpedia.org/resource/British_Empire> ;
+        ont:subject         <http://dbpedia.org/resource/Norbert_Brainin> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/876268/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Finally Schidlof and Nissel were released, and the three were able to study with violin pedagogue Max Rostal, who taught them free of charge." ;
+        ont:person          <http://dbpedia.org/resource/Max_Rostal> ;
+        ont:subject         <http://dbpedia.org/resource/Norbert_Brainin> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/876268/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The highest of all German awards, the Grand Cross of Merit" ;
+        ont:place    <http://dbpedia.org/resource/Germany> ;
+        ont:subject  <http://dbpedia.org/resource/Norbert_Brainin> .
+
+<http://w3id.org/polifonia/pilot/meetups/876268/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Brainin continued to perform as a soloist, often with pianists Günter Ludwig and Maureen Jones." ;
+        ont:person   <http://dbpedia.org/resource/Reuben_Brainin> ;
+        ont:subject  <http://dbpedia.org/resource/Norbert_Brainin> .
+
+<http://w3id.org/polifonia/pilot/meetups/876268/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Like many Jewish refugees they had the misfortune to be confined by the British as \"enemy aliens\" after reaching the UK." ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Norbert_Brainin> .

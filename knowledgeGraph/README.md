@@ -14,10 +14,10 @@ $ fx -q queries/statistics.sparql -l data/meetups/
 -------------------------------
 | key                 | value |
 ===============================
-| "Meetups"           | 6297  |
-| "Persons mentioned" | 10114 |
-| "Subjects"          | 934   |
-| "Places mentions"   | 2443  |
-| "Time expressions"  | 11112 |
+| "Meetups"           | 74445 |
+| "Persons mentioned" | 51425 |
+| "Subjects"          | 1002  |
+| "Places mentions"   | 5595  |
+| "Time expressions"  | 79838 |
 -------------------------------
 ```

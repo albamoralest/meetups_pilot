@@ -6,16 +6,133 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/52040124/2/17>
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After marrying, she began performing in Houston as Ollie Marie Adams, later dropping her first name." ;
+        ont:person   <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:place    <http://dbpedia.org/resource/Houston> ;
+        ont:subject  <http://dbpedia.org/resource/Marie_Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After Johnny Ace's death, she recorded the tribute song, \"In Memory\", which was regularly played by radio DJ Alan Freed but failed to chart." ;
+        ont:person   <http://dbpedia.org/resource/Alan_Freed> , <http://dbpedia.org/resource/Johnny_Ace> ;
+        ont:subject  <http://dbpedia.org/resource/Marie_Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/10>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Joy_Adamson> , <http://dbpedia.org/resource/Emile_Ford> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:excerpt         "\"In 1957, Johnny Otis signed to Capitol Records." ;
         ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
-        ont:timeExpression  "1960" .
+        ont:timeExpression  "In 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She was born in Linden, Texas, and sang in gospel groups in her youth." ;
+        ont:place    <http://dbpedia.org/resource/Linden,_Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Marie_Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1953, she joined the Johnny Otis band as a featured singer, and moved to Los Angeles." ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "In 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "To follow up its success, Adams and Otis recorded a duet, \"Bye Bye Baby\", which reached number 20 in Britain." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "20" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "King, Clarence \"Gatemouth\" Brown, and Lloyd Price." ;
+        ont:person   <http://dbpedia.org/resource/Lloyd_Price> ;
+        ont:subject  <http://dbpedia.org/resource/Marie_Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Although the record did not make the charts in the US, it was released in the UK and rose to number 2 on the UK Singles Chart in early 1958." ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "2" , "1958" .
 
 <http://w3id.org/polifonia/pilot/meetups/52040124/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Marie Adams (born Ollie Marie Givens, October 19, 1925 – February 23, 1998) was an American gospel and R&B singer, who became popular in the 1950s particularly for her work with Johnny Otis." ;
         ont:person          <http://dbpedia.org/resource/Marie_Adams> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
-        ont:timeExpression  "October 19 , 1925" , "1950s" , "February 23 , 1998" .
+        ont:timeExpression  "1950s" , "February 23 , 1998" , "October 19 , 1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In all, she released seven singles on Peacock, including a cover version of her label-mate Johnny Ace's \"My Song\".Adams toured widely in the early 1950s on shows featuring Johnny Ace, Jimmy Forrest, B.B." ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Ace> , <http://dbpedia.org/resource/Jimmy_Forrest> ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "1950s" , "seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/13>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "This was overdubbed with audience reaction noises, and was credited to Johnny Otis and his Orchestra, with Marie Adams and The Three Tons of Joy." ;
+        ont:person   <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:subject  <http://dbpedia.org/resource/Marie_Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She continued performing with Johnny Otis for much of the 1970s before retiring.She died in Houston in 1998, aged 72." ;
+        ont:place           <http://dbpedia.org/resource/Houston> ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "72" , "in 1998" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her single \"I'm Gonna Play the Honky Tonks\" coupled with \"My Search Is Over\", with the writing of both songs credited to Robey, reached number 3 on the Billboard R&B chart in mid-1952, becoming the most successful record on Peacock at that point." ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As a mainstay of the Johnny Otis Revue, she recruited sisters Sadie and Francine McKinley to form The Three Tons of Joy, considered \"an appropriate name as the three women weighed around 800 pounds together." ;
+        ont:person          <http://dbpedia.org/resource/Elwell_Stephen_Otis> , <http://dbpedia.org/resource/William_McKinley> ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "three" , "around 800" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1972, she returned to work with Johnny Otis, and toured in Britain for the first time." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "In 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Marie Adams performing with the Three Tons of Joy" ;
+        ont:person   <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:subject  <http://dbpedia.org/resource/Marie_Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She made her first recordings for Don Robey's Peacock Records with Bill Harvey's band." ;
+        ont:person   <http://dbpedia.org/resource/Don_Robey> , <http://dbpedia.org/resource/Bill_Harvey_(footballer,_born_1896)> ;
+        ont:subject  <http://dbpedia.org/resource/Marie_Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She toured with Johnny Otis through much of the 1950s, and became a popular live performer, being known as \"TV Mama\" in recognition of her \"wide screen\" girth." ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The label released four singles in Otis' name simultaneously, including \"Ma!" ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/52040124/2/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(covered in Britain by Emile Ford and the Checkmates) were less commercially successful, and in early 1960 Adams and the Three Tons of Joy left the Johnny Otis Show.Marie Adams and the Three Tons of Joy continued to work in and around Los Angeles, and Adams recorded for several small labels in the early 1960s." ;
+        ont:person          <http://dbpedia.org/resource/Joy_Adamson> , <http://dbpedia.org/resource/Emile_Ford> ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> , <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Marie_Adams> ;
+        ont:timeExpression  "1960" .

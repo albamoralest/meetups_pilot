@@ -6,100 +6,1186 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/194903/12/10>
+<http://w3id.org/polifonia/pilot/meetups/194903/47/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Empress_Elisabeth_of_Austria> , <http://dbpedia.org/resource/Patrice_de_MacMahon> ;
-        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/London" ;
-        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "1876" .
-
-<http://w3id.org/polifonia/pilot/meetups/194903/4/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Adelina_Patti> , <http://dbpedia.org/resource/Edward_VII> ;
-        ont:place           "http://dbpedia.org/resource/Montreal" ;
-        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "24 August 1860" .
-
-<http://w3id.org/polifonia/pilot/meetups/194903/19/4>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_W._McCormack> , <http://dbpedia.org/resource/Theodor_Leschetizky> ;
-        ont:place           "http://dbpedia.org/resource/Royal_Opera_House" ;
-        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "two" , "1908" , "one" .
-
-<http://w3id.org/polifonia/pilot/meetups/194903/12/2>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Johann_Sebastian_Bach> , <http://dbpedia.org/resource/Queen_Victoria> ;
-        ont:place           "http://dbpedia.org/resource/Windsor_Castle" ;
-        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "July 1874" .
-
-<http://w3id.org/polifonia/pilot/meetups/194903/55/0>
-        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Reviewed Work: Forty Years of Song by Emma Albani\"." ;
         ont:person          <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:place           "http://dbpedia.org/resource/Toronto" ;
         ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "1984" .
+        ont:timeExpression  "Forty" .
 
-<http://w3id.org/polifonia/pilot/meetups/194903/15/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Margaret_of_Valois> ;
-        ont:place           "http://dbpedia.org/resource/Brooklyn" , "http://dbpedia.org/resource/Philadelphia" , "http://dbpedia.org/resource/Albany,_New_York" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Boston" ;
-        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "one" , "four" , "three" , "on 23" .
-
-<http://w3id.org/polifonia/pilot/meetups/194903/12/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Martha_Wainwright> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
-        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "two" .
-
-<http://w3id.org/polifonia/pilot/meetups/194903/19/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Queen_Victoria> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
-        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "in 1901" .
-
-<http://w3id.org/polifonia/pilot/meetups/194903/22/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:place           "http://dbpedia.org/resource/Montreal" , "http://dbpedia.org/resource/Fort_Chambly" , "http://dbpedia.org/resource/Place-des-Arts_station" ;
-        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "1990s" .
+<http://w3id.org/polifonia/pilot/meetups/194903/27/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Toronto, Ontario: The Copp Clark Co." ;
+        ont:place    <http://dbpedia.org/resource/Clark_County,_Nevada> , <http://dbpedia.org/resource/Toronto> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
 
 <http://w3id.org/polifonia/pilot/meetups/194903/12/4>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Queen was suitably impressed by her performance and would call Albani back to perform other pieces, by composers such as Brahms, Grieg, Handel and Mendelssohn, as well as traditional French and Scottish tunes.In the fall of 1874, she undertook a tour of the United States, visiting New York, Boston, Philadelphia, Baltimore, Washington, D.C., Chicago and Albany." ;
         ont:person          <http://dbpedia.org/resource/George_Frideric_Handel> ;
-        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Boston" , "http://dbpedia.org/resource/Philadelphia" , "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Baltimore" , "http://dbpedia.org/resource/Washington_Union_Station" , "http://dbpedia.org/resource/Albany,_New_York" , "http://dbpedia.org/resource/Chicago" ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Boston> , <http://dbpedia.org/resource/Philadelphia> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Baltimore> , <http://dbpedia.org/resource/Washington_Union_Station> , <http://dbpedia.org/resource/Albany,_New_York> , <http://dbpedia.org/resource/Chicago> ;
         ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
         ont:timeExpression  "fall of 1874" .
 
-<http://w3id.org/polifonia/pilot/meetups/194903/51/0>
+<http://w3id.org/polifonia/pilot/meetups/194903/56/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Pierre_Curie> ;
-        ont:place           "http://dbpedia.org/resource/Vachon_(electoral_district)" ;
+        ont:excerpt         "25, no." ;
         ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "2005" .
+        ont:timeExpression  "25" .
 
-<http://w3id.org/polifonia/pilot/meetups/194903/11/3>
+<http://w3id.org/polifonia/pilot/meetups/194903/19/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Frideric_Handel> , <http://dbpedia.org/resource/Theodora_III_Porphyrogenita> ;
-        ont:place           "http://dbpedia.org/resource/Norwich" , "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Salle_Ventadour" ;
+        ont:excerpt         "In 1898, she toured Australia." ;
+        ont:place           <http://dbpedia.org/resource/Australia> ;
         ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "1872–1873 winter season" , "October 1872" .
+        ont:timeExpression  "In 1898" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/41/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "62 (939): 313–320." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "62" , "939" , "313–320" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rosenthal, Harold (1958)." ;
+        ont:person          <http://dbpedia.org/resource/Harold_Rosenthal> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/21/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two streets in Montreal have been named in her honour." ;
+        ont:place           <http://dbpedia.org/resource/Montreal> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/28/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 29 May 2011." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "29 May 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/50/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 978-1-56159-228-9." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "ISBN 978-1-56159-228-9" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In January 1880, she sang in Nice, and from there she went to the Théâtre de la Monnaie in Brussels." ;
+        ont:place           <http://dbpedia.org/resource/Nice> , <http://dbpedia.org/resource/Brussels> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "January 1880" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 24 August 1860 she and Adelina Patti were soloists in the world premiere of Charles Wugk Sabatier's Cantata in Montreal which was performed in honour of the visit of the Prince of Wales." ;
+        ont:person          <http://dbpedia.org/resource/Adelina_Patti> , <http://dbpedia.org/resource/Edward_VII> ;
+        ont:place           <http://dbpedia.org/resource/Montreal> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "24 August 1860" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/42/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Toronto: Williams Briggs." ;
+        ont:place    <http://dbpedia.org/resource/Toronto> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rosselli, John (2004)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/29/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 17 July 2015." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "17 July 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/51/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "XV (1921–1930) (online ed.)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1921–1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/43/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "May 1930." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "May 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/19/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her husband died in 1925, compounding the situation, but benefit concerts arranged by friends provided sufficient income for Albani." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in 1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/52/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/15/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She also sang Donna Elvira and Eva on tour in Boston." ;
+        ont:place    <http://dbpedia.org/resource/Boston> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/44/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3 (1)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 15 July 1884 in London she sang the role of Brunehild in Ernest Reyer's opera Sigurd and the role of Juliette in Gounod's Roméo et Juliette in the same season." ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "15 July 1884" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/36/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 16 July 2015." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "16 July 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/37/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Library and Archives Canada." ;
+        ont:place    <http://dbpedia.org/resource/Canada> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albani received the gold medal of the Royal Philharmonic Society in 1897, often known as the \"Beethoven Medal\"." ;
+        ont:person          <http://dbpedia.org/resource/Ludwig_van_Beethoven> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in 1897" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/34/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 16 July 2015." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "16 July 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1990s, the former mayor of Chambly, Robert Lebel donated the Emma Albani fund for musical arts to the town.Albani is depicted in a stained-glass mural by Frédéric Back in the Place-des-Arts metro station in Montreal." ;
+        ont:person          <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:place           <http://dbpedia.org/resource/Place-des-Arts_station> , <http://dbpedia.org/resource/Montreal> , <http://dbpedia.org/resource/Fort_Chambly> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/9/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Further roles followed in Florence and Malta, with parts in La sonnambula, Lucia di Lammermoor, Robert le diable, The Barber of Seville and L'Africaine." ;
+        ont:place    <http://dbpedia.org/resource/Seville> , <http://dbpedia.org/resource/Malta> , <http://dbpedia.org/resource/Florence> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/47/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "November 1911. doi:10.2307/906456." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "November 1911." .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She learned the role of Elsa in Wagner's Lohengrin in two weeks, performing it at the Academy of Music in New York." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in two" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/31/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Dame Emma Albani (Emma Marie Louise Cécile Lajeunesse) of Chambly, Québec\"." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> , <http://dbpedia.org/resource/Landgravine_Marie_Louise_of_Hesse-Kassel> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/19/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In spring 1908, the veteran Albani toured the English provinces as part of a company containing two budding talents: pianist Marie Novello, who two years later would become one of Theodor Leschetizky's last students, and John McCormack, who only months before had made his own Covent Garden debut." ;
+        ont:person          <http://dbpedia.org/resource/John_W._McCormack> , <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:place           <http://dbpedia.org/resource/Royal_Opera_House> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "one" , "1908" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/60/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Emma Albani's photograph in the Royal Collection." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/48/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "OCLC 593682." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "593682" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/21/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The second, avenue Albani, was named 19 March 1969 by the city's council." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "19 March 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/61/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "(new web site) Theater \"Vittorio Emanuele\" of Messina, the Theater of Emma Albani's debut" ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> , <http://dbpedia.org/resource/Victor_Emmanuel_II_of_Italy> ;
+        ont:place    <http://dbpedia.org/resource/Messina> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/62/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "(old web site) Theater \"Vittorio Emanuele\" of Messina, the Theater of Emma Albani's debut" ;
+        ont:person   <http://dbpedia.org/resource/Victor_Emmanuel_II_of_Italy> , <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:place    <http://dbpedia.org/resource/Messina> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/15/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In total she had performed 29 times with the company." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "29" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/34/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Constructions of Identity in the Life Stories of Emma Albani and Glenn Gould\"." ;
+        ont:person   <http://dbpedia.org/resource/Glenn_Gould> , <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/11/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At Covent Garden she developed an interest in oratorio after being introduced to it by Sir Julius Benedict and Josiah Pittman, who encouraged her to explore it." ;
+        ont:person   <http://dbpedia.org/resource/Julius_Benedict> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albani, Emma (1911)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After her third season, Queen Victoria requested a private performance from Albani, who travelled to Windsor Castle in July 1874 to perform the aria \"Caro nome\" from Rigoletto, the folk ballad \"Robin Adair\", the Bach/Gounod \"Ave Maria\", and the popular song \"Home!" ;
+        ont:person          <http://dbpedia.org/resource/Johann_Sebastian_Bach> , <http://dbpedia.org/resource/Queen_Victoria> ;
+        ont:place           <http://dbpedia.org/resource/Windsor_Castle> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "July 1874" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/41/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"The Jubilee of the Royal Albert Hall and the Royal Choral Society\"." ;
+        ont:place    <http://dbpedia.org/resource/Jubilee_line> , <http://dbpedia.org/resource/Royal_Albert_Hall> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/21/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1925, Albani was made a Dame Commander of the Order of the British Empire.The Historic Sites and Monuments Board of Canada mounted a plaque at her birthplace in 1939." ;
+        ont:place           <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "In 1925" , "birthplace in 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/30/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "JSTOR 906535." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "906535" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1856 after the death of her mother, she continued her education in a Montreal convent-school, run by the Dames du Sacré-Coeur where her father had obtained the position of Music Master." ;
+        ont:place           <http://dbpedia.org/resource/Montreal> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "In 1856" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/42/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1903)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1903" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In her fifth season in London (1876) she performed the role of Elisabeth in the London premiere of Wagner's Tannhäuser.Afterward she went to Paris and sang at the Théâtre des Italiens, where she was well received, and gave a special performance at the Élysée Palace for Maréchal MacMahon." ;
+        ont:person          <http://dbpedia.org/resource/Empress_Elisabeth_of_Austria> , <http://dbpedia.org/resource/Patrice_de_MacMahon> ;
+        ont:place           <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1876" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/9/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was scheduled to make her London debut in the spring of 1872." ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "spring of 1872" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/29/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Biography of John McCormack\"." ;
+        ont:person   <http://dbpedia.org/resource/John_W._McCormack> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/51/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In Cook, Ramsay; Bélanger, Réal (eds.)." ;
+        ont:person   <http://dbpedia.org/resource/William_Ramsay> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/19/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The book was effectively a memoir, recounting stories of her youth, travels and career, and impressions of fellow performers and the royalty she met over her life, as well as providing some useful advice on singing.She and her husband retired to Kensington." ;
+        ont:place    <http://dbpedia.org/resource/Kensington> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
 
 <http://w3id.org/polifonia/pilot/meetups/194903/15/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Other appearances with the Met in Chicago included another as Valentine, Gilda in Rigoletto, Violetta in Act 1 of Verdi's La traviata (on a double bill with Mascagni's Cavalleria rusticana, in which Emma Eames's sang Santuzza) and Elsa in Wagner's Lohengrin." ;
         ont:person          <http://dbpedia.org/resource/Emma_Eames> , <http://dbpedia.org/resource/Elsa_Triolet> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
         ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
         ont:timeExpression  "Act 1" .
 
+<http://w3id.org/polifonia/pilot/meetups/194903/13/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "More than ten thousand people showed up to greet her upon her arrival, and at a reception the poet Louis-Honoré Fréchette read a poem that he had written in her honour." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "than ten" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/44/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"The Canadian Opera Career of Emma Albani\"." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/4/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She then travelled to Italy, where she studied Italian opera singing with Francesco Lamperti." ;
+        ont:place    <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/36/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Emma Albani\"." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She found a position in Messina, and her operatic debut was on 30 March 1870, in Messina, playing Amina in La sonnambula." ;
+        ont:place           <http://dbpedia.org/resource/Messina> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "30 March 1870" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/45/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Emma Albani\"." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Emma Albani, soprano and voice teacher (1847–1930)\"." ;
+        ont:person          <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1847–1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/17/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "There were a total of four performances, all of which sold out despite the higher than normal ticket prices and the oddity that the opera was sung in German." ;
+        ont:place           <http://dbpedia.org/resource/Germany> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "total of four" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/46/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Dame Emma Albani\"." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/26/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 16 July 2015." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "16 July 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/11/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She then went to St. Petersburg where the Tsar Alexander II viewed her performances." ;
+        ont:person   <http://dbpedia.org/resource/Alexander_II_of_Russia> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/56/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "12 (December 1993)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "December 1993" , "12" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/19/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She also was active in oratorio in Britain." ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/48/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two Centuries of Opera at Covent Garden." ;
+        ont:place           <http://dbpedia.org/resource/Royal_Opera_House> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/21/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The first, rue Albani, was dedicated in 1912." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in 1912" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/50/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "OCLC 614233624." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "614233624" .
+
 <http://w3id.org/polifonia/pilot/meetups/194903/13/5>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Ferdinand_II_of_Aragon> , <http://dbpedia.org/resource/Isabella_I_of_Castile> ;
-        ont:place           "http://dbpedia.org/resource/Europe" , "http://dbpedia.org/resource/Royal_Opera_House" , "http://dbpedia.org/resource/North_America" ;
+        ont:excerpt         "On 26 June 1880 she performed Isabella in Ferdinand Hérold's Le pré aux clercs at Covent Garden, a production that was mounted especially for her.Throughout the 1880s, Albani toured Europe and North America, garnering praise wherever she travelled." ;
+        ont:person          <http://dbpedia.org/resource/Isabella_I_of_Castile> , <http://dbpedia.org/resource/Ferdinand_II_of_Aragon> ;
+        ont:place           <http://dbpedia.org/resource/North_America> , <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/Royal_Opera_House> ;
         ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
-        ont:timeExpression  "26 June 1880" , "1880s" .
+        ont:timeExpression  "1880s" , "26 June 1880" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/42/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "p. 140." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "140" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/49/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Albani [married name Gye], Dame Emma [née Marie Louise Cécile Emma Lajeunesse] (1847–1930), singer\"." ;
+        ont:person          <http://dbpedia.org/resource/Landgravine_Marie_Louise_of_Hesse-Kassel> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1847–1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/51/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "University of Toronto Press." ;
+        ont:place    <http://dbpedia.org/resource/Toronto> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/43/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "JSTOR 916813." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "916813" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== Move to London's Covent Garden ===" ;
+        ont:place    <http://dbpedia.org/resource/Covent_Garden> , <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/4/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Under the guidance of her elocution instructor, Signor Delorenzi, she changed her name to the simpler Emma Albani, which sounded more European." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/52/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Boston: American Biographical Society." ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Boston> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/15/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her final appearance with the Met was in New York on 31 March 1892, as Senta in The Flying Dutchman." ;
+        ont:place           <http://dbpedia.org/resource/Senta> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "31 March 1892" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albani arrived in London in the spring, and made her professional debut on 2 April 1872 as Amina in La sonnambula." ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "2 April 1872" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/45/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 17 January 2012." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "17 January 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In her third season in London, she performed in mostly the same roles she had in her first two seasons: La sonnambula, Lucia di Lammermoor, Linda di Chamounix and Martha." ;
+        ont:person          <http://dbpedia.org/resource/Martha_Wainwright> ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/37/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "15 July 2010." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "15 July 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/17/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Her career at Covent Garden had lasted for twenty-four years." ;
+        ont:place    <http://dbpedia.org/resource/Covent_Garden> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/21/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Madame Selitsky, the prima donna who performs in Lucy Maud Montgomery's Anne of Green Gables (1908) was inspired by Albani." ;
+        ont:person          <http://dbpedia.org/resource/Lucy_Maud_Montgomery> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1908" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/46/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 17 January 2012." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "17 January 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albani married Ernest Gye on 6 August 1878." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "6 August 1878" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/38/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Archived from the original on 11 June 2008." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "11 June 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/30/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "52 (824): 663." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "663" , "824" , "52" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After spending the winter of 1870–1871 performing in Malta, she auditioned for Frederick Gye, the manager of Covent Garden in London." ;
+        ont:place           <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Malta> , <http://dbpedia.org/resource/Royal_Opera_House> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "winter of 1870–1871" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/47/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "JSTOR 906456." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "906456" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vachon, Pierre (2005)." ;
+        ont:person          <http://dbpedia.org/resource/Pierre_Curie> ;
+        ont:place           <http://dbpedia.org/resource/Vachon_(electoral_district)> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/14/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== Performances with New York's Metropolitan Opera ===" ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/39/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 8 October 2013." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "8 October 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The opera was performed in Italian, which was also the custom at Covent Garden.She returned to London for her fourth season at Covent Garden in 1875." ;
+        ont:place           <http://dbpedia.org/resource/Royal_Opera_House> , <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in 1875" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/19/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albani gave her last public performance on 14 October 1911." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "14 October 1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/21/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1980 Canada Post commissioned a postage stamp honoring her on the 50th anniversary of her death." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "In 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/52/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "This article incorporates text from a publication now in the public domain: Johnson, Rossiter, ed." ;
+        ont:person   <http://dbpedia.org/resource/Rossiter_Johnson> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albani made her debut with New York's Metropolitan Opera on 20 November 1891 as Valentine in Meyerbeer's Les Huguenots, a performance which took place while the company was on tour in Chicago." ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "20 November 1891" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The performance was attended by the German Emperor, Kaiser Wilhelm I." ;
+        ont:person   <http://dbpedia.org/resource/William_I,_German_Emperor> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/32/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "31 March 1892." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "31 March 1892" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "There she became a popular singer, an organist and teacher of singing and saved enough money to continue her studies.In 1868, she travelled to Paris, where she studied with Gilbert Duprez at the Conservatoire de Paris." ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1868" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/16/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== Final season at Covent Garden ===" ;
+        ont:place    <http://dbpedia.org/resource/Covent_Garden> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She performed across Europe and North America." ;
+        ont:place    <http://dbpedia.org/resource/North_America> , <http://dbpedia.org/resource/Europe> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Brian Busby, Character Parts: Who's Really Who in CanLit (Toronto: Vintage Canada, 2004)." ;
+        ont:place           <http://dbpedia.org/resource/Toronto> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Even in Albani's final season at Covent Garden in 1896, she continued to receive strongly positive reviews." ;
+        ont:place           <http://dbpedia.org/resource/Covent_Garden> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in 1896" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her first opportunity to present a piece came in October 1872, when she performed \"Angels, ever bright and fair\" from Handel's Theodora at the Norwich Festival.For the 1872–1873 winter season she performed with the Italian Opera at the Salle Ventadour in Paris, where she made her debut as Amina with Victor Capoul as Elvino.Her second season in London included performances in the roles of Ophelia in Ambroise Thomas' Hamlet and the Countess in Mozart's The Marriage of Figaro." ;
+        ont:person          <http://dbpedia.org/resource/Theodora_III_Porphyrogenita> , <http://dbpedia.org/resource/George_Frideric_Handel> ;
+        ont:place           <http://dbpedia.org/resource/Norwich> , <http://dbpedia.org/resource/Salle_Ventadour> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1872–1873 winter season" , "October 1872" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== Post Covent Garden ===" ;
+        ont:place    <http://dbpedia.org/resource/Covent_Garden> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cheryl MacDonald, Emma Albani: Victorian Diva (Toronto, Dundurn, 1984)." ;
+        ont:person          <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:place           <http://dbpedia.org/resource/Toronto> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her date of birth is usually given as 1 November 1847, but other authors have placed her birth in 1848 or 1850, The Biographical Dictionary of America puts her birth on September 18, 1851, Who's Who in America says November 1, 1851, and Albani's memoir says 1852." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1850" , "September 18 , 1851" , "birth in 1848" , "1852" , "November 1 , 1851" , "1 November 1847" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/40/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gramophone: 12." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "12" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/35/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dawn E. Monroe." ;
+        ont:person   <http://dbpedia.org/resource/Greg_Monroe> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/27/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Forty Years of Song." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "Forty" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/56/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Stephen Willis, \"Archives of Emma Albani at the National Library of Canada\", National Library News, Vol." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:place    <http://dbpedia.org/resource/Canada> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After retiring from Covent Garden in 1896, Albani departed for a tour of Canada, performing in venues across the country." ;
+        ont:place           <http://dbpedia.org/resource/Covent_Garden> , <http://dbpedia.org/resource/Canada> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in 1896" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/21/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was replaced with a stele in 1977.Several streets and places have been named after her in Quebec." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "stele in 1977.Several" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/50/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "London: Macmillan." ;
+        ont:place    <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the fall of 1879, after singing at the Hereford and Bristol Festivals, she returned to Florence." ;
+        ont:place           <http://dbpedia.org/resource/Bristol> , <http://dbpedia.org/resource/Hereford> , <http://dbpedia.org/resource/Florence> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "fall of 1879" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/42/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Types of Canadian Women and of Women who are or have been Connected with Canada." ;
+        ont:place    <http://dbpedia.org/resource/Canada> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/9/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Before her London contract began, she returned to Italy to study with Lamperti at Lake Como, and then appeared at the Teatro della Pergola in Florence, giving one last series of nine performances in ten days in the title role of Ambroise Thomas's Mignon, a part she studied with the composer in Paris prior to her making her debut in the role." ;
+        ont:place           <http://dbpedia.org/resource/Florence> , <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/Lake_Como> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Italy> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "one" , "series of nine" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/29/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John McCormack Society." ;
+        ont:person   <http://dbpedia.org/resource/John_W._McCormack> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/58/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Works by Emma Albani at Faded Page (Canada)" ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/43/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "71 (1047): 463." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1047" , "71" , "463" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/15/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her first appearance with the company in New York was as Gilda in Rigoletto on 23 December.Further performances in New York included four appearances as Valentine (a role she also performed on tour in Louisville, Albany, Brooklyn, Philadelphia, and Boston), three as Donna Elvira in Mozart's Don Giovanni, three as Eva in Wagner's Die Meistersinger von Nürnberg, one more as Gilda, one as Desdemona, one as Elsa, as well as a single appearance as Marguerite in Gounod's Faust." ;
+        ont:person          <http://dbpedia.org/resource/Margaret_of_Valois> ;
+        ont:place           <http://dbpedia.org/resource/Brooklyn> , <http://dbpedia.org/resource/Philadelphia> , <http://dbpedia.org/resource/Albany,_New_York> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Boston> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "one" , "four" , "three" , "on 23" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/59/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Pictures of Emma Albani" ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her first operatic performance in Canada came on 13 February 1883 in Toronto, at the Grand Opera House where she performed in Lucia di Lammermoor." ;
+        ont:place           <http://dbpedia.org/resource/Toronto> , <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/Oshkosh_Grand_Opera_House> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "13 February 1883" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/33/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "JSTOR 746717." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "746717" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/17/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 24 July she sang Valentine in Les Huguenots." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "On 24" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/34/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "S2CID 145438501." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "S2CID 145438501" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/38/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "CBC Radio 2." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "CBC Radio 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He kept her on a strong practice regimen, with as much as four hours a day of lessons on the harp and piano." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "as four" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/9/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She soon accepted the role of Gilda in Rigoletto, performing it in Cento." ;
+        ont:place    <http://dbpedia.org/resource/Cento> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/47/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "52 (825): 725." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "52" , "725" , "825" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blythe, Christine (10 August 2014)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "10 August 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/19/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On the death of Queen Victoria in 1901, Albani travelled to London and sang the solo role at her final service." ;
+        ont:person          <http://dbpedia.org/resource/Queen_Victoria> ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in 1901" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/41/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "JSTOR 910562." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "910562" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/48/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "London: Putnam." ;
+        ont:place    <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1881, she was invited to perform in Lohengrin, which was being given at the Berlin Royal Opera." ;
+        ont:place           <http://dbpedia.org/resource/Berlin> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "In 1881" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/32/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Der Fliegende Holländer (includes a copy of The New York Times review)\"." ;
+        ont:person   <http://dbpedia.org/resource/Alioune_Mbaye_Nder> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, she was ultimately unable to finance a musical education in Quebec, where singing and acting were considered unsavoury careers for a woman, and her family moved to Albany, New York in 1865." ;
+        ont:place           <http://dbpedia.org/resource/Albany,_New_York> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in 1865" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/49/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Oxford Dictionary of National Biography." ;
+        ont:place    <http://dbpedia.org/resource/Oxford> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dame Emma Albani, DBE (born Marie-Louise-Emma-Cécile Lajeunesse; 1 November 1847 – 3 April 1930) was a leading opera soprano of the 19th century and early 20th century, and the first Canadian singer to become an international star." ;
+        ont:person          <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1 November 1847" , "3 April 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/51/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 17 January 2012.Attribution" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "17 January 2012.Attribution" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dideriksen, Gabriella; Ringel, Matthew (Summer 1995)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "Summer 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/4/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She made her debut at Messina using the surname Albani." ;
+        ont:place    <http://dbpedia.org/resource/Messina> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/15/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "All the operas in which she appeared were sung in Italian." ;
+        ont:place    <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/52/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "p. 67." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "67" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Elliott, Robin (Spring 2005)." ;
+        ont:person          <http://dbpedia.org/resource/Bill_Elliott> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "Spring 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Albani was born Marie-Louise-Emma-Cécile Lajeunesse in Chambly, Quebec, to the professional musician Joseph Lajeunesse and his wife, Mélina Mignault." ;
+        ont:person   <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:place    <http://dbpedia.org/resource/Chambly,_Quebec> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hurst, P. G. (June 1942)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "June 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/19/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She died on 3 April 1930, aged 82, at her home on Tregunter Road, Kensington and was buried with her husband at Brompton Cemetery." ;
+        ont:place           <http://dbpedia.org/resource/Brompton_Cemetery> , <http://dbpedia.org/resource/Kensington> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "82" , "3 April 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/35/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Emma Albani\"." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The competition in the opera world of London was very stiff, and it was common for performers to be possessive of their roles." ;
+        ont:place    <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/37/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 16 July 2015." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "16 July 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Klein, Herman (May 1921)." ;
+        ont:person          <http://dbpedia.org/resource/Felix_Klein> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "May 1921" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/21/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Montgomery later wrote a profile of the singer for Courageous Women (1934), a non-fiction work." ;
+        ont:person          <http://dbpedia.org/resource/Bernard_Montgomery> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/50/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1992)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She became pregnant, but continued to tour and perform until shortly before the birth of her son, Frederick Ernest Gye on 4 June 1879." ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "4 June 1879" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/30/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "October 1911. doi:10.2307/906536." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "October 1911." .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The family moved to Plattsburgh, New York, in 1852." ;
+        ont:place           <http://dbpedia.org/resource/Clinton_County_Airport> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "in 1852" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/42/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Morgan, Henry James, ed." ;
+        ont:person   <http://dbpedia.org/resource/Henry_James_Morgan> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/51/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Lajeunesse, Emma (also called Marie-Louise-Cécile-Emma) (Gye), known as Emma Albani\"." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/31/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 24 February 2014." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "24 February 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/12/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After the season, she  performed at the Norwich Festival, where she sang in Mendelssohn's \"Hymn of Praise\" Symphony-Cantata and Julius Benedict's oratorio The Legend of St. Cecilia." ;
+        ont:person   <http://dbpedia.org/resource/Julius_Benedict> , <http://dbpedia.org/resource/Saint_Cecilia> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/43/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Obituary: Dame Emma Albani\"." ;
+        ont:person   <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Potvin, Gilles (Spring 1980)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "Spring 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/52/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1906)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "1906" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her second appearance in Chicago on 23 November was as Desdemona in the company's first ever performance of Verdi's Otello, and she also sang the role there at a gala performance of Act 4 on 9 December." ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "on 23" , "on 9" , "Act 4" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/32/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 16 July 2015." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "16 July 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== Development in Italy ===" ;
+        ont:place    <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The reception was very positive, earning three curtain calls." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "three curtain" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/13/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1882, the Kaiser awarded her the title of Hofkammersängerin.In 1883, she gave three recitals in Montreal." ;
+        ont:place           <http://dbpedia.org/resource/Montreal> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "In 1882" , "three" , "Hofkammersängerin.In 1883" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She spent six months in Paris, training with Duprez." ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/33/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "19 (1): 3–30." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "19" , "3–30" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Potvin, Gilles (29 July 2007)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "29 July 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The greatest triumph of her career came on 26 June 1896, when she sang Isolde in Wagner's Tristan und Isolde, with Jean de Reszke in his first London Tristan, Louise Meisslinger as Brangäne, David Bispham as Kurwenal, Édouard de Reszke as King Marke, and Luigi Mancinelli conducting." ;
+        ont:person          <http://dbpedia.org/resource/David_Bispham> , <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> , <http://dbpedia.org/resource/Jean_de_Reszke> ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "26 June 1896" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/15/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Of her last performance at the Met The New York Times wrote: \"The Senta of Mlle." ;
+        ont:place    <http://dbpedia.org/resource/Senta> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/34/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "39 (2): 105–126." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "2" , "39" , "105–126" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Potvin, Gilles (29 January 2008)." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "29 January 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/26/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "16 July 1884." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "16 July 1884" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/11/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During the off time after the second season she travelled to Moscow to perform in La sonnambula, Rigoletto, Hamlet, and Lucia di Lammermoor." ;
+        ont:place    <http://dbpedia.org/resource/Moscow> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/55/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 0-919670-75-X, ISBN 0-919670-74-1" ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "ISBN 0-919670-75-X" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She began her musical studies with her mother, and at age five her father took over her musical lessons." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/40/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Archived from the original on 2 August 2012." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "2 August 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/35/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrieved 17 January 2012." ;
+        ont:subject         <http://dbpedia.org/resource/Emma_Albani> ;
+        ont:timeExpression  "17 January 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/194903/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She returned to Milan after her contract in Messina had expired, to resume her instruction by Lamperti." ;
+        ont:place    <http://dbpedia.org/resource/Messina> , <http://dbpedia.org/resource/Milan> ;
+        ont:subject  <http://dbpedia.org/resource/Emma_Albani> .

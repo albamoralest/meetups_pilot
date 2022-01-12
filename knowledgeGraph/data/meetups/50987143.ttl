@@ -6,23 +6,113 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/50987143/11/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jeff_Adrien> ;
-        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/France" ;
-        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
-        ont:timeExpression  "p. 477-478" , "1874" .
-
 <http://w3id.org/polifonia/pilot/meetups/50987143/12/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Camille Dreyfus, André Berthelot, La Grande encyclopédie : inventaire raisonné des sciences, des lettres et des arts, t.28, Paris, Lamirault et cie, 1886, (p. 674)." ;
         ont:person          <http://dbpedia.org/resource/Marcellin_Berthelot> ;
-        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/La_Grande_River" ;
+        ont:place           <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/La_Grande_River> ;
         ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
-        ont:timeExpression  "674" , "1886" .
+        ont:timeExpression  "1886" , "674" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/1/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Raised by his father, who was a librarian, he studied in Geneva." ;
+        ont:place    <http://dbpedia.org/resource/Geneva> ;
+        ont:subject  <http://dbpedia.org/resource/Cyrille_Rigaud> .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pouesias patouesas, Mounpeïé, Renaud, 1806, in-18." ;
+        ont:person          <http://dbpedia.org/resource/Renaud> ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "1806" .
 
 <http://w3id.org/polifonia/pilot/meetups/50987143/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jean-Cyrille Rigaud (28 January 1750 – 29 January 1824) was a French poet from Occitania." ;
         ont:person          <http://dbpedia.org/resource/Hyacinthe_Rigaud> ;
-        ont:place           "http://dbpedia.org/resource/Occitania" ;
+        ont:place           <http://dbpedia.org/resource/Occitania> ;
         ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
-        ont:timeExpression  "29 January 1824" , "28 January 1750" .
+        ont:timeExpression  "28 January 1750" , "29 January 1824" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Joseph-Marie Quérard, La France littéraire ou dictionnaire bibliographique des savants, Paris, Firmin Didot père et fils, 1836, (p. 48)." ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "48" , "1836" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pouésias patouèsas de Cyrilla Rigaud émbé edouquas péças d'Augusta Rigaud et dé différens doutvrs, Mounpéïé, Renaud, 1821, in-12." ;
+        ont:person          <http://dbpedia.org/resource/Renaud> , <http://dbpedia.org/resource/Hyacinthe_Rigaud> ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "1821" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "de J. Martel le jeune, 1823, in-8°" ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "1823" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/16/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Cyrille Rigaud on Data.bnf.fr" ;
+        ont:person   <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:subject  <http://dbpedia.org/resource/Cyrille_Rigaud> .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Achille Chéreau, Le Parnasse médical français ou, Dictionnaire des médecins-poètes de la France, anciens ou modernes, morts ou vivants, Paris, Adrien Delahaye, 1874, (p. 477-478)" ;
+        ont:person          <http://dbpedia.org/resource/Jeff_Adrien> ;
+        ont:place           <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "p. 477-478" , "1874" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mémoire pour servir à l'histoire de quelques insectes, connus sous les noms de termites, ou fourmis blanches : et accompagné de figures gravées en taille-douce by Henry Smeathman, Paris, De La Rochelle, 1786." ;
+        ont:place           <http://dbpedia.org/resource/La_Rochelle> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "1786" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tournel, 1821, in-12 de 138 (contains fables, several speeches, including the Éloge de Roucher, read at the Académie de Montpellier in 1813, and inserted in the collection of that Société.)" ;
+        ont:place           <http://dbpedia.org/resource/Montpellier> ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "in-12 de 138" , "1821" , "in 1813" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Poésies diverses, with Auguste Rigaud, Montpellier, de l'impr." ;
+        ont:person   <http://dbpedia.org/resource/Auguste_Rigaud> ;
+        ont:place    <http://dbpedia.org/resource/Montpellier> ;
+        ont:subject  <http://dbpedia.org/resource/Cyrille_Rigaud> .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Rigaud was born in Montpellier." ;
+        ont:person   <http://dbpedia.org/resource/Hyacinthe_Rigaud> ;
+        ont:place    <http://dbpedia.org/resource/Montpellier> ;
+        ont:subject  <http://dbpedia.org/resource/Cyrille_Rigaud> .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "les étudiants en médecine de la Faculté de Montpellier, Montpellier, de l'impr." ;
+        ont:place    <http://dbpedia.org/resource/Montpellier> ;
+        ont:subject  <http://dbpedia.org/resource/Cyrille_Rigaud> .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Éloge de Roucher, Montpellier, 1807, in-8°." ;
+        ont:place           <http://dbpedia.org/resource/Montpellier> ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "1807" .
+
+<http://w3id.org/polifonia/pilot/meetups/50987143/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nouvelle édition, t.36, Paris, C. Desplaces, 1863, (p. 23-24)." ;
+        ont:place           <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/Nouvelle,_Quebec> ;
+        ont:subject         <http://dbpedia.org/resource/Cyrille_Rigaud> ;
+        ont:timeExpression  "1863" , "p. 23-24" .

@@ -6,23 +6,105 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/554770/4/2>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_the_Baptist> ;
-        ont:place           "http://dbpedia.org/resource/Newfoundland_Colony" , "http://dbpedia.org/resource/British_Guiana" ;
-        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
-        ont:timeExpression  "in 1889" , "Diamond Jubilee Honours.In 1894" , "March 1901" , "1897" .
-
 <http://w3id.org/polifonia/pilot/meetups/554770/4/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Boyle joined the British Colonial Office and was made magistrate in the Leeward Islands in 1879." ;
         ont:person          <http://dbpedia.org/resource/Robert_Boyle> ;
-        ont:place           "http://dbpedia.org/resource/Leeward_Islands" ;
+        ont:place           <http://dbpedia.org/resource/Leeward_Islands> ;
         ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
         ont:timeExpression  "in 1879" .
 
+<http://w3id.org/polifonia/pilot/meetups/554770/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His widow, who was 25 years his junior, lived to be 90, dying in 1964." ;
+        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:timeExpression  "90" , "25" , "in 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His elder brother, Sir Courtenay Edmund Boyle, was also a civil servant who served as Permanent Secretary to the Board of Trade.Boyle was educated in London at Charterhouse, and later studied colonial administration and law." ;
+        ont:person   <http://dbpedia.org/resource/Robert_Boyle> ;
+        ont:place    <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Cavendish_Boyle> .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He stayed as such until 1904, and wrote poems to the island's rugged beauty including the Ode to Newfoundland which was adopted as the dominion's national anthem." ;
+        ont:place           <http://dbpedia.org/resource/Newfoundland_Colony> ;
+        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:timeExpression  "until 1904" .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Cavendish Spencer Boyle and Rose Susan Alexander, daughter of Lt-Col. C. C. Alexander." ;
+        ont:person   <http://dbpedia.org/resource/Robert_Boyle> ;
+        ont:subject  <http://dbpedia.org/resource/Cavendish_Boyle> .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He served as Colonial Secretary in Bermuda from 1882 to 1888 and in Gibraltar from 1888 to 1894." ;
+        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:timeExpression  "1888" , "from 1882" , "1894" , "from 1888" .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/4/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As governor, Boyle donated a trophy, the Boyle Challenge Cup, to the Newfoundland Hockey League." ;
+        ont:person   <http://dbpedia.org/resource/Robert_Boyle> ;
+        ont:subject  <http://dbpedia.org/resource/Cavendish_Boyle> .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died in London in 1916 after undergoing an operation." ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:timeExpression  "in 1916" .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was the grandson of Sir Courtenay Boyle and the great-grandson of the Seventh Earl of Cork and Earl of Orrery." ;
+        ont:person   <http://dbpedia.org/resource/Courtenay_Boyle> ;
+        ont:place    <http://dbpedia.org/resource/County_Cork> ;
+        ont:subject  <http://dbpedia.org/resource/Cavendish_Boyle> .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He continued his colonial career with a posting as the 19th Governor of Mauritius from 20 August 1904 to 10 April 1911, after which he retired to Brighton, England." ;
+        ont:place           <http://dbpedia.org/resource/Mauritius> , <http://dbpedia.org/resource/Brighton> ;
+        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:timeExpression  "20 August 1904" , "19th" , "10 April 1911" .
+
 <http://w3id.org/polifonia/pilot/meetups/554770/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sir Charles Cavendish Boyle  (29 May 1849 – 17 September 1916) was a British civil servant, magistrate, and colonial administrator who served as Colonial Governor of Newfoundland, Mauritius and British Guiana." ;
         ont:person          <http://dbpedia.org/resource/Charles_Cavendish_(Nottingham_MP)> , <http://dbpedia.org/resource/Cavendish_Boyle> ;
-        ont:place           "http://dbpedia.org/resource/British_Guiana" , "http://dbpedia.org/resource/Mauritius" , "http://dbpedia.org/resource/Newfoundland_Colony" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:place           <http://dbpedia.org/resource/British_Guiana> , <http://dbpedia.org/resource/Mauritius> , <http://dbpedia.org/resource/Newfoundland_Colony> , <http://dbpedia.org/resource/United_Kingdom> ;
         ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
         ont:timeExpression  "17 September 1916" , "29 May 1849" .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Biography at Government House The Governorship of Newfoundland and Labrador" ;
+        ont:place    <http://dbpedia.org/resource/Labrador> ;
+        ont:subject  <http://dbpedia.org/resource/Cavendish_Boyle> .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1914, Boyle married to Louise Judith Sassoon , daughter of Reuben David Sassoon (1835-1905)." ;
+        ont:person          <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> , <http://dbpedia.org/resource/David_Sassoon> , <http://dbpedia.org/resource/Robert_Boyle> ;
+        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:timeExpression  "In 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Known as Cavendish Boyle, he was born in Barbados into an ancient British family, the son of Capt." ;
+        ont:person   <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:place    <http://dbpedia.org/resource/Barbados> ;
+        ont:subject  <http://dbpedia.org/resource/Cavendish_Boyle> .
+
+<http://w3id.org/polifonia/pilot/meetups/554770/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was appointed a Companion of the  Order of Saint Michael and Saint John (CMG) in 1889, and granted a knighthood in the same order in the 1897 Diamond Jubilee Honours.In 1894 he moved to British Guiana, where he was Government Secretary and acted as Governor several times.In March 1901, he was appointed Governor of Newfoundland, where he arrived in St. Johns in mid-June." ;
+        ont:person          <http://dbpedia.org/resource/John_the_Baptist> ;
+        ont:place           <http://dbpedia.org/resource/British_Guiana> , <http://dbpedia.org/resource/Newfoundland_Colony> ;
+        ont:subject         <http://dbpedia.org/resource/Cavendish_Boyle> ;
+        ont:timeExpression  "1897" , "Diamond Jubilee Honours.In 1894" , "in 1889" , "March 1901" .

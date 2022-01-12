@@ -8,7 +8,27 @@
 
 <http://w3id.org/polifonia/pilot/meetups/3396268/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Francesco Busacca better known as Cicciu or Ciccio Busacca (1925–1989) was born in Paternò, Province of Catania." ;
         ont:person          <http://dbpedia.org/resource/Ciccio_Busacca> ;
-        ont:place           "http://dbpedia.org/resource/Province_of_Catania" ;
+        ont:place           <http://dbpedia.org/resource/Province_of_Catania> ;
         ont:subject         <http://dbpedia.org/resource/Ciccio_Busacca> ;
         ont:timeExpression  "1925–1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/3396268/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dario Fo, playwright and composer, wrote \"Ci ragiono e canto N.3\" for him." ;
+        ont:person   <http://dbpedia.org/resource/Dario_Fo> ;
+        ont:subject  <http://dbpedia.org/resource/Ciccio_Busacca> .
+
+<http://w3id.org/polifonia/pilot/meetups/3396268/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dario Fo biography at nobelprize.org" ;
+        ont:person   <http://dbpedia.org/resource/Dario_Fo> ;
+        ont:subject  <http://dbpedia.org/resource/Ciccio_Busacca> .
+
+<http://w3id.org/polifonia/pilot/meetups/3396268/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was one of the best known Sicilian ballad singers." ;
+        ont:place           <http://dbpedia.org/resource/Sicily> ;
+        ont:subject         <http://dbpedia.org/resource/Ciccio_Busacca> ;
+        ont:timeExpression  "one" .

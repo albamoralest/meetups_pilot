@@ -6,23 +6,313 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/936912/5/0>
+<http://w3id.org/polifonia/pilot/meetups/936912/5/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also recorded at a church turned recording studio in Salina, Kansas, and released albums on the APO label." ;
+        ont:place    <http://dbpedia.org/resource/Kansas> ;
+        ont:subject  <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/6/3>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
-        ont:place           "http://dbpedia.org/resource/Clarksdale,_Mississippi" ;
+        ont:excerpt         "In 2010, he received a Grammy Lifetime Achievement Award.On July 17, 2011, Frank announced that Edwards would retire because of ill health.Edwards died of congestive heart failure at his home on August 29, 2011, at about 3 a.m." ;
         ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
-        ont:timeExpression  "in 1942" .
+        ont:timeExpression  "August 29 , 2011" , "July 17 , 2011" , "about 3" , "In 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He performed with the famed blues musician Robert Johnson, with whom he developed a close friendship." ;
+        ont:person   <http://dbpedia.org/resource/Robert_Johnson> ;
+        ont:subject  <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His long association with the Earwig label and with his manager, Michael Frank, led to several late-career albums on various independent labels from the 1980s on." ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also won the W. C. Handy Blues Award in 2005 and the Blues Music Award in 2007 for Acoustic Blues Artist." ;
+        ont:person          <http://dbpedia.org/resource/W._C._Handy> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "in 2007" , "in 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/23/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Artists who appear in the film include Keith Richards, Robert Cray, Joe Perry, Lucinda Williams, B." ;
+        ont:person   <http://dbpedia.org/resource/Keith_Richards> , <http://dbpedia.org/resource/Lucinda_Williams> , <http://dbpedia.org/resource/Robert_Cray> ;
+        ont:subject  <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He did not record commercially until 1951, when he recorded \"Who May Be Your Regular Be\" for Arc under the name Mr. Honey." ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "until 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the age of 14, he left home to travel with the bluesman Big Joe Williams, beginning life as an itinerant musician, which he maintained through the 1930s and 1940s." ;
+        ont:person          <http://dbpedia.org/resource/Big_Joe_Williams> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1930s" , "1940s" , "age of 14" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2005: Acoustic Blues Artist of the Year, 26th W. C. Handy Blues Awards" ;
+        ont:person          <http://dbpedia.org/resource/W._C._Handy> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "2005" , "26th" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The latter album won a Grammy Award in 2008." ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "in 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2002: National Heritage Fellowship, National Endowment for the Arts" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Edwards recorded 15 album sides of music, including his songs \"Wind Howlin' Blues\" and \"The Army Blues\"." ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "15 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1999: Blues Hall of Fame inductee, Classics of Blues Literature, for The World Don't Owe Me Nothing" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Drop Down Mama\" (Chess, 1953)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1998: Keeping the Blues Alive Award in literature, for The World Don't Owe Me Nothing" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mississippi Delta Bluesman (reissue of 1979 album: Smithsonian Folkways Records, 2001)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1979 album" , "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Build a Cave\" / \"Who May Be Your Regular Be\" (ARC, 1951)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1996: Induction into the Blues Hall of Fame" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Shake 'Em On Down (APO, 2000)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Don't Mistreat a Fool (Genes, 1999)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1999" .
 
 <http://w3id.org/polifonia/pilot/meetups/936912/5/6>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Kansas City Red played for Edwards for a brief period, and Earwig recorded them in 1981, along with Sunnyland Slim and Floyd Jones, for the album Old Friends Together for the First Time.His autobiography, The World Don't Owe Me Nothing: The Life and Times of Delta Bluesman Honeyboy Edwards, published in 1997 by the Chicago Review Press, recounts his life from childhood, his travels through the American South, and his arrival in Chicago in the early 1950s." ;
         ont:person          <http://dbpedia.org/resource/Sunnyland_Slim> , <http://dbpedia.org/resource/Floyd_Jones> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" , "http://dbpedia.org/resource/Southern_United_States" , "http://dbpedia.org/resource/Kansas_City_metropolitan_area" ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Southern_United_States> , <http://dbpedia.org/resource/Kansas_City_metropolitan_area> ;
         ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
         ont:timeExpression  "in 1981" , "1950s" , "in 1997" .
 
 <http://w3id.org/polifonia/pilot/meetups/936912/6/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Between 1996 and 2000, he was nominated for eight W. C. Handy/Blues Music Awards, including for his albums White Windows, The World Don't Owe Me Nothin', Mississippi Delta Blues Man, and a 2007 album on which he appears with Robert Lockwood Jr., Henry Townsend and Pinetop Perkins titled Last of the Great Mississippi Delta Bluesmen: Live In Dallas." ;
         ont:person          <http://dbpedia.org/resource/Robert_Lockwood_Jr.> , <http://dbpedia.org/resource/Pinetop_Perkins> , <http://dbpedia.org/resource/Henry_Townsend_(musician)> , <http://dbpedia.org/resource/W._C._Handy> ;
-        ont:place           "http://dbpedia.org/resource/Dallas" ;
+        ont:place           <http://dbpedia.org/resource/Dallas> ;
         ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
         ont:timeExpression  "1996" , "2000" , "for eight" , "2007 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1991 documentary The Search for Robert Johnson, Edwards recounts stories about Johnson, including his murder.Edwards is the subject of the 2010 award-winning film Honeyboy and the History of the Blues, from Free Range Studios, directed by Scott Taradash." ;
+        ont:person          <http://dbpedia.org/resource/Robert_Johnson> , <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1991" , "2010 award-winning film" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "World Don't Owe Me Nothing, recorded live (Earwig, 1997)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The folklorist Alan Lomax recorded Edwards in Clarksdale, Mississippi, in 1942 for the Library of Congress." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           <http://dbpedia.org/resource/Clarksdale,_Mississippi> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "in 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Crawling Kingsnake (Testament, 1997)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On Saturday, somebody like me or Robert Johnson would go into one of these little towns, play for nickels and dimes." ;
+        ont:person          <http://dbpedia.org/resource/Robert_Johnson> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "into one" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Roamin' and Ramblin (Earwig, 2008)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Delta Bluesman (Earwig/Indigo, 1992)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2010: Lifetime Achievement Award, National Guitar Museum" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Back to the Roots (Wolf, 2001)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "White Windows (Blue Suit, 1988)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Edwards was born in Shaw, Mississippi." ;
+        ont:place    <http://dbpedia.org/resource/Shaw,_Mississippi> ;
+        ont:subject  <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1974 to 1977, he recorded tracks for his first full-length LP, I've Been Around, released in 1978 by the independent label Trix Records and produced by the ethnomusicologist Peter B. Lowry." ;
+        ont:person          <http://dbpedia.org/resource/Kyle_Lowry> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "in 1978" , "From 1974" , "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Old Friends (Earwig, 1979)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2010: Mississippi Governor's Award for Excellence in the Arts" ;
+        ont:place           <http://dbpedia.org/resource/Mississippi_River> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/5/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Edwards continued the rambling life he described in his autobiography, touring well into his 90s." ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "90s" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2010: Grammy Lifetime Achievement Award" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "We could hitchhike, transfer from truck to truck, or if we couldn't catch one of them, we'd go to the train yard, 'cause the railroad was all through that part of the country then...we might hop a freight, go to St. Louis or Chicago." ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mississippi Delta Bluesman (Folkways Records, 1979)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "David \"Honeyboy\" Edwards (June 28, 1915 – August 29, 2011) was a Delta blues guitarist and singer from Mississippi." ;
+        ont:place           <http://dbpedia.org/resource/Mississippi> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "August 29 , 2011" , "June 28 , 1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I've Been Around (Trix Records, 1978, 1995)" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "1978" , "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2008: Grammy Award, Best Traditional Blues Album, for Last of the Great Mississippi Delta Bluesmen: Live In Dallas" ;
+        ont:place           <http://dbpedia.org/resource/Dallas> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2007: Acoustic Blues Artist of the Year, 28th Blues Music Award" ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "28th" , "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/2/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Edwards also knew and played with other leading bluesmen in the Mississippi Delta, including Charley Patton, Tommy Johnson, and Johnny Shines." ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Johnson_(musician)> , <http://dbpedia.org/resource/Charley_Patton> , <http://dbpedia.org/resource/Johnny_Shines> ;
+        ont:subject  <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/6/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "According to events listings on the Metromix Chicago website, he had been scheduled to perform at noon that day, at the Jay Pritzker Pavilion in Chicago's Millennium Park." ;
+        ont:place    <http://dbpedia.org/resource/Jay_Pritzker_Pavilion> , <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Millennium_Park> ;
+        ont:subject  <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/23/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "King, Big Joe Williams, and Ace Atkins.Edwards appeared in the 2007 film Walk Hard: The Dewey Cox Story." ;
+        ont:person          <http://dbpedia.org/resource/Big_Joe_Williams> ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "2007 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His discography for the 1950s and 1960s amounts to nine songs from seven sessions." ;
+        ont:subject         <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> ;
+        ont:timeExpression  "from seven" , "nine" , "1950s" , "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/936912/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Edwards was present on the night Johnson drank the poisoned whiskey that killed him, and his story has become the definitive version of Johnson's demise." ;
+        ont:person   <http://dbpedia.org/resource/Lyndon_B._Johnson> ;
+        ont:subject  <http://dbpedia.org/resource/David_%22Honeyboy%22_Edwards> .

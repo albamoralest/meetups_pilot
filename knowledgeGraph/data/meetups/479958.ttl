@@ -6,65 +6,233 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/479958/6/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Eduard_Heinrich_von_Flottwell> ;
-        ont:place           "http://dbpedia.org/resource/Congress_Poland" , "http://dbpedia.org/resource/Russian_Empire" ;
-        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
-        ont:timeExpression  "1830" .
-
-<http://w3id.org/polifonia/pilot/meetups/479958/2/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Frederick_William_II_of_Prussia> ;
-        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" ;
-        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
-        ont:timeExpression  "From 1792" .
-
-<http://w3id.org/polifonia/pilot/meetups/479958/15/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Hubertus> ;
-        ont:place           "http://dbpedia.org/resource/Bavaria" ;
-        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
-        ont:timeExpression  "1825" .
-
-<http://w3id.org/polifonia/pilot/meetups/479958/9/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Otto_von_Bismarck> ;
-        ont:place           "http://dbpedia.org/resource/Reich_Chancellery" , "http://dbpedia.org/resource/Berlin" ;
-        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
-        ont:timeExpression  "by one" .
-
-<http://w3id.org/polifonia/pilot/meetups/479958/3/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Napoleon> ;
-        ont:place           "http://dbpedia.org/resource/First_French_Empire" , "http://dbpedia.org/resource/Kingdom_of_Prussia" , "http://dbpedia.org/resource/Second_Polish_Republic" ;
-        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
-        ont:timeExpression  "1806 campaign" .
-
-<http://w3id.org/polifonia/pilot/meetups/479958/5/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Frederick_William_III_of_Prussia> ;
-        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" , "http://dbpedia.org/resource/Grand_Duchy_of_Posen" , "http://dbpedia.org/resource/Vienna" ;
-        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
-        ont:timeExpression  "1815" .
+<http://w3id.org/polifonia/pilot/meetups/479958/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  " Kingdom of Prussia:" ;
+        ont:place    <http://dbpedia.org/resource/Kingdom_of_Prussia> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
 
 <http://w3id.org/polifonia/pilot/meetups/479958/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Prince Antoni Henryk Radziwiłł (Polish pronunciation: [anˈtɔɲi ˈxɛnrɨk raˈd͡ʑiviww]; 13 June 1775 – 7 April 1833) was a Polish and Prussian noble, aristocrat, musician, and politician." ;
         ont:person          <http://dbpedia.org/resource/Henryk_Rzewuski> ;
-        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" ;
+        ont:place           <http://dbpedia.org/resource/Kingdom_of_Prussia> ;
         ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
         ont:timeExpression  "7 April 1833" , "13 June 1775" .
 
+<http://w3id.org/polifonia/pilot/meetups/479958/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Antoni Henryk Radziwiłł returned to his palace in Berlin, where he died on 7 April 1833." ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "7 April 1833" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Fluctuating between Berlin, Warsaw and Saint Petersburg, Radziwiłł developed the idea of making the province of South Prussia the nucleus of a renewed Polish kingdom, ruled by the Prussian king in personal union." ;
+        ont:place    <http://dbpedia.org/resource/South_Prussia> , <http://dbpedia.org/resource/Warsaw> , <http://dbpedia.org/resource/Kingdom_of_Prussia> , <http://dbpedia.org/resource/Saint_Petersburg> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3 for cello and piano especially for Radziwiłł." ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/3/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the following years Radziwiłł retired to his city palace in Berlin and concentrated on regaining his family's vast estates in the Russian partition from the hands of Emperor Alexander I of Russia." ;
+        ont:person   <http://dbpedia.org/resource/Alexander_I_of_Russia> ;
+        ont:place    <http://dbpedia.org/resource/Russian_Empire> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         " Polish-Lithuanian Commonwealth: Knight of the Order of the White Eagle, 6 September 1793; 1 December 1815" ;
+        ont:place           <http://dbpedia.org/resource/Polish–Lithuanian_Commonwealth> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1 December 1815" , "6 September 1793" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Struggling between his Polish subjects and the Prussian authorities, Radziwiłł found himself with little power, as effective power was executed by Oberpräsident Joseph Zerboni di Sposetti and the district governors heading the Regierungsbezirke of Posen and Bromberg." ;
+        ont:place    <http://dbpedia.org/resource/Kingdom_of_Prussia> , <http://dbpedia.org/resource/Reichsgau_Danzig-West_Prussia> , <http://dbpedia.org/resource/Second_Polish_Republic> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/9/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was also a notable sponsor of Polish theatres and his wife opened the first public school for girls in Poznań in 1830." ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "in 1830" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Shortly after the outbreak of the 1830 November Uprising in Russian Congress Poland led by his brother Michał Gedeon Radziwiłł, he was deprived of all powers, and the rule passed to Oberpräsident Eduard Heinrich von Flottwell." ;
+        ont:person          <http://dbpedia.org/resource/Eduard_Heinrich_von_Flottwell> ;
+        ont:place           <http://dbpedia.org/resource/Congress_Poland> , <http://dbpedia.org/resource/Russian_Empire> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1830" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His new family convinced him that he should be a mediator between the Poles living under the Third Partition after the failed Kościuszko Uprising and the Prussian authorities in Berlin." ;
+        ont:place    <http://dbpedia.org/resource/Kingdom_of_Prussia> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Instead Napoleon's expedition sparked the Greater Poland Uprising, which led to the establishment of the Duchy of Warsaw under the rule of King Frederick Augustus I of Saxony with Prince Poniatowski as war minister." ;
+        ont:person   <http://dbpedia.org/resource/Napoleon> , <http://dbpedia.org/resource/Frederick_Augustus_I_of_Saxony> ;
+        ont:place    <http://dbpedia.org/resource/Electorate_of_Saxony> , <http://dbpedia.org/resource/Warsaw> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/9/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "115 (Zur Namensfeier) to him, while Goethe participated in his efforts to write the music for his Faust." ;
+        ont:person          <http://dbpedia.org/resource/Johann_Wolfgang_von_Goethe> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "115" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Upon the Final Act of the 1815 Congress of Vienna, he was sent to the Greater-Poland capital Poznań as Duke-Governor and representative of Prussian King Frederick William III in the Grand Duchy of Posen." ;
+        ont:person          <http://dbpedia.org/resource/Frederick_William_III_of_Prussia> ;
+        ont:place           <http://dbpedia.org/resource/Vienna> , <http://dbpedia.org/resource/Grand_Duchy_of_Posen> , <http://dbpedia.org/resource/Kingdom_of_Prussia> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1815" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/9/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Maria Agata Szymanowska dedicated to him the Serenade pour le Pianoforte avec le accompagnement de violoncelle." ;
+        ont:person   <http://dbpedia.org/resource/Maria_Szymanowska> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/16/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  " Sovereign Military Order of Malta: Knight of Honour and Devotion" ;
+        ont:place    <http://dbpedia.org/resource/Malta> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
 <http://w3id.org/polifonia/pilot/meetups/479958/2/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> , <http://dbpedia.org/resource/Augustus> , <http://dbpedia.org/resource/Ferdinand_I_of_Bulgaria> , <http://dbpedia.org/resource/Louise_of_Hesse-Kassel> ;
-        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" , "http://dbpedia.org/resource/Prussia" ;
+        ont:excerpt         "In 1796 he married Princess Louise of Prussia, the second daughter of Prince Augustus Ferdinand of Prussia and hence a niece of the late Prussian king Frederick the Great." ;
+        ont:person          <http://dbpedia.org/resource/Frederick_the_Great> , <http://dbpedia.org/resource/Augustus> , <http://dbpedia.org/resource/Louise_of_Hesse-Kassel> , <http://dbpedia.org/resource/Ferdinand_I_of_Bulgaria> ;
+        ont:place           <http://dbpedia.org/resource/Kingdom_of_Prussia> , <http://dbpedia.org/resource/Prussia> ;
         ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
         ont:timeExpression  "In 1796" .
 
+<http://w3id.org/polifonia/pilot/meetups/479958/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He failed on both occasions, when Prussia suffered a crushing defeat at the Battle of Jena-Auerstedt." ;
+        ont:place    <http://dbpedia.org/resource/Prussia> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Apart from the guitar, cello and opera concertos performed by Radziwiłł himself, among his guests were Niccolò Paganini (concert in Poznań on 19 May 1829), Johann Wolfgang von Goethe, Frédéric Chopin and Ludwig van Beethoven." ;
+        ont:person          <http://dbpedia.org/resource/Johann_Wolfgang_von_Goethe> , <http://dbpedia.org/resource/Ludwig_van_Beethoven> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "19 May 1829" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/9/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ludwig van Beethoven dedicated his Ouverture Op." ;
+        ont:person   <http://dbpedia.org/resource/Ludwig_van_Beethoven> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         " Kingdom of Bavaria: Knight of the Order of Saint Hubert, 1825" ;
+        ont:person          <http://dbpedia.org/resource/Hubertus> ;
+        ont:place           <http://dbpedia.org/resource/Bavaria> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1825" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1792 he attended Göttingen University and was invited to the court of King Frederick William II of Prussia." ;
+        ont:person          <http://dbpedia.org/resource/Frederick_William_II_of_Prussia> ;
+        ont:place           <http://dbpedia.org/resource/Kingdom_of_Prussia> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "From 1792" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During Napoleon's 1806 campaign in Poland during the War of the Fourth Coalition he tried to incite a Polish uprising against the French army and to convince Prince Józef Poniatowski to abandon his French allies and join the cause of the Russian Empire and Prussia." ;
+        ont:person          <http://dbpedia.org/resource/Napoleon> ;
+        ont:place           <http://dbpedia.org/resource/Second_Polish_Republic> , <http://dbpedia.org/resource/Kingdom_of_Prussia> , <http://dbpedia.org/resource/First_French_Empire> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1806 campaign" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His palaces in Berlin (the later Reich Chancellery of Otto von Bismarck), Poznań and Antonin near Ostrów Wielkopolski were known for great concerts performed by one of the most notable musicians of his times." ;
+        ont:person          <http://dbpedia.org/resource/Otto_von_Bismarck> ;
+        ont:place           <http://dbpedia.org/resource/Reich_Chancellery> , <http://dbpedia.org/resource/Berlin> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "by one" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/9/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "8 to Radziwiłł." ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "8" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Between 1815 and 1831 he acted as Duke-Governor (Polish: książę-namiestnik, German: Statthalter) of the Grand Duchy of Posen, an autonomous province of the Kingdom of Prussia created out of Greater Polish lands annexed in the Partitions of Poland." ;
+        ont:place           <http://dbpedia.org/resource/Kingdom_of_Prussia> , <http://dbpedia.org/resource/Grand_Duchy_of_Posen> , <http://dbpedia.org/resource/Second_Polish_Republic> , <http://dbpedia.org/resource/Greater_Poland> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1831" , "1815" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Knight of the Order of the Black Eagle, 16 March 1796" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "16 March 1796" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His children with Louise were Germanized and never returned to Poznań; however, as owners of the Nieborów manor near Warsaw and huge family estates in today's Belarus, they paid frequent visits to other parts of Poland." ;
+        ont:person   <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> ;
+        ont:place    <http://dbpedia.org/resource/Second_Polish_Republic> , <http://dbpedia.org/resource/Belarus> , <http://dbpedia.org/resource/Warsaw> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Antoni Radziwiłł was born on 13 June 1775 in Vilnius to Michał Hieronim Radziwiłł and Helena née Przeździecka." ;
+        ont:place           <http://dbpedia.org/resource/Vilnius> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "13 June 1775" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Knight of the Order of the Red Eagle, 1795" ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "1795" .
+
 <http://w3id.org/polifonia/pilot/meetups/479958/5/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His daughter Elisa's engagement to Prussian Prince (later German Emperor) William I was broken in 1824." ;
         ont:person          <http://dbpedia.org/resource/William_I_of_the_Netherlands> , <http://dbpedia.org/resource/Elisa_Bonaparte> ;
-        ont:place           "http://dbpedia.org/resource/Kingdom_of_Prussia" ;
+        ont:place           <http://dbpedia.org/resource/Kingdom_of_Prussia> ;
         ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
         ont:timeExpression  "in 1824" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Initially a hereditary Duke of Nieśwież and Ołyka, as a scion of the Radziwiłł family he also held the honorific title of a Reichsfürst of the Holy Roman Empire." ;
+        ont:place    <http://dbpedia.org/resource/Holy_Roman_Empire> ;
+        ont:subject  <http://dbpedia.org/resource/Antoni_Radziwiłł> .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was incorporated into the Provinces of Prussia, renamed the \"Province of Posen\" in 1848." ;
+        ont:place           <http://dbpedia.org/resource/Province_of_Posen> , <http://dbpedia.org/resource/Prussia> ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "in 1848" .
+
+<http://w3id.org/polifonia/pilot/meetups/479958/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also performed a concert in his palace in Poznań on 2 October 1828." ;
+        ont:subject         <http://dbpedia.org/resource/Antoni_Radziwiłł> ;
+        ont:timeExpression  "2 October 1828" .

@@ -6,86 +6,574 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1150533/4/3>
+<http://w3id.org/polifonia/pilot/meetups/1150533/4/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Elizabeth_I> ;
-        ont:place           "http://dbpedia.org/resource/Lansing,_New_York" ;
+        ont:excerpt         "Later that year the family moved to Erie, Pennsylvania, where they lived until the 1920s." ;
+        ont:place           <http://dbpedia.org/resource/Pennsylvania> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "in 1838" .
+        ont:timeExpression  "1920s" .
 
-<http://w3id.org/polifonia/pilot/meetups/1150533/3/0>
+<http://w3id.org/polifonia/pilot/meetups/1150533/13/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Harry_Burleigh> , <http://dbpedia.org/resource/Henry_Thacker> , <http://dbpedia.org/resource/Elizabeth_I> ;
-        ont:place           "http://dbpedia.org/resource/Lake_Erie" , "http://dbpedia.org/resource/Pennsylvania" ;
+        ont:excerpt         "In 1893 Burleigh assisted Dvořák in copying out instrumental parts for the symphony." ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "in 1866" .
+        ont:timeExpression  "In 1893" .
 
-<http://w3id.org/polifonia/pilot/meetups/1150533/16/3>
+<http://w3id.org/polifonia/pilot/meetups/1150533/23/7>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Washington> ;
-        ont:place           "http://dbpedia.org/resource/Washington_metropolitan_area" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "Nevertheless, he remains one of America's most important composers from the early twentieth century.In 1917, Burleigh received the Spingarn Medal, which the National Association for the Advancement of Colored People (NAACP) awards annually for outstanding achievement by an African American." ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "in two" .
+        ont:timeExpression  "1917" , "one" .
 
-<http://w3id.org/polifonia/pilot/meetups/1150533/5/0>
+<http://w3id.org/polifonia/pilot/meetups/1150533/43/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:place           "http://dbpedia.org/resource/Lake_Erie" ;
+        ont:excerpt         "\"Sailor's Wife\" (1917)" ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "in 1871" .
+        ont:timeExpression  "1917" .
 
-<http://w3id.org/polifonia/pilot/meetups/1150533/0/0>
+<http://w3id.org/polifonia/pilot/meetups/1150533/36/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Henry_Thacker> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "\"I Love My Jean\" (Robert Burns poem, 1914)" ;
+        ont:person          <http://dbpedia.org/resource/Robert_Burns> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "December 2 , 1866" , "September 12 , 1949" .
+        ont:timeExpression  "1914" .
 
-<http://w3id.org/polifonia/pilot/meetups/1150533/41/0>
+<http://w3id.org/polifonia/pilot/meetups/1150533/29/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Walt_Whitman> ;
-        ont:place           "http://dbpedia.org/resource/Ethiopia" ;
+        ont:excerpt         "Six Plantation Melodies for Violin and Piano (1901)" ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "1916" .
+        ont:timeExpression  "Six" , "1901" .
 
-<http://w3id.org/polifonia/pilot/meetups/1150533/26/0>
+<http://w3id.org/polifonia/pilot/meetups/1150533/24/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Michelle_Obama> ;
-        ont:place           "http://dbpedia.org/resource/Winfield,_Kansas" , "http://dbpedia.org/resource/Manhattan" ;
+        ont:excerpt         "2 on Billboard′s Traditional Classical Album Chart upon its 2008 release." ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "74th" , "Sing.In 2019" .
+        ont:timeExpression  "2" , "2008 release" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Little Mother of Mine\" (1917)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1917" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Waiting\" (poem of Martha Dickinson Bianchi, 1904)" ;
+        ont:person          <http://dbpedia.org/resource/Emily_Dickinson> , <http://dbpedia.org/resource/Martha> , <http://dbpedia.org/resource/Luigi_Bianchi> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1904" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/7/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Burleigh served as a doorman when various famous musicians performed at those musicales, including Venezuelan pianist Teresa Carreño and Italian tenor Italo Campanini." ;
+        ont:person   <http://dbpedia.org/resource/Italo_Campanini> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By the time Burleigh left Erie in January 1892, he was singing with the city's best vocalists at civic events and church gatherings." ;
+        ont:place           <http://dbpedia.org/resource/Lake_Erie> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "January 1892" .
 
 <http://w3id.org/polifonia/pilot/meetups/1150533/16/12>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He sang before King Edward VII in London in 1908, among other prestigious European concerts." ;
         ont:person          <http://dbpedia.org/resource/Edward_VII> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:place           <http://dbpedia.org/resource/London> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
         ont:timeExpression  "in 1908" .
 
-<http://w3id.org/polifonia/pilot/meetups/1150533/16/4>
+<http://w3id.org/polifonia/pilot/meetups/1150533/41/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "\"Ethiopia Saluting the Colors\" (poem of Walt Whitman, 1916)" ;
+        ont:person          <http://dbpedia.org/resource/Walt_Whitman> ;
+        ont:place           <http://dbpedia.org/resource/Ethiopia> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "In 1894" .
+        ont:timeExpression  "1916" .
 
-<http://w3id.org/polifonia/pilot/meetups/1150533/26/3>
+<http://w3id.org/polifonia/pilot/meetups/1150533/34/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Henry_Thacker> , <http://dbpedia.org/resource/Carolyn_Goodman> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "\"Just Awearyin' for You\", w. Frank Lebby Stanton (1894) m. Burleigh, not to be confused with Carrie Jacobs-Bond's more popular 1901 tune to the same lyrics" ;
+        ont:person          <http://dbpedia.org/resource/Frank_Lebby_Stanton> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "2021" , "Number 179" , "167" .
+        ont:timeExpression  "1901 tune" , "1894" .
 
-<http://w3id.org/polifonia/pilot/meetups/1150533/4/5>
+<http://w3id.org/polifonia/pilot/meetups/1150533/40/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"The Young Warrior\" (poem of James Weldon Johnson, 1916)" ;
+        ont:person          <http://dbpedia.org/resource/James_Weldon_Johnson> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1916" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Burleigh published several versions of the Negro spiritual \"Deep River\" in 1916 and 1917, and quickly became known for his arrangements of spirituals for voice and piano." ;
+        ont:place           <http://dbpedia.org/resource/Deep_River_(North_Carolina)> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1917" , "in 1916" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Other arrangements are included in the alternative hymnals, including Lift Every Voice and Sing.In 2019, a committee was formed by Michelle Deal Winfield, State Committeewoman, 74th Assembly District to petition Community Board Six Manhattan for a street co-naming: Harry T. Burleigh Place." ;
+        ont:person          <http://dbpedia.org/resource/Michelle_Obama> ;
+        ont:place           <http://dbpedia.org/resource/Manhattan> , <http://dbpedia.org/resource/Winfield,_Kansas> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "Sing.In 2019" , "74th" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/21/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1914, he was a founding member of the American Society of Composers, Authors, and Publishers (ASCAP), and received a seat on its board of directors in 1941." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "in 1941" , "In 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He graduated in 1896, and later served on the conservatory's faculty." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "in 1896" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From the Southland (1914)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/59/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Downes' mini-album features music by Harry T. Burleigh and Florence Price." ;
+        ont:person   <http://dbpedia.org/resource/Florence_Price> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John McCormack sang several of Burleigh's songs in concert, including \"Little Mother of Mine\" (1917), \"Dear Old Pal of Mine\" (1918), \"Under a Blazing Star\" (1918), and \"In the Great Somewhere\" (1919)." ;
+        ont:person          <http://dbpedia.org/resource/John_W._McCormack> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1917" , "1919" , "1918" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Burleigh is honored with a Feast day on the liturgical calendar of the Episcopal Church (USA) on September 11." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "September 11" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the late 1890s, Burleigh also began to publish his own arrangements of art songs." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1890s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Their first child, Elizabeth Lovey Waters (who would be Burleigh's mother) was born in Lansing, New York, in 1838." ;
         ont:person          <http://dbpedia.org/resource/Elizabeth_I> ;
-        ont:place           "http://dbpedia.org/resource/Pittsburgh" ;
+        ont:place           <http://dbpedia.org/resource/Lansing,_New_York> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "in 1855" .
+        ont:timeExpression  "in 1838" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "No evidence seems to exist that the song existed before 1922, or the melody before the Symphony (1893), although both are disputed." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1893" , "before 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/8/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Several Erie churches and the Jewish synagogue hired him as a soloist, and he also sang as soloist at many community and civic events." ;
+        ont:place    <http://dbpedia.org/resource/Lake_Erie> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Southland Sketches (1916)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1916" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Through the 1920s and 1930s, Burleigh continued to promote especially the spirituals through publications, lectures, and arrangements." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1920s" , "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the late 1890s, Burleigh gained a reputation as a concert soloist, singing art songs and opera selections, as well as African-American folk songs." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1890s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/10/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He obtained the scholarship with the help of Frances MacDowell, the mother of composer Edward MacDowell, and he would eventually play double bass in the Conservatory's orchestra." ;
+        ont:person   <http://dbpedia.org/resource/Edward_MacDowell> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Estimates of Burleigh's original musical output range from 200 to 300 songs." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "300" , "range from 200" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/14/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The following year, Burleigh sang in Dvořák's arrangement of Pennsylvania native Stephen C. Foster's classic Old Folks at Home." ;
+        ont:person   <http://dbpedia.org/resource/David_Foster> , <http://dbpedia.org/resource/Saint_Stephen> ;
+        ont:place    <http://dbpedia.org/resource/Pennsylvania> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Burleigh's art song arrangements of spirituals and sentimental songs were so popular during the late 1910s and 1920s, that almost no vocal recitalist gave a concert in a major city without occasionally singing them." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1910s" , "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1922, another student of Dvořák, William Arms Fisher, wrote the spiritual-like song \"Goin' Home\" based on an English horn melody from the second movement (Largo) of the Symphony." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "In 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/23/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His remains were returned for burial in Erie, Pennsylvania.With the success of Roland Hayes, Marian Anderson, and Paul Robeson, among others, many of whom he had coached, Burleigh's seminal role in establishing African-American soloists on America's recital stages seemed eclipsed." ;
+        ont:person   <http://dbpedia.org/resource/Roland_Hayes> , <http://dbpedia.org/resource/Marian_Anderson> ;
+        ont:place    <http://dbpedia.org/resource/Robeson_County,_North_Carolina> , <http://dbpedia.org/resource/Lake_Erie> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Some parishioners opposed hiring Burleigh at the all-white church, because of his race, at a time when other white New York Episcopal churches were forbidding black people to worship." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The 1919 recording exists, but the latter recordings have never been found." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1919 recording" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During and after his high school years Burleigh became known as one of Erie's most accomplished classical singers." ;
+        ont:place           <http://dbpedia.org/resource/Lake_Erie> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "as one" .
 
 <http://w3id.org/polifonia/pilot/meetups/1150533/16/10>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His singing \"The Palms\" by Jean-Baptiste Faure was a Palm Sunday tradition for 50 years, and New York Mayor La Guardia arranged a radio broadcast from his office in 1944." ;
         ont:person          <http://dbpedia.org/resource/Fiorello_La_Guardia> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
-        ont:timeExpression  "office in 1944" , "tradition for 50" .
+        ont:timeExpression  "tradition for 50" , "office in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Burleigh was accepted, with a scholarship, to the prestigious National Conservatory of Music in New York at the age of 26." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "age of 26" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After his father's death in 1873, his mother remarried in 1875." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "in 1875" , "death in 1873" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They traveled to Ithaca, New York, where two of Waters's half-brothers lived." ;
+        ont:place           <http://dbpedia.org/resource/Ithaca,_New_York> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/23/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Pallbearers included Hall Johnson, Noble Sissle, Eubie Blake, William C. Handy, and Cameron White." ;
+        ont:person   <http://dbpedia.org/resource/Cameron_White> , <http://dbpedia.org/resource/W._C._Handy> , <http://dbpedia.org/resource/Hall_Johnson> , <http://dbpedia.org/resource/Eubie_Blake> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In 1894, he became a soloist for St. George's Episcopal Church in New York City." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "In 1894" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He recorded once in 1919, for a small label run by his friend George Broome, and again in 1944 for St. George's Church." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "in 1919" , "in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Burleigh helped support his family by various odd jobs: lighting gas streetlamps, selling newspapers and working as a printer's devil, as a coachman, and as a steward on Lake Erie steamboats." ;
+        ont:place    <http://dbpedia.org/resource/Lake_Erie> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/26/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On October, 2021, U.S. Representative Carolyn B. Maloney entered the celebration of Henry Thacker \"Harry\" Burleigh into the Congressional Record Extension Remarks: Volume 167, Number 179." ;
+        ont:person          <http://dbpedia.org/resource/Henry_Thacker> , <http://dbpedia.org/resource/Carolyn_Goodman> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "2021" , "167" , "Number 179" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was instrumental in starting its tradition of an annual Spirituals service every May (1924–55)." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1924–55" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Burleigh's father, Henry Thacker Burleigh, Sr., a naval veteran in the Civil War, was the first black juror in Erie County in 1871." ;
+        ont:person          <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:place           <http://dbpedia.org/resource/Lake_Erie> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "in 1871" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The first black composer who was instrumental in developing characteristically American music, Burleigh made black music available to classically trained artists both by introducing them to spirituals and by arranging spirituals in a more classical form." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/12/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"From what he called \"Negro melodies\" and Native American music, Dvořák took up the Pentatonic scale, which appears in some places in his Symphony \"From the New World\" and at the beginning of each movement of the \"American\" String Quartet." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Martínez, A (October 20, 2021)." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "October 20 , 2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His grandfather, Hamilton Waters, was granted manumission from slavery in Somerset County, Maryland, after paying $55 ($50 for him and $5 for his mother) in 1832 and receiving a certificate of freedom in 1835." ;
+        ont:place           <http://dbpedia.org/resource/Maryland> , <http://dbpedia.org/resource/Somerset_County,_New_Jersey> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "5" , "in 1832" , "freedom in 1835" , "50" , "55" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/23/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "More than 2,000 people attended his funeral at St. George's Church." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "than 2,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nine months after arriving in New York City, Burleigh appeared in two Grand Encampment Concerts at the Metropolitan Church in Washington, D.C., as \"the celebrated Western baritone." ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Washington_metropolitan_area> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "in two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/58/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Free scores by Harry Burleigh at the International Music Score Library Project (IMSLP)" ;
+        ont:person   <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Henry Thacker Burleigh was born in Erie, Pennsylvania, in 1866 to Elizabeth Burleigh and Henry Thacker." ;
+        ont:person          <http://dbpedia.org/resource/Harry_Burleigh> , <http://dbpedia.org/resource/Henry_Thacker> , <http://dbpedia.org/resource/Elizabeth_I> ;
+        ont:place           <http://dbpedia.org/resource/Lake_Erie> , <http://dbpedia.org/resource/Pennsylvania> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "in 1866" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/57/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Free scores by Harry Burleigh in the Choral Public Domain Library (ChoralWiki)" ;
+        ont:person   <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/26/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The ceremony was held at South East corner of East Sixteenth Street and Third Avenue in Manhattan on September 12, 2021." ;
+        ont:place           <http://dbpedia.org/resource/16th_Street_NW> , <http://dbpedia.org/resource/Third_Avenue> , <http://dbpedia.org/resource/Manhattan> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "September 12 , 2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/56/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Works by or about Harry Burleigh at Internet Archive" ;
+        ont:person   <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Burleigh also introduced Antonín Dvořák to Black American music, which influenced some of Dvořák's most famous compositions and led him to say that Black music would be the basis of an American classical music." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/20/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He set some poems by Walt Whitman to music and also published music for piano and violin." ;
+        ont:person   <http://dbpedia.org/resource/Walt_Whitman> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/25/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "529 (\"In Christ there is no East or West\")." ;
+        ont:person          <http://dbpedia.org/resource/Jesus> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "529" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/18/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Beginning around 1910, Burleigh also worked editing music for G. Ricordi, an Italian music publisher with offices in New York." ;
+        ont:place           <http://dbpedia.org/resource/Italy> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "around 1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Elizabeth, who was graduated from Avery College in Pittsburgh in 1855, was denied a teaching position in the Erie Public Schools, but taught at the Colored School for many years." ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_I> ;
+        ont:place           <http://dbpedia.org/resource/Pittsburgh> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "in 1855" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/55/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Works by Harry Thacker Burleigh at Project Gutenberg" ;
+        ont:person   <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1946, he retired from this position after 52 years." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "In 1946" , "position after 52" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Lovely Dark and Lonely One\" (poem of Langston Hughes, 1935)" ;
+        ont:person          <http://dbpedia.org/resource/Langston_Hughes> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Henry Thacker (\"Harry\") Burleigh (December 2, 1866 – September 12, 1949) was an American classical composer, arranger, and professional singer known for his baritone voice." ;
+        ont:person          <http://dbpedia.org/resource/Henry_Thacker> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "December 2 , 1866" , "September 12 , 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Five Songs\" (poems of Laurence Hope, 1919)" ;
+        ont:person          <http://dbpedia.org/resource/Violet_Nicolson> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1919" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/23/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He retired in 1946 because of ill health, and his son moved him from Long Island to a retirement home in Stamford, Connecticut, where he died, aged 82, from heart failure on September 12, 1949." ;
+        ont:place           <http://dbpedia.org/resource/Stamford,_Connecticut> , <http://dbpedia.org/resource/Long_Island> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "in 1946" , "September 12 , 1949" , "82" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the end of the summer of 1892, Burleigh gave a performance in the Adirondacks, at North Hudson, New York, as the featured soloist in \"the summer school for Christian workers\"." ;
+        ont:place           <http://dbpedia.org/resource/Hudson_River> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "summer of 1892" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/16/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1900 to 1925, Burleigh was also a member of the synagogue choir at the Temple Emanu-El in New York, the only African-American to sing there." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "From 1900" , "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In the Great Somewhere\" (1919)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1919" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"The Prayer\" (1915)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"H. T. Burleigh (1866–1949)\" (biography), Library of Congress." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1866–1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Under a Blazing Star\" (1918)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1918" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Saracen Songs\" (1914)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/26/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The NYC Council Member Carlina Rivera submitted the application and it was approved." ;
+        ont:person   <http://dbpedia.org/resource/Carlina_Rivera> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of his arrangements in Common Metre is the hymn tune \"McKee\", used with John Oxenham's hymn \"In Christ There Is No East or West\"." ;
+        ont:person          <http://dbpedia.org/resource/William_Arthur_Dunkerley> , <http://dbpedia.org/resource/Jesus> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/25/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Also, works he edited or transposed continue in the 1982 Hymnal, including No." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/51/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  " Media related to Harry Burleigh at Wikimedia Commons" ;
+        ont:person   <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Burleigh> .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Dear Old Pal of Mine\" (1918)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1918" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Jean\" (1914), w. Frank Lebby Stanton m. H. T. Burleigh" ;
+        ont:person          <http://dbpedia.org/resource/Frank_Lebby_Stanton> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/20/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The popularity of Burleigh's settings contributed to an explosion of popularity for the genre during the 1920s." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1150533/18/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "About 1898, he began to compose his own songs  and by the late 1910s, Burleigh was one of America's best-known composers of art songs." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Burleigh> ;
+        ont:timeExpression  "1910s" , "one" , "About 1898" .

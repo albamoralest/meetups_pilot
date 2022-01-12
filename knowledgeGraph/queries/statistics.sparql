@@ -17,6 +17,12 @@ SELECT ?key ?value WHERE
    } UNION 
    {
    	SELECT ?key (COUNT(*) AS ?value) {
+		graph ?g {?x ont:excerpt [] } .
+		BIND ("Excerpts" as ?key ) 
+	} group by ?key
+   } UNION 
+   {
+   	SELECT ?key (COUNT(*) AS ?value) {
 		graph ?g {?x ont:person [] } .
 		BIND ("Persons mentioned" as ?key ) 
 	} group by ?key

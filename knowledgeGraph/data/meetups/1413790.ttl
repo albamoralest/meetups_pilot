@@ -6,16 +6,310 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1413790/4/1>
+<http://w3id.org/polifonia/pilot/meetups/1413790/7/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Eve> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" , "http://dbpedia.org/resource/Auditorium_Theatre" ;
+        ont:excerpt         "In 2008, the Internal Revenue Service said that Taylor owed $400,000 in unpaid taxes, penalties and interest, for the years 1998, 2000 and 2001." ;
         ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
-        ont:timeExpression  "In 2009" .
+        ont:timeExpression  "In 2008" , "2001" , "1998" , "2000" , "400,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She left Tennessee for Chicago in 1952 with her husband, Robert \"Pops\" Taylor, a truck driver." ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "in 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Old School, 2007 (Alligator)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In her later years, she performed over 70 concerts a year and resided just south of Chicago, in Country Club Hills, Illinois." ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Country_Club_Hills,_Illinois> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "over 70" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From the Heart of a Woman, 1981 (Alligator)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Earthshaker, 1978 (Alligator)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Royal Blue, 2000 (Alligator)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blues Music Award (formerly the W. C. Handy Award), 32 nominations with 29 wins in the following categories:Entertainer of the Year (1985)" ;
+        ont:person          <http://dbpedia.org/resource/W._C._Handy> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1985" , "32" , "with 29" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Taylor influenced Bonnie Raitt, Shemekia Copeland, Janis Joplin, Shannon Curfman, and Susan Tedeschi." ;
+        ont:person   <http://dbpedia.org/resource/Shemekia_Copeland> , <http://dbpedia.org/resource/Susan_Tedeschi> , <http://dbpedia.org/resource/Bonnie_Raitt> , <http://dbpedia.org/resource/Janis_Joplin> ;
+        ont:subject  <http://dbpedia.org/resource/Koko_Taylor> .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sometimes called \"The Queen of the Blues\", she was known for her rough, powerful vocals." ;
+        ont:person   <http://dbpedia.org/resource/Elizabeth_II> ;
+        ont:subject  <http://dbpedia.org/resource/Koko_Taylor> .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "NEA National Heritage Fellowship, 2004" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Force of Nature, 1993 (Alligator)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2003, she appeared as a guest with Taj Mahal in an episode of the television series Arthur." ;
+        ont:place           <http://dbpedia.org/resource/Taj_Mahal> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "In 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Southside Baby, 1975 (Black & Blue)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The record became a hit, reaching number four on the R&B chart and number 58 on the pop chart in 1966, and selling a million copies." ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "four" , "million" , "58" , "chart in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jump for Joy, 1992 (Alligator)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blues Foundation Lifetime Achievement Award, 1999" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Taylor became better known by touring in the United States in the late 1960s and early 1970s, and she became accessible to a wider record-buying public when she signed a recording contract with Alligator Records in 1975." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1970s" , "in 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I Got What It Takes, 1975 (Alligator Records)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vocalist of the Year (1985)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Born on a farm near Memphis, Tennessee, Taylor was the daughter of a sharecropper." ;
+        ont:place    <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject  <http://dbpedia.org/resource/Koko_Taylor> .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wang Dang Doodle, 1991 (Huub Records)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blues Hall of Fame, inducted 1997" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "South Side Lady, 1973 (Black and Blue Records)" ;
+        ont:place           <http://dbpedia.org/resource/Glasgow> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Traditional Blues Female Artist (1992, 1993, 1999–2005, 2008, 2009)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "2008" , "1999–2005" , "2009" , "1992" , "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Howlin' Wolf Award, 1996" ;
+        ont:person          <http://dbpedia.org/resource/Howlin'_Wolf> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live from Chicago: An Audience with the Queen, 1987 (Alligator)" ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1987" , "Live" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Basic Soul, 1972 (Chess)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Traditional Blues Album (2008)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Queen of the Blues, 1985 (Alligator)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1985" .
 
 <http://w3id.org/polifonia/pilot/meetups/1413790/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Koko Taylor (born Cora Anna Walton, September 28, 1928 – June 3, 2009) was an American singer whose style encompassed Chicago blues, electric blues, rhythm and blues and soul blues." ;
         ont:person          <http://dbpedia.org/resource/Tom_Cora> , <http://dbpedia.org/resource/Anna_Walton> , <http://dbpedia.org/resource/Koko_Taylor> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
-        ont:timeExpression  "September 28 , 1928" , "June 3 , 2009" .
+        ont:timeExpression  "June 3 , 2009" , "September 28 , 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Koko Taylor, 1969 (MCA/Chess Records)" ;
+        ont:person          <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Song of the Year (2008)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Love You Like a Woman, November 30, 1968 (Charly Records)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "November 30 , 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Female Artist (1981, 1995)" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1981" , "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1964 Dixon brought Taylor to Checker Records, a subsidiary label of Chess Records, for which she recorded \"Wang Dang Doodle\", a song written by Dixon and recorded by Howlin' Wolf five years earlier." ;
+        ont:person          <http://dbpedia.org/resource/Howlin'_Wolf> , <http://dbpedia.org/resource/Willie_Dixon> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "Wolf five" , "In 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "7th Annual Independent Music Awards for Best Blues Album, 2008" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "2008" , "7th" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1963 she had a single on USA Records, and in 1964 a cut on a Chicago blues collection on Spivey Records, called Chicago Blues." ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "in 1964" , "In 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She opened a blues club on Division Street in Chicago in 1994, which relocated to Wabash Avenue, in Chicago's South Loop, in 2000 (the club is now closed)." ;
+        ont:place           <http://dbpedia.org/resource/Division_Street> , <http://dbpedia.org/resource/Wabash_River> , <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Chicago_Loop> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "in 2000" , "in 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She suffered complications from surgery for gastrointestinal bleeding on May 19 and died on June 3.On June 25, 2019, The New York Times Magazine listed Koko Taylor among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire." ;
+        ont:person          <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "2019" , "3.On June 25" , "2008" , "May 19" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was spotted by Willie Dixon in 1962, and this led to more opportunities for performing and her first recordings." ;
+        ont:person          <http://dbpedia.org/resource/Willie_Dixon> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1990s, she appeared in the films Blues Brothers 2000 and Wild at Heart." ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "2000" , "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In those years combined, her adjusted gross income was $949,000.Taylor's final performance was at the Blues Music Awards, on May 7, 2009." ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "949,000.Taylor" , "May 7 , 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the late 1950s, she began singing in blues clubs in Chicago." ;
+        ont:place    <http://dbpedia.org/resource/Chicago> ;
+        ont:subject  <http://dbpedia.org/resource/Koko_Taylor> .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Grammy Award for Best Traditional Blues Album, 1985" ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2009, she performed with Umphrey's McGee at the band's New Year's Eve concert at the Auditorium Theater, in Chicago." ;
+        ont:person          <http://dbpedia.org/resource/Eve> ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Auditorium_Theatre> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "In 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She recorded several versions of the song over the years, including a live rendition at the 1967 American Folk Blues Festival, with the harmonica player Little Walter and the guitarist Hound Dog Taylor." ;
+        ont:person          <http://dbpedia.org/resource/Little_Walter> , <http://dbpedia.org/resource/Hound_Dog_Taylor> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1413790/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She recorded nine albums for Alligator, eight of which were nominated for Grammy awards, and came to dominate ranks of female blues singers, winning twenty-nine W. C. Handy/Blues Music Awards.She survived a near-fatal car crash in 1989." ;
+        ont:person          <http://dbpedia.org/resource/W._C._Handy> ;
+        ont:subject         <http://dbpedia.org/resource/Koko_Taylor> ;
+        ont:timeExpression  "eight" , "crash in 1989" , "nine" .

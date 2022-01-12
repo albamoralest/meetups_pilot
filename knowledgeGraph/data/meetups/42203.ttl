@@ -6,79 +6,888 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/42203/2/6>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Eddie_Duran> ;
-        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
-        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
-        ont:timeExpression  "August 1955" , "1954" .
+<http://w3id.org/polifonia/pilot/meetups/42203/50/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vince Guaraldi on LP and CD (complete discography)" ;
+        ont:person   <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
 
-<http://w3id.org/polifonia/pilot/meetups/42203/20/3>
+<http://w3id.org/polifonia/pilot/meetups/42203/2/5>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/William_H._Seward> , <http://dbpedia.org/resource/Eddie_Duran> , <http://dbpedia.org/resource/Bola_Sete> ;
-        ont:place           "http://dbpedia.org/resource/Kataoka_Station" ;
-        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
-        ont:timeExpression  "1970s" , "1950s" , "1960s" .
-
-<http://w3id.org/polifonia/pilot/meetups/42203/44/0>
-        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The songs—\"Chopsticks Mambo,\" \"Vibra-Tharpe,\" \"Three Little Words\" and \"Lullaby of the Leaves\"—were released in December 1953 on the 10-inch LP record, The Cal Tjader Trio." ;
         ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
-        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
         ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
-        ont:timeExpression  "2012" , "Club Macumba San Francisco 1956" .
+        ont:timeExpression  "December 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/40>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"\"I was in New York, and Vince Lateano told me,\" said drummer Mike Clark in 2010." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Stephen_Clark> , <http://dbpedia.org/resource/Vince_Lateano> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "in 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2008 Live at the Monterey Jazz Festival 1958–1980 (Guaraldi performs on four tracks in 1958 with Cal Tjader's group featuring Santamaria, Bobo, McKibbon, and guest clarinetist Buddy DeFranco at the festival's inaugural year)" ;
+        ont:person          <http://dbpedia.org/resource/Buddy_DeFranco> , <http://dbpedia.org/resource/Mongo_Santamaría> , <http://dbpedia.org/resource/Bobo_Craxi> , <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "Monterey Jazz Festival 1958–1980" , "on four" , "2008" , "in 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1958 Latin Concert (Cal Tjader Quintet – all-star group with Mongo Santamaría, Willie Bobo and Al McKibbon)" ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> , <http://dbpedia.org/resource/Al_McKibbon> , <http://dbpedia.org/resource/Willie_Bobo> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1957 Jazz at the Blackhawk (Cal Tjader Quartet)" ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/53>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Guaraldi is buried at Holy Cross Cemetery in Colma, California." ;
+        ont:place    <http://dbpedia.org/resource/Colma,_California> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In 2003, Guaraldi's son David began working to secure the necessary licenses to distribute some of his father's previously unreleased material." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "In 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/38>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was one of the saddest days of my life.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1974 Jimmy Witherspoon & Ben Webster — Previously Unissued Recordings (1960s session from Verve Records archive; the Black Orpheus incarnation of Guaraldi's trio supports the two leaders)" ;
+        ont:person          <http://dbpedia.org/resource/Ben_Webster> , <http://dbpedia.org/resource/Jimmy_Witherspoon> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1960s session" , "two" , "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1958 Cal Tjader-Stan Getz Sextet (all-star studio session that includes a long version of Guaraldi's piece \"Ginza\")" ;
+        ont:place           <http://dbpedia.org/resource/Ginza> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1956 Introducing Gus Mancuso (Cal Tjader)" ;
+        ont:person          <http://dbpedia.org/resource/Gus_Mancuso> , <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/13>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "By the mid-'70s, he had become a respected veteran in what remained of the declining Northern California jazz club scene." ;
+        ont:place    <http://dbpedia.org/resource/California> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She initially filed for divorce on April 21, 1966, citing \"extreme cruelty,\" which was eventually withdrawn." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "April 21 , 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"The following morning, on February 6, Guaraldi awoke with a bad cold and remained in bed throughout the day." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "February 6" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The performance was recorded on May 21, 1965, and released that September as At Grace Cathedral.Guaraldi's relationship with Fantasy Records began to sour by 1965 after it was learned he was receiving only five percent of every record sale while Fantasy retained the remaining 95 percent." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "95 percent" , "by 1965" , "May 21 , 1965" , "five percent" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1960 Little Band Big Jazz (The Conte Candoli All Stars)" ;
+        ont:person          <http://dbpedia.org/resource/Conte_Candoli> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1958 Mas Ritmo Caliente (Cal Tjader)" ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:place           <http://dbpedia.org/resource/Caliente_station> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1953 The Cal Tjader Trio (Guaraldi's first recorded session)" ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Guaraldi spent most of summer 1966 composing cues for the Halloween-themed special, strongly encouraging Mendelson to consider making \"Linus and Lucy,\" which had been featured prominently in the Christmas special, the unofficial Peanuts theme." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1966 composing" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/8/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Both the seasonal television special and accompanying soundtrack were very successful.Derrick Bang, Guaraldi historian and author of Vince Guaraldi at the Piano, commented that, \"the importance of Jazz Impressions of A Boy Named Charlie Brown and its successor, the score to the Christmas special, cannot be overstated; rarely has an entertainment icon been so quickly—and firmly—welded to a musical composition...indeed, to an entire body of work from one individual." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "one individual" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "22—an unusual feat for a jazz instrumental." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "22—an" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/20/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Other drummers included Lee Charlton, John Rae, Al Coster, Eliot Zigmund, Glenn Cronkhite, Vince Lateano, Mark Rosengarden, and Jim Zimmerman.The original Vince Guaraldi Trio consisted of Dean Reilly (bass) and Eddie Duran (guitar), appearing on Guaraldi's first two albums." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> , <http://dbpedia.org/resource/Eliot_Zigmund> , <http://dbpedia.org/resource/Eddie_Duran> , <http://dbpedia.org/resource/Vince_Lateano> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1959 Latinsville!" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/22>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In his review of The Definitive Vince Guaraldi (2009), All About Jazz critic David Rickert credited Guaraldi for introducing many to the world of jazz music \"before we even knew what it was." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The second band was formed in the spring of 1958 and included Al McKibbon (bass), Mongo Santamaría (congas and bongos) and Willie Bobo (drums and timbales)." ;
+        ont:person          <http://dbpedia.org/resource/Willie_Bobo> , <http://dbpedia.org/resource/Al_McKibbon> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "spring of 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1957 Jazz Erotica (Richie Kamuca)" ;
+        ont:person          <http://dbpedia.org/resource/Richie_Kamuca> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1957 Frank Rosolino Quintet" ;
+        ont:person          <http://dbpedia.org/resource/Frank_Rosolino> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A book-length biography of Guaraldi was published in March 2012." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "March 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/18>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"But he was very provincial; he loved San Francisco, and he liked hanging out and playing at the local clubs." ;
+        ont:place    <http://dbpedia.org/resource/San_Francisco> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1957 Conte Candoli Quartet" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His first official recording was made in November 1951 with Cal Tjader's Mambo Trio." ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "November 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"That evening, after concluding the first set at Butterfield's Nightclub in Menlo Park, California, with his interpretation of the Beatles' \"Eleanor Rigby\", Guaraldi and Zimmerman returned to the room in which they were staying that weekend at the adjacent Red Cottage Inn, to relax before the next set." ;
+        ont:person   <http://dbpedia.org/resource/William_Butterfield> ;
+        ont:place    <http://dbpedia.org/resource/Menlo_Park,_California> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/4/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A live performance recorded at the El Matador jazz club in Spring 1965 was released in October 1966 on Live at El Matador (Guaraldi's final release on Fantasy)." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1965" , "October 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Warner signed Guaraldi to a three-record deal in early 1968, insisting that his inaugural release consist of Peanuts material." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/5/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Their lawsuit, filed in December 2011, claimed a private accountant uncovered a discrepancy of at least $2 million for the years 2005–2010 alone." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "2" , "December 2011" , "million" , "2005–2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/52>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His mother Carmella Guaraldi added, \"When it happened down at Butterfield's, when the end finally came, he went the way he would have wanted to go, with the piano." ;
+        ont:person   <http://dbpedia.org/resource/William_Butterfield> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/10/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lang's flute counterpoint was featured throughout the new version of \"Linus and Lucy\", resulting in the song ultimately becoming the Peanuts franchise signature melody.Guaraldi went on to compose scores for twelve additional Peanuts animated television specials, as well as the feature film A Boy Named Charlie Brown and the documentary Charlie Brown and Charles Schulz (both 1969)." ;
+        ont:person          <http://dbpedia.org/resource/Charles_M._Schulz> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1957 Cal Tjader (Cal Tjader Quartet)" ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Guaraldi married high school girlfriend Shirley Moskowitz on February 1, 1953." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "February 1 , 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "You're a Good Sport, Charlie Brown (1975), Guaraldi's penultimate music score, fused his fusion jazz style with the funk, disco and pop music that was popular at the time coupled with the use of the ARP String Ensemble synthesizer.Guaraldi biographer and historian Derrick Bang put the musician's later years in perspective, saying, \"As jazz clubs were closing in the 1960s, with the advent of rock 'n' roll—a development that put many jazz musicians out of work—Guaraldi embraced the enemy, adjusting his style and approach to include electric keyboards." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/10/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was at this point that Schulz, Mendelson and animator Bill Melendez focused on creating another holiday blockbuster in the vein of A Charlie Brown Christmas, eventually titled It's the Great Pumpkin, Charlie Brown." ;
+        ont:person   <http://dbpedia.org/resource/Bill_Melendez> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/8/13>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The soundtrack album was recorded by the Vince Guaraldi Trio, this time featuring drummer Jerry Granelli and bassist Fred Marshall, and contained the songs \"Christmas Time Is Here\", \"Skating\" and \"Linus and Lucy\"." ;
+        ont:person   <http://dbpedia.org/resource/Vince_Guaraldi> , <http://dbpedia.org/resource/Jerry_Granelli> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/20/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mike Clark became Guaraldi's regular drummer for live performances during the 1970s." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Stephen_Clark> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The first band played mainly straight jazz and included Al Torre (drums), Eugene Wright (bass) and Luis Kant (congas and bongos)." ;
+        ont:person   <http://dbpedia.org/resource/Eugene_Wright> , <http://dbpedia.org/resource/Immanuel_Kant> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A gentle, likeable tune, it stood out from everything else on the airwaves and became a hit, spending 19 weeks on the Top 100 chart and peaking at No." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "100 chart" , "19" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/21>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Gleason commented, \"let's just agree that Vince Guaraldi re-invented the sound of the modern American Christmas." ;
+        ont:person   <http://dbpedia.org/resource/Vince_Guaraldi> , <http://dbpedia.org/resource/Jackie_Gleason> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fantasy was impressed enough with Guaraldi to offer him an exclusive contract in April 1956, yielding his debut album, Vince Guaraldi Trio, which featured Duran and Reilly sans drummer." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "April 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Guaraldi died suddenly on February 6, 1976, at age 47 after suffering a massive heart attack." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "47" , "February 6 , 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/16>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "McCain commented, \"Vince headed for the bathroom but never made it." ;
+        ont:person   <http://dbpedia.org/resource/John_McCain> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/29>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In his 2012 biography, Vince Guaraldi at the Piano, author Derrick Bang wrote, \"as time passed, Guaraldi's friends, family and colleagues would begin to wonder if a stomach aneurysm—or something else—had played a role in that heart attack,\" adding that Guaraldi's \"complaint of a painful stomach ache clearly hadn't been taken seriously enough." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "2012 biography" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/19>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The documentary was co-produced by Toby Gleason (son of Ralph J. Gleason) and filmmaker Andrew Thomas." ;
+        ont:person   <http://dbpedia.org/resource/Andy_Thomas> , <http://dbpedia.org/resource/Jackie_Gleason> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He graduated from Lincoln High School, briefly attended San Francisco State College, and served in the United States Army as a cook in the Korean War.Guaraldi's first recording was an unreleased demo made with Tom Hart in mid-1951." ;
+        ont:person   <http://dbpedia.org/resource/Tom_Hart_(cartoonist)> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/4/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "An appearance on Ralph Gleason's television series Jazz Casual drew greater attention to the Guaraldi/Sete collaboration (the episode was posthumously released in CD in 2001), followed by the January 1965 release of From All Sides." ;
+        ont:person          <http://dbpedia.org/resource/Ralph_J._Gleason> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "January 1965" , "CD in 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "35 years after Guaraldi's death, Fantasy Records and its parent company Concord Music were sued by Guaraldi's children for engaging in \"a system\" of \"serving false and deceptive statements while underreporting units sold and underpaying royalties.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "35" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Guaraldi's final three albums released during his lifetime were recorded for Warner Bros.-Seven Arts after spending nearly two years trying to extricate himself from Fantasy Records." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "three" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/23>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Pianist George DeQuattro recalled years later, \"I saw him about a week before he passed away." ;
+        ont:person   <http://dbpedia.org/resource/George_V> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/10/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Guaraldi recorded a fresh version of \"Linus and Lucy\" for the opening sequence as a sextet, featuring Budwig and Bailey, as well as trumpeter Emmanuel Klein, guitarist John Gray, and flautist Ronnie Lang." ;
+        ont:person   <http://dbpedia.org/resource/Ronnie_Lang> , <http://dbpedia.org/resource/Mannie_Klein> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Posthumous releases Oaxaca (recorded 1970–71), Live on the Air (recorded February 1974), and North Beach feature both studio and live performances recorded during this period of transition.All Peanuts soundtracks scored after Play It Again, Charlie Brown (1971) feature Guaraldi favoring electric keyboards over traditional piano as well." ;
+        ont:place           <http://dbpedia.org/resource/Oaxaca> , <http://dbpedia.org/resource/North_Beach,_San_Francisco> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1971" , "1970–71" , "February 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/4/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When asked by San Francisco Chronicle jazz critic Ralph J. Gleason if he felt like he sold out with the song, Guaraldi responded, \"I feel I bought in.\"" ;
+        ont:person   <http://dbpedia.org/resource/Jackie_Gleason> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/49>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I mean, when skateboards first came out, he was the first kid on his block to get one, only as a kid he happened to be about 30." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "30" , "one" .
 
 <http://w3id.org/polifonia/pilot/meetups/42203/5/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This experimentation may have led to the loss of Fred Marshall, who left the group in 1964 citing \"personal differences\" after Guaraldi purportedly threw a cup of coffee at Marshall during the 17th Berkeley Jazz Festival.Shortly after this time, Guaraldi was invited to compose a \"jazz mass\" with the Eucharist chorus of San Francisco's Grace Cathedral." ;
         ont:person          <http://dbpedia.org/resource/George_Berkeley> ;
-        ont:place           "http://dbpedia.org/resource/San_Francisco" , "http://dbpedia.org/resource/Grace_Cathedral,_San_Francisco" ;
+        ont:place           <http://dbpedia.org/resource/San_Francisco> , <http://dbpedia.org/resource/Grace_Cathedral,_San_Francisco> ;
         ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
-        ont:timeExpression  "17th" , "group in 1964" .
+        ont:timeExpression  "group in 1964" , "17th" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died of a sudden heart attack in February 1976 at age 47, moments after concluding a nightclub performance in Menlo Park, California." ;
+        ont:place           <http://dbpedia.org/resource/Menlo_Park,_California> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "February 1976" , "47" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/8/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Reflecting on the song in 2008, Mendelson said, \"it just blew me away." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "song in 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "All involved with A Charlie Brown Christmas initially regarded the stunning success of the project as something of a one-time fluke, but the second official Peanuts television special—Charlie Brown's All Stars!—was televised in June 1966 to similarly high ratings and acclaim." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "June 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/8/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Although the documentary was ultimately shelved due to Mendelson's inability to secure sponsorship, Schulz and Mendelson retained Guaraldi for the upcoming Peanuts Christmas special, A Charlie Brown Christmas (1965)." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/20/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Starting in 1961, Colin Bailey filled the role, followed by Jerry Granelli." ;
+        ont:person          <http://dbpedia.org/resource/Jerry_Granelli> , <http://dbpedia.org/resource/Colin_Bailey_(drummer)> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "in 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the time, Guaraldi was subsequently appearing with Woody Herman's Third Herd, delivering energetic performances on a regular basis−a sharp contrast from the quiet recordings featured on his debut release.Guaraldi then reunited with Tjader in August 1956 and was an integral part of two bands that the vibraphonist assembled." ;
+        ont:person          <http://dbpedia.org/resource/Woody_Herman> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "part of two" , "August 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/20>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Anatomy of Vince Guaraldi was the recipient of five \"Best Documentary\" awards, and was a special presentation at the Library of Congress and Monterey Jazz Festival." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "recipient of five" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The sessions were eventually released by Fantasy Records in March 1956 on Modern Music from San Francisco." ;
+        ont:place           <http://dbpedia.org/resource/San_Francisco> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "March 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Mendelson then contacted Ralph J. Gleason, who put him in touch with Guaraldi." ;
+        ont:person   <http://dbpedia.org/resource/Jackie_Gleason> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/18>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The documentary highlighted newly discovered and restored footage of Guaraldi's appearances and recording sessions and featured new performances and insights from Winston, Dave Brubeck, Dick Gregory, Jon Hendricks, Leonard Maltin, Paul Krassner and surviving Guaraldi sidemen Eddie Duran, Dean Reilly, and Jerry Granelli." ;
+        ont:person   <http://dbpedia.org/resource/Leonard_Maltin> , <http://dbpedia.org/resource/Dick_Gregory> , <http://dbpedia.org/resource/Jon_Hendricks> , <http://dbpedia.org/resource/Paul_Krassner> , <http://dbpedia.org/resource/Eddie_Duran> , <http://dbpedia.org/resource/Dave_Brubeck> , <http://dbpedia.org/resource/Jerry_Granelli> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/16/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Guaraldi also had a long-term affair with Gretchen Katamay, with whom he appeared on the cover of his 1964 album, The Latin Side of Vince Guaraldi." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1964 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/16>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The monumental success garnered from his Peanuts work resulted in lucrative offers coming in from all over the U.S., all of which he declined." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Growing up, Guaraldi was influenced by both of his maternal uncles, Joe and Maurice \"Muzzy\" Marcellino, both of whom headed jazz big bands in San Francisco for many years." ;
+        ont:place    <http://dbpedia.org/resource/San_Francisco> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "If people hear just one or two bass notes of the intro to 'Linus and Lucy', they cheer." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "'Linus" , "one" , "two bass" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "And those three bags are all his.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "For the album's orchestrations, Guaraldi turned to Jack Weeks, son of bandleader Anson Weeks, who had previously worked with Guaraldi peers Cal Tjader and Dave Brubeck." ;
+        ont:person   <http://dbpedia.org/resource/Dave_Brubeck> , <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His 1962 composition \"Cast Your Fate to the Wind\" became a radio hit and won a Grammy Award in 1963 for Best Original Jazz Composition." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "in 1963" , "1962 composition" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/8/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"The documentary soundtrack, entitled Jazz Impressions of A Boy Named Charlie Brown, was recorded by Guaraldi's current trio (with bassist Monty Budwig and drummer Colin Bailey) in October 1964 and released in December of that year." ;
+        ont:person          <http://dbpedia.org/resource/Colin_Bailey_(drummer)> , <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "October 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/20/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the 1970s, Guaraldi himself performed guitar when necessary but otherwise did not retain a sideman to fill the position.Guaraldi's first two releases—Vince Guaraldi Trio (1956) and A Flower Is a Lovesome Thing (1958)—did not feature a drummer." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1958" , "1956" , "1970s" , "two releases—Vince" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He released \"Cast Your Fate to the Wind\" on the album Waiting for Spring in 1989.New Age pianist George Winston released a Guaraldi tribute album in 1996 titled Linus and Lucy: The Music of Vince Guaraldi." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "Spring in 1989.New" , "album in 1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He might have remained a well-respected but minor jazz figure had he not written an original number to fill out his covers of Antonio Carlos Jobim/Luis Bonfá tunes on his 1962 album, Jazz Impressions of Black Orpheus, inspired by the French/Brazilian film Black Orpheus." ;
+        ont:person          <http://dbpedia.org/resource/Antônio_Carlos_Jobim> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1962 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Of the tracks recorded, two of them (\"Ginza\" and \"Calling Dr. Funk\" the former recorded as part of the Ron Crotty Trio) were original compositions." ;
+        ont:person          <http://dbpedia.org/resource/Ron_Crotty> ;
+        ont:place           <http://dbpedia.org/resource/Ginza> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At Warner's insistence, arranger Shorty Rogers was recruited to produce Guaraldi's final album, Alma-Ville." ;
+        ont:person   <http://dbpedia.org/resource/Shorty_Rogers> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
 
 <http://w3id.org/polifonia/pilot/meetups/42203/8/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1963, while searching for music to accompany a planned Peanuts documentary entitled A Boy Named Charlie Brown, television producer Lee Mendelson heard \"Cast Your Fate to the Wind\" on the radio while driving across the Golden Gate Bridge." ;
         ont:person          <http://dbpedia.org/resource/Lee_Mendelson> ;
-        ont:place           "http://dbpedia.org/resource/Golden_Gate_Bridge" ;
+        ont:place           <http://dbpedia.org/resource/Golden_Gate_Bridge> ;
         ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
         ont:timeExpression  "In 1963" .
 
 <http://w3id.org/polifonia/pilot/meetups/42203/18/17>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Other releases include Oaxaca (2004), North Beach (2006), Vince Guaraldi and the Lost Cues from the Charlie Brown Television Specials, Volumes 1 (2007) and 2 (2008), Live on the Air (2008) and An Afternoon with the Vince Guaraldi Quartet (2011).In 2010, a two-hour documentary entitled The Anatomy of Vince Guaraldi was screened at a variety of jazz and film festivals." ;
         ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
-        ont:place           "http://dbpedia.org/resource/North_Beach,_San_Francisco" , "http://dbpedia.org/resource/Oaxaca" ;
+        ont:place           <http://dbpedia.org/resource/North_Beach,_San_Francisco> , <http://dbpedia.org/resource/Oaxaca> ;
         ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
         ont:timeExpression  "2006" , "2" , "2004" , "Volumes 1" , "2011" , "2010" , "2008" , "2007" .
 
-<http://w3id.org/polifonia/pilot/meetups/42203/14/40>
+<http://w3id.org/polifonia/pilot/meetups/42203/16/3>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Michael_Stephen_Clark> , <http://dbpedia.org/resource/Vince_Lateano> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "The union produced two children: David Anthony Guaraldi (b. August 11, 1955) and Dia Lisa (b. February 16, 1960)." ;
+        ont:person          <http://dbpedia.org/resource/David_W._Anthony> ;
         ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
-        ont:timeExpression  "in 2010" .
+        ont:timeExpression  "two" , "August 11 , 1955" , "February 16 , 1960" .
 
-<http://w3id.org/polifonia/pilot/meetups/42203/0/0>
+<http://w3id.org/polifonia/pilot/meetups/42203/2/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Vincent_of_Saragossa> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "His last name changed to \"Guaraldi\" after his mother, Carmella (née Marcellino; 1908–1999), divorced his biological father (whose last name was Dellaglio) and married Tony Guaraldi, who adopted the boy." ;
         ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
-        ont:timeExpression  "February 6 , 1976" , "July 17 , 1928" .
+        ont:timeExpression  "1908–1999" .
 
-<http://w3id.org/polifonia/pilot/meetups/42203/2/7>
+<http://w3id.org/polifonia/pilot/meetups/42203/20/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "This incarnation was featured on more albums than any other trio, including Vince Guaraldi, Bola Sete and Friends, Jazz Casual: Paul Winter/Bola Sete and Vince Guaraldi, The Latin Side of Vince Guaraldi, From All Sides and A Charlie Brown Christmas." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Winter> , <http://dbpedia.org/resource/Vince_Guaraldi> , <http://dbpedia.org/resource/Bola_Sete> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/4/13>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Guaraldi then recorded an album called Vince Guaraldi, Bola Sete and Friends with guitarist Bola Sete, Fred Marshall (bass) and Jerry Granelli (drums)." ;
+        ont:person   <http://dbpedia.org/resource/Vince_Guaraldi> , <http://dbpedia.org/resource/Jerry_Granelli> , <http://dbpedia.org/resource/Bola_Sete> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/5/6>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Ron_Crotty> ;
-        ont:place           "http://dbpedia.org/resource/Ginza" ;
+        ont:excerpt         "Fantasy executive Saul Zaentz became president in 1967, eventually buying the company from original owners Max and Soul Weiss in December of that year." ;
+        ont:person          <http://dbpedia.org/resource/Saul_Zaentz> ;
         ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
-        ont:timeExpression  "two" .
+        ont:timeExpression  "president in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/21>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Guaraldi was rushed to Stanford Hospital where he was pronounced dead on arrival at 11:07 P.M." ;
+        ont:place           <http://dbpedia.org/resource/Stanford_University_Medical_Center> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "arrival at 11:07" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A third volume, entitled Count the Ways: The Music of Vince Guaraldi, Volume 3, will be released in 2021.Mendelson reflected on Guaraldi's contribution to the Peanuts franchise when Winston released his two tribute albums, saying \"Several generations have now grown up with Vince Guaraldi's music." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "two tribute" , "in 2021.Mendelson" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== Compositions for Charles Schulz's Peanuts ==" ;
+        ont:person   <http://dbpedia.org/resource/Charles_M._Schulz> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had three bags: the Latin, the Peanuts, and the impressionistic 'Cast Your Fate to the Wind' stuff." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/24>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His originals were some of the best jazz to come from the West Coast scene and a tribute to what can happen when a great muse hits a gifted composer.\"" ;
+        ont:place    <http://dbpedia.org/resource/West_Coast_of_the_United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The album, released in April 1958, did not perform well, and Fantasy did not retain Guaraldi." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "April 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Guaraldi decided to experiment with combining Latin jazz and orchestral instrumentation on his next release, The Latin Side of Vince Guaraldi (1964)." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He is also known for his performances on piano as a member of Cal Tjader's 1950s ensembles and for his own solo career." ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/49/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vince Guaraldi at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1985, Benoit recorded a cover of Guaraldi's \"Linus and Lucy\" for an album called This Side Up, which enjoyed considerable radio airplay and helped launch the smooth jazz genre." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Benoit> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "In 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/20/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the 1970s, Guaraldi performed with Koji Kataoka and primarily Seward McCain.Guitarist Eddie Duran served steadily throughout the 1950s and 1960s, save for mid-1963–65 when Guaraldi teamed up with guitarist Bola Sete as a double act." ;
+        ont:person          <http://dbpedia.org/resource/William_H._Seward> , <http://dbpedia.org/resource/Bola_Sete> , <http://dbpedia.org/resource/Eddie_Duran> ;
+        ont:place           <http://dbpedia.org/resource/Kataoka_Station> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1970s" , "1950s" , "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Guaraldi left the group early in 1959 to pursue his own projects full-time." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "in 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By summer 1954, Guaraldi had formed his first trio, with Eddie Duran (guitar) and Dean Reilly (double bass), and regularly performing in the house band at the hungry i jazz club in San Francisco, backing the singer Faith Winthrop.Guaraldi's first recorded debut as a group leader occurred in August 1955 during a live session held at the Blackhawk." ;
+        ont:person          <http://dbpedia.org/resource/Eddie_Duran> ;
+        ont:place           <http://dbpedia.org/resource/San_Francisco> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "August 1955" , "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Guaraldi responded with new renditions of eight of his most popular scores from those programs on his first release, Oh Good Grief!.Guaraldi was then given complete artistic control over his sophomore self-produced Warner effort, The Eclectic Vince Guaraldi, resulting in an unfocused and overindulgent album that was not well received by both critics and consumers." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "of eight" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The first release, The Charlie Brown Suite & Other Favorites, featured an archived 1969 live performance of the seven-part \"Charlie Brown Suite\"." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/54/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vince Guaraldi at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/10/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"I have always felt that one of the key elements that made A Charlie Brown Christmas was the music,\" said Mendelson in 2010." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "in 2010" , "that one" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/39>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Peanuts animator Bill Melendez added, \"He was a real good guy and we miss him." ;
+        ont:person   <http://dbpedia.org/resource/Bill_Melendez> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Moskowitz filed a second time in June 1968, which took effect on December 8, 1970." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "June 1968" , "December 8 , 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/14>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"The amount of wealth Guaraldi accumulated from his perpetual Peanuts scoring opportunities plus royalties from previous work allowed him to live comfortably in Mill Valley, California." ;
+        ont:place    <http://dbpedia.org/resource/Mill_Valley,_California> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Guaraldi was born in San Francisco's North Beach area, a place that became very important to his blossoming musical career." ;
+        ont:place    <http://dbpedia.org/resource/North_Beach,_San_Francisco> , <http://dbpedia.org/resource/San_Francisco> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/20/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The second of two classic trios featured Fred Marshall (bass) and Jerry Granelli (drums)." ;
+        ont:person          <http://dbpedia.org/resource/Jerry_Granelli> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "of two" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "March 2015 radio interview (KDRT program \"Davisville\") with David Willat, who as a child sang on A Charlie Brown Christmas and At Grace Cathedral + Guaraldi author Derrick Bang" ;
+        ont:place           <http://dbpedia.org/resource/Davisville_station> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "March 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/4/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Fantasy quickly capitalized on Guaraldi's unexpected success by releasing In Person, a live album recorded at the Trident in Sausalito, California in December 1962." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "December 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "That afternoon, Guaraldi finished recording the soundtrack for It's Arbor Day, Charlie Brown at Wally Heider Studios with bassist Seward McCain and drummer Jim Zimmerman." ;
+        ont:person   <http://dbpedia.org/resource/John_McCain> , <http://dbpedia.org/resource/William_H._Seward> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He sued in early 1966 in an effort to sever all relationships with the label; Fantasy promptly countersued." ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1966" .
 
 <http://w3id.org/polifonia/pilot/meetups/42203/39/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1959 Tjader Goes Latin (Cal Tjader)" ;
         ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
-        ont:place           "http://dbpedia.org/resource/Goes" ;
+        ont:place           <http://dbpedia.org/resource/Goes> ;
         ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
         ont:timeExpression  "1959" .
 
-<http://w3id.org/polifonia/pilot/meetups/42203/34/0>
+<http://w3id.org/polifonia/pilot/meetups/42203/18/10>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
-        ont:place           "http://dbpedia.org/resource/Caliente_station" ;
+        ont:excerpt         "The album was very successful, leading Winston to record a follow-up, titled Love Will Come: The Music of Vince Guaraldi, Volume 2, released in early 2010." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
         ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
-        ont:timeExpression  "1958" .
+        ont:timeExpression  "2010" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vince Guaraldi at the Piano by Derrick Bang (ISBN 978-0-7864-5902-5) The definitive musical biography of Vince Guaraldi, published March 2012." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "March 2012" , "ISBN 978-0-7864-5902-5" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/20/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The second lineup, considered the first of two \"classic\" trios, featured Monty Budwig (bass) and Colin Bailey (drums)." ;
+        ont:person          <http://dbpedia.org/resource/Monty_Budwig> , <http://dbpedia.org/resource/Colin_Bailey_(drummer)> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "of two" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/40/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "(Victor Feldman)" ;
+        ont:person   <http://dbpedia.org/resource/Victor_Feldman> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1959 Latin For Lovers (Cal Tjader with Strings)" ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/2/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Reed men Paul Horn and Jose \"Chombo\" Silva were also added to the group for certain live performances and recordings.Guaraldi recorded his follow-up album, A Flower Is a Lovesome Thing in April 1957, again featuring Duran and Reilly and again without a drummer." ;
+        ont:person          <http://dbpedia.org/resource/Carlos_Silva> , <http://dbpedia.org/resource/Paul_Horn_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "April 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/14/46>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Charles Gompertz, who invited Guaraldi to perform at Grace Cathedral in 1965, commented in 1981, \"I think part of Vince's problem was that he never really took very good care of himself." ;
+        ont:place           <http://dbpedia.org/resource/Grace_Cathedral,_San_Francisco> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "in 1981" , "in 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/21>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Eddie Duran concurred, saying, \"he did talk at times about moving to Los Angeles, but I think he really dug staying in the area, because he was sure of himself." ;
+        ont:person   <http://dbpedia.org/resource/Eddie_Duran> ;
+        ont:place    <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/5/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"During the period of flux with Fantasy in 1967, Guaraldi formed his own record label, D & D (named after his children, David and Dia), and released his only album on the label in December 1967, Vince Guaraldi with the San Francisco Boys Chorus." ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "December 1967" , "in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vincent Anthony Guaraldi (; né Dellaglio, July 17, 1928 – February 6, 1976) was an American jazz pianist noted for his innovative compositions and arrangements and for composing music for animated television adaptations of the Peanuts comic strip including their signature melody \"Linus and Lucy\" and the holiday standard \"Christmas Time Is Here\"." ;
+        ont:person          <http://dbpedia.org/resource/Vincent_of_Saragossa> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "July 17 , 1928" , "February 6 , 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/12/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In his review of The Complete Warner Bros.–Seven Arts Recordings, The Recoup critic Joseph Kyle lamented, \"frustrated and unable to secure a record deal, he spent the remainder of his life as a live performer, recording more soundtrack material, and banking on the goodwill his Peanuts compositions earned him.\"" ;
+        ont:person   <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/51/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vince Guaraldi biography and discography at FiveCentsPlease" ;
+        ont:person   <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2012 The Cal Tjader Quintet Live at Club Macumba San Francisco 1956 (previously unreleased live performance with the Cal Tjader Quintet, featuring between-session audio)" ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:place           <http://dbpedia.org/resource/San_Francisco> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "Club Macumba San Francisco 1956" , "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1959 A Night at the Blackhawk (Cal Tjader Sextet)" ;
+        ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/20/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The largest confluence of musicians occurred in 1969 for soundtrack recordings of It Was a Short Summer, Charlie Brown (octet) and A Boy Named Charlie Brown (nonet).For bass/double bass, regular sidemen during the 1950s and 1960s included Monty Budwig, Dean Reilly, Fred Marshall and Tom Beeson." ;
+        ont:person          <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:subject         <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:timeExpression  "in 1969" , "1960s" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/42203/18/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vince Guaraldi at the Piano, by author and Guaraldi archivist Derrick Bang, chronicles Guaraldi's career and role in the Northern California jazz scene, and also includes a complete discography and filmography, as well as an appendix of quotations from Guaraldi's former sidemen.Jazz musician David Benoit has often credited Guaraldi and the Charlie Brown Christmas soundtrack for his interest in jazz." ;
+        ont:person   <http://dbpedia.org/resource/Vince_Guaraldi> , <http://dbpedia.org/resource/David_Benoit_(musician)> ;
+        ont:place    <http://dbpedia.org/resource/California> ;
+        ont:subject  <http://dbpedia.org/resource/Vince_Guaraldi> .

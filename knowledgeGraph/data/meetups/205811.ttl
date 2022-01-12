@@ -6,58 +6,704 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/205811/42/2>
+<http://w3id.org/polifonia/pilot/meetups/205811/36/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Dick_Powell> ;
-        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:excerpt         "He married three times:" ;
         ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
-        ont:timeExpression  "death as 1962" .
+        ont:timeExpression  "three" .
 
-<http://w3id.org/polifonia/pilot/meetups/205811/9/0>
+<http://w3id.org/polifonia/pilot/meetups/205811/24/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was a Mountie in Mrs. Mike (1950)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was top-billed in Gold Diggers of 1935 and Broadway Gondolier (both 1935), both with Joan Blondell." ;
+        ont:person          <http://dbpedia.org/resource/Joan_Blondell> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1935" , "of 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On September 27, 1962, Powell acknowledged rumors that he was undergoing treatment for cancer." ;
         ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
-        ont:place           "http://dbpedia.org/resource/42nd_Street_Shuttle" ;
         ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
-        ont:timeExpression  "42nd" , "1934" , "1933" .
+        ont:timeExpression  "September 27 , 1962" .
 
-<http://w3id.org/polifonia/pilot/meetups/205811/37/2>
+<http://w3id.org/polifonia/pilot/meetups/205811/35/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Powell was the son of Ewing Powell and Sallie Rowena Thompson." ;
+        ont:person   <http://dbpedia.org/resource/Tristan_Thompson> , <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/30/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His feature debut was Split Second (1953) at RKO Pictures." ;
+        ont:place           <http://dbpedia.org/resource/Split,_Croatia> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/23/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Also in 1948, he stepped out of the brutish type when he starred in Pitfall, a film noir in which a bored insurance-company worker falls for an innocent but dangerous woman, played by Lizabeth Scott." ;
+        ont:person          <http://dbpedia.org/resource/Lizabeth_Scott> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "in 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At Paramount he had a cameo in Star Spangled Rhythm and co-starred with Mary Martin in Happy Go Lucky (both 1943)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell was reunited with Marion Davies in another for Cosmopolitan, Hearts Divided (1936), playing Napoleon's brother." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> , <http://dbpedia.org/resource/Napoleon> , <http://dbpedia.org/resource/Marion_Davies> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "So, too, was Footlight Parade (also 1933), with Keeler and James Cagney." ;
+        ont:person          <http://dbpedia.org/resource/James_Cagney> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Later, Powell joined the Charlie Davis Orchestra, based in Indianapolis." ;
+        ont:person   <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:place    <http://dbpedia.org/resource/Indianapolis> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He returned to comedy with You Never Can Tell (1951)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Then, Powell got a chance to appear in another non-musical, Christmas in July (1940), a screwball comedy which was the second feature directed by Preston Sturges." ;
+        ont:person          <http://dbpedia.org/resource/Preston_Sturges> , <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Warner Bros. was sufficiently impressed by Powell's singing and stage presence to offer him a film contract in 1932." ;
         ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
-        ont:place           "http://dbpedia.org/resource/Havana" , "http://dbpedia.org/resource/Pennsylvania" , "http://dbpedia.org/resource/Cuba" , "http://dbpedia.org/resource/Pittsburgh" ;
         ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
-        ont:timeExpression  "in 1925" , "1930 census" , "1931 passenger list" .
-
-<http://w3id.org/polifonia/pilot/meetups/205811/7/4>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Ruby_Keeler> ;
-        ont:place           "http://dbpedia.org/resource/42nd_Street_Shuttle" ;
-        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
-        ont:timeExpression  "in 42nd" , "1933" .
+        ont:timeExpression  "contract in 1932" .
 
 <http://w3id.org/polifonia/pilot/meetups/205811/2/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The family moved the boys to Little Rock in 1914, where Powell sang in church choirs and with local orchestras, and started his own band." ;
         ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
-        ont:place           "http://dbpedia.org/resource/Little_Rock,_Arkansas" ;
+        ont:place           <http://dbpedia.org/resource/Little_Rock,_Arkansas> ;
         ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
         ont:timeExpression  "in 1914" .
 
+<http://w3id.org/polifonia/pilot/meetups/205811/40/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Powell enjoyed general aviation as a private pilot." ;
+        ont:person   <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell guest-starred in numerous Four Star programs, including a 1958 appearance on the Duff-Lupino sitcom Mr. Adams and Eve." ;
+        ont:person          <http://dbpedia.org/resource/Eve> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1958 appearance" , "Four Star" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell took a break from tough-guy roles in The Reformer and the Redhead (1950), opposite wife June Allyson." ;
+        ont:person          <http://dbpedia.org/resource/June_Allyson> , <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/21/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The film was a big hit, and Powell had successfully reinvented himself as a dramatic actor." ;
+        ont:person   <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/20/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He lost out to Fred MacMurray, another Hollywood nice guy." ;
+        ont:person   <http://dbpedia.org/resource/Fred_MacMurray> ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1950s, Powell was one of the founders of Four Star Television, along with Charles Boyer, David Niven, and Ida Lupino." ;
+        ont:person          <http://dbpedia.org/resource/Charles_Boyer> , <http://dbpedia.org/resource/Ida_Lupino> , <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> , <http://dbpedia.org/resource/David_Niven> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "one" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1949 to 1953, Powell played the lead role in the NBC radio theater production Richard Diamond, Private Detective." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "From 1949" , "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During this period, Powell starred in the musical  Campana Serenade, which was broadcast on NBC radio (1942–1943) and CBS radio (1943–1944)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1942–1943" , "1943–1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/13/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Fed up with the repetitive nature of these roles, Powell left WB and went to work for Paramount Pictures." ;
+        ont:person   <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He broadened his range appearing in a Western, Station West (1948), and a French Foreign Legion tale, Rogues' Regiment (1949)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1948" , "1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1944, he was in a fantasy comedy directed by René Clair, It Happened Tomorrow, then went over to MGM to appear opposite Lucille Ball in Meet the People, which was a box-office flop." ;
+        ont:person          <http://dbpedia.org/resource/Lucille_Ball> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "In 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "20th Century Fox then borrowed him again for On the Avenue (1937)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell was upped to star for College Coach (1933), then went back to more ensemble pieces including 42nd Street, Convention City (both 1933), Wonder Bar, Twenty Million Sweethearts, and Dames (all 1934).Happiness Ahead was more of a star vehicle for Powell, as was Flirtation Walk (both 1934)." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:place           <http://dbpedia.org/resource/42nd_Street_Shuttle> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1934" , "1933" , "42nd" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/30/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "By this stage, Powell had turned director." ;
+        ont:person   <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For Columbia, he played a casino owner in Johnny O'Clock (1947) and made To the Ends of the Earth (1948)." ;
+        ont:place           <http://dbpedia.org/resource/Earth> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1948" , "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Universal borrowed him to support Abbott and Costello in In the Navy (1941), one of the most popular films of 1941." ;
+        ont:person          <http://dbpedia.org/resource/Bud_Abbott> , <http://dbpedia.org/resource/Lou_Costello> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1941" , "of 1941" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "20th Century Fox borrowed him for Thanks a Million (1935); back at WB, he did Colleen (1936) with Keeler and Blondell." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1936" , "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Warner Bros. (WB) got him to basically repeat the role in Gold Diggers of 1933, another big success." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "of 1933" .
+
 <http://w3id.org/polifonia/pilot/meetups/205811/3/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After a final trip to Cuba together, Mildred moved to Hemphill, Texas, and the couple divorced in 1932." ;
         ont:person          <http://dbpedia.org/resource/Mildred_Harnack> ;
-        ont:place           "http://dbpedia.org/resource/Hemphill,_Texas" , "http://dbpedia.org/resource/Cuba" ;
+        ont:place           <http://dbpedia.org/resource/Cuba> , <http://dbpedia.org/resource/Hemphill,_Texas> ;
         ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
         ont:timeExpression  "in 1932" .
 
-<http://w3id.org/polifonia/pilot/meetups/205811/45/0>
+<http://w3id.org/polifonia/pilot/meetups/205811/22/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Dick_Powell> ;
-        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:excerpt         "In 1945, Dmytryk and Powell reteamed to make the film Cornered, a gripping, post-World War II thriller that helped define the film noir style." ;
         ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
-        ont:timeExpression  "at 6915" .
+        ont:timeExpression  "In 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At Paramount, Blondell and he were cast together again, in the drama I Want a Divorce (1940)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In April 1930, Warner Bros. bought Brunswick Records, which at that time owned Vocalion." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "April 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell's career changed dramatically when he was cast in the first of a series of films noir, as private detective Philip Marlowe in Murder, My Sweet (1944), directed by Edward Dmytryk at RKO." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> , <http://dbpedia.org/resource/Edward_Dmytryk> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/42/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His body was cremated and his remains were interred in the Columbarium of Honor at Forest Lawn Memorial Park in Glendale, California." ;
+        ont:place    <http://dbpedia.org/resource/Glendale,_California> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By 1944, Powell felt he was too old to play romantic leading men anymore, so he lobbied to play the lead in Double Indemnity." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "By 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Back at WB, he appeared in The Singing Marine and Varsity Show (both 1937), Hollywood Hotel, Cowboy from Brooklyn, Hard to Get, Going Places (all 1938), and Naughty but Nice (1939)." ;
+        ont:place           <http://dbpedia.org/resource/Brooklyn> , <http://dbpedia.org/resource/Nice> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1939" , "1937" , "1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/30/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell then made two war films at Fox with Robert Mitchum, The Enemy Below (1957) and The Hunters (1958)." ;
+        ont:person          <http://dbpedia.org/resource/Robert_Mitchum> , <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1957" , "two war" , "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Powell moved to Pittsburgh, where he found great local success as the master of ceremonies at the Enright Theater and the Stanley Theater." ;
+        ont:person   <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:place    <http://dbpedia.org/resource/Pittsburgh> , <http://dbpedia.org/resource/Benedum_Center> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He made two films with Blondell, Stage Struck (1936) and Gold Diggers of 1937." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "of 1937" , "two" , "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "More typical was Shipmates Forever (1935) with Keeler." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/33/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He hosted and occasionally starred in his Dick Powell's Zane Grey Theater on CBS from 1956 to 1961, and his final anthology series, The Dick Powell Show on NBC from 1961 through 1963; after his death, the series continued through the end of its second season (as The Dick Powell Theater), with guest hosts." ;
+        ont:person          <http://dbpedia.org/resource/Dick_Powell> , <http://dbpedia.org/resource/Zane_Grey> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "from 1961" , "through 1963" , "1961" , "from 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/21/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell also played the slightly less hard-boiled detective Richard Rogue in the radio series Rogue's Gallery beginning in 1945." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "beginning in 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During this time, he married Mildred Maund, a model, but she found being married to an entertainer not to her liking." ;
+        ont:person   <http://dbpedia.org/resource/Mildred_Kornman> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "WB gave him a change of pace, casting him as Lysander in A Midsummer Night's Dream (1935)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/37/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They divorced in 1932, although Mildred retained her married name." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "in 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/25/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When Richard Diamond came to television in 1957, the lead role was portrayed by David Janssen, who did no singing in the series." ;
+        ont:person          <http://dbpedia.org/resource/David_Janssen> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "television in 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell was born the middle of three sons of mother Sally Rowena in Mountain View, the seat of Stone County in northern Arkansas." ;
+        ont:place           <http://dbpedia.org/resource/Stone_County,_Missouri> , <http://dbpedia.org/resource/Arkansas> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "middle of three" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/42/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell died at the age of 58 on January 2, 1963." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "age of 58" , "January 2 , 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/30/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The cast and crew totaled 220, and of that number, 91 had developed some form of cancer by 1981, and 46 had died of cancer by then, including Powell and Wayne.He directed Allyson opposite Jack Lemmon in You Can't Run Away from It (1956)." ;
+        ont:person          <http://dbpedia.org/resource/Jack_Lemmon> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "220" , "46" , "1956" , "cancer by 1981" , "91" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Richard Ewing Powell (November 14, 1904 – January 2, 1963) was an American actor, musician, producer, director, and studio head." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "November 14 , 1904" , "January 2 , 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/58/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Both songs were sung (not by Powell) in the film Susan Slept Here (1954)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/39/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The estate, known as Amber Hills, is on 48 acres in the Mandeville Canyon section of Brentwood, Los Angeles." ;
+        ont:place           <http://dbpedia.org/resource/Brentwood,_Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "on 48" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/57/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The B side came from a James Cagney film of the same name." ;
+        ont:person   <http://dbpedia.org/resource/James_Cagney> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Back at Warner Bros., he supported George Arliss in The King's Vacation, then was in 42nd Street (both 1933), playing the love interest for Ruby Keeler." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Ruby_Keeler> ;
+        ont:place           <http://dbpedia.org/resource/42nd_Street_Shuttle> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1933" , "in 42nd" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/33/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Shortly before his death, Powell sang on camera for the final time in a guest-star appearance on Four Star's Ensign O'Toole, singing \"The Song of the Marines\", which he first sang in his 1937 film The Singing Marine." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1937 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/21/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Later, Powell was the first actor to play Marlowe on radio, in 1944 and 1945, and on television, in a 1954 episode of Climax!" ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1945" , "1954 episode" , "in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/70/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "– Dick Powell (1962, TV Show) on YouTube" ;
+        ont:person          <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/37/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The couple married in 1925, and appear on the 1930 census in Pittsburgh, Pennsylvania, where Powell was working in a theater, and on a 1931 passenger list for the SS Oriente, returning from Havana, Cuba." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:place           <http://dbpedia.org/resource/Havana> , <http://dbpedia.org/resource/Pennsylvania> , <http://dbpedia.org/resource/Cuba> , <http://dbpedia.org/resource/Pittsburgh> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "in 1925" , "1930 census" , "1931 passenger list" .
 
 <http://w3id.org/polifonia/pilot/meetups/205811/32/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1961, Howard Duff, husband of Ida Lupino, assumed the Dante role in a short-lived NBC adventure series Dante, set at a San Francisco nightclub called \"Dante's Inferno\"." ;
         ont:person          <http://dbpedia.org/resource/Howard_Duff> , <http://dbpedia.org/resource/Dante_Alighieri> , <http://dbpedia.org/resource/Ida_Lupino> ;
-        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:place           <http://dbpedia.org/resource/San_Francisco> ;
         ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
         ont:timeExpression  "In 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/25/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Many of the episodes were written by Blake Edwards." ;
+        ont:person   <http://dbpedia.org/resource/Blake_Edwards> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/67/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dick Powell Photo Gallery" ;
+        ont:person   <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/66/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dick Powell at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/42/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Upon his return to California, Powell's personal physician conducted tests and found malignant tumors on his neck and chest.The marker on Dick Powell's niche in Forest Lawn Memorial Park, Glendale, California, incorrectly identifies his year of death as 1962." ;
+        ont:person          <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:place           <http://dbpedia.org/resource/California> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "death as 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/30/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The exterior scenes were filmed in St. George, Utah, downwind of U.S. above-ground atomic tests." ;
+        ont:place    <http://dbpedia.org/resource/Utah> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/65/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dick Powell at the TCM Movie Database" ;
+        ont:person   <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Susan Slept Here\" (Jack Lawrence)/\"Hold My Hand\" (Richard Myers-Jack Lawrence), Bell Records 1048." ;
+        ont:person          <http://dbpedia.org/resource/Jack_Lawrence> , <http://dbpedia.org/resource/Saint_Lawrence> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "Bell Records 1048" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/39/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Powell was a friend of Hart to Hart actor Robert Wagner and producer Aaron Spelling." ;
+        ont:person   <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> , <http://dbpedia.org/resource/Aaron_Spelling> , <http://dbpedia.org/resource/Robert_Wagner> , <http://dbpedia.org/resource/Lorenz_Hart> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/27/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His final film performance was in a romantic comedy Susan Slept Here (1954) for director Frank Tashlin." ;
+        ont:person          <http://dbpedia.org/resource/Frank_Tashlin> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cinderella's Boyfriend – 1934 article about Powell from Radio Mirror" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1934 article" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/64/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dick Powell at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Over There\"/\"Captains of the Clouds\" (1942–Decca 4174) Issued early in World War II, the A side brought back a patriotic song that had been popular in World War I." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1942–Decca" , "4174" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/38/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He adopted her son from a previous marriage, Norman Powell, who later became a television producer; the couple also had one child together, Ellen Powell." ;
+        ont:person          <http://dbpedia.org/resource/Norman_Powell> , <http://dbpedia.org/resource/Ellen_Terry> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "one child" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/33/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the episode \"Everybody Versus Timmy Drayton\", Powell played a colonel having problems with his son." ;
+        ont:person   <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/21/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "(Hollywood had previously adapted some Marlowe novels, but with the lead character changed.)" ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Appearance On What's My Line 9/9/62" ;
+        ont:place           <http://dbpedia.org/resource/Seoul_Subway_Line_9> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "My Line 9/9/62" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Roses in December\" (1937) words and music by Herb Magidson, Ben Oakland and George Jessel." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Ben_Oakland> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/44/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The award was accepted by two of his former partners in Four Star Television, Charles Boyer and David Niven." ;
+        ont:person          <http://dbpedia.org/resource/David_Niven> , <http://dbpedia.org/resource/Charles_Boyer> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "by two" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/37/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1906, d. 1967)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1967" , "1906" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/32/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell played the role of Willie Dante in Four Star Playhouse, in episodes entitled \"Dante's Inferno\" (1952), \"The Squeeze\" (1953), \"The Hard Way\" (1953), and \"The House Always Wins\" (1955)." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> , <http://dbpedia.org/resource/Dante_Alighieri> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1952" , "1953" , "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Appearance On What's My Line 9/17/61" ;
+        ont:place           <http://dbpedia.org/resource/Seoul_Subway_Line_9> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "My Line 9/17/61" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"I Only Have Eyes for You\" (1934) from the film Dames." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/43/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "About a third of the actors who participated in the film developed cancer, including Powell, who directed the film,  John Wayne, and Susan Hayward." ;
+        ont:person   <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> , <http://dbpedia.org/resource/Susan_Hayward> , <http://dbpedia.org/resource/John_Wayne> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Appearance On What's My Line 8/24/58" ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "My Line 8/24/58" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He supported Marion Davies in Page Miss Glory (1935), made for Cosmopolitan Pictures, a production company financed by Davies' lover William Randolph Hearst, who released through WB." ;
+        ont:person          <http://dbpedia.org/resource/Marion_Davies> , <http://dbpedia.org/resource/William_Randolph_Hearst> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/28/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The latter, his final onscreen appearance in a feature film, did include a dance number with co-star Debbie Reynolds." ;
+        ont:person   <http://dbpedia.org/resource/Debbie_Reynolds> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/30/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He followed it with The Conqueror (1956), coproduced by Howard Hughes and starring John Wayne as Genghis Khan." ;
+        ont:person          <http://dbpedia.org/resource/John_Wayne> , <http://dbpedia.org/resource/Howard_Hughes> , <http://dbpedia.org/resource/Genghis_Khan> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He supported Dorothy Lamour in Riding High (1943)." ;
+        ont:person          <http://dbpedia.org/resource/Dorothy_Lamour> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/3/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He recorded a number of records with Davis and on his own, for the Vocalion label in the late 1920s." ;
+        ont:person   <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "June Allyson (August 19, 1945, until his death, January 2, 1963), with whom he had two children, Pamela (adopted) and Richard Powell, Jr.Powell's ranch-style house was used for exterior filming on the ABC TV series, Hart to Hart." ;
+        ont:person          <http://dbpedia.org/resource/June_Allyson> , <http://dbpedia.org/resource/Pamela_Harriman> , <http://dbpedia.org/resource/Lorenz_Hart> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "two" , "January 2 , 1963" , "August 19 , 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/27/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had a good role in MGM's popular melodrama, The Bad and the Beautiful (1952)." ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dick Powell has a star on the Hollywood Walk of Fame at 6915 Hollywood Blvd." ;
+        ont:person          <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:place           <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "at 6915" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He made his film debut as a singing bandleader in Blessed Event.He was borrowed by Fox Film to support Will Rogers in Too Busy to Work (1932)." ;
+        ont:person          <http://dbpedia.org/resource/Will_Rogers> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Powell was the first actor to play private detective Philip Marlowe on radio, in 1944 and 1945." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "in 1944" , "1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Powell attended the former Little Rock College, before he started his entertainment career as a singer with the Royal Peacock Band, which toured throughout the Midwest." ;
+        ont:place    <http://dbpedia.org/resource/Little_Rock,_Arkansas> , <http://dbpedia.org/resource/Midwestern_United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Joan Blondell (married September 19, 1936, divorced 1944)." ;
+        ont:person          <http://dbpedia.org/resource/Joan_Blondell> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "September 19 , 1936" , "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/33/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He appeared in 1961 on James Whitmore's legal drama The Law and Mr. Jones on ABC." ;
+        ont:person          <http://dbpedia.org/resource/James_Whitmore> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "in 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/26/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Then, he was back to tougher movies: Right Cross (1950), a boxing film, with Allyson; Cry Danger (1951), as an ex-convict; The Tall Target (1951), at MGM directed by Anthony Mann, playing a detective who tries to prevent the assassination of Abraham Lincoln." ;
+        ont:person          <http://dbpedia.org/resource/Anthony_Mann> , <http://dbpedia.org/resource/Abraham_Lincoln> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "1950" , "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/21/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was the first actor to play Marlowe – by name – in motion pictures." ;
+        ont:person   <http://dbpedia.org/resource/Christopher_Marlowe> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, in a 2001 interview with Larry King, Powell's widow June Allyson stated that the cause of death was lung cancer due to his chain smoking.During the 15th Primetime Emmy Awards on May 26, 1963, the Television Academy presented a posthumous Television Academy Trustee Award to Dick Powell for his contributions to the industry." ;
+        ont:person          <http://dbpedia.org/resource/Larry_King> , <http://dbpedia.org/resource/Dick_Powell> , <http://dbpedia.org/resource/June_Allyson> ;
+        ont:subject         <http://dbpedia.org/resource/Dick_Powell> ;
+        ont:timeExpression  "May 26 , 1963" , "15th" , "2001 interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/20/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "MacMurray's success, however, fueled Powell's resolve to pursue projects with greater range." ;
+        ont:person   <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .
+
+<http://w3id.org/polifonia/pilot/meetups/205811/43/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It is speculated Powell developed cancer as a result of his participation in the film The Conqueror, which was filmed at St. George, Utah, near a site used by the U.S. military for nuclear testing." ;
+        ont:person   <http://dbpedia.org/resource/Lewis_F._Powell_Jr.> ;
+        ont:place    <http://dbpedia.org/resource/Utah> ;
+        ont:subject  <http://dbpedia.org/resource/Dick_Powell> .

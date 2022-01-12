@@ -6,44 +6,509 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/492026/15/10>
+<http://w3id.org/polifonia/pilot/meetups/492026/0/6>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Vladimir_Bukovsky> , <http://dbpedia.org/resource/Eleanor_Roosevelt> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "In 1959, he co-founded the Newport Folk Festival, and created the role of Captain von Trapp opposite Mary Martin as Maria in the original Broadway production of Rodgers & Hammerstein's The Sound of Music." ;
+        ont:person          <http://dbpedia.org/resource/Georg_von_Trapp> ;
         ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
-        ont:timeExpression  "one show" , "1977" .
+        ont:timeExpression  "In 1959" .
 
-<http://w3id.org/polifonia/pilot/meetups/492026/6/8>
+<http://w3id.org/polifonia/pilot/meetups/492026/6/16>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Michael_Ironside> ;
-        ont:place           "http://dbpedia.org/resource/Southern_United_States" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Russian_Empire" ;
+        ont:excerpt         "He appeared in an episode of the 1954 NBC legal drama Justice based on cases from the Legal Aid Society of New York." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
-        ont:timeExpression  "1957" , "1951" , "1966" .
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bikel was president of the Associated Actors and Artistes of America until 2014, and was president of Actors' Equity in the late 1970s and early 1980s." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "until 2014" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/22>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1965, Bikel, as well as Seeger, was shocked when Bob Dylan turned electric at the festival, an event some call \"Dylan's declaration of musical independence." ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "In 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Following the festival, Bikel, Seeger, and Dylan traveled to a planned rally in Greenwood, Mississippi, to perform Dylan's newly written song, \"Only a Pawn in Their Game\", about the man who murdered Medgar Evers." ;
+        ont:person   <http://dbpedia.org/resource/Medgar_Evers> , <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:place    <http://dbpedia.org/resource/Greenwood,_Mississippi> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In My Fair Lady (1964), he played the overbearing Hungarian linguist Zoltan Karpathy.He made his Broadway debut in 1955 in Tonight in Samarkand, and in 1958 was nominated for a Tony for The Rope Dancers." ;
+        ont:place           <http://dbpedia.org/resource/Samarkand> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "debut in 1955" , "in 1958" , "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Theodore Meir Bikel ( bih-KEL; May 2, 1924 – July 21, 2015) was an Austrian-American actor, folk singer, musician, composer, unionist, and political activist." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "July 21 , 2015" , "May 2 , 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/15/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Bikel was an active supporter and campaigner for John F. Kennedy." ;
+        ont:person   <http://dbpedia.org/resource/John_F._Kennedy> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/3/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He described his acting experience there as similar to, if not better than, the method acting techniques taught at the Actors Studio in New York." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was able to sing in 21 different languages, including Yiddish, Hebrew, German, Russian, Hungarian, Romanian, French, medieval Spanish, Zulu, and English." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 21" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He co-founded the Actors Federal Credit Union in 1962, and in 1968, he was a delegate to the Democratic National Convention in Chicago." ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 1968" , "in 1962" .
 
 <http://w3id.org/polifonia/pilot/meetups/492026/13/7>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He married journalist and foreign correspondent Aimee Ginsburg on December 29, 2013.Bikel died on July 21, 2015, at Ronald Reagan UCLA Medical Center in Los Angeles of natural causes, according to publicist Harlan Boll, survived by Ms Ginsburg, his sons from his second marriage, Robert and Daniel, and three grandchildren." ;
         ont:person          <http://dbpedia.org/resource/Ruth_Bader_Ginsburg> , <http://dbpedia.org/resource/John_Marshall_Harlan_(1899–1971)> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Ronald_Reagan_UCLA_Medical_Center" ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> , <http://dbpedia.org/resource/Ronald_Reagan_UCLA_Medical_Center> ;
         ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
         ont:timeExpression  "three" , "July 21 , 2015" , "December 29 , 2013.Bikel" .
 
-<http://w3id.org/polifonia/pilot/meetups/492026/15/11>
+<http://w3id.org/polifonia/pilot/meetups/492026/11/27>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jimmy_Carter> ;
-        ont:place           "http://dbpedia.org/resource/Soviet_Union" ;
+        ont:excerpt         "Bikel became increasingly involved with civil-rights issues and progressive causes, and was a Eugene McCarthy delegate to the 1968 Democratic Convention." ;
+        ont:person          <http://dbpedia.org/resource/Eugene_McCarthy> ;
         ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
-        ont:timeExpression  "in 1977" , "in 1986" .
+        ont:timeExpression  "1968" .
 
 <http://w3id.org/polifonia/pilot/meetups/492026/6/15>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When an injury required 74-year-old fellow Israeli performer Chaim Topol (veteran of many productions of the stage show and star of the motion picture Fiddler on the Roof) to withdraw from a high-budget, much-promoted 2009 North American tour of the musical, Bikel substituted for him in several appearances in 2010.Bikel was a guest star on many popular television series." ;
         ont:person          <http://dbpedia.org/resource/Chaim_Topol> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
-        ont:timeExpression  "in 2010.Bikel" , "2009" .
+        ont:timeExpression  "2009" , "in 2010.Bikel" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bikel, Theodore (2002)." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He married Ofra Ichilov in 1942." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1963, Bikel joined Dylan, Seeger, Peter, Paul and Mary, and Joan Baez for the festival grand finale as they sang \"Blowin' in the Wind\" and \"We Shall Overcome\"." ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Joan_Baez> , <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "In 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bikel, Theodore (1960)." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They are what we were 20 years ago." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "20" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He performed with Habimah Theatre in 1943, and was one of the founding members of the Cameri Theatre, which became a leading Israeli theatre company." ;
+        ont:place           <http://dbpedia.org/resource/Israel> , <http://dbpedia.org/resource/Habima_Theatre> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 1943" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also portrayed the sadistic General Jouvet in The Pride and the Passion (1957), and was screen tested for the role of Auric Goldfinger in the James Bond film Goldfinger (1964), though the part ultimately fell to German actor Gert Fröbe." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1964" , "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Murder Case\"), Charlie's Angels, The San Pedro Beach Bums, Cannon, Little House on the Prairie, Mission: Impossible, Gunsmoke, Dynasty, All in the Family, Knight Rider, Murder, She Wrote, Fantasy Island, Law & Order, and Mickey Spillane's Mike Hammer (episode \"Elegy for a Tramp\" as Gerringer that aired on January 28, 1987)." ;
+        ont:person          <http://dbpedia.org/resource/Mickey_Spillane> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "January 28 , 1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/15/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2007, he served as chair of the Board of Directors of Meretz USA (now Partners for Progressive Israel).He was a member of the high-IQ collective Mensa International." ;
+        ont:place           <http://dbpedia.org/resource/Israel> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "In 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/13/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She died in 2012." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/26>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Its popularity led to the two opening a second club, Cosmo Alley, which, in addition to folk music, presented poets such as Maya Angelou and comics including Lenny Bruce." ;
+        ont:person          <http://dbpedia.org/resource/Maya_Angelou> , <http://dbpedia.org/resource/Lenny_Bruce> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He later studied acting at Britain's Royal Academy of Dramatic Art, and made his London stage debut in 1948 and in New York in 1955." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Royal_Academy_of_Arts> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 1955" , "debut in 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Since his first appearance as Tevye in the musical Fiddler on the Roof (1967), Bikel had performed the role more often than any other actor (more than 2,000 times)." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1967" , "than 2,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/3/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bikel wrote in his autobiography, Theo: \"A few of my contemporaries regarded [not returning to Israel] as a character flaw, if not a downright act of desertion." ;
+        ont:place    <http://dbpedia.org/resource/Israel> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bikel was married four times." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2013, Bikel starred in Journey 4 Artists, a documentary that celebrates the power of music and religious diversity." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "In 2013" , "Journey 4" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During an interview, when asked what inspired him to become involved in organizing a folk festival, he said that music was \"one of the few answers to the chaos that we have,\" one of the only recourses to avoid social strife, and a means of giving youth hope for a better world.Bikel viewed then 21-year-old Bob Dylan as one of those young performers expressing emotional and social messages through song." ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "as one" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/3/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bikel studied at the Mikve Yisrael agricultural school and joined Kibbutz Kfar HaMaccabi.Bikel started acting while in his teens." ;
+        ont:place    <http://dbpedia.org/resource/Mikveh_Israel> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On television, he played an Armenian merchant on Ironside, a Polish professor on Charlie's Angels, an American professor on The Paper Chase, a Bulgarian villain on Falcon Crest, a Belarusian on Star Trek: The Next Generation, and an Italian on Murder, She Wrote.In movies, he played a German officer in The African Queen (1951) and The Enemy Below (1957), a Southern sheriff in The Defiant Ones, and a Russian submarine captain in the comedy he Russians Are Coming, the Russians Are Coming (1966)." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Ironside> ;
+        ont:place           <http://dbpedia.org/resource/Southern_United_States> , <http://dbpedia.org/resource/Russian_Empire> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1966" , "1957" , "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1955, at the suggestion of Jac Holzman of Elektra Records, Bikel began recording songs, including several albums of Jewish folk songs and songs from Russia and other countries, making over 20 contemporary and folk music albums during his career." ;
+        ont:place           <http://dbpedia.org/resource/Russia> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "over 20" , "In 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "in the season-three episode \"Mountain Man\" as Francois Perrault, Hawaii Five-O, Columbo (1977, \"The Bye-Bye Sky High I.Q." ;
+        ont:person          <http://dbpedia.org/resource/Charles_Perrault> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/15/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was arrested in front of the Soviet Embassy in Washington in 1986 while protesting the plight of Soviet Jews.President Jimmy Carter appointed him to serve on the National Council for the Arts in 1977 for a six-year term." ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Carter> ;
+        ont:place           <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 1977" , "in 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He graduated from supporting actor and understudy, though, to star opposite the director's wife, Vivien Leigh, with a sudden, unplanned performance when a co-star, playing the role of Mitch, came down with a case of flu." ;
+        ont:person   <http://dbpedia.org/resource/Mitch_Albom> , <http://dbpedia.org/resource/Vivien_Leigh> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/25>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bikel (with business partner Herb Cohen) opened the first folk music coffee house in Los Angeles, The Unicorn." ;
+        ont:place    <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
 
 <http://w3id.org/polifonia/pilot/meetups/492026/0/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For his portrayal of Sheriff Max Muller in The Defiant Ones (1958), he was nominated for the Academy Award for Best Supporting Actor.He made his stage debut in Tevye the Milkman in Tel Aviv, Israel, when he was in his teens." ;
         ont:person          <http://dbpedia.org/resource/Max_Müller> ;
-        ont:place           "http://dbpedia.org/resource/Tel_Aviv" , "http://dbpedia.org/resource/Israel" ;
+        ont:place           <http://dbpedia.org/resource/Israel> , <http://dbpedia.org/resource/Tel_Aviv> ;
         ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
         ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When the composers, Rodgers and Hammerstein, realized Bikel was an accomplished folksinger, they wrote the song \"Edelweiss\" specifically for him to sing and accompany himself on the guitar.In 1964, he played Zoltan Karpathy, the dialect expert, in the film version of My Fair Lady." ;
+        ont:place           <http://dbpedia.org/resource/Carpathian_Mountains> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/3/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bikel moved to the United States in 1954 and became a naturalized citizen in 1961.Bikel did not return to live in Israel, nor did he take part in the 1948 Arab–Israeli War." ;
+        ont:place           <http://dbpedia.org/resource/Israel> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 1954" , "1948" , "citizen in 1961.Bikel" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2012, Bikel played the title role in Visiting Mr. Green with the Harold Green Jewish Theatre Company in Toronto, Ontario." ;
+        ont:place           <http://dbpedia.org/resource/Toronto> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "In 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He performed a number of recorded duets with Judy Collins at various festivals and on television." ;
+        ont:person   <http://dbpedia.org/resource/Judy_Collins> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bikel performed two roles in the Babylon 5 universe, in 1994 as Rabbi Koslov in the first-season episode \"TKO\" and in 1998, as Ranger leader Lenonn in the TV movie Babylon 5: In the Beginning." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 1994" , "two" , "in 1998" , "Babylon 5" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Following the German annexation of Austria in 1938, Bikel's family fled to Mandatory Palestine, where his father's contacts helped the family obtain British passports." ;
+        ont:place           <http://dbpedia.org/resource/First_Austrian_Republic> , <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Mandatory_Palestine> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/20>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bikel also appeared in an acting role in Frank Zappa's experimental film 200 Motels (1971)." ;
+        ont:person          <http://dbpedia.org/resource/Frank_Zappa> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "200" , "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/15/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The producers stopped complaining, however, when after one show he was picked up backstage by a limousine carrying Eleanor Roosevelt, and he accompanied her to a Democratic rally as her special guest.At the 1977 AFL–CIO Convention, Bikel welcomed Russian dissident Vladimir Bukovsky upon his release from the Soviet Union." ;
+        ont:person          <http://dbpedia.org/resource/Vladimir_Bukovsky> , <http://dbpedia.org/resource/Eleanor_Roosevelt> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1977" , "one show" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/0/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The production won nine Tony Awards, and was one of the longest-running musicals in Broadway history." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "nine" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/18>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The particular episode was written by Rod Serling." ;
+        ont:person   <http://dbpedia.org/resource/Rod_Serling> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/18/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 978-0299182847." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "ISBN 978-0299182847" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Aside from being an understudy, Bikel's main role in the production was the relatively minor part of Pablo Gonzales." ;
+        ont:person   <http://dbpedia.org/resource/Alberto_Gonzales> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/24>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His album A Folksinger's Choice (1964) featured Jim McGuinn (as he was then known) on banjo." ;
+        ont:person          <http://dbpedia.org/resource/Roger_McGuinn> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/13/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They divorced in 2008." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1958), My Fair Lady (1964), The Russians Are Coming, the Russians Are Coming (1966), and 200 Motels (1971)." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1971" , "1966" , "1958" , "200" , "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/3/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In 1945, he moved to London to study at the Royal Academy of Dramatic Art." ;
+        ont:place           <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Royal_Academy_of_Arts> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "In 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bikel was nominated for the Drama Desk Award in 2010 for outstanding solo performance for Sholom Aleichem: Laughter Through Tears, an off-Broadway play that he also wrote." ;
+        ont:person          <http://dbpedia.org/resource/Sholem_Aleichem> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bikel's live performances were issued on two albums: Bravo Bikel (1959), and Bikel on Tour(1963).In 1959, Bikel co-founded the Newport Folk Festival (together with Pete Seeger, Harold Leventhal, Oscar Brand, and George Wein)." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Oscar_Brand> , <http://dbpedia.org/resource/Pete_Seeger> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "on two" , "1959" , "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As an active Zionist, his father named him after Theodor Herzl, the founder of modern Zionism." ;
+        ont:person   <http://dbpedia.org/resource/Theodor_Herzl> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the early 1990s, he appeared on Star Trek: The Next Generation, in the episode \"Family\", playing Sergey Rozhenko, Worf's  Belarusian-born adoptive father." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/15/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Since 1988, he had been president of the Associated Actors and Artistes of America.Upon hearing of his death, Actors’ Equity wrote: \"From the time he joined Equity in 1954, Bikel has been an advocate for the members of our union and his extraordinary achievements paved the way for so many." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "in 1954" , "Since 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bikel later guest-starred on Rod Serling's The Twilight Zone (episode \"Four O'Clock\" as Oliver Crangle)." ;
+        ont:person          <http://dbpedia.org/resource/Rod_Serling> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "Four" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He told Dylan's manager, Albert Grossman, \"I'll tell you what." ;
+        ont:person   <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Albert_Grossman> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/0/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1969, Bikel began acting and singing on stage as Tevye in the musical Fiddler on the Roof, a role he performed more often than any other actor to date." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "In 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/1/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He served as the chairman of the board of directors of Partners for Progressive Israel, where he also lectured." ;
+        ont:place    <http://dbpedia.org/resource/Israel> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His second marriage was in 1967 to Rita Weinberg Call, with whom he had two children." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "two" , "in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1948, Michael Redgrave recommended Bikel to his friend Laurence Olivier as understudy for the parts of both Stanley Kowalski and Harold \"Mitch\" Mitchell in the West End premiere of Tennessee Williams' A Streetcar Named Desire." ;
+        ont:person          <http://dbpedia.org/resource/Mitch_Albom> , <http://dbpedia.org/resource/Michael_Redgrave> , <http://dbpedia.org/resource/Tennessee_Williams> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "In 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/18/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "University of Wisconsin Press." ;
+        ont:place    <http://dbpedia.org/resource/Wisconsin> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/23>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In 1962, Bikel became the first singer besides Dylan to perform \"Blowin' in the Wind\" in public." ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "In 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Originally, only Bikel and Seeger were scheduled to perform, but Bikel wanted Dylan to go with them." ;
+        ont:person   <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/6/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1959, he created the role of Captain von Trapp in the original production of The Sound of Music, which earned him a second Tony nomination." ;
+        ont:person          <http://dbpedia.org/resource/Georg_von_Trapp> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "In 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He appeared in films, including The African Queen (1951), Moulin Rouge (1952), The Kidnappers (1953), The Enemy Below (1957), I Want to Live!" ;
+        ont:place           <http://dbpedia.org/resource/Moulin_Rouge> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1957" , "1951" , "1952" , "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/3/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"The Habimah people were much closer to the Method, indeed, than Lee Strasberg was, because they were direct disciples of Stanislavski." ;
+        ont:person   <http://dbpedia.org/resource/Konstantin_Stanislavski> , <http://dbpedia.org/resource/Lee_Strasberg> ;
+        ont:place    <http://dbpedia.org/resource/Habima_Theatre> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His early albums included Israeli Folk Songs (1955) and Songs of Russian Old & New (1960)." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "1960" , "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/15/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was president of Actors' Equity from 1977 to 1982, in which office he supported human-rights causes." ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "Equity from 1977" , "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/11/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On one occasion, Seeger became infuriated and wished he had an ax to cut the electrical cables because of the poor audio during Bob Dylan's legendary performance accompanied by the Paul Butterfield Blues Band." ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Paul_Butterfield> ;
+        ont:subject         <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:timeExpression  "one occasion" .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Theodore Bikel was born into a Jewish family in Vienna, Austria, the son of Miriam (née Riegler) and Josef Bikel, from Bukovina." ;
+        ont:person   <http://dbpedia.org/resource/Theodore_Bikel> ;
+        ont:place    <http://dbpedia.org/resource/Vienna> , <http://dbpedia.org/resource/Bukovina> , <http://dbpedia.org/resource/First_Austrian_Republic> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .
+
+<http://w3id.org/polifonia/pilot/meetups/492026/13/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was buried at Hillside Memorial Park Cemetery in Culver City, California." ;
+        ont:place    <http://dbpedia.org/resource/Culver_City,_California> ;
+        ont:subject  <http://dbpedia.org/resource/Theodore_Bikel> .

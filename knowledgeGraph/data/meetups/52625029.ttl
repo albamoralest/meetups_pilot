@@ -6,44 +6,191 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/52625029/10/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1918, in recognition of her work with the SWH, Holme was awarded the Samaritan Cross by the King of Serbia, and a Russian medal for Meritorious Service." ;
+        ont:place           <http://dbpedia.org/resource/River_Holme> , <http://dbpedia.org/resource/Serbia> ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "In 1918" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She was known as the Pankhursts' chauffeur." ;
+        ont:person   <http://dbpedia.org/resource/Emmeline_Pankhurst> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Holme waited there overnight with Elsie Howie their objective of shouting \"Votes for Women\" at a political address by a Liberal MP the next day." ;
+        ont:person   <http://dbpedia.org/resource/Elsie_Howey> ;
+        ont:place    <http://dbpedia.org/resource/River_Holme> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
 <http://w3id.org/polifonia/pilot/meetups/52625029/14/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Although during 1919 she was living in Kirkcudbright where she had an affair with the artist Dorothy Johnstone, Holme was left £50 a year for life by Haverfield." ;
         ont:person          <http://dbpedia.org/resource/Dorothy_Johnstone> , <http://dbpedia.org/resource/Evelina_Haverfield> ;
-        ont:place           "http://dbpedia.org/resource/Kirkcudbright" ;
+        ont:place           <http://dbpedia.org/resource/Kirkcudbright> ;
         ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
         ont:timeExpression  "during 1919" .
 
-<http://w3id.org/polifonia/pilot/meetups/52625029/10/0>
+<http://w3id.org/polifonia/pilot/meetups/52625029/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With cancer scientist Alice Laura Embleton, Evelina Haverfield and Celia Wray Holme set up the private 'Foosack League' between themselves the membership of which was restricted to women and suffragists; the internal evidence suggests the Foosack League was a lesbian secret society." ;
+        ont:person   <http://dbpedia.org/resource/Evelina_Haverfield> ;
+        ont:place    <http://dbpedia.org/resource/River_Holme> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/10/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Evelina_Haverfield> ;
-        ont:place           "http://dbpedia.org/resource/River_Holme" ;
+        ont:excerpt         "In 1917 she was sent back to England to carry a personal message from Dr Elsie Inglis to Lord Derby, the Secretary of State for War." ;
+        ont:person          <http://dbpedia.org/resource/Elsie_Inglis> ;
         ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
-        ont:timeExpression  "war in 1914" .
+        ont:timeExpression  "In 1917" .
 
 <http://w3id.org/polifonia/pilot/meetups/52625029/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vera Louise Holme, also known as Vera 'Jack' Holme, (29 August 1881 – 1 January 1969) was a British actress and a suffragette." ;
         ont:person          <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" , "http://dbpedia.org/resource/River_Holme" ;
+        ont:place           <http://dbpedia.org/resource/River_Holme> , <http://dbpedia.org/resource/United_Kingdom> ;
         ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
         ont:timeExpression  "1 January 1969" , "29 August 1881" .
 
-<http://w3id.org/polifonia/pilot/meetups/52625029/12/0>
+<http://w3id.org/polifonia/pilot/meetups/52625029/6/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Evelina_Haverfield> ;
-        ont:place           "http://dbpedia.org/resource/River_Holme" , "http://dbpedia.org/resource/Serbia" ;
+        ont:excerpt         "One notable escapade was when she hid in the large organ of a public hall in Bristol." ;
+        ont:place           <http://dbpedia.org/resource/Bristol> ;
         ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
-        ont:timeExpression  "death in 1920" .
-
-<http://w3id.org/polifonia/pilot/meetups/52625029/7/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Mary_Blathwayt> ;
-        ont:place           "http://dbpedia.org/resource/Batheaston" , "http://dbpedia.org/resource/River_Holme" ;
-        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
-        ont:timeExpression  "In 1909" .
+        ont:timeExpression  "One" .
 
 <http://w3id.org/polifonia/pilot/meetups/52625029/14/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Holme had met Haverfield before the war, and they were companions from 1911 until Haverfield's death in 1920." ;
         ont:person          <http://dbpedia.org/resource/Evelina_Haverfield> ;
-        ont:place           "http://dbpedia.org/resource/River_Holme" ;
+        ont:place           <http://dbpedia.org/resource/River_Holme> ;
         ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
-        ont:timeExpression  "death in 1920" , "from 1911" .
+        ont:timeExpression  "from 1911" , "death in 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1909 Holme was invited to Mary Blathwayt's home at Batheaston where the leading suffragettes met." ;
+        ont:person          <http://dbpedia.org/resource/Mary_Blathwayt> ;
+        ont:place           <http://dbpedia.org/resource/River_Holme> , <http://dbpedia.org/resource/Batheaston> ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "In 1909" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/10/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Holme was imprisoned again; this time she spent some months as a prisoner of war in Austria." ;
+        ont:place    <http://dbpedia.org/resource/River_Holme> , <http://dbpedia.org/resource/Austria> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1920s, She moved to Scotland, and shared a home with artists Dorothy Johnstone and Anne Finlay." ;
+        ont:person          <http://dbpedia.org/resource/Dorothy_Johnstone> , <http://dbpedia.org/resource/Anne_Finlay> ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By 1908 she had joined the Actresses' Franchise League, and became involved in the militant suffrage campaigning group the Women's Social and Political Union (WSPU)." ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "By 1908" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Little is known of her early life but she may have been to convent school in France." ;
+        ont:place    <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She was based in Serbia and Russia." ;
+        ont:place    <http://dbpedia.org/resource/Serbia> , <http://dbpedia.org/resource/Russia> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She played cross dressing roles, and it is thought that her nickname 'Jack' came from one of her stage characters." ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "from one" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Holme helped to set up the Haverfield Fund for Serbian Children, and maintained links with Serbia after Evelina Haverfield's death in 1920." ;
+        ont:person          <http://dbpedia.org/resource/Evelina_Haverfield> ;
+        ont:place           <http://dbpedia.org/resource/River_Holme> , <http://dbpedia.org/resource/Serbia> ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "death in 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/7/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She sketched images of her cell on her release.During these years she was best known as the Pankhursts' chauffeur." ;
+        ont:person   <http://dbpedia.org/resource/Emmeline_Pankhurst> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/10/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She was Haverfield's partner and she was appointed a major." ;
+        ont:person   <http://dbpedia.org/resource/Evelina_Haverfield> , <http://dbpedia.org/resource/Major_(American_musician)> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She became an actress, and in 1906-1907 and 1908-1909 she was a member of the women's chorus in the D'Oyly Carte Opera Company's Gilbert and Sullivan London Repertory Seasons at the Savoy Theatre in London." ;
+        ont:place    <http://dbpedia.org/resource/Savoy_Theatre> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/14/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was known throughout her life for adoption of masculine dress and mannerisms, well documented in the photographs held in her archive.Holme died in 1969 in Glasgow." ;
+        ont:place           <http://dbpedia.org/resource/Glasgow> ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "in 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 22 November 1911 she was arrested for stone throwing and imprisoned for 5 days in Holloway Prison for \"wilfully obstructing the police\" but did not go on hunger strike." ;
+        ont:place           <http://dbpedia.org/resource/HM_Prison_Holloway> ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "for 5" , "22 November 1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Her parents were Richard and Mary Holme." ;
+        ont:person   <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:place    <http://dbpedia.org/resource/River_Holme> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Upon the outbreak of war in 1914 Holme joined Evelina Haverfield's Women's Volunteer Reserve, and went on to join the Scottish Women's Hospitals for Foreign Service (SWH) as an ambulance driver in their transport unit." ;
+        ont:person          <http://dbpedia.org/resource/Evelina_Haverfield> ;
+        ont:place           <http://dbpedia.org/resource/River_Holme> ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "war in 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1920s, she spent time with Christabel Marshall's ménage à trois partners, Edith Craig and Clare Atwood." ;
+        ont:person          <http://dbpedia.org/resource/Christabel_Marshall> , <http://dbpedia.org/resource/Clare_Atwood> ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Holme was born in Birkdale, Lancashire, England." ;
+        ont:place    <http://dbpedia.org/resource/River_Holme> , <http://dbpedia.org/resource/Birkdale> , <http://dbpedia.org/resource/Lancashire> ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Certainly, the four were close friends as evidenced by the many letters written between them, particularly during World War I." ;
+        ont:subject         <http://dbpedia.org/resource/Vera_Holme> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/52625029/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== First World War work ==" ;
+        ont:subject  <http://dbpedia.org/resource/Vera_Holme> .

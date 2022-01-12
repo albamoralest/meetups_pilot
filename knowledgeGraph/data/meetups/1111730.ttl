@@ -6,65 +6,289 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1111730/5/7>
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/13>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Little_Brother_Montgomery> , <http://dbpedia.org/resource/Henry_A._Wallace> , <http://dbpedia.org/resource/Roosevelt_Sykes> , <http://dbpedia.org/resource/Victoria_Spivey> ;
-        ont:place           "http://dbpedia.org/resource/Denmark" , "http://dbpedia.org/resource/Copenhagen" ;
+        ont:excerpt         "The duo performed the song \"Woman Be Wise\" on Late Night with David Letterman on April 27, 1982, with Dr. John accompanying on piano, in support of her album \"Sippie\".Wallace contributed to Louis Armstrong's album Louis Armstrong and the Blues Singers (1966), singing \"A Jealous Woman Like Me\", \"Special Delivery Blues\", \"Jack o'Diamond Blues\", \"The Mail Train Blues\" and \"I Feel Good\"." ;
+        ont:person          <http://dbpedia.org/resource/David_Letterman> , <http://dbpedia.org/resource/Louis_Armstrong> ;
         ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
-        ont:timeExpression  "comeback in 1966" , "October 31 , 1966" .
+        ont:timeExpression  "1966" , "April 27 , 1982" .
 
-<http://w3id.org/polifonia/pilot/meetups/1111730/1/1>
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Wallace> ;
-        ont:place           "http://dbpedia.org/resource/Michigan" ;
-        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
-        ont:timeExpression  "in 1982" , "in 1993" .
-
-<http://w3id.org/polifonia/pilot/meetups/1111730/5/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Alfred_Russel_Wallace> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:excerpt         "Her reputation led to a recording contract with Okeh Records in 1923." ;
         ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
         ont:timeExpression  "in 1923" .
 
-<http://w3id.org/polifonia/pilot/meetups/1111730/7/2>
+<http://w3id.org/polifonia/pilot/meetups/1111730/0/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Sippie_Wallace> ;
-        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:excerpt         "Between 1923 and 1927, she recorded over 40 songs for Okeh Records, many written by her or her brothers, George and Hersal Thomas." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
         ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
-        ont:timeExpression  "In 1984" .
+        ont:timeExpression  "40" , "1923" , "1927" .
 
-<http://w3id.org/polifonia/pilot/meetups/1111730/5/5>
+<http://w3id.org/polifonia/pilot/meetups/1111730/9/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Matt_Wallace> , <http://dbpedia.org/resource/Leland_Stanford> , <http://dbpedia.org/resource/Thomas_Washington> , <http://dbpedia.org/resource/George_Wallace> ;
-        ont:place           "http://dbpedia.org/resource/Detroit" ;
+        ont:excerpt         "In March 1986, following a concert at the Burghausen Jazz Festival in Germany, Wallace suffered a severe stroke and was hospitalized." ;
+        ont:place           <http://dbpedia.org/resource/Burghausen,_Altötting> , <http://dbpedia.org/resource/Germany> ;
         ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
-        ont:timeExpression  "March 6 , 1937.For" , "40" , "in 1936" .
+        ont:timeExpression  "March 1986" .
 
-<http://w3id.org/polifonia/pilot/meetups/1111730/0/0>
+<http://w3id.org/polifonia/pilot/meetups/1111730/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Wallace came from a musical family: her brother George Washington Thomas became a notable pianist, bandleader, composer, and music publisher; a brother Hersal Thomas, was a pianist and composer; her niece Hociel Thomas (George's daughter) was a pianist and composer.When she was a child her family moved to Houston, Texas." ;
+        ont:person   <http://dbpedia.org/resource/Alfred_Russel_Wallace> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place    <http://dbpedia.org/resource/Houston> , <http://dbpedia.org/resource/Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With the German boogie-woogie pianist Axel Zwingenberger she recorded a studio album, Axel Zwingenberger and the Friends of Boogie Woogie, Vol." ;
+        ont:person   <http://dbpedia.org/resource/Axel_Zwingenberger> ;
+        ont:place    <http://dbpedia.org/resource/Germany> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/6>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Sippie_Wallace> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "Mercury Records reissued \"Bedroom Blues\" in 1945." ;
         ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
-        ont:timeExpression  "November 1 , 1898" , "November 1 , 1986" .
+        ont:timeExpression  "in 1945" .
 
-<http://w3id.org/polifonia/pilot/meetups/1111730/3/4>
+<http://w3id.org/polifonia/pilot/meetups/1111730/6/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She appeared at the Newport Folk Festival in 1966 and 1967, toured Europe with the American Folk Blues Festival in 1966, performed at the Chicago Blues Festival in 1967 and the Ann Arbor Blues Festival in 1972, and appeared at Lincoln Center in New York in 1977." ;
+        ont:place           <http://dbpedia.org/resource/Lincoln_Center> , <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "in 1977" , "in 1967" , "in 1972" , "in 1966" , "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wallace was nominated for a Grammy Award in 1982 and was inducted into the Michigan Women's Hall of Fame in 1993." ;
         ont:person          <http://dbpedia.org/resource/George_Wallace> ;
-        ont:place           "http://dbpedia.org/resource/Texas" , "http://dbpedia.org/resource/Louisiana" ;
+        ont:place           <http://dbpedia.org/resource/Michigan> ;
         ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
-        ont:timeExpression  "1915" .
+        ont:timeExpression  "in 1982" , "in 1993" .
 
-<http://w3id.org/polifonia/pilot/meetups/1111730/5/4>
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/12>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wallace toured and recorded with Raitt in the 1970s and 1980s and continued to perform on her own." ;
         ont:person          <http://dbpedia.org/resource/Alfred_Russel_Wallace> ;
-        ont:place           "http://dbpedia.org/resource/Detroit" ;
         ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
-        ont:timeExpression  "in 1929" , "poisoning in 1926" , "19.Wallace" .
+        ont:timeExpression  "1980s" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wallace followed her brothers to Chicago in 1923 and worked her way into the city's bustling jazz scene." ;
+        ont:person          <http://dbpedia.org/resource/Alfred_Russel_Wallace> ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "in 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Her early career in tent shows gained her the billing \"The Texas Nightingale\"." ;
+        ont:place    <http://dbpedia.org/resource/Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
 
 <http://w3id.org/polifonia/pilot/meetups/1111730/3/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wallace was born in the Delta lowlands of Jefferson County, Arkansas, one of 13 children in her family." ;
         ont:person          <http://dbpedia.org/resource/George_Wallace> ;
-        ont:place           "http://dbpedia.org/resource/Harrison,_Arkansas" ;
+        ont:place           <http://dbpedia.org/resource/Harrison,_Arkansas> ;
         ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
-        ont:timeExpression  "one" , "of 13" .
+        ont:timeExpression  "of 13" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Wallace, Beulah Tomas (Sippie)\", Handbook of Texas Online" ;
+        ont:person   <http://dbpedia.org/resource/Alfred_Russel_Wallace> ;
+        ont:place    <http://dbpedia.org/resource/Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Matt Wallace died in 1936 and George Thomas Washington died on March 6, 1937.For some 40 years, Wallace was a singer and organist at the Leland Baptist Church in Detroit." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Matt_Wallace> , <http://dbpedia.org/resource/Leland_Stanford> , <http://dbpedia.org/resource/Thomas_Washington> , <http://dbpedia.org/resource/George_Wallace> ;
+        ont:place           <http://dbpedia.org/resource/Detroit> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "March 6 , 1937.For" , "40" , "in 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1930s, she left show business to become a church organist, singer, and choir director in Detroit and performed secular music only sporadically until the 1960s, when she resumed her performing career." ;
+        ont:place           <http://dbpedia.org/resource/Detroit> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/17/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sippie Wallace (1898-2986) at Red Hot Jazz Archive, biography with audio files of some of her early recordings" ;
+        ont:person   <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Raitt recorded renditions of \"Women Be Wise\" and \"Mighty Tight Woman\" on her self-titled debut album in 1971." ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "album in 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sippie Wallace (born Beulah Belle Thomas, November 1, 1898 – November 1, 1986) was an American blues singer and songwriter." ;
+        ont:person          <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "November 1 , 1986" , "November 1 , 1898" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two years later she married Matt Wallace and took his surname." ;
+        ont:person          <http://dbpedia.org/resource/Matt_Wallace> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 78 RPM singles - Okeh Records ===" ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "78" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sippie Wallace at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/16>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Wallace's backup group was pianist James Dapogny's Chicago Jazz Band, consisting of Paul Klinger on cornet, Bob Smith on trombone and Russ Whitman and Peter Ferran on reeds." ;
+        ont:person   <http://dbpedia.org/resource/Bob_Smith_(New_Hampshire_politician)> , <http://dbpedia.org/resource/Walt_Whitman> ;
+        ont:place    <http://dbpedia.org/resource/Chicago> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hersal Thomas died of food poisoning in 1926, at age 19.Wallace moved to Detroit in 1929." ;
+        ont:person          <http://dbpedia.org/resource/Alfred_Russel_Wallace> ;
+        ont:place           <http://dbpedia.org/resource/Detroit> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "19.Wallace" , "in 1929" , "poisoning in 1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "These recordings helped inspire the musician Bonnie Raitt to take up singing and playing the blues in the late 1960s." ;
+        ont:person   <http://dbpedia.org/resource/Bonnie_Raitt> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Performing in various Texas shows, she built a solid following as a spirited blues singer.In 1915, Wallace moved to New Orleans, Louisiana, with Hersal." ;
+        ont:person          <http://dbpedia.org/resource/George_Wallace> ;
+        ont:place           <http://dbpedia.org/resource/Texas> , <http://dbpedia.org/resource/Louisiana> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1986, Rhapsody Films and producer Roberta Grossman released the documentary Sippie Wallace: Blues Singer and Song Writer, in which Wallace is shown in concert footage, interviews, and photographs, with historic rare recordings." ;
+        ont:person          <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "In 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "King at the Montreaux Jazz Festival on July 22, 1982, in a performance that was filmed and later broadcast." ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "July 22 , 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1981, Wallace recorded the album Sippie for Atlantic Records, which earned her a 1983 Grammy nomination and won the 1982 W. C. Handy Award for Best Blues Album of the Year." ;
+        ont:person          <http://dbpedia.org/resource/W._C._Handy> , <http://dbpedia.org/resource/George_Wallace> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "1982" , "In 1981" , "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Other successful recordings followed, including \"Special Delivery Blues\" (with Louis Armstrong), \"Bedroom Blues\" (written by George and Hersal Thomas), and \"I'm a Mighty Tight Woman\"." ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Louis_Armstrong> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/0/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Among the top female blues vocalists of her era, Wallace ranked with Ma Rainey, Ida Cox, Alberta Hunter, and Bessie Smith." ;
+        ont:person   <http://dbpedia.org/resource/Bessie_Smith> , <http://dbpedia.org/resource/Ma_Rainey> , <http://dbpedia.org/resource/Alberta_Hunter> , <http://dbpedia.org/resource/Alfred_Russel_Wallace> , <http://dbpedia.org/resource/Ida_Cox> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/9/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She is buried at Trinity Cemetery, in Detroit, Wayne County, Michigan." ;
+        ont:place    <http://dbpedia.org/resource/Detroit> , <http://dbpedia.org/resource/Michigan> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1984 she traveled to Germany to tour with Zwingenberger, where they also recorded her only complete live album, An Evening with Sippie Wallace, for Vagabond Records." ;
+        ont:person          <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:place           <http://dbpedia.org/resource/Germany> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "In 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She recorded another album in 1966, Sings the Blues, on which she accompanied herself on piano on the title song, with Sykes or Montgomery playing piano on other tracks." ;
+        ont:person          <http://dbpedia.org/resource/Bernard_Montgomery> , <http://dbpedia.org/resource/Oliver_Sykes> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "album in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She and Spivey recorded an album of blues standards, Sippie Wallace and Victoria Spivey, released in 1970 by Spivey's label, Spivey Records." ;
+        ont:person          <http://dbpedia.org/resource/Victoria_Spivey> , <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "in 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her first recorded songs, \"Shorty George\" and \"Up the Country Blues\", the former written with her brother George, sold well enough to make her a blues star in the early 1920s." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/0/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Her accompanists included Louis Armstrong, Johnny Dodds, Sidney Bechet, King Oliver, and Clarence Williams." ;
+        ont:person   <http://dbpedia.org/resource/Louis_Armstrong> , <http://dbpedia.org/resource/Clarence_Williams_(musician)> , <http://dbpedia.org/resource/Johnny_Dodds> , <http://dbpedia.org/resource/Sidney_Bechet> , <http://dbpedia.org/resource/King_Oliver> ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She returned to the United States and died on her 88th birthday, at Sinai Hospital in Detroit." ;
+        ont:place           <http://dbpedia.org/resource/Sinai_Hospital> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Detroit> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "88th birthday" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In her youth she sang and played the piano in Shiloh Baptist Church, where her father was a deacon, but in the evenings she and her siblings took to sneaking out to tent shows." ;
+        ont:subject  <http://dbpedia.org/resource/Sippie_Wallace> .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1: Sippie Wallace, in 1983 (released in 1984), which included many of her own groundbreaking compositions and other classic blues songs." ;
+        ont:person          <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "in 1983" , "in 1984" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/5/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Aside from an occasional performance or recording date, she did little in the blues until she launched a comeback in 1966, after her longtime friend Victoria Spivey coaxed her out of retirement, and Wallace toured on the folk and blues festival circuit.Wallace recorded an album, Women Be Wise, on October 31, 1966, in Copenhagen, Denmark, with Roosevelt Sykes and Little Brother Montgomery playing the piano." ;
+        ont:person          <http://dbpedia.org/resource/Little_Brother_Montgomery> , <http://dbpedia.org/resource/Roosevelt_Sykes> , <http://dbpedia.org/resource/Henry_A._Wallace> , <http://dbpedia.org/resource/Victoria_Spivey> ;
+        ont:place           <http://dbpedia.org/resource/Denmark> , <http://dbpedia.org/resource/Copenhagen> ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "comeback in 1966" , "October 31 , 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1111730/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She appeared in the 1982 documentary Jammin' with the Blues Greats." ;
+        ont:subject         <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:timeExpression  "1982" .

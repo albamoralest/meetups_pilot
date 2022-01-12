@@ -6,44 +6,366 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/526281/0/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
-        ont:timeExpression  "July 12 , 1943" .
+<http://w3id.org/polifonia/pilot/meetups/526281/13/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Previous recipients have included Douglas Trumbull, James Cameron, Roger Deakins, Dennis Muren and George Lucas." ;
+        ont:person   <http://dbpedia.org/resource/James_Cameron> , <http://dbpedia.org/resource/George_Lucas> , <http://dbpedia.org/resource/Douglas_Trumbull> , <http://dbpedia.org/resource/Roger_Deakins> ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
 
-<http://w3id.org/polifonia/pilot/meetups/526281/14/1>
+<http://w3id.org/polifonia/pilot/meetups/526281/6/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Douglas_Trumbull> , <http://dbpedia.org/resource/Anne_V._Coates> ;
-        ont:place           "http://dbpedia.org/resource/Hertfordshire" ;
+        ont:excerpt         "Subsequently, he worked on George Lucas's THX 1138 and American Graffiti and Coppola's The Godfather before editing picture and mixing sound on Coppola's The Conversation, for which he received an Academy Award nomination in sound in 1974." ;
+        ont:person          <http://dbpedia.org/resource/George_Lucas> ;
         ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
-        ont:timeExpression  "Arts.In 2018" , "in 2013" , "Garrett Brown.In 2016" , "two" .
-
-<http://w3id.org/polifonia/pilot/meetups/526281/2/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
-        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
-        ont:timeExpression  "1907–1967" .
+        ont:timeExpression  "sound in 1974" , "THX 1138" .
 
 <http://w3id.org/polifonia/pilot/meetups/526281/13/8>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He received an Academy Award nomination for this work; his efforts on the film were documented in Charles Koppelman's 2004 book Behind the Seen.In 2006, he was awarded an honorary doctorate of letters by the Emily Carr Institute of Art and Design in Vancouver, Canada.In 2009, Murch's work was the subject of a tribute, \"The Art of Walter Murch,\" a program in \"The Professionals,\" a series by the California Film Institute at the Christopher B. Smith Rafael Film Center.In 2012, Murch was invited to serve as a mentor for the Rolex Mentor and Protégé Arts Initiative, an international philanthropic program that pairs masters in their disciplines with emerging talents for a year of one-to-one creative exchange." ;
         ont:person          <http://dbpedia.org/resource/Charles_Koppelman> , <http://dbpedia.org/resource/Christopher_Tolkien> , <http://dbpedia.org/resource/Walter_Murch> ;
-        ont:place           "http://dbpedia.org/resource/Vancouver" ;
+        ont:place           <http://dbpedia.org/resource/Vancouver> ;
         ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
         ont:timeExpression  "Canada.In 2009" , "2004 book" , "Seen.In 2006" , "Christopher B. Smith Rafael Film Center.In 2012" .
 
+<http://w3id.org/polifonia/pilot/meetups/526281/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "There is a dedicated post-production lab on the Hertfordshire campus named for Murch which opened in 2015.He is the only film editor to have received Academy Award nominations for films edited on four different systems:" ;
+        ont:place           <http://dbpedia.org/resource/Hertfordshire> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "in 2015.He" , "on four" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1965, Murch and Robbins enrolled in the graduate program of the University of Southern California's film school, encouraging Deschanel to follow them." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "In 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Before this, he wrote the foreword to Michel Chion's Audio-Vision: Sound on Screen (1994)." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "1994" .
+
 <http://w3id.org/polifonia/pilot/meetups/526281/20/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They have now lived in Bolinas, California, since 1972 and have 4 children: Walter Slater Murch, Beatrice Louise Murch, Carrie Angland, and Connie Angland." ;
         ont:person          <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> , <http://dbpedia.org/resource/Princess_Beatrice_of_the_United_Kingdom> ;
-        ont:place           "http://dbpedia.org/resource/Bolinas,_California" , "http://dbpedia.org/resource/California" ;
+        ont:place           <http://dbpedia.org/resource/Bolinas,_California> , <http://dbpedia.org/resource/California> ;
         ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
         ont:timeExpression  "4" , "since 1972" .
 
+<http://w3id.org/polifonia/pilot/meetups/526281/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Additionally, the film is the first to credit anyone as Sound Designer, a professional designation that Murch is widely attributed to have coined as a means to help legitimate the field of post-production sound, much in the way William Cameron Menzies coined the term \"Production Designer\" in the 1930s.Apocalypse Now was also notable for being the second film released in a Dolby sound system that has come to be known as 5.1, with three screen speaker channels, low-frequency enhancement, and two surround channels (one more channel than standard surround sound arrangements at the time)." ;
+        ont:person          <http://dbpedia.org/resource/William_Cameron_Menzies> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "two surround" , "as 5.1" , "three screen speaker" , "1930s.Apocalypse" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/36/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Literature on Walter Murch" ;
+        ont:person   <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Behind the Scenes with Film Editor Walter Murch interview at NPR All Things Considered, November 8, 2005" ;
+        ont:person          <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "November 8 , 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1988 Murch was one of the editors on The Unbearable Lightness of Being, directed by Phil Kaufman.Murch edits in a standing position, comparing the process of film editing to \"conducting, brain surgery and short-order cooking\" since all conductors, cooks, and surgeons stand when they work." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "In 1988" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He attended The Collegiate School, a private preparatory school in Manhattan, from 1949 to 1961." ;
+        ont:place           <http://dbpedia.org/resource/Manhattan> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "1961" , "from 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/35/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"A Digital Cinema of the Mind\" article by Murch in New York Times" ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/28/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Transom Review" ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1985 he directed his only feature film, Return to Oz, which he co-wrote with Gill Dennis." ;
+        ont:person          <http://dbpedia.org/resource/Dennis_Wilson> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "In 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He is the grandson of Louise Tandy Murch, a music teacher who was the subject of the 1975 documentary film At 99: A Portrait of Louise Tandy Murch and of Mary Elizabeth MacCallum Scott, a Canadian physician, educator and Christian medical missionary." ;
+        ont:person          <http://dbpedia.org/resource/Elizabeth_II> , <http://dbpedia.org/resource/Walter_Scott> , <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "At 99" , "1975 documentary film" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/13/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Previous film mentors for the initiative include Mira Nair (2004), Stephen Frears (2006), Martin Scorsese (2008) and Zhang Yimou (2010).Murch is the 2012 recipient of the Nikola Tesla Award given by the International Press Academy Satellite Awards for \"Visionary Achievement in Filmmaking Technology\"." ;
+        ont:person          <http://dbpedia.org/resource/Mira_Nair> , <http://dbpedia.org/resource/Zhang_Yimou> , <http://dbpedia.org/resource/Nikola_Tesla> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "2004" , "2010" , "2006" , "2008" , "2012 recipient" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Mixing Apocalypse Now\" by Larry Blake, Mix Magazine, August 1, 2001." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "August 1 , 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/27/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Walter Murch Articles at Filmsound.org" ;
+        ont:person   <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Murch started editing and mixing sound with Francis Ford Coppola's The Rain People (1969)." ;
+        ont:person          <http://dbpedia.org/resource/Francis_Ford_Coppola> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Retouching Evil\" by Michael Sragow, SF Weekly, September 9, 1998." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Sragow> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "September 9 , 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/26/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Walter Murch at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The two previous recipients of the award, initiated in 2013, were Douglas Trumbull and Garrett Brown.In 2016, Murch was awarded an honorary doctorate of media by the Southampton Solent University in Southampton, England along with Anne Coates who received an honorary Doctorate of Arts.In 2018, Murch was awarded an honorary doctorate of arts by the University of Hertfordshire, for his contribution to the film industry in the county of Hertfordshire and his contribution towards The Elstree Project and the Film and Television Production degrees." ;
+        ont:person          <http://dbpedia.org/resource/Douglas_Trumbull> , <http://dbpedia.org/resource/Anne_V._Coates> ;
+        ont:place           <http://dbpedia.org/resource/Hertfordshire> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "Arts.In 2018" , "two" , "Garrett Brown.In 2016" , "in 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "With a career stretching back to 1969, including work on THX1138, Apocalypse Now, The Godfather I, II, and III, American Graffiti, The Conversation, and The English Patient, with three Academy Award wins (from nine nominations: six for picture editing and three for sound mixing), he has been referred to by Roger Ebert as \"the most respected film editor and sound designer in the modern cinema.\"" ;
+        ont:person          <http://dbpedia.org/resource/Roger_Ebert> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "1969" , "three" , "from nine" , "six" , "with three" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/3/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Murch spent the university school year 1963–1964 in Europe, studying Romance Languages and the History of Art in Italy at Perugia and in France at the Sorbonne." ;
+        ont:place           <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/Italy> , <http://dbpedia.org/resource/Perugia> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "1963–1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/20/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Directly after getting married, the couple took a motorcycle trip across the United States." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cold Mountain (2003) using Final Cut Pro 4Murch is also Honorary Associate of London Film School." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "2003" , "Cut Pro 4Murch" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "While at Johns Hopkins, he met future director/screenwriter Matthew Robbins, cinematographer Caleb Deschanel, and philosopher Andrew Feenberg, with whom he staged a number of happenings." ;
+        ont:person   <http://dbpedia.org/resource/Caleb_Deschanel> , <http://dbpedia.org/resource/Matthew_Robbins_(screenwriter)> , <http://dbpedia.org/resource/Andrew_Feenberg> ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/31/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Heliocentric Pantheon: an interview with Walter Murch" ;
+        ont:person   <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The English Patient (1996) using Avid" ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Edison-Dickson Kinetophone Project 1894" ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "Edison-Dickson Kinetophone Project 1894" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Apocalypse Now (1979), Ghost (1990), and The Godfather Part III (1990) using KEM flatbed" ;
+        ont:person          <http://dbpedia.org/resource/Kem_(singer)> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "1990" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Murch was born in New York City, New York, the son of Katharine (née Scott) and Canadian-born Walter Tandy Murch (1907–1967), a painter." ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "1907–1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Julia (1977) using upright Moviola" ;
+        ont:person          <http://dbpedia.org/resource/Julia_the_Elder> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/13/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Murch's editing Oscar was the first to be awarded for an electronically edited film (using the Avid system), and he is the only person ever to win Oscars for both sound mixing and film editing.In 2003, Murch edited another Anthony Minghella film, Cold Mountain on Apple's sub-$1000 Final Cut Pro software using off the shelf Power Mac G4 computers." ;
+        ont:person          <http://dbpedia.org/resource/Anthony_Minghella> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "2003" , "1000" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2015, Murch was presented with the Vision Award Nescens, at the 68th Locarno Film Festival, for his contributions to cinema." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "In 2015" , "68th" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Walter Scott Murch (born July 12, 1943) is an American film editor, director, writer and sound designer." ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "July 12 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of his most praised techniques he refers to as \"the rule of six\" referring to the 6 criteria in a film that he examines when making a cut." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "6" , "rule of six" , "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Murch then attended Johns Hopkins University from 1961 to 1965, graduating Phi Beta Kappa in Liberal Arts." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "from 1961" , "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Murch married Muriel Ann \"Aggie\" Slater at Riverside Church, New York City, on August 6, 1965." ;
+        ont:place           <http://dbpedia.org/resource/Riverside_Church> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "August 6 , 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1979, he won an Oscar for the sound mix of Apocalypse Now as well as a nomination for picture editing." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "In 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2007 the documentary Murch premiered at the San Francisco International Film Festival, which centered on Murch and his thoughts on filmmaking.In 2012, Murch's translations of short stories by the Italian writer Curzio Malaparte were published as The Bird That Swallowed Its Cage." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "In 2007" , "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Murch and his family settled in Bolinas, California, in 1972." ;
+        ont:place           <http://dbpedia.org/resource/California> , <http://dbpedia.org/resource/Bolinas,_California> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "in 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/3/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "This featured, among many other acts, the first radio performance of the 20-year-old Bob Dylan." ;
+        ont:person   <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He did sound design work on Apocalypse Now, for which he won his first Academy Award in 1979 and he was also significantly involved in the re-editing work that resulted in the extended Apocalypse Now Redux in 2001." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "in 2001" , "in 1979" .
+
 <http://w3id.org/polifonia/pilot/meetups/526281/4/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Not long after film school, in 1969, Murch, Lucas, and others joined Francis Ford Coppola at American Zoetrope in San Francisco." ;
         ont:person          <http://dbpedia.org/resource/George_Lucas> , <http://dbpedia.org/resource/Francis_Ford_Coppola> ;
-        ont:place           "http://dbpedia.org/resource/San_Francisco" ;
+        ont:place           <http://dbpedia.org/resource/San_Francisco> ;
         ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
         ont:timeExpression  "in 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/13/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In recent years, Murch has asserted that the Meyer Sound subwoofers were more \"emotionally significant\" to the film's presentations than were the two surround channels.In 1996, Murch worked on Anthony Minghella's The English Patient, which was based on Michael Ondaatje's novel of the same name." ;
+        ont:person          <http://dbpedia.org/resource/Anthony_Minghella> , <http://dbpedia.org/resource/Michael_Ondaatje> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "two surround channels.In" , "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His reason for this is that where editing film is an editorial process, the creative process of writing is opposite that, and so he lies down rather than sit or stand up, to separate his editing mind from his creating mind.Murch has written one book on film editing, In the Blink of an Eye (1995), which has been translated into many languages including Chinese, Italian, Hebrew, Spanish, French, German, Hungarian and Persian." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "one book" , "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He assisted with the July 29th 1961 live broadcast of a 12-hour folk music Hootenanny produced by Izzy Young." ;
+        ont:person          <http://dbpedia.org/resource/Izzy_Young> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "July 29th 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Murch also mixed the sound for Coppola's The Godfather Part II which was released in 1974, the same year as The Conversation." ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "in 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/13/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Out of a gifted field of candidates, Murch chose Italian film editor Sara Fgaier as his protégée." ;
+        ont:person   <http://dbpedia.org/resource/Sara_Duterte> ;
+        ont:subject  <http://dbpedia.org/resource/Walter_Murch> .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The movie was initially seen and heard in this 70mm six-track format in only 17 theaters, some of which also featured prototypes of the Model 650 subwoofer developed by John and Helen Meyer." ;
+        ont:person          <http://dbpedia.org/resource/Helen_Meyer> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "Model 650" , "70mm" , "17" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was also the subject of Michael Ondaatje's book The Conversations (2002), which consists of several conversations between Ondaatje and Murch; the book emerged from Murch's editing of The English Patient, which was based on Ondaatje's novel of the same name." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Ondaatje> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "There all three encountered, and became friends with, fellow students such as George Lucas, Hal Barwood, Robert Dalva, Willard Huyck, Don Glut and John Milius; all of these men would go on to be successful filmmakers." ;
+        ont:person          <http://dbpedia.org/resource/George_Lucas> , <http://dbpedia.org/resource/Willard_Huyck> , <http://dbpedia.org/resource/Donald_F._Glut> , <http://dbpedia.org/resource/Hal_Barwood> , <http://dbpedia.org/resource/John_Milius> , <http://dbpedia.org/resource/Robert_Dalva> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/526281/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the summer of 1961 he worked as a music librarian and production assistant at Riverside Church's newly founded radio station WRVR, now WLTW." ;
+        ont:place           <http://dbpedia.org/resource/Riverside_Church> ;
+        ont:subject         <http://dbpedia.org/resource/Walter_Murch> ;
+        ont:timeExpression  "summer of 1961" .

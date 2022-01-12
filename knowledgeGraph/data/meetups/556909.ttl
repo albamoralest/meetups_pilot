@@ -6,30 +6,194 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/556909/7/0>
+<http://w3id.org/polifonia/pilot/meetups/556909/9/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Paul_Abrahams> ;
-        ont:place           "http://dbpedia.org/resource/Europe" ;
+        ont:excerpt         "B: was Coetzee's third solo album, released at about the time of his death in March 1998." ;
+        ont:person          <http://dbpedia.org/resource/Jeff_Coetzee> ;
         ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
-        ont:timeExpression  "In 1988" .
+        ont:timeExpression  "March 1998" .
 
-<http://w3id.org/polifonia/pilot/meetups/556909/0/0>
+<http://w3id.org/polifonia/pilot/meetups/556909/14/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Gerrie_Coetzee> ;
-        ont:place           "http://dbpedia.org/resource/Manenberg" ;
+        ont:excerpt         "Monwabisi MOU592 - 1993" ;
         ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
-        ont:timeExpression  "2 February 1944" , "11 March 1998" .
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/10/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Coetzee's son, Basil Coetzee, Jr., played saxophone in the service." ;
+        ont:person   <http://dbpedia.org/resource/Jeff_Coetzee> , <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "'\"Coetzee was signed to the Cape Town based Mountain Records label for a large part of his recording career and made his only solo albums for the label." ;
+        ont:person   <http://dbpedia.org/resource/Jeff_Coetzee> ;
+        ont:place    <http://dbpedia.org/resource/Cape_Town> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Recorded in one week, this album changed perceptions about local jazz and includes some Cape Jazz jewels." ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "one week" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He has 18 recording sessions to his name, but his own compositions appear only on his Mountain Records releases." ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "18 recording" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After Abdullah Ibrahim's return to South Africa from exile, Coetzee regularly performed in Ibrahim's various ensembles." ;
+        ont:person   <http://dbpedia.org/resource/Jeff_Coetzee> , <http://dbpedia.org/resource/Abdullah_Ibrahim> , <http://dbpedia.org/resource/Ibrahim_Pasha_of_Egypt> ;
+        ont:place    <http://dbpedia.org/resource/South_Africa> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sabenza MOU522 - 1988" ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "1988" .
 
 <http://w3id.org/polifonia/pilot/meetups/556909/10/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Abdullah Ibrahim was one of those who paid tribute to Basil's memory at his funeral, announcing plans for the establishment of a Basil Manenberg Coetzee Music Academy in his memory." ;
         ont:person          <http://dbpedia.org/resource/Abdullah_Ibrahim> , <http://dbpedia.org/resource/Jeff_Coetzee> ;
-        ont:place           "http://dbpedia.org/resource/Manenberg" ;
+        ont:place           <http://dbpedia.org/resource/Manenberg> ;
         ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
         ont:timeExpression  "one" .
 
+<http://w3id.org/polifonia/pilot/meetups/556909/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Basil \"Manenberg\" Coetzee (2 February 1944 – 11 March 1998) was a South African musician, perhaps best known as a saxophonist." ;
+        ont:person          <http://dbpedia.org/resource/Gerrie_Coetzee> ;
+        ont:place           <http://dbpedia.org/resource/Manenberg> ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "11 March 1998" , "2 February 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1988 he toured Europe, and released the album Sabenza, with Robbie Jansen, Paul Abrahams (bassist) and Jack Momple, who had all left American-influenced jazz in search of their Cape roots." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Abrahams> ;
+        ont:place           <http://dbpedia.org/resource/Europe> ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "In 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Basil Coetzee's recording years spanned 1962–97, playing both tenor saxophone and flute." ;
+        ont:person          <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "1962–97" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Together with Robbie Jansen they created the unique brass sound of the group The Pacific Express inspiring many younger cape jazz musicians in Cape Town." ;
+        ont:place    <http://dbpedia.org/resource/Cape_Town> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "An article in The Scotsman records that \"Coetzee developed a soulful, gospel-influenced instrumental voice which had a raw, impassioned urgency at its core." ;
+        ont:person   <http://dbpedia.org/resource/Jeff_Coetzee> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
 <http://w3id.org/polifonia/pilot/meetups/556909/10/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His funeral took place on Saturday 14 March 1998 in Mitchell's Plain, and he is buried in the Garden of Eden in Ottery." ;
         ont:person          <http://dbpedia.org/resource/Donovan_Mitchell> ;
-        ont:place           "http://dbpedia.org/resource/Ottery_St_Mary" ;
+        ont:place           <http://dbpedia.org/resource/Ottery_St_Mary> ;
         ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
         ont:timeExpression  "14 March 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Basil toured and recorded extensively with Brand (Abdullah Ibrahim)." ;
+        ont:person   <http://dbpedia.org/resource/Abdullah_Ibrahim> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The composition \"Manenberg\" became a South African jazz classic, and is also internationally renowned (indeed, a visit to the Cape Town waterfront will still today reward the jazz enthusiast with the \"Manenberg\" jazz venue)." ;
+        ont:place    <http://dbpedia.org/resource/Cape_Town> , <http://dbpedia.org/resource/Manenberg> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Basil Coetzee died during the night of 11 March 1998, after a long struggle with cancer, survived by five children and six grandchildren." ;
+        ont:person          <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "by five" , "six" , "11 March 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/7/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the period between leaving his former Pacific Express associates and playing only sporadically for Ibrahim, Coetzee and bass player Paul Abrahams worked together as a duo." ;
+        ont:person   <http://dbpedia.org/resource/Jeff_Coetzee> , <http://dbpedia.org/resource/Paul_Abrahams> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He earned the nickname \"Manenberg\" after the hugely successful collaboration with Dollar Brand in the late seventies." ;
+        ont:person   <http://dbpedia.org/resource/Abdullah_Ibrahim> ;
+        ont:place    <http://dbpedia.org/resource/Manenberg> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ibrahim recorded his composition \"Mannenberg\" with Coetzee – it became an enormous hit in the townships and impressed musicians as the recording is reputed to have been made in just one take." ;
+        ont:person          <http://dbpedia.org/resource/Jeff_Coetzee> , <http://dbpedia.org/resource/Ibrahim_of_the_Ottoman_Empire> ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "one take" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Abdullah Ibrahim is quoted by the BBC as saying, \"Even Basil himself said that in later years he would use that solo as a study exercise." ;
+        ont:person   <http://dbpedia.org/resource/Abdullah_Ibrahim> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Passport - The Best of Basil Coetzee - 2014 (Digital only)" ;
+        ont:person          <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mountain Records describes Coetzee thus: His distinctive raunchy tenor sound and the untiring commitment to his cultural roots made him one of the best known jazzmen to come out of South Africa." ;
+        ont:place           <http://dbpedia.org/resource/South_Africa> ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is probably best known for his recording work with Abdullah Ibrahim (previously known as Dollar Brand)." ;
+        ont:person   <http://dbpedia.org/resource/Abdullah_Ibrahim> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "B: MOU7522 - 1998" ;
+        ont:subject         <http://dbpedia.org/resource/Basil_Coetzee> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was followed by the album Monwabisi, Coetzee's second solo project." ;
+        ont:person   <http://dbpedia.org/resource/Jeff_Coetzee> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The band Sabenza was active on the local scene, and regularly featured bassist Paul Abrahams, guitarist James Kibby, and drummer Vic Higgins." ;
+        ont:person   <http://dbpedia.org/resource/James_the_Great> , <http://dbpedia.org/resource/Paul_Abrahams> , <http://dbpedia.org/resource/Steve_Higgins> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .
+
+<http://w3id.org/polifonia/pilot/meetups/556909/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Coetzee was born in District Six, Cape Town, South Africa." ;
+        ont:person   <http://dbpedia.org/resource/Jeff_Coetzee> ;
+        ont:place    <http://dbpedia.org/resource/Cape_Town> ;
+        ont:subject  <http://dbpedia.org/resource/Basil_Coetzee> .

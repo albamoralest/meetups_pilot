@@ -6,65 +6,601 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1048151/34/2>
+<http://w3id.org/polifonia/pilot/meetups/1048151/22/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_O._Westwood> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
-        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
-        ont:timeExpression  "November 7 , 1943" .
-
-<http://w3id.org/polifonia/pilot/meetups/1048151/32/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Twiggy> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Peter_Sellers> ;
-        ont:place           "http://dbpedia.org/resource/McCloud_River" ;
-        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
-        ont:timeExpression  "1974" , "1979" , "1975" .
-
-<http://w3id.org/polifonia/pilot/meetups/1048151/6/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Oscar_Hammerstein_II> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/New_York_City" ;
-        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
-        ont:timeExpression  "1939" , "for 59" , "in 1939" .
-
-<http://w3id.org/polifonia/pilot/meetups/1048151/4/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_S._Reed> , <http://dbpedia.org/resource/Jackie_Cooper> , <http://dbpedia.org/resource/Mickey_Rooney> , <http://dbpedia.org/resource/Frankie_Thomas> ;
-        ont:place           "http://dbpedia.org/resource/Flanders" ;
-        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
-        ont:timeExpression  "1933" , "1934" , "1935" .
-
-<http://w3id.org/polifonia/pilot/meetups/1048151/4/1>
-        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Back at Columbia Quine did the narration for The Wackiest Ship in the Army (1960)  with Lemmon." ;
         ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
         ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
-        ont:timeExpression  "six" .
+        ont:timeExpression  "1960" .
 
-<http://w3id.org/polifonia/pilot/meetups/1048151/16/2>
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/15>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Sam_Katzman> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
-        ont:place           "http://dbpedia.org/resource/Baghdad" ;
+        ont:excerpt         "On January 4, 1965, they married in Rosarito Beach, Mexico." ;
+        ont:place           <http://dbpedia.org/resource/Rosarito_Beach> , <http://dbpedia.org/resource/Mexico> ;
         ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
-        ont:timeExpression  "1953" .
+        ont:timeExpression  "January 4 , 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/26/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He returned to TV producing and directing episodes of the short-lived The Jean Arthur Show (1966)." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/21/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He made It Happened to Jane (1959) with Doris Day and Lemmon, produced by Day's film production company, Arwin Productions." ;
+        ont:person          <http://dbpedia.org/resource/Doris_Day> , <http://dbpedia.org/resource/Jane_Fonda> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Born in Detroit, Quine's father was an actor." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:place    <http://dbpedia.org/resource/Detroit> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Edwards and Quine wrote the script for a musical remake of My Sister Eileen (1955), which Quine directed, and He Laughed Last (1956), which Edwards directed." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1955" , "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/32/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine was hired to direct another Sellers film, The Fiendish Plot of Dr. Fu Manchu (1980)." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/25/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "None of these projects happened.Quine directed and produced Paris When It Sizzles (1964) with Holden and Audrey Hepburn, done for his own company via Paramount." ;
+        ont:person          <http://dbpedia.org/resource/Audrey_Hepburn> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/18/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Universal-International borrowed him to direct Tony Curtis in a musical, So This Is Paris (1954)." ;
+        ont:person          <http://dbpedia.org/resource/Tony_Curtis> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had support roles in No Sad Songs for Me (1950) and Rookie Fireman (1950), both at Columbia.At Columbia he directed some comedy shorts: A Slip and a Miss (1950) with Hugh Herbert, Foy Meets Girl (1950) with Eddie Foy, Jr, The Awful Sleuth with Bert Wheeler, and Woo-Woo Blues (1951) with Herbert." ;
+        ont:person          <http://dbpedia.org/resource/Bert_Wheeler> , <http://dbpedia.org/resource/Hugh_Herbert> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1951" , "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/31/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also worked on another, much less successful NBC Mystery Movie series, McCoy, reuniting him with star Tony Curtis, whom Quine had directed in So This Is Paris and Sex and the Single Girl (1964)." ;
+        ont:person          <http://dbpedia.org/resource/Tony_Curtis> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/43/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Richard Quine at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
 
 <http://w3id.org/polifonia/pilot/meetups/1048151/36/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After an extended period of depression and poor health, Quine shot himself in the head at his Los Angeles home on June 10, 1989." ;
         ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
         ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
         ont:timeExpression  "June 10 , 1989" .
 
-<http://w3id.org/polifonia/pilot/meetups/1048151/31/0>
+<http://w3id.org/polifonia/pilot/meetups/1048151/29/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Peter_Falk> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:excerpt         "=== 1970s ===" ;
         ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
-        ont:timeExpression  "three" , "1970s" , "1970" .
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/17/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Quine created it and Edwards was chief writer.Without Edwards, Quine directed episodes of Footlights Theater, General Electric Theater, and The Ford Television Theatre." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The story was later adapted by another writer, but Quine and Asher were hired to produce and direct the 1948 film version released by Columbia Pictures.Reportedly Harry Cohn offered to buy the script outright but they wanted to direct." ;
+        ont:person          <http://dbpedia.org/resource/Asher> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Harry_Cohn> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1948 film version" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On April 17, 1946, the couple adopted a ten-day-old baby boy whom they named Timothy Richard Quine." ;
+        ont:person          <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "April 17 , 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/42/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Richard Quine at the TCM Movie Database" ;
+        ont:person   <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/28/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In addition to producing, directing and screenwriting, Quine was a lyricist." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/23/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was also going to do Man Hunt in Kenya with William Holden." ;
+        ont:person   <http://dbpedia.org/resource/William_Holden> ;
+        ont:place    <http://dbpedia.org/resource/Kenya> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "These were all musicals but they also made a film noir, Drive a Crooked Road (1954) with Rooney." ;
+        ont:person          <http://dbpedia.org/resource/Wayne_Rooney> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/41/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Richard Quine at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine was married four times and had three children." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "four" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/22/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quin Productions' first film was Strangers When We Meet (1960) with Kirk Douglas, Novak and Kovaks; the film was co-produced with Douglas' film production company, Bryna Productions.Ray Stark hired him at the last minute to replace Jean Negulesco on The World of Suzie Wong (1960) with William Holden and Nancy Kwan at Paramount." ;
+        ont:person          <http://dbpedia.org/resource/Kirk_Douglas> , <http://dbpedia.org/resource/William_Holden> , <http://dbpedia.org/resource/Nancy_Kwan> , <http://dbpedia.org/resource/Jean_Negulesco> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1960" .
 
 <http://w3id.org/polifonia/pilot/meetups/1048151/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Richard Quine (November 12, 1920 – June 10, 1989) was an American director, actor, and singer." ;
         ont:person          <http://dbpedia.org/resource/Richard_Quine> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
-        ont:timeExpression  "June 10 , 1989" , "November 12 , 1920" .
+        ont:timeExpression  "November 12 , 1920" , "June 10 , 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He appeared in The Cockeyed Miracle (1946), Words and Music (1948) and Command Decision (1948)." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1946" , "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "While directing Sex and the Single Girl, Quine met and began dating one of the film's stars, Fran Jeffries." ;
+        ont:person          <http://dbpedia.org/resource/Fran_Jeffries> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/40/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Richard Quine at the Internet Broadway Database" ;
+        ont:person   <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/21/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His films included The Solid Gold Cadillac (1956) and Full of Life (1956) with Judy Holliday; Operation Mad Ball (1957) with Jack Lemmon and Ernie Kovacs, with Blake Edwards helping write the script; Bell, Book and Candle (1958) with James Stewart, Novak, Kovacs and Lemmon." ;
+        ont:person          <http://dbpedia.org/resource/Blake_Edwards> , <http://dbpedia.org/resource/James_Stewart> , <http://dbpedia.org/resource/Ernie_Kovacs> , <http://dbpedia.org/resource/Jack_Lemmon> , <http://dbpedia.org/resource/Judy_Holliday> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1956" , "1958" , "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine produced and directed Synanon (1965) for Columbia, a little seen film about addicts." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine helped Edwards write the film that became Edwards' first feature as director, Bring Your Smile Along (1955) with Laine." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He followed it with Purple Heart Diary (1951) with Frances Langford." ;
+        ont:person          <http://dbpedia.org/resource/Frances_Langford> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine's other directorial credits include W (1974) with Twiggy, and The Specialists (1975), and episodes of Hec Ramsey, McCloud and Project U.F.O..His final completed film as a director was the  film The Prisoner of Zenda (1979) starring Peter Sellers." ;
+        ont:person          <http://dbpedia.org/resource/Peter_Sellers> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Twiggy> ;
+        ont:place           <http://dbpedia.org/resource/McCloud_River> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1974" , "1975" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine directed the film noir Pushover (1954) that launched Kim Novak as a star." ;
+        ont:person          <http://dbpedia.org/resource/Kim_Novak> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was third billed in The Clay Pigeon (1949), a low budget noir directed by Richard Fleischer and written by Carl Foreman at RKO." ;
+        ont:person          <http://dbpedia.org/resource/Richard_Fleischer> , <http://dbpedia.org/resource/Carl_Foreman> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1970s, Quine directed The Moonshine War (1970) at MGM and a pilot for a show based on Catch-22 starring Richard Dreyfuss.He directed three episodes of Peter Falk's Columbo, including \"Dagger of the Mind,\" an episode set in Britain." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Peter_Falk> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1970" , "three" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He produced and directed Lemmon, Fred Astaire and Novak in The Notorious Landlady (1962), co written by Edwards." ;
+        ont:person          <http://dbpedia.org/resource/Fred_Astaire> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine and Edwards entered television with The Mickey Rooney Show (1954–55) which lasted for a season of 34 episodes." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Mickey_Rooney> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1954–55" , "season of 34" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The two set about adapting \"Leather Gloves,\" a short story that appeared in the Saturday Evening Post." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "two set" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The bullet lodged in her spine, leaving her paralyzed from the waist down." ;
+        ont:person   <http://dbpedia.org/resource/Bob_Armstrong> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine returned to acting with a role in the movie Original: Do Not Project (1972)." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They remained married until Quine's death in 1989." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "death in 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/23/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Quine announced he would do several projects for his own company: The Image Makers with Glenn Ford, Roar Like a Dove with Doris Day, and The Fannie Brice Story for Ray Stark." ;
+        ont:person   <http://dbpedia.org/resource/Fanny_Brice> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Doris_Day> , <http://dbpedia.org/resource/Ray_Stark> , <http://dbpedia.org/resource/Glenn_Ford> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine then directed a series of films he co wrote with Blake Edwards: Sound Off (1952) with Mickey Rooney, Rainbow 'Round My Shoulder (1952) with Frankie Laine, All Ashore (1953) with Rooney and Dick Haymes, and Cruisin' Down the River (1954) with Haymes." ;
+        ont:person          <http://dbpedia.org/resource/Mickey_Rooney> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Frankie_Laine> , <http://dbpedia.org/resource/Blake_Edwards> , <http://dbpedia.org/resource/Rooney_Mara> , <http://dbpedia.org/resource/Dick_Haymes> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1952" , "1953" , "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/22/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Quine set up his own film production company, Quine Productions, and secured a financing and distribution deal through Columbia Pictures." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/15/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== Collaboration with Blake Edwards ===" ;
+        ont:person   <http://dbpedia.org/resource/Blake_Edwards> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/10/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "While in the Coast Guard, he became a lieutenant and served in public relations department in San Diego, California.After the war, Quine's acting career stalled." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:place    <http://dbpedia.org/resource/San_Diego> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Columbia borrowed him to reprise his stage role in My Sister Eileen (1942)." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He later dated actresses Judy Holliday, whom he had directed in Full of Life and The Solid Gold Cadillac (both 1956) and Natalie Wood (whom he also directed in Sex and the Single Girl (1964)." ;
+        ont:person          <http://dbpedia.org/resource/Natalie_Wood> , <http://dbpedia.org/resource/Judy_Holliday> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1964" , "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By then Quine was established as one of Columbia's leading directors." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "as one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In July 1951 he signed a seven-year contract with Columbia to direct.Quine's first solo effort as director was the musical comedy The Sunny Side of the Street (1951) starring Frankie Laine." ;
+        ont:person          <http://dbpedia.org/resource/Frankie_Laine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1951" , "July 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/12/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The film was successful and Quine was hired to a long-term contract at Columbia." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/13/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Quine continued to act for a while." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Quine and friend William Asher then decided to get into production and directing." ;
+        ont:person   <http://dbpedia.org/resource/William_Asher> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Their divorce became final in December 1970.In 1977, Quine married Diana Balfour." ;
+        ont:person          <http://dbpedia.org/resource/Arthur_Balfour> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "December 1970.In 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He could also be seen in The World Changes (1933) (alongside a young Mickey Rooney), Counsellor-at-Law (1933), Jane Eyre (1934, as John Reed), Dames (1934), Wednesday's Child (1934) with Frankie Thomas, Little Men (1934), Life Returns (1935), A Dog of Flanders (1935) with Thomas, and Dinky (1935) with Jackie Cooper." ;
+        ont:person          <http://dbpedia.org/resource/John_S._Reed> , <http://dbpedia.org/resource/Jackie_Cooper> , <http://dbpedia.org/resource/Mickey_Rooney> , <http://dbpedia.org/resource/Frankie_Thomas> ;
+        ont:place           <http://dbpedia.org/resource/Flanders> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1933" , "1934" , "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Walter Wanger borrowed Quine for We've Never Been Licked (1943), a wartime propaganda drama, where Quine was top billed.Just as his acting career seemed about to take off, he had to serve in the United States Coast Guard." ;
+        ont:person          <http://dbpedia.org/resource/Walter_Wanger> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rooney and Quine had been friends since childhood.While at MGM, Quine also appeared in Tish (1942), with Susan Peters who would later become his first wife, and For Me and My Gal (1942), playing Judy Garland's brother." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Prayurawongse> , <http://dbpedia.org/resource/Judy_Garland> , <http://dbpedia.org/resource/Susan_Peters> , <http://dbpedia.org/resource/Rooney_Mara> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The couple had two children before separating in May 1958." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "May 1958" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/28/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine also wrote the theme song to his 1964 film Sex and the Single Girl." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1964 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/1/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine's films as director include Bell, Book and Candle (1958), The World of Suzie Wong (1960), Paris When It Sizzles (1964), How to Murder Your Wife (1965), and The Prisoner of Zenda (1979)." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1960" , "1979" , "1965" , "1964" , "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On New Year's Day 1945, the couple were on a duck hunting trip when Peters dropped her rifle." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "Day 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In July 1969, Quine filed for divorce, citing \"extreme cruelty.\"" ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "July 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/26/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was going to film Across the River and into the Trees but it was never made.Instead he did two films for Paramount, Oh Dad, Poor Dad, Mamma's Hung You in the Closet and I'm Feelin' So Sad (1967) for Ray Stark, and A Talent for Loving (1969)." ;
+        ont:person          <http://dbpedia.org/resource/Ray_Stark> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "two" , "1969" , "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He then appeared in vaudeville before moving on to stage roles.Quine made his film debut in the drama Cavalcade (1933)." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine's first film for MGM was Babes on Broadway (1941), starring Judy Garland and Mickey Rooney." ;
+        ont:person          <http://dbpedia.org/resource/Judy_Garland> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> , <http://dbpedia.org/resource/Mickey_Rooney> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1959 the two became engaged while working on their third film together, Strangers When We Meet (1960)." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1960" , "In 1959" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/36/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His remains are interred in the Room of Prayer columbarium at Westwood Memorial Park in Los Angeles." ;
+        ont:place    <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/12/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "But then later another Columbia executive told Quine, \"Mr. Cohn tells me you're going to direct a picture." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In October 1952, Peters died of a chronic kidney infection and bronchial pneumonia, both of which were hastened by dehydration and starvation because she had stopped eating and drinking in the last few weeks of her life.In September 1951, Quine married Barbara Bushman, the granddaughter of actor Francis X. Bushman." ;
+        ont:person          <http://dbpedia.org/resource/Barbara_Bush> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "September 1951" , "October 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/28/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1962, Quine wrote two songs, \"Going Steady With a Dream\" and \"Strangers When We Meet,\" the latter the theme to the 1960 film of the same name, which Quine directed, and also for the film Don't Knock the Twist." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1960 film" , "two" , "In 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The following year, he was cast as Frank Lippincott in the hit Broadway production of My Sister Eileen starring Shirley Booth which was a hit." ;
+        ont:person   <http://dbpedia.org/resource/Shirley_Booth> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They were married on November 7, 1943, at Westwood Community Church in Los Angeles." ;
+        ont:person          <http://dbpedia.org/resource/John_O._Westwood> ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "November 7 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The couple separated on June 10, 1968." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "June 10 , 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/26/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "That series also lasted one season.Quine directed Hotel (1967) for Warners." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "one season.Quine" , "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At MGM he had a good role in Dr. Gillespie's New Assistant (1942), alongside Peters, and was in Stand by for Action (1942) and the propaganda short The Rear Gunner (1943)." ;
+        ont:person          <http://dbpedia.org/resource/Dizzy_Gillespie> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1943" , "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine's family moved to Los Angeles when he was six years old.As a child, he began working as a radio actor and became a minor radio star." ;
+        ont:person          <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/32/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Before the script was even completed, Quine was fired owing to \"creative differences\" with Sellers." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His role in the stage version of My Sister Eileen led to Quine's being signed with Metro-Goldwyn-Mayer." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/25/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He went to Warner Bros. to direct Sex and the Single Girl (1964) with Curtis and Natalie Wood, then did How to Murder Your Wife (1965) with Lemmon." ;
+        ont:person          <http://dbpedia.org/resource/Natalie_Wood> , <http://dbpedia.org/resource/Jamie_Lee_Curtis> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1965" , "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They were divorced in March 1960.While Quine was separated from his second wife, he began dating actress Kim Novak, whom he had previously directed in Pushover (1954) and Bell, Book and Candle (1958)." ;
+        ont:person          <http://dbpedia.org/resource/Kim_Novak> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1954" , "1958" , "March 1960.While" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/36/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was taken to UCLA Medical Center, where he died at the age of 68." ;
+        ont:place           <http://dbpedia.org/resource/Ronald_Reagan_UCLA_Medical_Center> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "age of 68" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They separated on March 1, 1948, and were divorced later that year." ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "March 1 , 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/1/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When his acting career began to wane after World War II, Quine began working as a film director." ;
+        ont:person   <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/28/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He wrote the lyrics \"Be Prepared,\" a song included in the film It Happened to Jane (1959), which he also produced and directed." ;
+        ont:person          <http://dbpedia.org/resource/Jane_Fonda> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quine left Los Angeles for New York City to return to stage acting.In 1939, Quine made his Broadway debut in the Jerome Kern/Oscar Hammerstein II stage musical Very Warm for May in 1939, which ran for 59 performances." ;
+        ont:person          <http://dbpedia.org/resource/Oscar_Hammerstein_II> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1939" , "in 1939" , "for 59" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Without Edwards, Quine directed Siren of Bagdad (1953), for producer Sam Katzman." ;
+        ont:person          <http://dbpedia.org/resource/Sam_Katzman> , <http://dbpedia.org/resource/Willard_Van_Orman_Quine> ;
+        ont:place           <http://dbpedia.org/resource/Baghdad> ;
+        ont:subject         <http://dbpedia.org/resource/Richard_Quine> ;
+        ont:timeExpression  "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/34/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His first marriage was to actress Susan Peters." ;
+        ont:person   <http://dbpedia.org/resource/Susan_Peters> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .
+
+<http://w3id.org/polifonia/pilot/meetups/1048151/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== New York ===" ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Richard_Quine> .

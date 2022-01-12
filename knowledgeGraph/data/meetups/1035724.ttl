@@ -6,30 +6,329 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1035724/0/0>
+<http://w3id.org/polifonia/pilot/meetups/1035724/9/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Claudius> , <http://dbpedia.org/resource/Ola_Afolabi> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:excerpt         "In 2014 Siffre appeared on the BBC Radio 4 series Great Lives, championing the life of British author Arthur Ransome." ;
+        ont:person          <http://dbpedia.org/resource/Arthur_Ransome> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
         ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
-        ont:timeExpression  "25 June 1945" .
+        ont:timeExpression  "BBC Radio 4" , "In 2014" .
 
-<http://w3id.org/polifonia/pilot/meetups/1035724/2/0>
+<http://w3id.org/polifonia/pilot/meetups/1035724/39/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Claudius> , <http://dbpedia.org/resource/Ola_Afolabi> , <http://dbpedia.org/resource/Charlotte_of_Mecklenburg-Strelitz> ;
-        ont:place           "http://dbpedia.org/resource/Hammersmith" , "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:excerpt         "Choosing the Stick They Beat You With (Penguin 2000)" ;
         ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
-        ont:timeExpression  "of five" .
+        ont:timeExpression  "Penguin 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/27/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The song reached Number 4 in the UK charts and Number 33 in the U.S. in 1983." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "Number 4" , "in 1983" , "Number 33" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/3/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He moved to Cannes, France, where he played guitar with various soul musicians and bands but subsequently returned to the United Kingdom in the late 1960s." ;
+        ont:place    <http://dbpedia.org/resource/Cannes> , <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Labi_Siffre> .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Arthur Ransome, Great Lives, BBC Radio 4" ;
+        ont:person          <http://dbpedia.org/resource/Arthur_Ransome> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "BBC Radio 4" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "DeathWrite (Xavier Books 1997)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "Xavier Books 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/5/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Additionally, he co-wrote the song \"We Got It Bad\" performed by Bob James, which came tenth." ;
+        ont:person   <http://dbpedia.org/resource/Bob_James_(musician)> ;
+        ont:subject  <http://dbpedia.org/resource/Labi_Siffre> .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "4, 1987) and released four more albums between 1988 and 1998." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "4" , "1998" , "four" , "between 1988" , "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Something Inside So Strong, Soul Music, BBC Radio 4" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "BBC Radio 4" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Michael Ball also released a cover of the song in 1996, which reached Number 40 in the UK." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Ball> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "song in 1996" , "Number 40" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "14, 1971) (later covered by and a No." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "14" , "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/0/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His music has been sampled extensively by hip-hop artists such as Eminem and Jay-Z." ;
+        ont:person   <http://dbpedia.org/resource/Eminem> , <http://dbpedia.org/resource/Jay-Z> ;
+        ont:subject  <http://dbpedia.org/resource/Labi_Siffre> .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Monument (Xavier Books 1997)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "Xavier Books 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"(Something Inside) So Strong\" was covered by Kenny Rogers in 1989 (and became the title track to a hit album)." ;
+        ont:person          <http://dbpedia.org/resource/Kenny_Rogers> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "in 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They remained together until Lloyd's death in 2013, having entered a civil partnership in 2005, as soon as this was possible in the UK." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "partnership in 2005" , "death in 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blood on the Page (Xavier Books 1995)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "Xavier Books 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"It Must Be Love\" was covered by Madness in 1981." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "in 1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nigger (Xavier Books 1993)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "Xavier Books 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Man of Reason (1991)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As a result of the song's newfound fame, it was finally released as a single in 2006.Siffre's 1972 Song \"My Song\" the tenth track on his junior album Crying Laughing Loving Lying was sampled by Kanye West on the song \"I Wonder\" off his 3rd album Graduation." ;
+        ont:person          <http://dbpedia.org/resource/Kanye_West> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1972" , "3rd" , "in 2006.Siffre" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/5/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He performed his own composition \"Solid Love\", which placed fifth of the twelve songs up for consideration at the A Song for Europe contest." ;
+        ont:place    <http://dbpedia.org/resource/Europe> ;
+        ont:subject  <http://dbpedia.org/resource/Labi_Siffre> .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "So Strong (1988)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Happy (1975)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1970s, he released 16 singles, three of which became hits: \"It Must Be Love\" (No." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1970s" , "three" , "16" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rik Waller, while a contestant on Pop Idol, reached #25 in the UK Singles Chart with the song in 2002." ;
+        ont:person          <http://dbpedia.org/resource/Rik_Waller> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "25" , "song in 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Last Songs (Re-mastered)\" (2006)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Remember My Song (1975)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Siffre met Peter John Carver Lloyd in July 1964." ;
+        ont:person          <http://dbpedia.org/resource/John_Carver_(Plymouth_Colony_governor)> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "July 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For the Children (1973)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Monument (Spoken Word) (1998)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Crying Laughing Loving Lying (1972)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Different parts of Siffre's 1975 track \"I Got The...\" were sampled in popular hip hop music songs in the 1990s, most notably in the 1999 Eminem single \"My Name Is\"." ;
+        ont:person          <http://dbpedia.org/resource/Eminem> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1999" , "1975 track" , "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Siffre was brought up in Bayswater and Hampstead and educated at a Catholic independent day school, St Benedict's School, in Ealing, West London." ;
+        ont:person   <http://dbpedia.org/resource/Benedict_of_Nursia> ;
+        ont:place    <http://dbpedia.org/resource/Hampstead> , <http://dbpedia.org/resource/Ealing> , <http://dbpedia.org/resource/Bayswater> ;
+        ont:subject  <http://dbpedia.org/resource/Labi_Siffre> .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1978, Siffre took part in the UK heats of the Eurovision Song Contest." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "In 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Last Songs (1998)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Singer and the Song (1971)" ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Siffre came out of self-imposed retirement from music in 1985, when he saw a television film from Apartheid South Africa showing a white soldier shooting at black children." ;
+        ont:place           <http://dbpedia.org/resource/South_Africa> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "music in 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Labi Siffre (1970)" ;
+        ont:person          <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1970" .
 
 <http://w3id.org/polifonia/pilot/meetups/1035724/5/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Siffre played jazz guitar at Annie Ross's jazz club in Soho in the 1960s as part of a Hammond organ, guitar, drums house band.He released six albums between 1970 and 1975." ;
         ont:person          <http://dbpedia.org/resource/Annie_Ross> ;
-        ont:place           "http://dbpedia.org/resource/Soho" ;
+        ont:place           <http://dbpedia.org/resource/Soho> ;
         ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
-        ont:timeExpression  "six" , "between 1970" , "1975" .
+        ont:timeExpression  "1975" , "between 1970" , "six" .
 
-<http://w3id.org/polifonia/pilot/meetups/1035724/9/2>
+<http://w3id.org/polifonia/pilot/meetups/1035724/0/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Arthur_Ransome> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:excerpt         "Siffre released six albums between 1970 and 1975, and four between 1988 and 1998." ;
         ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
-        ont:timeExpression  "BBC Radio 4" , "In 2014" .
+        ont:timeExpression  "1998" , "four" , "between 1988" , "1975" , "six" , "between 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He studied music at the Eric Gilder School of Music in Wardour Street, Soho." ;
+        ont:place    <http://dbpedia.org/resource/Soho> ;
+        ont:subject  <http://dbpedia.org/resource/Labi_Siffre> .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Claudius Afolabi Siffre was born as the fourth of five children at Queen Charlotte's and Chelsea Hospital in Hammersmith, London to a British mother of Barbadian–Belgian descent and a Nigerian father." ;
+        ont:person          <http://dbpedia.org/resource/Claudius> , <http://dbpedia.org/resource/Charlotte_of_Mecklenburg-Strelitz> , <http://dbpedia.org/resource/Ola_Afolabi> ;
+        ont:place           <http://dbpedia.org/resource/Hammersmith> , <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "of five" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "29, 1972)." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "1972" , "29" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/28/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In late 2009, it also featured in the hit BBC comedy Gavin & Stacey, where it was adapted into a Welsh chapel christening ceremony." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Claudius Afolabi Siffre (born 25 June 1945) is a British singer, songwriter, musician and poet." ;
+        ont:person          <http://dbpedia.org/resource/Claudius> , <http://dbpedia.org/resource/Ola_Afolabi> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "25 June 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "11, 1972); and \"Watch Me\" (No." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "11" , "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/28/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was covered by \"eternal\" in 1994 as part of their EP Crazy." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "in 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/27/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Labi Siffre also made a cameo appearance in the music video." ;
+        ont:person   <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:subject  <http://dbpedia.org/resource/Labi_Siffre> .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "4 hit for Madness, for which Siffre himself appeared in the video); \"Crying Laughing Loving Lying\" (No." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "4 hit" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Siffre has published essays, the stage and TV play Deathwrite and three volumes of poetry: Nigger, Blood on the Page, and Monument." ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/1035724/28/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The song was also covered by Vanessa Bell Armstrong in 1988 and again by a host of gospel artists as a tribute to Rosa Parks in the mid-1990s." ;
+        ont:person          <http://dbpedia.org/resource/Rosa_Parks> , <http://dbpedia.org/resource/Vanessa_Bell> , <http://dbpedia.org/resource/Lance_Armstrong> ;
+        ont:subject         <http://dbpedia.org/resource/Labi_Siffre> ;
+        ont:timeExpression  "in 1988" .

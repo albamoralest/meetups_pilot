@@ -6,219 +6,1378 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/64598/22/8>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Wat_Tyler> ;
-        ont:place           "http://dbpedia.org/resource/Leipzig" , "http://dbpedia.org/resource/Weimar" , "http://dbpedia.org/resource/Jena" , "http://dbpedia.org/resource/East_Germany" , "http://dbpedia.org/resource/Zwickau" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "1959" , "1957" , "1960" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/20/12>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Nottingham" , "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_Kingdom" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "one" , "27 June 1949" , "11 December 1952" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/20/18>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Saint_Joseph> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "1948" .
+<http://w3id.org/polifonia/pilot/meetups/64598/29/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Despite undergoing various changes of emphasis, Bush's music retained a voice distinct from that of any of his contemporaries." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
 
 <http://w3id.org/polifonia/pilot/meetups/64598/14/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush resumed his RAM and LLCU duties, and in 1932 accepted a new appointment, as an examiner for the Associated Board of London's Royal Schools of Music, a post which involved extensive overseas travel." ;
         ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:place           <http://dbpedia.org/resource/London> ;
         ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
         ont:timeExpression  "in 1932" .
 
+<http://w3id.org/polifonia/pilot/meetups/64598/39/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The 2000 centenary of his birth was markedly low key; the Prom season ignored him, although there was a memorial concert at the Wigmore Hall on 1 November, and a BBC broadcast of the Piano Concerto on 19 December." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "2000 centenary" , "on 1" , "on 19" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/43/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 21st century much has been added, including recordings of Symphonies 1, 2 and 4, the Piano and Violin Concertos, many of the main vocal works, the Twenty-Four Preludes, and the complete organ works." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "Symphonies 1 , 2" , "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The opera, to a libretto by Barrie Stavis, was premiered at the German Berlin State Opera on 29 September 1970, and in 1979 was broadcast by the BBC." ;
+        ont:person          <http://dbpedia.org/resource/Barrie_Stavis> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "29 September 1970" , "in 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1959–60 he produced two major orchestral works: the Dorian Passacaglia and Fugue, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "two" , "In 1959–60" .
+
 <http://w3id.org/polifonia/pilot/meetups/64598/36/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1920s it appeared that Bush might emerge as Britain's foremost pianist, after his studies under the leading teachers of the day, but he turned to composition as his principal musical activity." ;
         ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
         ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
         ont:timeExpression  "1920s" .
 
-<http://w3id.org/polifonia/pilot/meetups/64598/20/11>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Andrei_Zhdanov> , <http://dbpedia.org/resource/Joseph_Stalin> , <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Nottingham" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "1948" , "in 1949" , "1948 decree" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/22/13>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/India" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "in 1959" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/39/9>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "October 1997" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/17/10>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "December 1945" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/26/9>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Manchester" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "1980s" , "25 March 1986.In" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/20/8>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Nazi_Germany" , "http://dbpedia.org/resource/Lidice" , "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Czechoslovakia" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "August 1947" , "9 February 1946" , "in 1942" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/5/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/South_London" , "http://dbpedia.org/resource/Dulwich" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "22 December 1900" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/22/6>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Wat_Tyler> , <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "of 2017" , "in 1954–55" , "19 June 1974" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/14/11>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Wembley_Stadium" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "2 July 1938" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/10/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Boughton_under_Blean" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "in 1940" , "two" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/13/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Nancy_Reagan> ;
-        ont:place           "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/Germany" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "March 1931" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/22/17>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Joe_Hill> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "in 1965–67" , "in 1915" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/26/7>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Lascaux" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "In 1982" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/8/14>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Prague" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "15" , "1930s" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/1/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Berlin" , "http://dbpedia.org/resource/Great_Britain" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "1931" , "in 1935" , "in 1929" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/14/15>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Royal_Academy_of_Arts" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "1" .
-
 <http://w3id.org/polifonia/pilot/meetups/64598/16/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In April 1940 he conducted a Queen's Hall concert of music by Soviet composers which included the British premieres of Shostakovich's Fifth Symphony, and Khatchaturian's Piano Concerto." ;
         ont:person          <http://dbpedia.org/resource/Aram_Khachaturian> ;
-        ont:place           "http://dbpedia.org/resource/Soviet_Union" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Soviet_Union> ;
         ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
         ont:timeExpression  "April 1940" .
 
+<http://w3id.org/polifonia/pilot/meetups/64598/14/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 in C. Amid this busy life Bush was elected a Fellow of the Royal Academy of Music." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/Royal_Academy_of_Arts> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1969 he produced the first of three song cycles, The Freight of Harvest, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "In 1969" , "three song" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/10/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In his memoirs Tippett records his first impressions of Bush: \"I learned much from him." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This change was acknowledged by Bush as he responded to the 1948 decree issued by Stalin's director of cultural policy, Andrei Zhdanov, against formalism and dissonance in modern music – although the process of simplification had probably begun during the war years.In 1948 Bush accepted a commission from the Nottingham Co-operative Society to write a symphony as part of the city's quincentennial celebrations in 1949." ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Stalin> , <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Andrei_Zhdanov> ;
+        ont:place           <http://dbpedia.org/resource/Nottingham> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1949" , "1948" , "1948 decree" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/37/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The music critic Colin Mason described Bush's music thus:His range is wide, the quality of his music consistently excellent." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Colin_Mason> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He produced the first compositions of his formal canon: Three Pieces for Two Pianos, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "for Two" , "Three" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/17/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "This action drew strong protests from, among others, E. M. Forster and Ralph Vaughan Williams." ;
+        ont:person   <http://dbpedia.org/resource/E._M._Forster> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/31/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Christiansen highlights its \"tightness and austerity\" in contrast to the more fashionable lyricism then prevalent in English music.Bush's years in Berlin brought into his music the advanced Central European idioms that characterise his major orchestral compositions of the period: the Piano Concerto (1935–37), and the First Symphony (1939–40)." ;
+        ont:place           <http://dbpedia.org/resource/Berlin> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1935–37" , "1939–40" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "84, of which he gave the first performance at the Wigmore Hall on 30 October 1977." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "30 October 1977" , "84" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/11/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His association with like-minded musicians such as Hanns Eisler and Ernst Hermann Meyer, and writers such as Bertold Brecht, helped to develop his growing political awareness into a lifelong commitment to Marxism and communism." ;
+        ont:person   <http://dbpedia.org/resource/Bertolt_Brecht> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He took further piano study from two pupils of Leschetizky,   Benno Moiseiwitsch and Mabel Lander, from whom he learned the Leschetizky method." ;
+        ont:person          <http://dbpedia.org/resource/Mabel_Gardiner_Hubbard> , <http://dbpedia.org/resource/Theodor_Leschetizky> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "study from two" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Since his death aged 94 in 1995, his musical legacy has been nurtured by the Alan Bush Music Trust, established in 1997." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "94" , "in 1995" , "in 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/39/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bush's long career as a teacher influenced generations of English composers and performers." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 15 December 1950 the WMA marked Bush's 50th birthday with a special concert of his music at the Conway Hall." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "15 December 1950" .
+
 <http://w3id.org/polifonia/pilot/meetups/64598/26/14>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush lived on quietly at Radlett for another four years, able to recall the events of his youth but with no memory of the last fifty years and unaware of the collapse of the Soviet Union in 1991." ;
         ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Radlett" ;
+        ont:place           <http://dbpedia.org/resource/Radlett> ;
         ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
         ont:timeExpression  "four" , "in 1991" .
 
-<http://w3id.org/polifonia/pilot/meetups/64598/11/0>
+<http://w3id.org/polifonia/pilot/meetups/64598/22/13>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Artur_Schnabel> , <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Berlin" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "1928 concert tour" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/11/6>
-        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The ban was rescinded the following year, and in 1959 Bush was able to gather and record a great deal of authentic music from the local African and Indian populations." ;
         ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:place           <http://dbpedia.org/resource/India> ;
         ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "in 1935" , "1995" .
+        ont:timeExpression  "in 1959" .
 
-<http://w3id.org/polifonia/pilot/meetups/64598/22/3>
+<http://w3id.org/polifonia/pilot/meetups/64598/22/6>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Nancy_Reagan> , <http://dbpedia.org/resource/Wat_Tyler> , <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:excerpt         "Wat Tyler did not receive its full British premiere until 19 June 1974, when it was produced at Sadler's Wells; as of 2017, this remains the only professional staging of a Bush opera in Britain.Bush's second opera, Men of Blackmoor, composed in 1954–55 to Nancy's libretto, is a story of Northumbrian miners in the early 19th century; Bush went down a mine as part of his research." ;
+        ont:person          <http://dbpedia.org/resource/Wat_Tyler> , <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
         ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "of four" , "in 1950" , "one" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/14/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/The_Crystal_Palace" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "1934" .
-
-<http://w3id.org/polifonia/pilot/meetups/64598/8/6>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Berlin" ;
-        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "In 1928" .
+        ont:timeExpression  "of 2017" , "19 June 1974" , "in 1954–55" .
 
 <http://w3id.org/polifonia/pilot/meetups/64598/34/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush's three other major operas were all characterised by their use of \"local\" music: Northumbrian folk-song in the case of Men of Blackmoor, Guyanese songs and dances in The Sugar Reapers, and American folk music in Joe Hill –  the last-named used in a manner reminiscent of Kurt Weill and the German opera with which Bush had become familiar in the  early 1930s.The extent to which Bush's music  changed substantially after the war was addressed by Meirion Bowen, reviewing a Bush concert in the 1980s." ;
         ont:person          <http://dbpedia.org/resource/Joe_Hill> , <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Northumberland" ;
+        ont:place           <http://dbpedia.org/resource/Northumberland> ;
         ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "1980s" , "three" , "1930s.The extent" .
+        ont:timeExpression  "1980s" , "1930s.The extent" , "three" .
 
-<http://w3id.org/polifonia/pilot/meetups/64598/17/0>
+<http://w3id.org/polifonia/pilot/meetups/64598/29/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His obituarist Rupert Christiansen writes that, as a principled Marxist, Bush  \"put the requirements of the revolutionary proletariat at the head of the composer's responsibilities\", a choice which others, such as Tippett, chose not to make." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/14/5>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1936 Bush was one of the founders of the Workers' Musical Association (WMA), and became its first chairman.In 1935 Bush began work on a piano concerto which, completed in 1937, included the unusual feature of a mixed chorus and baritone soloist in the finale, singing a radical text by Randall Swingler." ;
         ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
         ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "January 1941" .
+        ont:timeExpression  "one" , "In 1936" , "in 1937" , "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/39/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Scholars such as Paul Harper-Scott and Joanna Bullivant have obtained access to new material, including documents released since the collapse of the Soviet Union, and Bush's MI5 file." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Joanna_of_Castile> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "9; settings of poems by Walter de la Mare, Harold Monro and W. B. Yeats; and his first venture into orchestral music, the Symphonic Impressions of 1926–27, Op." ;
+        ont:person          <http://dbpedia.org/resource/Walter_de_la_Mare> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "of 1926–27" , "9" .
 
 <http://w3id.org/polifonia/pilot/meetups/64598/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alan Dudley Bush (22 December 1900 – 31 October 1995) was a British composer, pianist, conductor, teacher and political activist." ;
         ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/Dudley" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Dudley> ;
         ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
-        ont:timeExpression  "31 October 1995" , "22 December 1900" .
+        ont:timeExpression  "22 December 1900" , "31 October 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bush had begun to develop an interest in politics during the war years." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The other, Hamilton Brinsley Bush, went into the family business and ran twice as Liberal candidate for Watford in the 1950s." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush, from a prosperous middle-class background, enjoyed considerable success as a student at the Royal Academy of Music (RAM) in the early 1920s, and spent much of that decade furthering his compositional and piano-playing skills under distinguished tutors." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After his 1928 concert tour in Berlin, Bush returned to the city to study piano under Artur Schnabel." ;
+        ont:person          <http://dbpedia.org/resource/Artur_Schnabel> , <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/Berlin> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1928 concert tour" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The symphony, a commission from East German Radio, was first performed at Leipzig on 20 March 1962." ;
+        ont:place           <http://dbpedia.org/resource/Leipzig> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "20 March 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/36/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The critic Hugo Cole thought that, as a composer, Bush came close to Paul Hindemith's ideal: \"one for whom music is felt as a moral and social force, and only incidentally as a means of personal expression\"." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "However, Bush's attempts to secure a place in the concert repertoire were frustrated." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In his prewar works, Bush's style retained what commentators have described as an essential Englishness, but was also influenced by the avant-garde European idioms of the inter-war years." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/15>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bush was slowly being recognised for his achievements, even by those who had long cold-shouldered him." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1930s: emergent composer ===" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "32, received its premiere on 25 August 1949, with Max Rostal as soloist." ;
+        ont:person          <http://dbpedia.org/resource/Max_Rostal> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "32" , "25 August 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/7/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The work, with Bush at the piano, received a single private performance with family members and friends forming the cast." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/17/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also performed regularly with the London String Orchestra, and in 1944 was the piano soloist in the British premiere of Shostakovich's Piano Quintet." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/31/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In his introduction to a 1938 socialist song book, Bush wrote that \"socialists must sing what we mean and sing it like we mean it\"." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1938 socialist song book" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/50/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Wat Tyler libretto A photostat typescript of the Nancy Bush's original libretto" ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Nancy_Reagan> , <http://dbpedia.org/resource/Wat_Tyler> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In March 1931 Bush and Nancy were married in London, before returning to Germany where Bush continued his studies." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Nancy_Reagan> ;
+        ont:place           <http://dbpedia.org/resource/Germany> , <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "March 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This was performed by pupils at St Christopher School, Letchworth, on 7 March 1947." ;
+        ont:place           <http://dbpedia.org/resource/Letchworth> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "7 March 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The orchestra had suspended its operations in 1941; after the war, Bush's failure to secure funding for it led to its closure, despite considerable artistic success." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the end of summer 1931 the couple returned permanently to England, and settled in the village of Radlett, in Hertfordshire." ;
+        ont:place           <http://dbpedia.org/resource/Radlett> , <http://dbpedia.org/resource/Hertfordshire> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/39/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Among postwar Bush students who later led distinguished careers are the composers Edward Gregson, Roger Steptoe, E. Florence Whitlock, and Michael Nyman, and the pianists John Bingham and Graham Johnson." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Simon_Whitlock> , <http://dbpedia.org/resource/Edward_Gregson> , <http://dbpedia.org/resource/John_Bingham> ;
+        ont:place    <http://dbpedia.org/resource/Florence> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush was born in Dulwich, South London, on 22 December 1900, the third and youngest son of Alfred Walter Bush and Alice Maud, née Brinsley." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/South_London> , <http://dbpedia.org/resource/Dulwich> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "22 December 1900" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/52/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Alan Bush manuscripts in the British Library" ;
+        ont:person   <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/33/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "32, 1948) has been cited as \"a work as beautiful and refined as any in the genre since Walton's\"." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1948" , "32" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/15/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== Second World War ===" ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "With Nancy, Bush wrote two more operettas for children: The Spell Unbound (1953) and The Ferryman's  Daughter (1961)." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Nancy_Reagan> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "two" , "1953" , "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His 1953 cantata Voice of the Prophets, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== Royal Academy and after ===" ;
+        ont:place    <http://dbpedia.org/resource/Royal_Academy_of_Arts> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In Britain there were student performances at Oxford in 1960, and Bristol in 1974." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Bristol> , <http://dbpedia.org/resource/Oxford> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1960" , "in 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/34/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Lascaux symphony, written when he was 83, is the composer's final major orchestral statement, and addresses deep philosophical issues relating to the origins and destiny of mankind." ;
+        ont:place           <http://dbpedia.org/resource/Lascaux> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "83" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When war broke out in September 1939, Bush registered for military service under the National Service (Armed Forces) Act of 1939." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "September 1939" , "of 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/14/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A performance of the concerto a year later, at the 1939 \"Festival of Music for the People\", drew caustic comments from Neville Cardus in  The Manchester Guardian." ;
+        ont:person          <http://dbpedia.org/resource/Neville_Cardus> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/14/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Back home in early 1939 he was closely involved in founding and conducting the London String Orchestra, which operated successfully until 1941 and again in the immediate postwar years." ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "until 1941" , "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "67, for chamber orchestra, and Scherzo for Wind Orchestra and Percussion, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "67" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "15, which helped to establish Bush's reputation abroad when it was performed at a Prague festival in the 1930s." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/Prague> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "15" , "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush was soon appointed as Boughton's assistant, and two years later, he succeeded Boughton as the LLCU's chief musical adviser, remaining in this post until the body disbanded in 1940." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/Boughton_under_Blean> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "two" , "in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At the RAM, Bush studied composition under Frederick Corder and piano with Tobias Matthay." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush was among many musicians, artists and writers who in January 1941 signed up to the communist-led People's Convention, which promoted a six-point radical anti-war programme that included friendship with the Soviet Union and \"a people's peace\"." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "January 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/31/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His Dialectic for String Quartet (1929), Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/1/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His pro-Soviet stance led to a temporary ban on his music by the BBC in the early years of the Second World War, and his refusal to modify his position in the postwar Cold War era led to a more prolonged semi-ostracism of his music." ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In November 1975 his 50 years' professorship at the RAM was marked in a concert there, and in January 1976 the WMA gave a concert to honour his recent 75th birthday." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "50" , "November 1975" , "January 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/11/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bush's years in Berlin profoundly affected his political beliefs, and had direct influence on the subsequent character of his music." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place    <http://dbpedia.org/resource/Berlin> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1922 Bush graduated from the RAM, but continued to study composition privately under John Ireland, with whom he formed an enduring friendship." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/John_Ireland_(composer)> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "In 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The symphony was awarded that year's Händel Prize in the city of Halle.At the end of the 1960s Bush wrote, among other works,  Time Remembered, Op." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He taught composition at the RAM for more than 50 years, published two books, was the founder and long-time president of the Workers' Music Association, and served as chairman and later vice-president of the Composers' Guild of Great Britain." ;
+        ont:place           <http://dbpedia.org/resource/Great_Britain> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "than 50" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush featured in a further television programme, broadcast on 25 October 1975, in a series entitled \"Born in 1900\"." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "25 October 1975" , "in 1900" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "society, that after a strenuous opening gave up the struggle\".In 1947 Bush became chairman of the Composers' Guild of Great Britain for 1947–48." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1947" , "for 1947–48" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/7/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1931, ten years after their first meeting, Bush and Nancy would marry and begin a lifelong artistic partnership in which she became Bush's principal librettist, as well as providing the texts for many of his other vocal works." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Nancy_Reagan> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "ten" , "In 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/17/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As the war in Europe drew to its end, Bush was posted to the Far East despite being well over the normal age limit for overseas service." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place    <http://dbpedia.org/resource/Europe> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/33/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush first outlined the basis of his new method of composition in an article, \"The Crisis of Modern Music\", which appeared in WMA's Keynote magazine in spring 1946." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "125, although he continued to compose privately and play the piano." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "125" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nancy Bush quotes two listeners' comments that appeared in the Radio Times on 8 May 1931." ;
+        ont:person          <http://dbpedia.org/resource/Nancy_Reagan> , <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "two" , "8 May 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This, his last major orchestral work, was premiered by the BBC Philharmonic Orchestra, under Edward Downes in Manchester, on 25 March 1986.In the late 1980s Bush was increasingly hampered by failing eyesight." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/Manchester> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1980s" , "25 March 1986.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"For his third opera, Bush chose a contemporary theme – the struggle against colonial rule." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "11." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "11" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The opera was not taken up by any of the British opera houses, and was first staged at Leipzig Opera in 1953." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/34/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His first venture, Wat Tyler, was  written in a form which Bush thought acceptable to the general British public; it was not his choice, he wrote, that the opera and its successors all found their initial audiences in East Germany." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Wat_Tyler> ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/East_Germany> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/29/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One critic describes the typical Bush sound as \"Mild dominant discords, of consonant effect, used with great originality in uncommon progressions alive with swift, purposeful harmonic movement ... except in [Benjamin] Britten they are nowhere used with more telling expression, colour and sense of movement than in Bush\".John Ireland, Bush's early mentor, instilled \"the sophisticated and restrained craftsmanship which marked Bush's music from the beginning\", introducing him to folksong and Palestrina, both important building blocks in the development of Bush's mature style." ;
+        ont:person          <http://dbpedia.org/resource/John_Ireland_(composer)> , <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/14/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "These new domestic and professional responsibilities limited Bush's composing activity, but he provided the music for the 1934 Pageant of Labour, organised for the London Trades Council and held at the Crystal Palace during October." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/The_Crystal_Palace> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/39/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The centenary, albeit quietly observed, helped to introduce the name and music of Bush to a new generation of music lovers, and generated an increase in both performance and recordings." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When he was eleven he began at Highgate School as a day pupil, and remained there until 1918." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "until 1918" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/33/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "52, 1959), involves eight variations in the Dorian mode, followed by eight in other modes culminating in a final quadruple fugue in six parts." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "by eight" , "1959" , "fugue in six" , "52" , "eight" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "52, and the Third Symphony, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "52" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "69 – Life's Span and Woman's Life would follow in 1974 and 1977." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1974" , "69" , "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "According to Foreman, \"by any standards this is one of Bush's most approachable scores\", yet since its Nottingham premiere on 27 June 1949 and its London debut on 11 December 1952 under Boult and the London Philharmonic, the work has been rarely heard in Britain." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Nottingham> , <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "one" , "27 June 1949" , "11 December 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1, and Piano Sonata in B minor, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/17/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The ban was opposed by the prime minister, Winston Churchill, in the House of Commons, and proved short-lived; it was annulled following the German invasion of the Soviet Union in June 1941.In November 1941 Bush was conscripted into the army, and after initial training was assigned to the Royal Army Medical Corps." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Winston_Churchill> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1941.In November 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/31/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Nancy Bush describes the Piano Concerto as Bush's first attempt to fuse his musical and political ideas." ;
+        ont:person   <http://dbpedia.org/resource/Nancy_Reagan> , <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A later reviewer described this piece as \"music I'd like to have playing beside me as I sprawled on the grass beneath the trees with an ice-cream, watching a county cricket match on a golden afternoon\".In 1978 Bush retired from the RAM after 52 years' service." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1978" , "after 52" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1926 he made his first of numerous visits to Berlin, where with the violinist Florence Lockwood he gave two concerts of contemporary, mainly British, music which included his own Phantasy in C minor, Op." ;
+        ont:place           <http://dbpedia.org/resource/Florence> , <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Berlin> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "In 1926" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/11/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush's conversion to full-blown communism was not immediate, but in 1935 he finally abandoned Labour and joined the British Communist Party.Notwithstanding the uncompromising nature of his politics, Bush in his writings tended to express his views in restrained terms, \"much more like a reforming patrician Whig than a proletarian revolutionary\" according to Michael Oliver in a 1995 Gramophone article." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1995" , "in 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nancy Bush writes that the BBC considered him persona non grata, and imposed an almost complete though unofficial broadcast ban that lasted for some 15 years after the war.As well as resuming his teaching routines, Bush embarked on a busy schedule of travel, mainly in Eastern Europe with the WMA choir." ;
+        ont:person          <http://dbpedia.org/resource/Nancy_Reagan> , <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "15" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/39/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tippett was never a formal pupil, but has acknowledged a deep debt to Bush." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/33/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "31) of 1947 as exceeding Britten in its inventiveness, \"a high-water mark in Bush's mature art\"." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "of 1947" , "31" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died in Watford General hospital on 31 October 1995, after a short illness, at the age of 94." ;
+        ont:place           <http://dbpedia.org/resource/Watford_General_Hospital> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "31 October 1995" , "age of 94" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The eventual result was The Sugar Reapers, premiered at Leipzig on 11 December 1966." ;
+        ont:place           <http://dbpedia.org/resource/Leipzig> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "11 December 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It received its premiere at the German National Theatre, Weimar on 18 November 1956." ;
+        ont:place           <http://dbpedia.org/resource/Germany> , <http://dbpedia.org/resource/Royal_National_Theatre> , <http://dbpedia.org/resource/Weimar> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "18 November 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/34/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bowen noted a distinct contrast between early and late works, the former showing primarily the influences of Ireland and of Bush's European contacts, while in the later pieces the idiom was \"often overtly folklike and Vaughan Williams-ish\"." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place    <http://dbpedia.org/resource/Vaughan> , <http://dbpedia.org/resource/Republic_of_Ireland> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/29/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, Vaughan Williams thought that, despite Bush's oft-declared theories of the purposes of art and music, \"when the inspiration comes over him he forgets all about this and remembers only the one eternal rule for all artists, 'To thine own self be true'.\"" ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/14/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Bush provided much of the music, and also acted as general director, for the London Co-operative Societies' pageant \"Towards Tomorrow\", held at Wembley Stadium on 2 July 1938." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/Wembley_Stadium> , <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "2 July 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/14/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bush played the piano part when the work was premiered by the BBC Symphony Orchestra under Sir Adrian Boult on 4 March 1938." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "4 March 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/39/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This, says Bullivant, enables a more informed assessment of the interrelationships within Bush's music and his communism, and of the inherent conflicting priorities.In October 1997 family members and friends founded The Alan Bush Music Trust \"to promote the education and appreciation by the public in and of music and, in particular, the works of the British composer Alan Bush\"." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "October 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "8." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "8" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1924, rejecting his parents' conservatism, he joined the Independent Labour Party (ILP)." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "In 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The end of the war in November 1918 meant that Alan narrowly avoided being called up for military service; meantime, having determined on a musical career, he had applied to and been accepted by the RAM, where he began his studies in the spring of 1918." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "November 1918" , "spring of 1918" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/17/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The posting was withdrawn; and Bush remained in London until his discharge in December 1945." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "December 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A two-year period in Berlin in 1929 to 1931, early in the Nazi Party's rise to power, cemented Bush's political convictions and moved him from the mainstream Labour Party to the Communist Party of Great Britain which he joined in 1935." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/Great_Britain> , <http://dbpedia.org/resource/Berlin> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1929" , "in 1935" , "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He left the ILP in 1929, and joined the Labour Party proper, before taking extended leave from the RAM to begin a two-year course in philosophy and musicology at Berlin's Friedrich-Wilhelm University." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Colin Mason, writing in The Guardian, thought the work had a stronger socialist programme than the Nottingman symphony of 1949." ;
+        ont:person          <http://dbpedia.org/resource/Colin_Mason> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "symphony of 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/36/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The composer Wilfrid Mellers credits Bush with more than ideological correctness; while remaining faithful to his creed even when it was entirely out of fashion, he \"attempt[ed] to re-establish an English tradition meaningful to his country's past, present and future\"." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Wilfrid> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/40/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It continues to monitor concert performances of Bush's works, and other Bush-related events, at home and abroad.At the time of Bush's centenary, Martin Anderson, writing in the British Music Information Centre's newsletter, summarised Bush's compositional career:" ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place    <http://dbpedia.org/resource/Sound_and_Music> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A contributory factor may have been what the critic Dominic Daula calls Bush's  \"intriguingly unique compositional voice\" that challenged critics and audiences alike." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1968 he was awarded a Doctor of Music degree by the University of London, and two years later received an honorary doctorate from the University of Durham." ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "two" , "In 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/15>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In this work Bush explained that \"the soloist represents the individual, the orchestra world society, and the work [represents] the individual's struggles and of his final absorption into society\"." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/7/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The manuscript was later destroyed by Bush.Among Bush's fellow students was Michael Head." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/41/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bush was not a natural melodist à la Dvorák, though he could produce an appealing tune when he set his mind to it." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His last formal compositions appeared in 1988: \"Spring Woodland and Summer Garden\" for solo piano, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/31/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Under Bush's influence the \"music of the workers\" moved from the high aesthetic represented by, for example, Arthur Bourchier's mid-1920s pamphlet Art and Culture in Relation to Socialism, towards an expression with broader popular appeal." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1982 Bush visited the Lascaux caves in south-western France, and was inspired by the prehistoric cave paintings to write his fourth and final symphony, Op." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/Lascaux> , <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "In 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1928 Bush returned to Berlin, to perform with the Brosa Quartet at the Bechstein Hall, in a concert of his own music which included the premieres of the chamber work Five Pieces, Op." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/Berlin> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "In 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The following year he began a more ambitious venture, a full-length grand opera recounting the story of Wat Tyler, who led the Peasants' Revolt of 1381." ;
+        ont:person          <http://dbpedia.org/resource/Wat_Tyler> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "of 1381" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the following years three daughters were born." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/39/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Through his sponsorship of the London String Quartet Bush helped launch the careers of string players such as Norbert Brainin and Emanuel Hurwitz, both of whom later achieved international recognition.Bush's music was under-represented in the concert repertoire in his lifetime, and virtually disappeared after his death." ;
+        ont:person   <http://dbpedia.org/resource/Reuben_Brainin> , <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Before Bush's centenary year, 2000, the few available recordings of his music included none of the major works." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Bushes were a prosperous middle-class family, their wealth deriving from the firm of industrial chemists founded by the composer's great-grandfather, W. J. Bush." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/33/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Foreman considers the concerto, which uses twelve-tone themes, to be the epitome of Bush's thematic theory of composition, although Bush's contemporary, Edmund Rubbra, thought it too intellectual for general audiences." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His final opera, written in 1965–67, was Joe Hill, based on the  life story of Joe Hill, an American union activist and songwriter who was controversially convicted of murder and executed in 1915." ;
+        ont:person          <http://dbpedia.org/resource/Joe_Hill> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1915" , "in 1965–67" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "41, was commissioned by the tenor Peter Pears and sung by Pears at its premiere on 22 May 1953." ;
+        ont:person          <http://dbpedia.org/resource/Peter_Pears> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "22 May 1953" , "41" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/16/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was not called up immediately, and continued his musical life, helping to form the WMA Singers to replace the now-defunct LLCU, and founding the William Morris Music Society." ;
+        ont:person   <http://dbpedia.org/resource/William_Morris> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "68, based on an original Guyanese theme." ;
+        ont:place           <http://dbpedia.org/resource/Guyana> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "68" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/10/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Through his LLCU work, Bush met Michael Tippett, five years his junior, who shared Bush's left-wing political perspective." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/31/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "15, created a strong impression when first heard in 1935, as \"a musical discourse of driving intensity and virile incident\"." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1935" , "15" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/1/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As a result, the four major operas he wrote between 1950 and 1970 were all premiered in East Germany." ;
+        ont:place           <http://dbpedia.org/resource/East_Germany> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "four" , "1970" , "between 1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1977 he produced his last major piano work, the Twenty-four Preludes, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "In 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/11/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Michael Jones, writing in British Music after Bush's death, records Bush's concern at the rise of fascism and antisemitism in Germany." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place    <http://dbpedia.org/resource/Germany> , <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1925 Bush was appointed to a teaching post at the RAM, as a professor of harmony and composition, under terms that gave him scope to continue with his studies and to travel." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "In 1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/39/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The trust provides a newsletter, features news stories, promotes performances and recordings of Bush's works, and through its website reproduces wide-ranging critical and biographical material." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His contribution to musical life was slowly recognised, in the form of doctorates from two universities and numerous tribute concerts towards the end of his life." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "from two" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also produced a full-length textbook, Strict Counterpoint in the Palestrina Style (Joseph Williams, London, 1948)." ;
+        ont:person          <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/33/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The method, in which every note has thematic significance, has drawn comparison by critics with Schoenberg's twelve-note system, although Bush rejected this equation.Many of Bush's best-known works were written in the immediate postwar years." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nancy's health meanwhile deteriorated, and she died on 12 October 1991." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "12 October 1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/13/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One thought that \"such a medley of fearful discords could never be called music\", while another opined that \"[we] should not cry for more Mozart, Haydn or Beethoven if modern composers would all give us sheer beauty like this\"." ;
+        ont:person          <http://dbpedia.org/resource/Ludwig_van_Beethoven> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "One thought" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He intended to collect appropriate musical material from British Guiana, but an attempt to visit the colony in 1957 was thwarted when its government refused him entry." ;
+        ont:place           <http://dbpedia.org/resource/British_Guiana> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "colony in 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Critical opinion was broadly favourable, the Berliner Zeitung am Mittag correspondent noting \"nothing extravagant but much of promise\".Among the works composed by Bush during this period were the Quartet for piano, violin, viola and cello, Op." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alan Bush: A Life (1983), documentary directed by Anna Ambrose, British Film Institute" ;
+        ont:person          <http://dbpedia.org/resource/Alan_Bush> , <http://dbpedia.org/resource/Ambrose> , <http://dbpedia.org/resource/Anna_the_Prophetess> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was well received, retained for the season and ran again in the following year; there was a further performance in Rostock in 1955." ;
+        ont:place           <http://dbpedia.org/resource/Rostock> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/34/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When eventually staged in Britain in 1974 the opera, although well received at Sadler's Wells, seemed somewhat old-fashioned; Philip Hope-Wallace in The Guardian thought the ending degenerated into \"a choral union cantata\", and found the music pleasant but not especially memorable." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/29/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Daula comments that \"Bush's music does not [merely] imitate the sound-world of his Renaissance predecessors\", but creates his unique fingerprint by \"[juxtaposing] 16th century modal counterpoint with late- and post-romantic harmony\".Bush's music, at least from the mid-1930s, often carried political overtones." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "16th century" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/14/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tippett, who co-conducted the event, later described it as a \"high water mark\" in Bush's drive to provide workers' choirs with settings for left-wing texts." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/39/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The centenary also heralded an awakening of scholarly interest in Bush, whose life and works were the subject of numerous PhD theses in the early 20th century." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "5; Prelude and Fugue for piano, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "5" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Both of his elder brothers served as officers in the First World War; one of them, Alfred junior, was killed on the Western Front in 1917." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "one" , "in 1917" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/33/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Musical Opinion's critic praised the composer's \"wonderful control and splendid craftsmanship\" in this piece, and predicted that it could become the most popular of all Bush's orchestral works." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "53, known as the \"Byron\" since it depicts musically scenes from the life of the poet." ;
+        ont:person          <http://dbpedia.org/resource/Lord_Byron> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "53" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/36/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He remained a pianist of consequence, with a strong and reliable, if heavy, touch.Joanna Bullivant, writing in Music and Letters, maintains that in his music Bush subordinated all ideas of personal expression to the ideology of Marxism." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bush's return to composing after the war led to what Richard Stoker, in the  Oxford Dictionary of National Biography, calls \"his best period\"." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Richard_Stoker> ;
+        ont:place    <http://dbpedia.org/resource/Oxford> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1970s, while maintaining his teaching commitment to the RAM, he continued to perform in the concert hall as conductor and pianist." ;
+        ont:place           <http://dbpedia.org/resource/Radiohuset> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2,  and also made his first attempt to write opera – a scene from Bulwer Lytton's novel The Last Days of Pompeii, with a libretto by his brother Brinsley." ;
+        ont:person          <http://dbpedia.org/resource/Edward_Bulwer-Lytton> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/10/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tippett's biographer Ian Kemp writes: \"Apart from Sibelius, the contemporary composer who taught Tippett as much as anyone else was his own contemporary Alan Bush\"." ;
+        ont:person   <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/17/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Based in London, he was given leave to perform in concerts, which enabled him to conduct the premiere of his First Symphony at a BBC Promenade Concert in the Royal Albert Hall on 24 July 1942." ;
+        ont:place           <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Royal_Albert_Hall> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "24 July 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/31/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The symphony was even more overtly political, representing in its three movements greed (of the bourgeoisie), frustration (of the proletariat) and the final liberation of the latter,  but not, according to  Christiansen, \"in an idiom calculated to appeal to the masses\".Aside from these large-scale works, much of Bush's compositional activity in the 1930s was devoted to pageants, songs and choruses written for his choirs, work undertaken with the utmost seriousness." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1930s" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His 80th birthday in December 1980 was celebrated at concerts in London, Birmingham and East Germany, and the BBC broadcast a special birthday musical tribute." ;
+        ont:place           <http://dbpedia.org/resource/East_Germany> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Birmingham> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "December 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/11/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bush's Grove Music Online biographers also observe that in the politicisation of his music, his folk idioms have more in common with the English traditions of Ralph Vaughan Williams than with the continental radicalism of Kurt Weill." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Since his youthful Last Days of Pompeii, Bush had not attempted to write opera, but he took up the genre in 1946 with a short operetta for children, The Press Gang (or the Escap'd Apprentice), for which Nancy supplied the libretto." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Nancy_Reagan> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "genre in 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "While in Czechoslovakia in August 1947, he and the WMA performed his unaccompanied chorus Lidice at the site of the village of that name, which had been destroyed by the Nazis in 1942 in a reprisal for the assassination of Reinhard Heydrich.Among Bush's earliest postwar works was the English Suite, performed by the revived London String Orchestra at the Wigmore Hall on 9 February 1946." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/Nazi_Germany> , <http://dbpedia.org/resource/Lidice> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Czechoslovakia> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "August 1947" , "9 February 1946" , "in 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/39/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Herbert Murrill, a pupil of Bush's at the RAM in the 1920s, wrote in 1950 of his tutor: \"[T]here is humility in his makeup, and I believe that no man can achieve greatness in the arts without humility ... To Alan Bush I owe much, not least the artistic strength and right to differ from him\"." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1950" , "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1953–1975 ===" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1953–1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Times correspondent, praising the performance, wrote: \"One can only hope that London will soon see a production of its own\"." ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his involvement with opera, Bush continued to compose in other genres." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Like Wat Tyler in Leipzig, the opera was successful; after the Weimar season there were further East German productions in Jena (1957), Leipzig (1959) and Zwickau (1960)." ;
+        ont:person          <http://dbpedia.org/resource/Wat_Tyler> ;
+        ont:place           <http://dbpedia.org/resource/Leipzig> , <http://dbpedia.org/resource/Weimar> , <http://dbpedia.org/resource/Jena> , <http://dbpedia.org/resource/East_Germany> , <http://dbpedia.org/resource/Zwickau> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1959" , "1957" , "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/34/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In general Bush's late works continued to show all the hallmarks of his postwar oeuvre: vigour, clarity of tone and  masterful use of counterpoint." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/14/12>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the autumn of that year he visited both the Soviet Union and the United States." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In early 1929 he completed one of his best-known early chamber works, the string quartet Dialectic, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1929" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== To 1945 ===" ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1945 ===" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He composed prolifically across a range of genres, but struggled through his lifetime for recognition from the British musical establishment, which largely ignored his works." ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The following year he joined the London Labour Choral Union (LLCU), a group of largely London-based choirs that had been organised by the socialist composer Rutland Boughton, with Labour Party support, to \"develop the musical instincts of the people and to render service to the Labour movement\"." ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/31/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "According to Duncan Hall's account of the music culture of the Labour Movement in the inter-war years, Bush's youthful music, composed before his Berlin sojourn, already demonstrated its essential character." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Duncan_Hall> ;
+        ont:place    <http://dbpedia.org/resource/Berlin> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/1/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He wrote several large-scale works in the 1930s, and was heavily involved with workers' choirs for whom he composed pageants, choruses and songs." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In old age, Bush continued to lead an active and productive life, punctuated by periodic commemorations of his life and works." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/11/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Here, his tutors included Max Dessoir and Friedrich Blume." ;
+        ont:person   <http://dbpedia.org/resource/Max_Dessoir> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The ending of the second movement, a long tune representing Byron's speech against the extension of the death penalty was, Mason wrote, \"a splendid piece\"." ;
+        ont:person   <http://dbpedia.org/resource/Lord_Byron> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/36/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hall describes Bush as  \"a key figure in the democratisation of art in Britain, achieving far more in this regard than his pedagogic, utopian patrons and peers, the labour romantics.\"" ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/20/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "But the composer's refusal to modify his pro-Soviet stance following the onset of the Cold War alienated both the public and the music establishment, a factor which Bush acknowledged 20 years later: \"People who were in a position to promote my works were afraid to do so." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "20" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/24/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 6 December 1970, just before Bush's 70th birthday, BBC Television broadcast a programme about his life and works, and on 16 February 1971 the RAM hosted a special (late) birthday concert, in which he and Pears performed songs from Voices of the Prophets." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "6 December 1970" , "16 February 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/7/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The two became friends, as a result of which Bush met Head's 14-year-old sister Nancy." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Sister_Nancy> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/17/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "23, written for Vaughan Williams's 70th birthday in 1942, and several songs and choruses including  \"Freedom on the March\", written for a British-Soviet Unity Demonstration at the Albert Hall on 27 June 1943.Bush's relatively calm war was marred by the death, in 1944, of his seven-year-old daughter Alice in a road accident." ;
+        ont:person          <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "23" , "27 June 1943.Bush" , "birthday in 1942" , "in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Although Bush accepted Zhdanov's 1948 diktat without demur and acted accordingly, his postwar simplifications had begun earlier and would continue as part of a gradual process." ;
+        ont:person          <http://dbpedia.org/resource/Andrei_Zhdanov> , <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "1948 diktat" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "124, and  Summer Valley for cello and piano, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "124" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "12a, received a mixed reception." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "12a" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/26/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "94, subtitled the \"Lascaux\"." ;
+        ont:place           <http://dbpedia.org/resource/Lascaux> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "94" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In December 1960 David Drew in the New Statesman wrote: \"The chief virtue of Men of Blackmoor, and the reason why it particularly deserves a [professional] performance at this historical point, is its unfailing honesty ... it is never cheap, and at its best achieves a genuine dignity." ;
+        ont:person          <http://dbpedia.org/resource/David_Drew_(politician)> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "December 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/8/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "6 and the piano solo Relinquishment, Op." ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "6" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/22/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wat Tyler, again to Nancy's libretto, was submitted in 1950 to the Arts Council's Festival of Britain opera competition, and was one of four prizewinners – Bush received £400." ;
+        ont:person          <http://dbpedia.org/resource/Nancy_Reagan> , <http://dbpedia.org/resource/Wat_Tyler> , <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Alan_Bush> ;
+        ont:timeExpression  "in 1950" , "of four" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/64598/34/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The postwar period also saw the beginning of Bush's 20-year involvement with grand opera, a genre in which, although he achieved little commercial recognition, he was retrospectively hailed by critics as a master of British opera second only to Britten." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Alan_Bush> .

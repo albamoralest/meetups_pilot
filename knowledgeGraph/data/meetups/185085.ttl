@@ -6,30 +6,260 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/185085/11/0>
+<http://w3id.org/polifonia/pilot/meetups/185085/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He toured with Ernest Tubb, who became his mentor." ;
+        ont:person   <http://dbpedia.org/resource/Ernest_Tubb> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/10/4>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The lawsuit was settled on October 3, 2008 for an undisclosed amount and Jackson returned to performing on the show." ;
         ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
-        ont:place           "http://dbpedia.org/resource/Tennessee" , "http://dbpedia.org/resource/North_Carolina" ;
         ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
-        ont:timeExpression  "age of 89" , "October 11 , 2012.Jackson" , "December 4 , 2021" .
+        ont:timeExpression  "October 3 , 2008" .
 
-<http://w3id.org/polifonia/pilot/meetups/185085/10/6>
+<http://w3id.org/polifonia/pilot/meetups/185085/4/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_V> , <http://dbpedia.org/resource/Juanita_Coulson> ;
-        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:excerpt         "Jackson enlisted in the Navy in 1950 and was discharged in 1954." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
         ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
-        ont:timeExpression  "by 2012" , "January 11 , 2019" .
+        ont:timeExpression  "in 1950" , "in 1954" .
 
-<http://w3id.org/polifonia/pilot/meetups/185085/0/0>
+<http://w3id.org/polifonia/pilot/meetups/185085/7/7>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Stonewall_Jackson> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "It sold over one million copies, and was awarded a gold disc." ;
         ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
-        ont:timeExpression  "November 6 , 1932" , "December 4 , 2021" , "1950s" .
+        ont:timeExpression  "million" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 hits came in 1964 with \"Don't Be Angry\" and \"B.J." ;
+        ont:person          <http://dbpedia.org/resource/B._J._Upton> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "in 1964" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jackson became the first artist to join the Grand Ole Opry before obtaining a recording contract." ;
+        ont:person   <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/10/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Fisher is also alleged to have told Jackson that he was \"too old and too country\"." ;
+        ont:person   <http://dbpedia.org/resource/Ronald_Fisher> , <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/8/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jackson also recorded a cover version of Lobo's 1971 hit, \"Me and You and a Dog Named Boo\", which became Jackson's final top 10 hit.From 1958 to 1971, Jackson had 35 Top 40 country hits." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "1971" , "10 hit.From" , "1958" , "1971 hit" , "35 Top 40" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jackson grew up there working on his uncle's farm." ;
+        ont:person   <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/7/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "24 in the UK Singles Chart in July 1959." ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "July 1959" , "24" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Stonewall is not a nickname; he was named after Confederate General Thomas \"Stonewall\" Jackson." ;
+        ont:person   <http://dbpedia.org/resource/Stonewall_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/17/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Stonewall Jackson\"." ;
+        ont:person   <http://dbpedia.org/resource/Stonewall_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/10/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He has a son, Stonewall Jackson Jr." ;
+        ont:person   <http://dbpedia.org/resource/Stonewall_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His breakthrough came in the country Top 40 in late 1958, with a song written by a young George Jones, \"Life to Go\"." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "1958" , "Top 40" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After hearing Jackson's demo tape, Wesley Rose, president of Acuff-Rose Music, arranged for Jackson to audition for the Grand Ole Opry." ;
+        ont:person   <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In his court filing, Jackson claimed that Opry general manager Pete Fisher stated that he did not \"want any gray hairs on that stage or in the audience, and before I'm done there won't be any.\"" ;
+        ont:person   <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/19/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Stonewall Jackson at AllMusic Allmusic overview" ;
+        ont:person   <http://dbpedia.org/resource/Stonewall_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Stonewall's father died when he was two and his mother moved the family to Moultrie in South Georgia." ;
+        ont:place           <http://dbpedia.org/resource/South_Georgia_Island> , <http://dbpedia.org/resource/Fort_Moultrie> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "two" .
 
 <http://w3id.org/polifonia/pilot/meetups/185085/3/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Born in Tabor City, North Carolina on November 6, 1932, Jackson was the youngest of three children." ;
         ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
-        ont:place           "http://dbpedia.org/resource/Tabor_City,_North_Carolina" ;
+        ont:place           <http://dbpedia.org/resource/Tabor_City,_North_Carolina> ;
         ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
-        ont:timeExpression  "November 6 , 1932" , "of three" .
+        ont:timeExpression  "of three" , "November 6 , 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "BibliographyTrott, Walt (1998)." ;
+        ont:person          <http://dbpedia.org/resource/Walt_Disney> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/10/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As a member of the Opry for over fifty years, Jackson believed management was sidelining him in favor of younger artists." ;
+        ont:person   <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Stonewall Jackson (November 6, 1932 – December 4, 2021) was an American country music singer, guitarist, and musician who achieved his greatest fame during country's \"golden\" honky tonk era in the 1950s and early 1960s." ;
+        ont:person          <http://dbpedia.org/resource/Stonewall_Jackson> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "November 6 , 1932" , "December 4 , 2021" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1963, Jackson was the first artist to record a live album from the Grand Ole Opry with Old Showboat." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "In 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/21/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Stonewall Jackson at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Stonewall_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/17/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "p. 259." ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "259" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "4." ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Stonewall Jackson discography at Discogs" ;
+        ont:person   <http://dbpedia.org/resource/Stonewall_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/10/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He largely retired from performing by 2012, with his last public performance being at the funeral of his longtime friend George Jones.Jackson lived on a farm in Brentwood, Tennessee where his wife Juanita died on January 11, 2019." ;
+        ont:person          <http://dbpedia.org/resource/George_V> , <http://dbpedia.org/resource/Juanita_Coulson> ;
+        ont:place           <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "by 2012" , "January 11 , 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jackson was inducted into the North Carolina Music Hall of Fame on October 11, 2012.Jackson died in Nashville, Tennessee, on December 4, 2021, at the age of 89 following a long battle with vascular dementia." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:place           <http://dbpedia.org/resource/North_Carolina> , <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "December 4 , 2021" , "October 11 , 2012.Jackson" , "age of 89" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2006, Jackson sued the Grand Ole Opry for $10 million in compensatory damages and $10 million in punitive damages, claiming age discrimination." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "In 2006" , "million" , "10" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/7/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The song cites Adam, Napoleon and Tom Dooley as examples." ;
+        ont:person   <http://dbpedia.org/resource/Napoleon> , <http://dbpedia.org/resource/Tom_Dula> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/8/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "(Jackson's foray into the teenage tragedy song trope, about an over-worked country music radio station disc jockey, who crashes his car in a rainstorm)." ;
+        ont:person   <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/17/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "New York: Oxford University Press." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 for five weeks, and crossed over into the Top 40 of the Billboard Hot 100 chart, where it reached No." ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "40" , "Billboard Hot 100" , "for five" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jackson signed with Columbia Records in 1958." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "in 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/10/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was a member of the Opry from 1956 until his death." ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "from 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He moved to Nashville, Tennessee in 1956." ;
+        ont:place           <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/7/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The song was a haunting and catchy tune that states \"Everybody has to meet his Waterloo\", meaning their fate." ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/17/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Paul Kingsbury, Editor." ;
+        ont:place    <http://dbpedia.org/resource/Kingsbury_tube_station> ;
+        ont:subject  <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/185085/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2 in early 1959 and his follow-up record, \"Waterloo\", was No." ;
+        ont:subject         <http://dbpedia.org/resource/Stonewall_Jackson_(musician)> ;
+        ont:timeExpression  "1959" , "2" .

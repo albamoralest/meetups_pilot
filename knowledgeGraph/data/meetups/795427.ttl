@@ -6,58 +6,345 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/795427/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He led an abstemious life in Rome, maintaining himself by painting Romantic landscapes which frequently included historical subjects." ;
+        ont:place    <http://dbpedia.org/resource/Rome> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He continued to hold that the pope should enjoy nominal sovereignty over Rome with full spiritual independence, with the capital of Italy being established elsewhere but the Romans being Italian citizens." ;
+        ont:place    <http://dbpedia.org/resource/Rome> , <http://dbpedia.org/resource/Ancient_Rome> , <http://dbpedia.org/resource/Pope> , <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/2/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His father reluctantly consented, and Massimo settled in Rome, devoting himself to art." ;
+        ont:place    <http://dbpedia.org/resource/Rome> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
 <http://w3id.org/polifonia/pilot/meetups/795427/2/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Massimo Taparelli, Marquis d'Azeglio, was born in Turin on 24 October 1798." ;
         ont:person          <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
-        ont:place           "http://dbpedia.org/resource/Turin" ;
+        ont:place           <http://dbpedia.org/resource/Turin> ;
         ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
         ont:timeExpression  "24 October 1798" .
 
-<http://w3id.org/polifonia/pilot/meetups/795427/0/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Camillo_Benso,_Count_of_Cavour> ;
-        ont:place           "http://dbpedia.org/resource/Kingdom_of_Sardinia" ;
-        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
-        ont:timeExpression  "three" .
+<http://w3id.org/polifonia/pilot/meetups/795427/0/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His brother Luigi Taparelli d'Azeglio was a Jesuit priest." ;
+        ont:person   <http://dbpedia.org/resource/Luigi_Taparelli> , <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
 
-<http://w3id.org/polifonia/pilot/meetups/795427/6/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Charles_IV_of_Spain> , <http://dbpedia.org/resource/Victor_Emmanuel_II_of_Italy> ;
-        ont:place           "http://dbpedia.org/resource/Novara" ;
-        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
-        ont:timeExpression  "23 March 1849" .
+<http://w3id.org/polifonia/pilot/meetups/795427/4/12>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Realizing how impossible it was to renew the campaign, but \"not having the heart to sign, in such wretched internal and external conditions, a treaty of peace with Austria\" (Correspondance politique, by E Rendu), he refused." ;
+        ont:place    <http://dbpedia.org/resource/Austria> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
 
-<http://w3id.org/polifonia/pilot/meetups/795427/8/2>
+<http://w3id.org/polifonia/pilot/meetups/795427/4/5>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At that point, literature instead of art became his chief occupation; he produced two historical novels, Niccolò dei Lapi and Ettore Fieramosca, in imitation of Walter Scott." ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Massimo Taparelli, Marquess of Azeglio (24 October 1798 – 15 January 1866), commonly called Massimo d'Azeglio (Italian: [ˈmassimo tapaˈrɛlli dadˈdzeʎʎo]), was a Piedmontese-Italian statesman, novelist and painter." ;
         ont:person          <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
-        ont:place           "http://dbpedia.org/resource/Turin" ;
         ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
-        ont:timeExpression  "1855 d'Azeglio" .
+        ont:timeExpression  "15 January 1866" , "24 October 1798" .
 
-<http://w3id.org/polifonia/pilot/meetups/795427/4/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Joseph_Anton_von_Maffei> ;
-        ont:place           "http://dbpedia.org/resource/Milan" ;
-        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
-        ont:timeExpression  "in 1834" .
+<http://w3id.org/polifonia/pilot/meetups/795427/8/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When war between Piedmont and Austria appeared inevitable, he returned to Italy and was sent by Cavour as royal commissioner to Romagna, whence the papal troops had been expelled.After the peace of Villafranca, d'Azeglio was recalled with orders to withdraw the Piedmontese garrisons, but saw the danger of allowing papal troops to reoccupy the province, and after a severe struggle left Bologna without the troops and interviewed the king." ;
+        ont:person   <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:place    <http://dbpedia.org/resource/Austrian_Empire> , <http://dbpedia.org/resource/Kingdom_of_Sardinia> , <http://dbpedia.org/resource/Papal_States> , <http://dbpedia.org/resource/Kingdom_of_Italy> , <http://dbpedia.org/resource/Bologna> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
 
-<http://w3id.org/polifonia/pilot/meetups/795427/4/6>
+<http://w3id.org/polifonia/pilot/meetups/795427/14/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Massimo_d'Azeglio> , <http://dbpedia.org/resource/Pope_Gregory_XVI> ;
-        ont:place           "http://dbpedia.org/resource/Italy" ;
+        ont:excerpt         "Juventus Football Club was founded by its students in 1897.There is a poetry contest organized by a cultural organization in Puglia (Italian region) named after D'Azeglio." ;
+        ont:place           <http://dbpedia.org/resource/Apulia> ;
         ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
-        ont:timeExpression  "1845 d'Azeglio" .
+        ont:timeExpression  "in 1897.There" .
 
-<http://w3id.org/polifonia/pilot/meetups/795427/8/8>
+<http://w3id.org/polifonia/pilot/meetups/795427/2/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his residence in Rome, Massimo acquired a love for art and music and decided to become a painter, to the horror of his conservative, aristocratic family." ;
+        ont:place    <http://dbpedia.org/resource/Rome> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/12/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Restano da fare gli italiani\", translated colloquially as \"We have made Italy." ;
+        ont:place    <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/0/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As senator, following the annexation of the United Provinces of Central Italy, Azeglio attempted to reconcile the Vatican with the new Italian Kingdom." ;
+        ont:place    <http://dbpedia.org/resource/Vatican_City> , <http://dbpedia.org/resource/United_Provinces_of_Central_Italy> , <http://dbpedia.org/resource/Dutch_Republic> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/11>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Giuseppe_Mazzini> , <http://dbpedia.org/resource/Massimo_d'Azeglio> , <http://dbpedia.org/resource/Giuseppe_Garibaldi> ;
-        ont:place           "http://dbpedia.org/resource/Kingdom_of_Sardinia" , "http://dbpedia.org/resource/Kingdom_of_the_Two_Sicilies" , "http://dbpedia.org/resource/Sicily" ;
+        ont:excerpt         "He was now a famous man, and early in 1849 Charles Albert, king of Sardinia, invited him to form a cabinet." ;
+        ont:place           <http://dbpedia.org/resource/Sardinia> ;
         ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
-        ont:timeExpression  "in 1862" , "in 1861" , "two" .
+        ont:timeExpression  "in 1849" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In his opinion Italy needed to be unified by means of the Franco-Piedmontese army alone, avoiding any connection with the other armies." ;
+        ont:place    <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He became an intimate of Alessandro Manzoni the novelist, whose daughter he married." ;
+        ont:person   <http://dbpedia.org/resource/Alessandro_Manzoni> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He became Prime Minister in 1849, despite a lack of experience or enthusiasm." ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "in 1849" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1859 he was given various political missions, including one to Paris and London to prepare the basis for a general congress of the powers on Italian affairs." ;
+        ont:place           <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Italy> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "In 1859" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/14/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Liceo classico Massimo d'Azeglio has a notable place in Italian history as the alma mater of author Primo Levi, novelist Cesare Pavese, screenwriter Tullio Pinelli, and anti-fascist intellectuals such as publisher Giulio Einaudi (son of future President Luigi Einaudi), Norberto Bobbio, and writer and teacher Leone Ginzburg." ;
+        ont:person   <http://dbpedia.org/resource/Primo_Levi> , <http://dbpedia.org/resource/Tullio_Pinelli> , <http://dbpedia.org/resource/Cesare_Pavese> , <http://dbpedia.org/resource/Leone_Ginzburg> , <http://dbpedia.org/resource/Norberto_Bobbio> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/6/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "While all the rest of Italy was a prey to despotism, in Piedmont the king maintained the constitution intact in the face of a general wave of reaction." ;
+        ont:place    <http://dbpedia.org/resource/Piedmont> , <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
 
 <http://w3id.org/polifonia/pilot/meetups/795427/4/9>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His political activity increased and he wrote various other pamphlets, among which was I lutti di Lombardia (1848).On the outbreak of the first war of independence, d'Azeglio donned the papal uniform and took part under General Durando in the defence of Vicenza, where he was severely wounded." ;
         ont:person          <http://dbpedia.org/resource/Pope_Pius_IX> , <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
-        ont:place           "http://dbpedia.org/resource/Vicenza" ;
+        ont:place           <http://dbpedia.org/resource/Vicenza> ;
         ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
         ont:timeExpression  "1848" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, disapproving of the government's policy with regard to Garibaldi's Sicilian campaign and regarding the occupation by Piedmont of the kingdom of Naples as inopportune, he resigned office.The deaths of his two brothers in 1862 and of Cavour in 1861 caused d'Azeglio great grief; he subsequently led a comparatively retired life, but continued to take part in politics, both as deputy and writer, his two chief subjects of interest being the Roman question and the relations of Piedmont (now the kingdom of Italy) with Mazzini and the other revolutionaries." ;
+        ont:person          <http://dbpedia.org/resource/Giuseppe_Mazzini> , <http://dbpedia.org/resource/Massimo_d'Azeglio> , <http://dbpedia.org/resource/Giuseppe_Garibaldi> ;
+        ont:place           <http://dbpedia.org/resource/Kingdom_of_Sardinia> , <http://dbpedia.org/resource/Kingdom_of_the_Two_Sicilies> , <http://dbpedia.org/resource/Sicily> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "in 1862" , "in 1861" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He retired to Florence to recover, but as he opposed the ruling democrats he was expelled from Tuscany a second time." ;
+        ont:place    <http://dbpedia.org/resource/Tuscany> , <http://dbpedia.org/resource/Florence> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He resided in Milan for twelve years, moving in the city's literary and artistic circles and, in 1834, helped to organise the Salotto Maffei salon, hosted by Clara Maffei." ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Anton_von_Maffei> ;
+        ont:place           <http://dbpedia.org/resource/Milan> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "in 1834" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had a low opinion of the people of Italy, who, he declared, \"were 20 percent stupid rascally and bold, 80 percent stupid, honest and timid, and such a people has the government it deserves.\"" ;
+        ont:place           <http://dbpedia.org/resource/Italy> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "20 percent" , "80 percent stupid" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died of fever in Turin on 15 January 1866." ;
+        ont:place           <http://dbpedia.org/resource/Turin> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "15 January 1866" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1855 d'Azeglio was appointed director of the Turin art gallery." ;
+        ont:person          <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:place           <http://dbpedia.org/resource/Turin> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "1855 d'Azeglio" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A prestigious Liceo classico founded in 1831 in his hometown of Turin was later renamed in his honour." ;
+        ont:place           <http://dbpedia.org/resource/Turin> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "in 1831" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/6/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "D'Azeglio disapproved of this and resigned office, but on the king's request formed a new ministry, excluding both Cavour and Farini." ;
+        ont:person   <http://dbpedia.org/resource/Luigi_Carlo_Farini> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "On the return of Pope Pius VII to Rome after the fall of Napoleon, Cesare was sent as special envoy to the Holy See and took his son, then sixteen years of age, with him as an extra attaché." ;
+        ont:person   <http://dbpedia.org/resource/Napoleon> , <http://dbpedia.org/resource/Pope_Pius_VII> ;
+        ont:place    <http://dbpedia.org/resource/Rome> , <http://dbpedia.org/resource/Holy_See> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The treaty was accepted and d'Azeglio continued in office for the next three years." ;
+        ont:person          <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Besides a variety of newspaper articles and pamphlets, d'Azeglio's chief works are the two novels Ettore Fieramosca (1833) and Niccolò dei Lapi (1841), as well as a volume of autobiographical memoirs entitled I Miei Ricordi (D'Azeglio Memoirs – p. 1867), a work published after his death, in 1866, but unfortunately incomplete." ;
+        ont:person          <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "two" , "in 1866" , "1867" , "1833" , "1841" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He spent the next few months in Rome, sharing the general enthusiasm over the supposed liberalism of the new pope, Pius IX; like Vincenzo Gioberti he believed in an Italian confederation under papal auspices and was opposed to the Radical wing of the Liberal party." ;
+        ont:person   <http://dbpedia.org/resource/Pope_Pius_IX> , <http://dbpedia.org/resource/Vincenzo_Gioberti> ;
+        ont:place    <http://dbpedia.org/resource/Italy> , <http://dbpedia.org/resource/Pope> , <http://dbpedia.org/resource/Rome> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/0/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As Prime Minister, he consolidated the parliamentary system, getting the young king to accept his constitutional status, and worked hard for a peace treaty with Austria." ;
+        ont:place    <http://dbpedia.org/resource/Austria> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Early in 1860 Cavour appointed him governor of Milan, evacuated by the Austrians after the battle of Magenta, a position which he held with great ability." ;
+        ont:place           <http://dbpedia.org/resource/Austrian_Empire> , <http://dbpedia.org/resource/Milan> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "in 1860" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1830 he returned to Turin and, after his father's death in 1831, moved to Milan." ;
+        ont:place           <http://dbpedia.org/resource/Turin> , <http://dbpedia.org/resource/Milan> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "death in 1831" , "In 1830" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He played a significant role in the rehabilitation of Piedmont after the chaos of the 1848–49 revolutions." ;
+        ont:place           <http://dbpedia.org/resource/Piedmont> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "1848–49" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/12>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The last few years of d'Azeglio's life were spent chiefly at his villa of Cannero, where he wrote his own memoirs." ;
+        ont:person   <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/6/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cavour and Farini, also a member of the cabinet, made certain declarations in the Chamber (May 1852) which led the ministry in the direction of an alliance with Rattazzi and the Left." ;
+        ont:person          <http://dbpedia.org/resource/Luigi_Carlo_Farini> , <http://dbpedia.org/resource/Urbano_Rattazzi> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "May 1852" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His father, Cesare d'Azeglio, an officer in the Piedmontese army, held a high position at court." ;
+        ont:person   <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:place    <http://dbpedia.org/resource/Kingdom_of_Sardinia> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "D'Azeglio was again called on to form a cabinet; this time, although the situation was even more difficult, he accepted, concluded a peace treaty, dissolved the Chamber and summoned a new one to ratify it." ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The following year he published his famous pamphlet Degli ultimi casi di Romagna at Florence; as a consequence of this he was expelled from Tuscany." ;
+        ont:place    <http://dbpedia.org/resource/Tuscany> , <http://dbpedia.org/resource/Florence> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "D'Azeglio was a moderate liberal who hoped for a federal union between Italian states." ;
+        ont:place    <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "That same year d'Azeglio published a pamphlet in French entitled De la Politique et du droit chrétien au point de vue de la question italienne, with the object of inducing Napoleon III to continue his pro-Italian policy." ;
+        ont:person   <http://dbpedia.org/resource/Massimo_d'Azeglio> , <http://dbpedia.org/resource/Napoleon> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He strongly disapproved of the convention of 1864 between the Italian government and the pope." ;
+        ont:place           <http://dbpedia.org/resource/Pope> , <http://dbpedia.org/resource/Italy> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "convention of 1864" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For the next four years he lived modestly at Turin, devoting himself once more to art, although he also continued to take an active interest in politics." ;
+        ont:place           <http://dbpedia.org/resource/Turin> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When the bishops protested they were punished or exiled, inspiring liberal anticlerical elements across Italy.He invited Count Camillo Cavour, then a rising young politician, to enter the ministry in 1850." ;
+        ont:person          <http://dbpedia.org/resource/Camillo_Benso,_Count_of_Cavour> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "ministry in 1850" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After the defeat at the Battle of Novara (23 March 1849), Charles Albert abdicated and was succeeded by Victor Emmanuel II." ;
+        ont:person          <http://dbpedia.org/resource/Charles_IV_of_Spain> , <http://dbpedia.org/resource/Victor_Emmanuel_II_of_Italy> ;
+        ont:place           <http://dbpedia.org/resource/Novara> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "23 March 1849" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The novels had a strong political context, with d'Azeglio aiming to illustrate the evils of foreign domination in Italy and to reawaken national feeling.In 1845 d'Azeglio visited Romagna as an unauthorized political envoy, to report on its conditions and the troubles which he foresaw would break out on the death of Pope Gregory XVI." ;
+        ont:person          <http://dbpedia.org/resource/Massimo_d'Azeglio> , <http://dbpedia.org/resource/Pope_Gregory_XVI> ;
+        ont:place           <http://dbpedia.org/resource/Italy> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "1845 d'Azeglio" .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== Prime Minister of Sardinia ==" ;
+        ont:place    <http://dbpedia.org/resource/Sardinia> ;
+        ont:subject  <http://dbpedia.org/resource/Massimo_d'Azeglio> .
+
+<http://w3id.org/polifonia/pilot/meetups/795427/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was Prime Minister of Sardinia for almost three years, until his rival Camillo Benso, Count of Cavour succeeded him." ;
+        ont:person          <http://dbpedia.org/resource/Camillo_Benso,_Count_of_Cavour> ;
+        ont:place           <http://dbpedia.org/resource/Kingdom_of_Sardinia> ;
+        ont:subject         <http://dbpedia.org/resource/Massimo_d'Azeglio> ;
+        ont:timeExpression  "three" .

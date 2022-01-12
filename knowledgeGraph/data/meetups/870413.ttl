@@ -6,51 +6,930 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/870413/106/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Junior_Tucker> ;
-        ont:place           "http://dbpedia.org/resource/It's_a_Small_World" ;
-        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
-        ont:timeExpression  "1978" .
-
-<http://w3id.org/polifonia/pilot/meetups/870413/101/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Ernie_Smith_(singer)> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
-        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
-        ont:timeExpression  "1972" .
-
-<http://w3id.org/polifonia/pilot/meetups/870413/7/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
-        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
-        ont:timeExpression  "In 1964" .
-
-<http://w3id.org/polifonia/pilot/meetups/870413/7/5>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
-        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
-        ont:timeExpression  "1964" .
-
-<http://w3id.org/polifonia/pilot/meetups/870413/84/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Charlie_Hunter> ;
-        ont:place           "http://dbpedia.org/resource/Earth" ;
-        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
-        ont:timeExpression  "2005" .
-
 <http://w3id.org/polifonia/pilot/meetups/870413/6/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1962 the James Bond film Dr. No was being shot in Jamaica and Ranglin was hired by Carlos Malcolm, music director for JBC, to compose music for some of the scenes set in Jamaica." ;
         ont:person          <http://dbpedia.org/resource/Carlos_Malcolm> ;
-        ont:place           "http://dbpedia.org/resource/Jamaica" ;
+        ont:place           <http://dbpedia.org/resource/Jamaica> ;
         ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
         ont:timeExpression  "In 1962" .
 
-<http://w3id.org/polifonia/pilot/meetups/870413/66/0>
+<http://w3id.org/polifonia/pilot/meetups/870413/60/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Cedric_Brooks> ;
-        ont:place           "http://dbpedia.org/resource/Africa" ;
+        ont:excerpt         "Roots Classics (Shanachie, 1994)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1991 Ranglin's nephew Gary Crosby formed the group Jazz Jamaica; Ranglin and Jazz Jamaica performed together at Ronnie Scott's in October 2009 as part of the club's anniversary concert series." ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> , <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "October 2009" , "In 1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ken Boothe, Groove to the Beat (Jamaican Gold 1999)" ;
+        ont:person          <http://dbpedia.org/resource/Ken_Boothe> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "Jamaican Gold 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Congos, Heart of the Congos (Black Art, 1977)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1960s ===" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Believer (Tropic, 2002)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Below the Bassline (Island, 1996)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/45/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(MPS, 1974)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cobilimbo (MPS 1978)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "MPS 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/70/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jimmy Cliff, I Am the Living (WEA, 1980)" ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Our World (Tropic, 1999)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Beenie Man, Art and Life (Virgin, 2000)" ;
+        ont:person          <http://dbpedia.org/resource/Beenie_Man> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the 1950s Ranglin played guitar on calypso and mento releases, some of which were recorded for the tourist market." ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Modern Answers to Old Problems (Telarc, 2000)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Play the Time Away (Grove Music, 1995)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/7/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglin's tenure at Ronnie Scott's brought him to the attention of UK Jazz audiences with the Melody Maker′s readers duly voting Ranglin into first place in the guitar category of the paper's 1964 Reader's Jazz Poll." ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Pensive Ranglin (Kinlin, 1993)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gary Barlow, Sing (Decca, 2012)" ;
+        ont:person          <http://dbpedia.org/resource/Gary_Barlow> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mango Blues (Tropic, 1997)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jamento (Pablo, 1978)" ;
         ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
         ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His solo releases during this period saw him return to his jazz roots with the albums Wranglin (1964) and Reflections, (1965) both issued by Island." ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1964" , "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Village Soul (Tropic, 1997)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Communication (Solomonic, 2000)With others" ;
+        ont:person          <http://dbpedia.org/resource/Solomon> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "True Blue (Rooney, 1989)" ;
+        ont:person          <http://dbpedia.org/resource/Wayne_Rooney> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ernest Ranglin was born in Manchester, Jamaica." ;
+        ont:person   <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:place    <http://dbpedia.org/resource/Manchester> , <http://dbpedia.org/resource/Jamaica> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In Search of the Lost Riddim (Palm Pictures, 1998)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Monty Strikes Again (MPS/BASF, 1976)" ;
+        ont:person          <http://dbpedia.org/resource/Bernard_Montgomery> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Softly with Ranglin (Twilight, 1969)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/107/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jason Wilson, The Peacemaker's Chauffeur (Wheel, 2008)" ;
+        ont:person          <http://dbpedia.org/resource/Woodrow_Wilson> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "We Want to Party (Rooney, 1989)" ;
+        ont:person          <http://dbpedia.org/resource/Wayne_Rooney> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Soul D'Ern (Jazz House, 1997)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Love and Sunshine (MPS/BASF, 1975)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tear It Up (Tropic, 1997)" ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mr. Ernie Ranglin with Soul (Dub Store, 1969)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglin was the lead guitarist on the Lee \"Scratch\" Perry recording sessions at Black Ark Studios for the Heart of the Congos (1977) album by the Congos.In 1982 he moved to Florida, where he continued to record as well as taking the opportunity to perform more regularly at jazz festivals." ;
+        ont:place           <http://dbpedia.org/resource/Florida> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1977" , "Congos.In 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/106/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Junior Tucker, It's a Small, Small World (Top Ranking, 1978)" ;
+        ont:person          <http://dbpedia.org/resource/Junior_Tucker> ;
+        ont:place           <http://dbpedia.org/resource/It's_a_Small_World> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/7/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglin played on the Eccles-produced \"Say What You're Saying\" (1967) by Eric \"Monty\" Morris, which he cites as one of the earliest records to feature reggae drumming." ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Say> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1967" , "as one" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Memories of Barber Mack (Island, 1997)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/45/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Rass!" ;
+        ont:place    <http://dbpedia.org/resource/Ar_Rass> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ernest Ranglin  (born 19 June 1932) is a Jamaican guitarist and composer who established his career while working as a session guitarist and music director for various Jamaican record labels including Studio One and Island Records." ;
+        ont:person          <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "19 June 1932" , "Studio One" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rocksteady (Telarc, 2004)With Floyd Lloyd" ;
+        ont:person          <http://dbpedia.org/resource/Floyd_Lloyd> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rum Raisin (RRR, 1985)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Boss Reggae (FRM, 1969)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/105/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "André Toussaint, André Toussaint (Bahama, 1965)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/2/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "While performing locally with these orchestras Ranglin was introduced to the jazz pianist Monty Alexander, which led to a lifelong friendship as well as numerous musical collaborations." ;
+        ont:person   <http://dbpedia.org/resource/Monty_Alexander> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Yard Movement (Island, 1996)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tribute to a Legend (Kariang, 1997)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Mod a Mod Ranglin (Federal, 1966)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/44/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With Monty Alexander" ;
+        ont:person   <http://dbpedia.org/resource/Monty_Alexander> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From Kingston JA to Miami USA (Vista Sounds, 1983)" ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Kingston_upon_Thames> , <http://dbpedia.org/resource/Miami> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1964 a live set was recorded at the club which was released on the Fontana label as The Night Is Scott And You're So Swingable in 1966." ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "in 1966" , "In 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/104/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lincoln Thompson, Natural Wild (Vista Sounds, 1983)" ;
+        ont:person          <http://dbpedia.org/resource/Lincoln_Thompson> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The tour would feature musicians including Tony Allen, Courtney Pine, Ira Coleman, Cheikh Lô and Alex Wilson.Ranglin was honoured in the 2021 National Honours and Awards on Jamaica’s 59th Anniversary of Independence." ;
+        ont:person          <http://dbpedia.org/resource/Tony_Allen_(musician)> , <http://dbpedia.org/resource/Ira_Coleman> , <http://dbpedia.org/resource/Courtney_Pine> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "59th" , "2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/110/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ernest Ranglin website" ;
+        ont:person   <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Exciting Ranglin (RCA Victor, 1966)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Many Rivers to Cross (MELDAC, 1995)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Monty Alexander/Ernest Ranglin (MPS, 1981)" ;
+        ont:person          <http://dbpedia.org/resource/Monty_Alexander> , <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglin was also employed by Duke Reid as an A&R man for Reid's Treasure Isle label as well as fulfilling the same role for the labels Federal (owned and operated by Ken Khouri who recorded and produced Ranglin's 1965 Guitar in Ernest album) and Gay Feet." ;
+        ont:person          <http://dbpedia.org/resource/Duke_Reid> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/103/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sonny Stitt, Sonny's Blues (Jazz House, 1995)" ;
+        ont:person          <http://dbpedia.org/resource/Sonny_Stitt> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "@Noon and Modern Answers to Old Problems were released in 2000 followed by Grooving in 2001." ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2000 followed" , "in 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglin Roots (Aquarius, 1976)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz Jamaica (Federal, 2014)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Guitar in Ernest (RCA Victor, 1965)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/102/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "St Germain, Tourist (Blue Note, 2000)" ;
+        ont:place           <http://dbpedia.org/resource/Saint-Germain-en-Laye> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Reflections (Island, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglypso (MPS/BASF, 1976)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bless Up (Avila Street, 2014)" ;
+        ont:person          <http://dbpedia.org/resource/Artur_Avila> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglin also toured with Jimmy Cliff in the dual role of music director/guitarist, which resulted in the 1976 album release In Concert: The Best of Jimmy Cliff." ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1976 album release" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/4/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ranglin also played on the Beckford tracks \"Jack and Jill Shuffle\" and \"Shuffling Jug.\"" ;
+        ont:person   <http://dbpedia.org/resource/Jermaine_Beckford> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/101/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ernie Smith, Smith, That Is (London, 1972)" ;
+        ont:person          <http://dbpedia.org/resource/Ernie_Smith_(singer)> ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/7/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The closing years of the sixties found Ranglin working with the Jamaican producers Lee \"Scratch\" Perry and Clancy Eccles; both of whom were instrumental in developing and establishing the new genre of reggae." ;
+        ont:person   <http://dbpedia.org/resource/Clancy_Eccles> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Avila Featuring Ernest Ranglin (Avila Street, 2012)" ;
+        ont:person          <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wranglin (Island, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/100/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Leroy Smart, Let Everyman Survive (Hit, 1980)" ;
+        ont:person          <http://dbpedia.org/resource/Leroy_Smart> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He stayed for nine months, backing numerous guest artists as well as appearing onstage with the Ronnie Scott Quartet and Quintet." ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "for nine" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the age of 15, Ranglin joined the Val Bennett Orchestra, which was followed by a period of employment with the Eric Deans Orchestra." ;
+        ont:person          <http://dbpedia.org/resource/Val_Bennett> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "age of 15" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In November 2015 Ranglin announced that he would be retiring from the music business with a farewell tour in the summer of 2016." ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "summer of 2016" , "November 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"My Boy Lollipop\" (a cover version of a song written by Robert Spencer of the doo-wop group the Cadillacs and originally recorded by Barbie Gaye in 1956) became a worldwide hit after being released by Island on licence to Fontana in March 1964." ;
+        ont:person          <http://dbpedia.org/resource/Robert_B._Spencer> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "in 1956" , "March 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/99/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Millie Small, My Boy Lollipop & Oh, Henry (Island, 1980)" ;
+        ont:person          <http://dbpedia.org/resource/Millie_Small> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1974)." ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglin also played with Cluett Johnson's studio band Clue J and the Blues Blasters; recording several tracks for Coxsone Dodd at Federal Studios, including the Theophilus Beckford hit \"Easy Snapping\" (recorded in 1956 and released in 1959), which he arranged and played guitar on." ;
+        ont:person          <http://dbpedia.org/resource/Theophilus_Beckford> , <http://dbpedia.org/resource/Coxsone_Dodd> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "in 1959" , "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/7/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglin was also music director for the recording of The Melodians' song \"Rivers of Babylon\" (1967)." ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/98/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Skatalites, Herb Dub Collie Dub (Jigsaw, 1976)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/97/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ronnie Scott, When I Want Your Opinion, I'll Give It to You (Jazz House, 1997)" ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2008 Ranglin was inducted into the Jamaican Music Hall of Fame by the Jamaica Association of Vintage Artistes and Affiliates (JAVAA)." ;
+        ont:place           <http://dbpedia.org/resource/Jamaica> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "In 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/96/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ronnie Scott, The Night Is Scott and You're So Swingable (Fontana, 1966)" ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/89/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Freddie McKay, Picture On the Wall (Studio One, 2017)" ;
+        ont:person          <http://dbpedia.org/resource/Freddie_McKay> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "Studio One , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1963 Ranglin played guitar on and arranged \"My Boy Lollipop\", which was sung by Millie Small, who had recently been signed to Blackwell's Island label." ;
+        ont:person          <http://dbpedia.org/resource/Millie_Small> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "In 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "That same year he played on \"I Got Plenty 'o Nuthin\" with Spearhead which was released on the Red Hot Organization compilation album Red Hot + Rhapsody." ;
+        ont:person   <http://dbpedia.org/resource/Michael_Franti> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/95/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Royals, Moving On (Kingdom, 1981)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/88/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Little Roy, Live On (Tafari, 1991)" ;
+        ont:person          <http://dbpedia.org/resource/Little_Roy> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/94/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Max Romeo, Reconstruction (Mango, 1977)" ;
+        ont:person          <http://dbpedia.org/resource/Max_Romeo> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/87/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bernard Lavilliers, Clair-Obscur (Barclay, 1997)" ;
+        ont:person          <http://dbpedia.org/resource/Bernard_Lavilliers> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ranglin frequently recorded Latin/Caribbean-infused jazz with Monty Alexander during this period, most notably the album Rass!" ;
+        ont:person   <http://dbpedia.org/resource/Monty_Alexander> ;
+        ont:place    <http://dbpedia.org/resource/Ar_Rass> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was employed as a guitarist by the Jamaica Broadcasting Corporation (JBC) between the years 1958 and 1965 with public radio broadcasting (radio services had been established earlier with the first broadcast transmitted in November 1939) commencing in 1959 and television broadcasting commencing in 1963." ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1958" , "in 1959" , "1965" , "in 1963" , "November 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/7/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was involved in the recording of the Wailers' track \"It Hurts to Be Alone\" released on the Coxsone label in Jamaica and subsequently released in the UK (1965) by Island records." ;
+        ont:place           <http://dbpedia.org/resource/Jamaica> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/93/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Prince Far I, Megabit 25, 1922 Dub (Tamoki-Wambesi-Dove, 2004)" ;
+        ont:person          <http://dbpedia.org/resource/Prince_Far_I> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2004" , "Megabit 25 , 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/86/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "King Tubby, Sound System International Dub LP (Clan Disc, 1976)" ;
+        ont:person          <http://dbpedia.org/resource/King_Tubby> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/79/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gladiators, Dreadlocks the Time Is Now (Front Line, 1990)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/92/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Prince Buster, It's Burke's Law (Blue Beat, 1965)" ;
+        ont:person          <http://dbpedia.org/resource/Prince_Buster> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/85/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Winston Jarrett, Wise Man (Wambesi, 1979)" ;
+        ont:person          <http://dbpedia.org/resource/Winston_Jarrett> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/78/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Earl George, Loving Something (Hit, 1978)" ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/7/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Initially the manager of Ronnie Scott's was reluctant to agree but eventually allowed Ranglin to sit-in with the house band." ;
+        ont:person   <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglin's introduction to music was through two uncles who both played guitar." ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "through two" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2006 he was the subject of a documentary Roots Of Reggae: The Ernest Ranglin Story produced and written by Arthur Gorson." ;
+        ont:person          <http://dbpedia.org/resource/Ernest_Ranglin> , <http://dbpedia.org/resource/Arthur_Gorson> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "In 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/91/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lee \"Scratch\" Perry, The Super Ape Strikes Again (Lost Ark Music, 2015)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/84/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Charlie Hunter, Earth Tones (Green Streets, 2005)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Hunter> ;
+        ont:place           <http://dbpedia.org/resource/Earth> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/77/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Winston Francis, Mr Fix It & California Dreaming (Studio One, 1998)" ;
+        ont:person          <http://dbpedia.org/resource/Winston_Francis> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "Studio One , 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ranglin was also the bassist on many early Prince Buster hits, including the 1963 ska release \"Wash Wash\" - a situation that arose from his contractual obligations to Federal Records, which barred him from appearing as a named guitarist on recordings not made or licensed by them." ;
+        ont:person          <http://dbpedia.org/resource/Prince_Buster> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1963 ska release" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1998 he signed to Chris Blackwell's newly formed Palm Pictures label and released In Search of the Lost Riddim." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Blackwell> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "In 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/90/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jackie Mittoo, Showcase (Studio One, 1980)" ;
+        ont:person          <http://dbpedia.org/resource/Jackie_Mittoo> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "Studio One , 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/83/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Keith Hudson, From One Extreme to Another (Joint, 1979)" ;
+        ont:place           <http://dbpedia.org/resource/Hudson_River> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "From One" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/76/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sharon Forrester, Red Rose (Internal Affairs, 1995)" ;
+        ont:person          <http://dbpedia.org/resource/Sharon_Forrester> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jimmy Cliff, Give Thankx (Warner Bros., 1978)" ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Cliff> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/36/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Telarc, 2001)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ranglin has worked with Theophilus Beckford, Jimmy Cliff, Monty Alexander, Prince Buster, the Skatalites, Bob Marley and the Eric Deans Orchestra." ;
+        ont:person   <http://dbpedia.org/resource/Bob_Marley> , <http://dbpedia.org/resource/Monty_Alexander> , <http://dbpedia.org/resource/Jimmy_Cliff> , <http://dbpedia.org/resource/Prince_Buster> , <http://dbpedia.org/resource/Theophilus_Beckford> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/75/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "George Faith, To Be a Lover (Black Swan, 1977)" ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/82/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Holt, I Can't Get You Off My Mind (Heartbeat, 2006)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1973 Ranglin was awarded the Order of Distinction by the Jamaican government for his contribution to music." ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "In 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jimmy Buffett, Take the Weather with You (RCA, 2006)" ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Buffett> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The 1958 album The Wrigglers Sing Calypso at the Arawak is representative of the type of calypso floor show that Jamaican bands performed at hotels (some of the tracks from the original album were included on the 2010 CD release Jamaica - Mento 1951-1958)." ;
+        ont:place           <http://dbpedia.org/resource/Jamaica> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2010 CD release" , "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/7/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Upon his return to Jamaica he found himself once again doing A&R and session work for Federal (musical director from 1965 to 1972) and Coxsone." ;
+        ont:place           <http://dbpedia.org/resource/Jamaica> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1972" , "director from 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dennis Brown, Light My Fire (Heartbeat, 1994)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/81/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Heptones, Dub Dictionary (Trench Town, 1999)" ;
+        ont:place           <http://dbpedia.org/resource/Trenchtown> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/74/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alton Ellis, Soul of a Man (All Tone, 2003)" ;
+        ont:person          <http://dbpedia.org/resource/Alton_Ellis> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1970s to present ===" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Order of Distinction (Milk River Music, 2009)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/34/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "@Noon (Tropic, 1999)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/80/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gladiators, Sweet So Till (Front Line, 1979)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Surfin (Tropic, 2005)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His family moved to Kingston, where he attended the Providence Primary School, Kingston Senior School and Bodin College." ;
+        ont:place    <http://dbpedia.org/resource/Kingston_upon_Thames> ;
+        ont:subject  <http://dbpedia.org/resource/Ernest_Ranglin> .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cedric Brooks, United Africa (Water Lily, 1978)" ;
+        ont:person          <http://dbpedia.org/resource/Cedric_Brooks> ;
+        ont:place           <http://dbpedia.org/resource/Africa> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/73/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alton Ellis, Alton Ellis Sings, the Heptones Harmonise (Jet Star, 1999)" ;
+        ont:person          <http://dbpedia.org/resource/Alton_Ellis> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1964 Ranglin was in London with Blackwell, who was enquiring if it would be possible for Ranglin to play at Ronnie Scott's Jazz Club." ;
+        ont:person          <http://dbpedia.org/resource/Walter_Scott> ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "In 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Roots Radics Rockers Reggae (Shanachie, 1983)" ;
+        ont:person          <http://dbpedia.org/resource/Roots_Radics> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/9/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2002 Ranglin was awarded an Honorary Doctorate Degree from the University of the West Indies for his outstanding contribution to the development of music in Jamaica." ;
+        ont:place           <http://dbpedia.org/resource/Jamaica> , <http://dbpedia.org/resource/West_Indies> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "In 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alextown (Palm Pictures, 2005)" ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lloyd Brevett, The Legendary Skatalites (Jam Sounds, 1976)" ;
+        ont:person          <http://dbpedia.org/resource/Lloyd_Brevett> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/72/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Congos, Congo Ashanti (Congo Ashanty, 1979)" ;
+        ont:place           <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/870413/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mind Over Matter (Tropic, 2004)With Bunny Wailer" ;
+        ont:person          <http://dbpedia.org/resource/Bunny_Wailer> ;
+        ont:subject         <http://dbpedia.org/resource/Ernest_Ranglin> ;
+        ont:timeExpression  "2004" .

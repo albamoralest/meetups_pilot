@@ -6,23 +6,181 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/20484/10/2>
+<http://w3id.org/polifonia/pilot/meetups/20484/7/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Documentary directed by Les Blank and Skip Gerson." ;
+        ont:person   <http://dbpedia.org/resource/Les_Blank> , <http://dbpedia.org/resource/Wojciech_Gerson> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/8/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Gerald_Henderson_Jr.> ;
-        ont:place           "http://dbpedia.org/resource/California" ;
+        ont:excerpt         "The Blues Accordin' to Lightnin' Hopkins (1970)." ;
+        ont:person          <http://dbpedia.org/resource/Lightnin'_Hopkins> ;
         ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
-        ont:timeExpression  "300" .
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Michael Birnbaum recorded interviews with Mance in 1966 at his home in Navasota about his life and music." ;
+        ont:place           <http://dbpedia.org/resource/Navasota_River> ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "in 1966" .
 
 <http://w3id.org/polifonia/pilot/meetups/20484/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mance Lipscomb (April 9, 1895 – January 30, 1976) was an American blues singer, guitarist and songster." ;
         ont:person          <http://dbpedia.org/resource/Mance_Lipscomb> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
-        ont:timeExpression  "April 9 , 1895" , "January 30 , 1976" .
+        ont:timeExpression  "January 30 , 1976" , "April 9 , 1895" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Well Spent Life (1971)." ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The statue was sculpted by the artist Sid Henderson of California and weighs almost 300 pounds." ;
+        ont:person          <http://dbpedia.org/resource/Gerald_Henderson_Jr.> ;
+        ont:place           <http://dbpedia.org/resource/California> ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "300" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/3/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He honed his skills by playing in nearby Brenham, Texas, with a blind musician, Sam Rogers." ;
+        ont:person   <http://dbpedia.org/resource/Sam_Rogers_(linebacker)> ;
+        ont:place    <http://dbpedia.org/resource/Brenham,_Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In May 1963, he appeared at the first Monterey Folk Festival, (which later became the Monterey Pop Festival) alongside other folk artists such as Bob Dylan, and Peter, Paul and Mary in California.Unlike many of his contemporaries, Lipscomb had not recorded in the early blues era." ;
+        ont:person          <http://dbpedia.org/resource/Bob_Dylan> , <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "May 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is buried in Oakland Cemetery, Navasota." ;
+        ont:place    <http://dbpedia.org/resource/Navasota_River> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "For most of his life, Lipscomb supported himself as a tenant farmer in Texas." ;
+        ont:place    <http://dbpedia.org/resource/Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
 
 <http://w3id.org/polifonia/pilot/meetups/20484/10/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On August 12, 2011, a bronze sculpture of him was unveiled in Mance Lipscomb Park in Navasota." ;
         ont:person          <http://dbpedia.org/resource/Mance_Lipscomb> ;
-        ont:place           "http://dbpedia.org/resource/Navasota_River" ;
+        ont:place           <http://dbpedia.org/resource/Navasota_River> ;
         ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
         ont:timeExpression  "August 12 , 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lipscomb performed songs in a wide range of genres, from old songs such as \"Sugar Babe\" (the first he ever learned), to pop numbers like \"Shine On, Harvest Moon\" and \"It's a Long Way to Tipperary\".In 1961 he recorded the album Trouble in Mind, released by Reprise Records." ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/4/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was a regular performer at folk festivals and folk-blues clubs around the United States, notably the Ash Grove in Los Angeles, California." ;
+        ont:place    <http://dbpedia.org/resource/California> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died in Navasota, Texas, in 1976, two years after suffering a stroke." ;
+        ont:place           <http://dbpedia.org/resource/Navasota,_Texas> ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "in 1976" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "An annual Navasota Blues Festival is held in his honor." ;
+        ont:place    <http://dbpedia.org/resource/Navasota_River> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His first release was the album Texas Songster (1960)." ;
+        ont:place           <http://dbpedia.org/resource/Texas> ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was the subject of a short 1971 documentary film by Les Blank, called A Well Spent Life.Following his discovery by McCormick and Strachwitz, Lipscomb became an important figure in the American folk music revival of the 1960s." ;
+        ont:person          <http://dbpedia.org/resource/Les_Blank> ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Released on videotape in 1979." ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "videotape in 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His father had been born into slavery in Alabama; his mother was half African American and half Native American." ;
+        ont:place    <http://dbpedia.org/resource/Alabama> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Until around 1960, most of his musical activity took place within what he called his \"precinct\", the area around Navasota, Texas." ;
+        ont:place           <http://dbpedia.org/resource/Navasota,_Texas> ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "around 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was discovered and recorded by Mack McCormick and Chris Strachwitz in 1960, during a revival of interest in the country blues." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Strachwitz> ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "in 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/4/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His life is well documented in his autobiography, I Say Me for a Parable: The Oral Autobiography of Mance Lipscomb, Texas Bluesman, narrated to Glen Alyn (published posthumously)." ;
+        ont:person   <http://dbpedia.org/resource/Thomas_Say> , <http://dbpedia.org/resource/Mance_Lipscomb> , <http://dbpedia.org/resource/Glen_Alyn> ;
+        ont:place    <http://dbpedia.org/resource/Lipscomb,_Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "El Cerrito, California: Flower Films." ;
+        ont:place    <http://dbpedia.org/resource/El_Cerrito,_California> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lipscomb was born April 9, 1895." ;
+        ont:subject         <http://dbpedia.org/resource/Mance_Lipscomb> ;
+        ont:timeExpression  "April 9 , 1895" .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Directed by Les Blank." ;
+        ont:person   <http://dbpedia.org/resource/Les_Blank> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/4/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "These recordings are in the Ethnomusicology library at University of California, Los Angeles." ;
+        ont:place    <http://dbpedia.org/resource/California> , <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .
+
+<http://w3id.org/polifonia/pilot/meetups/20484/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was born Beau De Glen Lipscomb near Navasota, Texas." ;
+        ont:person   <http://dbpedia.org/resource/Beau_Bridges> ;
+        ont:place    <http://dbpedia.org/resource/Navasota,_Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Mance_Lipscomb> .

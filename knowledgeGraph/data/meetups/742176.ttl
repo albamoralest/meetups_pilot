@@ -6,44 +6,423 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/742176/7/0>
+<http://w3id.org/polifonia/pilot/meetups/742176/42/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Dorothy_Maynor> ;
-        ont:place           "http://dbpedia.org/resource/Detroit" ;
+        ont:excerpt         "Music for Two Pianos" ;
         ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
-        ont:timeExpression  "2000" , "2001" .
+        ont:timeExpression  "for Two" .
 
-<http://w3id.org/polifonia/pilot/meetups/742176/2/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Kemba_Walker> ;
-        ont:place           "http://dbpedia.org/resource/New_Jersey" ;
-        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
-        ont:timeExpression  "in 1992" .
+<http://w3id.org/polifonia/pilot/meetups/742176/28/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Foils for Orchestra (Hommage a Saint George) (Eastman School of Music commission)" ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
 
-<http://w3id.org/polifonia/pilot/meetups/742176/6/0>
+<http://w3id.org/polifonia/pilot/meetups/742176/9/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "While a work such as Spatials for Piano uses twelve-tone serial techniques, Walker could also compose in the style of popular music such as in his song “Leaving.” According to Mickey Terry, traces of old black spirituals can also be found in his Violin Sonata No." ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/27/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Seiji_Ozawa> , <http://dbpedia.org/resource/Kemba_Walker> ;
-        ont:place           "http://dbpedia.org/resource/Boston" ;
+        ont:excerpt         "Five Fancies for Clarinet and Piano Four Hands (David Ensemble commission)" ;
         ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
-        ont:timeExpression  "In 1996" .
+        ont:timeExpression  "Five" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He published over 90 works and received commissions from the New York Philharmonic, Boston Symphony, Cleveland Orchestra, Philadelphia Orchestra, and many other ensembles." ;
+        ont:place           <http://dbpedia.org/resource/Boston> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "over 90" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Music for 3" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "for 3" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/26/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Emily Dickinson Songs" ;
+        ont:person   <http://dbpedia.org/resource/Emily_Dickinson> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/19/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Canvas for Wind Ensemble and Narrator (College Band Directors National Association commission)" ;
+        ont:person   <http://dbpedia.org/resource/William_Revelli> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
 
 <http://w3id.org/polifonia/pilot/meetups/742176/7/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was the recipient of two Guggenheim Fellowships, two Rockefeller Fellowships, a Fromm Foundation commission, two Koussevitsky Awards, and an American Academy of Arts and Letters Award, as well as honorary doctorate degrees from Lafayette College (1982), Oberlin College (1983), Bloomfield College (1996), Montclair State University(1997), Curtis Institute of Music (1997), Spelman College (2001), and the Eastman School of Music where he gave the Commencement Address (2012).His autobiography, Reminiscences of an American Composer and Pianist, was released in 2009 by Scarecrow Press." ;
         ont:person          <http://dbpedia.org/resource/Jamie_Lee_Curtis> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
         ont:timeExpression  "1997" , "1983" , "1996" , "2012" , "1982" , "recipient of two" , "in 2009" , "2001" , "two" .
 
+<http://w3id.org/polifonia/pilot/meetups/742176/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Walker taught at Rutgers University in New Jersey for several years, retiring in 1992." ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:place           <http://dbpedia.org/resource/New_Jersey> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "in 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Cantata for Soprano, Tenor, Boys Choir, and Chamber Orchestra (Boys Choir of Harlem commission)" ;
+        ont:place    <http://dbpedia.org/resource/Harlem> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was elected to the American Academy of Arts and Letters in 1999." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "in 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/9/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "BBC Radio 3 devoted five hours to Walker's music as \"Composer of the Week\" in October, 2021." ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "BBC Radio 3" , "five" , "2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/31/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hommage to Saint George (Eastman School of Music commission)" ;
+        ont:person   <http://dbpedia.org/resource/Saint_George> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/0/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Walker and playwright Ian Walker." ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/30/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Guido's Hand (Xerox commission)" ;
+        ont:person   <http://dbpedia.org/resource/Guido_Reni> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/9/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Unwilling to conform to a specific style, Walker drew from his diverse knowledge of previous music to create something which he could call his own." ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Concerto for Trombone and Orchestra (1957)" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He composed many works including five sonatas for piano, a mass, cantata, many songs, choral works, organ pieces, sonatas for cello and piano, violin and piano and viola and piano, a brass quintet and a woodwind quintet." ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dupont Award from the Delaware Symphony (2002) the Washington Music Hall of Fame (2002), and the Aaron Copland ASCAP Award (2012)." ;
+        ont:place           <http://dbpedia.org/resource/Delaware> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2012" , "2002" .
+
 <http://w3id.org/polifonia/pilot/meetups/742176/6/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Washington, D.C. Mayor Marion Barry proclaimed June 17, 1997, as \"George Walker Day\" in the nation's capital.In 1997, Walker was awarded the Order of the Long Leaf Pine by North Carolina Governor Jim Hunt.In 1998, he received the Composers Award from the Lancaster Symphony and the letter of Distinction from the American Music Center for \"his significant contributions to the field of contemporary American Music\"." ;
         ont:person          <http://dbpedia.org/resource/Kemba_Walker> , <http://dbpedia.org/resource/Marion_Barry> , <http://dbpedia.org/resource/George_Gershwin> ;
-        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Washington_metropolitan_area" , "http://dbpedia.org/resource/North_Carolina" ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Washington_metropolitan_area> , <http://dbpedia.org/resource/North_Carolina> ;
         ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
         ont:timeExpression  "June 17 , 1997" , "North Carolina Governor Jim Hunt.In 1998" , "1997" .
 
+<http://w3id.org/polifonia/pilot/meetups/742176/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Walker was the father of two sons, violinist and composer Gregory T.S." ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> , <http://dbpedia.org/resource/Gregory_of_Nazianzus_the_Elder> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "father of two" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/69/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Walker's music was influenced by a wide variety of musical styles including jazz, folk songs, and church hymns, as well as classical music." ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died on August 23, 2018 in Montclair, New Jersey at the age of 96." ;
+        ont:place           <http://dbpedia.org/resource/New_Jersey> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "August 23 , 2018" , "age of 96" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/11/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Walker's oeuvre includes the following works:" ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/75/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/79/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "George Walker official website" ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Over the next several years, he received the Dorothy Maynor Outstanding Arts Citizen Award (2000), Classical Roots Award from the Detroit Symphony (2001), the A.I." ;
+        ont:person          <http://dbpedia.org/resource/Dorothy_Maynor> ;
+        ont:place           <http://dbpedia.org/resource/Detroit> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2000" , "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was admitted to the Oberlin Conservatory at 14, and later to the Curtis Institute of Music to study piano with Rudolf Serkin, chamber music with William Primrose and Gregor Piatigorsky, and composition with Rosario Scalero, teacher of Samuel Barber." ;
+        ont:person          <http://dbpedia.org/resource/Jamie_Lee_Curtis> , <http://dbpedia.org/resource/Gregor_Strasser> , <http://dbpedia.org/resource/William_Primrose> , <http://dbpedia.org/resource/Gregor_Piatigorsky> , <http://dbpedia.org/resource/Rosario_Scalero> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "at 14" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/85/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "George Walker Collection at the Stuart A." ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/59/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1996, Walker became the first black composer to receive the Pulitzer Prize in Music for his work, Lilacs for voice and orchestra, premiered by the Boston Symphony, Seiji Ozawa conducting." ;
+        ont:person          <http://dbpedia.org/resource/Seiji_Ozawa> , <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:place           <http://dbpedia.org/resource/Boston> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "In 1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2." ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/84/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "George Walker, Composer Documentary produced by NJTV" ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/65/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/58/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2 (Koussevitsky commission)" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He received the Pulitzer for his work Lilacs in 1996.Walker was married to pianist and scholar Helen Walker-Hill (May 26, 1936 – August 8, 2013) between 1960 and 1975." ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "between 1960" , "August 8 , 2013" , "in 1996.Walker" , "May 26 , 1936" , "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/83/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "George Theophilus Walker, African American Composer & Pianist at AfriClassical.com" ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Theophilus_of_Antioch> , <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/57/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 (Fromm Foundation commission)" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Walker was the father of two sons, violinist and composer Gregory Walker, and playwright Ian Walker." ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "father of two" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/82/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2012 George Walker interview by Ethan Iverson" ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> , <http://dbpedia.org/resource/Ethan_Iverson> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/70/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/49/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Walker's first major orchestral work was the Address for Orchestra." ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/81/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "George Walker interview by Bruce Duffie" ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/48/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Walker was first exposed to music at the age of five when he began to play the piano." ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "age of five" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/80/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A 2017 Conversation with George Walker (includes video excerpts)" ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2017 Conversation" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/73/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two Pieces for Organ" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/61/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "5 \"Visions\" (two versions, one with voices and one without)" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "two" , "5" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/9/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "D. Maxine Sims has stated that Walker's piano technique is also reflected in his works, such as his Piano Sonata No." ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/72/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Three Pieces for Organ" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "Three" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/60/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "4" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "4" .
+
 <http://w3id.org/polifonia/pilot/meetups/742176/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "George Theophilus Walker (June 27, 1922 – August 23, 2018) was an American composer, pianist, and organist, who was the first African American to have won the Pulitzer Prize for Music." ;
         ont:person          <http://dbpedia.org/resource/Theophilus_of_Antioch> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Kemba_Walker> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
-        ont:timeExpression  "June 27 , 1922" , "August 23 , 2018" .
+        ont:timeExpression  "August 23 , 2018" , "June 27 , 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/71/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tangents for Chamber Orchestra (Columbus Pro Musica Chamber Orchestra commission)" ;
+        ont:person   <http://dbpedia.org/resource/Christopher_Columbus> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/52/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "5" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "5" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sonata for Two Pianos" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "for Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/56/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Serenata for Chamber Orchestra (Michigan Chamber Orchestra commission)" ;
+        ont:place    <http://dbpedia.org/resource/Michigan> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/51/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "4" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "[Walker Autobiography, p. 164]" ;
+        ont:person          <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "164 ]" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/50/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3" ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2." ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/46/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Pageant and Proclamation (New Jersey Symphony commission)" ;
+        ont:place    <http://dbpedia.org/resource/New_Jersey> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was the recipient of six honorary doctoral degrees." ;
+        ont:subject         <http://dbpedia.org/resource/George_Walker_(composer)> ;
+        ont:timeExpression  "recipient of six" .
+
+<http://w3id.org/polifonia/pilot/meetups/742176/6/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The following year, George Walker was inducted into the American Classical Music Hall of Fame." ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject  <http://dbpedia.org/resource/George_Walker_(composer)> .

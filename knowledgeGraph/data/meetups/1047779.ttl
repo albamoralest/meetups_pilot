@@ -6,23 +6,238 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1047779/12/0>
+<http://w3id.org/polifonia/pilot/meetups/1047779/15/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Randy_Newman> , <http://dbpedia.org/resource/Marc_Almond> ;
-        ont:place           "http://dbpedia.org/resource/Wilton,_Wiltshire" ;
+        ont:excerpt         "Bill Fay (Deram, 1970)" ;
+        ont:person          <http://dbpedia.org/resource/Bill_Fay> ;
         ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
-        ont:timeExpression  "in 2014" , "Walking Dead.In 2008" .
+        ont:timeExpression  "1970" .
 
 <http://w3id.org/polifonia/pilot/meetups/1047779/9/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fay has joined the band and Tweedy onstage for the rendition of the song at shows at the Shepherd's Bush Empire in 2007, and at the Union Chapel, Islington in 2010 respectively, both in London.The English singer-songwriter and pianist John Howard recorded a cover version of the song \"Be Not So Fearful\" for his E.P." ;
         ont:person          <http://dbpedia.org/resource/John_Howard> , <http://dbpedia.org/resource/Jeff_Tweedy> , <http://dbpedia.org/resource/George_W._Bush> ;
-        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Islington" , "http://dbpedia.org/resource/Roman_Empire" ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Islington> , <http://dbpedia.org/resource/Roman_Empire> ;
         ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
         ont:timeExpression  "in 2010" , "Empire in 2007" .
 
 <http://w3id.org/polifonia/pilot/meetups/1047779/3/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fay was born in north London, where he still lives.His first single, \"Some Good Advice\" / \"Screams in the Ears\", was issued on the Deram label in 1967, and was followed by two albums, Bill Fay in 1970 and Time of the Last Persecution in 1971." ;
         ont:person          <http://dbpedia.org/resource/Bill_Fay> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:place           <http://dbpedia.org/resource/London> ;
         ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
-        ont:timeExpression  "in 1970" , "Persecution in 1971" , "label in 1967" , "by two" .
+        ont:timeExpression  "Persecution in 1971" , "in 1970" , "label in 1967" , "by two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "aquarium drunkard, Bill Fay :: The Aquarium Drunkard InterviewVideoclipsVideo of John Howard's 2008 cover version of Bill Fay's \"Be Not So Fearful\"" ;
+        ont:person          <http://dbpedia.org/resource/John_Howard> , <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From the Bottom of an Old Grandfather Clock (recorded 1966-1970; Wooden Hill, 2004)" ;
+        ont:place           <http://dbpedia.org/resource/Wooden_Hill> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2004" , "1966-1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His work enjoyed a growing cult status in the 1990s, and his older works were re-issued in 1998 and 2004/2005." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2004/2005" , "in 1998" , "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/29/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Linda Wertheimer, Bill Fay: A Cult Figure Returns, Skeptical But Optimistic, interview with Bill Fay" ;
+        ont:person   <http://dbpedia.org/resource/Linda_Wertheimer> , <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:subject  <http://dbpedia.org/resource/Bill_Fay> .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Entitled Tomorrow, Tomorrow & Tomorrow, it was credited to the Bill Fay Group and was released on the Durtro Jnana label.The compilation album Still Some Light appeared on the Coptic Cat label in 2010, a double CD containing a mix of older material and newer, home-recorded songs.Life is People, released 21 August 2012 on Dead Oceans, is his first new studio LP in over 40 years.A new album by Bill Fay was released in April 2015, titled Who Is the Sender?'." ;
+        ont:person          <http://dbpedia.org/resource/Bill_Fay> , <http://dbpedia.org/resource/David_Tibet> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "label in 2010" , "over 40" , "April 2015" , "21 August 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The American band Wilco has played Fay's song \"Be Not So Fearful\" in live performances and the band's singer, Jeff Tweedy, can be heard singing it in the documentary, I Am Trying to Break Your Heart: A Film About Wilco." ;
+        ont:person   <http://dbpedia.org/resource/Jeff_Tweedy> ;
+        ont:subject  <http://dbpedia.org/resource/Bill_Fay> .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Dead Oceans, 2015)" ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/28/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dead Oceans, Bill FayInterviewsRobert Leeming, A Conversation with Bill Fay – Part One" ;
+        ont:person   <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:place    <http://dbpedia.org/resource/RAF_Leeming> ;
+        ont:subject  <http://dbpedia.org/resource/Bill_Fay> .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His early recordings were released by Deram, but following the release of his second album in 1971, Fay was dropped by the label." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "album in 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2005 his late 1970s recordings were released January 2005." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "January 2005" , "In 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Countless Branches (Dead Oceans, 2020)" ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/27/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Fansite & infoThe only dedicated Bill Fay site" ;
+        ont:person   <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:subject  <http://dbpedia.org/resource/Bill_Fay> .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His song \"Be Not So Fearful\" got a cover by A.C. Newman in 2014, and was used in the episode \"Us\" of The Walking Dead.In 2008 the English singer Marc Almond recorded a live version of \"Cosmic Boxer\" and it was released on his album In 'Bluegate Fields': Live at Wilton's Music Hall." ;
+        ont:person          <http://dbpedia.org/resource/Randy_Newman> , <http://dbpedia.org/resource/Marc_Almond> ;
+        ont:place           <http://dbpedia.org/resource/Wilton,_Wiltshire> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "in 2014" , "Walking Dead.In 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "William Fay (born 20 December 1943) is an English singer, pianist and songwriter." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "20 December 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2004, the British label Wooden Hill released a collection of demos recorded between 1966 and 1970 entitled From the Bottom of an Old Grandfather Clock." ;
+        ont:place           <http://dbpedia.org/resource/Wooden_Hill> , <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "In 2004" , "between 1966" , "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The title track of \"Time of the Last Persecution\" became a live standard of the British Apocalyptic folk group, Current 93.The band Okkervil River covered Fay's song \"Plan D\" on their Golden Opportunities 2  EP in 2011." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2" , "in 2011" , "Current 93.The" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The American band The War on Drugs covered Fay's song \"I Hear You Calling\" at shows throughout 2014." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "throughout 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Life Is People (Dead Oceans, 2012)" ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His first two albums were re-issued in 1998, an event which Bill Fay described in 2012 as follows:" ;
+        ont:person          <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "two" , "in 2012" , "in 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Up until 1998, when some people reissued my albums, as far as I was concerned, I was gone, deleted." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "until 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They were re-issued in 1998, and then again in 2005.Despite returning to the recording studio in the late 1970s, the follow-up to Time of the Last Persecution was not released until January 2005, following the reissues of his earlier works." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "in 2005.Despite" , "January 2005" , "in 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The song \"Be Not So Fearful\" was also covered by Ed Harcourt on the benefit compilation album Songs to Save a Life - In Aid of Samaritans (2011)." ;
+        ont:person          <http://dbpedia.org/resource/Ed_Harcourt> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A cover version of Fay's \"Pictures of Adolf Again\", by producer and musician Jim O'Rourke and Wilco drummer Glenn Kotche, can be heard in the film from Kōji Wakamatsu, United Red Army." ;
+        ont:person   <http://dbpedia.org/resource/Glenn_Kotche> , <http://dbpedia.org/resource/Jim_O'Rourke_(musician)> ;
+        ont:place    <http://dbpedia.org/resource/Aizuwakamatsu> ;
+        ont:subject  <http://dbpedia.org/resource/Bill_Fay> .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tomorrow, Tomorrow & Tomorrow (recorded 1978-1981; Durtro, 2005)" ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2005" , "1978-1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bill Fay's work enjoyed a growing cult status in the 1990s." ;
+        ont:person          <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "That same evening, 14 years ago, I got a call from a music writer telling me that my two albums were being reissued." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "14" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His most recent album, Countless Branches, was released on 17 January 2020." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "17 January 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One Musician Made Finding Him a Mission\" was published in the New York Times on January 15, 2020.His most recent album, Countless Branches, was released on 17 January 2020." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "January 15 , 2020.His" , "One Musician" , "17 January 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Songs for the Lost and Found (2008)." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Time of the Last Persecution (Deram, 1971)" ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fay's 2012 album, Life Is People, was his first album of all-new material since 1971." ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2012 album" , "material since 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Still Some Light (2CD, recorded 1970, 1971, 2009; Coptic Cat, 2010) (compilation of early 1970–1971 studio recordings and 2009 new material home recordings)" ;
+        ont:person          <http://dbpedia.org/resource/David_Tibet> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "2010" , "2CD" , "2009" , "1970" , "1970–1971 studio" , "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/1047779/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The second album track, \"War Machine\", came out as a single in February 2015.A feature article entitled \"Bill Fay Was a Hidden Gem." ;
+        ont:person          <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:subject         <http://dbpedia.org/resource/Bill_Fay> ;
+        ont:timeExpression  "February 2015.A" .

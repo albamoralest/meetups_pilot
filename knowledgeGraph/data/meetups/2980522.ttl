@@ -6,16 +6,64 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/2980522/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1946, Janis portrayed \"Johnikins\" in Margie with Jeanne Crain." ;
+        ont:person          <http://dbpedia.org/resource/Jeanne_Crain> ;
+        ont:subject         <http://dbpedia.org/resource/Conrad_Janis> ;
+        ont:timeExpression  "In 1946" .
+
 <http://w3id.org/polifonia/pilot/meetups/2980522/6/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the late 1970s, he formed the Beverly Hills Unlisted Jazz Band, which appeared multiple times on the Tonight Show Starring Johnny Carson and gave eight sold-out performances at Carnegie Hall." ;
         ont:person          <http://dbpedia.org/resource/Johnny_Carson> ;
-        ont:place           "http://dbpedia.org/resource/Carnegie_Hall" ;
+        ont:place           <http://dbpedia.org/resource/Carnegie_Hall> ;
         ont:subject         <http://dbpedia.org/resource/Conrad_Janis> ;
         ont:timeExpression  "eight sold-out" .
 
+<http://w3id.org/polifonia/pilot/meetups/2980522/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He has one brother, Carroll." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_Carroll> ;
+        ont:subject         <http://dbpedia.org/resource/Conrad_Janis> ;
+        ont:timeExpression  "one brother" .
+
+<http://w3id.org/polifonia/pilot/meetups/2980522/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The next year he starred in the film noir The Brasher Doubloon with George Montgomery." ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Bernard_Montgomery> ;
+        ont:subject  <http://dbpedia.org/resource/Conrad_Janis> .
+
+<http://w3id.org/polifonia/pilot/meetups/2980522/5/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was featured in The Buddy Holly Story and the Goldie Hawn / George Segal comedy The Duchess and the Dirtwater Fox." ;
+        ont:person   <http://dbpedia.org/resource/Infanta_Cristina_of_Spain> , <http://dbpedia.org/resource/Goldie_Hawn> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject  <http://dbpedia.org/resource/Conrad_Janis> .
+
+<http://w3id.org/polifonia/pilot/meetups/2980522/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Janis's work on television included starring in \"Fit to Kill\" on The Web on November 19, 1950.In 1953, he played eldest son Edward on the sitcom Bonino." ;
+        ont:subject         <http://dbpedia.org/resource/Conrad_Janis> ;
+        ont:timeExpression  "1953" , "November 19 , 1950.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/2980522/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1949 he assembled a band of aging jazz greats (\"all of the guys that I idolized\") consisting of James P. Johnson (piano), Henry Goodwin (trumpet), Edmond Hall (clarinet), Pops Foster (bass), and Baby Dodds (drums), with himself on trombone." ;
+        ont:person          <http://dbpedia.org/resource/James_VI_and_I> , <http://dbpedia.org/resource/Pops_Foster> , <http://dbpedia.org/resource/Lyndon_B._Johnson> , <http://dbpedia.org/resource/Baby_Dodds> , <http://dbpedia.org/resource/Edmond_Hall> ;
+        ont:subject         <http://dbpedia.org/resource/Conrad_Janis> ;
+        ont:timeExpression  "In 1949" .
+
 <http://w3id.org/polifonia/pilot/meetups/2980522/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Conrad Janis (born February 11, 1928) is an American jazz trombonist and actor, best known for his role as Mindy McConnell's father Frederick on television's Mork & Mindy." ;
         ont:person          <http://dbpedia.org/resource/Frederick_the_Great> , <http://dbpedia.org/resource/Conrad_Janis> , <http://dbpedia.org/resource/Page_McConnell> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Conrad_Janis> ;
         ont:timeExpression  "February 11 , 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/2980522/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A native of New York City, Janis is the son of Harriet, a writer, and Sidney Janis, an art dealer and writer." ;
+        ont:person   <http://dbpedia.org/resource/Sidney_Janis> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Conrad_Janis> .

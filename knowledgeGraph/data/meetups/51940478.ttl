@@ -5,3 +5,41 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/51940478/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tamara Bulat has co-authored The World of Mykola Lysenko book with her son Taras Filenko." ;
+        ont:person   <http://dbpedia.org/resource/Taras_Filenko> , <http://dbpedia.org/resource/Tamara_Bulat> ;
+        ont:subject  <http://dbpedia.org/resource/Tamara_Bulat> .
+
+<http://w3id.org/polifonia/pilot/meetups/51940478/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She is a co-author of The History of Ukrainian Music in 6 volumes." ;
+        ont:place           <http://dbpedia.org/resource/Ukraine> ;
+        ont:subject         <http://dbpedia.org/resource/Tamara_Bulat> ;
+        ont:timeExpression  "in 6" .
+
+<http://w3id.org/polifonia/pilot/meetups/51940478/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dr. Bulat was a Leading Scholar at the M. Ryl’s’ky Institute for Art, Folklore and Ethnology of the Academy of Sciences of Ukraine, worked at the Kyiv Conservatory and at the Institute of Culture (Kyiv)." ;
+        ont:place    <http://dbpedia.org/resource/Ukraine> , <http://dbpedia.org/resource/Kyiv> ;
+        ont:subject  <http://dbpedia.org/resource/Tamara_Bulat> .
+
+<http://w3id.org/polifonia/pilot/meetups/51940478/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In her later years, Dr. Bulat was a member of the Composers’ Society of Ukraine, of the Ukrainian Academy of Arts and Sciences in the USA (a Full Member and an elected officer), the Ukrainian Music Institute of America, the Society for Ethnomusicology (USA), and of the Shevchenko Scientific Society (USA)." ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Ukraine> ;
+        ont:subject  <http://dbpedia.org/resource/Tamara_Bulat> .
+
+<http://w3id.org/polifonia/pilot/meetups/51940478/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She is well known for her publications on the work of Ukrainian composers Mykola Lysenko and Yakiv Stepovy, dealing with problems of folk and art music, culturology, and ethnomusicology." ;
+        ont:place    <http://dbpedia.org/resource/Ukraine> ;
+        ont:subject  <http://dbpedia.org/resource/Tamara_Bulat> .
+
+<http://w3id.org/polifonia/pilot/meetups/51940478/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dr. Tamara Bulat was a prominent musicologist, author of several monographs and 300 papers." ;
+        ont:person          <http://dbpedia.org/resource/Tamara_Bulat> ;
+        ont:subject         <http://dbpedia.org/resource/Tamara_Bulat> ;
+        ont:timeExpression  "300" .

@@ -6,30 +6,374 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/767288/18/0>
+<http://w3id.org/polifonia/pilot/meetups/767288/2/3>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Thomas_Say> , <http://dbpedia.org/resource/Lewis_Carroll> , <http://dbpedia.org/resource/Howard_Dietz> , <http://dbpedia.org/resource/Harold_Adamson> ;
-        ont:place           "http://dbpedia.org/resource/Pula" ;
+        ont:excerpt         "At age 14 the theatrical producers the Shuberts commissioned him to write songs for a revue, Greenwich Village Follies." ;
+        ont:place           <http://dbpedia.org/resource/Greenwich_Village> ;
         ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
-        ont:timeExpression  "1931" .
+        ont:timeExpression  "14" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mayer was so impressed he ordered every writer, director and producer on the lot to hear her with the result that the audition, which began at 9 am, finished at 7:30 pm." ;
+        ont:person          <http://dbpedia.org/resource/John_Mayer> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "7:30 pm" , "at 9" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/74/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "“Hannibal's Victory March”" ;
+        ont:person   <http://dbpedia.org/resource/Hannibal> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/115/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Burton Lane Interview NAMM Oral History Library (1989)" ;
+        ont:person          <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/5/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The sisters, Virginia and Mary Jane, brought on their younger sister, Frances, who sang \"Zing!" ;
+        ont:place    <http://dbpedia.org/resource/Virginia> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Directed and choreographed by Warren Carlyle, it starred Jim Norton and Kate Baldwin as Finian and Sharon, with Cheyenne Jackson as Woody and Jeremy Bobb as Og, the leprechaun." ;
+        ont:person   <http://dbpedia.org/resource/Jim_Norton_(comedian)> , <http://dbpedia.org/resource/Sharon_Osbourne> , <http://dbpedia.org/resource/Jeremy_Bobb> , <http://dbpedia.org/resource/Kate_Baldwin> , <http://dbpedia.org/resource/Cheyenne_Jackson> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/47/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(lyrics by Ralph Freed)Ship Ahoy (1942)“I'll Take Tallulah” (lyrics by E. Y. Harburg)" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lane mainly wrote music for films, such as Dancing Lady (1933), and Babes on Broadway (1942), writing for more than 30 movies.He was president of the American Guild of Authors and Composers from 1957 and for the next 10 terms, during which period he campaigned against music piracy." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "from 1957" , "30 movies.He" , "1942" , "10" , "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“How Could You Believe Me When I Said I Loved You When You Know I’ve Been a Liar All My Life”Jupiter's Darling (1955)(lyrics by Harold Adamnson)" ;
+        ont:place           <http://dbpedia.org/resource/Jupiter> , <http://dbpedia.org/resource/Darling_River> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/112/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Burton Lane at the Internet Off-Broadway Database" ;
+        ont:person   <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
 
 <http://w3id.org/polifonia/pilot/meetups/767288/29/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“How’dja Like to Love MeSome Like It Hot (1939)“The Lady’s in Love With You” (lyrics by Frank Loesser)Hold on to Your Hats (1940)(lyrics by E. Y. Harburg)" ;
         ont:person          <http://dbpedia.org/resource/Frank_Loesser> ;
-        ont:place           "http://dbpedia.org/resource/Dja_Faunal_Reserve" ;
+        ont:place           <http://dbpedia.org/resource/Dja_Faunal_Reserve> ;
         ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
-        ont:timeExpression  "1939" , "1940" .
+        ont:timeExpression  "1940" , "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One source erroneously gives his birth name as \"Morris Hyman Kushner\".Burton Lane studied classical piano as a child." ;
+        ont:person          <http://dbpedia.org/resource/Libbie_Hyman> , <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "One source" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“When I’m Not Near the Girl I Love”Royal Wedding (1951)(lyrics by Alan Jay Lerner)" ;
+        ont:person          <http://dbpedia.org/resource/Alan_Jay_Lerner> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/111/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Burton Lane at the Internet Broadway Database" ;
+        ont:person   <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/104/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“The Image of You”The 1940's Radio Hour (1979)“How About You”On a Clear Day You Can See Forever (2011)[Listing only additional songs]" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1979" , "2011" , "1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Robbins was knocked out by the little girl's voice (Lane played the audition piano for her), rushed upstairs and dragged Louis B. Mayer down to listen to her belt out some songs." ;
+        ont:person   <http://dbpedia.org/resource/John_Mayer> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/110/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Burton Lane at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“Let’s Go Bavarian”College Swing (1938)(lyrics by Frank Loesser)" ;
+        ont:person          <http://dbpedia.org/resource/Frank_Loesser> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/48/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "“The Last Call for Love” (lyrics by Margery Cummings and E. Y. Harburg)" ;
+        ont:person   <http://dbpedia.org/resource/Margery_Corbett_Ashby> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He caught her sisters' act at the Paramount theater in Hollywood which featured a movie and a live stage show." ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "series performed a critically acclaimed concert version of the musical in March 2009." ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "March 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Singin' the Blues (1931) - play with music - co-composer" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/60/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "“When the Idle Poor Become the Idle Rich”" ;
+        ont:place    <http://dbpedia.org/resource/River_Idle> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“Heigh Ho the Gang’s All Here”Dancing Lady (1933) (new songs only)(lyrics by Harold Adamson)" ;
+        ont:person          <http://dbpedia.org/resource/Harold_Adamson> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Out in the Open Air\" (lyrics by Howard Dietz and Ted Pola)The Third Little Show (1931)\"Say the Word\" (lyrics by Harold Adamson)Earl Carroll's Vanities (1931)(lyrics by Harold Adamson)" ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Say> , <http://dbpedia.org/resource/Lewis_Carroll> , <http://dbpedia.org/resource/Howard_Dietz> , <http://dbpedia.org/resource/Harold_Adamson> ;
+        ont:place           <http://dbpedia.org/resource/Pula> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Earl Carroll's Vanities (1931) - revue - co-composer and co-lyricist" ;
+        ont:person          <http://dbpedia.org/resource/Lewis_Carroll> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also wrote the music for the less remembered Broadway shows, Hold On to Your Hats (1940), Laffing Room Only (1944), and Carmelina (1979), the latter with lyrics by Alan Jay Lerner, who had also written lyrics to Lane's music for On a Clear Day and the film Royal Wedding (1951)." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Jay_Lerner> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1940" , "1979" , "1951" , "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Newly added to the Broadway cast are Christopher Fitzgerald as Og and Chuck Cooper as Billboard; Jim Norton, Kate Baldwin and Cheyenne Jackson all reprise their roles." ;
+        ont:person   <http://dbpedia.org/resource/Jim_Norton_(comedian)> , <http://dbpedia.org/resource/Cheyenne_Jackson> , <http://dbpedia.org/resource/Kate_Baldwin> , <http://dbpedia.org/resource/Chuck_Cooper_(basketball)> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Artists and Models (1930)“My Real Ideal” (lyrics by Samuel Lerner)Three's a Crowd (1930)\"Forget All Your Books\" (lyrics by Howard Dietz and Samuel M. Lerner)" ;
+        ont:person          <http://dbpedia.org/resource/Howard_Dietz> , <http://dbpedia.org/resource/Alan_Jay_Lerner> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At some later time he became known as Burton Lane." ;
+        ont:person   <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“Madam, I Love Your Crepe Suzette” (lyrics by Lew Brown and Ralph Freed)Laffing Room Only (1944)“Feudin' and Fightin'” (lyrics by Al Dubin and Burton Lane)Finian's Rainbow (1947)(lyrics by E. Y. Harburg)" ;
+        ont:person          <http://dbpedia.org/resource/Lew_Brown> , <http://dbpedia.org/resource/Al_Dubin> , <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1947" , "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“Manana”Babes on Broadway (1941)“Babes on Broadway” (lyrics by Ralph Freed)" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“Poor You” (lyrics by E. Y. Harburg)DuBarry Was a Lady (1943)“DuBarry Was a Lady” (lyrics by Ralph Freed)" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Carmelina (1979) - musical - composer - Tony Award Nomination for Best Original Score" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lane is credited  with discovering the 13-year-old Frances Gumm (Judy Garland)." ;
+        ont:person   <http://dbpedia.org/resource/Judy_Garland> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His most popular and successful works include Finian's Rainbow in 1947 and On a Clear Day You Can See Forever in 1965." ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "in 1947" , "in 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "New York's City Center Encores!" ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/42/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "“Dancing on a Dime” (lyrics by Frank Loesser)" ;
+        ont:person   <http://dbpedia.org/resource/Frank_Loesser> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== Discovery of Judy Garland ==" ;
+        ont:person   <http://dbpedia.org/resource/Judy_Garland> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "We Bombed in New Haven (1968) - play - composer for the song \"Bomb, Bomb, Bombing Along\"" ;
+        ont:place           <http://dbpedia.org/resource/New_Haven,_Connecticut> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was known for his Broadway musicals, Finian's Rainbow (1947) and On a Clear Day You Can See Forever (1965)." ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1947" , "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“Old-Timer”Dancing on a Dime (1941)(lyrics by Frank Loesser)" ;
+        ont:person          <http://dbpedia.org/resource/Frank_Loesser> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On a Clear Day You Can See Forever (1965) - musical - composer - Tony Award Nomination for Best Composer and Lyricist" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Finian's Rainbow (1947, revivals in 1955, 1960, 2009) - musical - composer" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "2009" , "1960" , "1947" , "in 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was born Burton Levy, in New York City; his father was Lazarus Levy." ;
+        ont:person   <http://dbpedia.org/resource/Lazarus_of_Bethany> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Burton_upon_Trent> ;
+        ont:subject  <http://dbpedia.org/resource/Burton_Lane> .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Laffing Room Only (1944) - revue - composer and lyricist" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1944" .
 
 <http://w3id.org/polifonia/pilot/meetups/767288/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Burton Lane (né Levy; February 2, 1912 – January 5, 1997) was an American composer and lyricist primarily known for his theatre and film scores." ;
         ont:person          <http://dbpedia.org/resource/Burton_Lane> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
-        ont:timeExpression  "February 2 , 1912" , "January 5 , 1997" .
+        ont:timeExpression  "January 5 , 1997" , "February 2 , 1912" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hold On to Your Hats (1940) - musical - composer" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2004 and 2016 the Irish Repertory Theatre staged an Off-Broadway production." ;
+        ont:place           <http://dbpedia.org/resource/Irish_Repertory_Theatre> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "In 2004" , "2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/99/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“One More Walk Around the Garden”" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Because of circumstance, and contractual arrangements, Burton Lane didn't work with her again for seven years (Babes on Broadway), but it was definitely he who discovered her." ;
+        ont:person          <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "for seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He shared a Grammy Award in 1965 for Best Broadway Cast Album of the year (On a Clear Day You Can See Forever).Finian's Rainbow has had four major revivals (1955, 1960, 1967, and 2009), and was also made into a film starring Fred Astaire and Petula Clark, directed by Francis Ford Coppola, in 1968." ;
+        ont:person          <http://dbpedia.org/resource/Francis_Ford_Coppola> , <http://dbpedia.org/resource/Fred_Astaire> , <http://dbpedia.org/resource/Petula_Clark> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "four" , "1955" , "in 1965" , "1967" , "2009" , "1960" , "in 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the age of 18, he contributed the music for at least two songs for the revue, Three's A Crowd: \"Forget All Your Books\" and \"Out in the Open Air.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "age of 18" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/78/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“This Is What I Love”Junior Miss (1947)“Junior Miss” (lyrics by Dorothy Fields)On a Clear Day You Can See Forever (1965)(lyrics by Alan Jay Lerner)" ;
+        ont:person          <http://dbpedia.org/resource/Dorothy_Fields> , <http://dbpedia.org/resource/Alan_Jay_Lerner> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "1965" , "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The most recent Broadway revival opened on October 29, 2009 at the St. James Theatre with most of the Encores!" ;
+        ont:person          <http://dbpedia.org/resource/LeBron_James> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "October 29 , 2009" .
 
 <http://w3id.org/polifonia/pilot/meetups/767288/91/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "“Come Back to Me”We Bombed in New Haven (1968)“Bomb, Bomb, Bombing Along” (lyrics by Joseph Heller)Carmelina (1979)(lyrics by Alan Jay Lerner)" ;
         ont:person          <http://dbpedia.org/resource/Joseph_Heller> , <http://dbpedia.org/resource/Alan_Jay_Lerner> ;
-        ont:place           "http://dbpedia.org/resource/New_Haven_Colony" ;
+        ont:place           <http://dbpedia.org/resource/New_Haven_Colony> ;
         ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
-        ont:timeExpression  "1968" , "1979" .
+        ont:timeExpression  "1979" , "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/767288/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also served three terms on the board of directors of the American Society of Composers, Authors, and Publishers (ASCAP).Lane's best-known songs include \"Old Devil Moon,\" \"How Are Things in Glocca Morra?,\" \"Too Late Now,\" \"How About You?,\" and the title song from \"On a Clear Day.\"" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Burton_Lane> ;
+        ont:timeExpression  "three" .

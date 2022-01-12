@@ -6,9 +6,43 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/53098170/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2020 Bacallao was awarded the Cuban Premio Nacional del Humor (National Humor Prize)." ;
+        ont:place           <http://dbpedia.org/resource/Cuba> ;
+        ont:subject         <http://dbpedia.org/resource/Juana_Bacallao> ;
+        ont:timeExpression  "In 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/53098170/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Orphaned at age 6, she was sent to a Catholic boarding school and subsequently worked as a house cleaner until she was discovered by Obodulio Morales, allegedly while she sang as she cleaned a house." ;
+        ont:subject         <http://dbpedia.org/resource/Juana_Bacallao> ;
+        ont:timeExpression  "6" .
+
+<http://w3id.org/polifonia/pilot/meetups/53098170/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Juana Bacallao (born May 26, 1925), also known as Juana la Cubana and Juana La Caliente, is a Cuban singer and musician." ;
+        ont:place           <http://dbpedia.org/resource/Cuba> , <http://dbpedia.org/resource/Caliente_station> ;
+        ont:subject         <http://dbpedia.org/resource/Juana_Bacallao> ;
+        ont:timeExpression  "May 26 , 1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/53098170/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bacallao was born Neris Amelia Martínez Salazar in the working class neighborhood of Cayo Hueso in Havana." ;
+        ont:person   <http://dbpedia.org/resource/John_Salazar> ;
+        ont:place    <http://dbpedia.org/resource/Havana> , <http://dbpedia.org/resource/Cayo_Hueso,_Havana> ;
+        ont:subject  <http://dbpedia.org/resource/Juana_Bacallao> .
+
 <http://w3id.org/polifonia/pilot/meetups/53098170/4/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Throughout her career she has toured around the world and performed with such artists as Nat King Cole, Bola de Nieve, Chano Pozo, Beny Moré, Rita Montaner, and Celeste Mendoza.In 2011 Bacallao toured the United States and Puerto Rico, and appeared in several Spanish-language television stations.She appeared in the September 2015 Cuba episode of the CNN series Anthony Bourdain: Parts Unknown." ;
         ont:person          <http://dbpedia.org/resource/Bola_de_Nieve> , <http://dbpedia.org/resource/Anthony_Bourdain> , <http://dbpedia.org/resource/Nat_King_Cole> , <http://dbpedia.org/resource/Rita_Montaner> ;
-        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Cuba" ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Cuba> ;
         ont:subject         <http://dbpedia.org/resource/Juana_Bacallao> ;
         ont:timeExpression  "September 2015" , "Celeste Mendoza.In 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/53098170/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She started her professional singing career under the aegis of Obdulio Morales, who composed the famous guaracha \"Juana Bacallao\", which became her stage name." ;
+        ont:person   <http://dbpedia.org/resource/Obdulio_Morales> ;
+        ont:subject  <http://dbpedia.org/resource/Juana_Bacallao> .

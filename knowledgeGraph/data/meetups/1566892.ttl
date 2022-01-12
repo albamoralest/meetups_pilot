@@ -6,65 +6,380 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1566892/5/6>
+<http://w3id.org/polifonia/pilot/meetups/1566892/3/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/Frank_Chance> , <http://dbpedia.org/resource/David_Peel_(musician)> ;
-        ont:place           "http://dbpedia.org/resource/Lower_East_Side" ;
+        ont:excerpt         "Peel appeared with John Lennon at the John Sinclair Freedom Rally in Ann Arbor, Michigan on December 10, 1971, later released as a documentary film called \"Ten for Two\"." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/John_Lennon> ;
+        ont:place           <http://dbpedia.org/resource/Michigan> ;
         ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
-        ont:timeExpression  "In 2015" .
+        ont:timeExpression  "for Two" , "December 10 , 1971" , "Ten" .
 
-<http://w3id.org/polifonia/pilot/meetups/1566892/2/1>
+<http://w3id.org/polifonia/pilot/meetups/1566892/20/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Peel> ;
-        ont:place           "http://dbpedia.org/resource/Brooklyn" ;
+        ont:excerpt         "1984: 1984" ;
         ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
-        ont:timeExpression  "1967 hoax" , "two" , "1968" .
+        ont:timeExpression  "1984" .
 
-<http://w3id.org/polifonia/pilot/meetups/1566892/3/2>
+<http://w3id.org/polifonia/pilot/meetups/1566892/13/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/David_Peel_(musician)> , <http://dbpedia.org/resource/John_Lennon> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "1976: An Evening with David Peel" ;
+        ont:person          <http://dbpedia.org/resource/David_Peel_(musician)> ;
         ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
         ont:timeExpression  "1976" .
 
-<http://w3id.org/polifonia/pilot/meetups/1566892/3/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/John_Lennon> ;
-        ont:place           "http://dbpedia.org/resource/Michigan" ;
-        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
-        ont:timeExpression  "Ten" , "December 10 , 1971" , "for Two" .
+<http://w3id.org/polifonia/pilot/meetups/1566892/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Peel was born in Manhattan to Puerto Rican parents, Angel Perez, who worked in a restaurant, and Esther Rosario, a homemaker." ;
+        ont:person   <http://dbpedia.org/resource/Esther> , <http://dbpedia.org/resource/John_Peel> ;
+        ont:place    <http://dbpedia.org/resource/Manhattan> , <http://dbpedia.org/resource/Rosario,_Santa_Fe> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
 
-<http://w3id.org/polifonia/pilot/meetups/1566892/38/0>
+<http://w3id.org/polifonia/pilot/meetups/1566892/12/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/John_Lennon> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "1974: Santa Claus Rooftop Junkie" ;
         ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
-        ont:timeExpression  "2006" , "1989" , "2004" , "1972" .
-
-<http://w3id.org/polifonia/pilot/meetups/1566892/0/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Rosario_Flores> , <http://dbpedia.org/resource/David_Peel_(musician)> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Cori_(lunar_crater)" ;
-        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
-        ont:timeExpression  "August 3 , 1942" , "April 6 , 2017" .
+        ont:timeExpression  "1974" .
 
 <http://w3id.org/polifonia/pilot/meetups/1566892/5/5>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2013, David Peel and the Protesters released Up Against the Wall Street, an album of themed protest songs." ;
         ont:person          <http://dbpedia.org/resource/David_Peel_(musician)> ;
-        ont:place           "http://dbpedia.org/resource/Wall_Street" ;
+        ont:place           <http://dbpedia.org/resource/Wall_Street> ;
         ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
         ont:timeExpression  "In 2013" .
 
-<http://w3id.org/polifonia/pilot/meetups/1566892/7/0>
+<http://w3id.org/polifonia/pilot/meetups/1566892/11/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Woodrow_Wilson> , <http://dbpedia.org/resource/John_Peel> ;
-        ont:place           "http://dbpedia.org/resource/Manhattan" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "1972: The Pope Smokes Dope" ;
         ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
-        ont:timeExpression  "March 31 , 2017" .
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "David Peel (born David Michael Rosario; August 3, 1942 – April 6, 2017) was a New York City-based musician who first recorded in the late 1960s with Harold Black, Billy Joe White, George Cori and Larry Adam performing as David Peel and The Lower East Side Band." ;
+        ont:person          <http://dbpedia.org/resource/David_Peel_(musician)> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Rosario_Flores> ;
+        ont:place           <http://dbpedia.org/resource/Cori_(lunar_crater)> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "August 3 , 1942" , "April 6 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1970: The American Revolution" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/2/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lennon produced The Pope Smokes Dope for Peel." ;
+        ont:person   <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/John_Lennon> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/5/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In addition to performing, Peel documented the protests via hundreds of photographs, some of which he released online." ;
+        ont:person   <http://dbpedia.org/resource/John_Peel> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The mix was finalized by Ron St. Germain (of Band 311 fame) at Ultrasonic recording studios in Hempstead, New York." ;
+        ont:place           <http://dbpedia.org/resource/Rosa_Parks_Hempstead_Transit_Center> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "Band 311" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lennon befriended Peel when David was playing with his ragtag hippie band in New York's Washington Square Park in Greenwich Village." ;
+        ont:person   <http://dbpedia.org/resource/John_Lennon> , <http://dbpedia.org/resource/John_Peel> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Washington_Square_Park> , <http://dbpedia.org/resource/Greenwich_Village> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2011 through 2013, Peel was involved in the Occupy Wall Street protests at Zuccotti Park, in Union Square, and in other New-York-area locations." ;
+        ont:place           <http://dbpedia.org/resource/Regional_Municipality_of_Peel> , <http://dbpedia.org/resource/Zuccotti_Park> , <http://dbpedia.org/resource/Wall_Street> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "In 2011" , "through 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/4/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the additional studio recordings on the CD, Muruga Booker (of Genesis fame) played his \"electric talking drum\" on the comeback hit \"Junk Rock\"." ;
+        ont:person   <http://dbpedia.org/resource/Muruga_Booker> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/3/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The LP was hailed as being a breakthrough recording by capturing the tumultuous mid-1970s American underground movement as well as the bubbling under of live recordings that have become a mainstay of the recording arts." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Peel died at the hospital on April 6, 2017. was buried with full military honors at Calverton National Cemetery Wading River New York Section 53 Grave 3208 on April 17, 2017." ;
+        ont:place           <http://dbpedia.org/resource/Regional_Municipality_of_Peel> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Wading_River_station> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "53 Grave 3208" , "April 17 , 2017" , "April 6 , 2017." .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "186 on the Billboard chart.Peel was rediscovered by John Lennon in 1971 as the early seventies continued its swing towards the youth revolution." ;
+        ont:person          <http://dbpedia.org/resource/John_Lennon> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "in 1971" , "186" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Peel performed live in New York City on a regular basis." ;
+        ont:person   <http://dbpedia.org/resource/John_Peel> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/39/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In Jack Milton's film Please Stand By, Peel portrays and stars as a media hippie revolutionary, who hijacks a network television van and jams the airwaves with unauthorized radical broadcasts to the nation." ;
+        ont:person   <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/John_Milton> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The David Peel Anthology, a career retrospective compiled by Peel with his favorite tracks from his entire career, was released in 2012." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "in 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Peel has appeared as himself in various films, including Please Stand By (1972), Rude Awakening (1989), High Times' Potluck (2004) and The U.S. vs. John Lennon (2006)." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/John_Lennon> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2004" , "2006" , "1989" , "1972" .
 
 <http://w3id.org/polifonia/pilot/meetups/1566892/4/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Peel also produced the album Always Was, Is and Always Shall Be, and in the unreleased song \"What a drag it is to be dead\" performed with GG Allin on the drums.In 1995, the vinyl LP tracks from An Evening With David Peel were combined with two new multi-tracked studio recordings: \"Junk Rock\" and \"I Hate You\" (recorded at Right Track Studios, NYC) for a CD release Up Against The Wall." ;
         ont:person          <http://dbpedia.org/resource/GG_Allin> , <http://dbpedia.org/resource/David_Peel_(musician)> , <http://dbpedia.org/resource/John_Peel> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
         ont:timeExpression  "1995" , "with two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This was Lennon's first live appearance on U.S. TV as a solo performer.In 1976 the independent labels Orange Records and Auravox Records released An Evening With David Peel." ;
+        ont:person          <http://dbpedia.org/resource/David_Peel_(musician)> , <http://dbpedia.org/resource/John_Lennon> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He immediately suffered a series of three heart attacks upon his arrival." ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "three heart" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2015: Give Hemp A Chance" ;
+        ont:person          <http://dbpedia.org/resource/Frank_Chance> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2002: Legalize Marijuana" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2013: Up Against the Wall Street" ;
+        ont:place           <http://dbpedia.org/resource/Wall_Street> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1995: Up Against the Wall" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2012: Anthology" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Later in 2007, the videoclip of the gabber remix went viral, raising millions of views.In 2011, Peel signed with Global Recording Artists." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2011" , "in 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1995: Noiseville" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2008: Marijuana Christmas" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1968: Have a Marijuana" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Allin would cover Peel's 'Devil's Prayer' and 'I Want to Kill You' and frequently cited him as a musical influence in interviews." ;
+        ont:person   <http://dbpedia.org/resource/John_Peel> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1994: War and Anarchy" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1982: Animal In Love" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2004: Jirokichi Live at Koenji" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On January 23, 1972, Peel and his band performed live on the David Frost Show with Lennon, Yoko Ono and Jerry Rubin." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/John_Lennon> , <http://dbpedia.org/resource/Yoko_Ono> , <http://dbpedia.org/resource/Jerry_Rubin> , <http://dbpedia.org/resource/David_Frost> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "January 23 , 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1994: Battle for New York" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1980: John Lennon for President" ;
+        ont:person          <http://dbpedia.org/resource/John_Lennon> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was raised in Brooklyn and served two years in the United States Army, and was stationed in Alaska.Peel took his stage name from a  1967 hoax that claimed that banana peels were psychoactive.In 1968, Peel was contracted by Elektra Records when he was first discovered and recorded two \"envelope pushers\" for the label." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> ;
+        ont:place           <http://dbpedia.org/resource/Brooklyn> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1967 hoax" , "1968" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On March 31, 2017 Peel was escorted to the Veterans Administration hospital in Manhattan New York by fellow musician Joff Wilson, after complaining that he was not feeling well." ;
+        ont:person          <http://dbpedia.org/resource/Woodrow_Wilson> , <http://dbpedia.org/resource/John_Peel> ;
+        ont:place           <http://dbpedia.org/resource/Manhattan> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "March 31 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2002: Rock 'n' Roll Outlaw" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1993: Anarchy in New York City" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1980: Death to Disco" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2015, Peel was back to his fight for the legalization of marijuana, releasing his latest album as David Peel and the Lower East Side titled Give Hemp a Chance." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/Frank_Chance> , <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:place           <http://dbpedia.org/resource/Lower_East_Side> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "In 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Peel was working on his book Rock and Roll Outlaw." ;
+        ont:person   <http://dbpedia.org/resource/John_Peel> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2002: Long Live the Grateful Dead" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1987: World War III" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1979: \"Junk Rock / I Hate You\" (45 rpm single released under David Peel and Death)" ;
+        ont:person          <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1979" , "45 rpm" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Still in 1995, Technohead produces I Wanna Be a Hippy, a gabber remix of I Like Marijuana, which quickly climbed the charts in many countries, and was subsequently remixed again by other DJs." ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "in 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1987: John Lennon Forever" ;
+        ont:person          <http://dbpedia.org/resource/John_Lennon> ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1978: King of Punk" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Peel has been associated with the \"transgressive, shock\" performer GG Allin, with Allin's debut album and early singles released by Peel's Orange record label." ;
+        ont:person   <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/GG_Allin> ;
+        ont:subject  <http://dbpedia.org/resource/David_Peel_(musician)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1986: Search to Destroy" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/1566892/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1977: Bring Back the Beatles" ;
+        ont:subject         <http://dbpedia.org/resource/David_Peel_(musician)> ;
+        ont:timeExpression  "1977" .

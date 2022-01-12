@@ -6,79 +6,635 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/3516152/19/1>
+<http://w3id.org/polifonia/pilot/meetups/3516152/7/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Nick_Mason> , <http://dbpedia.org/resource/Roswell_Rudd> ;
-        ont:place           "http://dbpedia.org/resource/Maiella" ;
+        ont:excerpt         "In 1991, he left the United States and moved to Europe, dividing his time between Copenhagen, Denmark and the South of France." ;
+        ont:place           <http://dbpedia.org/resource/Denmark> , <http://dbpedia.org/resource/Copenhagen> , <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/France> ;
         ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
-        ont:timeExpression  "November 2008" .
+        ont:timeExpression  "In 1991" .
 
-<http://w3id.org/polifonia/pilot/meetups/3516152/14/1>
+<http://w3id.org/polifonia/pilot/meetups/3516152/20/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Christian_Friedrich_Hebbel> ;
-        ont:place           "http://dbpedia.org/resource/Copenhagen" , "http://dbpedia.org/resource/Berlin" ;
+        ont:excerpt         "His next CD (For Two), a series of duets for guitar (Bjarne Roupé) and piano (Per Salo), was released by ECM during June 2011." ;
+        ont:person          <http://dbpedia.org/resource/Mika_Salo> ;
         ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
-        ont:timeExpression  "Spring of 2002" .
+        ont:timeExpression  "For Two" , "June 2011" .
 
-<http://w3id.org/polifonia/pilot/meetups/3516152/2/3>
+<http://w3id.org/polifonia/pilot/meetups/3516152/13/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Cecil_Rhodes> , <http://dbpedia.org/resource/Archie_Shepp> , <http://dbpedia.org/resource/Roswell_Rudd> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "His One Symphony, commissioned by the broadcaster Hessischer Rundfunk, was premiered in November 1998 by the Radio Symphony Orchestra Frankfurt, conducted by Peter Rundel." ;
         ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
-        ont:timeExpression  "In 1964" .
+        ont:timeExpression  "November 1998" , "One" .
 
-<http://w3id.org/polifonia/pilot/meetups/3516152/12/2>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Christian_Friedrich_Hebbel> ;
-        ont:place           "http://dbpedia.org/resource/Berlin" ;
-        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
-        ont:timeExpression  "November 1997" .
+<http://w3id.org/polifonia/pilot/meetups/3516152/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== Career: Europe ==" ;
+        ont:place    <http://dbpedia.org/resource/Europe> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
 
-<http://w3id.org/polifonia/pilot/meetups/3516152/21/0>
+<http://w3id.org/polifonia/pilot/meetups/3516152/12/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Davy_Arnaud> , <http://dbpedia.org/resource/Himiko> , <http://dbpedia.org/resource/Max_Brand> ;
-        ont:place           "http://dbpedia.org/resource/Austria" , "http://dbpedia.org/resource/Krems_an_der_Donau" , "http://dbpedia.org/resource/France" ;
+        ont:excerpt         "The School of Understanding (\"sort-of-an-opera\") had its première in August 1996 at Arken, the new Museum of Modern Art in Copenhagen." ;
+        ont:place           <http://dbpedia.org/resource/Copenhagen> , <http://dbpedia.org/resource/Arken_Museum_of_Modern_Art> ;
         ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
-        ont:timeExpression  "2012" , "2014" .
-
-<http://w3id.org/polifonia/pilot/meetups/3516152/23/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Himiko> , <http://dbpedia.org/resource/Max_Brand> ;
-        ont:place           "http://dbpedia.org/resource/Vienna" ;
-        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
-        ont:timeExpression  "with two" , "September 2016" .
-
-<http://w3id.org/polifonia/pilot/meetups/3516152/8/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Andy_Sheppard> , <http://dbpedia.org/resource/Michael_Gibbs_(composer)> ;
-        ont:place           "http://dbpedia.org/resource/Danube" , "http://dbpedia.org/resource/Vienna" ;
-        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
-        ont:timeExpression  "June 1991" .
-
-<http://w3id.org/polifonia/pilot/meetups/3516152/5/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Carla_Bley> ;
-        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Japan" , "http://dbpedia.org/resource/Europe" ;
-        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
-        ont:timeExpression  "From 1977" , "until 1985" .
-
-<http://w3id.org/polifonia/pilot/meetups/3516152/47/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Nick_Mason> , <http://dbpedia.org/resource/Roland_Kluttig> , <http://dbpedia.org/resource/Roswell_Rudd> , <http://dbpedia.org/resource/Michael_Mantler> ;
-        ont:place           "http://dbpedia.org/resource/Maiella" ;
-        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
-        ont:timeExpression  "2008" .
+        ont:timeExpression  "August 1996" .
 
 <http://w3id.org/polifonia/pilot/meetups/3516152/11/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cerco un Paese Innocente, a \"Suite of Songs and Interludes for Voice, Untypical Big Band, and Chamber Ensemble\", with words by the Italian poet Giuseppe Ungaretti, had its premiere in concert at Denmark Radio in January 1994." ;
         ont:person          <http://dbpedia.org/resource/Giuseppe_Bertolucci> ;
-        ont:place           "http://dbpedia.org/resource/Italy" , "http://dbpedia.org/resource/Denmark" ;
+        ont:place           <http://dbpedia.org/resource/Denmark> , <http://dbpedia.org/resource/Italy> ;
         ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
         ont:timeExpression  "January 1994" .
 
+<http://w3id.org/polifonia/pilot/meetups/3516152/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1977 until 1985, he was also a member of the Carla Bley Band, touring extensively throughout Europe, the US, and Japan, as well as appearing on all of the Band's recordings." ;
+        ont:person          <http://dbpedia.org/resource/Carla_Bley> ;
+        ont:place           <http://dbpedia.org/resource/Japan> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Europe> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "From 1977" , "until 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/68/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Rhone., John Greaves and Peter Blegvad  (Virgin)" ;
+        ont:person   <http://dbpedia.org/resource/Peter_Blegvad> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1993, he formed the Chamber Music and Songs ensemble, featuring his trumpet plus Mona Larsen (voice), Bjarne Roupé (guitar), Kim Kristensen (keyboards), and a string quartet consisting of Marianne Sørensen (violin), Mette Winther (viola), Gunnar Lychou (viola), and Helle Sørensen (cello)." ;
+        ont:person          <http://dbpedia.org/resource/Kim_Kristensen> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "In 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Reviewing Mantler's 1978 Movies LP in Christgau's Record Guide, Robert Christgau wrote, \"Great title for the ultimate soundtrack demo, utilizing the chops and sound of Larry Coryell, Tony Williams, Steve Swallow, and Carla Bley on bracing (if rather detached) compositions that unite the conventions of jazz group writing with those of twentieth-century European music." ;
+        ont:person          <http://dbpedia.org/resource/Robert_Christgau> , <http://dbpedia.org/resource/The_World_Famous_Tony_Williams> , <http://dbpedia.org/resource/Carla_Bley> , <http://dbpedia.org/resource/Steve_Swallow> , <http://dbpedia.org/resource/Larry_Coryell> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The problems of independently distributing the orchestra's record label, led him to form the New Music Distribution Service (as a division of JCOA) in 1972, an organization which was to serve many independent labels for almost twenty years." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "in 1972" , "twenty" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Mantler was born in Vienna, Austria." ;
+        ont:place    <http://dbpedia.org/resource/Austria> , <http://dbpedia.org/resource/Vienna> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== Career: United States ==" ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1981: Nick Mason's Fictitious Sports, Nick Mason  (Harvest)" ;
+        ont:person          <http://dbpedia.org/resource/Nick_Mason> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Michael Mantler (born August 10, 1943) is an Austrian avant-garde jazz trumpeter and composer of contemporary music." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "August 10 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1976: Kew." ;
+        ont:place           <http://dbpedia.org/resource/Kew_Gardens> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1970: Liberation Music Orchestra, Charlie Haden and the Liberation Music Orchestra (Impulse!)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Haden> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/73/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Official Michael Mantler website" ;
+        ont:person   <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1969: A Genuine Tong Funeral, Gary Burton  (RCA)" ;
+        ont:person          <http://dbpedia.org/resource/Gary_Burton> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1982: Live!" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1982" , "Live" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1981: Social Studies" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/22/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The complete project was performed live several times during 2015/16: at the Moers Festival and at the North Sea Jazz Festival in Rotterdam (with the Nouvelle Cuisine Big Band) and at the German Jazzfestival Frankfurt (with the hr-Bigband), as well as in Portugal at the Lisbon Jazz em Agosto Festival (with the Orquestra Jazz de Matosinhos)" ;
+        ont:place           <http://dbpedia.org/resource/Lisbon> , <http://dbpedia.org/resource/Portugal> , <http://dbpedia.org/resource/Rotterdam> , <http://dbpedia.org/resource/Frankfurt> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "during 2015/16" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1984: That's the Way I Feel Now (A&M)" ;
+        ont:place           <http://dbpedia.org/resource/Jim_Henson_Company_Lot> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1979: Musique Mecanique" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/3/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He recorded Something There with the string section of the London Symphony Orchestra and several albums using the words of writers Samuel Beckett (No Answer), Harold Pinter (Silence), and Edward Gorey (The Hapless Child)." ;
+        ont:person   <http://dbpedia.org/resource/Harold_Pinter> , <http://dbpedia.org/resource/Samuel_Beckett> , <http://dbpedia.org/resource/Edward_Gorey> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/70/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1983: The Ballad of the Fallen Charlie Haden and the Liberation Music Orchestra (ECM)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Haden> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1981: Amarcord Nino Rota (Hannibal)" ;
+        ont:person          <http://dbpedia.org/resource/Nino_Rota> , <http://dbpedia.org/resource/Hannibal> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1978: European Tour 1977" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1977" , "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2014: Jazz Composer's Orchestra Update (ECM) with Michael Mantler, Bjarne Roupé, Harry Sokal, Wolfgang Puschnig, radio.string.quartet.vienna, David Helbock, Nouvelle Cuisine Big Band, conducted by Christoph Cech" ;
+        ont:person          <http://dbpedia.org/resource/Michael_Mantler> , <http://dbpedia.org/resource/Wolfgang_Puschnig> , <http://dbpedia.org/resource/Harry_Sokal_(musician)> , <http://dbpedia.org/resource/David_Helbock> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He founded the Jazz Realities quintet with Carla Bley and toured in Europe with Steve Lacy." ;
+        ont:person   <http://dbpedia.org/resource/Carla_Bley> , <http://dbpedia.org/resource/Steve_Lacy_(saxophonist)> ;
+        ont:place    <http://dbpedia.org/resource/Europe> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1984: Heavy HeartContributions to Tribute Albums" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1977: Dinner Music" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2011: For Two (ECM) with Bjarne Roupé and Per Salo" ;
+        ont:person          <http://dbpedia.org/resource/Mika_Salo> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "2011" , "For Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/24/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The resulting album, CODA - Orchestra Suites, as well as a series of print editions (including engraved and facsimile scores of selected recorded work from a 50-year period), were released in July 2021 by ECM Records" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "July 2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1984: I Hate to Sing" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1974: Tropic Appetites" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2008: Concertos (ECM) with Michael Mantler, Bjarne Roupé, Bob Rockwell, Roswell Rudd, Pedro Carneiro, Majella Stockhausen, Nick Mason, Kammerensemble Neue Musik Berlin, conducted by Roland Kluttig" ;
+        ont:person          <http://dbpedia.org/resource/Nick_Mason> , <http://dbpedia.org/resource/Roland_Kluttig> , <http://dbpedia.org/resource/Roswell_Rudd> , <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:place           <http://dbpedia.org/resource/Maiella> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/60/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1983: Mortelle Randonnée (PolyGram)" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1971: Escalator over the Hill" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2006: Review (ECM) recordings 1968 - 2000" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "2000" , "2006" , "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1988: Many Have No Speech (Watt/ECM) with Jack Bruce, Marianne Faithfull, Robert Wyatt, Rick Fenn, the Danish Radio Concert Orchestra; words by Samuel Beckett, Ernst Meister, and Philippe Soupault" ;
+        ont:person          <http://dbpedia.org/resource/Marianne_Faithfull> , <http://dbpedia.org/resource/Robert_Wyatt> , <http://dbpedia.org/resource/Samuel_Beckett> , <http://dbpedia.org/resource/Jack_Bruce> , <http://dbpedia.org/resource/Rick_Fenn> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/22/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A selection of recordings from these performances was released by ECM Records during November 2014." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "November 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His 1987 album Many Have No Speech contained songs in English, German, and French that were based on the poetry of Samuel Beckett, Ernst Meister, and Philippe Soupault, with vocals by rock musicians Jack Bruce, Marianne Faithfull, and Robert Wyatt." ;
+        ont:person          <http://dbpedia.org/resource/Jack_Bruce> , <http://dbpedia.org/resource/Samuel_Beckett> , <http://dbpedia.org/resource/Marianne_Faithfull> , <http://dbpedia.org/resource/Robert_Wyatt> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/52/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== With Carla Bley ===" ;
+        ont:person   <http://dbpedia.org/resource/Carla_Bley> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2001: Hide and Seek (ECM) with Robert Wyatt, Susi Hyldgaard, and chamber ensemble; words by Paul Auster" ;
+        ont:person          <http://dbpedia.org/resource/Paul_Auster> , <http://dbpedia.org/resource/Robert_Wyatt> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1987: Live  (Watt/ECM) with Jack Bruce, Rick Fenn, Don Preston, John Greaves, and Nick Mason" ;
+        ont:person          <http://dbpedia.org/resource/Jack_Bruce> , <http://dbpedia.org/resource/Don_Preston> , <http://dbpedia.org/resource/Rick_Fenn> , <http://dbpedia.org/resource/Nick_Mason> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A studio recording of the concertos with soloists Bjarne Roupé (guitar), Bob Rockwell (tenor saxophone), Roswell Rudd (trombone), Pedro Carneiro (marimba and vibraphone), Majella Stockhausen (piano), Nick Mason (percussion), and Mantler on trumpet, was released by ECM during November 2008." ;
+        ont:person          <http://dbpedia.org/resource/Nick_Mason> , <http://dbpedia.org/resource/Roswell_Rudd> ;
+        ont:place           <http://dbpedia.org/resource/Maiella> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "November 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2021: Coda - Orchestra Suites (ECM) with Michael Mantler, Bjarne Roupé, David Helbock, orchestra conducted by Christoph Cech" ;
+        ont:person          <http://dbpedia.org/resource/David_Helbock> , <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "2021" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2000: Songs and One Symphony (ECM)  with Mona Larsen plus Chamber Ensemble and the Radio Symphony Orchestra Frankfurt, conducted by Peter Rundel; words by Ernst Meister" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "One" , "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1985: Alien (Watt/ECM) with Don Preston" ;
+        ont:person          <http://dbpedia.org/resource/Don_Preston> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1964, he moved to New York City and joined the Jazz Composers Guild with Roswell Rudd, Archie Shepp, and Cecil Taylor." ;
+        ont:person          <http://dbpedia.org/resource/Cecil_Rhodes> , <http://dbpedia.org/resource/Archie_Shepp> , <http://dbpedia.org/resource/Roswell_Rudd> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "In 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2017: Comment c'est (ECM) with Michael Mantler, Himiko Paganotti, Max Brand Ensemble, conducted by Christoph Cech; words by Michael Mantler" ;
+        ont:person          <http://dbpedia.org/resource/Himiko> , <http://dbpedia.org/resource/Max_Brand> , <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1997: The School of Understanding (opera) (ECM) with Jack Bruce, Mona Larsen, Susi Hyldgaard, John Greaves, Don Preston, Karen Mantler, Per Jørgensen, Robert Wyatt, chamber ensemble, strings of the Danish Radio Concert Orchestra, conducted by Giordano Bellincampi; words by Michael Mantler" ;
+        ont:person          <http://dbpedia.org/resource/Michael_Mantler> , <http://dbpedia.org/resource/Jack_Bruce> , <http://dbpedia.org/resource/Robert_Wyatt> , <http://dbpedia.org/resource/Don_Preston> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1983: Something There (Watt/ECM) with Nick Mason, Mike Stern, Michael Gibbs, and the London Symphony Orchestra strings" ;
+        ont:person          <http://dbpedia.org/resource/Michael_Gibbs_(composer)> , <http://dbpedia.org/resource/Mike_Stern> , <http://dbpedia.org/resource/Nick_Mason> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1968: The Jazz Composer's Orchestra (JCOA/ECM) with Cecil Taylor, Don Cherry, Pharoah Sanders, Larry Coryell, Roswell Rudd, and Gato Barbieri" ;
+        ont:person          <http://dbpedia.org/resource/Roswell_Rudd> , <http://dbpedia.org/resource/Gato_Barbieri> , <http://dbpedia.org/resource/Pharoah_Sanders> , <http://dbpedia.org/resource/Cecil_Rhodes> , <http://dbpedia.org/resource/Don_Cherry> , <http://dbpedia.org/resource/Larry_Coryell> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/24/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The result was a series of suites (HideSeek, Alien, Cerco, Folly, TwoThirteen) for a larger orchestra, conducted by Christoph Cech, presented and recorded at three concerts during September 2019, again at Vienna's Porgy & Bess." ;
+        ont:place           <http://dbpedia.org/resource/Vienna> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "September 2019" , "at three" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The recording was released as a double-CD by ECM in November 1997, followed by a new live production at the Hebbel Theater in Berlin." ;
+        ont:person          <http://dbpedia.org/resource/Christian_Friedrich_Hebbel> ;
+        ont:place           <http://dbpedia.org/resource/Berlin> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "November 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1995: Cerco Un Paese Innocente (ECM) with Mona Larsen, Chamber Ensemble, and the Danish Radio Big Band; words by Giuseppe Ungaretti" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1980: More Movies (Watt/ECM) with Philip Catherine, Steve Swallow, and Gary Windo" ;
+        ont:person          <http://dbpedia.org/resource/Steve_Swallow> , <http://dbpedia.org/resource/Philip_Catherine> , <http://dbpedia.org/resource/Gary_Windo> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1966: Jazz Realities (Fontana) with Steve Lacy and Carla Bley" ;
+        ont:person          <http://dbpedia.org/resource/Steve_Lacy_(saxophonist)> , <http://dbpedia.org/resource/Carla_Bley> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/23/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A studio recording of the work was released by ECM Records during November 2017." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "November 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The work was subsequently recorded in the studio and released by ECM Records in 1995." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "in 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1993: Folly Seeing All This (ECM) with the Balanescu Quartet, Rick Fenn, and Jack Bruce; words by Samuel Beckett" ;
+        ont:person          <http://dbpedia.org/resource/Samuel_Beckett> , <http://dbpedia.org/resource/Jack_Bruce> , <http://dbpedia.org/resource/Rick_Fenn> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1978: Movies (Watt/ECM) with Larry Coryell, Steve Swallow, and Tony Williams" ;
+        ont:person          <http://dbpedia.org/resource/Steve_Swallow> , <http://dbpedia.org/resource/Larry_Coryell> , <http://dbpedia.org/resource/The_World_Famous_Tony_Williams> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1966: Communication (Fontana) Jazz Composer's Orchestra" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/22/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The program included a complete re-working of all the pieces from the original 1968 The Jazz Composer's Orchestra album, as well as of older material from as early as 1963, never before performed or recorded." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1968" , "as 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The album includes instrumental compositions and one song, music set to Samuel Beckett's last work written shortly before his death in 1989, the poem \"What Is the Word\" featuring the voice of Jack Bruce." ;
+        ont:person          <http://dbpedia.org/resource/Jack_Bruce> , <http://dbpedia.org/resource/Samuel_Beckett> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "one song" , "death in 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/4/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Commissions and performances with European orchestras followed, at the Danish Radio, the Swedish Radio, the North and West German Radio, and the Lille Opera." ;
+        ont:place    <http://dbpedia.org/resource/Lille> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Some of this music was also performed during the \"Long Concerts\" at the Electric Circus in New York in 1969." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "in 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1990: The Watt Works Family Album (WATT/ECM) sampler" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1977: Silence (Watt/ECM) with Robert Wyatt, Kevin Coyne, Chris Spedding; words by Harold Pinter" ;
+        ont:person          <http://dbpedia.org/resource/Harold_Pinter> , <http://dbpedia.org/resource/Robert_Wyatt> , <http://dbpedia.org/resource/Chris_Spedding> , <http://dbpedia.org/resource/Kevin_Coyne> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Theatrical productions of the work, conceived by Rolf Heim (who has previously worked with Mantler on the School of Understanding performances), were produced in the Spring of 2002 in Copenhagen (Kanonhallen, February) and Berlin (Hebbel Theater, March)." ;
+        ont:person          <http://dbpedia.org/resource/Christian_Friedrich_Hebbel> ;
+        ont:place           <http://dbpedia.org/resource/Copenhagen> , <http://dbpedia.org/resource/Berlin> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "Spring of 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He appeared at the JazzFest Berlin in November 2007 with his Concertos project, featuring the Kammerensemble Neue Musik Berlin under the direction of Roland Kluttig." ;
+        ont:person          <http://dbpedia.org/resource/Roland_Kluttig> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "November 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "New compositions were also commissioned by the Danish Radio Big Band and the North German Radio Big Band in Hamburg." ;
+        ont:place    <http://dbpedia.org/resource/Germany> , <http://dbpedia.org/resource/Hamburg> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By the mid 1970s, both orchestra and distributor discontinued their activities.Mantler recorded many solo albums with varying instrumentation and personnel, emphasizing his work as a composer rather than as a band leader." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1976: The Hapless Child (Watt/ECM) with Robert Wyatt, Terje Rypdal, Carla Bley, Jack DeJohnette, Steve Swallow; settings of written works by Edward Gorey" ;
+        ont:person          <http://dbpedia.org/resource/Terje_Rypdal> , <http://dbpedia.org/resource/Carla_Bley> , <http://dbpedia.org/resource/Robert_Wyatt> , <http://dbpedia.org/resource/Jack_DeJohnette> , <http://dbpedia.org/resource/Steve_Swallow> , <http://dbpedia.org/resource/Edward_Gorey> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The anthology Review (recordings 1968 – 2000), released by ECM in 2006, traced his musical path during more than 30 years of recordings for JCOA, WATT, and ECM." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "than 30" , "1968" , "in 2006" , "– 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The recording of the work was released in February 2000, together with previously recorded material featuring Mona Larsen and the Chamber Music and Songs ensemble interpreting songs set to texts by Ernst Meister." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "February 2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He continued his studies at the Berklee College of Music in Boston, Massachusetts, United States." ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Massachusetts> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1975: 13 (Watt/ECM) for two orchestras and piano" ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "13" , "for two" , "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/17/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In recognition of his life's work he received several Austrian awards: the State Prize for Improvised Music, the Prandtauer Prize of the City of St. Pölten, where he spent his early youth, and the Music Prize of the City of Vienna." ;
+        ont:place    <http://dbpedia.org/resource/Vienna> , <http://dbpedia.org/resource/Austria> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/12/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Participants included singers Jack Bruce, Mona Larsen, Susi Hyldgaard, John Greaves, Don Preston, Karen Mantler, Per Jørgensen, and Robert Wyatt." ;
+        ont:person   <http://dbpedia.org/resource/Jack_Bruce> , <http://dbpedia.org/resource/Robert_Wyatt> , <http://dbpedia.org/resource/Don_Preston> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During September 2006, Porgy & Bess in Vienna presented a series of retrospective portrait concerts with his Chamber Music and Songs ensemble" ;
+        ont:place           <http://dbpedia.org/resource/Vienna> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "September 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1974: No Answer (Watt/ECM) with Don Cherry, Jack Bruce, Carla Bley; words by Samuel Beckett" ;
+        ont:person          <http://dbpedia.org/resource/Samuel_Beckett> , <http://dbpedia.org/resource/Don_Cherry> , <http://dbpedia.org/resource/Carla_Bley> , <http://dbpedia.org/resource/Jack_Bruce> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Comment c'est (How It Is), a song cycle for voice (Himiko Paganotti) and chamber orchestra (the Max Brand Ensemble) was premiered with two concerts at Porgy & Bess in Vienna during September 2016." ;
+        ont:person          <http://dbpedia.org/resource/Himiko> , <http://dbpedia.org/resource/Max_Brand> ;
+        ont:place           <http://dbpedia.org/resource/Vienna> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "September 2016" , "with two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mantler and Bley were married from 1965 –1991 and had one daughter, Karen Mantler, who became a musician." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "one daughter" , "1965 –1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/11/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Featured were the voice of Mona Larsen, Mantler's ensemble, and the Danish Radio Big Band, conducted by Ole Kock Hansen." ;
+        ont:place    <http://dbpedia.org/resource/Kock> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During 1992, Mantler recorded a new album, titled Folly Seeing All This, released by ECM Records in March 1993, which features the Balanescu Quartet plus other instrumentalists." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "During 1992" , "March 1993" .
+
 <http://w3id.org/polifonia/pilot/meetups/3516152/22/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During September 2013, Porgy & Bess in Vienna presented his Jazz Composer's Orchestra Update project, featuring the Nouvelle Cuisine Big Band, conducted by Christoph Cech, with soloists Michael Mantler (trumpet), Harry Sokal and Wolfgang Puschnig (saxophones), Bjarne Roupé (guitar), David Helbock (piano) and the radio.string.quartet.vienna." ;
         ont:person          <http://dbpedia.org/resource/Michael_Mantler> , <http://dbpedia.org/resource/Wolfgang_Puschnig> , <http://dbpedia.org/resource/Harry_Sokal_(musician)> , <http://dbpedia.org/resource/David_Helbock> ;
-        ont:place           "http://dbpedia.org/resource/Vienna" ;
+        ont:place           <http://dbpedia.org/resource/Vienna> ;
         ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
         ont:timeExpression  "September 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His Concerto for Marimba and Vibraphone (commissioned by Portuguese percussionist Pedro Carneiro in 2001) premiered at the Hessischer Rundfunk in March 2005 with the Radio Symphony Orchestra Frankfurt conducted by Pascal Rophé." ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "March 2005" , "in 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/10/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Its premiere took place at the Copenhagen Jazzhouse in September, followed by a studio production at Denmark Radio." ;
+        ont:place    <http://dbpedia.org/resource/Denmark> , <http://dbpedia.org/resource/Copenhagen> ;
+        ont:subject  <http://dbpedia.org/resource/Michael_Mantler> .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For its first record release he produced a double album of his music during 1968, entitled The Jazz Composer's  Orchestra, with soloists Cecil Taylor, Don Cherry, Roswell Rudd, Pharoah Sanders, Larry Coryell, and Gato Barbieri." ;
+        ont:person          <http://dbpedia.org/resource/Pharoah_Sanders> , <http://dbpedia.org/resource/Don_Cherry> , <http://dbpedia.org/resource/Cecil_Womack> , <http://dbpedia.org/resource/Larry_Coryell> , <http://dbpedia.org/resource/Roswell_Rudd> , <http://dbpedia.org/resource/Gato_Barbieri> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "music during 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "New works were commissioned and performed by the Max Brand Ensemble, conducted by Christoph Cech (Chamber Music Eight, Tage der Neuen Musik, Krems, Austria, 2012) and by the Chaos Orchestra, conducted by Arnaud Petit (Oiseaux de Guerre, featuring singer Himiko Paganotti, Forum Blanc-Mesnil, France, 2014)." ;
+        ont:person          <http://dbpedia.org/resource/Davy_Arnaud> , <http://dbpedia.org/resource/Himiko> , <http://dbpedia.org/resource/Max_Brand> ;
+        ont:place           <http://dbpedia.org/resource/Austria> , <http://dbpedia.org/resource/Krems_an_der_Donau> , <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "2012" , "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hide and Seek, an album of songs with words by Paul Auster (from his play by the same name) for chamber orchestra and the voices of Robert Wyatt and Susi Hyldgaard, was released in March 2001." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Auster> , <http://dbpedia.org/resource/Robert_Wyatt> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "March 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/3516152/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A new orchestral piece was commissioned by the Austrian Donau Festival, and was premièred near Vienna in June 1991 by the Nö.Tonkünstlerorchester, conducted by Michael Gibbs, with Andy Sheppard as soloist." ;
+        ont:person          <http://dbpedia.org/resource/Andy_Sheppard> , <http://dbpedia.org/resource/Michael_Gibbs_(composer)> ;
+        ont:place           <http://dbpedia.org/resource/Danube> , <http://dbpedia.org/resource/Vienna> ;
+        ont:subject         <http://dbpedia.org/resource/Michael_Mantler> ;
+        ont:timeExpression  "June 1991" .

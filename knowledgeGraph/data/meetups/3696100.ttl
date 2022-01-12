@@ -6,51 +6,466 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/3696100/8/4>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
-        ont:place           "http://dbpedia.org/resource/United_Kingdom" ;
-        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
-        ont:timeExpression  "end of 1973" .
-
 <http://w3id.org/polifonia/pilot/meetups/3696100/8/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1971, Lomax returned to the US to live and work in Woodstock, New York." ;
         ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
-        ont:place           "http://dbpedia.org/resource/Woodstock,_New_York" , "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Woodstock,_New_York> ;
         ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
         ont:timeExpression  "In 1971" .
 
-<http://w3id.org/polifonia/pilot/meetups/3696100/1/0>
+<http://w3id.org/polifonia/pilot/meetups/3696100/6/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Also helping out were the tragic Badfinger duo of Pete Ham and Tom Evans on backing vocals and \"horn section to the stars\" Bobby Keys and Jim Price." ;
+        ont:person   <http://dbpedia.org/resource/Bobby_Keys> , <http://dbpedia.org/resource/Pete_Ham> , <http://dbpedia.org/resource/Jim_Price_(musician)> , <http://dbpedia.org/resource/Tom_Evans_(musician)> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/7/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Drummer Dave Rowland and bassist Steve Thompson were with the group at one point." ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "one point" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/16/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It featured a reworked version by Irish female singer Lyra." ;
+        ont:place    <http://dbpedia.org/resource/Lyra> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By 1970, The Beatles' breakup left the remaining Apple Records artists in limbo." ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "By 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Guitarist John Morshead from The Aynsley Dunbar Retaliation and three ringers had posed for the \"group's\" photo in the magazine, so to cash in on the buzz Morshead and drummer Carlo Little released a single on promoter John Curd's Head Records (\"Chewn In\"/\"Time Out\", Head HDS4001, 1969)." ;
+        ont:person          <http://dbpedia.org/resource/Carlo_Little> , <http://dbpedia.org/resource/Aynsley_Dunbar> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1969" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1990s, he spent time playing with other British artists on America's West Coast, and he toured as the bassist for The Drifters, The Diamonds, and The Coasters." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/West_Coast_of_the_United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Despite having three-quarters of The Beatles on the record, plus Eric Clapton and Nicky Hopkins, Lomax's 1968 debut single on Apple, the Harrison-penned \"Sour Milk Sea\", backed with \"The Eagle Laughs at You\" written by Lomax, made little commercial impression." ;
+        ont:person          <http://dbpedia.org/resource/Eric_Clapton> , <http://dbpedia.org/resource/Nicky_Hopkins> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1968 debut" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/8/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He released two Capitol albums, Livin' for Lovin' and Did You Ever Have That Feeling?, before leaving the label in 1977." ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "label in 1977" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/25/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1977" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They signed with Pye Records and released four singles, but they managed only one week on the UK Singles Chart with \"Just a Little Bit\" (#49 in 1964)." ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "in 1964" , "one week" , "49" , "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/20/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "145 US" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "145" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2003, he made a return to The Cavern in Liverpool, where his career began more than 40 years earlier." ;
+        ont:place           <http://dbpedia.org/resource/The_Cavern_Club> , <http://dbpedia.org/resource/Liverpool> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "In 2003" , "than 40" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/36/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jackie Lomax at artistdirect.com" ;
+        ont:person   <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Against All Odds (Angel Air Records) 2014" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/6/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Mike Kellie from Spooky Tooth drummed on some sessions but was later replaced by Barry Jenkins, formerly of The Animals." ;
+        ont:person   <http://dbpedia.org/resource/Barry_Jenkins> , <http://dbpedia.org/resource/Mike_Kellie> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/35/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jackie Lomax at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/28/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Ballad of Liverpool Slim...and Others (Angel Air Records)" ;
+        ont:place    <http://dbpedia.org/resource/Liverpool> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 15 September 2013, Lomax died after a short illness, on the Wirral while staying in England for the wedding of his daughter.In 2019, one of his songs, New Day from the album Is This What You Want?, was used for a cricket commercial for UK sports channel Sky Sports." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "15 September 2013" , "daughter.In 2019 , one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A final Apple single followed, a cover version of \"How the Web Was Woven\" featuring Leon Russell." ;
+        ont:person   <http://dbpedia.org/resource/Leon_Russell> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Ballad of Liverpool Slim 2001 & 2004" ;
+        ont:place           <http://dbpedia.org/resource/Liverpool> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "Liverpool Slim 2001" , "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/1/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He worked with The Tea Bags, George Harrison, Eric Clapton, Jeff Beck, Leon Russell and Nicky Hopkins." ;
+        ont:person   <http://dbpedia.org/resource/George_Harrison> , <http://dbpedia.org/resource/Jeff_Beck> , <http://dbpedia.org/resource/Nicky_Hopkins> , <http://dbpedia.org/resource/Leon_Russell> , <http://dbpedia.org/resource/Eric_Clapton> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He briefly played with The Tea Bags, a Los Angeles-based group which included Ian Wallace, Kim Gardner, Mick Taylor, Brian Auger, Terry Reid, Peter Banks, Graham Bell and David Mansfield amongst others." ;
+        ont:person   <http://dbpedia.org/resource/Mick_Taylor> , <http://dbpedia.org/resource/Benjamin_Graham> , <http://dbpedia.org/resource/David_Mansfield> , <http://dbpedia.org/resource/Kim_Gardner> , <http://dbpedia.org/resource/Brian_Auger> , <http://dbpedia.org/resource/Peter_Banks> , <http://dbpedia.org/resource/Terry_Reid> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "More than enough tracks for an album were recorded but it was never released.After Epstein's death, The Beatles' new record label, Apple Records, took over responsibility for Lomax's recording career, and George Harrison became involved in production." ;
+        ont:person   <http://dbpedia.org/resource/George_Harrison> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "True Voices (Various Artists) 1991" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Lomax Alliance and CBS Recordings 1966–1967" ;
         ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
-        ont:place           "http://dbpedia.org/resource/Cheshire" , "http://dbpedia.org/resource/Wallasey" ;
         ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
-        ont:timeExpression  "in 1944" .
+        ont:timeExpression  "CBS Recordings 1966–1967" .
 
-<http://w3id.org/polifonia/pilot/meetups/3696100/4/4>
+<http://w3id.org/polifonia/pilot/meetups/3696100/8/6>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Brian_Epstein> , <http://dbpedia.org/resource/Alan_Lomax> ;
-        ont:place           "http://dbpedia.org/resource/Saville_Theatre" , "http://dbpedia.org/resource/London" , "http://dbpedia.org/resource/United_Kingdom" ;
+        ont:excerpt         "The band became a vehicle for Lomax's songs and singing but was short-lived, releasing only one album, the Allen Toussaint-produced White Lady, on Epic Records.Lomax crossed the Atlantic again to resume his solo career and Capitol Records signed him in 1975." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/Steve_Allen> ;
         ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
-        ont:timeExpression  "In 1967" .
+        ont:timeExpression  "one album" , "in 1975" .
 
-<http://w3id.org/polifonia/pilot/meetups/3696100/13/0>
+<http://w3id.org/polifonia/pilot/meetups/3696100/9/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
-        ont:place           "http://dbpedia.org/resource/Liverpool" ;
+        ont:excerpt         "=== 1978–2000 ===" ;
         ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
-        ont:timeExpression  "album since 1977" , "In 2001" .
+        ont:timeExpression  "1978–2000" .
 
-<http://w3id.org/polifonia/pilot/meetups/3696100/4/10>
+<http://w3id.org/polifonia/pilot/meetups/3696100/18/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Hal_Blaine> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:excerpt         "The Undertakers Unearthed 1963–65" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1963–65" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "They followed The Beatles' route through local venues before setting out for Hamburg, Germany, and securing a recording contract." ;
+        ont:place    <http://dbpedia.org/resource/Hamburg> , <http://dbpedia.org/resource/Germany> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1969 No." ;
         ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
         ont:timeExpression  "1969" .
 
+<http://w3id.org/polifonia/pilot/meetups/3696100/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2002 saw him continuing to play on the West Coast of America." ;
+        ont:place           <http://dbpedia.org/resource/West_Coast_of_the_United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Confusing matters further, another Heavy Jelly, produced by Simon Napier-Bell, released their only single in the U.S. and France on Avco Embassy, \"Humpty Dumpty\" b/w \"Throw Down A Line\", in a nice picture sleeve." ;
+        ont:person   <http://dbpedia.org/resource/Simon_Napier-Bell> ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/A_Line_(Los_Angeles_Metro)> , <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/31/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "White Lady – With Tony Kaye, ex-Yes" ;
+        ont:person   <http://dbpedia.org/resource/Tony_Kaye_(musician)> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Livin' For Lovin' 1976" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/6/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Guitarist Morshead, along with his former Aynsley Dunbar mate bassist Alex Dmochowski, formed another version of Heavy Jelly with Jackie Lomax." ;
+        ont:person   <http://dbpedia.org/resource/Jackie_Lomax> , <http://dbpedia.org/resource/Aynsley_Dunbar> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The self-titled Heavy Jelly album was recorded, entirely consisting of Lomax songs, but was issued only for promotional purposes and never released commercially due to contractual issues with Apple." ;
+        ont:person   <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Three 1972" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1972" , "Three" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/16/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his last years, Lomax resided in Ojai, California, United States, with his wife, Annie (previously Norma Richardson), mother of fashion photographer Terry Richardson." ;
+        ont:person   <http://dbpedia.org/resource/Terry_Richardson> , <http://dbpedia.org/resource/Norma_Talmadge> , <http://dbpedia.org/resource/Bill_Richardson> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place    <http://dbpedia.org/resource/Ojai,_California> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/11/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Others appearing on the album included Gene Clark, John Stewart, P. F. Sloan and Lucinda Williams." ;
+        ont:person   <http://dbpedia.org/resource/Gene_Clark> , <http://dbpedia.org/resource/Lucinda_Williams> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "album in Los Angeles, with Hal Blaine and other members of the Wrecking Crew; but as with the concurrent single, the Lomax-produced \"New Day\", success remained elusive when the album was released in early 1969." ;
+        ont:person          <http://dbpedia.org/resource/Hal_Blaine> ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After leaving Apple, Lomax joined a band called Heavy Jelly." ;
+        ont:person   <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/1/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was a member of Dee and the Dynamites, The Undertakers, The Lomax Alliance, Heavy Jelly and Badger." ;
+        ont:person   <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Home Is in My Head 1971 - AUS #34" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "My Head 1971" , "34" .
+
 <http://w3id.org/polifonia/pilot/meetups/3696100/15/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During his last few years, Lomax was a regular visitor to Parrjazz at Studio 2, Liverpool, where his music was always warmly appreciated by an enthusiastic audience.On 13 April 2012, Lomax played on the 50th Anniversary of the Hamburg-based Star-Club in the Kaiserkeller, with the Star Club All-Star-Band plus Brian Griffiths (Big Three), Bobby Thompson (Dominoes), and Joe Fagin (Strangers), and also with The Undertakers." ;
         ont:person          <http://dbpedia.org/resource/Joe_Fagin> , <http://dbpedia.org/resource/Bobby_Thompson_(musician)> , <http://dbpedia.org/resource/Alan_Lomax> ;
-        ont:place           "http://dbpedia.org/resource/Liverpool" , "http://dbpedia.org/resource/Kaiserkeller" ;
+        ont:place           <http://dbpedia.org/resource/Kaiserkeller> , <http://dbpedia.org/resource/Liverpool> ;
         ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
         ont:timeExpression  "Studio 2" , "13 April 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During that period, CBS released two Lomax Alliance singles and one Jackie Lomax solo single." ;
+        ont:person          <http://dbpedia.org/resource/Jackie_Lomax> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "one" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1970–1977 ===" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1970–1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Heavy Jelly 1970" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is best known for his association with George Harrison, who produced Lomax's recordings for the Beatles' Apple record label in the late 1960s." ;
+        ont:person   <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/George_Harrison> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Percy Sledge included Lomax's song, \"Fall Inside Your Eyes\", on his 2004 album Shining Through The Rain." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/Percy_Sledge> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "2004 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/8/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He joined Badger, a progressive rock band originally formed by ex-Yes keyboard player Tony Kaye, and turned them into a R&B and soul band he had used on his solo albums." ;
+        ont:person   <http://dbpedia.org/resource/Tony_Kaye_(musician)> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In January 1962, Jackie Lomax left Dee and the Dynamites to join the Merseybeat band The Undertakers." ;
+        ont:person          <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "January 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2001, Lomax completed the recording of his first solo album since 1977, The Ballad of Liverpool Slim." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           <http://dbpedia.org/resource/Liverpool> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "In 2001" , "album since 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1962–1970 ===" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1962–1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 2001–2013 and after ===" ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "2001–2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1990, Lomax recorded the Tim Buckley song, \"Devil Eyes\" for the True Voices album." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> , <http://dbpedia.org/resource/Tim_Buckley> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "In 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Richard Lomax was born in 1944 in Wallasey, Cheshire." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           <http://dbpedia.org/resource/Wallasey> , <http://dbpedia.org/resource/Cheshire> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The 1980s were a quiet time in Lomax's career." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/13/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lomax would return to Liverpool on several occasions, playing in the Liverpool pub in James Street." ;
+        ont:person   <http://dbpedia.org/resource/LeBron_James> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place    <http://dbpedia.org/resource/Liverpool> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Richard Lomax (10 May 1944 – 15 September 2013) was an English guitarist and singer-songwriter." ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "15 September 2013" , "10 May 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They returned to the recording studio but their albums, Home is in My Head and Three, failed to sell.Disappointed with his lack of success, Lomax returned to the UK at the end of 1973." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "end of 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(In December 2013, it was announced that after Lomax's untimely death his family resolved all issues with Apple amicably and the album was re-leased on Angel Air Records on 10 March 2014.)" ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "10 March 2014" , "December 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1967, Brian Epstein took his latest line-up, The Lomax Alliance, back to the UK to showcase them at London's Saville Theatre." ;
+        ont:person          <http://dbpedia.org/resource/Brian_Epstein> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Saville_Theatre> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "In 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/13/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dicks later wrote the sleeve notes for, and organised, the UK release of Lomax's The Ballad of Liverpool Slim...and Others album." ;
+        ont:person   <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Liverpool> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/8/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He signed to Warner Bros. Records and reunited with members of the Lomax Alliance and The Undertakers." ;
+        ont:person   <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her version was also used in a commercial for Dutch bike company VanMoof in the summer of 2020, after which it was released as a single." ;
+        ont:place           <http://dbpedia.org/resource/Netherlands> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "summer of 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/10/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In California, particularly Ventura County, Lomax played live with a succession of line-ups including Tom Petty, drummer Randall Marsh, Jim Calire, Patrick Landreville and Mitch Kashmar." ;
+        ont:person   <http://dbpedia.org/resource/Mitch_Albom> , <http://dbpedia.org/resource/Tom_Petty> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:place    <http://dbpedia.org/resource/Kashmar> , <http://dbpedia.org/resource/California> , <http://dbpedia.org/resource/Ventura_County_Line> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lomax and Harrison recorded the remainder of the Is This What You Want?" ;
+        ont:person   <http://dbpedia.org/resource/George_Harrison> , <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/8/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The latter set was released only in the UK." ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Jackie_Lomax> .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1965 they decided to try their luck in the United States.Lomax spent two years in the US with The Undertakers and a couple of other groups." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "In 1965" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3696100/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2004, Lomax was a guest on the 'BeatlesandBeyond' Radio Show in Walsall, hosted by Pete Dicks." ;
+        ont:person          <http://dbpedia.org/resource/Alan_Lomax> ;
+        ont:subject         <http://dbpedia.org/resource/Jackie_Lomax> ;
+        ont:timeExpression  "In 2004" .

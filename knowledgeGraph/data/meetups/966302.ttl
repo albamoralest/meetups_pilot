@@ -6,23 +6,368 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/966302/0/0>
+<http://w3id.org/polifonia/pilot/meetups/966302/5/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Franklin_P._Adams> , <http://dbpedia.org/resource/Benjamin_Franklin> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "Having one's work published in \"The Conning Tower\" was enough to launch a career, as in the case of Dorothy Parker and James Thurber." ;
+        ont:person          <http://dbpedia.org/resource/James_Thurber> , <http://dbpedia.org/resource/Dorothy_Parker> ;
         ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
-        ont:timeExpression  "March 23 , 1960" , "November 15 , 1881" .
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/8/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His satire of Edgar Allan Poe's poem \"Annabel Lee\" was later collected in his book, Something Else Again (1910):Soul Bride Oddly Dead in Queer Death Pact" ;
+        ont:person          <http://dbpedia.org/resource/Edgar_Allan_Poe> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/23/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3 no." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"High-Born Kinsman Abducts Girl from Poet-Lover—Flu Said to Be Cause of Death—Grand Jury to Probe\"" ;
+        ont:place    <http://dbpedia.org/resource/Kinsman_Mountain> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1911, he added a second column, a parody of Samuel Pepys's Diary, with notes drawn from F.P.A." ;
+        ont:person          <http://dbpedia.org/resource/Samuel_Pepys> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "In 1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As a panelist on radio's Information Please (1938–48), Franklin P. Adams was the designated expert on poetry, old barroom songs and Gilbert and Sullivan, which he always referred to as Sullivan and Gilbert." ;
+        ont:person          <http://dbpedia.org/resource/Benjamin_Franklin> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "1938–48" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/22/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "41. p. 29." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "29" , "41." .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "No Sirree!, staged for one night only in April 1922, was a take-off of a then-popular European touring revue called La Chauve-Souris directed by Nikita Balieff." ;
+        ont:person          <http://dbpedia.org/resource/Nikita_Balieff> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "April 1922" , "one night" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The following year he moved to the New York Evening Mail, where he worked from 1904 to 1913 and began his column, then called \"Always in Good Humor,\" which used reader contributions." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "from 1904" , "1913" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/21/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 no." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He changed his middle name to \"Pierce\" when he had a bar mitzvah at age 13." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Pierce> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "13" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Annabel L. Poe of 1834½ 3rd Ave., the beautiful young fiancee of Edmund Allyn Poe, a magazine writer from the South, was found dead early this morning on the beach off E. 8th Street." ;
+        ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> , <http://dbpedia.org/resource/Edgar_Allan_Poe> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "E. 8th" , "of 1834½" , "3rd" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He moved to the New York World in 1922, and his column appeared there until the paper merged with the inferior New York Telegram in 1931." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "in 1922" , "in 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During its long run, \"The Conning Tower\" featured contributions from such writers as Robert Benchley, Edna Ferber, Moss Hart, George S. Kaufman, Edna St. Vincent Millay, John O'Hara, Dorothy Parker and Deems Taylor." ;
+        ont:person   <http://dbpedia.org/resource/Moss_Hart> , <http://dbpedia.org/resource/George_S._Kaufman> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Robert_Benchley> , <http://dbpedia.org/resource/John_O'Hara> , <http://dbpedia.org/resource/Edna_St._Vincent_Millay> , <http://dbpedia.org/resource/Edna_Ferber> , <http://dbpedia.org/resource/Dorothy_Parker> , <http://dbpedia.org/resource/Vincent_of_Saragossa> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A prolific writer of light verse, he was a member of the Algonquin Round Table of the 1920s and 1930s." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "1930s" , "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his time on the Evening Mail, Adams wrote what remains his best known work, the poem \"Baseball's Sad Lexicon,\" a tribute to the Chicago Cubs double play combination of \"Tinker to Evers to Chance.\"" ;
+        ont:person   <http://dbpedia.org/resource/Frank_Chance> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/22/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2 no." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Signing on with the Chicago Journal in 1903, he wrote a sports column and then a humor column, \"A Little about Everything.\"" ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "in 1903" .
 
 <http://w3id.org/polifonia/pilot/meetups/966302/2/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Clara_Schumann> , <http://dbpedia.org/resource/Hayden_Schlossberg> , <http://dbpedia.org/resource/Benjamin_Franklin> , <http://dbpedia.org/resource/Moses> , <http://dbpedia.org/resource/Leopold_II_of_Belgium> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:excerpt         "Adams was born Franklin Leopold Adams to Moses and Clara Schlossberg Adams in Chicago on November 15, 1881." ;
+        ont:person          <http://dbpedia.org/resource/Clara_Schumann> , <http://dbpedia.org/resource/Hayden_Schlossberg> , <http://dbpedia.org/resource/Benjamin_Franklin> , <http://dbpedia.org/resource/Leopold_II_of_Belgium> , <http://dbpedia.org/resource/Moses> ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
         ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
         ont:timeExpression  "November 15 , 1881" .
 
+<http://w3id.org/polifonia/pilot/meetups/966302/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== New York newspaper columnist ==" ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/4/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After the war, the so-called \"comma-hunter of Park Row\" (for his knowledge of the language) returned to New York and the Tribune." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Franklin Pierce Adams (November 15, 1881 – March 23, 1960) was an American columnist known as Franklin P. Adams and by his initials F.P.A.. Famed for his wit, he is best known for his newspaper column, \"The Conning Tower\", and his appearances as a regular panelist on radio's Information Please." ;
+        ont:person          <http://dbpedia.org/resource/Franklin_P._Adams> , <http://dbpedia.org/resource/Benjamin_Franklin> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "March 23 , 1960" , "November 15 , 1881" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/8/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A. Milne Play.\"F.P.A." ;
+        ont:person   <http://dbpedia.org/resource/A._A._Milne> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/19/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Melancholy Lute (1936) featured Adams' selections from three decades of his work." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "from three" , "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/4/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"During World War I, Adams was in the U.S. Army, serving in military intelligence and also writing a column, \"The Listening Post,\" for Stars and Stripes editor Harold Ross." ;
+        ont:person   <http://dbpedia.org/resource/Harold_Ross> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/8/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Acts included: \"Opening Chorus\" featuring Woollcott, Toohey, Kaufman, Marc Connelly, Adams, and Benchley with violinist Jascha Heifetz providing offstage, off-key accompaniment; \"He Who Gets Flapped,\" a musical number featuring the song \"The Everlastin' Ingenue Blues\" written by Dorothy Parker and performed by Robert Sherwood accompanied by \"chorus girls\" including Tallulah Bankhead, Helen Hayes, Ruth Gillmore, and Lenore Ulric; \"Zowie, or the Curse of an Akins Heart\"; \"The Greasy Hag, an O'Neill Play in One Act\" with Kaufman, Connelly and Woollcott; and \"Mr. Whim Passes By - An A." ;
+        ont:person   <http://dbpedia.org/resource/Tallulah_Bankhead> , <http://dbpedia.org/resource/Dorothy_Parker> , <http://dbpedia.org/resource/George_S._Kaufman> , <http://dbpedia.org/resource/Robert_E._Sherwood> , <http://dbpedia.org/resource/Ruth_Gillmore> , <http://dbpedia.org/resource/Jascha_Heifetz> , <http://dbpedia.org/resource/Helen_Hayes> , <http://dbpedia.org/resource/Eugene_O'Neill> , <http://dbpedia.org/resource/Zowie> , <http://dbpedia.org/resource/Marc_Connelly> , <http://dbpedia.org/resource/Lenore_Ulric> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/25/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "19. p. 19." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "19" , "19." .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Adams is credited with coining the term \"aptronym\" for last names that fit a person's career or job title, although it was later refined to \"aptonym\" by Frank Nuessel in 1992." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "in 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The two-volume The Diary of Our Own Samuel Pepys, collected from his newspaper columns, was published in 1935 by Simon and Schuster." ;
+        ont:person          <http://dbpedia.org/resource/Samuel_Pepys> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "in 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/25/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "White (April 7, 1927)." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "April 7 , 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Parker dedicated her 1936 publication of collected poems, Not So Deep as a Well, to F.P.A." ;
+        ont:person          <http://dbpedia.org/resource/Tony_Parker> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "1936 publication" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1914, he moved his column to the New-York Tribune, where it was famously retitled The Conning Tower and was considered to be \"the pinnacle of verbal wit." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "In 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/12/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "(Perhaps that was a running gag: Information Please's creator/producer Dan Golenpaul auditioned Adams for the job with a series of sample questions, starting with: \"Who was the Merchant of Venice?\"" ;
+        ont:place    <http://dbpedia.org/resource/Republic_of_Venice> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/8/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "had its genesis at the studio of Neysa McMein, which served as something of a salon for Round Tablers away from the Algonquin." ;
+        ont:person   <http://dbpedia.org/resource/Neysa_McMein> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/23/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Grant\"." ;
+        ont:person   <http://dbpedia.org/resource/Ulysses_S._Grant> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Detectives at work on the case believe, they say, that there was a suicide compact between the Poes and that Poe also intended to do away with himself." ;
+        ont:person   <http://dbpedia.org/resource/Edgar_Allan_Poe> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/25/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3 no." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/21/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(February 21, 1925)." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "February 21 , 1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "lived, and the block seemed to tremble under my feet—the way Park Avenue trembles when a train leaves Grand Central." ;
+        ont:place    <http://dbpedia.org/resource/Park_Avenue> , <http://dbpedia.org/resource/Grand_Central_Terminal> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
 <http://w3id.org/polifonia/pilot/meetups/966302/19/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His books include In Cupid's Court (1902), Tobogganning on Parnassus (1911), In Other Words (1912), Something Else Again (a 1920 poetry book), and Answer This One (a 1927 trivia book with Harry Hansen)." ;
         ont:person          <http://dbpedia.org/resource/Harry_Hansen_(author)> ;
-        ont:place           "http://dbpedia.org/resource/Mount_Parnassus" ;
+        ont:place           <http://dbpedia.org/resource/Mount_Parnassus> ;
         ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
-        ont:timeExpression  "1902" , "1912" , "1911" , "1927 trivia book" , "1920 poetry book" .
+        ont:timeExpression  "1927 trivia book" , "1912" , "1902" , "1920 poetry book" , "1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/24/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "18. p. 19." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "19" , "18." .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/5/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Parker quipped, \"He raised me from a couplet.\"" ;
+        ont:person   <http://dbpedia.org/resource/Tony_Parker> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/23/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "10. p. 20." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "10." , "20" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "F. P. A.; Harold Ross; James Thurber (April 30, 1927)." ;
+        ont:person          <http://dbpedia.org/resource/James_Thurber> , <http://dbpedia.org/resource/Harold_Ross> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "April 30 , 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/12/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A running joke on the show was that his stock answer for quotes that he didn't know was that Shakespeare was the author." ;
+        ont:person   <http://dbpedia.org/resource/William_Shakespeare> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Robert Benchley is often credited as the first person to suggest the parody of Balieff's group.No Sirree!" ;
+        ont:person          <http://dbpedia.org/resource/Robert_Benchley> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "Sirree" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "— (March 5, 1927)." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "March 5 , 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Adams was portrayed by the actor Chip Zien in the film Mrs. Parker and the Vicious Circle (1994)." ;
+        ont:person          <http://dbpedia.org/resource/Tony_Parker> , <http://dbpedia.org/resource/Chip_Zien> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/21/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1. p. 19." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "19" , "1." .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Adams graduated from the Armour Scientific Academy (now Illinois Institute of Technology) in 1899, attended the University of Michigan for one year and worked in insurance for three years." ;
+        ont:place           <http://dbpedia.org/resource/Michigan> , <http://dbpedia.org/resource/Illinois> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "in 1899" , "one year" , "insurance for three" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "— (October 9, 1926)." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "October 9 , 1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Poe seemed prostrated and, questioned by the police, said that one of her aristocratic relatives had taken her to the \"seashore,\" but that the cold winds had given her \"flu,\" from which she never \"rallied.\"" ;
+        ont:person          <http://dbpedia.org/resource/Edgar_Allan_Poe> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "that one" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "White freely admitted his sense of awe: \"I used to walk quickly past the house in West 13th Street between Sixth and Seventh where F.P.A." ;
+        ont:place           <http://dbpedia.org/resource/Sixth_Avenue> ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "West 13th" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/14/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He died in Manhattan and was cremated at the Ferncliff Crematory in Hartsdale." ;
+        ont:place    <http://dbpedia.org/resource/Manhattan> , <http://dbpedia.org/resource/Hartsdale_station> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He returned to his old paper, by then called the New York Herald Tribune, until 1937, and finally moved to the New York Post, where he ended his column in September 1941." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "September 1941" , "until 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/24/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3 no." ;
+        ont:subject         <http://dbpedia.org/resource/Franklin_P._Adams> ;
+        ont:timeExpression  "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/966302/12/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Kieran was the real Shakespearean expert and could quote from his works at length.A translator of Horace and other classical authors, F.P.A." ;
+        ont:person   <http://dbpedia.org/resource/John_Kieran> , <http://dbpedia.org/resource/Horace> , <http://dbpedia.org/resource/William_Shakespeare> ;
+        ont:subject  <http://dbpedia.org/resource/Franklin_P._Adams> .

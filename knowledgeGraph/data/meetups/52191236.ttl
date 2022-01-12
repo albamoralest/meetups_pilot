@@ -5,3 +5,10 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/52191236/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For his work on anime, Watanabe received an Award of Merit at the 8th Tokyo Anime Awards and an Animation Lifetime Achievement Award at the 25th Japan Movie Critics Awards." ;
+        ont:place           <http://dbpedia.org/resource/Tokyo> ;
+        ont:subject         <http://dbpedia.org/resource/Chumei_Watanabe> ;
+        ont:timeExpression  "25th" , "8th" .

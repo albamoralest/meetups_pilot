@@ -6,16 +6,54 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/2520364/0/0>
+<http://w3id.org/polifonia/pilot/meetups/2520364/6/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Felipe_VI> , <http://dbpedia.org/resource/Pedro_II_of_Brazil> ;
-        ont:place           "http://dbpedia.org/resource/Bayamo" , "http://dbpedia.org/resource/Cuba" , "http://dbpedia.org/resource/Santiago_de_Cuba" ;
+        ont:excerpt         "2." ;
         ont:subject         <http://dbpedia.org/resource/Perucho_Figueredo> ;
-        ont:timeExpression  "17 August 1870" , "18 February 1818" .
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/2520364/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was captured during the war and executed on 17 August 1870." ;
+        ont:subject         <http://dbpedia.org/resource/Perucho_Figueredo> ;
+        ont:timeExpression  "17 August 1870" .
+
+<http://w3id.org/polifonia/pilot/meetups/2520364/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Arro." ;
+        ont:place    <http://dbpedia.org/resource/Arro> ;
+        ont:subject  <http://dbpedia.org/resource/Perucho_Figueredo> .
+
+<http://w3id.org/polifonia/pilot/meetups/2520364/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1860s, he was active in the planning of the Cuban uprising against the Spanish known as the Ten Years' War." ;
+        ont:subject         <http://dbpedia.org/resource/Perucho_Figueredo> ;
+        ont:timeExpression  "Ten" .
+
+<http://w3id.org/polifonia/pilot/meetups/2520364/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Himno Bayamés (Letra y música de Pedro Figueredo.)" ;
+        ont:person   <http://dbpedia.org/resource/Perucho_Figueredo> ;
+        ont:subject  <http://dbpedia.org/resource/Perucho_Figueredo> .
+
+<http://w3id.org/polifonia/pilot/meetups/2520364/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He wrote the Cuban national anthem, El Himno de Bayamo, in 1867." ;
+        ont:subject         <http://dbpedia.org/resource/Perucho_Figueredo> ;
+        ont:timeExpression  "in 1867" .
 
 <http://w3id.org/polifonia/pilot/meetups/2520364/3/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His daughter Candelaria Figueredo became a hero of the uprising by carrying the new independent Cuban flag into battle at Bayamo in 1868." ;
         ont:person          <http://dbpedia.org/resource/Candelaria_Figueredo> ;
-        ont:place           "http://dbpedia.org/resource/Bayamo" ;
+        ont:place           <http://dbpedia.org/resource/Bayamo> ;
         ont:subject         <http://dbpedia.org/resource/Perucho_Figueredo> ;
         ont:timeExpression  "in 1868" .
+
+<http://w3id.org/polifonia/pilot/meetups/2520364/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pedro Felipe Figueredo, (born 18 February 1818, Bayamo, Cuba – 17 August 1870 Santiago de Cuba) mostly known as Perucho was a Cuban poet, musician, and freedom fighter of the 19th century." ;
+        ont:person          <http://dbpedia.org/resource/Pedro_II_of_Brazil> , <http://dbpedia.org/resource/Felipe_VI> ;
+        ont:place           <http://dbpedia.org/resource/Santiago_de_Cuba> , <http://dbpedia.org/resource/Bayamo> , <http://dbpedia.org/resource/Cuba> ;
+        ont:subject         <http://dbpedia.org/resource/Perucho_Figueredo> ;
+        ont:timeExpression  "18 February 1818" , "17 August 1870" .

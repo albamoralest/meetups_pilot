@@ -6,23 +6,109 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1271437/4/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Queen_Victoria> ;
-        ont:place           "http://dbpedia.org/resource/Windsor_Castle" , "http://dbpedia.org/resource/Europe" ;
-        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
-        ont:timeExpression  "6 December 1897" .
+<http://w3id.org/polifonia/pilot/meetups/1271437/7/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Nina and Edvard identified as Unitarians." ;
+        ont:person   <http://dbpedia.org/resource/Nina_Girado> ;
+        ont:subject  <http://dbpedia.org/resource/Nina_Grieg> .
 
-<http://w3id.org/polifonia/pilot/meetups/1271437/7/0>
+<http://w3id.org/polifonia/pilot/meetups/1271437/8/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Edvard_Grieg> ;
-        ont:place           "http://dbpedia.org/resource/Denmark" , "http://dbpedia.org/resource/Copenhagen" , "http://dbpedia.org/resource/Norway" ;
+        ont:excerpt         "She died in 1935 at the age of 90." ;
         ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
-        ont:timeExpression  "11 June 1867" .
+        ont:timeExpression  "age of 90" , "in 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She was the first cousin of composer Edvard Grieg, whom she married." ;
+        ont:person   <http://dbpedia.org/resource/Edvard_Grieg> ;
+        ont:subject  <http://dbpedia.org/resource/Nina_Grieg> .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/10/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "(Digital copy in Norwegian, available for Norwegian IP addresses only, at the Norwegian National Library's website.)" ;
+        ont:place    <http://dbpedia.org/resource/Norway> ;
+        ont:subject  <http://dbpedia.org/resource/Nina_Grieg> .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After his death in 1907, she moved to Denmark." ;
+        ont:place           <http://dbpedia.org/resource/Denmark> ;
+        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:timeExpression  "death in 1907" .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "H. Aschehoug & Co. (W. Nygaard), Oslo." ;
+        ont:place    <http://dbpedia.org/resource/Oslo> ;
+        ont:subject  <http://dbpedia.org/resource/Nina_Grieg> .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/8/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She was cremated and her ashes were placed with her husband's' ashes in a mountain tomb near Troldhaugen, outside Bergen, where the couple had shared a home for most of their married years." ;
+        ont:place    <http://dbpedia.org/resource/Bergen> ;
+        ont:subject  <http://dbpedia.org/resource/Nina_Grieg> .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nina Grieg never recorded professionally, but two amateur recordings made on wax cylinders have been preserved (in quite poor condition) and have been issued on the Simax label." ;
+        ont:person          <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nina Grieg, née Hagerup (24 November 1845 – 9 December 1935) was a Danish–Norwegian lyric soprano." ;
+        ont:person          <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:timeExpression  "9 December 1935" , "24 November 1845" .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Haavet, Inger Elisabeth (1998): Nina Grieg." ;
+        ont:person          <http://dbpedia.org/resource/Empress_Elisabeth_of_Austria> , <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In Copenhagen, she attended a Unitarian church." ;
+        ont:place    <http://dbpedia.org/resource/Copenhagen> ;
+        ont:subject  <http://dbpedia.org/resource/Nina_Grieg> .
 
 <http://w3id.org/polifonia/pilot/meetups/1271437/4/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, one of Victoria's courtiers called her singing \"passée\".She was featured as a soloist in Felix Mendelssohn's Elijah with Musikselskabet Harmonien (later known as the Bergen Philharmonic Orchestra) in 1866.The English composer Frederick Delius dedicated two sets of songs to her in the years 1888–1890." ;
         ont:person          <http://dbpedia.org/resource/Queen_Victoria> , <http://dbpedia.org/resource/Frederick_Delius> , <http://dbpedia.org/resource/Elijah> ;
-        ont:place           "http://dbpedia.org/resource/Bergen" ;
+        ont:place           <http://dbpedia.org/resource/Bergen> ;
         ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
         ont:timeExpression  "in 1866.The" , "one" , "1888–1890" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She married her first cousin, Norwegian composer Edvard Grieg, on 11 June 1867, in Copenhagen, Denmark." ;
+        ont:person          <http://dbpedia.org/resource/Edvard_Grieg> ;
+        ont:place           <http://dbpedia.org/resource/Norway> , <http://dbpedia.org/resource/Denmark> , <http://dbpedia.org/resource/Copenhagen> ;
+        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:timeExpression  "11 June 1867" .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Nina Hagerup was born in Bergen, Norway." ;
+        ont:person   <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:place    <http://dbpedia.org/resource/Bergen> , <http://dbpedia.org/resource/Norway> ;
+        ont:subject  <http://dbpedia.org/resource/Nina_Grieg> .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 82-03-22230-7." ;
+        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:timeExpression  "ISBN 82-03-22230-7" .
+
+<http://w3id.org/polifonia/pilot/meetups/1271437/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The couple often performed concerts together in Europe; on 6 December 1897, they performed some of his music at a private concert at Windsor Castle for Queen Victoria and her court." ;
+        ont:person          <http://dbpedia.org/resource/Queen_Victoria> ;
+        ont:place           <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/Windsor_Castle> ;
+        ont:subject         <http://dbpedia.org/resource/Nina_Grieg> ;
+        ont:timeExpression  "6 December 1897" .

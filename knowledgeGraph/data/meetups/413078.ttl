@@ -6,30 +6,370 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/413078/25/0>
+<http://w3id.org/polifonia/pilot/meetups/413078/14/3>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Gabrielle_Drake> , <http://dbpedia.org/resource/Randolph_Stow> ;
-        ont:place           "http://dbpedia.org/resource/Queensland" ;
+        ont:excerpt         "The Stow family was from Suffolk, where they had owned land for several generations before Thomas Stow was appointed the colonial missionary to South Australia by the London Colonial Missionary Society in 1836." ;
+        ont:place           <http://dbpedia.org/resource/South_Australia> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Suffolk> ;
         ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
-        ont:timeExpression  "2014" .
+        ont:timeExpression  "in 1836" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/9/15>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was adapted by Richard Davies and directed and orchestrated by Sara Grenfell." ;
+        ont:person   <http://dbpedia.org/resource/Richard_Davies_(Welsh_actor)> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He last visited Australia in 1974." ;
+        ont:place           <http://dbpedia.org/resource/Australia> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "in 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/9/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Literary scholar Melanie Duckworth has claimed that, in The Girl Green as Elderflower, Suffolk is not mere setting, but rather a textured and historied place." ;
+        ont:person   <http://dbpedia.org/resource/Melanie_Griffith> ;
+        ont:place    <http://dbpedia.org/resource/Suffolk> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1964 and 1965 he travelled in North America on a Harkness Fellowship, including a sojourn in Aztec, New Mexico, during which he wrote one of his best known novels, The Merry-Go-Round in the Sea." ;
+        ont:place           <http://dbpedia.org/resource/North_America> , <http://dbpedia.org/resource/Aztec,_New_Mexico> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "one" , "In 1964" , "1965" .
 
 <http://w3id.org/polifonia/pilot/meetups/413078/14/8>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His great-grandfather, George Sewell, arrived in Australia in 1835; soon after, the rest of his family relocated from Essex to Australia." ;
         ont:person          <http://dbpedia.org/resource/Henry_Sewell> , <http://dbpedia.org/resource/George_V> ;
-        ont:place           "http://dbpedia.org/resource/Australia" , "http://dbpedia.org/resource/Essex" ;
+        ont:place           <http://dbpedia.org/resource/Essex> , <http://dbpedia.org/resource/Australia> ;
         ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
         ont:timeExpression  "in 1835" .
 
-<http://w3id.org/polifonia/pilot/meetups/413078/21/0>
+<http://w3id.org/polifonia/pilot/meetups/413078/9/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Randolph_Stow> ;
-        ont:place           "http://dbpedia.org/resource/Western_Australia" , "http://dbpedia.org/resource/Geraldton" ;
+        ont:excerpt         "After dealing with a bout of malaria in Papua New Guinea, he moved to East Bergholt in Suffolk in England from 1969 to 1981, his ancestral county, and he used traditional tales from that area, many of which he translated from Latin himself, to inform his novel." ;
+        ont:place           <http://dbpedia.org/resource/Suffolk> , <http://dbpedia.org/resource/East_Bergholt> , <http://dbpedia.org/resource/Papua_New_Guinea> ;
         ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
-        ont:timeExpression  "1989" .
+        ont:timeExpression  "from 1969" , "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/4/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the Trobriands he suffered a mental and physical breakdown that led to his repatriation to Australia." ;
+        ont:place    <http://dbpedia.org/resource/Australia> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/14/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Thomas Quinton Stow, was a pioneering Congregational minister in South Australia." ;
+        ont:place    <http://dbpedia.org/resource/South_Australia> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He taught English literature at the  University of Adelaide, the University of Western Australia and the University of Leeds." ;
+        ont:place    <http://dbpedia.org/resource/Leeds> , <http://dbpedia.org/resource/Western_Australia> , <http://dbpedia.org/resource/Adelaide> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/9/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Destabilization of time is positioned as a means of recovery, particularly for Clare.In March 2019, La Mama Courthouse Theatre in Melbourne, Australia adapted The Girl Green as Elderflower into a musical." ;
+        ont:place           <http://dbpedia.org/resource/Melbourne> , <http://dbpedia.org/resource/Australia> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "Clare.In March 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The last decades of his life he spent in nearby Harwich, the setting for his final novel The Suburbs of Hell." ;
+        ont:place    <http://dbpedia.org/resource/Harwich> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Graeme Kinross-Smith 'Randolph Stow: a Photo essay' JASAL 10, 2010" ;
+        ont:person          <http://dbpedia.org/resource/Graeme_Pollock> , <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "JASAL 10 , 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/9/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On New Year's Day 1979, he began writing and finished thirty-two days later.Stow was influenced by the focus on particular places in English Victorian literature and set the entire novel in Suffolk." ;
+        ont:place           <http://dbpedia.org/resource/Suffolk> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "Day 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tourmaline, his fourth novel, was completed in 1962 while he taught in Leeds." ;
+        ont:place           <http://dbpedia.org/resource/Leeds> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/28/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Randolph Stow - Writer" ;
+        ont:person   <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/11/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As well as producing fiction, poetry, and numerous book reviews for The Times Literary Supplement, he also wrote libretti for musical theatre works by Peter Maxwell Davies." ;
+        ont:person   <http://dbpedia.org/resource/Peter_Maxwell_Davies> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/14/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Stow lineage can be traced back to the Plantagenets and William the Conqueror.Stow's mother's family settled in Australia in the 1830s and were some of the earliest to arrive." ;
+        ont:place           <http://dbpedia.org/resource/Australia> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "1830s" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Girl Green as Elderflower is often considered to be closely linked to Stow's life." ;
+        ont:place    <http://dbpedia.org/resource/Stow_of_Wedale> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Stow further worked as an assistant to an anthropologist, Charles Julius, and cadet patrol officer in the Trobriand Islands." ;
+        ont:person   <http://dbpedia.org/resource/Charles_I_of_England> ;
+        ont:place    <http://dbpedia.org/resource/Trobriand_Islands> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "== The Girl Green as Elderflower (1980) ==" ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "1980" .
 
 <http://w3id.org/polifonia/pilot/meetups/413078/26/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Falkiner, Suzanne Mick: A Life of Randolph Stow, University of Western Australia Press, 2016" ;
         ont:person          <http://dbpedia.org/resource/Suzanne_Falkiner> , <http://dbpedia.org/resource/Randolph_Stow> ;
-        ont:place           "http://dbpedia.org/resource/Western_Australia" ;
+        ont:place           <http://dbpedia.org/resource/Western_Australia> ;
         ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
         ont:timeExpression  "2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Grace Leven Prize, 1969" ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/14/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Stow's great-grandfather was Randolph Isham Stow, a judge on the Supreme Court of South Australia and Attorney General of South Australia; a great-great-uncle, Jefferson Stow was prominent as an explorer of northern Australia, and Stow's great-great-grandfather, the Rev." ;
+        ont:person   <http://dbpedia.org/resource/Randolph_Isham_Stow> ;
+        ont:place    <http://dbpedia.org/resource/Australia> , <http://dbpedia.org/resource/South_Australia> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Stow died in England on 29 May 2010 of a pulmonary embolism, having been diagnosed with liver cancer." ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "29 May 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During his undergraduate years in Western Australia he wrote two novels and a collection of poetry, which were published in London by Macdonald & Co." ;
+        ont:place           <http://dbpedia.org/resource/Western_Australia> , <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bernadette Brennan 'Words of Water: Reading Otherness in Tourmaline and Oyster ' JASAL 3 (2004)" ;
+        ont:person          <http://dbpedia.org/resource/William_J._Brennan_Jr.> , <http://dbpedia.org/resource/Bernadette_Soubirous> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "2004" , "JASAL 3" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cary, Gabrielle Moving Among Strangers: Randolph Stow and My Family, University of Queensland Press, 2014" ;
+        ont:person          <http://dbpedia.org/resource/Gabrielle_Drake> , <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:place           <http://dbpedia.org/resource/Queensland> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Britannica—Australia award, 1966" ;
+        ont:place           <http://dbpedia.org/resource/Australia> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/9/13>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ultimately, according to Duckworth, it is trauma (both for the main character, Crispin Clare, and the colonial/postcolonial places he inhabits) that draws the narrative out of and across time." ;
+        ont:person   <http://dbpedia.org/resource/Crispin_and_Crispinian> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1969 to 1981 he lived at East Bergholt in Suffolk in England, his ancestral county, and he used traditional tales from that area to inform  his novel The Girl Green as Elderflower." ;
+        ont:place           <http://dbpedia.org/resource/East_Bergholt> , <http://dbpedia.org/resource/Suffolk> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "From 1969" , "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Kerry Leves ' Toxic flowers: Randolph Stow's unfused horizons' JASAL 10 (2010)" ;
+        ont:person          <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "2010" , "JASAL 10" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1958 Miles Franklin Literary Award" ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1978, he and John Constable's great-great-grandson were in a serious car accident, which finally spurred Stow to begin writing the novel." ;
+        ont:person          <http://dbpedia.org/resource/John_Constable> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "In 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Stow first visited England in 1960 and lived there for a few years, although he returned several times to Australia." ;
+        ont:place           <http://dbpedia.org/resource/Australia> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "in 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "David Fonteyn Ecological Allegory: Tourmaline, an Example' JASAL 10 (2010)" ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "JASAL 10" , "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Australian Literature Society gold medal, 1957, 1958" ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "1957" , "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was awarded the Patrick White Award in 1979." ;
+        ont:person          <http://dbpedia.org/resource/Saint_Patrick> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "in 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/14/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His wife, Elizabeth Randolph Eppes, was American and her mother was Thomas Jefferson's first cousin." ;
+        ont:person   <http://dbpedia.org/resource/Thomas_Jefferson> , <http://dbpedia.org/resource/William_Randolph> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1989 The Randolph Stow Young Writers Award was established in his honour to encourage school students in the Geraldton region of Western Australia to write." ;
+        ont:person          <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:place           <http://dbpedia.org/resource/Western_Australia> , <http://dbpedia.org/resource/Geraldton> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/14/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Julian Randolph Stow's paternal grandfather was Francis Leslie Stow, a Crown Solicitor of Western Australia." ;
+        ont:person   <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:place    <http://dbpedia.org/resource/Western_Australia> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Born in Geraldton, Western Australia, Randolph Stow was the son of Mary Campbell Stow née Sewell and Cedric Ernest Stow, a lawyer.Stow attended Geraldton Primary and High schools,  Guildford Grammar School, the University of Western Australia, and the University of Sydney." ;
+        ont:person   <http://dbpedia.org/resource/Henry_Sewell> , <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:place    <http://dbpedia.org/resource/Stow_of_Wedale> , <http://dbpedia.org/resource/Sydney> , <http://dbpedia.org/resource/Geraldton> , <http://dbpedia.org/resource/Western_Australia> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1979 Patrick White Award" ;
+        ont:person          <http://dbpedia.org/resource/Saint_Patrick> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A considerable number of Randolph Stow's poems are listed in the State Library of Western Australia online catalogue with indications where they have been anthologised." ;
+        ont:person   <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:place    <http://dbpedia.org/resource/Western_Australia> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Julian Randolph Stow (28 November 1935 – 29 May 2010) was an  Australian-born writer, novelist and poet." ;
+        ont:person          <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "28 November 1935" , "29 May 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His novel To the Islands won the Miles Franklin Award for 1958." ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "for 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/14/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After Thomas Stow's death, the Stow Memorial Church was constructed in his honor." ;
+        ont:place    <http://dbpedia.org/resource/Pilgrim_Uniting_Church> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/14/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Stow grew up very interested in the traditional stories and histories of the region.A deeply private person, Stow's life was dogged at times by loneliness and depression (including two suicide attempts), probable alcoholism, an addiction to prescription drugs, and a struggle to come to terms with his homosexuality in a time when it was oppressed." ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/9/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It focuses one place throughout and across time." ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "one place" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/14/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1837, they relocated to South Australia." ;
+        ont:place           <http://dbpedia.org/resource/South_Australia> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "In 1837" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/9/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Stow engages in what Duckworth calls \"Australian medievalism,\" drawing connections between the Middle Ages and postcolonial Australia and Papua New Guinea." ;
+        ont:place    <http://dbpedia.org/resource/Australia> , <http://dbpedia.org/resource/Papua_New_Guinea> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "While living in Perth (WA) in 1966 he wrote his popular children's book Midnite." ;
+        ont:place           <http://dbpedia.org/resource/Perth> , <http://dbpedia.org/resource/Western_Australia> ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/14/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sewell eventually moved from Perth to Geraldton, where his descendants remained." ;
+        ont:person   <http://dbpedia.org/resource/Henry_Sewell> ;
+        ont:place    <http://dbpedia.org/resource/Geraldton> , <http://dbpedia.org/resource/Perth> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/9/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The regional stories Stow used for the novel were collected by William of Newburgh, Gervase of Tilbury, Gerald the Welshman, Ralph Coggeshall, Roger Howden, and Walter Map." ;
+        ont:person   <http://dbpedia.org/resource/Walter_Map> ;
+        ont:place    <http://dbpedia.org/resource/Howden> , <http://dbpedia.org/resource/Coggeshall> , <http://dbpedia.org/resource/Tilbury> , <http://dbpedia.org/resource/Stone_Mills> ;
+        ont:subject  <http://dbpedia.org/resource/Randolph_Stow> .
+
+<http://w3id.org/polifonia/pilot/meetups/413078/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Twenty years later, he used these last experiences in his novel Visitants." ;
+        ont:subject         <http://dbpedia.org/resource/Randolph_Stow> ;
+        ont:timeExpression  "Twenty" .

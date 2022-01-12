@@ -6,16 +6,111 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/3529094/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A History of Harmonic Theory in the United States, by David M. Thompson (PhD) (born 1951), Kent State University Press (1980); OCLC 681085691" ;
+        ont:person          <http://dbpedia.org/resource/Klay_Thompson> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "1951" , "681085691" , "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had two children.Percy Goetschius died at his home in Manchester, New Hampshire on October 29, 1943." ;
+        ont:place           <http://dbpedia.org/resource/Manchester> , <http://dbpedia.org/resource/New_Hampshire> ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "two children.Percy" , "October 29 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Syracuse University conferred an Honorary Music Doctorate on Goetschius for the academic year 1892–1893." ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "1892–1893" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Goetschius's notable pupils include Henry Cowell, Lillian Fuchs, Howard Hanson, Swan Hennessy, Julia Klumpke, Wallingford Riegger, Bernard Rogers, and Arthur Shepherd." ;
+        ont:person   <http://dbpedia.org/resource/Henry_Cowell> , <http://dbpedia.org/resource/Howard_Hanson> , <http://dbpedia.org/resource/Wallingford_Riegger> ;
+        ont:subject  <http://dbpedia.org/resource/Percy_Goetschius> .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1885, King Karl Friedrich Alexander of Württemberg conferred upon him the title of royal professor." ;
+        ont:person          <http://dbpedia.org/resource/Charles_Frederick,_Grand_Duke_of_Baden> , <http://dbpedia.org/resource/Alexander_the_Great> ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "In 1885" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Percy Goetschius, Theorist and Teacher (Ph.D. dissertation), by Mother Catherine Agnes Carroll, RSCJ (1910–1996), Eastman School of Music (1961); OCLC 31051516, 12860645" ;
+        ont:person          <http://dbpedia.org/resource/Lewis_Carroll> , <http://dbpedia.org/resource/Catherine_Parr> ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "31051516" , "12860645" , "1961" , "1910–1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The family hails from Switzerland (1714), where the name was Götschi." ;
+        ont:place           <http://dbpedia.org/resource/Switzerland> ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "1714" .
+
 <http://w3id.org/polifonia/pilot/meetups/3529094/2/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Goetschius was the organist of the Second Presbyterian Church from 1868–1870 and of the First Presbyterian from 1870–1873, and pianist of Mr. Benson's Paterson Choral Society." ;
         ont:person          <http://dbpedia.org/resource/Alex_Paterson> ;
-        ont:place           "http://dbpedia.org/resource/Second_Presbyterian_Church_(Chicago)" ;
+        ont:place           <http://dbpedia.org/resource/Second_Presbyterian_Church_(Chicago)> ;
         ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
         ont:timeExpression  "from 1868–1870" , "from 1870–1873" .
 
-<http://w3id.org/polifonia/pilot/meetups/3529094/17/0>
+<http://w3id.org/polifonia/pilot/meetups/3529094/0/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Klay_Thompson> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "Percy Goetschius (August 10, 1853 – October 29, 1943) was an American music theorist and teacher who won international fame in the teaching of composition." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
-        ont:timeExpression  "1951" , "681085691" , "1980" .
+        ont:timeExpression  "August 10 , 1853" , "October 29 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1892, he took a position in the New England Conservatory, Boston, and four years later opened a studio in that city." ;
+        ont:place           <http://dbpedia.org/resource/Boston> ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "In 1892" , "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was married twice, the second time to Maria C. C. Stephany on June 14, 1899." ;
+        ont:person          <http://dbpedia.org/resource/Grand_Duchess_Maria_Nikolaevna_of_Russia> ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "June 14 , 1899" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1917, he was elected an honorary member of Phi Mu Alpha Sinfonia fraternity, the national fraternity for men in music, by the fraternity's Alpha chapter at the New England Conservatory." ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "In 1917" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Goetschius was born in Paterson, New Jersey." ;
+        ont:place    <http://dbpedia.org/resource/New_Jersey> ;
+        ont:subject  <http://dbpedia.org/resource/Percy_Goetschius> .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of my ancestors, middle of the 18th century, an earnest Latin scholar, affixed the Latin terminal us." ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1905, he went to the staff of the Institute of Musical Art (Juilliard School) in New York City, headed by Frank Damrosch." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "In 1905" .
+
+<http://w3id.org/polifonia/pilot/meetups/3529094/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He went to Stuttgart, Württemberg (Germany), in 1873 to study theory in the Royal Conservatory with Immanuel Faisst, and soon advanced to become a professor." ;
+        ont:place           <http://dbpedia.org/resource/Germany> , <http://dbpedia.org/resource/Stuttgart> ;
+        ont:subject         <http://dbpedia.org/resource/Percy_Goetschius> ;
+        ont:timeExpression  "in 1873" .

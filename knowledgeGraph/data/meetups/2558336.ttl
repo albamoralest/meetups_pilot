@@ -6,9 +6,135 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/2558336/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2005, guitarist Miroslav Tadić replaced Ken Rosser in the lineup." ;
+        ont:person          <http://dbpedia.org/resource/J._Barkley_Rosser> ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "In 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also played bass for Zappa's transitional 1976 Zoot Allures touring band, and provided vocals and acting for Zappa's 1979 film Baby Snakes, and vocal work for the 1980s Zappa albums You Are What You Is, Ship Arriving Too Late to Save a Drowning Witch and The Man from Utopia." ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "1979 film" , "1980s" , "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2003 Estrada was featured on the album Hamburger Midnight (taking its title from a George/Estrada co-composition on the first Little Feat album) on the record label Inkanish Records, on which he collaborated once again with Jimmy Carl Black." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Jimmy_Carl_Black> ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "In 2003" .
+
 <http://w3id.org/polifonia/pilot/meetups/2558336/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Roy Estrada (also known as \"Roy Ralph Moleman Guacamole Guadalupe Hidalgo Estrada\" and \"Orejón\"; born April 17, 1943 in Santa Ana, California) is an American former musician and vocalist, best known for his bass guitar work with Frank Zappa and the Mothers of Invention; for having been a founding member of Little Feat, playing on their first two albums; and for being a member of Captain Beefheart's Magic Band." ;
         ont:person          <http://dbpedia.org/resource/Captain_Beefheart> , <http://dbpedia.org/resource/Frank_Zappa> , <http://dbpedia.org/resource/Roy_Estrada> , <http://dbpedia.org/resource/Miguel_Hidalgo_y_Costilla> , <http://dbpedia.org/resource/Roy_Ralph> ;
-        ont:place           "http://dbpedia.org/resource/Santa_Ana,_California" , "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Santa_Ana,_California> ;
         ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
         ont:timeExpression  "two" , "April 17 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Estrada has also done session work by playing bass for a diverse range of artists, including Ry Cooder on his eponymous debut album, Ivan Ulz, Leo Kottke, Van Dyke Parks and Howdy Moon." ;
+        ont:person   <http://dbpedia.org/resource/Van_Dyke_Parks> , <http://dbpedia.org/resource/Leo_Kottke> , <http://dbpedia.org/resource/Ry_Cooder> ;
+        ont:subject  <http://dbpedia.org/resource/Roy_Estrada> .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On the 1969 album Uncle Meat, for example, he was credited with bass guitar and \"Pachuco falsetto.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "1969 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Since then they have performed at numerous concerts and festivals throughout the United States, Canada and Europe, including Austria, Belgium, Croatia, Czech Republic, Denmark, the UK, Germany, the Netherlands, Italy, Norway and Switzerland." ;
+        ont:place    <http://dbpedia.org/resource/Netherlands> , <http://dbpedia.org/resource/Denmark> , <http://dbpedia.org/resource/Austria> , <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/Belgium> , <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Croatia> , <http://dbpedia.org/resource/Norway> , <http://dbpedia.org/resource/Switzerland> , <http://dbpedia.org/resource/Italy> , <http://dbpedia.org/resource/Germany> ;
+        ont:subject  <http://dbpedia.org/resource/Roy_Estrada> .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Beefheart gave him the nickname \"Orejón\" ('big ears')." ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "'big" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/17/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Texas Dept Corrections, Roy Estrada" ;
+        ont:person   <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:place    <http://dbpedia.org/resource/Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Roy_Estrada> .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The group released at least one single on the King label, \"Jungle Dreams (Part 1)\" backed with \"Jungle Dreams (Part 2)\"." ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "one" , "Part 1" , "Part 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In addition to his work with Zappa, Estrada formed Little Feat with Lowell George, Richie Hayward and Bill Payne in 1969, playing bass and singing backing vocals on their first two albums before quitting in 1972 to join Captain Beefheart's Magic Band." ;
+        ont:person          <http://dbpedia.org/resource/Richie_Hayward> , <http://dbpedia.org/resource/Captain_Beefheart> , <http://dbpedia.org/resource/Bill_Payne> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "in 1972" , "two" , "in 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the plea bargain agreement, he was sentenced to 25 years in prison and is not eligible for parole." ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "25" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Prior to the Soul Giants, Estrada fronted a band called Roy Estrada and the Rocketeers." ;
+        ont:person   <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:subject  <http://dbpedia.org/resource/Roy_Estrada> .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/1/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He will not be eligible for release until 2036, at which time he will be 93 years old." ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "93" , "release until 2036" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In January 2012, he pleaded guilty to a charge of continuous sexual abuse of a female family member younger than 14 which happened in March 2008." ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "than 14" , "March 2008" , "January 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With drummer Jimmy Carl Black and vocalist Ray Collins, Estrada was an original member of Frank Zappa's Mothers of Invention." ;
+        ont:person   <http://dbpedia.org/resource/Eugenio_Juan_Zappietro> , <http://dbpedia.org/resource/Jimmy_Carl_Black> , <http://dbpedia.org/resource/Frank_Zappa> ;
+        ont:subject  <http://dbpedia.org/resource/Roy_Estrada> .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Estrada served six years in prison after he was convicted of committing lewd acts with a child in Orange County, California, in December 1994." ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "six" , "December 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was convicted for sex offenses, first having been convicted of child sex abuse in 1994 and serving six years' imprisonment, then pleading guilty to abuse of a young relative in 2012." ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "abuse in 1994" , "relative in 2012" , "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2002, two years after his release from jail, Estrada joined forces with fellow former Mothers Don Preston and Napoleon Murphy Brock, along with guitarist Ken Rosser and drummer/percussionist Christopher Garcia, to form \"The Grande Mothers\", the only Mothers of Invention/Frank Zappa alumni consistently performing the music of Zappa since 2002, with over 90 performances." ;
+        ont:person          <http://dbpedia.org/resource/J._Barkley_Rosser> , <http://dbpedia.org/resource/Don_Preston> , <http://dbpedia.org/resource/Jerry_Garcia> , <http://dbpedia.org/resource/Frank_Zappa> , <http://dbpedia.org/resource/Napoleon> , <http://dbpedia.org/resource/Dave_Brock> ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "two" , "over 90" , "since 2002" , "In 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Robbie \"Seahag\" Mangano has been the guitarist for all of the European Grande Mothers' tours since 2009." ;
+        ont:subject         <http://dbpedia.org/resource/Roy_Estrada> ;
+        ont:timeExpression  "since 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/2558336/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Estrada is currently incarcerated in the Texas State Prison System." ;
+        ont:place    <http://dbpedia.org/resource/Texas> ;
+        ont:subject  <http://dbpedia.org/resource/Roy_Estrada> .

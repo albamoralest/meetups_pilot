@@ -6,58 +6,454 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/859482/19/0>
+<http://w3id.org/polifonia/pilot/meetups/859482/0/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Lafcadio_Hearn> ;
-        ont:place           "http://dbpedia.org/resource/Erskine" ;
+        ont:excerpt         "He published over 100 books, novels, criticism, and essays including his most important essay, The Moral Obligation to Be Intelligent (1915)." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1915" , "100" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Delight of Great Books (1928)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Little Disciple (1923)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Moral Obligation to Be Intelligent, and Other Essays (1915)" ;
         ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
         ont:timeExpression  "1915" .
 
-<http://w3id.org/polifonia/pilot/meetups/859482/4/7>
+<http://w3id.org/polifonia/pilot/meetups/859482/31/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Robert_Maynard_Hutchins> , <http://dbpedia.org/resource/Dankmar_Adler> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:excerpt         "Prohibition and Christianity, and Other Paradoxes (1927)" ;
         ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
-        ont:timeExpression  "In 1929" .
+        ont:timeExpression  "1927" .
 
-<http://w3id.org/polifonia/pilot/meetups/859482/20/0>
+<http://w3id.org/polifonia/pilot/meetups/859482/4/16>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Lafcadio_Hearn> ;
-        ont:place           "http://dbpedia.org/resource/Erskine" ;
+        ont:excerpt         "He wrote several books of music and the libretto for George Antheil's opera Helen Retires (1931), which was based on The Private Life of Helen of Troy." ;
+        ont:person          <http://dbpedia.org/resource/Jennifer_Blakeman> , <http://dbpedia.org/resource/George_Gershwin> ;
         ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
-        ont:timeExpression  "1916" .
+        ont:timeExpression  "1931" .
 
-<http://w3id.org/polifonia/pilot/meetups/859482/16/0>
+<http://w3id.org/polifonia/pilot/meetups/859482/24/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/William_Wordsworth> , <http://dbpedia.org/resource/Percy_Bysshe_Shelley> ;
-        ont:place           "http://dbpedia.org/resource/River_Trent" ;
+        ont:excerpt         "Short History of American Literature; Based Upon the Cambridge History of American Literature (1922)" ;
+        ont:place           <http://dbpedia.org/resource/Cambridge> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Contemporary War Poems (Introduction) (1914)" ;
         ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
         ont:timeExpression  "1914" .
 
-<http://w3id.org/polifonia/pilot/meetups/859482/6/0>
+<http://w3id.org/polifonia/pilot/meetups/859482/30/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Charles_Ives> ;
-        ont:place           "http://dbpedia.org/resource/Erskine" ;
+        ont:excerpt         "American Character (1927)" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
-        ont:timeExpression  "1946–1951" , "1910–1945" .
+        ont:timeExpression  "1927" .
 
-<http://w3id.org/polifonia/pilot/meetups/859482/21/0>
+<http://w3id.org/polifonia/pilot/meetups/859482/23/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Lafcadio_Hearn> ;
-        ont:place           "http://dbpedia.org/resource/Erskine" ;
+        ont:excerpt         "Democracy and Ideals (1920)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Poems of Wordsworth, Shelley, and Keats, with W. P. Trent (1914)" ;
+        ont:person          <http://dbpedia.org/resource/William_Wordsworth> , <http://dbpedia.org/resource/Percy_Bysshe_Shelley> ;
+        ont:place           <http://dbpedia.org/resource/River_Trent> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During his career Erskine published over 100 books, though as a writer he first received acclaim with his novel The Private Life of Helen of Troy (1925)." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "over 100" , "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1901 and Ph.D., 1903 and D.Litt." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1903" , "1901" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Shadowed Hour (1917)" ;
         ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
         ont:timeExpression  "1917" .
 
+<http://w3id.org/polifonia/pilot/meetups/859482/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Kinds of Poetry (1913)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1913" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died on June 2, 1951, in New York at the age of 71." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "June 2 , 1951" , "age of 71" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Together they subsequently went on to found the Great Books of the Western World program and the Great Books Foundation.Erskine co-wrote the 1900 Varsity Show at Columbia, writing the musical score for The Governor's Vrouw (1900), a two-act comic opera by Henry Sydnor Harrison and poet Melville Cane, who also wrote the lyrics." ;
+        ont:person          <http://dbpedia.org/resource/Melville_Henry_Cane> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1900" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Life and Literature, by Lafcadio Hearn (edited and with an introduction by Erskine)(1917)" ;
+        ont:person          <http://dbpedia.org/resource/Lafcadio_Hearn> ;
+        ont:place           <http://dbpedia.org/resource/Erskine> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1917" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Selections from the Idylls of the King (1912)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1912" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Appreciations of Poetry, by Lafcadio Hearn (edited and with an introduction by Erskine) (1916)" ;
+        ont:person          <http://dbpedia.org/resource/Lafcadio_Hearn> ;
+        ont:place           <http://dbpedia.org/resource/Erskine> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1916" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Written English, with Helen Erskine (1910; revised edition, 1913)" ;
+        ont:place           <http://dbpedia.org/resource/Erskine> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1910" , "1913" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1920, he instituted Columbia College's General Honors Course, a two-year undergraduate seminar that would later help inspire \"Masterworks of Western Literature,\" now known commonly as \"Literature Humanities,\" the second component of Columbia College's Core Curriculum." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "In 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/15>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "These included Penelope's Man and Adam and Eve, Though He Knew Better.Erskine was also an accomplished composer, pianist and musician." ;
+        ont:person   <http://dbpedia.org/resource/Eve> ;
+        ont:subject  <http://dbpedia.org/resource/John_Erskine_(educator)> .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Leading American novelists (1910)" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Actœon and Other Poems (1907)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1907" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He graduated from Columbia University, B.A., 1900, M.A." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1900" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Selections from the Faerie Queene (1905)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1905" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With his wife Pauline (Ives), he was the grandfather of actress Lindsay Crouse and the great-grandfather of actress Zosia Mamet." ;
+        ont:person   <http://dbpedia.org/resource/Lindsay_Crouse> , <http://dbpedia.org/resource/Zosia_Mamet> , <http://dbpedia.org/resource/Charles_Ives> ;
+        ont:subject  <http://dbpedia.org/resource/John_Erskine_(educator)> .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1929, Adler left Columbia to join University of Chicago, where he continued to work on the theme with Robert Hutchins, President of the university." ;
+        ont:person          <http://dbpedia.org/resource/Robert_Maynard_Hutchins> , <http://dbpedia.org/resource/Dankmar_Adler> ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "In 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Elizabethan Lyric (1903)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1903" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1910, he led foundation of the Boar's Head Society for literature." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "In 1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was also the author of numerous publications, including several humorous novels retelling myths and legends, besides essays, criticism, and two volumes of autobiography." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Erskine Place, a street in Co-op City in the New York City borough of The Bronx, was named after him." ;
+        ont:place    <http://dbpedia.org/resource/Erskine> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Co-op_City,_Bronx> , <http://dbpedia.org/resource/The_Bronx> ;
+        ont:subject  <http://dbpedia.org/resource/John_Erskine_(educator)> .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "and raised in Weehawken, New Jersey." ;
+        ont:place    <http://dbpedia.org/resource/New_Jersey> ;
+        ont:subject  <http://dbpedia.org/resource/John_Erskine_(educator)> .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was married twice to Pauline Ives (m. 1910–1945) and Helen Worden Erskine (m. 1946–1951)." ;
+        ont:person          <http://dbpedia.org/resource/Charles_Ives> ;
+        ont:place           <http://dbpedia.org/resource/Erskine> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1946–1951" , "1910–1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The course was discontinued in 1928, though later reconstituted." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "in 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was an English professor at Amherst College from 1903 to 1909, followed by Columbia University from 1909 to 1937." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "from 1903" , "from 1909" , "1937" , "1909" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Erskine was English professor at Amherst College from 1903 to 1909, and subsequently taught at Columbia University from 1909 to 1937." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1909" , "from 1903" , "from 1909" , "1937" .
+
 <http://w3id.org/polifonia/pilot/meetups/859482/4/13>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The 1956 biopic of French noblewoman Diane de Poitiers entitled Diane was based on his story with a screenplay by Christopher Isherwood." ;
         ont:person          <http://dbpedia.org/resource/Christopher_Isherwood> ;
-        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Poitiers" ;
+        ont:place           <http://dbpedia.org/resource/Poitiers> , <http://dbpedia.org/resource/France> ;
         ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
         ont:timeExpression  "1956 biopic" .
 
+<http://w3id.org/polifonia/pilot/meetups/859482/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Erskine was born in New York City, New York, the son of Eliza Jane (née Hollingsworth) and James Morrison Erskine." ;
+        ont:person   <http://dbpedia.org/resource/James_W._Morrison> ;
+        ont:place    <http://dbpedia.org/resource/Erskine> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/John_Erskine_(educator)> .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/20>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1946 he served as the first chairman of the American Writers Association." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "In 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/44/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1944)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1944" .
+
 <http://w3id.org/polifonia/pilot/meetups/859482/4/18>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was also director of the Metropolitan Opera Association, which runs the Metropolitan Opera, a noted opera company based in New York City.Erskine is also credited with writing the subtitles for a number of films, including Sacha Guitry's Le Roman d'un tricheur (The Story of a Cheat) in 1938, Marcel Pagnol's The Baker's Wife in 1940 and Mario Camerini's The Spirit and the Flesh, an adaptation of Alessandro Manzoni's classic novel The Betrothed, in 1948.To commemorate the seven hundredth anniversary of Roger Bacon, Erskine wrote A Pageant of the Thirteenth Century, a biographical play which was produced at Columbia University and published as a book by Columbia University Press in 1914." ;
         ont:person          <http://dbpedia.org/resource/Mario_Camerini> , <http://dbpedia.org/resource/Sacha_Guitry> , <http://dbpedia.org/resource/Alessandro_Manzoni> , <http://dbpedia.org/resource/Marcel_Pagnol> , <http://dbpedia.org/resource/Roger_Bacon> ;
-        ont:place           "http://dbpedia.org/resource/Erskine" , "http://dbpedia.org/resource/Ancient_Rome" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:place           <http://dbpedia.org/resource/Erskine> , <http://dbpedia.org/resource/Ancient_Rome> , <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
         ont:timeExpression  "1948.To commemorate" , "in 1940" , "in 1938" , "seven" , "in 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Erskine (October 5, 1879 – June 2, 1951) was an American educator and author, pianist and composer." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "June 2 , 1951" , "October 5 , 1879" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "My Life in Music (1950)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Other films based on his works included A Lady Surrenders (1930) by John M. Stahl, Bachelor of Arts (1934) by Louis King and The President's Mystery (1936) directed by Phil Rosen." ;
+        ont:person          <http://dbpedia.org/resource/Phil_Rosen> , <http://dbpedia.org/resource/Louis_King> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1934" , "1930" , "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "degree from Amherst in 1923." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "in 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Venus, the Lonely Goddess (1949)" ;
+        ont:place           <http://dbpedia.org/resource/Venus> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Brief Hour of Francois Villon (1937)" ;
+        ont:person          <http://dbpedia.org/resource/François_Villon> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Human Life of Jesus (1945)" ;
+        ont:person          <http://dbpedia.org/resource/Jesus> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Influence of Women and Its Cure (1936)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bachelor of Arts (1934)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He found little support for the course from the senior faculty, and junior faculty members like Mark Van Doren and later after 1923, Mortimer Adler took up sections of the course." ;
+        ont:person          <http://dbpedia.org/resource/Mark_Van_Doren> , <http://dbpedia.org/resource/Mortimer_J._Adler> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "after 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Adam and Eve (1927)" ;
+        ont:person          <http://dbpedia.org/resource/Eve> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Casanova's Women, Eleven Moments of a Year (1941)" ;
+        ont:person          <http://dbpedia.org/resource/Giacomo_Casanova> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cinderella's Daughter, and Other Sequels and Consequences (1930)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was the first president of the Juilliard School of Music from 1928 to 1937." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1937" , "from 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Give Me liberty; the Story of an Innocent Bystander (1940)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Uncle Sam in the Eyes of His Family (1930)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Galahad (1926)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This novel was made into a silent film by the same the name in 1927, directed by Alexander Korda." ;
+        ont:person          <http://dbpedia.org/resource/Alexander_Korda> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "name in 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1929, besides D.Litt." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Baker's Wife (1940)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sincerity (1929)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sonata (1925)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Private Life of Helen of Troy (1925)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Start of the Road (1938)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Penelope's Man (1928)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/4/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He won the Butler Medal in 1919." ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "in 1919" .
+
+<http://w3id.org/polifonia/pilot/meetups/859482/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Interpretations of Literature, by Lafcadio Hearn (edited and with an introduction by Erskine) (1915)" ;
+        ont:person          <http://dbpedia.org/resource/Lafcadio_Hearn> ;
+        ont:place           <http://dbpedia.org/resource/Erskine> ;
+        ont:subject         <http://dbpedia.org/resource/John_Erskine_(educator)> ;
+        ont:timeExpression  "1915" .

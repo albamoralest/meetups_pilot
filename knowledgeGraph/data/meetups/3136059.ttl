@@ -6,37 +6,254 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/3136059/12/0>
+<http://w3id.org/polifonia/pilot/meetups/3136059/4/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Simon_Wiesenthal> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" , "http://dbpedia.org/resource/Universal_Studios_Lot" ;
+        ont:excerpt         "In the summer of 1958, Sheinberg arrived in California where he accepted a teaching position at UCLA School of Law." ;
+        ont:place           <http://dbpedia.org/resource/California> ;
         ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
-        ont:timeExpression  "1995" , "February 4 , 2008" .
+        ont:timeExpression  "summer of 1958" .
 
-<http://w3id.org/polifonia/pilot/meetups/3136059/5/6>
+<http://w3id.org/polifonia/pilot/meetups/3136059/4/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Having the benefit of being guided by Lew Wasserman, Sheinberg acknowledged that an essential part of being a mentor is having confidence in the people you're guiding and mentoring." ;
+        ont:person   <http://dbpedia.org/resource/Lew_Wasserman> ;
+        ont:subject  <http://dbpedia.org/resource/Sidney_Sheinberg> .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/14/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Leopold_Mozart> , <http://dbpedia.org/resource/Thomas_Keneally> ;
-        ont:place           "http://dbpedia.org/resource/Pluto" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:excerpt         "Together they had two sons." ;
         ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
-        ont:timeExpression  "Pluto.In 1982" , "in 1980" .
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         ")Other high-performing films credited to him are Schindler's List (1993) and Back to the Future (1985)." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "1985" , "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The film was a box office success, bringing in over $320 million and is considered a historic motion picture that poignantly captured the Holocaust.Sheinberg saw significant opportunity in the music industry and led MCA Music Entertainment's (later renamed Universal Music Group) acquisition of Motown in 1988 for $61 million and Geffen Records in 1990 for $550 million." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "61" , "320" , "550" , "million" , "in 1988" , "in 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1955, Sheinberg graduated from Columbia University and subsequently attended Columbia Law School, as both a Harlan Fiske Stone and James Kent Scholar, where he obtained his JD." ;
+        ont:person          <http://dbpedia.org/resource/John_Marshall_Harlan_(1899–1971)> , <http://dbpedia.org/resource/James_Kent> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "In 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sheinberg married actress Lorraine Gary in 1956." ;
+        ont:person          <http://dbpedia.org/resource/Lorraine_Gary> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In 1971, Sheinberg became president of Universal Television.In June 1973, Sheinberg was elected President and Chief Operating Officer of MCA, Inc. and Universal Studios, serving alongside Lew Wasserman." ;
+        ont:person          <http://dbpedia.org/resource/Lew_Wasserman> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "Universal Television.In June 1973" , "In 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(The $471 million it collected worldwide would be more than $1.9 billion today." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "1.9 billion today" , "471" , "million" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Spielberg forwent a salary for the film, calling it \"blood money\", and believed the film would flop." ;
+        ont:person   <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:subject  <http://dbpedia.org/resource/Sidney_Sheinberg> .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was honored by the National Gay and Lesbian Task Force for his life's work in civil rights and inclusive support of the LGBT community.He received Columbia College's John Jay Award in 1981 for distinguished professional achievement, the American Jewish Committee's Human Relations Award in 1982, the National Conference of Christians and Jews Humanitarian Award in 1983, and Pioneer Of The Year Award in 1984 from the Motion Picture Pioneers, as well as the rank of Chevalier of the Ordre des Arts et des Lettres in 1984 bestowed by the French government." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "in 1981" , "1984 bestowed" , "in 1984" , "in 1982" , "in 1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sheinberg, the son of Jewish immigrants, a Ukrainian mother, Tillie (Grossman), and a Polish father, Harry Sheinberg, grew up in Corpus Christi, Texas where he was born on January 14, 1935." ;
+        ont:place           <http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Corpus_Christi> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "January 14 , 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/12/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "David Geffen, Jeffrey Katzenberg and Steven Spielberg were among those attending." ;
+        ont:person   <http://dbpedia.org/resource/Steven_Spielberg> , <http://dbpedia.org/resource/David_Geffen> , <http://dbpedia.org/resource/Jeffrey_Katzenberg> ;
+        ont:subject  <http://dbpedia.org/resource/Sidney_Sheinberg> .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/4/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As recounted by Steven Spielberg on numerous occasions, Sheinberg famously told him, \"a lot of people will stick with you in success; I'll stick with you in failure." ;
+        ont:person   <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:subject  <http://dbpedia.org/resource/Sidney_Sheinberg> .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When 1975's Jaws ran over budget, Sheinberg had Spielberg's back—what skeptics dismissed as an overpriced B-movie became a horror classic that defined the new summer-blockbuster genre." ;
+        ont:person          <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Spielberg later said, \"He knew that once I had directed Schindler I wouldn't be able to do Jurassic Park.\"" ;
+        ont:person   <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:subject  <http://dbpedia.org/resource/Sidney_Sheinberg> .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He served as President and CEO of MCA Inc. and Universal Studios for over 20 years." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "over 20" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The picture was assigned a small budget of $22 million, as Holocaust films are not usually profitable." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "22" , "million" .
 
 <http://w3id.org/polifonia/pilot/meetups/3136059/7/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Despite coming close to actually happening, however, Wasserman strongly disagreed and said that Sheinberg should stay as MCA President, causing the deal to collapse entirely.His battle with Terry Gilliam over the final cut of the movie Brazil was the subject of a book and documentary entitled The Battle of Brazil.In 1990, Sheinberg and Lew Wasserman negotiated a $6.59 billion sale of MCA and Universal to Japan's Matsushita Electric in cash and securities." ;
         ont:person          <http://dbpedia.org/resource/Terry_Gilliam> , <http://dbpedia.org/resource/Lew_Wasserman> ;
-        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:place           <http://dbpedia.org/resource/Japan> ;
         ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
-        ont:timeExpression  "Brazil.In 1990" , "6.59 billion sale" .
+        ont:timeExpression  "6.59 billion sale" , "Brazil.In 1990" .
 
-<http://w3id.org/polifonia/pilot/meetups/3136059/16/0>
+<http://w3id.org/polifonia/pilot/meetups/3136059/11/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Sidney_Sheinberg> ;
-        ont:place           "http://dbpedia.org/resource/Beverly_Hills,_California" ;
+        ont:excerpt         "He received the AIDS Project Los Angeles Commitment to Life Award in 1991, the Medal of Honor from the American Academy of Achievement in 1994 and the GLAAD Media Award in 1996." ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> , <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
-        ont:timeExpression  "age of 84" , "March 7 , 2019" .
+        ont:timeExpression  "in 1994" , "in 1996" , "in 1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sheinberg departed Universal in July 1995, following the takeover of the studio by the Seagram Company." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "July 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sheinberg and his wife jointly received the 1995 Simon Wiesenthal Center's Humanitarian Award.Sheinberg Place (a street on the Universal Studios lot in Los Angeles), was dedicated in his honor February 4, 2008, at a ceremony honoring the former studio chief." ;
+        ont:person          <http://dbpedia.org/resource/Simon_Wiesenthal> ;
+        ont:place           <http://dbpedia.org/resource/Universal_Studios_Lot> , <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "1995" , "February 4 , 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the late 1960s, Sheinberg had seen Spielberg's first short film, Amblin, and signed the director, then 20, to a 7-year contract to the MCA/Universal Television in 1968." ;
+        ont:person          <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "in 1968" , "20" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/4/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "the Extra-Terrestrial and concluding with 1993's Jurassic Park." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "with 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sheinberg greenlit the film on condition that Spielberg made Jurassic Park first." ;
+        ont:person   <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:subject  <http://dbpedia.org/resource/Sidney_Sheinberg> .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sidney Jay Sheinberg (January 14, 1935 – March 7, 2019) was an American lawyer and entertainment executive." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "March 7 , 2019" , "January 14 , 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was also a member of the Board of Trustees of Pitzer College (one of the Claremont group of colleges), the Board of The American Jewish Committee, the Board of Research To Prevent Blindness and the Board of Trustees of the Simon Wiesenthal Center." ;
+        ont:person          <http://dbpedia.org/resource/Simon_Wiesenthal> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1984, as part of MCA's potential acquisition of The Walt Disney Company, Sheinberg agreed to vacate his role as MCA President in order to allow Disney CEO Ron W. Miller to assume the role." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "In 1984" .
 
 <http://w3id.org/polifonia/pilot/meetups/3136059/11/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1987, he received the DeWitt Carter Reddick Award at the University of Texas in Austin, and in 1989 he was named a Lifetime Honorary Member of the Directors Guild of America for his decades of service on the DGA-AMPTP Creative Rights Committee." ;
         ont:person          <http://dbpedia.org/resource/Bryce_DeWitt> , <http://dbpedia.org/resource/Jimmy_Carter> ;
-        ont:place           "http://dbpedia.org/resource/Reddick,_Florida" ;
+        ont:place           <http://dbpedia.org/resource/Reddick,_Florida> ;
         ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
-        ont:timeExpression  "in 1989" , "In 1987" .
+        ont:timeExpression  "In 1987" , "in 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1962, Sheinberg was involved in MCA's acquisition of Universal.Sheinberg is credited with discovering director Steven Spielberg." ;
+        ont:person          <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "In 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "All three films were Universal/Spielberg projects, beginning with 1975's Jaws, 1982's E.T." ;
+        ont:person          <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "with 1975" , "1982" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sheinberg attached Spielberg to the project and despite many headwinds, pushed for the picture to be released." ;
+        ont:person   <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:subject  <http://dbpedia.org/resource/Sidney_Sheinberg> .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sheinberg sent director Spielberg a copy of the book along with a New York Times review." ;
+        ont:person   <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Sidney_Sheinberg> .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1982, Sheinberg was quoted saying, \"You'd better start saving money to pay your attorney's fees, I view litigation as a profit center\" during a meeting to get Nintendo to pay Universal royalties for Nintendo's Donkey Kong franchise." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "In 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1959 while awaiting the results of his California Bar Examination, he joined the legal department of Revue Productions, the former television subsidiary of MCA Inc., and the predecessor of Universal Television, and began his career in the entertainment industry." ;
+        ont:place           <http://dbpedia.org/resource/California> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "In 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Together they transformed Universal from a second-string studio, dependent on its television productions, into a major player.Under Sheinberg's leadership, Universal released what were, at the time of each of their releases, the highest-grossing films of each of the last three decades of the twentieth century." ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sheinberg famously wanted to change the name from \"Back to the Future\" to \"Space Man From Pluto\" despite the film having nothing to do with outer space, spacemen, or the dwarf planet Pluto.In 1982, Thomas Keneally published his historical novel Schindler's Ark, which he wrote after a chance meeting with Leopold Pfefferberg in Los Angeles in 1980." ;
+        ont:person          <http://dbpedia.org/resource/Leopold_Mozart> , <http://dbpedia.org/resource/Thomas_Keneally> ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> , <http://dbpedia.org/resource/Pluto> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "Pluto.In 1982" , "in 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/3136059/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sidney Sheinberg died in Beverly Hills, California on March 7, 2019 at the age of 84 from Parkinson's disease." ;
+        ont:person          <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:place           <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        ont:subject         <http://dbpedia.org/resource/Sidney_Sheinberg> ;
+        ont:timeExpression  "age of 84" , "March 7 , 2019" .

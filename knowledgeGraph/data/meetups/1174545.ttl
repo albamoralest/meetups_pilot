@@ -6,30 +6,434 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/1174545/3/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He did, however, get his name on one of Elvis' Sun records, \"I Forgot To Remember To Forget\" when the writer Stan Kesler asked him to record a demo of the song.He then moved on to Meteor Records and then King Records where he recorded his best-known work." ;
+        ont:person          <http://dbpedia.org/resource/Stan_Kesler> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "name on one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers' song, \"That Certain Female\" was featured on the soundtrack to Quentin Tarantino's 2003 film, Kill Bill: Volume 1." ;
+        ont:person          <http://dbpedia.org/resource/Quentin_Tarantino> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1" , "2003 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/55/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "version (early 1980s)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Feathers was born in Holly Springs, Mississippi, United States." ;
+        ont:place    <http://dbpedia.org/resource/Holly_Springs,_Mississippi> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Charlie_Feathers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/59/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Official Charlie Feathers Homepage" ;
+        ont:person   <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:subject  <http://dbpedia.org/resource/Charlie_Feathers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Charles Arthur Feathers (June 12, 1932 – August 29, 1998) was an American country music and rockabilly musician." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "June 12 , 1932" , "August 29 , 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "London '81 complete concert in 13 parts on YouTube" ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "concert in 13" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 13 - Working on a Building / You Believe Everyone but Me (early 1980s)Note: the Feathers 45s were private releases, sold at Charlie Feathers' concerts." ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "45s" , "Everyone" , "1980s" , "13" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 6 - He'll Have to Go / Will the Circle Be Unbroken (early 1980s)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1980s" , "6" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 12 - Who Da Say / Roll Over Beethoven – diff." ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Say> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "12" .
+
 <http://w3id.org/polifonia/pilot/meetups/1174545/48/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 5 - Jungle Fever / Jewel Here on Earth (early 1980s)" ;
         ont:person          <http://dbpedia.org/resource/Jewel_(singer)> ;
-        ont:place           "http://dbpedia.org/resource/Earth" ;
+        ont:place           <http://dbpedia.org/resource/Earth> ;
         ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
-        ont:timeExpression  "1980s" , "5" .
+        ont:timeExpression  "5" , "1980s" .
 
-<http://w3id.org/polifonia/pilot/meetups/1174545/21/0>
+<http://w3id.org/polifonia/pilot/meetups/1174545/54/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Charlie_Feathers> ;
-        ont:place           "http://dbpedia.org/resource/Paris" ;
+        ont:excerpt         "Feathers 11 - Lonesome Whistle / Cockroach (early 1980s)" ;
         ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
-        ont:timeExpression  "2002" , "1987" .
+        ont:timeExpression  "1980s" , "11" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 4 - Today I Started Loving You Again / Folsom Prison Blues (early 1980s)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "4" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 10 - One Black Rat / Dig Myself a Hole (early 1980s)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "10" , "One" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 3 - Cold Dark Night / Blame It on Time (early 1980s)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "3" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Philwood P-223 - Tear It Up / Stutterin' Cindy (1968)" ;
+        ont:person          <http://dbpedia.org/resource/Cindy_McCain> , <http://dbpedia.org/resource/Johnny_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/3/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "By all accounts the singer was not held in much regard by Phillips, but Feathers often made the audacious claim that he had arranged \"That's All Right\" and \"Blue Moon of Kentucky\" for Elvis Presley." ;
+        ont:person   <http://dbpedia.org/resource/Elvis_Presley> ;
+        ont:place    <http://dbpedia.org/resource/Kentucky> ;
+        ont:subject  <http://dbpedia.org/resource/Charlie_Feathers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 9 - In the Pines / I Must Move On (early 1980s)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1980s" , "9" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 791105 - Ooby Dooby / If You Were Mine to Lose (1979)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "791105" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Holiday Inn 114 - Nobody's Darlin' / Deep Elm Blues (April 1963)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "April 1963" , "Holiday Inn 114" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 8 - Roll Over Beethoven / Swinging Doors (early 1980s)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1980s" , "8" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 791104 - Blue Suede Shoes / We're Getting Closer (1979)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "791104" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Memphis 103 - Wild Wild Party / Today and Tomorrow (December 1961)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "December 1961" , "Memphis 103" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feathers 7 - Honky Tonk Man / That's Alright, Mama (early 1980s)" ;
+        ont:person          <http://dbpedia.org/resource/The_Honky_Tonk_Man> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1980s" , "7" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vetco 922 - We're Getting Closer to Being Apart / You Make It Look So Easy (1976)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1976" , "Vetco 922" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/64/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Listing of all Charlie Feathers' songs and alternatives" ;
+        ont:person   <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:subject  <http://dbpedia.org/resource/Charlie_Feathers> .
 
 <http://w3id.org/polifonia/pilot/meetups/1174545/36/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wal-May 101 - Dinky John / South of Chicago (as \"Charlie Morgan\", July 1960)" ;
         ont:person          <http://dbpedia.org/resource/Charlie_Morgan> ;
-        ont:place           "http://dbpedia.org/resource/Chicago" ;
+        ont:place           <http://dbpedia.org/resource/Chicago> ;
         ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
         ont:timeExpression  "July 1960" , "101" .
 
+<http://w3id.org/polifonia/pilot/meetups/1174545/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sun 231 - Defrost Your Heart / Wedding Gown of White (January 1956)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "January 1956" , "Sun 231" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/5/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Feathers is an inductee in the Mississippi Musicians Hall of Fame." ;
+        ont:place    <http://dbpedia.org/resource/Mississippi> ;
+        ont:subject  <http://dbpedia.org/resource/Charlie_Feathers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vetco 921 - Will You Be Satisfied That Way / It's Just That Song (1976)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1976" , "Vetco 921" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Kay 1001 - Jungle Fever / Why Don't You (June 1960)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "Kay 1001" , "June 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Flip 503 - I've Been Deceived / Peepin' Eyes (April 1955)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "Flip 503" , "April 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rollin' Rock 45-025 - That Certain Female / She Set Me Free (1974)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1974" , "Rock 45-025" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "King 5043 - Too Much Alike / When You Come Around (April 1957)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "April 1957" , "5043" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/3/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He eventually played on a small label started by Sam Phillips called Flip records which got him enough attention to record a couple singles for Sun Records and Holiday Inn Records." ;
+        ont:person   <http://dbpedia.org/resource/Sam_Phillips> ;
+        ont:subject  <http://dbpedia.org/resource/Charlie_Feathers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pompadour 231 - Uh Huh Honey / Wedding Gown of White (1973)" ;
+        ont:person          <http://dbpedia.org/resource/Madame_de_Pompadour> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1973" , "231" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "King 5022 - When You Decide / Nobody's Woman (February 1957)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "5022" , "February 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Long Time Ago (rare and unreleased tracks, 2008)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tip Top Daddy (Demos recorded 1958–1973, released 1995)" ;
+        ont:place           <http://dbpedia.org/resource/Tip_Top,_Arizona> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1958–1973" , "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "King 4997 - One Hand Loose / Bottle to the Baby (December 1956)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "December 1956" , "One" , "4997" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Honky Tonk Kind (rare and unreleased tracks, 2008)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I Ain't Done Yet (1993)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "King 4971 - Can't Hardly Stand It / Everybody's Lovin' My Baby (October 1956)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "October 1956" , "4971" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wild Side of Life (Charlie Feathers CD) (rare and unreleased tracks, 2008)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Charlie Feathers  (1991)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2 (1979)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "2" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Meteor 5032 - Get With It / Tongue-Tied Jill (June 1956)" ;
+        ont:person          <http://dbpedia.org/resource/Josh_Kelley> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "5032" , "June 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/3/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "These later albums of original songs penned by Feathers were released on the French label New Rose Records, whose other 1980s releases included albums by Johnny Thunders, Alex Chilton, Roky Erickson, The Cramps, The Gun Club, and others." ;
+        ont:person          <http://dbpedia.org/resource/Alex_Chilton> , <http://dbpedia.org/resource/Roky_Erickson> , <http://dbpedia.org/resource/Johnny_Thunders> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Get With It: Essential Recordings (early singles and unreleased tracks, 2 CDs, 1998)" ;
+        ont:person          <http://dbpedia.org/resource/Josh_Kelley> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1998" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Honky Tonk Man (Charlie Feathers LP) (1988)" ;
+        ont:person          <http://dbpedia.org/resource/The_Honky_Tonk_Man> , <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 (1979)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1979" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "New Jungle Fever (1987)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His childhood influences were reflected in his later music of the 1970s and 1980s, which had an easy-paced, sometimes sinister, country-blues tempo, as opposed to the frenetic fast-paced style favored by some of his rockabilly colleagues of the 1950s.He started out as a session musician at Sun Studios, playing any side instrument he could in the hopes of someday making his own music there." ;
+        ont:place           <http://dbpedia.org/resource/Sun_Studio> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1980s" , "1950s.He" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live in Paris '87 (Charlie Feathers CD) (recorded 1987, released 2002)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "2002" , "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Original TV Soundtrack NBC 1979 (1981)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1981" , "Soundtrack NBC 1979" .
+
 <http://w3id.org/polifonia/pilot/meetups/1174545/20/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live in London (Charlie Feathers CD) (recorded 1990, released 2000)" ;
         ont:person          <http://dbpedia.org/resource/Charlie_Feathers> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:place           <http://dbpedia.org/resource/London> ;
         ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
-        ont:timeExpression  "1990" , "2000" .
+        ont:timeExpression  "2000" , "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rockabilly Rhythm (recorded 1973, released 1981)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1981" , "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Charlie Feathers Vol." ;
+        ont:person   <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:subject  <http://dbpedia.org/resource/Charlie_Feathers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bob Dylan has featured Charlie Feathers on the second season of his XM satellite radio show Theme Time Radio Hour, playing Feathers' records \"One Hand Loose\" (on the \"Countdown\" show, Dec. 12, 2007) and \"Defrost Your Heart\" (on the \"Cold\" show, April 2, 2008)." ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Feathers> , <http://dbpedia.org/resource/Bob_Dylan> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "April 2 , 2008" , "One" , "Dec. 12 , 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/3/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When his King contract ran out he still continued to perform, although Feathers—perhaps typically—thought there was a conspiracy to keep his music from gaining the popularity it deserved.In the mid-1980s, he performed at times at new music nightclubs like the Antenna Club in Memphis, Tennessee, sharing the bill with rock-and-roll bands like Tav Falco's Panther Burns, who, as devoted fans of Feathers, had introduced him to their label's president.He released his New Jungle Fever album in 1987 and Honkey Tonk Man in 1988, featuring the lead guitar work of his son, Bubba Feathers." ;
+        ont:place           <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "album in 1987" , "in 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/11/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Rockabilly – Charlie Feathers Vol." ;
+        ont:person   <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:subject  <http://dbpedia.org/resource/Charlie_Feathers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live in Memphis (Charlie Feathers LP) (recorded in 1973, released in 1976)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "in 1973" , "in 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His \"Can't Hardly Stand It\" was featured on the follow-up Kill Bill: Volume 2 soundtrack, as well as the highly successful video game Grand Theft Auto V. A brief bit of \"Can't Hardly Stand It\" was also featured in the 2013 film Only Lovers Left Alive." ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "2 soundtrack" , "2013 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "That Rockabilly Cat (recorded 1968, released 1979)" ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "1968" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Good Rockin' Tonight (Charlie Feathers LP) (recorded in 1973, released in 1974)" ;
+        ont:person          <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "in 1973" , "in 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His theatrical, hiccup-styled, energetic, rockabilly vocal style inspired a later generation of rock vocalists, including Lux Interior of The Cramps.He studied and recorded several songs with Junior Kimbrough, whom he called \"the beginning and end of all music\"." ;
+        ont:person   <http://dbpedia.org/resource/Junior_Kimbrough> ;
+        ont:subject  <http://dbpedia.org/resource/Charlie_Feathers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1174545/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died on August 29, 1998, of complications from a stroke-induced coma.Charlie Feathers' pioneering contribution to the genre has been recognized by the Rockabilly Hall of Fame." ;
+        ont:subject         <http://dbpedia.org/resource/Charlie_Feathers> ;
+        ont:timeExpression  "August 29 , 1998" .

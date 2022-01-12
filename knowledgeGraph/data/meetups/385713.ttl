@@ -6,30 +6,357 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/385713/3/3>
+<http://w3id.org/polifonia/pilot/meetups/385713/60/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jesus> ;
-        ont:place           "http://dbpedia.org/resource/Germany" ;
+        ont:excerpt         "Encyclopædia Britannica (11th ed.)." ;
         ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
-        ont:timeExpression  "1755" .
+        ont:timeExpression  "11th" .
 
 <http://w3id.org/polifonia/pilot/meetups/385713/2/4>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1735, Graun moved to Rheinsberg in Brandenburg, after he had written the opera Lo specchio della fedeltà for the marriage of the then crown prince Frederick (the Great) and Elisabeth Christine in Schloss Salzdahlum in 1733." ;
         ont:person          <http://dbpedia.org/resource/Frederick_the_Great> ;
-        ont:place           "http://dbpedia.org/resource/Rheinsberg" , "http://dbpedia.org/resource/Margraviate_of_Brandenburg" ;
+        ont:place           <http://dbpedia.org/resource/Rheinsberg> , <http://dbpedia.org/resource/Margraviate_of_Brandenburg> ;
         ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
-        ont:timeExpression  "In 1735" , "in 1733" .
+        ont:timeExpression  "in 1733" , "In 1735" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lieder (1743)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1743" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John W. Grubbs (1972): The Sacred Choral Music of the Graun Brothers, 1972" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Six Italian Cantatas" ;
+        ont:place           <http://dbpedia.org/resource/Italy> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "Six" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/40/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1730)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1730" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His works are rarely played today, though his passion cantata Der Tod Jesu (The Death of Jesus, 1755) was frequently performed in Germany for many years after his death." ;
+        ont:person          <http://dbpedia.org/resource/Jesus> ;
+        ont:place           <http://dbpedia.org/resource/Germany> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1755" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "La Merope (3 acts, 1756)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1756" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1724, Graun moved to Braunschweig, singing at the opera house and writing six operas for the company." ;
+        ont:place           <http://dbpedia.org/resource/Braunschweig> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "six" , "In 1724" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I fratelli nemici (3 acts, 1756)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1756" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Britannico (3 acts, 1751)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1751" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Der Tod Jesu, Passion cantata (1755)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1755" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ezio, libretto by Metastasio (1755)" ;
+        ont:person          <http://dbpedia.org/resource/Pietro_Metastasio> , <http://dbpedia.org/resource/Flavius_Aetius> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1755" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "L’Armida (3 acts, 1751)" ;
+        ont:place           <http://dbpedia.org/resource/Lâ> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1751" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Kommt her und schaut (Große Passion) (1730)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1730" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Montezuma (3 acts, 1755)" ;
+        ont:person          <http://dbpedia.org/resource/Moctezuma_II> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1755" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Il Mithridate (3 acts, 1751)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1751" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/40/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ein Lämmlein geht und trägt die Schuld Passion cantata (ca." ;
+        ont:place    <http://dbpedia.org/resource/Schuld> ;
+        ont:subject  <http://dbpedia.org/resource/Carl_Heinrich_Graun> .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Semiramide (3 acts, 1754)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1754" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fetonte (3 acts, 1750)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1750" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cajo Fabricio (3 acts, 1746)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1746" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Montezuma (1755) was written to a libretto by King Frederick." ;
+        ont:person          <http://dbpedia.org/resource/Moctezuma_II> , <http://dbpedia.org/resource/Frederick_the_Great> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1755" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Silla (3 acts, 1753)" ;
+        ont:place           <http://dbpedia.org/resource/Silla> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1753" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Coriolano (3 acts, 1749)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1749" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Demofoonte, libretto by Metastasio (3 acts, 1746)" ;
+        ont:person          <http://dbpedia.org/resource/Pietro_Metastasio> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1746" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He studied singing with Christian Petzold and composition with Johann Christoph Schmidt." ;
+        ont:person   <http://dbpedia.org/resource/Christian_Petzold_(director)> ;
+        ont:subject  <http://dbpedia.org/resource/Carl_Heinrich_Graun> .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Il giudizio di Paride (1 act, 1752)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1 act" , "1752" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Angelica e Medoro (3 acts, 1749)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1749" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Adriano in Siria, libretto by Metastasio (3 acts, 1746)" ;
+        ont:person          <http://dbpedia.org/resource/Pietro_Metastasio> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1746" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "L'Orfeo (3 acts, 1752)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1752" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ifigenia in Aulide (3 acts, 1748)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1748" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lucio Papirio (3 acts, 1744)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1744" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lo specchio della fedeltà (3 acts, 1733)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1733" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "L'Europa galante (1748)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1748" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alessandro e Poro, libretto by Metastasio (3 acts, 1744)" ;
+        ont:person          <http://dbpedia.org/resource/Pietro_Metastasio> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1744" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Scipio Africanus (3 acts, 1732)" ;
+        ont:person          <http://dbpedia.org/resource/Scipio_Africanus> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1732" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cinna (3 acts, 1748)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1748" , "3" .
 
 <http://w3id.org/polifonia/pilot/meetups/385713/14/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Catone in Utica, libretto by Metastasio (3 acts, 1743)" ;
         ont:person          <http://dbpedia.org/resource/Pietro_Metastasio> ;
-        ont:place           "http://dbpedia.org/resource/Utica,_New_York" ;
+        ont:place           <http://dbpedia.org/resource/Utica,_New_York> ;
         ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
         ont:timeExpression  "1743" , "3" .
 
+<http://w3id.org/polifonia/pilot/meetups/385713/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His opera Cesare e Cleopatra inaugurated the opening of the Berlin State Opera (Königliche Hofoper) in 1742." ;
+        ont:person          <http://dbpedia.org/resource/Cleopatra> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "in 1742" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Iphigenia in Aulis (3 acts 1728)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1728" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Le feste galanti (1747)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1747" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Artaserse, libretto by Metastasio (3 acts, 1743)" ;
+        ont:person          <http://dbpedia.org/resource/Pietro_Metastasio> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1743" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1714, he followed his brother, Johann Gottlieb Graun, to the school of the Kreuzkirche, Dresden, and sang in the Dresdner Kreuzchor and the chorus of the Dresden Opera." ;
+        ont:place           <http://dbpedia.org/resource/Kreuzkirche,_Dresden> , <http://dbpedia.org/resource/Semperoper> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "In 1714" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Polydorus (5 acts, 1726–28)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "5" , "1726–28" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cesare e Cleopatra (3 acts, 1742)" ;
+        ont:person          <http://dbpedia.org/resource/Cleopatra> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "3" , "1742" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rodelinda, regina de' langobardi (3 acts, 1741)" ;
+        ont:place           <http://dbpedia.org/resource/Regina,_Saskatchewan> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1741" , "3" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Along with Johann Adolph Hasse, he is considered to be the most important German composer of Italian opera of his time." ;
+        ont:person   <http://dbpedia.org/resource/Johann_Adolph_Hasse> ;
+        ont:subject  <http://dbpedia.org/resource/Carl_Heinrich_Graun> .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/3/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His great-great-great-great-grandson, Vladimir Nabokov, became an eminent 20th-century novelist." ;
+        ont:person   <http://dbpedia.org/resource/Vladimir_Nabokov> ;
+        ont:subject  <http://dbpedia.org/resource/Carl_Heinrich_Graun> .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pharao Tubaetes (5 acts, 1735)" ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "5" , "1735" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Graun was born in Wahrenbrück in the Margraviate of Brandenburg." ;
+        ont:place    <http://dbpedia.org/resource/Margraviate_of_Brandenburg> ;
+        ont:subject  <http://dbpedia.org/resource/Carl_Heinrich_Graun> .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/60/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1911." ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Carl Heinrich Graun (7 May 1704 – 8 August 1759) was a German composer and tenor." ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "8 August 1759" , "7 May 1704" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was known for particularly good text-setting, probably due to his background as a vocalist.He married twice and had a daughter, who became a singer, from his first marriage and four sons from his second." ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/385713/56/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Stanley Sadie (London, 1992) ISBN 0-333-73432-7" ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
+        ont:timeExpression  "1992" .
+
 <http://w3id.org/polifonia/pilot/meetups/385713/2/5>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was Kapellmeister to Frederick the Great from his ascension to the throne in 1740 until Graun's death nineteen years later in Berlin." ;
         ont:person          <http://dbpedia.org/resource/Frederick_the_Great> ;
-        ont:place           "http://dbpedia.org/resource/Berlin" ;
+        ont:place           <http://dbpedia.org/resource/Berlin> ;
         ont:subject         <http://dbpedia.org/resource/Carl_Heinrich_Graun> ;
         ont:timeExpression  "nineteen" , "throne in 1740" .

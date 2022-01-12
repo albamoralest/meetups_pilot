@@ -6,44 +6,319 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/322567/4/0>
+<http://w3id.org/polifonia/pilot/meetups/322567/38/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Harry Edison at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/37/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Harry Edison at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/36/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Harry Edison discography at Discogs" ;
+        ont:person   <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/29/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Thomas_Edison> ;
-        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:excerpt         "Just Friends (Pablo, 1978 [1980]) with John Haley Sims" ;
+        ont:person          <http://dbpedia.org/resource/Zoot_Sims> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
-        ont:timeExpression  "1970s" .
+        ont:timeExpression  "1980 ]" , "1978 [" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/35/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Harry Edison at AllMusic" ;
+        ont:person   <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Simply Sweets (Pablo, 1978) with Eddie \"Lockjaw\" Davis" ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1937, he moved to New York and joined the Count Basie Orchestra." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "In 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Edison's Lights (Pablo, 1976)" ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Edison> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Oscar Peterson and the Trumpet Kings – Jousts (Pablo, 1974) with Oscar Peterson, Dizzy Gillespie, Roy Eldridge and Clark Terry" ;
+        ont:person          <http://dbpedia.org/resource/Clark_Terry> , <http://dbpedia.org/resource/Roy_Eldridge> , <http://dbpedia.org/resource/Oscar_Peterson> , <http://dbpedia.org/resource/Dizzy_Gillespie> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jawbreakers (Riverside, 1962) with Eddie \"Lockjaw\" Davis" ;
+        ont:person          <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Swing (Verve, 1958 [1960])" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1958 [" , "1960 ]" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As the Los Angeles Jazz Society (LAJS) first Tribute Honoree, \"Sweets\" will always have a special place in the hearts of jazz fans.Edison died of prostate cancer at his home in Columbus, Ohio at the age of 83." ;
+        ont:place           <http://dbpedia.org/resource/Ohio> , <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "age of 83" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Oscar Peterson and Harry Edison (Pablo, 1974) with Oscar Peterson" ;
+        ont:person          <http://dbpedia.org/resource/Harry_Edison> , <http://dbpedia.org/resource/Oscar_Peterson> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Together (Roulette, 1961) with Joe Williams" ;
+        ont:person          <http://dbpedia.org/resource/Smokey_Joe_Williams> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/2/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also appeared in the 1944 film Jammin' the Blues." ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1944 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For My Pals (Pablo, 1988)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/3/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He worked with closely with the arranger Nelson Riddle, who gave Edison a mike that was separate from the rest of the trumpet section." ;
+        ont:person   <http://dbpedia.org/resource/Thomas_Edison> , <http://dbpedia.org/resource/Nelson_Riddle> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Trumpet Kings Meet Joe Turner (Pablo, 1974) with Big Joe Turner, Dizzy Gillespie, Roy Eldridge and Clark Terry" ;
+        ont:person          <http://dbpedia.org/resource/Clark_Terry> , <http://dbpedia.org/resource/Big_Joe_Turner> , <http://dbpedia.org/resource/Roy_Eldridge> , <http://dbpedia.org/resource/Dizzy_Gillespie> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Patented by Edison (Roulette, 1960)" ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Edison> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Afterwards, he played with the Mills Blue Rhythm Band and Lucky Millinder." ;
+        ont:person   <http://dbpedia.org/resource/Lucky_Millinder> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Oscar Peterson + Harry Edison + Eddie \"Cleanhead\" Vinson (Pablo, 1986) with Oscar Peterson and Eddie \"Cleanhead\" Vinson" ;
+        ont:person          <http://dbpedia.org/resource/Eddie_Vinson> , <http://dbpedia.org/resource/Harry_Edison> , <http://dbpedia.org/resource/Oscar_Peterson> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When Lights are Low (Liberty, 1966)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sweetenings (Roulette, 1958)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sweets for the Sweet Taste of Love (Vee-Jay, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Harry Edison Swings Buck Clayton (Verve, 1958) with Buck Clayton" ;
+        ont:person          <http://dbpedia.org/resource/Buck_Clayton> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Sweets\" for the Sweet (Sue, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/4/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He appeared frequently in Europe and Japan until shortly before his death." ;
+        ont:place    <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/Japan> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wanted to Do One Together (Columbia, 1962) with Ben Webster" ;
+        ont:person          <http://dbpedia.org/resource/Ben_Webster> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "One" , "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Swinger (Verve, 1958)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/2/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"\"Sweets\" Edison came to prominence as a soloist with the Basie Band and as an occasional composer/arranger for the band." ;
+        ont:person   <http://dbpedia.org/resource/Count_Basie> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .
 
 <http://w3id.org/polifonia/pilot/meetups/322567/3/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the early 1950s, he settled on the West Coast and became a highly sought-after studio musician, making important contributions to recordings by such artists as Billie Holiday, Frank Sinatra, Nat King Cole, Billy Daniels, Margaret Whiting, Bing Crosby and Ella Fitzgerald." ;
         ont:person          <http://dbpedia.org/resource/Billie_Holiday> , <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Ella_Fitzgerald> , <http://dbpedia.org/resource/Billy_Daniels> , <http://dbpedia.org/resource/Nat_King_Cole> , <http://dbpedia.org/resource/Bing_Crosby> , <http://dbpedia.org/resource/Margaret_Whiting> ;
-        ont:place           "http://dbpedia.org/resource/West_Coast_of_the_United_States" ;
+        ont:place           <http://dbpedia.org/resource/West_Coast_of_the_United_States> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
         ont:timeExpression  "1950s" .
 
-<http://w3id.org/polifonia/pilot/meetups/322567/2/6>
+<http://w3id.org/polifonia/pilot/meetups/322567/12/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Thomas_Edison> , <http://dbpedia.org/resource/Elvin_Jones> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "Going for Myself (Verve, 1958) with Lester Young" ;
+        ont:person          <http://dbpedia.org/resource/Lester_Young> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
-        ont:timeExpression  "2003 interview" .
-
-<http://w3id.org/polifonia/pilot/meetups/322567/4/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Redd_Foxx> , <http://dbpedia.org/resource/Thomas_Edison> ;
-        ont:place           "http://dbpedia.org/resource/Las_Vegas_Valley" ;
-        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
-        ont:timeExpression  "From 1973" .
-
-<http://w3id.org/polifonia/pilot/meetups/322567/0/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Harry_Edison> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
-        ont:timeExpression  "October 10 , 1915" , "July 27 , 1999" .
+        ont:timeExpression  "1958" .
 
 <http://w3id.org/polifonia/pilot/meetups/322567/2/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After moving back to Columbus at the age of twelve, the young Edison began playing the trumpet with local bands.In 1933, he became a member of the Jeter-Pillars Orchestra in Cleveland." ;
         ont:person          <http://dbpedia.org/resource/Thomas_Edison> , <http://dbpedia.org/resource/Christopher_Columbus> ;
-        ont:place           "http://dbpedia.org/resource/Cleveland" ;
+        ont:place           <http://dbpedia.org/resource/Cleveland> ;
         ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
         ont:timeExpression  "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz Giants '58 (Verve, 1958) with Stan Getz and Gerry Mulligan" ;
+        ont:person          <http://dbpedia.org/resource/Gerry_Mulligan> , <http://dbpedia.org/resource/Stan_Getz> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gee, Baby Ain't I Good to You (Verve, 1957) with Ben Webster" ;
+        ont:person          <http://dbpedia.org/resource/Ben_Webster> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sweets (Clef, 1956)" ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1973, Edison acted as Musical Director for Redd Foxx on theatre dates, at concerts, and in Las Vegas." ;
+        ont:person          <http://dbpedia.org/resource/Redd_Foxx> , <http://dbpedia.org/resource/Thomas_Edison> ;
+        ont:place           <http://dbpedia.org/resource/Las_Vegas_Valley> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "From 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pres and Sweets (Norgran, 1955) with Lester Young" ;
+        ont:person          <http://dbpedia.org/resource/Lester_Young> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Buddy and Sweets (Norgran, 1955) with Buddy Rich" ;
+        ont:person          <http://dbpedia.org/resource/Buddy_Rich> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His greatest impact was as  a Hollywood studio musician, whose muted trumpet can be heard backing singers, most notably Frank Sinatra." ;
+        ont:person   <http://dbpedia.org/resource/Frank_Sinatra> ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "According to the Encyclopedia of Jazz in the Seventies, Edison in the 1960s and 1970s continued to work in many orchestras on television shows, including Hollywood Palace and The Leslie Uggams Show, specials with Frank Sinatra; prominently featured on the sound track and in the sound track album of the film, Lady Sings the Blues." ;
+        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Thomas_Edison> ;
+        ont:place           <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In a 2003 interview for the National Museum of American History, drummer Elvin Jones explained the origin of Edison's nickname: \"Sweets had so many lady friends, he was such a handsome man." ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Edison> , <http://dbpedia.org/resource/Elvin_Jones> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "2003 interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Edison spent thirteen years with Basie until the band was temporarily disbanded in 1950." ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Edison> , <http://dbpedia.org/resource/Count_Basie> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "in 1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Edison was born in Columbus, Ohio, United States." ;
+        ont:person   <http://dbpedia.org/resource/Thomas_Edison> ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Ohio> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Harry \"Sweets\" Edison (October 10, 1915 – July 27, 1999) was an American jazz trumpeter and a member of the Count Basie Orchestra." ;
+        ont:person          <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "July 27 , 1999" , "October 10 , 1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1956, he recorded the first of three albums with Ben Webster." ;
+        ont:person          <http://dbpedia.org/resource/Ben_Webster> ;
+        ont:subject         <http://dbpedia.org/resource/Harry_Edison> ;
+        ont:timeExpression  "of three" , "In 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/322567/2/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His colleagues included Buck Clayton, Lester Young (who named him \"Sweets\"), Buddy Tate, Freddie Green, Jo Jones, and other original members of that famous band." ;
+        ont:person   <http://dbpedia.org/resource/Jo_Jones> , <http://dbpedia.org/resource/Buck_Clayton> , <http://dbpedia.org/resource/Freddie_Green> , <http://dbpedia.org/resource/Lester_Young> ;
+        ont:subject  <http://dbpedia.org/resource/Harry_Edison> .

@@ -6,44 +6,358 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/351206/15/0>
+<http://w3id.org/polifonia/pilot/meetups/351206/6/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Richie_Beirach> ;
-        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:excerpt         "1968: Jeremy & The Satyrs (Reprise)" ;
         ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
-        ont:timeExpression  "in 1988" , "1976" .
+        ont:timeExpression  "1968" .
 
-<http://w3id.org/polifonia/pilot/meetups/351206/32/0>
+<http://w3id.org/polifonia/pilot/meetups/351206/5/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/James_Paul_Moody> ;
-        ont:place           "http://dbpedia.org/resource/Atlantic_Ocean" , "http://dbpedia.org/resource/Flute_Summit_(British_Columbia)" ;
+        ont:excerpt         "1963: Flute Fever (Columbia) Quartet with Denny Zeitlin" ;
+        ont:person          <http://dbpedia.org/resource/Denny_Zeitlin> ;
         ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
-        ont:timeExpression  "1974" .
+        ont:timeExpression  "1963" .
 
-<http://w3id.org/polifonia/pilot/meetups/351206/55/0>
+<http://w3id.org/polifonia/pilot/meetups/351206/49/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jeremy_Steig> ;
-        ont:place           "http://dbpedia.org/resource/Sutherland" ;
+        ont:excerpt         "Saints & Sinners (Columbia, 1974) note: Jeremy plays on \"Dirty\", a previously unreleased instrumental track recorded for but left-off the original album release; it is included on the CD reissue.With Paul Winter Sextet" ;
+        ont:person          <http://dbpedia.org/resource/Paul_Winter> ;
         ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
-        ont:timeExpression  "April 17 , 2004" .
+        ont:timeExpression  "left-off" , "1974" .
 
-<http://w3id.org/polifonia/pilot/meetups/351206/2/1>
+<http://w3id.org/polifonia/pilot/meetups/351206/37/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Margaret_Mead> , <http://dbpedia.org/resource/Catherine_Parr> ;
-        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:excerpt         "1 (Rhino Records, 1996) a collection of \"grade-A\" previously unreleased \"rock-jazz-fusion\" material." ;
         ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
-        ont:timeExpression  "1970 album" , "1994" .
+        ont:timeExpression  "1" , "1996" .
 
-<http://w3id.org/polifonia/pilot/meetups/351206/36/0>
+<http://w3id.org/polifonia/pilot/meetups/351206/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Steig was born in Manhattan, the son of New Yorker cartoonist William Steig and Elizabeth (Mead) Steig, head of the fine arts department at Lesley College." ;
+        ont:person   <http://dbpedia.org/resource/William_Steig> , <http://dbpedia.org/resource/Elizabeth_I> ;
+        ont:place    <http://dbpedia.org/resource/Manhattan> ;
+        ont:subject  <http://dbpedia.org/resource/Jeremy_Steig> .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/48/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Tommy_Bolin> ;
-        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:excerpt         "Still Alive and Well (Columbia, 1973)" ;
         ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
-        ont:timeExpression  "1977" .
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rainy Day Raga (Vanguard, 1966)With Johnny Winter" ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Winter> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1966" .
 
 <http://w3id.org/polifonia/pilot/meetups/351206/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jeremy Steig (September 23, 1942 – April 13, 2016) was an American jazz flutist." ;
         ont:person          <http://dbpedia.org/resource/Jeremy_Steig> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
-        ont:timeExpression  "September 23 , 1942" , "April 13 , 2016" .
+        ont:timeExpression  "April 13 , 2016" , "September 23 , 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Towering Toccata (CTI, 1976)With Peter Walker" ;
+        ont:person          <http://dbpedia.org/resource/Peter_Walker,_Baron_Walker_of_Worcester> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hank Crawford's Back (Kudu, 1976)" ;
+        ont:person          <http://dbpedia.org/resource/Hank_Crawford> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Boogie To The Top (Kudu/CTI, 1978)With Lalo Schifrin" ;
+        ont:person          <http://dbpedia.org/resource/Lalo_Schifrin> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From The Archives - Volume 2 (Zebra Records, 1998) another collection of previously unreleased material; even better than the first volume.With Hank Crawford" ;
+        ont:person          <http://dbpedia.org/resource/Hank_Crawford> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "2" , "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Turn This Mutha Out (Kudu/CTI, 1977)" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Journey Thru an Electric Tube (Solid State, 1968)With Idris Muhammad" ;
+        ont:person          <http://dbpedia.org/resource/Idris_Muhammad> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Illumination (Denon [Japan] Records, 1977)With Tommy Bolin" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Bolin> ;
+        ont:place           <http://dbpedia.org/resource/Japan> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1971: Portrait (United Artists) 2LP compilation of the albums: This Is Jeremy Steig, Legwork and Wayfaring Stranger." ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1971" , "2LP compilation" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Fox (CTI, 1976)With Mike Mainieri" ;
+        ont:person          <http://dbpedia.org/resource/Mike_Mainieri> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/35/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With Walter Bishop, Jr. Trio" ;
+        ont:person   <http://dbpedia.org/resource/Walter_Bishop_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Jeremy_Steig> .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/56/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jeremy Steig at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:subject  <http://dbpedia.org/resource/Jeremy_Steig> .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1969: Jazz Wave, Ltd. - On Tour [live] (Blue Note) 2LP set; various artists" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1969" , "2LP" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Crawl Space (CTI, 1977)With Urbie Green" ;
+        ont:person          <http://dbpedia.org/resource/Urbie_Green> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Celeste Sutherland, \"Jeremy Steig\", All About Jazz, April 17, 2004" ;
+        ont:person          <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:place           <http://dbpedia.org/resource/Sutherland> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "April 17 , 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The book is illustrated with Jeremy's ink drawings and, at his request, contains three final chapters and an epilogue by Asako." ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tico Rico (Kudu/CTI, 1977)With Art Farmer" ;
+        ont:person          <http://dbpedia.org/resource/Art_Farmer> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2008: Howlin' For Judy (Blue Note's \"Rare Grooves\" series) CD compilation of the albums: Legwork and Wayfaring Stranger." ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/54/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tribute page to Jeremy Steig on his official web site" ;
+        ont:person   <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:subject  <http://dbpedia.org/resource/Jeremy_Steig> .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2007: Pterodactyl (Steig Music Company)" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1979: Music for Flute & Double-Bass (CMP) with Eddie Gómez" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1974: Flute Summit - Jamming At Donaueschingen Music Festival (Atlantic) with James Moody, Sahib Shihab, Chris Hinze" ;
+        ont:person          <http://dbpedia.org/resource/James_Paul_Moody> ;
+        ont:place           <http://dbpedia.org/resource/Flute_Summit_(British_Columbia)> , <http://dbpedia.org/resource/Atlantic_Ocean> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2005: Flute On The Edge (Steig Music Company)" ;
+        ont:person          <http://dbpedia.org/resource/The_Edge> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1978: Lend Me Your Ears (Creative Music Productions/CMP) with Eddie Gómez and Joe Chambers" ;
+        ont:person          <http://dbpedia.org/resource/Joe_Chambers> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1973: Mama Kuku [live] (MPS/BASF Records) with Association P.C." ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2004: Improvised (Moonbeams Records)" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1977: Firefly (CTI)" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Summer's Night (Stormy Forest, 1970)" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1972: Fusion (Groove Merchant) 2LP set; reissue of Energy, with a second album (=7 tracks) of previously unreleased material." ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "2LP set" , "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2003: Jam (Steig-Gomez Records) with Eddie Gómez" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1976: Outlaws [live] (Enja) with Eddie Gómez" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz Meets The Folk Song (Columbia, 1964)With Montreal" ;
+        ont:place           <http://dbpedia.org/resource/Montreal> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2002: What's New at F (Tokuma [Japan] Records) with Eddie Gómez Quartet" ;
+        ont:place           <http://dbpedia.org/resource/Japan> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1976: Leaving (Trio [Japan] Records; reissued on Storyville in 1988) with Richard Beirach" ;
+        ont:person          <http://dbpedia.org/resource/Richie_Beirach> ;
+        ont:place           <http://dbpedia.org/resource/Japan> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1976" , "in 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Four years after his death, Byroad Press published his memoir, Get Me Out of Here, fulfilling his final wish." ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "Four" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1992: Jigsaw (Triloka)" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1975: Temple of Birth (Columbia) with Richard Beirach and Johnny Winter" ;
+        ont:person          <http://dbpedia.org/resource/Richie_Beirach> , <http://dbpedia.org/resource/Johnny_Winter> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1980: Rain Forest (CMP) with Eddie Gómez" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1974: Monium (Columbia) with Eddie Gómez" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1971: An Open Heart - Warriors Of The Rainbow (Akashic Records) with Fantazzi & Friends; a limited edition-private pressing release." ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1970: Energy (Capitol)" ;
+        ont:place           <http://dbpedia.org/resource/United_States_Capitol> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1970: Wayfaring Stranger (Blue Note)" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died in Yokohama from cancer on April 13, 2016." ;
+        ont:place           <http://dbpedia.org/resource/Yokohama> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "April 13 , 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1970: Legwork (Solid State)" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1969: This Is Jeremy Steig (Solid State)" ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1969: What’s New (Verve) with Bill Evans Trio" ;
+        ont:person          <http://dbpedia.org/resource/Bill_Evans> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/351206/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Steig was a maternal nephew of Margaret Mead and Leo Rosten, and was also the cousin of Mary Catherine Bateson.His song \"Howlin' For Judy\", from his 1970 album Legwork, was sampled in the Beastie Boys' 1994 single \"Sure Shot\", providing the main instrumental part of the song.Steig performed the role of \"The Pied Piper\", exclusively on flute, in the film Shrek Forever After, based on the character created by his father.He lived in Japan with his wife Asako." ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Margaret_Mead> , <http://dbpedia.org/resource/Catherine_Parr> ;
+        ont:place           <http://dbpedia.org/resource/Japan> ;
+        ont:subject         <http://dbpedia.org/resource/Jeremy_Steig> ;
+        ont:timeExpression  "1970 album" , "1994" .

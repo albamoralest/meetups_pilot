@@ -6,37 +6,703 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/577944/3/0>
+<http://w3id.org/polifonia/pilot/meetups/577944/6/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Ivor_Allchurch> ;
-        ont:place           "http://dbpedia.org/resource/Glasgow" , "http://dbpedia.org/resource/Govan" ;
+        ont:excerpt         "Cutler also released the single \"Women of the World\", recorded with Linda Hirst, through the label in 1983." ;
+        ont:person          <http://dbpedia.org/resource/Linda_McCartney> , <http://dbpedia.org/resource/Chris_Cutler> ;
         ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
-        ont:timeExpression  "in 1923" .
+        ont:timeExpression  "label in 1983" .
 
-<http://w3id.org/polifonia/pilot/meetups/577944/1/3>
+<http://w3id.org/polifonia/pilot/meetups/577944/40/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
-        ont:place           "http://dbpedia.org/resource/Singly" ;
+        ont:excerpt         "LARGE et Puffy (1984)." ;
         ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
-        ont:timeExpression  "two" .
+        ont:timeExpression  "1984" .
 
 <http://w3id.org/polifonia/pilot/meetups/577944/12/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In October 2012 in Seattle, Washington, the Mark Morris Dance Group premiered a work entitled \"Wooden Tree,\" featuring recordings of Cutler's renditions of his songs.In 2014 a new play, The Beautiful Cosmos of Ivor Cutler, a co-production by Vanishing Point and National Theatre of Scotland, was performed.Cutler earned a faithful cult following." ;
         ont:person          <http://dbpedia.org/resource/Mark_Morris_(choreographer)> , <http://dbpedia.org/resource/Ivor_Allchurch> , <http://dbpedia.org/resource/Chris_Cutler> ;
-        ont:place           "http://dbpedia.org/resource/Royal_National_Theatre" , "http://dbpedia.org/resource/Seattle" ;
+        ont:place           <http://dbpedia.org/resource/Seattle> , <http://dbpedia.org/resource/Royal_National_Theatre> ;
         ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
-        ont:timeExpression  "October 2012" , "2014" .
+        ont:timeExpression  "2014" , "October 2012" .
 
-<http://w3id.org/polifonia/pilot/meetups/577944/0/3>
+<http://w3id.org/polifonia/pilot/meetups/577944/5/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Each of these discs intersperses Cutler's poems and songs with readings by his performing companion Phyllis King." ;
+        ont:person   <http://dbpedia.org/resource/Phyllis_King> , <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:excerpt         "Following this film role, Cutler recorded an LP, Ludo (1967), produced by The Beatles' George Martin, and credited to the Ivor Cutler Trio, made up of Cutler with bassist Gill Lyons and percussionist Trevor Tomkins." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Trevor_Tomkins> , <http://dbpedia.org/resource/Ivor_Allchurch> , <http://dbpedia.org/resource/Chris_Cutler> ;
         ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
-        ont:timeExpression  "for 30" .
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/10/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In these, one party is often Cutler as a child, a poetic voice which he adopted in order to bypass the intellect." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "one party" .
 
 <http://w3id.org/polifonia/pilot/meetups/577944/11/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Composer, multi-instrumentalist and producer Jim O'Rourke covered Culter's 1983 song \"Women of the World\" on his album Eureka (1999)." ;
         ont:person          <http://dbpedia.org/resource/Jim_O'Rourke_(musician)> ;
-        ont:place           "http://dbpedia.org/resource/Eureka,_California" , "http://dbpedia.org/resource/Peterculter" ;
+        ont:place           <http://dbpedia.org/resource/Peterculter> , <http://dbpedia.org/resource/Eureka,_California> ;
         ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
         ont:timeExpression  "1983 song" , "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cutler was a noted eccentric, dressing in a distinctive style including plus-fours and hats adorned with many badges, travelling mainly by bicycle and often communicating by means of sticky labels printed with \"Cutlerisms\", one of which, \"never knowingly understood\" came to be applied by supporters and detractors alike (the latter phrase is a play on 'never knowingly undersold', the slogan of the John Lewis Partnership)." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1939 Cutler was evacuated to Annan." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "In 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The collaboration with Wyatt led to Cutler being signed to Wyatt's record label Virgin Records, for whom Cutler recorded three LPs in the mid-1970s: Dandruff (1974), Velvet Donkey (1975) and Jammy Smears (1976)." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Wyatt_Earp> , <http://dbpedia.org/resource/Peter_Rauhofer> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1974" , "three" , "1975" , "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1980s, Rough Trade Records released three LPs—Privilege (1983), Prince Ivor (1986) and Gruts (1986)." ;
+        ont:person          <http://dbpedia.org/resource/Ivor_Allchurch> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1983" , "1986" , "three" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/1/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Cutler also collaborated with pianist Neil Ardley, singer Robert Wyatt, guitarist Fred Frith, musicians David Toop and Steve Beresford." ;
+        ont:person   <http://dbpedia.org/resource/Fred_Frith> , <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Robert_Wyatt> , <http://dbpedia.org/resource/David_Toop> , <http://dbpedia.org/resource/Steve_Beresford> , <http://dbpedia.org/resource/Neil_Ardley> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/67/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 0-370-31873-0OtherBefriend a Bacterium: Stickies by Ivor Cutler (1992)." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Ivor_Allchurch> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the film, Cutler plays would-be courier Buster Bloodvessel who becomes passionately attracted to Ringo Starr's Aunt Jessie." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Buster_Bloodvessel> , <http://dbpedia.org/resource/Ringo_Starr> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/0/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He told Andy Kershaw on his radio show that he also gave private poetry lessons to individuals." ;
+        ont:person   <http://dbpedia.org/resource/Andy_Kershaw> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/54/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1971)  Armada Lions Edition (1988)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1971" , "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In the 1970s, Neil Ardley had Cutler sing on his album A Symphony of Amaranths (1971), and former-Soft Machine drummer Robert Wyatt asked Cutler to play harmonium and sing on two of the tracks on his album Rock Bottom (1974)." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Neil_Ardley> , <http://dbpedia.org/resource/Robert_Wyatt> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1971" , "1974" , "on two" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cutler also produced the work as a book, which was published in 1984 with illustrations by Martin Honeysett.Cutler contributed the track \"Brooch Boat\" to the cult 1980 album Miniatures, produced and edited by Morgan Fisher, which consisted entirely of one-minute-long recordings." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Morgan_Fisher> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1980 album" , "in 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/1/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The two starred in a BBC radio series, King Cutler, in which they performed their material jointly and singly." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:place           <http://dbpedia.org/resource/Singly> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cutler appeared in the pop musical film It's All Over Town in 1964, and continued to make appearances on the BBC's programmes during the 1960s, and as a result of an appearance on the television show Late Night Line-Up, he was noticed by Paul McCartney, who invited Cutler to appear in The Beatles' Magical Mystery Tour film." ;
+        ont:person          <http://dbpedia.org/resource/Paul_McCartney> , <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "in 1964" , "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cutler also wrote books for children and adults and was a teacher at A. S. Neill's Summerhill School and for 30 years in inner-city schools in London." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "for 30" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/54/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 0-413-73600-8Children's booksMeal One." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/47/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 1-900072-35-1" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "ISBN 1-900072-35-1" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "There were crossovers, where parts of the public performances, albums, and books had the same name – the most notable and regular favourite at performances was Life in a Scotch Sitting Room, Volume 2, combining the book  with the album." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/76/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ivor Cutler at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Ivor_Allchurch> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Looking for Truth with a Pin (BBC Four documentary, 2005) (IMDB entry)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/12/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He retired from performing in 2004, and died on 3 March 2006, in London.Reflections upon his poetry, humour and legacy continue well after his death" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "3 March 2006" , "in 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/75/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Peel Sessions - Ivor Cutler" ;
+        ont:person   <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Ivor_Allchurch> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cutler's work on Peel's shows would introduce him to successive generations of fans, and in the early 1990s, Cutler said, \"Thanks to Peel, I gained a whole new audience, to the amazement of my older fans, who find themselves among 16-to-35s in theatres, and wonder where they came from." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/70/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(2012)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/56/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1976) Armada Lions." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/49/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Arc Publications ISBN 1-900072-94-7ProseGruts (1962)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1962" , "Arc Publications ISBN 1-900072-94-7ProseGruts" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2, regarded as a particularly autobiographical work, on which Cutler recounts tales from his childhood amid an environment of exaggerated Scottishness." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/74/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Further interviews at the Wayback Machine (archived 27 October 2009)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "27 October 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The New Dress (1995)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Private Habits (1981)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/55/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1975) Heinemann." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/50/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dennis Dobson." ;
+        ont:person   <http://dbpedia.org/resource/James_Dobson> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He gained popularity playing songs where he would often accompany himself on either a piano or the harmonium, and this success led to the release of a series of records starting with 1959's Ivor Cutler of Y'Hup EP." ;
+        ont:person          <http://dbpedia.org/resource/Ivor_Allchurch> , <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "with 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He appeared in the Beatles' Magical Mystery Tour film in 1967 and on Neil Innes' television programmes." ;
+        ont:person          <http://dbpedia.org/resource/Neil_Innes> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "film in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Flat Man (1977)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/73/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cutler's drawers — interview at The Guardian, 15 January 2004" ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "15 January 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/3/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Cutler's deeply held views on humanity meant he disliked corporal punishment and on leaving a teaching job he held in the 1950s he cut up his tawse and handed the pieces to the class." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Doris the Hen (1992)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Herbert the Chicken (1984)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Grape Zoo (1991)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Pomegranate Door (1984)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "PoetryMany Flies Have Feathers (1973)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Poetry and books for children were an important part of Cutler's literary output." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His father Jack Moris Cutler was a draper and jeweller." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:place    <http://dbpedia.org/resource/Mauritius> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Herbert: 5 Stories (1988)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "5" , "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Vermillion Door (1984)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/12/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Cutler was a member of the Noise Abatement Society and the Voluntary Euthanasia Society." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After its release Cutler continued to perform for BBC radio, recording the first of his sessions for John Peel in 1969." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/John_Peel> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "in 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Scots Wa' Straw (2003)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2005 Looking for Truth with a Pin, and Cutler's Last Stand documentary and live performance (Claptrap)" ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One and a Quarter (1987)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "One" , "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2019 Singing While Dead (EP, Hoorgi House, 4 unreleased 1950s recordings)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "4" , "1950s" , "2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/30/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A compilation of 51 one minute masterpieces by 51 different artists (Cherry Red)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "51 one minute" , "by 51" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/44/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1992)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the decade Cutler used his sessions for John Peel to introduce numerous episodes of his Life in a Scotch Sitting Room series, culminating in the 1978 LP Life in a Scotch Sitting Room, Vol." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/1/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Phyllis King appears on several of his records, and for several years was a part of his concerts." ;
+        ont:person   <http://dbpedia.org/resource/Phyllis_King> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/50/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1966)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Herbert the Herbert (1984)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Under the spigot (2001)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1998 A Flat Man (Creation)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The reception room of his home contained some pieces of ivory cutlery, intended as a pun on his name.The hallmarks of Cutler's work are surreal, bizarre juxtapositions and close attention to small details of existence, all described in seemingly naive language." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cutler began writing songs and poetry in the late 1950s, making the first of many appearances on BBC radio on the Home Service, where he featured on the Monday Night at Home programme on 38 occasions between 1959 and 1963." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1963" , "programme on 38" , "between 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He became known for his regular performances on BBC radio, and in particular his numerous sessions recorded for John Peel's influential eponymous late night radio programme (BBC Radio 1), and later for Andy Kershaw's programme." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/Andy_Kershaw> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "BBC Radio 1" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/3/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He moved to London where he was employed by the Inner London Education Authority to teach music, dance, drama and poetry to 7-to-11-year-olds." ;
+        ont:place    <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2017 Gruts For Tea Again (Coda)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1997 Ludo (Rev-Ola, 1967 recordings)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1967" , "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Herbert the Questionmark (1984)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Glasgow Dreamer (1990)." ;
+        ont:place           <http://dbpedia.org/resource/Glasgow> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "South American Bookworms (1999)." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1976 Jammy Smears (Virgin)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fremsley (1987)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/60/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Herbert the Elephant (1984)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Wet Handle (1996)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1997 A Wet Handle (Creation)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2012 Essential Masters 1959-1961 (Comedy Classics, the Decca recordings in a different order)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "Masters 1959-1961" , "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1975 Velvet Donkey (Virgin)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2 (Harvest)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ivor Cutler was born in 1923 in Govan, Glasgow, into a middle-class Jewish family of Eastern European descent." ;
+        ont:person          <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Ivor_Allchurch> ;
+        ont:place           <http://dbpedia.org/resource/Glasgow> , <http://dbpedia.org/resource/Govan> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "in 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1990s, Creation Records released two new volumes of poems and spoken word work: A Wet Handle (1997) and A Flat Man (1998)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1998" , "1990s" , "1997" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1974 Dandruff (Virgin)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Stuggy Pren (1994)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2005 An Elpee and Two Epees (the Decca recordings)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "Two" , "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gruts (1986)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1989 Peel Sessions (EP, Strange Fruit, 1969 recordings)" ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1969" , "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/67/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "ISBN 1-873422-11-3 (A collection of stickers that Cutler used to hand out to people)." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Peel once remarked that Cutler was probably the only performer whose work had been featured on Radio 1, 2, 3 and 4." ;
+        ont:person          <http://dbpedia.org/resource/John_Peel> , <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "3" , "4" , "Radio 1 , 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The LP, taking inspiration from trad jazz and boogie-woogie, sees Cutler playing the piano as well as his usual harmonium, and is considered the most traditionally musical of all his records." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/10/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Cutler describes the poverty of his early life and the neglect he experienced from his parents with great stoicism." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/5/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Wyatt would later cover Cutler's song \"Go and Sit upon the Grass\"." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> , <http://dbpedia.org/resource/Wyatt_Earp> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Life in a Scotch Sitting Room, Vol.2 (1984)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1980 Brooch Boat Ivor's contribution to Morgan Fisher's Miniatures LP." ;
+        ont:person          <http://dbpedia.org/resource/Ivor_Allchurch> , <http://dbpedia.org/resource/Morgan_Fisher> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1986 Gruts (Rough Trade)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1961 Get Away from the Wall (EP, Decca)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In live performances Cutler would often accompany himself on a harmonium." ;
+        ont:person   <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject  <http://dbpedia.org/resource/Ivor_Cutler> .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Fly Sandwich and Other Menu (1991)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1986 Prince Ivor (Rough Trade)" ;
+        ont:person          <http://dbpedia.org/resource/Ivor_Allchurch> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1961 Who Tore Your Trousers?" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ivor Cutler (born Isadore Cutler, 15 January 1923 – 3 March 2006) was a Scottish poet, singer, musician, songwriter, artist and humorist." ;
+        ont:person          <http://dbpedia.org/resource/Ivor_Allchurch> , <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "3 March 2006" , "15 January 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He joined the Royal Air Force as a navigator in 1942 but was soon grounded for \"dreaminess\" and worked as a storeman." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "navigator in 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1983 Privilege (with Linda Hirst, Rough Trade)" ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Nice Wee Present from Scotland (1988)." ;
+        ont:place           <http://dbpedia.org/resource/Nice> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1959 Ivor Cutler of Y'Hup (EP, Decca)" ;
+        ont:person          <http://dbpedia.org/resource/Ivor_Allchurch> , <http://dbpedia.org/resource/Chris_Cutler> ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fresh Carpet (1986)." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/577944/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1978 Life in a Scotch Sitting Room, Vol." ;
+        ont:subject         <http://dbpedia.org/resource/Ivor_Cutler> ;
+        ont:timeExpression  "1978" .

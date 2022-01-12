@@ -6,23 +6,133 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/1354864/5/1>
+<http://w3id.org/polifonia/pilot/meetups/1354864/8/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Saint_Joseph> ;
-        ont:place           "http://dbpedia.org/resource/Nevada" ;
+        ont:excerpt         "South Brunswick and New York: Barnes & Co., 1971, pp." ;
+        ont:place           <http://dbpedia.org/resource/South_Brunswick,_New_Jersey> , <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
-        ont:timeExpression  "four children.She" , "in 1951" , "July 7 , 2011" .
+        ont:timeExpression  "1971" .
 
-<http://w3id.org/polifonia/pilot/meetups/1354864/2/3>
+<http://w3id.org/polifonia/pilot/meetups/1354864/2/7>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Lewis_Carroll> ;
-        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/California" ;
+        ont:excerpt         "RKO starred Carroll in the leading role with Ruth Warrick in two zany comedy vehicles, Obliging Young Lady (1941) and Petticoat Larceny (1943)." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_Carroll> , <http://dbpedia.org/resource/Ruth_Warrick> ;
         ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
-        ont:timeExpression  "1936" , "in 1936" .
+        ont:timeExpression  "in two" , "1943" , "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 on September 25, 1937, for his assistance with the project.Carroll died on November 16, 2016 near her home in Puerto Vallarta, Mexico, aged 85." ;
+        ont:place           <http://dbpedia.org/resource/Mexico> , <http://dbpedia.org/resource/Puerto_Vallarta> ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "85" , "1" , "November 16 , 2016" , "September 25 , 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Carroll was born Joan Marie Felt to Wright and Freida Felt on January 18, 1931." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_Carroll> , <http://dbpedia.org/resource/Frank_Lloyd_Wright> ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "January 18 , 1931" .
 
 <http://w3id.org/polifonia/pilot/meetups/1354864/2/6>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The same year she became the first child star to be summoned from Hollywood in order to appear in the leading role in a Broadway musical, Panama Hattie, which ran from October 30, 1940 to January 3, 1942.Carroll became RKO Radio Pictures' resident juvenile personality in both \"A\" and \"B\" pictures." ;
         ont:person          <http://dbpedia.org/resource/Lewis_Carroll> ;
-        ont:place           "http://dbpedia.org/resource/Hollywood" ;
+        ont:place           <http://dbpedia.org/resource/Hollywood> ;
         ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
-        ont:timeExpression  "October 30 , 1940" , "January 3 , 1942.Carroll" .
+        ont:timeExpression  "January 3 , 1942.Carroll" , "October 30 , 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The lamp was created out of materials used in the construction of the 155-mile, $900,000 power line to the Hoover Dam, and was presented to him by the Lincoln County Power District No." ;
+        ont:place           <http://dbpedia.org/resource/Hoover_Dam> ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "900,000 power line" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her big break came the 1940 film, Primrose Path, as Ginger Rogers's younger sister, for which she won a Critics Award." ;
+        ont:person          <http://dbpedia.org/resource/Ginger_Rogers> ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "1940 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/5/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The lamp was originally given to her father, Wright Felt, who was the Public Works Administrator for Nevada at the time the Hoover Dam was built." ;
+        ont:person   <http://dbpedia.org/resource/Frank_Lloyd_Wright> ;
+        ont:place    <http://dbpedia.org/resource/Hoover_Dam> , <http://dbpedia.org/resource/Nevada> ;
+        ont:subject  <http://dbpedia.org/resource/Joan_Carroll> .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Joan Carroll (born Joan Marie Felt, January 18, 1931 – November 16, 2016) was an American child actress who appeared in films until retiring in 1945." ;
+        ont:person          <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "November 16 , 2016" , "January 18 , 1931" , "in 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her stage name was changed to Carol and then Carroll.Between 1937 and 1940 she appeared in supporting roles in several movies." ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "1940" , "Carroll.Between 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She married in 1951 to James Joseph Krack; the couple had four children.She and her brother donated a historic family lamp to the Nevada State Museum on July 7, 2011." ;
+        ont:person          <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:place           <http://dbpedia.org/resource/Nevada> ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "in 1951" , "four children.She" , "July 7 , 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her family moved to California in 1936, where she received a bit part in The First Baby (1936; billed as Mary Joan Felt).Carroll developed into an excellent singer and tap dancer at the Fanchon and Marco Dancing School in Hollywood, and became an accomplished child actress." ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Lewis_Carroll> ;
+        ont:place           <http://dbpedia.org/resource/California> , <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "in 1936" , "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Joan Carroll at the Internet Broadway Database" ;
+        ont:person   <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:subject  <http://dbpedia.org/resource/Joan_Carroll> .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After The Bells of St. Mary's in 1945, Carroll retired." ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Lewis_Carroll> ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "in 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/11/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Joan Carroll at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:subject  <http://dbpedia.org/resource/Joan_Carroll> .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Carroll took dramatic lessons when she was very young and was performing locally by age 4." ;
+        ont:person          <http://dbpedia.org/resource/Lewis_Carroll> ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "20–24; ISBN 0498077292 / ISBN 9780498077296" ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "ISBN 0498077292" , "/ ISBN 9780498077296" , "20–24" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two of her best-remembered pictures came from this period: Meet Me in St. Louis (1944) as Judy Garland and Margaret O'Brien's sister, and The Bells of St. Mary's (1945), in which she played a troubled teenager." ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> , <http://dbpedia.org/resource/Judy_Garland> , <http://dbpedia.org/resource/Margaret_O'Brien> ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "1944" , "Two" , "1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1354864/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was survived by her four children and extended family." ;
+        ont:subject         <http://dbpedia.org/resource/Joan_Carroll> ;
+        ont:timeExpression  "four" .

@@ -6,37 +6,544 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/739770/0/0>
+<http://w3id.org/polifonia/pilot/meetups/739770/11/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/James_Blood_Ulmer> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "Black Rock (CBS, 1982)" ;
         ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
-        ont:timeExpression  "February 8 , 1940" .
+        ont:timeExpression  "1982" .
 
-<http://w3id.org/polifonia/pilot/meetups/739770/2/3>
+<http://w3id.org/polifonia/pilot/meetups/739770/32/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/T._Michael_Coleman> , <http://dbpedia.org/resource/Rashied_Ali> , <http://dbpedia.org/resource/Joe_Henderson> , <http://dbpedia.org/resource/Art_Blakey> , <http://dbpedia.org/resource/Paul_Bley> , <http://dbpedia.org/resource/Ornette_Coleman> ;
-        ont:place           "http://dbpedia.org/resource/Ulmer,_South_Carolina" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "In and Out (In+Out, 2009)" ;
         ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
-        ont:timeExpression  "in 1971" , "1970s" .
+        ont:timeExpression  "2009" .
 
-<http://w3id.org/polifonia/pilot/meetups/739770/62/0>
+<http://w3id.org/polifonia/pilot/meetups/739770/25/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Patton_(musician)> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "Forbidden Blues (DIW, 1998)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Black and Blues (DIW, 1991)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He has credited Coleman as a major influence." ;
+        ont:person   <http://dbpedia.org/resource/T._Michael_Coleman> ;
+        ont:subject  <http://dbpedia.org/resource/James_Blood_Ulmer> .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Free Lancing (Columbia, 1981)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bad Blood in the City: The Piety Street Sessions (Hyena, 2007)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Reunion (Knitting Factory, 1997)" ;
+        ont:place           <http://dbpedia.org/resource/Knitting_Factory> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Revealing (In+Out, 1990)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Birthright (Hyena, 2005)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Harmolodic Guitar with Strings (DIW, 1997)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blues Allnight (Bellaphon, 1990)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Plays the Music of Ornette Coleman (DIW, 1996)" ;
+        ont:person          <http://dbpedia.org/resource/Ornette_Coleman> ;
         ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
         ont:timeExpression  "1996" .
 
+<http://w3id.org/polifonia/pilot/meetups/739770/4/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ulmer has recorded as a leader, including blues-oriented albums produced by Vernon Reid: Memphis Blood, No Escape from the Blues, Bad Blood in the City, and Birthright." ;
+        ont:person   <http://dbpedia.org/resource/Vernon_Reid> ;
+        ont:place    <http://dbpedia.org/resource/Ulmer,_South_Carolina> ;
+        ont:subject  <http://dbpedia.org/resource/James_Blood_Ulmer> .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Music Speaks Louder than Words (DIW, 1995)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live at the Caravan of Dreams (Caravan of Dreams, 1986)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live at the Bayerischer Hof (In+Out, 1994)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After moving to New York in 1971, Ulmer played with Art Blakey's Jazz Messengers, Joe Henderson, Paul Bley, Rashied Ali, and Larry Young.In the early 1970s, Ulmer joined Ornette Coleman; he was the first electric guitarist to record and tour extensively with Coleman." ;
+        ont:person          <http://dbpedia.org/resource/T._Michael_Coleman> , <http://dbpedia.org/resource/Rashied_Ali> , <http://dbpedia.org/resource/Joe_Henderson> , <http://dbpedia.org/resource/Art_Blakey> , <http://dbpedia.org/resource/Paul_Bley> , <http://dbpedia.org/resource/Ornette_Coleman> ;
+        ont:place           <http://dbpedia.org/resource/Ulmer,_South_Carolina> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "in 1971" , "1970s" .
+
 <http://w3id.org/polifonia/pilot/meetups/739770/5/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In spring 2011, he joined James Carter's organ trio as a special guest with Nicholas Payton on trumpet for a six-night stand of performances at Blue Note New York." ;
         ont:person          <http://dbpedia.org/resource/Gary_Payton> , <http://dbpedia.org/resource/James_A._Carter> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
         ont:timeExpression  "2011" .
 
+<http://w3id.org/polifonia/pilot/meetups/739770/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Rough Trade, 1980)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1980s he co-led the quartet Phalanx with saxophonist George Adams." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The trio was called \"avant-gutbucket\" by music critic Bill Milkowski to describe the music as \"conjuring images of Skip James and Albert Ayler jamming on the Mississippi Delta.\"" ;
+        ont:person   <http://dbpedia.org/resource/Skip_James> , <http://dbpedia.org/resource/Bill_Milkowski> , <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject  <http://dbpedia.org/resource/James_Blood_Ulmer> .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He recorded with organist Hank Marr in 1964 (released 1967)." ;
+        ont:person          <http://dbpedia.org/resource/Hank_Marr> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1967" , "in 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Larry Young, Lawrence of Newark (Perception, 1973)" ;
+        ont:person          <http://dbpedia.org/resource/Saint_Lawrence> , <http://dbpedia.org/resource/Larry_Young_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He stated technique could advance \"if the guitar would stop following the piano\" and indicated he tunes his guitar strings to A.In 2009, Ulmer started the label American Revelation." ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Ulmer,_South_Carolina> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Frank Wright, Blues for Albert Ayler (ESP Disk, 2012)" ;
+        ont:person          <http://dbpedia.org/resource/Frank_Wright_(jazz_musician)> , <http://dbpedia.org/resource/Albert_Ayler> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Later versions of the band included Arthur Blythe, Sam Rivers, Pharoah Sanders, and John Zorn." ;
+        ont:person   <http://dbpedia.org/resource/Pharoah_Sanders> , <http://dbpedia.org/resource/Sam_Rivers> , <http://dbpedia.org/resource/John_Zorn> , <http://dbpedia.org/resource/Arthur_Blythe> ;
+        ont:subject  <http://dbpedia.org/resource/James_Blood_Ulmer> .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/74/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A 1998 interview" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1998 interview" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "World Saxophone Quartet, Political Blues (Justin Time, 2006)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tales of Captain Black (Artists House, 1979)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "That resulted in three albums: Free Lancing, Black Rock, and Odyssey, which was the inaugural release of Odyssey The Band with drummer Warren Benbow and violinist Charles Burnham." ;
+        ont:person          <http://dbpedia.org/resource/Charles_Burnham_(musician)> , <http://dbpedia.org/resource/Warren_Benbow> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "in three" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/73/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "James Blood Ulmer Online Archive at the Wayback Machine (archived October 27, 2009) including detailed discography" ;
+        ont:person          <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "October 27 , 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jamaaladeen Tacuma, Show Stopper (Gramavision, 1983)" ;
+        ont:person          <http://dbpedia.org/resource/Jamaaladeen_Tacuma> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "David Murray, Children (Black Saint, 1985)" ;
+        ont:person          <http://dbpedia.org/resource/David_Murray_(saxophonist)> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He began his career playing with soul jazz ensembles, first in Pittsburgh, Pennsylvania, from 1959 to 1964, and then in the Columbus, Ohio from 1964 to 1967." ;
+        ont:place           <http://dbpedia.org/resource/Ohio> , <http://dbpedia.org/resource/Pittsburgh> , <http://dbpedia.org/resource/Pennsylvania> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "from 1964" , "1967" , "from 1959" , "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Juma Sultan, Whispers from the Archive (Porter, 2012)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/72/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "James Blood Ulmer at AllMusic" ;
+        ont:person   <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:subject  <http://dbpedia.org/resource/James_Blood_Ulmer> .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hank Marr, Sounds from the Marr-Ket Place (King, 1968)" ;
+        ont:person          <http://dbpedia.org/resource/Hank_Marr> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/60/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1986 (DIW, 1986)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/39/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz (DIW, 1990)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Roots, Phrenology (MCA, 2002)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Joe Henderson, Multiple (Milestone, 1973)" ;
+        ont:person          <http://dbpedia.org/resource/Joe_Henderson> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was a judge for the 8th annual Independent Music Awards to support independent musicians.In a 2005 Down Beat interview, he said guitar technique stagnated after the death of Jimi Hendrix." ;
+        ont:person          <http://dbpedia.org/resource/Jimi_Hendrix> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2005" , "8th" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ulmer plays a Gibson Byrdland guitar." ;
+        ont:place    <http://dbpedia.org/resource/Ulmer,_South_Carolina> ;
+        ont:subject  <http://dbpedia.org/resource/James_Blood_Ulmer> .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rochester/Veasley Band, One Minute of Love (Gramavision, 1985)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "One Minute" , "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jayne Cortez, Borders of Disorderly Time (Bola, 2003)" ;
+        ont:person          <http://dbpedia.org/resource/Jayne_Cortez> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rashied Ali, Rashied Ali Quintet (Survival, 1973)" ;
+        ont:person          <http://dbpedia.org/resource/Rashied_Ali> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ulmer formed Music Revelation Ensemble around 1980, co-led with David Murray for the first decade and lasting into the 1990s." ;
+        ont:place           <http://dbpedia.org/resource/Ulmer,_South_Carolina> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "around 1980" , "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Patton, Memphis to New York Spirit (Blue Note, 1996)" ;
+        ont:person          <http://dbpedia.org/resource/John_Patton_(musician)> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ry Cooder, The End of Violence (Outpost, 1997)" ;
+        ont:person          <http://dbpedia.org/resource/Ry_Cooder> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1997" .
+
 <http://w3id.org/polifonia/pilot/meetups/739770/3/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His appearance on Arthur Blythe's two consecutive Columbia albums, Lenox Avenue Breakdown (1979) and Illusions (1980), was followed by Ulmer's signing to that label." ;
         ont:person          <http://dbpedia.org/resource/Arthur_Blythe> ;
-        ont:place           "http://dbpedia.org/resource/Ulmer,_South_Carolina" ;
+        ont:place           <http://dbpedia.org/resource/Ulmer,_South_Carolina> ;
         ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
-        ont:timeExpression  "1979" , "1980" , "two" .
+        ont:timeExpression  "two" , "1980" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Patton, Accent on the Blues (Blue Note, 1969)" ;
+        ont:person          <http://dbpedia.org/resource/John_Patton_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ornette Coleman, Celebrate Ornette (Song X 2016)" ;
+        ont:person          <http://dbpedia.org/resource/Ornette_Coleman> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "Song X 2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Phalanx Live (American Revelation, 2013)" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Willie James Ulmer was born in St. Matthews, South Carolina, United States." ;
+        ont:person   <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:place    <http://dbpedia.org/resource/South_Carolina> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/James_Blood_Ulmer> .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/60/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "David Murray, Recording N.Y.C." ;
+        ont:person   <http://dbpedia.org/resource/David_Murray_(saxophonist)> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/James_Blood_Ulmer> .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "James Carter, Out of Nowhere (Half Note, 2005)" ;
+        ont:person          <http://dbpedia.org/resource/James_A._Carter> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In Touch (DIW, 1988)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Arthur Blythe, Illusions (Columbia, 1980)" ;
+        ont:person          <http://dbpedia.org/resource/Arthur_Blythe> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Original Phalanx (DIW, 1987)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Music Revelation Ensemble (DIW, 1988)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "James \"Blood\" Ulmer (born February 8, 1940) is an American jazz, free funk and blues guitarist and singer." ;
+        ont:person          <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "February 8 , 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Arthur Blythe, Lenox Avenue Breakdown (Columbia, 1979)" ;
+        ont:person          <http://dbpedia.org/resource/Arthur_Blythe> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Got Something Good for You (Moers Music, 1986)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "No Wave (Moers, 1980)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/2/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Coleman's reliance on electric guitar in his fusion-oriented recordings owes a debt to Ulmer." ;
+        ont:person   <http://dbpedia.org/resource/T._Michael_Coleman> ;
+        ont:place    <http://dbpedia.org/resource/Ulmer,_South_Carolina> ;
+        ont:subject  <http://dbpedia.org/resource/James_Blood_Ulmer> .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Karl Berger, Conversations (In+Out, 1994)" ;
+        ont:person          <http://dbpedia.org/resource/Karl_Berger> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cross Fire (DIW, 1997)With Phalanx" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Freelancing Live (American Revelation, 2013)With Music Revelation Ensemble" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Back in Time (Pi, 2005)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Knights of Power (DIW, 1996)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live at Birdland (American Revelation, 2010)" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "No Escape from the Blues: The Electric Lady Sessions (Hyena, 2003)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blues Odyssey (American Revelation, 2010)" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the Name of... (DIW, 1994)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Part Time (Rough Trade, 1984)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blue Blood (Innerhythmic, 2001)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Blue Note, 1987)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Odyssey (CBS, 1983)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After Dark (DIW, 1992)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Black Rock Reunion (American Revelation, 2009)" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Memphis Blood: The Sun Sessions (Label M, 2001)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/739770/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blues Preacher (DIW, 1993)" ;
+        ont:subject         <http://dbpedia.org/resource/James_Blood_Ulmer> ;
+        ont:timeExpression  "1993" .

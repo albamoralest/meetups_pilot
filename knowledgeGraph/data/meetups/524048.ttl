@@ -6,30 +6,125 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/524048/0/0>
+<http://w3id.org/polifonia/pilot/meetups/524048/12/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Louise_Smith> , <http://dbpedia.org/resource/Big_Maybelle> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "The album The Okeh Sessions, released on the Epic label, won the 1983 W.C." ;
         ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
-        ont:timeExpression  "May 1 , 1924" , "January 23 , 1972" .
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/4/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lewis credited Smith's version as being the inspiration to make his version much more louder, raunchy and raucous, with a driving beat and a spoken section with a come-on that was considered very risque for the time." ;
+        ont:place    <http://dbpedia.org/resource/Isle_of_Lewis> ;
+        ont:subject  <http://dbpedia.org/resource/Big_Maybelle> .
 
 <http://w3id.org/polifonia/pilot/meetups/524048/6/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "More hits followed throughout the 1950s, particularly after signing with Savoy Records later in 1955, including \"Candy\" (1956), one of her biggest sellers.During this time, she also appeared on stage at the Apollo Theater in New York City in 1957, and at the 1958 Newport Jazz Festival she sang \"All Night Long/I Ain't Mad at You\", as seen in Bert Stern's film of the festival, Jazz on a Summer's Day, in which Mahalia Jackson and Dinah Washington also performed." ;
         ont:person          <http://dbpedia.org/resource/Dinah_Washington> , <http://dbpedia.org/resource/Bert_Stern> , <http://dbpedia.org/resource/Mahalia_Jackson> ;
-        ont:place           "http://dbpedia.org/resource/Apollo_Theater" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:place           <http://dbpedia.org/resource/Apollo_Theater> , <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
         ont:timeExpression  "1950s" , "in 1957" , "1956" , "one" , "1958" , "in 1955" .
 
-<http://w3id.org/polifonia/pilot/meetups/524048/2/0>
+<http://w3id.org/polifonia/pilot/meetups/524048/10/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Big_Maybelle> ;
-        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:excerpt         "She had been frequently ill for the previous 18 months." ;
         ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
-        ont:timeExpression  "May 1 , 1924" .
+        ont:timeExpression  "18" .
 
 <http://w3id.org/polifonia/pilot/meetups/524048/4/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her first recording for Okeh, \"Gabbin' Blues\", was a number 3 hit on the Billboard R&B chart, and was followed up by both \"Way Back Home\" and \"My Country Man\" in 1953.In 1955, she recorded the song \"Whole Lotta Shakin' Goin' On\", produced by up-and-coming producer Quincy Jones, a full two years before rockabilly then rock and roll singer Jerry Lee Lewis's version." ;
         ont:person          <http://dbpedia.org/resource/Jerry_Lee_Lewis> , <http://dbpedia.org/resource/Lotta_Engberg> ;
-        ont:place           "http://dbpedia.org/resource/Gabbin,_Western_Australia" , "http://dbpedia.org/resource/Episcopal_Diocese_of_Quincy" ;
+        ont:place           <http://dbpedia.org/resource/Gabbin,_Western_Australia> , <http://dbpedia.org/resource/Episcopal_Diocese_of_Quincy> ;
         ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
         ont:timeExpression  "1955" , "3 hit" , "two" , "in 1953.In" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Smith died of a diabetic coma on January 23, 1972, in Cleveland, Ohio." ;
+        ont:place           <http://dbpedia.org/resource/Ohio> , <http://dbpedia.org/resource/Cleveland> ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "January 23 , 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She then joined Christine Chatman's Orchestra, and made her first recordings with Chatman in 1944, before recording with the Tiny Bradshaw's Orchestra from 1947 to 1950.Her debut solo recordings, recorded as Mabel Smith, were for King Records in 1947." ;
+        ont:person          <http://dbpedia.org/resource/Mike_Tramp> , <http://dbpedia.org/resource/Tiny_Bradshaw> ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "1950.Her debut solo" , "in 1944" , "from 1947" , "in 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/8/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "By the 1960s, Maybelle's drug use began detrimentally impacting her career." ;
+        ont:person   <http://dbpedia.org/resource/Maybelle_Carter> ;
+        ont:subject  <http://dbpedia.org/resource/Big_Maybelle> .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1952, she was signed by Okeh Records, whose record producer Fred Mendelsohn gave her the stage name 'Big Maybelle' because of her loud yet well-toned voice." ;
+        ont:person          <http://dbpedia.org/resource/Big_Maybelle> , <http://dbpedia.org/resource/Fred_Mendelsohn> ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "In 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She began her professional career with Dave Clark's Memphis Band in 1936, and also toured with the all-female International Sweethearts of Rhythm." ;
+        ont:person          <http://dbpedia.org/resource/David_D._Clark> ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "in 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her last hit single was in 1967, a cover of \"96 Tears\" by Question Mark & the Mysterians." ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "in 1967" , "96" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Born in Jackson, Tennessee, on May 1, 1924, Big Maybelle sang gospel as a child; by her teens, she had switched to rhythm and blues." ;
+        ont:person          <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:place           <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "May 1 , 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her 1956 hit single \"Candy\" received the Grammy Hall of Fame Award in 1999." ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "1956 hit" , "in 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After 1959, she recorded for a variety of labels, but the hits largely dried up." ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "After 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/12/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Handy Award for \"Vintage or Reissue Album of the Year (U.S.).\"" ;
+        ont:person   <http://dbpedia.org/resource/W._C._Handy> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Big_Maybelle> .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2011, she was inducted to the Blues Hall of Fame.Her version of \"Whole Lotta Shakin' Goin' On\" was included in the soundtrack for Fallout 4 as part of the Diamond City Radio playlist." ;
+        ont:person          <http://dbpedia.org/resource/Lotta_Engberg> ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "Fallout 4" , "In 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mabel Louise Smith (May 1, 1924 – January 23, 1972), known professionally as Big Maybelle, was an American R&B singer." ;
+        ont:person          <http://dbpedia.org/resource/Louise_Smith> , <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "January 23 , 1972" , "May 1 , 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/524048/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was survived by her only child, Barbara Smith, and five grandchildren.Her final album, Last of Big Maybelle, was released posthumously in 1973." ;
+        ont:person          <http://dbpedia.org/resource/Barbara_Smith> , <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:subject         <http://dbpedia.org/resource/Big_Maybelle> ;
+        ont:timeExpression  "five" , "in 1973" .

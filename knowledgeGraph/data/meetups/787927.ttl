@@ -6,23 +6,187 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/787927/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Koehler was born in 1894 in Washington, D.C." ;
+        ont:person          <http://dbpedia.org/resource/Ted_Koehler> ;
+        ont:place           <http://dbpedia.org/resource/Washington,_D.C.> ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Koehler> ;
+        ont:timeExpression  "in 1894" .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"As Long as I Live\" – music by Harold Arlen" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/21/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Sing My Heart\" –  music by Harold Arlen" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Say When (1934) – Musical – lyricist" ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Koehler> ;
+        ont:timeExpression  "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/13/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Get Happy\" – music by Harold Arlen" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was inducted into the Songwriters Hall of Fame in 1972." ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Koehler> ;
+        ont:timeExpression  "in 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Animal Crackers in My Soup\" – music by Ray Henderson" ;
+        ont:person   <http://dbpedia.org/resource/Ray_Henderson> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Let's Fall in Love\" – music by Harold Arlen" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Earl Carroll's Vanities of 1932 (1932) – revue – co-composer and co-lyricist with Harold Arlen" ;
+        ont:person          <http://dbpedia.org/resource/Lewis_Carroll> , <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Koehler> ;
+        ont:timeExpression  "1932" , "of 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Moon Over Dixie\" – music by Duke Ellington and His Famous Orchestra" ;
+        ont:person   <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:place    <http://dbpedia.org/resource/Moon> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/5/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Throughout the early and mid-1930s they wrote for the Cotton Club, a popular Harlem night club, for big band jazz legend Duke Ellington and other top performers, as well as for Broadway musicals and Hollywood films." ;
+        ont:person   <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> , <http://dbpedia.org/resource/Harlem> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/19/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"I've Got the World on a String\" – music by Harold Arlen" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
 <http://w3id.org/polifonia/pilot/meetups/787927/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ted L. Koehler (July 14, 1894 – January 17, 1973) was an American lyricist." ;
         ont:person          <http://dbpedia.org/resource/Ted_Koehler> , <http://dbpedia.org/resource/Carl_Linnaeus> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Ted_Koehler> ;
-        ont:timeExpression  "July 14 , 1894" , "January 17 , 1973" .
+        ont:timeExpression  "January 17 , 1973" , "July 14 , 1894" .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/34/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ted Koehler recordings at the Discography of American Historical Recordings." ;
+        ont:person   <http://dbpedia.org/resource/Ted_Koehler> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"I've Got My Fingers Crossed\" – music by Jimmy McHugh" ;
+        ont:person   <http://dbpedia.org/resource/Jimmy_McHugh> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1929 the duo composed their first well-known song, \"Get Happy\", and went on to create \"Let's Fall in Love\", \"Stormy Weather\" and other hit songs." ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Koehler> ;
+        ont:timeExpression  "In 1929" .
 
 <http://w3id.org/polifonia/pilot/meetups/787927/6/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Koehler also worked with other composers, including Rube Bloom, Harry Warren and Sammy Fain.Koehler died in 1973 in Santa Monica at the age of 78." ;
         ont:person          <http://dbpedia.org/resource/Harry_Warren> , <http://dbpedia.org/resource/Ted_Koehler> ;
-        ont:place           "http://dbpedia.org/resource/Santa_Monica_Boulevard" ;
+        ont:place           <http://dbpedia.org/resource/Santa_Monica_Boulevard> ;
         ont:subject         <http://dbpedia.org/resource/Ted_Koehler> ;
-        ont:timeExpression  "age of 78" , "in 1973" .
+        ont:timeExpression  "in 1973" , "age of 78" .
 
-<http://w3id.org/polifonia/pilot/meetups/787927/2/0>
+<http://w3id.org/polifonia/pilot/meetups/787927/33/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ted Koehler at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Ted_Koehler> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/25/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Wrap Your Troubles in Dreams\" – with Harry Barris and Billy Moll" ;
+        ont:person   <http://dbpedia.org/resource/Harry_Barris> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Between the Devil and the Deep Blue Sea\" – music by Harold Arlen" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/17/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"I'm Shooting High\" – music by Jimmy McHugh" ;
+        ont:person   <http://dbpedia.org/resource/Jimmy_McHugh> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/5/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Ted_Koehler> ;
-        ont:place           "http://dbpedia.org/resource/Washington,_D.C." ;
+        ont:excerpt         "His most successful collaboration was with the composer Harold Arlen, with whom he wrote many famous songs from the 1920s through the 1940s." ;
+        ont:person          <http://dbpedia.org/resource/Harold_Arlen> ;
         ont:subject         <http://dbpedia.org/resource/Ted_Koehler> ;
-        ont:timeExpression  "in 1894" .
+        ont:timeExpression  "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/32/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ted Koehler at the Internet Broadway Database" ;
+        ont:person   <http://dbpedia.org/resource/Ted_Koehler> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/24/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"When the Sun Comes Out\" – music by Harold Arlen" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/16/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Ill Wind\" – music by Harold Arlen" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/23/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Stormy Weather\" – music by Harold Arlen" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/15/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"I Gotta Right to Sing the Blues\" – music by Harold Arlen" ;
+        ont:person   <http://dbpedia.org/resource/Harold_Arlen> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/22/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Spreadin' Rhythm Around\" – music by Jimmy McHugh" ;
+        ont:person   <http://dbpedia.org/resource/Jimmy_McHugh> ;
+        ont:subject  <http://dbpedia.org/resource/Ted_Koehler> .
+
+<http://w3id.org/polifonia/pilot/meetups/787927/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Now I Know (1944) – Musical – lyricist" ;
+        ont:subject         <http://dbpedia.org/resource/Ted_Koehler> ;
+        ont:timeExpression  "1944" .

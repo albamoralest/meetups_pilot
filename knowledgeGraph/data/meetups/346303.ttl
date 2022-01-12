@@ -6,79 +6,512 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/346303/8/1>
+<http://w3id.org/polifonia/pilot/meetups/346303/33/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vivian Vance at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/19/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Hoagy_Carmichael> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "She died at age 70 on August 17, 1979, of metastatic breast cancer." ;
         ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
-        ont:timeExpression  "widow with two" .
+        ont:timeExpression  "August 17 , 1979" , "70" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/14/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Eventually she graduated to supporting parts after she replaced Kay Thompson in the musical Hooray for What!" ;
+        ont:person   <http://dbpedia.org/resource/Kay_Thompson> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/6/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Despite their exceptional chemistry, comedic timing, and musical prowess together onscreen, Vance and Frawley did not get along offscreen." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vance made her final television appearance with Lucille Ball on the CBS special Lucy Calls the President, which aired November 21, 1977." ;
+        ont:person          <http://dbpedia.org/resource/Lucille_Ball> , <http://dbpedia.org/resource/Cyrus_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "November 21 , 1977" .
 
 <http://w3id.org/polifonia/pilot/meetups/346303/2/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vance was born Vivian Roberta Jones on July 26, 1909, in Cherryvale, Kansas, the second of six children born to Robert Andrew, Sr. and Euphemia Mae (Ragan) Jones." ;
         ont:person          <http://dbpedia.org/resource/Euphemia> , <http://dbpedia.org/resource/Vance_Palmer> ;
-        ont:place           "http://dbpedia.org/resource/Kansas" ;
+        ont:place           <http://dbpedia.org/resource/Kansas> ;
         ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
-        ont:timeExpression  "July 26 , 1909" , "second of six" .
+        ont:timeExpression  "second of six" , "July 26 , 1909" .
 
-<http://w3id.org/polifonia/pilot/meetups/346303/2/5>
+<http://w3id.org/polifonia/pilot/meetups/346303/20/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Vance_Palmer> ;
-        ont:place           "http://dbpedia.org/resource/Albuquerque_Little_Theatre" ;
+        ont:excerpt         "During a 1986 interview, Lucille Ball talked about watching I Love Lucy reruns and her reaction to Vance's performance:" ;
+        ont:person          <http://dbpedia.org/resource/Lucille_Ball> , <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
         ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
-        ont:timeExpression  "in 1930" .
+        ont:timeExpression  "1986 interview" .
 
-<http://w3id.org/polifonia/pilot/meetups/346303/0/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Vivian_Kubrick> ;
-        ont:place           "http://dbpedia.org/resource/Wedmore" ;
-        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
-        ont:timeExpression  "1962–1965" , "in 1965" , "1967–1968" .
-
-<http://w3id.org/polifonia/pilot/meetups/346303/12/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Vance_Palmer> ;
-        ont:place           "http://dbpedia.org/resource/California" ;
-        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
-        ont:timeExpression  "in 1947" .
-
-<http://w3id.org/polifonia/pilot/meetups/346303/23/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
-        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
-        ont:timeExpression  "July 12 , 2018" .
-
-<http://w3id.org/polifonia/pilot/meetups/346303/2/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Anna_Freud> ;
-        ont:place           "http://dbpedia.org/resource/Kansas" ;
-        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
-        ont:timeExpression  "six" .
-
-<http://w3id.org/polifonia/pilot/meetups/346303/6/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
-        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
-        ont:timeExpression  "East 68th" .
+<http://w3id.org/polifonia/pilot/meetups/346303/31/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Edelman, Rob and Kupferberg, Audrey." ;
+        ont:person   <http://dbpedia.org/resource/Julian_Edelman> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
 
 <http://w3id.org/polifonia/pilot/meetups/346303/12/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During her stay in Los Angeles, Vance appeared in two films: as streetwise chambermaid Leah in The Secret Fury (1950), and as Alicia in The Blue Veil (1951)." ;
         ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
         ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
-        ont:timeExpression  "1950" , "1951" , "in two" .
+        ont:timeExpression  "in two" , "1951" , "1950" .
 
-<http://w3id.org/polifonia/pilot/meetups/346303/22/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Lucille_Ball> , <http://dbpedia.org/resource/Zebulon_Baird_Vance> , <http://dbpedia.org/resource/Desi_Arnaz> ;
-        ont:place           "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Jamestown,_New_York" ;
-        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
-        ont:timeExpression  "at 7030" , "in 1991" .
+<http://w3id.org/polifonia/pilot/meetups/346303/9/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vance's working relationship with Ball was also becoming strained." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
 
 <http://w3id.org/polifonia/pilot/meetups/346303/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vivian Vance (born Vivian Roberta Jones; July 26, 1909 – August 17, 1979) was an American actress and singer, who is known for her role as Ethel Mertz on the American television sitcom I Love Lucy (1951–1957), for which she won the Primetime Emmy Award for Outstanding Supporting Actress in 1954, as well as receiving three other Emmy nominations." ;
         ont:person          <http://dbpedia.org/resource/Vivian_Vance> , <http://dbpedia.org/resource/Vivian_Kubrick> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
         ont:timeExpression  "July 26 , 1909" , "1951–1957" , "in 1954" , "August 17 , 1979" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/30/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Castelluccio, Frank and Walker, Alvin." ;
+        ont:person   <http://dbpedia.org/resource/Kemba_Walker> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The story of how Vance was hired to play \"Ethel Mertz\" in I Love Lucy is told in I Love Lucy: A Funny Thing Happened on the Way to the Sitcom, a comedy that had its world premiere in Los Angeles on July 12, 2018." ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "July 12 , 2018" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vance was married four times; her first three marriages ended in divorce." ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "three" , "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For her achievements in the field of television, Vance was posthumously awarded a star on the Hollywood Walk of Fame in 1991 at 7030 Hollywood Boulevard.Vance is memorialized in the Lucille Ball–Desi Arnaz Center in Jamestown, New York." ;
+        ont:person          <http://dbpedia.org/resource/Lucille_Ball> , <http://dbpedia.org/resource/Desi_Arnaz> , <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:place           <http://dbpedia.org/resource/Hollywood> , <http://dbpedia.org/resource/Jamestown,_New_York> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1991" , "at 7030" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1973, she was diagnosed with breast cancer." ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "In 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/7/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vance's choice to decline the would-be show intensified the animosity between her and Frawley." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vance performed in the very first show at the Albuquerque Little Theatre in 1930." ;
+        ont:person          <http://dbpedia.org/resource/Vance_Palmer> ;
+        ont:place           <http://dbpedia.org/resource/Albuquerque_Little_Theatre> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Starting in 1932, Vance was in a number of shows on Broadway, usually as a member of the chorus." ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The role of Fred Mertz was played by William Frawley, who was actually 22 years her senior." ;
+        ont:person          <http://dbpedia.org/resource/William_Frawley> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "22" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ball would later regret not giving Vance what she requested." ;
+        ont:person   <http://dbpedia.org/resource/Cyrus_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Family members donated Vance's Emmy Award to the Albuquerque Little Theatre after her death." ;
+        ont:person   <http://dbpedia.org/resource/Vance_Palmer> ;
+        ont:place    <http://dbpedia.org/resource/Albuquerque_Little_Theatre> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/16/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The marriage lasted until Vance's death." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Following her appearance in a revival of The Cradle Will Rock in 1947, Vance decided to move to California to pursue other theatre projects as well as opportunities in film." ;
+        ont:person          <http://dbpedia.org/resource/Vance_Palmer> ;
+        ont:place           <http://dbpedia.org/resource/California> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vance was growing tired of commuting weekly between her home on the East Coast and Los Angeles." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:place    <http://dbpedia.org/resource/East_Coast_of_the_United_States> , <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/6/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was nominated an additional three times (for 1954, 1956, and 1957) before the series ended." ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "1957" , "1956" , "for 1954" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After her departure from The Lucy Show, Vance appeared occasionally alongside Ball on reunion shows and made several guest appearances on Ball's third sitcom, Here's Lucy (1968–1974)." ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "1968–1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She changed her surname to Vance and moved to Albuquerque, New Mexico, to find work as an actress." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:place    <http://dbpedia.org/resource/Albuquerque,_New_Mexico> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vance's Ethel Mertz character was the landlady of a New York City apartment that she and her husband Fred owned on East 68th Street." ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "East 68th" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Both Ball and Vance felt betrayed by the other and Vance left the series." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/16/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The couple established their home in Stamford, Connecticut, although they moved to California in 1974." ;
+        ont:place           <http://dbpedia.org/resource/Stamford,_Connecticut> , <http://dbpedia.org/resource/California> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the third season, Vance did not appear in seven of the season's 26 episodes." ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in seven" , "26" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/10/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She and Ball appeared together one last time in the 1977 CBS special Lucy Calls the President." ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "one" , "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/8/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vance reluctantly agreed to be her co-star on the condition that she be allowed to appear in more glamorous clothes as well as having her character be named \"Vivian\"." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/14/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1941), in which she starred alongside Danny Kaye and Eve Arden for over 500 performances." ;
+        ont:person          <http://dbpedia.org/resource/Danny_Kaye> , <http://dbpedia.org/resource/Eve_Arden> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "over 500" , "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/6/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Others recall that they practically loathed each other on sight and that Vance was put off by Frawley's cantankerous attitude.Honored for her work in 1953, Vance became the first actress to win an Emmy Award for Outstanding Supporting Actress; she accepted her award at the Emmy ceremony in February 1954." ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "work in 1953" , "February 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Although Frawley was very interested, Vance declined, mainly because she did not want to work on a one-on-one basis with Frawley as they already did not get along." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "CBS refused Pepper on the grounds that she had a drinking problem, and Benaderet was already playing Blanche Morton on The George Burns and Gracie Allen Show.Ultimately, the 42-year-old Vance won the role on the new television program, which debuted October 15, 1951, on CBS." ;
+        ont:person          <http://dbpedia.org/resource/Blanche_of_Burgundy> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Zebulon_Baird_Vance> , <http://dbpedia.org/resource/Gracie_Allen> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "October 15 , 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was decided not to meet Vance's requests." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On January 16, 1961, Vance married literary agent, editor, and publisher John Dodds." ;
+        ont:person          <http://dbpedia.org/resource/Vance_Palmer> , <http://dbpedia.org/resource/John_Dodds_(motorcyclist)> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "January 16 , 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The character was the first divorcee ever on a weekly American television series." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/10/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vance made a number of TV guest appearances in the 1970s, including a 1975 episode of Rhoda, as well as appearing in a number of made-for-TV movies including The Front Page (1970), Getting Away From it All (1972), and The Great Houdini (1976)." ;
+        ont:person          <http://dbpedia.org/resource/William_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "1970" , "1970s" , "1972" , "1975 episode" , "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/7/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Arnaz would later retool the show with model and actress Joanne Dru taking the lead role, selling the series to ABC, where it was subsequently cancelled after one season." ;
+        ont:person          <http://dbpedia.org/resource/Joanne_Dru> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "one season" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The series starred Ball as Lucy Carmichael, a widow with two children living in Danfield, New York." ;
+        ont:person          <http://dbpedia.org/resource/Hoagy_Carmichael> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "widow with two" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Once the two women were able to settle their differences and reconcile, Vance made three more guest appearances on the remaining seasons of The Lucy Show." ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "three" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When I Love Lucy was reformatted into the hour-long Lucy-Desi shows in 1957, Desi Arnaz offered Vance and Frawley the opportunity to star in their own \"Fred and Ethel\" spin-off show." ;
+        ont:person          <http://dbpedia.org/resource/Desi_Arnaz> , <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lucille Ball had wanted either Bea Benaderet or Barbara Pepper, both close friends, to play the role." ;
+        ont:person   <http://dbpedia.org/resource/Bea_Benaderet> , <http://dbpedia.org/resource/Lucille_Ball> , <http://dbpedia.org/resource/Barbara_Pepper> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/31/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Los Angeles, Calif.: Renaissance Books, 1999." ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/12/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Following her departure from The Lucy Show at the end of the third season, Vance signed on to appear in a Blake Edwards film, The Great Race; she saw this as an opportunity to restart a movie career, which never really took off." ;
+        ont:person   <http://dbpedia.org/resource/Blake_Edwards> , <http://dbpedia.org/resource/Vance_Palmer> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Agents and studio executives misinformed Ball regarding Vance's desires believing she wanted to be Ball's equal." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/30/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "New York: Berkley Books, 2000." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/16/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was rumored that Ober abused Vance because he was envious of her successful career." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She appeared on The Lucy Show from 1962 to 1965, as Vivian Bagley, a divorced mother of one son, sharing a house with Ball's character." ;
+        ont:person          <http://dbpedia.org/resource/Mark_Bagley> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "one son" , "1965" , "from 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/22/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vance and Frawley were inducted into the Television Academy Hall of Fame in March 2012." ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "March 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/7/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Desi Arnaz financed a pilot starring Vance as Hooten titled Guestward, Ho!, which was shot in 1958 by Desilu; however, the show was rejected by CBS and Vance continued playing Ethel Mertz." ;
+        ont:person          <http://dbpedia.org/resource/Desi_Arnaz> , <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/2/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The local theatre community helped pay her way to New York City to study under Eva Le Gallienne." ;
+        ont:person   <http://dbpedia.org/resource/Eva_Le_Gallienne> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1962–1977: The Lucy Show and later worksIn 1962, Lucille Ball was planning to return to television in a new series, The Lucy Show." ;
+        ont:person          <http://dbpedia.org/resource/Lucille_Ball> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "1962" , "1962–1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After her death, Desi Arnaz remarked, \"It’s bad enough to lose one of the great artists we had the honor and the pleasure to work with, but it’s even harder to reconcile the loss of one of your best friends.\"" ;
+        ont:person          <http://dbpedia.org/resource/Desi_Arnaz> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "loss of one" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Without Vance on the show, Ball seriously considered ending the series, feeling she couldn't continue without her." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(1937)." ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/6/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "According to some reports, things first went sour when Frawley overheard Vance complaining about his age, stating that he should be playing her father instead of her husband." ;
+        ont:person   <http://dbpedia.org/resource/Cyrus_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1957, after the highly successful half-hour I Love Lucy episodes had ended, Vance continued playing Ethel Mertz on a series of hour-long specials titled The Lucille Ball-Desi Arnaz Show (later retitled The Lucy-Desi Comedy Hour)." ;
+        ont:person          <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "In 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When she was six years old, her family moved to Independence, Kansas, where she eventually began her dramatic studies at Independence High School with drama instructor Anna Ingleman." ;
+        ont:person          <http://dbpedia.org/resource/Anna_Freud> ;
+        ont:place           <http://dbpedia.org/resource/Kansas> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "six" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/36/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vivian Vance at the TCM Movie Database" ;
+        ont:person   <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When Desi Arnaz and Lucille Ball were casting their new television sitcom I Love Lucy in 1951, director Marc Daniels, who had previously worked with Vance in a theater production, suggested her for the role of landlady Ethel Mertz." ;
+        ont:person          <http://dbpedia.org/resource/Vance_Palmer> , <http://dbpedia.org/resource/Desi_Arnaz> , <http://dbpedia.org/resource/Marc_Daniels> , <http://dbpedia.org/resource/Lucille_Ball> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/9/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At the conclusion of the third season, Vance requested a new contract giving her more creative control with the opportunity to produce and direct episodes and better pay if she were to continue commuting for the show." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/30/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Other Side of Ethel Mertz: The Life Story of Vivian Vance." ;
+        ont:person   <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/23/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The play, from Gregg Oppenheimer (son of I Love Lucy creator-producer-head writer Jess Oppenheimer), was recorded in front of a live audience for nationwide public radio broadcast, and online distribution." ;
+        ont:person   <http://dbpedia.org/resource/J._Robert_Oppenheimer> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/35/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vivian Vance at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1951–1958: I Love Lucy and success" ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "1951–1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She also starred as Vivian Bagley on the sitcom The Lucy Show (1962–1965) leaving in 1965, guesting 1967–1968." ;
+        ont:person          <http://dbpedia.org/resource/Vivian_Kubrick> ;
+        ont:place           <http://dbpedia.org/resource/Wedmore> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "1967–1968" , "1962–1965" , "in 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was married to her third husband, actor Philip Ober, for 18 years." ;
+        ont:person          <http://dbpedia.org/resource/Philip_Ober> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "for 18" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/34/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vivian Vance at the Internet Broadway Database" ;
+        ont:person   <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/22/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On January 20, 2010, the San Francisco Chronicle reported that a local antique dealer had inherited many of Vance's photos and scrapbooks and a manuscript of her unpublished autobiography when John Dodds died in 1986." ;
+        ont:person          <http://dbpedia.org/resource/John_Dodds_(motorcyclist)> , <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject         <http://dbpedia.org/resource/Vivian_Vance> ;
+        ont:timeExpression  "in 1986" , "January 20 , 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was during this period that Vance's agent got her an endorsement deal with Maxwell House Coffee." ;
+        ont:person   <http://dbpedia.org/resource/Zebulon_Baird_Vance> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .
+
+<http://w3id.org/polifonia/pilot/meetups/346303/7/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Instead, Vance was interested in doing a series based on the life of Babs Hooten, a New York socialite who moves to New Mexico to run a hotel and ranch." ;
+        ont:person   <http://dbpedia.org/resource/Barbra_Streisand> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/New_Mexico> ;
+        ont:subject  <http://dbpedia.org/resource/Vivian_Vance> .

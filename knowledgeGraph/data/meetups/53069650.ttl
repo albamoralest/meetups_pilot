@@ -5,3 +5,10 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/53069650/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Feliciano Amaral (October 20, 1920 – July 7, 2018) was a Brazilian pastor and Christian singer." ;
+        ont:person          <http://dbpedia.org/resource/Feliciano_Amaral> ;
+        ont:subject         <http://dbpedia.org/resource/Feliciano_Amaral> ;
+        ont:timeExpression  "July 7 , 2018" , "October 20 , 1920" .

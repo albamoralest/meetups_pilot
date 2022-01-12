@@ -6,86 +6,524 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/647820/5/2>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Ferdinand_II_of_Aragon> ;
-        ont:place           "http://dbpedia.org/resource/President_of_the_Philippines" ;
-        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
-        ont:timeExpression  "through 1962" , "1968" .
+<http://w3id.org/polifonia/pilot/meetups/647820/11/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the days preceding the UN General Assembly vote on the Partition Plan for Palestine, Romulo stated \"We hold that the issue is primarily moral." ;
+        ont:place    <http://dbpedia.org/resource/State_of_Palestine> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== Palestine Partition Plan ===" ;
+        ont:place    <http://dbpedia.org/resource/Mandatory_Palestine> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
 
 <http://w3id.org/polifonia/pilot/meetups/647820/5/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Romulo served eight Philippine presidents, from Manuel L. Quezon to Ferdinand Marcos, as the  Secretary of Foreign Affairs of the Philippines and as the country's representative to the United States and to the United Nations." ;
         ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> , <http://dbpedia.org/resource/Ferdinand_VII_of_Spain> , <http://dbpedia.org/resource/Manuel_I_of_Portugal> ;
-        ont:place           "http://dbpedia.org/resource/United_Nations" , "http://dbpedia.org/resource/Philippines" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/President_of_the_Philippines" ;
+        ont:place           <http://dbpedia.org/resource/United_Nations> , <http://dbpedia.org/resource/Philippines> , <http://dbpedia.org/resource/President_of_the_Philippines> , <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
         ont:timeExpression  "eight" .
 
+<http://w3id.org/polifonia/pilot/meetups/647820/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was a reporter at 16, a newspaper editor by the age of 20, and a publisher at 32." ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "publisher at 32" , "reporter at 16" , "age of 20" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/79/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Meaning of Bandung" ;
+        ont:place    <http://dbpedia.org/resource/Bandung> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
 <http://w3id.org/polifonia/pilot/meetups/647820/78/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Crusade in Asia (The John Day Company, 1955; about the 1953 presidential election campaign of Ramón Magsaysay)" ;
         ont:person          <http://dbpedia.org/resource/Ramon_Magsaysay> ;
-        ont:place           "http://dbpedia.org/resource/Asia" ;
+        ont:place           <http://dbpedia.org/resource/Asia> ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
         ont:timeExpression  "1953" , "1955" .
 
-<http://w3id.org/polifonia/pilot/meetups/647820/15/1>
+<http://w3id.org/polifonia/pilot/meetups/647820/59/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jon_Lester> , <http://dbpedia.org/resource/Lester_B._Pearson> ;
-        ont:place           "http://dbpedia.org/resource/Canada" ;
+        ont:excerpt         "), 1950" ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
-        ont:timeExpression  "two" .
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the 1930s, Romulo became the publisher and editor of The Philippines Herald, and one of his reporters was Yay Panlilio." ;
+        ont:place           <http://dbpedia.org/resource/Philippines> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "1930s" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/58/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "), 1960" ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "1960" .
 
 <http://w3id.org/polifonia/pilot/meetups/647820/2/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Studying in the Philippines and the United States, Dr. Carlos Romulo became a professor of English at the University of the Philippines in 1923." ;
         ont:person          <http://dbpedia.org/resource/Carlos_P._Romulo> ;
-        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Philippines" ;
+        ont:place           <http://dbpedia.org/resource/Philippines> , <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
         ont:timeExpression  "in 1923" .
 
-<http://w3id.org/polifonia/pilot/meetups/647820/22/0>
+<http://w3id.org/polifonia/pilot/meetups/647820/83/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Romulo: A Third World Soldier at the UN" ;
+        ont:place    <http://dbpedia.org/resource/United_Nations> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/69/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At this, Marshal Tito was tickled by his reply and loudly exclaimed around the room, \"I etcetera, etcetera, etcetera!\"" ;
+        ont:person   <http://dbpedia.org/resource/Josip_Broz_Tito> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/57/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Diosdado_Macapagal> , <http://dbpedia.org/resource/Elpidio_Quirino> ;
-        ont:place           "http://dbpedia.org/resource/President_of_the_Philippines" , "http://dbpedia.org/resource/Philippines" ;
+        ont:excerpt         "), 1935" ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
-        ont:timeExpression  "1964" , "1952" , "1984" , "from 1973" , "from 1963" , "from 1968" , "from 1950" .
+        ont:timeExpression  "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/82/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Last Man off Bataan (Romulo's experience during the Japanese Plane bombings.)" ;
+        ont:place    <http://dbpedia.org/resource/Bataan> , <http://dbpedia.org/resource/Empire_of_Japan> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/75/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "I See The Philippines Rise" ;
+        ont:place    <http://dbpedia.org/resource/Philippines> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/70/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When they waded in at Leyte beach in October 1944, and the word went out that General MacArthur was waist deep, one of Romulo's journalist friends cabled, \"If MacArthur was in water waist deep, Romulo must have drowned!\"" ;
+        ont:person          <http://dbpedia.org/resource/Douglas_MacArthur> ;
+        ont:place           <http://dbpedia.org/resource/Leyte> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "October 1944" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Carlos Peña Romulo  (14 January 1898 – 15 December 1985) was a Filipino diplomat, statesman, soldier, journalist and author." ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "15 December 1985" , "14 January 1898" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/80/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Magsaysay Story (with Marvin M. Gray, The John Day Company 1956, updated re-edition by Pocket Books, Special Student Edition, SP-18, December 1957; biography of Ramón Magsaysay, Pocket Books edition updated with an additional chapter on Magsaysay's death)" ;
+        ont:person          <http://dbpedia.org/resource/Ramon_Magsaysay> , <http://dbpedia.org/resource/John_Edward_Gray> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "December 1957" , "John Day Company 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/73/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "I Saw the Fall of the Philippines." ;
+        ont:place    <http://dbpedia.org/resource/Philippines> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/11/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "However, pressure on the Philippines government from Washington led to Romulo being recalled, replaced by a Philippines representative who voted in favor of the Partition Plan." ;
+        ont:person   <http://dbpedia.org/resource/George_Washington> ;
+        ont:place    <http://dbpedia.org/resource/Philippines> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/15/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Security Council eventually settled on a dark horse candidate and selected Dag Hammarskjöld as Secretary-General of the United Nations." ;
+        ont:place    <http://dbpedia.org/resource/United_Nations> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/71/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In later years, Romulo told another story himself about a meeting with MacArthur and other tall American generals who disparaged his physical stature." ;
+        ont:person   <http://dbpedia.org/resource/Douglas_MacArthur> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/26/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1980, he was extolled by United Nations Secretary-General Kurt Waldheim as \"Mr. United Nations\" for his valuable services to the United Nations and his dedication to freedom and world peace." ;
+        ont:person          <http://dbpedia.org/resource/Kurt_Waldheim> ;
+        ont:place           <http://dbpedia.org/resource/United_Nations> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "In 1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/70/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Romulo was a dapper little man (barely five feet four inches in shoes)." ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "four" , "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hero of the Republic Award, 1984" ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Princeton University - Woodrow Wilson Memorial Foundation Gold Medal award (\"in recognition of his contribution to public life\"), May 1947" ;
+        ont:person          <http://dbpedia.org/resource/Woodrow_Wilson> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "May 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/62/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his meeting with Josip Broz Tito of Yugoslavia, Marshal Tito welcomed Gen. Romulo with drinks and cigars, to which the general kindly refused." ;
+        ont:person   <http://dbpedia.org/resource/Josip_Broz_Tito> ;
+        ont:place    <http://dbpedia.org/resource/Socialist_Federal_Republic_of_Yugoslavia> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Philippine Presidential Medal of Merit, July 3, 1949" ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "July 3 , 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "World Government News First Annual Gold Nadal Award (for work in the United Nations for peace and world government), March 1947" ;
+        ont:place           <http://dbpedia.org/resource/United_Nations> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "March 1947" .
 
 <http://w3id.org/polifonia/pilot/meetups/647820/24/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gregorio Brillantes interviewed him in 1984, and he said he resigned \"heartsick\" because of the assassination of Aquino, whom he considered a \"friend\", and the resulting freefall of the Philippines' economy and international reputation.According to Beth Day Romulo, the Marcos administration had asked him to sign an ad that the administration was planning to place in the New York Times and other major international dailies." ;
         ont:person          <http://dbpedia.org/resource/Benigno_Aquino_Jr.> ;
-        ont:place           "http://dbpedia.org/resource/Philippines" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:place           <http://dbpedia.org/resource/Philippines> , <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
         ont:timeExpression  "in 1984" .
 
 <http://w3id.org/polifonia/pilot/meetups/647820/61/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the third UN General Assembly, held in Paris in 1948, the USSR's deputy foreign minister, Andrei Vishinsky, sneered at Romulo and challenged his credentials: \"You are just a little man from a little country.\"" ;
         ont:person          <http://dbpedia.org/resource/Andrey_Vyshinsky> ;
-        ont:place           "http://dbpedia.org/resource/Soviet_Union" , "http://dbpedia.org/resource/Paris" ;
+        ont:place           <http://dbpedia.org/resource/Soviet_Union> , <http://dbpedia.org/resource/Paris> ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
         ont:timeExpression  "in 1948" .
 
-<http://w3id.org/polifonia/pilot/meetups/647820/26/2>
+<http://w3id.org/polifonia/pilot/meetups/647820/54/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Kurt_Waldheim> ;
-        ont:place           "http://dbpedia.org/resource/United_Nations" ;
+        ont:excerpt         "Four Freedoms Peace Award" ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
-        ont:timeExpression  "In 1980" .
+        ont:timeExpression  "Four" .
 
-<http://w3id.org/polifonia/pilot/meetups/647820/3/2>
+<http://w3id.org/polifonia/pilot/meetups/647820/47/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Douglas_MacArthur> , <http://dbpedia.org/resource/Manuel_II_Palaiologos> , <http://dbpedia.org/resource/Carlos_P._Romulo> ;
-        ont:place           "http://dbpedia.org/resource/Del_Monte_Airfield" , "http://dbpedia.org/resource/Commonwealth_of_the_Philippines" , "http://dbpedia.org/resource/Mindanao" , "http://dbpedia.org/resource/President_of_the_Philippines" ;
+        ont:excerpt         "Pulitzer Prize in Correspondence, 1942" ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
-        ont:timeExpression  "one" , "on 25" , "111" .
+        ont:timeExpression  "1942" .
 
-<http://w3id.org/polifonia/pilot/meetups/647820/70/1>
+<http://w3id.org/polifonia/pilot/meetups/647820/60/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Douglas_MacArthur> ;
-        ont:place           "http://dbpedia.org/resource/Leyte" ;
+        ont:excerpt         "== Anecdotes from Beth Romulo through Reader's Digest (June 1989) ==" ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
-        ont:timeExpression  "October 1944" , "one" .
+        ont:timeExpression  "June 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/46/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Grand Cross of the Order of Carlos Manuel do Cespedes from the Republic of Cuba" ;
+        ont:person   <http://dbpedia.org/resource/Carlos_Manuel> ;
+        ont:place    <http://dbpedia.org/resource/Cuba> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/39/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Distinguished Service Star of the Philippines" ;
+        ont:place    <http://dbpedia.org/resource/Philippines> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/15/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His ambitions were further dashed by negative votes from France and the Soviet Union, both of whom were permanent members with veto power." ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/26/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was honored as \"one of the truly great statesmen of the 20th century.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Freeman of the City of Plymouth, England, October 1948" ;
+        ont:place           <http://dbpedia.org/resource/Plymouth> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "October 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/44/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "US Legion of Merit (Commander)" ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "United States Presidential Medal of Freedom, January 12, 1984" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "January 12 , 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/20/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Feeling betrayed, Romulo left the Liberal Party and became national campaign manager of Magsaysay, the candidate of the opposing Nacionalista Party who won the election." ;
+        ont:person   <http://dbpedia.org/resource/Ramon_Magsaysay> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/13/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Pulitzer Prize website says Carlos P. Romulo of the Philippines Herald was awarded \"For his observations and forecasts of Far Eastern developments during a tour of the trouble centers from Hong Kong to Batavia.\"" ;
+        ont:place    <http://dbpedia.org/resource/Philippines> , <http://dbpedia.org/resource/Jakarta> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "International Benjamin Franklin Society's Gold Medal (for \"distinguished world statesmanship in 1947\"), January 1948" ;
+        ont:person          <http://dbpedia.org/resource/Benjamin_Franklin> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "January 1948" , "statesmanship in 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Presidential Unit Citation with Two Oak Leaf Clusters" ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "with Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nobel Peace Prize nomination in 1952 \"For his contribution in international cooperation, in particular on questions on undeveloped areas, and as president for UN's 4th General Assembly\"" ;
+        ont:place           <http://dbpedia.org/resource/United_Nations> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "4th" , "nomination in 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/24/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "But he resigned in 1983, soon after the assassination of Benigno Aquino, citing poor health." ;
+        ont:person          <http://dbpedia.org/resource/Benigno_Aquino_Jr.> , <http://dbpedia.org/resource/Benigno_Aquino_Sr.> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "in 1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He later served as Ambassador again from September 1955 to February 1962." ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "September 1955" , "February 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Romulo is perhaps among the most decorated Filipinos in history, which includes 72 honorary degrees from different international institutions and universities and 144 awards and decorations from foreign countries:" ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "72" , "144" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Romulo, in all, wrote and published 22 books, which includes The United (novel), I Walked with Heroes (autobiography), I Saw the Fall of the Philippines, Mother America and I See the Philippines Rise (war-time memoirs)." ;
+        ont:place           <http://dbpedia.org/resource/Philippines> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "22" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/11/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Philippines Government holds that the United Nations ought not to accept such responsibility.\"" ;
+        ont:place    <http://dbpedia.org/resource/Philippines> , <http://dbpedia.org/resource/United_Nations> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/22/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In April 1955 he led the Philippines' delegation to the Asian-African Conference at Bandung." ;
+        ont:place           <http://dbpedia.org/resource/Bandung> , <http://dbpedia.org/resource/Philippines> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "April 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He fell two votes short of the required 7-vote majority in the Security Council, finishing second to Lester B. Pearson of Canada." ;
+        ont:person          <http://dbpedia.org/resource/Jon_Lester> , <http://dbpedia.org/resource/Lester_B._Pearson> ;
+        ont:place           <http://dbpedia.org/resource/Canada> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In addition, he served also as the Secretary of Education in President Diosdado P. Macapagal's and President Ferdinand E. Marcos's Cabinet through 1962 to 1968." ;
+        ont:person          <http://dbpedia.org/resource/Ferdinand_II_of_Aragon> ;
+        ont:place           <http://dbpedia.org/resource/President_of_the_Philippines> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "through 1962" , "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/0/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was born in Camiling, Tarlac and he studied at the Camiling Central Elementary School during his basic education." ;
+        ont:place    <http://dbpedia.org/resource/Central_America> , <http://dbpedia.org/resource/Camiling> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/33/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  ": National Artist of the Philippines" ;
+        ont:place    <http://dbpedia.org/resource/Philippines> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died, at 87, in Manila on 15 December 1985 and was buried in the Heroes' Cemetery (Libingan ng mga Bayani)." ;
+        ont:place           <http://dbpedia.org/resource/Manila> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "15 December 1985" , "at 87" .
 
 <http://w3id.org/polifonia/pilot/meetups/647820/9/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1948 in Paris, France, at the third UN General Assembly, he strongly disagreed with a proposal made by the Soviet delegation headed by Andrei Vishinsky, who challenged his credentials by insulting him with this quote: \"You are just a little man from a little country.\"" ;
         ont:person          <http://dbpedia.org/resource/Andrey_Vyshinsky> ;
-        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Soviet_Union" , "http://dbpedia.org/resource/Paris" ;
+        ont:place           <http://dbpedia.org/resource/Soviet_Union> , <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/Paris> ;
         ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
         ont:timeExpression  "In 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== Return to the Philippines ==" ;
+        ont:place    <http://dbpedia.org/resource/Philippines> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/20/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Quirino had agreed to a secret ballot at the convention, but after the convention opened, the president demanded an open roll-call voting, leaving the delegates no choice but supporting Quirino, the candidate of the party machine." ;
+        ont:person   <http://dbpedia.org/resource/Elpidio_Quirino> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had served with General Douglas MacArthur in the Pacific, and became the first non-American to win the Pulitzer Prize in Correspondence in 1942." ;
+        ont:person          <http://dbpedia.org/resource/Douglas_MacArthur> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "in 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "111 authorized by President Manuel Quezon.At the start of WWII, Major Carlos Romulo served as an aide to General MacArthur, and was one of the last men evacuated from the Philippines before the surrender of US Forces, as illness had preventing him departing with MacArthur, finally leaving from Del Monte Airfield on Mindanao on 25 April." ;
+        ont:person          <http://dbpedia.org/resource/Douglas_MacArthur> , <http://dbpedia.org/resource/Manuel_II_Palaiologos> , <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:place           <http://dbpedia.org/resource/Del_Monte_Airfield> , <http://dbpedia.org/resource/Commonwealth_of_the_Philippines> , <http://dbpedia.org/resource/Mindanao> , <http://dbpedia.org/resource/President_of_the_Philippines> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "one" , "on 25" , "111" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         ": Quezon Service Cross - (April 17, 1951)" ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "April 17 , 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/24/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Romulo supported President Ferdinand Marcos through most of his presidency." ;
+        ont:person   <http://dbpedia.org/resource/Ferdinand_II_of_Aragon> ;
+        ont:place    <http://dbpedia.org/resource/President_of_the_Philippines> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From January 1952 to May 1953, Romulo became only the second former member of Congress to become the Ambassador to the United States from a foreign country, following Joaquín M. Elizalde, who had been his immediate predecessor in both posts." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "May 1953" , "January 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/7/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "This was the title of the non-voting Delegate to the U.S. House of Representatives for lands taken in the Spanish–American War, and as such, he is the only member of the U.S. Congress to end his tenure via a legal secession from the Union." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/16/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== Ambassador to the United States ===" ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/11/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The issue is whether the United Nations should accept responsibility for the enforcement of a policy which is clearly repugnant to the valid nationalist aspirations of the people of Palestine." ;
+        ont:place    <http://dbpedia.org/resource/State_of_Palestine> , <http://dbpedia.org/resource/United_Nations> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was the Philippines' Secretary (Minister from 1973 to 1984) of Foreign Affairs under President Elpidio Quirino from 1950 to 1952, under President Diosdado Macapagal from 1963 to 1964 and under President Ferdinand Marcos from 1968 to 1984." ;
+        ont:person          <http://dbpedia.org/resource/Diosdado_Macapagal> , <http://dbpedia.org/resource/Elpidio_Quirino> ;
+        ont:place           <http://dbpedia.org/resource/President_of_the_Philippines> , <http://dbpedia.org/resource/Philippines> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "1964" , "1952" , "1984" , "from 1973" , "from 1963" , "from 1968" , "from 1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Romulo ran for the office of United Nations Secretary-General in the 1953 selection." ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "1953 selection" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also served as the Resident Commissioner to the U.S. House of Representatives during the Commonwealth era." ;
+        ont:place    <http://dbpedia.org/resource/Commonwealth_of_the_Philippines> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was a co-founder of the Boy Scouts of the Philippines, a general in the US Army and the Philippine Army, university president, President of the UN General Assembly, was eventually named one of the Philippines' National Artists in Literature, and was the recipient of many other honors and honorary degrees." ;
+        ont:place           <http://dbpedia.org/resource/Philippines> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In his career in the United Nations, Romulo was a strong advocate of human rights, freedom, and decolonization." ;
+        ont:place    <http://dbpedia.org/resource/United_Nations> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Instead, he returned to the Philippines and was a candidate for the nomination as the presidential candidate for the Liberal Party, but lost at the party convention to the incumbent Elpidio Quirino, who ran unsuccessfully for re-election against Ramón Magsaysay." ;
+        ont:person   <http://dbpedia.org/resource/Ramon_Magsaysay> , <http://dbpedia.org/resource/Elpidio_Quirino> ;
+        ont:place    <http://dbpedia.org/resource/Commonwealth_of_the_Philippines> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He served as the President of the Fourth Session of United Nations General Assembly from 1949 to 1950—the first Asian to hold the position—and served as president of the United Nations Security Council four times, twice in 1957, 1980 and 1981." ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "1980" , "in 1957" , "1950—the" , "United Nations Security Council four" , "1981" , "from 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "=== United Nations ===" ;
+        ont:place    <http://dbpedia.org/resource/United_Nations> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On October 31, 1936 Romulo and the other Boy Scouts of the Philippines (BSP) founders officially chartered the BSP in Commonwealth Act No." ;
+        ont:place           <http://dbpedia.org/resource/Commonwealth_of_Nations> , <http://dbpedia.org/resource/Philippines> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "October 31 , 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Romulo served as Resident Commissioner of the Philippines to the United States Congress from 1944 to 1946." ;
+        ont:place           <http://dbpedia.org/resource/Philippines> ;
+        ont:subject         <http://dbpedia.org/resource/Carlos_P._Romulo> ;
+        ont:timeExpression  "1946" , "from 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/647820/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Simultaneously, Romulo served as the secretary to the President of the Senate of the Philippines Manuel Quezon." ;
+        ont:person   <http://dbpedia.org/resource/Manuel_L._Quezon> ;
+        ont:place    <http://dbpedia.org/resource/Philippines> , <http://dbpedia.org/resource/President_of_the_Philippines> ;
+        ont:subject  <http://dbpedia.org/resource/Carlos_P._Romulo> .

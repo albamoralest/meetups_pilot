@@ -6,23 +6,67 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/3411455/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jalowetz died on February 2, 1946 in Black Mountain, North Carolina, United States." ;
+        ont:place           <http://dbpedia.org/resource/North_Carolina> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
+        ont:timeExpression  "February 2 , 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/3411455/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1933, he left Germany and moved to Prague with his wife because of the rise of anti-Semitism in Nazi Germany.After emigrating to the United States in 1938, he taught at Black Mountain College, North Carolina." ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/North_Carolina> , <http://dbpedia.org/resource/Prague> , <http://dbpedia.org/resource/Germany> ;
+        ont:subject         <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
+        ont:timeExpression  "in 1938" , "In 1933" .
+
 <http://w3id.org/polifonia/pilot/meetups/3411455/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Heinrich Jalowetz (December 3, 1882 – February 2, 1946) was an Austrian musicologist and conductor, who settled in the United States." ;
         ont:person          <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
         ont:timeExpression  "December 3 , 1882" , "February 2 , 1946" .
 
+<http://w3id.org/polifonia/pilot/meetups/3411455/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He completed his doctorate degree in 1908, with a dissertation on Beethoven's early techniques in melody." ;
+        ont:person          <http://dbpedia.org/resource/Ludwig_van_Beethoven> ;
+        ont:subject         <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
+        ont:timeExpression  "degree in 1908" .
+
 <http://w3id.org/polifonia/pilot/meetups/3411455/2/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Heinrich Jalowetz was born on December 3, 1882 in Brno, Bohemia, to Jewish parents Emilie Jalowetz (née Deutsch) and Julius Jalowetz." ;
         ont:person          <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
-        ont:place           "http://dbpedia.org/resource/Kingdom_of_Bohemia" , "http://dbpedia.org/resource/Brno" ;
+        ont:place           <http://dbpedia.org/resource/Brno> , <http://dbpedia.org/resource/Kingdom_of_Bohemia> ;
         ont:subject         <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
         ont:timeExpression  "December 3 , 1882" .
 
+<http://w3id.org/polifonia/pilot/meetups/3411455/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was one of the core members of what became known as the Second Viennese School in the orbit of Arnold Schoenberg." ;
+        ont:subject         <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
+        ont:timeExpression  "one" .
+
 <http://w3id.org/polifonia/pilot/meetups/3411455/2/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1908, he married Johanna Groag.From 1909 to 1933, he worked as a conductor in Regensburg, Danzig, Stettin, Prague, Vienna and Cologne (as successor to Otto Klemperer)." ;
         ont:person          <http://dbpedia.org/resource/Johanna_van_Gogh-Bonger> , <http://dbpedia.org/resource/Otto_Klemperer> ;
-        ont:place           "http://dbpedia.org/resource/Free_City_of_Danzig" , "http://dbpedia.org/resource/Vienna" , "http://dbpedia.org/resource/Regensburg" , "http://dbpedia.org/resource/Prague" , "http://dbpedia.org/resource/Cologne" , "http://dbpedia.org/resource/Szczecin" ;
+        ont:place           <http://dbpedia.org/resource/Free_City_of_Danzig> , <http://dbpedia.org/resource/Vienna> , <http://dbpedia.org/resource/Regensburg> , <http://dbpedia.org/resource/Prague> , <http://dbpedia.org/resource/Cologne> , <http://dbpedia.org/resource/Szczecin> ;
         ont:subject         <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
         ont:timeExpression  "Johanna Groag.From 1909" , "In 1908" , "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/3411455/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A musicology pupil of Guido Adler, Jalowetz was among Arnold Schoenberg's first students in Vienna, 1904–1908." ;
+        ont:place           <http://dbpedia.org/resource/Vienna> ;
+        ont:subject         <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
+        ont:timeExpression  "1904–1908" .
+
+<http://w3id.org/polifonia/pilot/meetups/3411455/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He is one of the seven ‘Dead Friends’ (the others being Berg, Webern, Alexander Zemlinsky, Franz Schreker, Karl Kraus and Adolf Loos) to whom he once envisaged dedicating his book Style and Idea, with the comment that those men ‘belong to those with whom principles of music, art, artistic morality and civic morality need not be discussed." ;
+        ont:person          <http://dbpedia.org/resource/Adolf_Loos> , <http://dbpedia.org/resource/Alexander_von_Zemlinsky> , <http://dbpedia.org/resource/Karl_Kraus_(writer)> ;
+        ont:subject         <http://dbpedia.org/resource/Heinrich_Jalowetz> ;
+        ont:timeExpression  "one" , "seven" .

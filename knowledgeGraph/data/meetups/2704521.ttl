@@ -6,16 +6,67 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/2704521/0/0>
+<http://w3id.org/polifonia/pilot/meetups/2704521/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "KOS brings in Nashville artists to run summer classes that open the doors to the arts to kids who might otherwise never see greatness or think about greatness in their arts." ;
+        ont:place    <http://dbpedia.org/resource/Nashville,_Tennessee> ;
+        ont:subject  <http://dbpedia.org/resource/Gene_Cotton> .
+
+<http://w3id.org/polifonia/pilot/meetups/2704521/0/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Gene_Cotton> ;
-        ont:place           "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Ohio" ;
+        ont:excerpt         "He is best known for his four Billboard top 40 entries during the years 1976–1978." ;
         ont:subject         <http://dbpedia.org/resource/Gene_Cotton> ;
-        ont:timeExpression  "June 30 , 1944" .
+        ont:timeExpression  "40" , "1976–1978" , "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/2704521/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Between the late 1990s and mid 2000s, Cotton scaled back his career as a singer and songwriter and spent much of his savings on a legal battle against the construction of Interstate 840 which surrounds Nashville, which substantially delayed the completion of the route and led to a partial redesign of one section." ;
+        ont:place           <http://dbpedia.org/resource/Nashville_International_Airport> , <http://dbpedia.org/resource/Interstate_840_(Tennessee)> ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Cotton> ;
+        ont:timeExpression  "1990s" , "one section" , "Interstate 840" , "2000s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2704521/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Most notably, Grammy Award winner Michael McDonald has performed numerous times to bring awareness and raise donations for this program under Cotton's leadership, besides producing independent films about the plight of the poor around the world." ;
+        ont:person   <http://dbpedia.org/resource/Michael_McDonald_(musician)> ;
+        ont:subject  <http://dbpedia.org/resource/Gene_Cotton> .
 
 <http://w3id.org/polifonia/pilot/meetups/2704521/3/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cotton was instrumental in 1970s pop singer Michael Johnson's career.In 2001, Cotton lost a race for a seat in District 63 of the Tennessee House of Representatives, to Republican Glen Casada." ;
         ont:person          <http://dbpedia.org/resource/Glen_Casada> , <http://dbpedia.org/resource/Michael_Johnson_(sprinter)> ;
-        ont:place           "http://dbpedia.org/resource/Tennessee" ;
+        ont:place           <http://dbpedia.org/resource/Tennessee> ;
         ont:subject         <http://dbpedia.org/resource/Gene_Cotton> ;
-        ont:timeExpression  "District 63" , "1970s pop singer" , "2001" .
+        ont:timeExpression  "1970s pop singer" , "District 63" , "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/2704521/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the UK, he is most famous for the song \"Me and the Elephant\" which failed to make the top 40 best sellers, but was an airplay hit." ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Cotton> ;
+        ont:timeExpression  "40" .
+
+<http://w3id.org/polifonia/pilot/meetups/2704521/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gene Cotton (born June 30, 1944 in Columbus, Ohio) is an American pop and folk singer-songwriter." ;
+        ont:person          <http://dbpedia.org/resource/Gene_Cotton> ;
+        ont:place           <http://dbpedia.org/resource/Ohio> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Cotton> ;
+        ont:timeExpression  "June 30 , 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/2704521/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cotton, the father of two adopted children and one biological child, has devoted himself to helping the underprivileged of his area by motivating them in their studies and activities through a program called Kids on Stage (KOS)." ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Cotton> ;
+        ont:timeExpression  "one" , "father of two" .
+
+<http://w3id.org/polifonia/pilot/meetups/2704521/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Cotton has been a resident of Leiper's Fork, Tennessee since the late 1970s." ;
+        ont:place    <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject  <http://dbpedia.org/resource/Gene_Cotton> .
+
+<http://w3id.org/polifonia/pilot/meetups/2704521/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Casada won 3,185 votes to Cotton's 1,554 in a special election in which only 13 percent of registered voters cast ballots." ;
+        ont:subject         <http://dbpedia.org/resource/Gene_Cotton> ;
+        ont:timeExpression  "13 percent" , "1,554" , "3,185" .

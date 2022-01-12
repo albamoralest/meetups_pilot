@@ -6,23 +6,146 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/1479807/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I (Life, career, discography, and index), 314 pages, ill, 2015." ;
+        ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:timeExpression  "314" , "2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He enjoyed a prominent career in England, France and Italy, and appeared at the foremost American opera houses in New York City and Chicago." ;
+        ont:place    <http://dbpedia.org/resource/Italy> , <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Marcel_Journet> .
+
 <http://w3id.org/polifonia/pilot/meetups/1479807/8/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Warrack, John and Rosenthal, Harold, The Concise Oxford Dictionary of Opera, London, second edition, 1980." ;
         ont:person          <http://dbpedia.org/resource/Harold_Rosenthal> , <http://dbpedia.org/resource/John_Warrack> ;
-        ont:place           "http://dbpedia.org/resource/Oxford" , "http://dbpedia.org/resource/London" ;
+        ont:place           <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Oxford> ;
         ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
         ont:timeExpression  "1980" .
 
 <http://w3id.org/polifonia/pilot/meetups/1479807/12/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jean-Pierre Mouchon: \"Une basse française d'exception: Marcel Journet, two volumes, Édilivre, Saint-Denis, France, vol." ;
         ont:person          <http://dbpedia.org/resource/Marcel_Journet> ;
-        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/Stade_de_France" ;
+        ont:place           <http://dbpedia.org/resource/Stade_de_France> , <http://dbpedia.org/resource/France> ;
         ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
         ont:timeExpression  "two" .
 
+<http://w3id.org/polifonia/pilot/meetups/1479807/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Marcel Journet (25 July 1868 – 7 September 1933), was a French, bass, operatic singer." ;
+        ont:person          <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:timeExpression  "25 July 1868" , "7 September 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Many of these recordings have been re-issued on various CDs, most notably on the Marston and Preiser labels." ;
+        ont:place    <http://dbpedia.org/resource/Pembridge> ;
+        ont:subject  <http://dbpedia.org/resource/Marcel_Journet> .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jean-Pierre Mouchon, \"Marcel Journet\" in \"The Record Collector\", volume 47, n°1, March 2002." ;
+        ont:person          <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:timeExpression  "March 2002" , "47" .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Numerous recordings testify to Journet's outstanding vocal attributes and the high standard of his interpretative powers." ;
+        ont:place    <http://dbpedia.org/resource/Journet> ;
+        ont:subject  <http://dbpedia.org/resource/Marcel_Journet> .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/12/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN paper: 978-2-332-89251-5, ISBN pdf: 978-2-332-89252-2, ISBN epub: 978-2-332-89250-8" ;
+        ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:timeExpression  "978-2-332-89252-2" , "978-2-332-89251-5" .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His on-stage colleagues included such renowned singers as Nellie Melba, Luisa Tetrazzini, Enrico Caruso, Giovanni Martinelli, Titta Ruffo, Giuseppe De Luca and Feodor Chaliapin." ;
+        ont:person   <http://dbpedia.org/resource/Titta_Ruffo> , <http://dbpedia.org/resource/Giuseppe_Rolli> , <http://dbpedia.org/resource/Enrico_Caruso> ;
+        ont:subject  <http://dbpedia.org/resource/Marcel_Journet> .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jean-Pierre Mouchon, \"Marcel Journet\" in \"Étude\", n° 6, 1997 (Association internationale de chant lyrique TITTA RUFFO, site: titta-ruffo-international.jimdo.com)." ;
+        ont:person          <http://dbpedia.org/resource/Titta_Ruffo> , <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:timeExpression  "6" , "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He possessed a beautiful, cultured voice and a fine technique—hitting the absolute peak of his powers as a singer and an actor during the 1915-1925 period, during which time he became La Scala's principal bass." ;
+        ont:place    <http://dbpedia.org/resource/La_Scala> ;
+        ont:subject  <http://dbpedia.org/resource/Marcel_Journet> .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/12/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "II (chronology, index, bibliography), 445 pages, ill. 2015." ;
+        ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:timeExpression  "2015" , "445" .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Journet went on to sing a wide range of roles in operas by Richard Wagner and major French and Italian composers during a distinguished, 40-year career." ;
+        ont:place    <http://dbpedia.org/resource/Journet> , <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Marcel_Journet> .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Arturo Toscanini was just one of the celebrated conductors under whose baton he performed." ;
+        ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Journet died in Vittel, of kidney failure, aged 66." ;
+        ont:place           <http://dbpedia.org/resource/Journet> , <http://dbpedia.org/resource/Vittel> ;
+        ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:timeExpression  "66" .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He made his operatic debut at Montpellier in 1891." ;
+        ont:place           <http://dbpedia.org/resource/Montpellier> ;
+        ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:timeExpression  "in 1891" .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Royal Opera House at London's Covent Garden, Milan's La Scala, the Paris Opera and the New York Metropolitan Opera, were some of the famous venues graced by Journet's presence during the first quarter of the 20th century." ;
+        ont:place    <http://dbpedia.org/resource/Journet> , <http://dbpedia.org/resource/Milan> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/La_Scala> , <http://dbpedia.org/resource/Royal_Opera_House> ;
+        ont:subject  <http://dbpedia.org/resource/Marcel_Journet> .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN paper: 978-2-332-89248-5, ISBN pdf: 978-2-332-89249-2, ISBN epub: 978-2-332-89247." ;
+        ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:timeExpression  "978-2-332-89247" , "978-2-332-89248-5" , "978-2-332-89249-2" .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Journet was born in the town of Grasse, Alpes-Maritimes, and studied at the Paris Conservatory." ;
+        ont:place    <http://dbpedia.org/resource/Journet> , <http://dbpedia.org/resource/Grasse> , <http://dbpedia.org/resource/Alpes-Maritimes> ;
+        ont:subject  <http://dbpedia.org/resource/Marcel_Journet> .
+
+<http://w3id.org/polifonia/pilot/meetups/1479807/14/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Marcel Journet recordings at the Discography of American Historical Recordings." ;
+        ont:person   <http://dbpedia.org/resource/Marcel_Journet> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Marcel_Journet> .
+
 <http://w3id.org/polifonia/pilot/meetups/1479807/9/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Scott, Michael, The Record of Singing, Volume II, Duckworth, London, 1979." ;
         ont:person          <http://dbpedia.org/resource/Michael_Scott_(Irish_author)> ;
-        ont:place           "http://dbpedia.org/resource/London" ;
+        ont:place           <http://dbpedia.org/resource/London> ;
         ont:subject         <http://dbpedia.org/resource/Marcel_Journet> ;
         ont:timeExpression  "1979" .

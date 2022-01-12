@@ -6,107 +6,754 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/481738/28/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:place           "http://dbpedia.org/resource/Nogent-sur-Marne" ;
-        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "7 September 2006" .
-
-<http://w3id.org/polifonia/pilot/meetups/481738/23/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:place           "http://dbpedia.org/resource/Cannes" , "http://dbpedia.org/resource/Paris" ;
-        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "in 1994" .
-
-<http://w3id.org/polifonia/pilot/meetups/481738/0/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:place           "http://dbpedia.org/resource/Cannes" , "http://dbpedia.org/resource/Nogent-sur-Marne" ;
-        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "24 February 1994" , "25 March 1906" .
-
-<http://w3id.org/polifonia/pilot/meetups/481738/15/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Danny_Kaye> ;
-        ont:place           "http://dbpedia.org/resource/London_Palladium" ;
-        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "In 1948" .
-
 <http://w3id.org/polifonia/pilot/meetups/481738/12/8>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1940s, he animated the \"Show Jean Sablon\" on the Columbia Broadcasting System (CBS) radio and was accompanied by the American accordionist and songwriter John Serry Sr, with Toots Camarata as musical arranger." ;
         ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
         ont:timeExpression  "1940s" .
 
+<http://w3id.org/polifonia/pilot/meetups/481738/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1923 : La Dame en décolleté, by Yves Mirande and Lucien Boyer, music by Maurice Yvain, Théâtre des Bouffes-Parisiens." ;
+        ont:person          <http://dbpedia.org/resource/Lucien_Boyer> , <http://dbpedia.org/resource/Maurice_Yvain> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/8/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "That song, first performed by Pills et Tabet became a huge hit for them and later for Jean Sablon." ;
+        ont:person   <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/18/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nonetheless, he managed to maintain a crowded schedule of international appearances throughout the 1960s, attracting enthusiastic crowds not only in Europe, South America and the US, but in South Africa, Bermuda, New Caledonia, the Philippines, Hong Kong, Japan (where he spent three months) and Iran (where he appeared before the Shah at the royal palace)." ;
+        ont:place           <http://dbpedia.org/resource/Japan> , <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/South_Africa> , <http://dbpedia.org/resource/Philippines> , <http://dbpedia.org/resource/South_America> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Iran> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1951 : Paris Still Sings by Pierre Montazel." ;
+        ont:person          <http://dbpedia.org/resource/Pierre_Curie> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1951" .
+
 <http://w3id.org/polifonia/pilot/meetups/481738/36/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1935 : Pirouette 35, by Fernand Rouvray and Max Eddy, Théâtre des Dix Francs." ;
         ont:person          <http://dbpedia.org/resource/Otto_Dix> ;
-        ont:place           "http://dbpedia.org/resource/Rouvray-Saint-Denis" ;
+        ont:place           <http://dbpedia.org/resource/Rouvray-Saint-Denis> ;
         ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "Pirouette 35" , "1935" .
-
-<http://w3id.org/polifonia/pilot/meetups/481738/42/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Champfleury> ;
-        ont:place           "http://dbpedia.org/resource/Sauvat" , "http://dbpedia.org/resource/Paris" ;
-        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "1936" .
-
-<http://w3id.org/polifonia/pilot/meetups/481738/4/2>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Milton> ;
-        ont:place           "http://dbpedia.org/resource/Rio_de_Janeiro" , "http://dbpedia.org/resource/Copacabana_Palace" ;
-        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "1928" .
-
-<http://w3id.org/polifonia/pilot/meetups/481738/27/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:place           "http://dbpedia.org/resource/Paris" ;
-        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "30 April 2004" , "16th arrondissement" .
-
-<http://w3id.org/polifonia/pilot/meetups/481738/22/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Gabriela_Mistral> ;
-        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/France" ;
-        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "in 1984" .
-
-<http://w3id.org/polifonia/pilot/meetups/481738/8/4>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Django_Reinhardt> , <http://dbpedia.org/resource/Max_Reinhardt> ;
-        ont:place           "http://dbpedia.org/resource/Ans" ;
-        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "In 1933" , "19" .
+        ont:timeExpression  "1935" , "Pirouette 35" .
 
 <http://w3id.org/polifonia/pilot/meetups/481738/29/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 10 April 2010 the allée Jean Sablon was inaugurated on the Promenade de la Croisette in Cannes." ;
         ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:place           "http://dbpedia.org/resource/Cannes" ;
+        ont:place           <http://dbpedia.org/resource/Cannes> ;
         ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
         ont:timeExpression  "10 April 2010" .
 
-<http://w3id.org/polifonia/pilot/meetups/481738/20/1>
+<http://w3id.org/polifonia/pilot/meetups/481738/17/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He appeared repeatedly in the US, the UK, France and Brazil, as well as in Canada, Portugal, Morocco, Algeria, Greece, Italy and Egypt, and Mexico, Cuba and Spain." ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Algeria> , <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Brazil> , <http://dbpedia.org/resource/Greece> , <http://dbpedia.org/resource/Spain> , <http://dbpedia.org/resource/Portugal> , <http://dbpedia.org/resource/Egypt> , <http://dbpedia.org/resource/Cuba> , <http://dbpedia.org/resource/Mexico> , <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/Italy> , <http://dbpedia.org/resource/Morocco> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/42/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Gabriel> ;
-        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Rio_de_Janeiro" , "http://dbpedia.org/resource/Alcazar_Stadium" , "http://dbpedia.org/resource/Copacabana_Palace" ;
+        ont:excerpt         "1936 : Le Chant des tropiques, by Louis Sauvat and Champfleury, music by Moyses Simons, Théâtre de Paris." ;
+        ont:person          <http://dbpedia.org/resource/Champfleury> ;
+        ont:place           <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/Sauvat> ;
         ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
-        ont:timeExpression  "in 1984" , "in 1982" .
+        ont:timeExpression  "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1934 : Femmes en folie, by Maurice Hermitte and Jean Le Seyeux, Folies Bergère." ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 7 September 2006 the promenade Jean Sablon was inaugurated along the Marne, in Nogent-sur-Marne, on the occasion of an exhibition for the centenary of Sablon's birth." ;
+        ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:place           <http://dbpedia.org/resource/Nogent-sur-Marne> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "7 September 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1949 in New York, then Holland, Switzerland, France and the UK." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Switzerland> , <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Holland> , <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "In 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/11/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was there that he made a few recordings in English, with celebrities such as Cole Porter and George Gershwin lending him their material, respectively \"In the Still of the Night\" and \"Love walked In\"." ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
 
 <http://w3id.org/polifonia/pilot/meetups/481738/41/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1933 : Dix-neuf ans, by Jean Bastia, music by Pascal Bastia, Théâtre Daunou." ;
         ont:person          <http://dbpedia.org/resource/Pascal_Bastia> ;
-        ont:place           "http://dbpedia.org/resource/Ans" ;
+        ont:place           <http://dbpedia.org/resource/Ans> ;
         ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
         ont:timeExpression  "1933" .
 
+<http://w3id.org/polifonia/pilot/meetups/481738/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1932 : Ces messieurs dames, by Francis Carco, Le Studio de Paris." ;
+        ont:place           <http://dbpedia.org/resource/Le_Studio> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 30 April 2004 the allée Jean Sablon was inaugurated in the 16th arrondissement of Paris." ;
+        ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "16th arrondissement" , "30 April 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1948 he followed and equaled the box office receipts of Danny Kaye at the London Palladium." ;
+        ont:person          <http://dbpedia.org/resource/Danny_Kaye> ;
+        ont:place           <http://dbpedia.org/resource/London_Palladium> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "In 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sablon became the presenter of the radio show Cadum Variétés, on which he also sang." ;
+        ont:person   <http://dbpedia.org/resource/Ricardo_Cardoso_Guimarães> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/8/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Back in Paris, he created Ce Petit Chemin." ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/12/12>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The producer teamed him with Carmen Miranda, who appeared for the first time outside of Brazil." ;
+        ont:person   <http://dbpedia.org/resource/Carmen_Miranda> ;
+        ont:place    <http://dbpedia.org/resource/Brazil> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1931 : Revue Argentine, by Manuel Romero and Bayon Herrera." ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1929 : Vive Leroy, by Henri Géroule and René Pujol, music by Fred Pearly and Pierre Chagnon, Théâtre des Capucines." ;
+        ont:person          <http://dbpedia.org/resource/Napoleon_Chagnon> , <http://dbpedia.org/resource/Pierre_Curie> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/21/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His records sold in the millions around the world and he is frequently referred to as the French equivalent of America's Bing Crosby and Frank Sinatra." ;
+        ont:person   <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/9/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His success on the BBC radio with his trio (Django Reinhardt, André Ekyan and Alec Siniavine) was so considerable that the transmissions were often repeated and the programs of the radio station modified." ;
+        ont:person   <http://dbpedia.org/resource/Django_Reinhardt> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1929, Jean Sablon recorded his first demo record for Columbia with Georges Van Parys, as well as sharing the stage in the operetta Vive Leroy with Arletty, Dranem and Jacqueline Delubac and then Music Hall with Damia and Germaine Rouer." ;
+        ont:person          <http://dbpedia.org/resource/Arletty> , <http://dbpedia.org/resource/Germaine_Rouer> , <http://dbpedia.org/resource/Jacqueline_Delubac> , <http://dbpedia.org/resource/Jean_Sablon> , <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "In 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "That year, Sablon continued to sing in Brazil, Argentina and Uruguay, appearing there through 1945, when he returned to the US to perform in New York, Chicago and Washington." ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Uruguay> , <http://dbpedia.org/resource/Brazil> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Argentina> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "through 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/8/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At the same time, Mireille and Jean Nohain wrote \"Couchés dans le Foin\"." ;
+        ont:person   <http://dbpedia.org/resource/Jean_Nohain> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/12/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was thanks to Sablon that Charles Trenet and La Bolduc were introduced." ;
+        ont:person   <http://dbpedia.org/resource/La_Bolduc> , <http://dbpedia.org/resource/Charles_Trenet> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/25/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jean Sablon was the son of composer Charles Sablon and the brother of composer André Sablon and singer and actress Germaine Sablon." ;
+        ont:person   <http://dbpedia.org/resource/Jean_Sablon> , <http://dbpedia.org/resource/Germaine_Sablon> , <http://dbpedia.org/resource/Charles_VII_of_France> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His Adieux in Paris in 1982 were televised in prime time from the Pavillon Gabriel (the former Alcazar d'Eté) and he made his last performance in Rio de Janeiro at the Copacabana Palace in 1984." ;
+        ont:person          <http://dbpedia.org/resource/Gabriel> ;
+        ont:place           <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/Rio_de_Janeiro> , <http://dbpedia.org/resource/Copacabana_Palace> , <http://dbpedia.org/resource/Alcazar_Stadium> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1984" , "in 1982" .
+
 <http://w3id.org/polifonia/pilot/meetups/481738/32/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1927 : Au temps de Gastounet, by Georges Gabriel Thenon, Théâtre des Bouffes-Parisiens." ;
         ont:person          <http://dbpedia.org/resource/Gabriel> ;
-        ont:place           "http://dbpedia.org/resource/Thenon" ;
+        ont:place           <http://dbpedia.org/resource/Thenon> ;
         ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
         ont:timeExpression  "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With the increasing popularity of television, Sablon was able to reduce his travels while at the same time reaching a larger new audience on both sides of the Atlantic." ;
+        ont:place    <http://dbpedia.org/resource/Atlantic_Ocean> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was in operettas that he came to share the stage in 1923 first with Jean Gabin in La Dame en Décolleté and then with Charles Boyer and Falconetti in Simili in 1925." ;
+        ont:person          <http://dbpedia.org/resource/Charles_Boyer> , <http://dbpedia.org/resource/Jean_Gabin> , <http://dbpedia.org/resource/Renée_Jeanne_Falconetti> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1925" , "stage in 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1941, he had further engagements in New York, at the Waldorf Astoria, the Plaza and at the San Regis hotels, before going on, in 1942, in Los Angeles and in Cuba, and then touring in America, Brazil and Argentina." ;
+        ont:place           <http://dbpedia.org/resource/Cuba> , <http://dbpedia.org/resource/Waldorf_Astoria_New_York> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Los_Angeles> , <http://dbpedia.org/resource/Brazil> , <http://dbpedia.org/resource/Argentina> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1942" , "In 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Throughout the 1950s, Sablon traveled constantly (except for a year's sabbatical in 1957)." ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "sabbatical in 1957" , "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On 15 May 2015 the esplanade Jean Sablon was inaugurated in Théoule-sur-Mer." ;
+        ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "15 May 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jean Sablon died in Cannes in 1994 and was buried in the Cimetière du Montparnasse in Paris." ;
+        ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:place           <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/Cannes> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Thereafter, one international success followed another." ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/11/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "That same year, contracted by the producers of The Magic Key, thanks to his success in France, he left for New York, engaged at the NBC studios of Radio City Hall." ;
+        ont:place    <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/The_Burbank_Studios> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Radio_City_Music_Hall> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sablon appeared in a number of motion pictures and television films performing as a vocalist or pianist, his last being in 1984 when he sang \"April in Paris\" in Mistral's Daughter, the popular American TV miniseries filmed in France." ;
+        ont:person          <http://dbpedia.org/resource/Gabriela_Mistral> ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was in 1931 that he met Mireille, whose song \"Couchés dans le foin\" became a great success, the introduction being made by the editor Raoul Breton." ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Star of vinyl and the radio, he left France in 1937 to take up a contract with NBC in the United States." ;
+        ont:place           <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sablon's recording of \"Les Feuilles mortes\" in the summer of 1947 in New York (RCA Victor 855332) is the earliest version of this classic, known as \"Automn Leaves\" in the US." ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "RCA Victor 855332" , "summer of 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/8/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In Los Angeles, he gave a concert in front of a panoply of stars." ;
+        ont:place    <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/12/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was a star on Broadway and then Boston in the musical \"Streets of Paris\"." ;
+        ont:place    <http://dbpedia.org/resource/Boston> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/9/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The London cabaret Monseigneur invited him to perform there." ;
+        ont:place    <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/21/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jean Sablon became the most widely acclaimed male French singer of his generation in the world, considered second only in overall lifetime popularity to Maurice Chevalier, a senior model for him." ;
+        ont:person   <http://dbpedia.org/resource/Maurice_Chevalier> , <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After appearing in the operetta \"Lulu\" with Fernand Gravey, he embarked on a transatlantic journey to Rio de Janeiro in the company of Georges Milton and Alice Cocéa for the inauguration of the Copacabana Palace (1928)." ;
+        ont:person          <http://dbpedia.org/resource/John_Milton> ;
+        ont:place           <http://dbpedia.org/resource/Rio_de_Janeiro> , <http://dbpedia.org/resource/Copacabana_Palace> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Meanwhile, in 1943, in London, his sister Germaine was the first to perform Le Chant des Partisans, which became the anthem of the French Resistance." ;
+        ont:place           <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/12/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was there that he met La Bolduc, whose technique of \"turlutage\" as well as her earthy songs impressed him greatly." ;
+        ont:person   <http://dbpedia.org/resource/La_Bolduc> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At the urging of US impresario George Wein and singer-pianist Bobby Short, Jean celebrated his 75th birthday at the Met (Lincoln Center) in New York, appearing with the orchestra of Frank Sinatra, thus making his farewell to his American followers." ;
+        ont:person   <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Bobby_Short> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Lincoln_Center> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He made his debut at the age of seventeen in an operetta in Paris." ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sablon made his debut at the Teatro Municipal in São Paulo in 1940, and then in Argentina, Uruguay and Chile." ;
+        ont:place           <http://dbpedia.org/resource/Municipal_Theatre_of_Santiago> , <http://dbpedia.org/resource/Uruguay> , <http://dbpedia.org/resource/Argentina> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/16/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was cheered at the Theatre de l'Etoile, where Gene Kelly unsuccessfully attempted to persuade him to play the role of Henri Baurel in An American in Paris (subsequently taken by Georges Guetary)." ;
+        ont:person   <http://dbpedia.org/resource/Gene_Kelly> ;
+        ont:place    <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In Hollywood, Sablon was contracted to star in \"The Story of Irene and Vernon Castle\" with Fred Astaire and Ginger Rogers." ;
+        ont:person   <http://dbpedia.org/resource/Fred_Astaire> , <http://dbpedia.org/resource/Irene_of_Athens> , <http://dbpedia.org/resource/Ginger_Rogers> ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/10/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was at the Théâtre Mogador and then at Bobino that he created a scandal by using a microphone, the first to do so in France." ;
+        ont:place    <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/Essaouira> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1937, he won the Grand Prix du Disque for the song \"Vous qui passez sans me voir\", created by him and written for him by Charles Trenet, Johnny Hess and Paul Misraki." ;
+        ont:person          <http://dbpedia.org/resource/Charles_Trenet> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "In 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/19/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In addition, he regularly offered his services on behalf of charitable causes: The Red Cross Gala in Monaco in 1972, the gala for the restoration of Versailles in 1973 and the International Festival of Song first in Brazil and then in Uruguay." ;
+        ont:place           <http://dbpedia.org/resource/Uruguay> , <http://dbpedia.org/resource/Palace_of_Versailles> , <http://dbpedia.org/resource/Monaco> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1973" , "in 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "That year, he was back on stage in La Revue Argentine, then Parade de Femmes with Carlos Gardel." ;
+        ont:person   <http://dbpedia.org/resource/Carlos_Gardel> ;
+        ont:place    <http://dbpedia.org/resource/Argentina> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The man behind several songs by big French and American names, he was the first to use a microphone on a French stage in 1936." ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "stage in 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1936, the film \"Le Petit Chemin\" reunited Sablon with Mireille." ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "In 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/8/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He then embarked on another journey to America, Hollywood this time, with Mireille at the invitation of Ramon Novarro, famous for Ben Hur on the big screen." ;
+        ont:person   <http://dbpedia.org/resource/Ramon_Novarro> ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/12/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Then he returned to New York, his hometown since 1937." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "hometown since 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was in 1934 that Jean Cocteau encouraged Sablon to initiate a \"tour de chant\" (one man show), accompanied on the piano by Jean Wiener and Clément Doucet, at the Rococo, an establishment that belonged to Louis Moysès, founder and owner of the cabaret Le Bœuf sur le toit." ;
+        ont:person          <http://dbpedia.org/resource/Jean_Cocteau> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "one man show" , "in 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was Paul Colin who created the first billboard for the young singer." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Colin_(artist)> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/17/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Later in the decade he extended his travels to include India, Australia and New Zealand, Tahiti, Panama and Venezuela." ;
+        ont:place    <http://dbpedia.org/resource/Venezuela> , <http://dbpedia.org/resource/Australia> , <http://dbpedia.org/resource/Panama> , <http://dbpedia.org/resource/Tahiti> , <http://dbpedia.org/resource/India> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/12/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In January 1939, he was in Montreal, creating a swing version of \"Sur Le Pont d'Avignon\" which would go on to have a huge success." ;
+        ont:place           <http://dbpedia.org/resource/Montreal> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "January 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1932 was a year rich in recordings for the record company Columbia." ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/16/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the intervening months he appeared again in Holland and Brazil, concluding his South American tour in Uruguay and Chile." ;
+        ont:place    <http://dbpedia.org/resource/Uruguay> , <http://dbpedia.org/resource/Brazil> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Holland> , <http://dbpedia.org/resource/Chile> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "On stage, Jean appeared with Mistinguett at the Casino de Paris in Paris qui brille." ;
+        ont:person   <http://dbpedia.org/resource/Mistinguett> ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/10/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He then found himself at the Café de Paris in London, returning to France for \"Le Chant des Tropiques\" at the Théâtre de Paris." ;
+        ont:place    <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Other important encounter in 1931, Jean discovered the guitarist Django Reinhardt in La Boîte à Matelots." ;
+        ont:person          <http://dbpedia.org/resource/Django_Reinhardt> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "encounter in 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1935, he created the song \"These Foolish Things\" at the Boeuf sur le Toit and was on the stage with Pierre Dac in Pirouette 35." ;
+        ont:person          <http://dbpedia.org/resource/Pierre_Curie> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "Pirouette 35" , "In 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/19/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The 1970s and the 1980s found Sablon performing regularly on TV, not only in France, but in Switzerland, Italy, Brazil and the US." ;
+        ont:place           <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Italy> , <http://dbpedia.org/resource/Switzerland> , <http://dbpedia.org/resource/Brazil> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1970s" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Henri Diamant-Berger approached Sablon in 1931 for the making of Tante Aurélie alongside his sister Germaine Sablon." ;
+        ont:person          <http://dbpedia.org/resource/Germaine_Sablon> , <http://dbpedia.org/resource/Henri_Diamant-Berger> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "in 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was one of the first French singers to immerse himself in jazz." ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1927 found him appearing in the review of Au Temps de Gastounet (written by Rip) with Jacqueline Delubac." ;
+        ont:person          <http://dbpedia.org/resource/Jacqueline_Delubac> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/17/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Under the banner of the Moss Empire, Sablon toured the UK and Ireland." ;
+        ont:place    <http://dbpedia.org/resource/British_Empire> , <http://dbpedia.org/resource/Ireland> , <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/59/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jean Sablon at Les Gens du cinéma" ;
+        ont:person   <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A pupil at the Lycée Charlemagne in Paris, Jean Sablon dropped out, intending to study at the Conservatory of Paris." ;
+        ont:person   <http://dbpedia.org/resource/Charlemagne> , <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was in London that he recorded on 30 March \"C'est Si Bon\" with the orchestra of Woolf Philips, and on 23 November he recorded the English version with lyrics by Jerry Seleen in Buenos Aires, with the orchestra of Emile Stern." ;
+        ont:place           <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Buenos_Aires> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "on 23" , "on 30" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/58/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jean Sablon at the UniFrance Films" ;
+        ont:person   <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sablon was born in Nogent-sur-Marne, the son of a composer, with brothers and sisters who had successful careers of their own in musical entertainment." ;
+        ont:place    <http://dbpedia.org/resource/Nogent-sur-Marne> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/0/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His sixty-one year career came to an end in 1984." ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "end in 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/57/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jean Sablon at the Hall de la chanson" ;
+        ont:person   <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/33/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Paris qui brille, by Henri Varna, Léo Lelièvre and Earl Leslie, Casino de Paris." ;
+        ont:person   <http://dbpedia.org/resource/Earl_Leslie> ;
+        ont:place    <http://dbpedia.org/resource/Varna> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/19/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1971, he was asked by Pierre Granier-Deferre to record \"Le Temps des Souvenirs\" for the soundtrack of the film \"Le Chat\"." ;
+        ont:person          <http://dbpedia.org/resource/Pierre_Renoir> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "In 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/14/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A further US tour in 1947-48 took him to New Orleans, San Francisco, Hollywood (Ciro's), Boston, Los Angeles (Beverly Hills) and Palm Beach, and then onto Brazil, Argentina and Canada." ;
+        ont:person   <http://dbpedia.org/resource/Ciro_Terranova> ;
+        ont:place    <http://dbpedia.org/resource/San_Francisco> , <http://dbpedia.org/resource/Brazil> , <http://dbpedia.org/resource/Argentina> , <http://dbpedia.org/resource/Boston> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Palm_Beach> , <http://dbpedia.org/resource/Los_Angeles> , <http://dbpedia.org/resource/New_Orleans> , <http://dbpedia.org/resource/Hollywood> , <http://dbpedia.org/resource/Canada> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/12/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He returned to Paris to appear on the stage of the ABC and took part to television experiments." ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1939 : La Grande Farandole by H. C. Potter." ;
+        ont:place           <http://dbpedia.org/resource/La_Grande_River> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jean Sablon (Nogent-sur-Marne 25 March 1906 – Cannes 24 February 1994) was a French singer, songwriter, composer and actor." ;
+        ont:person          <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:place           <http://dbpedia.org/resource/Nogent-sur-Marne> , <http://dbpedia.org/resource/Cannes> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "24 February 1994" , "25 March 1906" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1933, Jean was reunited with Reda Caire in the operetta 19 ans, accompanied by Django Reinhardt, with whom he shared success in the recording studio at Columbia, who had initially been reluctant to take the costly risk of engaging Reinhardt who, as a guitarist, couldn't read music." ;
+        ont:person          <http://dbpedia.org/resource/Django_Reinhardt> , <http://dbpedia.org/resource/Max_Reinhardt> ;
+        ont:place           <http://dbpedia.org/resource/Ans> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "19" , "In 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/55/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jean Sablon at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1930 : Everybody Wins by René Pujol and Hans Steinhoff." ;
+        ont:person          <http://dbpedia.org/resource/Hans_Steinhoff> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/17/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1952, he starred in the film Paris Chante toujours, and the same year became the first French entertainer to be featured in his own show in Las Vegas." ;
+        ont:place           <http://dbpedia.org/resource/Las_Vegas> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "In 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1924 : Madame Sans-Gêne by Léonce Perret." ;
+        ont:person          <http://dbpedia.org/resource/Auguste_Perret> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1950, he appeared again in Switzerland (Gstaad) and the UK." ;
+        ont:place           <http://dbpedia.org/resource/Switzerland> , <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Gstaad> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "In 1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/60/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jean Sablon at the Cimetières de France et d’ailleurs" ;
+        ont:person   <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:place    <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1928 : Lulu, by Serge Veber, music by Georges Van Parys and Philippe Parès, Théâtre Daunou." ;
+        ont:person          <http://dbpedia.org/resource/Serge_Véber> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/15/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In France, Jacqueline François received the award for the Grand Prix du Disque for C'est le printemps, the French version of It Might As Well Be Spring written by Sablon." ;
+        ont:place    <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/0/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Henceforth the most international of French singers among his contemporaries, he became an ambassador of French songwriting and dedicated his career to touring internationally, occasionally returning to France to appear on stage." ;
+        ont:place    <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/10/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Guests included Maurice Chevalier, Damia, Fernandel, Mistinguett, Yvette Guilbert, Albert Préjean, Henri Garat to name a few." ;
+        ont:person   <http://dbpedia.org/resource/Maurice_Chevalier> , <http://dbpedia.org/resource/Mistinguett> , <http://dbpedia.org/resource/Marie-Louise_Damien> , <http://dbpedia.org/resource/Henri_Garat> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1924 : Madame, by Albert Willemetz, music by Henri Christiné, Théâtre des Bouffes-Parisiens." ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/33/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Parade de femmes, by Henri Varna, Léo Lelièvre and Marc Cab, Le Palace." ;
+        ont:place    <http://dbpedia.org/resource/Varna> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/12/13>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He in turn starred in Brazil on shows at the Casino Atlantico in Rio de Janeiro and Casino Urca." ;
+        ont:place    <http://dbpedia.org/resource/Brazil> , <http://dbpedia.org/resource/Urca> , <http://dbpedia.org/resource/Rio_de_Janeiro> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Chicago Tribune, 1 September 1946, p. 24" ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1 September 1946" , "24" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1925 : Trois jeunes filles nues, by Yves Mirande and Albert Willemetz, music by Raoul Moretti, Théâtre des Bouffes-Parisiens." ;
+        ont:person          <http://dbpedia.org/resource/Raoul_Moretti> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/9/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Back in France, he appeared on the stage in Nice with Django Reinhardt and Joséphine Baker." ;
+        ont:person   <http://dbpedia.org/resource/Django_Reinhardt> ;
+        ont:place    <http://dbpedia.org/resource/France> , <http://dbpedia.org/resource/Phine_District> , <http://dbpedia.org/resource/Nice> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The following year, he appeared in Cocktail 328 with Damia again, as well as making his first film, Chacun sa Chance, the same year, with Jean Gabin who also made his film debut with him." ;
+        ont:person          <http://dbpedia.org/resource/Jean_Gabin> , <http://dbpedia.org/resource/Frank_Chance> , <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "Cocktail 328" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was engaged at the Paris Cabaret Don Camillo which became one of the first colored transmissions on TV." ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Jean_Sablon> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/21/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his career, he recorded with some of the world's top musicians, including Django Reinhardt and Stéphane Grappelli." ;
+        ont:person   <http://dbpedia.org/resource/Stéphane_Grappelli> , <http://dbpedia.org/resource/Django_Reinhardt> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .
+
+<http://w3id.org/polifonia/pilot/meetups/481738/14/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The following year found him again in New York, as well as in Hollywood, Boston, Brussels (ABC), Paris (ABC), Mexico (Ciro's) and Canada." ;
+        ont:person   <http://dbpedia.org/resource/Ciro_Terranova> ;
+        ont:place    <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/Hollywood> , <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Brussels> , <http://dbpedia.org/resource/Boston> , <http://dbpedia.org/resource/Mexico> ;
+        ont:subject  <http://dbpedia.org/resource/Jean_Sablon> .

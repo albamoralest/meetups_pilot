@@ -6,23 +6,101 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/52948521/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "part 1 on YouTube (in French)" ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "1" .
+
 <http://w3id.org/polifonia/pilot/meetups/52948521/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Doda Conrad (19 February 1905 – 28 December 1997) was a Polish-born American bass operatic singer." ;
         ont:person          <http://dbpedia.org/resource/Doda_Conrad> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
         ont:timeExpression  "28 December 1997" , "19 February 1905" .
 
-<http://w3id.org/polifonia/pilot/meetups/52948521/10/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Doda_Conrad> ;
-        ont:place           "http://dbpedia.org/resource/France" ;
-        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
-        ont:timeExpression  "17/12/1997" .
+<http://w3id.org/polifonia/pilot/meetups/52948521/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Doda Conrad on Encyclopédie Larousse (in French)" ;
+        ont:person   <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:subject  <http://dbpedia.org/resource/Doda_Conrad> .
 
 <http://w3id.org/polifonia/pilot/meetups/52948521/2/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The son of Marya Freund, Conrad studied singing with Emilio de Gogorza in New York, then made his debut in Paris in 1932 at the École normale de musique de Paris and the Théâtre de la Porte-Saint-Martin." ;
         ont:person          <http://dbpedia.org/resource/Marya_Freund> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Paris" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Paris> ;
         ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
         ont:timeExpression  "in 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/2/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He founded he Erémurus company, the Saison musicale of the Abbaye de Royaumont and directed the journées musicales of Langeais." ;
+        ont:place    <http://dbpedia.org/resource/Langeais> ;
+        ont:subject  <http://dbpedia.org/resource/Doda_Conrad> .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pâris, Alain (1989)." ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "284." ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "284" .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Doda Conrad, basse - interview French, 17/12/1997." ;
+        ont:person          <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "17/12/1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mort du chanteur Doda Conrad on Libération (30 December 1997) (in French)" ;
+        ont:person          <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "30 December 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1936 he worked with Nadia Boulanger." ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "In 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/4/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Paris: R. Laffont." ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Doda_Conrad> .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/2/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When he was young, he destined himself to painting on the advice of Picasso and later became a close friend of Stravinsky and Saint-John Perse." ;
+        ont:person   <http://dbpedia.org/resource/Saint-John_Perse> , <http://dbpedia.org/resource/Pablo_Picasso> ;
+        ont:subject  <http://dbpedia.org/resource/Doda_Conrad> .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\" Doda \" Conrad, un Blésois à la fois célèbre et méconnu on La Nouvelle République (5 May 2012) (in French)" ;
+        ont:place           <http://dbpedia.org/resource/Doda_district> , <http://dbpedia.org/resource/Nouvelle,_Quebec> ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "5 May 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1965 he no longer appeared on stage and was involved in music promotion." ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "In 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/52948521/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 222106660X." ;
+        ont:subject         <http://dbpedia.org/resource/Doda_Conrad> ;
+        ont:timeExpression  "ISBN 222106660X" .

@@ -6,58 +6,756 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/2790693/85/0>
+<http://w3id.org/polifonia/pilot/meetups/2790693/32/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
-        ont:place           "http://dbpedia.org/resource/Cincinnati" ;
-        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
-        ont:timeExpression  "March 1996" .
-
-<http://w3id.org/polifonia/pilot/meetups/2790693/3/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
-        ont:place           "http://dbpedia.org/resource/Port_Chester,_New_York" ;
-        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
-        ont:timeExpression  "December 16 , 1944" .
-
-<http://w3id.org/polifonia/pilot/meetups/2790693/40/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Adam_Nussbaum> ;
-        ont:place           "http://dbpedia.org/resource/Farewell_and_Chorley" ;
-        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
-        ont:timeExpression  "1993" .
-
-<http://w3id.org/polifonia/pilot/meetups/2790693/8/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Michael_Brecker> , <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> , <http://dbpedia.org/resource/Magic_Johnson> , <http://dbpedia.org/resource/Peter_Erskine> , <http://dbpedia.org/resource/Marc_Johnson_(musician)> ;
-        ont:place           "http://dbpedia.org/resource/Erskine" ;
-        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
-        ont:timeExpression  "1988" , "three" , "2000s" , "1990s" , "1986" , "1989" .
-
-<http://w3id.org/polifonia/pilot/meetups/2790693/31/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
-        ont:place           "http://dbpedia.org/resource/New_Albion" ;
+        ont:excerpt         "Animato (ECM, 1989) with Vince Mendoza, Jon Christensen" ;
+        ont:person          <http://dbpedia.org/resource/Jon_Christensen> , <http://dbpedia.org/resource/Vince_Mendoza> ;
         ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
         ont:timeExpression  "1989" .
 
+<http://w3id.org/polifonia/pilot/meetups/2790693/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Current Events (ECM, 1986) with Marc Johnson, Peter Erskine" ;
+        ont:person          <http://dbpedia.org/resource/Peter_Erskine> , <http://dbpedia.org/resource/Marc_Johnson_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "M (ECM, 1981) as John Abercrombie Quartet with Richie Beirach, George Mraz, Peter Donald" ;
+        ont:person          <http://dbpedia.org/resource/Richie_Beirach> , <http://dbpedia.org/resource/Peter_Donald> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Upon a Time (New Albion, 1989) with Mel Graves, George Marsh" ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           <http://dbpedia.org/resource/New_Albion> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Solar (Palo Alto, 1984) with John Scofield" ;
+        ont:person          <http://dbpedia.org/resource/John_Scofield> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Straight Flight (Jam, 1980) as John Abercrombie Trio with George Mraz, Peter Donald" ;
+        ont:person          <http://dbpedia.org/resource/Peter_Donald> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Abercrombie graduated from Berklee in 1967 and attended North Texas State University before moving to New York City in 1969." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "in 1969" , "in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/8/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He then started a trio with Nussbaum and organist Dan Wall and released While We're Young (1992), Speak of the Devil (1994), and Tactics (1997)." ;
+        ont:person          <http://dbpedia.org/resource/Adam_Nussbaum> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1992" , "1994" , "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Abercrombie / Marc Johnson / Peter Erskine (ECM, 1989)" ;
+        ont:person          <http://dbpedia.org/resource/Marc_Johnson_(musician)> , <http://dbpedia.org/resource/Peter_Erskine> , <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Drum Strum (1750 Arch, 1984) with George Marsh" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1750" , "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Abercrombie Quartet (ECM, 1980) as John Abercrombie Quartet with Richie Beirach, George Mraz, Peter Donald" ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Richie_Beirach> , <http://dbpedia.org/resource/Peter_Donald> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/7/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During the mid-1980s, he continued to play standards with bassist George Mraz, and he played in a bop duo with guitarist John Scofield." ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/John_Scofield> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Night (ECM, 1984) with Michael Brecker, Jan Hammer, Jack DeJohnette" ;
+        ont:person          <http://dbpedia.org/resource/Michael_Brecker> , <http://dbpedia.org/resource/Jack_DeJohnette> , <http://dbpedia.org/resource/Jan_Hammer> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Arcade (ECM, 1979) as John Abercrombie Quartet with Richie Beirach, George Mraz, Peter Donald" ;
+        ont:person          <http://dbpedia.org/resource/Peter_Donald> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Richie_Beirach> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Abercrombie was born on December 16, 1944, in Port Chester, New York." ;
+        ont:person          <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:place           <http://dbpedia.org/resource/Port_Chester,_New_York> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "December 16 , 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Midweek Blues (Plug, 1983) with David Earle Johnson, Jan Hammer" ;
+        ont:person          <http://dbpedia.org/resource/David_Earle_Johnson> , <http://dbpedia.org/resource/Jan_Hammer> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Characters (ECM, 1978)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Five Years Later (ECM, 1982) with Ralph Towner" ;
+        ont:place           <http://dbpedia.org/resource/Towner_Gallery> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1982" , "Five" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sargasso Sea (ECM, 1976) with Ralph Towner" ;
+        ont:place           <http://dbpedia.org/resource/Towner_Gallery> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/89/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Abercrombie discography, album releases & credits at Discogs" ;
+        ont:person   <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/3/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Appearing at Paul's Mall led to meetings with Michael Brecker, Randy Brecker, and organist Johnny Hammond Smith, who invited him to go on tour." ;
+        ont:person   <http://dbpedia.org/resource/Randy_Brecker> , <http://dbpedia.org/resource/Michael_Brecker> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Timeless (ECM, 1975) with Jan Hammer, Jack DeJohnette" ;
+        ont:person          <http://dbpedia.org/resource/Jack_DeJohnette> , <http://dbpedia.org/resource/Jan_Hammer> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Laird Abercrombie (December 16, 1944 – August 22, 2017) was an American jazz guitarist." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "December 16 , 1944" , "August 22 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/88/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Abercrombie biography by Chris Kelsey, discography and album reviews, credits & releases at AllMusic" ;
+        ont:person   <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1992, Abercrombie, drummer Adam Nussbaum, and Hammond organist Jeff Palmer made a free-jazz album." ;
+        ont:person          <http://dbpedia.org/resource/Adam_Nussbaum> , <http://dbpedia.org/resource/Carson_Palmer> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "In 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/3/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The first jazz guitar album he heard was by Barney Kessel.He took guitar lessons at the age of ten, asking his teacher to show him what Barney Kessel was playing." ;
+        ont:person   <http://dbpedia.org/resource/Barney_Kessel> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/87/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Abercrombie - The Third Quartet (2007) album review by Brad Walseth at JazzChicago.net" ;
+        ont:person          <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He toured with guitarist Ralph Towner with whom he recorded two albums, Sargasso Sea (1976) and Five Years Later (1981)." ;
+        ont:place           <http://dbpedia.org/resource/Towner_Gallery> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1981" , "Five" , "two" , "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/86/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Abercrombie interview by Mark S. Tucker (June 2005) at Perfect Sound Forever, www.furious.com" ;
+        ont:person          <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "June 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/79/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Nice Idea (Steeplechase, 2005)" ;
+        ont:place           <http://dbpedia.org/resource/Nice> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/85/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Abercrombie interview by Tim Berens, Cincinnati Jazz Guitar Society (March 1996) at TimBerens.com" ;
+        ont:person          <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:place           <http://dbpedia.org/resource/Cincinnati> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "March 1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/78/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Where We Were (Double-Time, 1996)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In 2017, Abercrombie died of heart failure in Cortlandt Manor, New York, at the age of 72." ;
+        ont:place           <http://dbpedia.org/resource/Cortlandt_Manor> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "age of 72" , "In 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/84/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Notes on the Road interview with John Abercrombie" ;
+        ont:person   <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/77/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Now It Can Be Played (SteepleChase, 1995)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/83/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Abercrombie on ECM Records" ;
+        ont:person   <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/76/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nosmo King (SteepleChase, 1994)" ;
+        ont:person          <http://dbpedia.org/resource/H._Vernon_Watson> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Abercrombie's trio with Johnson and Erskine released three albums during this time showcasing the guitar-synth: Current Events (1986), Getting There (1988, with Michael Brecker), and a live album, John Abercrombie / Marc Johnson / Peter Erskine (1989).The 1990s and 2000s marked a time of many new associations." ;
+        ont:person          <http://dbpedia.org/resource/Michael_Brecker> , <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> , <http://dbpedia.org/resource/Magic_Johnson> , <http://dbpedia.org/resource/Peter_Erskine> , <http://dbpedia.org/resource/Marc_Johnson_(musician)> ;
+        ont:place           <http://dbpedia.org/resource/Erskine> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1988" , "three" , "2000s" , "1990s" , "1986" , "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/3/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "They played him albums by Dave Brubeck and Miles Davis." ;
+        ont:person   <http://dbpedia.org/resource/Miles_Davis> , <http://dbpedia.org/resource/Dave_Brubeck> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Inspired (ArtistShare, 2016) with Peter Bernstein, Lage Lund, Rale Micic" ;
+        ont:person          <http://dbpedia.org/resource/Peter_Bernstein_(guitarist)> , <http://dbpedia.org/resource/Rale_Micic> , <http://dbpedia.org/resource/Lage_Lund> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2016" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the mid-1970s and into the 1980s, he contributed to ensembles led by DeJohnette and participated in other sessions for ECM, occasionally doubling on electric mandolin." ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/75/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Natural Living (Musidisc, 1990)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Angle Below (SteepleChase, 2013)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/74/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the Moment (ECM, 1996)With Andy LaVerne" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "39 Steps (ECM, 2013) as John Abercrombie Quartet with Marc Copland, Drew Gress, Joey Baron" ;
+        ont:person          <http://dbpedia.org/resource/Joey_Baron> , <http://dbpedia.org/resource/Marc_Copland> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2013" , "39" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/5/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He continued to play fusion in Billy Cobham's band, but found that he disliked its focus on rock over jazz." ;
+        ont:person   <http://dbpedia.org/resource/Billy_Cobham> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/80/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live from New York (Steeplechase, 2010)" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/73/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Homecoming (ECM, 1995)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Within a Song (ECM, 2012) as John Abercrombie Quartet with Joe Lovano, Drew Gress, Joey Baron" ;
+        ont:person          <http://dbpedia.org/resource/Joe_Lovano> , <http://dbpedia.org/resource/Joey_Baron> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Third Quartet (ECM, 2007) with Mark Feldman, Marc Johnson, Joey Baron" ;
+        ont:person          <http://dbpedia.org/resource/Joey_Baron> , <http://dbpedia.org/resource/Mark_Feldman> , <http://dbpedia.org/resource/Marc_Johnson_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/3/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He often played with other students at Paul's Mall, a jazz club in Boston connected to a larger club, Jazz Workshop." ;
+        ont:place    <http://dbpedia.org/resource/Boston> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/72/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gateway 2 (ECM, 1978)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1978" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Speak to Me (Pirouet, 2011) with Marc Copland" ;
+        ont:person          <http://dbpedia.org/resource/Marc_Copland> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Structures (Chesky, 2006) with Eddie Gomez, Gene Jackson" ;
+        ont:person          <http://dbpedia.org/resource/Michael_Jackson> , <http://dbpedia.org/resource/Eddie_Gómez> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had two friends who were musicians with a large jazz collection." ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gateway (ECM, 1976) with Dave Holland, Jack DeJohnette" ;
+        ont:person          <http://dbpedia.org/resource/Jack_DeJohnette> , <http://dbpedia.org/resource/Dave_Holland> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cradle of Light (EFCM, 2009) with Marek Dykta" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Echoes (Alessa, 2005) with Arthur Blythe, Gust Tillis, Mark Feldman" ;
+        ont:person          <http://dbpedia.org/resource/Mark_Feldman> , <http://dbpedia.org/resource/Arthur_Blythe> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/5/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"An invitation from drummer Jack DeJohnette led to the fulfillment of Abercrombie's desire to play in a jazz-oriented ensemble." ;
+        ont:person   <http://dbpedia.org/resource/Jack_DeJohnette> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/70/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Up and Coming (ECM, 2017) as John Abercrombie Quartet with Marc Copland, Drew Gress, Joey Baron With Gateway" ;
+        ont:person          <http://dbpedia.org/resource/Joey_Baron> , <http://dbpedia.org/resource/Marc_Copland> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/91/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Abercrombie albums to be listened as stream on Spotify" ;
+        ont:person   <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wait Till You See Her (ECM, 2009) as John Abercrombie Quartet with Mark Feldman, Thomas Morgan, Joey Baron" ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Hunt_Morgan> , <http://dbpedia.org/resource/Mark_Feldman> , <http://dbpedia.org/resource/Joey_Baron> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Brand New (Challenge, 2004) with Marc Copland, Kenny Wheeler" ;
+        ont:person          <http://dbpedia.org/resource/Marc_Copland> , <http://dbpedia.org/resource/Kenny_Wheeler> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "That's for Sure (Challenge, 2002) with Marc Copland, Kenny Wheeler" ;
+        ont:person          <http://dbpedia.org/resource/Kenny_Wheeler> , <http://dbpedia.org/resource/Marc_Copland> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/90/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Abercrombie biography, discography, album credits & user reviews at ProgArchives.com" ;
+        ont:person   <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tales (Sony BMG, 2008) with Robert Balzar" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alone Together (Acoustic Music, 2004) with Frank Haunschild" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Burn'in The Blues (Consolidated Artists Productions, 2001) with Jeff Palmer, Vincent Herring, Bob Leto" ;
+        ont:person          <http://dbpedia.org/resource/Vincent_Herring> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1969 he joined the Brecker Brothers in the jazz-rock fusion band Dreams." ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "In 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/8/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Gateway band reunited for the albums Homecoming (1995) and In the Moment (1996)." ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1996" , "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Coincidence (Whaling City Sound, 2007) with Joe Beck" ;
+        ont:person          <http://dbpedia.org/resource/Joe_Beck> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/3/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He cites George Benson and Pat Martino as inspirations." ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Pat_Martino> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Class Trip (ECM, 2004) with Mark Feldman, Marc Johnson, Joey Baron" ;
+        ont:person          <http://dbpedia.org/resource/Marc_Johnson_(musician)> , <http://dbpedia.org/resource/Mark_Feldman> , <http://dbpedia.org/resource/Joey_Baron> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2004" .
+
 <http://w3id.org/polifonia/pilot/meetups/2790693/47/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Hudson Project (Stretch, 2000) with Peter Erskine, Bob Mintzer, John Patitucci" ;
         ont:person          <http://dbpedia.org/resource/Peter_Erskine> , <http://dbpedia.org/resource/John_Patitucci> , <http://dbpedia.org/resource/Bob_Mintzer> ;
-        ont:place           "http://dbpedia.org/resource/Hudson_River" ;
+        ont:place           <http://dbpedia.org/resource/Hudson_River> ;
         ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
         ont:timeExpression  "2000" .
 
+<http://w3id.org/polifonia/pilot/meetups/2790693/9/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also continued to release albums on the ECM label, an association which lasted for more than 40 years." ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "than 40" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/60/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Topics (Challenge, 2007) with John Ruocco" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Animations (Underhill Jazz, 2003) with John Basile" ;
+        ont:place           <http://dbpedia.org/resource/Underhill_Stadium> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Open Land (ECM, 1999) with Kenny Wheeler, Joe Lovano, Mark Feldman, Dan Wall, Adam Nussbaum" ;
+        ont:person          <http://dbpedia.org/resource/Kenny_Wheeler> , <http://dbpedia.org/resource/Joe_Lovano> , <http://dbpedia.org/resource/Adam_Nussbaum> , <http://dbpedia.org/resource/Mark_Feldman> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ease On (AudioQuest Music, 1993) with Jeff Palmer, Arthur Blythe, Victor Lewis" ;
+        ont:person          <http://dbpedia.org/resource/Carson_Palmer> , <http://dbpedia.org/resource/Victor_Lewis> , <http://dbpedia.org/resource/Arthur_Blythe> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He first used the instrument, though not exclusively, in 1984 in a trio with Marc Johnson on bass and Peter Erskine on drums, as well as with pianist Paul Bley in a free jazz group." ;
+        ont:person          <http://dbpedia.org/resource/Marc_Johnson_(musician)> , <http://dbpedia.org/resource/Paul_Bley> , <http://dbpedia.org/resource/Peter_Erskine> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "in 1984" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also liked the sound of jazz guitarist Mickey Baker of the vocal duo Mickey and Silvia." ;
+        ont:person   <http://dbpedia.org/resource/Mickey_Baker> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Three Guitars (Chesky, 2003) with Larry Coryell, Badi Assad" ;
+        ont:person          <http://dbpedia.org/resource/Larry_Coryell> , <http://dbpedia.org/resource/Badi_Assad> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2003" , "Three" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Standard Transmission (GOWI Records, 1997) with Jacek Kochan, Pat LaBarbera, Jim Vivian" ;
+        ont:person          <http://dbpedia.org/resource/Pat_LaBarbera> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1997" .
+
 <http://w3id.org/polifonia/pilot/meetups/2790693/38/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Toronto Concert (Maracatu, 1992) with Chris Minh Doky, Niels Lan Doky, Adam Nussbaum" ;
         ont:person          <http://dbpedia.org/resource/Niels_Lan_Doky> , <http://dbpedia.org/resource/Adam_Nussbaum> , <http://dbpedia.org/resource/Chris_Minh_Doky> ;
-        ont:place           "http://dbpedia.org/resource/Toronto" ;
+        ont:place           <http://dbpedia.org/resource/Toronto> ;
         ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
         ont:timeExpression  "1992" .
 
+<http://w3id.org/polifonia/pilot/meetups/2790693/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Following his albums as a member of the Gateway trio, Abercrombie moved to playing in a more traditional style, recording for ECM three albums, Arcade (1979), Abercrombie Quartet (1979), and M (1981) with a quartet that included pianist Richie Beirach, bassist George Mraz, and drummer Peter Donald." ;
+        ont:person          <http://dbpedia.org/resource/Peter_Donald> , <http://dbpedia.org/resource/Richie_Beirach> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "ECM three" , "1981" , "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/5/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1975 he formed the band Gateway with DeJohnette and bassist Dave Holland, recording the albums Gateway (1976) and Gateway 2 (1978)." ;
+        ont:person          <http://dbpedia.org/resource/Dave_Holland> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1976" , "In 1975" , "1978" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Noisy Old Men (Jam, 2002) with Mick Goodrick, Steve Swallow, Gary Chaffee" ;
+        ont:person          <http://dbpedia.org/resource/Mick_Goodrick> , <http://dbpedia.org/resource/Steve_Swallow> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tactics (ECM, 1997) with Adam Nussbaum, Dan Wall" ;
+        ont:person          <http://dbpedia.org/resource/Adam_Nussbaum> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Yesterday's Tomorrow (European Music Productions, 1991) with Ron McClure, Aldo Romano" ;
+        ont:person          <http://dbpedia.org/resource/Aldo_Romano> , <http://dbpedia.org/resource/Ron_McClure> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cat 'n' Mouse (ECM, 2002) with Mark Feldman, Marc Johnson, Joey Baron" ;
+        ont:person          <http://dbpedia.org/resource/Mark_Feldman> , <http://dbpedia.org/resource/Marc_Johnson_(musician)> , <http://dbpedia.org/resource/Joey_Baron> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Speak of the Devil (ECM, 1994) as John Abercrombie Trio with Dan Wall, Adam Nussbaum" ;
+        ont:person          <http://dbpedia.org/resource/Adam_Nussbaum> , <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Witchcraft (Justin Time, 1991) with Don Thompson" ;
+        ont:person          <http://dbpedia.org/resource/Maggie_Thompson> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "My Foolish Heart (Jazz City, 1988) with Marc Cohen, Gary Peacock, Jeff Hirshfield" ;
+        ont:person          <http://dbpedia.org/resource/Gary_Peacock> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He became a popular session musician, recording with Gato Barbieri in 1971, Barry Miles in 1972, and Gil Evans in 1974." ;
+        ont:person          <http://dbpedia.org/resource/Gil_Evans> , <http://dbpedia.org/resource/Barry_Miles> , <http://dbpedia.org/resource/Gato_Barbieri> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "in 1974" , "in 1972" , "in 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Abercrombie studied at Berklee College of Music in Boston, Massachusetts." ;
+        ont:place    <http://dbpedia.org/resource/Massachusetts> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/8/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He added trumpeter Kenny Wheeler, violinist Mark Feldman and saxophonist Joe Lovano to the trio to record Open Land (1999)." ;
+        ont:person          <http://dbpedia.org/resource/Kenny_Wheeler> , <http://dbpedia.org/resource/Joe_Lovano> , <http://dbpedia.org/resource/Mark_Feldman> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/3/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At Berklee, he was drawn to the music of Jim Hall, the 1962 album The Bridge by Sonny Rollins, and Wes Montgomery on his albums The Wes Montgomery Trio (1959) and Boss Guitar (1963)." ;
+        ont:person          <http://dbpedia.org/resource/Sonny_Rollins> , <http://dbpedia.org/resource/Jim_Hall_(musician)> , <http://dbpedia.org/resource/Wes_Montgomery> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1959" , "1962" , "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "While We're Young (ECM, 1993) with Dan Wall, Adam Nussbaum" ;
+        ont:person          <http://dbpedia.org/resource/Adam_Nussbaum> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Secret Obsession (Nabel, 1991) with Uli Beckerhoff, Arild Andersen, John Marshall" ;
+        ont:person          <http://dbpedia.org/resource/John_Marshall> , <http://dbpedia.org/resource/Arild_Andersen> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Getting There (ECM, 1988) with Marc Johnson, Peter Erskine, Michael Brecker" ;
+        ont:person          <http://dbpedia.org/resource/Peter_Erskine> , <http://dbpedia.org/resource/Michael_Brecker> , <http://dbpedia.org/resource/Marc_Johnson_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "November (ECM, 1993) with John Surman, Marc Johnson, Peter Erskine" ;
+        ont:person          <http://dbpedia.org/resource/Marc_Johnson_(musician)> , <http://dbpedia.org/resource/John_Surman> , <http://dbpedia.org/resource/Peter_Erskine> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Double Variations (Justin Time, 1990) with Tim Brady" ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Emerald City (Pathfinder, 1987) with Richie Beirach" ;
+        ont:person          <http://dbpedia.org/resource/Richie_Beirach> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Between 1984 and 1990, Abercrombie experimented with a guitar synthesizer." ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1984" , "1990" .
+
 <http://w3id.org/polifonia/pilot/meetups/2790693/3/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Growing up in the 1950s in Greenwich, Connecticut he was attracted to the rock and roll of Chuck Berry, Elvis Presley, Fats Domino, and Bill Haley and the Comets." ;
         ont:person          <http://dbpedia.org/resource/Fats_Domino> , <http://dbpedia.org/resource/Chuck_Berry> , <http://dbpedia.org/resource/Elvis_Presley> , <http://dbpedia.org/resource/Bill_Haley> ;
-        ont:place           "http://dbpedia.org/resource/Greenwich,_Connecticut" ;
+        ont:place           <http://dbpedia.org/resource/Greenwich,_Connecticut> ;
         ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
         ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Farewell (Musidisc, 1993) with Andy LaVerne, George Mraz, Adam Nussbaum" ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Adam_Nussbaum> ;
+        ont:place           <http://dbpedia.org/resource/Farewell_and_Chorley> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Abracadabra (Soul Note, 1990) with Jeff Palmer, David Liebman, Adam Nussbaum" ;
+        ont:person          <http://dbpedia.org/resource/Dave_Liebman> , <http://dbpedia.org/resource/Adam_Nussbaum> , <http://dbpedia.org/resource/Carson_Palmer> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "All Strings Attached (Verve, 1987) with Tal Farlow, Larry Carlton, Larry Coryell, John Scofield, John Patitucci, Billy Hart" ;
+        ont:person          <http://dbpedia.org/resource/Tal_Farlow> , <http://dbpedia.org/resource/John_Scofield> , <http://dbpedia.org/resource/Larry_Carlton> , <http://dbpedia.org/resource/Larry_Coryell> , <http://dbpedia.org/resource/Billy_Hart> , <http://dbpedia.org/resource/John_Patitucci> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Route Two (Landslide, 1981) with David Earle Johnson, Dan Wall" ;
+        ont:person          <http://dbpedia.org/resource/David_Earle_Johnson> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "Two" , "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Gateway band played songs written by all three members, in a free jazz style." ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/5/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He recorded his first solo album, Timeless, with DeJohnette and keyboardist Jan Hammer, who had been his roommate in the 1960s." ;
+        ont:person   <http://dbpedia.org/resource/Jan_Hammer> ;
+        ont:subject  <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> .
+
+<http://w3id.org/polifonia/pilot/meetups/2790693/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"One night we appeared at the Spectrum in Philadelphia and I thought, 'What am I doing here?'" ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject         <http://dbpedia.org/resource/John_Abercrombie_(guitarist)> ;
+        ont:timeExpression  "One night" .

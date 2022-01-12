@@ -6,30 +6,223 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/75200/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When asked in 1974 by the Anglo-French biographer David Bret to divulge the secret of her long life and fabulous voice, Damia replied, \"Three packs of Gitanes a day!\"" ;
+        ont:person          <http://dbpedia.org/resource/Bret_Hart> , <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "in 1974" , "Three" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her father was a police sergeant in Lorraine and she was raised in a family of eight siblings." ;
+        ont:place           <http://dbpedia.org/resource/Lorraine> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "family of eight" .
+
 <http://w3id.org/polifonia/pilot/meetups/75200/10/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Damia had enduring appeal that stretched to audiences as far away as Japan where she toured in 1953." ;
         ont:person          <http://dbpedia.org/resource/Marie-Louise_Damien> ;
-        ont:place           "http://dbpedia.org/resource/Japan" ;
+        ont:place           <http://dbpedia.org/resource/Japan> ;
         ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
         ont:timeExpression  "in 1953" .
 
-<http://w3id.org/polifonia/pilot/meetups/75200/15/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Marie-Louise_Damien> ;
-        ont:place           "http://dbpedia.org/resource/Pantin" , "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/La_Celle-Saint-Cloud" ;
-        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
-        ont:timeExpression  "30 January 1978" .
-
 <http://w3id.org/polifonia/pilot/meetups/75200/4/5>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When Fragson was murdered by his father, Damia left France in 1913 and went to the United States." ;
         ont:person          <http://dbpedia.org/resource/Marie-Louise_Damien> ;
-        ont:place           "http://dbpedia.org/resource/France" , "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/France> ;
         ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
         ont:timeExpression  "in 1913" .
 
+<http://w3id.org/polifonia/pilot/meetups/75200/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From this point in her career she became the most important exponent of the chanson réaliste genre until Édith Piaf came along in 1936." ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "in 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A few years later she did a farewell tour, ending her more than forty-year career in a double bill with Marie Dubasin front of a full house at the Paris Olympia." ;
+        ont:place    <http://dbpedia.org/resource/Olympia_(Paris)> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "La tête d'un homme (1933)" ;
+        ont:person          <http://dbpedia.org/resource/Josh_Homme> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "1933" .
+
 <http://w3id.org/polifonia/pilot/meetups/75200/2/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Joan_of_Arc> , <http://dbpedia.org/resource/Father_Damien> , <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> ;
-        ont:place           "http://dbpedia.org/resource/Phine_District" , "http://dbpedia.org/resource/Paris" ;
+        ont:excerpt         "Louise Marie Damien was born on 5 December 1889 to Marie Joséphine Louise (née Claude) and Nicolas Damien on rue Jeanne d’Arc in the 13th arrondissement of Paris." ;
+        ont:person          <http://dbpedia.org/resource/Father_Damien> , <http://dbpedia.org/resource/Joan_of_Arc> , <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> ;
+        ont:place           <http://dbpedia.org/resource/Phine_District> , <http://dbpedia.org/resource/Paris> ;
         ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
-        ont:timeExpression  "5 December 1889" , "13th arrondissement" .
+        ont:timeExpression  "13th arrondissement" , "5 December 1889" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Upon Fuller's death in 1928, Damia and Sorère became lovers." ;
+        ont:person          <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "death in 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/4/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also arranged for her to perform at the Alcazar d'Été, where she worked with Maurice Chevalier." ;
+        ont:person   <http://dbpedia.org/resource/Maurice_Chevalier> ;
+        ont:place    <http://dbpedia.org/resource/Lightner_Museum> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/10/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Her other film successes included \"Sola\" and \"Notre Dame De Paris\", alongside Anthony Quinn." ;
+        ont:person   <http://dbpedia.org/resource/Anthony_Quinn> ;
+        ont:place    <http://dbpedia.org/resource/Notre-Dame_de_Paris> , <http://dbpedia.org/resource/Sola> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "== Farewell tour ==" ;
+        ont:place           <http://dbpedia.org/resource/Farewell_and_Chorley> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "Farewell tour" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At the beginning of World War I she opened Le Concert Damia, in Montmartre, where she became the first star ever to have a single spotlight trained on her face, bare arms and hands." ;
+        ont:person   <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alone (1931)" ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Around 1922, Damia became the lover of the architect Eileen Gray, who was a member of a circle of lesbians which included Fuller and her lover Gab Sorère, Natalie Barney and Romaine Brooks." ;
+        ont:person          <http://dbpedia.org/resource/Natalie_Wood> , <http://dbpedia.org/resource/Marie-Louise_Damien> , <http://dbpedia.org/resource/Romaine_Brooks> , <http://dbpedia.org/resource/Eileen_Gray> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "Around 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her singing debut occurred in 1911 at the Pépinière and was followed by a performance at the Alhambra, which was arranged by Harry Fragson." ;
+        ont:place           <http://dbpedia.org/resource/Alhambra-Maurice_Chevalier> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "in 1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1927, she appeared in the film, Napoléon directed by Abel Gance with early silent film stars Antonin Artaud, Philippe Hériat, Annabella, and Suzanne Bianchetti." ;
+        ont:person          <http://dbpedia.org/resource/Antonin_Artaud> , <http://dbpedia.org/resource/Abel> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "In 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Calais-Dover (1931)" ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Marie-Louise Damien (born Louise Marie Damien; 5 December 1889 – 30 January 1978), better known by the stage name Damia, was a French singer and actress." ;
+        ont:person          <http://dbpedia.org/resource/Marie-Louise_Damien> , <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> , <http://dbpedia.org/resource/Father_Damien> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "30 January 1978" , "5 December 1889" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Despite this, her career evolved slowly, taking second billing for a number of years but with help in her stage presentation from the American dancer, Loie Fuller, she eventually became a singing star." ;
+        ont:person   <http://dbpedia.org/resource/Loie_Fuller> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== Eileen Gray ==" ;
+        ont:person   <http://dbpedia.org/resource/Eileen_Gray> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/24/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Damia at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/15/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Today, she is considered to be the second greatest singer of chansons réalistes, after Edith Piaf." ;
+        ont:person   <http://dbpedia.org/resource/Édith_Piaf> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/4/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hollard was the husband of the singer, Fréhel, at the time and his affair with Damia ended his stormy marriage." ;
+        ont:person   <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After being seen by Félix Mayol, one of the leading male singing stars at the time, he hired her to perform at his concerts." ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Damia died on 30 January 1978 at La Celle-Saint-Cloud, a western suburb of Paris, and was interred in the Cimetière de Pantin." ;
+        ont:person          <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:place           <http://dbpedia.org/resource/Pantin> , <http://dbpedia.org/resource/La_Celle-Saint-Cloud> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "30 January 1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After returning from London, she was encouraged to sing by the impresario Robert Hollard, who used the stage name \"Roberty\"." ;
+        ont:place    <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== Felix Mayol and Loie Fuller ==" ;
+        ont:person   <http://dbpedia.org/resource/Loie_Fuller> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Running away from home after being sent to a reform school, Damien arrived in Paris when she was fifteen." ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Damien initially worked as a model and actress playing bit parts with the Théâtre du Châtelet, but by 1909 was performing as a dancer, using the stage name Marise Damia, with Max Dearly in London." ;
+        ont:person          <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "by 1909" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Performing on Broadway until 1916, she returned to France and during the remainder of the war sang on the war front." ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "until 1916" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her actual swansong, however, was singing \"Les Croix\" on \"La joie de vivre d'Edith Piaf\", in 1956." ;
+        ont:subject         <http://dbpedia.org/resource/Marie-Louise_Damien> ;
+        ont:timeExpression  "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/75200/6/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Her nickname was \"la tragédienne de la chanson\", and amongst her big hits were \"Les goélands\", \"Johnny Palmer\", \"C'est mon gigolo\" and \"Tu ne sais pas aimer\"—the latter song became a theme for French sufferers of AIDS." ;
+        ont:person   <http://dbpedia.org/resource/Johnny_Palmer> ;
+        ont:place    <http://dbpedia.org/resource/Dienne> ;
+        ont:subject  <http://dbpedia.org/resource/Marie-Louise_Damien> .

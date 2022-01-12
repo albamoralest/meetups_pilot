@@ -6,23 +6,156 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/679806/7/0>
+<http://w3id.org/polifonia/pilot/meetups/679806/11/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Fred_Williams_(artist)> ;
-        ont:place           "http://dbpedia.org/resource/Sarasota,_Florida" ;
+        ont:excerpt         "South American Brothers (Fantasy, 1956)" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
-        ont:timeExpression  "1990s" .
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/4/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his stay in Caracas a selection of the repertoire performed at the concert was released under the title South American Brothers by Fantasy Records, the first jazz recording in Venezuela." ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Venezuela> , <http://dbpedia.org/resource/Caracas> ;
+        ont:subject  <http://dbpedia.org/resource/John_LaPorta> .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "LaPorta died from complications of a stroke on May 12, 2004 in Sarasota." ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "May 12 , 2004" .
 
 <http://w3id.org/polifonia/pilot/meetups/679806/2/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A native of Philadelphia, LaPorta started playing clarinet at the age of nine and studied at the Mastbaum School in Philadelphia, where one of his classmates was Buddy DeFranco." ;
         ont:person          <http://dbpedia.org/resource/Buddy_DeFranco> ;
-        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> ;
         ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
-        ont:timeExpression  "age of nine" , "one" .
+        ont:timeExpression  "one" , "age of nine" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Three Moods (Debut, 1955)" ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "1955" , "Three" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The John LaPorta Quintet (Debut, 1954)" ;
+        ont:person          <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz Composers Workshop (Savoy, 1956)" ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "1956" .
 
 <http://w3id.org/polifonia/pilot/meetups/679806/4/4>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In jazz he worked with Kenny Clarke, Miles Davis, Dizzy Gillespie, Charlie Parker, Buddy Rich, and Lester Young.On August 12, 1956, La Porta was invited to the first jazz concert in Venezuela at Caracas National Theater, where he was backed by the Casablanca Orchestra, Charlie Nagy, Werner Boehm, Walter Albrecht, among others." ;
         ont:person          <http://dbpedia.org/resource/Kenny_Clarke> , <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/Dizzy_Gillespie> , <http://dbpedia.org/resource/Lester_Patrick> , <http://dbpedia.org/resource/Buddy_Rich> , <http://dbpedia.org/resource/Miles_Davis> ;
-        ont:place           "http://dbpedia.org/resource/Caracas" , "http://dbpedia.org/resource/Venezuela" , "http://dbpedia.org/resource/La_Porta" ;
+        ont:place           <http://dbpedia.org/resource/Caracas> , <http://dbpedia.org/resource/Venezuela> , <http://dbpedia.org/resource/La_Porta> ;
         ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
         ont:timeExpression  "August 12 , 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Jazz Experiments of Charlie Mingus (Bethlehem, 1956)" ;
+        ont:person          <http://dbpedia.org/resource/Charles_Mingus> ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/4/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the classical world, he worked with Boston Pops, Leonard Bernstein, Leopold Stokowski, and Igor Stravinsky." ;
+        ont:person   <http://dbpedia.org/resource/Leonard_Bernstein> , <http://dbpedia.org/resource/Leopold_Mozart> ;
+        ont:subject  <http://dbpedia.org/resource/John_LaPorta> .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Daniel LaPorta (April 13, 1920 – May 12, 2004) was a jazz clarinetist and composer." ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "May 12 , 2004" , "April 13 , 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1990s, he and his wife retired to Sarasota, Florida, where he performed at the Sarasota Jazz Club and as a guest with the Fred Williams Trio." ;
+        ont:person          <http://dbpedia.org/resource/Fred_Williams_(artist)> ;
+        ont:place           <http://dbpedia.org/resource/Sarasota,_Florida> ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Klook's Clique (Savoy, 1956)With Charles Mingus" ;
+        ont:person          <http://dbpedia.org/resource/Charles_Mingus> ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/4/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With Teo Macero and Charles Mingus he was a member of the Jazz Composers Workshop, trying to combine jazz with classical music." ;
+        ont:person   <http://dbpedia.org/resource/Teo_Macero> , <http://dbpedia.org/resource/Charles_Mingus> ;
+        ont:subject  <http://dbpedia.org/resource/John_LaPorta> .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With guitarist Jack Petersen, he pioneered the use of Greek modes for teaching chord-scales." ;
+        ont:person   <http://dbpedia.org/resource/Jack_Petersen_(boxer)> ;
+        ont:subject  <http://dbpedia.org/resource/John_LaPorta> .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Theme and Variations (Fantasy, 2002)With Kenny Clarke" ;
+        ont:person          <http://dbpedia.org/resource/Kenny_Clarke> ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Beginning in 1947, he studied with Lennie Tristano." ;
+        ont:person          <http://dbpedia.org/resource/Lennie_Tristano> ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "in 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He taught at Parkway Music School, then at public schools on Long Island, followed by the Manhattan School of Music and the Berklee College of Music." ;
+        ont:place    <http://dbpedia.org/resource/Manhattan> , <http://dbpedia.org/resource/Long_Island> ;
+        ont:subject  <http://dbpedia.org/resource/John_LaPorta> .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Clarinet Artistry of John LaPorta (Debut, 1957)" ;
+        ont:person          <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He studied classically with Joseph Gigliotti of the Philadelphia Orchestra and Leon Russianoff at the Manhattan School of Music." ;
+        ont:person   <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:place    <http://dbpedia.org/resource/Manhattan> ;
+        ont:subject  <http://dbpedia.org/resource/John_LaPorta> .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1942 to 1944, he was a member of the Bob Chester big band, then spent the next two years with the Woody Herman Orchestra." ;
+        ont:person          <http://dbpedia.org/resource/Woody_Herman> , <http://dbpedia.org/resource/Bob_Chester> ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "From 1942" , "1944" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Conceptions (Debut, 1956)" ;
+        ont:subject         <http://dbpedia.org/resource/John_LaPorta> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/679806/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As a teenager he played in Philadelphia bands with Charlie Ventura and Bill Harris." ;
+        ont:person   <http://dbpedia.org/resource/Charlie_Ventura> ;
+        ont:place    <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject  <http://dbpedia.org/resource/John_LaPorta> .

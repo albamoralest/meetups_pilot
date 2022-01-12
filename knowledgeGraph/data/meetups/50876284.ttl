@@ -6,9 +6,76 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/50876284/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She studied with Salvator Issaurel in Montreal from 1930 to 1939." ;
+        ont:place           <http://dbpedia.org/resource/Montreal> ;
+        ont:subject         <http://dbpedia.org/resource/Anna_Malenfant> ;
+        ont:timeExpression  "1939" , "from 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/50876284/2/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1958, she received a Canada Council grant which allowed her to further develop her vocal technique in Rome." ;
+        ont:place           <http://dbpedia.org/resource/Rome> ;
+        ont:subject         <http://dbpedia.org/resource/Anna_Malenfant> ;
+        ont:timeExpression  "In 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/50876284/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She received a bursary that allowed her to study at the New England Conservatory of Music; she went on to study with Félia Litvinne in Paris and with Massimiliano Perilli in Naples." ;
+        ont:place    <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/Naples> ;
+        ont:subject  <http://dbpedia.org/resource/Anna_Malenfant> .
+
+<http://w3id.org/polifonia/pilot/meetups/50876284/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Anna Malenfant (October 16, 1902 – June 15, 1988) was a Canadian singer, educator and composer." ;
+        ont:person          <http://dbpedia.org/resource/Anna_Malenfant> ;
+        ont:subject         <http://dbpedia.org/resource/Anna_Malenfant> ;
+        ont:timeExpression  "June 15 , 1988" , "October 16 , 1902" .
+
+<http://w3id.org/polifonia/pilot/meetups/50876284/2/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Malenfant performed in a number of operas, including Carmen, Werther and Boris Godunov." ;
+        ont:person   <http://dbpedia.org/resource/Boris_Godunov> ;
+        ont:subject  <http://dbpedia.org/resource/Anna_Malenfant> .
+
+<http://w3id.org/polifonia/pilot/meetups/50876284/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1932, with Ludovic Huot and Lionel Daunais, she founded the Trio lyrique." ;
+        ont:person          <http://dbpedia.org/resource/Ludovic_Stewart,_2nd_Duke_of_Lennox> , <http://dbpedia.org/resource/Lionel_Daunais> ;
+        ont:subject         <http://dbpedia.org/resource/Anna_Malenfant> ;
+        ont:timeExpression  "In 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/50876284/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Malenfant died in Montreal at the age of 82." ;
+        ont:place           <http://dbpedia.org/resource/Montreal> ;
+        ont:subject         <http://dbpedia.org/resource/Anna_Malenfant> ;
+        ont:timeExpression  "age of 82" .
+
+<http://w3id.org/polifonia/pilot/meetups/50876284/2/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On her return to North America in 1929, she sang on radio station WITC in Hartford, Connecticut for a year under the name Louise Malmont." ;
+        ont:place           <http://dbpedia.org/resource/Greater_Hartford> , <http://dbpedia.org/resource/North_America> ;
+        ont:subject         <http://dbpedia.org/resource/Anna_Malenfant> ;
+        ont:timeExpression  "in 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/50876284/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After 1944, she mainly performed in recitals and also taught." ;
+        ont:subject         <http://dbpedia.org/resource/Anna_Malenfant> ;
+        ont:timeExpression  "After 1944" .
+
 <http://w3id.org/polifonia/pilot/meetups/50876284/6/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "École Anna-Malenfant in Dieppe, New Brunswick was named in her honour.In 2001, a documentary Anna Malenfant d'Acadie was produced based on archival material." ;
         ont:person          <http://dbpedia.org/resource/Anna_Malenfant> ;
-        ont:place           "http://dbpedia.org/resource/Dieppe,_New_Brunswick" ;
+        ont:place           <http://dbpedia.org/resource/Dieppe,_New_Brunswick> ;
         ont:subject         <http://dbpedia.org/resource/Anna_Malenfant> ;
         ont:timeExpression  "2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/50876284/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Malenfant began her career with a performance of The Mikadoin Moncton." ;
+        ont:place    <http://dbpedia.org/resource/Moncton> ;
+        ont:subject  <http://dbpedia.org/resource/Anna_Malenfant> .

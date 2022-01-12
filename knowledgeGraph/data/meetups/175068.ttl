@@ -6,79 +6,1131 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/175068/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1923, Dorsey followed Jimmy to Detroit to play in Jean Goldkette's band and returned to New York in 1925 to play with the California Ramblers." ;
+        ont:person          <http://dbpedia.org/resource/Jean_Goldkette> ;
+        ont:place           <http://dbpedia.org/resource/Detroit> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "In 1923" , "in 1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/9/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jimmy Dorsey led his brother's band until his own death from throat cancer the following year." ;
+        ont:person   <http://dbpedia.org/resource/Jimmy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/88/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Song Is Born (1948)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1938: \"Chris and His Gang\" with Fletcher and Horace Henderson" ;
+        ont:person          <http://dbpedia.org/resource/Horace> , <http://dbpedia.org/resource/Gerald_Henderson_Jr.> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/97/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "from the 1943 MGM film Du Barry was a Lady featuring Buddy Rich on drums.ADDITIONAL LINKS" ;
+        ont:person          <http://dbpedia.org/resource/Buddy_Rich> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/89/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Disk Jockey (1951)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dorsey became the co-host of The Raleigh-Kool Program on the radio with comedian Jack Pearl, then become the host.By 1939, Dorsey was aware of criticism that his band lacked a jazz feeling." ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/17>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Another noted Dorsey arranger, who, in the 1950s, married and was professionally associated with Dorsey veteran Jo Stafford, was Paul Weston." ;
+        ont:person          <http://dbpedia.org/resource/Jo_Stafford> , <http://dbpedia.org/resource/Paul_Weston> , <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/14/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His biggest hit was \"I'll Never Smile Again\", featuring Frank Sinatra on vocals, which was number one for twelve weeks on the Billboard pop singles chart in 1940." ;
+        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "in 1940" , "one" .
+
 <http://w3id.org/polifonia/pilot/meetups/175068/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Thomas Francis Dorsey Jr. (November 19, 1905 – November 26, 1956) was an American jazz trombonist, composer, conductor and bandleader of the big band era." ;
         ont:person          <http://dbpedia.org/resource/Francis_I_of_France> , <http://dbpedia.org/resource/Dorsey_Burnette> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
         ont:timeExpression  "November 19 , 1905" , "November 26 , 1956" .
 
-<http://w3id.org/polifonia/pilot/meetups/175068/7/5>
+<http://w3id.org/polifonia/pilot/meetups/175068/5/5>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Joey_Dorsey> ;
-        ont:place           "http://dbpedia.org/resource/Atlanta" ;
+        ont:excerpt         "On December 26, 1953, the brothers appeared with their orchestra on Jackie Gleason's CBS television show, which was preserved on kinescope and later released on home video by Gleason." ;
+        ont:person          <http://dbpedia.org/resource/Jackie_Gleason> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
-        ont:timeExpression  "March 27 , 1948" .
+        ont:timeExpression  "December 26 , 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/2/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dorsey's orchestra was known primarily for its renderings of ballads at dance tempos, frequently with singers such as Jack Leonard and Frank Sinatra." ;
+        ont:person   <http://dbpedia.org/resource/Frank_Sinatra> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/25>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When Miller balked at this, the angry Dorsey got even by sponsoring a new band led by Bob Chester, and hiring arrangers who deliberately copied Miller's style and sound." ;
+        ont:person   <http://dbpedia.org/resource/Lee_Dorsey> , <http://dbpedia.org/resource/Bob_Chester> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
 
 <http://w3id.org/polifonia/pilot/meetups/175068/2/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Born in Mahanoy Plane, Pennsylvania, Thomas Francis Dorsey Jr. was the second of four children born to Thomas Francis Dorsey Sr., a bandleader, and Theresa (née Langton) Dorsey." ;
         ont:person          <http://dbpedia.org/resource/Francis_I_of_France> , <http://dbpedia.org/resource/Dorsey_Burnette> ;
-        ont:place           "http://dbpedia.org/resource/Langton_Matravers" , "http://dbpedia.org/resource/Pennsylvania" ;
+        ont:place           <http://dbpedia.org/resource/Pennsylvania> , <http://dbpedia.org/resource/Langton_Matravers> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
         ont:timeExpression  "of four" .
 
-<http://w3id.org/polifonia/pilot/meetups/175068/2/5>
+<http://w3id.org/polifonia/pilot/meetups/175068/100/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jean_Goldkette> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Detroit" ;
+        ont:excerpt         "Website shows details of the CBS Tommy and Jimmy Dorsey television show in 1956" ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Dorsey> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
-        ont:timeExpression  "in 1925" , "In 1923" .
+        ont:timeExpression  "show in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/7/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Finally, Dorsey married Jane Carl New on March 27, 1948, in Atlanta, Georgia." ;
+        ont:person          <http://dbpedia.org/resource/Joey_Dorsey> ;
+        ont:place           <http://dbpedia.org/resource/Atlanta> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "March 27 , 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ship Ahoy/Las Vegas Nights (Hollywood Soundstage, 1983)" ;
+        ont:place           <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/101/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey visits Bernards High School in 1943" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "in 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Tribute (Star Line Productions, 1987)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2009, Buddy De Franco recalled recording \"Opus One\" with Dorsey in the 1940s, commenting on Dorsey's desire to be precise and exact." ;
+        ont:person          <http://dbpedia.org/resource/Francisco_Franco> , <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1940s" , "In 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/12>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sinatra achieved his first great success as a vocalist in the Dorsey band and claimed he learned breath control from watching Dorsey play trombone." ;
+        ont:person   <http://dbpedia.org/resource/Lee_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/102/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Tommy Dorsey Orchestra" ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Glenn Miller was a member of the Dorsey Brothers Orchestra in 1934 and 1935, composing \"Annie's Cousin Fanny\", \"Tomorrow's Another Day\", \"Harlem Chapel Chimes\", and \"Dese Dem Dose\", all recorded for Decca, for the band." ;
+        ont:person          <http://dbpedia.org/resource/Glenn_Miller> , <http://dbpedia.org/resource/Fanny_Mendelssohn> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1935" , "in 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The band was also fronted by Urbie Green after Dorsey’s death in 1956." ;
+        ont:person          <http://dbpedia.org/resource/Urbie_Green> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "death in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the early 1950s, Tommy Dorsey moved from RCA Victor back to Decca." ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/103/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tommy Dorsey: \"The Man Who Made Stars\"" ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Plays Sweet & Hot (Tax, 1989)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/104/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tommy Dorsey at AllMusic" ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "'s Boogie Woogie\"; Oliver also composed two of the new band's signature instrumentals, \"Well, Git It\" and \"Opus One\"." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/20>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dorsey also performed with singer Connee Boswell He hired ex-bandleader and drummer Gene Krupa after Krupa's arrest for marijuana possession in 1943." ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> , <http://dbpedia.org/resource/Connee_Boswell> , <http://dbpedia.org/resource/Gene_Krupa> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "possession in 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/73/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 (Collectables, 2001)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "2001" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/14/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The website \"Tommy Dorsey A Songwriter's Friend\" says, \"the orchestra had over 200 top twenty recordings including the No." ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "over 200" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey and His Orchestra/And His Clambake Seven (LaserLight, 1990)" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dorsey was married three times." ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Presley, then a regional country singer, made six guest appearances on Stage Show promoting his first releases for RCA Records several months before his more familiar visits to the Milton Berle, Steve Allen, and Ed Sullivan variety programs." ;
+        ont:person          <http://dbpedia.org/resource/Steve_Allen> , <http://dbpedia.org/resource/John_Milton> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "six" .
 
 <http://w3id.org/polifonia/pilot/meetups/175068/10/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Frank Sinatra Jr. made his professional singing debut with the band at Dallas Memorial Theater in Texas in 1963." ;
         ont:person          <http://dbpedia.org/resource/Frank_Sinatra_Jr.> ;
-        ont:place           "http://dbpedia.org/resource/Texas" , "http://dbpedia.org/resource/Dallas" ;
+        ont:place           <http://dbpedia.org/resource/Texas> , <http://dbpedia.org/resource/Dallas> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
         ont:timeExpression  "in 1963" .
 
-<http://w3id.org/polifonia/pilot/meetups/175068/9/0>
+<http://w3id.org/polifonia/pilot/meetups/175068/34/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
-        ont:place           "http://dbpedia.org/resource/Greenwich,_Connecticut" ;
+        ont:excerpt         "In 1982, the 1940 Victor recording \"I'll Never Smile Again\" was the first of a trio of Tommy Dorsey recordings to be inducted into the Grammy Hall of Fame." ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
-        ont:timeExpression  "November 26 , 1956" , "51st birthday" .
+        ont:timeExpression  "In 1982" , "1940" .
 
-<http://w3id.org/polifonia/pilot/meetups/175068/47/0>
+<http://w3id.org/polifonia/pilot/meetups/175068/66/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
-        ont:place           "http://dbpedia.org/resource/French_Riviera" ;
+        ont:excerpt         "Tea for Two (Jazz Collection, 1990)" ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
-        ont:timeExpression  "1959" .
+        ont:timeExpression  "1990" , "for Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/28>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dorsey also owned for a short time a trade magazine called The Bandstand.Tommy Dorsey disbanded his own orchestra at the end of 1946." ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "end of 1946" .
 
 <http://w3id.org/polifonia/pilot/meetups/175068/2/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey studied the trumpet with his father but later switched to trombone.At age 15, Jimmy recommended Tommy to replace Russ Morgan in the Scranton Sirens, a territory band in the 1920s." ;
         ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> , <http://dbpedia.org/resource/Russ_Morgan> ;
-        ont:place           "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Scranton" ;
+        ont:place           <http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Scranton> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
         ont:timeExpression  "15" , "1920s" .
 
-<http://w3id.org/polifonia/pilot/meetups/175068/17/1>
+<http://w3id.org/polifonia/pilot/meetups/175068/35/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "Tommy Dorsey was posthumously inducted into the Grammy Hall of Fame, which is a special Grammy award established in 1973 to honor recordings that are at least 25 years old and that have \"qualitative or historical significance.\"" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
-        ont:timeExpression  "August 6 , 1932" , "two" .
+        ont:timeExpression  "25" , "in 1973" .
 
-<http://w3id.org/polifonia/pilot/meetups/175068/93/0>
+<http://w3id.org/polifonia/pilot/meetups/175068/9/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/James_Stockdale> , <http://dbpedia.org/resource/Tommy_Dorsey> , <http://dbpedia.org/resource/Carl_Linnaeus> ;
-        ont:place           "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Metuchen" , "http://dbpedia.org/resource/New_Jersey" ;
+        ont:excerpt         "Dorsey died on November 26, 1956, at his home in Greenwich, Connecticut, a week after his 51st birthday." ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:place           <http://dbpedia.org/resource/Greenwich,_Connecticut> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
-        ont:timeExpression  "ISBN 978-0-8108-2951-0" , "1995" .
+        ont:timeExpression  "51st birthday" , "November 26 , 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Music Goes Round and Round (Bluebird/RCA, 1991)" ;
+        ont:place           <http://dbpedia.org/resource/Goes> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After his 1935 recording, however, Dorsey's manager dropped the \"hot jazz\" that Dorsey had mixed with his own lyrical style, and instead had Dorsey play pop and vocal tunes." ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1935 recording" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Up Swing (Victor, 1944)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Stop, Look and Listen (ASV/Living Era, 1994)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/15>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In turn, Dorsey said his trombone style was heavily influenced by Jack Teagarden.Among Dorsey's staff of arrangers was Axel Stordahl who arranged for Sinatra in his Columbia and Capitol years." ;
+        ont:person   <http://dbpedia.org/resource/Jarrett_Jack> , <http://dbpedia.org/resource/Axel_Stordahl> , <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
 
 <http://w3id.org/polifonia/pilot/meetups/175068/14/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Dorsey band had seventeen number-one hits with his orchestra in the 1930s and 1940s including: \"On Treasure Island\", \"The Music Goes 'Round and Around\", \"You\", \"Marie\" (written by Irving Berlin), \"Satan Takes a Holiday\", \"The Big Apple\", \"Once in a While\", \"The Dipsy Doodle\", \"Our Love\", \"All the Things You Are\", \"Indian Summer\", and \"Dolores\"." ;
         ont:person          <http://dbpedia.org/resource/Irving_Berlin> , <http://dbpedia.org/resource/Dorsey_Burnette> ;
-        ont:place           "http://dbpedia.org/resource/Dolores_Hidalgo" ;
+        ont:place           <http://dbpedia.org/resource/Dolores_Hidalgo> ;
         ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
-        ont:timeExpression  "1930s" , "1940s" .
+        ont:timeExpression  "1940s" , "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey Plays Tchaikovsky Melodies for Dancing (RCA Victor, 1947)" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey (RCA Victor, 1949)" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/23>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Dorsey made further business decisions in the music industry." ;
+        ont:person   <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/0/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is best remembered for standards such as \"Opus One\", \"Song of India\", \"Marie\", \"On Treasure Island\", and his biggest hit single, \"I'll Never Smile Again\"." ;
+        ont:place    <http://dbpedia.org/resource/India> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1935, they moved to \"Tall Oaks,\" a 21-acre (8.5 ha) estate in Bernardsville, New Jersey." ;
+        ont:place           <http://dbpedia.org/resource/New_Jersey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "In 1935" , "8.5 ha" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/10/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tommy and Jane Dorsey are interred together in Kensico Cemetery in Valhalla, New York." ;
+        ont:person   <http://dbpedia.org/resource/Jane_Fonda> , <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:place    <http://dbpedia.org/resource/Valhalla,_New_York> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dorsey recorded two takes of this song for OKeh Records, on August 6, 1932, in New York City." ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "two" , "August 6 , 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/34/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Postal Service issued a Tommy Dorsey and Jimmy Dorsey commemorative postage stamp." ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Dorsey> , <http://dbpedia.org/resource/Jimmy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/31>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\", a single recorded by Dorsey, became a top-ten hit in March 1947." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "March 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sinatra made eighty recordings from 1940 to 1942 with the Dorsey band." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1942" , "from 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1927, he joined Paul Whiteman." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "In 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/9/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At that point, trombonist Warren Covington became leader of the band with Jane Dorsey's blessing as she owned the rights to her late husband's band and name." ;
+        ont:person   <http://dbpedia.org/resource/Lee_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He hired arranger Sy Oliver away from the Jimmie Lunceford band." ;
+        ont:person   <http://dbpedia.org/resource/Jimmie_Lunceford> , <http://dbpedia.org/resource/Sy_Oliver> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bill Finegan, an arranger who left Glenn Miller's civilian band, arranged for the Tommy Dorsey band from 1942 to 1950.The band featured a number of instrumentalists, singers, and arrangers in the 1930s and '40s, including trumpeters Zeke Zarchy, Bunny Berigan, Ziggy Elman, Doc Severinsen, and Charlie Shavers, pianists Milt Raskin, Jess Stacy, clarinetists Buddy DeFranco, Johnny Mince, and Peanuts Hucko." ;
+        ont:person          <http://dbpedia.org/resource/Doc_Severinsen> , <http://dbpedia.org/resource/Jess_Stacy> , <http://dbpedia.org/resource/Glenn_Miller> , <http://dbpedia.org/resource/Zeke_Zarchy> , <http://dbpedia.org/resource/Buddy_DeFranco> , <http://dbpedia.org/resource/Ziggy_Elman> , <http://dbpedia.org/resource/Peanuts_Hucko> , <http://dbpedia.org/resource/Charlie_Shavers> , <http://dbpedia.org/resource/Milt_Raskin> , <http://dbpedia.org/resource/Bunny_Berigan> , <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1930s" , "band from 1942" , "1950.The band" , "'40s" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/14/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"RCA Victor ... scored with 'There Are Such Things', which had a Sinatra vocal; it hit number one in January 1943, as did 'In the Blue of the Evening', another Dorsey record featuring Sinatra, in August, while a third Dorsey/Sinatra release, 'It's Always You,' hit the Top Five later in the year, and a fourth, 'I'll Be Seeing You', reached the Top Ten in 1944.\"" ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "in 1944" , "one" , "January 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey's Dance Party (Ace of Hearts, 1961)" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The brothers took the unit on tour and onto their own television show, Stage Show, from 1954 to 1956." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "from 1954" , "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dedicated to You (RCA Camden, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/26>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dorsey branched out in the mid-1940s and owned two music publishing companies, Sun and Embassy." ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "two music publishing" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/60/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Sandy Hook, 1983)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He and Jimmy, his older brother by slightly less than two years, became known as the Dorsey Brothers." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "than two" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1938: Tommy Dorsey wrote the song \"Peckin' With Penguins\" for a 1938 Frank Tashlin-directed Porky Pig cartoon, \"Porky's Spring Planting\" for the studio Warner Bros." ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Man and His Trombone (Colpix, 1966)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/7/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She had been a dancer at the Copacabana nightclub in New York City." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Copacabana,_Rio_de_Janeiro> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1939: \"To You\"" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/53/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Here are Tommy and Jimmy Dorsey at Their Rare of All Rarest Performance Vol." ;
+        ont:person   <http://dbpedia.org/resource/Jimmy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1939: \"This Is No Dream\"" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/34>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The biographical film The Fabulous Dorseys (1947) describes sketchy details of how the brothers got their start from-the-bottom-up into the jazz era of one-nighters, the early days of radio in its infancy stages, and the onward march when both brothers ended up with Paul Whiteman before 1935 when The Dorsey Brothers' Orchestra split into two." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "before 1935" , "split into two" , "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Expanding on De Franco's opinions about Dorsey, writer Peter Levinson said, \"He wanted things to be done his way." ;
+        ont:person   <http://dbpedia.org/resource/Francisco_Franco> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/2/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Acrimony between the brothers led to Tommy Dorsey walking out to form his own band in 1935 as the orchestra was having a hit with \"Every Little Moment\"." ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "band in 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/13>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sy Oliver and Sinatra did a posthumous tribute album to Dorsey on Sinatra's Reprise records." ;
+        ont:person   <http://dbpedia.org/resource/Dorsey_Burnette> , <http://dbpedia.org/resource/Sy_Oliver> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey On Radio/Eddie Condon's Jazz Concert (Radiola, 1975)" ;
+        ont:person          <http://dbpedia.org/resource/Eddie_Condon> , <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/63/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1-4 (RCA, 1988)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was promised $2,000 if he switched to their label." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "2,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1939: \"You Taught Me to Love Again\"" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/92/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Peter J. Levinson, Tommy Dorsey: Livin' in a Great Big Way: a Biography (Cambridge, MA: Da Capo Press, 2005) ISBN 978-0-306-81111-1" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "ISBN 978-0-306-81111-1" , "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey (1937 – 1941) (AMIGA, 1976)" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "– 1941" , "1937" , "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1940, Dorsey hired singer Frank Sinatra from bandleader Harry James." ;
+        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Lee_Dorsey> , <http://dbpedia.org/resource/Harry_James> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "In 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/93/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Robert L. Stockdale, Tommy Dorsey: On the Side (Metuchen, NJ: The Scarecrow Press, 1995) ISBN 978-0-8108-2951-0" ;
+        ont:person          <http://dbpedia.org/resource/Carl_Linnaeus> , <http://dbpedia.org/resource/James_Stockdale> , <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:place           <http://dbpedia.org/resource/New_Jersey> , <http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Metuchen> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1995" , "ISBN 978-0-8108-2951-0" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1939: \"In the Middle of a Dream\"" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One Night Stand (Sandy Hook, 1976)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1976" , "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/21>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1942, Artie Shaw broke up his band, and Dorsey hired the Shaw string section." ;
+        ont:person          <http://dbpedia.org/resource/Artie_Shaw> , <http://dbpedia.org/resource/Lee_Dorsey> , <http://dbpedia.org/resource/George_Bernard_Shaw> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "In 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/0/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was the younger brother of bandleader Jimmy Dorsey." ;
+        ont:person   <http://dbpedia.org/resource/Jimmy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/14/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 hits 'The Music Goes Round and Round' (1935), 'Alone' (1936) 'You' (1936), 'Marie' (1937), 'Satan Takes a Holiday' (1937), 'The Big Apple' (1937), 'Once in a While' (1937), 'The Dipsy Doodle' (1937), 'Music, Maestro, Please' (1938), 'Our Love' (1939), 'Indian Summer' (1939), 'All the Things You Are' (1939), 'I'll Never Smile Again' (1940), 'Dolores' (1941), 'There are Such Things' (1942), and 'In the Blue of the Evening' (1943).\"" ;
+        ont:place           <http://dbpedia.org/resource/Goes> , <http://dbpedia.org/resource/Dolores_Hidalgo> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1941" , "1937" , "1" , "'Alone" , "1939" , "1943" , "1936" , "1940" , "1938" , "1942" , "1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His first wife was 16-year-old Mildred \"Toots\" Kraft, with whom he eloped in 1922, when he was 17." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "in 1922" , "17" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1939: \"Night in Sudan\"" ;
+        ont:place           <http://dbpedia.org/resource/Sudan> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Frank Sinatra & Tommy Dorsey (Durium, 1976)" ;
+        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Later, trombonist and bandleader Buddy Morrow led the Tommy Dorsey Orchestra from 1977 until his death on September 27, 2010." ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> , <http://dbpedia.org/resource/Buddy_Morrow> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "September 27 , 2010" , "from 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/34/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His theme song, \"I'm Getting Sentimental Over You\" was inducted in 1998, along with his recording of \"Marie\" written by Irving Berlin in 1928." ;
+        ont:person          <http://dbpedia.org/resource/Irving_Berlin> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "in 1998" , "in 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/95/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "STEREO FILM RECORDINGS (1942–44):" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1942–44" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1939: \"Dark Laughter\" with Juan Tizol" ;
+        ont:person          <http://dbpedia.org/resource/Juan_Tizol> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Dorsey/Sinatra Sessions (RCA, 1982)" ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/29>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dorsey might have broken up his own band permanently following World War II, as many big bands did due to the shift in music economics following the war, but Tommy Dorsey's album for RCA Victor, \"All Time Hits\" placed in the top ten records in February 1947." ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> , <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "February 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tommy and Jimmy worked in bands led by Tal Henry, Rudy Vallee, Vincent Lopez, and Nathaniel Shilkret." ;
+        ont:person   <http://dbpedia.org/resource/Rudy_Vallée> , <http://dbpedia.org/resource/Tal_Henry> , <http://dbpedia.org/resource/Vincent_Lopez> , <http://dbpedia.org/resource/Nathaniel_Shilkret> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/67/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Bluebird/RCA, 1990)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/96/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tommy Dorsey Orchestra in High-Fidelity STEREO performing \"Opus One\" audio only." ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1945: \"Fluid Jive\"" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Tommy Dorsey/Frank Sinatra Radio Years and the Historic Stordahl Session (RCA, 1983)" ;
+        ont:person          <http://dbpedia.org/resource/Frank_Sinatra> , <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1946: \"Nip and Tuck\"" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/97/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tommy Dorsey Orchestra in High-Fidelity STEREO on film performing \"Well, Git It!\"" ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dorsey kept his Clambake Seven as a Dixieland group that played during performances." ;
+        ont:person   <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Another member of the Dorsey band was trombonist Nelson Riddle, who later had a partnership as one of Sinatra's arrangers and conductors in the 1950s and afterwards." ;
+        ont:person          <http://dbpedia.org/resource/Nelson_Riddle> , <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1950s" , "partnership as one" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1947: \"Trombonology\"Written with Fred Norman" ;
+        ont:person          <http://dbpedia.org/resource/Fred_Norman> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/98/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tommy Dorsey recordings at the Discography of American Historical Recordings." ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had two more number one hits in 1935 when he was a member of the Dorsey Brothers Orchestra: \"Lullaby of Broadway\" (written by Harry Warren), number one for two weeks, and \"Chasing Shadows\", number one for three weeks." ;
+        ont:person          <http://dbpedia.org/resource/Harry_Warren> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "for three" , "two" , "in 1935" , "for two" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1953, the Dorseys focused their attention on television." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "In 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/99/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Website showing details of tour organized by RCA Victor for the Tommy Dorsey and Shep Fields orchestras in 1941" ;
+        ont:person          <http://dbpedia.org/resource/Shep_Fields> , <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "in 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/24>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He loaned money to Glenn Miller enabling him to launch his band of 1938, but Dorsey saw the loan as an investment, entitling him to a percentage of Miller's income." ;
+        ont:person          <http://dbpedia.org/resource/Glenn_Miller> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "band of 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They divorced in 1943 after Dorsey's affair with his former singer Edythe Wright.Dorsey's second wife was film actress Patricia Dane in 1943, and they were divorced in 1947, but not before he gained headlines for striking actor Jon Hall when Hall embraced her." ;
+        ont:person          <http://dbpedia.org/resource/Patricia_Dane> , <http://dbpedia.org/resource/Jon_Hall_(actor)> , <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "in 1947" , "in 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/70/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Kings of Trombone (Hallmark, 1995)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/32>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As a result, Dorsey was able to re-organize a big band in early 1947." ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two of those eighty songs are \"In the Blue of Evening\" and \"This Love of Mine\"." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1929, the Dorsey Brothers had their first hit with \"Coquette\" for OKeh Records.In 1934, the Dorsey Brothers band signed with Decca, having a hit with \"I Believe in Miracles\"." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "OKeh Records.In 1934" , "In 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dorsey-itis (Drive Archive, 1996)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Billed as the \"Tommy Dorsey Orchestra Starring Warren Covington\", they topped the charts in 1958 with \"Tea for Two Cha-Cha\"." ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "for Two" , "in 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey Plays Cole Porter for Dancing (RCA Victor, 1950)" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/72/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Saturday Afternoon at the Meadowbrook 1940 (Jazz Band, 2000)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "Meadowbrook 1940" , "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sy Oliver's arrangements include \"On the Sunny Side of the Street\" and \"T.D." ;
+        ont:person   <http://dbpedia.org/resource/Sy_Oliver> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Others who played with Dorsey were drummers Buddy Rich, Louie Bellson, Dave Tough saxophonist Tommy Reed, and singers Sinatra, Jack Leonard, Edythe Wright, Jo Stafford with the Pied Pipers, Dick Haymes, and Connie Haines.In 1944, Dorsey hired the Sentimentalists, who replaced the Pied Pipers." ;
+        ont:person          <http://dbpedia.org/resource/Edythe_Wright> , <http://dbpedia.org/resource/Dorsey_Burnette> , <http://dbpedia.org/resource/Dick_Haymes> , <http://dbpedia.org/resource/Louie_Bellson> , <http://dbpedia.org/resource/Buddy_Rich> , <http://dbpedia.org/resource/Dave_Tough> , <http://dbpedia.org/resource/Jo_Stafford> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "Connie Haines.In 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey's Dixieland for Dancing (RCA Victor, 1950)" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/73/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "This Is Tommy Dorsey & His Orchestra, Vol." ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/14/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It should be added that these 1943 and 1944 Sinatra hits were older recordings reissued because the 1942–44 musicians' strike prevented Sinatra, now a popular singer, from recording new material." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1944" , "1943" , "1942–44" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/5/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In January 1956, The Dorseys made rock music history introducing Elvis Presley on his national television debut." ;
+        ont:person          <http://dbpedia.org/resource/Elvis_Presley> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "January 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After Covington led the band, tenor saxophonist Sam Donahue led it from 1961, continuing until 1966." ;
+        ont:person          <http://dbpedia.org/resource/Sam_Donahue> , <http://dbpedia.org/resource/Robert_Covington> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "from 1961" , "until 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Later Tommy Dorsey Volume 2 (Ajaz, 1950)" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1950" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/74/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Early Jazz Sides 1932–1937 (Jazz Legends, 2004)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "2004" , "Jazz Sides 1932–1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/80/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ship Ahoy (1942)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ecstasy (Decca, 1951)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/75/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It's D'Lovely 1947–1950 (Hep, 2004)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "2004" , "1947–1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/27>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After opening at the Los Angeles ballroom, the Hollywood Palladium on the Palladium's first night, Dorsey's relations with the ballroom soured and he opened a competing ballroom, the Casino Gardens circa 1944." ;
+        ont:place           <http://dbpedia.org/resource/Hollywood_Palladium> , <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The two younger siblings were Mary and Edward, who died young." ;
+        ont:person          <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/81/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Presenting Lily Mars(1943)" ;
+        ont:place           <http://dbpedia.org/resource/Mars> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/7/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy and Jane Dorsey had two children, Catherine Susan and Steve." ;
+        ont:person          <http://dbpedia.org/resource/Jane_Fonda> , <http://dbpedia.org/resource/Catherine_Parr> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On June 25, 2019, The New York Times Magazine listed Tommy Dorsey among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire." ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "June 25 , 2019" , "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy and Jimmy Dorsey with the California Ramblers (Riverside, 1955)" ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/53/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 (Kings of Jazz, 1975)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1" , "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/82/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Girl Crazy (1943)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "== Number-one hits ==" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "Number-one" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "That Sentimental Gentleman (RCA Victor, 1957)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/77/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Segar Ellis and His Embassy Club Orchestra (1929)" ;
+        ont:person          <http://dbpedia.org/resource/Monta_Ellis> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"The band was popular almost from the moment it signed with RCA Victor for \"On Treasure Island\", the first of four hits in 1935." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "of four" , "in 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/4/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I Remember Tommy appeared in 1961." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "in 1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/83/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Du Barry Was a Lady (1943)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tommy Dorsey had a run of 286 Billboard chart hits." ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "run of 286" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Golden Age of the Dance Bands (Somerset, 1957)" ;
+        ont:place           <http://dbpedia.org/resource/Somerset> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/78/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alice Bolden and Her Orchestra (1929)Tommy Dorsey and his Orchestra appear in the following films for Paramount, MGM, Samuel Goldwyn, Allied Artists, and United Artists:" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> , <http://dbpedia.org/resource/Samuel_Goldwyn> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, he was reported to have collected $2,500 instead.Jimmy Dorsey broke up his big band in 1953." ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "2,500 instead.Jimmy" , "band in 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/84/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Broadway Rhythm (1944)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/15/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "== Songs written by Tommy Dorsey ==" ;
+        ont:person   <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject  <http://dbpedia.org/resource/Tommy_Dorsey> .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Dorsey Touch (Riviera, 1959)" ;
+        ont:person          <http://dbpedia.org/resource/Dorsey_Burnette> ;
+        ont:place           <http://dbpedia.org/resource/French_Riviera> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/79/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Las Vegas Nights (1941)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/85/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Thrill of a Romance (1945)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1929: \"You Can't Cheat a Cheater\" with Phil Napoleon and Frank Signorelli" ;
+        ont:person          <http://dbpedia.org/resource/Napoleon> , <http://dbpedia.org/resource/Frank_Signorelli> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tribute to Tommy Dorsey (Broadway, 1959)" ;
+        ont:person          <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/0/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After Dorsey broke with his brother in the mid-1930s, he led an extremely successful band from the late 1930s into the 1950s." ;
+        ont:person          <http://dbpedia.org/resource/Lee_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1950s" , "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The couple had two children, Patricia and Thomas F. Dorsey III (nicknamed \"Skipper\")." ;
+        ont:person          <http://dbpedia.org/resource/Patricia_McKissack> , <http://dbpedia.org/resource/Lee_Dorsey> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/10/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jane Dorsey died of natural causes at the age of 79, in Miami, Florida, in 2003." ;
+        ont:place           <http://dbpedia.org/resource/Florida> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "in 2003" , "age of 79" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/86/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Great Morgan (1946)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1932: \"Three Moods\"; NB." ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "Three" , "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The One And Only Tommy Dorsey (RCA Camden, 1961)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "One" , "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/34/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1996, the U.S." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "In 1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1937: \"The Morning After\"" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/175068/87/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Fabulous Dorseys (1947)" ;
+        ont:subject         <http://dbpedia.org/resource/Tommy_Dorsey> ;
+        ont:timeExpression  "1947" .

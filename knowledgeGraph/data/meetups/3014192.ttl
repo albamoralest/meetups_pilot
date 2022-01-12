@@ -6,9 +6,35 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/3014192/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Nicolai also scored a number of giallo exploitation films and wrote many scores for director Jesús Franco." ;
+        ont:person   <http://dbpedia.org/resource/Francisco_Franco> ;
+        ont:subject  <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bruno Nicolai tribute site" ;
+        ont:person   <http://dbpedia.org/resource/Bruno_Nicolai> ;
+        ont:subject  <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His work was featured in the Quentin Tarantino films Kill Bill: Volume 2 and Once Upon a Time in Hollywood." ;
+        ont:person          <http://dbpedia.org/resource/Quentin_Tarantino> ;
+        ont:subject         <http://dbpedia.org/resource/Bruno_Nicolai> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bruno Nicolai at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Bruno_Nicolai> ;
+        ont:subject  <http://dbpedia.org/resource/Bruno_Nicolai> .
+
 <http://w3id.org/polifonia/pilot/meetups/3014192/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bruno Nicolai (20 May 1926 in Rome – 16 August 1991 in Rome) was an Italian film music composer, orchestra director and musical editor most active in the 1960s through the 1980s.While studying piano and composition at the Santa Cecilia Conservatory in Rome, he befriended Ennio Morricone and formed a long working relationship, with Nicolai eventually conducting for and co-scoring films with Morricone." ;
         ont:person          <http://dbpedia.org/resource/Ennio_Morricone> , <http://dbpedia.org/resource/Bruno_Nicolai> ;
-        ont:place           "http://dbpedia.org/resource/Rome" ;
+        ont:place           <http://dbpedia.org/resource/Rome> ;
         ont:subject         <http://dbpedia.org/resource/Bruno_Nicolai> ;
-        ont:timeExpression  "20 May 1926" , "1980s.While" , "16 August 1991" .
+        ont:timeExpression  "16 August 1991" , "1980s.While" , "20 May 1926" .

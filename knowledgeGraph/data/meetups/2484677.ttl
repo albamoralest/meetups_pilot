@@ -6,37 +6,302 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/2484677/6/5>
+<http://w3id.org/polifonia/pilot/meetups/2484677/8/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Jimmy_Carter> ;
-        ont:place           "http://dbpedia.org/resource/Burlington,_Vermont" , "http://dbpedia.org/resource/United_States" , "http://dbpedia.org/resource/Winchester" , "http://dbpedia.org/resource/Bozeman_Trail" ;
+        ont:excerpt         "In 2002, he moved back to the United States,  settling in Memphis with his girlfriend, Cindy." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
-        ont:timeExpression  "April 21 , 1977" .
+        ont:timeExpression  "In 2002" .
 
-<http://w3id.org/polifonia/pilot/meetups/2484677/3/3>
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Henry_Lee_III> ;
-        ont:place           "http://dbpedia.org/resource/Virginia" ;
+        ont:excerpt         "In 1952, a heart attack left his father unable to farm." ;
         ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
-        ont:timeExpression  "two" .
+        ont:timeExpression  "In 1952" .
 
-<http://w3id.org/polifonia/pilot/meetups/2484677/0/0>
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/7>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/James_VI_and_I> ;
-        ont:place           "http://dbpedia.org/resource/Winchester" ;
+        ont:excerpt         "\"I'm Gonna Miss You, Girl\", written by Winchester, was recorded by American country music artist Michael Martin Murphey and released in October 1987, as the lead single from the album River of Time." ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Winchester> ;
         ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
-        ont:timeExpression  "May 17 , 1944" , "April 11 , 2014" .
+        ont:timeExpression  "October 1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "David \"Butch\" McDade and Jeff \"Stick\" Davis moved to Quebec to become part of Jesse Winchester and the Rhythm Aces." ;
+        ont:person   <http://dbpedia.org/resource/Jesse_Winchester> , <http://dbpedia.org/resource/Miles_Davis> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/9/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rolling Stone called it \"a gentle collection of playful songs about love, memory and gratitude that amounts to one of the most moving, triumphant albums of Winchester's 45 year career.\"" ;
+        ont:place           <http://dbpedia.org/resource/Winchester> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "45 year career" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Because of his status as a draft-evader, entailing that he was subject to arrest had he entered the country, he was unable to tour in the United States, and he became recognized primarily as a songwriter." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Opposed to the Vietnam War, he moved to Canada in 1967 to avoid being drafted into the US military while the US engaged in the Vietnam War and began his career as a solo artist." ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Canada> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"I was so offended by someone's coming up to me and presuming to tell me who I should kill and what my life was worth,\" he told Rolling Stone magazine in 1977.Winchester began playing guitar in bands while still in high school." ;
+        ont:place           <http://dbpedia.org/resource/Winchester> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "magazine in 1977.Winchester" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2011, Winchester was diagnosed with cancer of the esophagus and underwent treatment for the next couple of months." ;
+        ont:place           <http://dbpedia.org/resource/Winchester> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "In 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Winchester's version is on his album Love Filling Station." ;
+        ont:place    <http://dbpedia.org/resource/Winchester> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Winchester was nominated for the Best Country Male Vocalist award at the Juno Awards of 1990." ;
+        ont:place           <http://dbpedia.org/resource/Winchester> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "of 1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Winchester was one of three children born to James Ridout Winchester Sr. (1917-1962) and Frances Ellyn Manire Winchester (1920-2010)." ;
+        ont:place           <http://dbpedia.org/resource/Winchester> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "of three" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On June 10 he appeared alongside Little Feat, Emmylou Harris and Bonnie Raitt  on Burt Sugarman's The Midnight Special." ;
+        ont:person          <http://dbpedia.org/resource/Burt_Sugarman> , <http://dbpedia.org/resource/Bonnie_Raitt> , <http://dbpedia.org/resource/Emmylou_Harris> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "June 10" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1974, Winchester often performed at the Hotel Le Chatelet in Morin Heights, Quebec, run by several expatriate Tennesseans who had come to Canada in 1972." ;
+        ont:place           <http://dbpedia.org/resource/Winchester> , <http://dbpedia.org/resource/Canada> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "in 1972" , "In 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was nominated for two Grammy awards." ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "for two" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Winchester released several albums during the 1970s." ;
+        ont:place           <http://dbpedia.org/resource/Winchester> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was born and raised in the southern United States." ;
+        ont:place    <http://dbpedia.org/resource/Southern_United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/18/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jesse Winchester at Appleseed Recordings" ;
+        ont:person   <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Upon receiving his draft notice the following year, Winchester moved to Montreal, Quebec, Canada, to avoid being drafted into the US military while the US was involved in a war with Vietnam." ;
+        ont:place    <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/Montreal> , <http://dbpedia.org/resource/Vietnam> , <http://dbpedia.org/resource/Winchester> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
 
 <http://w3id.org/polifonia/pilot/meetups/2484677/3/11>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Under the auspices of the Band's Robbie Robertson, another Canadian, Winchester began his recording career in 1970 with a self-titled album released on the Ampex label." ;
         ont:person          <http://dbpedia.org/resource/Robbie_Robertson> ;
-        ont:place           "http://dbpedia.org/resource/Winchester" ;
+        ont:place           <http://dbpedia.org/resource/Winchester> ;
         ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
         ont:timeExpression  "career in 1970" .
 
+<http://w3id.org/polifonia/pilot/meetups/2484677/17/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jesse Winchester at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Winchester was born at Barksdale Army Air Field, near Bossier City, Louisiana, United States, and raised in northern Mississippi through age 12, when his family relocated to Memphis, Tennessee." ;
+        ont:place           <http://dbpedia.org/resource/Barksdale_Air_Force_Base> , <http://dbpedia.org/resource/Bossier_City,_Louisiana> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Winchester> , <http://dbpedia.org/resource/Mississippi> , <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "12" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Winchester had by then become a Canadian citizen, but Barry Bozeman, his manager at the time, convinced Carter on Winchester's behalf to broaden the amnesty.Winchester's first appearance in the U.S. was a sold-out performance in Burlington, Vermont, on April 21, 1977." ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Carter> ;
+        ont:place           <http://dbpedia.org/resource/Burlington,_Vermont> , <http://dbpedia.org/resource/Bozeman_Trail> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Winchester> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "April 21 , 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/21/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Fame & Fortune: Jesse Winchester" ;
+        ont:person   <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He is survived by his wife, Cindy and three children from a previous marriage: James, Alice and Marcus Lee.Winchester’s final CD, A Reasonable Amount of Trouble, was released in September 2014, with liner notes by his friend Jimmy Buffett." ;
+        ont:person          <http://dbpedia.org/resource/James_VI_and_I> , <http://dbpedia.org/resource/Jimmy_Buffett> , <http://dbpedia.org/resource/Cindy_McCain> , <http://dbpedia.org/resource/Marcus_Aurelius> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "three" , "September 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "James Ridout \"Jesse\" Winchester Jr. (May 17, 1944 – April 11, 2014) was an American-Canadian musician and songwriter." ;
+        ont:person          <http://dbpedia.org/resource/James_VI_and_I> ;
+        ont:place           <http://dbpedia.org/resource/Winchester> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "May 17 , 1944" , "April 11 , 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "HOTSEAT- Southern gent?" ;
+        ont:place    <http://dbpedia.org/resource/Southern_United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Winchester continued to record and perform throughout the United States and Canada, releasing his tenth studio album, Love Filling Station, in 2009." ;
+        ont:place           <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Winchester> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "in 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He graduated from Williams College, in Williamstown, Massachusetts, in 1966." ;
+        ont:place           <http://dbpedia.org/resource/Massachusetts> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also began writing songs, which he performed as a solo artist at the Montreal Folk Workshop and at coffeehouses throughout eastern Canada, adding impetus to a revival in folk music that was taking place across Canada." ;
+        ont:place    <http://dbpedia.org/resource/Montreal> , <http://dbpedia.org/resource/Canada> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Smith, Davis and McDade later were original members of the Amazing Rhythm Aces.Upon his election in 1976, President Jimmy Carter declared he would grant amnesty to draft evaders, except those who had deserted or had become citizens of another country." ;
+        ont:person          <http://dbpedia.org/resource/Jefferson_Davis> , <http://dbpedia.org/resource/Jimmy_Carter> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "election in 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/0/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His songs were recorded by many notable artists, including Patti Page, Elvis Costello, Jimmy Buffett, Joan Baez, Jerry Garcia, Anne Murray, Reba McEntire, the Everly Brothers, Lyle Lovett, Emmylou Harris, George Strait, Gary Allan, Willie Nelson, and Michael Stanley." ;
+        ont:person   <http://dbpedia.org/resource/Jimmy_Buffett> , <http://dbpedia.org/resource/Reba_McEntire> , <http://dbpedia.org/resource/Jerry_Garcia> , <http://dbpedia.org/resource/Lyle_Lovett> , <http://dbpedia.org/resource/Elvis_Costello> , <http://dbpedia.org/resource/Patti_Page> , <http://dbpedia.org/resource/Emmylou_Harris> , <http://dbpedia.org/resource/Joan_Baez> , <http://dbpedia.org/resource/Michael_Stanley> , <http://dbpedia.org/resource/Gary_Allan> , <http://dbpedia.org/resource/Willie_Nelson> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Anne_Murray> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died there on the morning of April 11, 2014, aged 69, from bladder cancer." ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "69" , "April 11 , 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He received a Lifetime Achievement Award from the American Society of Composers, Authors and Publishers in 2007." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "in 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He graduated from Christian Brothers High School in Memphis in 1962 as a merit finalist, a National Honor Society member and the salutatorian of his class." ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Smith traveled to Montreal to assist in the recording of the album Learn to Love It at Studio Six." ;
+        ont:place    <http://dbpedia.org/resource/Montreal> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He became a Canadian citizen in 1973, gained amnesty in the U.S. in 1977 and resettled in Memphis, Tennessee in 2002.Winchester was best known as a songwriter." ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Winchester> , <http://dbpedia.org/resource/Tennessee> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "citizen in 1973" , "in 2002.Winchester" , "in 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Upon arriving in Quebec in 1967, he joined a local band, Les Astronautes." ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "in 1967" .
+
 <http://w3id.org/polifonia/pilot/meetups/2484677/9/2>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Quiet About It, a tribute record to Winchester, was released in 2012, featuring James Taylor, Lyle Lovett, Lucinda Williams, Rosanne Cash and Jimmy Buffett, who spearheaded the project, among others.In April 2014, it was revealed that Winchester was gravely ill and receiving hospice care at his home, in Charlottesville, Virginia." ;
         ont:person          <http://dbpedia.org/resource/James_Taylor> , <http://dbpedia.org/resource/Rosanne_Cash> , <http://dbpedia.org/resource/Lyle_Lovett> , <http://dbpedia.org/resource/Lucinda_Williams> , <http://dbpedia.org/resource/Jimmy_Buffett> ;
-        ont:place           "http://dbpedia.org/resource/Virginia" , "http://dbpedia.org/resource/Winchester" ;
+        ont:place           <http://dbpedia.org/resource/Virginia> , <http://dbpedia.org/resource/Winchester> ;
         ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
         ont:timeExpression  "April 2014" , "in 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Through his father's side, he is part of the Lee family of Virginia (Henry Lee II and Richard Henry Lee were two of his 4th-great-grandfathers)." ;
+        ont:person          <http://dbpedia.org/resource/Henry_Lee_III> ;
+        ont:place           <http://dbpedia.org/resource/Virginia> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The song peaked at number 3 on the Billboard Hot Country Singles chart and at number 4 on the Canadian RPM Country Tracks chart." ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "3" , "4" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Winchester was the first to record the songs \"Third Rate Romance\" and \"The End Is Not in Sight\", both written by Russell Smith." ;
+        ont:place    <http://dbpedia.org/resource/Winchester> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/5/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His best-known songs include \"Yankee Lady\", \"The Brand New Tennessee Waltz\", \"Mississippi, You're on My Mind\", \"A Showman's Life\",\"Biloxi\", \"That's a Touch I Like\", and \"Every Word You Say\"." ;
+        ont:person   <http://dbpedia.org/resource/Thomas_Say> , <http://dbpedia.org/resource/Vince_Russo> ;
+        ont:place    <http://dbpedia.org/resource/Mississippi> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His highest-charting recordings were of his own songs, \"Yankee Lady\" in 1970 and \"Say What\" in 1981." ;
+        ont:person          <http://dbpedia.org/resource/Thomas_Say> ;
+        ont:subject         <http://dbpedia.org/resource/Jesse_Winchester> ;
+        ont:timeExpression  "in 1981" , "in 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/2484677/3/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He played in Germany during college study abroad and after graduation." ;
+        ont:place    <http://dbpedia.org/resource/Germany> ;
+        ont:subject  <http://dbpedia.org/resource/Jesse_Winchester> .

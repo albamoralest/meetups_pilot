@@ -6,72 +6,1076 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/170021/2/8>
+<http://w3id.org/polifonia/pilot/meetups/170021/0/3>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Stu_Cook> , <http://dbpedia.org/resource/Doug_Clifford> ;
-        ont:place           "http://dbpedia.org/resource/Winters,_California" , "http://dbpedia.org/resource/Putah_Creek" ;
+        ont:excerpt         "He was listed on Rolling Stone magazine's list of 100 Greatest Songwriters (at No." ;
         ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
-        ont:timeExpression  "school in 1959" .
+        ont:timeExpression  "list of 100" .
 
-<http://w3id.org/polifonia/pilot/meetups/170021/34/0>
+<http://w3id.org/polifonia/pilot/meetups/170021/22/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
-        ont:place           "http://dbpedia.org/resource/Colorado" , "http://dbpedia.org/resource/Red_Rocks_Amphitheatre" ;
+        ont:excerpt         "=== 1997–present ===" ;
         ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
-        ont:timeExpression  "November 2019" , "2008" , "50 Year" , "September 2017" , "June 25 , 2019" .
+        ont:timeExpression  "1997–present" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/27/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Billboard 200 chart with sales about 65,000 copies in its first week." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "Billboard 200" , "about 65,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/19/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty ultimately won his case when he proved that the two songs were distinct compositions and also that sounding like himself was not plagiarizing." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty returned to the commercial music industry in 1997 with Blue Moon Swamp." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "industry in 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Blue Ridge Rangers (1973)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Cook and Clifford told Fogerty that the fans would not accept Mardi Gras as a CCR LP, but Fogerty told them, \"My voice is a unique instrument, and I will not lend it to your songs.\"" ;
+        ont:person   <http://dbpedia.org/resource/William_Kingdon_Clifford> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/53/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They were on one of those two- or three-year rolls where their creativity was limitless." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "on one" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He first attended a Catholic school, the School of the Madeleine, in Berkeley, California." ;
+        ont:person   <http://dbpedia.org/resource/Madeleine_of_Valois> ;
+        ont:place    <http://dbpedia.org/resource/Berkeley,_California> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On October 1, 1998, Fogerty was honored with a star on the Hollywood Walk of Fame located at 7000 Hollywood Blvd.In 2004, Fogerty released Deja Vu All Over Again through DreamWorks Records, which had taken over distribution of Fogerty's Warner catalog." ;
+        ont:place           <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "Hollywood Blvd.In 2004" , "at 7000" , "October 1 , 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Fogerty (1975)" ;
+        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/29/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bruce Springsteen, with the E Street Band, called Fogerty out to play three songs with them." ;
+        ont:person          <http://dbpedia.org/resource/Bruce_Springsteen> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The sale of Fantasy Records to Concord Records in 2004 ended the 30-year estrangement between Fogerty and his former label, as the new owners took steps to restore royalty rights Fogerty had given up to be released from his contract with Fantasy in the mid-1970s." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hoodoo (1976 - unreleased)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/34/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His most recent performance was at the Winstar in Thackerville, Oklahoma, on December 31, 2019." ;
+        ont:place           <http://dbpedia.org/resource/Oklahoma> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "December 31 , 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/4/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his time in the Army Reserve, Fogerty attended training at Fort Bragg, Fort Knox, and Fort Lee." ;
+        ont:place    <http://dbpedia.org/resource/Fort_Lee_Historic_Park> , <http://dbpedia.org/resource/Fort_Bragg> , <http://dbpedia.org/resource/Fort_Knox> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Centerfield (1985)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/12>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "According to him, while there, he had the realization that Robert Johnson was the true spiritual owner of his own songs, no matter what businessman owned the rights to them, thus Fogerty decided to start making a new album and to perform his old CCR material regularly in concert." ;
+        ont:person   <http://dbpedia.org/resource/Robert_Johnson> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/35/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Under the brand \"Fogerty's Factory,\" the group performed remotely on The Late Show with Stephen Colbert, NPR's Tiny Desk Concerts, and SiriusXM's Classic Vinyl station." ;
+        ont:person   <http://dbpedia.org/resource/Stephen_Colbert> , <http://dbpedia.org/resource/Stephen_I_of_Hungary> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/20/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For over 20 years after the Eye of the Zombie tour ended in late 1986, Fogerty refused to play material from the album in concert." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "over 20" , "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/52/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2015, Fogerty threw his support behind Democratic presidential candidate Hillary Clinton, saying, \"[L]iberals tend to have the little guy in mind.\"" ;
+        ont:person          <http://dbpedia.org/resource/Hillary_Clinton> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "In 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2005, Fogerty received the Golden Plate Award of the American Academy of Achievement presented by Awards Council member B." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "In 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Eye of the Zombie (1986)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On May 27, 1989, he played a set of CCR material at Oakland Coliseum for the Concert Against AIDS." ;
+        ont:place           <http://dbpedia.org/resource/Oakland_Coliseum> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "May 27 , 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On March 16, 2008, Fogerty kicked off an Australian tour." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "March 16 , 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty, in an attempt to keep things together, insisted Cook and Clifford share equal songwriting and vocal time on what became the band's final album, Mardi Gras, released in April 1972, which included the band's last two singles, the 1971 hit \"Sweet Hitch-Hiker\", and \"Someday Never Comes\", which  made it into the Billboard Top 20." ;
+        ont:person          <http://dbpedia.org/resource/William_Kingdon_Clifford> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1971 hit" , "April 1972" , "Billboard Top 20" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On April 16, 2009, Fogerty performed his hit \"Centerfield\" from center field of the new Yankee Stadium, at its opening-day festivities.On July 2, 3, and 4, 2009, Fogerty performed with the Los Angeles Philharmonic at the Hollywood Bowl, which was sold out for these shows." ;
+        ont:place           <http://dbpedia.org/resource/Yankee_Stadium> , <http://dbpedia.org/resource/Hollywood_Bowl> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "4" , "July 2 , 3" , "2009" , "April 16 , 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/31/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On November 17 and 18, Fogerty performed two CCR albums, Cosmo's Factory and Green River, respectively, in their entirety at the Beacon Theater in New York City (he also played Cosmo's Factory in Atlantic City on November 20)." ;
+        ont:place           <http://dbpedia.org/resource/Atlantic_City,_New_Jersey> , <http://dbpedia.org/resource/Beacon_Theatre_(New_York_City)> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "November 17" , "two" , "November 20" , "18" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/19/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The setlist consisted of rhythm and blues tunes from the 1960s, as well as material from the Centerfield LP and the song \"No Love in You\" written by Michael Anderson, which Fogerty found on the Textones' debut album Midnight Mission and he later recorded with Textones' band leader Carla Olson." ;
+        ont:person   <http://dbpedia.org/resource/Michael_P._Anderson> , <http://dbpedia.org/resource/Carla_Olson> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/23/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A live album, named Premonition, of the equally successful Blue Moon Swamp tour, was released to similar acclaim and good sales in 1998." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/15/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "27 hit for Fogerty in the United States." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "27 hit" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He later attended St. Mary's High School, then transferred to El Cerrito High School, where he met the other future members of CCR and took guitar lessons from Berkeley Folk Festival creator/producer Barry Olivier." ;
+        ont:person   <http://dbpedia.org/resource/Mary_I_of_England> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/29/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty was also nominated for a Grammy Award at the 2010 Grammys." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/26/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty toured with John Mellencamp in the summer of 2005 and with Willie Nelson in the summer of 2006." ;
+        ont:person          <http://dbpedia.org/resource/Willie_Nelson> , <http://dbpedia.org/resource/John_Mellencamp> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "summer of 2005" , "summer of 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/15>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Zion Memorial Fund, to honor Johnson with a memorial marker." ;
+        ont:person   <http://dbpedia.org/resource/Lyndon_B._Johnson> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Together with Doug Clifford, Stu Cook, and his brother Tom Fogerty, he founded the band Creedence Clearwater Revival (CCR), for which he was the lead singer, lead guitarist, and principal songwriter." ;
+        ont:person   <http://dbpedia.org/resource/Doug_Clifford> , <http://dbpedia.org/resource/Tom_Fogerty> , <http://dbpedia.org/resource/Stu_Cook> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/19/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When Zaentz responded with a lawsuit, Fogerty issued a revised version: \"Vanz Kant Danz\" (changing the lead character's name to Vanz)." ;
+        ont:person   <http://dbpedia.org/resource/Immanuel_Kant> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In fact, even in the brothers' very last conversation with each other, Tom at one point referred to Creedence Clearwater Revival's former manager Saul Zaentz as his \"best friend\"." ;
+        ont:person          <http://dbpedia.org/resource/Saul_Zaentz> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "one point" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/40/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tyler Fogerty - vocals" ;
+        ont:person   <http://dbpedia.org/resource/John_Tyler> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/72/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Private site about John Fogerty" ;
+        ont:person   <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/28/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This concert was filmed (causing staging problems that annoyed some fans) and was released in 2009." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His father was a native of Iowa, and worked as a Linotype operator for the Berkeley Gazette in California." ;
+        ont:place    <http://dbpedia.org/resource/Berkeley,_California> , <http://dbpedia.org/resource/California> , <http://dbpedia.org/resource/Iowa> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/69/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "OCLC 1001704588." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1001704588" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/41/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Kenny Aronoff - drums" ;
+        ont:person   <http://dbpedia.org/resource/Kenny_Aronoff> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/73/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Fogerty interviewed on the Pop Chronicles (1970)" ;
+        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/29/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In addition, Don Henley and Timothy B. Schmit of Eagles sang with Fogerty on a cover of Ricky Nelson's 1972 classic \"Garden Party\"." ;
+        ont:person          <http://dbpedia.org/resource/Saint_Timothy> , <http://dbpedia.org/resource/Don_Henley> , <http://dbpedia.org/resource/Ricky_Nelson> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/14/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Fogerty thereafter abandoned the \"Blue Ridge Rangers\" identity, and released all his subsequent work under his own name." ;
+        ont:place    <http://dbpedia.org/resource/Blue_Ridge_Mountains> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/50/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They divorced in the 1970s.Fogerty met Julie Kramer in 1986 while on tour in Indianapolis, Indiana." ;
+        ont:place           <http://dbpedia.org/resource/Indianapolis> , <http://dbpedia.org/resource/Indiana> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1970s.Fogerty" , "in 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The only reunion of all four original members was at Tom Fogerty's wedding in 1980." ;
+        ont:person          <http://dbpedia.org/resource/Tom_Fogerty> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "wedding in 1980" , "four" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/42/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Bob Malone - keyboard" ;
+        ont:person   <http://dbpedia.org/resource/Bob_Malone> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/74/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"John Fogerty: New Moon Rising\" at the Wayback Machine (archived February 8, 2001); interview published in Guitar World (July '97)" ;
+        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "February 8 , 2001" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This group recorded seven singles that were not commercially successful." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The band was inspired by rock and roll pioneers, especially Little Richard and Bo Diddley." ;
+        ont:person   <http://dbpedia.org/resource/Bo_Diddley> , <http://dbpedia.org/resource/Little_Richard> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/43/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "James Lomenzo - bass" ;
+        ont:person   <http://dbpedia.org/resource/James_LoMenzo> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/75/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Fogerty at the Songwriters Hall of Fame" ;
+        ont:person   <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/52/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In his lyrics, Fogerty has lampooned many Republicans, including Richard Nixon and Ronald Reagan." ;
+        ont:person   <http://dbpedia.org/resource/Richard_Nixon> , <http://dbpedia.org/resource/Ronald_Reagan> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/44/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Nate Collins - saxophone" ;
+        ont:person   <http://dbpedia.org/resource/Nate_Collins> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/53/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Trump frequently used \"Fortunate Son\" during his 2020 reelection campaign, prompting Fogerty to issue a cease-and-desist letter." ;
+        ont:person          <http://dbpedia.org/resource/Donald_Trump> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2020 reelection campaign" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1968, they changed their name to Creedence Clearwater Revival, with John Fogerty taking his brother's place as lead singer." ;
+        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "In 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1972–1985 ===" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1972–1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/26/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On Thanksgiving Day of 2006, Fogerty performed at halftime at the Miami Dolphins/Detroit Lions game and at the Denver Broncos/Kansas City Chiefs halftime later that evening.Fogerty was inducted into the Songwriters Hall of Fame in 2005." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 2005" , "of 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/18>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In place of the surviving members of CCR, Fogerty recruited session musicians on drums and bass and was also joined by Bruce Springsteen and Robbie Robertson in performing three songs: \"Who'll Stop the Rain\", \"Born on the Bayou\", and \"Green River\"." ;
+        ont:person          <http://dbpedia.org/resource/Bruce_Springsteen> , <http://dbpedia.org/resource/Robbie_Robertson> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "40) and the list of 100 Greatest Singers (at No." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "40" , "list of 100" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "These internal rifts, and Tom's feeling that he was being taken for granted, caused Tom to leave the group in January 1971." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "January 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/27/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Revival was nominated for a Grammy Award for Best Rock Album of 2008, but lost to the Foo Fighters.On February 10, 2008, Fogerty appeared with Jerry Lee Lewis and Little Richard on the Grammy Awards show." ;
+        ont:person          <http://dbpedia.org/resource/Little_Richard> , <http://dbpedia.org/resource/Jerry_Lee_Lewis> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "of 2008" , "February 10 , 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/31/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The album includes two new Fogerty-penned songs." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "According to the two bandmates, Fogerty gave them an ultimatum: either they would do it or" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I guess we achieved half of that, becoming rock 'n roll stars." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "'n roll" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His first official solo album, John Fogerty, was released in 1975." ;
+        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/32/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On November 12, 2012, Fogerty announced that he was writing his memoirs, and that the book was expected to be released in 2015.During the 2014 Veterans Days celebration, \"Salute to the Troops\" at the White House, Fogerty performed for many veterans." ;
+        ont:place           <http://dbpedia.org/resource/White_House> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 2015.During" , "2014" , "November 12 , 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In his memoir, Fortunate Son, Fogerty was critical of the school, saying when in class he was not permitted to go to the bathroom when he asked, and frequently wet himself and was forced to sit in his wet clothing.After one year, Fogerty enrolled in nearby Harding Grammar School." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "one year" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/24/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Rolling Stone wrote: \"The title track is Fogerty's indictment of the Iraq War as another Vietnam, a senseless squandering of American lives and power\"." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1976, Fogerty finished an album called Hoodoo." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "In 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/29/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Fortunate Son\" was their first song, followed by \"Proud Mary\", and finally the duo tried their take on Roy Orbison's \"Pretty Woman\"." ;
+        ont:person   <http://dbpedia.org/resource/Roy_Orbison> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
 
 <http://w3id.org/polifonia/pilot/meetups/170021/50/4>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As of 2020, they live in Thousand Oaks, California.Sons Shane (guitar, vocals) and Tyler (vocals) now appear with their father in concert." ;
         ont:person          <http://dbpedia.org/resource/Shane_McMahon> , <http://dbpedia.org/resource/John_Tyler> ;
-        ont:place           "http://dbpedia.org/resource/Thousand_Oaks,_California" ;
+        ont:place           <http://dbpedia.org/resource/Thousand_Oaks,_California> ;
         ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
         ont:timeExpression  "of 2020" .
 
-<http://w3id.org/polifonia/pilot/meetups/170021/50/2>
+<http://w3id.org/polifonia/pilot/meetups/170021/25/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shane_McMahon> ;
-        ont:place           "http://dbpedia.org/resource/Elkhart,_Indiana" ;
+        ont:excerpt         "In September 2005, Fogerty returned to Fantasy Records, made possible when DreamWorks Records' noncountry-music unit was absorbed by Geffen Records, which dropped Fogerty, but continued to distribute his earlier solo albums." ;
         ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
-        ont:timeExpression  "April 20 , 1991" , "two" .
+        ont:timeExpression  "September 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1985–1997 ===" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1985–1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/34/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The remaining performances of his current tour \"My 50 Year Trip\" have been postponed due to the COVID-19 pandemic." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "50 Year Trip" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He completed his active duty for training in July 1967, then served as a part-time reservist until being discharged in 1968." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 1968" , "July 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/26/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In October 2004, Fogerty appeared on the Vote for Change tour, playing seven of the concerts in U.S. swing states." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "seven" , "October 2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After a hiatus of several years from the music industry, Fogerty's solo career re-emerged with 1985's Centerfield, his first album for Warner Bros. Records, which had taken co-ownership of Asylum's contract with Fogerty." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "re-emerged with 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/35/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Collecting seven songs from the remote performances, the Fogerty's Factory EP was released on May 28, 2020, coinciding with Fogerty's 75th birthday." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "May 28 , 2020" , "seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/20/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "However, \"Change in the Weather\" was included in the setlist for his 2009 tour, and it was even re-recorded for that year's solo release, The Blue Ridge Rangers Rides Again." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2009 tour" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/52/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "However, he also expressed a liking for Donald Trump's \"rebelliousness\" and the appearance that Trump \"can't be bought\" due to his vast wealth." ;
+        ont:person   <http://dbpedia.org/resource/Donald_Trump> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/27/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "B. King.On June 23, 2007, Fogerty appeared at Glastonbury Festival, playing an hour-long set of 17 songs, mainly CCR classics." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "June 23 , 2007" , "set of 17" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two songs on the album, \"Zanz Kant Danz\" and \"Mr. Greed\", were believed to be attacks on Fogerty's former boss at Fantasy Records, Saul Zaentz." ;
+        ont:person          <http://dbpedia.org/resource/Immanuel_Kant> , <http://dbpedia.org/resource/Saul_Zaentz> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His backing band that night consisted of Jerry Garcia and Bob Weir on guitars, Randy Jackson on bass, and Steve Jordan on drums.In 1990, Tom Fogerty died of complications from AIDS at the age of 48, specifically from a tuberculosis infection, having contracted HIV from blood transfusions during surgery for a back ailment." ;
+        ont:person          <http://dbpedia.org/resource/Tom_Fogerty> , <http://dbpedia.org/resource/Jerry_Garcia> , <http://dbpedia.org/resource/Steve_Jordan_(drummer)> , <http://dbpedia.org/resource/Randy_Jackson> , <http://dbpedia.org/resource/Bob_Weir> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1990" , "age of 48" .
 
 <http://w3id.org/polifonia/pilot/meetups/170021/28/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On March 22 in Point Nepean, Australia, surprise guest Keith Urban joined Fogerty on stage, performing two songs: \"Broken Down Cowboy\", off Fogerty's newest album Revival, and \"Cotton Fields\", from CCR's album Willy & the Poor Boys.On June 24, 2008, Fogerty made a return to the Royal Albert Hall, a venue he last played with CCR in 1971." ;
         ont:person          <http://dbpedia.org/resource/Keith_Urban> ;
-        ont:place           "http://dbpedia.org/resource/Royal_Albert_Hall" ;
+        ont:place           <http://dbpedia.org/resource/Royal_Albert_Hall> ;
         ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
-        ont:timeExpression  "June 24 , 2008" , "two" , "in 1971" , "March 22" .
+        ont:timeExpression  "in 1971" , "June 24 , 2008" , "March 22" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/69/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "New York: Little, Brown and Company." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/29/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Though billed as Fogerty with the L.A. Philharmonic, the orchestra began the night with music by U.S. composers, and Fogerty and his band came on after intermission,  playing only three songs with the orchestra.On August 31, 2009, Fogerty released The Blue Ridge Rangers Rides Again, a sequel 1973 solo debut The Blue Ridge Rangers." ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1973 solo debut" , "August 31 , 2009" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/14/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was a commercial flop, failing to make the Hot 100 in the U.S., though \"You Don't Owe Me\" was a minor hit in Canada, reaching No." ;
+        ont:place           <http://dbpedia.org/resource/Canada> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "Hot 100" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/19/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Fogerty's All-Stars was recorded in front of an audience of Warners Bros. Music employees and other invited guests at A&M Records on La Brea in Hollywood." ;
+        ont:person   <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> , <http://dbpedia.org/resource/La_Brea_Avenue> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/23/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A track from Blue Moon Swamp titled \"Blue Moon Nights,\" was used in the 2002 film The Rookie." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2002 film" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Later, Fogerty's brother Tom joined the group." ;
+        ont:person   <http://dbpedia.org/resource/Brother_Tom> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/15/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1977, British boogie rockers Status Quo recorded their version of \"Rockin' All Over the World\", which became a huge hit and made the song world-famous." ;
+        ont:place           <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "In 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Fogerty's older brother Tom was a guitarist and bandmate in the group that eventually became CCR." ;
+        ont:person   <http://dbpedia.org/resource/Brother_Tom> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/60/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blue Moon Swamp (1997)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/16/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty told Asylum Records to destroy the master tapes for Hoodoo sometime in the 1980s." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Deja Vu All Over Again (2004)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/26/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On June 29, 2006, he played his first headlining British concert since 1972, at the Hammersmith Apollo theater in London, as part of the European leg of the tour." ;
+        ont:place           <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Hammersmith_Apollo> , <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "concert since 1972" , "June 29 , 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For his songwriting achievements, Fogerty was honored as a Broadcast Music Incorporated Icon at the 58th annual BMI Pop Awards on May 18, 2010." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "58th" , "May 18 , 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Revival (2007)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty subsequently funded headstones for Charlie Patton, James Son Thomas, Mississippi Joe Callicott, Eugene Powell, and Lonnie Pitchford, and helped with financial arrangements for numerous others.Creedence Clearwater Revival was inducted into the Rock and Roll Hall of Fame in 1993." ;
+        ont:person          <http://dbpedia.org/resource/Eugene_Powell> , <http://dbpedia.org/resource/James_VI_and_I> , <http://dbpedia.org/resource/Charley_Patton> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The group had nine top-10 singles and eight gold albums between 1968 and 1972, and was inducted into the Rock and Roll Hall of Fame in 1993.Since CCR parted ways in 1972, Fogerty has had a successful solo career, which continues." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 1993.Since" , "in 1972" , "between 1968" , "nine" , "1972" , "eight gold" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/27/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "14 on the U.S." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "14" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty began recording Wrote a Song for Everyone in 2011, which was released on Vanguard Records on May 28, 2013, his 68th birthday." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "Everyone in 2011" , "May 28 , 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Blue Ridge Rangers Rides Again (2009)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In January 2012, Fogerty's new song \"Swamp Water\" debuted over the opening credits of the new Fox TV series The Finder." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "January 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wrote a Song for Everyone (2013)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lucile Fogerty taught second grade and was from Great Falls, Montana." ;
+        ont:person   <http://dbpedia.org/resource/Lucile_Gleason> ;
+        ont:place    <http://dbpedia.org/resource/Montana> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/29/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The album was the first issued on Fogerty's own label Fortunate Son Records, which is distributed by the Verve Forecast Records unit of Universal Music Group and also handles the Fogerty/CCR Fantasy catalogue.On October 29, 2009, Fogerty appeared at Madison Square Garden for the first night of the celebratory 25th Anniversary Rock and Roll Hall of Fame concerts." ;
+        ont:place           <http://dbpedia.org/resource/Madison_Square_Garden> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "October 29 , 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/14/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In early 1974, Fogerty released \"Comin' Down The Road\"—backed with the instrumental \"Ricochet\"." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On February 21, 2015, he was a featured artist for the National Hockey League stadium series game between the Los Angeles Kings and the San Jose Sharks at Levi's Stadium in Santa Clara, California.In October 2015, Fogerty published his autobiography, Fortunate Son (Little, Brown & Co.)." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "California.In October 2015" , "February 21 , 2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty's Factory (2020)" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/50/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They married in Elkhart, Indiana, on April 20, 1991, and had two sons (Shane and Tyler) and a daughter (Kelsy)." ;
+        ont:person          <http://dbpedia.org/resource/Shane_McMahon> ;
+        ont:place           <http://dbpedia.org/resource/Elkhart,_Indiana> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "two" , "April 20 , 1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty, Clifford, and Cook played a 45-minute set at their 20th El Cerrito high school class reunion in 1983, and Fogerty and Clifford were reunited again for a brief set at their 25th class reunion." ;
+        ont:person          <http://dbpedia.org/resource/William_Kingdon_Clifford> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "25th class reunion" , "reunion in 1983" , "20th" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In September 2017, Fogerty signed a new recording contract with BMG Rights Management, which will cover an upcoming album and his solo catalogue.On June 25, 2019, The New York Times Magazine listed John Fogerty among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire.In November 2019, Fogerty appeared on Public Broadcasting Station pledge week with \"John Fogerty: My 50 Year Trip\", a taped performance from Red Rocks Amphitheater, Colorado." ;
+        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:place           <http://dbpedia.org/resource/Colorado> , <http://dbpedia.org/resource/Red_Rocks_Amphitheatre> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "November 2019" , "2008" , "50 Year" , "September 2017" , "June 25 , 2019" .
 
 <http://w3id.org/polifonia/pilot/meetups/170021/21/11>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Fogerty traveled to Mississippi in 1990 for inspiration, and visited the gravesite of blues legend Robert Johnson." ;
         ont:person          <http://dbpedia.org/resource/Robert_Johnson> ;
-        ont:place           "http://dbpedia.org/resource/Mississippi" ;
+        ont:place           <http://dbpedia.org/resource/Mississippi> ;
         ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
         ont:timeExpression  "in 1990" .
 
-<http://w3id.org/polifonia/pilot/meetups/170021/0/0>
+<http://w3id.org/polifonia/pilot/meetups/170021/35/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/John_Cameron_of_Lochiel> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "While on lockdown during the pandemic in early 2020, Fogerty, accompanied by sons Shane and Tyler and daughter Kelsy, began releasing performance videos of previously released originals and covers." ;
+        ont:person          <http://dbpedia.org/resource/Shane_McMahon> , <http://dbpedia.org/resource/Tyler_Fullington> ;
         ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
-        ont:timeExpression  "May 28 , 1945" .
+        ont:timeExpression  "2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/52/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty participated in the Vote for Change tour in support of John Kerry's 2004 presidential bid against George W. Bush." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/John_Kerry> , <http://dbpedia.org/resource/George_W._Bush> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Bordowitz, Hank (2007)." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Aside from a guest appearance at the Palomino and performance at the 1986 Rock and Roll Hall of Fame induction ceremony, this was the first time Fogerty had performed any Creedence Clearwater Revival songs for a large audience since 1972." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1986" , "audience since 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/53/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During an episode of his radio show, Limbaugh expressed his love of Fogerty's music, saying: \"I love Creedence." ;
+        ont:person   <http://dbpedia.org/resource/Rush_Limbaugh> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/0/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "72)." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "72" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/19>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the induction speech, Springsteen said, \"As a songwriter, only a few did as much in three minutes [as John Fogerty]." ;
+        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in three" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Performers at the June 2019 Red Rocks Amphitheater show were:" ;
+        ont:place           <http://dbpedia.org/resource/Red_Rocks_Amphitheatre> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "June 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty, John; McDonough, Jimmy (2015)." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2015" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The two other group members, bassist Cook and drummer Clifford, wanted a greater role in the band's future." ;
+        ont:person          <http://dbpedia.org/resource/William_Kingdon_Clifford> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Despite the solo nature of the recordings, however, Fogerty elected to credit the album to The Blue Ridge Rangers—a band of which he was the only member.The eponymous The Blue Ridge Rangers was released in 1973; it spun off the top-20 hit \"Jambalaya\", as well as a lesser hit in \"Hearts of Stone\"." ;
+        ont:place           <http://dbpedia.org/resource/Blue_Ridge_Mountains> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/27/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Along with these rock icons and his regular touring band, he played his 1973 single \"Comin' Down The Road\", leading into Lewis and Richard's performances of \"Great Balls of Fire\" and \"Good Golly Miss Molly\", respectively." ;
+        ont:place           <http://dbpedia.org/resource/Isle_of_Lewis> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/31/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On November 17, 2011, Fogerty performed on the Late Show with David Letterman." ;
+        ont:person          <http://dbpedia.org/resource/David_Letterman> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "November 17 , 2011" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/38/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "John Fogerty - vocals, guitar, harmonica" ;
+        ont:person   <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
 
 <http://w3id.org/polifonia/pilot/meetups/170021/19/6>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After losing in the Ninth Circuit Court of Appeals, Fogerty won his case in the U.S. Supreme Court, which ruled that a trial court has discretion in awarding fees to defendants or plaintiffs.On May 31, 1985, Fogerty filmed a one-hour music and interview special for Showtime called John Fogerty's All-Stars." ;
         ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
         ont:timeExpression  "May 31 , 1985" .
 
+<http://w3id.org/polifonia/pilot/meetups/170021/23/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The album was much more successful than Zombie and won the Grammy for best rock album in 1997." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "album in 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/15/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sales were slim and legal problems delayed a follow-up, though it yielded \"Rockin' All Over the World\", a No." ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/39/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Shane Fogerty - guitar, vocals" ;
+        ont:person   <http://dbpedia.org/resource/Shane_McMahon> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/24/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On the album, Fogerty squeezed ten songs into only 34 minutes." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "34" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The album received poor reviews, but was a commercial success, peaking at number 12 and achieving gold-record status." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "12" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/29/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The show aired as a four-hour special on HBO on November 29, 2009.On November 3, 2009, Fogerty released the Royal Albert Hall DVD entitled Comin' Down The Road, named after his 1973 single, which he performed at this concert." ;
+        ont:place           <http://dbpedia.org/resource/Royal_Albert_Hall> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2009.On November 3" , "1973" , "November 29" , "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/50/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "All three of his youngest children appear in his YouTube channel videos.Fogerty has a granddaughter who has also appeared in online videos with him." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/25/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The first album released under the new Fantasy contract was The Long Road Home (November 2005), a compilation CD combining his CCR hits with solo material." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "November 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/14>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Zion Missionary Baptist Church cemetery, Fogerty met Skip Henderson, a New Jersey vintage guitar dealer who had formed a nonprofit corporation, the Mt." ;
+        ont:person   <http://dbpedia.org/resource/Skip_Henderson> ;
+        ont:place    <http://dbpedia.org/resource/New_Jersey> , <http://dbpedia.org/resource/Mount_Zion> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Cameron Fogerty (born May 28, 1945) is an American musician, singer, and songwriter." ;
+        ont:person          <http://dbpedia.org/resource/John_Cameron_of_Lochiel> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "May 28 , 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/35/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A 12-track album edition featuring additional lockdown performances followed on November 20.Fogerty performed backing vocals on \"Scream and Shout,\" a single by his sons' band Hearty Har, released October 19, 2020.On January 6, 2021, Fogerty released \"Weeping in the Promised Land,\" a gospel-styled single, featuring sociopolitical commentary on Black Lives Matter, the COVID-19 pandemic, and Donald Trump." ;
+        ont:person          <http://dbpedia.org/resource/Donald_Trump> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2021" , "2020.On January 6" , "November 20.Fogerty" , "October 19" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/27/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Introducing \"Who'll Stop the Rain\", Fogerty said he did not perform it at Woodstock as rumored, but wrote the song inspired by the event.Revival was released October 2, 2007." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "October 2 , 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/19/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Zanz Kant Danz\" was about a pig that cannot dance, but would \"steal your money\"." ;
+        ont:person   <http://dbpedia.org/resource/Immanuel_Kant> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/68/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 978-1556526619." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "ISBN 978-1556526619" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "John Fogerty has mentioned that the darkest moments in his life were when his brother took the record company's side in their royalties dispute, and the fact that when his brother died, the two of them were barely speaking to each other." ;
+        ont:person          <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/53/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "But I love John Fogerty." ;
+        ont:person   <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/28/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was the last concert on his 2008 European tour." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "2008" .
+
 <http://w3id.org/polifonia/pilot/meetups/170021/2/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty was born in Berkeley, California, and grew up in El Cerrito, California, the third of five boys born to Galen Robert and Edith Lucile Fogerty." ;
         ont:person          <http://dbpedia.org/resource/Galen> , <http://dbpedia.org/resource/Lucile_Gleason> ;
-        ont:place           "http://dbpedia.org/resource/Berkeley,_California" , "http://dbpedia.org/resource/El_Cerrito,_California" ;
+        ont:place           <http://dbpedia.org/resource/El_Cerrito,_California> , <http://dbpedia.org/resource/Berkeley,_California> ;
         ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
         ont:timeExpression  "third of five" .
 
+<http://w3id.org/polifonia/pilot/meetups/170021/69/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 978-0316244572." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "ISBN 978-0316244572" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/29/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The album includes a duet with Bruce Springsteen on the 1960 Everly Brothers classic \"When Will I Be Loved?\"." ;
+        ont:person          <http://dbpedia.org/resource/Bruce_Springsteen> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/14/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "79." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "79" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty married Martha Paiz in 1965 and had three children." ;
+        ont:person          <http://dbpedia.org/resource/Martha> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "three" , "in 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/19/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The band included Albert Lee, Booker T. Jones, Duck Dunn, Steve Douglas, and Prairie Prince." ;
+        ont:person   <http://dbpedia.org/resource/Booker_T._Jones> , <http://dbpedia.org/resource/Prairie_Prince> , <http://dbpedia.org/resource/Albert_Lee> , <http://dbpedia.org/resource/Steve_Douglas_(saxophonist)> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1964, the band signed with Fantasy Records, which without the band's knowledge or approval, changed the band's name from the Blue Velvets to The Golliwogs." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "In 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/15/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Status Quo played it at the opening of the 1985 Live Aid concert." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty received his draft notice for military service during the Vietnam War in 1966." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty spent summer vacations at Putah Creek, near Winters, California, which became the subject of the CCR song \"Green River\".While in junior high school in 1959, Fogerty formed a cover band with bassist Stu Cook and drummer Doug Clifford called the Blue Velvets." ;
+        ont:person          <http://dbpedia.org/resource/Stu_Cook> , <http://dbpedia.org/resource/Doug_Clifford> ;
+        ont:place           <http://dbpedia.org/resource/Winters,_California> , <http://dbpedia.org/resource/Putah_Creek> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "school in 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The follow-up album to Centerfield was Eye of the Zombie in 1986, but it was significantly less successful than its predecessor." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "in 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "== Creedence Clearwater Revival (1968–1972) ==" ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1968–1972" .
+
 <http://w3id.org/polifonia/pilot/meetups/170021/21/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fogerty played CCR material again at a concert in Washington, D.C., for Vietnam veterans that took place on July 4, 1987." ;
         ont:person          <http://dbpedia.org/resource/George_Washington> ;
-        ont:place           "http://dbpedia.org/resource/Washington,_D.C." , "http://dbpedia.org/resource/Vietnam" ;
+        ont:place           <http://dbpedia.org/resource/Washington,_D.C.> , <http://dbpedia.org/resource/Vietnam> ;
         ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
         ont:timeExpression  "July 4 , 1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/53/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Despite his personal views, Fogerty has attracted high-profile conservative fans, including Bush, Donald Trump, and Rush Limbaugh." ;
+        ont:person   <http://dbpedia.org/resource/George_W._Bush> , <http://dbpedia.org/resource/Rush_Limbaugh> , <http://dbpedia.org/resource/Donald_Trump> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After Fogerty's military service, the Golliwogs resumed playing, releasing an album in late 1967." ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/26/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During that leg, he also performed in Sundsvall, Sweden, where 25,000 people came to see him perform at the town square." ;
+        ont:place           <http://dbpedia.org/resource/Sundsvall> , <http://dbpedia.org/resource/Sweden> ;
+        ont:subject         <http://dbpedia.org/resource/John_Fogerty> ;
+        ont:timeExpression  "25,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/170021/21/17>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Fogerty refused to perform with his former bandmates and fellow inductees Stu Cook and Doug Clifford during the musical portion of the induction ceremony." ;
+        ont:person   <http://dbpedia.org/resource/Doug_Clifford> , <http://dbpedia.org/resource/Stu_Cook> ;
+        ont:subject  <http://dbpedia.org/resource/John_Fogerty> .

@@ -6,86 +6,1371 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/100273/45/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:place           "http://dbpedia.org/resource/Colorado" ;
-        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:timeExpression  "2016" , "2020.On April 16" .
-
-<http://w3id.org/polifonia/pilot/meetups/100273/44/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:place           "http://dbpedia.org/resource/Robeson_County,_North_Carolina" ;
-        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:timeExpression  "In 2006" , "1928 recording" .
-
-<http://w3id.org/polifonia/pilot/meetups/100273/6/9>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Billy_Wilder> , <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:place           "http://dbpedia.org/resource/Austria" , "http://dbpedia.org/resource/East_Coast_of_the_United_States" , "http://dbpedia.org/resource/Vienna" ;
-        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:timeExpression  "By 1922" , "1,000,000" , "28" , "1926" .
-
-<http://w3id.org/polifonia/pilot/meetups/100273/11/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Vicente_Padilla> ;
-        ont:place           "http://dbpedia.org/resource/Valencian_Community" ;
-        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:timeExpression  "March 30 , 1926" , "for 11" .
-
 <http://w3id.org/polifonia/pilot/meetups/100273/44/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The song was recorded on March 1, 1928, in New York and released as Victor 35912-A.In 1998, the 1920 Paul Whiteman recording of \"Whispering\" was inducted in the Grammy Hall of Fame.Paul Whiteman's 1927 recording of \"Rhapsody in Blue\", the \"electrical\" version, was inducted in the Grammy Hall of Fame in 1974.He was inducted in the Big Band and Jazz Hall of Fame in 1993." ;
         ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
         ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
         ont:timeExpression  "in 1993" , "1927 recording" , "in 1974.He" , "1998" , "March 1 , 1928" , "1920" .
 
-<http://w3id.org/polifonia/pilot/meetups/100273/54/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:place           "http://dbpedia.org/resource/India" , "http://dbpedia.org/resource/Bibo,_New_Mexico" ;
-        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:timeExpression  "for 5" , "1898" , "1" , "'Song" , "1921" .
+<http://w3id.org/polifonia/pilot/meetups/100273/36/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Herb Alpert and Al Hirt were influenced by the Paul Whiteman Orchestra, particularly the solo work of trumpeter Henry Busse, especially his solo on \"Rhapsody in Blue\"." ;
+        ont:person   <http://dbpedia.org/resource/Henry_Busse> , <http://dbpedia.org/resource/Al_Hirt> , <http://dbpedia.org/resource/Herb_Alpert> , <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
 
-<http://w3id.org/polifonia/pilot/meetups/100273/45/0>
+<http://w3id.org/polifonia/pilot/meetups/100273/68/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Rhapsody in Blue\", 1924, acoustical version, arranged by Ferde Grofé, with George Gershwin on piano" ;
         ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
-        ont:place           "http://dbpedia.org/resource/The_Alexander" , "http://dbpedia.org/resource/Hollywood" , "http://dbpedia.org/resource/Hollywood_Boulevard" ;
         ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:timeExpression  "in 2003" , "at 1601" , "at 6157" , "June 1924" , "two" .
+        ont:timeExpression  "1924" .
 
-<http://w3id.org/polifonia/pilot/meetups/100273/6/5>
+<http://w3id.org/polifonia/pilot/meetups/100273/13/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman also appeared as the baby in Nertz (1929), the bandleader in Thanks a Million (1935), as himself in Strike Up the Band (1940), in the Paramount Pictures short The Lambertville Story (1949), and the revue musical King of Jazz (1930)." ;
+        ont:place           <http://dbpedia.org/resource/Lambertville,_New_Jersey> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1930" , "1935" , "1949" , "1929" , "1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/45/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The second one was the song \"Whispering\", which was listed in 2020.On April 16, 2016, Paul Whiteman was inducted into the Colorado Music Hall of Fame." ;
         ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:place           "http://dbpedia.org/resource/Ambassador_Hotel_(Los_Angeles)" , "http://dbpedia.org/resource/Atlantic_City,_New_Jersey" ;
+        ont:place           <http://dbpedia.org/resource/Colorado> ;
         ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:timeExpression  "October 28 , 1920" , "August 9" , "five" .
+        ont:timeExpression  "2020.On April 16" , "2016" .
 
-<http://w3id.org/polifonia/pilot/meetups/100273/41/1>
+<http://w3id.org/polifonia/pilot/meetups/100273/69/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Irving_Kaufman> ;
-        ont:place           "http://dbpedia.org/resource/Colonial_Club" ;
+        ont:excerpt         "\"When the One You Love Loves You\", 1924, composed by Paul Whiteman" ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
         ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:timeExpression  "in 1927" .
+        ont:timeExpression  "1924" , "One" .
 
-<http://w3id.org/polifonia/pilot/meetups/100273/105/0>
+<http://w3id.org/polifonia/pilot/meetups/100273/22/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Paul Whiteman Presents." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/86/2>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Johnny_Mercer> , <http://dbpedia.org/resource/Jack_Teagarden> ;
-        ont:place           "http://dbpedia.org/resource/Harlem" ;
+        ont:excerpt         "Crosby would have 41 such hits during his career." ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
         ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:timeExpression  "1934" .
+        ont:timeExpression  "41" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/31/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Thursdays at 9 until July, then Wednesdays at 9:30." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "at 9:30" , "at 9" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman composed the standard \"Wonderful One\" in 1922 with Ferde Grofé and Dorothy Terris (also known as Theodora Morse), based on a theme by film director Marshall Neilan." ;
+        ont:person          <http://dbpedia.org/resource/Marshall_Neilan> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "One" , "in 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/23/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sundays at 6." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "at 6" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/40/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman recorded the song on August 11, 1927, and released it as Victor 21119." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "Victor 21119" , "August 11 , 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On January 4, 1928, Whiteman and his troupe starred in a nationwide NBC radio broadcast sponsored by Dodge Brothers Automobile Co. and known as The Victory Hour (The program introduced the new Dodge \"Victory Six\" automobile)." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "January 4 , 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/47/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It sold nearly two million copies by 1921, and was awarded gold disc status." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "two" , "by 1921" , "million" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"I've Waited So Long\" was composed with Irving Bibo and Howard Johnson and copyrighted in 1920." ;
+        ont:place           <http://dbpedia.org/resource/Bibo,_New_Mexico> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "in 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "30m, Tuesdays at 8, then Fridays at 10." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "at 8" , "30m" , "at 10" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/14>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Old Gold Presents Paul Whiteman and His Orchestra was an hour-long show on Tuesday nights over CBS from station WABC in New York." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "30m, Fridays at 10, then Mondays at 9:30." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "30m" , "at 9:30" , "at 10" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Charlie Chaplin, Douglas Fairbanks, John Barrymore, and several other Hollywood stars were featured." ;
+        ont:person   <http://dbpedia.org/resource/Douglas_Fairbanks> , <http://dbpedia.org/resource/Charlie_Chaplin> , <http://dbpedia.org/resource/John_Barrymore> ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/26/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Paul Whiteman Hour." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/11/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1933, Whiteman had a No." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "In 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman wrote more than 3000 arrangements.For more than 30 years Whiteman, referred to as \"Pops\", sought and encouraged promising musicians, vocalists, composers, arrangers, and entertainers." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "than 30" , "than 3000" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/27/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Paul Whiteman Record Program." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "45m." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "45m" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/80/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Washboard Blues\", 1927, with Hoagy Carmichael on vocals and piano" ;
+        ont:person          <http://dbpedia.org/resource/Hoagy_Carmichael> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/28/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Whiteman's orchestra with John Slagle, George Fenneman, etc." ;
+        ont:person   <http://dbpedia.org/resource/John_Slagle> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/81/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Rhapsody in Blue\", 1927, electrical version, Grammy Hall of Fame inductee" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman led a usually large ensemble and explored many styles of music, such as blending symphonic music and jazz, as in his debut of Rhapsody in Blue by George Gershwin.Whiteman recorded many jazz and pop standards during his career, including \"Wang Wang Blues\", \"Mississippi Mud\", \"Rhapsody in Blue\", \"Wonderful One\", \"Hot Lips (He's Got Hot Lips When He Plays Jazz)\", \"Mississippi Suite\", \"Grand Canyon Suite\", and \"Trav'lin' Light\"." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/29/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Paul Whiteman Presents." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"My Mammy\", 1921, #1 for 5 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1921" , "for 5" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/31/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The show was seen for an hour the first two years, then as a half-hour segment on Saturday evenings." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/82/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Chiquita\", #36 hit of 1928" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "36 hit" , "of 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/108/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "23 on the pop singles chart in 1942; V-Disc No." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "chart in 1942" , "23" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/38/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"(My) Wonderful One\" was recorded by Gertrude Moody, Edward Miller, Martha Pryor, Mel Torme, Doris Day, Woody Herman, Helen Moretti, John McCormack; it was released as Victor 961." ;
+        ont:person          <http://dbpedia.org/resource/Mel_Tormé> , <http://dbpedia.org/resource/Martha> , <http://dbpedia.org/resource/Terrelle_Pryor> , <http://dbpedia.org/resource/Richard_Clement_Moody> , <http://dbpedia.org/resource/Woody_Herman> , <http://dbpedia.org/resource/Gertrude_Stein> , <http://dbpedia.org/resource/John_W._McCormack> , <http://dbpedia.org/resource/Doris_Day> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "Victor 961" , "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/91/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dinah Shore recorded this song in 1944, which became a hit." ;
+        ont:person          <http://dbpedia.org/resource/Dinah_Shore> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "song in 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Cherie\", 1921, #1 for 6 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1921" , "for 6" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/83/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"From Monday On\", 1928, with Bing Crosby, the Rhythm Boys, and Jack Fulton on vocals and Bix Beiderbecke on cornet, #14 on Billboard" ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> , <http://dbpedia.org/resource/Bix_Beiderbecke> , <http://dbpedia.org/resource/Jack_Fulton> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "14" , "1928" .
 
 <http://w3id.org/polifonia/pilot/meetups/100273/39/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Organist Jesse Crawford recorded the song on October 4–5, 1926, in Chicago, Illinois and released it as a 78 on Victor Records, 20363." ;
         ont:person          <http://dbpedia.org/resource/Jesse_Crawford> ;
-        ont:place           "http://dbpedia.org/resource/Illinois" , "http://dbpedia.org/resource/Chicago" ;
+        ont:place           <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Illinois> ;
         ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
         ont:timeExpression  "78" , "20363" , "October 4–5 , 1926" .
 
+<http://w3id.org/polifonia/pilot/meetups/100273/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "December 31, 1937 – December 20, 1939, CBS." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "December 31 , 1937" , "December 20 , 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Say It With Music\", 1921, #1 for 5 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1921" , "for 5" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/84/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Mississippi Mud\", 1928, with Bing Crosby and Bix Beiderbecke, #6 on Billboard" ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> , <http://dbpedia.org/resource/Bix_Beiderbecke> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1928" , "6" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "November 9–December 28, 1939, Mutual." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1939" , "November 9–December 28" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Grieving For You – Feather Your Nest\", #26 hit of 1921" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "of 1921" , "26 hit" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/85/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Metropolis: A Blue Fantasy\", 1928, composed by Ferde Grofé, with Bix Beiderbecke on cornet" ;
+        ont:person          <http://dbpedia.org/resource/Bix_Beiderbecke> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/100/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Rise 'N' Shine\", 1932, featuring Ramona Davies and her Grand Piano" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/11/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Another notable Capitol record he made is the 1942 \"Trav'lin Light\" featuring Billie Holiday (billed as \"Lady Day\", due to her being under contract with another label)." ;
+        ont:person          <http://dbpedia.org/resource/Billie_Holiday> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "June 6–August 29, 1943, NBC." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "June 6–August 29" , "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Play that 'Song of India' Again\", 1921, #1 for 5 weeks, music adapted by Paul Whiteman from the Chanson Indoue theme by Nikolai Rimski-Korsakov from the opera Sadko (1898) with lyrics by Leo Wood and Irving Bibo" ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:place           <http://dbpedia.org/resource/India> , <http://dbpedia.org/resource/Bibo,_New_Mexico> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for 5" , "1898" , "1" , "'Song" , "1921" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/86/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Ol' Man River\", 1928, first, fast version, with Bing Crosby on vocals, #1 for 1 week." ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1 week" , "1" , "1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/101/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"All of Me\", 1932, #1 for 3 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for 3" , "1" , "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/87/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Ol' Man River\", 1928, second, slow version, with Paul Robeson on vocals, Grammy Hall of Fame inductee" ;
+        ont:place           <http://dbpedia.org/resource/Robeson_County,_North_Carolina> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "December 5, 1943 – April 28, 1946, Blue/ABC." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "December 5 , 1943" , "April 28 , 1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Bright Eyes\", the #13 hit of 1921" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "of 1921" , "13 hit" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/40/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Fletcher Henderson Orchestra first recorded \"Whiteman Stomp\" on May 11, 1927, and released it as Columbia 1059-D." ;
+        ont:person          <http://dbpedia.org/resource/Fletcher_Henderson> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "Columbia 1059-D" , "May 11 , 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After World War I, he formed the Paul Whiteman Orchestra.That year he led a popular dance band in the city." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/102/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Willow Weep for Me\", 1933, #2 chart hit" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1933" , "2 chart hit" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "September 5–November 14, 1944, Blue Network, 30m, Tuesdays at 11:30." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "at 11:30" , "September 5–November 14" , "30m" , "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/0/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He experienced a revival and had a comeback in the 1950s with his own network television series, Paul Whiteman's Goodyear Revue, which ran for three seasons on ABC." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for three" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Hot Lips (He's Got Hot Lips When He Plays Jazz)\", 1922, #1 for 6 weeks, featured in the motion picture The Color Purple (1985), directed by Steven Spielberg" ;
+        ont:person          <http://dbpedia.org/resource/Steven_Spielberg> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1985" , "1922" , "for 6" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He returned to RCA Victor between September 1931 and March 1937." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "September 1931" , "March 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/103/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"It's Only a Paper Moon\", 1933, with Peggy Healy on vocals." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/33/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After selling the farm to agriculturalist Lloyd Wescott, Whiteman moved to New Hope, Pennsylvania, for his remaining years." ;
+        ont:place    <http://dbpedia.org/resource/New_Hope,_Pennsylvania> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/1/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "[...] Many of his recordings (particularly those with Beiderbecke) have been reissued numerous times and are more rewarding than his detractors would lead one to believe." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "January 21 – September 23, 1946, ABC." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "September 23 , 1946" , "January 21" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/38/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On the sheet music published in 1922 by Leo Feist it is described as a \"Waltz Song\" and \"Paul Whiteman's Sensational Waltz Hit\" and is dedicated \"To Julie\"." ;
+        ont:person          <http://dbpedia.org/resource/Leo_Feist> , <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "in 1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Do It Again\", 1922, #1 for 2 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for 2" , "1" , "1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/89/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Among My Souvenirs\", 1928, #1 for 4 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for 4" , "1" , "1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/42/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Paul Whiteman Orchestra recorded \"My Fantasy\" with Joan Edwards on vocals in 1939 and released it as a 78 single on Decca Records." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "in 1939" , "78" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/104/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"You're the Top\", #21 hit of 1934" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "of 1934" , "21 hit" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"...The reaction to Paul Whiteman's grand radio plug for \"Among My Souvenirs\"…was a flock of orders by wire from dealers the day following the Dodge Brothers Victory Hour broadcast." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "September 29–October 27, 1946, ABC." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "September 29–October 27" , "1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Three O'Clock in the Morning\", 1922, #1 for 8 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "Three" , "for 8" , "1" , "1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 record of 1926.Red McKenzie, leader of the Mound City Blue Blowers, and cabaret singer Ramona Davies (billed as \"Ramona and her Grand Piano\") joined the Whiteman group in 1932." ;
+        ont:person          <http://dbpedia.org/resource/Red_McKenzie> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "of 1926.Red" , "1 record" , "group in 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/9/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Eddie Condon criticized him for trying to \"make a lady\" out of jazz." ;
+        ont:person   <http://dbpedia.org/resource/Eddie_Condon> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/105/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Fare-Thee-Well to Harlem\", 1934, with vocals by Johnny Mercer and Jack Teagarden" ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Mercer> , <http://dbpedia.org/resource/Jack_Teagarden> ;
+        ont:place           <http://dbpedia.org/resource/Harlem> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/35/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Hot Lips\" was recorded by Ted Lewis and His Jazz Band, Horace Heidt and His Brigadiers Orchestra (1937), Specht's Jazz Outfit, the Cotton Pickers (1922), and Django Reinhardt Et Le Quintette Du Hot Club De France." ;
+        ont:person          <http://dbpedia.org/resource/Horace> , <http://dbpedia.org/resource/Edward_M._Lewis> , <http://dbpedia.org/resource/Django_Reinhardt> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1937" , "1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/20/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Chesterfield Time, with Joan Edwards, Deems Taylor (musical commentary) and announcer Paul Douglas." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Douglas> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "June 30, 1947 – June 25, 1948, ABC." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "June 25 , 1948" , "June 30 , 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Stumbling\", 1922, #1 for 6 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1922" , "for 6" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/106/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Wagon Wheels\", 1934" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "September 29, 1947 – May 23, 1948, ABC." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "September 29 , 1947" , "May 23 , 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Paul Samuel 'Pops' Whiteman (March 28, 1890 – December 29, 1967) was an American bandleader, composer, orchestral director, and violist.As the leader of one of the most popular dance bands in the United States during the 1920s and early 1930s, Whiteman produced recordings that were immensely successful, and press notices often referred to him as the \"King of Jazz\"." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1930s" , "leader of one" , "March 28 , 1890" , "1920s" , "December 29 , 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/107/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"My Fantasy\", 1939, Paul Whiteman co-wrote the song, an adaptation by Paul Whiteman of the Polovtsian Dances theme from the opera Prince Igor by Alexander Borodin, credited to \"Paul Whiteman/Leo Edwards/Jack Meskill\"." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> , <http://dbpedia.org/resource/Edward_Edson_Lee> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/22/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Summer substitute for Edgar Bergen." ;
+        ont:place    <http://dbpedia.org/resource/Bergen> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "June 27 – November 7, 1950, ABC." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "November 7 , 1950" , "June 27" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/31/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Paul Whiteman Varieties.In the 1940s and 1950s, after he had disbanded his orchestra, Whiteman worked as a music director for the ABC Radio Network." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1950s" , "1940s" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/108/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Trav'lin' Light\", 1942, with Billie Holiday on vocals; no." ;
+        ont:person          <http://dbpedia.org/resource/Billie_Holiday> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/19/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Near the end of the run Whiteman introduced comedian Judy Canova, who inherited timeslot and sponsor in the Woodbury Rippling Rhythm Revue." ;
+        ont:person   <http://dbpedia.org/resource/Judy_Canova> ;
+        ont:place    <http://dbpedia.org/resource/Woodbury,_New_Jersey> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/38/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The songwriting credit is assigned as music composed by Paul Whiteman, Ferde Grofé, and Marshall Neilan, with lyrics by Dorothy Terriss." ;
+        ont:person   <http://dbpedia.org/resource/Marshall_Neilan> , <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/6/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Whiteman liked young Wilder enough, that he took him with the band to Berlin where Wilder was able to make more connections in the entertainment field, leading him to become a screenwriter and director, eventually ending up in Hollywood." ;
+        ont:place    <http://dbpedia.org/resource/Hollywood> , <http://dbpedia.org/resource/Berlin> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/23/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Paul Whiteman's Radio Hall of Fame." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In his first five recordings sessions for Victor, August 9 – October 28, 1920, he used the name \"Paul Whiteman and His Ambassador Orchestra\", presumably because he had been playing at the Ambassador Hotel in Atlantic City." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:place           <http://dbpedia.org/resource/Ambassador_Hotel_(Los_Angeles)> , <http://dbpedia.org/resource/Atlantic_City,_New_Jersey> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "October 28 , 1920" , "August 9" , "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/16/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Allied Paints (1931), Pontiac (1932)." ;
+        ont:place           <http://dbpedia.org/resource/Allies_of_World_War_II> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1931" , "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Whiteman Hour had its first broadcast on February 5, 1929 and continued until May 6, 1930." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "May 6 , 1930" , "February 5 , 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Whiteman was born in Denver, Colorado." ;
+        ont:place    <http://dbpedia.org/resource/Colorado> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/26/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Extended until November 17, 1947, as a 30m show, The Paul Whiteman Program, various days and times." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "30m show" , "November 17 , 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/11/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2 hit on the Billboard charts with Ann Ronell's \"Willow Weep for Me\".In 1942, Whiteman began recording for Capitol Records, co-founded by songwriters Buddy DeSylva and Johnny Mercer and music store owner Glenn Wallichs." ;
+        ont:person          <http://dbpedia.org/resource/Ann_Ronell> , <http://dbpedia.org/resource/Johnny_Mercer> , <http://dbpedia.org/resource/Buddy_DeSylva> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "2 hit" , "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1924 he commissioned George Gershwin's Rhapsody in Blue, which was premiered by his orchestra with the composer at the piano." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "In 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/18/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "60m, Thursdays at 10." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "60m" , "at 10" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"All Alone\", 1925, #1 for 3 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "for 3" , "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/19/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sundays variously at 9, 9:15, and 9:45." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "at 9" , "9:45" , "9:15" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In Louis Armstrong & Paul Whiteman: Two Kings of Jazz (2004), Joshua Berrett wrote that \"Whiteman Stomp\" was credited to Fats Waller, Alphonso Trent, and Paul Whiteman." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> , <http://dbpedia.org/resource/James_Berrett> , <http://dbpedia.org/resource/Joshua> , <http://dbpedia.org/resource/Fats_Waller> , <http://dbpedia.org/resource/Louis_Armstrong> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "Two" , "2004" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman's skill at the viola resulted in a place in the Denver Symphony Orchestra by 1907, joining the San Francisco Symphony in 1914." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "by 1907" , "in 1914" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/72/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Charlestonette\", 1925, composed by Paul Whiteman with Fred Rose" ;
+        ont:person          <http://dbpedia.org/resource/Fred_Rose_(songwriter)> , <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/0/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He co-wrote the 1925 jazz classic \"Flamin' Mamie\"." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1925 jazz" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1927, the Whiteman orchestra backed Hoagy Carmichael singing and playing on a recording of \"Washboard Blues\"." ;
+        ont:person          <http://dbpedia.org/resource/Hoagy_Carmichael> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "In 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On May 31, 1924, the song \"String Beans\" was copyrighted, with words and music by Vincent Rose, Harry Owens, and Paul Whiteman.In 1927, Paul Whiteman co-wrote the song \"Wide Open Spaces\" with Byron Gay and Richard A. Whiting." ;
+        ont:person          <http://dbpedia.org/resource/Harry_Owens> , <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "May 31 , 1924" , "Paul Whiteman.In 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/73/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Birth of the Blues\", 1926, #1 for 4 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for 4" , "1926" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/31/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1952 a young Dick Clark read the commercials for sponsor Tootsie Roll." ;
+        ont:person          <http://dbpedia.org/resource/Dick_Clark> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "In 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/108/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "286A, released in October 1944 by the U.S. War Department." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "286A" , "October 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/38/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jan Garber and His Orchestra, and Ira Sullivan with Tony Castellano also recorded the song." ;
+        ont:person   <http://dbpedia.org/resource/Jan_Garber> , <http://dbpedia.org/resource/Ira_Sullivan> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Whiteman hired many of the best jazz musicians for his band, including Bix Beiderbecke, Frankie Trumbauer, Joe Venuti, Eddie Lang, Steve Brown, Mike Pingitore, Gussie Mueller, Wilbur Hall (billed by Whiteman as \"Willie Hall\"), Jack Teagarden, and Bunny Berigan." ;
+        ont:person   <http://dbpedia.org/resource/Bix_Beiderbecke> , <http://dbpedia.org/resource/Joe_Venuti> , <http://dbpedia.org/resource/Jack_Teagarden> , <http://dbpedia.org/resource/Mike_Pingitore> , <http://dbpedia.org/resource/Stephen_D._M._Brown> , <http://dbpedia.org/resource/Bunny_Berigan> , <http://dbpedia.org/resource/Frankie_Trumbauer> , <http://dbpedia.org/resource/Willie_Hall_(drummer)> , <http://dbpedia.org/resource/Eddie_Lang> , <http://dbpedia.org/resource/Gussie_Mueller> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1920, he co-wrote the music to the song \"Bonnie Lassie\" with Joseph H. Santly with lyrics by John W. Bratton." ;
+        ont:person          <http://dbpedia.org/resource/Johnny_Bratton> , <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "In 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/74/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Valencia\", no.1 for 11 weeks in 1926, the #1 record of 1926" ;
+        ont:place           <http://dbpedia.org/resource/Valencia> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "of 1926" , "1 record" , "in 1926" , "for 11" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/6/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In a time when most dance bands consisted of six to ten men, Whiteman directed a more imposing group that reached of up to 35 musicians." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "35" , "of six" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/91/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Connie Francis recorded the song in 1961; it reached #1 on the Billboard Adult Contemporary chart." ;
+        ont:person          <http://dbpedia.org/resource/Pope_Francis> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "song in 1961" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "auspices in the past, the Dodge Brothers' Victory Hour at a reputed cost of $67,000 was disappointing and not commensurate in impression with the financial outlay.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "67,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/39/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Crawford played the instrumental on a Wurlitzer organ." ;
+        ont:person   <http://dbpedia.org/resource/Jamal_Crawford> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He provided music for six Broadway shows and produced more than 600 phonograph recordings." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "than 600" , "music for six" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1920s the media referred to Whiteman as \"The King of Jazz\"." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/75/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"My Blue Heaven\", 1927, #1 for 1 week" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1 week" , "1927" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "30m." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "30m" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2006 the Paul Whiteman Orchestra's 1928 recording of Ol' Man River with Paul Robeson on vocals was inducted into the Grammy Hall of Fame." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:place           <http://dbpedia.org/resource/Robeson_County,_North_Carolina> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1928 recording" , "In 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/76/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Three Shades of Blue: Indigo/Alice Blue/Heliotrope\", 1927, composed and arranged by Ferde Grofé" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "Three" , "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/21/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "30m, Thursdays at 9:30." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "at 9:30" , "30m" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/4/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "According to Chris Popa, Whiteman was Protestant and of Scottish, Irish, English, and Dutch ancestry." ;
+        ont:place    <http://dbpedia.org/resource/Mount_Popa> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman appeared as himself in the 1945 movie Rhapsody in Blue on the life and career of George Gershwin, and also appeared in The Fabulous Dorseys in 1947, a bio-pic starring Jimmy Dorsey and Tommy Dorsey." ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Dorsey> , <http://dbpedia.org/resource/Tommy_Dorsey> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1945 movie" , "in 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was awarded two Stars on the Hollywood Walk of Fame for Recording at 6157 Hollywood Boulevard and for Radio at 1601 Vine Street in Hollywood.He had two songs listed in the National Recording Registry, the first was the June 1924 performance of Rhapsody In Blue, with George Gershwin on piano, which was listed in 2003." ;
+        ont:person          <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place           <http://dbpedia.org/resource/The_Alexander> , <http://dbpedia.org/resource/Hollywood> , <http://dbpedia.org/resource/Hollywood_Boulevard> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "in 2003" , "at 1601" , "at 6157" , "June 1924" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/77/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In a Little Spanish Town\", 1927, #1 for 8 weeks" ;
+        ont:place           <http://dbpedia.org/resource/Spanish_Town> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for 8" , "1" , "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/30/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Paul Whiteman's Teen Club." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/22/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "30m, Sundays at 8." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "at 8" , "30m" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/86/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This recording was Bing Crosby's first #1 record as a vocalist." ;
+        ont:person          <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1 record" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/78/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"I'm Coming Virginia\"" ;
+        ont:place    <http://dbpedia.org/resource/Virginia> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/31/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "30m." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "30m" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/19/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With Bob Lawrence, Johnny Hauser, Morton Downey, Durelle Alexander, songs by the King's Men, and announcer Roy Bargy." ;
+        ont:person   <http://dbpedia.org/resource/Morton_Downey> , <http://dbpedia.org/resource/Bob_Lawrence> , <http://dbpedia.org/resource/Roy_Bargy> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/23/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "60m." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "60m" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1920, he moved with his band to New York City where they began recording for the Victor Talking Machine Company." ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "In 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/40/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Fletcher Henderson recording lists the songwriters as \"Fats Waller/Jo Trent/Paul Whiteman\"." ;
+        ont:person   <http://dbpedia.org/resource/Fats_Waller> , <http://dbpedia.org/resource/Fletcher_Henderson> , <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:place    <http://dbpedia.org/resource/River_Trent> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Although giving priority to stage appearances during his peak years in the 1920s, Whiteman participated in some early prestigious radio programs." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1920s" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Whispering\", 1920, #1 for 11 weeks, the #2 hit of 1920, 1998 Grammy Hall of Fame inductee." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for 11" , "of 1920" , "2 hit" , "1920" , "1998" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/79/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Whiteman Stomp\", 1927" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/0/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also hosted the 1954 ABC talent contest show On the Boardwalk with Paul Whiteman." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "January 27, 1931 – July 1, 1932, Blue Network." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "January 27 , 1931" , "July 1 , 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"The Japanese Sandman\", 1920, #1 for 2 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1920" , "for 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/103/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Whiteman recording, Victor 24400, was used in the 1973 movie Paper Moon" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "Victor 24400" , "1973 movie" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/33/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died of a heart attack on December 29, 1967 in Doylestown, Pennsylvania, aged 77." ;
+        ont:place           <http://dbpedia.org/resource/Doylestown,_Pennsylvania> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "77" , "December 29 , 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In 1929, Whiteman agreed to take part in a weekly radio show for Old Gold Cigarettes for which he was paid $5,000 per broadcast." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "In 1929" , "5,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/1/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"In his autobiography, Duke Ellington declared, \"Paul Whiteman was known as the King of Jazz, and no one as yet has come near carrying that title with more certainty and dignity.\"" ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> , <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/25/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "30m, Mondays at 9:30." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "at 9:30" , "30m" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/38/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Wonderful One\" appeared in the following movies: The Chump Champ (1950), Little 'Tinker (1948), Red Hot Riding Hood (1943), Sufferin' Cats (1943), Design for Scandal (1941), Strike Up the Band (1940), and Westward Passage (1932)." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1948" , "1940" , "1932" , "One" , "1941" , "1950" , "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/42/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Artie Shaw also recorded the song and released it as a single on Victor Records in March 1940 with Pauline Byrns on vocals." ;
+        ont:person          <http://dbpedia.org/resource/Artie_Shaw> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "March 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "July 8, 1932 – March 27, 1933, NBC." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "March 27 , 1933" , "July 8 , 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Wang Wang Blues\", 1921, #1 for 6 weeks, on the soundtrack to the 1996 Academy Award-winning movie The English Patient" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1921" , "for 6" , "1996" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Dodge Brothers must have been satisfied with the results of the broadcast because on March 29, 1928, Whiteman took part in a second Dodge Brothers radio show over the NBC network, which was entitled Film Star Radio Hour." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "March 29 , 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/26/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "60m, Sundays at 8." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "60m" , "at 8" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The King's Jesters were with Paul Whiteman in 1931." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "in 1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "June 26, 1933 – December 26, 1935." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "June 26 , 1933" , "December 26 , 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/20/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman took over the slot vacated by Hal Kemp and two years later vacated it for the sensational new Glenn Miller orchestra." ;
+        ont:person          <http://dbpedia.org/resource/Glenn_Miller> , <http://dbpedia.org/resource/Hal_Kemp> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/27/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "60m, five a week at 3:30." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "60m" , "week at 3:30" , "five" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "January 5–December 27, 1936, Blue Network." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "January 5–December 27" , "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/28/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "30m, Mondays at 8, then at 9 after October On Stage America, for the National Guard." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "at 9" , "at 8" , "30m" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His most popular recordings include \"Whispering\", \"Valencia\", \"Three O'Clock in the Morning\", \"In a Little Spanish Town\", and \"Parade of the Wooden Soldiers\"." ;
+        ont:place           <http://dbpedia.org/resource/Spanish_Town> , <http://dbpedia.org/resource/Valencia> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "Three" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/107/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Artie Shaw recorded \"My Fantasy\" in 1940." ;
+        ont:person          <http://dbpedia.org/resource/Artie_Shaw> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/31/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the early 1960s, Whiteman played in Las Vegas before retiring." ;
+        ont:place           <http://dbpedia.org/resource/Las_Vegas> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/29/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "30m, Tuesdays at 8." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "30m" , "at 8" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/90/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Ramona\", 1928, with Bix Beiderbecke, #1 for 3 weeks" ;
+        ont:person          <http://dbpedia.org/resource/Bix_Beiderbecke> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1928" , "for 3" .
+
 <http://w3id.org/polifonia/pilot/meetups/100273/31/5>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also hosted Paul Whiteman's TV Teen Club from Philadelphia on ABC-TV from 1949 to 1954." ;
         ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:place           "http://dbpedia.org/resource/Philadelphia" ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> ;
         ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
-        ont:timeExpression  "1954" , "from 1949" .
+        ont:timeExpression  "from 1949" , "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/108/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 for 3 weeks on the Billboard Harlem Hit Parade chart; no." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for 3" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/38/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The single reached #3 on Billboard in May 1923, staying on the charts for 5 weeks." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "3" , "for 5" , "May 1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From November 3, 1920, he started using \"Paul Whiteman and His Orchestra." ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "November 3 , 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/91/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Together\", 1928, with Jack Fulton on vocals, #1 for 2 weeks." ;
+        ont:person          <http://dbpedia.org/resource/Jack_Fulton> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1928" , "for 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Will Rogers acted as MC and joined the program from the West Coast, with Al Jolson coming in from New Orleans." ;
+        ont:person   <http://dbpedia.org/resource/Al_Jolson> , <http://dbpedia.org/resource/Will_Rogers> ;
+        ont:place    <http://dbpedia.org/resource/West_Coast_of_the_United_States> , <http://dbpedia.org/resource/New_Orleans> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/39/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"How I Miss You Mammy, No One Knows\" was composed with Billy Munro and Marcel Klauber in 1920 and arranged by Marcel Klauber.The 1924 song \"You're the One\" was composed by Paul Whiteman, Ferde Grofé, and Ben Russell in 1924 and copyrighted on February 1, 1924.He co-wrote the music for the song \"Madeline, Be Mine\" in 1924 with Abel Baer with lyrics by Cliff Friend.Whiteman composed the piano work \"Dreaming The Waltz Away\" with Fred Rose in 1926." ;
+        ont:person          <http://dbpedia.org/resource/Abel> , <http://dbpedia.org/resource/Karl_Ernst_von_Baer> , <http://dbpedia.org/resource/Fred_Rose_(songwriter)> , <http://dbpedia.org/resource/Laurence_Monroe_Klauber> , <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "in 1920" , "in 1926" , "February 1 , 1924.He" , "Marcel Klauber.The 1924" , "One" , "in 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/60/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Wonderful One\", 1922, music composed by Paul Whiteman and Ferde Grofé, with lyrics by Theodora Morse, #3 on Billboard charts in 1923" ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "3" , "in 1923" , "1922" , "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/92/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"My Angel\", 1928, with Bix Beiderbecke, #1 for 6 weeks" ;
+        ont:person          <http://dbpedia.org/resource/Bix_Beiderbecke> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1928" , "for 6" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/16>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On May 7, 1930, he was paid $325,000 for 65 radio episodes.Whiteman then became far busier in radio." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "325,000" , "65 radio episodes.Whiteman" , "May 7 , 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"I'll Build a Stairway to Paradise\", 1923, #1 for 1 week" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1923" , "1 week" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/93/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Great Day\", 1929, #1 for 2 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1929" , "for 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He came from a musical family: his father, Wilburforce James Whiteman was the supervisor of music for the Denver Public Schools, a position he held for fifty years, and his mother Elfrida (née Dallison) was a former opera singer." ;
+        ont:place    <http://dbpedia.org/resource/Elfrida,_Arizona> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/70/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\", 1924, #2 (1925)" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1924" , "1925" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "October 29, 1951 – April 28, 1953, ABC." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "April 28 , 1953" , "October 29 , 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Parade of the Wooden Soldiers\", 1923, #1 for 7 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1923" , "for 7" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/94/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Body and Soul\", 1930, #1 for 6 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1930" , "for 6" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/18/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Kraft Music Hall, often with Al Jolson." ;
+        ont:person   <http://dbpedia.org/resource/Al_Jolson> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "February 4–October 20, 1954." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1954" , "February 4–October 20" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/63/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Bambalina\", 1923, #1 for 1 week" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1923" , "1 week" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/95/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Livin' in the Sunlight, Lovin' in the Moonlight\", 1930" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/19/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Paul Whiteman's Musical Varieties." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/40/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lyricist Jo Trent is the co-author." ;
+        ont:place    <http://dbpedia.org/resource/River_Trent> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/110/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Paul Whiteman was posthumously inducted into the Grammy Hall of Fame, which is a special Grammy award established in 1973 to honor recordings that are at least 25 years old and that have \"qualitative or historical significance.\"" ;
+        ont:person          <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "25" , "in 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1918, Whiteman conducted a 12-piece U.S. Navy band, the Mare Island Naval Training Camp Symphony Orchestra (NTCSO)." ;
+        ont:place           <http://dbpedia.org/resource/Mare_Island> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "In 1918" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Nuthin' But\", 1923, co-written by Ferde Grofé and Henry Busse" ;
+        ont:person          <http://dbpedia.org/resource/Henry_Busse> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/96/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"New Tiger Rag\", 1930, #10 on Billboard" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "10" , "1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/41/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Colonial Club Orchestra released a recording of the song on Brunswick Records in 1927 as 3549-A with Irving Kaufman on vocals." ;
+        ont:person          <http://dbpedia.org/resource/Irving_Kaufman> ;
+        ont:place           <http://dbpedia.org/resource/Colonial_Club> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "in 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman signed with Columbia Records in May 1928, leaving the label in September 1930 when he refused a pay cut." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "September 1930" , "May 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/31/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman's TV-Teen Club, along with Grady and Hurst's 950 Club, proved to be an inspiration for WFIL-TV's afternoon dance show called American Bandstand.He also continued to appear as guest conductor for many concerts." ;
+        ont:place           <http://dbpedia.org/resource/Grady_Memorial_Hospital> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "950" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Whiteman lived at Walking Horse Farm near the village of Rosemont in Delaware Township, Hunterdon County, New Jersey from 1938 to 1959." ;
+        ont:place           <http://dbpedia.org/resource/Rosemont,_Illinois> , <http://dbpedia.org/resource/Hunterdon_County,_New_Jersey> , <http://dbpedia.org/resource/New_Jersey> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1959" , "from 1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/65/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Linger Awhile\", 1924, #1 for 4 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1" , "1924" , "for 4" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/97/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"When It's Sleepy Time Down South\", 1931, vocal by Mildred Bailey and the King's Jesters" ;
+        ont:person          <http://dbpedia.org/resource/Mildred_Bailey> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/15/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The New York Herald Tribune commented: \"...Of Mr. Paul Whiteman's share in the pretentious program, only the best can be said." ;
+        ont:person   <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/1/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His bands included many of the era's most esteemed white musicians, and his groups handled jazz admirably as part of a larger repertoire.Critic Scott Yanow declares that Whiteman's orchestra \"did play very good jazz...His superior dance band used some of the most technically skilled musicians of the era in a versatile show that included everything from pop tunes and waltzes to semi-classical works and jazz." ;
+        ont:person   <http://dbpedia.org/resource/Scott_Yanow> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/38/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Henry Burr recorded it in 1924 and Glenn Miller and his Orchestra in 1940." ;
+        ont:person          <http://dbpedia.org/resource/Glenn_Miller> , <http://dbpedia.org/resource/Henry_Burr> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "in 1940" , "in 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/42/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The song was recorded by Charles Hart who released it as an Okeh 78 single, 4244.Whiteman also co-wrote the popular song \"My Fantasy\" with Leo Edwards and Jack Meskill, which is a musical adaptation of the Polovtsian Dances theme from the opera Prince Igor by Alexander Borodin." ;
+        ont:person          <http://dbpedia.org/resource/Edward_Edson_Lee> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "Okeh 78" , "4244.Whiteman" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/6/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By 1922, Whiteman already controlled some 28 ensembles on the East Coast and was earning over $1,000,000 a year.In 1926, Paul Whiteman was on tour in Vienna, Austria when he met and was interviewed by a young ambitious newspaper reporter named Billy Wilder who was also a fan of Whiteman's band." ;
+        ont:person          <http://dbpedia.org/resource/Billy_Wilder> , <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:place           <http://dbpedia.org/resource/Austria> , <http://dbpedia.org/resource/East_Coast_of_the_United_States> , <http://dbpedia.org/resource/Vienna> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "By 1922" , "1,000,000" , "28" , "1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/91/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The song was also recorded by Cliff \"Ukulele Ike\" Edwards (1928), Dick Haymes and Helen Forrest (1944), and Tony Pastor and His Orchestra on a V-Disc." ;
+        ont:person          <http://dbpedia.org/resource/Dick_Haymes> , <http://dbpedia.org/resource/Cliff_Edwards> , <http://dbpedia.org/resource/Tony_Pastor> , <http://dbpedia.org/resource/Helen_Forrest> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1944" , "1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"What'll I Do\", 1924, #1 for 5 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for 5" , "1924" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/98/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Grand Canyon Suite\", 1932" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/39/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The recording was also released in the UK on His Master's Voice (HMV) as B2430." ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> ;
+        ont:subject  <http://dbpedia.org/resource/Paul_Whiteman> .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His recording of José Padilla's \"Valencia\" topped the charts for 11 weeks, beginning March 30, 1926, becoming the No." ;
+        ont:person          <http://dbpedia.org/resource/Vicente_Padilla> ;
+        ont:place           <http://dbpedia.org/resource/Valencian_Community> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "for 11" , "March 30 , 1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Paul Whiteman Orchestra introduced many jazz standards in the 1920s, including \"Hot Lips\", which was in the Steven Spielberg movie The Color Purple (1985), \"Mississippi Mud\", \"From Monday On\", written by Harry Barris and sung by the Rhythm Boys featuring Bing Crosby and Irene Taylor with Bix Beiderbecke on cornet, \"Nuthin' But\", \"Grand Canyon Suite\" and \"Mississippi Suite\" composed by Ferde Grofé, \"Rhapsody in Blue\", composed by George Gershwin who played piano on the Paul Whiteman recording in 1924, \"Wonderful One\" (1923), and \"Wang Wang Blues\" (1920), covered by Glenn Miller, Duke Ellington, Benny Goodman, and Joe \"King\" Oliver's Dixie Syncopators in 1926 and many of the Big Bands." ;
+        ont:person          <http://dbpedia.org/resource/Duke_Ellington> , <http://dbpedia.org/resource/Harry_Barris> , <http://dbpedia.org/resource/Bing_Crosby> , <http://dbpedia.org/resource/Paul_Whiteman> , <http://dbpedia.org/resource/Steven_Spielberg> , <http://dbpedia.org/resource/Bix_Beiderbecke> , <http://dbpedia.org/resource/Benny_Goodman> , <http://dbpedia.org/resource/King_Oliver> , <http://dbpedia.org/resource/Glenn_Miller> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1923" , "in 1926" , "1920" , "One" , "1920s" , "in 1924" , "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Somebody Loves Me\", 1924, #1 for 5 weeks" ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1924" , "for 5" , "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/100273/20/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fridays at 8:30 until mid–July 1938, then Wednesdays at 8:30." ;
+        ont:subject         <http://dbpedia.org/resource/Paul_Whiteman> ;
+        ont:timeExpression  "1938" , "at 8:30" .

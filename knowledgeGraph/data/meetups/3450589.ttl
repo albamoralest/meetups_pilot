@@ -6,51 +6,556 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/3450589/4/2>
+<http://w3id.org/polifonia/pilot/meetups/3450589/46/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Benny_Goodman> ;
-        ont:place           "http://dbpedia.org/resource/Japan" , "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "The Gambit (Contemporary, 1958)" ;
         ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
-        ont:timeExpression  "in 1964" .
+        ont:timeExpression  "1958" .
 
-<http://w3id.org/polifonia/pilot/meetups/3450589/67/1>
+<http://w3id.org/polifonia/pilot/meetups/3450589/39/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Shorty_Rogers> ;
-        ont:place           "http://dbpedia.org/resource/Capri" ;
+        ont:excerpt         "Kessel Plays Standards (Contemporary, 1954)" ;
+        ont:person          <http://dbpedia.org/resource/Barney_Kessel> ;
         ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
-        ont:timeExpression  "2" , "Capri 1990" .
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the Black Hawk 4 (Contemporary, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "Black Hawk 4" , "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Concerto for Clarinet & Combo (Contemporary, 1957)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The World We Know (Capitol, 1967)With Barney Kessel" ;
+        ont:person          <http://dbpedia.org/resource/Barney_Kessel> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1967" .
 
 <http://w3id.org/polifonia/pilot/meetups/3450589/5/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He made another international tour in 1974, this time to South America with Carmen McRae." ;
         ont:person          <http://dbpedia.org/resource/Carmen_McRae> ;
-        ont:place           "http://dbpedia.org/resource/South_America" ;
+        ont:place           <http://dbpedia.org/resource/South_America> ;
         ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
         ont:timeExpression  "tour in 1974" .
 
-<http://w3id.org/polifonia/pilot/meetups/3450589/4/0>
+<http://w3id.org/polifonia/pilot/meetups/3450589/51/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Carmen_McRae> , <http://dbpedia.org/resource/Woody_Herman> , <http://dbpedia.org/resource/Shelly_Manne> , <http://dbpedia.org/resource/Monty_Budwig> , <http://dbpedia.org/resource/Red_Norvo> , <http://dbpedia.org/resource/Barney_Kessel> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:excerpt         "At the Black Hawk 3 (Contemporary, 1959)" ;
         ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
-        ont:timeExpression  "In 1954" .
+        ont:timeExpression  "Black Hawk 3" , "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Stan Kenton Plays for Today (Capitol, 1966)" ;
+        ont:person          <http://dbpedia.org/resource/Stan_Kenton> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/25/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Prestige, 1969)With Herb Ellis" ;
+        ont:person          <http://dbpedia.org/resource/Herb_Ellis> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Budwig played with pianist Vince Guaraldi in the 1960s, including on the pianist's album Jazz Impressions of Black Orpheus." ;
+        ont:person   <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject  <http://dbpedia.org/resource/Monty_Budwig> .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the Black Hawk 2 (Contemporary, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1959" , "Black Hawk 2" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "All Through the Night: Julie London Sings the Choicest of Cole Porter (Liberty, 1965)With Junior Mance" ;
+        ont:person          <http://dbpedia.org/resource/Junior_Mance> , <http://dbpedia.org/resource/Julie_London> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz Erotica (West Coast Jazz in Hifi) (Fantasy 1959)With Stan Kenton" ;
+        ont:person          <http://dbpedia.org/resource/Stan_Kenton> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "Fantasy 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Spring Is Here (Concord Jazz, 1981 [1992])With Vince Guaraldi" ;
+        ont:person          <http://dbpedia.org/resource/Vince_Guaraldi> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1981 [" , "1992 ]" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dig (Dobre Records DR1057, 1978)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Stan Levey Quintet (Vap 1957)With Julie London" ;
+        ont:person          <http://dbpedia.org/resource/Julie_London> , <http://dbpedia.org/resource/Stan_Levey> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "Vap 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It's the Great Pumpkin, Charlie Brown: Music from the Soundtrack (Craft Recordings, 2018)With Richie Kamuca & Bill Holman" ;
+        ont:person          <http://dbpedia.org/resource/Richie_Kamuca> , <http://dbpedia.org/resource/Bill_Holman_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "2018" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Dolphin (Concord Jazz, 1981)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1981" .
 
 <http://w3id.org/polifonia/pilot/meetups/3450589/41/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jimmy Knepper in L.A. (Discomate, 1977)With Stan Levey" ;
         ont:person          <http://dbpedia.org/resource/Stan_Levey> , <http://dbpedia.org/resource/Jimmy_Knepper> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
         ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
         ont:timeExpression  "1977" .
 
+<http://w3id.org/polifonia/pilot/meetups/3450589/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Charlie Brown Christmas (Fantasy, 1965)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Empathy (Verve, 1962) – with Shelly ManneWith Stan Getz" ;
+        ont:person          <http://dbpedia.org/resource/Shelly_West> , <http://dbpedia.org/resource/Stan_Getz> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Some Like It Hot (Contemporary, 1959)With Jimmy Knepper" ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Knepper> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From All Sides (Fantasy, 1964) – with Bola Sete" ;
+        ont:person          <http://dbpedia.org/resource/Bola_Sete> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Soft & Mellow  (Concord, 1979)With Bill Evans" ;
+        ont:person          <http://dbpedia.org/resource/Bill_Evans> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "'Round Midnight (Atco, 1963)With June Christy" ;
+        ont:person          <http://dbpedia.org/resource/June_Christy> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Budwig toured Australia with Goodman in 1973." ;
+        ont:place           <http://dbpedia.org/resource/Australia> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "in 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz Impressions of A Boy Named Charlie Brown (Fantasy, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sweet Simon (Best Recordings 1992)With Betty Carter" ;
+        ont:person          <http://dbpedia.org/resource/Betty_Carter> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "Best Recordings 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1954, Budwig moved to Los Angeles and performed and recorded under the name Monty Budwig with jazz musicians including Carmen McRae, Barney Kessel, Woody Herman, Red Norvo, and Shelly Manne." ;
+        ont:person          <http://dbpedia.org/resource/Carmen_McRae> , <http://dbpedia.org/resource/Woody_Herman> , <http://dbpedia.org/resource/Shelly_Manne> , <http://dbpedia.org/resource/Monty_Budwig> , <http://dbpedia.org/resource/Red_Norvo> , <http://dbpedia.org/resource/Barney_Kessel> ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "In 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Boy Named Charlie Brown (Fantasy, 1963)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "For All We Know (Fresh Sound 1991)With Sonny Criss" ;
+        ont:person          <http://dbpedia.org/resource/Sonny_Criss> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "Fresh Sound 1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Conte Candoli Quartet (Mode, 1957)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz Impressions of Black Orpheus (Fantasy, 1962)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Here's to My Lady (Concord, 1978)With Bob Cooper (musician)" ;
+        ont:person          <http://dbpedia.org/resource/Bob_Cooper_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wheelin' and Dealin' (Xanadu, 1978)With Conte Candoli" ;
+        ont:person          <http://dbpedia.org/resource/Conte_Candoli> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1978" , "Xanadu" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Monte Rex Budwig was born in Pender, Nebraska, on December 26, 1929." ;
+        ont:place           <http://dbpedia.org/resource/Pender,_Nebraska> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "December 26 , 1929" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He married his second wife, Arlette McCoy, in 1977." ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "in 1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rosie Sings Bing (Concord, 1978)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Stepper (Xanadu, 1977)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Everything's Coming Up Rosie (Concord, 1977)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Midnight Sun (A&M 1992)With Frank Butler" ;
+        ont:person          <http://dbpedia.org/resource/Frank_E._Butler> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "M 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Monte Rex Budwig (December 26, 1929 – March 9, 1992) was a West Coast jazz double bassist, professionally known as Monty Budwig." ;
+        ont:person          <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "December 26 , 1929" , "March 9 , 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Do-Re-Mi (Capitol, 1961) – with Bob CooperWith Rosemary Clooney" ;
+        ont:person          <http://dbpedia.org/resource/Rosemary_Clooney> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3 in Jazz (RCA, 1963)With Herb Alpert" ;
+        ont:person          <http://dbpedia.org/resource/Herb_Alpert> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "3" , "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Theme Music from \"The James Dean Story\" (World Pacific, 1956)With Gary Burton" ;
+        ont:person          <http://dbpedia.org/resource/Gary_Burton> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Finesse (Concord, 1978)With Chet Baker and Bud Shank" ;
+        ont:person          <http://dbpedia.org/resource/Chet_Baker> , <http://dbpedia.org/resource/Bud_Shank> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With Toshiko Akiyoshi" ;
+        ont:person   <http://dbpedia.org/resource/Toshiko_Akiyoshi> ;
+        ont:subject  <http://dbpedia.org/resource/Monty_Budwig> .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/4/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Budwig taught jazz bassist Scott Colley, then a teenager." ;
+        ont:person   <http://dbpedia.org/resource/Scott_Colley> ;
+        ont:subject  <http://dbpedia.org/resource/Monty_Budwig> .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/67/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2 (Capri 1990)With Shorty Rogers" ;
+        ont:person          <http://dbpedia.org/resource/Shorty_Rogers> ;
+        ont:place           <http://dbpedia.org/resource/Capri> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "Capri 1990" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/76/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sarah Vaughan with the Jimmy Rowles Quintet (Mainstream, 1974)" ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Rowles> , <http://dbpedia.org/resource/Sarah_Vaughan> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/69/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Incomparable Bola Sete (Fantasy, 1964)With Bud Shank" ;
+        ont:person          <http://dbpedia.org/resource/Bud_Shank> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/57/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Atlantic, 1966)" ;
+        ont:place           <http://dbpedia.org/resource/Atlantic_Ocean> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/75/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Breathe Easy (Galaxy, 1977)With Sarah Vaughan" ;
+        ont:person          <http://dbpedia.org/resource/Sarah_Vaughan> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died of liver cancer at home in Eagle Rock, Los Angeles, on March 9, 1992." ;
+        ont:place           <http://dbpedia.org/resource/Eagle_Rock,_Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "March 9 , 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/68/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Portrait of Shorty (RCA Victor, 1957)With Bola Sete" ;
+        ont:person          <http://dbpedia.org/resource/Bola_Sete> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/63/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2) (Pablo, 1997)With Art Pepper" ;
+        ont:person          <http://dbpedia.org/resource/Art_Pepper> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "2" , "1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/56/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Capitol, 1965)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1965" .
+
 <http://w3id.org/polifonia/pilot/meetups/3450589/74/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Supersax & L.A. Voices - The Complete Edition (CBS 1990)With Cal Tjader" ;
         ont:person          <http://dbpedia.org/resource/Cal_Tjader> ;
-        ont:place           "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> ;
         ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
         ont:timeExpression  "CBS 1990" .
 
+<http://w3id.org/polifonia/pilot/meetups/3450589/4/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also began his career as a studio musician in the 1960s, which encompassed film and television shows, with Steve Allen, Johnny Carson, Merv Griffin and Judy Garland." ;
+        ont:person   <http://dbpedia.org/resource/Johnny_Carson> , <http://dbpedia.org/resource/Judy_Garland> , <http://dbpedia.org/resource/Steve_Allen> , <http://dbpedia.org/resource/Merv_Griffin> ;
+        ont:subject  <http://dbpedia.org/resource/Monty_Budwig> .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/48/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Contemporary, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/73/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Multimedia (Galaxy Music, 1978 [1982])With Supersax" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1978 [" , "1982 ]" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/61/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "3 (Contemporary 1991)With Joe Pass" ;
+        ont:person          <http://dbpedia.org/resource/Joe_Pass> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "3" , "1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jusa Bit 'O' Blues (Capri 1989)" ;
+        ont:place           <http://dbpedia.org/resource/Capri> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "Capri 1989" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/59/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Perk Up (Concord Jazz, 1967 [1976])With Charles McPherson" ;
+        ont:person          <http://dbpedia.org/resource/Charles_McPherson_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1976 ]" , "1967 [" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/54/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Contemporary, 1962)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz Gunn (Atlantic, 1967)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/72/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On The Korner (Pablo 1994)With Ira Sullivan" ;
+        ont:person          <http://dbpedia.org/resource/Ira_Sullivan> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "Pablo 1994" .
+
 <http://w3id.org/polifonia/pilot/meetups/3450589/65/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Reminiscin (Dedicated to Monty Budwig) (Capri 1992)With Spike Robinson and Harry \"Sweets\" Edison" ;
         ont:person          <http://dbpedia.org/resource/Harry_Edison> , <http://dbpedia.org/resource/Monty_Budwig> , <http://dbpedia.org/resource/Spike_Robinson> ;
-        ont:place           "http://dbpedia.org/resource/Capri" ;
+        ont:place           <http://dbpedia.org/resource/Capri> ;
         ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
         ont:timeExpression  "Capri 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/60/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Xanadu, 1978)With Lennie Niehaus" ;
+        ont:person          <http://dbpedia.org/resource/Lennie_Niehaus> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/71/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hawthorne Nights (Pablo, 1977)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Surf Ride (Savoy, 1952-1954 [1956])With Spike Robinson" ;
+        ont:person          <http://dbpedia.org/resource/Spike_Robinson> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1956 ]" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His one recording as a leader was Dig, for Concord Records." ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "one recording" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/70/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "California Concert (Contemporary, 1985) with Shorty RogersWith Zoot Sims" ;
+        ont:person          <http://dbpedia.org/resource/Zoot_Sims> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the Black Hawk 1 (Contemporary, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1959" , "Black Hawk 1" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/44/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Capitol, 1964)With Shelly Manne" ;
+        ont:person          <http://dbpedia.org/resource/Shelly_Manne> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Budwig was part of Benny Goodman's band for performances in New York, and a tour of Japan in 1964." ;
+        ont:person          <http://dbpedia.org/resource/Benny_Goodman> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Japan> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "in 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live at Yoshi's (Pablo, 1992)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/55/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "My Fair Lady with the Un-original Cast (Capitol, 1964)" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Octet # 2 Vol." ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Shelly Manne & His Men Play Peter Gunn (Contemporary, 1959)" ;
+        ont:person          <http://dbpedia.org/resource/Shelly_Manne> ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He began playing bass during high school, and continued in military bands while he was enlisted in the Air Force for three years." ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "for three" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/5/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Arlette McCoy Budwig, a jazz pianist and teacher, died in 2013." ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "in 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/3450589/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the Black Hawk 5 (Contemporary, 1959 [1991])" ;
+        ont:subject         <http://dbpedia.org/resource/Monty_Budwig> ;
+        ont:timeExpression  "Black Hawk 5" , "1959 [" , "1991 ]" .

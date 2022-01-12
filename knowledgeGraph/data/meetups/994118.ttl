@@ -6,44 +6,424 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/994118/28/0>
+<http://w3id.org/polifonia/pilot/meetups/994118/21/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Boogaloo_Joe_Jones> ;
-        ont:place           "http://dbpedia.org/resource/Seaside,_Oregon" ;
+        ont:excerpt         "Togethering (Blue Note, 1985)With Hank Crawford" ;
+        ont:person          <http://dbpedia.org/resource/Hank_Crawford> ;
         ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
-        ont:timeExpression  "1982" .
+        ont:timeExpression  "1985" .
 
-<http://w3id.org/polifonia/pilot/meetups/994118/8/3>
+<http://w3id.org/polifonia/pilot/meetups/994118/2/1>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Washington> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" , "http://dbpedia.org/resource/Philadelphia" ;
+        ont:excerpt         "In addition, he performed very frequently with other artists, including Bill Withers on \"Just the Two of Us\", Patti LaBelle on \"The Best Is Yet to Come\" and Phyllis Hyman on \"A Sacred Kind of Love\"." ;
+        ont:person          <http://dbpedia.org/resource/Phyllis_Hyman> , <http://dbpedia.org/resource/Patti_LaBelle> , <http://dbpedia.org/resource/Bill_Withers> ;
         ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
-        ont:timeExpression  "in 1967" .
+        ont:timeExpression  "Two" .
 
-<http://w3id.org/polifonia/pilot/meetups/994118/5/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Washington> ;
-        ont:place           "http://dbpedia.org/resource/Buffalo,_New_York" , "http://dbpedia.org/resource/United_States" ;
-        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
-        ont:timeExpression  "December 12 , 1943" .
+<http://w3id.org/polifonia/pilot/meetups/994118/5/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was part of a vocal ensemble, The Teen Kings, which included Lonnie Smith." ;
+        ont:person   <http://dbpedia.org/resource/Lonnie_Smith> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
 
-<http://w3id.org/polifonia/pilot/meetups/994118/27/0>
+<http://w3id.org/polifonia/pilot/meetups/994118/20/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Masaru_Imada> , <http://dbpedia.org/resource/Lee_Morgan> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "So Many Stars (Sony, 1995)With Kenny Burrell" ;
+        ont:person          <http://dbpedia.org/resource/Kenny_Burrell> ;
         ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
         ont:timeExpression  "1995" .
 
+<http://w3id.org/polifonia/pilot/meetups/994118/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On December 17, 1999, five days after his 56th birthday, Washington collapsed while waiting in the green room after performing four songs for The Saturday Early Show, at CBS Studios in New York City." ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "four" , "five" , "56th birthday" , "December 17 , 1999" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The highlight of the album was his collaboration with soul artist Bill Withers, \"Just the Two of Us,\" a hit on radio during the spring and summer of 1981, peaking at No." ;
+        ont:person          <http://dbpedia.org/resource/Bill_Withers> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "Two" , "summer of 1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 on Billboard's R&B album chart and No." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Washington was born in Buffalo, New York, United States, on December 12, 1943." ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           <http://dbpedia.org/resource/Buffalo,_New_York> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "December 12 , 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Along with Wes Montgomery and George Benson, he is considered by many to be one of the founders of the smooth jazz genre." ;
+        ont:person          <http://dbpedia.org/resource/Wes_Montgomery> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "While his first three albums established him as a force in jazz and soul music, it was his fourth album in 1974, Mister Magic, that proved a major commercial success." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "album in 1974" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Throughout the 1970s and 1980s, Washington made some of the genre's most memorable hits, including \"Mister Magic\", \"Reed Seed\", \"Black Frost\", \"Winelight\", \"Inner City Blues\", \"Let it Flow(For Dr. J)\" and \"The Best is Yet to Come\"." ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1970s" , "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/5/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His younger brother, drummer Daryl Washington, would follow in his footsteps, he also had another younger brother named Michael Washington, who was an accomplished Gospel Music organist who mastered the Hammond B3 organ." ;
+        ont:person   <http://dbpedia.org/resource/Daryl_Washington> , <http://dbpedia.org/resource/George_Washington> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Washington's love of basketball, especially the Philadelphia 76ers, led him to dedicate the second track, \"Let It Flow\", to Julius Erving (Dr. J)." ;
+        ont:person   <http://dbpedia.org/resource/Julius_Erving> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His follow-up on Kudu in 1975, Feels So Good also made No." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "in 1975" .
+
 <http://w3id.org/polifonia/pilot/meetups/994118/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Grover Washington Jr. (December 12, 1943 – December 17, 1999) was an American jazz-funk / soul-jazz saxophonist." ;
         ont:person          <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
         ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
         ont:timeExpression  "December 12 , 1943" , "December 17 , 1999" .
 
-<http://w3id.org/polifonia/pilot/meetups/994118/13/0>
+<http://w3id.org/polifonia/pilot/meetups/994118/8/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/George_Washington> ;
-        ont:place           "http://dbpedia.org/resource/New_York_City" ;
+        ont:excerpt         "In 1970 and 1971, he appeared on Leon Spencer's first two albums on Prestige Records, together with Idris Muhammad and Melvin Sparks." ;
+        ont:person          <http://dbpedia.org/resource/Idris_Muhammad> , <http://dbpedia.org/resource/Melvin_Sparks> ;
         ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
-        ont:timeExpression  "56th birthday" , "five" , "four" , "December 17 , 1999" .
+        ont:timeExpression  "two" , "In 1970" , "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/16>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is known for bringing Kenny G to the forefront, as well as artists such as Walter Beasley, Steve Cole, Pamela Williams, Najee, Boney James and George Howard." ;
+        ont:person   <http://dbpedia.org/resource/Steve_Cole> , <http://dbpedia.org/resource/Najee> , <http://dbpedia.org/resource/Dwight_Howard> , <http://dbpedia.org/resource/Kenny_G> , <http://dbpedia.org/resource/Boney_James> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Walter_Beasley> , <http://dbpedia.org/resource/Pamela_Williams> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "All these albums included guitarist Eric Gale as a near-permanent member in Washington's arsenal." ;
+        ont:person   <http://dbpedia.org/resource/Eric_Gale> ;
+        ont:place    <http://dbpedia.org/resource/Washington_(state)> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After leaving the Army, Washington freelanced his talents around New York City, eventually landing in Philadelphia in 1967." ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/13/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is interred at West Laurel Hill Cemetery in Bala Cynwyd, Pennsylvania." ;
+        ont:place    <http://dbpedia.org/resource/West_Laurel_Hill_Cemetery> , <http://dbpedia.org/resource/Pennsylvania> , <http://dbpedia.org/resource/Cynwyd_Line> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/15>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Winelight\" was also nominated for Record of the Year and Song of the Year.In the post-Winelight era, Washington is credited for giving rise to a new batch of talent that would make its mark in the late 1980s and early 1990s." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Winelight (1980) was the album that defined everything Washington was then about, having signed for Elektra Records, part of the major Warner Music group." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/48/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Grover Washington Jr. at Legacy Recordings" ;
+        ont:person   <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/29/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Prestige, 1970)" ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the age of 8, Grover Sr. gave Jr. a saxophone." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "age of 8" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "16 on the R&B singles chart (#54, pop)." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "16" , "54" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Spark Plug (Prestige, 1971)With Leon Spencer" ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/15/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Grover Washington Jr. Middle School caters to 5-8 grade students interested in the creative and performing arts.There is a mural dedicated to Grover Washington, Jr. in Buffalo, where he grew up and attended school." ;
+        ont:person   <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/8/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A music mainstay in New York City, Cobham introduced Washington to many New York musicians." ;
+        ont:place    <http://dbpedia.org/resource/Washington_(state)> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mama Wailer (Kudu, 1971)With Melvin Sparks" ;
+        ont:person          <http://dbpedia.org/resource/Melvin_Sparks> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/40/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Prestige, 1970)" ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Just the Two of Us (Columbia, 1981)" ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "Two" , "1981" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wild Horses Rock Steady (Kudu, 1971)With Lonnie Smith" ;
+        ont:person          <http://dbpedia.org/resource/Lonnie_Smith> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The album went platinum in 1981, and also won Grammy Awards in 1982 for Best R&B Song (\"Just The Two of Us\"), and Best Jazz Fusion Performance (\"Winelight\")." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "Two" , "platinum in 1981" , "in 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Both albums were major parts of the jazz-funk movement of the mid-1970s.A string of acclaimed records brought Washington through the 1970s, culminating in the signature piece for everything he would do from then on." ;
+        ont:person          <http://dbpedia.org/resource/George_Washington> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/50/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jazz Conversations with Eric Jackson: Grover Washington Jr. from WGBH Radio Boston" ;
+        ont:person   <http://dbpedia.org/resource/Eric_M._Jackson> , <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:place    <http://dbpedia.org/resource/Boston> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Blue Moses (CTI, 1972)With Bill Withers" ;
+        ont:person          <http://dbpedia.org/resource/Bill_Withers> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Breakout (Kudu, 1971)" ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/5/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He grew up listening to the great jazzmen and big band leaders like Benny Goodman, Fletcher Henderson, and others like them." ;
+        ont:person   <http://dbpedia.org/resource/Benny_Goodman> , <http://dbpedia.org/resource/Fletcher_Henderson> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "My Dear Family (Evidence, 1990)With Randy Weston" ;
+        ont:person          <http://dbpedia.org/resource/Randy_Weston> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1990" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "What's Going On (Prestige, 1971)" ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Seaside (1982)With Boogaloo Joe Jones" ;
+        ont:person          <http://dbpedia.org/resource/Boogaloo_Joe_Jones> ;
+        ont:place           <http://dbpedia.org/resource/Seaside,_Oregon> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/23/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(Prestige, 1970)With Dexter Gordon" ;
+        ont:person          <http://dbpedia.org/resource/Dexter_Gordon> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Louisiana Slim (Prestige, 1971)With Mal Waldron" ;
+        ont:person          <http://dbpedia.org/resource/Mal_Waldron> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Giant Box (CTI, 1973)With Johnny \"Hammond\" Smith" ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tribute to Lee Morgan (NYC Music, 1995)With Masaru Imada" ;
+        ont:person          <http://dbpedia.org/resource/Masaru_Imada> , <http://dbpedia.org/resource/Lee_Morgan> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/15/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A Philadelphia middle school in the Olney section of the city is named after Washington." ;
+        ont:person   <http://dbpedia.org/resource/George_Washington> ;
+        ont:place    <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Shortly thereafter, he was drafted into the U.S. Army, where he met drummer Billy Cobham." ;
+        ont:person   <http://dbpedia.org/resource/Billy_Cobham> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dragonfly (Telarc, 1995)With Don Sebesky" ;
+        ont:person          <http://dbpedia.org/resource/Don_Sebesky> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Inspiration (Milestone, 1994)" ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He is also remembered for his take on the Dave Brubeck classic \"Take Five\", and for his 1996 version of \"Soulful Strut\"." ;
+        ont:person          <http://dbpedia.org/resource/Dave_Brubeck> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "Five" , "1996 version" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Power of Soul (Kudu, 1974)With Gerry Mulligan" ;
+        ont:person          <http://dbpedia.org/resource/Gerry_Mulligan> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Señor Blues (CTI, 1977)With Eddie Henderson" ;
+        ont:person          <http://dbpedia.org/resource/Eddie_Henderson_(musician)> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was taken to St. Luke's-Roosevelt Hospital, where he was pronounced dead at about 7:30 pm." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "7:30 pm" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/13>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2 on the Billboard Hot 100." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "Billboard Hot 100" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "10 on the pop album chart." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "10" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Let's Ska at the Ski Lodge (Downhill, 1964)With Idris Muhammad" ;
+        ont:person          <http://dbpedia.org/resource/Idris_Muhammad> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "American Classic (Elektra, 1982)With Urbie Green" ;
+        ont:person          <http://dbpedia.org/resource/Urbie_Green> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "What It Is (Prestige, 1971)With The Mark III Trio" ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The album climbed to number 1 on Billboard's R&B album chart and number 10 on Billboard's Top 40 album chart." ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1" , "10" , "40" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Washington's big break came when alto sax man Hank Crawford was unable to make a recording date with Creed Taylor's Kudu Records, and Washington took his place, even though he was a backup." ;
+        ont:person   <http://dbpedia.org/resource/George_Washington> , <http://dbpedia.org/resource/Creed_Taylor> , <http://dbpedia.org/resource/Hank_Crawford> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Help Me Make it Through the Night (Kudu, 1972)With Charles Earland" ;
+        ont:person          <http://dbpedia.org/resource/Charles_Earland> ;
+        ont:subject         <http://dbpedia.org/resource/Grover_Washington_Jr.> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/15/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A large mural of Washington, part of the Philadelphia Mural Arts Program, is just south of the intersection of Broad and Diamond streets." ;
+        ont:person   <http://dbpedia.org/resource/Eli_Broad> , <http://dbpedia.org/resource/George_Washington> ;
+        ont:place    <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .
+
+<http://w3id.org/polifonia/pilot/meetups/994118/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Washington left Buffalo and played with a Midwest group called the Four Clefs and then the Mark III Trio from Mansfield, Ohio." ;
+        ont:place    <http://dbpedia.org/resource/Ohio> , <http://dbpedia.org/resource/Midwestern_United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Grover_Washington_Jr.> .

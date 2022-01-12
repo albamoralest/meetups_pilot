@@ -6,37 +6,192 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/51033485/5/0>
+<http://w3id.org/polifonia/pilot/meetups/51033485/12/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On February 19, 2003, after a long illness, Igor Gorbachyov died." ;
         ont:person          <http://dbpedia.org/resource/Igor_Gorbachyov> ;
-        ont:place           "http://dbpedia.org/resource/Bolshoi_Theatre" ;
         ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
-        ont:timeExpression  "In 1952" .
+        ont:timeExpression  "February 19 , 2003" .
 
-<http://w3id.org/polifonia/pilot/meetups/51033485/5/3>
+<http://w3id.org/polifonia/pilot/meetups/51033485/5/5>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Alexander_Ostrovsky> ;
-        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" ;
+        ont:excerpt         "He staged the productions: \"Maria Tudor\" by Victor Hugo (1964), \"While the Heart beats\" by Daniil Khrabrovitsky (1977), \"Veranda in the Woods\" by Ignaty Dvoretsky (1980), \"Field Marshal Kutuzov\" by Vladimir Solovyov (1985) and others." ;
+        ont:person          <http://dbpedia.org/resource/Vladimir_Solovyov_(philosopher)> , <http://dbpedia.org/resource/Victor_Hugo> , <http://dbpedia.org/resource/Mikhail_Kutuzov> , <http://dbpedia.org/resource/Daniil_Khrabrovitsky> , <http://dbpedia.org/resource/Mary_I_of_England> ;
         ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
-        ont:timeExpression  "in 1959.Virtually" .
+        ont:timeExpression  "1985" , "1977" , "1964" , "1980" .
 
-<http://w3id.org/polifonia/pilot/meetups/51033485/5/1>
+<http://w3id.org/polifonia/pilot/meetups/51033485/14/4>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Victor_Hugo> , <http://dbpedia.org/resource/Carlo_Goldoni> , <http://dbpedia.org/resource/Lyubov_Dostoevskaya> , <http://dbpedia.org/resource/Alexander_Pushkin> ;
-        ont:place           "http://dbpedia.org/resource/Saint_Petersburg" ;
+        ont:excerpt         "The artist was awarded the Order of the October Revolution (1971), the Friendship of Peoples (1977), the Red Banner of Labor (1982), the Order of Lenin (1987).In 2003, the Institute \"School of Russian Drama\" was named after Igor Gorbachyov." ;
+        ont:person          <http://dbpedia.org/resource/Igor_Gorbachyov> ;
         ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
-        ont:timeExpression  "of Two" , "Konstantin Trenev.In 1954" .
+        ont:timeExpression  "1987" , "1982" , "1971" , "1977" , "2003" .
 
 <http://w3id.org/polifonia/pilot/meetups/51033485/7/3>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gorbachyov participated in one of the well-known adaptations of Anton Chekhov, directed by Joseph Kheifitz on the novel \"Ionych\" - \"In the city of S\" (1966).The greatest success to Gorbachyov was the role of Alexander Yakushev in the serial television film directed by Sergei Kolosov Operation \"Trust\"(1967).In the 1970s, Igor Gorbachyov starred in the Detective Circle (1972) (sequel to the film Two Tickets for the Afternoon Session), historical-revolutionary film Sveaborg (1972), historical and biographical film Taming of the Fire (1972) and others.In the 1980s, the artist performed roles in the films Seven Happy Notes (1981), Mother Mary (1982), For Blue Nights (1983), Prokhindiada, or Running in Place (1984) and others.From the early 1990s, the actor started to receive less roles." ;
         ont:person          <http://dbpedia.org/resource/Igor_Gorbachyov> , <http://dbpedia.org/resource/Anton_Chekhov> , <http://dbpedia.org/resource/Saint_Joseph> , <http://dbpedia.org/resource/Alexander_Yakushev> , <http://dbpedia.org/resource/Sergei_Kolosov> ;
-        ont:place           "http://dbpedia.org/resource/Suomenlinna" ;
+        ont:place           <http://dbpedia.org/resource/Suomenlinna> ;
         ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
-        ont:timeExpression  "Two" , "1984" , "1983" , "1966" , "1980s" , "1990s" , "1967" , "1982" , "1981" , "1972" , "in one" , "1970s" .
+        ont:timeExpression  "1984" , "Two" , "1983" , "1980s" , "1966" , "1990s" , "1967" , "1982" , "1981" , "1972" , "in one" , "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Igor Olegovich Gorbachyov was born October 20, 1927 in Leningrad in the family of a civil engineer.Upon graduation from school in 1945, he entered the philosophy faculty of Leningrad University." ;
+        ont:place           <http://dbpedia.org/resource/Saint_Petersburg> ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "school in 1945" , "October 20 , 1927" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/5/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The most successful works were played by him in the performances of the classical repertoire: Treplev in The Seagull by Anton Chekhov, Vaska Pepel in Maxim Gorky's play \"The Lower Depths\", Lavretsky in Ivan Turgenev's \"Noble Nest\", Protasov in the play \"The Children of the Sun\" by Maxim Gorky, Chichikov in \"Dead Souls\" by Nikolai Gogol, Cyrano de Bergerac in the eponymous play of Edmond Rostand.Between 1975-1991 Igor Gorbachyov was the artistic director and chief director of the theater." ;
+        ont:person   <http://dbpedia.org/resource/Ivan_Turgenev> , <http://dbpedia.org/resource/Maxim_Gorky> , <http://dbpedia.org/resource/Igor_Gorbachyov> , <http://dbpedia.org/resource/Cyrano_de_Bergerac> , <http://dbpedia.org/resource/Nikolai_Gogol> , <http://dbpedia.org/resource/Anton_Chekhov> ;
+        ont:place    <http://dbpedia.org/resource/Pepel> ;
+        ont:subject  <http://dbpedia.org/resource/Igor_Gorbachyov> .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hero of Socialist Labour (1987)." ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/14/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1987 he was awarded the title of Hero of Socialist Labor." ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "In 1987" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He starred in the film All remains to People (1964), the crime drama Two Tickets for the afternoon session (1966)." ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "1966" , "Two" , "1964" .
 
 <http://w3id.org/polifonia/pilot/meetups/51033485/10/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1992, Igor Gorbachyov founded the Theater Institute \"School of Russian Drama\" (now the theater art department of the School of Russian Drama named after IO Gorbachyov of the St. Petersburg State University of Service and Economics)." ;
         ont:person          <http://dbpedia.org/resource/Igor_Gorbachyov> ;
-        ont:place           "http://dbpedia.org/resource/Iowa" ;
+        ont:place           <http://dbpedia.org/resource/Iowa> ;
         ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
         ont:timeExpression  "In 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In 1958-1975 and 1979-1991 Igor Gorbachyov taught at the Leningrad Institute of Theater, Music and Cinematography." ;
+        ont:person   <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:place    <http://dbpedia.org/resource/Saint_Petersburg> ;
+        ont:subject  <http://dbpedia.org/resource/Igor_Gorbachyov> .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ostrovsky which he graduated in 1959.Virtually all of his life was connected with the Leningrad Drama Theater." ;
+        ont:person          <http://dbpedia.org/resource/Alexander_Ostrovsky> ;
+        ont:place           <http://dbpedia.org/resource/Saint_Petersburg> ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "in 1959.Virtually" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "People's Artist of the USSR (1972)." ;
+        ont:place           <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/14/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Stanislavsky." ;
+        ont:person   <http://dbpedia.org/resource/Konstantin_Stanislavski> ;
+        ont:subject  <http://dbpedia.org/resource/Igor_Gorbachyov> .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gorbachyov was married to actress Lyudmila Gorbachyova (1930-2010), with whom she lived in marriage for more than 50 years.The actor had a son, Igor." ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "than 50" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/5/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "At the same time, Gorbachyov entered the acting faculty of the Leningrad Theater Institute named after A.N." ;
+        ont:place    <http://dbpedia.org/resource/Saint_Petersburg> ;
+        ont:subject  <http://dbpedia.org/resource/Igor_Gorbachyov> .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Igor Olegovich Gorbachyov (Russian: И́горь Оле́гович Горбачёв; 1927–2003) was a Soviet and Russian actor, theater director and pedagogue." ;
+        ont:place           <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "1927–2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/14/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1973, the actor became a laureate of the State Prize of the RSFSR named after K.S." ;
+        ont:place           <http://dbpedia.org/resource/Russian_Soviet_Federative_Socialist_Republic> ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "In 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The student was noticed, and soon was invited to the same role in the film The Inspector General (1952), directed by Vladimir Petrov." ;
+        ont:person          <http://dbpedia.org/resource/Vladimir_Nikolayevich_Petrov> ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/20/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "McFarland, 2005." ;
+        ont:person          <http://dbpedia.org/resource/T._J._McFarland> ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He played the role of Don Cesar de Bazan in the play \"Rui Blas\" by Victor Hugo, Florindo Areutusi in \"The Servant of Two Masters\" by Carlo Goldoni, Shvandu in the production of \"Lyubov Yarovaya\" by Konstantin Trenev.In 1954, he moved to the Leningrad Academic Drama Theater named after Pushkin." ;
+        ont:person          <http://dbpedia.org/resource/Victor_Hugo> , <http://dbpedia.org/resource/Lyubov_Dostoevskaya> , <http://dbpedia.org/resource/Alexander_Pushkin> , <http://dbpedia.org/resource/Carlo_Goldoni> ;
+        ont:place           <http://dbpedia.org/resource/Saint_Petersburg> ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "of Two" , "Konstantin Trenev.In 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/22/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Igor Gorbachyov at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:subject  <http://dbpedia.org/resource/Igor_Gorbachyov> .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1972 he was awarded the title People's Artist of the USSR." ;
+        ont:place           <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "In 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/7/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In total, the actor has more than 50 roles in the cinema." ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "than 50" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Saints, Clergy and Other Religious Figures on Film and Television, 1895–2003." ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "1895–2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1952, Igor Gorbachyov was accepted into the troupe of the Gorky Bolshoi Drama Theater without theatrical education." ;
+        ont:person          <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:place           <http://dbpedia.org/resource/Bolshoi_Theatre> ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "In 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His last work was a role in the detective series At the Knives (1998)." ;
+        ont:subject         <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:timeExpression  "1998" .
+
+<http://w3id.org/polifonia/pilot/meetups/51033485/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his studies, Igor Gorbachyov played in the student theater." ;
+        ont:person   <http://dbpedia.org/resource/Igor_Gorbachyov> ;
+        ont:subject  <http://dbpedia.org/resource/Igor_Gorbachyov> .

@@ -6,30 +6,282 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/3040579/0/0>
+<http://w3id.org/polifonia/pilot/meetups/3040579/11/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Graeme_Segal> ;
-        ont:place           "http://dbpedia.org/resource/United_States" ;
+        ont:excerpt         "1917 My Lady's Glove" ;
         ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
-        ont:timeExpression  "December 29 , 1992" , "April 19 , 1897" .
+        ont:timeExpression  "1917" .
 
-<http://w3id.org/polifonia/pilot/meetups/3040579/4/5>
+<http://w3id.org/polifonia/pilot/meetups/3040579/10/0>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Lorenz_Hart> ;
-        ont:place           "http://dbpedia.org/resource/Connecticut" ;
+        ont:excerpt         "1915 The Blue Paradise" ;
         ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
-        ont:timeExpression  "in 1942" .
-
-<http://w3id.org/polifonia/pilot/meetups/3040579/34/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/T._J._McFarland> ;
-        ont:place           "http://dbpedia.org/resource/Jefferson,_North_Carolina" ;
-        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
-        ont:timeExpression  "2000" .
+        ont:timeExpression  "1915" .
 
 <http://w3id.org/polifonia/pilot/meetups/3040579/4/4>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pal Joey opened at the Ethel Barrymore Theatre December 25, 1940, with a cast that included Gene Kelly and June Havoc." ;
         ont:person          <http://dbpedia.org/resource/Richard_Greenberg> , <http://dbpedia.org/resource/Gene_Kelly> , <http://dbpedia.org/resource/June_Havoc> ;
-        ont:place           "http://dbpedia.org/resource/Ethel_Barrymore_Theatre" ;
+        ont:place           <http://dbpedia.org/resource/Ethel_Barrymore_Theatre> ;
         ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
         ont:timeExpression  "December 25 , 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She was also a performer on the CBS Radio program Accordiana in 1934.Segal may be best remembered for creating the role of Vera Simpson in Richard Rodgers and Lorenz Hart's Pal Joey and introducing the song \"Bewitched, Bothered and Bewildered\"." ;
+        ont:person          <http://dbpedia.org/resource/Richard_Greenberg> , <http://dbpedia.org/resource/Richard_Rodgers> , <http://dbpedia.org/resource/Lorenz_Hart> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "in 1934.Segal" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/8/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She was interred in the Westwood Village Memorial Park Cemetery in Los Angeles." ;
+        ont:place    <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Vivienne_Segal> .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She studied singing with Estelle Liebling, the voice teacher of Beverly Sills." ;
+        ont:person   <http://dbpedia.org/resource/Estelle_Liebling> ;
+        ont:subject  <http://dbpedia.org/resource/Vivienne_Segal> .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1952, she played in Pal Joey again, when it was revived on Broadway.Vivienne Segal retired from acting in 1966 following a guest appearance on Perry Mason as Pauline Thorsen in \"The Case of the Tsarina's Tiara.\"" ;
+        ont:person          <http://dbpedia.org/resource/Graeme_Segal> , <http://dbpedia.org/resource/Richard_Greenberg> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "In 1952" , "in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/4/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1924 and 1925, she was a member of the Ziegfeld Follies." ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1925" , "In 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1950, she married television executive Hubbell Robinson, Jr.Segal died in Beverly Hills, California of heart failure on December 29, 1992, aged 95." ;
+        ont:place           <http://dbpedia.org/resource/Beverly_Hills,_California> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "December 29 , 1992" , "95" , "In 1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/34/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jefferson, North Carolina: McFarland, 2000." ;
+        ont:person          <http://dbpedia.org/resource/T._J._McFarland> ;
+        ont:place           <http://dbpedia.org/resource/Jefferson,_North_Carolina> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vivienne Segal photographs, 1870s-1972 (bulk 1915-1938), held by the Billy Rose Theatre Division, New York Public Library for the Performing Arts" ;
+        ont:person          <http://dbpedia.org/resource/Billy_Rose> , <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1915-1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2003, this recording was reissued on CD by Columbia Broadway Masterworks in a release featuring the full show's numbers plus two bonus tracks: Harold Lang singing \"I Could Write a Book\" (from the CBS TV show Shower of Stars) and Segal singing \"Bewitched, Bothered and Bewildered\" on the CBS Radio show Stage Struck, interviewed by Mike Wallace recalling Hart's promise to write her a show." ;
+        ont:person          <http://dbpedia.org/resource/Lorenz_Hart> , <http://dbpedia.org/resource/Mike_Wallace> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "In 2003" , "two bonus" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/37/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vivienne Segal at the Internet Broadway Database" ;
+        ont:person   <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:subject  <http://dbpedia.org/resource/Vivienne_Segal> .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/36/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vivienne Segal at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:subject  <http://dbpedia.org/resource/Vivienne_Segal> .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her Broadway debut came in The Blue Paradise (1915), a production that was underwritten by her father." ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1950 Great to Be Alive!" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Segal and actor Robert Ames eloped in 1923 but divorced three years later." ;
+        ont:person          <http://dbpedia.org/resource/Robert_Ames_(actor)> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "in 1923" , "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1947 Music in My Heart" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/34/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sies, Luther F. Encyclopedia of American Radio: 1920-1960." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Vivienne_Segal> .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She was the elder daughter of Jewish parents Bernhard Segal, a physician, and Paula (née Hahn) Segal, who encouraged Vivienne and her sisters Vera and Louise to seek careers in show business." ;
+        ont:person   <http://dbpedia.org/resource/Louise_of_Mecklenburg-Strelitz> , <http://dbpedia.org/resource/Paula_of_Rome> ;
+        ont:subject  <http://dbpedia.org/resource/Vivienne_Segal> .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1943 A Connecticut Yankee Broadway revival" ;
+        ont:place           <http://dbpedia.org/resource/Connecticut> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1952, Segal received a Donaldson Award in the Best Performance-Actress (Musical Division) category for her performance in the revival of Pal Joey." ;
+        ont:person          <http://dbpedia.org/resource/Richard_Greenberg> , <http://dbpedia.org/resource/Graeme_Segal> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "In 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1940 Pal Joey" ;
+        ont:person          <http://dbpedia.org/resource/Richard_Greenberg> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1925 Ziegfeld Follies" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of Lorenz Hart's last songs, \"To Keep My Love Alive\",  was written specifically for her in this show.Since the 1940 Pal Joey production went unrecorded, a studio cast was assembled in 1950 to record the musical." ;
+        ont:person          <http://dbpedia.org/resource/Lorenz_Hart> , <http://dbpedia.org/resource/Richard_Greenberg> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "in 1950" , "One" , "1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1938 I Married an Angel" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1938" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1924 Ziegfeld Follies" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Segal's career began when she was 15 years old and began performing with the Philadelphia Operatic Society." ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "15" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1931 The Chocolate Soldier" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1923 Adrienne" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1923" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1952 Pal Joey Broadway revival" ;
+        ont:person          <http://dbpedia.org/resource/Richard_Greenberg> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1928 The Three Musketeers" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1928" , "Three" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1922 The Yankee Princess" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1922" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Segal was born on April 19, 1897, in Philadelphia, Pennsylvania." ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> , <http://dbpedia.org/resource/Pennsylvania> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "April 19 , 1897" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1926 The Desert Song" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1921 A Dangerous Maid (as a replacement)" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1921" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/21/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1926 Castles in the Air" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1919 The Little Whopper" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1919" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She also starred as Morgan LeFay in the Rodgers and Hart revival of A Connecticut Yankee in 1942." ;
+        ont:person          <http://dbpedia.org/resource/Lorenz_Hart> ;
+        ont:place           <http://dbpedia.org/resource/Connecticut> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "in 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vivienne Sonia Segal (April 19, 1897 – December 29, 1992) was an American actress and singer." ;
+        ont:person          <http://dbpedia.org/resource/Graeme_Segal> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "April 19 , 1897" , "December 29 , 1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1925 Florida Girl" ;
+        ont:place           <http://dbpedia.org/resource/Florida> ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1918 Oh, Lady!" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1918" .
+
+<http://w3id.org/polifonia/pilot/meetups/3040579/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1917 Miss 1917" ;
+        ont:subject         <http://dbpedia.org/resource/Vivienne_Segal> ;
+        ont:timeExpression  "1917 Miss 1917" .

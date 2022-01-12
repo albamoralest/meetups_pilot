@@ -6,79 +6,312 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/2785324/10/2>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:place           "http://dbpedia.org/resource/Kinshasa" , "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo" ;
-        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:timeExpression  "November 2005" , "2002 peace" .
-
-<http://w3id.org/polifonia/pilot/meetups/2785324/7/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> , <http://dbpedia.org/resource/Tess_Mattisson> ;
-        ont:place           "http://dbpedia.org/resource/Faya-Largeau" ;
-        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:timeExpression  "In 1988" .
-
-<http://w3id.org/polifonia/pilot/meetups/2785324/0/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:place           "http://dbpedia.org/resource/Africa" ;
-        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:timeExpression  "as one" .
-
-<http://w3id.org/polifonia/pilot/meetups/2785324/10/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Mobutu_Sese_Seko> , <http://dbpedia.org/resource/Tabu_Ley_Rochereau> , <http://dbpedia.org/resource/Laurent-Désiré_Kabila> ;
-        ont:place           "http://dbpedia.org/resource/Kinshasa" ;
-        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:timeExpression  "in 1997" .
-
-<http://w3id.org/polifonia/pilot/meetups/2785324/6/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:place           "http://dbpedia.org/resource/Africa" ;
-        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:timeExpression  "In 1970" .
-
-<http://w3id.org/polifonia/pilot/meetups/2785324/4/3>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:place           "http://dbpedia.org/resource/Belgian_Congo" , "http://dbpedia.org/resource/Belgium" ;
-        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:timeExpression  "in 1960" .
-
-<http://w3id.org/polifonia/pilot/meetups/2785324/8/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> , <http://dbpedia.org/resource/Mobutu_Sese_Seko> ;
-        ont:place           "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo" , "http://dbpedia.org/resource/France" ;
-        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:timeExpression  "in 1988" .
-
-<http://w3id.org/polifonia/pilot/meetups/2785324/4/1>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Saint_Joseph> ;
-        ont:place           "http://dbpedia.org/resource/Le_Grand,_Iowa" ;
-        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:timeExpression  "in 1956" .
-
 <http://w3id.org/polifonia/pilot/meetups/2785324/6/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Along with Franco Luambo's TPOK Jazz, Afrisa was now one of Africa's greatest bands." ;
         ont:person          <http://dbpedia.org/resource/Franco_Luambo> , <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:place           "http://dbpedia.org/resource/Africa" ;
+        ont:place           <http://dbpedia.org/resource/Africa> ;
         ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
         ont:timeExpression  "one" .
 
+<http://w3id.org/polifonia/pilot/meetups/2785324/4/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Papa Wemba and Sam Mangwana were among the many influential musicians that were part of the group." ;
+        ont:person   <http://dbpedia.org/resource/Sam_Mangwana> , <http://dbpedia.org/resource/Papa_Wemba> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Along with guitarist Dr Nico Kasanda, Tabu Ley pioneered soukous (African rumba) and internationalised his music by fusing elements of Congolese folk music with Cuban, Caribbean and Latin American rumba." ;
+        ont:person   <http://dbpedia.org/resource/Tabu_Ley_Rochereau> , <http://dbpedia.org/resource/Nico_Kasanda> ;
+        ont:place    <http://dbpedia.org/resource/Caribbean> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/8/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Mobutu regime banned his 1990 album \"Trop, C'est Trop\" as subversive." ;
+        ont:person          <http://dbpedia.org/resource/Mobutu_Sese_Seko> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "1990 album" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His musical career took off in 1956 when he sang with Joseph \"Le Grand Kallé\" Kabasele, and his band L'African Jazz." ;
+        ont:person          <http://dbpedia.org/resource/Saint_Joseph> ;
+        ont:place           <http://dbpedia.org/resource/Le_Grand,_Iowa> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After the establishment of Mobutu Sese Seko regime in the Congo, he adopted the name \"Tabu Ley\" as part of Mobutu's \"Zairization\" of the country, but later went into exile in France in 1988." ;
+        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> , <http://dbpedia.org/resource/Mobutu_Sese_Seko> ;
+        ont:place           <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> , <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "in 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the mid 1980s Tabu Ley discovered a young talented singer and dancer, M'bilia Bel, who helped popularise his band further." ;
+        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/18/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rumba on the River: A History of the Popular Music of the Two Congos." ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1970, Tabu Ley formed Orchestre Afrisa International, Afrisa being a combination of Africa and Éditions Isa, his record label." ;
+        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:place           <http://dbpedia.org/resource/Africa> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "In 1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/4/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The group became one of the most successful bands in African history, recording African classics like Afrika Mokili Mobimba, and surpassing record sales of one million copies by 1970." ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "of one" , "by 1970" , "one" , "million" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was the leader of Orchestre Afrisa International, as well as one of Africa's most influential vocalists and prolific songwriters." ;
+        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:place           <http://dbpedia.org/resource/Africa> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "as one" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/8/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He found success with the release of albums such as Muzina, Exil Ley, Africa worldwide and Babeti soukous." ;
+        ont:person   <http://dbpedia.org/resource/Willy_Ley> ;
+        ont:place    <http://dbpedia.org/resource/Africa> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Pascal-Emmanuel Sinamoyi Tabu was born in Bagata, in the then Belgian Congo." ;
+        ont:place    <http://dbpedia.org/resource/Bagata_Territory> , <http://dbpedia.org/resource/Belgian_Congo> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/10/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In November 2005 Tabu Ley was appointed Vice-Governor of Kinshasa, a position devolved to his party, the Congolese Rally for Democracy (RCD) by the 2002 peace agreements." ;
+        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:place           <http://dbpedia.org/resource/Kinshasa> , <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "2002 peace" , "November 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/26/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tabu Ley Rochereau at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/19/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tabu Ley at kenyapage.net" ;
+        ont:person   <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/0/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His musical career ran parallel to the other great Congolese rhumba bandleader and rival Franco Luambo Makiadi who ran the band TPOK Jazz throughout the 1960s, 1970s and '80s." ;
+        ont:person          <http://dbpedia.org/resource/Franco_Luambo> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/25/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tabu Ley Rochereau discography at Discogs" ;
+        ont:person   <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gary Stewart (2000)." ;
+        ont:person          <http://dbpedia.org/resource/Gary_Stewart_(singer)> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "2000" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During his career, Tabu Ley composed up to 3,000 songs and produced 250 albums." ;
+        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "250" , "3,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two years later, Tabu Ley and Dr. Nico split and Tabu Ley formed African Fiesta National, also known as African Fiesta Flash." ;
+        ont:person          <http://dbpedia.org/resource/Nico> , <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "Two" .
+
 <http://w3id.org/polifonia/pilot/meetups/2785324/0/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pascal-Emmanuel Sinamoyi Tabu (13 November 1940 – 30 November 2013), better known as Tabu Ley Rochereau, was a leading African rumba singer-songwriter from the Democratic Republic of the Congo." ;
         ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:place           "http://dbpedia.org/resource/Republic_of_Ireland" , "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo" ;
+        ont:place           <http://dbpedia.org/resource/Republic_of_Ireland> , <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> ;
         ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
-        ont:timeExpression  "30 November 2013" , "13 November 1940" .
+        ont:timeExpression  "13 November 1940" , "30 November 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/23/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tabu Ley biography and discography at World Music Central" ;
+        ont:person   <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:place    <http://dbpedia.org/resource/Central_America> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/7/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After M'bilia Bel's departure, Afrisa's influence along with that of their rivals TPOK Jazz continued to wane as fans gravitated toward the faster version of soukous." ;
+        ont:person   <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/15/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Officer of the National Order, the Republic of Chad" ;
+        ont:place    <http://dbpedia.org/resource/Chad> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/10/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Following Kabila's death, Tabu Ley then joined the appointed transitional parliament created by Joseph Kabila, until it was dissolved following the establishment of the inclusive transitional institutions." ;
+        ont:person   <http://dbpedia.org/resource/Tabu_Ley_Rochereau> , <http://dbpedia.org/resource/Joseph_Kabila> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/14/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Honorary Knight of Senegal" ;
+        ont:place    <http://dbpedia.org/resource/Senegal> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/0/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After the fall of the Mobutu regime, Tabu Ley also pursued a political career." ;
+        ont:person   <http://dbpedia.org/resource/Mobutu_Sese_Seko> , <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/4/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He remained with African Jazz until 1963 when he and Dr Nico Kasanda formed their own group, African Fiesta." ;
+        ont:person          <http://dbpedia.org/resource/Nico_Kasanda> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "until 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Contributing artistThe Rough Guide to Congo Gold (2008, World Music Network)" ;
+        ont:place           <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the early 1990s he briefly settled in Southern California." ;
+        ont:place           <http://dbpedia.org/resource/Southern_California> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "1990s" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1988 Tabu Ley introduced another female vocalist known as Faya Tess, and M'bilia Bel left and continued to be successful on her own." ;
+        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> , <http://dbpedia.org/resource/Tess_Mattisson> ;
+        ont:place           <http://dbpedia.org/resource/Faya-Largeau> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "In 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When Mobutu was deposed in 1997, Tabu Ley returned to Kinshasa and took up a position as a cabinet minister in the government of new President Laurent Kabila." ;
+        ont:person          <http://dbpedia.org/resource/Mobutu_Sese_Seko> , <http://dbpedia.org/resource/Tabu_Ley_Rochereau> , <http://dbpedia.org/resource/Laurent-Désiré_Kabila> ;
+        ont:place           <http://dbpedia.org/resource/Kinshasa> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "in 1997" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They performed also at the Zaire 74 and therefore are in the documentary film Soul Power." ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "Zaire 74" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tabu Ley sang in the pan-African hit Indépendance Cha Cha which was composed by Grand Kallé for Congolese independence from Belgium in 1960, propelling Tabu Ley to instant fame." ;
+        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:place           <http://dbpedia.org/resource/Belgium> , <http://dbpedia.org/resource/Belgian_Congo> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "in 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/10/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was buried on 9 December 2013 in the Cimetière Acropolic de la N'sele in Kinshasa, after receiving an official mourning ceremony at the Palais du Peuple." ;
+        ont:place           <http://dbpedia.org/resource/Kinshasa> , <http://dbpedia.org/resource/Nsele> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "9 December 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/8/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After Tabu Ley composed the song \"Twende Nairobi\" (\"Let's go to Nairobi\"), sung by M'bilia Bel, in praise of Kenyan president Daniel arap Moi, the ban was promptly lifted." ;
+        ont:person   <http://dbpedia.org/resource/Daniel_arap_Moi> , <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:place    <http://dbpedia.org/resource/Nairobi> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tabu Ley and M'bilia Bel later married and had a daughter named Melody Tabu together." ;
+        ont:person   <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/18/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 978-1859843680." ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "ISBN 978-1859843680" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/4/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He adopted the stage name \"Rochereau\" after the French General Pierre Denfert-Rochereau, whose name he liked and whom he had studied in school." ;
+        ont:person   <http://dbpedia.org/resource/Pierre_Curie> , <http://dbpedia.org/resource/Pierre_Philippe_Denfert-Rochereau> ;
+        ont:place    <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/0/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He has been described as \"the Congolese personality who, along with Mobutu, marked Africa's 20th century history.\"" ;
+        ont:person   <http://dbpedia.org/resource/Mobutu_Sese_Seko> ;
+        ont:place    <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> , <http://dbpedia.org/resource/Africa> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/8/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1996, Tabu Ley participated in the album Gombo Salsa by the salsa music project Africando." ;
+        ont:person          <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "In 1996" .
 
 <http://w3id.org/polifonia/pilot/meetups/2785324/10/4>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2008, he was said to have fathered up to 102 children, including the French rapper Youssoupha, with different women.Tabu Ley Rochereau died on 30 November 2013, aged 73, at Saint-Luc hospital in Brussels, Belgium where he had been undergoing treatment for a stroke he suffered in 2008." ;
         ont:person          <http://dbpedia.org/resource/Youssoupha> , <http://dbpedia.org/resource/Willy_Ley> ;
-        ont:place           "http://dbpedia.org/resource/Belgium" , "http://dbpedia.org/resource/Brussels" , "http://dbpedia.org/resource/Cliniques_universitaires_Saint-Luc" ;
+        ont:place           <http://dbpedia.org/resource/Belgium> , <http://dbpedia.org/resource/Brussels> , <http://dbpedia.org/resource/Cliniques_universitaires_Saint-Luc> ;
         ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
         ont:timeExpression  "30 November 2013" , "In 2008" , "73" , "102" , "in 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1985, the Government of the DRC banned all foreign music from the National Radio service." ;
+        ont:place           <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> ;
+        ont:subject         <http://dbpedia.org/resource/Tabu_Ley_Rochereau> ;
+        ont:timeExpression  "In 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/2785324/7/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "M'bilia Bel became the first female soukous singer to gain acclaim throughout Africa." ;
+        ont:place    <http://dbpedia.org/resource/Africa> ;
+        ont:subject  <http://dbpedia.org/resource/Tabu_Ley_Rochereau> .

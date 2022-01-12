@@ -6,16 +6,228 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
+<http://w3id.org/polifonia/pilot/meetups/2694884/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1976 Tashkent Conservatory was named after Ashrafi." ;
+        ont:place           <http://dbpedia.org/resource/Tashkent> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "In 1976" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "11 June [O.S." ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "11" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1937, Ashrafi was awarded a title of an Honored Artist of the Uzbek SSR." ;
+        ont:place           <http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "In 1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/15/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Stoikost' (1971)" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/8/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2019, a memorial evening of Ashrafi was held in the assembly hall of the Union of Composers and Bastakors of Uzbekistan." ;
+        ont:place           <http://dbpedia.org/resource/Uzbekistan> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "In 2019" .
+
 <http://w3id.org/polifonia/pilot/meetups/2694884/3/4>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1928, Ashrafi graduated a dutar class in Bukhara and entered the Samarkand Institute of Music and Choreography.From 1934 to 1936, he studied in a composition class of Sergei Vasilenko at the Moscow Conservatory." ;
         ont:person          <http://dbpedia.org/resource/Sergei_Vasilenko> ;
-        ont:place           "http://dbpedia.org/resource/Bukhara" , "http://dbpedia.org/resource/Samarkand" ;
+        ont:place           <http://dbpedia.org/resource/Bukhara> , <http://dbpedia.org/resource/Samarkand> ;
         ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
-        ont:timeExpression  "In 1928" , "Choreography.From 1934" , "1936" .
+        ont:timeExpression  "1936" , "Choreography.From 1934" , "In 1928" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Since 1944 Ashrafi was a teacher, and since 1953 - a professor at the Tashkent Conservatory.In 1964-66 he was a director, artistic director and chief conductor of the Samarkand Opera and Ballet Theater, and since 1966 - a director, artistic director and chief conductor of the State Academic Bolshoi Theater of the Uzbek SSR in Tashkent.From 1971 to 1975, Ashrafi was a rector of the Tashkent Conservatory.Ashrafi is the author of the books \"Indian Diaries\" (in Russian and Uzbek), \"Music in my life\", numerous articles in magazines and periodicals.Mukhtar Ashrafi died on 15 December 1975 in Tashkent." ;
+        ont:place           <http://dbpedia.org/resource/Bolshoi_Theatre> , <http://dbpedia.org/resource/Samarkand> , <http://dbpedia.org/resource/Tashkent> , <http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "Tashkent.From 1971" , "1975" , "15 December 1975" , "Since 1944" , "since 1966" , "since 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/0/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Mukhtar Ashrafi (Russian: Мухтар Ашрафович Ашрафи, Uzbek: Muxtor Ashrafiy;" ;
+        ont:place    <http://dbpedia.org/resource/Uzbekistan> ;
+        ont:subject  <http://dbpedia.org/resource/Mukhtar_Ashrafi> .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Timur Malik (1970)" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1970" .
 
 <http://w3id.org/polifonia/pilot/meetups/2694884/8/5>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His other awards include a Medal \"In commemoration of the 100th anniversary of the birth of Vladimir Ilyich Lenin\", a Medal \"For valiant labor in the Great Patriotic War 1941-1945\" and a State Prize of the Uzbek SSR named after Hamza (1970).On the occasion of the 70th anniversary of Ashrafi, on 11 June 1982, a museum was opened in the house where he lived and worked from 1967 to 1975." ;
         ont:person          <http://dbpedia.org/resource/Vladimir_Lenin> , <http://dbpedia.org/resource/Hamza_Hakimzade_Niyazi> ;
-        ont:place           "http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic" ;
+        ont:place           <http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic> ;
         ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
-        ont:timeExpression  "1975" , "11 June 1982" , "1970" , "from 1967" .
+        ont:timeExpression  "from 1967" , "1975" , "1970" , "11 June 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/3/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1924, he entered Oriental Music School in Bukhara." ;
+        ont:place           <http://dbpedia.org/resource/Bukhara> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "In 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1943 to 1947, Ashrafi was a director of Alisher Navoi Uzbek Opera and Ballet Theater." ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1947" , "From 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Heart of a Poet (1962)BalletsLove Amulet (1969)" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1962" , "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/1/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is known as the author of the first Uzbek opera “Buran” (together with Sergei Vasilenko) and the first Uzbek symphony.His daughter Muqadamma was a noted medievalist." ;
+        ont:person   <http://dbpedia.org/resource/Sergei_Vasilenko> ;
+        ont:subject  <http://dbpedia.org/resource/Mukhtar_Ashrafi> .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1959, Ashrafi was awarded his second Order of the Red Banner of Labor." ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "In 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/3/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the age of seven, Ashrafi began to play Uzbek folk instruments improvising on the dutar." ;
+        ont:place           <http://dbpedia.org/resource/Uzbekistan> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "age of seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dilaram (1958)" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1942, Ashrafi created the first Uzbek heroic symphony." ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "In 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Oratorio Skazanie o Rustame (1974)" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/1/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He became a member of the Communist Party of the Soviet Union in 1941 was awarded the Stalin Prize in 1943 and 1952." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "in 1941" , "in 1943" , "1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/8/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The same year he received his first Order of Lenin.In 1952, he received Stalin Prize of the third degree for the cantata \"Song about happiness\"." ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "Lenin.In 1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He grew up in the family of his father, a famous Bukhara singer and musician Ashrafzhan Hafiza." ;
+        ont:place    <http://dbpedia.org/resource/Bukhara> ;
+        ont:subject  <http://dbpedia.org/resource/Mukhtar_Ashrafi> .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Grand Canal (1941, with S. Vasilenko)" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "2 \"Glory to the Victors\" (1944)" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1944" , "2" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Kantatu o Schast'ye (1952; awarded Stalin Prize)" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/1/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was named People's Artist of the USSR in 1951." ;
+        ont:place           <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "in 1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mukhtar Ashrafi was born on 29 May (11 June) 1912 in Bukhara." ;
+        ont:place           <http://dbpedia.org/resource/Bukhara> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1912" , "on 29" , "11" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1939 Ashrafi was awarded a title of the People’s Artist of Uzbek SSR, as well as his first Order of the Red Banner of Labor.In 1943, for the \"Heroic Symphony\" he was awarded the second Stalin Prize degree (50,000 rubles), which he donated to the Defense Fund for the creation of an air squadron and a tank column.In 1951, Ashrafi was awarded a title of the People’s Artist of the USSR." ;
+        ont:place           <http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic> , <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1951" , "Labor.In 1943" , "In 1939" , "50,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/16/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1 \"Heroic\" (1942; awarded Stalin Prize)" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1" , "1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "OperasBuran (1939, with S. Vasilenko)" ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/3/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1948, he graduated from the conducting faculty of the Leningrad Conservatory as an external student." ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "In 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "29 May] 1912 in Bukhara – 10 December 1975 in Tashkent) was a Soviet Uzbek composer." ;
+        ont:place           <http://dbpedia.org/resource/Tashkent> , <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1912" , "10 December 1975" , "29" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The same year he received an Order of the Badge of Honor (1937)." ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Love and Dream (1973)Orchestral worksSymphony No." ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/2694884/3/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1934, Ashrafi wrote Komsomol and pioneer songs, and in 1935-1936, he wrote lyrical songs on the words of Ruzuli, working on his first opera at the same time.Together with his teacher, Sergei Vasilenko, Ashrafi wrote the first Uzbek opera “Buran” that was staged in 1939, starting the history of Uzbek Opera and Ballet Theater.In 1941-1944, Ashrafi studied composition at the Leningrad Conservatory." ;
+        ont:person          <http://dbpedia.org/resource/Sergei_Vasilenko> ;
+        ont:subject         <http://dbpedia.org/resource/Mukhtar_Ashrafi> ;
+        ont:timeExpression  "In 1934" , "in 1939" , "Ballet Theater.In 1941-1944" .

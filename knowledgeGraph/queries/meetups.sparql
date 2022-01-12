@@ -6,14 +6,12 @@ PREFIX xyz:  <http://sparql.xyz/facade-x/data/>
 PREFIX ont: <http://w3id.org/polifonia/ontology/meetups#>
 PREFIX meetup: <http://w3id.org/polifonia/pilot/meetups/>
 
-# 9039,http://dbpedia.org/resource/Django_Reinhardt,1910-01-23,9039.txt
-# "http://dbpedia.org/resource/Ian_Anderson"                           | "223497.txt"
-
 CONSTRUCT{
 ?meetup a ont:MusicalMeetup ;
 	ont:person ?personIRI ;
 	ont:subject ?subjectIRI ;
-	ont:place ?place ;
+	ont:place ?placeIRI ;
+	ont:excerpt ?sentenceText ;
 	ont:timeExpression ?time
 # ?sentence ?entity ?type
 } WHERE {
@@ -21,24 +19,33 @@ CONSTRUCT{
    SERVICE <x-sparql-anything:> {
 	 BIND ( CONCAT ( "../extractedEntities/", ?_fileId , ".csv" ) AS ?location ) .
    	 fx:properties fx:location ?location ; fx:csv.headers "true" .
-
+ {
+ 	 [] xyz:paragraphIndex ?paragraph ; 
+ 	    xyz:sentenceIndex ?sentence ; 
+ 	 	<http://sparql.xyz/facade-x/data/sentence> ?sentenceText
+ 		.
+ } UNION{
 	 [] xyz:paragraphIndex ?paragraph ; 
 	    xyz:sentenceIndex ?sentence ; 
 	 	<http://sparql.xyz/facade-x/data/@URI> ?person ;
 		xyz:entType "person"
 		.
+} UNION {
    	 [] xyz:paragraphIndex ?paragraph ; 
 	    xyz:sentenceIndex ?sentence ; 
    	 	<http://sparql.xyz/facade-x/data/@URI> ?place ;
    		xyz:entType "place"
 		.
+} UNION {
 	 [] xyz:paragraphIndex ?paragraph ; 
    	    xyz:sentenceIndex ?sentence ; 
    	 	xyz:entity ?time ;
    		xyz:entType "time"
 		.
+}
    	 BIND ( IRI(?_subject) as ?subjectIRI ) .
 	 BIND ( IRI(?person) as ?personIRI ) .
+	 BIND ( IRI(?place) as ?placeIRI ) .
      BIND (fx:entity (meetup:, fx:String.toLowerCase(?_fileId), "/", ?paragraph, "/", ?sentence) AS ?meetup )
    }
 }

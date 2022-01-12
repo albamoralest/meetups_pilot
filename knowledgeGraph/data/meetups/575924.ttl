@@ -6,30 +6,369 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/575924/32/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Rius> ;
-        ont:place           "http://dbpedia.org/resource/Villarreal" ;
-        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
-        ont:timeExpression  "ISBN 84-88331-82-7" .
+<http://w3id.org/polifonia/pilot/meetups/575924/33/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Concepción Gómez de Jacoby: Tárrega’s Enigmatic Patron and Recuerdos de la Alhambra by David J. Buch (http://michaelorenz.blogspot.com/2020/11/concepcion-gomez-de-jacoby-tarregas.html)" ;
+        ont:person   <http://dbpedia.org/resource/David_J> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
 
 <http://w3id.org/polifonia/pilot/meetups/575924/9/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1881, Tárrega played in the Opera Theatre in Lyon and then the Paris Odeon, in the bicentenary of the death of Pedro Calderón de la Barca." ;
         ont:person          <http://dbpedia.org/resource/Pedro_II_of_Brazil> ;
-        ont:place           "http://dbpedia.org/resource/Paris" , "http://dbpedia.org/resource/Lyon" ;
+        ont:place           <http://dbpedia.org/resource/Lyon> , <http://dbpedia.org/resource/Paris> ;
         ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
         ont:timeExpression  "In 1881" .
 
+<http://w3id.org/polifonia/pilot/meetups/575924/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From the later 1880s up to 1903, Tárrega continued composing and traveling, but limited his concerts to Spain." ;
+        ont:place           <http://dbpedia.org/resource/Spain> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "1880s" , "1903" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Torres, SE 49 (1883)" ;
+        ont:place           <http://dbpedia.org/resource/Sweden> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "SE 49" , "1883" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "During the winter of 1880, Tárrega replaced his friend Luis de Soria, in a concert in Novelda, Alicante, where, after the concert, an important man in town asked the artist to listen to his daughter, María José Rizo, who was learning to play guitar." ;
+        ont:place           <http://dbpedia.org/resource/Province_of_Alicante> , <http://dbpedia.org/resource/Novelda> , <http://dbpedia.org/resource/Soria> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "winter of 1880" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Francisco Tárrega and María José (María Josefa) Rizo had three more children: Paquito (Francisco), Maria Rosatia (María Rosalia) (best known as Marieta) and Concepción." ;
+        ont:person          <http://dbpedia.org/resource/Grand_Duchess_Maria_Nikolaevna_of_Russia> , <http://dbpedia.org/resource/Saint_Rosalia> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Francisco Tárrega Biografía Oficial by Adrián Rius Espinós, published by Ayuntamiento de Vila-Real, ISBN 84-88331-82-7" ;
+        ont:person          <http://dbpedia.org/resource/Rius> ;
+        ont:place           <http://dbpedia.org/resource/Villarreal> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "ISBN 84-88331-82-7" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Torres, FE 17 (1869) – This is the guitar that was given to 17 year old Francisco Tárrega by Torres personally after hearing him play." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "FE 17" , "1869" , "17 year" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The contemporary guitarist and composer Angelo Gilardino has written that Tárrega's 9 Preludios are \"... the deepest musical thought of Tárrega in the most concentrated form.\"" ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "9" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "To enlarge his guitar repertory and, no doubt, to make use of his considerable knowledge of keyboard music, he soon began transcribing piano works of Beethoven, Chopin, Mendelssohn and others." ;
+        ont:person   <http://dbpedia.org/resource/Ludwig_van_Beethoven> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By the end of the 1870s, Tárrega was teaching the guitar (Emilio Pujol, Miguel Llobet, and Daniel Fortea were pupils of his) and giving regular concerts." ;
+        ont:person          <http://dbpedia.org/resource/Miguel_Llobet> , <http://dbpedia.org/resource/Daniel_Fortea> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "1870s" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It is said that Francisco's father played flamenco and several other music styles on his guitar; when his father was away working as a watchman at the Convent of San Pascual, Francisco would take his father's guitar and attempt to make the beautiful sounds he had heard." ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Enrique Garcia, n°74 (1906) - This instrument was gifted by Tarrega to his friend Alfred Cottin, to whom he dedicated the composition Recuerdos de la Alhambra." ;
+        ont:person          <http://dbpedia.org/resource/Francisco_Tárrega> , <http://dbpedia.org/resource/Enrique_García> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "1906" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tárrega entered the Madrid Royal Conservatory in 1874, under the sponsorship of a wealthy merchant named Antonio Canesa." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "in 1874" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Three years later, in 1865, he ran away again, this time to Valencia where he joined a family of gypsies." ;
+        ont:place           <http://dbpedia.org/resource/Valencia> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "Three" , "in 1865" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1862, concert guitarist Julián Arcas, on tour in Castellón, heard the young Tárrega play and advised Tárrega's father to allow Francisco to come to Barcelona to study with him." ;
+        ont:place           <http://dbpedia.org/resource/Barcelona> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "In 1862" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tárrega was born on 21 November 1852, in Villarreal, Province of Castellón, Spain." ;
+        ont:place           <http://dbpedia.org/resource/Spain> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "21 November 1852" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Francisco de Asís Tárrega y Eixea (21 November 1852 – 15 December 1909) was a Spanish composer and classical guitarist of the Romantic period." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "21 November 1852" , "15 December 1909" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/11/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He later dedicated a revised published version of this piece to Alfred Cottin, the French guitarist he had met in Paris while participating in a concert on a visit accompanied and almost certainly sponsored by Gómez de Jacoby." ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/9/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At Christmas 1882, Tárrega married María José Rizo." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "Christmas 1882" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/9/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Thus he conceived the theme of one of his most memorable works, Lágrima (literally meaning teardrop)." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "theme of one" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/12/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The following year he went on tour to Italy, performing in Rome, Naples, and Milan." ;
+        ont:place    <http://dbpedia.org/resource/Milan> , <http://dbpedia.org/resource/Rome> , <http://dbpedia.org/resource/Naples> , <http://dbpedia.org/resource/Italy> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/4/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Although Tárrega was only ten years old, he ran away and tried to start a musical career on his own by playing in coffee houses and restaurants in Barcelona." ;
+        ont:place    <http://dbpedia.org/resource/Barcelona> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/11/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Later she took him to Granada, which later inspired the guitarist to write Recuerdos de la Alhambra, which he first dedicated to Concepción in 1899 with the title \"A Granada.\"" ;
+        ont:place           <http://dbpedia.org/resource/Granada> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "in 1899" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/9/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After playing in London he returned to Novelda for his wedding." ;
+        ont:place    <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/Novelda> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died in Barcelona thirteen days later, on 15 December, at the age of 57." ;
+        ont:place           <http://dbpedia.org/resource/Barcelona> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "age of 57" , "on 15" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In about 1902, he cut his fingernails and created a sound that would become typical of those guitarists later associated with his school." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "1902" .
+
 <http://w3id.org/polifonia/pilot/meetups/575924/49/0>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Estudio Temático Filatélico sobre Francisco Tárrega at the Wayback Machine (archived October 27, 2009) by Salvador Carracedo Benet (in Spanish)" ;
         ont:person          <http://dbpedia.org/resource/Lico> ;
-        ont:place           "http://dbpedia.org/resource/Carracedelo" ;
+        ont:place           <http://dbpedia.org/resource/Carracedelo> ;
         ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
         ont:timeExpression  "October 27 , 2009" .
 
+<http://w3id.org/polifonia/pilot/meetups/575924/11/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She allowed him and his family use of part of her house outside Barcelona." ;
+        ont:place    <http://dbpedia.org/resource/Barcelona> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/48/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Monument in Vila-Real" ;
+        ont:place    <http://dbpedia.org/resource/Villarreal> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/36/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 978-2-89655-079-1" ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "ISBN 978-2-89655-079-1" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Among his friends in Barcelona were Isaac Albéniz, Enrique Granados, Joaquín Turina and Pau Casals." ;
+        ont:place    <http://dbpedia.org/resource/Barcelona> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/31/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "S.A., 1978)." ;
+        ont:place           <http://dbpedia.org/resource/South_Australia> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/24/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2019 Kyuhee Park recorded a video of Recuerdos de la Alhambra on this guitar." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "In 2019" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/47/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Photos from Francisco Tárrega's room in the Vila-real City Museum" ;
+        ont:place    <http://dbpedia.org/resource/Villarreal> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Although only 19 original compositions were published in his lifetime, Francisco Tárrega composed approximately 80 original pieces and 120 transcriptions – mostly for his own use and that of his students." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "120" , "19" , "80" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/35/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "ISBN 3-00-012750-X." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "ISBN 3-00-012750-X" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/34/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ayuntamiento de Vila-Real and Instituto Valenciano de la Música" ;
+        ont:place    <http://dbpedia.org/resource/Villarreal> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He finished his last work, Oremus, on 2 December 1909." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "2 December 1909" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1900, Tárrega visited Algiers, where he was said to have heard a repetitive rhythm played on an Arabian drum and the following morning composed Danza Mora based on that rhythm." ;
+        ont:place           <http://dbpedia.org/resource/Mora,_Sweden> , <http://dbpedia.org/resource/Algiers> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "In 1900" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Francisco Tárrega, Collected Guitar Works, reprints of early editions, by Rafael Andia, Chanterelle 1001 and 1002." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "Chanterelle 1001" , "1002" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/9/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also played in London, but he liked neither the language nor the weather." ;
+        ont:place    <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/4/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The guitar was viewed as an instrument to accompany singers, while the piano was quite popular throughout Europe." ;
+        ont:place    <http://dbpedia.org/resource/Europe> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Francisco Tárrega y la guitarra en Espana entre 1830 y 1960 by Wolf Moser, published by Piles Editorial de Música S.A. ISBN 978-84-96814-34-9" ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "1960" , "Música S.A. ISBN 978-84-96814-34-9" , "1830 y" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Both his first music teachers, Eugeni Ruiz and Manuel González, were blind." ;
+        ont:person   <http://dbpedia.org/resource/Manuel_II_Palaiologos> , <http://dbpedia.org/resource/Eugeni_Valderrama> ;
+        ont:place    <http://dbpedia.org/resource/Lez_(river)> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/7/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tárrega received much acclaim for his playing and began traveling to other areas of Spain to perform." ;
+        ont:place    <http://dbpedia.org/resource/Spain> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
 <http://w3id.org/polifonia/pilot/meetups/575924/10/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tárrega and his wife moved to Madrid, gaining their living by teaching privately and playing concerts, but after the death of an infant daughter during the winter, Maria Josefa de los Angeles Tárrega Rizo, they settled permanently in Barcelona in 1885." ;
         ont:person          <http://dbpedia.org/resource/Maria_II_of_Portugal> ;
-        ont:place           "http://dbpedia.org/resource/Barcelona" , "http://dbpedia.org/resource/Madrid" , "http://dbpedia.org/resource/Los_Angeles" ;
+        ont:place           <http://dbpedia.org/resource/Barcelona> , <http://dbpedia.org/resource/Madrid> , <http://dbpedia.org/resource/Los_Angeles> ;
         ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
         ont:timeExpression  "in 1885" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/31/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ensayo biográfico by Emilio Pujol (Lisboa: Talleres Gráficos de Ramos, Afonso & Moita, L.D.A., 1960/ Valencia: Artes Gráficas Soler." ;
+        ont:place           <http://dbpedia.org/resource/Lisbon> , <http://dbpedia.org/resource/Valencia> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "1960/ Valencia" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/24/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It then became the official guitar of 'Les Amis de la Guitare', a circle of Parisian guitarists, where it was played by Django Reinhardt, among others." ;
+        ont:person   <http://dbpedia.org/resource/Django_Reinhardt> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He had brought along with him a recently purchased guitar, made in Seville by Antonio de Torres." ;
+        ont:place    <http://dbpedia.org/resource/Seville> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/35/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Francisco Tárrega, Werden und Wirkung by Wolf Moser, published by Edition Saint-Georges." ;
+        ont:person   <http://dbpedia.org/resource/Francesco_Moser> , <http://dbpedia.org/resource/Saint_George> ;
+        ont:place    <http://dbpedia.org/resource/Werden_Abbey> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/30/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Danzas y cantos—terminología by Domingo Prat  (Buenos Aires: Romero y Fernández [1934]" ;
+        ont:place           <http://dbpedia.org/resource/Buenos_Aires> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "Fernández [ 1934" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In January 1906, he was afflicted with paralysis on his right side, and though he would eventually return to performing, he never completely recovered." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "January 1906" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/34/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Francisco Tárrega – Selección de Obras by Adrián Rius Espinós (includes CD with historical recordings by Josefina Robledo; example: \"Capricho árabe\", published by Excmo." ;
+        ont:person   <http://dbpedia.org/resource/Rius> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Torres, SE 114 (1888); in the collection of Sheldon Urlik" ;
+        ont:place           <http://dbpedia.org/resource/Sweden> ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "SE 114" , "1888" .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His father looked for him and brought him back home once more, but he ran away a third time, again to Valencia." ;
+        ont:place    <http://dbpedia.org/resource/Valencia> ;
+        ont:subject  <http://dbpedia.org/resource/Francisco_Tárrega> .
+
+<http://w3id.org/polifonia/pilot/meetups/575924/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He is often called \"the father of classical guitar\" and is considered one of the greatest guitarists of all time." ;
+        ont:subject         <http://dbpedia.org/resource/Francisco_Tárrega> ;
+        ont:timeExpression  "one" .

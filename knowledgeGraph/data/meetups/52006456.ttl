@@ -6,16 +6,56 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/52006456/0/0>
+<http://w3id.org/polifonia/pilot/meetups/52006456/1/5>
         rdf:type            ont:MusicalMeetup ;
-        ont:person          <http://dbpedia.org/resource/Unni_Bernhoft> ;
-        ont:place           "http://dbpedia.org/resource/Norway" ;
+        ont:excerpt         "Her best known song recording is probably Lille Frøken Stang from 1955." ;
+        ont:place           <http://dbpedia.org/resource/Lille> ;
         ont:subject         <http://dbpedia.org/resource/Unni_Bernhoft> ;
-        ont:timeExpression  "4 March 1933" .
+        ont:timeExpression  "from 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/52006456/1/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the comedy Fjols til fjells she played the character \"Ruth Granberg,\" opposite Leif Juster as \"Poppe.\"" ;
+        ont:person   <http://dbpedia.org/resource/Leif_Juster> ;
+        ont:subject  <http://dbpedia.org/resource/Unni_Bernhoft> .
 
 <http://w3id.org/polifonia/pilot/meetups/52006456/1/1>
         rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She is married to actor Bjørn Sand, and is the mother of television producer and executive Jon Ola Sand.Bernhoft made her stage debut at Chat Noir in 1953, in the revue Katten er løs." ;
         ont:person          <http://dbpedia.org/resource/Ola_Jordan> ;
-        ont:place           "http://dbpedia.org/resource/Chat_Noir" ;
+        ont:place           <http://dbpedia.org/resource/Chat_Noir> ;
         ont:subject         <http://dbpedia.org/resource/Unni_Bernhoft> ;
         ont:timeExpression  "in 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/52006456/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Unni Elisabeth Bernhoft (born 4 March 1933) is a Norwegian actress and tobacco retailer." ;
+        ont:person          <http://dbpedia.org/resource/Unni_Bernhoft> ;
+        ont:place           <http://dbpedia.org/resource/Norway> ;
+        ont:subject         <http://dbpedia.org/resource/Unni_Bernhoft> ;
+        ont:timeExpression  "4 March 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/52006456/1/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She gave voice to the character \"Vips\" (Red Fraggle) in the Norwegian dub of Fraggle Rock." ;
+        ont:place    <http://dbpedia.org/resource/Norway> ;
+        ont:subject  <http://dbpedia.org/resource/Unni_Bernhoft> .
+
+<http://w3id.org/polifonia/pilot/meetups/52006456/1/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Until 2002 Fjols til fjells was the fourth-most-viewed Norwegian film of all time." ;
+        ont:subject         <http://dbpedia.org/resource/Unni_Bernhoft> ;
+        ont:timeExpression  "Until 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/52006456/1/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her film appearances include Bedre enn sitt rykte (1955), Smuglere i smoking (1957), Fjols til fjells (1957), Støv på hjernen (1959), and Millionær for en aften (1960)." ;
+        ont:subject         <http://dbpedia.org/resource/Unni_Bernhoft> ;
+        ont:timeExpression  "1957" , "1955" , "1960" , "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/52006456/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She was born in Oslo to singer and revue writer Bias Bernhoft and Margit Haug, and is a granddaughter of Tobias Bernhoft." ;
+        ont:person   <http://dbpedia.org/resource/Bias_Bernhoft> ;
+        ont:place    <http://dbpedia.org/resource/Oslo> ;
+        ont:subject  <http://dbpedia.org/resource/Unni_Bernhoft> .
