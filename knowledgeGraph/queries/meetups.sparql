@@ -27,13 +27,13 @@ CONSTRUCT{
  } UNION{
 	 [] xyz:paragraphIndex ?paragraph ; 
 	    xyz:sentenceIndex ?sentence ; 
-	 	<http://sparql.xyz/facade-x/data/@URI> ?person ;
+	 	<http://sparql.xyz/facade-x/data/URI> ?person ;
 		xyz:entType "person"
 		.
 } UNION {
    	 [] xyz:paragraphIndex ?paragraph ; 
 	    xyz:sentenceIndex ?sentence ; 
-   	 	<http://sparql.xyz/facade-x/data/@URI> ?place ;
+   	 	<http://sparql.xyz/facade-x/data/URI> ?place ;
    		xyz:entType "place"
 		.
 } UNION {
