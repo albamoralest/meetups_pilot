@@ -5,3 +5,105 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was horrified when, in 1935, The Methodist Hymnal instead set the lyrics to Ralph Vaughan Williams' \"Cwm Rhondda\"." ;
+        ont:person          <http://dbpedia.org/resource/Ralph_Vaughan_Williams> ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "in 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Though highly rated as a composer by his English contemporaries, Smart is now largely forgotten, save for his hymn tune \"Regent Square\", which retains considerable popularity, and which is commonly performed with the words \"Christ is Made the Sure Foundation\",  \"Light's Abode, Celestial Salem\", or \"Angels from the Realms of Glory\"." ;
+        ont:person   <http://dbpedia.org/resource/J._J._C._Smart> , <http://dbpedia.org/resource/Jesus> , <http://dbpedia.org/resource/Composer> ;
+        ont:place    <http://dbpedia.org/resource/Salem,_Massachusetts> , <http://dbpedia.org/resource/Regent_Square> ;
+        ont:subject  <http://dbpedia.org/resource/Henry_Smart> .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Henry Thomas Smart (26 October 1813 – 6 July 1879) was an English organist and composer." ;
+        ont:person          <http://dbpedia.org/resource/Henry_Smart> , <http://dbpedia.org/resource/Composer> ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "26 October 1813" , "6 July 1879" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Smart was born in London, a nephew of the conductor Sir George Smart and son of a music publisher, orchestra director and accomplished violinist (also called Henry Smart)." ;
+        ont:person   <http://dbpedia.org/resource/Conducting> , <http://dbpedia.org/resource/Henry_Smart> , <http://dbpedia.org/resource/George_Gershwin> ;
+        ont:place    <http://dbpedia.org/resource/London> ;
+        ont:subject  <http://dbpedia.org/resource/Henry_Smart> .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The oratorio Jacob was created for Glasgow in 1873; and his opera Bertha was produced with some success at the Haymarket in 1855." ;
+        ont:person          <http://dbpedia.org/resource/Bertha_of_Kent> ;
+        ont:place           <http://dbpedia.org/resource/Glasgow> , <http://dbpedia.org/resource/Theatre_Royal_Haymarket> ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "in 1855" , "in 1873" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Smart was also skilled as a mechanic, and designed several organs." ;
+        ont:person   <http://dbpedia.org/resource/Marcus_Smart> ;
+        ont:subject  <http://dbpedia.org/resource/Henry_Smart> .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Smart died at his residence near Primrose Hill in London in July 1879." ;
+        ont:person          <http://dbpedia.org/resource/Marcus_Smart> ;
+        ont:place           <http://dbpedia.org/resource/Primrose_Hill> , <http://dbpedia.org/resource/London> ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "July 1879" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "St Matthew Passion in 1854." ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "in 1854" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His many compositions for the organ (some of which have been occasionally revived in recent years) were described as \"effective and melodious, if not strikingly original\" by the 1911 Encyclopædia Britannica, which also praised his part songs." ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "1911" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the last 15 years of his life, Smart was practically blind." ;
+        ont:person          <http://dbpedia.org/resource/Marcus_Smart> ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "15" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was also invited by William Sterndale Bennett to join the Committee of his Bach Society leading to the first English performance of Bach's" ;
+        ont:person   <http://dbpedia.org/resource/William_Sterndale_Bennett> , <http://dbpedia.org/resource/Johann_Sebastian_Bach> ;
+        ont:subject  <http://dbpedia.org/resource/Henry_Smart> .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Harry Emerson Fosdick greatly admired \"Regent Square\", and wrote his own \"God of Grace and God of Glory\" specifically in the hope that it would be generally sung to that tune." ;
+        ont:person   <http://dbpedia.org/resource/Harry_Emerson_Fosdick> , <http://dbpedia.org/resource/God> ;
+        ont:place    <http://dbpedia.org/resource/Regent_Square> ;
+        ont:subject  <http://dbpedia.org/resource/Henry_Smart> .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A cantata by him, \"The Bride of Dunkerron\" was written for the Birmingham Festival of 1864; another cantata was a version of the play King René's Daughter (1871)." ;
+        ont:place           <http://dbpedia.org/resource/Dunkerron_Castle> ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "of 1864" , "1871" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1831, Smart became organist of Blackburn parish church, where he wrote his first important work, an anthem; then of St Giles-without-Cripplegate; St Luke's, Old Street; and finally of St Pancras New Church, in 1864, which last post he held at the time of his death, less than a month after receiving a government pension of £100 per annum." ;
+        ont:place           <http://dbpedia.org/resource/St_Giles-without-Cripplegate> , <http://dbpedia.org/resource/St_Pancras_New_Church> , <http://dbpedia.org/resource/Blackburn_Cathedral> ;
+        ont:subject         <http://dbpedia.org/resource/Henry_Smart> ;
+        ont:timeExpression  "in 1864" , "In 1831" .
+
+<http://w3id.org/polifonia/pilot/meetups/1790990/5/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He composed by dictation, primarily to his daughter Ellen, who was married to Joseph Joachim's brother Henry Joachim." ;
+        ont:person   <http://dbpedia.org/resource/Joseph_Joachim> , <http://dbpedia.org/resource/Ellen_Terry> ;
+        ont:subject  <http://dbpedia.org/resource/Henry_Smart> .

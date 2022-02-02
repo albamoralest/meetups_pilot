@@ -5,3 +5,311 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The City Inside Us\", edited by Peter Noever/MAK, 1993" ;
+        ont:person          <http://dbpedia.org/resource/Peter_Noever> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/13/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2014, Acconci was featured in a video segment, produced by Marc Santo, in which he talks about a few of his favorite projects that were never completed, including a Skate Park in San Jose and a museum of needles in Ichihara, Japan." ;
+        ont:person          <http://dbpedia.org/resource/Marc_Santo> ;
+        ont:place           <http://dbpedia.org/resource/Ichihara,_Chiba> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "In 2014" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the piece Acconci is filming himself pointing directly at himself for about 25 minutes; by doing so Acconci makes a nonsensical gesture that exemplifies the critical aspects of a work of art through the beginning of the 20th century." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "about 25" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It has been there since 2009." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "since 2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cindy Nemser was the first art critic to write about Acconci for Arts Magazine in 1971." ;
+        ont:person          <http://dbpedia.org/resource/Cindy_Nemser> , <http://dbpedia.org/resource/Art_critic> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "in 1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/9/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Acconci Studio is located on Jay Street in Brooklyn." ;
+        ont:place    <http://dbpedia.org/resource/Brooklyn> ;
+        ont:subject  <http://dbpedia.org/resource/Vito_Acconci> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/0/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Two of his most famous pieces were Following Piece (1969), in which he selected random passersby on New York City streets and followed them for as long as he was able, and Seedbed (1972), in which he claimed that he masturbated while under a temporary floor at the Sonnabend Gallery, as visitors walked above and heard him speaking." ;
+        ont:person          <http://dbpedia.org/resource/Ileana_Sonnabend> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "1969" , "1972" , "Two" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/15/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Acconci taught at many institutions, including the Nova Scotia College of Art and Design, Halifax; San Francisco Art Institute; California Institute of the Arts, Valencia; Cooper Union; School of the Art Institute of Chicago; Yale University; University of Iowa,  Pratt Institute; and the Parsons School of Design." ;
+        ont:place    <http://dbpedia.org/resource/Valencia> , <http://dbpedia.org/resource/California> , <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Vito_Acconci> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/10/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One example of this is Walkways Through the Wall, which flow through structural boundaries of the Wisconsin Center in Milwaukee, Wisconsin and provide seating at both ends." ;
+        ont:place           <http://dbpedia.org/resource/Milwaukee> , <http://dbpedia.org/resource/Wisconsin> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "One example" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of the most prominent examples of these temporary installations is titled Instant House, which was first created in 1980, but was recently exhibited in the summer of 2012 at the Museum of Contemporary Art San Diego." ;
+        ont:place           <http://dbpedia.org/resource/San_Diego> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "in 1980" , "One" , "summer of 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Vito Acconci." ;
+        ont:person   <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:subject  <http://dbpedia.org/resource/Vito_Acconci> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2013, Acconci's Way Station I (Study Chamber), a work that was vandalized and destroyed in 1985 after being constructed for Middlebury College, was reinstalled along with an exhibit at the college's museum." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "in 1985" , "In 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Krauss uses this description to underline aspects of narcissism in the Vito Acconci work Centers." ;
+        ont:person   <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:subject  <http://dbpedia.org/resource/Vito_Acconci> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/0/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He has been recognized with fellowships from the National Endowment for the Arts (1976, 1980, 1983, 1993), John Simon Guggenheim Memorial Foundation (1979), and American Academy in Rome (1986)." ;
+        ont:place           <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Rome> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "1976" , "1986" , "1980" , "1993" , "1979" , "1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of his later works, Lobby-for-the-Time-Being is an installation in the North Wing Lobby of Bronx Museum of the Arts." ;
+        ont:place           <http://dbpedia.org/resource/The_Bronx> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/6/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One motivation behind Seedbed was to involve the public in the work's production by creating a situation of reciprocal interchange between artist and viewer." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "One motivation" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/10/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The wall begins outside the Arvada Center and extends inside, rising from ground level to a height of 24 feet." ;
+        ont:place           <http://dbpedia.org/resource/Arvada,_Colorado> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "height of 24" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/9/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He turned to the creation of furniture and prototypes of houses and gardens in the late 1980s, and in 1988 the artist founded Acconci Studio, which focused on theoretical design and building." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "in 1988" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 2000s" ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "2000s" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/12/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In 2010, Acconci completed Waterfall Out & In, a water feature at the visitors' center of the Newtown Creek Wastewater Treatment Plant in Greenpoint, Brooklyn." ;
+        ont:place           <http://dbpedia.org/resource/Greenpoint,_Brooklyn> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "In 2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/0/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Acconci died on April 28, 2017, in Manhattan at age 77." ;
+        ont:place           <http://dbpedia.org/resource/Manhattan> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "77" , "April 28 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/0/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Retrospectives of Acconci's work have been organized by the Stedelijk Museum in Amsterdam (1978) and the Museum of Contemporary Art, Chicago (1980), and his work is in numerous public collections, including those of the Museum of Modern Art and Whitney Museum of American Art." ;
+        ont:place           <http://dbpedia.org/resource/Whitney_Museum_of_American_Art> , <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Chicago> , <http://dbpedia.org/resource/Stedelijk_Museum_Amsterdam> , <http://dbpedia.org/resource/Amsterdam> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "1980" , "1978" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/6/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In Seedbed Acconci lay hidden underneath a gallery-wide ramp installed at the Sonnabend Gallery, masturbating while vocalizing into a loudspeaker his fantasies about the visitors walking above him on the ramp." ;
+        ont:person   <http://dbpedia.org/resource/Ileana_Sonnabend> ;
+        ont:subject  <http://dbpedia.org/resource/Vito_Acconci> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/10/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Another example of his work is Dirt Wall (1992) at the Arvada Center for the Arts and Humanities Sculpture Garden in Colorado." ;
+        ont:place           <http://dbpedia.org/resource/Arvada,_Colorado> , <http://dbpedia.org/resource/Colorado> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "1992" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/9/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Despite this, the sculpture marked a transition for Acconci's career from performance artist to architectural designer." ;
+        ont:person   <http://dbpedia.org/resource/Architectural_designer> ;
+        ont:subject  <http://dbpedia.org/resource/Vito_Acconci> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/5/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Produced in quantities of 100 to 350 copies per issue on a mimeograph machine, the magazine mixed contributions by both poets and artists." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "350" , "of 100" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His work is considered to have influenced artists including Laurie Anderson, Karen Finley, Bruce Nauman, and Tracey Emin, among others." ;
+        ont:person   <http://dbpedia.org/resource/Karen_Finley> , <http://dbpedia.org/resource/Bruce_Nauman> , <http://dbpedia.org/resource/Laurie_Anderson> , <http://dbpedia.org/resource/Tracey_Emin> ;
+        ont:subject  <http://dbpedia.org/resource/Vito_Acconci> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 1980s, Acconci turned to permanent sculptures and installations." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1980s" ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "1980s" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He received a BA in literature from the College of the Holy Cross in 1962 and an MFA in literature and poetry from the University of Iowa." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/7/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In the article \"Video: the Aesthetics of Narcissism,\" Rosalind Krauss refers to aspects of Narcissism apparent in the video work of Acconci." ;
+        ont:person   <http://dbpedia.org/resource/Agatha_Christie> ;
+        ont:subject  <http://dbpedia.org/resource/Vito_Acconci> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/0/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Notable works of this period include: Personal Island, designed for Zwolle, the Netherlands (1994); Walkways Through the Wall at the Wisconsin Center, in Milwaukee, WI (1998); and Murinsel, for Graz, Austria (2003)." ;
+        ont:place           <http://dbpedia.org/resource/Zwolle> , <http://dbpedia.org/resource/Austria> , <http://dbpedia.org/resource/Milwaukee> , <http://dbpedia.org/resource/Netherlands> , <http://dbpedia.org/resource/Graz> , <http://dbpedia.org/resource/Wisconsin> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "1998" , "2003" , "1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One installation/performance work from this period, perhaps his best known work,  is Seedbed (January 15–29, 1972)." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "One installation/performance work" , "January 15–29 , 1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/9/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The work sparked immense controversy on the college's campus, and was eventually set on fire and destroyed in 1985." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "in 1985" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Acconci began his career as a poet, editing and self-publishing the poetry magazine 0 TO 9 with Bernadette Mayer in the late 1960s." ;
+        ont:person          <http://dbpedia.org/resource/Bernadette_Mayer> ;
+        ont:place           <http://dbpedia.org/resource/Toronto> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "0 TO 9" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "=== 1960s and 70s ===" ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "1960s" , "70s ===" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Born Vito Hannibal Acconci in the Bronx, New York in 1940, Acconci attended a Roman Catholic elementary school, high school (Regis High School in New York City), and college." ;
+        ont:person          <http://dbpedia.org/resource/Hannibal> ;
+        ont:place           <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/The_Bronx> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/17/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was 77." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "77" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/12/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2008, in an interview with Brian Sherwin for Myartspace, Vito discussed Seedbed at length." ;
+        ont:person          <http://dbpedia.org/resource/Vito_LoGrasso> , <http://dbpedia.org/resource/Brian_Sherwin> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "In 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/0/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Over the next two decades he developed public artworks and parks, airport rest areas, artificial islands and other architectural projects that frequently embraced participation, change and playfulness." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Contemporary Art Show\", created by Peter Noever; 161 exceptional artists, architects, designers, 13 solo exhibitions / site-specific interventions: Vito + Maria Elena Acconci, Zaha hadid, Magdalena Jetelová, Michael Kienzer, Hans Kupelwieser, Hermann Nitsch, Eva Schlegel, Kiki Smith, the next ENTERprise, Iv Toshain, Atelier Van Lieshout, Koen Vanmechelen, Manfred Wakolbinger; Winter Palace/Belvedere Wien; starting point: Imago Mundi/Luciano Benetton Collection, Archive Austria, curated by Peter Noever, Wien, 2015" ;
+        ont:person          <http://dbpedia.org/resource/Joseph_Kupelwieser> , <http://dbpedia.org/resource/Hermann_Schlegel> , <http://dbpedia.org/resource/Kiki_Smith> , <http://dbpedia.org/resource/Peter_Noever> , <http://dbpedia.org/resource/Koen_Vanmechelen> , <http://dbpedia.org/resource/Zaha_Hadid> , <http://dbpedia.org/resource/Hermann_Nitsch> , <http://dbpedia.org/resource/Luciano_Benetton> , <http://dbpedia.org/resource/Joep_van_Lieshout> ;
+        ont:place           <http://dbpedia.org/resource/Austria> , <http://dbpedia.org/resource/Magdalena_Department> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "161" , "2015" , "13 solo" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vito Acconci (Italian: [ˈviːto akˈkontʃi], ; January 24, 1940 – April 27, 2017) was an influential American performance, video and installation artist, whose diverse practice eventually included sculpture, architectural design, and landscape design." ;
+        ont:person          <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "January 24 , 1940" , "April 27 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Acconci died on April 28, 2017." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "April 28 , 2017" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/9/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Acconci designed the United Bamboo store in Tokyo in 2003 and collaborated on concept designs for interactive art vehicle Mister Artsee in 2006 among others including the highly acclaimed:  Murinsel in Graz, Austria." ;
+        ont:place           <http://dbpedia.org/resource/Graz> , <http://dbpedia.org/resource/Austria> , <http://dbpedia.org/resource/Tokyo> ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "in 2003" , "in 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/10/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "An example of this interest on the private/public space is the collaboration he did with architect Steven Holl when commissioned on a collaborative building project for Storefront for Art and Architecture." ;
+        ont:person   <http://dbpedia.org/resource/Steven_Holl> , <http://dbpedia.org/resource/Architect> ;
+        ont:subject  <http://dbpedia.org/resource/Vito_Acconci> .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Later, in January 1983, Acconci was a visiting artist at Middlebury College." ;
+        ont:subject         <http://dbpedia.org/resource/Vito_Acconci> ;
+        ont:timeExpression  "January 1983" .
+
+<http://w3id.org/polifonia/pilot/meetups/222210/19/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Vienna For Art's Sake !" ;
+        ont:place    <http://dbpedia.org/resource/Vienna> ;
+        ont:subject  <http://dbpedia.org/resource/Vito_Acconci> .

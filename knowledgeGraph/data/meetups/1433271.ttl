@@ -5,3 +5,125 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Barbod" ;
+        ont:person   <http://dbpedia.org/resource/Barbad> ;
+        ont:subject  <http://dbpedia.org/resource/Marzieh_(singer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/2/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Upon the death of Khomeini the succeeding leaders suggested that she could resume singing, provided that she undertook never to sing for men." ;
+        ont:person   <http://dbpedia.org/resource/Ruhollah_Khomeini> ;
+        ont:subject  <http://dbpedia.org/resource/Marzieh_(singer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She performed several concerts in Los Angeles, California and Royal Albert Hall (London) in 1993, 1994 and 1995." ;
+        ont:place           <http://dbpedia.org/resource/Royal_Albert_Hall> , <http://dbpedia.org/resource/London> , <http://dbpedia.org/resource/California> ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "1995" , "1994" , "in 1993" .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "France 3, a regional TV news and entertainment channel, has compared Marzieh's singing voice to those of legendary songstresses Édith Piaf and Maria Callas." ;
+        ont:person          <http://dbpedia.org/resource/Maria_Callas> ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "France 3" .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Her first major public performance was in 1942, when, though still a teenager, she played the principal role of Shirin at the Jame'eh" ;
+        ont:person          <http://dbpedia.org/resource/Shirin> ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "in 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1994, Marzieh left Iran forever due to the political repression, making her new home in Paris." ;
+        ont:place           <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/Iran> ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "In 1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Marzieh also sang with the Farabi Orchestre, conducted by Morteza Hannaneh, a pioneer of Persian polyphonic music, during the 1960s and 1970s." ;
+        ont:person          <http://dbpedia.org/resource/Morteza_Hannaneh> , <http://dbpedia.org/resource/Al-Farabi> ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Marzieh started her career in the 1940s at Radio Tehran and cooperated with some of the greatest 20th century Persian songwriters and lyricists like Ali Tajvidi, Parviz Yahaghi, Homayoun Khorram, Rahim Moeini Kermanshahi and Bijan Taraghi." ;
+        ont:person          <http://dbpedia.org/resource/Homayoun_Khorram> , <http://dbpedia.org/resource/Ali_Tajvidi> , <http://dbpedia.org/resource/Rahim_Moeini_Kermanshahi> , <http://dbpedia.org/resource/Parviz_Yahaghi> ;
+        ont:place           <http://dbpedia.org/resource/Tehran> ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "1940s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/2/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ayatollah Khomeini had decreed: \"Women's voices should not be heard by men other than members of their own families." ;
+        ont:person   <http://dbpedia.org/resource/Ruhollah_Khomeini> ;
+        ont:subject  <http://dbpedia.org/resource/Marzieh_(singer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/7/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Maryam Rajavi, co-leader of the People's Mujahedin of Iran, delivered her eulogy." ;
+        ont:person   <http://dbpedia.org/resource/Maryam_Rajavi> ;
+        ont:place    <http://dbpedia.org/resource/Iran> ;
+        ont:subject  <http://dbpedia.org/resource/Marzieh_(singer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Following the Islamic Revolution of 1979 public performances and broadcasts of record albums by solo female singers were banned outright for ten years." ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "of 1979" .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Marzieh's last concert was performed at Olympia in 2006." ;
+        ont:place           <http://dbpedia.org/resource/Olympia_London> ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "in 2006" .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Marzieh (Persian: مرضیه‎, born Khadijeh Ashraf o-Sadat Mortezaie, 22 March 1924 – 13 October 2010), was an Iranian singer of Persian traditional music." ;
+        ont:person          <http://dbpedia.org/resource/Ashraf_Pahlavi> ;
+        ont:place           <http://dbpedia.org/resource/Khadijeh,_Howmeh-ye_Sharqi> ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "13 October 2010" , "22 March 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Marzieh died of cancer in Paris on 13 October 2010, aged 86." ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "13 October 2010" , "86" .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "[Barbod Society] opera house in the Persian operetta Shirin and Farhad." ;
+        ont:person   <http://dbpedia.org/resource/Barbad> , <http://dbpedia.org/resource/Shirin> ;
+        ont:subject  <http://dbpedia.org/resource/Marzieh_(singer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/4/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Paris-based composer Mohammad Shams and the Persian tar soloist Hamid Reza Taherzadeh were the main musicians who worked with Marzieh in exile." ;
+        ont:person   <http://dbpedia.org/resource/Composer> , <http://dbpedia.org/resource/Mohammad_Shams> , <http://dbpedia.org/resource/Abdul_Hamid_II> ;
+        ont:subject  <http://dbpedia.org/resource/Marzieh_(singer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "On the other hand, the European press have also compared her to Vanessa Redgrave and Melina Mercouri for her willingness to put political and human-rights beliefs ahead of her career, and even ahead of her own safety." ;
+        ont:person   <http://dbpedia.org/resource/Vanessa_Redgrave> , <http://dbpedia.org/resource/Melina_Mercouri> ;
+        ont:subject  <http://dbpedia.org/resource/Marzieh_(singer)> .
+
+<http://w3id.org/polifonia/pilot/meetups/1433271/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Marzieh concert at Royal Albert Hall, conducted by Mohammad Shams, 1993 on YouTube" ;
+        ont:person          <http://dbpedia.org/resource/Mohammad_Shams> ;
+        ont:place           <http://dbpedia.org/resource/Royal_Albert_Hall> ;
+        ont:subject         <http://dbpedia.org/resource/Marzieh_(singer)> ;
+        ont:timeExpression  "1993" .

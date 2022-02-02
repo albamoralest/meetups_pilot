@@ -5,3 +5,162 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He continued his musical education at City College of New York." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/8/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He captured jazz performances by John Coltrane, Ornette Coleman, Thelonious Monk and Charlie Parker." ;
+        ont:person   <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/John_Coltrane> , <http://dbpedia.org/resource/Ornette_Coleman> , <http://dbpedia.org/resource/Thelonious_Monk> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His mother was an opera singer and his father was a concertmaster." ;
+        ont:person   <http://dbpedia.org/resource/Concertmaster> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/9/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He recorded albums by many artists including Eddie Money, Bee Gees, Eric Clapton, Lynyrd Skynyrd, Black Oak Arkansas, Derek and the Dominos, Rod Stewart, Wishbone Ash, New Model Army, Cream, Lulu, Chicago, the Allman Brothers Band, Joe Bonamassa, the J. Geils Band, Meat Loaf, Sonny & Cher, the Rascals, the Spinners, Willie Nelson, Diana Ross, Eagles, the Four Seasons, Kenny Loggins, James Gang, Dusty Springfield, Eddie Harris, Charles Mingus, Herbie Mann, Booker T. & the M.G.'s, Otis Redding, Aretha Franklin, Ronnie Earl, Joe Castro and Primal Scream." ;
+        ont:person   <http://dbpedia.org/resource/Otis_Redding> , <http://dbpedia.org/resource/Dusty_Springfield> , <http://dbpedia.org/resource/Charles_Mingus> , <http://dbpedia.org/resource/Eric_Clapton> , <http://dbpedia.org/resource/Kenny_Loggins> , <http://dbpedia.org/resource/Joe_Bonamassa> , <http://dbpedia.org/resource/Willie_Nelson> , <http://dbpedia.org/resource/Ronnie_Earl> , <http://dbpedia.org/resource/Herbie_Mann> , <http://dbpedia.org/resource/Rod_Stewart> , <http://dbpedia.org/resource/Aretha_Franklin> , <http://dbpedia.org/resource/Eddie_Money> , <http://dbpedia.org/resource/Diana_Ross> , <http://dbpedia.org/resource/Joe_Castro> , <http://dbpedia.org/resource/Meat_Loaf> , <http://dbpedia.org/resource/Eddie_Harris> , <http://dbpedia.org/resource/Booker_T._Jones> ;
+        ont:place    <http://dbpedia.org/resource/Chicago> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dowd graduated from Stuyvesant High School in June 1942 at the age of 16." ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "age of 16" , "June 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/12/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "It was he who encouraged Jerry Wexler of Atlantic Records to install an Ampex eight-track recorder, enabling Atlantic to be the first recording company to record using multiple tracks." ;
+        ont:person   <http://dbpedia.org/resource/Jerry_Wexler> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dowd was posthumously inducted into the Rock and Roll Hall of Fame in 2012." ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "in 2012" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/8/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He soon became a top recording engineer there and recorded popular artists such as Ray Charles, the Drifters, the Coasters, the Spinners, Ruth Brown and Bobby Darin, including Darin's rendition of Kurt Weill/Bertolt Brecht's \"Mack the Knife\"." ;
+        ont:person   <http://dbpedia.org/resource/Bobby_Darin> , <http://dbpedia.org/resource/Kurt_Weill> , <http://dbpedia.org/resource/Ruth_Brown> , <http://dbpedia.org/resource/Bertolt_Brecht> , <http://dbpedia.org/resource/Ray_Charles> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/9/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "While working for Atlantic Records, he lived in Westwood, NJ with his wife Jackie and his sons, Steven and Todd." ;
+        ont:person   <http://dbpedia.org/resource/John_O._Westwood> ;
+        ont:place    <http://dbpedia.org/resource/New_Jersey> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Born in Manhattan, New York City, Dowd grew up playing piano, tuba, violin, and string bass." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/Manhattan> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/12/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the 2004 biopic Ray, Tom Dowd was portrayed by actor Rick Gomez." ;
+        ont:person          <http://dbpedia.org/resource/Tom_Dowd> , <http://dbpedia.org/resource/Rick_Gomez> ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "2004 biopic" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/19/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tom Dowd at Find a Grave" ;
+        ont:person   <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The purpose of the work was unclear until 1945." ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "until 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His first hit was Eileen Barton's \"If I Knew You Were Comin' I'd've Baked a Cake\"." ;
+        ont:person   <http://dbpedia.org/resource/Eileen_Barton> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dowd worked as an engineer and producer from the 1940s until the beginning of the 21st century." ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "1940s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/12/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 2003, director Mark Moormann premiered an award-winning documentary about his life entitled Tom Dowd and the Language of Music." ;
+        ont:person          <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "In 2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died of emphysema on October 27, 2002, in Florida, where he had been living and working at Criteria Studios for many years, a week after his 77th birthday." ;
+        ont:place           <http://dbpedia.org/resource/Florida> ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "October 27 , 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/17/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Tom Dowd\"." ;
+        ont:person   <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Thomas John Dowd (October 20, 1925 – October 27, 2002) was an American recording engineer and producer for Atlantic Records." ;
+        ont:person          <http://dbpedia.org/resource/John_M._Dowd> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "October 27 , 2002" , "October 20 , 1925" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/16/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Tom Dowd and the Language of Music" ;
+        ont:person   <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dowd received a Grammy Trustees Award for his lifetime achievements in February 2002." ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "February 2002" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/4/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dowd also played in a band at New York's Columbia University, where he became a conductor." ;
+        ont:person   <http://dbpedia.org/resource/Conducting> ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Tom_Dowd> .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At age 18, Dowd was drafted into the military with the rank of sergeant." ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "18" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/8/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was Dowd's idea to cut Ray Charles' recording of \"What'd I Say\" into two parts and release them as the A-side and B-side of the same single record." ;
+        ont:person          <http://dbpedia.org/resource/Ray_Charles> ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "into two" .
+
+<http://w3id.org/polifonia/pilot/meetups/1320240/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was also an employee of Apex Studios in the 1950s." ;
+        ont:subject         <http://dbpedia.org/resource/Tom_Dowd> ;
+        ont:timeExpression  "1950s" .

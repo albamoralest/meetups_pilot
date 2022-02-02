@@ -5,3 +5,22 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/50686116/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Alfred Mézière, Lettres, sciences, arts: Encyclopédie universelle du XXe, 1908, p. 36" ;
+        ont:subject         <http://dbpedia.org/resource/Jean-Baptiste-Pierre_Lafitte> ;
+        ont:timeExpression  "36" , "1908" .
+
+<http://w3id.org/polifonia/pilot/meetups/50686116/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Gustave Vapereau, Dictionnaire universel des contemporains, 1870, p. 1030" ;
+        ont:subject         <http://dbpedia.org/resource/Jean-Baptiste-Pierre_Lafitte> ;
+        ont:timeExpression  "1870" , "1030" .
+
+<http://w3id.org/polifonia/pilot/meetups/50686116/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jean-Baptiste-Pierre Lafitte (2 June 1796 – 6 March 1879) was a 19th-century French playwright, novelist, journalist and comedian." ;
+        ont:person          <http://dbpedia.org/resource/Novelist> , <http://dbpedia.org/resource/Jean_Lafitte> , <http://dbpedia.org/resource/Comedian> , <http://dbpedia.org/resource/Journalist> , <http://dbpedia.org/resource/Playwright> ;
+        ont:subject         <http://dbpedia.org/resource/Jean-Baptiste-Pierre_Lafitte> ;
+        ont:timeExpression  "2 June 1796" , "6 March 1879" .

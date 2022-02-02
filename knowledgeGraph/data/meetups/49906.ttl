@@ -5,3 +5,242 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/0/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Granz was acknowledged as \"the most successful impresario in the history of jazz\"." ;
+        ont:person   <http://dbpedia.org/resource/Impresario> ;
+        ont:subject  <http://dbpedia.org/resource/Norman_Granz> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/6/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Loretta was previously married and had a child, Sydney Sullivan Hamed, whom Granz adopted." ;
+        ont:person   <http://dbpedia.org/resource/Arthur_Sullivan> ;
+        ont:place    <http://dbpedia.org/resource/Sydney> ;
+        ont:subject  <http://dbpedia.org/resource/Norman_Granz> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Born in Los Angeles, Granz was the son of Jewish immigrants from Tiraspol." ;
+        ont:place    <http://dbpedia.org/resource/Tiraspol> , <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject  <http://dbpedia.org/resource/Norman_Granz> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1955, in Houston, Texas, he removed signs that previously designated \"White\" and \"Negro\" restrooms, outside the auditorium where two concerts were to be performed by Ella Fitzgerald and Dizzy Gillespie." ;
+        ont:person          <http://dbpedia.org/resource/Ella_Fitzgerald> , <http://dbpedia.org/resource/Dizzy_Gillespie> ;
+        ont:place           <http://dbpedia.org/resource/Texas> , <http://dbpedia.org/resource/Houston> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "In 1955" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Only one copy of the very first concert program is known to exist." ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "one copy" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/13/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Granz also spearheaded the fight to desegregate the hotels and casinos in Las Vegas, arguing that it was unfair that black artists could perform on the stages, but could not stay or gamble at the hotels, or even enter through the front doors." ;
+        ont:place    <http://dbpedia.org/resource/Las_Vegas> ;
+        ont:subject  <http://dbpedia.org/resource/Norman_Granz> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/6/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sullivan from Michigan; they had a daughter together, Stormont Granz, who was disabled due to lack of oxygen during the birth." ;
+        ont:person   <http://dbpedia.org/resource/Arthur_Sullivan> ;
+        ont:place    <http://dbpedia.org/resource/Michigan> ;
+        ont:subject  <http://dbpedia.org/resource/Norman_Granz> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Many of the names that made history in jazz signed with one of Norman Granz's labels, including Louis Armstrong, Ella Fitzgerald, Count Basie, Mort Sahl, Louie Bellson,  Benny Carter, Buck Clayton, Buddy DeFranco, Roy Eldridge, Herb Ellis, Tal Farlow, Stan Getz, Dizzy Gillespie, Lionel Hampton, Coleman Hawkins, Johnny Hodges, Billie Holiday, Illinois Jacquet, Hank Jones, Gene Krupa, Anita O'Day (the first artist to sign with Verve), Charlie Parker, Joe Pass, Oscar Peterson, Flip Phillips, Bud Powell, Buddy Rich, Sonny Stitt, Slim Gaillard, Art Tatum, Ben Webster and Lester Young." ;
+        ont:person          <http://dbpedia.org/resource/Buddy_DeFranco> , <http://dbpedia.org/resource/Lester_Young> , <http://dbpedia.org/resource/Hank_Jones> , <http://dbpedia.org/resource/Bud_Powell> , <http://dbpedia.org/resource/Joe_Pass> , <http://dbpedia.org/resource/Buck_Clayton> , <http://dbpedia.org/resource/Ella_Fitzgerald> , <http://dbpedia.org/resource/Dizzy_Gillespie> , <http://dbpedia.org/resource/Herb_Ellis> , <http://dbpedia.org/resource/Stan_Getz> , <http://dbpedia.org/resource/Sonny_Stitt> , <http://dbpedia.org/resource/Flip_Phillips> , <http://dbpedia.org/resource/Billie_Holiday> , <http://dbpedia.org/resource/Anita_O'Day> , <http://dbpedia.org/resource/Illinois_Jacquet> , <http://dbpedia.org/resource/Tal_Farlow> , <http://dbpedia.org/resource/Coleman_Hawkins> , <http://dbpedia.org/resource/Gene_Krupa> , <http://dbpedia.org/resource/Mort_Sahl> , <http://dbpedia.org/resource/Count_Basie> , <http://dbpedia.org/resource/Louis_Armstrong> , <http://dbpedia.org/resource/Oscar_Peterson> , <http://dbpedia.org/resource/Ben_Webster> , <http://dbpedia.org/resource/Roy_Eldridge> , <http://dbpedia.org/resource/Louie_Bellson> , <http://dbpedia.org/resource/Buddy_Rich> , <http://dbpedia.org/resource/Norman_Granz> , <http://dbpedia.org/resource/Charlie_Parker> , <http://dbpedia.org/resource/Art_Tatum> , <http://dbpedia.org/resource/Slim_Gaillard> , <http://dbpedia.org/resource/Johnny_Hodges> , <http://dbpedia.org/resource/Benny_Carter> ;
+        ont:place           <http://dbpedia.org/resource/Hampton,_Virginia> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "with one" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Norman Granz opposed racism and fought many battles for his artists, many of whom were black." ;
+        ont:person   <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:subject  <http://dbpedia.org/resource/Norman_Granz> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/3/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He recorded many of the JATP concerts, and from 1945 to 1947 sold/leased the recordings to Asch/Disc/Stinson Records (record producer Moses Asch's labels)." ;
+        ont:person          <http://dbpedia.org/resource/Moses_Asch> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "1947" , "from 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/4/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jazz at the Philharmonic ceased touring the United States and Canada, after the JATP concerts in the fall of 1957, apart from a North American Tour in 1967." ;
+        ont:place           <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "fall of 1957" , "in 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/6/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1950, he married Loretta (née Snyder)" ;
+        ont:person          <http://dbpedia.org/resource/Ted_Snyder> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "In 1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Norman Granz (August 6, 1918 – November 22, 2001) was an American jazz record producer and concert promoter." ;
+        ont:person          <http://dbpedia.org/resource/Tour_promoter> , <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "November 22 , 2001" , "August 6 , 1918" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/6/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Granz died of cancer on November 22, 2001, at the age of 83 in Geneva, Switzerland." ;
+        ont:place           <http://dbpedia.org/resource/Geneva> , <http://dbpedia.org/resource/Switzerland> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "November 22 , 2001" , "age of 83" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/12/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Oscar Peterson recounted how Granz once insisted that white cabdrivers take his black artists as customers, while a policeman pointed a loaded pistol at his stomach." ;
+        ont:person   <http://dbpedia.org/resource/Oscar_Peterson> ;
+        ont:subject  <http://dbpedia.org/resource/Norman_Granz> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He then emerged into the public view when he organised desegregated jam sessions at the Trouville Club in Los Angeles, which he later expanded when he staged a memorable concert at the Philharmonic Auditorium in Los Angeles on Sunday, July 2, 1944, under the heading of \"Jazz at the Philharmonic\"." ;
+        ont:place           <http://dbpedia.org/resource/Trouville-sur-Mer> , <http://dbpedia.org/resource/Los_Angeles> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "July 2 , 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was in 1956 that the popular singer Ella Fitzgerald finally joined Norman Granz's label." ;
+        ont:person          <http://dbpedia.org/resource/Ella_Fitzgerald> , <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/6/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Granz married three times." ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/10/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Granz founded his last label, Pablo Records, in 1973; in 1987, he sold it to Fantasy Records." ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "in 1987" , "in 1973" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/6/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1974, he married Grete Lyngby from Denmark." ;
+        ont:place           <http://dbpedia.org/resource/Denmark> , <http://dbpedia.org/resource/Kongens_Lyngby> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "In 1974" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/12/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Granz, incensed by the incident, insisted on successfully fighting the charges, which cost him over $2,000." ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "2,000" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1944, Granz and Gjon Mili produced the jazz film Jammin' the Blues, which starred Lester Young, Illinois Jacquet, Barney Kessel, Harry Edison, Jo Jones, Sidney Catlett, Marlowe Morris, and Marie Bryant, and was nominated for an Academy Award." ;
+        ont:person          <http://dbpedia.org/resource/Illinois_Jacquet> , <http://dbpedia.org/resource/Gjon_Mili> , <http://dbpedia.org/resource/Sid_Catlett> , <http://dbpedia.org/resource/Marlowe_Morris> , <http://dbpedia.org/resource/Harry_Edison> , <http://dbpedia.org/resource/Lester_Young> , <http://dbpedia.org/resource/Barney_Kessel> , <http://dbpedia.org/resource/Marie_Bryant> , <http://dbpedia.org/resource/Jo_Jones> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "In 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/9/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1959, Norman Granz moved to Switzerland." ;
+        ont:person          <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:place           <http://dbpedia.org/resource/Switzerland> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "In 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After the agreement expired in 1953 he issued the JATP recordings and other recordings on Clef Records (founded 1946) and Norgran Records (founded 1953)." ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "in 1953" , "1953" , "1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1965, he married Hannelore Granz, a former airline stewardess from Germany." ;
+        ont:place           <http://dbpedia.org/resource/Germany> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "In 1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/12/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After some negotiations, the artists were allowed to perform the second show and later were formally released on $50 bail." ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "50 bail" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When America joined the Second World War, he was drafted into the U.S. Army Air Force." ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Norman_Granz> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After several JATP concerts in Los Angeles in 1944 and 1945, Granz began producing JATP concert tours, from late fall of 1945 to 1957 in USA and Canada, and from 1952 in Europe." ;
+        ont:place           <http://dbpedia.org/resource/Los_Angeles> , <http://dbpedia.org/resource/Canada> , <http://dbpedia.org/resource/Europe> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "1957" , "1945" , "in 1944" , "from 1952" , "fall of 1945" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/9/8>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Granz was also the manager of Oscar Peterson,  another lifelong friend." ;
+        ont:person   <http://dbpedia.org/resource/Oscar_Peterson> ;
+        ont:subject  <http://dbpedia.org/resource/Norman_Granz> .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1948, Granz signed an agreement with Mercury Records for the promotion and the distribution of the JATP recordings and other recordings." ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "In 1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "They separated in 1953 and divorced in 1955." ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "in 1953" , "in 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/9/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In December 1960, Verve Records was sold to Metro-Goldwyn-Mayer." ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "December 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Between the two shows, Fitzgerald and Gillespie and Illinois Jacquet were shooting small-stakes dice in the dressing room to kill time, when the local police barged in and arrested them." ;
+        ont:person          <http://dbpedia.org/resource/Illinois_Jacquet> , <http://dbpedia.org/resource/Dizzy_Gillespie> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Norman Granz had organised the first Jazz at the Philharmonic concert with about $300 of borrowed money." ;
+        ont:person          <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "300" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/9/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Fitzgerald's memorable series of eight Songbooks, together with the duet series (notably Armstrong-Peterson, Fitzgerald-Basie, Fitzgerald-Pass and Getz-Peterson) achieved wide popularity and brought acclaim to the label and to the artists." ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "series of eight" .
+
+<http://w3id.org/polifonia/pilot/meetups/49906/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Granz was also interested in art, developing a friendship with Pablo Picasso, whom he met in 1968." ;
+        ont:person          <http://dbpedia.org/resource/Pablo_Picasso> ;
+        ont:subject         <http://dbpedia.org/resource/Norman_Granz> ;
+        ont:timeExpression  "in 1968" .

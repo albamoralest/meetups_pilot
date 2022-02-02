@@ -5,3 +5,95 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/0/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Lefteris (Eleftherios) Papadopoulos (Greek: Λευτέρης Παπαδόπουλος) is a Greek lyricist, writer and journalist." ;
+        ont:person   <http://dbpedia.org/resource/Journalist> ;
+        ont:subject  <http://dbpedia.org/resource/Lefteris_Papadopoulos> .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/1/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is the son of Greek refugees, with a father from a village near Bursa in today's Turkey and a mother from a village near Novorossiysk in Russia." ;
+        ont:place    <http://dbpedia.org/resource/Bursa> , <http://dbpedia.org/resource/Novorossiysk> , <http://dbpedia.org/resource/Russia> , <http://dbpedia.org/resource/Turkey> ;
+        ont:subject  <http://dbpedia.org/resource/Lefteris_Papadopoulos> .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1969, composer Mimis Plessas's work of songs \"O Dromos\", to which Papadopoulos contributed the lyrics, became the fastest selling Greek album." ;
+        ont:person          <http://dbpedia.org/resource/Composer> , <http://dbpedia.org/resource/Mimis_Plessas> ;
+        ont:place           <http://dbpedia.org/resource/Greece> ;
+        ont:subject         <http://dbpedia.org/resource/Lefteris_Papadopoulos> ;
+        ont:timeExpression  "In 1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/1/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Since 1959 Papadopoulos has worked in the newspaper Ta Nea and has become a popular columnist over time." ;
+        ont:subject         <http://dbpedia.org/resource/Lefteris_Papadopoulos> ;
+        ont:timeExpression  "Since 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Papadopoulos became involved with music in 1963." ;
+        ont:subject         <http://dbpedia.org/resource/Lefteris_Papadopoulos> ;
+        ont:timeExpression  "music in 1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/2/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He also wrote a few literary books, and one about the lyricist Eftichia Papagianopoulou." ;
+        ont:person          <http://dbpedia.org/resource/Eftichia_Papagianopoulos> ;
+        ont:subject         <http://dbpedia.org/resource/Lefteris_Papadopoulos> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Of all the creative partnerships that Papadopoulos has had with Greek composers, that of his close friend Manos Loizos is considered a landmark of his career." ;
+        ont:person   <http://dbpedia.org/resource/Manos_Loïzos> ;
+        ont:subject  <http://dbpedia.org/resource/Lefteris_Papadopoulos> .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/1/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His parents were expelled in 1924 during the population exchange between Greece and Turkey." ;
+        ont:place           <http://dbpedia.org/resource/Turkey> , <http://dbpedia.org/resource/Greece> ;
+        ont:subject         <http://dbpedia.org/resource/Lefteris_Papadopoulos> ;
+        ont:timeExpression  "in 1924" .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Lefteris Papadopoulos was born in Athens, Greece on 14 November 1935." ;
+        ont:person          <http://dbpedia.org/resource/Lefteris_Papadopoulos> ;
+        ont:place           <http://dbpedia.org/resource/Athens> , <http://dbpedia.org/resource/Greece> ;
+        ont:subject         <http://dbpedia.org/resource/Lefteris_Papadopoulos> ;
+        ont:timeExpression  "14 November 1935" .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He has written the lyrics for about 1,200 songs and has co-worked with nearly all of the well-known musicians, composers and singers of his generation, namely Mikis Theodorakis, Stavros Xarhakos, Manos Loizos, Stavros Koujioumtzis, Mimis Plessas, Christos Nikolopoulos, Stelios Kazantzidis, Grigoris Bithikotsis, George Dalaras, Marinella, Viki Mosholiou and others." ;
+        ont:person          <http://dbpedia.org/resource/Marinella> , <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Mimis_Plessas> , <http://dbpedia.org/resource/Manos_Loïzos> , <http://dbpedia.org/resource/Stelios_Kazantzidis> , <http://dbpedia.org/resource/Mikis_Theodorakis> , <http://dbpedia.org/resource/Stavros_Xarchakos> ;
+        ont:subject         <http://dbpedia.org/resource/Lefteris_Papadopoulos> ;
+        ont:timeExpression  "1,200" .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/2/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He has presented various programmes about Greek Music on television; the most recent, entitled \"Makrines Filies\" (Remote Friendships), was broadcast on National Television, ERT." ;
+        ont:place    <http://dbpedia.org/resource/Greece> ;
+        ont:subject  <http://dbpedia.org/resource/Lefteris_Papadopoulos> .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Papadopoulos is married to a director and has a son and a daughter as well as two grandchildren." ;
+        ont:subject         <http://dbpedia.org/resource/Lefteris_Papadopoulos> ;
+        ont:timeExpression  "as two" .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Papadopoulos contributed lyrics to some Greek songs from 1960 to 1990." ;
+        ont:subject         <http://dbpedia.org/resource/Lefteris_Papadopoulos> ;
+        ont:timeExpression  "1990" , "from 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/3808845/1/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He enrolled at the Law School of the University of Athens but stopped during his third year in order to work as a journalist." ;
+        ont:person   <http://dbpedia.org/resource/Journalist> ;
+        ont:place    <http://dbpedia.org/resource/Athens> ;
+        ont:subject  <http://dbpedia.org/resource/Lefteris_Papadopoulos> .

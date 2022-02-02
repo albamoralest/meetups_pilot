@@ -5,3 +5,483 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/21/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Merritt lived in Center City, Philadelphia, with his wife Ave and his cat Jazzie." ;
+        ont:place    <http://dbpedia.org/resource/Center_City,_Philadelphia> , <http://dbpedia.org/resource/Merritt_Parkway> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "played it for the next seven years or so." ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Merritt left Max Roach in the late 1960s to work with trumpeter Dizzy Gillespie, appearing with Gillespie's band on The Dick Cavett Show." ;
+        ont:person   <http://dbpedia.org/resource/Max_Roach> , <http://dbpedia.org/resource/Dizzy_Gillespie> ;
+        ont:place    <http://dbpedia.org/resource/Merritt_Parkway> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/20/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Merritt had a younger brother, LeRoy Merritt, an amateur artist and arts and crafts enthusiast who lived in West Philadelphia, Pennsylvania." ;
+        ont:place    <http://dbpedia.org/resource/Pennsylvania> , <http://dbpedia.org/resource/Merritt_Parkway> , <http://dbpedia.org/resource/West_Philadelphia> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1957, Merritt moved to Manhattan, New York, to work with Art Blakey and the Jazz Messengers." ;
+        ont:person          <http://dbpedia.org/resource/Art_Blakey> ;
+        ont:place           <http://dbpedia.org/resource/Merritt_Parkway> , <http://dbpedia.org/resource/Manhattan> , <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "In 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Merritt was a member of Art Blakey's Jazz Messengers group from 1957 until 1962." ;
+        ont:person          <http://dbpedia.org/resource/Art_Blakey> ;
+        ont:place           <http://dbpedia.org/resource/Merritt_Parkway> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "group from 1957" , "until 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jymie Merritt worked in jazz, R&B, and blues." ;
+        ont:person   <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Among the original members of the Forerunner band were Odean Pope, Kenny Lowe, Donald Bailey, and September Wrice." ;
+        ont:person   <http://dbpedia.org/resource/Odean_Pope> , <http://dbpedia.org/resource/Factions_of_Halo> , <http://dbpedia.org/resource/Kenny_Lowe> , <http://dbpedia.org/resource/Donald_Bailey_(musician)> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Raised in Philadelphia, Pennsylvania, Jymie, born James Raleigh Merritt, is the son of Agnes Merritt (née Robinson), a choral director, voice and piano teacher, and Raleigh Howard \"RH\" Merritt, a businessman and author." ;
+        ont:person   <http://dbpedia.org/resource/Walter_Raleigh> , <http://dbpedia.org/resource/Conducting> , <http://dbpedia.org/resource/Harold_E._Robinson> , <http://dbpedia.org/resource/James_VI_and_I> ;
+        ont:place    <http://dbpedia.org/resource/Philadelphia> , <http://dbpedia.org/resource/Pennsylvania> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/5/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Nommo\" would earn Merritt a nomination for Best Jazz Composer in DownBeat magazine's Critics Poll." ;
+        ont:person   <http://dbpedia.org/resource/A._Merritt> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Jymie Merritt (May 3, 1926 – April 10, 2020) was an American jazz double-bassist, electric-bass pioneer, band leader and composer." ;
+        ont:person          <http://dbpedia.org/resource/Composer> , <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "April 10 , 2020" , "May 3 , 1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/5/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1965 to 1968, Merritt worked with the drummer, composer and activist Max Roach, not only in the rhythm section but as a composer, recording \"Nommo\" on Roach's Atlantic album Drums Unlimited (1966)." ;
+        ont:person          <http://dbpedia.org/resource/Composer> , <http://dbpedia.org/resource/Max_Roach> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "From 1965" , "1966" , "1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/17/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In addition, Jymie Merritt was honored with the Don Redman Heritage Award in June 2008 at a ceremony and concert in Harper's Ferry, West Virginia at the annual event sponsored by the Harpers Ferry Historical Association and the Jefferson County NAACP in cooperation with the Don Redman Heritage Society of Piedmont, West Virginia." ;
+        ont:person          <http://dbpedia.org/resource/Don_Redman> , <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:place           <http://dbpedia.org/resource/West_Virginia> , <http://dbpedia.org/resource/Piedmont,_West_Virginia> , <http://dbpedia.org/resource/Harpers_Ferry_National_Historical_Park> , <http://dbpedia.org/resource/Virginia> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "June 2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Saxophonist Bobby Zankel was a member of the second incarnation of the band when he joined in 1982, which also included Alan Nelson, Odean Pope, Julian Pressley, Colmore Duncan, and Warren McLendon." ;
+        ont:person          <http://dbpedia.org/resource/Odean_Pope> , <http://dbpedia.org/resource/Tim_Duncan> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "in 1982" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Approaching his 90th birthday Merritt continued to rehearse and perform with the current incarnation of The Forerunners, many of whom have been with the ensemble from its inception." ;
+        ont:person          <http://dbpedia.org/resource/Factions_of_Halo> ;
+        ont:place           <http://dbpedia.org/resource/Merritt_Parkway> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "90th birthday" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The band, which evolved into a music cooperative exploring Merritt's own system of chord inversions, harmonics, and unique approaches to composition and rehearsals, produced a lexicon of its own known as the Forerunner system or concept." ;
+        ont:person   <http://dbpedia.org/resource/Factions_of_Halo> ;
+        ont:place    <http://dbpedia.org/resource/Merritt_Parkway> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/19/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Continuing the family's musical heritage in 2005 Mike co-produced along with his sister Mharlyn an independent CD on the EMerrittus label featuring brother Marlon on guitar, Uri Caine, Al Kooper, Lew Soloff and the Vivino Brothers entitled \"Alone Together\"." ;
+        ont:person          <http://dbpedia.org/resource/Marlon_Jackson> , <http://dbpedia.org/resource/Uri_Caine> , <http://dbpedia.org/resource/Sherry_Turkle> , <http://dbpedia.org/resource/Al_Kooper> , <http://dbpedia.org/resource/Lew_Soloff> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "heritage in 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Last Session (Blue Note, 1972)With Max Roach" ;
+        ont:person          <http://dbpedia.org/resource/Max_Roach> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1972" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Live at the Lighthouse (Blue Note, 1969)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1969" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By 1964, Merritt was back, working with the trumpeter and vocalist Chet Baker, and is featured prominently in Baker's unfinished autobiography published under the title As Though I Had Wings: The Lost Memoir." ;
+        ont:person          <http://dbpedia.org/resource/Chet_Baker> , <http://dbpedia.org/resource/John_Gilbert_Baker> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "By 1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/43/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Sonny Clark" ;
+        ont:person   <http://dbpedia.org/resource/Sonny_Clark> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/17/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Merritt's award was presented to him by another great Philadelphia bassist, the late Charles Fambrough." ;
+        ont:place    <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/54/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Jymie Merritt discography at Discogs" ;
+        ont:person   <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/47/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Other Side of Benny Golson (Riverside, 1958)With Lee Morgan" ;
+        ont:person          <http://dbpedia.org/resource/Lee_Morgan> , <http://dbpedia.org/resource/Benny_Golson> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Forerunner was on and off periodically from the 1960s through the 1980s, depending on what band Merritt was playing with at the time as well as how his health was." ;
+        ont:person          <http://dbpedia.org/resource/Factions_of_Halo> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1980s" , "1960s" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Soul Trombone (Impulse!, 1961)With Benny Golson" ;
+        ont:person          <http://dbpedia.org/resource/Benny_Golson> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Freedom Rider (1961)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1962, Jymie Merritt formed and fronted the Forerunners in Philadelphia." ;
+        ont:person          <http://dbpedia.org/resource/Jymie_Merritt> , <http://dbpedia.org/resource/Factions_of_Halo> ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "In 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "South American Cookin' (Epic, 1961)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pisces (1961)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/14/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Certainly, I’m pretty sure Monk Montgomery wasn’t playing one because we used to see him in Minneapolis and he was always" ;
+        ont:person          <http://dbpedia.org/resource/Monk_Montgomery> ;
+        ont:place           <http://dbpedia.org/resource/Minneapolis> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Members, Don't Git Weary (Atlantic, 1968)With Jimmy WitherspoonThe Blues Is Now (1967)With Wayne ShorterWayning Moments (1962)" ;
+        ont:place           <http://dbpedia.org/resource/Atlantic_Ocean> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1967" , "1968" , "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Standards (Blue Note, 1959)With Curtis Fuller" ;
+        ont:person          <http://dbpedia.org/resource/Curtis_Fuller> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/37/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Day with Art Blakey and the Jazz Messengers (1961)" ;
+        ont:person          <http://dbpedia.org/resource/Art_Blakey> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "I had been having trouble with my own bass, one of the assembly line types, so I was in the market for a new bass." ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/5/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Merritt's touring and recording with Blakey extended until 1962, when an unknown ailment forced him to stop touring." ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "until 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Drums Unlimited (Atlantic, 1965)" ;
+        ont:place           <http://dbpedia.org/resource/Atlantic_Ocean> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1965" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Most Important Jazz Album of 1964/65 (Colpix, 1964)With" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "of 1964/65" , "1964" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/0/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Merritt also worked as a sideman for blues and jazz musicians such as Bullmoose Jackson, B.B. King, Chet Baker, Max Roach, Dizzy Gillespie, and Lee Morgan." ;
+        ont:person   <http://dbpedia.org/resource/Bull_Moose_Jackson> , <http://dbpedia.org/resource/Max_Roach> , <http://dbpedia.org/resource/Wesley_Merritt> , <http://dbpedia.org/resource/Lee_Morgan> , <http://dbpedia.org/resource/Dizzy_Gillespie> , <http://dbpedia.org/resource/Chet_Baker> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Mosaic (Blue Note, 1961)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/29/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Just Coolin' (Blue Note, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the 2009 Philadelphia Jazz Fair, produced by musician and professor Don Glanden, Philadelphia's University of the Arts and the Jazz Heritage Project honored Jymie Merritt and the jazz organist  Trudy Pitts with the Jazz Heritage Award." ;
+        ont:person          <http://dbpedia.org/resource/Jymie_Merritt> , <http://dbpedia.org/resource/Trudy_Pitts> ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "2009" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/30/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Original Soundtrack with Barney Wilen" ;
+        ont:person   <http://dbpedia.org/resource/Barney_Wilen> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Buhaina's Delight (1963)With Chet Baker" ;
+        ont:person          <http://dbpedia.org/resource/Chet_Baker> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1963" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A Night In Tunisia (Blue Note, 1960)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "At the Jazz Corner of the World (Blue Note, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Pope  also joined Roach’s band, playing with him into the 1970s." ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Three Blind Mice (1962)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "Three" , "1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Like Someone in Love (Blue Note, 1960)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/27/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Des Femmes Disparaissent (Soundtrack) (Fontana, 1958)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Big Beat (Blue Note, 1960)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Morgan's Blue Note album Live at the Lighthouse (1970) featuring Merritt's composition \"Absolutions\" (recorded earlier by Max Roach)." ;
+        ont:person          <http://dbpedia.org/resource/A._Merritt> , <http://dbpedia.org/resource/Max_Roach> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1970" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Encouraged by his mother he studied with Carl Torello, double bassist for the Philadelphia Orchestra, and at the Ornstein School of Music in Philadelphia." ;
+        ont:person   <http://dbpedia.org/resource/Donald_Samuel_Ornstein> ;
+        ont:place    <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Roots & Herbs (1961)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1961" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1958 - Paris Olympia (Fontana, 1958)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Merritt's marriage to Dorothy Viola Small (d. 2008) produced five children: Mharlyn Merritt, a writer and vocalist who received a National Endowment for the Arts Fellowship for Jazz Performance in 1988; Marlon Merritt, an accomplished guitarist and retired career Army veteran of the Iraqi War; Martyn Merritt (deceased), world traveler, bon vivant and classical pianist who studied with internationally acclaimed pianist Leon Bates; Marvon Merritt, percussionist and drummer, and Mike Merritt, a renowned bassist in his own right who has performed and recorded with Levon Helm, Phoebe Snow, Johnny Copeland, BB King and many other world-class musicians." ;
+        ont:person          <http://dbpedia.org/resource/Leon_Bates_(pianist)> , <http://dbpedia.org/resource/B.B._King> , <http://dbpedia.org/resource/Levon_Helm> , <http://dbpedia.org/resource/Marlon_Brando> , <http://dbpedia.org/resource/Phoebe_Snow> , <http://dbpedia.org/resource/Johnny_Copeland> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "five" , "in 1988" , "2008" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/21/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died on April 10, 2020 of liver cancer in Philadelphia, aged 93." ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "93" , "April 10 , 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Paris Jam Session (1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Moanin' (Blue Note, 1958)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Messenger ensemble Merritt joined featured his friend Benny Golson as well as Bobby Timmons and Lee Morgan." ;
+        ont:person   <http://dbpedia.org/resource/Wesley_Merritt> , <http://dbpedia.org/resource/Benny_Golson> , <http://dbpedia.org/resource/Lee_Morgan> , <http://dbpedia.org/resource/Bobby_Timmons> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/0/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The same year he left Blakey's band, Merritt formed his own group, The Forerunners, which he led sporadically until his death in 2020." ;
+        ont:person          <http://dbpedia.org/resource/Factions_of_Halo> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "death in 2020" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Africaine (Blue Note, 1959)" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/24/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "With Art Blakey and the Jazz Messengers" ;
+        ont:person   <http://dbpedia.org/resource/Art_Blakey> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In November 2013, along with friend and fellow bassist Reggie Workman, Jymie Merritt received the Clef Club of Philadelphia's Living Legend, Jazz Award." ;
+        ont:person          <http://dbpedia.org/resource/Reggie_Workman> , <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "November 2013" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Benny got me over to hear this and we later saw one in a music store." ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Merritt joined the Bull Moose Jackson band in 1949, and was an early adopter of the Ampeg bass (a hybrid acoustic-electric instrument)." ;
+        ont:person          <http://dbpedia.org/resource/Bull_Moose_Jackson> ;
+        ont:place           <http://dbpedia.org/resource/Merritt_Parkway> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "band in 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In the early 1950s he toured with rock and roll musicians Bullmoose Jackson and Chris Powell moving on to work with bluesman BB King from 1955 to 1957." ;
+        ont:person          <http://dbpedia.org/resource/B.B._King> , <http://dbpedia.org/resource/Chris_Powell> , <http://dbpedia.org/resource/Bull_Moose_Jackson> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "from 1955" , "1950s" , "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/30/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Les Liaisons Dangereuses 1960 (Fontana, 1959) -" ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "1959" , "1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This group performed regularly in and around Philadelphia for five years, until Merritt joined Max Roach’s band." ;
+        ont:person          <http://dbpedia.org/resource/Max_Cavalera> ;
+        ont:place           <http://dbpedia.org/resource/Philadelphia> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "for five" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/11/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "We were out in Oklahoma somewhere, when Benny Golson saw this Western band, what you call a hillbilly band, with a fellow" ;
+        ont:person   <http://dbpedia.org/resource/Benny_Golson> ;
+        ont:place    <http://dbpedia.org/resource/Oklahoma> ;
+        ont:subject  <http://dbpedia.org/resource/Jymie_Merritt> .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of Jymie Merritt's most productive showcases as a composer was when he reunited with his former Jazz Messenger colleague gifted trumpeter Lee Morgan." ;
+        ont:person          <http://dbpedia.org/resource/Composer> , <http://dbpedia.org/resource/Lee_Morgan> , <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/261534/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After serving in the U.S. Army during WWII from 1944 to 1946 Jymie returned home to work for a short time in his father's real estate business, and after a brief flirtation with the clarinet he was inspired by a Duke Ellington recording featuring bassist Jimmy Blanton." ;
+        ont:person          <http://dbpedia.org/resource/Jimmy_Blanton> , <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Jymie_Merritt> ;
+        ont:timeExpression  "from 1944" , "1946" .

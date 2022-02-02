@@ -5,3 +5,83 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Léon de Bercy, called Léon Drouin de Bercy or  Léon Hiks (10 December 1857 in Paris – 31 July 1915 in Orléans, aged 57) was a French chansonnier." ;
+        ont:person          <http://dbpedia.org/resource/Michelle_Drouin> ;
+        ont:place           <http://dbpedia.org/resource/Ans> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_de_Bercy> ;
+        ont:timeExpression  "57" , "10 December 1857" , "31 July 1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Dictionnaire français-argot, Flammarion, Paris, 1901, 457 p." ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_de_Bercy> ;
+        ont:timeExpression  "457 p" , "1901" .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/16/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Émile Goudeau, Dix ans de bohème, Henry du Parc, Paris, 1888 – Reprint under the direction of Michel Golfier and Jean-Didier Wagneur (with coll. of Patrick Ramseyer), Champvallon, 2000, 573 p." ;
+        ont:person          <http://dbpedia.org/resource/Otto_Dix> , <http://dbpedia.org/resource/Jacques_de_Harlay> , <http://dbpedia.org/resource/Saint_Patrick> ;
+        ont:place           <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/Ans> , <http://dbpedia.org/resource/Coll> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_de_Bercy> ;
+        ont:timeExpression  "2000" , "573 p" , "1888 –" .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/9/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Le Petit Frère à Ferdinand" ;
+        ont:person   <http://dbpedia.org/resource/Ferdinand_II_of_Aragon> ;
+        ont:subject  <http://dbpedia.org/resource/Léon_de_Bercy> .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ne jurez pas aux femmes (c. 1895), ditty, lyrics by Briollet and Hiks, music by Tiska et Del, Répertoire libre." ;
+        ont:subject         <http://dbpedia.org/resource/Léon_de_Bercy> ;
+        ont:timeExpression  "1895" .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Léon de Bercy, Montmartre et ses chansons : Poètes et Chansonniers, with 5 portraits-charges by Charles Léandre, éd. H. Daragon, Paris, 1902 (available on Gallica)" ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_de_Bercy> ;
+        ont:timeExpression  "1902" , "with 5" .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "A member of the literary club Les Hydropathes, he authored the reference book Montmartre et ses chansons : Poètes et Chansonniers (1902)." ;
+        ont:subject         <http://dbpedia.org/resource/Léon_de_Bercy> ;
+        ont:timeExpression  "1902" .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/15/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Dix ans de bohème on wikisource" ;
+        ont:person   <http://dbpedia.org/resource/Otto_Dix> ;
+        ont:place    <http://dbpedia.org/resource/Ans> ;
+        ont:subject  <http://dbpedia.org/resource/Léon_de_Bercy> .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/4/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Recorded under the title Illusions fichues ou Ne jurez pas aux femmes, Odéon 238385 (undated)" ;
+        ont:subject         <http://dbpedia.org/resource/Léon_de_Bercy> ;
+        ont:timeExpression  "Odéon 238385" .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Le Milliard congréganiste (1910), satirical ditty, lyrics by Léon de Bercy and V. Tarault, éd." ;
+        ont:subject         <http://dbpedia.org/resource/Léon_de_Bercy> ;
+        ont:timeExpression  "1910" .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Aristide Bruant (with collaboration of Léon Drouin de Bercy), L'Argot au XXe." ;
+        ont:person   <http://dbpedia.org/resource/Michelle_Drouin> ;
+        ont:subject  <http://dbpedia.org/resource/Léon_de_Bercy> .
+
+<http://w3id.org/polifonia/pilot/meetups/50916271/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Series Les Refrains de la Butte (1904) under the pseudonym Léon Drouin de Bercy, éd." ;
+        ont:person          <http://dbpedia.org/resource/Pseudonym> , <http://dbpedia.org/resource/Michelle_Drouin> ;
+        ont:subject         <http://dbpedia.org/resource/Léon_de_Bercy> ;
+        ont:timeExpression  "1904" .

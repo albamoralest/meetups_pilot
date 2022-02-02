@@ -5,3 +5,58 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/423820/1/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Haywood S. Warner was born in 1930 in Falls Church, Virginia, United States, and in the early 1950s, Warner sang as a backing vocalist for Van Walls on the Atlantic Records releases \"After Midnight\" and \"Open the Door\"." ;
+        ont:person          <http://dbpedia.org/resource/Bill_Haywood> ;
+        ont:place           <http://dbpedia.org/resource/Virginia> , <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Little_Sonny_Warner> ;
+        ont:timeExpression  "1950s" , "in 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/423820/3/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He died in his hometown in April 2007, at the age of 76." ;
+        ont:subject         <http://dbpedia.org/resource/Little_Sonny_Warner> ;
+        ont:timeExpression  "age of 76" , "April 2007" .
+
+<http://w3id.org/polifonia/pilot/meetups/423820/2/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In his later years, Warner often performed at concerts and festivals in Falls Church." ;
+        ont:place    <http://dbpedia.org/resource/Falls_Church,_Virginia> ;
+        ont:subject  <http://dbpedia.org/resource/Little_Sonny_Warner> .
+
+<http://w3id.org/polifonia/pilot/meetups/423820/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Little Sonny Warner (October 30, 1930 – April 12, 2007) was an American blues singer." ;
+        ont:person          <http://dbpedia.org/resource/Little_Sonny_Warner> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Little_Sonny_Warner> ;
+        ont:timeExpression  "April 12 , 2007" , "October 30 , 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/423820/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His career received a boost in 1957, when he filled in for Lloyd Price at the Apollo Theatre in Harlem." ;
+        ont:person          <http://dbpedia.org/resource/Lloyd_Price> ;
+        ont:place           <http://dbpedia.org/resource/Harlem> , <http://dbpedia.org/resource/Apollo_Theatre> ;
+        ont:subject         <http://dbpedia.org/resource/Little_Sonny_Warner> ;
+        ont:timeExpression  "boost in 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/423820/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Warner's biggest hit was saxophonist Big Jay McNeely's \"There's Something On Your Mind\", which became a gold record for Checker Records in 1959." ;
+        ont:person          <http://dbpedia.org/resource/Tenor_saxophone> , <http://dbpedia.org/resource/Big_Jay_McNeely> ;
+        ont:subject         <http://dbpedia.org/resource/Little_Sonny_Warner> ;
+        ont:timeExpression  "in 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/423820/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "F.C. Native and Gold Record Winner Haywood ‘Little Sonny’ Warner Dies" ;
+        ont:person   <http://dbpedia.org/resource/Bill_Haywood> ;
+        ont:subject  <http://dbpedia.org/resource/Little_Sonny_Warner> .
+
+<http://w3id.org/polifonia/pilot/meetups/423820/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He performed with James Brown, Etta James and B.B. King." ;
+        ont:person   <http://dbpedia.org/resource/Etta_James> , <http://dbpedia.org/resource/James_Brown> ;
+        ont:subject  <http://dbpedia.org/resource/Little_Sonny_Warner> .

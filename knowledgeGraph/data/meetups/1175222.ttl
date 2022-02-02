@@ -5,3 +5,464 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/4/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "They were reunited after the war, when she returned to Germany in a British uniform." ;
+        ont:place    <http://dbpedia.org/resource/United_Kingdom> , <http://dbpedia.org/resource/Germany> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was the biggest male movie star in Germany between 1930 and 1960 and one of the most popular German actors of the twentieth century." ;
+        ont:place           <http://dbpedia.org/resource/Germany> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "between 1930" , "1960" , "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "When the Nazis came to power in 1933, Albers and his Jewish girlfriend Hansi Burg moved to Lake Starnberg in Bavaria." ;
+        ont:person          <http://dbpedia.org/resource/Hansi_Burg> ;
+        ont:place           <http://dbpedia.org/resource/Bavaria> , <http://dbpedia.org/resource/Lake_Starnberg> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "power in 1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/39/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "München: Heyne, 1980, ISBN 3-453-86018-7" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "ISBN 3-453-86018-7" , "1980" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/2/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was also in Berlin that Albers began a long-term relationship with Jewish actress Hansi Burg (1898–1975)." ;
+        ont:person          <http://dbpedia.org/resource/Hansi_Burg> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1898–1975" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/38/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Herausgegeben von Hilmar Hoffmann und Walter Schobert in Zusammenarbeit mit dem Deutschen Institut für Filmkunde, Wiesbaden." ;
+        ont:person   <http://dbpedia.org/resource/Johann_Schobert> , <http://dbpedia.org/resource/Hilmar_Hoffmann> ;
+        ont:place    <http://dbpedia.org/resource/Wiesbaden> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/6/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "This was promoted by his increasing alcoholism during the 1950s." ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hans Albers was born in Hamburg, the son of a butcher, and grew up in the district of St. Georg." ;
+        ont:person   <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:place    <http://dbpedia.org/resource/Hamburg> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/4/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hansi Burg went to Switzerland and then to Great Britain in 1939, but they secretly remained a couple with him even managing to send her financial support." ;
+        ont:person          <http://dbpedia.org/resource/Hansi_Burg> ;
+        ont:place           <http://dbpedia.org/resource/Great_Britain> , <http://dbpedia.org/resource/Switzerland> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "in 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/42/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "In: Carl Zuckmayer Jahrbuch/ hg." ;
+        ont:person   <http://dbpedia.org/resource/Carl_Zuckmayer> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hans Philipp August Albers (22 September 1891 – 24 July 1960) was a German actor and singer." ;
+        ont:person          <http://dbpedia.org/resource/Hans_Philipp> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "24 July 1960" , "22 September 1891" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/39/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "(= Heyne-Filmbibliothek, Band 18)" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "Band 18" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/6/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By the early 1950s, his age finally showed and his powerful presence and freshness was almost gone." ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1950s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/37/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Berlin: Universitas-Verlag, 1975, ISBN 3-8004-0818-X" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1975" , "ISBN 3-8004-0818-X" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/48/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Photographs of Hans Albers and Bibliography" ;
+        ont:person   <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/43/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ellert & Richter, Hamburg 2005 (Hamburger Köpfe) ISBN 3-8319-0224-0" ;
+        ont:place           <http://dbpedia.org/resource/Hamburg> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "Hamburg 2005" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/29/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "7)1952" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "7" , "1952" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/12/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hans-Albers-Platz, one block south of the Reeperbahn, features a statue of Albers, created by the German artist Jörg Immendorff." ;
+        ont:place           <http://dbpedia.org/resource/Reeperbahn> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "one block south" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/47/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hans Albers at IMDb" ;
+        ont:person   <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/42/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Positiv“ Carl Zuckmayers Beurteilungen über Hans Albers und Heinz Rühmann." ;
+        ont:person   <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/46/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Works by or about Hans Albers at Internet Archive" ;
+        ont:person   <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/41/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Berlin; Weinheim: Beltz Quadriga 1995" ;
+        ont:place           <http://dbpedia.org/resource/Berlin> , <http://dbpedia.org/resource/Weinheim> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "Beltz Quadriga 1995" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/39/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Uwe-Jens Schumann: Hans Albers – seine Filme, sein Leben." ;
+        ont:person   <http://dbpedia.org/resource/Hans_Albers> , <http://dbpedia.org/resource/Robert_Schumann> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/27/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Wasser für Canitoga)1944" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/2/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After the war Albers moved to Berlin, where he found work as a comedic actor in various Weimar-Era Berlin theatres." ;
+        ont:place    <http://dbpedia.org/resource/Weimar_Republic> , <http://dbpedia.org/resource/Berlin> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/38/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Eberhard Spieß: Hans Albers." ;
+        ont:person   <http://dbpedia.org/resource/Hans_Albers> , <http://dbpedia.org/resource/Wolfram_Eberhard> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/40/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Frankfurt am Main: Fischer-Taschenbuch-Verlag, 1981, ISBN 3-596-10662-1" ;
+        ont:place           <http://dbpedia.org/resource/Frankfurt> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1981" , "ISBN 3-596-10662-1" , "Fischer-Taschenbuch-Verlag" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/33/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Auf der Reeperbahn nachts um halb eins)1957" ;
+        ont:place           <http://dbpedia.org/resource/Reeperbahn> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/6/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Eventually he found an opening with respectful wisdom-with-age type character parts with some public acclaim, but with these never again enjoyed the huge stardom of the 1930s and early 1940s." ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1940s" , "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/4/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Some of the scenes are said to have been shot in Prague because of bomb damage to Hamburg." ;
+        ont:place    <http://dbpedia.org/resource/Prague> , <http://dbpedia.org/resource/Hamburg> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/37/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Joachim Cadenbach: Hans Albers." ;
+        ont:person   <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/32/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Auf der Reeperbahn nachts um halb eins)" ;
+        ont:place    <http://dbpedia.org/resource/Reeperbahn> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/43/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Matthias Wegner: Hans Albers." ;
+        ont:person   <http://dbpedia.org/resource/Peter_Wegner> , <http://dbpedia.org/resource/Saint_Matthias> , <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/29/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Auf der Reeperbahn nachts um halb eins\" (from picture Große Freiheit Nr." ;
+        ont:place    <http://dbpedia.org/resource/Reeperbahn> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/4/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "As the ultimate sign of his popularity, the Nazis even silently accepted his relationship with Hansi Burg for a long time." ;
+        ont:person   <http://dbpedia.org/resource/Hansi_Burg> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/12/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "One of his signature songs is Auf der Reeperbahn nachts um halb eins, (\"On the Reeperbahn at Half Past Midnight\") which has become one of the best-known songs about Hamburg and also an unofficial anthem of the St. Pauli district where the Reeperbahn itself is located." ;
+        ont:place           <http://dbpedia.org/resource/Reeperbahn> , <http://dbpedia.org/resource/Hamburg> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "one" , "One" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/2/9>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Soon thereafter, Albers played big-mouthed strong man Mazeppa alongside Marlene Dietrich in her star-making classic Der blaue Engel (The Blue Angel)." ;
+        ont:person   <http://dbpedia.org/resource/Ivan_Mazepa> , <http://dbpedia.org/resource/Marlene_Dietrich> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/42/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Michaela Krützen: „Gruppe 1:" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "Gruppe 1" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/28/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"La Paloma\" (from picture Große Freiheit Nr. 7)" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "7" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/11/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Albers actually had no significant experience on the water, this being restricted to a one-day trip to Heligoland." ;
+        ont:place    <http://dbpedia.org/resource/Heligoland> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/41/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Michaela Krützen: Hans Albers: Eine deutsche Karriere." ;
+        ont:person   <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Das Herz von St. Pauli\" (from picture Das Herz von St. Pauli)1959" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After his release from the Hospital in Wiesbaden where he had been treated, he performed in the local Residenztheater in comedies, antics and operettas." ;
+        ont:place    <http://dbpedia.org/resource/Wiesbaden> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/40/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Hans-Christoph Blumenberg: In meinem Herzen, Schatz … Die Lebensreise des Schauspielers und Sängers Hans Albers ." ;
+        ont:person   <http://dbpedia.org/resource/Hans_Albers> , <http://dbpedia.org/resource/Hans_Blumenberg> , <http://dbpedia.org/resource/Alexander_Herzen> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Jawohl, meine Herrn\" [with Heinz Rühmann] (from picture Der Mann, der Sherlock Holmes war)1939" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Kind, du brauchst nicht weinen (from picture Der Draufgänger)1932" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/4/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Also in 1943, Albers starred in another classic German film Große Freiheit Nr. 7 with actress Ilse Werner." ;
+        ont:person          <http://dbpedia.org/resource/Ilse_Werner> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "7" , "in 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/32/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"Auf der Reeperbahn nachts um halb eins\" (from picture" ;
+        ont:place    <http://dbpedia.org/resource/Reeperbahn> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"In meinem Herzen Schatz, da ist für viele Platz\" (from picture Savoy-Hotel 217)1937" ;
+        ont:person          <http://dbpedia.org/resource/Alexander_Herzen> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1937" , "Savoy-Hotel 217" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Nimm mich mit, Kapitän, auf die Reise\" (from picture Käpt'n Bay-Bay)1954" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/24/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "\"Mein Gorilla hat 'ne Villa im Zoo\" (from picture Heut kommt's drauf an)1936" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "1931" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1931" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/2/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After roles in over one hundred silent films, Albers starred in the first German talkie Die Nacht gehört uns (The Night Belongs to Us) in 1929." ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "in 1929" , "hundred" , "over one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/23/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Komm und spiel mit mir (from picture Quick)1933" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1933" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/8/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He was cremated and subsequently buried at the Ohlsdorf Cemetery in Hamburg, the city of his birth." ;
+        ont:place    <http://dbpedia.org/resource/Hamburg> , <http://dbpedia.org/resource/Ohlsdorf_Cemetery> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As a case in point, McDonald's used such an image in an American television ad campaign in 1986." ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "campaign in 1986" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/4/10>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The sailing ship Padua for the outdoor scenes of the film has survived under Soviet and Russian flag until this day as Kruzenshtern." ;
+        ont:person   <http://dbpedia.org/resource/Adam_Johann_von_Krusenstern> ;
+        ont:place    <http://dbpedia.org/resource/Padua> , <http://dbpedia.org/resource/Soviet_Union> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1915 Albers was drafted to serve in the German Army in World War I, but was wounded early on." ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "In 1915" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/2/11>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was probably at his best when teamed-up with fellow German movie legend Heinz Rühmann, as in Bombs on Monte Carlo (1931) and Der Mann, der Sherlock Holmes war (1937)." ;
+        ont:place           <http://dbpedia.org/resource/Monte_Carlo> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1931" , "1937" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/4/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1943, Albers was paid a huge sum of money to star in UFA's big-budgeted anniversary picture Münchhausen but was careful not to give the impression that he was endorsing the National Socialist regime, which was indeed never asked of him." ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "In 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Flieger, grüß' mit mir die Sonne (from picture F. P. 1 antwortet nicht)" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "F. P. 1" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/5/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After the Second World War ==" ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/42/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Göttingen 2002, S. 179-227" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "2002" , "S. 179-227" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "While Albers himself never showed public support for the Nazi regime, he became the most popular actor under Nazi rule." ;
+        ont:place    <http://dbpedia.org/resource/Nazi_Germany> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Many of Albers' songs were humorous tales of drunken, womanizing sailors on shore-leave, with double entendres such as \"It hurts the first time, but with time, you get used to it\" in reference to a girl falling in love for the first time." ;
+        ont:person   <http://dbpedia.org/resource/Double_entendre> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/2/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The relationship ended only when he died in 1960." ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "in 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/11/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Outside of Northern Europe, Albers remains virtually unknown; however the image of an older man in a seaman's cap and raincoat playing accordion and singing remains familiar internationally." ;
+        ont:person   <http://dbpedia.org/resource/Sailor> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/3/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The 1930s and the Second World War ==" ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1930s" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hans Albers collapsed during a theater performance with massive internal bleeding and died three months later on 24 July 1960 at a sanatorium in Kempfenhausen near Lake Starnberg at the age of 68." ;
+        ont:person          <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:place           <http://dbpedia.org/resource/Lake_Starnberg> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "age of 68" , "three" , "24 July 1960" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/38/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Verlag: Frankfurt am Main: Kommunales Kino, 1977" ;
+        ont:person          <http://dbpedia.org/resource/Eusebio_Kino> ;
+        ont:place           <http://dbpedia.org/resource/Frankfurt> ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1977" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/10/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Albers' name will forever be closely associated with his hometown of Hamburg, in particular the district of St. Pauli where there is a square named Hans-Albers-Platz in his honour." ;
+        ont:place    <http://dbpedia.org/resource/Hamburg> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/2/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Albers himself shot to fame in 1930 with the movie The Copper and constantly enhanced his star status with similar daredevil roles in the 1930s." ;
+        ont:subject         <http://dbpedia.org/resource/Hans_Albers> ;
+        ont:timeExpression  "1930s" , "in 1930" .
+
+<http://w3id.org/polifonia/pilot/meetups/1175222/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "After World War II, well-funded Albers avoided the financial plight and professional banning many actors faced on account of his association with Hansi Burg." ;
+        ont:person   <http://dbpedia.org/resource/Hansi_Burg> ;
+        ont:subject  <http://dbpedia.org/resource/Hans_Albers> .

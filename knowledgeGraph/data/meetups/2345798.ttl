@@ -5,3 +5,110 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His brother George Washington Thomas was also a skilled piano player and composer, while his sister Sippie Wallace and niece Hociel Thomas were singers of note." ;
+        ont:person   <http://dbpedia.org/resource/George_Gershwin> , <http://dbpedia.org/resource/Composer> , <http://dbpedia.org/resource/George_Washington> , <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:subject  <http://dbpedia.org/resource/Hersal_Thomas> .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Thomas recorded under his own name, and as an accompanist to Hociel Thomas, Sippie Wallace, Lilian Miller and possibly, Sodarisa Miller." ;
+        ont:person   <http://dbpedia.org/resource/Accompaniment> , <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:subject  <http://dbpedia.org/resource/Hersal_Thomas> .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/12>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Sippie Wallace recorded seven of his compositions: \"A Jealous Woman Like Me\", \"A Man for Every Day of the Week\", \"Dead Drunk Blues\", \"Have You Ever Been Down?\", \"I Feel Good\", \"Shorty George Blues\" and \"Trouble Everywhere I Roam\"." ;
+        ont:person          <http://dbpedia.org/resource/Sippie_Wallace> ;
+        ont:subject         <http://dbpedia.org/resource/Hersal_Thomas> ;
+        ont:timeExpression  "seven" .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Thomas was born in Houston, Texas, United States, and displayed an early talent for blues playing and composition." ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Texas> , <http://dbpedia.org/resource/Houston> ;
+        ont:subject  <http://dbpedia.org/resource/Hersal_Thomas> .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His most famous track was \"Suitcase Blues\" (8958-A Okeh 8227), which was issued on CD in 1992 as part of the box set, Roots 'N Blues: The Retrospective." ;
+        ont:subject         <http://dbpedia.org/resource/Hersal_Thomas> ;
+        ont:timeExpression  "CD in 1992" , "8958-A Okeh 8227" .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/10>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The first three are listed as having been composed by \"Thomas\", though it is not clear if this refers to Hersal or his brother." ;
+        ont:person          <http://dbpedia.org/resource/Listed_building> ;
+        ont:subject         <http://dbpedia.org/resource/Hersal_Thomas> ;
+        ont:timeExpression  "three" .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Though he died at a young age, Thomas was nonetheless an influence on the Chicago boogie woogie school of pianists." ;
+        ont:place    <http://dbpedia.org/resource/Chicago> ;
+        ont:subject  <http://dbpedia.org/resource/Hersal_Thomas> .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/8>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1926, he recorded a session with Hociel Thomas and Louis Armstrong." ;
+        ont:person          <http://dbpedia.org/resource/Louis_Armstrong> ;
+        ont:subject         <http://dbpedia.org/resource/Hersal_Thomas> ;
+        ont:timeExpression  "In 1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/13>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Thomas died of food poisoning while working at Penny's Pleasure Inn in Detroit, Michigan." ;
+        ont:place    <http://dbpedia.org/resource/Michigan> , <http://dbpedia.org/resource/Detroit> ;
+        ont:subject  <http://dbpedia.org/resource/Hersal_Thomas> .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He was one of several musicians in his family." ;
+        ont:subject         <http://dbpedia.org/resource/Hersal_Thomas> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Hersal Thomas (September 9, 1906 – June 2, 1926) was an American blues pianist and composer." ;
+        ont:person          <http://dbpedia.org/resource/Composer> , <http://dbpedia.org/resource/Hersal_Thomas> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Hersal_Thomas> ;
+        ont:timeExpression  "September 9 , 1906" , "June 2 , 1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Thomas brothers also co-wrote \"The Fives\", which Ammons and Lewis cited as an essential boogie-woogie number." ;
+        ont:place    <http://dbpedia.org/resource/Isle_of_Lewis> ;
+        ont:subject  <http://dbpedia.org/resource/Hersal_Thomas> .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/11>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also worked in session with King Oliver." ;
+        ont:person   <http://dbpedia.org/resource/King_Oliver> ;
+        ont:subject  <http://dbpedia.org/resource/Hersal_Thomas> .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Albert Ammons and Meade Lux Lewis both cited him as an influence." ;
+        ont:person   <http://dbpedia.org/resource/Albert_Ammons> ;
+        ont:subject  <http://dbpedia.org/resource/Hersal_Thomas> .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/9>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The songs recorded on that occasion were \"Deep Water Blues\" (9519-A Okeh 8297), \"Lonesome Hours\" (9522-A Okeh 8297), \"Listen To Ma\" (9521-A Okeh 8346), and \"G'wan, I Told You\" (9520-A Okeh 8346)." ;
+        ont:subject         <http://dbpedia.org/resource/Hersal_Thomas> ;
+        ont:timeExpression  "9520-A Okeh 8346" , "9521-A Okeh 8346" , "9519-A Okeh 8297" , "9522-A Okeh 8297" .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/1/14>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The circumstances of his death, at the age of 19, have never been clarified." ;
+        ont:subject         <http://dbpedia.org/resource/Hersal_Thomas> ;
+        ont:timeExpression  "age of 19" .
+
+<http://w3id.org/polifonia/pilot/meetups/2345798/0/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He recorded a number of sides for Okeh Records in 1925 and 1926." ;
+        ont:subject         <http://dbpedia.org/resource/Hersal_Thomas> ;
+        ont:timeExpression  "in 1925" , "1926" .

@@ -5,3 +5,90 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/2/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Knapp was born in New York City." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/4/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Other hymn tunes by Knapp include \"Albertson\", the tune for \"Jesus Christ is Passing By\" by J. Denham Smith, and for \"When My Love to Christ Grows Weak\" by John R. Wreford." ;
+        ont:person   <http://dbpedia.org/resource/Jesus> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The hymn writer Fanny Crosby was also a member of that church and a friend of Palmer's." ;
+        ont:person   <http://dbpedia.org/resource/Bing_Crosby> , <http://dbpedia.org/resource/Carson_Palmer> , <http://dbpedia.org/resource/Fanny_Mendelssohn> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/4/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She wrote over 500 hymn tunes, the most familiar being the tune now called \"Assurance\" for Fanny Crosby's lyrics Blessed Assurance." ;
+        ont:person          <http://dbpedia.org/resource/Fanny_Mendelssohn> , <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject         <http://dbpedia.org/resource/Phoebe_Knapp> ;
+        ont:timeExpression  "over 500" .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Her parents were Walter C. Palmer and Phoebe Worrall Palmer." ;
+        ont:person   <http://dbpedia.org/resource/Carson_Palmer> , <http://dbpedia.org/resource/Phoebe_Palmer> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/6/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Knapp died in Poland, Maine." ;
+        ont:place    <http://dbpedia.org/resource/Poland,_Maine> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/4/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Her tune \"Consecration\" has been matched to \"My Spirit Soul and Body\" by Mary Dagworthy James." ;
+        ont:person   <http://dbpedia.org/resource/James_the_Great> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She and her husband were members of the John Street Methodist Episcopal Church in New York City." ;
+        ont:place    <http://dbpedia.org/resource/New_York_City> , <http://dbpedia.org/resource/John_Street_Methodist_Church> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/8/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Works by or about Phoebe Knapp at Internet Archive" ;
+        ont:person   <http://dbpedia.org/resource/Phoebe_Knapp> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/4/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Another hymn by Fanny Crosby for which Knapp wrote the music is \"Nearer the Cross\"." ;
+        ont:person   <http://dbpedia.org/resource/Fanny_Mendelssohn> , <http://dbpedia.org/resource/Bing_Crosby> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/5/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Phoebe Palmer Knapp also wrote sacred choral and solo works, perhaps the best known of which is the Palm Sunday aria \"Open the Gates of the Temple\"." ;
+        ont:person   <http://dbpedia.org/resource/Phoebe_Knapp> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Phoebe Palmer Knapp (March 9, 1839 – July 10, 1908) was an American composer of music for hymns and an organist." ;
+        ont:person          <http://dbpedia.org/resource/Composer> , <http://dbpedia.org/resource/Phoebe_Knapp> ;
+        ont:place           <http://dbpedia.org/resource/United_States> ;
+        ont:subject         <http://dbpedia.org/resource/Phoebe_Knapp> ;
+        ont:timeExpression  "March 9 , 1839" , "July 10 , 1908" .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/2/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "She married Joseph Fairchild Knapp, one of the founders and the second president of the Metropolitan Life Insurance Company." ;
+        ont:subject         <http://dbpedia.org/resource/Phoebe_Knapp> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/1597545/12/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The Mutopia Project has compositions by Phoebe Knapp" ;
+        ont:person   <http://dbpedia.org/resource/Phoebe_Knapp> ;
+        ont:subject  <http://dbpedia.org/resource/Phoebe_Knapp> .

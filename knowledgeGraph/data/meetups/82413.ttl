@@ -5,3 +5,634 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/24/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When he decided that he himself should sing the songs that were rejected by the stars, he succeeded only in reaching a limited audience (including Léo Ferré and Georges Brassens), the public remaining unconvinced of his talent for singing." ;
+        ont:person   <http://dbpedia.org/resource/Georges_Brassens> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/7/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "From 1932 to 1937, Vian studied at Lycée Hoche in Versailles." ;
+        ont:place           <http://dbpedia.org/resource/Palace_of_Versailles> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1937" , "From 1932" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/2/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He served as liaison for Hoagy Carmichael, Duke Ellington and Miles Davis in Paris, wrote for several French jazz-reviews (Le Jazz Hot, Paris Jazz) and published numerous articles dealing with jazz both in the United States and in France." ;
+        ont:person   <http://dbpedia.org/resource/Hoagy_Carmichael> , <http://dbpedia.org/resource/Miles_Davis> , <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:place    <http://dbpedia.org/resource/United_States> , <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/5/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Boris' later childhood was also marked with sickness as he suffered from Rheumatic fever when he was 12." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "12" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/1/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His novel L'Écume des jours (literally: \"The Foam of Days\") is the best known of these works and one of the few translated into English, under the title of Froth on the Daydream." ;
+        ont:place           <http://dbpedia.org/resource/Daydream_Island> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/5/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vian was born in 1920 into an upper middle-class family in the wealthy Parisian suburb of Ville d'Avray (Hauts-de-Seine)." ;
+        ont:place           <http://dbpedia.org/resource/Hauts-de-Seine> , <http://dbpedia.org/resource/Suburb> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1920" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Those published under the pseudonym Vernon Sullivan were bizarre parodies of criminal fiction, highly controversial at the time of their release due to their unconventional outlook." ;
+        ont:person   <http://dbpedia.org/resource/Arthur_Sullivan> , <http://dbpedia.org/resource/Pseudonym> , <http://dbpedia.org/resource/Edward_Vernon> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/19/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The record of Vian's songs performed by himself was not successful in France until ten years after his death." ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "until ten" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/18/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vian's songs were successful; in 1954 he embarked on his first tour as singer-songwriter." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/13/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vian wrote three more Vernon Sullivan novels from 1947 to 1949." ;
+        ont:person          <http://dbpedia.org/resource/Edward_Vernon> , <http://dbpedia.org/resource/Arthur_Sullivan> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "three" , "from 1947" , "1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/67/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Chansons possibles et impossibles (1956)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/66/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nouveau code de la route 1955 (1955)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/5/5>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The name \"Boris\" was chosen by Yvonne, an avid classical music lover, after seeing a performance of Mussorgsky's opera Boris Godunov." ;
+        ont:person   <http://dbpedia.org/resource/Boris_Godunov> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/9/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1942, Vian and his brothers joined a jazz orchestra under the direction of Claude Abbadie, who became a minor character in Vian's Vercoquin et le plancton." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "In 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/58/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Je voudrais pas crever (I'd prefer not to die) (posthumously published in 1962)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1962" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Boris Vian (French: [bɔʁis vjɑ̃]; 10 March 1920 – 23 June 1959) was a French polymath: writer, poet, musician, singer, translator, critic, actor, inventor and engineer who is primarily remembered for his novels." ;
+        ont:person          <http://dbpedia.org/resource/Engineer> , <http://dbpedia.org/resource/Boris_Vian> , <http://dbpedia.org/resource/Poet> , <http://dbpedia.org/resource/Polymath> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "10 March 1920" , "23 June 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/57/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Cantilènes en gelée (Cantelinas in Jelly) (1949)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/64/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Manuel de St-Germain-des-Prés, originally commissioned to be a tourist guide to the St-Germain-des-Prés district (published 1950 by Éditions Toutain)" ;
+        ont:person          <http://dbpedia.org/resource/Manuel_I_of_Portugal> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/8/4>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He entered École Centrale des Arts et Manufactures in Paris and subsequently moved to Angoulême when the school moved there because of the war." ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/19/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Although Vian accepted a change to one verse, the song was banned from TV and radio channels until 1967." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "one verse" , "until 1967" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/14/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ironically, Sartre and Michelle Vian commenced a relationship that would eventually destroy Vian's marriage." ;
+        ont:person   <http://dbpedia.org/resource/Jean-Paul_Sartre> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/7/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "It was also in 1936 that Vian became interested in jazz; the next year he started playing the trumpet and joined the Hot Club de France." ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1936" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/56/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Barnum's Digest (1948, a collection of 10 poems)" ;
+        ont:person          <http://dbpedia.org/resource/P._T._Barnum> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "collection of 10" , "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/49/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Le Dernier des métiers (The Last of the Trades), play (1950, published 1965 by Éditions Pauvert)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1965" , "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/37/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vernon Sullivan novels ==" ;
+        ont:person   <http://dbpedia.org/resource/Arthur_Sullivan> , <http://dbpedia.org/resource/Edward_Vernon> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/13/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Eventually the hoax became known and the book became one of the best-selling titles of that year." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "one" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/62/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The World of Null-A by A. E. van Vogt, as Le Monde des Ã (1958)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/48/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "L'Équarrissage pour tous (Knackery for All), play (1947, published 1950 by Éditions Toutain), published in English as The Knacker's ABC." ;
+        ont:person          <http://dbpedia.org/resource/Tous_son_of_Nowzar> , <http://dbpedia.org/resource/Knacker> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1947" , "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/24/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Almost immediately after his death, L'Écume des jours, and then L'automne à Pékin, L'Arrache-cœur, and L'Herbe rouge, began to gain recognition in France and were taken up by the young in the 1960s and 1970s." ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1970s" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/17/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vian also started writing plays, the first of which, L'Équarrissage pour tous (Slaughter for Everyone), was staged the year it was written, 1950." ;
+        ont:person          <http://dbpedia.org/resource/Tous_son_of_Nowzar> , <http://dbpedia.org/resource/Sgt._Slaughter> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/61/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Lady in the Lake by Raymond Chandler as La dame du lac (1948)" ;
+        ont:person          <http://dbpedia.org/resource/Raymond_Chandler> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/54/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Le Goûter des généraux (The Snack of Generals), (1951, published 1962 by Collège de 'Pataphysique)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1962" , "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/11/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The poem was signed Bison Ravi (\"Delighted Bison\"), an anagram of Vian's real name." ;
+        ont:place    <http://dbpedia.org/resource/Ravi_River> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/9/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Loustalot died accidentally in 1949 falling from a building he was trying to climb on in order to enter into a flat by the window, after a bet." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/60/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The Big Sleep by Raymond Chandler as Le grand sommeil (1948)" ;
+        ont:person          <http://dbpedia.org/resource/Raymond_Chandler> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/53/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Les Bâtisseurs d'Empire (The Empire Builders), (1957, published 1959 by Collège de 'Pataphysique)" ;
+        ont:place           <http://dbpedia.org/resource/First_French_Empire> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1957" , "1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/46/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Le Loup-garou (The Werewolf) (1945–53?, published posthumously in 1970 by Éditions Bourgois)" ;
+        ont:person          <http://dbpedia.org/resource/Werewolf> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1970" , "1945–53" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/39/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Les morts ont tous la même peau (The Dead All Have the Same Skin) (Éditions du Scorpion, 1947)" ;
+        ont:person          <http://dbpedia.org/resource/Tous_son_of_Nowzar> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/27/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vian is still viewed by many as the emblematic figure of Saint Germain des Prés as it existed during the postwar decade, when this district was the centre of artistic and intellectual life in Paris." ;
+        ont:place    <http://dbpedia.org/resource/Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/22/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "A few minutes after the film began, he reportedly blurted out: \"These guys are supposed to be American?" ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/18/7>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He also wrote \"Java Pour Petula\" (a song about an English girl arriving in France, written in Parisian argot) for Petula Clark's first concert performances in France." ;
+        ont:person   <http://dbpedia.org/resource/Petula_Clark> ;
+        ont:place    <http://dbpedia.org/resource/Java> , <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/8/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "When WWII started, Vian was not accepted into the army due to poor health." ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/52/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Le Chasseur français (The French Hunter), vaudeville (1955, published 1971 by U.G.E.)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1971" , "1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/45/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Le Ratichon baigneur (Toothy Bather) (1946–52, published posthumously in 1981 by Éditions Bourgois)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1981" , "1946–52" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/38/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "J'irai cracher sur vos tombes (I Shall Spit on Your Graves) (Éditions du Scorpion, 1946)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/19/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He had been unhappy about the fact that French singer Marcel Mouloudji (1922–1994), who had interpreted \"Le Deserteur\" (The Deserter) on stage the year before, had not accepted the original lyrics because he thought that they would lead to the song being banned." ;
+        ont:person          <http://dbpedia.org/resource/Marcel_Mouloudji> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1922–1994" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/14/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "\"The foam of the days\") published in English under the title: Froth on the Daydream." ;
+        ont:place    <http://dbpedia.org/resource/Daydream_Island> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/7/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "These gatherings became the basis of his early novels: Trouble dans les andains (Turmoil in the Swaths) (1943) and particularly Vercoquin et le plancton (Vercoquin and the Plankton) (1943–44)." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1943–44" , "1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/17/7>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Ursula and Boris married in 1954." ;
+        ont:person          <http://dbpedia.org/resource/Ursula_Kuczynski> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1954" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/51/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Série Blême (Pallid Series), tragedy in three acts (1952?, published 1971 by U.G.E.)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1952" , "tragedy in three" , "1971" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/44/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Les Lurettes fourrées (Ages Fulfilled) (1948–49, published 1950 by Le Livre de Poche as an addendum to their edition of L'Herbe rouge)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1950" , "1948–49" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/18/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The only work that appeared after 1953 was a revised version of L'automne à Pékin, published 1956." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1956" , "after 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/20/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1958, Vian worked on the opera Fiesta with Darius Milhaud, and a collection of his essays, En avant la zizique..." ;
+        ont:person          <http://dbpedia.org/resource/Darius_Milhaud> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "In 1958" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/13/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vian persuaded his publisher friend Jean d'Halluin to publish the novel in 1947." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "novel in 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/50/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Tête de Méduse (Medusa's Head), comedy in one act (1951, published 1971 by U.G.E.)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1971" , "one act" , "1951" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/43/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Les Fourmis (The Ants) (1944–47, published 1949 by Éditions du Scorpion)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1944–47" , "1949" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/36/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "L'Arrache-cœur (Heartsnatcher) (1947–1951, published 1953 by Éditions Vrille; Heartsnatcher)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1947–1951" , "1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/17/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He continued his literary career by writing Vernon Sullivan novels, and also published poetry collections: Barnum's Digest (1948) and Cantilènes en gelée (Cantelinas in Jelly, 1949)." ;
+        ont:person          <http://dbpedia.org/resource/P._T._Barnum> , <http://dbpedia.org/resource/Edward_Vernon> , <http://dbpedia.org/resource/Arthur_Sullivan> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1949" , "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/5/3>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vian was the second of four children: the others were Lélio (1918–1984), Alain (1921–1995) and Ninon (1924–2003)." ;
+        ont:person          <http://dbpedia.org/resource/Lio> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1921–1995" , "of four" , "1918–1984" , "1924–2003" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/35/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "L'Herbe rouge (The Red Grass) (1948–49, published 1950 by Éditions Toutain)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1950" , "1948–49" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/11/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His literary career started in 1943 with his first publication, a poem, in the Hot Club de France bulletin." ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/9/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Also in 1940, Vian met Jacques Loustalot, who became a recurring character in several early novels and short stories as \"The Colonel\"." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1940" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/41/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Elles se rendent pas compte (They Do Not Realize) (1948–50, published 1950 by Éditions du Scorpion)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1948–50" , "1950" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/34/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "L'Automne à Pékin (Autumn in Peking) (1946, published 1947 by Éditions du Scorpion, revised version published in 1956; Autumn in Peking)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1956" , "1946" , "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/18/6>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He wrote the first French rock and roll songs with his friend Henri Salvador, who sang them under the nickname Henry Cording." ;
+        ont:person   <http://dbpedia.org/resource/Henri_Salvador> ;
+        ont:place    <http://dbpedia.org/resource/France> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/8/2>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vian became fully immersed in the French jazz scene: for example, in 1939 he helped organize Duke Ellington's second concert in France." ;
+        ont:person          <http://dbpedia.org/resource/Duke_Ellington> ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/40/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Et on tuera tous les affreux (To Hell With the Ugly) (Éditions du Scorpion, 1948)" ;
+        ont:person          <http://dbpedia.org/resource/Tous_son_of_Nowzar> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/33/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "L'Écume des jours (Foam of the Days) (1946, published 1947 by Éditions Gallimard; translated variously as Froth on the Daydream, Mood Indigo and Foam of the Daze)" ;
+        ont:place           <http://dbpedia.org/resource/Daydream_Island> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1947" , "1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/26/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As a critic, Boris Vian was the first to support Gainsbourg in Le Canard enchaîné, in 1957." ;
+        ont:person          <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/19/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Still in 1955, Vian decided to perform some of his songs on stage himself." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/14/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Vian admired Sartre in particular and gave him a prominent role—as \"Jean-Sol Partre\"—in L'Écume des jours (litt." ;
+        ont:person   <http://dbpedia.org/resource/Jean-Paul_Sartre> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/7/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "They partook of mescaline in the form of a Mexican cactus called peyote." ;
+        ont:person   <http://dbpedia.org/resource/Cactus> ;
+        ont:place    <http://dbpedia.org/resource/Mexico> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/17/6>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vian separated from his wife, and in 1950 he met Ursula Kübler (1928–2010), a Swiss dancer; the two started an affair, and in 1951 Vian divorced Michelle." ;
+        ont:person          <http://dbpedia.org/resource/Ursula_Kuczynski> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1951" , "two" , "in 1950" , "1928–2010" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/18/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vian's last novel, L'Arrache-cœur (The Heartsnatcher), was published in 1953, yet again to poor sales and Vian effectively stopped writing fiction." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1953" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/32/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vercoquin et le plancton (Vercoquin and the Plankton) (1943–45, published 1947 by Éditions Gallimard)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1943–45" , "1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/25/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "As a songwriter, Vian inspired Serge Gainsbourg, who used to attend his show at the cabaret Les Trois Baudets and who wrote, thirty years later: \"I took it on the chin [...], he sang terrific things [...], it is because I heard him that I decided to try something interesting\"." ;
+        ont:person          <http://dbpedia.org/resource/Serge_Gainsbourg> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "thirty" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/20/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1957, Vian completed another play: Les Bâtisseurs d'empire (The Empire Builders), which was only published and staged in 1959." ;
+        ont:place           <http://dbpedia.org/resource/First_French_Empire> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1959" , "In 1957" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/13/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "The book was ascribed to a fictitious American writer, Vernon Sullivan, with Vian credited as translator." ;
+        ont:person   <http://dbpedia.org/resource/Edward_Vernon> , <http://dbpedia.org/resource/Arthur_Sullivan> ;
+        ont:place    <http://dbpedia.org/resource/United_States> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/31/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Trouble dans les andains (Turmoil in the Swaths) (1942–43, published posthumously in 1966 by La Jeune Parque)" ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1942–43" , "in 1966" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/24/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "During his lifetime, only the novels published under the name of Vernon Sullivan were successful." ;
+        ont:person   <http://dbpedia.org/resource/Arthur_Sullivan> , <http://dbpedia.org/resource/Edward_Vernon> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/17/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The year 1948 saw the birth of Vian's daughter, Carole." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/12/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Raymond Queneau and Jean Rostand helped Vian to publish this work at Éditions Gallimard in 1947, along with several works Vian completed in 1946." ;
+        ont:person          <http://dbpedia.org/resource/Jean_Rostand> , <http://dbpedia.org/resource/Raymond_Queneau> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1946" , "in 1947" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/11/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By this time he was an accomplished jazz trumpeter, and in 1943 he wrote his first novel, Trouble dans les andains (Turmoil in the Swaths)." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1943" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/9/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "She taught Vian English and introduced him to translations of American literature." ;
+        ont:person   <http://dbpedia.org/resource/American_literature> ;
+        ont:subject  <http://dbpedia.org/resource/Boris_Vian> .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/22/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "On the morning of 23 June 1959, Vian was at the Cinéma Marbeuf for the screening of the film version of I will Spit on Your Graves." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "23 June 1959" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/18/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "His first album, Chansons possibles et impossibles (Possible and Impossible Songs), was also recorded in 1955." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/8/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "He subsequently enrolled at Lycée Condorcet, Paris, where he studied special mathematics until 1939." ;
+        ont:person          <http://dbpedia.org/resource/Marquis_de_Condorcet> ;
+        ont:place           <http://dbpedia.org/resource/Paris> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "until 1939" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/14/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "The year 1946 marked a turning point in Vian's life: At one of the popular parties that he and Michelle hosted he made the acquaintance of Jean-Paul Sartre, Simone de Beauvoir and Albert Camus, became a regular in their literary circles and started regularly publishing various materials in Les Temps modernes." ;
+        ont:person          <http://dbpedia.org/resource/Simone_de_Beauvoir> , <http://dbpedia.org/resource/Albert_Camus> , <http://dbpedia.org/resource/Jean-Paul_Sartre> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "At one" , "1946" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/24/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Nevertheless the May 1968 in France generation, even more than the previous ones, loved his songs, especially because of their impertinence." ;
+        ont:place           <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "May 1968" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/17/5>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Like the previous two books, it did not sell well; Vian's financial situation had been steadily worsening since late 1948, and he was forced to take up translation of English-language literature and articles in order to get by." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "two" , "1948" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/7/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1936, Vian and his two brothers began to organize what they called \"surprise-parties\" (surprise parties)." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "In 1936" , "two" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/20/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Vian's life was endangered in 1956 by a pulmonary edema, but he survived and continued working with the same intensity as before." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "in 1956" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/13/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Frustrated by the commercial failure of his works, Vian vowed he could write a best-seller and wrote the hard-boiled novel I Spit on Your Graves (J'irai cracher sur vos tombes) in only 15 days." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "15" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/12/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1944, Vian completed Vercoquin et le plancton (Vercoquin and the Plankton), a novel inspired partly by surprise-parties of his youth and partly by his job at the AFNOR (which is heavily satirized in the novel)." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "In 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/11/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "After Vian's graduation, he and Michelle moved to the 10th arrondissement of Paris and, on 24 August 1942 he became an engineer at the French Association for Standardisation (AFNOR)." ;
+        ont:person          <http://dbpedia.org/resource/Michelle_Obama> , <http://dbpedia.org/resource/Engineer> ;
+        ont:place           <http://dbpedia.org/resource/Paris> , <http://dbpedia.org/resource/France> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "24 August 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/9/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1940, Vian met Michelle Léglise, who became his wife in 1941." ;
+        ont:person          <http://dbpedia.org/resource/Michelle_Obama> ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "In 1940" , "wife in 1941" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/18/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "By 1955, when he was working as art director for Philips, Vian was active in a wide variety of fields: song-writing, opera, screenplays and several more plays." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "By 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/82413/8/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1937, Vian graduated from Lycée Hoche, passing baccalauréats in mathematics, philosophy, Latin, Greek and German." ;
+        ont:subject         <http://dbpedia.org/resource/Boris_Vian> ;
+        ont:timeExpression  "In 1937" .

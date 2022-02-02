@@ -5,3 +5,65 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/1476033/2/1>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1955 Fuentes stopped performing in the group, but he has maintained his position as producer, musical arranger and musical director to the present day." ;
+        ont:subject         <http://dbpedia.org/resource/Rubén_Fuentes> ;
+        ont:timeExpression  "In 1955" .
+
+<http://w3id.org/polifonia/pilot/meetups/1476033/4/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Fuentes was also the musical arranger for most of José Alfredo Jiménez's songs, a prolific Mexican-born composer whose compositions, like Fuentes, elevated traditional Mariachi music to international heights and acclaim." ;
+        ont:person   <http://dbpedia.org/resource/Composer> ;
+        ont:subject  <http://dbpedia.org/resource/Rubén_Fuentes> .
+
+<http://w3id.org/polifonia/pilot/meetups/1476033/3/2>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "His songs have been performed by Pedro Infante, Miguel Aceves Mejía, Flor Silvestre, Amalia Mendoza, Marco Antonio Muñiz, Javier Solís, and Vikki Carr, among others." ;
+        ont:person   <http://dbpedia.org/resource/Javier_Colon> , <http://dbpedia.org/resource/Miguel_I_of_Portugal> , <http://dbpedia.org/resource/Flor_Silvestre> , <http://dbpedia.org/resource/Pedro_Infante> , <http://dbpedia.org/resource/Aeone> , <http://dbpedia.org/resource/Amalia_Mendoza> ;
+        ont:subject  <http://dbpedia.org/resource/Rubén_Fuentes> .
+
+<http://w3id.org/polifonia/pilot/meetups/1476033/3/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Rubén Fuentes wrote dozens of Mexican standards, including \"La Culebra\", \"Cien Años\", \"Las Alazanas\", \"Como Si Nada\", \"La Bikina\", \"Que Bonita Es Mi Tierra\", \"Flor Sin Retoño\", \"Ni Princesa Ni Esclava\" and \"Camino Real de Colima\" (many composed with Silvestre Vargas)." ;
+        ont:place    <http://dbpedia.org/resource/Culebra_Cut> , <http://dbpedia.org/resource/Colima> , <http://dbpedia.org/resource/Camino_Real_de_Tierra_Adentro> , <http://dbpedia.org/resource/Como> , <http://dbpedia.org/resource/Mexico> ;
+        ont:subject  <http://dbpedia.org/resource/Rubén_Fuentes> .
+
+<http://w3id.org/polifonia/pilot/meetups/1476033/2/4>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "With domestic sales of two-and-a-half million copies, Canciones de Mi Padre stands as the biggest-selling non-English language record in US history." ;
+        ont:subject         <http://dbpedia.org/resource/Rubén_Fuentes> ;
+        ont:timeExpression  "million" .
+
+<http://w3id.org/polifonia/pilot/meetups/1476033/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Rubén Fuentes (born 15 February 1926) is a Mexican classical violinist and composer, who is best known for his contributions to mariachi music." ;
+        ont:person          <http://dbpedia.org/resource/Composer> ;
+        ont:subject         <http://dbpedia.org/resource/Rubén_Fuentes> ;
+        ont:timeExpression  "15 February 1926" .
+
+<http://w3id.org/polifonia/pilot/meetups/1476033/2/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "In 1944, he joined Mariachi Vargas de Tecalitlán as a violinist and later as a music arranger." ;
+        ont:subject         <http://dbpedia.org/resource/Rubén_Fuentes> ;
+        ont:timeExpression  "In 1944" .
+
+<http://w3id.org/polifonia/pilot/meetups/1476033/3/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Fuentes also produced several of Linda Ronstadt's traditional Latin albums." ;
+        ont:person   <http://dbpedia.org/resource/Linda_Ronstadt> ;
+        ont:subject  <http://dbpedia.org/resource/Rubén_Fuentes> .
+
+<http://w3id.org/polifonia/pilot/meetups/1476033/4/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Ruben Fuentes was the musical director of RCA Records in Mexico during the late 1950s to the late 1960s." ;
+        ont:person   <http://dbpedia.org/resource/Rubén_Fuentes> ;
+        ont:place    <http://dbpedia.org/resource/Mexico> ;
+        ont:subject  <http://dbpedia.org/resource/Rubén_Fuentes> .
+
+<http://w3id.org/polifonia/pilot/meetups/1476033/2/3>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is best known for his work on Linda Ronstadt's classic, Grammy award-winning, multi-platinum Canciones de Mi Padre album." ;
+        ont:person   <http://dbpedia.org/resource/Linda_Ronstadt> ;
+        ont:subject  <http://dbpedia.org/resource/Rubén_Fuentes> .

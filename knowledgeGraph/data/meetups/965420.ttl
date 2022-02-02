@@ -5,3 +5,30 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/pilot/meetups/965420/0/0>
+        rdf:type            ont:MusicalMeetup ;
+        ont:excerpt         "Luc Plamondon, OC, CQ (b. March 2, 1942 in Saint-Raymond, Quebec), is a French-Canadian lyricist and music executive." ;
+        ont:person          <http://dbpedia.org/resource/Music_executive> , <http://dbpedia.org/resource/Luc_Plamondon> ;
+        ont:place           <http://dbpedia.org/resource/Saint-Raymond,_Quebec> ;
+        ont:subject         <http://dbpedia.org/resource/Luc_Plamondon> ;
+        ont:timeExpression  "March 2 , 1942" .
+
+<http://w3id.org/polifonia/pilot/meetups/965420/1/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "Plamondon has accepted honours from Canadian institutions and is also known as a francophone nationalist and Quebec sovereigntist." ;
+        ont:place    <http://dbpedia.org/resource/Plamondon_station> ;
+        ont:subject  <http://dbpedia.org/resource/Luc_Plamondon> .
+
+<http://w3id.org/polifonia/pilot/meetups/965420/1/0>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is the brother of Louis Plamondon, a long-serving member of the House of Commons of Canada." ;
+        ont:person   <http://dbpedia.org/resource/Louis_Plamondon> ;
+        ont:place    <http://dbpedia.org/resource/Canada> ;
+        ont:subject  <http://dbpedia.org/resource/Luc_Plamondon> .
+
+<http://w3id.org/polifonia/pilot/meetups/965420/0/1>
+        rdf:type     ont:MusicalMeetup ;
+        ont:excerpt  "He is best known for his work on the musicals Starmania and Notre-Dame de Paris." ;
+        ont:place    <http://dbpedia.org/resource/Notre-Dame_de_Paris> ;
+        ont:subject  <http://dbpedia.org/resource/Luc_Plamondon> .
