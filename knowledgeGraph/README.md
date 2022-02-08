@@ -21,3 +21,9 @@ $ fx -q queries/statistics.sparql -l data/meetups/
 | "Time expressions"  | 79838 |
 -------------------------------
 ```
+
+[part above to be updated...]
+
+```
+fx -q queries/sentences.sparql -v fileId=10085 -v subject=http://dbpedia.org/resource/Edward_Elgar
+```
