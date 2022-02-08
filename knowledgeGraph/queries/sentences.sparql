@@ -13,7 +13,6 @@ CONSTRUCT{
 	ont:place ?placeIRI ;
 	ont:excerpt ?sentenceText ;
 	ont:timeExpression ?time
-# ?sentence ?entity ?type
 } WHERE {
 
    SERVICE <x-sparql-anything:> {
