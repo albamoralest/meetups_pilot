@@ -6,42 +6,128 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:    <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/pilot/meetups/3014192/0/1>
-        rdf:type     ont:MusicalMeetup ;
-        ont:excerpt  "While studying piano and composition at the Santa Cecilia Conservatory in Rome, he befriended Ennio Morricone and formed a long working relationship, with Nicolai eventually conducting for and co-scoring films with Morricone." ;
-        ont:person   <http://dbpedia.org/resource/Otto_Nicolai> , <http://dbpedia.org/resource/Ennio_Morricone> ;
-        ont:place    <http://dbpedia.org/resource/Rome> ;
-        ont:subject  <http://dbpedia.org/resource/Bruno_Nicolai> .
+<http://w3id.org/polifonia/pilot/meetups/3014192/0>
+        rdf:type  ont:Paragraph ;
+        rdf:_1    <http://w3id.org/polifonia/pilot/meetups/3014192/0/0> ;
+        rdf:_2    <http://w3id.org/polifonia/pilot/meetups/3014192/0/1> ;
+        rdf:_3    <http://w3id.org/polifonia/pilot/meetups/3014192/0/2> .
 
-<http://w3id.org/polifonia/pilot/meetups/3014192/6/0>
-        rdf:type     ont:MusicalMeetup ;
-        ont:excerpt  "Bruno Nicolai tribute site" ;
-        ont:person   <http://dbpedia.org/resource/Bruno_Nicolai> ;
-        ont:subject  <http://dbpedia.org/resource/Bruno_Nicolai> .
+<http://w3id.org/polifonia/pilot/meetups/3014192/6>
+        rdf:type  ont:Paragraph ;
+        rdf:_1    <http://w3id.org/polifonia/pilot/meetups/3014192/6/0> .
 
-<http://w3id.org/polifonia/pilot/meetups/3014192/1/0>
-        rdf:type            ont:MusicalMeetup ;
-        ont:excerpt         "His work was featured in the Quentin Tarantino films Kill Bill: Volume 2 and Once Upon a Time in Hollywood." ;
-        ont:person          <http://dbpedia.org/resource/Quentin_Tarantino> ;
-        ont:subject         <http://dbpedia.org/resource/Bruno_Nicolai> ;
-        ont:timeExpression  "2" .
-
-<http://w3id.org/polifonia/pilot/meetups/3014192/0/2>
-        rdf:type     ont:MusicalMeetup ;
-        ont:excerpt  "Nicolai also scored a number of giallo exploitation films and wrote many scores for director Jesús Franco." ;
-        ont:person   <http://dbpedia.org/resource/Francisco_Franco> , <http://dbpedia.org/resource/Christoph_Friedrich_Nicolai> ;
-        ont:subject  <http://dbpedia.org/resource/Bruno_Nicolai> .
+<http://w3id.org/polifonia/pilot/meetups/3014192/4/1>
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "External links ==" ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/4> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/4/0> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .
 
 <http://w3id.org/polifonia/pilot/meetups/3014192/5/0>
-        rdf:type     ont:MusicalMeetup ;
-        ont:excerpt  "Bruno Nicolai at IMDb" ;
-        ont:person   <http://dbpedia.org/resource/Bruno_Nicolai> ;
-        ont:subject  <http://dbpedia.org/resource/Bruno_Nicolai> .
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "Bruno Nicolai at IMDb" ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/5> ;
+        ont:person        <http://dbpedia.org/resource/Bruno_Nicolai> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/5/0> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/5>
+        rdf:type  ont:Paragraph ;
+        rdf:_1    <http://w3id.org/polifonia/pilot/meetups/3014192/5/0> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/3/1>
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "References ==" ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/3> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/3/0> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/4/0>
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "==" ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/4> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/4/0> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/4>
+        rdf:type  ont:Paragraph ;
+        rdf:_1    <http://w3id.org/polifonia/pilot/meetups/3014192/4/0> ;
+        rdf:_2    <http://w3id.org/polifonia/pilot/meetups/3014192/4/1> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/2/1>
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "Selected filmography ==" ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/2> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/2/0> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/3/0>
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "==" ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/3> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/3/0> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/0/2>
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "Nicolai also scored a number of giallo exploitation films and wrote many scores for director Jesús Franco." ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/0> ;
+        ont:person        <http://dbpedia.org/resource/Christoph_Friedrich_Nicolai> , <http://dbpedia.org/resource/Francisco_Franco> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/0/1> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/3>
+        rdf:type  ont:Paragraph ;
+        rdf:_1    <http://w3id.org/polifonia/pilot/meetups/3014192/3/0> ;
+        rdf:_2    <http://w3id.org/polifonia/pilot/meetups/3014192/3/1> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/2/0>
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "==" ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/2> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/2/0> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/0/1>
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "While studying piano and composition at the Santa Cecilia Conservatory in Rome, he befriended Ennio Morricone and formed a long working relationship, with Nicolai eventually conducting for and co-scoring films with Morricone." ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/0> ;
+        ont:person        <http://dbpedia.org/resource/Ennio_Morricone> , <http://dbpedia.org/resource/Otto_Nicolai> ;
+        ont:place         <http://dbpedia.org/resource/Rome> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/0/0> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/1/0>
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "His work was featured in the Quentin Tarantino films Kill Bill: Volume 2 and Once Upon a Time in Hollywood." ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/1> ;
+        ont:person        <http://dbpedia.org/resource/Quentin_Tarantino> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/1/0> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/2>
+        rdf:type  ont:Paragraph ;
+        rdf:_1    <http://w3id.org/polifonia/pilot/meetups/3014192/2/0> ;
+        rdf:_2    <http://w3id.org/polifonia/pilot/meetups/3014192/2/1> .
 
 <http://w3id.org/polifonia/pilot/meetups/3014192/0/0>
-        rdf:type            ont:MusicalMeetup ;
+        rdf:type            ont:Sentence ;
         ont:excerpt         "Bruno Nicolai (20 May 1926 in Rome – 16 August 1991 in Rome) was an Italian film music composer, orchestra director and musical editor most active in the 1960s through the 1980s." ;
-        ont:person          <http://dbpedia.org/resource/Bruno_Nicolai> , <http://dbpedia.org/resource/Composer> ;
+        ont:inParagraph     <http://w3id.org/polifonia/pilot/meetups/3014192/0> ;
+        ont:person          <http://dbpedia.org/resource/Composer> , <http://dbpedia.org/resource/Bruno_Nicolai> ;
         ont:place           <http://dbpedia.org/resource/Rome> ;
+        ont:prevSentence    <http://w3id.org/polifonia/pilot/meetups/3014192/0/0> ;
         ont:subject         <http://dbpedia.org/resource/Bruno_Nicolai> ;
-        ont:timeExpression  "1980s" , "16 August 1991" , "20 May 1926" .
+        ont:timeExpression  "through the 1980s" , "20 May 1926" , "16 August 1991" .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/1>
+        rdf:type  ont:Paragraph ;
+        rdf:_1    <http://w3id.org/polifonia/pilot/meetups/3014192/1/0> .
+
+<http://w3id.org/polifonia/pilot/meetups/3014192/6/0>
+        rdf:type          ont:Sentence ;
+        ont:excerpt       "Bruno Nicolai tribute site" ;
+        ont:inParagraph   <http://w3id.org/polifonia/pilot/meetups/3014192/6> ;
+        ont:person        <http://dbpedia.org/resource/Bruno_Nicolai> ;
+        ont:prevSentence  <http://w3id.org/polifonia/pilot/meetups/3014192/6/0> ;
+        ont:subject       <http://dbpedia.org/resource/Bruno_Nicolai> .

@@ -6,7 +6,7 @@ PREFIX xyz:  <http://sparql.xyz/facade-x/data/>
 PREFIX ont: <http://w3id.org/polifonia/ontology/meetups#>
 PREFIX meetup: <http://w3id.org/polifonia/pilot/meetups/>
 
-CONSTRUCT{
+CONSTRUCT {
 ?sentenceEntity a ont:Sentence ;
 	ont:person ?personIRI ;
 	ont:subject ?subjectIRI ;

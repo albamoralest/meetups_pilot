@@ -4,9 +4,9 @@ Generate list of biographies and related files.
 ```
 fx -q queries/list-sample.sparql -o data/biographies.csv -f CSV
 ```
-Generate KG data
+Generate sentences KG data
 ```
-fx -q queries/meetups.sparql -i data/biographies.csv -p "data/meetups/?fileId.ttl" -f TTL
+fx -q queries/sentences.sparql -i data/biographies.csv -p "data/sentences/?fileId.ttl" -f TTL
 ```
 Statistics:
 ```
