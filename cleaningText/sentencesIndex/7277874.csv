@@ -1,0 +1,81 @@
+sentences,sentenceIndex,paragraphIndex,section,wikiId
+Haile (pronounced Hi-lee) is a robot percussionist developed by the Georgia Institute of Technology that listens to music in real time and creates an accompanying beat.,0,0,N/A,7277874
+"The robot was designed in 2006 by Georgia Tech's professor of musical technology, Gil Weinberg.",1,0,N/A,7277874
+"He and one of his graduate students, Scott Driscoll, created the robot to be able to ""listen like a human, [and] improvise like a robot"" (Weinberg).",2,0,N/A,7277874
+"Haile ""listens"" through a microphone mounted on the drum and analyzes the sound, separating it into beats, rhythms, pitches and several other qualities.",3,0,N/A,7277874
+"Detecting changes in these qualities helps Haile to assume either a leading or following style of play, roles that define the robot's collaborative abilities.",4,0,N/A,7277874
+Haile was also the first robot to create an acoustic percussion experience rather than play music through speakers.,5,0,N/A,7277874
+"Its anthropomorphic design, which gives it movable arms that can move in any direction, allow it to create this acoustic music.",6,0,N/A,7277874
+==,0,1,== Goals and purpose ==,7277874
+Goals and purpose ==,1,1,== Goals and purpose ==,7277874
+Driscoll's initial goal for making Haile was to combine the use of auditory input and robotics to create a musical experience that would lead to further human–robot interaction.,0,2,== Goals and purpose ==,7277874
+The final goal was a robot that could translate live music into an acoustic performance that could implement and transcend human capabilities.,1,2,== Goals and purpose ==,7277874
+"Haile wasn't designed to replace human musicians, but rather to accompany them with expressive playing.",2,2,== Goals and purpose ==,7277874
+These goals led to Weinberg wanting to create an acoustic musical experience.,3,2,== Goals and purpose ==,7277874
+His earlier experiments failed to incorporate the visual or auditory aspects associated with acoustic music.,4,2,== Goals and purpose ==,7277874
+"Haile's functional drumming arms add musical cues (visually stimulating bouncing drum sticks and live, acoustic sounds) that other robot performances lack.",5,2,== Goals and purpose ==,7277874
+"Additionally, other attempts at percussion playing robots, Weinberg saw, were limited in the variety of beats that they could produce.",6,2,== Goals and purpose ==,7277874
+"Haile is not only preloaded with individual beats, but is also programmed to identify pitch, rhythm, and patterns, allowing it to improvise and play different beats every time, rather than simply mimic.",7,2,== Goals and purpose ==,7277874
+==,0,3,== Design ==,7277874
+Design ==,1,3,== Design ==,7277874
+Haile's anthropomorphic or human-like design mimics human movements which supports interactive play with other musicians.,0,4,== Design ==,7277874
+"Its two robotic arms are responsible for creating different sounds; the right arm plays faster notes, while the left arm has larger motions for louder and slower beats.",1,4,== Design ==,7277874
+"While other robotic drummers at the time were limited to playing only a few locations on the drum, Haile is versatile in its ability to play along a straight line from the rim to the center of the drum.",2,4,== Design ==,7277874
+===,0,5,== Design == | === Form ===,7277874
+Form =,1,5,== Design == | === Form ===,7277874
+==,2,5,== Design == | === Form ===,7277874
+"Haile's wooden designed was modeled to match the natural feel of a Native American pow wow(Native American gathering), so it was made out of wood rather than metal.",0,6,== Design == | === Form ===,7277874
+The wooden parts were made at the Advanced Wood Product Laboratory at Georgia Tech's College of Architecture using a CNC wood router.,1,6,== Design == | === Form ===,7277874
+"It was originally designed to play a pow wow drum, a multiplayer drum that supports Haile's collaborative purpose.",2,6,== Design == | === Form ===,7277874
+"However, it also was made with metal joints that give it adjustable height so it can play other drums.",3,6,== Design == | === Form ===,7277874
+"These joints are the keys to the robot's arm movement up and down, left and right, and front and back.",4,6,== Design == | === Form ===,7277874
+"If needed, they detach, allowing for full disassembly.",5,6,== Design == | === Form ===,7277874
+===,0,7,== Design == | === Perception ===,7277874
+Perception =,1,7,== Design == | === Perception ===,7277874
+==,2,7,== Design == | === Perception ===,7277874
+Haile uses a microphone on the drum which first detected rhythms played by a human in real time.,0,8,== Design == | === Perception ===,7277874
+The robot identifies tempo and beats allowing it to play along with the other player.,1,8,== Design == | === Perception ===,7277874
+"It can also adjust to the human's changes in volume, tempo or beat, allowing it to switch between accompanying and lead playing.",2,8,== Design == | === Perception ===,7277874
+"Weinberg and his team first developed the robot's low-level perception ability, which includes detecting hit onsets, pitch, amplitude, and density.",0,9,== Design == | === Perception ===,7277874
+"In terms of sound, a hit refers to a distinct change in both volume and sound quality.",1,9,== Design == | === Perception ===,7277874
+"Once the outside music is captured, the sound is analyzed through a number of instruments, called perception modules, which each detect a certain aspect of the sound:",2,9,== Design == | === Perception ===,7277874
+Pitch - detects hits and changes in frequency and translates them to find pitches,0,10,== Design == | === Perception ===,7277874
+Beat - processes onsets and determines rhythms and tempo,0,11,== Design == | === Perception ===,7277874
+Amplitude - recognizes changes in volume to determine when to assume leading or following roles,0,12,== Design == | === Perception ===,7277874
+Density - detects changes in rhythm complexity at tempo to also help Haile assume leading or following roles,0,13,== Design == | === Perception ===,7277874
+===,0,14,== Design == | === Arm mechanics ===,7277874
+Arm mechanics ===,1,14,== Design == | === Arm mechanics ===,7277874
+Haile's arms are driven by two separate means.,0,15,== Design == | === Arm mechanics ===,7277874
+The left arm uses a linear motor which is responsible for larger movements that correspond to louder sounds.,1,15,== Design == | === Arm mechanics ===,7277874
+"The linear motor, along with a linear encoder is used to control the robot's arm height.",2,15,== Design == | === Arm mechanics ===,7277874
+"The larger motions are louder and more visible, but limit the arm to swinging at a top speed of 11 Hz.",3,15,== Design == | === Arm mechanics ===,7277874
+"The right arm, which plays softer and faster notes, is driven by a solenoid, which uses an aluminum stick and return spring capable of hitting the drum at up to 15 Hz.",4,15,== Design == | === Arm mechanics ===,7277874
+"Both arms are capable of hitting anywhere (from the rim to the center) on the drum through the use of a linear slide, which allows each of them completely independent movement in a single direction.",5,15,== Design == | === Arm mechanics ===,7277874
+==,0,16,== Playing ==,7277874
+Playing ==,1,16,== Playing ==,7277874
+"Haile's system adopts a leader-follower model, using tempo and beat changes to determine who the current leader is.",0,17,== Playing ==,7277874
+"Haile understands when a new leader emerges based on musical changes (tempo, volume, beat, etc.).",1,17,== Playing ==,7277874
+The robot has two modes of play:,0,18,== Playing ==,7277874
+"As a follower, Haile first analyzes the external music.",0,19,== Playing ==,7277874
+"It then matches and maintains the tempo, allowing the human player to play more complicated rhythms.",1,19,== Playing ==,7277874
+"Haile can also tell when the other player begins to play louder or more quickly, forcing it into the submissive role.",2,19,== Playing ==,7277874
+"When the human beings to play basic rhythms at a steady tempo, the robot takes the lead.",3,19,== Playing ==,7277874
+"As a leader, Haile uses rhythms produced earlier by the human and improvises a rhythm with its right arm.",0,20,== Playing ==,7277874
+The left arm detects and maintains the other player's tempo.,1,20,== Playing ==,7277874
+==,0,21,== Challenges ==,7277874
+Challenges ==,1,21,== Challenges ==,7277874
+"Some of the challenges that Weinberg faced with Haile's programming involved being able to distinguish between different, simultaneous sounds.",0,22,== Challenges ==,7277874
+"Initially, analysis algorithms were unable to pick out softer and more subtle notes amidst louder sounds.",1,22,== Challenges ==,7277874
+"Also, the inability to filter out ambient noise prevented Haile from working properly.",2,22,== Challenges ==,7277874
+"After a considerable amount of adjusting, the filters and input hardware were tuned to differentiate between various volumes of music while ignoring interfering noise.",3,22,== Challenges ==,7277874
+"As Haile was designed to play in either leading or following roles, early detection algorithms limited the human's ability to lead.",4,22,== Challenges ==,7277874
+"The robot was designed to be able to detect changes in the music it heard, but would only respond to changes in tempo.",5,22,== Challenges ==,7277874
+This flaw only allowed the human to lead as long as he or she kept speeding up or slowing down.,6,22,== Challenges ==,7277874
+"Weinberg, trying to model human musical interaction, implemented volume and noise density sensors to aid in the robot's ability to define leadership.",7,22,== Challenges ==,7277874
+"These additions gave the human longer periods of leadership, giving Haile more opportunity to build upon what it heard.",8,22,== Challenges ==,7277874
+==,0,23,== References ==,7277874
+References ==,1,23,== References ==,7277874
+==,0,24,== External links ==,7277874
+External links ==,1,24,== External links ==,7277874
+CNN article about Haile,0,25,== External links ==,7277874
+project description at Georgia Tech,0,26,== External links ==,7277874
