@@ -1,6 +1,6 @@
 ---
 id: 
-name: MEETUPS preparation: data cleaning
+name: MEETUPS preparation - data cleaning
 brief-description: This tool is part of the corpus preparation process and it is used to clean data collected from Wikipedia. 
 type: Software
 release-date: 20/06/2022
