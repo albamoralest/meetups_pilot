@@ -1,7 +1,7 @@
 ---
 id: 
 name: MEETUPS identification of people and places
-brief-description: This tool is part of the MEETUPS pilot and processes text from music personalities' biographies. It uses DBpedia Spotlight to identify and annotate possible entity mentions from input text. This is an essential process to identify two of the three main elements that define a meetup: people (who participated) and place (where). Along with data of time (when) the meeting happen complete a historical meetup data point.
+brief-description: This tool is part of the MEETUPS pilot and processes text from music personalities' biographies. It uses DBpedia Spotlight to identify and annotate possible entity mentions from input text. This is an essential process to identify two of the four main elements that define a meetup: people (who participated) and place (where). Along with data of time (when) the meeting happened and the event that took place (what) complete a historical meetup data point.
 type: Software
 release-date: 20/06/2022
 release-number: v1.0

@@ -1,0 +1,54 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+December 8,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Clerow ""Flip"" Wilson Jr. (December 8, 1933 – November 25, 1998) was an American comedian and actor best known for his television appearances during the late 1960s and 1970s.",0,0,,577798
+1933 – November 25,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Clerow ""Flip"" Wilson Jr. (December 8, 1933 – November 25, 1998) was an American comedian and actor best known for his television appearances during the late 1960s and 1970s.",0,0,,577798
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"Clerow ""Flip"" Wilson Jr. (December 8, 1933 – November 25, 1998) was an American comedian and actor best known for his television appearances during the late 1960s and 1970s.",0,0,,577798
+the late 1960s and 1970s,DT JJ NNS CC CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,"Clerow ""Flip"" Wilson Jr. (December 8, 1933 – November 25, 1998) was an American comedian and actor best known for his television appearances during the late 1960s and 1970s.",0,0,,577798
+1970 to 1974,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1970 to 1974, Wilson hosted his own weekly variety series The Flip Wilson Show, and introduced viewers to his recurring character Geraldine.",1,0,,577798
+January 1972,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 1972, Time magazine featured Wilson's image on its cover and named him ""TV's first black superstar"".",4,0,,577798
+the 1960s and 1970s,DT NNS CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,He released a number of comedy albums in the 1960s and 1970s and won a Grammy Award for his 1970 album The Devil Made Me Buy This Dress.,5,0,,577798
+1970,CD,YEAR_REGEX_1,TIME,time_reference,He released a number of comedy albums in the 1960s and 1970s and won a Grammy Award for his 1970 album The Devil Made Me Buy This Dress.,5,0,,577798
+the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Wilson kept performing and acting until the 1990s, though at a reduced schedule.",6,0,,577798
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"He hosted a short-lived revival of People are Funny in 1984, and had the lead role in the 1985–1986 sitcom Charlie & Co.",7,0,,577798
+the 1985–1986,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He hosted a short-lived revival of People are Funny in 1984, and had the lead role in the 1985–1986 sitcom Charlie & Co.",7,0,,577798
+seven years old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"When Wilson was seven years old, his mother abandoned the family.",2,2,== Early life ==,577798
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Discharged from the Air Force in 1954, Wilson started working as a bellhop in San Francisco's Manor Plaza Hotel.",0,3,== Early life ==,577798
+nightclub,NN,DAY_TIME_REGEX,TIME,time_reference,"At the Plaza's nightclub, Wilson found extra work playing a drunken patron between regularly scheduled acts.",1,3,== Early life ==,577798
+the late 1950s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1950s and early 1960s, Wilson toured regularly through nightclubs with a black clientele in the so-called ""Chitlin' Circuit"".",0,5,== Career ==,577798
+early 1960s,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the late 1950s and early 1960s, Wilson toured regularly through nightclubs with a black clientele in the so-called ""Chitlin' Circuit"".",0,5,== Career ==,577798
+nightclubs,NNS,DAY_TIME_REGEX,TIME,time_reference,"In the late 1950s and early 1960s, Wilson toured regularly through nightclubs with a black clientele in the so-called ""Chitlin' Circuit"".",0,5,== Career ==,577798
+the 1960s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1960s, Wilson became a regular at the Apollo Theater in Harlem.",1,5,== Career ==,577798
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"An unexpected break came in 1965, when comedian Redd Foxx was a guest on The Tonight Show and host Johnny Carson asked him who the funniest comedian at the time was; Foxx answered, ""Flip Wilson"".",2,5,== Career ==,577798
+The Tonight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"An unexpected break came in 1965, when comedian Redd Foxx was a guest on The Tonight Show and host Johnny Carson asked him who the funniest comedian at the time was; Foxx answered, ""Flip Wilson"".",2,5,== Career ==,577798
+The Tonight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,Carson then booked Wilson to appear on The Tonight Show and Wilson became a favorite guest on that show as well as on The Ed Sullivan Show.,3,5,== Career ==,577798
+the 1967,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"A routine titled ""Columbus"", from the 1967 album Cowboys and Colored People, brought Wilson to Hollywood industry attention.",0,7,== Career ==,577798
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"In 1970, Wilson won a Grammy Award for his comedy album The Devil Made Me Buy This Dress.",0,8,== Career ==,577798
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"In 1970, Wilson's variety series, The Flip Wilson Show, debuted on NBC.",0,10,== Career == | === The Flip Wilson Show ===,577798
+pastor,NN,TIMELINE_REGEX,TIME,time_reference,"Wilson's characters included Reverend Leroy, the materialistic pastor of the ""Church of What’s Happening Now"", and his most popular character, Geraldine Jones, who frequently referred to her unseen boyfriend, ""Killer"", and whose lines ""The devil made me do it"" as well as ""What you see is what you get"" became national catchphrases.",4,10,== Career == | === The Flip Wilson Show ===,577798
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"Wilson's characters included Reverend Leroy, the materialistic pastor of the ""Church of What’s Happening Now"", and his most popular character, Geraldine Jones, who frequently referred to her unseen boyfriend, ""Killer"", and whose lines ""The devil made me do it"" as well as ""What you see is what you get"" became national catchphrases.",4,10,== Career == | === The Flip Wilson Show ===,577798
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"The Flip Wilson Show aired through 1974, generating high ratings and popularity among viewers and winning strong critical acclaim, with eleven Emmy Award nominations during its run, winning two.",0,11,== Career == | === The Flip Wilson Show ===,577798
+Later years,RB NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Later years =,1,12,== Career == | === Later years ===,577798
+Saturday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"Wilson acted in TV and theatrical movies, including Uptown Saturday Night and The Fish that Saved Pittsburgh.",0,13,== Career == | === Later years ===,577798
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976, he appeared as the Fox in a television musical adaptation of Pinocchio, starring Sandy Duncan in the title role and Danny Kaye as Geppetto, with songs by Laugh-In composer Billy Barnes.",1,13,== Career == | === Later years ===,577798
+1981,CD,YEAR_REGEX_1,TIME,time_reference,In 1981 he made a guest appearance on The Love Boat.,2,13,== Career == | === Later years ===,577798
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"During March–July 1984, Wilson hosted a revival of People are Funny.",0,14,== Career == | === Later years ===,577798
+1985–1986,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985–1986, Wilson played the lead role in the CBS sitcom Charlie & Co.",1,14,== Career == | === Later years ===,577798
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Two of his last TV appearances were cameos on the sitcoms Living Single in 1993, and The Drew Carey Show in 1996.",2,14,== Career == | === Later years ===,577798
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Two of his last TV appearances were cameos on the sitcoms Living Single in 1993, and The Drew Carey Show in 1996.",2,14,== Career == | === Later years ===,577798
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"In 1957, he married Lavenia Patricia ""Peaches"" Wilson (née Dean); they divorced in 1967.",1,16,== Personal life ==,577798
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"In 1957, he married Lavenia Patricia ""Peaches"" Wilson (née Dean); they divorced in 1967.",1,16,== Personal life ==,577798
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"After winning custody of his children in 1979, Wilson performed less in order to spend more time with them.",3,16,== Personal life ==,577798
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"In 1979, he married Tuanchai ""Cookie"" MacKenzie, with whom he had one child; they divorced in 1984.",4,16,== Personal life ==,577798
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"In 1979, he married Tuanchai ""Cookie"" MacKenzie, with whom he had one child; they divorced in 1984.",4,16,== Personal life ==,577798
+March 1981,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In March 1981, Wilson was arrested and charged with possession of a small quantity of cocaine.",0,17,== Personal life ==,577798
+November 25,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On November 25, 1998, Wilson died from liver cancer in Malibu, California, aged 64.",1,17,== Personal life ==,577798
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"On November 25, 1998, Wilson died from liver cancer in Malibu, California, aged 64.",1,17,== Personal life ==,577798
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961 — Flippin' (Minit),0,19,== Discography ==,577798
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"1964 — Flip Wilson's Pot Luck (Scepter, reissued as Funny and Live at the Village Gate, Springboard)",0,20,== Discography ==,577798
+Springboard,NNP,SEASON_REGEX,TIME,time_reference,"1964 — Flip Wilson's Pot Luck (Scepter, reissued as Funny and Live at the Village Gate, Springboard)",0,20,== Discography ==,577798
+1967,CD,YEAR_REGEX_1,TIME,time_reference,1967 — Cowboys and Colored People (Atlantic),0,21,== Discography ==,577798
+1968,CD,YEAR_REGEX_1,TIME,time_reference,1968 — You Devil You (Atlantic),0,22,== Discography ==,577798
+1970,CD,YEAR_REGEX_1,TIME,time_reference,1970 — The Devil Made Me Buy This Dress (Little David),0,23,== Discography ==,577798
+1970,CD,YEAR_REGEX_1,TIME,time_reference,1970 —,0,24,== Discography ==,577798
+1970,CD,YEAR_REGEX_1,TIME,time_reference,1970 — Flipped Out (Sunset Records),0,25,== Discography ==,577798
+Sunset,NNP,DAY_TIME_REGEX,TIME,time_reference,1970 — Flipped Out (Sunset Records),0,25,== Discography ==,577798
+1972,CD,YEAR_REGEX_1,TIME,time_reference,1972 — Geraldine (Little David),0,26,== Discography ==,577798

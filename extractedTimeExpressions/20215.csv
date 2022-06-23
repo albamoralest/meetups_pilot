@@ -1,0 +1,77 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+March 8,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"John Smith Hurt (March 8, 1893 – November 2, 1966), better known as Mississippi John Hurt, was an American country blues singer and guitarist.",0,0,,20215
+1893 – November 2,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"John Smith Hurt (March 8, 1893 – November 2, 1966), better known as Mississippi John Hurt, was an American country blues singer and guitarist.",0,0,,20215
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"John Smith Hurt (March 8, 1893 – November 2, 1966), better known as Mississippi John Hurt, was an American country blues singer and guitarist.",0,0,,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"His first recordings, made for Okeh Records in 1928, were commercial failures, and he continued to work as a farmer.",3,0,,20215
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Dick Spottswood and Tom Hoskins, a blues enthusiast, located Hurt in 1963 and persuaded him to move to Washington, D.C.",0,1,,20215
+1964,CD,YEAR_REGEX_1,TIME,time_reference,He was recorded by the Library of Congress in 1964.,1,1,,20215
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Hurt returned to Mississippi, where he died, in Grenada, in 1966, aged about 73 years old.",0,2,,20215
+about 73 years old,IN CD NNS JJ,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,"Hurt returned to Mississippi, where he died, in Grenada, in 1966, aged about 73 years old.",0,2,,20215
+Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years =,1,5,== Biography == | === Early years ===,20215
+the 1920s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He worked as a farmhand and sharecropper into the 1920s.,3,6,== Biography == | === Early years ===,20215
+1923,CD,YEAR_REGEX_1,TIME,time_reference,"In 1923, he played with the fiddle player Willie Narmour as a substitute for Narmour's regular partner, Shell Smith.",7,6,== Biography == | === Early years ===,20215
+a 1928,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"When Narmour got a chance to record for Okeh Records as a prize for winning first place in a 1928 fiddle contest, he recommended Hurt to Okeh producer Tommy Rockwell.",0,8,== Biography == | === First recordings ===,20215
+Monday Morning,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"After auditioning ""Monday Morning Blues"" at his home, Hurt took part in two recording sessions, in Memphis and New York City (see Discography below).",1,8,== Biography == | === First recordings ===,20215
+days,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Oh, I was nervous, and my neck was sore for days after.",4,9,== Biography == | === First recordings ===,20215
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"Hurt's renditions of ""Frankie"" and ""Spike Driver Blues"" were included in The Anthology of American Folk Music in 1952 which generated considerable interest in locating him.",0,12,== Biography == | === Rediscovery and death ===,20215
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"When a copy of ""Avalon Blues"" was discovered in 1963, it led musicologist Dick Spottswood to locate Avalon in an atlas, and ask Tom Hoskins, who was traveling that way, to enquire after Hurt.",1,12,== Biography == | === Rediscovery and death ===,20215
+the 1963,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,His performance at the 1963 Newport Folk Festival caused his star to rise in the folk revival occurring at that time.,2,14,== Biography == | === Rediscovery and death ===,20215
+The Tonight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"He performed extensively at colleges, concert halls, and coffeehouses and appeared on The Tonight Show Starring Johnny Carson.",3,14,== Biography == | === Rediscovery and death ===,20215
+November 2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Hurt died on November 2, 1966, of a heart attack, in hospital at Grenada, Mississippi.",9,14,== Biography == | === Rediscovery and death ===,20215
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Hurt died on November 2, 1966, of a heart attack, in hospital at Grenada, Mississippi.",9,14,== Biography == | === Rediscovery and death ===,20215
+February and July,NNP CC NNP,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX,TIME MODIFIER TIME,time_reference,"His last recordings had been done at a hotel in New York City in February and July of that year, and were not released until 1972 on the Vanguard LP Last Sessions.",10,14,== Biography == | === Rediscovery and death ===,20215
+of that year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"His last recordings had been done at a hotel in New York City in February and July of that year, and were not released until 1972 on the Vanguard LP Last Sessions.",10,14,== Biography == | === Rediscovery and death ===,20215
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"His last recordings had been done at a hotel in New York City in February and July of that year, and were not released until 1972 on the Vanguard LP Last Sessions.",10,14,== Biography == | === Rediscovery and death ===,20215
+around 1963,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The American singer-songwriter Tom Paxton, who met Hurt and played on the same bill with him at the Gaslight in Greenwich Village around 1963, wrote and recorded a song about him in 1977, ""Did You Hear John Hurt?"", which he still frequently plays in live performances.",0,19,== Tributes ==,20215
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"The American singer-songwriter Tom Paxton, who met Hurt and played on the same bill with him at the Gaslight in Greenwich Village around 1963, wrote and recorded a song about him in 1977, ""Did You Hear John Hurt?"", which he still frequently plays in live performances.",0,19,== Tributes ==,20215
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"The first track of John Fahey's 1968 solo acoustic guitar album Requia is ""Requiem for John Hurt"".",1,19,== Tributes ==,20215
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"The British folk and blues artist Wizz Jones recorded a tribute song, ""Mississippi John"", for his 1977 album Magical Flight.",1,20,== Tributes ==,20215
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"The Delta blues artist Rory Block recorded the album Avalon: A Tribute to Mississippi John Hurt, released in 2013 as part of her ""Mentor Series"".",0,21,== Tributes ==,20215
+1999,CD,YEAR_REGEX_1,TIME,time_reference,The New England singer-songwriter Bill Morrissey released the Grammy-nominated album Songs of Mississippi John Hurt in 1999.,1,21,== Tributes ==,20215
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"In 2017, John Hurt's life story was told in the award-winning documentary series American Epic.",0,22,== Tributes ==,20215
+1920s,CD,YEAR_REGEX_1,TIME,time_reference,"The film featured unseen film footage of Hurt performing and being interviewed, and radically improved restorations of his 1920s recordings.",1,22,== Tributes ==,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"""Frankie"" / ""Nobody's Dirty Business"" (Okeh Records, OKeh 8560), 1928",0,26,== Discography == | === 78-rpm releases ===,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"""Stack O' Lee"" / ""Candy Man Blues"" (Okeh Records, OKeh 8654), 1928",0,27,== Discography == | === 78-rpm releases ===,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"""Praying on the Old Camp Ground"" (Okeh Records, OKeh 8666), 1928",1,28,== Discography == | === 78-rpm releases ===,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"""Blue Harvest Blues"" / ""Spike Driver Blues"" (Okeh Records, OKeh 8692), 1928",0,29,== Discography == | === 78-rpm releases ===,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"(Okeh Records, OKeh 8724), 1928",1,30,== Discography == | === 78-rpm releases ===,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"""Ain't No Tellin'"" / ""Avalon Blues"" (Okeh Records, OKeh 8759), 1928",0,31,== Discography == | === 78-rpm releases ===,20215
+13157,CD,YEAR_REGEX_1,TIME,time_reference,"Folk Songs and Blues, live recordings (Piedmont Records, PLP 13157), 1963",0,33,== Discography == | === Albums ===,20215
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Folk Songs and Blues, live recordings (Piedmont Records, PLP 13157), 1963",0,33,== Discography == | === Albums ===,20215
+13161,CD,YEAR_REGEX_1,TIME,time_reference,"Worried Blues (Piedmont Records, PLP 13161), 1964",0,34,== Discography == | === Albums ===,20215
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Worried Blues (Piedmont Records, PLP 13161), 1964",0,34,== Discography == | === Albums ===,20215
+Today,NN,TIMELINE_REGEX,TIME,time_reference,Today!,0,35,== Discography == | === Albums ===,20215
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"(Vanguard Records, VSD-79220), 1966",1,35,== Discography == | === Albums ===,20215
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"The Immortal Mississippi John Hurt (Vanguard Records, VSD-79248), 1967",0,36,== Discography == | === Albums ===,20215
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"The Best of Mississippi John Hurt, live recordings (Vanguard Records, VSD-19/20), 1970",0,37,== Discography == | === Albums ===,20215
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Last Sessions (Vanguard Records, VSD-79327), 1972",0,38,== Discography == | === Albums ===,20215
+1068,CD,YEAR_REGEX_1,TIME,time_reference,"Volume One of a Legacy, live recordings (Piedmont Records, CLPS 1068), 1975",0,39,== Discography == | === Albums ===,20215
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Volume One of a Legacy, live recordings (Piedmont Records, CLPS 1068), 1975",0,39,== Discography == | === Albums ===,20215
+Monday Morning,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"Monday Morning Blues: The Library of Congress Recordings, vol.",0,40,== Discography == | === Albums ===,20215
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"1 (Flyright Records, FLYLP 553), 1980",1,40,== Discography == | === Albums ===,20215
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"2 (Heritage Records, HT-301), 1982",1,41,== Discography == | === Albums ===,20215
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Satisfied, live recordings (Quicksilver Intermedia, QS 5007), 1982",0,42,== Discography == | === Albums ===,20215
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"The Candy Man, live recordings (Quicksilver Intermedia, QS 5042), 1982",0,43,== Discography == | === Albums ===,20215
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"3 (Heritage Records, HT-320), 1988",1,44,== Discography == | === Albums ===,20215
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Avalon Blues (Flyright Records, FLYCD 06), 1989",0,45,== Discography == | === Albums ===,20215
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Memorial Anthology, live recordings (Genes Records, GCD 9906/7), 1993",0,46,== Discography == | === Albums ===,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"The Original 1928 Recordings (Spokane Records, SPL 1001), 1971",0,48,== Discography == | === Selected compilation albums ===,20215
+1001,CD,YEAR_REGEX_1,TIME,time_reference,"The Original 1928 Recordings (Spokane Records, SPL 1001), 1971",0,48,== Discography == | === Selected compilation albums ===,20215
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"The Original 1928 Recordings (Spokane Records, SPL 1001), 1971",0,48,== Discography == | === Selected compilation albums ===,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,1928:,0,49,== Discography == | === Selected compilation albums ===,20215
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Stack O' Lee Blues – His First Recordings (Biograph Records, BLP C4), 1972",1,49,== Discography == | === Selected compilation albums ===,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"1928 Sessions (Yazoo Records, L 1065), 1979",0,50,== Discography == | === Selected compilation albums ===,20215
+1065,CD,YEAR_REGEX_1,TIME,time_reference,"1928 Sessions (Yazoo Records, L 1065), 1979",0,50,== Discography == | === Selected compilation albums ===,20215
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"1928 Sessions (Yazoo Records, L 1065), 1979",0,50,== Discography == | === Selected compilation albums ===,20215
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Satisfying Blues (Collectables Records, VCL 5529), 1995",0,51,== Discography == | === Selected compilation albums ===,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"Avalon Blues: The Complete 1928 Okeh Recordings (Columbia Records, CK64986), 1996",0,52,== Discography == | === Selected compilation albums ===,20215
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Avalon Blues: The Complete 1928 Okeh Recordings (Columbia Records, CK64986), 1996",0,52,== Discography == | === Selected compilation albums ===,20215
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"Rediscovered (Vanguard Records, CD 79519), 1998",0,53,== Discography == | === Selected compilation albums ===,20215
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"The Complete Recordings (Vanguard Records, CD 70181–2), 1998",0,54,== Discography == | === Selected compilation albums ===,20215
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"Candy Man Blues: The Complete 1928 Sessions (Snapper Music, SBLUECD 010), 2004",0,55,== Discography == | === Selected compilation albums ===,20215
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Candy Man Blues: The Complete 1928 Sessions (Snapper Music, SBLUECD 010), 2004",0,55,== Discography == | === Selected compilation albums ===,20215
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"American Epic: The Best of Mississippi John Hurt (Lo-Max / Sony Legacy / Third Man, TMR-459), 2017",0,56,== Discography == | === Selected compilation albums ===,20215
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"Ratcliffe, Philip R. (2011).",0,59,== Further reading ==,20215
+2018,CD,YEAR_REGEX_1,TIME,time_reference,"James, Steve (2018).",0,60,== Further reading ==,20215
+the 1960s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Gaslight Memories: Mississippi John Hurt’s Influence on the 1960s Folk Scene and Beyond.,1,60,== Further reading ==,20215
+June 2018,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Acoustic Guitar Magazine, June 2018.",2,60,== Further reading ==,20215

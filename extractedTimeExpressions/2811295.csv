@@ -1,0 +1,26 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+January 10,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Bernard Derome, CM, OQ (born January 10, 1944) is a Canadian broadcaster, who was news anchor for the weeknight editions of Le Téléjournal on Radio-Canada until December 18, 2008.",0,0,,2811295
+1944,CD,YEAR_REGEX_1,TIME,time_reference,"Bernard Derome, CM, OQ (born January 10, 1944) is a Canadian broadcaster, who was news anchor for the weeknight editions of Le Téléjournal on Radio-Canada until December 18, 2008.",0,0,,2811295
+December 18,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Bernard Derome, CM, OQ (born January 10, 1944) is a Canadian broadcaster, who was news anchor for the weeknight editions of Le Téléjournal on Radio-Canada until December 18, 2008.",0,0,,2811295
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Bernard Derome, CM, OQ (born January 10, 1944) is a Canadian broadcaster, who was news anchor for the weeknight editions of Le Téléjournal on Radio-Canada until December 18, 2008.",0,0,,2811295
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"In 1963, when he was 19 years old, he began his first job in broadcasting at radio station CJBR in Rimouski.",1,2,== Biography ==,2811295
+19 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"In 1963, when he was 19 years old, he began his first job in broadcasting at radio station CJBR in Rimouski.",1,2,== Biography ==,2811295
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"He moved to Canada's government funded French-language broadcaster, Radio-Canada, in 1965 and began anchoring Aujourd'hui (Today) in 1967.",2,2,== Biography ==,2811295
+Today,NNP,TIMELINE_REGEX,TIME,time_reference,"He moved to Canada's government funded French-language broadcaster, Radio-Canada, in 1965 and began anchoring Aujourd'hui (Today) in 1967.",2,2,== Biography ==,2811295
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"He moved to Canada's government funded French-language broadcaster, Radio-Canada, in 1965 and began anchoring Aujourd'hui (Today) in 1967.",2,2,== Biography ==,2811295
+1970 to 1998,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Derome was chief news anchor for Radio-Canada Television from 1970 to 1998, hosting the nightly Le Téléjournal.",3,2,== Biography ==,2811295
+the October,DT NNP,PREFIX_REGEX_1 MONTH_REGEX,MODIFIER TIME,time_reference,"He firmly established his credentials during the October Crisis and anchored the network's coverage of provincial and federal elections, including the 1980 referendum, the Charlottetown Accord referendum and the 1995 referendum.",4,2,== Biography ==,2811295
+the 1980,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He firmly established his credentials during the October Crisis and anchored the network's coverage of provincial and federal elections, including the 1980 referendum, the Charlottetown Accord referendum and the 1995 referendum.",4,2,== Biography ==,2811295
+the 1995,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He firmly established his credentials during the October Crisis and anchored the network's coverage of provincial and federal elections, including the 1980 referendum, the Charlottetown Accord referendum and the 1995 referendum.",4,2,== Biography ==,2811295
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"After leaving the anchor chair in 1998, Derome anchored several news and documentary programs, including 5 sur 5, Le Monde and La Grande Aventure de la télévision.",5,2,== Biography ==,2811295
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"In 2004, after a drop in ratings for Le Téléjournal, Radio-Canada asked Derome to replace Gilles Gougeon, who had succeeded Stéphan Bureau in the role.",6,2,== Biography ==,2811295
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008, Derome announced his intention to leave the anchor post at year's end.",7,2,== Biography ==,2811295
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In 2008, Derome announced his intention to leave the anchor post at year's end.",7,2,== Biography ==,2811295
+December 18,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,His final broadcast took place on December 18.,8,2,== Biography ==,2811295
+weekend,NN,TIME_UNIT_REGEX,TIME,time_reference,"He was succeeded by Céline Galipeau, formerly the program's weekend anchor.",9,2,== Biography ==,2811295
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"In 2015, he joined classical music radio station CJPX-FM as a morning presenter.",0,3,== Biography ==,2811295
+a morning presenter,DT NN NN,INARTICLE_REGEX DAY_TIME_REGEX TIMELINE_REGEX,MODIFIER TIME TIME,time_reference,"In 2015, he joined classical music radio station CJPX-FM as a morning presenter.",0,3,== Biography ==,2811295
+1981,CD,YEAR_REGEX_1,TIME,time_reference,Olivar-Asselin Award (1981),0,5,== Awards ==,2811295
+1994,CD,YEAR_REGEX_1,TIME,time_reference,Order of Canada (1994),0,6,== Awards ==,2811295
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Order of La Pléiade (2000),0,7,== Awards ==,2811295
+2006,CD,YEAR_REGEX_1,TIME,time_reference,National Order of Quebec (2006),0,8,== Awards ==,2811295

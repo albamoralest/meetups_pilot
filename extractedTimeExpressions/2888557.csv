@@ -1,0 +1,72 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+3 February 1900 – 20 April 1984,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"Mabel Mercer (3 February 1900 – 20 April 1984) was an English-born cabaret singer who performed in the United States, Britain, and Europe with the greats in jazz and cabaret.",0,0,,2888557
+3 February 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Mabel Mercer was born on 3 February 1900 in Burton upon Trent, Staffordshire, England.",0,2,== Early life ==,2888557
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"In 1928, she was an unknown member of the black chorus in the London production of Show Boat, but she had become the toast of Paris by the 1930s, with admirers who included Ernest Hemingway, Gertrude Stein, F. Scott Fitzgerald, and Cole Porter.",0,4,== Career ==,2888557
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In 1928, she was an unknown member of the black chorus in the London production of Show Boat, but she had become the toast of Paris by the 1930s, with admirers who included Ernest Hemingway, Gertrude Stein, F. Scott Fitzgerald, and Cole Porter.",0,4,== Career ==,2888557
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"Her recording career began in 1942, with an album of selections from Porgy and Bess, on the elite Liberty Music Shops label, featuring piano accompaniment by Cy Walter.",2,4,== Career ==,2888557
+the following decades,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Over the following decades, Mercer made many concert appearances across the U.S.",3,4,== Career ==,2888557
+the late 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1960s, she gave two concerts with Bobby Short at Town Hall in New York City.",4,4,== Career ==,2888557
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Both were released by Atlantic Records: Mabel Mercer & Bobby Short at Town Hall, in 1968, (Atlantic SD 2-604) and Mabel Mercer & Bobby Short Second Town Hall Concert, in 1969 (Atlantic SD 2-605).",5,4,== Career ==,2888557
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Both were released by Atlantic Records: Mabel Mercer & Bobby Short at Town Hall, in 1968, (Atlantic SD 2-604) and Mabel Mercer & Bobby Short Second Town Hall Concert, in 1969 (Atlantic SD 2-605).",5,4,== Career ==,2888557
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"In 1969, she made two appearances on the television program Mister Rogers' Neighborhood.",6,4,== Career ==,2888557
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Atlantic Records reissued four of her early LPs in a boxed set in 1975, in honor of her 75th birthday.",1,5,== Career ==,2888557
+1984,CD,YEAR_REGEX_1,TIME,time_reference,This award was officially renamed the Mabel Mercer Award in 1984.,3,5,== Career ==,2888557
+4 July 1977,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"When Mercer returned on 4 July 1977 for her first performance in England in 41 years, the BBC filmed three evenings' performances and later broadcast them in a week-long late-night television program, a BBC first for an entertainer.",0,7,== Late career ==,2888557
+41 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"When Mercer returned on 4 July 1977 for her first performance in England in 41 years, the BBC filmed three evenings' performances and later broadcast them in a week-long late-night television program, a BBC first for an entertainer.",0,7,== Late career ==,2888557
+three evenings,CD NNS,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,time_reference,"When Mercer returned on 4 July 1977 for her first performance in England in 41 years, the BBC filmed three evenings' performances and later broadcast them in a week-long late-night television program, a BBC first for an entertainer.",0,7,== Late career ==,2888557
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, Midnight at Mabel Mercer's, her 1956 album on Atlantic, was praised as ""one of the best recordings of the past twenty years"" (although it was more than 20 years old at the time) by Stereo Review.",2,7,== Late career ==,2888557
+Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"In 1978, Midnight at Mabel Mercer's, her 1956 album on Atlantic, was praised as ""one of the best recordings of the past twenty years"" (although it was more than 20 years old at the time) by Stereo Review.",2,7,== Late career ==,2888557
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, Midnight at Mabel Mercer's, her 1956 album on Atlantic, was praised as ""one of the best recordings of the past twenty years"" (although it was more than 20 years old at the time) by Stereo Review.",2,7,== Late career ==,2888557
+twenty years,NN NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1978, Midnight at Mabel Mercer's, her 1956 album on Atlantic, was praised as ""one of the best recordings of the past twenty years"" (although it was more than 20 years old at the time) by Stereo Review.",2,7,== Late career ==,2888557
+more than 20 years old,JJR IN CD NNS JJ,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER MODIFIER NUMERAL TIME MODIFIER,time_reference,"In 1978, Midnight at Mabel Mercer's, her 1956 album on Atlantic, was praised as ""one of the best recordings of the past twenty years"" (although it was more than 20 years old at the time) by Stereo Review.",2,7,== Late career ==,2888557
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"That same year, Mercer played at San Francisco's Club Mocambo to sold-out audiences, in celebration of her 78th birthday.",3,7,== Late career ==,2888557
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"In 1982, Mercer teamed up with her friend Eileen Farrell in concert as part of the Kool Jazz Festival.",0,8,== Late career ==,2888557
+January 1981,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 1981, she was honoured by the Whitney Museum of American Art in New York with ""An American Cabaret,"" the only musical event of its kind at that point in the museum's history.",0,10,== Honours ==,2888557
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"Mercer received the Presidential Medal of Freedom, the US's highest civilian medal, in 1983.",0,11,== Honours ==,2888557
+20 April 1984,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Mercer died on 20 April 1984, aged 84, in Pittsfield, Massachusetts, and is buried at Red Rock Cemetery near Chatham, New York.",0,14,== Death ==,2888557
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, the Mabel Mercer Foundation was established with the efforts of her long-time friend and professional associate Donald F. Smith.",0,16,== The Mabel Mercer Foundation ==,2888557
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Its international activities include the debut of the London Cabaret Convention in 2004.,2,16,== The Mabel Mercer Foundation ==,2888557
+1990,CD,YEAR_REGEX_1,TIME,time_reference,1990:,0,19,== Filmography == | === Live concerts ===,2888557
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Mabel Mercer: A Singer's Singer (reissued 2005 on DVD),2,19,== Filmography == | === Live concerts ===,2888557
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991:,0,20,== Filmography == | === Live concerts ===,2888557
+An Evening,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,Mabel Mercer: An Evening with Mabel Mercer (a.k.a.,2,20,== Filmography == | === Live concerts ===,2888557
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"Cabaret Artist ""Now and Always"") (as yet unissued on DVD)",3,20,== Filmography == | === Live concerts ===,2888557
+1936,CD,YEAR_REGEX_1,TIME,time_reference,1936:,0,22,== Filmography == | === As actress ===,2888557
+1936,CD,YEAR_REGEX_1,TIME,time_reference,1936:,0,23,== Filmography == | === As actress ===,2888557
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961:,0,24,== Filmography == | === As actress ===,2888557
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"1942: Porgy and Bess (3x10"" 78-rpm set with Cy Walter & Todd Duncan; three songs by Mabel)",0,26,== Discography ==,2888557
+1945,CD,YEAR_REGEX_1,TIME,time_reference,c. 1945:,0,27,== Discography ==,2888557
+Now,RB,TIMELINE_REGEX,TIME,time_reference,You Better Go Now (unreleased private recording),1,27,== Discography ==,2888557
+1953,CD,YEAR_REGEX_1,TIME,time_reference,1953:,0,28,== Discography ==,2888557
+1953,CD,YEAR_REGEX_1,TIME,time_reference,1953:,0,29,== Discography ==,2888557
+1953,CD,YEAR_REGEX_1,TIME,time_reference,1953:,0,30,== Discography ==,2888557
+1955,CD,YEAR_REGEX_1,TIME,time_reference,1955:,0,31,== Discography ==,2888557
+1956,CD,YEAR_REGEX_1,TIME,time_reference,1956:,0,32,== Discography ==,2888557
+Midnight,NN,DAY_TIME_REGEX,TIME,time_reference,Midnight at Mabel Mercer's,1,32,== Discography ==,2888557
+1958,CD,YEAR_REGEX_1,TIME,time_reference,1958:,0,33,== Discography ==,2888557
+1960,CD,YEAR_REGEX_1,TIME,time_reference,1960:,0,34,== Discography ==,2888557
+1964,CD,YEAR_REGEX_1,TIME,time_reference,1964:,0,35,== Discography ==,2888557
+1965,CD,YEAR_REGEX_1,TIME,time_reference,1965:,0,36,== Discography ==,2888557
+of three 1953 10,IN CD CD CD,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 YEAR_REGEX_1 DIGIT_REGEX_1,MODIFIER NUMERAL TIME NUMERAL,time_reference,"The Art of Mabel Mercer (2x12"" reissue of three 1953 10"" Songs by Mabel Mercer LPs with one added track)",1,36,== Discography ==,2888557
+1968,CD,YEAR_REGEX_1,TIME,time_reference,1968:,0,37,== Discography ==,2888557
+1969,CD,YEAR_REGEX_1,TIME,time_reference,1969:,0,38,== Discography ==,2888557
+1974,CD,YEAR_REGEX_1,TIME,time_reference,1974:,0,39,== Discography ==,2888557
+of 1964,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,For Always (reissue of 1964 Mabel Mercer Sings),1,39,== Discography ==,2888557
+1975,CD,YEAR_REGEX_1,TIME,time_reference,1975:,0,40,== Discography ==,2888557
+of four 1955–60,IN CD CD,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 YEAR_REGEX_1,MODIFIER NUMERAL TIME,time_reference,"A Salute to Mabel Mercer on her 75th Birthday (4x12"" reissue of four 1955–60 LPs in commemorative box)",1,40,== Discography ==,2888557
+1980,CD,YEAR_REGEX_1,TIME,time_reference,1980: Echoes of My Life (her final studio recordings),0,41,== Discography ==,2888557
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002: Previously Unreleased Live Performances (Legendary Performers),0,42,== Discography ==,2888557
+Previously,RB,TIMELINE_REGEX,TIME,time_reference,2002: Previously Unreleased Live Performances (Legendary Performers),0,42,== Discography ==,2888557
+1932–1984,CD,YEAR_REGEX_1,TIME,time_reference,"Mabel Mercer Papers, 1932–1984.",1,45,== Works or publications == | === Archival materials ===,2888557
+1932,CD,YEAR_REGEX_1,TIME,time_reference,1932.,2,45,== Works or publications == | === Archival materials ===,2888557
+122534577,CD,YEAR_REGEX_1,TIME,time_reference,OCLC 122534577,3,45,== Works or publications == | === Archival materials ===,2888557
+1932–1980,CD,YEAR_REGEX_1,TIME,time_reference,"Mabel Mercer Collection, 1932–1980. 1932.",1,46,== Works or publications == | === Archival materials ===,2888557
+1932,CD,YEAR_REGEX_1,TIME,time_reference,"Mabel Mercer Collection, 1932–1980. 1932.",1,46,== Works or publications == | === Archival materials ===,2888557
+122486173,CD,YEAR_REGEX_1,TIME,time_reference,OCLC 122486173,2,46,== Works or publications == | === Archival materials ===,2888557
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Atheneum, 1987.",2,48,== Works or publications == | === Monographs ===,2888557
+16833675,CD,YEAR_REGEX_1,TIME,time_reference,ISBN 978-0-689-11595-0 OCLC 16833675,3,48,== Works or publications == | === Monographs ===,2888557
+Midnight,NN,DAY_TIME_REGEX,TIME,time_reference,Midnight at Mabel's: The Mabel Mercer Story: Centennial Biography of the Great Song Stylist.,1,49,== Works or publications == | === Monographs ===,2888557
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Washington, DC: New Voyage, 2000.",2,49,== Works or publications == | === Monographs ===,2888557
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006.,6,51,== Works or publications == | === Other ===,2888557
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"2013, 229pp.",2,52,== Works or publications == | === Other ===,2888557
+2019,CD,YEAR_REGEX_1,TIME,time_reference,"The History Press, 2019.",2,53,== Works or publications == | === Other ===,2888557

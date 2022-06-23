@@ -1,0 +1,59 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+June 24,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Lemeul Eugene Lucas (June 24, 1900 – January 24, 1972), better known by his stage name Gene Austin, was an American singer and songwriter, one of the first ""crooners"".",0,0,,579599
+1900 – January 24,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Lemeul Eugene Lucas (June 24, 1900 – January 24, 1972), better known by his stage name Gene Austin, was an American singer and songwriter, one of the first ""crooners"".",0,0,,579599
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Lemeul Eugene Lucas (June 24, 1900 – January 24, 1972), better known by his stage name Gene Austin, was an American singer and songwriter, one of the first ""crooners"".",0,0,,579599
+1920s,CD,YEAR_REGEX_1,TIME,time_reference,"His 1920s compositions ""When My Sugar Walks Down the Street"" and ""The Lonesome Road"" became pop and jazz standards.",2,0,,579599
+1943,CD,YEAR_REGEX_1,TIME,time_reference,"Austin was born as Lemeul Eugene Lucas in Gainesville, Texas (north of Dallas), to Nova Lucas (died 1943) and the former Serena Belle Harrell (died 1956).",0,2,== Early life ==,579599
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Austin was born as Lemeul Eugene Lucas in Gainesville, Texas (north of Dallas), to Nova Lucas (died 1943) and the former Serena Belle Harrell (died 1956).",0,2,== Early life ==,579599
+night,NN,DAY_TIME_REGEX,TIME,time_reference,"He was first stationed in New Orleans, where he played the piano at night in the city's notorious vice district.",9,2,== Early life ==,579599
+1919,CD,YEAR_REGEX_1,TIME,time_reference,"On returning to the United States in 1919, Austin settled in Baltimore, Maryland, where he briefly studied dentistry and law.",0,3,== Early life ==,579599
+their day,PRP$ NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,,Gene Austin was an important pioneer crooner whose records in their day enjoyed record sales and the highest circulation.,0,5,== Career ==,579599
+1924,CD,YEAR_REGEX_1,TIME,time_reference,"By 1924, Austin was in New York's Tin Pan Alley.",5,5,== Career ==,579599
+1925,CD,YEAR_REGEX_1,TIME,time_reference,"In 1925, Austin recorded his popular song ""When My Sugar Walks Down the Street"" for the Victor Talking Machine Company in a duet with Aileen Stanley.",7,5,== Career ==,579599
+that year,IN NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He followed it that year with hits including ""Yearning (Just for You)"" and ""Yes Sir, That's My Baby.",9,5,== Career ==,579599
+Yearning,NNP,TIME_UNIT_REGEX,TIME,time_reference,"He followed it that year with hits including ""Yearning (Just for You)"" and ""Yes Sir, That's My Baby.",9,5,== Career ==,579599
+the next decade,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In the next decade with Victor, Austin sold over 80 million records.",10,5,== Career ==,579599
+1926,CD,YEAR_REGEX_1,TIME,time_reference,His 1926,11,5,== Career ==,579599
+the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"""Bye Bye Blackbird"" was in the year's top twenty records.",12,5,== Career ==,579599
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"George A. Whiting and Walter Donaldson's ""My Blue Heaven"" was charted during 1928 for 26 weeks, stayed at No. 1 for 13, and sold over five million copies.",13,5,== Career ==,579599
+26 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"George A. Whiting and Walter Donaldson's ""My Blue Heaven"" was charted during 1928 for 26 weeks, stayed at No. 1 for 13, and sold over five million copies.",13,5,== Career ==,579599
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"Until Bing Crosby's ""White Christmas"" replaced it, it was the largest selling record of all time.",15,5,== Career ==,579599
+the 1927,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the hope of duplicating the success, this was quickly followed by ""Ramona"", an L. Wolfe Gilbert-Mabel Wayne song created for the 1927 romantic adventure film Ramona with Dolores del Río.",16,5,== Career ==,579599
+17 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"It charted for 17 weeks, was No. 1 for eight and easily topped a million in sales.",17,5,== Career ==,579599
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"His next success, Joe Burke and Benny Davis' 1928 song ""Carolina Moon"" was on the charts 14 weeks, with seven weeks at No. 1.",19,5,== Career ==,579599
+14 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"His next success, Joe Burke and Benny Davis' 1928 song ""Carolina Moon"" was on the charts 14 weeks, with seven weeks at No. 1.",19,5,== Career ==,579599
+seven weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"His next success, Joe Burke and Benny Davis' 1928 song ""Carolina Moon"" was on the charts 14 weeks, with seven weeks at No. 1.",19,5,== Career ==,579599
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"The depression struck during Austin's hit-making years, severely damaged the recording industry and, with it, Austin's recording career.",20,5,== Career ==,579599
+1932 to 1934,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,They had a radio series from 1932 to 1934.,25,5,== Career ==,579599
+1938,CD,YEAR_REGEX_1,TIME,time_reference,"Colonel Tom Parker, who later became Elvis Presley's manager, gradually worked his way into the music business when he began to promote Gene Austin in 1938.",26,5,== Career ==,579599
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1940s, Austin and his singers toured the country in a 14-truck caravan with its own power plant and cook house.",27,5,== Career ==,579599
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"Offered to work in Hollywood at the height of his career as the ""Voice of the Southland"", Austin appeared in several films, including Belle of the Nineties, Klondike Annie, Sadie McKee – all 1934 releases, and My Little Chickadee (1940), at the request of his friend, Mae West.",0,9,== Career == | === Film appearances ===,579599
+1940,CD,YEAR_REGEX_1,TIME,time_reference,"Offered to work in Hollywood at the height of his career as the ""Voice of the Southland"", Austin appeared in several films, including Belle of the Nineties, Klondike Annie, Sadie McKee – all 1934 releases, and My Little Chickadee (1940), at the request of his friend, Mae West.",0,9,== Career == | === Film appearances ===,579599
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"In 1956, CBS made a television drama about Austin's life.",0,11,== TV drama ==,579599
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, Austin's 1928 Victor recording of ""My Blue Heaven"" (Victor 20964A), was inducted into the Grammy Hall of Fame.",0,13,== Honors ==,579599
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, Austin's 1928 Victor recording of ""My Blue Heaven"" (Victor 20964A), was inducted into the Grammy Hall of Fame.",0,13,== Honors ==,579599
+20964A,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, Austin's 1928 Victor recording of ""My Blue Heaven"" (Victor 20964A), was inducted into the Grammy Hall of Fame.",0,13,== Honors ==,579599
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005, his 1926 Victor recording of ""Bye Bye Blackbird"" (Victor 20044), was inducted into the Grammy Hall of Fame as well.",1,13,== Honors ==,579599
+1926,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005, his 1926 Victor recording of ""Bye Bye Blackbird"" (Victor 20044), was inducted into the Grammy Hall of Fame as well.",1,13,== Honors ==,579599
+20044,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005, his 1926 Victor recording of ""Bye Bye Blackbird"" (Victor 20044), was inducted into the Grammy Hall of Fame as well.",1,13,== Honors ==,579599
+1924,CD,YEAR_REGEX_1,TIME,time_reference,"Austin married his first wife, Kathryn Arnold, a dancer, in 1924 and divorced her in 1929.",0,15,== Personal life ==,579599
+1929,CD,YEAR_REGEX_1,TIME,time_reference,"Austin married his first wife, Kathryn Arnold, a dancer, in 1924 and divorced her in 1929.",0,15,== Personal life ==,579599
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"They had a child, Ann, born in 1928.",1,15,== Personal life ==,579599
+1933,CD,YEAR_REGEX_1,TIME,time_reference,"Austin married his second wife, Agnes Antelline, in 1933, and their daughter Charlotte was born that same year.",2,15,== Personal life ==,579599
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"Austin married his second wife, Agnes Antelline, in 1933, and their daughter Charlotte was born that same year.",2,15,== Personal life ==,579599
+1940,CD,YEAR_REGEX_1,TIME,time_reference,He and Agnes divorced in 1940.,3,15,== Personal life ==,579599
+1940,CD,YEAR_REGEX_1,TIME,time_reference,"Austin then married actress Doris Sherrell in 1940, and divorced her in 1946.",4,15,== Personal life ==,579599
+1946,CD,YEAR_REGEX_1,TIME,time_reference,"Austin then married actress Doris Sherrell in 1940, and divorced her in 1946.",4,15,== Personal life ==,579599
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"He married wife number four, LouCeil Hudson, a singer, in 1949, and the marriage lasted until 1966.",5,15,== Personal life ==,579599
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"He married wife number four, LouCeil Hudson, a singer, in 1949, and the marriage lasted until 1966.",5,15,== Personal life ==,579599
+1967,CD,YEAR_REGEX_1,TIME,time_reference,Austin married Gigi Theodorea in 1967 — his fifth and final marriage.,6,15,== Personal life ==,579599
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Country music singer Tommy Overstreet, who had his biggest hits in the 1970s, is Austin's third cousin.",0,16,== Personal life ==,579599
+Springs,NNP,SEASON_REGEX,TIME,time_reference,Austin retired to Palm Springs in the late 1950s and was active in civic boards there until 1970.,1,16,== Personal life ==,579599
+the late 1950s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,Austin retired to Palm Springs in the late 1950s and was active in civic boards there until 1970.,1,16,== Personal life ==,579599
+1970,CD,YEAR_REGEX_1,TIME,time_reference,Austin retired to Palm Springs in the late 1950s and was active in civic boards there until 1970.,1,16,== Personal life ==,579599
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962, he campaigned unsuccessfully for the Democratic nomination for governor of Nevada.",0,17,== Personal life ==,579599
+Springs,NNP,SEASON_REGEX,TIME,time_reference,"He died in Palm Springs of lung cancer and was interred in the Forest Lawn Memorial Park Cemetery in Glendale, California.",1,17,== Personal life ==,579599
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"""Gene Austin"", A Dictionary of Louisiana Biography, Vol. 1 (1988), p. 25",0,21,== Bibliography ==,579599
+Fall 1997,NNP CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"John Agan, ""The Voice of the Southland"", North Louisiana History, Vol. 28, No. 4 (Fall 1997), 23–37",0,22,== Bibliography ==,579599
+Quarterly,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Congressional Quarterly's Guide to U.S. Elections, Nevada gubernatorial primaries",0,23,== Bibliography ==,579599
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"The Rise of the Crooners, Michael Pitts and Frank Hoffman; Scarecrow Press, 2002",0,24,== Bibliography ==,579599
