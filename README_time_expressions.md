@@ -22,7 +22,7 @@ credits:
 
 # MEETUPS 
 
-MEETUPS identification of people and places is a tool developed using Python and Jupyter Notebook. This software uses NLTK Toolkit and heuristic rules to identify and annotate time expressions from input text. The tool allows the extraction of one (when a historical meetup happened) of the four elements that define a historical meetup. 
+MEETUPS identification of temporal knowledge is a tool developed using Python and Jupyter Notebook. This software uses NLTK Toolkit and heuristic rules to identify and annotate time expressions from input text. The tool allows the extraction of one (when a historical meetup happened) of the four elements that define a historical meetup. 
 
 This implementation is a rule-based Time Expression recognition tagger based on research by Zhong et al. and SynTime software (https://github.com/zhongxiaoshi/syntime). Their work was originally tested using three datasets: TimeBank, WikiWars and Tweets. 
 The authors implement a three-layer system that recognises time expressions using syntactic token types and general heuristic rules.
@@ -68,18 +68,18 @@ Finally the tool stores the results as a CSV file in extractedTimeExpressions/
 ### Details of the data
 
     Code location:
-    
     |_ 03_Identify_TimeE.ipynb
     
     Regular expressions:
     |_ timeRegex.txt
     
-    Data location:
+    Data location
     
+    Data input:
     |_ indexedSentences/
     
-    Time expressions annotations:
-    
+    Time expressions annotations
+    Data ouput:
     |_ extractedTimeExpressions/        
 
     

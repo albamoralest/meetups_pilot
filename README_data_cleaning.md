@@ -39,16 +39,16 @@ MEETUPS data cleaning is a tool developed using Python and Jupyter Notebook. Thi
     
     |_ 01_CleaningText.ipynb
     
-    Raw corpus location:
-    
+    Raw corpus location
+    Data output:
     |_ text_dataset/            
     
-    Clean text location:
-    
+    Clean text location
+    Data input:
     |_ cleanText/
     
-    Index data location:
-    
+    Index data location
+    Data output:
     |_ indexedParagraphs/
     |_ indexedSentences/
     

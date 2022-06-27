@@ -51,20 +51,18 @@ The second notebook uses the responses from DBpedia Spotlight to capture data of
 #### Details of the data
 
     Code location:
-    
     |_ 02_queryDbpedia.ipynb
     |_ 02_Identify_PP.ipynb
     
-    Index data location:
-    
+    Index data location
+    Data input:
     |_ indexedSentences/
     
     DBpedia Spotlight annotations:
-    
     |_ cacheSpotlightResponse/        
     
-    People and places annotation:
-    
+    People and places annotation
+    Data output:
     |_ extractedEntitiesPersonPlaceOnly/
     
     
