@@ -4,7 +4,7 @@ name: MEETUPS identification of people and places
 brief-description: This tool is part of the MEETUPS pilot and processes text from music personalities' biographies. It uses DBpedia Spotlight to identify and annotate possible entity mentions from input text. This is an essential process to identify two of the four main elements that define a meetup: people (who participated) and place (where). Along with data of time (when) the meeting happened and the event that took place (what) complete a historical meetup data point.
 type: Software
 release-date: 20/07/2022
-release-number: v1.0
+release-number: v0.1
 work-package:
 - WP4
 pilot:
@@ -14,8 +14,14 @@ keywords:
 - Music
 - Named entity recognition
 licence: Apache 2.0
+related-component:
+- meetups-data-cleaning
+- meetups-themes
+- meetups-entity-recognition
+- meetups-time-extraction
+- meetups-corpus-collection
 release link:
-  - https://github.com/polifonia-project/meetups_pilot/releases/tag/v1.0
+  - https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.1
 credits:
   - https://github.com/albamoralest
   - https://github.com/enridaga

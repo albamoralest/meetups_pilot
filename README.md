@@ -4,21 +4,20 @@ name: MEETUPS Knowledge Extraction
 brief-description: Dataset for experiments within the MEETUPS Pilot
 type: Software
 release-date: 20/07/2022
-release-number: v1.0
+release-number: v0.1
 work-package: 
 - WP4
 pilot:
 - MEETUPS
 licence: Apache 2.0
 related-component:
-- led
 - meetups-data-cleaning
 - meetups-themes
 - meetups-entity-recognition
 - meetups-time-extraction
 - meetups-corpus-collection
 release link:
-- https://github.com/polifonia-project/meetups_pilot/releases/tag/v1.0
+- https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.1
 credits:
 - https://github.com/albamoralest
 - https://github.com/enridaga
