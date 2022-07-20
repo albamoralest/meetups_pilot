@@ -1,5 +1,5 @@
 ---
-id: 
+id: meetups-data-cleaning
 name: MEETUPS preparation - data cleaning
 brief-description: This tool is part of the corpus preparation process and it is used to clean data collected from Wikipedia. 
 type: Software
@@ -16,6 +16,7 @@ release link:
   - 
 credits:
   - https://github.com/albamoralest
+  - https://github.com/enridaga
 ---
 
 # MEETUPS Corpus preparation: data cleaning
