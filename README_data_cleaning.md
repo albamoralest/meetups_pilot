@@ -1,19 +1,20 @@
 ---
-id: meetups-data-cleaning
+component-id: meetups-data-cleaning
 name: MEETUPS preparation - data cleaning
 brief-description: This tool is part of the corpus preparation process and it is used to clean data collected from Wikipedia. 
 type: Software
-release-date: 20/06/2022
+release-date: 20/07/2022
 release-number: v1.0
 work-package:
-- WP3
-pilot: MEETUPS
+- WP4
+pilot:
+- MEETUPS
 keywords:
 - Wikipedia
 - Music
-licence: GPLv3
+licence: Apache 2.0
 release link:
-  - 
+  - https://github.com/polifonia-project/meetups_pilot/releases/tag/v1.0
 credits:
   - https://github.com/albamoralest
   - https://github.com/enridaga

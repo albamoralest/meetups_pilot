@@ -1,23 +1,25 @@
 ---
-id: 
+component-id: meetups-themes
 name: MEETUPS - Identification of themes
 brief-description: This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find encounter types. It uses "sklearn" and a set of Machine Learning algorithms to classify sentences according to the established type of events. The tool extracts information from one of the four elements defining a meetup: the type of encounter (what). Encounter type, along with data of the people involved (who), the place (where) and the time it took place (what), complete the historical meetup information.
 type: Software
-release-date: 20/06/2022
+release-date: 20/07/2022
 release-number: v1.0
 work-package:
-- WP3
-pilot: MEETUPS
+- WP4
+pilot:
+- MEETUPS
 keywords:
 - Wikipedia
 - Music
 - Text classification
 - Encounter type
-licence: GPLv3
+licence: Apache 2.0
 release link:
-  - 
+  - https://github.com/polifonia-project/meetups_pilot/releases/tag/v1.0
 credits:
   - https://github.com/enridaga
+  - https://github.com/albamoralest
 ---
 
 # MEETUPS - Identification of themes

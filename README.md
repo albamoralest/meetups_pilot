@@ -1,20 +1,24 @@
 ---
-id: meetups-dataset
-name: MEETUPS Dataset
+component-id: meetups-knowledge-extraction
+name: MEETUPS Knowledge Extraction
 brief-description: Dataset for experiments within the MEETUPS Pilot
-type: Dataset
-release-date: TBD
-release-number: TBD
+type: Software
+release-date: 20/07/2022
+release-number: v1.0
 work-package: 
-- WP1
 - WP4
 pilot:
 - MEETUPS
-licence: TBD
+licence: Apache 2.0
 related-component:
 - led
-links:
-- https://github.com/polifonia-project/meetups-dataset
+- meetups-data-cleaning
+- meetups-themes
+- meetups-entity-recognition
+- meetups-time-extraction
+- meetups-corpus-collection
+release link:
+- https://github.com/polifonia-project/meetups_pilot/releases/tag/v1.0
 credits:
 - https://github.com/albamoralest
 - https://github.com/enridaga
