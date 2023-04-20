@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-April 19,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Murray David Perahia (), KBE (born April 19, 1947) is an American pianist and conductor.",0,0,,858538
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"Murray David Perahia (), KBE (born April 19, 1947) is an American pianist and conductor.",0,0,,858538
+"April 19 , 1947","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Murray David Perahia (), KBE (born April 19, 1947) is an American pianist and conductor.",0,0,,858538
 1972,CD,YEAR_REGEX_1,TIME,time_reference,"He was the first North American pianist to win the Leeds International Piano Competition, in 1972.",2,0,,858538
 1935,CD,YEAR_REGEX_1,TIME,time_reference,His father moved to the United States in 1935.,3,2,== Early life ==,858538
 the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"During the summer, he also attended the Marlboro Music School and Festival, where he studied with musicians Rudolf Serkin, Alexander Schneider, and Pablo Casals, among others.",7,2,== Early life ==,858538
@@ -30,8 +29,7 @@ August 2008,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He returne
 October and November,NNP CC NNP,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX,TIME MODIFIER TIME,time_reference,"He returned to the platform in August 2008, touring with the Royal Concertgebouw Orchestra under the direction of Bernard Haitink, and had an Asian recital tour in October and November.",2,10,== Music career == | === Hand injuries ===,858538
 currently,RB,TIMELINE_REGEX,TIME,time_reference,He is currently editing a new Urtext edition of Beethoven's piano sonatas.,1,12,== Recent activities ==,858538
 the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Since his return at the 2008 Proms season, Perahia has been continually active on the concert scene.",4,12,== Recent activities ==,858538
-April 1,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Perahia appeared at Sir Neville Marriner's 90th birthday concert on April 1, 2014, playing Mozart's Piano Concerto No. 20 in D minor, K 466 alongside the Academy of St Martin in the Fields conducted by Marriner.",0,13,== Recent activities ==,858538
-2014,CD,YEAR_REGEX_1,TIME,time_reference,"Perahia appeared at Sir Neville Marriner's 90th birthday concert on April 1, 2014, playing Mozart's Piano Concerto No. 20 in D minor, K 466 alongside the Academy of St Martin in the Fields conducted by Marriner.",0,13,== Recent activities ==,858538
+"April 1 , 2014","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Perahia appeared at Sir Neville Marriner's 90th birthday concert on April 1, 2014, playing Mozart's Piano Concerto No. 20 in D minor, K 466 alongside the Academy of St Martin in the Fields conducted by Marriner.",0,13,== Recent activities ==,858538
 43 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"After 43 years (1973-2016) with Sony Classical (and its predecessor, Columbia Masterworks), Perahia signed with the German label Deutsche Grammophon.",1,13,== Recent activities ==,858538
 1973-2016,JJ,YEAR_REGEX_1,TIME,time_reference,"After 43 years (1973-2016) with Sony Classical (and its predecessor, Columbia Masterworks), Perahia signed with the German label Deutsche Grammophon.",1,13,== Recent activities ==,858538
 October 2016,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"His first release for the label, Bach's French Suites, came out in October 2016.",2,13,== Recent activities ==,858538
@@ -56,8 +54,7 @@ July 2017,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He held a Su
 2016,CD,YEAR_REGEX_1,TIME,time_reference,"Gramophone Award for best instrumental recording, 2016, Six French Suites by Johann Sebastian BachPerahia is an Honorary Fellow of the Royal College of Music and Honorary Member of the Royal Academy of Music (1985).",0,39,== Awards ==,858538
 1985,CD,YEAR_REGEX_1,TIME,time_reference,"Gramophone Award for best instrumental recording, 2016, Six French Suites by Johann Sebastian BachPerahia is an Honorary Fellow of the Royal College of Music and Honorary Member of the Royal Academy of Music (1985).",0,39,== Awards ==,858538
 2007,CD,YEAR_REGEX_1,TIME,time_reference,"In 2007 he was elected to an Honorary Fellowship of Jesus College, Cambridge.",1,39,== Awards ==,858538
-March 8,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On March 8, 2004, Queen Elizabeth II made him an honorary Knight Commander of the Order of the British Empire.",0,40,== Awards ==,858538
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"On March 8, 2004, Queen Elizabeth II made him an honorary Knight Commander of the Order of the British Empire.",0,40,== Awards ==,858538
+"March 8 , 2004","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On March 8, 2004, Queen Elizabeth II made him an honorary Knight Commander of the Order of the British Empire.",0,40,== Awards ==,858538
 2012,CD,YEAR_REGEX_1,TIME,time_reference,In 2012 he was voted into the inaugural Gramophone Hall of Fame.,0,41,== Awards ==,858538
 2012,CD,YEAR_REGEX_1,TIME,time_reference,In 2012 he was awarded the Jean Gimbel Lane Prize in Piano Performance from Northwestern University.,1,41,== Awards ==,858538
 2013,CD,YEAR_REGEX_1,TIME,time_reference,In 2013 he was awarded the Royal Academy of Music Bach PrizeIn 2015 he was awarded the Wolf Prize in Arts (with Jessye Norman).,0,42,== Awards ==,858538
@@ -137,5 +134,4 @@ Winterreise,NNP,SEASON_REGEX,TIME,time_reference,Schubert: Winterreise (with Die
 1988,CD,YEAR_REGEX_1,TIME,time_reference,Beethoven: Piano Concertos Nos. 1 and 3 (1988),0,115,== Videography ==,858538
 1988,CD,YEAR_REGEX_1,TIME,time_reference,Beethoven: Piano Concertos Nos. 2 and 4 (1988),0,116,== Videography ==,858538
 1988,CD,YEAR_REGEX_1,TIME,time_reference,Beethoven: Piano Concerto No. 5 (1988),0,117,== Videography ==,858538
-March 13,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Interview with Murray Perahia by Bruce Duffie, March 13, 1997",0,123,== External links ==,858538
-1997,CD,YEAR_REGEX_1,TIME,time_reference,"Interview with Murray Perahia by Bruce Duffie, March 13, 1997",0,123,== External links ==,858538
+"March 13 , 1997","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Interview with Murray Perahia by Bruce Duffie, March 13, 1997",0,123,== External links ==,858538

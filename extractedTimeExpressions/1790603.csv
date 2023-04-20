@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-August 13,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Howard Tate (August 13, 1939 – December 2, 2011) was an American soul singer and songwriter.",0,0,,1790603
-1939 – December 2,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Howard Tate (August 13, 1939 – December 2, 2011) was an American soul singer and songwriter.",0,0,,1790603
-2011,CD,YEAR_REGEX_1,TIME,time_reference,"Howard Tate (August 13, 1939 – December 2, 2011) was an American soul singer and songwriter.",0,0,,1790603
+"August 13 , 1939 – December 2 , 2011","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Howard Tate (August 13, 1939 – December 2, 2011) was an American soul singer and songwriter.",0,0,,1790603
 the late 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"His greatest success came with a string of hit singles in the late 1960s, including ""Ain't Nobody Home"" and ""Get It While You Can,"" the latter of which became a hit when recorded by singer Janis Joplin.",1,0,,1790603
 2001,CD,YEAR_REGEX_1,TIME,time_reference,"After withdrawing from the music business and struggling with drug addiction, Tate mounted a warmly received comeback in 2001.",2,0,,1790603
 2006,CD,YEAR_REGEX_1,TIME,time_reference,"According to an interview Tate gave to No Depression magazine writer Edd Hurt in 2006, he was born in Elberton, Georgia.",0,3,== Biography == | === Early life ===,1790603
@@ -29,8 +27,7 @@ Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In late 2007, Tate recorded Blue Da
 2008,CD,YEAR_REGEX_1,TIME,time_reference,"In late 2007, Tate recorded Blue Day in Nashville with the producer Jon Tiven; it was released in 2008.",4,12,== Biography == | === Rediscovery ===,1790603
 That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,That year Tate was a judge for the sixth annual Independent Music Awards to support independent artists' careers.,0,13,== Biography == | === Rediscovery ===,1790603
 2010,CD,YEAR_REGEX_1,TIME,time_reference,"He and his touring quartet performed songs from his catalogue at Blue Heaven Studios, for an album released in 2010 as a limited-edition vinyl-only, direct-to-disc live recording.",1,13,== Biography == | === Rediscovery ===,1790603
-December 2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Tate died of complications of multiple myeloma and leukemia on December 2, 2011, at the age of 72.",0,14,== Biography == | === Rediscovery ===,1790603
-2011,CD,YEAR_REGEX_1,TIME,time_reference,"Tate died of complications of multiple myeloma and leukemia on December 2, 2011, at the age of 72.",0,14,== Biography == | === Rediscovery ===,1790603
+"December 2 , 2011","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Tate died of complications of multiple myeloma and leukemia on December 2, 2011, at the age of 72.",0,14,== Biography == | === Rediscovery ===,1790603
 1966,CD,YEAR_REGEX_1,TIME,time_reference,Get it While You Can (1966),0,17,== Discography == | === Albums ===,1790603
 1970,CD,YEAR_REGEX_1,TIME,time_reference,Howard Tate's Reaction (1970),0,18,== Discography == | === Albums ===,1790603
 1972,CD,YEAR_REGEX_1,TIME,time_reference,Howard Tate (1972),0,19,== Discography == | === Albums ===,1790603

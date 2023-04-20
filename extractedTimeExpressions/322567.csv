@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-October 10,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Harry ""Sweets"" Edison (October 10, 1915 – July 27, 1999) was an American jazz trumpeter and a member of the Count Basie Orchestra.",0,0,,322567
-1915 – July 27,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Harry ""Sweets"" Edison (October 10, 1915 – July 27, 1999) was an American jazz trumpeter and a member of the Count Basie Orchestra.",0,0,,322567
-1999,CD,YEAR_REGEX_1,TIME,time_reference,"Harry ""Sweets"" Edison (October 10, 1915 – July 27, 1999) was an American jazz trumpeter and a member of the Count Basie Orchestra.",0,0,,322567
+"October 10 , 1915 – July 27 , 1999","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Harry ""Sweets"" Edison (October 10, 1915 – July 27, 1999) was an American jazz trumpeter and a member of the Count Basie Orchestra.",0,0,,322567
 1933,CD,YEAR_REGEX_1,TIME,time_reference,"In 1933, he became a member of the Jeter-Pillars Orchestra in Cleveland.",3,2,== Biography ==,322567
 1937,CD,YEAR_REGEX_1,TIME,time_reference,"In 1937, he moved to New York and joined the Count Basie Orchestra.",5,2,== Biography ==,322567
 a 2003,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"In a 2003 interview for the National Museum of American History, drummer Elvin Jones explained the origin of Edison's nickname: ""Sweets had so many lady friends, he was such a handsome man.",7,2,== Biography ==,322567

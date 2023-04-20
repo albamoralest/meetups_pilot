@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-July 12,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Walter Scott Murch (born July 12, 1943) is an American film editor, director, writer and sound designer.",0,0,,526281
-1943,CD,YEAR_REGEX_1,TIME,time_reference,"Walter Scott Murch (born July 12, 1943) is an American film editor, director, writer and sound designer.",0,0,,526281
+"July 12 , 1943","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Walter Scott Murch (born July 12, 1943) is an American film editor, director, writer and sound designer.",0,0,,526281
 1969,CD,YEAR_REGEX_1,TIME,time_reference,"With a career stretching back to 1969, including work on THX1138, Apocalypse Now, The Godfather I, II, and III, American Graffiti, The Conversation, and The English Patient, with three Academy Award wins (from nine nominations: six for picture editing and three for sound mixing), he has been referred to by Roger Ebert as ""the most respected film editor and sound designer in the modern cinema.""",1,0,,526281
 Now,RB,TIMELINE_REGEX,TIME,time_reference,"With a career stretching back to 1969, including work on THX1138, Apocalypse Now, The Godfather I, II, and III, American Graffiti, The Conversation, and The English Patient, with three Academy Award wins (from nine nominations: six for picture editing and three for sound mixing), he has been referred to by Roger Ebert as ""the most respected film editor and sound designer in the modern cinema.""",1,0,,526281
 1907–1967,CD,YEAR_REGEX_1,TIME,time_reference,"Murch was born in New York City, New York, the son of Katharine (née Scott) and Canadian-born Walter Tandy Murch (1907–1967), a painter.",0,2,== Early life ==,526281
@@ -62,16 +61,11 @@ Now,RB,TIMELINE_REGEX,TIME,time_reference,"Apocalypse Now (1979), Ghost (1990), 
 1990,CD,YEAR_REGEX_1,TIME,time_reference,"Apocalypse Now (1979), Ghost (1990), and The Godfather Part III (1990) using KEM flatbed",0,16,== Innovations and awards ==,526281
 1996,CD,YEAR_REGEX_1,TIME,time_reference,The English Patient (1996) using Avid,0,17,== Innovations and awards ==,526281
 2003,CD,YEAR_REGEX_1,TIME,time_reference,Cold Mountain (2003) using Final Cut Pro 4Murch is also Honorary Associate of London Film School.,0,18,== Innovations and awards ==,526281
-August 6,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Murch married Muriel Ann ""Aggie"" Slater at Riverside Church, New York City, on August 6, 1965.",0,20,== Personal life ==,526281
-1965,CD,YEAR_REGEX_1,TIME,time_reference,"Murch married Muriel Ann ""Aggie"" Slater at Riverside Church, New York City, on August 6, 1965.",0,20,== Personal life ==,526281
+"August 6 , 1965","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Murch married Muriel Ann ""Aggie"" Slater at Riverside Church, New York City, on August 6, 1965.",0,20,== Personal life ==,526281
 now,RB,TIMELINE_REGEX,TIME,time_reference,"They have now lived in Bolinas, California, since 1972 and have 4 children: Walter Slater Murch, Beatrice Louise Murch, Carrie Angland, and Connie Angland.",2,20,== Personal life ==,526281
 1972,CD,YEAR_REGEX_1,TIME,time_reference,"They have now lived in Bolinas, California, since 1972 and have 4 children: Walter Slater Murch, Beatrice Louise Murch, Carrie Angland, and Connie Angland.",2,20,== Personal life ==,526281
-November 8,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Behind the Scenes with Film Editor Walter Murch interview at NPR All Things Considered, November 8, 2005",0,29,== External links ==,526281
-2005,CD,YEAR_REGEX_1,TIME,time_reference,"Behind the Scenes with Film Editor Walter Murch interview at NPR All Things Considered, November 8, 2005",0,29,== External links ==,526281
+"November 8 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Behind the Scenes with Film Editor Walter Murch interview at NPR All Things Considered, November 8, 2005",0,29,== External links ==,526281
 1894,CD,YEAR_REGEX_1,TIME,time_reference,Edison-Dickson Kinetophone Project 1894,0,30,== External links ==,526281
-Weekly,NNP,TIME_UNIT_REGEX,TIME,time_reference,"""Retouching Evil"" by Michael Sragow, SF Weekly, September 9, 1998.",0,33,== External links ==,526281
-September 9,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"""Retouching Evil"" by Michael Sragow, SF Weekly, September 9, 1998.",0,33,== External links ==,526281
-1998,CD,YEAR_REGEX_1,TIME,time_reference,"""Retouching Evil"" by Michael Sragow, SF Weekly, September 9, 1998.",0,33,== External links ==,526281
+"Weekly , September 9 , 1998","NNP , NNP CD , CD",TIME_UNIT_REGEX COMMA_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"""Retouching Evil"" by Michael Sragow, SF Weekly, September 9, 1998.",0,33,== External links ==,526281
 Now,RB,TIMELINE_REGEX,TIME,time_reference,"""Mixing Apocalypse Now"" by Larry Blake, Mix Magazine, August 1, 2001.",0,34,== External links ==,526281
-August 1,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"""Mixing Apocalypse Now"" by Larry Blake, Mix Magazine, August 1, 2001.",0,34,== External links ==,526281
-2001,CD,YEAR_REGEX_1,TIME,time_reference,"""Mixing Apocalypse Now"" by Larry Blake, Mix Magazine, August 1, 2001.",0,34,== External links ==,526281
+"August 1 , 2001","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"""Mixing Apocalypse Now"" by Larry Blake, Mix Magazine, August 1, 2001.",0,34,== External links ==,526281

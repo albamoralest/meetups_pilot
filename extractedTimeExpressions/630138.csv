@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-June 8,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"William Royce ""Boz"" Scaggs (born June 8, 1944) is an American singer, songwriter, and guitarist.",0,0,,630138
-1944,CD,YEAR_REGEX_1,TIME,time_reference,"William Royce ""Boz"" Scaggs (born June 8, 1944) is an American singer, songwriter, and guitarist.",0,0,,630138
+"June 8 , 1944","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"William Royce ""Boz"" Scaggs (born June 8, 1944) is an American singer, songwriter, and guitarist.",0,0,,630138
 the late 1970s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"He became prominent for his series of albums in the late 1970s, and songs ""Lido Shuffle"" and ""Lowdown"" from Silk Degrees (1976), which peaked at No. 2 on the Billboard 200.",1,0,,630138
 1976,CD,YEAR_REGEX_1,TIME,time_reference,"He became prominent for his series of albums in the late 1970s, and songs ""Lido Shuffle"" and ""Lowdown"" from Silk Degrees (1976), which peaked at No. 2 on the Billboard 200.",1,0,,630138
 1959,CD,YEAR_REGEX_1,TIME,time_reference,"In 1959, he became the vocalist for Miller's band, the Marksmen.",4,2,== Early life and career ==,630138
@@ -33,8 +32,7 @@ nightclub,NN,DAY_TIME_REGEX,TIME,time_reference,"Also in 1988, he opened the San
 1997,CD,YEAR_REGEX_1,TIME,time_reference,"He issued Come On Home, an album of rhythm and blues, and My Time: A Boz Scaggs Anthology, an anthology, in 1997.",5,9,== Later career ==,630138
 the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,In the summer of 1998 Boz went on tour as the opening act for Stevie Nicks.,0,10,== Later career ==,630138
 of 1998,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,In the summer of 1998 Boz went on tour as the opening act for Stevie Nicks.,0,10,== Later career ==,630138
-September 11,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"After another hiatus from recording, his next album, Dig, got good reviews, although the CD was released on an unfortunate date –  September 11, 2001.",0,11,== Later career ==,630138
-2001,CD,YEAR_REGEX_1,TIME,time_reference,"After another hiatus from recording, his next album, Dig, got good reviews, although the CD was released on an unfortunate date –  September 11, 2001.",0,11,== Later career ==,630138
+"September 11 , 2001","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"After another hiatus from recording, his next album, Dig, got good reviews, although the CD was released on an unfortunate date –  September 11, 2001.",0,11,== Later career ==,630138
 May 2003,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In May 2003, Scaggs released But Beautiful, a collection of jazz standards that debuted at number one on the jazz chart.",1,11,== Later career ==,630138
 2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008 he released Speak Low, which he described in the liner notes as ""a sort of progressive, experimental effort ... along the lines of some of the ideas that Gil Evans explored.""",2,11,== Later career ==,630138
 2004,CD,YEAR_REGEX_1,TIME,time_reference,"During 2004, he released a DVD and a live 16-track CD Greatest Hits Live that was recorded August 2003 at the Great American Music Hall in San Francisco.",3,11,== Later career ==,630138

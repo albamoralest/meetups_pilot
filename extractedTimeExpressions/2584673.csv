@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-November 29,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Edward Isaac Bickert,  (November 29, 1932 – February 28, 2019) was a Canadian jazz guitarist.",0,0,,2584673
-1932 – February 28,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Edward Isaac Bickert,  (November 29, 1932 – February 28, 2019) was a Canadian jazz guitarist.",0,0,,2584673
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"Edward Isaac Bickert,  (November 29, 1932 – February 28, 2019) was a Canadian jazz guitarist.",0,0,,2584673
+"November 29 , 1932 – February 28 , 2019","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Edward Isaac Bickert,  (November 29, 1932 – February 28, 2019) was a Canadian jazz guitarist.",0,0,,2584673
 eight years old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"When he was eight years old, he started playing guitar.",1,2,== Career ==,2584673
 the early 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"During the early 1950s, Bickert worked as a radio engineer in Toronto.",4,2,== Career ==,2584673
 the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He went on tour during the 1980s with McConnell, Koffman, and Peter Appleyard.",3,3,== Career ==,2584673

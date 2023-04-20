@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-August 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Luther Allison (August 17, 1939 – August 12, 1997) was an American blues guitarist.",0,0,,1429918
-1939 – August 12,CD NN NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Luther Allison (August 17, 1939 – August 12, 1997) was an American blues guitarist.",0,0,,1429918
-1997,CD,YEAR_REGEX_1,TIME,time_reference,"Luther Allison (August 17, 1939 – August 12, 1997) was an American blues guitarist.",0,0,,1429918
+"August 17 , 1939 – August 12 , 1997","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Luther Allison (August 17, 1939 – August 12, 1997) was an American blues guitarist.",0,0,,1429918
 the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,Allison was interested in music as a child and during the late 1940s he toured in a family gospel group called The Southern Travellers.,2,0,,1429918
 1951,CD,YEAR_REGEX_1,TIME,time_reference,He moved with his family to Chicago in 1951 and attended Farragut High School where he was classmates with Muddy Waters' son.,3,0,,1429918
 Three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Three years later he dropped out of school and began hanging around outside blues nightclubs with the hopes of being invited to perform.,5,0,,1429918
@@ -29,8 +27,7 @@ of the year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODI
 1994,CD,YEAR_REGEX_1,TIME,time_reference,He won four W. C. Handy Awards in 1994.,4,3,== Career ==,1429918
 the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"During his tour in the summer of 1997, Allison checked into a hospital for dizziness and loss of coordination.",0,4,== Career ==,1429918
 of 1997,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During his tour in the summer of 1997, Allison checked into a hospital for dizziness and loss of coordination.",0,4,== Career ==,1429918
-August 12,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"In and out of a coma, Allison died on August 12, 1997, five days before his 58th birthday, in Madison, Wisconsin.",2,4,== Career ==,1429918
-1997,CD,YEAR_REGEX_1,TIME,time_reference,"In and out of a coma, Allison died on August 12, 1997, five days before his 58th birthday, in Madison, Wisconsin.",2,4,== Career ==,1429918
+"August 12 , 1997","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"In and out of a coma, Allison died on August 12, 1997, five days before his 58th birthday, in Madison, Wisconsin.",2,4,== Career ==,1429918
 five days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In and out of a coma, Allison died on August 12, 1997, five days before his 58th birthday, in Madison, Wisconsin.",2,4,== Career ==,1429918
 now,RB,TIMELINE_REGEX,TIME,time_reference,"His son Bernard Allison, at one time a member of his band, is now a solo recording artist.",0,5,== Career ==,1429918
 1998,CD,YEAR_REGEX_1,TIME,time_reference,Allison was posthumously inducted into the Blues Hall of Fame in 1998.,3,5,== Career ==,1429918

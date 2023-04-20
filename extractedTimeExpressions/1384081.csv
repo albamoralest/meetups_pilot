@@ -1,10 +1,7 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-November 13,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Hampton Barnett Hawes, Jr. (November 13, 1928 – May 22, 1977) was an American jazz pianist.",0,0,,1384081
-1928 – May 22,CD NN NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Hampton Barnett Hawes, Jr. (November 13, 1928 – May 22, 1977) was an American jazz pianist.",0,0,,1384081
-1977,CD,YEAR_REGEX_1,TIME,time_reference,"Hampton Barnett Hawes, Jr. (November 13, 1928 – May 22, 1977) was an American jazz pianist.",0,0,,1384081
+"November 13 , 1928 – May 22 , 1977","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Hampton Barnett Hawes, Jr. (November 13, 1928 – May 22, 1977) was an American jazz pianist.",0,0,,1384081
 1975,CD,YEAR_REGEX_1,TIME,time_reference,"He was the author of the memoir Raise Up Off Me, which won the Deems-Taylor Award for music writing in 1975.",1,0,,1384081
-November 13,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Hampton Hawes was born on November 13, 1928, in Los Angeles, California.",0,2,== Early life ==,1384081
-1928,CD,YEAR_REGEX_1,TIME,time_reference,"Hampton Hawes was born on November 13, 1928, in Los Angeles, California.",0,2,== Early life ==,1384081
+"November 13 , 1928","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Hampton Hawes was born on November 13, 1928, in Los Angeles, California.",0,2,== Early life ==,1384081
 eight months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"His second professional job, at 18, was playing for eight months with the Howard McGhee Quintet at the Hi De Ho Club, in a group that included Charlie Parker.",1,4,== Later life and career ==,1384081
 late 1947,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"By late 1947, Hawes' reputation was leading to studio recording work.",2,4,== Later life and career ==,1384081
 1948 to 1952,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1948 to 1952, he was recorded live on several occasions at Los Angeles-area jazz clubs including The Haig, The Lighthouse, and The Surf Club.",4,4,== Later life and career ==,1384081

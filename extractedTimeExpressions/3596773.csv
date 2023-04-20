@@ -1,12 +1,9 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-March 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Paul Horn (March 17, 1930 – June 29, 2014) was an American flautist, saxophonist, composer and producer.",0,0,,3596773
-1930 – June 29,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Paul Horn (March 17, 1930 – June 29, 2014) was an American flautist, saxophonist, composer and producer.",0,0,,3596773
-2014,CD,YEAR_REGEX_1,TIME,time_reference,"Paul Horn (March 17, 1930 – June 29, 2014) was an American flautist, saxophonist, composer and producer.",0,0,,3596773
+"March 17 , 1930 – June 29 , 2014","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Paul Horn (March 17, 1930 – June 29, 2014) was an American flautist, saxophonist, composer and producer.",0,0,,3596773
 1969,CD,YEAR_REGEX_1,TIME,time_reference,He became a pioneer of world and new age music with his 1969 album Inside.,1,0,,3596773
 1965 and 1999,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He received five Grammy nominations between in 1965 and 1999, including three nominations in 1965.",2,0,,3596773
 1965,CD,YEAR_REGEX_1,TIME,time_reference,"He received five Grammy nominations between in 1965 and 1999, including three nominations in 1965.",2,0,,3596773
-March 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Horn was born on March 17, 1930, in New York City and had Jewish ancestry through his father.",0,2,== Biography ==,3596773
-1930,CD,YEAR_REGEX_1,TIME,time_reference,"Horn was born on March 17, 1930, in New York City and had Jewish ancestry through his father.",0,2,== Biography ==,3596773
+"March 17 , 1930","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Horn was born on March 17, 1930, in New York City and had Jewish ancestry through his father.",0,2,== Biography ==,3596773
 the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"In the summer of 1942, Horn worked as an usher at the Earl Theatre to buy a clarinet.",4,2,== Biography ==,3596773
 of 1942,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the summer of 1942, Horn worked as an usher at the Earl Theatre to buy a clarinet.",4,2,== Biography ==,3596773
 June 1953,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In June 1953, Horn gained a master's from the Manhattan School of Music.",6,2,== Biography ==,3596773
@@ -23,8 +20,7 @@ their 1968,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,He attended traini
 1959,CD,YEAR_REGEX_1,TIME,time_reference,"By 1959, the marriage had started to fall apart, and their divorce was finalised a few years later.",1,6,== Biography ==,3596773
 finalised a few years,VBN DT JJ NNS,PREFIX_REGEX_1 INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,,"By 1959, the marriage had started to fall apart, and their divorce was finalised a few years later.",1,6,== Biography ==,3596773
 1970,CD,YEAR_REGEX_1,TIME,time_reference,"In 1970, he moved with his two sons Marlen and Robin from his marriage, and second wife Tryntje Baum to Victoria, British Columbia, on Vancouver Island.",2,6,== Biography ==,3596773
-June 29,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Horn died at the age of 84 on June 29, 2014.",8,6,== Biography ==,3596773
-2014,CD,YEAR_REGEX_1,TIME,time_reference,"Horn died at the age of 84 on June 29, 2014.",8,6,== Biography ==,3596773
+"June 29 , 2014","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Horn died at the age of 84 on June 29, 2014.",8,6,== Biography ==,3596773
 the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Paul Horn was among hundreds of artists whose material was destroyed in the 2008 Universal fire.,9,6,== Biography ==,3596773
 1959,CD,YEAR_REGEX_1,TIME,time_reference,"Mongo (Fantasy, 1959)With Cal Tjader",0,11,== Discography == | === As sideman ===,3596773
 1961,CD,YEAR_REGEX_1,TIME,time_reference,"In a Latin Bag (Verve, 1961)",0,12,== Discography == | === As sideman ===,3596773

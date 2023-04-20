@@ -1,14 +1,11 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-February 5,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Luc Ferrari (February 5, 1929 – August 22, 2005) was a French composer of Italian heritage and a pioneer in musique concrète and electroacoustic music.",0,0,,113049
-1929 – August 22,CD NN NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Luc Ferrari (February 5, 1929 – August 22, 2005) was a French composer of Italian heritage and a pioneer in musique concrète and electroacoustic music.",0,0,,113049
-2005,CD,YEAR_REGEX_1,TIME,time_reference,"Luc Ferrari (February 5, 1929 – August 22, 2005) was a French composer of Italian heritage and a pioneer in musique concrète and electroacoustic music.",0,0,,113049
+"February 5 , 1929 – August 22 , 2005","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Luc Ferrari (February 5, 1929 – August 22, 2005) was a French composer of Italian heritage and a pioneer in musique concrète and electroacoustic music.",0,0,,113049
 1954,CD,YEAR_REGEX_1,TIME,time_reference,"In 1954, Ferrari went to the United States to meet Edgard Varèse, whose Déserts he had heard on the radio, and had impressed him.",0,3,== Biography ==,113049
 1958,CD,YEAR_REGEX_1,TIME,time_reference,In 1958 he co-founded the Groupe de Recherches Musicales with Pierre Schaeffer and François-Bernard Mâche.,2,3,== Biography ==,113049
 the early 1960,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"By the early 1960, Ferrari had begun work on his Hétérozygote, a piece for magnetic tape which uses ambient environmental sounds to suggest a dramatic narrative.",4,3,== Biography ==,113049
 1970,CD,YEAR_REGEX_1,TIME,time_reference,Ferrari's Presque rien No. 1 'Le Lever du jour au bord de la mer (1970) is regarded as a classic of its kind.,0,4,== Biography ==,113049
 twenty-one minutes,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In it, Ferrari takes a day-long recording of environmental sounds at a Yugoslavian beach and, through editing, makes a piece that lasts just twenty-one minutes.",1,4,== Biography ==,113049
-August 22,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Ferrari died in Arezzo, Italy on August 22, 2005, at age 76.",0,5,== Biography ==,113049
-2005,CD,YEAR_REGEX_1,TIME,time_reference,"Ferrari died in Arezzo, Italy on August 22, 2005, at age 76.",0,5,== Biography ==,113049
+"August 22 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ferrari died in Arezzo, Italy on August 22, 2005, at age 76.",0,5,== Biography ==,113049
 1973–74,CD,YEAR_REGEX_1,TIME,time_reference,AcousmatrixPetite symphonie intuitive pour un paysage de printemps (1973–74),0,7,== Discography ==,113049
 1985,CD,YEAR_REGEX_1,TIME,time_reference,Strathoven (1985),0,8,== Discography ==,113049
 1989,CD,YEAR_REGEX_1,TIME,time_reference,Presque rien avec filles (1989),0,9,== Discography ==,113049
@@ -263,13 +260,13 @@ March 1996,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In Ars Sono
 1998,CD,YEAR_REGEX_1,TIME,time_reference,"1998	""Minimal or Not Luc Ferrari"".",0,239,== Bibliography ==,113049
 March 1998,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In Musée – a shape of miles – Tower records – Vol. 12, Japan, March 1998, p. 14",0,240,== Bibliography ==,113049
 1998,CD,YEAR_REGEX_1,TIME,time_reference,"1998	Luc Ferrari in: ""Aspects de la Notation Verbale Essai de Taxinomie des Propositions Verbales des Années Soixante et Soixante-Dix.",0,241,== Bibliography ==,113049
+Oct.1998,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"U.F.R. de Musique et Musicologie du XXe siècle – Université de Paris IV-Sorbonne, Oct.1998",0,242,== Bibliography ==,113049
 1998,CD,YEAR_REGEX_1,TIME,time_reference,"1998	Luc Ferrari – ""Interview with an Intimate Iconoclast"" by Brigitte Robindoré",0,243,== Bibliography ==,113049
 3 – Autumn,CD JJ NNP,DIGIT_REGEX_1 LINKAGE_REGEX SEASON_REGEX,NUMERAL MODIFIER TIME,,"In Computer Music Journal, Vol. 22, No. 3 – Autumn, p. 8 – 16",0,244,== Bibliography ==,113049
 1999,CD,YEAR_REGEX_1,TIME,time_reference,1999	Luc Ferrari.,0,245,== Bibliography ==,113049
 10 – January,CD JJ NNP,DIGIT_REGEX_1 LINKAGE_REGEX MONTH_REGEX,NUMERAL MODIFIER TIME,,Peace Warriors No. 10 – January,0,246,== Bibliography ==,113049
 1999,CD,YEAR_REGEX_1,TIME,time_reference,"1999	Luc Ferrari in: ""La Notation Verbale au Service de Rituel"" (the verbal notation with the service of the ritual) Colloquia Musique et Rites May 17–19, 1999 by Radosveta Bruzaud",0,247,== Bibliography ==,113049
-May 17–19,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"1999	Luc Ferrari in: ""La Notation Verbale au Service de Rituel"" (the verbal notation with the service of the ritual) Colloquia Musique et Rites May 17–19, 1999 by Radosveta Bruzaud",0,247,== Bibliography ==,113049
-1999,CD,YEAR_REGEX_1,TIME,time_reference,"1999	Luc Ferrari in: ""La Notation Verbale au Service de Rituel"" (the verbal notation with the service of the ritual) Colloquia Musique et Rites May 17–19, 1999 by Radosveta Bruzaud",0,247,== Bibliography ==,113049
+"May 17–19 , 1999","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"1999	Luc Ferrari in: ""La Notation Verbale au Service de Rituel"" (the verbal notation with the service of the ritual) Colloquia Musique et Rites May 17–19, 1999 by Radosveta Bruzaud",0,247,== Bibliography ==,113049
 1999,CD,YEAR_REGEX_1,TIME,time_reference,"1999	""Serial Deviant"" by Dan Warburton.",0,248,== Bibliography ==,113049
 April,NNP,MONTH_REGEX,TIME,time_reference,"The Wire – April, p. 26 – 28",1,248,== Bibliography ==,113049
 1999,CD,YEAR_REGEX_1,TIME,time_reference,"1999	Luc Ferrari ""Far West News"".",0,249,== Bibliography ==,113049
@@ -297,8 +294,7 @@ January 2001,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Publicatio
 2002,CD,YEAR_REGEX_1,TIME,time_reference,"2002	""Luc Ferrari, or Memory as Non-Music"" par Ryosuke Shiina",0,275,== Bibliography ==,113049
 March 31/2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Doshisha Women’s College, Japan, March 31/2, 002",0,277,== Bibliography ==,113049
 2002,CD,YEAR_REGEX_1,TIME,time_reference,"2002	""Cinéma pour les oreilles about Almost Nothing with Luc Ferrari"" by Jacqueline Caux",0,278,== Bibliography ==,113049
-August 14 to 20,NNP CD TO CD,MONTH_REGEX DIGIT_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1,TIME NUMERAL MODIFIER NUMERAL,time_reference,"In Les INoockuptibles August 14 to 20, 2002 No. 351, p. 58 – 59",0,279,== Bibliography ==,113049
-2002,CD,YEAR_REGEX_1,TIME,time_reference,"In Les INoockuptibles August 14 to 20, 2002 No. 351, p. 58 – 59",0,279,== Bibliography ==,113049
+"August 14 to 20 , 2002","NNP CD TO CD , CD",MONTH_REGEX DIGIT_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER NUMERAL MODIFIER TIME,time_reference,"In Les INoockuptibles August 14 to 20, 2002 No. 351, p. 58 – 59",0,279,== Bibliography ==,113049
 2003,CD,YEAR_REGEX_1,TIME,time_reference,"2003 T. Möller: Luc Ferrari, in Komponisten der Gegenwart, (composers of the present) 26.",0,280,== Bibliography ==,113049
 2003,CD,YEAR_REGEX_1,TIME,time_reference,"2003 Luc Ferrari: ""Impro-Micro-Acoustique"" by Noël Akchoté in Skug No. 57– Austria, p. 49",0,281,== Bibliography ==,113049
 2004,CD,YEAR_REGEX_1,TIME,time_reference,"2004	Luc Ferrari in: ""Le Mot dans la Partition au Vingtième Siècle"" (The Word in the Score at the Twentieth Century)",0,282,== Bibliography ==,113049
@@ -312,8 +308,7 @@ December,NNP,MONTH_REGEX,TIME,time_reference,"U.F.R. de Musique et Musicologie �
 2005,CD,YEAR_REGEX_1,TIME,time_reference,"2005	""L'Escalier des Aveugles a Hörspiel"" from Luc Ferrari (The staircase of the blinds).",0,286,== Bibliography ==,113049
 2005,CD,YEAR_REGEX_1,TIME,time_reference,Sorbonne-Paris IV 2005,2,286,== Bibliography ==,113049
 2005,CD,YEAR_REGEX_1,TIME,time_reference,"2005	""L’Eloge de l’Arythmie.",0,287,== Bibliography ==,113049
-May 18–29,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"In Mouvement Musique Action, Cahier Spécial, May 18–29, 2005, p. 10–12",3,288,== Bibliography ==,113049
-2005,CD,YEAR_REGEX_1,TIME,time_reference,"In Mouvement Musique Action, Cahier Spécial, May 18–29, 2005, p. 10–12",3,288,== Bibliography ==,113049
+"May 18–29 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"In Mouvement Musique Action, Cahier Spécial, May 18–29, 2005, p. 10–12",3,288,== Bibliography ==,113049
 2005,CD,YEAR_REGEX_1,TIME,time_reference,"2005	Luc Ferrari ""Cycles des Souvenirs – Exploitation des Concepts"" (Cycle of memories – Exploitation of the Concepts).",0,289,== Bibliography ==,113049
 60-61 – 2005,CD JJ CD,DIGIT_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,NUMERAL MODIFIER TIME,,In Temporale Edizioni Studio Dabbeni – Lugano – No. 60-61 – 2005,2,289,== Bibliography ==,113049
 2005,CD,YEAR_REGEX_1,TIME,time_reference,"2005	Page of the score ""Tautologies et Environs"" – Exploitation Des Concepts",0,291,== Bibliography ==,113049
@@ -344,10 +339,8 @@ January 2001,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Published 
 March 2006,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Published in Japanese by Ryosuke Shiina, Tokyo, March 2006",0,317,== Bibliography ==,113049
 2007,CD,YEAR_REGEX_1,TIME,time_reference,2007	Sonopsys No. 4 Luc Ferrari,0,318,== Bibliography ==,113049
 the moment,DT NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"Publication at the moment of the premiere of Morbido Symphonie in Paris on May 11, 2007.",1,320,== Bibliography ==,113049
-May 11,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Publication at the moment of the premiere of Morbido Symphonie in Paris on May 11, 2007.",1,320,== Bibliography ==,113049
-2007,CD,YEAR_REGEX_1,TIME,time_reference,"Publication at the moment of the premiere of Morbido Symphonie in Paris on May 11, 2007.",1,320,== Bibliography ==,113049
+"May 11 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Publication at the moment of the premiere of Morbido Symphonie in Paris on May 11, 2007.",1,320,== Bibliography ==,113049
 2007,CD,YEAR_REGEX_1,TIME,time_reference,"2007	Luc Ferrari – Portraits Polychromes, Published by INA/GRM, Collection directed by Evelyne Gayou.",0,322,== Bibliography ==,113049
 2007,CD,YEAR_REGEX_1,TIME,time_reference,2007	Almost Nothing with Luc Ferrari,0,323,== Bibliography ==,113049
-2007,CD,YEAR_REGEX_1,TIME,time_reference,"Published May–June 2007 No. 25, Japan.",0,325,== Bibliography ==,113049
-July 22,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Paristransatlantic.com: Luc Ferrari Interview by Dan Warburton, July 22, 1998",0,330,== External links ==,113049
-1998,CD,YEAR_REGEX_1,TIME,time_reference,"Paristransatlantic.com: Luc Ferrari Interview by Dan Warburton, July 22, 1998",0,330,== External links ==,113049
+May–June 2007,NNP CD,MONTH_ABBR_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Published May–June 2007 No. 25, Japan.",0,325,== Bibliography ==,113049
+"July 22 , 1998","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Paristransatlantic.com: Luc Ferrari Interview by Dan Warburton, July 22, 1998",0,330,== External links ==,113049

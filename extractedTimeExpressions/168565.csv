@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-February 27,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Dexter Gordon (February 27, 1923 – April 25, 1990) was an American jazz tenor saxophonist.",0,0,,168565
-1923 – April 25,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Dexter Gordon (February 27, 1923 – April 25, 1990) was an American jazz tenor saxophonist.",0,0,,168565
-1990,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Gordon (February 27, 1923 – April 25, 1990) was an American jazz tenor saxophonist.",0,0,,168565
+"February 27 , 1923 – April 25 , 1990","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Dexter Gordon (February 27, 1923 – April 25, 1990) was an American jazz tenor saxophonist.",0,0,,168565
 40 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,His studio and performance career spanned over 40 years.,3,0,,168565
 the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Rollins and Coltrane then influenced Gordon's playing as he explored hard bop and modal playing during the 1960s.,5,1,,168565
 1948,CD,YEAR_REGEX_1,TIME,time_reference,A photograph by Herman Leonard of Gordon taking a smoke break at the Royal Roost in 1948 is one of the iconic images in jazz photography.,0,3,,168565
@@ -12,8 +10,7 @@ Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Gordon was nominated for an Aca
 the 1990,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He also had a cameo role in the 1990 film Awakenings.,1,4,,168565
 2018,CD,YEAR_REGEX_1,TIME,time_reference,"In 2018, Gordon's album Go (Blue Note, 1962) was selected by the Library of Congress for preservation in the National Recording Registry for being ""culturally, historically, or aesthetically significant"".",2,4,,168565
 1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 2018, Gordon's album Go (Blue Note, 1962) was selected by the Library of Congress for preservation in the National Recording Registry for being ""culturally, historically, or aesthetically significant"".",2,4,,168565
-February 27,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Dexter Keith Gordon was born on February 27, 1923 in Los Angeles, California, United States.",0,7,== Life and career == | === Early life ===,168565
-1923,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Keith Gordon was born on February 27, 1923 in Los Angeles, California, United States.",0,7,== Life and career == | === Early life ===,168565
+"February 27 , 1923","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Dexter Keith Gordon was born on February 27, 1923 in Los Angeles, California, United States.",0,7,== Life and career == | === Early life ===,168565
 1918,CD,YEAR_REGEX_1,TIME,time_reference,"His father, Dr. Frank Gordon, one of the first African American doctors in Los Angeles, arrived in 1918 after graduating from Howard University Medical School in Washington, D.C.",1,7,== Life and career == | === Early life ===,168565
 December 1940 and 1943,NNP CD CC CD,MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME TIME MODIFIER TIME,time_reference,"Between December 1940 and 1943, Gordon was a member of Lionel Hampton's band, playing in a saxophone section alongside Illinois Jacquet and Marshal Royal.",6,7,== Life and career == | === Early life ===,168565
 1944,CD,YEAR_REGEX_1,TIME,time_reference,"During 1944 he was featured in the Fletcher Henderson band, followed by the Louis Armstrong band, before joining Billy Eckstine.",7,7,== Life and career == | === Early life ===,168565
@@ -88,25 +85,21 @@ Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Soundtrack performances from Ro
 Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Soundtrack performances from Round Midnight were released as the albums Round Midnight and The Other Side of Round Midnight, featuring original music by Herbie Hancock as well as playing by Gordon.",0,27,== Life and career == | === Musician Emeritus ===,168565
 Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Soundtrack performances from Round Midnight were released as the albums Round Midnight and The Other Side of Round Midnight, featuring original music by Herbie Hancock as well as playing by Gordon.",0,27,== Life and career == | === Musician Emeritus ===,168565
 1987,CD,YEAR_REGEX_1,TIME,time_reference,"He was a sideman on Tony Bennett's 1987 album, Berlin.",2,27,== Life and career == | === Musician Emeritus ===,168565
-April 25,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Gordon died of kidney failure and cancer of the larynx in Philadelphia, on April 25, 1990, at the age of 67.",0,29,== Life and career == | === Death ===,168565
-1990,CD,YEAR_REGEX_1,TIME,time_reference,"Gordon died of kidney failure and cancer of the larynx in Philadelphia, on April 25, 1990, at the age of 67.",0,29,== Life and career == | === Death ===,168565
+"April 25 , 1990","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Gordon died of kidney failure and cancer of the larynx in Philadelphia, on April 25, 1990, at the age of 67.",0,29,== Life and career == | === Death ===,168565
 the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Dexter Gordon was among hundreds of artists whose material was reportedly destroyed in the 2008 Universal Studios fire.,0,31,== Life and career == | === Material loss ===,168565
 of the future,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER MODIFIER TIME,time_reference,"When he lived in Denmark, Gordon became friends with the family of the future Metallica drummer Lars Ulrich, and subsequently became Lars's godfather.",0,36,== Family ==,168565
 a 1962,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"In a 1962 interview with the British journalist Les Tomkins, he did not refer to the specific model of mouthpiece but stated that it was made for him personally.",1,38,== Instruments and mouthpieces ==,168565
 around 1952,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He stated that it was stolen around 1952.,2,38,== Instruments and mouthpieces ==,168565
 1977,CD,YEAR_REGEX_1,TIME,time_reference,"In a DownBeat magazine interview from 1977, he referred to his current mouthpiece as an Otto Link model with a #8 (.110"" under the Otto Link system) tip opening.",5,38,== Instruments and mouthpieces ==,168565
 1947 78,CD CD,YEAR_REGEX_1 DIGIT_REGEX_1,TIME NUMERAL,,"Dexter Rides Again (1947 78 album; Savoy MG 12130, 1992; SV-120, 2010)",0,41,== Discography == | === As a leader ===,168565
-12130,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Rides Again (1947 78 album; Savoy MG 12130, 1992; SV-120, 2010)",0,41,== Discography == | === As a leader ===,168565
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Rides Again (1947 78 album; Savoy MG 12130, 1992; SV-120, 2010)",0,41,== Discography == | === As a leader ===,168565
+"12130 , 1992","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Dexter Rides Again (1947 78 album; Savoy MG 12130, 1992; SV-120, 2010)",0,41,== Discography == | === As a leader ===,168565
 2010,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Rides Again (1947 78 album; Savoy MG 12130, 1992; SV-120, 2010)",0,41,== Discography == | === As a leader ===,168565
 1947 78,CD CD,YEAR_REGEX_1 DIGIT_REGEX_1,TIME NUMERAL,,"The Hunt with Wardell Gray (1947 78 album; Savoy SJL 2222, 1977)",0,42,== Discography == | === As a leader ===,168565
-2222,CD,YEAR_REGEX_1,TIME,time_reference,"The Hunt with Wardell Gray (1947 78 album; Savoy SJL 2222, 1977)",0,42,== Discography == | === As a leader ===,168565
-1977,CD,YEAR_REGEX_1,TIME,time_reference,"The Hunt with Wardell Gray (1947 78 album; Savoy SJL 2222, 1977)",0,42,== Discography == | === As a leader ===,168565
+"2222 , 1977","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"The Hunt with Wardell Gray (1947 78 album; Savoy SJL 2222, 1977)",0,42,== Discography == | === As a leader ===,168565
 1947,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Gordon – The Chase with Wardell Gray (Dial Records, 1947, re-released as Spotlite (E) SPJ 130)",0,43,== Discography == | === As a leader ===,168565
 1947,CD,YEAR_REGEX_1,TIME,time_reference,"(Dial Records, 1947, re-released as Spotlite (E) SPJ 133)",1,44,== Discography == | === As a leader ===,168565
 1947,CD,YEAR_REGEX_1,TIME,time_reference,"The Duel with Teddy Edwards (Dial, Spotlite, 1947)",0,45,== Discography == | === As a leader ===,168565
-2211,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Gordon – Long Tall Dexter (Savoy SJL 2211, 1976, compilation of 1940s Savoy tracks, previously released and unreleased)",0,47,== Discography == | === As a leader ===,168565
-1976,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Gordon – Long Tall Dexter (Savoy SJL 2211, 1976, compilation of 1940s Savoy tracks, previously released and unreleased)",0,47,== Discography == | === As a leader ===,168565
+"2211 , 1976","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Dexter Gordon – Long Tall Dexter (Savoy SJL 2211, 1976, compilation of 1940s Savoy tracks, previously released and unreleased)",0,47,== Discography == | === As a leader ===,168565
 of 1940s,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Dexter Gordon – Long Tall Dexter (Savoy SJL 2211, 1976, compilation of 1940s Savoy tracks, previously released and unreleased)",0,47,== Discography == | === As a leader ===,168565
 previously,RB,TIMELINE_REGEX,TIME,time_reference,"Dexter Gordon – Long Tall Dexter (Savoy SJL 2211, 1976, compilation of 1940s Savoy tracks, previously released and unreleased)",0,47,== Discography == | === As a leader ===,168565
 17027,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Gordon: Settin' the Pace (Savoy SVY 17027, compilation of 1940s Savoy studio tracks, including alternate takes)",0,48,== Discography == | === As a leader ===,168565
@@ -266,8 +259,7 @@ One Night,NNP NNP,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,time_referenc
 17125,CD,YEAR_REGEX_1,TIME,time_reference,"Billy Eckstine, The Legendary Big Band (SVY 17125)With Booker Ervin",0,150,== Discography == | === As a sideman ===,168565
 1965,CD,YEAR_REGEX_1,TIME,time_reference,"Setting the Pace (Prestige, 1965)With Lowell Fulson",0,151,== Discography == | === As a sideman ===,168565
 1944-1946,JJ,YEAR_REGEX_1,TIME,time_reference,"Dexter Gordon, Vol. 2 Young Dex 1944-1946  (Masters Of Jazz MJCD 128)",0,153,== Discography == | === As a sideman ===,168565
-12020,CD,YEAR_REGEX_1,TIME,time_reference,"Dizzy Gillespie – Groovin' High  (Savoy MG 12020, 1992; SV 152, 2010)With Lionel Hampton",0,154,== Discography == | === As a sideman ===,168565
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"Dizzy Gillespie – Groovin' High  (Savoy MG 12020, 1992; SV 152, 2010)With Lionel Hampton",0,154,== Discography == | === As a sideman ===,168565
+"12020 , 1992","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Dizzy Gillespie – Groovin' High  (Savoy MG 12020, 1992; SV 152, 2010)With Lionel Hampton",0,154,== Discography == | === As a sideman ===,168565
 2010,CD,YEAR_REGEX_1,TIME,time_reference,"Dizzy Gillespie – Groovin' High  (Savoy MG 12020, 1992; SV 152, 2010)With Lionel Hampton",0,154,== Discography == | === As a sideman ===,168565
 1941-1944,JJ,YEAR_REGEX_1,TIME,time_reference,1 Young Dex 1941-1944 (Masters Of Jazz MJCD 112),1,155,== Discography == | === As a sideman ===,168565
 1941-1942,JJ,YEAR_REGEX_1,TIME,time_reference,"Lionel Hampton, Vol. 1: 1941-1942  (Coral (G) COPS 7185)",0,156,== Discography == | === As a sideman ===,168565
@@ -278,10 +270,8 @@ Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Round Midnight (1986), Columbia
 1944,CD,YEAR_REGEX_1,TIME,time_reference,"Fletcher Henderson And His Orchestra (AFRS Jubilee 77), (V-Disc, 1944)With Helen Humes",0,162,== Discography == | === As a sideman ===,168565
 2215,CD,YEAR_REGEX_1,TIME,time_reference,Various Artists – Black California  (Savoy SJL 2215),0,163,== Discography == | === As a sideman ===,168565
 1942-52,JJ,YEAR_REGEX_1,TIME,time_reference,"Helen Humes – Be-Baba-Leba 1942-52  (Whiskey, Women And...",0,164,== Discography == | === As a sideman ===,168565
-February 2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Gene Norman ""Just Jazz"" concert, February 2, 1952, KM 701)",1,164,== Discography == | === As a sideman ===,168565
-1952,CD,YEAR_REGEX_1,TIME,time_reference,"Gene Norman ""Just Jazz"" concert, February 2, 1952, KM 701)",1,164,== Discography == | === As a sideman ===,168565
-February 2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Gene Norman ""Just Jazz"" concert, February 2, 1952, KM 707)With",1,165,== Discography == | === As a sideman ===,168565
-1952,CD,YEAR_REGEX_1,TIME,time_reference,"Gene Norman ""Just Jazz"" concert, February 2, 1952, KM 707)With",1,165,== Discography == | === As a sideman ===,168565
+"February 2 , 1952","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Gene Norman ""Just Jazz"" concert, February 2, 1952, KM 701)",1,164,== Discography == | === As a sideman ===,168565
+"February 2 , 1952","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Gene Norman ""Just Jazz"" concert, February 2, 1952, KM 707)With",1,165,== Discography == | === As a sideman ===,168565
 1977,CD,YEAR_REGEX_1,TIME,time_reference,"Philly Mignon (Galaxy, 1977)with Stan Levey",0,166,== Discography == | === As a sideman ===,168565
 1974,CD,YEAR_REGEX_1,TIME,time_reference,"The Meeting (SteepleChase, 1974)",0,168,== Discography == | === As a sideman ===,168565
 1974,CD,YEAR_REGEX_1,TIME,time_reference,"The Source (SteepleChase, 1974)With",0,169,== Discography == | === As a sideman ===,168565
@@ -296,7 +286,5 @@ February 2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Gene No
 Presents,NNP,TIMELINE_REGEX,TIME,time_reference,Les Thompson – Gene Norman Presents Just Jazz  (RCA Victor LPM 3102)With Ben Webster,0,179,== Discography == | === As a sideman ===,168565
 1945,CD,YEAR_REGEX_1,TIME,time_reference,"Ben Webster Nonet  (1945, Jazz Archives JA 35)",0,180,== Discography == | === As a sideman ===,168565
 2018,CD,YEAR_REGEX_1,TIME,time_reference,"Gordon, Maxine (2018)",0,183,== Further reading ==,168565
-August 30,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Retrieved August 30, 2010.",2,191,== External links ==,168565
-2010,CD,YEAR_REGEX_1,TIME,time_reference,"Retrieved August 30, 2010.",2,191,== External links ==,168565
-August 1,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"C. Michael Bailey (August 1, 2001).",0,192,== External links ==,168565
-2001,CD,YEAR_REGEX_1,TIME,time_reference,"C. Michael Bailey (August 1, 2001).",0,192,== External links ==,168565
+"August 30 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Retrieved August 30, 2010.",2,191,== External links ==,168565
+"August 1 , 2001","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"C. Michael Bailey (August 1, 2001).",0,192,== External links ==,168565

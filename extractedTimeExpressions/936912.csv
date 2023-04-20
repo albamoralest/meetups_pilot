@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-June 28,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"David ""Honeyboy"" Edwards (June 28, 1915 – August 29, 2011) was a Delta blues guitarist and singer from Mississippi.",0,0,,936912
-1915 – August 29,CD NN NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"David ""Honeyboy"" Edwards (June 28, 1915 – August 29, 2011) was a Delta blues guitarist and singer from Mississippi.",0,0,,936912
-2011,CD,YEAR_REGEX_1,TIME,time_reference,"David ""Honeyboy"" Edwards (June 28, 1915 – August 29, 2011) was a Delta blues guitarist and singer from Mississippi.",0,0,,936912
+"June 28 , 1915 – August 29 , 2011","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"David ""Honeyboy"" Edwards (June 28, 1915 – August 29, 2011) was a Delta blues guitarist and singer from Mississippi.",0,0,,936912
 the 1930s and 1940s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"At the age of 14, he left home to travel with the bluesman Big Joe Williams, beginning life as an itinerant musician, which he maintained through the 1930s and 1940s.",2,2,== Biography ==,936912
 the night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Edwards was present on the night Johnson drank the poisoned whiskey that killed him, and his story has become the definitive version of Johnson's demise.",4,2,== Biography ==,936912
 Saturday,NNP,WEEK_REGEX,TIME,time_reference,"On Saturday, somebody like me or Robert Johnson would go into one of these little towns, play for nickels and dimes.",0,4,== Biography ==,936912
@@ -22,10 +20,8 @@ a 2007,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"Between 
 2005,CD,YEAR_REGEX_1,TIME,time_reference,He also won the W. C. Handy Blues Award in 2005 and the Blues Music Award in 2007 for Acoustic Blues Artist.,2,6,== Biography ==,936912
 2007,CD,YEAR_REGEX_1,TIME,time_reference,He also won the W. C. Handy Blues Award in 2005 and the Blues Music Award in 2007 for Acoustic Blues Artist.,2,6,== Biography ==,936912
 2010,CD,YEAR_REGEX_1,TIME,time_reference,"In 2010, he received a Grammy Lifetime Achievement Award.",3,6,== Biography ==,936912
-July 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On July 17, 2011, Frank announced that Edwards would retire because of ill health.",4,6,== Biography ==,936912
-2011,CD,YEAR_REGEX_1,TIME,time_reference,"On July 17, 2011, Frank announced that Edwards would retire because of ill health.",4,6,== Biography ==,936912
-August 29,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Edwards died of congestive heart failure at his home on August 29, 2011, at about 3 a.m.",5,6,== Biography ==,936912
-2011,CD,YEAR_REGEX_1,TIME,time_reference,"Edwards died of congestive heart failure at his home on August 29, 2011, at about 3 a.m.",5,6,== Biography ==,936912
+"July 17 , 2011","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On July 17, 2011, Frank announced that Edwards would retire because of ill health.",4,6,== Biography ==,936912
+"August 29 , 2011","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Edwards died of congestive heart failure at his home on August 29, 2011, at about 3 a.m.",5,6,== Biography ==,936912
 about 3 a.m,IN CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 HALFDAY_REGEX_1,MODIFIER NUMERAL TIME,time_reference,"Edwards died of congestive heart failure at his home on August 29, 2011, at about 3 a.m.",5,6,== Biography ==,936912
 noon,NN,DAY_TIME_REGEX,TIME,time_reference,"According to events listings on the Metromix Chicago website, he had been scheduled to perform at noon that day, at the Jay Pritzker Pavilion in Chicago's Millennium Park.",6,6,== Biography ==,936912
 that day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"According to events listings on the Metromix Chicago website, he had been scheduled to perform at noon that day, at the Jay Pritzker Pavilion in Chicago's Millennium Park.",6,6,== Biography ==,936912
@@ -33,8 +29,7 @@ Millennium,NNP,TIME_UNIT_REGEX,TIME,time_reference,"According to events listings
 May,NNP,MONTH_REGEX,TIME,time_reference,"""Build a Cave"" / ""Who May Be Your Regular Be"" (ARC, 1951)",0,8,== Discography ==,936912
 1951,CD,YEAR_REGEX_1,TIME,time_reference,"""Build a Cave"" / ""Who May Be Your Regular Be"" (ARC, 1951)",0,8,== Discography ==,936912
 1953,CD,YEAR_REGEX_1,TIME,time_reference,"""Drop Down Mama"" (Chess, 1953)",0,9,== Discography ==,936912
-1978,CD,YEAR_REGEX_1,TIME,time_reference,"I've Been Around (Trix Records, 1978, 1995)",0,10,== Discography ==,936912
-1995,CD,YEAR_REGEX_1,TIME,time_reference,"I've Been Around (Trix Records, 1978, 1995)",0,10,== Discography ==,936912
+"1978 , 1995","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"I've Been Around (Trix Records, 1978, 1995)",0,10,== Discography ==,936912
 1979,CD,YEAR_REGEX_1,TIME,time_reference,"Mississippi Delta Bluesman (Folkways Records, 1979)",0,11,== Discography ==,936912
 1979,CD,YEAR_REGEX_1,TIME,time_reference,"Old Friends (Earwig, 1979)",0,12,== Discography ==,936912
 1988,CD,YEAR_REGEX_1,TIME,time_reference,"White Windows (Blue Suit, 1988)",0,13,== Discography ==,936912

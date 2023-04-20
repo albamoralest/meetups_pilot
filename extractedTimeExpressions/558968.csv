@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-October 11,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Lester Bowie (October 11, 1941 – November 8, 1999) was an American jazz trumpet player and composer.",0,0,,558968
-1941 – November 8,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Lester Bowie (October 11, 1941 – November 8, 1999) was an American jazz trumpet player and composer.",0,0,,558968
-1999,CD,YEAR_REGEX_1,TIME,time_reference,"Lester Bowie (October 11, 1941 – November 8, 1999) was an American jazz trumpet player and composer.",0,0,,558968
+"October 11 , 1941 – November 8 , 1999","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Lester Bowie (October 11, 1941 – November 8, 1999) was an American jazz trumpet player and composer.",0,0,,558968
 1965,CD,YEAR_REGEX_1,TIME,time_reference,"In 1965, he became Fontella Bass's musical director and husband.",3,2,== Biography ==,558968
 1966,CD,YEAR_REGEX_1,TIME,time_reference,"In 1966, he moved to Chicago, where he worked as a studio musician, and met Muhal Richard Abrams and Roscoe Mitchell and became a member of the AACM.",0,3,== Biography ==,558968
 1968,CD,YEAR_REGEX_1,TIME,time_reference,"In 1968, he founded the Art Ensemble of Chicago with Mitchell, Joseph Jarman, and Malachi Favors.",1,3,== Biography ==,558968

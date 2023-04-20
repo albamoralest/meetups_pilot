@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-March 24,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Paul Brownlee McCandless Jr. (born March 24, 1947) is an American multi-instrumentalist and founding member of the American jazz group Oregon.",0,0,,2320846
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"Paul Brownlee McCandless Jr. (born March 24, 1947) is an American multi-instrumentalist and founding member of the American jazz group Oregon.",0,0,,2320846
+"March 24 , 1947","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Paul Brownlee McCandless Jr. (born March 24, 1947) is an American multi-instrumentalist and founding member of the American jazz group Oregon.",0,0,,2320846
 1971,CD,YEAR_REGEX_1,TIME,time_reference,In 1971 he auditioned with the New York Philharmonic playing English horn and was a finalist.,2,2,== Biography ==,2320846
 the Mornings,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"McCandless has released a series of records of his own compositions with bands he led, including All the Mornings Bring (Elektra/Asylum, 1979), Navigator (Landslide, 1981), Heresay (Windham Hill, 1988), Premonition (Windham Hill, 1992).",3,2,== Biography ==,2320846
 1979,CD,YEAR_REGEX_1,TIME,time_reference,"McCandless has released a series of records of his own compositions with bands he led, including All the Mornings Bring (Elektra/Asylum, 1979), Navigator (Landslide, 1981), Heresay (Windham Hill, 1988), Premonition (Windham Hill, 1992).",3,2,== Biography ==,2320846
@@ -27,13 +26,11 @@ the 2015,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In 2014
 1993,CD,YEAR_REGEX_1,TIME,time_reference,"Grammy Award, Best R&B Vocal Performance, Male, with Al Jarreau, 1993",0,6,== Awards and honors ==,2320846
 1996,CD,YEAR_REGEX_1,TIME,time_reference,"Grammy Award, Best Pop Instrumental Performance with Béla Fleck and the Flecktones, 1996",0,7,== Awards and honors ==,2320846
 Winter,NNP,SEASON_REGEX,TIME,time_reference,"Grammy Award, Best New Age Album, with Paul Winter Consort, 2007, 2011",0,8,== Awards and honors ==,2320846
-2007,CD,YEAR_REGEX_1,TIME,time_reference,"Grammy Award, Best New Age Album, with Paul Winter Consort, 2007, 2011",0,8,== Awards and honors ==,2320846
-2011,CD,YEAR_REGEX_1,TIME,time_reference,"Grammy Award, Best New Age Album, with Paul Winter Consort, 2007, 2011",0,8,== Awards and honors ==,2320846
+"2007 , 2011","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Grammy Award, Best New Age Album, with Paul Winter Consort, 2007, 2011",0,8,== Awards and honors ==,2320846
 2001,CD,YEAR_REGEX_1,TIME,time_reference,"Grammy Award Nomination, Best Instrumental Composition, Best Instrumental Arrangement, Oregon in Moscow, 2001",0,9,== Awards and honors ==,2320846
 1000,CD,YEAR_REGEX_1,TIME,time_reference,"Grammy Award Nomination, Best Jazz Instrumental Solo, 1000 Kilometers, 2009",0,10,== Awards and honors ==,2320846
 2009,CD,YEAR_REGEX_1,TIME,time_reference,"Grammy Award Nomination, Best Jazz Instrumental Solo, 1000 Kilometers, 2009",0,10,== Awards and honors ==,2320846
-1976,CD,YEAR_REGEX_1,TIME,time_reference,"Winner, Talent Deserving of Wider Recognition, Down Beat Magazine Critics' Poll, 1976, 1978",0,11,== Awards and honors ==,2320846
-1978,CD,YEAR_REGEX_1,TIME,time_reference,"Winner, Talent Deserving of Wider Recognition, Down Beat Magazine Critics' Poll, 1976, 1978",0,11,== Awards and honors ==,2320846
+"1976 , 1978","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Winner, Talent Deserving of Wider Recognition, Down Beat Magazine Critics' Poll, 1976, 1978",0,11,== Awards and honors ==,2320846
 the Mornings,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"All the Mornings Bring (Elektra, 1979)",0,14,== Discography == | === As leader ===,2320846
 1979,CD,YEAR_REGEX_1,TIME,time_reference,"All the Mornings Bring (Elektra, 1979)",0,14,== Discography == | === As leader ===,2320846
 1981,CD,YEAR_REGEX_1,TIME,time_reference,"Navigator (Landslide, 1981)",0,15,== Discography == | === As leader ===,2320846

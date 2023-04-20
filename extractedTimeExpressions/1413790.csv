@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-September 28,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Koko Taylor (born Cora Anna Walton, September 28, 1928 – June 3, 2009) was an American singer whose style encompassed Chicago blues, electric blues, rhythm and blues and soul blues.",0,0,,1413790
-1928 – June 3,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Koko Taylor (born Cora Anna Walton, September 28, 1928 – June 3, 2009) was an American singer whose style encompassed Chicago blues, electric blues, rhythm and blues and soul blues.",0,0,,1413790
-2009,CD,YEAR_REGEX_1,TIME,time_reference,"Koko Taylor (born Cora Anna Walton, September 28, 1928 – June 3, 2009) was an American singer whose style encompassed Chicago blues, electric blues, rhythm and blues and soul blues.",0,0,,1413790
+"September 28 , 1928 – June 3 , 2009","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Koko Taylor (born Cora Anna Walton, September 28, 1928 – June 3, 2009) was an American singer whose style encompassed Chicago blues, electric blues, rhythm and blues and soul blues.",0,0,,1413790
 1952,CD,YEAR_REGEX_1,TIME,time_reference,"She left Tennessee for Chicago in 1952 with her husband, Robert ""Pops"" Taylor, a truck driver.",1,2,== Life and career ==,1413790
 the late 1950s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1950s, she began singing in blues clubs in Chicago.",2,2,== Life and career ==,1413790
 1962,CD,YEAR_REGEX_1,TIME,time_reference,"She was spotted by Willie Dixon in 1962, and this led to more opportunities for performing and her first recordings.",3,2,== Life and career ==,1413790
@@ -27,15 +25,12 @@ Year,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In 2009, she performed with Umphre
 later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In her later years, she performed over 70 concerts a year and resided just south of Chicago, in Country Club Hills, Illinois.",0,6,== Life and career ==,1413790
 a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In her later years, she performed over 70 concerts a year and resided just south of Chicago, in Country Club Hills, Illinois.",0,6,== Life and career ==,1413790
 2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008, the Internal Revenue Service said that Taylor owed $400,000 in unpaid taxes, penalties and interest, for the years 1998, 2000 and 2001.",0,7,== Life and career ==,1413790
-the years 1998,DT NNS CD,PREFIX_REGEX_1 TIME_UNIT_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,"In 2008, the Internal Revenue Service said that Taylor owed $400,000 in unpaid taxes, penalties and interest, for the years 1998, 2000 and 2001.",0,7,== Life and career ==,1413790
-2000 and 2001,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 2008, the Internal Revenue Service said that Taylor owed $400,000 in unpaid taxes, penalties and interest, for the years 1998, 2000 and 2001.",0,7,== Life and career ==,1413790
+"the years 1998 , 2000 and 2001","DT NNS CD , CD CC CD",PREFIX_REGEX_1 TIME_UNIT_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME TIME MODIFIER TIME MODIFIER TIME,time_reference,"In 2008, the Internal Revenue Service said that Taylor owed $400,000 in unpaid taxes, penalties and interest, for the years 1998, 2000 and 2001.",0,7,== Life and career ==,1413790
 those years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In those years combined, her adjusted gross income was $949,000.",1,7,== Life and career ==,1413790
-May 7,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Taylor's final performance was at the Blues Music Awards, on May 7, 2009.",2,7,== Life and career ==,1413790
-2009,CD,YEAR_REGEX_1,TIME,time_reference,"Taylor's final performance was at the Blues Music Awards, on May 7, 2009.",2,7,== Life and career ==,1413790
+"May 7 , 2009","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Taylor's final performance was at the Blues Music Awards, on May 7, 2009.",2,7,== Life and career ==,1413790
 May 19,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,She suffered complications from surgery for gastrointestinal bleeding on May 19 and died on June 3.,3,7,== Life and career ==,1413790
 June 3,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,She suffered complications from surgery for gastrointestinal bleeding on May 19 and died on June 3.,3,7,== Life and career ==,1413790
-June 25,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On June 25, 2019, The New York Times Magazine listed Koko Taylor among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire.",4,7,== Life and career ==,1413790
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"On June 25, 2019, The New York Times Magazine listed Koko Taylor among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire.",4,7,== Life and career ==,1413790
+"June 25 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On June 25, 2019, The New York Times Magazine listed Koko Taylor among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire.",4,7,== Life and career ==,1413790
 the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"On June 25, 2019, The New York Times Magazine listed Koko Taylor among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire.",4,7,== Life and career ==,1413790
 1985,CD,YEAR_REGEX_1,TIME,time_reference,"Grammy Award for Best Traditional Blues Album, 1985",0,9,== Awards ==,1413790
 1996,CD,YEAR_REGEX_1,TIME,time_reference,"Howlin' Wolf Award, 1996",0,10,== Awards ==,1413790
@@ -44,21 +39,15 @@ the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"On June
 2004,CD,YEAR_REGEX_1,TIME,time_reference,"NEA National Heritage Fellowship, 2004",0,13,== Awards ==,1413790
 of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Blues Music Award (formerly the W. C. Handy Award), 32 nominations with 29 wins in the following categories:Entertainer of the Year (1985)",0,14,== Awards ==,1413790
 1985,CD,YEAR_REGEX_1,TIME,time_reference,"Blues Music Award (formerly the W. C. Handy Award), 32 nominations with 29 wins in the following categories:Entertainer of the Year (1985)",0,14,== Awards ==,1413790
-1981,CD,YEAR_REGEX_1,TIME,time_reference,"Female Artist (1981, 1995)",0,15,== Awards ==,1413790
-1995,CD,YEAR_REGEX_1,TIME,time_reference,"Female Artist (1981, 1995)",0,15,== Awards ==,1413790
+"1981 , 1995","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Female Artist (1981, 1995)",0,15,== Awards ==,1413790
 of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Song of the Year (2008),0,16,== Awards ==,1413790
 2008,CD,YEAR_REGEX_1,TIME,time_reference,Song of the Year (2008),0,16,== Awards ==,1413790
 2008,CD,YEAR_REGEX_1,TIME,time_reference,Traditional Blues Album (2008),0,17,== Awards ==,1413790
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"Traditional Blues Female Artist (1992, 1993, 1999–2005, 2008, 2009)",0,18,== Awards ==,1413790
-1993,CD,YEAR_REGEX_1,TIME,time_reference,"Traditional Blues Female Artist (1992, 1993, 1999–2005, 2008, 2009)",0,18,== Awards ==,1413790
-1999–2005,CD,YEAR_REGEX_1,TIME,time_reference,"Traditional Blues Female Artist (1992, 1993, 1999–2005, 2008, 2009)",0,18,== Awards ==,1413790
-2008,CD,YEAR_REGEX_1,TIME,time_reference,"Traditional Blues Female Artist (1992, 1993, 1999–2005, 2008, 2009)",0,18,== Awards ==,1413790
-2009,CD,YEAR_REGEX_1,TIME,time_reference,"Traditional Blues Female Artist (1992, 1993, 1999–2005, 2008, 2009)",0,18,== Awards ==,1413790
+"1992 , 1993 , 1999–2005 , 2008 , 2009","CD , CD , CD , CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME MODIFIER TIME MODIFIER TIME MODIFIER TIME,time_range,"Traditional Blues Female Artist (1992, 1993, 1999–2005, 2008, 2009)",0,18,== Awards ==,1413790
 of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Vocalist of the Year (1985),0,19,== Awards ==,1413790
 1985,CD,YEAR_REGEX_1,TIME,time_reference,Vocalist of the Year (1985),0,19,== Awards ==,1413790
 2008,CD,YEAR_REGEX_1,TIME,time_reference,"7th Annual Independent Music Awards for Best Blues Album, 2008",0,20,== Awards ==,1413790
-November 30,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Love You Like a Woman, November 30, 1968 (Charly Records)",0,22,== Discography ==,1413790
-1968,CD,YEAR_REGEX_1,TIME,time_reference,"Love You Like a Woman, November 30, 1968 (Charly Records)",0,22,== Discography ==,1413790
+"November 30 , 1968","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Love You Like a Woman, November 30, 1968 (Charly Records)",0,22,== Discography ==,1413790
 1969,CD,YEAR_REGEX_1,TIME,time_reference,"Koko Taylor, 1969 (MCA/Chess Records)",0,23,== Discography ==,1413790
 1972,CD,YEAR_REGEX_1,TIME,time_reference,"Basic Soul, 1972 (Chess)",0,24,== Discography ==,1413790
 1973,CD,YEAR_REGEX_1,TIME,time_reference,"South Side Lady, 1973 (Black and Blue Records)",0,25,== Discography ==,1413790

@@ -1,9 +1,6 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-June 1,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Hazel Jane Dickens (June 1, 1925 – April 22, 2011) was an American bluegrass singer, songwriter, double bassist and guitarist.",0,0,,916486
-1925 – April 22,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Hazel Jane Dickens (June 1, 1925 – April 22, 2011) was an American bluegrass singer, songwriter, double bassist and guitarist.",0,0,,916486
-2011,CD,YEAR_REGEX_1,TIME,time_reference,"Hazel Jane Dickens (June 1, 1925 – April 22, 2011) was an American bluegrass singer, songwriter, double bassist and guitarist.",0,0,,916486
-June 1,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Hazel Dickens was born in Montcalm, Mercer County, West Virginia on June 1, 1925, the eighth of eleven siblings in a mining family of 6 boys and 5 girls.",0,2,== Career ==,916486
-1925,CD,YEAR_REGEX_1,TIME,time_reference,"Hazel Dickens was born in Montcalm, Mercer County, West Virginia on June 1, 1925, the eighth of eleven siblings in a mining family of 6 boys and 5 girls.",0,2,== Career ==,916486
+"June 1 , 1925 – April 22 , 2011","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Hazel Jane Dickens (June 1, 1925 – April 22, 2011) was an American bluegrass singer, songwriter, double bassist and guitarist.",0,0,,916486
+"June 1 , 1925","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Hazel Dickens was born in Montcalm, Mercer County, West Virginia on June 1, 1925, the eighth of eleven siblings in a mining family of 6 boys and 5 girls.",0,2,== Career ==,916486
 the early 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,In the early 1950s she moved to Baltimore.,2,2,== Career ==,916486
 the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"She met Mike Seeger, younger half-brother of Pete Seeger and founding member of the New Lost City Ramblers and became active in the Baltimore-Washington area bluegrass and folk music scene during the 1960s.",3,2,== Career ==,916486
 1965,CD,YEAR_REGEX_1,TIME,time_reference,"During this time she also established a collaborative relationship with Mike Seeger's wife, Alice Gerrard, and as ""Hazel & Alice"" recorded two albums for the Folkways label: Who's That Knocking (And Other Bluegrass Country Music) (1965) and Won't You Come & Sing for Me (1973).",0,3,== Career ==,916486
@@ -11,12 +8,9 @@ the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"She m
 1976,CD,YEAR_REGEX_1,TIME,time_reference,"Together, they recorded two additional albums on Rounder Records, but Hazel & Alice broke up in 1976 and Dickens pursued a solo career where her music and songwriting became more political.",2,3,== Career ==,916486
 1978,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, Dickens performed at the Vandalia Gathering in Charleston, West Virginia, both solo and then with the former coal-miner turned musician, Carl Rutherford.",6,3,== Career ==,916486
 2011,CD,YEAR_REGEX_1,TIME,time_reference,In 2011 Dickens died in a Washington DC hospice from complications of pneumonia.,0,5,== Death ==,916486
-June 1,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"After her death, it was reported in major media that she had been born on June 1, 1935, but her relatives and public records confirmed the earlier date of June 1, 1925.",1,5,== Death ==,916486
-1935,CD,YEAR_REGEX_1,TIME,time_reference,"After her death, it was reported in major media that she had been born on June 1, 1935, but her relatives and public records confirmed the earlier date of June 1, 1925.",1,5,== Death ==,916486
-of June 1,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,"After her death, it was reported in major media that she had been born on June 1, 1935, but her relatives and public records confirmed the earlier date of June 1, 1925.",1,5,== Death ==,916486
-1925,CD,YEAR_REGEX_1,TIME,time_reference,"After her death, it was reported in major media that she had been born on June 1, 1935, but her relatives and public records confirmed the earlier date of June 1, 1925.",1,5,== Death ==,916486
-June 5,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Stating that ""music saves mountains,"" fans and supporters of Dickens' activism announced a special memorial, Tribute to West Virginia Music Legend Hazel Dickens at the Charleston, West Virginia Cultural Center on June 5, 2011.",2,5,== Death ==,916486
-2011,CD,YEAR_REGEX_1,TIME,time_reference,"Stating that ""music saves mountains,"" fans and supporters of Dickens' activism announced a special memorial, Tribute to West Virginia Music Legend Hazel Dickens at the Charleston, West Virginia Cultural Center on June 5, 2011.",2,5,== Death ==,916486
+"June 1 , 1935","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"After her death, it was reported in major media that she had been born on June 1, 1935, but her relatives and public records confirmed the earlier date of June 1, 1925.",1,5,== Death ==,916486
+"of June 1 , 1925","IN NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"After her death, it was reported in major media that she had been born on June 1, 1935, but her relatives and public records confirmed the earlier date of June 1, 1925.",1,5,== Death ==,916486
+"June 5 , 2011","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Stating that ""music saves mountains,"" fans and supporters of Dickens' activism announced a special memorial, Tribute to West Virginia Music Legend Hazel Dickens at the Charleston, West Virginia Cultural Center on June 5, 2011.",2,5,== Death ==,916486
 1976,CD,YEAR_REGEX_1,TIME,time_reference,"""They'll Never Keep Us Down"" (Rounder Records, 1976) – for the film Harlan County, U.S.A.",0,8,== Discography == | === Singles and EPs ===,916486
 1980,CD,YEAR_REGEX_1,TIME,time_reference,"""Busted"" / ""Old Calloused Hands"" (Rounder Records, 1980) – from the album Hard Hitting Songs for Hard Hit People",0,9,== Discography == | === Singles and EPs ===,916486
 1980,CD,YEAR_REGEX_1,TIME,time_reference,"Hard Hitting Songs for Hard Hit People (Rounder Records, 1980)",0,11,== Discography == | === Solo albums ===,916486
@@ -59,17 +53,12 @@ the 1982,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"They'll
 2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001 she was presented with a National Heritage Fellowship by the National Endowment for the Arts, which is the United States' highest honor in the folk and traditional arts.",1,50,== Awards and honors ==,916486
 2008,CD,YEAR_REGEX_1,TIME,time_reference,"Dickens, Hazel; Malone, Bill C. (2008).",0,55,== Further reading ==,916486
 2015,CD,YEAR_REGEX_1,TIME,time_reference,"Hansell, Tom; Beaver, Patricia & Wiley, Angela, (2015).",0,56,== Further reading ==,916486
-February 15,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"(February 15, 2015).",2,56,== Further reading ==,916486
-2015,CD,YEAR_REGEX_1,TIME,time_reference,"(February 15, 2015).",2,56,== Further reading ==,916486
-March 9,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Confirmed March 9, 2019.",3,56,== Further reading ==,916486
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"Confirmed March 9, 2019.",3,56,== Further reading ==,916486
+"February 15 , 2015","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"(February 15, 2015).",2,56,== Further reading ==,916486
+"March 9 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Confirmed March 9, 2019.",3,56,== Further reading ==,916486
 2013,CD,YEAR_REGEX_1,TIME,time_reference,"Henry, Murphy Hicks (2013).",0,57,== Further reading ==,916486
 2018,CD,YEAR_REGEX_1,TIME,time_reference,"Moore, Rick (2018) ""Hazel Dickens, 'Hills of home'.",0,58,== Further reading ==,916486
-November 25,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"(November 25, 2018).",2,58,== Further reading ==,916486
-2018,CD,YEAR_REGEX_1,TIME,time_reference,"(November 25, 2018).",2,58,== Further reading ==,916486
-March 9,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Retrieved March 9, 2019.",3,58,== Further reading ==,916486
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"Retrieved March 9, 2019.",3,58,== Further reading ==,916486
+"November 25 , 2018","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"(November 25, 2018).",2,58,== Further reading ==,916486
+"March 9 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Retrieved March 9, 2019.",3,58,== Further reading ==,916486
 2018,CD,YEAR_REGEX_1,TIME,time_reference,"Tucker, Ken. (2018).",0,59,== Further reading ==,916486
 October 2018,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,NPR (October 2018).,2,59,== Further reading ==,916486
-March 9,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Retrieved March 9, 2019.",3,59,== Further reading ==,916486
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"Retrieved March 9, 2019.",3,59,== Further reading ==,916486
+"March 9 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Retrieved March 9, 2019.",3,59,== Further reading ==,916486

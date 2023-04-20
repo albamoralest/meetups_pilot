@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-July 25,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Bob Franke (born July 25, 1947, in Hamtramck, Michigan) is an American folk singer-songwriter.",0,0,,3180885
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"Bob Franke (born July 25, 1947, in Hamtramck, Michigan) is an American folk singer-songwriter.",0,0,,3180885
+"July 25 , 1947","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bob Franke (born July 25, 1947, in Hamtramck, Michigan) is an American folk singer-songwriter.",0,0,,3180885
 1965,CD,YEAR_REGEX_1,TIME,time_reference,"He began his career in 1965, while a student at the University of Michigan, and performed at The Ark, a coffeehouse in Ann Arbor.",0,2,== Biography ==,3180885
 1969,CD,YEAR_REGEX_1,TIME,time_reference,"After graduating from Michigan in 1969 with a degree in English literature, he moved to Cambridge, Massachusetts to attend Episcopal Theological School.",1,2,== Biography ==,3180885
 currently,RB,TIMELINE_REGEX,TIME,time_reference,"He left school to pursue a musical career, and has lived in New England ever since, currently residing in Peabody, Massachusetts.",2,2,== Biography ==,3180885

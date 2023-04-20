@@ -1,11 +1,8 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-July 3,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"John Edward Blake Jr. (July 3, 1947 – August 15, 2014) was an American jazz violinist from South Philadelphia, Pennsylvania, United States.",0,0,,3217228
-1947 – August 15,CD NN NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"John Edward Blake Jr. (July 3, 1947 – August 15, 2014) was an American jazz violinist from South Philadelphia, Pennsylvania, United States.",0,0,,3217228
-2014,CD,YEAR_REGEX_1,TIME,time_reference,"John Edward Blake Jr. (July 3, 1947 – August 15, 2014) was an American jazz violinist from South Philadelphia, Pennsylvania, United States.",0,0,,3217228
+"July 3 , 1947 – August 15 , 2014","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"John Edward Blake Jr. (July 3, 1947 – August 15, 2014) was an American jazz violinist from South Philadelphia, Pennsylvania, United States.",0,0,,3217228
 the late 1970s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"He performed most prominently as a sideman in groups led by Grover Washington Jr. (in the late 1970s) and McCoy Tyner (in the early 1980s), as well as led his own groups.",1,0,,3217228
 the early 1980s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"He performed most prominently as a sideman in groups led by Grover Washington Jr. (in the late 1970s) and McCoy Tyner (in the early 1980s), as well as led his own groups.",1,0,,3217228
-August 15,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"He died on August 15, 2014 from complications of multiple myeloma.",2,0,,3217228
-2014,CD,YEAR_REGEX_1,TIME,time_reference,"He died on August 15, 2014 from complications of multiple myeloma.",2,0,,3217228
+"August 15 , 2014","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died on August 15, 2014 from complications of multiple myeloma.",2,0,,3217228
 1984,CD,YEAR_REGEX_1,TIME,time_reference,"Maiden Dance (Gramavision, 1984)",0,3,== Discography == | === As leader ===,3217228
 1985,CD,YEAR_REGEX_1,TIME,time_reference,"Twinkling of an Eye (Gramavision, 1985)",0,4,== Discography == | === As leader ===,3217228
 1986,CD,YEAR_REGEX_1,TIME,time_reference,"Rhythm & BLU (Gramavision, 1986)",0,5,== Discography == | === As leader ===,3217228
@@ -33,8 +30,7 @@ August 15,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"He died 
 1982,CD,YEAR_REGEX_1,TIME,time_reference,"Cecil McBee, Flying Out (India Navigation, 1982)",0,29,== Discography == | === As sideman ===,3217228
 1980,CD,YEAR_REGEX_1,TIME,time_reference,"Carmen McRae, I'm Coming Home Again (Buddah, 1980)",0,30,== Discography == | === As sideman ===,3217228
 1986,CD,YEAR_REGEX_1,TIME,time_reference,"Carmen McRae, Ms. Magic (Del Rack, 1986)",0,31,== Discography == | === As sideman ===,3217228
-Sunrise,NNP,DAY_TIME_REGEX,TIME,time_reference,"Marvin Peterson, Children of the Fire (Sunrise, 1974)",0,32,== Discography == | === As sideman ===,3217228
-1974,CD,YEAR_REGEX_1,TIME,time_reference,"Marvin Peterson, Children of the Fire (Sunrise, 1974)",0,32,== Discography == | === As sideman ===,3217228
+"Sunrise , 1974","NNP , CD",DAY_TIME_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Marvin Peterson, Children of the Fire (Sunrise, 1974)",0,32,== Discography == | === As sideman ===,3217228
 1994,CD,YEAR_REGEX_1,TIME,time_reference,"Vanessa Rubin, I'm Glad There Is You (Novus/RCA, 1994)",0,33,== Discography == | === As sideman ===,3217228
 1995,CD,YEAR_REGEX_1,TIME,time_reference,"Gilberto Santa Rosa, En Vivo Desde El Carnegie Hall (Sony, 1995)",0,34,== Discography == | === As sideman ===,3217228
 2008,CD,YEAR_REGEX_1,TIME,time_reference,"Avery Sharpe, Legends & Mentors (JKNM, 2008)",0,35,== Discography == | === As sideman ===,3217228
@@ -47,8 +43,7 @@ Sunrise,NNP,DAY_TIME_REGEX,TIME,time_reference,"Marvin Peterson, Children of the
 1997,CD,YEAR_REGEX_1,TIME,time_reference,"James Blood Ulmer, Harmolodic Guitar with Strings (DIW, 1997)",0,42,== Discography == | === As sideman ===,3217228
 1992,CD,YEAR_REGEX_1,TIME,time_reference,"Gerald Veasley, Look Ahead (Heads Up, 1992)",0,43,== Discography == | === As sideman ===,3217228
 1997,CD,YEAR_REGEX_1,TIME,time_reference,"Gerald Veasley, Soul Control (Inak, 1997)",0,44,== Discography == | === As sideman ===,3217228
-Days,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Kazumi Watanabe, The Best Performance (Better Days, 1982)",0,45,== Discography == | === As sideman ===,3217228
-1982,CD,YEAR_REGEX_1,TIME,time_reference,"Kazumi Watanabe, The Best Performance (Better Days, 1982)",0,45,== Discography == | === As sideman ===,3217228
+"Days , 1982","NNP , CD",TIME_UNIT_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Kazumi Watanabe, The Best Performance (Better Days, 1982)",0,45,== Discography == | === As sideman ===,3217228
 May,NNP,MONTH_REGEX,TIME,time_reference,"Paula West, Come What May (Hi Horse, 2001)",0,46,== Discography == | === As sideman ===,3217228
 2001,CD,YEAR_REGEX_1,TIME,time_reference,"Paula West, Come What May (Hi Horse, 2001)",0,46,== Discography == | === As sideman ===,3217228
 1980,CD,YEAR_REGEX_1,TIME,time_reference,"Buster Williams, Dreams Come True (Buddah, 1980)",0,47,== Discography == | === As sideman ===,3217228

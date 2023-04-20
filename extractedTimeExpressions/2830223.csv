@@ -27,8 +27,7 @@ of the week,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODI
 early 2005,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Camp's final work was on the film Hard Four in early 2005, as well as a musical album produced by James Lee Stanley called Sweet Joy, completed shortly before his death.",2,9,== Career ==,2830223
 1961,CD,YEAR_REGEX_1,TIME,time_reference,"He married Rasjadah Lisa Jovita Cisz in 1961, and they had six children.",0,11,== Personal life ==,2830223
 2002,CD,YEAR_REGEX_1,TIME,time_reference,His wife died in 2002.,1,11,== Personal life ==,2830223
-October 2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Camp died of a heart attack on October 2, 2005, right before his 71st birthday.",0,13,== Death ==,2830223
-2005,CD,YEAR_REGEX_1,TIME,time_reference,"Camp died of a heart attack on October 2, 2005, right before his 71st birthday.",0,13,== Death ==,2830223
+"October 2 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Camp died of a heart attack on October 2, 2005, right before his 71st birthday.",0,13,== Death ==,2830223
 1961,CD,YEAR_REGEX_1,TIME,time_reference,"Bob Gibson and Bob Camp at the Gate of Horn (1961, Rhino)",0,16,== Discography ==,2830223
 1964,CD,YEAR_REGEX_1,TIME,time_reference,"Paths of Victory (1964, Collectors' Choice Music)",0,17,== Discography ==,2830223
 1967,CD,YEAR_REGEX_1,TIME,time_reference,"Here's to You (1967, Warner Brothers Music)",0,18,== Discography ==,2830223

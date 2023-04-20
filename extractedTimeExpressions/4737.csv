@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-November 30,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Walter Brown ""Brownie"" McGhee (November 30, 1915 – February 16, 1996) was an American folk music and Piedmont blues singer and guitarist, best known for his collaboration with the harmonica player Sonny Terry.",0,0,,4737
-1915 – February 16,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Walter Brown ""Brownie"" McGhee (November 30, 1915 – February 16, 1996) was an American folk music and Piedmont blues singer and guitarist, best known for his collaboration with the harmonica player Sonny Terry.",0,0,,4737
-1996,CD,YEAR_REGEX_1,TIME,time_reference,"Walter Brown ""Brownie"" McGhee (November 30, 1915 – February 16, 1996) was an American folk music and Piedmont blues singer and guitarist, best known for his collaboration with the harmonica player Sonny Terry.",0,0,,4737
+"November 30 , 1915 – February 16 , 1996","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Walter Brown ""Brownie"" McGhee (November 30, 1915 – February 16, 1996) was an American folk music and Piedmont blues singer and guitarist, best known for his collaboration with the harmonica player Sonny Terry.",0,0,,4737
 the March,DT NNP,PREFIX_REGEX_1 MONTH_REGEX,MODIFIER TIME,time_reference,Surgery funded by the March of Dimes enabled McGhee to walk.,8,2,== Life and career ==,4737
 1941,CD,YEAR_REGEX_1,TIME,time_reference,"After Fuller's death in 1941, J. B. Long of Columbia Records promoted McGhee as ""Blind Boy Fuller No. 2.""",1,3,== Life and career ==,4737
 1942,CD,YEAR_REGEX_1,TIME,time_reference,"By that time, McGhee was recording for Columbia's subsidiary Okeh Records in Chicago, but his real success came after he moved to New York in 1942, when he teamed up with Sonny Terry, whom he had known since 1939, when Terry was Fuller's harmonica player.",2,3,== Life and career ==,4737
@@ -24,8 +22,7 @@ the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The au
 of a 1982,IN DT CD,PREFIX_REGEX_1 INARTICLE_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"McGhee and Terry were both recipients of a 1982 National Heritage Fellowship awarded by the National Endowment for the Arts, which is the United States government's highest honor in the folk and traditional arts.",0,6,== Life and career ==,4737
 That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,That year's fellowships were the first bestowed by the NEA.,1,6,== Life and career ==,4737
 the 1995,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,One of McGhee's last concert appearances was at the 1995 Chicago Blues Festival.,0,7,== Life and career ==,4737
-February 16,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"McGhee died of stomach cancer on February 16, 1996 in Oakland, California, at age 80.",1,7,== Life and career ==,4737
-1996,CD,YEAR_REGEX_1,TIME,time_reference,"McGhee died of stomach cancer on February 16, 1996 in Oakland, California, at age 80.",1,7,== Life and career ==,4737
+"February 16 , 1996","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"McGhee died of stomach cancer on February 16, 1996 in Oakland, California, at age 80.",1,7,== Life and career ==,4737
 1951,CD,YEAR_REGEX_1,TIME,time_reference,"Traditional Blues, Vol. 1 (Folkways Records, 1951)",0,10,== Discography == | === Solo albums ===,4737
 1955,CD,YEAR_REGEX_1,TIME,time_reference,"Brownie McGhee Blues (Folkways, 1955)",0,11,== Discography == | === Solo albums ===,4737
 1959,CD,YEAR_REGEX_1,TIME,time_reference,"Brownie McGhee Sings the Blues (Folkways, 1959)",0,12,== Discography == | === Solo albums ===,4737
@@ -33,8 +30,7 @@ February 16,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"McGhee
 1962,CD,YEAR_REGEX_1,TIME,time_reference,"Brownie's Blues (Bluesville, 1962)",0,14,== Discography == | === Solo albums ===,4737
 1976,CD,YEAR_REGEX_1,TIME,time_reference,"Blues Is Truth (Blues Alliance, 1976)",0,15,== Discography == | === Solo albums ===,4737
 1985,CD,YEAR_REGEX_1,TIME,time_reference,"Facts of Life (Blues Rock'It, 1985) with the Ford Blues Band",0,16,== Discography == | === Solo albums ===,4737
-Years,NNP,TIME_UNIT_REGEX,TIME,time_reference,"The Folkways Years, 1945–1959 (Smithsonian Folkways, 1991)",0,18,== Discography == | === Compilation ===,4737
-1945–1959,CD,YEAR_REGEX_1,TIME,time_reference,"The Folkways Years, 1945–1959 (Smithsonian Folkways, 1991)",0,18,== Discography == | === Compilation ===,4737
+"Years , 1945–1959","NNP , CD",TIME_UNIT_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"The Folkways Years, 1945–1959 (Smithsonian Folkways, 1991)",0,18,== Discography == | === Compilation ===,4737
 1991,CD,YEAR_REGEX_1,TIME,time_reference,"The Folkways Years, 1945–1959 (Smithsonian Folkways, 1991)",0,18,== Discography == | === Compilation ===,4737
 1955,CD,YEAR_REGEX_1,TIME,time_reference,"Brownie McGhee Blues (Folkways, 1955)",0,20,== Discography == | === With Sonny Terry ===,4737
 1956,CD,YEAR_REGEX_1,TIME,time_reference,"Washboard Band: Country Dance Music (Folkways, 1956)",0,21,== Discography == | === With Sonny Terry ===,4737

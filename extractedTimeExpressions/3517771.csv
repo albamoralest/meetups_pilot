@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-August 10,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Al Alberts (born Al Albertini, August 10, 1922 – November 27, 2009) was an American popular singer and composer.",0,0,,3517771
-1922 – November 27,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Al Alberts (born Al Albertini, August 10, 1922 – November 27, 2009) was an American popular singer and composer.",0,0,,3517771
-2009,CD,YEAR_REGEX_1,TIME,time_reference,"Al Alberts (born Al Albertini, August 10, 1922 – November 27, 2009) was an American popular singer and composer.",0,0,,3517771
+"August 10 , 1922 – November 27 , 2009","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Al Alberts (born Al Albertini, August 10, 1922 – November 27, 2009) was an American popular singer and composer.",0,0,,3517771
 Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,"As a teenager, he appeared on the  Horn and Hardart Children's Hour, a radio program.",1,2,== Biography ==,3517771
 1954,CD,YEAR_REGEX_1,TIME,time_reference,"The song hit the No. 1 bestselling record twice in 1954, and won the Academy Award for Best Original Song the same year.",1,4,== Biography ==,3517771
 year,NN,TIME_UNIT_REGEX,TIME,time_reference,"The song hit the No. 1 bestselling record twice in 1954, and won the Academy Award for Best Original Song the same year.",1,4,== Biography ==,3517771
@@ -16,7 +14,6 @@ WKBS-TV,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Subsequently, he became a telev
 32 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"After 32 years, the show went off the air after Alberts' retirement in 2001.",8,7,== Biography ==,3517771
 2001,CD,YEAR_REGEX_1,TIME,time_reference,"After 32 years, the show went off the air after Alberts' retirement in 2001.",8,7,== Biography ==,3517771
 2010,CD,YEAR_REGEX_1,TIME,time_reference,The Broadcast Pioneers of Philadelphia posthumously inducted Alberts into their Hall of Fame in 2010.,2,9,== Death and legacy ==,3517771
-November 27,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Former 6abc host Al Alberts has died November 27, 2009, last updated 12:11 pm EST",0,13,== External links ==,3517771
-2009,CD,YEAR_REGEX_1,TIME,time_reference,"Former 6abc host Al Alberts has died November 27, 2009, last updated 12:11 pm EST",0,13,== External links ==,3517771
+"November 27 , 2009","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Former 6abc host Al Alberts has died November 27, 2009, last updated 12:11 pm EST",0,13,== External links ==,3517771
 12:11 pm EST,CD NN NN,DIGIT_REGEX_1 HALFDAY_REGEX_1 TIME_ZONE_REGEX,NUMERAL TIME TIME,,"Former 6abc host Al Alberts has died November 27, 2009, last updated 12:11 pm EST",0,13,== External links ==,3517771
 1980s,CD,YEAR_REGEX_1,TIME,time_reference,Anthony J. Biondo Jr. – Al Alberts Showcase Teenie Bopper – 1980s,0,17,== External links ==,3517771

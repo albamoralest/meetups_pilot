@@ -57,7 +57,7 @@ the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Mason wa
 1976,CD,YEAR_REGEX_1,TIME,time_reference,1976:,0,26,== Discography == | ==== Live albums ====,701860
 1975,CD,YEAR_REGEX_1,TIME,time_reference,"Certified Live (Columbia) (recorded on tour, 1975) – US #78",1,26,== Discography == | ==== Live albums ====,701860
 1999,CD,YEAR_REGEX_1,TIME,time_reference,1999:,0,27,== Discography == | ==== Live albums ====,701860
-1998,CD,YEAR_REGEX_1,TIME,time_reference,"Live: The 40,000 Headmen Tour (with Jim Capaldi) (Receiver Records) (recorded at various locations, Feb-April 1998)",1,27,== Discography == | ==== Live albums ====,701860
+Feb-April 1998,NNP CD,MONTH_ABBR_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Live: The 40,000 Headmen Tour (with Jim Capaldi) (Receiver Records) (recorded at various locations, Feb-April 1998)",1,27,== Discography == | ==== Live albums ====,701860
 2002,CD,YEAR_REGEX_1,TIME,time_reference,2002: Live at Perkins Palace (Pioneer) (recorded 1981),0,28,== Discography == | ==== Live albums ====,701860
 1981,CD,YEAR_REGEX_1,TIME,time_reference,2002: Live at Perkins Palace (Pioneer) (recorded 1981),0,28,== Discography == | ==== Live albums ====,701860
 2002,CD,YEAR_REGEX_1,TIME,time_reference,2002:,0,29,== Discography == | ==== Live albums ====,701860
@@ -136,5 +136,4 @@ Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"vocals on ""You Can't Dance Alo
 1968,CD,YEAR_REGEX_1,TIME,time_reference,"sitar on ""Little One"", originally recorded ca. 1968",0,123,== Discography == | === Session work ===,701860
 2011,CD,YEAR_REGEX_1,TIME,time_reference,"2011: Derek and the Dominoes, Layla and Other Assorted Love Songs: 40th Anniversary Edition (Universal)",0,124,== Discography == | === Session work ===,701860
 June 1970,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"guitar and vocals on ""Roll It Over"", originally recorded June 1970",0,125,== Discography == | === Session work ===,701860
-February 23,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"NAMM Oral History Interview February 23, 2007",0,130,== External links ==,701860
-2007,CD,YEAR_REGEX_1,TIME,time_reference,"NAMM Oral History Interview February 23, 2007",0,130,== External links ==,701860
+"February 23 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"NAMM Oral History Interview February 23, 2007",0,130,== External links ==,701860

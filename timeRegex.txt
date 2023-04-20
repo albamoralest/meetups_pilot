@@ -4,7 +4,8 @@
 [YEAR_REGEX_2]	'[0-9]{2}
 
 [MONTH_REGEX]	(?<!\S)(?:January)(?!\S)|Januarys|January's|(?<!\S)(?:February)(?!\S)|Februarys|February's|(?<!\S)(?:March)(?!\S)|Marchs|March's|(?<!\S)(?:April)(?!\S)|Aprils|April's|(?<!\S)(?:May)(?!\S)|Mays|May's|(?<!\S)(?:June)(?!\S)|Junes|June's|(?<!\S)(?:July)(?!\S)|Julys|July's|(?<!\S)(?:August)(?!\S)|Augusts|August's|(?<!\S)(?:September)(?!\S)|Septembers|September's|(?<!\S)(?:October)(?!\S)|Octobers|October's|(?<!\S)(?:November)(?!\S)|Novembers|November's|(?<!\S)(?:December)(?!\S)|Decembers|December's
-[MONTH_ABBR_REGEX]	(?<!\S)Jan(?!\S)|(?<!\S)Jan(?:'s|\.)(?!\S)|(?<!\S)Feb(?!\S)|(?<!\S)Feb(?:'s|\.)(?!\S)|(?<!\S)Mar(?!\S)|(?<!\S)Mar(?:'s|\.)(?!\S)|(?<!\S)Apr(?!\S)|(?<!\S)Apr(?:'s|\.)(?!\S)|(?<!\S)May(?!\S)|(?<!\S)May(?:'s|\.)(?!\S)|(?<!\S)Jun(?!\S)|(?<!\S)Jun(?:'s|\.)(?!\S)|(?<!\S)Jul(?!\S)|(?<!\S)Jul(?:'s|\.)(?!\S)|(?<!\S)Aug(?!\S)|(?<!\S)Aug(?:'s|\.)(?!\S)|(?<!\S)Sept(?!\S)|(?<!\S)Sept(?:'s|\.)(?!\S)|(?<!\S)Oct(?!\S)|(?<!\S)Oct(?:'s|\.)(?!\S)|(?<!\S)Nov(?!\S)|(?<!\S)Nov(?:'s|\.)(?!\S)|(?<!\S)Dec(?!\S)|(?<!\S)Dec(?:'s|\.)(?!\S)
+
+[MONTH_ABBR_REGEX]	((Jan)\b|(Jan\.?('s)?)\b|(Feb)\b|(Feb\.?('s)?)\b|(Mar)\b|(Mar\.?('s)?)\b|(Apr)\b|(Apr\.?('s)?)\b|(May)\b|(May\.?('s)?)\b|(Jun)\b|(Jun\.?('s)?)\b|(Jul)\b|(Jul\.?('s)?)\b|(Aug)\b|(Aug\.?('s)?)\b|(Sep)\b|(Sep\.?('s)?)\b|(Oct)\b|(Oct\.?('s)?)\b|(Nov)\b|(Nov\.?('s)?)\b|(Dec)\b|(Dec\.?('s)?)\b)
 
 [WEEK_REGEX]	mondays?('s)?|tuesdays?('s)?|wednesdays?('s)?|thursdays?('s)?|fridays?('s)?|saturdays?('s)?|sundays?('s)?
 [WEEK_ABBR_REGEX]	(?<!\S)mon(?:\.?|s?)(?!\S)|(?<!\S)tue(?:s?|\.?)(?!\S)|(?<!\S)wed(?:\.?|s?)(?!\S)|(?<!\S)thur(?:s?|\.?)(?!\S)|(?<!\S)fri(?:\.?|s?)(?!\S)|(?<!\S)sat(?:\.?|s?)(?!\S)|(?<!\S)sun(?:\.?|s?)(?!\S)

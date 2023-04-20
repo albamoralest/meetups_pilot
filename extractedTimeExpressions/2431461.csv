@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-June 3,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Phillip Rista Nimmons,  (born June 3, 1923) is a Canadian jazz clarinetist, composer, bandleader, and educator.",0,0,,2431461
-1923,CD,YEAR_REGEX_1,TIME,time_reference,"Phillip Rista Nimmons,  (born June 3, 1923) is a Canadian jazz clarinetist, composer, bandleader, and educator.",0,0,,2431461
+"June 3 , 1923","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Phillip Rista Nimmons,  (born June 3, 1923) is a Canadian jazz clarinetist, composer, bandleader, and educator.",0,0,,2431461
 1973,CD,YEAR_REGEX_1,TIME,time_reference,He joined the University of Toronto in 1973.,1,2,== Career ==,2431461
 1953,CD,YEAR_REGEX_1,TIME,time_reference,"In 1953 Nimmons formed the ensemble ""Nimmons 'N' Nine""  which, later, he led during his weekly radio show on CBC radio.",2,2,== Career ==,2431461
 1965,CD,YEAR_REGEX_1,TIME,time_reference,this ensemble grew to 16 musicians in 1965 and was active intil 1980.,3,2,== Career ==,2431461
@@ -11,8 +10,7 @@ the 1988 Winter,DT CD NNP,PREFIX_REGEX_1 YEAR_REGEX_1 SEASON_REGEX,MODIFIER TIME
 2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001 Nimmons was a recipient of the Jazz Education Hall of Fame which honors ""individuals whose musical contributions and dedication to jazz education over the past 25 years have created new directions and curricular innovations for jazz education worldwide"".",5,4,== Awards and honors ==,2431461
 25 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 2001 Nimmons was a recipient of the Jazz Education Hall of Fame which honors ""individuals whose musical contributions and dedication to jazz education over the past 25 years have created new directions and curricular innovations for jazz education worldwide"".",5,4,== Awards and honors ==,2431461
 2002,CD,YEAR_REGEX_1,TIME,time_reference,"In 2002, Nimmons received the Governor General's Performing Arts Award, Canada's highest honour in the performing arts, for his lifetime contribution to popular music.",6,4,== Awards and honors ==,2431461
-November 21,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On November 21, 2005, Nimmons was awarded the Lifetime Achievement Award by SOCAN at the SOCAN Awards in Toronto.",7,4,== Awards and honors ==,2431461
-2005,CD,YEAR_REGEX_1,TIME,time_reference,"On November 21, 2005, Nimmons was awarded the Lifetime Achievement Award by SOCAN at the SOCAN Awards in Toronto.",7,4,== Awards and honors ==,2431461
+"November 21 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On November 21, 2005, Nimmons was awarded the Lifetime Achievement Award by SOCAN at the SOCAN Awards in Toronto.",7,4,== Awards and honors ==,2431461
 1956,CD,YEAR_REGEX_1,TIME,time_reference,"The Canadian Scene Via the Phil Nimmons Group (Verve, 1956)",0,6,== Discography ==,2431461
 1963,CD,YEAR_REGEX_1,TIME,time_reference,"Nimmons 'n' Nine (Verve, 1963)",0,7,== Discography ==,2431461
 1963,CD,YEAR_REGEX_1,TIME,time_reference,"Take Ten (RCA, 1963)",0,8,== Discography ==,2431461

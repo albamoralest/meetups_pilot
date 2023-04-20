@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-September 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Dorothy Loudon (September 17, 1925 – November 15, 2003)was an American actress and singer.",0,0,,368130
-1925 – November 15,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Dorothy Loudon (September 17, 1925 – November 15, 2003)was an American actress and singer.",0,0,,368130
-2003,CD,YEAR_REGEX_1,TIME,time_reference,"Dorothy Loudon (September 17, 1925 – November 15, 2003)was an American actress and singer.",0,0,,368130
+"September 17 , 1925 – November 15 , 2003","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Dorothy Loudon (September 17, 1925 – November 15, 2003)was an American actress and singer.",0,0,,368130
 1977,CD,YEAR_REGEX_1,TIME,time_reference,She won the Tony Award for Best Lead Actress in a Musical in 1977 for her performance as Miss Hannigan in Annie.,1,0,,368130
 Falling,NNP,SEASON_REGEX,TIME,time_reference,"Loudon was also nominated for Tony Awards for her lead performances in the musicals The Fig Leaves Are Falling and Ballroom, as well as a Golden Globe award for her appearances on The Garry Moore Show.",2,0,,368130
 1925,CD,YEAR_REGEX_1,TIME,time_reference,"Loudon was born in Boston, Massachusetts in 1925 (she later shaved eight years off her age), to James Edwin Loudon and Dorothy Helen Loudon (née Shaw).",0,2,== Early life and career ==,368130
@@ -34,8 +32,7 @@ Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"She appeared in only two films,
 1997,CD,YEAR_REGEX_1,TIME,time_reference,"She appeared in only two films, playing an agent in the film Garbo Talks (1984) and as Southern eccentric Serena Dawes in Midnight in the Garden of Good and Evil (1997).",6,7,== Television and film ==,368130
 1925–1977,CD,YEAR_REGEX_1,TIME,time_reference,Loudon was married to composer Norman Paris (born Norman Thaddeus Paris; 1925–1977) from 1971 to his death.,0,9,== Personal life ==,368130
 1971,CD,YEAR_REGEX_1,TIME,time_reference,Loudon was married to composer Norman Paris (born Norman Thaddeus Paris; 1925–1977) from 1971 to his death.,0,9,== Personal life ==,368130
-November 15,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"She died in Manhattan, age 78, from cancer on November 15, 2003.",2,9,== Personal life ==,368130
-2003,CD,YEAR_REGEX_1,TIME,time_reference,"She died in Manhattan, age 78, from cancer on November 15, 2003.",2,9,== Personal life ==,368130
+"November 15 , 2003","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"She died in Manhattan, age 78, from cancer on November 15, 2003.",2,9,== Personal life ==,368130
 of 1959,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,New Faces of 1959 (1959) (closed before opening),0,15,== Theatre credits ==,368130
 1959,CD,YEAR_REGEX_1,TIME,time_reference,New Faces of 1959 (1959) (closed before opening),0,15,== Theatre credits ==,368130
 1962,CD,YEAR_REGEX_1,TIME,time_reference,The World of Jules Feiffer (1962),0,16,== Theatre credits ==,368130

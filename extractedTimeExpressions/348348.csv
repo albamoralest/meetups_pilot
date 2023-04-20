@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-August 30,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"McKinley Howard ""Kenny"" Dorham (August 30, 1924 – December 5, 1972) was an American jazz trumpeter, singer, and composer.",0,0,,348348
-1924 – December 5,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"McKinley Howard ""Kenny"" Dorham (August 30, 1924 – December 5, 1972) was an American jazz trumpeter, singer, and composer.",0,0,,348348
-1972,CD,YEAR_REGEX_1,TIME,time_reference,"McKinley Howard ""Kenny"" Dorham (August 30, 1924 – December 5, 1972) was an American jazz trumpeter, singer, and composer.",0,0,,348348
+"August 30 , 1924 – December 5 , 1972","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"McKinley Howard ""Kenny"" Dorham (August 30, 1924 – December 5, 1972) was an American jazz trumpeter, singer, and composer.",0,0,,348348
 December 1948,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,He joined Parker's band in December 1948.,2,2,== Biography ==,348348
 1956,CD,YEAR_REGEX_1,TIME,time_reference,"He also recorded as a sideman with Thelonious Monk and Sonny Rollins, and he replaced Clifford Brown in the Max Roach Quintet after Brown's death in 1956.",4,2,== Biography ==,348348
 About Midnight,IN NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"The Jazz Prophets, featuring a young Bobby Timmons on piano, bassist Sam Jones, and tenorman J. R. Monterose, with guest Kenny Burrell on guitar, recorded a live album 'Round About Midnight at the Cafe Bohemia in 1956 for Blue Note.",6,2,== Biography ==,348348
@@ -11,10 +9,8 @@ the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Dorha
 1957,CD,YEAR_REGEX_1,TIME,time_reference,They produced the album 2 Horns / 2 Rhythm for Riverside Records in 1957 with double bassist Eddie Mathias and drummer G.T. Hogan.,6,3,== Biography ==,348348
 1990,CD,YEAR_REGEX_1,TIME,time_reference,"In 1990 the album was re-released on CD under the name ""Kenny Dorham Quartet featuring Ernie Henry.",7,3,== Biography ==,348348
 final years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"""During his final years Dorham suffered from kidney disease, from which he died on December 5, 1972, aged 48.",8,3,== Biography ==,348348
-December 5,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"""During his final years Dorham suffered from kidney disease, from which he died on December 5, 1972, aged 48.",8,3,== Biography ==,348348
-1972,CD,YEAR_REGEX_1,TIME,time_reference,"""During his final years Dorham suffered from kidney disease, from which he died on December 5, 1972, aged 48.",8,3,== Biography ==,348348
-June 25,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On June 25, 2019, The New York Times Magazine listed Kenny Dorham among hundreds of artists who recorded for record labels whose master recordings were reportedly destroyed in the 2008 Universal fire.",9,3,== Biography ==,348348
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"On June 25, 2019, The New York Times Magazine listed Kenny Dorham among hundreds of artists who recorded for record labels whose master recordings were reportedly destroyed in the 2008 Universal fire.",9,3,== Biography ==,348348
+"December 5 , 1972","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"""During his final years Dorham suffered from kidney disease, from which he died on December 5, 1972, aged 48.",8,3,== Biography ==,348348
+"June 25 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On June 25, 2019, The New York Times Magazine listed Kenny Dorham among hundreds of artists who recorded for record labels whose master recordings were reportedly destroyed in the 2008 Universal fire.",9,3,== Biography ==,348348
 the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"On June 25, 2019, The New York Times Magazine listed Kenny Dorham among hundreds of artists who recorded for record labels whose master recordings were reportedly destroyed in the 2008 Universal fire.",9,3,== Biography ==,348348
 1953,CD,YEAR_REGEX_1,TIME,time_reference,1953:,0,6,== Discography == | === As leader ===,348348
 1955,CD,YEAR_REGEX_1,TIME,time_reference,1955:,0,7,== Discography == | === As leader ===,348348
@@ -49,8 +45,7 @@ Spring,NNP,SEASON_REGEX,TIME,time_reference,Blue Spring (Riverside) with Cannonb
 1955,CD,YEAR_REGEX_1,TIME,time_reference,The Jazz Messengers at the Cafe Bohemia Volume 1 (1955),0,32,== Discography == | === As sideman ===,348348
 1955,CD,YEAR_REGEX_1,TIME,time_reference,The Jazz Messengers at the Cafe Bohemia Volume 2 (1955)With Rocky Boyd,0,33,== Discography == | === As sideman ===,348348
 1961,CD,YEAR_REGEX_1,TIME,time_reference,"Ease It (Jazztime, 1961; reissued as West 42nd Street on Black Lion under Dorham's name)With Kenny Burrell",0,34,== Discography == | === As sideman ===,348348
-1543,CD,YEAR_REGEX_1,TIME,time_reference,"Kenny Burrell (Blue Note BLP 1543, 1956) – 1 trackWith Tadd Dameron",0,35,== Discography == | === As sideman ===,348348
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"Kenny Burrell (Blue Note BLP 1543, 1956) – 1 trackWith Tadd Dameron",0,35,== Discography == | === As sideman ===,348348
+"1543 , 1956","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Kenny Burrell (Blue Note BLP 1543, 1956) – 1 trackWith Tadd Dameron",0,35,== Discography == | === As sideman ===,348348
 1956,CD,YEAR_REGEX_1,TIME,time_reference,"Fontainebleau (Prestige, 1956)With Lou Donaldson",0,36,== Discography == | === As sideman ===,348348
 1954,CD,YEAR_REGEX_1,TIME,time_reference,"Quartet/Quintet/Sextet (Blue Note, 1954)With Matthew Gee",0,37,== Discography == | === As sideman ===,348348
 1956,CD,YEAR_REGEX_1,TIME,time_reference,"Jazz by Gee (Riverside, 1956)With",0,38,== Discography == | === As sideman ===,348348

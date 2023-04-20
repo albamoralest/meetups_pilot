@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-October 16,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Anna Malenfant (October 16, 1902 – June 15, 1988) was a Canadian singer, educator and composer.",0,0,,50876284
-1902 – June 15,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Anna Malenfant (October 16, 1902 – June 15, 1988) was a Canadian singer, educator and composer.",0,0,,50876284
-1988,CD,YEAR_REGEX_1,TIME,time_reference,"Anna Malenfant (October 16, 1902 – June 15, 1988) was a Canadian singer, educator and composer.",0,0,,50876284
+"October 16 , 1902 – June 15 , 1988","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Anna Malenfant (October 16, 1902 – June 15, 1988) was a Canadian singer, educator and composer.",0,0,,50876284
 Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years and career,1,1,== Early years and career ==,50876284
 1929,CD,YEAR_REGEX_1,TIME,time_reference,"On her return to North America in 1929, she sang on radio station WITC in Hartford, Connecticut for a year under the name Louise Malmont.",3,2,== Early years and career ==,50876284
 a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"On her return to North America in 1929, she sang on radio station WITC in Hartford, Connecticut for a year under the name Louise Malmont.",3,2,== Early years and career ==,50876284

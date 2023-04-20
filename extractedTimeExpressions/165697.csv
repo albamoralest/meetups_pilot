@@ -1,14 +1,11 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-November 11,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Delores LaVern Baker (November 11, 1929 – March 10, 1997) was an American R&B singer who had several hit records on the pop chart in the 1950s and early 1960s.",0,0,,165697
-1929 – March 10,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Delores LaVern Baker (November 11, 1929 – March 10, 1997) was an American R&B singer who had several hit records on the pop chart in the 1950s and early 1960s.",0,0,,165697
-1997,CD,YEAR_REGEX_1,TIME,time_reference,"Delores LaVern Baker (November 11, 1929 – March 10, 1997) was an American R&B singer who had several hit records on the pop chart in the 1950s and early 1960s.",0,0,,165697
+"November 11 , 1929 – March 10 , 1997","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Delores LaVern Baker (November 11, 1929 – March 10, 1997) was an American R&B singer who had several hit records on the pop chart in the 1950s and early 1960s.",0,0,,165697
 the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Delores LaVern Baker (November 11, 1929 – March 10, 1997) was an American R&B singer who had several hit records on the pop chart in the 1950s and early 1960s.",0,0,,165697
 early 1960s,RB NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Delores LaVern Baker (November 11, 1929 – March 10, 1997) was an American R&B singer who had several hit records on the pop chart in the 1950s and early 1960s.",0,0,,165697
 1955,CD,YEAR_REGEX_1,TIME,time_reference,"Her most successful records were ""Tweedle Dee"" (1955), ""Jim Dandy"" (1956), and ""I Cried a Tear"" (1958).",1,0,,165697
 1956,CD,YEAR_REGEX_1,TIME,time_reference,"Her most successful records were ""Tweedle Dee"" (1955), ""Jim Dandy"" (1956), and ""I Cried a Tear"" (1958).",1,0,,165697
 1958,CD,YEAR_REGEX_1,TIME,time_reference,"Her most successful records were ""Tweedle Dee"" (1955), ""Jim Dandy"" (1956), and ""I Cried a Tear"" (1958).",1,0,,165697
-December 23,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Under her mother's new surname, ""McMurley,"" Delores – on December 23, 1948, at age nineteen, in Cook County, Illinois – married Eugene Williams.",1,2,== Early life ==,165697
-1948,CD,YEAR_REGEX_1,TIME,time_reference,"Under her mother's new surname, ""McMurley,"" Delores – on December 23, 1948, at age nineteen, in Cook County, Illinois – married Eugene Williams.",1,2,== Early life ==,165697
+"December 23 , 1948","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Under her mother's new surname, ""McMurley,"" Delores – on December 23, 1948, at age nineteen, in Cook County, Illinois – married Eugene Williams.",1,2,== Early life ==,165697
 around 1946,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Baker began singing in Chicago clubs such as the Club DeLisa around 1946, often billed as Little Miss Sharecropper, and first recorded under that name in 1949.",0,4,== Career ==,165697
 1949,CD,YEAR_REGEX_1,TIME,time_reference,"Baker began singing in Chicago clubs such as the Club DeLisa around 1946, often billed as Little Miss Sharecropper, and first recorded under that name in 1949.",0,4,== Career ==,165697
 1951,CD,YEAR_REGEX_1,TIME,time_reference,She changed her name briefly to Bea Baker when recording for Okeh Records in 1951 and then was billed as LaVern Baker when she sang with Todd Rhodes and his band in 1952.,1,4,== Career ==,165697
@@ -26,8 +23,7 @@ the end of 1956,DT NN IN CD,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 YEAR_RE
 today,NN,TIMELINE_REGEX,TIME,time_reference,"The controversial song, ""Think Twice"", featured raunchy lyrics considered inappropriate for airplay at that time or even today.",14,4,== Career ==,165697
 the fall,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"After divorcing Eugene Williams in the fall of 1958, Baker married the comedian Slappy White February 19, 1959, in Baltimore.",16,4,== Career ==,165697
 of 1958,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"After divorcing Eugene Williams in the fall of 1958, Baker married the comedian Slappy White February 19, 1959, in Baltimore.",16,4,== Career ==,165697
-February 19,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"After divorcing Eugene Williams in the fall of 1958, Baker married the comedian Slappy White February 19, 1959, in Baltimore.",16,4,== Career ==,165697
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"After divorcing Eugene Williams in the fall of 1958, Baker married the comedian Slappy White February 19, 1959, in Baltimore.",16,4,== Career ==,165697
+"February 19 , 1959","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"After divorcing Eugene Williams in the fall of 1958, Baker married the comedian Slappy White February 19, 1959, in Baltimore.",16,4,== Career ==,165697
 1969,CD,YEAR_REGEX_1,TIME,time_reference,"After the couple was divorced in 1969, Baker signed on for a USO tour.",17,4,== Career ==,165697
 22 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"She remained there for 22 years, returning to the United States after the base was closed in 1988.",20,4,== Career ==,165697
 1988,CD,YEAR_REGEX_1,TIME,time_reference,"She remained there for 22 years, returning to the United States after the base was closed in 1988.",20,4,== Career ==,165697
@@ -45,10 +41,8 @@ the 1995,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Baker m
 1990,CD,YEAR_REGEX_1,TIME,time_reference,In 1990 Baker was among the first eight recipients of the Pioneer Award from the Rhythm and Blues Foundation.,29,4,== Career ==,165697
 1991,CD,YEAR_REGEX_1,TIME,time_reference,"In 1991, she became the second female solo artist inducted into the Rock and Roll Hall of Fame, following Aretha Franklin in 1987.",30,4,== Career ==,165697
 1987,CD,YEAR_REGEX_1,TIME,time_reference,"In 1991, she became the second female solo artist inducted into the Rock and Roll Hall of Fame, following Aretha Franklin in 1987.",30,4,== Career ==,165697
-March 10,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Baker died of cardiovascular disease on March 10, 1997, at the age of 67.",0,6,== Death ==,165697
-1997,CD,YEAR_REGEX_1,TIME,time_reference,"Baker died of cardiovascular disease on March 10, 1997, at the age of 67.",0,6,== Death ==,165697
-May 4,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Local historians raised funds for a headstone, which was erected on May 4, 2008.",2,6,== Death ==,165697
-2008,CD,YEAR_REGEX_1,TIME,time_reference,"Local historians raised funds for a headstone, which was erected on May 4, 2008.",2,6,== Death ==,165697
+"March 10 , 1997","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Baker died of cardiovascular disease on March 10, 1997, at the age of 67.",0,6,== Death ==,165697
+"May 4 , 2008","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Local historians raised funds for a headstone, which was erected on May 4, 2008.",2,6,== Death ==,165697
 1956,CD,YEAR_REGEX_1,TIME,time_reference,LaVern (1956) ==,1,10,== LaVern (1956) ==,165697
 1957,CD,YEAR_REGEX_1,TIME,time_reference,LaVern Baker (1957),1,11,== LaVern Baker (1957) ==,165697
 1958,CD,YEAR_REGEX_1,TIME,time_reference,LaVern Baker Sings Bessie Smith (1958),1,12,== LaVern Baker Sings Bessie Smith (1958) ==,165697

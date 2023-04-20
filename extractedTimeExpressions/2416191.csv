@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-June 15,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Meyer Myron ""Mickey"" Katz (June 15, 1909 – April 30, 1985) was an American musician and comedian who specialized in Jewish humor.",0,0,,2416191
-1909 – April 30,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Meyer Myron ""Mickey"" Katz (June 15, 1909 – April 30, 1985) was an American musician and comedian who specialized in Jewish humor.",0,0,,2416191
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"Meyer Myron ""Mickey"" Katz (June 15, 1909 – April 30, 1985) was an American musician and comedian who specialized in Jewish humor.",0,0,,2416191
+"June 15 , 1909 – April 30 , 1985","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Meyer Myron ""Mickey"" Katz (June 15, 1909 – April 30, 1985) was an American musician and comedian who specialized in Jewish humor.",0,0,,2416191
 about four years old,IN CD NNS JJ,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,"Originally one of five children, Mickey lost an older sister to diphtheria when he was about four years old.",2,2,== Early life ==,2416191
 three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He married her three years later, in 1930.",4,3,== Early life ==,2416191
 1930,CD,YEAR_REGEX_1,TIME,time_reference,"He married her three years later, in 1930.",4,3,== Early life ==,2416191

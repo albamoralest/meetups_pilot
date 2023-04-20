@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-October 28,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Willard Palmer Harris (October 28, 1916 – August 21, 1973) was an American jazz trombonist.",0,0,,1098118
-1916 – August 21,CD NN NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Willard Palmer Harris (October 28, 1916 – August 21, 1973) was an American jazz trombonist.",0,0,,1098118
-1973,CD,YEAR_REGEX_1,TIME,time_reference,"Willard Palmer Harris (October 28, 1916 – August 21, 1973) was an American jazz trombonist.",0,0,,1098118
+"October 28 , 1916 – August 21 , 1973","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Willard Palmer Harris (October 28, 1916 – August 21, 1973) was an American jazz trombonist.",0,0,,1098118
 1944,CD,YEAR_REGEX_1,TIME,time_reference,He joined Woody Herman's First Herd in 1944.,3,2,== Biography ==,1098118
 the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"He was also in the Four Brothers Second Herd during the late 1940s, and he worked with Herman again in the 1950s.",4,2,== Biography ==,1098118
 the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He was also in the Four Brothers Second Herd during the late 1940s, and he worked with Herman again in the 1950s.",4,2,== Biography ==,1098118

@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-January 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Cedar Anthony Walton, Jr. (January 17, 1934 – August 19, 2013) was an American hard bop jazz pianist.",0,0,,289669
-1934 – August 19,CD NN NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Cedar Anthony Walton, Jr. (January 17, 1934 – August 19, 2013) was an American hard bop jazz pianist.",0,0,,289669
-2013,CD,YEAR_REGEX_1,TIME,time_reference,"Cedar Anthony Walton, Jr. (January 17, 1934 – August 19, 2013) was an American hard bop jazz pianist.",0,0,,289669
+"January 17 , 1934 – August 19 , 2013","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Cedar Anthony Walton, Jr. (January 17, 1934 – August 19, 2013) was an American hard bop jazz pianist.",0,0,,289669
 1955,CD,YEAR_REGEX_1,TIME,time_reference,"In 1955, he decided to leave school and drove with a friend to New York City.",1,4,== Early life ==,289669
 two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"On his discharge after two years, he picked up where he left off, playing as a sideman with Kenny Dorham, on whose 1958 album This Is the Moment!",2,6,== Later life and career ==,289669
 1958,CD,YEAR_REGEX_1,TIME,time_reference,"On his discharge after two years, he picked up where he left off, playing as a sideman with Kenny Dorham, on whose 1958 album This Is the Moment!",2,6,== Later life and career ==,289669
@@ -19,8 +17,7 @@ a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"For a
 1963,CD,YEAR_REGEX_1,TIME,time_reference,"One of his oldest compositions is ""Fantasy in D"", recorded as ""Ugetsu"" by Art Blakey in 1963, and as ""Polar AC"" by Freddie Hubbard, first in 1971.",6,8,== Later life and career ==,289669
 1971,CD,YEAR_REGEX_1,TIME,time_reference,"One of his oldest compositions is ""Fantasy in D"", recorded as ""Ugetsu"" by Art Blakey in 1963, and as ""Polar AC"" by Freddie Hubbard, first in 1971.",6,8,== Later life and career ==,289669
 January 2010,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 2010, Walton was inducted as a National Endowment for the Arts Jazz Master.",0,9,== Later life and career ==,289669
-August 19,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"After a brief illness, he died on August 19, 2013 at his home in Brooklyn, New York at the age of 79.",1,9,== Later life and career ==,289669
-2013,CD,YEAR_REGEX_1,TIME,time_reference,"After a brief illness, he died on August 19, 2013 at his home in Brooklyn, New York at the age of 79.",1,9,== Later life and career ==,289669
+"August 19 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"After a brief illness, he died on August 19, 2013 at his home in Brooklyn, New York at the age of 79.",1,9,== Later life and career ==,289669
 the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Walton played and recorded with drummer Billy Higgins from the mid-1960s through the 1990s.,0,11,== Billy Higgins partnership and The Magic Triangle ==,289669
 1965,CD,YEAR_REGEX_1,TIME,time_reference,"Higgins and Walton first recorded together in 1965 for Eddie Harris's The In Sound LP, and  Higgins played on Walton's first album, Cedar! (1967).",1,11,== Billy Higgins partnership and The Magic Triangle ==,289669
 1967,CD,YEAR_REGEX_1,TIME,time_reference,"Higgins and Walton first recorded together in 1965 for Eddie Harris's The In Sound LP, and  Higgins played on Walton's first album, Cedar! (1967).",1,11,== Billy Higgins partnership and The Magic Triangle ==,289669
@@ -286,5 +283,4 @@ Friday,NNP,WEEK_REGEX,TIME,time_reference,"Concert: Friday the 13th - Cook Count
 1992,CD,YEAR_REGEX_1,TIME,time_reference,"More Than a Mood (MusicMasters, 1992)With David Williams",0,225,== Discography == | === As sideman ===,289669
 1987,CD,YEAR_REGEX_1,TIME,time_reference,"Up Front (Timeless, 1987)",0,226,== Discography == | === As sideman ===,289669
 March 2010,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Interview with Cedar Walton, by Ethan Iverson, March 2010",0,230,== External links ==,289669
-August 26,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Richard Brody, ""The Glorious Cedar Walton"", The New Yorker, August 26, 2013.",0,231,== External links ==,289669
-2013,CD,YEAR_REGEX_1,TIME,time_reference,"Richard Brody, ""The Glorious Cedar Walton"", The New Yorker, August 26, 2013.",0,231,== External links ==,289669
+"August 26 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Richard Brody, ""The Glorious Cedar Walton"", The New Yorker, August 26, 2013.",0,231,== External links ==,289669

@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-June 6,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Al Grey (June 6, 1925 – March 24, 2000) was an American jazz trombonist who was a member of the Count Basie orchestra.",0,0,,2985243
-1925 – March 24,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Al Grey (June 6, 1925 – March 24, 2000) was an American jazz trombonist who was a member of the Count Basie orchestra.",0,0,,2985243
-2000,CD,YEAR_REGEX_1,TIME,time_reference,"Al Grey (June 6, 1925 – March 24, 2000) was an American jazz trombonist who was a member of the Count Basie orchestra.",0,0,,2985243
+"June 6 , 1925 – March 24 , 2000","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Al Grey (June 6, 1925 – March 24, 2000) was an American jazz trombonist who was a member of the Count Basie orchestra.",0,0,,2985243
 1987,CD,YEAR_REGEX_1,TIME,time_reference,He was known for his plunger mute technique and wrote an instructional book in 1987 called Plunger Techniques.,1,0,,2985243
 the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1950s, he was a member of the big bands of Dizzy Gillespie and Count Basie.",4,2,== Career ==,2985243
 the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He led bands in the 1960s with Billy Mitchell and Jimmy Forrest.,5,2,== Career ==,2985243
@@ -52,8 +50,7 @@ Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"Christmas Stockin' Stuffer (Cap
 1966,CD,YEAR_REGEX_1,TIME,time_reference,"Arthur Prysock/Count Basie (Verve, 1966)",0,47,== Discography == | === As sideman ===,2985243
 1966,CD,YEAR_REGEX_1,TIME,time_reference,"Broadway Basie's...Way (Command, 1966)",0,48,== Discography == | === As sideman ===,2985243
 Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Have a Nice Day (Daybreak, 1971)",0,49,== Discography == | === As sideman ===,2985243
-Daybreak,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Have a Nice Day (Daybreak, 1971)",0,49,== Discography == | === As sideman ===,2985243
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"Have a Nice Day (Daybreak, 1971)",0,49,== Discography == | === As sideman ===,2985243
+"Daybreak , 1971","NNP , CD",TIME_UNIT_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Have a Nice Day (Daybreak, 1971)",0,49,== Discography == | === As sideman ===,2985243
 20th Century,JJ NNP,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Bing 'n' Basie (20th Century Fox, 1972)",0,50,== Discography == | === As sideman ===,2985243
 1972,CD,YEAR_REGEX_1,TIME,time_reference,"Bing 'n' Basie (20th Century Fox, 1972)",0,50,== Discography == | === As sideman ===,2985243
 1975,CD,YEAR_REGEX_1,TIME,time_reference,"Count Basie Plays Quincy Jones & Neal Hefti (Roulette, 1975)",0,51,== Discography == | === As sideman ===,2985243
@@ -119,8 +116,7 @@ the Morning,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"L
 1960,CD,YEAR_REGEX_1,TIME,time_reference,"Billy Eckstine, Mr. B (Audio Lab, 1960)",0,106,== Discography == | === As sideman ===,2985243
 1987,CD,YEAR_REGEX_1,TIME,time_reference,"Duke Ellington, Digital Duke (GRP, 1987)",0,107,== Discography == | === As sideman ===,2985243
 1955,CD,YEAR_REGEX_1,TIME,time_reference,"Ella Fitzgerald, Sweet and Hot (Decca, 1955)",0,108,== Discography == | === As sideman ===,2985243
-July 5,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Ella Fitzgerald, Newport Jazz Festival Live at Carnegie Hall July 5, 1973 (CBS, 1973)",0,109,== Discography == | === As sideman ===,2985243
-1973,CD,YEAR_REGEX_1,TIME,time_reference,"Ella Fitzgerald, Newport Jazz Festival Live at Carnegie Hall July 5, 1973 (CBS, 1973)",0,109,== Discography == | === As sideman ===,2985243
+"July 5 , 1973","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ella Fitzgerald, Newport Jazz Festival Live at Carnegie Hall July 5, 1973 (CBS, 1973)",0,109,== Discography == | === As sideman ===,2985243
 1973,CD,YEAR_REGEX_1,TIME,time_reference,"Ella Fitzgerald, Newport Jazz Festival Live at Carnegie Hall July 5, 1973 (CBS, 1973)",0,109,== Discography == | === As sideman ===,2985243
 2001,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Gordon, Settin' the Pace (Proper, 2001)",0,110,== Discography == | === As sideman ===,2985243
 1989,CD,YEAR_REGEX_1,TIME,time_reference,"Dave Grusin, The Fabulous Baker Boys (GRP, 1989)",0,111,== Discography == | === As sideman ===,2985243

@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-January 24,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Jack Scott (born Giovanni Domenico Scafone Jr.; January 24, 1936 – December 12, 2019) was a Canadian-American singer and songwriter.",0,0,,1595398
-1936 – December 12,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Jack Scott (born Giovanni Domenico Scafone Jr.; January 24, 1936 – December 12, 2019) was a Canadian-American singer and songwriter.",0,0,,1595398
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"Jack Scott (born Giovanni Domenico Scafone Jr.; January 24, 1936 – December 12, 2019) was a Canadian-American singer and songwriter.",0,0,,1595398
+"January 24 , 1936 – December 12 , 2019","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Jack Scott (born Giovanni Domenico Scafone Jr.; January 24, 1936 – December 12, 2019) was a Canadian-American singer and songwriter.",0,0,,1595398
 2011,CD,YEAR_REGEX_1,TIME,time_reference,"He was inducted into the Canadian Songwriters Hall of Fame in 2011 and was called ""undeniably the greatest Canadian rock and roll singer of all time.""",1,0,,1595398
 three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"After leading the band for three years, he signed to ABC-Paramount Records as a solo artist in 1957.",5,2,== Career ==,1595398
 1957,CD,YEAR_REGEX_1,TIME,time_reference,"After leading the band for three years, he signed to ABC-Paramount Records as a solo artist in 1957.",5,2,== Career ==,1595398
@@ -23,8 +21,7 @@ of '58,IN NNP,PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER TIME,time_reference,"Scott re
 2007,CD,YEAR_REGEX_1,TIME,time_reference,"In 2007, Jack Scott was voted into the Michigan Rock and Roll Legends Hall of Fame.",0,5,== Career ==,1595398
 2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, he was inducted into the Canadian Songwriters Hall of Fame.",1,5,== Career ==,1595398
 2015,CD,YEAR_REGEX_1,TIME,time_reference,"Scott's final album, the studio album ""Way to Survive"" was released in 2015, with Scott returning to his Rock & Roll roots whilst taking influences from two of his favorite music genres, country and blues.",0,6,== Career ==,1595398
-December 12,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Scott died of congestive heart failure on December 12, 2019, at the age of 83.",0,7,== Career ==,1595398
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"Scott died of congestive heart failure on December 12, 2019, at the age of 83.",0,7,== Career ==,1595398
+"December 12 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Scott died of congestive heart failure on December 12, 2019, at the age of 83.",0,7,== Career ==,1595398
 December 8,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"His niece, singer and actress Rio Scafone, announced his death on her Facebook page, stating that he had suffered a massive heart attack on December 8 and there was nothing they could do for him.",1,7,== Career ==,1595398
 four days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Scott died four days later, in the afternoon.",2,7,== Career ==,1595398
 the afternoon,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Scott died four days later, in the afternoon.",2,7,== Career ==,1595398

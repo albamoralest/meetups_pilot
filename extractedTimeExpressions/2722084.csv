@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-June 16,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Thomas ""Bones"" Malone (born June 16, 1947) is an American jazz musician, arranger, and producer.",0,0,,2722084
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"Thomas ""Bones"" Malone (born June 16, 1947) is an American jazz musician, arranger, and producer.",0,0,,2722084
+"June 16 , 1947","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Thomas ""Bones"" Malone (born June 16, 1947) is an American jazz musician, arranger, and producer.",0,0,,2722084
 Saturday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"He has been a member of The Blues Brothers, Saturday Night Live Band, and the CBS Orchestra, the house band for the Late Show with David Letterman.",2,0,,2722084
 1969,CD,YEAR_REGEX_1,TIME,time_reference,"After graduation, Malone worked in bands of Woody Herman (1969), Duke Pearson (1970), Louie Bellson (1971), Doc Severinsen, Frank Zappa (1972), and Blood, Sweat & Tears (1973).",3,4,== Career ==,2722084
 1970,CD,YEAR_REGEX_1,TIME,time_reference,"After graduation, Malone worked in bands of Woody Herman (1969), Duke Pearson (1970), Louie Bellson (1971), Doc Severinsen, Frank Zappa (1972), and Blood, Sweat & Tears (1973).",3,4,== Career ==,2722084
@@ -17,8 +16,7 @@ Saturday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,From 1
 1993,CD,YEAR_REGEX_1,TIME,time_reference,"He appeared in the movie version and in 1993 reunited with Paul Shaffer, who worked for Saturday Nigh Live, and Will Lee, who was a member of the CBS Orchestra.",3,5,== Career ==,2722084
 Saturday,NNP,WEEK_REGEX,TIME,time_reference,"He appeared in the movie version and in 1993 reunited with Paul Shaffer, who worked for Saturday Nigh Live, and Will Lee, who was a member of the CBS Orchestra.",3,5,== Career ==,2722084
 2000,CD,YEAR_REGEX_1,TIME,time_reference,He worked on the film score for Blues Brothers 2000.,4,5,== Career ==,2722084
-November 1,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"He joined the CBS Orchestra on November 1, 1993, and contributed more than 1,600 arrangements to the Late Show with David Letterman.",5,5,== Career ==,2722084
-1993,CD,YEAR_REGEX_1,TIME,time_reference,"He joined the CBS Orchestra on November 1, 1993, and contributed more than 1,600 arrangements to the Late Show with David Letterman.",5,5,== Career ==,2722084
+"November 1 , 1993","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He joined the CBS Orchestra on November 1, 1993, and contributed more than 1,600 arrangements to the Late Show with David Letterman.",5,5,== Career ==,2722084
 This Morning,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"He has played themes for CBS This Morning, Murder, She Wrote, and the 1992 Winter Olympics.",1,6,== Career ==,2722084
 the 1992 Winter,DT CD NNP,PREFIX_REGEX_1 YEAR_REGEX_1 SEASON_REGEX,MODIFIER TIME TIME,time_reference,"He has played themes for CBS This Morning, Murder, She Wrote, and the 1992 Winter Olympics.",1,6,== Career ==,2722084
 2007,CD,YEAR_REGEX_1,TIME,time_reference,In 2007 Malone was invited by music director Geoffrey Moull to arrange and perform a concert with the Thunder Bay Symphony Orchestra.,0,7,== Career ==,2722084

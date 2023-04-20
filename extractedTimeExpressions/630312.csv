@@ -1,9 +1,7 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-February 6,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Mamie Van Doren (born Joan Lucille Olander; February 6, 1931) is an American actress, model, singer, and sex symbol.",0,0,,630312
-1931,CD,YEAR_REGEX_1,TIME,time_reference,"Mamie Van Doren (born Joan Lucille Olander; February 6, 1931) is an American actress, model, singer, and sex symbol.",0,0,,630312
+"February 6 , 1931","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Mamie Van Doren (born Joan Lucille Olander; February 6, 1931) is an American actress, model, singer, and sex symbol.",0,0,,630312
 1957,CD,YEAR_REGEX_1,TIME,time_reference,"She is perhaps best remembered for the rock 'n' roll, juvenile delinquency exploitation movie Untamed Youth (1957).",1,0,,630312
-February 6,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Van Doren was born on February 6, 1931 in Rowena, South Dakota, the daughter of Warner Carl Olander and Lucille Harriet Bennett.",0,2,== Early life ==,630312
-1931,CD,YEAR_REGEX_1,TIME,time_reference,"Van Doren was born on February 6, 1931 in Rowena, South Dakota, the daughter of Warner Carl Olander and Lucille Harriet Bennett.",0,2,== Early life ==,630312
+"February 6 , 1931","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Van Doren was born on February 6, 1931 in Rowena, South Dakota, the daughter of Warner Carl Olander and Lucille Harriet Bennett.",0,2,== Early life ==,630312
 1939,CD,YEAR_REGEX_1,TIME,time_reference,"In 1939, the family moved to Sioux City, Iowa, and then to Los Angeles during May 1942.",2,2,== Early life ==,630312
 May 1942,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In 1939, the family moved to Sioux City, Iowa, and then to Los Angeles during May 1942.",2,2,== Early life ==,630312
 early 1946,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In early 1946, Van Doren began working as an usher at the Pantages Theatre in Hollywood.",0,3,== Early life ==,630312
@@ -17,13 +15,11 @@ Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,E
 1951–1952,CD,YEAR_REGEX_1,TIME,time_reference,Early years (1951–1952),1,6,== Career == | === Early years (1951–1952) ===,630312
 1949 to 1953,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Though production of the movie was from 1949 to 1953 (delays by Hughes), it was not released until 1957.",3,7,== Career == | === Early years (1951–1952) ===,630312
 1957,CD,YEAR_REGEX_1,TIME,time_reference,"Though production of the movie was from 1949 to 1953 (delays by Hughes), it was not released until 1957.",3,7,== Career == | === Early years (1951–1952) ===,630312
-The following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The following year, 1951, she posed for pin-up girl artist Alberto Vargas.",4,7,== Career == | === Early years (1951–1952) ===,630312
-1951,CD,YEAR_REGEX_1,TIME,time_reference,"The following year, 1951, she posed for pin-up girl artist Alberto Vargas.",4,7,== Career == | === Early years (1951–1952) ===,630312
+"The following year , 1951","DT JJ NN , CD",PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX COMMA_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,"The following year, 1951, she posed for pin-up girl artist Alberto Vargas.",4,7,== Career == | === Early years (1951–1952) ===,630312
 1951,CD,YEAR_REGEX_1,TIME,time_reference,"Van Doren did a few more bit parts in movies at RKO, including His Kind of Woman (1951) starring Robert Mitchum, Jane Russell and Vincent Price.",0,8,== Career == | === Early years (1951–1952) ===,630312
 nightclub,JJ,DAY_TIME_REGEX,TIME,time_reference,She was a showgirl in New York City in Monte Proser's nightclub version of Billion Dollar Baby.,1,9,== Career == | === Early years (1951–1952) ===,630312
 1953–1959,CD,YEAR_REGEX_1,TIME,time_reference,Further success (1953–1959),1,10,== Career == | === Further success (1953–1959) ===,630312
-January 20,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On January 20, 1953, Van Doren signed a contract with Universal Studios.",0,11,== Career == | === Further success (1953–1959) ===,630312
-1953,CD,YEAR_REGEX_1,TIME,time_reference,"On January 20, 1953, Van Doren signed a contract with Universal Studios.",0,11,== Career == | === Further success (1953–1959) ===,630312
+"January 20 , 1953","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On January 20, 1953, Van Doren signed a contract with Universal Studios.",0,11,== Career == | === Further success (1953–1959) ===,630312
 that 20th Century,IN JJ NNP,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"They had big plans for her, hoping she would bring the same kind of success that 20th Century Fox had with Marilyn Monroe.",1,11,== Career == | === Further success (1953–1959) ===,630312
 day,NN,TIME_UNIT_REGEX,TIME,time_reference,"Van Doren, whose signing day coincided with the inauguration of President Eisenhower, was given the first name Mamie for Ike's wife, Mamie Eisenhower.",2,11,== Career == | === Further success (1953–1959) ===,630312
 1953,CD,YEAR_REGEX_1,TIME,time_reference,"Interested in Van Doren's allure, Universal then cast her in The All American (1953), (also starring Tony Curtis), playing her first major role as Susie Ward, a wayward girl who is the man-trap at a campus beer joint.",1,12,== Career == | === Further success (1953–1959) ===,630312
@@ -72,8 +68,7 @@ January 2021,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,In an inte
 1949,CD,YEAR_REGEX_1,TIME,time_reference,"In 1949, she married sportswear manufacturer Jack Newman; she divorced him later that same year.",1,25,== Personal life ==,630312
 year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In 1949, she married sportswear manufacturer Jack Newman; she divorced him later that same year.",1,25,== Personal life ==,630312
 1955,CD,YEAR_REGEX_1,TIME,time_reference,"Her second marriage was to bandleader, composer and actor Ray Anthony whom she married in 1955.",2,25,== Personal life ==,630312
-March 18,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"They had one son, Perry Ray Anthony, born March 18, 1956.",3,25,== Personal life ==,630312
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"They had one son, Perry Ray Anthony, born March 18, 1956.",3,25,== Personal life ==,630312
+"March 18 , 1956","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"They had one son, Perry Ray Anthony, born March 18, 1956.",3,25,== Personal life ==,630312
 1961,CD,YEAR_REGEX_1,TIME,time_reference,The couple divorced in 1961.,4,25,== Personal life ==,630312
 early 1960s,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"When Van Doren's early 1960s, highly publicized, on-again off-again engagement to baseball player Bo Belinsky ended in 1964, she married baseball player Lee Meyers in 1966.",5,25,== Personal life ==,630312
 1964,CD,YEAR_REGEX_1,TIME,time_reference,"When Van Doren's early 1960s, highly publicized, on-again off-again engagement to baseball player Bo Belinsky ended in 1964, she married baseball player Lee Meyers in 1966.",5,25,== Personal life ==,630312
@@ -95,5 +90,4 @@ three months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_refer
 recent years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In recent years, Van Doren has made use of multimedia, including Facebook and Twitter.",0,28,== Personal life ==,630312
 2005,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005, a Golden Palm Star on the Palm Springs Walk of Stars was dedicated to her.",4,28,== Personal life ==,630312
 Springs,NNP,SEASON_REGEX,TIME,time_reference,"In 2005, a Golden Palm Star on the Palm Springs Walk of Stars was dedicated to her.",4,28,== Personal life ==,630312
-July 19,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Bombshells away, at Salon, Karen Abbott, July 19, 2000",0,39,== External links ==,630312
-2000,CD,YEAR_REGEX_1,TIME,time_reference,"Bombshells away, at Salon, Karen Abbott, July 19, 2000",0,39,== External links ==,630312
+"July 19 , 2000","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bombshells away, at Salon, Karen Abbott, July 19, 2000",0,39,== External links ==,630312

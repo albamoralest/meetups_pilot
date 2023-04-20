@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-October 30,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Jean-Baptiste ""Illinois"" Jacquet (October 30, 1922 – July 22, 2004) was an American jazz tenor saxophonist, best remembered for his solo on ""Flying Home"", critically recognized as the first R&B saxophone solo.",0,0,,240340
-1922 – July 22,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Jean-Baptiste ""Illinois"" Jacquet (October 30, 1922 – July 22, 2004) was an American jazz tenor saxophonist, best remembered for his solo on ""Flying Home"", critically recognized as the first R&B saxophone solo.",0,0,,240340
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"Jean-Baptiste ""Illinois"" Jacquet (October 30, 1922 – July 22, 2004) was an American jazz tenor saxophonist, best remembered for his solo on ""Flying Home"", critically recognized as the first R&B saxophone solo.",0,0,,240340
+"October 30 , 1922 – July 22 , 2004","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Jean-Baptiste ""Illinois"" Jacquet (October 30, 1922 – July 22, 2004) was an American jazz tenor saxophonist, best remembered for his solo on ""Flying Home"", critically recognized as the first R&B saxophone solo.",0,0,,240340
 1939,CD,YEAR_REGEX_1,TIME,time_reference,"In 1939, he moved to Los Angeles, California, where he met Nat King Cole.",5,2,== Early life ==,240340
 1940,CD,YEAR_REGEX_1,TIME,time_reference,"In 1940, Cole introduced Jacquet to Lionel Hampton who had returned to California and was putting together a big band.",7,2,== Early life ==,240340
 1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1942, at age 19, Jacquet soloed on the Hampton Orchestra's recording of ""Flying Home"", one of the first times a honking tenor sax was heard on record.",0,4,== Career ==,240340
@@ -18,13 +16,10 @@ the 1960s and 1970s,DT NNS CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_
 1981,CD,YEAR_REGEX_1,TIME,time_reference,He led the Illinois Jacquet Big Band from 1981 until his death.,7,5,== Career ==,240340
 1983,CD,YEAR_REGEX_1,TIME,time_reference,"Jacquet became the first jazz musician to be an artist-in-residence at Harvard University, in 1983.",8,5,== Career ==,240340
 1993,CD,YEAR_REGEX_1,TIME,time_reference,"He played ""C-Jam Blues"" with President Bill Clinton on the White House lawn during Clinton's inaugural ball in 1993.",9,5,== Career ==,240340
-July 16,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Jacquet's final performance was on July 16, 2004, at the Lincoln Center in New York.",10,5,== Career ==,240340
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"Jacquet's final performance was on July 16, 2004, at the Lincoln Center in New York.",10,5,== Career ==,240340
-July 22,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Jacquet died in his home in Queens, New York, of a heart attack on July 22, 2004.",0,8,== Personal life ==,240340
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"Jacquet died in his home in Queens, New York, of a heart attack on July 22, 2004.",0,8,== Personal life ==,240340
+"July 16 , 2004","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jacquet's final performance was on July 16, 2004, at the Lincoln Center in New York.",10,5,== Career ==,240340
+"July 22 , 2004","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jacquet died in his home in Queens, New York, of a heart attack on July 22, 2004.",0,8,== Personal life ==,240340
 81 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He was 81 years of age.,1,8,== Personal life ==,240340
-October 5,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Jazz producer Norman Granz, who had been a social activist himself, made arrangements for the star-studded Philharmonic band to play an engagement at Houston's Music Hall on October 5, 1955.",0,14,== Activism ==,240340
-1955,CD,YEAR_REGEX_1,TIME,time_reference,"Jazz producer Norman Granz, who had been a social activist himself, made arrangements for the star-studded Philharmonic band to play an engagement at Houston's Music Hall on October 5, 1955.",0,14,== Activism ==,240340
+"October 5 , 1955","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jazz producer Norman Granz, who had been a social activist himself, made arrangements for the star-studded Philharmonic band to play an engagement at Houston's Music Hall on October 5, 1955.",0,14,== Activism ==,240340
 2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008, The Chapel of the Sisters in Prospect Cemetery was restored and re-dedicated as the Illinois Jacquet Performance Space on the grounds of York College in Jamaica, Queens.",0,16,== Memorial ==,240340
 1951,CD,YEAR_REGEX_1,TIME,time_reference,"1951 Battle Of The Saxes (Aladdin LP-701 [10""]) – with Lester Young",0,19,== Discography == | === As leader ===,240340
 1951,CD,YEAR_REGEX_1,TIME,time_reference,1951 Illinois Jacquet: Collates (Mercury/Clef MGC-112,0,20,== Discography == | === As leader ===,240340
@@ -99,8 +94,7 @@ Years,NNP,TIME_UNIT_REGEX,TIME,time_reference,Flying Home: The Best Of The Verve
 2002,CD,YEAR_REGEX_1,TIME,time_reference,2002 Jumpin' At Apollo [recorded 1945-1947] (Delmark DE-538),0,63,== Discography == | === As leader ===,240340
 1945-1947,JJ,YEAR_REGEX_1,TIME,time_reference,2002 Jumpin' At Apollo [recorded 1945-1947] (Delmark DE-538),0,63,== Discography == | === As leader ===,240340
 2003,CD,YEAR_REGEX_1,TIME,time_reference,"2003 Live At Schaffhausen, Switzerland: March 18, 1978 (Storyville Records; UPC: 4526180360506)",0,64,== Discography == | === As leader ===,240340
-March 18,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"2003 Live At Schaffhausen, Switzerland: March 18, 1978 (Storyville Records; UPC: 4526180360506)",0,64,== Discography == | === As leader ===,240340
-1978,CD,YEAR_REGEX_1,TIME,time_reference,"2003 Live At Schaffhausen, Switzerland: March 18, 1978 (Storyville Records; UPC: 4526180360506)",0,64,== Discography == | === As leader ===,240340
+"March 18 , 1978","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"2003 Live At Schaffhausen, Switzerland: March 18, 1978 (Storyville Records; UPC: 4526180360506)",0,64,== Discography == | === As leader ===,240340
 2006,CD,YEAR_REGEX_1,TIME,time_reference,2006 Swingin' Live With Illinois Jacquet:,0,65,== Discography == | === As leader ===,240340
 2004,CD,YEAR_REGEX_1,TIME,time_reference,His Final Performance [recorded 2004] (Jacquet Records; UPC: 837101208147) -2CD,1,65,== Discography == | === As leader ===,240340
 2013,CD,YEAR_REGEX_1,TIME,time_reference,2013 Toronto 1947 (Uptown Records; UPC: 026198277321) – with Leo Parker,0,66,== Discography == | === As leader ===,240340
@@ -121,8 +115,7 @@ March 18,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"2003 Live
 December 2010,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"L'Hereux, Aimee (December 2010).",0,81,== Further reading ==,240340
 2011,CD,YEAR_REGEX_1,TIME,time_reference,"Morrison, Nick (2011) ""Five Titans Of Texas Tenor Sax"".",0,82,== Further reading ==,240340
 2008,CD,YEAR_REGEX_1,TIME,time_reference,"NPR Radio (2008) ""Illinois Jacquet: King Of The Screeching Tenor"".",0,83,== Further reading ==,240340
-November 5,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"November 5, 2008.",2,83,== Further reading ==,240340
-2008,CD,YEAR_REGEX_1,TIME,time_reference,"November 5, 2008.",2,83,== Further reading ==,240340
+"November 5 , 2008","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"November 5, 2008.",2,83,== Further reading ==,240340
 2011,CD,YEAR_REGEX_1,TIME,time_reference,"Scherick, Carol (2011) ""Biography by Illinois Jacquet for Press"".",0,84,== Further reading ==,240340
 TODAY,NNP,TIMELINE_REGEX,TIME,time_reference,"USA TODAY (2004) ""Jazz saxophonist Illinois Jacquet dies""",0,85,== Further reading ==,240340
 2004,CD,YEAR_REGEX_1,TIME,time_reference,"USA TODAY (2004) ""Jazz saxophonist Illinois Jacquet dies""",0,85,== Further reading ==,240340

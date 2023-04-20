@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-January 31,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Roosevelt Sykes (January 31, 1906 – July 17, 1983) was an American blues musician, also known as ""The Honeydripper"".",0,0,,523339
-1906 – July 17,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Roosevelt Sykes (January 31, 1906 – July 17, 1983) was an American blues musician, also known as ""The Honeydripper"".",0,0,,523339
-1983,CD,YEAR_REGEX_1,TIME,time_reference,"Roosevelt Sykes (January 31, 1906 – July 17, 1983) was an American blues musician, also known as ""The Honeydripper"".",0,0,,523339
+"January 31 , 1906 – July 17 , 1983","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Roosevelt Sykes (January 31, 1906 – July 17, 1983) was an American blues musician, also known as ""The Honeydripper"".",0,0,,523339
 1909,CD,YEAR_REGEX_1,TIME,time_reference,The Sykes family was living in St. Louis by 1909.,2,2,== Career ==,523339
 Every summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"“Every summer I would go down to Helena to visit my grandfather on his farm,” he told biographer Valerie Wilmer.",5,2,== Career ==,523339
 13 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Sykes was baptized at 13 years old, his lifelong beliefs never conflicting with playing the blues.",8,2,== Career ==,523339
@@ -25,8 +23,7 @@ the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Sykes 
 the late 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1960s Sykes moved back to New Orleans, where he played at clubs, including the Court of Two Sisters.",9,4,== Career ==,523339
 the 1960s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"When he recorded in the 1960s, it was for labels such as Delmark, Bluesville, Storyville and Folkways, which were documenting the quickly passing blues history.",10,4,== Career ==,523339
 final years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He lived his final years in New Orleans, where he died from a heart attack on July 17, 1983.",11,4,== Career ==,523339
-July 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"He lived his final years in New Orleans, where he died from a heart attack on July 17, 1983.",11,4,== Career ==,523339
-1983,CD,YEAR_REGEX_1,TIME,time_reference,"He lived his final years in New Orleans, where he died from a heart attack on July 17, 1983.",11,4,== Career ==,523339
+"July 17 , 1983","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He lived his final years in New Orleans, where he died from a heart attack on July 17, 1983.",11,4,== Career ==,523339
 later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Sykes said in his later years he decided to become a bluesman when he heard St. Louis piano player Red-Eye Jesse Bell.,0,6,== Technique ==,523339
 Night,JJ,DAY_TIME_REGEX,TIME,time_reference,"He was responsible for influential blues songs such as ""44 Blues"", ""Driving Wheel"", and ""Night Time Is the Right Time"".",2,8,== Legacy ==,523339
 1999,CD,YEAR_REGEX_1,TIME,time_reference,He was inducted into the Blues Hall of Fame in 1999 and the Gennett Records Walk of Fame in 2011.,3,8,== Legacy ==,523339

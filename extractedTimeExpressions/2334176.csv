@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-September 23,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Leslie Coleman McCann (born September 23, 1935) is an American jazz pianist and vocalist.",0,0,,2334176
-1935,CD,YEAR_REGEX_1,TIME,time_reference,"Leslie Coleman McCann (born September 23, 1935) is an American jazz pianist and vocalist.",0,0,,2334176
+"September 23 , 1935","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Leslie Coleman McCann (born September 23, 1935) is an American jazz pianist and vocalist.",0,0,,2334176
 a few weeks,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,He explained he only received piano lessons for a few weeks as a six year old before his teacher died.,5,2,== Early Life ==,2334176
 a six year old,DT CD NN JJ,INARTICLE_REGEX BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,He explained he only received piano lessons for a few weeks as a six year old before his teacher died.,5,2,== Early Life ==,2334176
 1959,CD,YEAR_REGEX_1,TIME,time_reference,The trio's first job was at the Purple Onion in 1959 accompanying Gene McDaniels.,3,4,== Career ==,2334176
@@ -40,8 +39,7 @@ the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Les McCa
 1969,CD,YEAR_REGEX_1,TIME,time_reference,"More or Les McCann (World Pacific, 1969)",0,32,== Discography == | === As leader ===,2334176
 1969,CD,YEAR_REGEX_1,TIME,time_reference,"Much Les (Atlantic, 1969)",0,33,== Discography == | === As leader ===,2334176
 1969,CD,YEAR_REGEX_1,TIME,time_reference,"Swiss Movement with Eddie Harris (Atlantic, 1969)",0,34,== Discography == | === As leader ===,2334176
-Sunset,NNP,DAY_TIME_REGEX,TIME,time_reference,"Les McCann Ltd. Plays the Shout (Sunset, 1970)",0,35,== Discography == | === As leader ===,2334176
-1970,CD,YEAR_REGEX_1,TIME,time_reference,"Les McCann Ltd. Plays the Shout (Sunset, 1970)",0,35,== Discography == | === As leader ===,2334176
+"Sunset , 1970","NNP , CD",DAY_TIME_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Les McCann Ltd. Plays the Shout (Sunset, 1970)",0,35,== Discography == | === As leader ===,2334176
 1970,CD,YEAR_REGEX_1,TIME,time_reference,"New from the Big City (World Pacific, 1970)",0,36,== Discography == | === As leader ===,2334176
 1970,CD,YEAR_REGEX_1,TIME,time_reference,"Comment (Atlantic, 1970)",0,37,== Discography == | === As leader ===,2334176
 1971,CD,YEAR_REGEX_1,TIME,time_reference,"Second Movement (Atlantic, 1971)",0,38,== Discography == | === As leader ===,2334176
@@ -61,8 +59,7 @@ Sunset,NNP,DAY_TIME_REGEX,TIME,time_reference,"Les McCann Ltd. Plays the Shout (
 1984,CD,YEAR_REGEX_1,TIME,time_reference,"Road Warriors with Houston Person (Greene Street, 1984)",0,51,== Discography == | === As leader ===,2334176
 1984,CD,YEAR_REGEX_1,TIME,time_reference,"Music Box (Jam, 1984)",0,52,== Discography == | === As leader ===,2334176
 1988,CD,YEAR_REGEX_1,TIME,time_reference,"Butterfly (Stone, 1988)",0,53,== Discography == | === As leader ===,2334176
-Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"Les Is More (Night, 1990)",0,54,== Discography == | === As leader ===,2334176
-1990,CD,YEAR_REGEX_1,TIME,time_reference,"Les Is More (Night, 1990)",0,54,== Discography == | === As leader ===,2334176
+"Night , 1990","NNP , CD",DAY_TIME_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Les Is More (Night, 1990)",0,54,== Discography == | === As leader ===,2334176
 1983,CD,YEAR_REGEX_1,TIME,time_reference,"The Longer You Wait (Jam, 1983)",0,55,== Discography == | === As leader ===,2334176
 1994,CD,YEAR_REGEX_1,TIME,time_reference,"On the Soul Side (MusicMasters, 1994)",0,56,== Discography == | === As leader ===,2334176
 1996,CD,YEAR_REGEX_1,TIME,time_reference,"(MusicMasters, 1996)",1,57,== Discography == | === As leader ===,2334176

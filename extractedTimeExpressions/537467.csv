@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-September 22,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Joni James (born Giovanna Carmella Babbo, September 22, 1930) is an American singer of traditional pop music.",0,0,,537467
-1930,CD,YEAR_REGEX_1,TIME,time_reference,"Joni James (born Giovanna Carmella Babbo, September 22, 1930) is an American singer of traditional pop music.",0,0,,537467
+"September 22 , 1930","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Joni James (born Giovanna Carmella Babbo, September 22, 1930) is an American singer of traditional pop music.",0,0,,537467
 1952,CD,YEAR_REGEX_1,TIME,time_reference,"Some executives at Metro-Goldwyn-Mayer (MGM) spotted her in a television commercial, and she was signed by MGM in 1952.",4,2,== Biography ==,537467
 now,RB,TIMELINE_REGEX,TIME,time_reference,"She was also very popular across parts of the Asia-Pacific region, particularly in the Philippines where she performed at Manila's now defunct EM Club in 1957.",8,2,== Biography ==,537467
 1957,CD,YEAR_REGEX_1,TIME,time_reference,"She was also very popular across parts of the Asia-Pacific region, particularly in the Philippines where she performed at Manila's now defunct EM Club in 1957.",8,2,== Biography ==,537467
@@ -17,10 +16,8 @@ now,RB,TIMELINE_REGEX,TIME,time_reference,"She was also very popular across part
 1986,CD,YEAR_REGEX_1,TIME,time_reference,She cared for him until his death in 1986.,2,4,== Personal life ==,537467
 two decades,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Shortly after her first husband's death, James met retired Air Force General Bernard Adolph Schriever, two decades her senior.",0,5,== Personal life ==,537467
 1953–62,CD,YEAR_REGEX_1,TIME,time_reference,He had led the crash program that developed U.S. ballistic missiles — both ICBMs and IRBMs in 1953–62.,1,5,== Personal life ==,537467
-October 5,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"The couple wed on October 5, 1997, in Arlington, Virginia.",2,5,== Personal life ==,537467
-1997,CD,YEAR_REGEX_1,TIME,time_reference,"The couple wed on October 5, 1997, in Arlington, Virginia.",2,5,== Personal life ==,537467
-June 20,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Bernard Schriever died on June 20, 2005, aged 94.",4,5,== Personal life ==,537467
-2005,CD,YEAR_REGEX_1,TIME,time_reference,"Bernard Schriever died on June 20, 2005, aged 94.",4,5,== Personal life ==,537467
+"October 5 , 1997","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The couple wed on October 5, 1997, in Arlington, Virginia.",2,5,== Personal life ==,537467
+"June 20 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bernard Schriever died on June 20, 2005, aged 94.",4,5,== Personal life ==,537467
 Later years,RB NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Later years ==,1,6,== Later years ==,537467
 many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"For many years she was out of the public eye, but began touring again in the mid-1990s some years after she was widowed, performing memorable concerts at New York's Town Hall, Carnegie Hall and Avery Fisher Hall.",0,7,== Later years ==,537467
 some years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"For many years she was out of the public eye, but began touring again in the mid-1990s some years after she was widowed, performing memorable concerts at New York's Town Hall, Carnegie Hall and Avery Fisher Hall.",0,7,== Later years ==,537467

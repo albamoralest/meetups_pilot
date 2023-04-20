@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-November 12,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Brian Hyland (born November 12, 1943) is an American pop singer and instrumentalist who was particularly successful during the early 1960s.",0,0,,419012
-1943,CD,YEAR_REGEX_1,TIME,time_reference,"Brian Hyland (born November 12, 1943) is an American pop singer and instrumentalist who was particularly successful during the early 1960s.",0,0,,419012
+"November 12 , 1943","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Brian Hyland (born November 12, 1943) is an American pop singer and instrumentalist who was particularly successful during the early 1960s.",0,0,,419012
 the early 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Brian Hyland (born November 12, 1943) is an American pop singer and instrumentalist who was particularly successful during the early 1960s.",0,0,,419012
 the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He continued recording into the 1970s.,1,0,,419012
 late 1959,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Hyland was eventually signed by Kapp Records as a solo artist, issuing his debut single, ""Rosemary"", in late 1959.",3,2,== Biography ==,419012

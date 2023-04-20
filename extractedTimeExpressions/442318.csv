@@ -1,10 +1,7 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-May 12,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Gary Peacock (May 12, 1935 – September 4, 2020) was an American jazz double bassist.",0,0,,442318
-1935 – September 4,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Gary Peacock (May 12, 1935 – September 4, 2020) was an American jazz double bassist.",0,0,,442318
-2020,CD,YEAR_REGEX_1,TIME,time_reference,"Gary Peacock (May 12, 1935 – September 4, 2020) was an American jazz double bassist.",0,0,,442318
+"May 12 , 1935 – September 4 , 2020","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Gary Peacock (May 12, 1935 – September 4, 2020) was an American jazz double bassist.",0,0,,442318
 thirty years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"The trio existed for over thirty years, and featured drummer Jack DeJohnette, who also recorded with Peacock on various other projects as well.",2,0,,442318
-May 12,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Peacock was born in Burley, Idaho, on May 12, 1935; his father worked as a business consultant for grocery stores, and his mother was a homemaker.",0,2,== Early life ==,442318
-1935,CD,YEAR_REGEX_1,TIME,time_reference,"Peacock was born in Burley, Idaho, on May 12, 1935; his father worked as a business consultant for grocery stores, and his mother was a homemaker.",0,2,== Early life ==,442318
+"May 12 , 1935","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Peacock was born in Burley, Idaho, on May 12, 1935; his father worked as a business consultant for grocery stores, and his mother was a homemaker.",0,2,== Early life ==,442318
 now,RB,TIMELINE_REGEX,TIME,time_reference,"He grew up in Yakima, Washington, where he attended Yakima Senior High School, now called A.C. Davis High School.",1,2,== Early life ==,442318
 1953,CD,YEAR_REGEX_1,TIME,time_reference,"Peacock graduated in 1953; while playing for his class, he had a profound experience, stating: ""I was playing the drums, and had the experience of being played rather than playing...",4,2,== Early life ==,442318
 1956,CD,YEAR_REGEX_1,TIME,time_reference,"After being discharged from the Army in 1956, Peacock remained in Germany, playing with Hans Koller, Tony Scott, Bud Shank, Atilla Zoller, and others, before returning to Los Angeles.",0,4,== Career ==,442318
@@ -32,8 +29,7 @@ Jan,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"This was followed by December Poem
 1979 to 1983,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1979 to 1983, Peacock also taught at the Cornish School of the Arts.",11,12,== Career ==,442318
 the 1980s and '90s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_2,MODIFIER TIME MODIFIER TIME,time_reference,"Through the 1980s and '90s, Peacock released a number of albums under his own name, and also played and toured extensively with Jarrett and DeJohnette.",12,12,== Career ==,442318
 The following decades,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The following decades saw Peacock continuing to play and record in the existing trio contexts, as well as with Marilyn Crispell, Lee Konitz, and Bill Frisell, and with a new trio featuring Marc Copland and Joey Baron.",0,14,== Career ==,442318
-September 4,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Peacock died on September 4, 2020, at his home in Upstate New York.",0,16,== Death ==,442318
-2020,CD,YEAR_REGEX_1,TIME,time_reference,"Peacock died on September 4, 2020, at his home in Upstate New York.",0,16,== Death ==,442318
+"September 4 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Peacock died on September 4, 2020, at his home in Upstate New York.",0,16,== Death ==,442318
 a 2007,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"In a 2007 interview, Peacock stated:",0,18,== Attitude toward music ==,442318
 about ten years,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,I follow a practice that I've done for about ten years.,0,19,== Attitude toward music ==,442318
 five minutes,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Sometimes that takes seconds, sometimes it takes five minutes.",2,19,== Attitude toward music ==,442318
@@ -60,22 +56,18 @@ Now,RB,TIMELINE_REGEX,TIME,time_reference,"Now This (ECM, 2015) with Marc Coplan
 2015,CD,YEAR_REGEX_1,TIME,time_reference,"Now This (ECM, 2015) with Marc Copland, Joey Baron",0,35,== Discography == | === As leader ===,442318
 2017,CD,YEAR_REGEX_1,TIME,time_reference,"Tangents (ECM, 2017) with Marc Copland, Joey BaronWith Tethered Moon (Trio with Masabumi Kikuchi and Paul Motian)",0,36,== Discography == | === As leader ===,442318
 Winter,NNP,SEASON_REGEX,TIME,time_reference,"First Meeting (Winter & Winter, 1990–91, [1997])",0,37,== Discography == | === As leader ===,442318
-Winter,NNP,SEASON_REGEX,TIME,time_reference,"First Meeting (Winter & Winter, 1990–91, [1997])",0,37,== Discography == | === As leader ===,442318
-1990–91,CD,YEAR_REGEX_1,TIME,time_reference,"First Meeting (Winter & Winter, 1990–91, [1997])",0,37,== Discography == | === As leader ===,442318
+"Winter , 1990–91","NNP , CD",SEASON_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"First Meeting (Winter & Winter, 1990–91, [1997])",0,37,== Discography == | === As leader ===,442318
 1997,CD,YEAR_REGEX_1,TIME,time_reference,"First Meeting (Winter & Winter, 1990–91, [1997])",0,37,== Discography == | === As leader ===,442318
 1992,CD,YEAR_REGEX_1,TIME,time_reference,"Tethered Moon (King/Paddle Wheel, 1992; Evidence, 1993)",0,38,== Discography == | === As leader ===,442318
 1993,CD,YEAR_REGEX_1,TIME,time_reference,"Tethered Moon (King/Paddle Wheel, 1992; Evidence, 1993)",0,38,== Discography == | === As leader ===,442318
 1993,CD,YEAR_REGEX_1,TIME,time_reference,"Triangle (King/Paddle Wheel, 1993)",0,39,== Discography == | === As leader ===,442318
 1995,CD,YEAR_REGEX_1,TIME,time_reference,"Tethered Moon Play Kurt Weill (JMT, 1995; reissued on Winter & Winter, 2005)",0,40,== Discography == | === As leader ===,442318
 Winter,NNP,SEASON_REGEX,TIME,time_reference,"Tethered Moon Play Kurt Weill (JMT, 1995; reissued on Winter & Winter, 2005)",0,40,== Discography == | === As leader ===,442318
-Winter,NNP,SEASON_REGEX,TIME,time_reference,"Tethered Moon Play Kurt Weill (JMT, 1995; reissued on Winter & Winter, 2005)",0,40,== Discography == | === As leader ===,442318
-2005,CD,YEAR_REGEX_1,TIME,time_reference,"Tethered Moon Play Kurt Weill (JMT, 1995; reissued on Winter & Winter, 2005)",0,40,== Discography == | === As leader ===,442318
+"Winter , 2005","NNP , CD",SEASON_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Tethered Moon Play Kurt Weill (JMT, 1995; reissued on Winter & Winter, 2005)",0,40,== Discography == | === As leader ===,442318
 Winter,NNP,SEASON_REGEX,TIME,time_reference,"Chansons d’Édith Piaf (Winter & Winter, 1999)",0,41,== Discography == | === As leader ===,442318
-Winter,NNP,SEASON_REGEX,TIME,time_reference,"Chansons d’Édith Piaf (Winter & Winter, 1999)",0,41,== Discography == | === As leader ===,442318
-1999,CD,YEAR_REGEX_1,TIME,time_reference,"Chansons d’Édith Piaf (Winter & Winter, 1999)",0,41,== Discography == | === As leader ===,442318
+"Winter , 1999","NNP , CD",SEASON_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Chansons d’Édith Piaf (Winter & Winter, 1999)",0,41,== Discography == | === As leader ===,442318
 Winter,NNP,SEASON_REGEX,TIME,time_reference,"Experiencing Tosca (Winter & Winter, 2004)",0,42,== Discography == | === As leader ===,442318
-Winter,NNP,SEASON_REGEX,TIME,time_reference,"Experiencing Tosca (Winter & Winter, 2004)",0,42,== Discography == | === As leader ===,442318
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"Experiencing Tosca (Winter & Winter, 2004)",0,42,== Discography == | === As leader ===,442318
+"Winter , 2004","NNP , CD",SEASON_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Experiencing Tosca (Winter & Winter, 2004)",0,42,== Discography == | === As leader ===,442318
 a Day,DT NNP,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Out a Day (OMD, 1990) with Bill StewartWith Albert Ayler",0,45,== Discography == | === As sideman ===,442318
 1990,CD,YEAR_REGEX_1,TIME,time_reference,"Out a Day (OMD, 1990) with Bill StewartWith Albert Ayler",0,45,== Discography == | === As sideman ===,442318
 1964,CD,YEAR_REGEX_1,TIME,time_reference,"Ghosts (Debut, 1964 [1965])",0,46,== Discography == | === As sideman ===,442318

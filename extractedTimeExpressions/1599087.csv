@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-September 16,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Charlie Lee Byrd (September 16, 1925 – December 2, 1999) was an American jazz guitarist.",0,0,,1599087
-1925 – December 2,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Charlie Lee Byrd (September 16, 1925 – December 2, 1999) was an American jazz guitarist.",0,0,,1599087
-1999,CD,YEAR_REGEX_1,TIME,time_reference,"Charlie Lee Byrd (September 16, 1925 – December 2, 1999) was an American jazz guitarist.",0,0,,1599087
+"September 16 , 1925 – December 2 , 1999","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Charlie Lee Byrd (September 16, 1925 – December 2, 1999) was an American jazz guitarist.",0,0,,1599087
 1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962, he collaborated with Stan Getz on the album Jazz Samba, a recording which brought bossa nova into the mainstream of North American music.",2,0,,1599087
 1925,CD,YEAR_REGEX_1,TIME,time_reference,"Charlie Byrd was born in 1925 in Suffolk, Virginia, and grew up in the borough of Chuckatuck.",0,3,== Early life ==,1599087
 1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1942, Byrd entered the Virginia Polytechnic Institute and played in the school orchestra.",3,3,== Early life ==,1599087
@@ -19,8 +17,7 @@ the late 1950s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MOD
 1960,CD,YEAR_REGEX_1,TIME,time_reference,"Byrd was introduced to Brazilian music by Felix Grant, a friend and radio host who had contacts in Brazil in the late 1950s, and who was well-known there by 1960 due to the efforts of Brazilian radio broadcaster Paulo Santos.",0,8,== Career ==,1599087
 Following a spring 1961,VBG DT NN CD,PREFIX_REGEX_1 INARTICLE_REGEX SEASON_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME TIME,time_reference,"Following a spring 1961 diplomatic tour of South America (including Brazil) for the State Department, Byrd returned home and met with Stan Getz at the Showboat Lounge.",1,8,== Career ==,1599087
 previously,RB,TIMELINE_REGEX,TIME,time_reference,"These early sessions did not turn out to either man's liking, so Byrd gathered a group of musicians that had been to Brazil with him previously and practiced with them in Washington, D.C. until he felt they were ready to record.",7,8,== Career ==,1599087
-February 13,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Finally the group was deemed ready and Getz and Taylor arrived in Washington, D.C. on February 13, 1962.",10,8,== Career ==,1599087
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"Finally the group was deemed ready and Getz and Taylor arrived in Washington, D.C. on February 13, 1962.",10,8,== Career ==,1599087
+"February 13 , 1962","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Finally the group was deemed ready and Getz and Taylor arrived in Washington, D.C. on February 13, 1962.",10,8,== Career ==,1599087
 April 1962,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Jazz Samba was released in April 1962, and by September it had entered the Billboard pop album chart.",12,8,== Career ==,1599087
 September,NNP,MONTH_REGEX,TIME,time_reference,"Jazz Samba was released in April 1962, and by September it had entered the Billboard pop album chart.",12,8,== Career ==,1599087
 March,NNP,MONTH_REGEX,TIME,time_reference,By March of the following year the album had moved to number one.,13,8,== Career ==,1599087
@@ -50,8 +47,7 @@ nightclub,NN,DAY_TIME_REGEX,TIME,time_reference,He was also home-based at the Ki
 1999,CD,YEAR_REGEX_1,TIME,time_reference,He was also home-based at the King of France Tavern nightclub at the Maryland Inn in Annapolis from 1973 until his death in 1999.,1,10,== Career ==,1599087
 1992,CD,YEAR_REGEX_1,TIME,time_reference,"In 1992, the book Jazz Cooks—by Bob Young and Al Stankus—was published by Stewart, Tabori & Chang, a compilation of recipes that include a few recipes from Byrd.",2,10,== Career ==,1599087
 the 1973,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He also authored the 1973 publication Charlie Byrd's Melodic Method for Guitar.,3,10,== Career ==,1599087
-December 2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Charlie Byrd died of lung cancer on December 2, 1999 at his home in Annapolis, Maryland at the age of 74.",0,14,== Death ==,1599087
-1999,CD,YEAR_REGEX_1,TIME,time_reference,"Charlie Byrd died of lung cancer on December 2, 1999 at his home in Annapolis, Maryland at the age of 74.",0,14,== Death ==,1599087
+"December 2 , 1999","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Charlie Byrd died of lung cancer on December 2, 1999 at his home in Annapolis, Maryland at the age of 74.",0,14,== Death ==,1599087
 1999,CD,YEAR_REGEX_1,TIME,time_reference,1999 – Knighted by the government of Brazil as a Knight of the Rio Branco,0,16,== Awards ==,1599087
 1997,CD,YEAR_REGEX_1,TIME,time_reference,"1997 – deemed a ""Maryland Art Treasure"" by the Community Arts Alliance of Maryland",0,17,== Awards ==,1599087
 1960,CD,YEAR_REGEX_1,TIME,time_reference,"Goin' to Kansas City (Riverside, 1960)With",0,22,== Discography == | === As sideman ===,1599087

@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-July 22,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Chuck Jackson (born July 22, 1937) is an American R&B singer who was one of the first artists to record material by Burt Bacharach and Hal David successfully.",0,0,,2974145
-1937,CD,YEAR_REGEX_1,TIME,time_reference,"Chuck Jackson (born July 22, 1937) is an American R&B singer who was one of the first artists to record material by Burt Bacharach and Hal David successfully.",0,0,,2974145
+"July 22 , 1937","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Chuck Jackson (born July 22, 1937) is an American R&B singer who was one of the first artists to record material by Burt Bacharach and Hal David successfully.",0,0,,2974145
 1961,CD,YEAR_REGEX_1,TIME,time_reference,He has performed with moderate success since 1961.,1,0,,2974145
 Day Now,NNP RB,TIME_UNIT_REGEX TIMELINE_REGEX,TIME TIME,time_reference,"His hits include ""I Don't Want to Cry,"" ""Any Day Now,"" ""I Keep Forgettin'"", and ""All Over the World"".",2,0,,2974145
 1937,CD,YEAR_REGEX_1,TIME,time_reference,"Jackson was born in Winston-Salem, North Carolina in 1937.",0,2,== Career ==,2974145

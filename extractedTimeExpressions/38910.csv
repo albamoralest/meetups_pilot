@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-January 20,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Juan García Esquivel (January 20, 1918 – January 3, 2002), often known mononymously as Esquivel!, was a Mexican band leader, pianist, and composer for television and films.",0,0,,38910
-1918 – January 3,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Juan García Esquivel (January 20, 1918 – January 3, 2002), often known mononymously as Esquivel!, was a Mexican band leader, pianist, and composer for television and films.",0,0,,38910
-2002,CD,YEAR_REGEX_1,TIME,time_reference,"Juan García Esquivel (January 20, 1918 – January 3, 2002), often known mononymously as Esquivel!, was a Mexican band leader, pianist, and composer for television and films.",0,0,,38910
+"January 20 , 1918 – January 3 , 2002","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Juan García Esquivel (January 20, 1918 – January 3, 2002), often known mononymously as Esquivel!, was a Mexican band leader, pianist, and composer for television and films.",0,0,,38910
 today,NN,TIMELINE_REGEX,TIME,time_reference,He is recognized today as one of the foremost exponents of a sophisticated style of largely instrumental music that combines elements of lounge music and jazz with Latin flavors.,1,0,,38910
 of late 1950s-early 1960s,IN JJ JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME TIME,time_reference,"Esquivel is sometimes called ""The King of Space Age Pop"" and ""The Busby Berkeley of Cocktail Music"", and is considered one of the foremost exponents of a style of late 1950s-early 1960s quirky instrumental pop that became known (in retrospect) as ""Space Age Bachelor Pad Music"".",2,0,,38910
 1918,CD,YEAR_REGEX_1,TIME,time_reference,"He was born in 1918, in Tampico, Tamaulipas, and his family moved to Mexico City in 1928 where he became a self-taught musician from an early age.",0,2,== Early life ==,38910
@@ -47,8 +45,7 @@ April 1961,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Infinity in
 Xmas,PRP,HOLIDAY_REGEX,TIME,,"Merry Xmas from the Space-Age Bachelor Pad (1996, Bar/None Records)",0,41,== Discography ==,38910
 1996,CD,YEAR_REGEX_1,TIME,time_reference,"Merry Xmas from the Space-Age Bachelor Pad (1996, Bar/None Records)",0,41,== Discography ==,38910
 1998,CD,YEAR_REGEX_1,TIME,time_reference,"See It in Sound (1998, House of Hits Records), recorded 1960, previously unreleased",0,42,== Discography ==,38910
-1960,CD,YEAR_REGEX_1,TIME,time_reference,"See It in Sound (1998, House of Hits Records), recorded 1960, previously unreleased",0,42,== Discography ==,38910
-previously,RB,TIMELINE_REGEX,TIME,time_reference,"See It in Sound (1998, House of Hits Records), recorded 1960, previously unreleased",0,42,== Discography ==,38910
+"1960 , previously","CD , RB",YEAR_REGEX_1 COMMA_REGEX TIMELINE_REGEX,TIME MODIFIER TIME,,"See It in Sound (1998, House of Hits Records), recorded 1960, previously unreleased",0,42,== Discography ==,38910
 2005,CD,YEAR_REGEX_1,TIME,time_reference,"The Sights and Sounds of Esquivel  (2005, Bar/None Records)",0,43,== Discography ==,38910
 2006,CD,YEAR_REGEX_1,TIME,time_reference,"Remixed (2006, SonyBMG Mexico)",1,44,== Discography ==,38910
 1954–1962,CD,YEAR_REGEX_1,TIME,time_reference,"Complete 1954–1962 Recordings (2017, New Continent, Europe)(Related releases featuring Esquivel's music)",0,45,== Discography ==,38910

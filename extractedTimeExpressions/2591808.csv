@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-October 30,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Sue Carol (born Evelyn Jean Lederer, October 30, 1906 – February 4, 1982) was an American actress and talent agent.",0,0,,2591808
-1906 – February 4,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Sue Carol (born Evelyn Jean Lederer, October 30, 1906 – February 4, 1982) was an American actress and talent agent.",0,0,,2591808
-1982,CD,YEAR_REGEX_1,TIME,time_reference,"Sue Carol (born Evelyn Jean Lederer, October 30, 1906 – February 4, 1982) was an American actress and talent agent.",0,0,,2591808
+"October 30 , 1906 – February 4 , 1982","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Sue Carol (born Evelyn Jean Lederer, October 30, 1906 – February 4, 1982) was an American actress and talent agent.",0,0,,2591808
 the late 1920s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Carol's film career lasted from the late 1920s into the 1930s; when it ended, she became a talent agent.",1,0,,2591808
 the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Carol's film career lasted from the late 1920s into the 1930s; when it ended, she became a talent agent.",1,0,,2591808
 1942,CD,YEAR_REGEX_1,TIME,time_reference,"The last of her four marriages was to one of her clients, Alan Ladd, from 1942 until his death in 1964.",2,0,,2591808
@@ -18,23 +16,16 @@ that November,IN NNP,PREFIX_REGEX_1 MONTH_REGEX,MODIFIER TIME,time_reference,"In
 1933,CD,YEAR_REGEX_1,TIME,time_reference,"In 1933, Sue Carol was cleared in a case involving the disappearance of a baby from a Brooklyn, New York, family.",3,5,== Personal life ==,2591808
 November 1932,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,The family had complained that the baby had been taken for adoption in November 1932 by a woman who said she was acting on behalf of Carol.,4,5,== Personal life ==,2591808
 1934,CD,YEAR_REGEX_1,TIME,time_reference,The Stuarts divorced in 1934.,5,5,== Personal life ==,2591808
-Oct. 30,NNP CD,MONTH_ABBR_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On Oct. 30, 1936 in Los Angeles, Carol married for the third time to fellow actor William Harold Wilson.",6,5,== Personal life ==,2591808
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"On Oct. 30, 1936 in Los Angeles, Carol married for the third time to fellow actor William Harold Wilson.",6,5,== Personal life ==,2591808
-March 15,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"She married actor Alan Ladd on March 15, 1942, in Mexico.",8,5,== Personal life ==,2591808
-1942,CD,YEAR_REGEX_1,TIME,time_reference,"She married actor Alan Ladd on March 15, 1942, in Mexico.",8,5,== Personal life ==,2591808
-February 4,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Carol died on February 4, 1982 in Los Angeles, California, from a heart attack and is interred next to Alan Ladd in the Forest Lawn Memorial Park Cemetery in Glendale, California.",0,7,== Death ==,2591808
-1982,CD,YEAR_REGEX_1,TIME,time_reference,"Carol died on February 4, 1982 in Los Angeles, California, from a heart attack and is interred next to Alan Ladd in the Forest Lawn Memorial Park Cemetery in Glendale, California.",0,7,== Death ==,2591808
+"Oct. 30 , 1936","NNP CD , CD",MONTH_ABBR_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On Oct. 30, 1936 in Los Angeles, Carol married for the third time to fellow actor William Harold Wilson.",6,5,== Personal life ==,2591808
+"March 15 , 1942","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"She married actor Alan Ladd on March 15, 1942, in Mexico.",8,5,== Personal life ==,2591808
+"February 4 , 1982","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Carol died on February 4, 1982 in Los Angeles, California, from a heart attack and is interred next to Alan Ladd in the Forest Lawn Memorial Park Cemetery in Glendale, California.",0,7,== Death ==,2591808
 1982,CD,YEAR_REGEX_1,TIME,time_reference,"For her contribution to the motion picture industry, in 1982, Carol has a star on the Hollywood Walk of Fame at 1639 N. Vine Street.",1,7,== Death ==,2591808
 1639,CD,YEAR_REGEX_1,TIME,time_reference,"For her contribution to the motion picture industry, in 1982, Carol has a star on the Hollywood Walk of Fame at 1639 N. Vine Street.",1,7,== Death ==,2591808
 1998,CD,YEAR_REGEX_1,TIME,time_reference,"In 1998, a Golden Palm Star on the Palm Springs, California, Walk of Stars was dedicated to her.",2,7,== Death ==,2591808
 Springs,NNP,SEASON_REGEX,TIME,time_reference,"In 1998, a Golden Palm Star on the Palm Springs, California, Walk of Stars was dedicated to her.",2,7,== Death ==,2591808
 Wed,NNP,WEEK_ABBR_REGEX,TIME,time_reference,"BibliographyThe New York Times, ""Sue Carol To Wed Nick Stuart"", July 23, 1929, Page 32.",0,11,== References ==,2591808
-July 23,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"BibliographyThe New York Times, ""Sue Carol To Wed Nick Stuart"", July 23, 1929, Page 32.",0,11,== References ==,2591808
-1929,CD,YEAR_REGEX_1,TIME,time_reference,"BibliographyThe New York Times, ""Sue Carol To Wed Nick Stuart"", July 23, 1929, Page 32.",0,11,== References ==,2591808
+"July 23 , 1929","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"BibliographyThe New York Times, ""Sue Carol To Wed Nick Stuart"", July 23, 1929, Page 32.",0,11,== References ==,2591808
 Wed,NNP,WEEK_ABBR_REGEX,TIME,time_reference,"The New York Times, ""Sue Carol Secretly Wed"", November 29, 1929, Page 27.",0,12,== References ==,2591808
-November 29,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"The New York Times, ""Sue Carol Secretly Wed"", November 29, 1929, Page 27.",0,12,== References ==,2591808
-1929,CD,YEAR_REGEX_1,TIME,time_reference,"The New York Times, ""Sue Carol Secretly Wed"", November 29, 1929, Page 27.",0,12,== References ==,2591808
-February 8,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"The New York Times, ""Sue Carol Cleared In Baby Case"", February 8, 1933, Page 17.",0,13,== References ==,2591808
-1933,CD,YEAR_REGEX_1,TIME,time_reference,"The New York Times, ""Sue Carol Cleared In Baby Case"", February 8, 1933, Page 17.",0,13,== References ==,2591808
-February 6,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"The New York Times, ""Sue Carol Ladd, Ex-Actress And Widow of Alan Ladd, 72"", February 6, 1982, Page 16.",0,14,== References ==,2591808
-1982,CD,YEAR_REGEX_1,TIME,time_reference,"The New York Times, ""Sue Carol Ladd, Ex-Actress And Widow of Alan Ladd, 72"", February 6, 1982, Page 16.",0,14,== References ==,2591808
+"November 29 , 1929","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The New York Times, ""Sue Carol Secretly Wed"", November 29, 1929, Page 27.",0,12,== References ==,2591808
+"February 8 , 1933","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The New York Times, ""Sue Carol Cleared In Baby Case"", February 8, 1933, Page 17.",0,13,== References ==,2591808
+"February 6 , 1982","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The New York Times, ""Sue Carol Ladd, Ex-Actress And Widow of Alan Ladd, 72"", February 6, 1982, Page 16.",0,14,== References ==,2591808

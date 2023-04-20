@@ -1,6 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-February 8,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"James ""Blood"" Ulmer (born February 8, 1940) is an American jazz, free funk and blues guitarist and singer.",0,0,,739770
-1940,CD,YEAR_REGEX_1,TIME,time_reference,"James ""Blood"" Ulmer (born February 8, 1940) is an American jazz, free funk and blues guitarist and singer.",0,0,,739770
+"February 8 , 1940","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"James ""Blood"" Ulmer (born February 8, 1940) is an American jazz, free funk and blues guitarist and singer.",0,0,,739770
 1959 to 1964,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He began his career playing with soul jazz ensembles, first in Pittsburgh, Pennsylvania, from 1959 to 1964, and then in the Columbus, Ohio from 1964 to 1967.",1,2,== Biography ==,739770
 1964 to 1967,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He began his career playing with soul jazz ensembles, first in Pittsburgh, Pennsylvania, from 1959 to 1964, and then in the Columbus, Ohio from 1964 to 1967.",1,2,== Biography ==,739770
 1964,CD,YEAR_REGEX_1,TIME,time_reference,He recorded with organist Hank Marr in 1964 (released 1967).,2,2,== Biography ==,739770
@@ -81,6 +80,5 @@ One Minute,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Rochester/V
 2006,CD,YEAR_REGEX_1,TIME,time_reference,"World Saxophone Quartet, Political Blues (Justin Time, 2006)",0,67,== Discography == | === As sideman ===,739770
 2012,CD,YEAR_REGEX_1,TIME,time_reference,"Frank Wright, Blues for Albert Ayler (ESP Disk, 2012)",0,68,== Discography == | === As sideman ===,739770
 1973,CD,YEAR_REGEX_1,TIME,time_reference,"Larry Young, Lawrence of Newark (Perception, 1973)",0,69,== Discography == | === As sideman ===,739770
-October 27,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"James Blood Ulmer Online Archive at the Wayback Machine (archived October 27, 2009) including detailed discography",0,73,== External links ==,739770
-2009,CD,YEAR_REGEX_1,TIME,time_reference,"James Blood Ulmer Online Archive at the Wayback Machine (archived October 27, 2009) including detailed discography",0,73,== External links ==,739770
+"October 27 , 2009","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"James Blood Ulmer Online Archive at the Wayback Machine (archived October 27, 2009) including detailed discography",0,73,== External links ==,739770
 A 1998,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,A 1998 interview,0,74,== External links ==,739770

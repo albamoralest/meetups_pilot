@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-September 30,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Oscar Pettiford (September 30, 1922 – September 8, 1960) was an American jazz double bassist, cellist and composer.",0,0,,274424
-1922 – September 8,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Oscar Pettiford (September 30, 1922 – September 8, 1960) was an American jazz double bassist, cellist and composer.",0,0,,274424
-1960,CD,YEAR_REGEX_1,TIME,time_reference,"Oscar Pettiford (September 30, 1922 – September 8, 1960) was an American jazz double bassist, cellist and composer.",0,0,,274424
+"September 30 , 1922 – September 8 , 1960","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Oscar Pettiford (September 30, 1922 – September 8, 1960) was an American jazz double bassist, cellist and composer.",0,0,,274424
 1941,CD,YEAR_REGEX_1,TIME,time_reference,"Despite being admired by the likes of Milt Hinton at the age of 14, he gave up in 1941 as he did not believe he could make a living.",4,2,== Biography ==,274424
 Five months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Five months later, he once again met Hinton, who persuaded him to return to music.",5,2,== Biography ==,274424
 1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1942, he joined the Charlie Barnet band and in 1943 gained wider public attention after recording with Coleman Hawkins on his ""The Man I Love"".",0,3,== Biography ==,274424
@@ -81,8 +79,7 @@ Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Tal Farlow: Jazz Masters 41 (Verve
 1958,CD,YEAR_REGEX_1,TIME,time_reference,"Max Roach: Deeds, Not Words (Riverside, 1958)",0,61,== Discography == | === As sideman ===,274424
 1955,CD,YEAR_REGEX_1,TIME,time_reference,"Joe Roland: Joltin' Joe Roland (Savoy, 1955)",0,62,== Discography == | === As sideman ===,274424
 1958,CD,YEAR_REGEX_1,TIME,time_reference,"Sonny Rollins: Freedom Suite (Riverside, 1958)",0,63,== Discography == | === As sideman ===,274424
-Dawn,NNP,DAY_TIME_REGEX,TIME,time_reference,"Charlie Rouse: Les Jazz Modes (Dawn, 1956)",0,64,== Discography == | === As sideman ===,274424
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"Charlie Rouse: Les Jazz Modes (Dawn, 1956)",0,64,== Discography == | === As sideman ===,274424
+"Dawn , 1956","NNP , CD",DAY_TIME_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Charlie Rouse: Les Jazz Modes (Dawn, 1956)",0,64,== Discography == | === As sideman ===,274424
 1957,CD,YEAR_REGEX_1,TIME,time_reference,"Sahib Shihab: Jazz Sahib (Savoy, 1957)",0,65,== Discography == | === As sideman ===,274424
 1955,CD,YEAR_REGEX_1,TIME,time_reference,"Sonny Stitt:  Sonny Stitt Plays Arrangements from the Pen of Quincy Jones (Roost, 1955)",0,66,== Discography == | === As sideman ===,274424
 1950,CD,YEAR_REGEX_1,TIME,time_reference,"(Riverside, 1950)",1,67,== Discography == | === As sideman ===,274424

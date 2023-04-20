@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-September 27,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Robert Roland Chudnick (September 27, 1927 – May 27, 1994), known professionally as Red Rodney, was an American jazz trumpeter.",0,0,,891723
-1927 – May 27,CD NN NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Robert Roland Chudnick (September 27, 1927 – May 27, 1994), known professionally as Red Rodney, was an American jazz trumpeter.",0,0,,891723
-1994,CD,YEAR_REGEX_1,TIME,time_reference,"Robert Roland Chudnick (September 27, 1927 – May 27, 1994), known professionally as Red Rodney, was an American jazz trumpeter.",0,0,,891723
+"September 27 , 1927 – May 27 , 1994","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Robert Roland Chudnick (September 27, 1927 – May 27, 1994), known professionally as Red Rodney, was an American jazz trumpeter.",0,0,,891723
 1949 to 1951,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,and was a member of the band from 1949 to 1951.,1,3,== Biography ==,891723
 the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1950s, he worked as a bandleader in Philadelphia and recorded with Ira Sullivan.",0,4,== Biography ==,891723
 1969,CD,YEAR_REGEX_1,TIME,time_reference,"During 1969, Rodney played in Las Vegas with fellow Woody Herman colleague, trombonist Bill Harris, as part of the Flamingo casino house band led by Russ Black.",2,4,== Biography ==,891723
@@ -12,8 +10,7 @@ the early 1970s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MOD
 the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He continued to work and record into the 1990s.,7,5,== Biography ==,891723
 19 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"He provided an early showcase for saxophonist Chris Potter, who was a member of his group and only 19 years old when Rodney recorded Red Alert in late 1990.",9,5,== Biography ==,891723
 late 1990,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He provided an early showcase for saxophonist Chris Potter, who was a member of his group and only 19 years old when Rodney recorded Red Alert in late 1990.",9,5,== Biography ==,891723
-May 27,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Rodney died on May 27, 1994, from lung cancer.",0,7,== Biography ==,891723
-1994,CD,YEAR_REGEX_1,TIME,time_reference,"Rodney died on May 27, 1994, from lung cancer.",0,7,== Biography ==,891723
+"May 27 , 1994","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Rodney died on May 27, 1994, from lung cancer.",0,7,== Biography ==,891723
 1956,CD,YEAR_REGEX_1,TIME,time_reference,"Modern Music from Chicago (Fantasy, 1956)",0,10,== Discography == | === As leader ===,891723
 1957,CD,YEAR_REGEX_1,TIME,time_reference,"Red Rodney: 1957 (Savoy, 1957)",0,11,== Discography == | === As leader ===,891723
 1957,CD,YEAR_REGEX_1,TIME,time_reference,"Red Rodney: 1957 (Savoy, 1957)",0,11,== Discography == | === As leader ===,891723
@@ -55,7 +52,6 @@ Now,RB,TIMELINE_REGEX,TIME,time_reference,"Then and Now (Chesky, 1992)",0,34,== 
 1983,CD,YEAR_REGEX_1,TIME,time_reference,"Ira Sullivan, Ira Sullivan Does It All (Muse, 1983)",0,45,== Discography == | === As sideman ===,891723
 1992,CD,YEAR_REGEX_1,TIME,time_reference,"Bob Thiele, Louis Satchmo (Red Baron, 1992)",0,46,== Discography == | === As sideman ===,891723
 1977,CD,YEAR_REGEX_1,TIME,time_reference,"Claude Thornhill, The Uncollected Claude Thornhill and His Orchestra (Hindsight, 1977)",0,47,== Discography == | === As sideman ===,891723
-December 30,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Fresh Air on WHYY, December 30, 2002",0,50,== Sources ==,891723
-2002,CD,YEAR_REGEX_1,TIME,time_reference,"Fresh Air on WHYY, December 30, 2002",0,50,== Sources ==,891723
+"December 30 , 2002","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Fresh Air on WHYY, December 30, 2002",0,50,== Sources ==,891723
 1994,CD,YEAR_REGEX_1,TIME,time_reference,"The Penguin Guide to Jazz, New Edition, London, Penguin, 1994",1,51,== Sources ==,891723
 2002,CD,YEAR_REGEX_1,TIME,time_reference,"The Penguin Guide to Jazz on CD, sixth Edition, London, Penguin, 2002, ISBN 0140515216",1,52,== Sources ==,891723

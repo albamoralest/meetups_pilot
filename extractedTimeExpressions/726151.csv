@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-June 24,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Wonga Philip Harris (June 24, 1904 – August 11, 1995) was an American musician, actor and comedian.",0,0,,726151
-1904 – August 11,CD NN NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Wonga Philip Harris (June 24, 1904 – August 11, 1995) was an American musician, actor and comedian.",0,0,,726151
-1995,CD,YEAR_REGEX_1,TIME,time_reference,"Wonga Philip Harris (June 24, 1904 – August 11, 1995) was an American musician, actor and comedian.",0,0,,726151
+"June 24 , 1904 – August 11 , 1995","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Wonga Philip Harris (June 24, 1904 – August 11, 1995) was an American musician, actor and comedian.",0,0,,726151
 eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He was an orchestra leader and a pioneer in radio situation comedy, first with The Jack Benny Program, then in The Phil Harris-Alice Faye Show in which he co-starred with his wife, singer-actress Alice Faye, for eight years.",1,0,,726151
 1967,CD,YEAR_REGEX_1,TIME,time_reference,"As a voice actor, he played Baloo in The Jungle Book (1967), Thomas O'Malley in The Aristocats (1970), Little John in Robin Hood (1973), and Patou in Rock-a-Doodle (1991).",3,0,,726151
 1970,CD,YEAR_REGEX_1,TIME,time_reference,"As a voice actor, he played Baloo in The Jungle Book (1967), Thomas O'Malley in The Aristocats (1970), Little John in Robin Hood (1973), and Patou in Rock-a-Doodle (1991).",3,0,,726151
@@ -12,8 +10,7 @@ later years,JJR NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,
 the latter 1920s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"""Harris began his music career as a drummer in San Francisco, forming an orchestra with Carol Lofner in the latter 1920s and starting a long engagement at the St. Francis Hotel.",6,2,== Early life and career ==,726151
 1932,CD,YEAR_REGEX_1,TIME,time_reference,"The partnership ended by 1932, and Harris led a band in Los Angeles for which he was the singer and bandleader.",7,2,== Early life and career ==,726151
 the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1930s, Lofner-Harris recorded swing music for Victor, Columbia, Decca, and Vocalion.",9,2,== Early life and career ==,726151
-September 2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On September 2, 1927, he married actress Marcia Ralston in Sydney, Australia; they had met when he played a concert date.",0,3,== Early life and career ==,726151
-1927,CD,YEAR_REGEX_1,TIME,time_reference,"On September 2, 1927, he married actress Marcia Ralston in Sydney, Australia; they had met when he played a concert date.",0,3,== Early life and career ==,726151
+"September 2 , 1927","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On September 2, 1927, he married actress Marcia Ralston in Sydney, Australia; they had met when he played a concert date.",0,3,== Early life and career ==,726151
 1935,CD,YEAR_REGEX_1,TIME,time_reference,"The couple adopted a son, Phil Harris Jr. (born 1935).",1,3,== Early life and career ==,726151
 September 1940,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Harris and Marcia divorced in September 1940, and Harris married Alice Faye in 1941.",2,3,== Early life and career ==,726151
 1941,CD,YEAR_REGEX_1,TIME,time_reference,"Harris and Marcia divorced in September 1940, and Harris married Alice Faye in 1941.",2,3,== Early life and career ==,726151
@@ -41,8 +38,7 @@ the early 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MOD
 1991,CD,YEAR_REGEX_1,TIME,time_reference,Harris' final film role was in Rock-a-Doodle (1991).,2,12,== Later career ==,726151
 the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Harris spent time in the 1970s and early 1980s leading a band that appeared often in Las Vegas, often on the same bill with bandleader Harry James.",3,12,== Later career ==,726151
 early 1980s,RB CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Harris spent time in the 1970s and early 1980s leading a band that appeared often in Las Vegas, often on the same bill with bandleader Harry James.",3,12,== Later career ==,726151
-September 2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On September 2, 1927, he married actress Marcia Ralston in Sydney, Australia; they had met when he played a concert date.",0,14,== Personal life ==,726151
-1927,CD,YEAR_REGEX_1,TIME,time_reference,"On September 2, 1927, he married actress Marcia Ralston in Sydney, Australia; they had met when he played a concert date.",0,14,== Personal life ==,726151
+"September 2 , 1927","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On September 2, 1927, he married actress Marcia Ralston in Sydney, Australia; they had met when he played a concert date.",0,14,== Personal life ==,726151
 1935,CD,YEAR_REGEX_1,TIME,time_reference,"The couple adopted a son, Phil Harris Jr. (born 1935).",1,14,== Personal life ==,726151
 September 1940,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Harris and Marcia divorced in September 1940.,2,14,== Personal life ==,726151
 1941,CD,YEAR_REGEX_1,TIME,time_reference,"Harris and Alice Faye married in 1941; it was a second marriage for both (Faye had been married briefly to singer-actor Tony Martin) and lasted 54 years, until Harris's death.",0,15,== Personal life ==,726151
@@ -53,8 +49,7 @@ the 1952,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"A Democ
 1977,CD,YEAR_REGEX_1,TIME,time_reference,"After Crosby died in 1977, Harris replaced him as commentator for the annual Bing Crosby Pro-Am Golf Tournament.",5,15,== Personal life ==,726151
 Springs,NNP,SEASON_REGEX,TIME,time_reference,"Harris was a resident and benefactor of Palm Springs, California, and was active in many local civic organizations.",0,16,== Personal life ==,726151
 the night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Harris died of a heart attack at age 91 in his Rancho Mirage home in the night of August 11, 1995.",0,18,== Death and legacy ==,726151
-of August 11,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,"Harris died of a heart attack at age 91 in his Rancho Mirage home in the night of August 11, 1995.",0,18,== Death and legacy ==,726151
-1995,CD,YEAR_REGEX_1,TIME,time_reference,"Harris died of a heart attack at age 91 in his Rancho Mirage home in the night of August 11, 1995.",0,18,== Death and legacy ==,726151
+"of August 11 , 1995","IN NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Harris died of a heart attack at age 91 in his Rancho Mirage home in the night of August 11, 1995.",0,18,== Death and legacy ==,726151
 every year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Harris was a benefactor of his birthplace of Linton, Indiana, establishing scholarships in his honor for promising high school students, performing at the high school, and hosting a celebrity golf tournament in his honor every year.",2,18,== Death and legacy ==,726151
 1994,CD,YEAR_REGEX_1,TIME,time_reference,"In 1994, a Golden Palm Star on the Palm Springs Walk of Stars was dedicated to him.",5,18,== Death and legacy ==,726151
 Springs,NNP,SEASON_REGEX,TIME,time_reference,"In 1994, a Golden Palm Star on the Palm Springs Walk of Stars was dedicated to him.",5,18,== Death and legacy ==,726151
@@ -62,7 +57,6 @@ Springs,NNP,SEASON_REGEX,TIME,time_reference,"In 1994, a Golden Palm Star on the
 1950,CD,YEAR_REGEX_1,TIME,time_reference,"RCA, Victor. 1950.",1,21,== Partial discography ==,726151
 1952,CD,YEAR_REGEX_1,TIME,time_reference,"RCA, Victor. 1952.",1,22,== Partial discography ==,726151
 2001,CD,YEAR_REGEX_1,TIME,time_reference,"Steen, Ivan D. (2001).",0,25,== Bibliography ==,726151
-January 9,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Retrieved January 9, 2013 from HighBeam Research",4,25,== Bibliography ==,726151
-2013,CD,YEAR_REGEX_1,TIME,time_reference,"Retrieved January 9, 2013 from HighBeam Research",4,25,== Bibliography ==,726151
+"January 9 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Retrieved January 9, 2013 from HighBeam Research",4,25,== Bibliography ==,726151
 1988,CD,YEAR_REGEX_1,TIME,time_reference,Phil Harris 1988 Interview with Chuck Schaden,0,28,== External links ==,726151
 1985,CD,YEAR_REGEX_1,TIME,time_reference,Phil Harris Interview NAMM Oral History Library (1985),0,29,== External links ==,726151

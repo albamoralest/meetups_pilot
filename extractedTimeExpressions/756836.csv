@@ -1,8 +1,6 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-December 10,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Ray Willis Nance (December 10, 1913, in Chicago – January 28, 1976, in New York City) was an American jazz trumpeter, violinist and singer.",0,0,,756836
-1913,CD,YEAR_REGEX_1,TIME,time_reference,"Ray Willis Nance (December 10, 1913, in Chicago – January 28, 1976, in New York City) was an American jazz trumpeter, violinist and singer.",0,0,,756836
-January 28,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Ray Willis Nance (December 10, 1913, in Chicago – January 28, 1976, in New York City) was an American jazz trumpeter, violinist and singer.",0,0,,756836
-1976,CD,YEAR_REGEX_1,TIME,time_reference,"Ray Willis Nance (December 10, 1913, in Chicago – January 28, 1976, in New York City) was an American jazz trumpeter, violinist and singer.",0,0,,756836
+"December 10 , 1913","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ray Willis Nance (December 10, 1913, in Chicago – January 28, 1976, in New York City) was an American jazz trumpeter, violinist and singer.",0,0,,756836
+"January 28 , 1976","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ray Willis Nance (December 10, 1913, in Chicago – January 28, 1976, in New York City) was an American jazz trumpeter, violinist and singer.",0,0,,756836
 Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years ==,1,1,== Early years ==,756836
 1932 to 1937,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Nance was the leader of his own band in Chicago from 1932 to 1937.,0,2,== Early years ==,756836
 1937 to 1939,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Then, he worked with Earl Hines from 1937 to 1939; and from 1939 to 1940 he worked with Horace Henderson.",1,2,== Early years ==,756836
@@ -34,15 +32,11 @@ the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,He 
 1944–1946,CD,YEAR_REGEX_1,TIME,time_reference,"11–12 (1944–1946) (RCA, 1944–1946 performances) or The Best of the Complete Duke Ellington RCA Recordings, 1944–1946) (RCA, 1944–1946 performances)",1,22,== Discography == | === As sideman ===,756836
 1944–1946,CD,YEAR_REGEX_1,TIME,time_reference,"11–12 (1944–1946) (RCA, 1944–1946 performances) or The Best of the Complete Duke Ellington RCA Recordings, 1944–1946) (RCA, 1944–1946 performances)",1,22,== Discography == | === As sideman ===,756836
 1944–1946,CD,YEAR_REGEX_1,TIME,time_reference,"11–12 (1944–1946) (RCA, 1944–1946 performances) or The Best of the Complete Duke Ellington RCA Recordings, 1944–1946) (RCA, 1944–1946 performances)",1,22,== Discography == | === As sideman ===,756836
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"Ellington Uptown (includes Harlem Suite, Controversial Suite, Liberian Suite) (Columbia, 1947, 1951, 1952 performances)",0,23,== Discography == | === As sideman ===,756836
-1951,CD,YEAR_REGEX_1,TIME,time_reference,"Ellington Uptown (includes Harlem Suite, Controversial Suite, Liberian Suite) (Columbia, 1947, 1951, 1952 performances)",0,23,== Discography == | === As sideman ===,756836
-1952,CD,YEAR_REGEX_1,TIME,time_reference,"Ellington Uptown (includes Harlem Suite, Controversial Suite, Liberian Suite) (Columbia, 1947, 1951, 1952 performances)",0,23,== Discography == | === As sideman ===,756836
-1950,CD,YEAR_REGEX_1,TIME,time_reference,"Masterpieces by Ellington (Columbia, 1950, 1951 performances)",0,24,== Discography == | === As sideman ===,756836
-1951,CD,YEAR_REGEX_1,TIME,time_reference,"Masterpieces by Ellington (Columbia, 1950, 1951 performances)",0,24,== Discography == | === As sideman ===,756836
+"1947 , 1951 , 1952","CD , CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME MODIFIER TIME,time_range,"Ellington Uptown (includes Harlem Suite, Controversial Suite, Liberian Suite) (Columbia, 1947, 1951, 1952 performances)",0,23,== Discography == | === As sideman ===,756836
+"1950 , 1951","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Masterpieces by Ellington (Columbia, 1950, 1951 performances)",0,24,== Discography == | === As sideman ===,756836
 '55,NNP,YEAR_REGEX_2,TIME,time_reference,"Ellington '55 (Capitol, 1955) or Jazz Profile (Blue Note, 1950s, 1960s performances)",0,25,== Discography == | === As sideman ===,756836
 1955,CD,YEAR_REGEX_1,TIME,time_reference,"Ellington '55 (Capitol, 1955) or Jazz Profile (Blue Note, 1950s, 1960s performances)",0,25,== Discography == | === As sideman ===,756836
-1950s,CD,YEAR_REGEX_1,TIME,time_reference,"Ellington '55 (Capitol, 1955) or Jazz Profile (Blue Note, 1950s, 1960s performances)",0,25,== Discography == | === As sideman ===,756836
-1960s,CD,YEAR_REGEX_1,TIME,time_reference,"Ellington '55 (Capitol, 1955) or Jazz Profile (Blue Note, 1950s, 1960s performances)",0,25,== Discography == | === As sideman ===,756836
+"1950s , 1960s","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Ellington '55 (Capitol, 1955) or Jazz Profile (Blue Note, 1950s, 1960s performances)",0,25,== Discography == | === As sideman ===,756836
 1956,CD,YEAR_REGEX_1,TIME,time_reference,"A Drum Is a Woman (Columbia, 1956)",0,26,== Discography == | === As sideman ===,756836
 1956,CD,YEAR_REGEX_1,TIME,time_reference,Blue Rose (With Rosemary Clooney) (1956),0,27,== Discography == | === As sideman ===,756836
 1956,CD,YEAR_REGEX_1,TIME,time_reference,Historically Speaking (1956),0,28,== Discography == | === As sideman ===,756836

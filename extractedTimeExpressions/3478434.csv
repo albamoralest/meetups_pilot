@@ -1,7 +1,5 @@
 time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-November 24,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Eileen Barton (November 24, 1924 – June 27, 2006) was an American singer best known for her 1950 hit song, ""If I Knew You Were Comin' I'd've Baked a Cake.""",0,0,,3478434
-1924 – June 27,CD NNP NNP CD,YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_range,"Eileen Barton (November 24, 1924 – June 27, 2006) was an American singer best known for her 1950 hit song, ""If I Knew You Were Comin' I'd've Baked a Cake.""",0,0,,3478434
-2006,CD,YEAR_REGEX_1,TIME,time_reference,"Eileen Barton (November 24, 1924 – June 27, 2006) was an American singer best known for her 1950 hit song, ""If I Knew You Were Comin' I'd've Baked a Cake.""",0,0,,3478434
+"November 24 , 1924 – June 27 , 2006","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Eileen Barton (November 24, 1924 – June 27, 2006) was an American singer best known for her 1950 hit song, ""If I Knew You Were Comin' I'd've Baked a Cake.""",0,0,,3478434
 1950,CD,YEAR_REGEX_1,TIME,time_reference,"Eileen Barton (November 24, 1924 – June 27, 2006) was an American singer best known for her 1950 hit song, ""If I Knew You Were Comin' I'd've Baked a Cake.""",0,0,,3478434
 Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years ==,1,1,== Early years ==,3478434
 1929,CD,YEAR_REGEX_1,TIME,time_reference,"Her birthdate is often given as 1929, but a certified copy of her birth certificate shows that she was born in 1924.",1,2,== Early years ==,3478434
@@ -14,8 +12,7 @@ Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,"By age 6, she appeared on The Horn
 1936,CD,YEAR_REGEX_1,TIME,time_reference,"At 10, she appeared twice on Rudy Vallée's network radio program in 1936.",5,5,== Radio ==,3478434
 Days,NNP,TIME_UNIT_REGEX,TIME,time_reference,She also acted on radio series such as Death Valley Days.,6,5,== Radio ==,3478434
 the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"At age 15, she appeared as a guest singer on a Johnny Mercer variety series, leading to her being noticed by Frank Sinatra, who took her under his wing and put her in a regular spot on the CBS radio show that he hosted in the 1940s.",0,7,== Radio ==,3478434
-beginning August 16,NN NNP CD,PREFIX_REGEX_2 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,"She co-starred on Sinatra's show beginning August 16, 1944, and was also part of Sinatra's act at the Paramount Theater in 15 appearances there.",1,7,== Radio ==,3478434
-1944,CD,YEAR_REGEX_1,TIME,time_reference,"She co-starred on Sinatra's show beginning August 16, 1944, and was also part of Sinatra's act at the Paramount Theater in 15 appearances there.",1,7,== Radio ==,3478434
+"beginning August 16 , 1944","NN NNP CD , CD",PREFIX_REGEX_2 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"She co-starred on Sinatra's show beginning August 16, 1944, and was also part of Sinatra's act at the Paramount Theater in 15 appearances there.",1,7,== Radio ==,3478434
 1945,CD,YEAR_REGEX_1,TIME,time_reference,"In 1945, Barton had her own radio program, Teen Timers.",0,8,== Radio ==,3478434
 That November,DT NNP,PREFIX_REGEX_1 MONTH_REGEX,MODIFIER TIME,time_reference,"That November, the program's name was changed to The Eileen Barton Show.",1,8,== Radio ==,3478434
 Saturday mornings,NNP NNS,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,It was broadcast Saturday mornings on NBC.,2,8,== Radio ==,3478434
@@ -39,5 +36,4 @@ the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the
 the late '50s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER MODIFIER TIME,time_reference,"However, rock-and-roll quickly drove most singers of her generation from the charts and her chart hits dried up in the late '50s.",1,16,== Recording ==,3478434
 1963,CD,YEAR_REGEX_1,TIME,time_reference,"After releasing singles for another four record labels, she retired from studio work in 1963.",2,16,== Recording ==,3478434
 the early 1980s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"She also appeared in motion pictures and television, and continued to perform live until the early 1980s.",0,17,== Recording ==,3478434
-April 15,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Barton married industrialist Dan Shaw in Juarez, Mexico, April 15, 1961.",0,19,== Personal life ==,3478434
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"Barton married industrialist Dan Shaw in Juarez, Mexico, April 15, 1961.",0,19,== Personal life ==,3478434
+"April 15 , 1961","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Barton married industrialist Dan Shaw in Juarez, Mexico, April 15, 1961.",0,19,== Personal life ==,3478434
