@@ -1,8 +1,8 @@
 ---
 component-id: meetups-themes
 type: Software
-name: MEETUPS - Identification of themes
-description: This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find encounter types. It uses "sklearn" and a set of Machine Learning algorithms to classify sentences according to the established type of events. The tool extracts information from one of the four elements defining a meetup: the type of encounter (what). Encounter type, along with data of the people involved (who), the place (where) and the time it took place (what), complete the historical meetup information.
+name: MEETUPS Identification of themes
+description: "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies to find encounter types. It uses "sklearn" and a set of Machine Learning algorithms to classify sentences according to the established type of events. The tool extracts information from one of the four elements defining a meetup: the type of encounter (what). Encounter type, along with data of the people involved (who), the place (where) and the time it took place (what), complete the historical meetup information."
 work-package:
 - WP4
 pilot:
