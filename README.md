@@ -2,7 +2,7 @@
 container-id: meetups-pilot
 name: Musical MEETUPS
 type: Project
-description: MEETUPS Pilot container with all the elements that support the knowledge extraction of historical meetups
+description: "MEETUPS Pilot container with all the elements that support the knowledge extraction of historical meetups"
 release-date: 20/07/2022
 release-number: v0.1
 work-package: 
