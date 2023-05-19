@@ -2,9 +2,7 @@
 container-id: meetups-pilot
 name: Musical MEETUPS
 type: Project
-description: "MEETUPS Pilot container with all the elements that support the knowledge extraction of historical meetups"
-release-date: 20/07/2022
-release-number: v0.1
+description: MEETUPS Pilot container with all the elements that support the knowledge extraction of historical meetups
 work-package: 
 - WP4
 pilot:
@@ -15,15 +13,15 @@ bibliography:
 funder:
   - name: European Commission H2020
     url: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/h2020
-    credits: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement GA101004746. The communication reflects only the author’s view and the Research Executive Agency is not responsible for any use that may be made of the information it contains."
-- has-part:
-  - meetups-knowledge-graph
-  - meetups-ontology
-  - meetups-data-cleaning
-  - meetups-themes
-  - meetups-entity-recognition
-  - meetups-time-extraction
-  - meetups-corpus-collection
+credits: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement GA101004746. The communication reflects only the author’s view and the Research Executive Agency is not responsible for any use that may be made of the information it contains."
+has-part:
+- meetups-knowledge-graph
+- meetups-ontology
+- meetups-data-cleaning
+- meetups-themes
+- meetups-entity-recognition
+- meetups-time-extraction
+- meetups-corpus-collection
 ---
 
 # MEETUPS PILOT
