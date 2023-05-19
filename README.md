@@ -19,11 +19,11 @@ funder:
 - has-part:
 	- meetups-knowledge-graph
 	- meetups-ontology
-    - meetups-data-cleaning
-    - meetups-themes
-    - meetups-entity-recognition
-    - meetups-time-extraction
-    - meetups-corpus-collection
+	- meetups-data-cleaning
+	- meetups-themes
+	- meetups-entity-recognition
+	- meetups-time-extraction
+	- meetups-corpus-collection
 ---
 
 # MEETUPS PILOT
