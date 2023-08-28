@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"June 19 , 1956","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jim Collins (born June 19, 1956) is an American country music singer-songwriter.",0,0,,17698088
+1985 and 1998,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 1985 and 1998, Collins released three studio albums.",1,0,,17698088
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"The highest of these, ""The Next Step,"" peaked at No. 55 in 1997.",3,0,,17698088
+Today,NNP,TIMELINE_REGEX,TIME,time_reference,"As a songwriter, Collins has had 50 of his songs recorded by others, including singles performed by Kenny Chesney (""She Thinks My Tractor's Sexy"", ""The Good Stuff"", ""Everybody Wants to Go to Heaven""), Chad Brock (""Yes!""), Jason Aldean (""Big Green Tractor""), and Gretchen Wilson (""I Don't Feel Like Loving You Today"") which was nominated for a Grammy Award for Best Country Song.",4,0,,17698088
+seven weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"""The Good Stuff"" was Billboard's Number One country single for seven weeks of 2002, and it won ASCAP song of the year.",5,0,,17698088
+of 2002,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"""The Good Stuff"" was Billboard's Number One country single for seven weeks of 2002, and it won ASCAP song of the year.",5,0,,17698088
+of the year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"""The Good Stuff"" was Billboard's Number One country single for seven weeks of 2002, and it won ASCAP song of the year.",5,0,,17698088
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"The Thompson Square recording of ""Are You Gonna Kiss Me Or Not"" was nominated for a Grammy Award for Best Country Song in 2011.",0,1,,17698088
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"In 2014, Easton Corbin's performance of ""Baby Be My Love Song"" rose to number 3 in the US Country Airplay.",1,1,,17698088
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"In 2020, Collins was inducted into the Texas Heritage Songwriters Hall of Fame.",2,1,,17698088

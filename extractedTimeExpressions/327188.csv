@@ -1,0 +1,93 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 12 , 1940 – October 19 , 2013","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Ronald Shannon Jackson (January 12, 1940 – October 19, 2013) was an American jazz drummer and composer from Fort Worth, Texas.",0,0,,327188
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"""In 1979, he founded his own group, the Decoding Society, playing what has been dubbed free funk: a blend of funk rhythm and free jazz improvisation.",5,0,,327188
+four nights,CD NNS,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,time_reference,"Jackson recalled that ""we were playing four nights a week, with two gigs each on Saturday and Sunday, anything from Ray Charles to bebop.",11,2,== Early life and career ==,327188
+a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Jackson recalled that ""we were playing four nights a week, with two gigs each on Saturday and Sunday, anything from Ray Charles to bebop.",11,2,== Early life and career ==,327188
+Saturday and Sunday,NNP CC NNP,WEEK_REGEX LINKAGE_REGEX WEEK_REGEX,TIME MODIFIER TIME,time_reference,"Jackson recalled that ""we were playing four nights a week, with two gigs each on Saturday and Sunday, anything from Ray Charles to bebop.",11,2,== Early life and career ==,327188
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"By 1966, Jackson received a full music scholarship to New York University through trumpeter Kenny Dorham.",22,2,== Early life and career ==,327188
+1966–1978,CD,YEAR_REGEX_1,TIME,time_reference,New York and the Avant-Garde (1966–1978) ==,1,3,== New York and the Avant-Garde (1966–1978) ==,327188
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"In 1966 Jackson recorded drums for saxophonist Charles Tyler's release, Charles Tyler Ensemble.",4,4,== New York and the Avant-Garde (1966–1978) ==,327188
+1966 and 1967,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 1966 and 1967, he played with saxophonist Albert Ayler and is featured on At Slug's Saloon, Vol. 1 & 2.",5,4,== New York and the Avant-Garde (1966–1978) ==,327188
+1962–70,CD,YEAR_REGEX_1,TIME,time_reference,He is also on disks 3 and 4 of Ayler's Holy Ghost: Rare & Unissued Recordings (1962–70).,6,4,== New York and the Avant-Garde (1966–1978) ==,327188
+July 1967,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,John Coltrane's death in July 1967 devastated Jackson.,9,4,== New York and the Avant-Garde (1966–1978) ==,327188
+the next few years,DT JJ JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,He spent the next few years addicted to heroin.,10,4,== New York and the Avant-Garde (1966–1978) ==,327188
+1970-74,JJ,YEAR_REGEX_1,TIME,time_reference,"From 1970-74, he did not perform, but continued to practice.",13,4,== New York and the Avant-Garde (1966–1978) ==,327188
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"In 1974, pianist Onaje Allan Gumbs introduced Jackson to Nichiren Buddhism and chanting.",14,4,== New York and the Avant-Garde (1966–1978) ==,327188
+three weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Although initially reluctant, Jackson decided to try it for three weeks.",15,4,== New York and the Avant-Garde (1966–1978) ==,327188
+Then three months,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"""Then three months had passed.",16,4,== New York and the Avant-Garde (1966–1978) ==,327188
+17 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,I was a Buddhist and a vegetarian for 17 years.,18,4,== New York and the Avant-Garde (1966–1978) ==,327188
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"""By 1975 he joined saxophonist Ornette Coleman's electric free funk band, Prime Time.",19,4,== New York and the Avant-Garde (1966–1978) ==,327188
+1976,CD,YEAR_REGEX_1,TIME,time_reference,Jackson went to Paris with Prime Time in 1976 to perform concerts and record Dancing in Your Head and Body Meta.,22,4,== New York and the Avant-Garde (1966–1978) ==,327188
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, Jackson played on four albums with pianist Cecil Taylor: Cecil Taylor Unit, 3 Phasis, Live in the Black Forest, and One Too Many Salty Swift and Not Goodbye.",23,4,== New York and the Avant-Garde (1966–1978) ==,327188
+1979–1999,CD,YEAR_REGEX_1,TIME,time_reference,The Decoding Society and Other Projects (1979–1999) ==,1,5,== The Decoding Society and Other Projects (1979–1999) ==,327188
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Jackson formed his band, The Decoding Society, in 1979, as a showcase for his blend of avant-garde jazz, rock, funk, and ethnic music.",0,6,== The Decoding Society and Other Projects (1979–1999) ==,327188
+Eastern,NNP,HOLIDAY_REGEX,TIME,time_reference,"American, Eastern, and African sounds are distilled under Jackson's guidance.",3,7,== The Decoding Society and Other Projects (1979–1999) ==,327188
+Eastern,JJ,HOLIDAY_REGEX,TIME,time_reference,"Sometimes the melodies are diatonic, other times they are bluesy; occasionally they sound ""Eastern"".",17,7,== The Decoding Society and Other Projects (1979–1999) ==,327188
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Throughout the years, the Decoding Society has featured the performances of Akbar Ali, Bern Nix, Billy Bang, Byrad Lancaster, Cary Denigris, Charles Brackeen, David Fiuczynski, David Gordon, Tomchess, Dominic Richards, Eric Person, Henry Scott, Jef Lee Johnson, John Moody, Khan Jamal, Lee Rozie, Masujaa, Melvin Gibbs, Onaje Allan Gumbs, Reggie Washington, Reverend Bruce Johnson, Robin Eubanks, Vernon Reid, and Zane Massey.",19,7,== The Decoding Society and Other Projects (1979–1999) ==,327188
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Guitarist and fellow Coleman alumnus James Blood Ulmer recruited Jackson for another group that intended to push harmolodics to a new level In 1986 Jackson, Sonny Sharrock, Peter Brötzmann, and Bill Laswell formed the free jazz supergroup, Last Exit, which performed and released five live albums and one studio album, before Sharrock's death in 1994 saw the end of the band.",21,7,== The Decoding Society and Other Projects (1979–1999) ==,327188
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Guitarist and fellow Coleman alumnus James Blood Ulmer recruited Jackson for another group that intended to push harmolodics to a new level In 1986 Jackson, Sonny Sharrock, Peter Brötzmann, and Bill Laswell formed the free jazz supergroup, Last Exit, which performed and released five live albums and one studio album, before Sharrock's death in 1994 saw the end of the band.",21,7,== The Decoding Society and Other Projects (1979–1999) ==,327188
+the late 1980s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1980s, Jackson teamed up with Laswell on two other projects: SXL, with violinist L. Shankar, Senegalese drummer Aiyb Dieng, and Korean percussion group SamulNori, and the free jazz trio, Mooko, with Japanese saxophonist Akira Sakata.",22,7,== The Decoding Society and Other Projects (1979–1999) ==,327188
+September 1986,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The trip, both a personal and artistic milestone, inspired music for the Decoding Society's When Colors Play, recorded live at the Caravan of Dreams in September 1986.",24,7,== The Decoding Society and Other Projects (1979–1999) ==,327188
+A Night,DT NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Author Norman C. Weinstein detailed the excursion in a chapter of his book, A Night in Tunisia: Imaginings of Africa in Jazz, titled ""Ronald Shannon Jackson: Journey to Africa Without End.",25,7,== The Decoding Society and Other Projects (1979–1999) ==,327188
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"""In 1987, Jackson formed an avant-garde power trio with bassist Melvin Gibbs and guitarist Bill Frisell called Power Tools.",26,7,== The Decoding Society and Other Projects (1979–1999) ==,327188
+2000-2013,CD,YEAR_REGEX_1,TIME,time_reference,Later career (2000-2013),1,8,== Later career (2000-2013) ==,327188
+the early 2000s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,His output slowed in the early 2000s due to nerve damage in his left arm.,0,9,== Later career (2000-2013) ==,327188
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"After consulting with a neurologist, Jackson declined surgery and was able to regain his strength through years of physical therapy.",1,9,== Later career (2000-2013) ==,327188
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Physical limitations did not diminish his output as a composer, and he unveiled new material on YouTube in 2012.",2,9,== Later career (2000-2013) ==,327188
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Jackson joined trumpeter Wadada Leo Smith's Golden Quartet with pianist Vijay Iyer and double-bassist John Lindberg in 2005.,3,9,== Later career (2000-2013) ==,327188
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"He played with the Punk Funk All Stars in 2006, which included Melvin Gibbs, Joseph Bowie, Vernon Reid, and James Blood Ulmer.",5,9,== Later career (2000-2013) ==,327188
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008 Jackson and Jamaaladeen Tacuma toured Europe with The Last Poets; this collaboration was documented in the film ""The Last Poets / Made in Amerikkka"" directed by Claude Santiago.",6,9,== Later career (2000-2013) ==,327188
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011 Jackson, Vernon Reid and Melvin Gibbs formed a power trio called Encryption.",7,9,== Later career (2000-2013) ==,327188
+The next day,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The next day, he checked himself out of the hospital to play with Reid and Gibbs at the festival.",9,9,== Later career (2000-2013) ==,327188
+"July 7 , 2012","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On July 7, 2012, Jackson performed at the Kessler Theater in Dallas with the latest version of the Decoding Society, which includes violinist Leonard Hayward, trumpeter John Weir, guitarist Gregg Prickett, and bassist Melvin Gibbs.",11,9,== Later career (2000-2013) ==,327188
+of 2012,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,The performance was voted as one of the Ten Best Concerts of 2012 in the Dallas Observer.,13,9,== Later career (2000-2013) ==,327188
+"October 19 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jackson died of leukemia on October 19, 2013, aged 73.",0,11,== Death ==,327188
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Eye on You (About Time, 1980)",0,14,== Discography == | === As leader ===,327188
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Nasty (Moers Music, 1981)",0,15,== Discography == | === As leader ===,327188
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Street Priest (Moers, 1981)",0,16,== Discography == | === As leader ===,327188
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Mandance (Antilles, 1982)",0,17,== Discography == | === As leader ===,327188
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"Barbeque Dog (Antilles, 1983)",0,18,== Discography == | === As leader ===,327188
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"Montreux Jazz Festival (Knit Classics, 1983)",0,19,== Discography == | === As leader ===,327188
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Pulse (Celluloid, 1984)",0,20,== Discography == | === As leader ===,327188
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"Decode Yourself (Island, 1985)",0,21,== Discography == | === As leader ===,327188
+1981–83,CD,YEAR_REGEX_1,TIME,time_reference,"Taboo (Venture/Virgin, 1981–83)",0,22,== Discography == | === As leader ===,327188
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Earned Dream (Knit Classics, 1984)",0,23,== Discography == | === As leader ===,327188
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Live at Greenwich House (Knit Classics, 1986)",0,24,== Discography == | === As leader ===,327188
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Live at the Caravan of Dreams (Caravan of Dreams, 1986)",0,25,== Discography == | === As leader ===,327188
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"When Colors Play (Caravan of Dreams, 1986)",0,26,== Discography == | === As leader ===,327188
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Texas (Caravan of Dreams, 1987)",0,27,== Discography == | === As leader ===,327188
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Red Warrior (Axiom, 1990)",0,28,== Discography == | === As leader ===,327188
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Raven Roc (DIW, 1992)",0,29,== Discography == | === As leader ===,327188
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Live in Warsaw (Knit Classics, 1994)",0,30,== Discography == | === As leader ===,327188
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"What Spirit Say (DIW, 1994)",0,31,== Discography == | === As leader ===,327188
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Shannon's House (Koch, 1996)(dates are recording, not release)",0,32,== Discography == | === As leader ===,327188
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Last Exit (Enemy, 1986)",0,34,== Discography == | === As leader ===,327188
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"The Noise of Trouble (Enemy, 1986) with guests Akira Sakata and Herbie Hancock",0,35,== Discography == | === As leader ===,327188
+'87,NNP,YEAR_REGEX_2,TIME,time_reference,"Cassette Recordings '87 (Celluloid, 1987)",0,36,== Discography == | === As leader ===,327188
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Cassette Recordings '87 (Celluloid, 1987)",0,36,== Discography == | === As leader ===,327188
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Iron Path (Virgin, 1988)",0,37,== Discography == | === As leader ===,327188
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Köln (ITM, 1990)",0,38,== Discography == | === As leader ===,327188
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Headfirst into the Flames (Muworks, 1993)",0,39,== Discography == | === As leader ===,327188
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"(ESP, 1966)",2,42,== Discography == | === As sideman ===,327188
+1962–70,CD,YEAR_REGEX_1,TIME,time_reference,"Holy Ghost: Rare & Unissued Recordings (1962–70) (Revenant, 1962–70)With Ornette Coleman",0,43,== Discography == | === As sideman ===,327188
+1962–70,CD,YEAR_REGEX_1,TIME,time_reference,"Holy Ghost: Rare & Unissued Recordings (1962–70) (Revenant, 1962–70)With Ornette Coleman",0,43,== Discography == | === As sideman ===,327188
+"1973 , 1975","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Dancing in Your Head (A&M, 1973, 1975)",0,44,== Discography == | === As sideman ===,327188
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Body Meta (Artists House, 1975)With Bertrand Gallaz",0,45,== Discography == | === As sideman ===,327188
+A Minute,NNP NNP,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Talk To You In A Minute (Plainisphare, 1993)With Bill Laswell",0,46,== Discography == | === As sideman ===,327188
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Talk To You In A Minute (Plainisphare, 1993)With Bill Laswell",0,46,== Discography == | === As sideman ===,327188
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Baselines (Elektra Musician, 1982)With Mooko",0,47,== Discography == | === As sideman ===,327188
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Japan Concerts (Celluloid, 1988)With Music Revelation Ensemble",0,48,== Discography == | === As sideman ===,327188
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"No Wave (Moers Music, 1980)",0,49,== Discography == | === As sideman ===,327188
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Music Revelation Ensemble (DIW, 1988)With Power Tools",0,50,== Discography == | === As sideman ===,327188
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Strange Meeting (Antilles, 1987)With SXL",0,51,== Discography == | === As sideman ===,327188
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Live in Japan (Terrapin/Sony Japan, 1987)",0,52,== Discography == | === As sideman ===,327188
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Into the Outlands (Celluloid, 1987)With Wadada Leo Smith",0,53,== Discography == | === As sideman ===,327188
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Tabligh (Cuneiform, 2008)With Cecil Taylor",0,54,== Discography == | === As sideman ===,327188
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Cecil Taylor Unit (New World, 1978)",0,55,== Discography == | === As sideman ===,327188
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"3 Phasis (New World, 1978)",0,56,== Discography == | === As sideman ===,327188
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"One Too Many Salty Swift and Not Goodbye (hat Hut, 1978)",0,57,== Discography == | === As sideman ===,327188
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Live in the Black Forest (MPS, 1978)With Charles Tyler",0,58,== Discography == | === As sideman ===,327188
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Charles Tyler Ensemble (ESP, 1966)With James Blood Ulmer",0,59,== Discography == | === As sideman ===,327188
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"(Rough Trade, 1980)",1,60,== Discography == | === As sideman ===,327188
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"(Blue Note, 1986)with John Zorn",1,61,== Discography == | === As sideman ===,327188
+1986–87,CD,YEAR_REGEX_1,TIME,time_reference,"Spillane (Nonesuch, 1986–87)",0,62,== Discography == | === As sideman ===,327188

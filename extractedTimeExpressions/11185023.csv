@@ -1,0 +1,50 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 9 , 1926 – April 1 , 2020","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"John Paul ""Bucky"" Pizzarelli (January 9, 1926 – April 1, 2020) was an American jazz guitarist.",0,0,,11185023
+1971,CD,YEAR_REGEX_1,TIME,time_reference,He worked for NBC as a staffman for Dick Cavett (1971) and ABC with Bobby Rosengarden in (1952).,1,1,,11185023
+1952,CD,YEAR_REGEX_1,TIME,time_reference,He worked for NBC as a staffman for Dick Cavett (1971) and ABC with Bobby Rosengarden in (1952).,1,1,,11185023
+"January 9 , 1926","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Pizzarelli was born on January 9, 1926, in Paterson, New Jersey, United States.",0,3,== Early life ==,11185023
+1944,CD,YEAR_REGEX_1,TIME,time_reference,Pizzarelli began his professional career at 17 when he joined the Vaughn Monroe dance band in 1944.,0,5,== Career ==,11185023
+1951,CD,YEAR_REGEX_1,TIME,time_reference,"In 1951, he did his first recording as a sideman outside the Monroe orchestra with Joe Mooney.",1,5,== Career ==,11185023
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"In 1952 Pizzarelli became a staff musician for NBC, playing with Skitch Henderson.",0,6,== Career ==,11185023
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"In 1964, he became a member of The Tonight Show Band on The Tonight Show Starring Johnny Carson.",1,6,== Career ==,11185023
+of The Tonight,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 1964, he became a member of The Tonight Show Band on The Tonight Show Starring Johnny Carson.",1,6,== Career ==,11185023
+The Tonight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"In 1964, he became a member of The Tonight Show Band on The Tonight Show Starring Johnny Carson.",1,6,== Career ==,11185023
+the Tonight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"During his time spent performing for the Tonight Show, he accompanied guest bands and musicians playing through a variety of musical genres, including playing with Tiny Tim (after tuning the performer's ukulele) on the day that Tiny Tim married Miss Vicki on Carson's show.",2,6,== Career ==,11185023
+the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"During his time spent performing for the Tonight Show, he accompanied guest bands and musicians playing through a variety of musical genres, including playing with Tiny Tim (after tuning the performer's ukulele) on the day that Tiny Tim married Miss Vicki on Carson's show.",2,6,== Career ==,11185023
+1956 to 1957,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1956 to 1957, Pizzarelli used the stage name ""Johnny Buck"" and performed with The Three Suns pop music trio.",3,6,== Career ==,11185023
+The Three Suns,DT NNP NNPS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 WEEK_ABBR_REGEX,MODIFIER NUMERAL TIME,time_reference,"From 1956 to 1957, Pizzarelli used the stage name ""Johnny Buck"" and performed with The Three Suns pop music trio.",3,6,== Career ==,11185023
+1986,CD,YEAR_REGEX_1,TIME,time_reference,He toured several times with Benny Goodman until Goodman's death in 1986.,4,6,== Career ==,11185023
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"During the following year, he and guitarist George Barnes formed a duo and recorded two albums, including a live performance in August 1971, at The Town Hall in New York City.",5,6,== Career ==,11185023
+August 1971,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"During the following year, he and guitarist George Barnes formed a duo and recorded two albums, including a live performance in August 1971, at The Town Hall in New York City.",5,6,== Career ==,11185023
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Beginning in the 1970s, he began recording as a leader, issuing many tributes to musicians of the 1930s.",6,6,== Career ==,11185023
+of the 1930s,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Beginning in the 1970s, he began recording as a leader, issuing many tributes to musicians of the 1930s.",6,6,== Career ==,11185023
+of a 1985,IN DT CD,PREFIX_REGEX_1 INARTICLE_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"""Jersey Jazz Guitars"" was the name of a 1985 concert held at the Rutgers University Nicholas Music Center in New Brunswick, New Jersey.",8,6,== Career ==,11185023
+Summerfare,NNP,SEASON_REGEX,TIME,time_reference,The concert was aired on New Jersey's public radio station as part of their three-part New Jersey Summerfare Series.,10,6,== Career ==,11185023
+one hour,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"The show aired for one hour in August 1985, with son John adding his vocals on two selections.",12,6,== Career ==,11185023
+August 1985,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The show aired for one hour in August 1985, with son John adding his vocals on two selections.",12,6,== Career ==,11185023
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"Pizzarelli continued to play into his 90s, making several appearances even after a stroke in 2016, officially retiring after a final brief appearance with Michael Feinstein in 2018.",13,6,== Career ==,11185023
+2018,CD,YEAR_REGEX_1,TIME,time_reference,"Pizzarelli continued to play into his 90s, making several appearances even after a stroke in 2016, officially retiring after a final brief appearance with Michael Feinstein in 2018.",13,6,== Career ==,11185023
+"April 1 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died of COVID-19 on April 1, 2020, in Saddle River, New Jersey.",14,6,== Career ==,11185023
+recent years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,He had been battling several serious health problems in recent years.,15,6,== Career ==,11185023
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"The Duke Ellington Songbook, Vol. 1 (Pablo, 1980)",0,11,== Collaborations ==,11185023
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"The Duke Ellington Songbook, Vol. 2 (Pablo, 1980)With Robert Palmer",0,12,== Collaborations ==,11185023
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Ridin' High (EMI, 1992)With Carly Simon",0,13,== Collaborations ==,11185023
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Hotcakes (Elektra Records, 1974)With Michael Franks",0,14,== Collaborations ==,11185023
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Tiger in the Rain (Warner Bros. Records, 1979)With Aretha Franklin",0,15,== Collaborations ==,11185023
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"The Electrifying Aretha Franklin (Columbia Records, 1962)",0,16,== Collaborations ==,11185023
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"The Tender, the Moving, the Swinging Aretha Franklin (Columbia Records, 1962)With Janis Ian",0,17,== Collaborations ==,11185023
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Aftertones (Columbia Records, 1975)With Dion DiMucci",0,18,== Collaborations ==,11185023
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Runaround Sue (Laurie Records, 1961)With Paul McCartney",0,19,== Collaborations ==,11185023
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Kisses on the Bottom (Hear Music, 2012)With",0,20,== Collaborations ==,11185023
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"True Stories and Other Dreams (Elektra Records, 1973)With Rosemary Clooney",0,21,== Collaborations ==,11185023
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"(Concord Records, 1993)With Solomon Burke",1,22,== Collaborations ==,11185023
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Solomon Burke (Apollo Records, 1962)With Anita Baker",0,23,== Collaborations ==,11185023
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Rhythm of Love (Elektra Records, 1994)With Neil Sedaka",0,24,== Collaborations ==,11185023
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"A Song (Elektra Records, 1977)With Roberta Flack",0,25,== Collaborations ==,11185023
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"First Take (Atlantic Records, 1969)With Tony Mottola",0,26,== Collaborations ==,11185023
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Lush, Latin & Lovely (Project 3, 1967)",0,27,== Collaborations ==,11185023
+1954,CD,YEAR_REGEX_1,TIME,time_reference,Pizzarelli married Ruth (née Litchult) in 1954.,0,29,== Personal life and death ==,11185023
+"April 1 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died on April 1, 2020, from complications of COVID-19.",4,29,== Personal life and death ==,11185023
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Lifetime Achievement Award, MAC Awards, 2002",0,31,== Awards and honors ==,11185023
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Jazz Wall of Fame, ASCAP, 2005",0,32,== Awards and honors ==,11185023
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"New Jersey Hall of Fame, 2011",0,33,== Awards and honors ==,11185023

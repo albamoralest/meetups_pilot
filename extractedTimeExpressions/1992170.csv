@@ -1,0 +1,50 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"May 29 , 1857 – January 29 , 1922","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Edwin Eugene Bagley (May 29, 1857 – January 29, 1922) was an American composer, most famous for composing the march National Emblem.",0,0,,1992170
+"May 29 , 1857","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bagley was born in Craftsbury, Vermont on May 29, 1857.",0,1,,1992170
+six years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He began playing the cornet, traveling for six years with the Swiss Bellringers.",2,1,,1992170
+days,NNS,TIME_UNIT_REGEX,TIME,time_reference,"After his touring days, he joined Blaisdell's Orchestra of Concord, New Hampshire.",3,1,,1992170
+1880,CD,YEAR_REGEX_1,TIME,time_reference,"In 1880, he came to Boston as a solo cornet player at The Park Theater.",0,2,,1992170
+nine years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"For nine years, he traveled with the Bostonians, an opera company.",1,2,,1992170
+the early 1900s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,In the early 1900s he played with Wheeler's Band,4,2,,1992170
+Falls,NNP,SEASON_REGEX,TIME,time_reference,"in Bellows Falls, Vermont.",0,3,,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,"Wheeler's Band was the first band to publicly perform Bagley's ""National Emblem March"" in 1906.",1,3,,1992170
+1906,CD,YEAR_REGEX_1,TIME,time_reference,"Wheeler's Band was the first band to publicly perform Bagley's ""National Emblem March"" in 1906.",1,3,,1992170
+march,NN,MONTH_REGEX,TIME,time_reference,Edwin Eugene Bagley is best known for composing marches and in particular for the famous march National Emblem.,0,4,,1992170
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,This piece is played as a patriotic tune on Independence Day celebrations in the United States and features an excerpt of The Star-Spangled Banner.,1,4,,1992170
+this march,DT NN,PREFIX_REGEX_1 MONTH_REGEX,MODIFIER TIME,time_reference,"A theme from this march is popularly sung with the words ""and the monkey wrapped his tail around the flagpole"".",3,4,,1992170
+"January 29 , 1922","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bagley died in Keene, New Hampshire on January 29, 1922.",0,5,,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,L'Agresseur (The Aggressor) March  (1915),0,7,== Bagley's Marches ==,1992170
+1915,CD,YEAR_REGEX_1,TIME,time_reference,L'Agresseur (The Aggressor) March  (1915),0,7,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Arbitrator March (1908),0,10,== Bagley's Marches ==,1992170
+1908,CD,YEAR_REGEX_1,TIME,time_reference,Arbitrator March (1908),0,10,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Bagley's Imperial March (1901),0,11,== Bagley's Marches ==,1992170
+1901,CD,YEAR_REGEX_1,TIME,time_reference,Bagley's Imperial March (1901),0,11,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Col. Estey March (1908),0,12,== Bagley's Marches ==,1992170
+1908,CD,YEAR_REGEX_1,TIME,time_reference,Col. Estey March (1908),0,12,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Counselor March (1917),0,13,== Bagley's Marches ==,1992170
+1917,CD,YEAR_REGEX_1,TIME,time_reference,Counselor March (1917),0,13,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Father of His Country March (1931),0,14,== Bagley's Marches ==,1992170
+1931,CD,YEAR_REGEX_1,TIME,time_reference,Father of His Country March (1931),0,14,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Federation March,0,15,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Front Section March (1909),0,16,== Bagley's Marches ==,1992170
+1909,CD,YEAR_REGEX_1,TIME,time_reference,Front Section March (1909),0,16,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Holy Cross Commandery March (1902),0,17,== Bagley's Marches ==,1992170
+1902,CD,YEAR_REGEX_1,TIME,time_reference,Holy Cross Commandery March (1902),0,17,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Knight Templar March (1911),0,18,== Bagley's Marches ==,1992170
+1911,CD,YEAR_REGEX_1,TIME,time_reference,Knight Templar March (1911),0,18,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,March Imperial,0,19,== Bagley's Marches ==,1992170
+The Morning,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,The Morning Light March (1900),0,20,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,The Morning Light March (1900),0,20,== Bagley's Marches ==,1992170
+1900,CD,YEAR_REGEX_1,TIME,time_reference,The Morning Light March (1900),0,20,== Bagley's Marches ==,1992170
+1906,CD,YEAR_REGEX_1,TIME,time_reference,National Emblem (1906),0,21,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Our Republic March (1908),0,22,== Bagley's Marches ==,1992170
+1908,CD,YEAR_REGEX_1,TIME,time_reference,Our Republic March (1908),0,22,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Patriot March (1902),0,23,== Bagley's Marches ==,1992170
+1902,CD,YEAR_REGEX_1,TIME,time_reference,Patriot March (1902),0,23,== Bagley's Marches ==,1992170
+1902,CD,YEAR_REGEX_1,TIME,time_reference,Post 68 G.A.R. (1902),0,24,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Regent March,0,25,== Bagley's Marches ==,1992170
+March,NNP,MONTH_REGEX,TIME,time_reference,Royal March (1902)Edwin was married to Jannette S. Hoyt (1855–1927).,0,26,== Bagley's Marches ==,1992170
+1902,CD,YEAR_REGEX_1,TIME,time_reference,Royal March (1902)Edwin was married to Jannette S. Hoyt (1855–1927).,0,26,== Bagley's Marches ==,1992170
+1855–1927,CD,YEAR_REGEX_1,TIME,time_reference,Royal March (1902)Edwin was married to Jannette S. Hoyt (1855–1927).,0,26,== Bagley's Marches ==,1992170
+"January 3 , 1853 – July 8 , 1886","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"His brother Ezra M. Bagley (January 3, 1853 – July 8, 1886) was first trumpet in the Boston Symphony Orchestra 1880-1884 and also composed marches for bands.",1,26,== Bagley's Marches ==,1992170
+1880-1884,JJ,YEAR_REGEX_1,TIME,time_reference,"His brother Ezra M. Bagley (January 3, 1853 – July 8, 1886) was first trumpet in the Boston Symphony Orchestra 1880-1884 and also composed marches for bands.",1,26,== Bagley's Marches ==,1992170

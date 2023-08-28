@@ -1,0 +1,100 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"June 5 , 1925","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"William Foster Hayes III (born June 5, 1925) is an American actor and recording artist.",0,0,,654786
+the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,His song “The Ballad of Davy Crockett“ hit the top of the Billboard charts in the spring of 1955.,1,0,,654786
+of 1955,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,His song “The Ballad of Davy Crockett“ hit the top of the Billboard charts in the spring of 1955.,1,0,,654786
+the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Following a successful career as a musician which began in the late 1940s, he began to focus on dramatic acting parts in the late 1960s, which led him to be cast in a role that gained him additional fame to a younger generation.",0,1,,654786
+the late 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Following a successful career as a musician which began in the late 1940s, he began to focus on dramatic acting parts in the late 1960s, which led him to be cast in a role that gained him additional fame to a younger generation.",0,1,,654786
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"This new chapter in his career began in 1970 when he originated the character of Doug Williams on NBC's Days of Our Lives, which he continues to play regularly to date on the serial.",1,1,,654786
+Days,NNP,TIME_UNIT_REGEX,TIME,time_reference,"This new chapter in his career began in 1970 when he originated the character of Doug Williams on NBC's Days of Our Lives, which he continues to play regularly to date on the serial.",1,1,,654786
+"June 5 , 1925","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bill was born William Foster Hayes III in Harvey, Illinois on June 5, 1925.",0,3,== Early life and career ==,654786
+March 1943,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In March 1943, while a freshman at DePauw University, he enlisted in the Navy Air Corps, and received his welcome letter on his eighteenth birthday ordering him to report for active duty on July 1st.",2,3,== Early life and career ==,654786
+July 1st,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"In March 1943, while a freshman at DePauw University, he enlisted in the Navy Air Corps, and received his welcome letter on his eighteenth birthday ordering him to report for active duty on July 1st.",2,3,== Early life and career ==,654786
+the next 27 months,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"For the next 27 months, he trained to be a fighter pilot.",3,3,== Early life and career ==,654786
+two weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He was two weeks shy of receiving his commission as a 2nd Lieutenant in the Marine Air Corps, scheduled to fly an F8F off a carrier, when World War II ended.",4,3,== Early life and career ==,654786
+five weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"After five weeks of hitch-hiking around the Mid-West to celebrate with buddies who were also coming home, he returned to complete his Bachelor of Arts requirements at DePauw, getting a degree in June, 1947, majoring in Music and English.",7,3,== Early life and career ==,654786
+"June , 1947","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"After five weeks of hitch-hiking around the Mid-West to celebrate with buddies who were also coming home, he returned to complete his Bachelor of Arts requirements at DePauw, getting a degree in June, 1947, majoring in Music and English.",7,3,== Early life and career ==,654786
+the early 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,Hayes was a singer on the Sid Caesar and Imogene Coca variety show Your Show of Shows in the early 1950s.,8,3,== Early life and career ==,654786
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"During the Davy Crockett craze in 1955, three recorded versions of the Ballad of Davy Crockett were in the top 30.",9,3,== Early life and career ==,654786
+five weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Hayes' version was the most popular: It was #1 on the Billboard Hot 100 for five weeks, sold over two million copies, and was awarded a gold disc.",10,3,== Early life and career ==,654786
+1953,CD,YEAR_REGEX_1,TIME,time_reference,He also starred on Broadway in Rodgers and Hammerstein's Me and Juliet (1953).,11,3,== Early life and career ==,654786
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He had other small hits in the 1950s including ""The Berry Tree"" and covers of ""High Noon"" and ""Wringle, Wrangle""; the latter was his only other Hot 100 hit, reaching #33 in 1957.",12,3,== Early life and career ==,654786
+Noon,NN,DAY_TIME_REGEX,TIME,time_reference,"He had other small hits in the 1950s including ""The Berry Tree"" and covers of ""High Noon"" and ""Wringle, Wrangle""; the latter was his only other Hot 100 hit, reaching #33 in 1957.",12,3,== Early life and career ==,654786
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"He had other small hits in the 1950s including ""The Berry Tree"" and covers of ""High Noon"" and ""Wringle, Wrangle""; the latter was his only other Hot 100 hit, reaching #33 in 1957.",12,3,== Early life and career ==,654786
+Days,NNS,TIME_UNIT_REGEX,TIME,time_reference,"On Days of Our Lives, Hayes was introduced as a convict who was also a lounge singer.",13,3,== Early life and career ==,654786
+1986 and 1987,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,The character of Doug returned in 1986 and 1987 as well as 1993 and 1996.,14,3,== Early life and career ==,654786
+1993 and 1996,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,The character of Doug returned in 1986 and 1987 as well as 1993 and 1996.,14,3,== Early life and career ==,654786
+recently,RB,TIMELINE_REGEX,TIME,time_reference,"Most recently, he has been on the show since 1999.",15,3,== Early life and career ==,654786
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Most recently, he has been on the show since 1999.",15,3,== Early life and career ==,654786
+the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,His character was killed off in the spring of 2004 by Dr. Marlena Evans.,16,3,== Early life and career ==,654786
+of 2004,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,His character was killed off in the spring of 2004 by Dr. Marlena Evans.,16,3,== Early life and career ==,654786
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"In 2017, World by the Tail, a documentary about Bill Hayes's life, was released and made available for his fans to watch online.",18,3,== Early life and career ==,654786
+"June 27 , 2017","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On June 27, 2017, while present in the show's audience, Hayes was featured in an impromptu interview on a web special for The Tonight Show Starring Jimmy Fallon; in his heyday, he had been a guest on the Johnny Carson-hosted version of the show.",19,3,== Early life and career ==,654786
+The Tonight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"On June 27, 2017, while present in the show's audience, Hayes was featured in an impromptu interview on a web special for The Tonight Show Starring Jimmy Fallon; in his heyday, he had been a guest on the Johnny Carson-hosted version of the show.",19,3,== Early life and career ==,654786
+Fallon,NNP,SEASON_REGEX,TIME,time_reference,"On June 27, 2017, while present in the show's audience, Hayes was featured in an impromptu interview on a web special for The Tonight Show Starring Jimmy Fallon; in his heyday, he had been a guest on the Johnny Carson-hosted version of the show.",19,3,== Early life and career ==,654786
+previously,RB,TIMELINE_REGEX,TIME,time_reference,Hayes was previously married to Mary Hobbs from 1947 to 1969; they had five children.,2,5,== Personal life ==,654786
+1947 to 1969,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Hayes was previously married to Mary Hobbs from 1947 to 1969; they had five children.,2,5,== Personal life ==,654786
+Days,NNS,TIME_UNIT_REGEX,TIME,time_reference,He has been married to Days of our Lives co-star Susan Seaforth Hayes since 1974.,3,5,== Personal life ==,654786
+1974,CD,YEAR_REGEX_1,TIME,time_reference,He has been married to Days of our Lives co-star Susan Seaforth Hayes since 1974.,3,5,== Personal life ==,654786
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Their relationship was so popular that they were featured on the cover of Time in 1976, the only soap opera stars to hold that distinction to date.",4,5,== Personal life ==,654786
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005, the couple published their joint autobiography, Like Sands Through the Hourglass.",5,5,== Personal life ==,654786
+the Hourglass,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 2005, the couple published their joint autobiography, Like Sands Through the Hourglass.",5,5,== Personal life ==,654786
+Days,NNS,TIME_UNIT_REGEX,TIME,time_reference,Days of our Lives (Doug Williams: 1970 -1984; 1986–1987; 1993; 1994; 1996; 1999–present (recurring),0,7,== Roles ==,654786
+1970,CD,YEAR_REGEX_1,TIME,time_reference,Days of our Lives (Doug Williams: 1970 -1984; 1986–1987; 1993; 1994; 1996; 1999–present (recurring),0,7,== Roles ==,654786
+1986–1987,CD,YEAR_REGEX_1,TIME,time_reference,Days of our Lives (Doug Williams: 1970 -1984; 1986–1987; 1993; 1994; 1996; 1999–present (recurring),0,7,== Roles ==,654786
+1993,CD,YEAR_REGEX_1,TIME,time_reference,Days of our Lives (Doug Williams: 1970 -1984; 1986–1987; 1993; 1994; 1996; 1999–present (recurring),0,7,== Roles ==,654786
+1994,CD,YEAR_REGEX_1,TIME,time_reference,Days of our Lives (Doug Williams: 1970 -1984; 1986–1987; 1993; 1994; 1996; 1999–present (recurring),0,7,== Roles ==,654786
+1996,CD,YEAR_REGEX_1,TIME,time_reference,Days of our Lives (Doug Williams: 1970 -1984; 1986–1987; 1993; 1994; 1996; 1999–present (recurring),0,7,== Roles ==,654786
+1999–present,CD,YEAR_REGEX_1,TIME,time_reference,Days of our Lives (Doug Williams: 1970 -1984; 1986–1987; 1993; 1994; 1996; 1999–present (recurring),0,7,== Roles ==,654786
+2013,CD,YEAR_REGEX_1,TIME,time_reference,Miracle at Gate 213 (TV Film) – Louis Darling (2013),0,8,== Roles ==,654786
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Frasier (TV Series) (Frasier Has Spokane) – Sully (2002),0,9,== Roles ==,654786
+1988,CD,YEAR_REGEX_1,TIME,time_reference,Matlock (TV Series) (The Reunion) – George Dutton (1988),0,10,== Roles ==,654786
+1979,CD,YEAR_REGEX_1,TIME,time_reference,Password Plus – Himself (1979),0,11,== Roles ==,654786
+1972,CD,YEAR_REGEX_1,TIME,time_reference,Cade's County (TV Series) (1972),0,12,== Roles ==,654786
+1970,CD,YEAR_REGEX_1,TIME,time_reference,The Interns (TV Series) (The Price of Life) – Vern Anderson (1970),0,13,== Roles ==,654786
+The Wednesday,DT NNP,PREFIX_REGEX_1 WEEK_REGEX,MODIFIER TIME,time_reference,The Wednesday Play – In Two Minds (1967),0,14,== Roles ==,654786
+1967,CD,YEAR_REGEX_1,TIME,time_reference,The Wednesday Play – In Two Minds (1967),0,14,== Roles ==,654786
+1964,CD,YEAR_REGEX_1,TIME,time_reference,Once Upon a Mattress (TV Special) – Minstrel (1964),0,15,== Roles ==,654786
+1964,CD,YEAR_REGEX_1,TIME,time_reference,The Cardinal (Film) – Frank (1964),0,16,== Roles ==,654786
+1961,CD,YEAR_REGEX_1,TIME,time_reference,True Story (TV Series) – Larry Foster (1961),0,17,== Roles ==,654786
+1961,CD,YEAR_REGEX_1,TIME,time_reference,Here's Hollywood (TV Variety Series) – Himself-multiple appearances (1961),0,18,== Roles ==,654786
+of the Week-Music,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Show of the Week-Music of the Thirties – Himself (1961),0,19,== Roles ==,654786
+of the Thirties,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 DECADE_REGEX,MODIFIER MODIFIER TIME,time_reference,Show of the Week-Music of the Thirties – Himself (1961),0,19,== Roles ==,654786
+1961,CD,YEAR_REGEX_1,TIME,time_reference,Show of the Week-Music of the Thirties – Himself (1961),0,19,== Roles ==,654786
+a Christmas Night,DT NNP NNP,INARTICLE_REGEX HOLIDAY_REGEX DAY_TIME_REGEX,MODIFIER TIME TIME,time_reference,Music for a Christmas Night – The Gift of Song (TV Music Special) – Himself (1960),0,20,== Roles ==,654786
+1960,CD,YEAR_REGEX_1,TIME,time_reference,Music for a Christmas Night – The Gift of Song (TV Music Special) – Himself (1960),0,20,== Roles ==,654786
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,Bell Telephone Hour (TV Variety Series) – Himself (1960),0,21,== Roles ==,654786
+1960,CD,YEAR_REGEX_1,TIME,time_reference,Bell Telephone Hour (TV Variety Series) – Himself (1960),0,21,== Roles ==,654786
+1959,CD,YEAR_REGEX_1,TIME,time_reference,Voice of Firestone (TV Variety Series) – Himself (1959),0,22,== Roles ==,654786
+1959,CD,YEAR_REGEX_1,TIME,time_reference,Oldsmobile Music Theater (TV Drama Series) – Host (1959),0,23,== Roles ==,654786
+1958,CD,YEAR_REGEX_1,TIME,time_reference,Kiss Me Kate (TV Special) – Bill Calhoun/Lucentio (1958),0,24,== Roles ==,654786
+1958,CD,YEAR_REGEX_1,TIME,time_reference,Little Women (TV Special-Musical) – John Brooke (1958),0,25,== Roles ==,654786
+1957,CD,YEAR_REGEX_1,TIME,time_reference,Yeoman of the Guard (Hallmark Hall of Fame TV Special) – Colonel Fairfax (1957),0,26,== Roles ==,654786
+1957,CD,YEAR_REGEX_1,TIME,time_reference,The Big Record (TV Variety Series) – Himself-multiple appearances (1957),0,27,== Roles ==,654786
+1957,CD,YEAR_REGEX_1,TIME,time_reference,Club 60 (TV Variety Series) – Himself (1957),0,28,== Roles ==,654786
+Presents,NNP,TIMELINE_REGEX,TIME,time_reference,Max Liebman Presents (TV Variety Series) – Himself (1956),0,29,== Roles ==,654786
+1956,CD,YEAR_REGEX_1,TIME,time_reference,Max Liebman Presents (TV Variety Series) – Himself (1956),0,29,== Roles ==,654786
+1956,CD,YEAR_REGEX_1,TIME,time_reference,The Ernie Kovacs Show (TV Variety Series) – Himself (1956),0,30,== Roles ==,654786
+1956,CD,YEAR_REGEX_1,TIME,time_reference,Rocket Revue (TV Variety Series) – Himself (1956),0,31,== Roles ==,654786
+1955,CD,YEAR_REGEX_1,TIME,time_reference,Variety (TV Special) (1955),0,32,== Roles ==,654786
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,Percy Faith Hour (TV Variety Series) (1955),0,33,== Roles ==,654786
+1955,CD,YEAR_REGEX_1,TIME,time_reference,Percy Faith Hour (TV Variety Series) (1955),0,33,== Roles ==,654786
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,The Woolworth Hour (TV Variety Series) (1955),0,34,== Roles ==,654786
+1955,CD,YEAR_REGEX_1,TIME,time_reference,The Woolworth Hour (TV Variety Series) (1955),0,34,== Roles ==,654786
+1954,CD,YEAR_REGEX_1,TIME,time_reference,General Foods 25th Anniversary Show: A Salute to Rodgers and Hammerstein (1954),0,35,== Roles ==,654786
+1953,CD,YEAR_REGEX_1,TIME,time_reference,Ed Sullivan's Toast of the Town (TV Variety Series) (1953),0,36,== Roles ==,654786
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"Stop, You're Killing Me (Film) – Chance Whitelaw (1952)",0,37,== Roles ==,654786
+Daytime,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Daytime Emmy Award: Outstanding Actor, Daytime Drama Series (nomination) (1975 and 1976)",0,39,== Awards and nominations ==,654786
+Daytime,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Daytime Emmy Award: Outstanding Actor, Daytime Drama Series (nomination) (1975 and 1976)",0,39,== Awards and nominations ==,654786
+1975 and 1976,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Daytime Emmy Award: Outstanding Actor, Daytime Drama Series (nomination) (1975 and 1976)",0,39,== Awards and nominations ==,654786
+of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Soapy Awards:  Actor of the Year (1977),0,40,== Awards and nominations ==,654786
+1977,CD,YEAR_REGEX_1,TIME,time_reference,Soapy Awards:  Actor of the Year (1977),0,40,== Awards and nominations ==,654786
+Daytime,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Daytime TV Magazine Reader's Poll:  Best Actor (1973, 1976, 1977, and 1978)",0,41,== Awards and nominations ==,654786
+"1973 , 1976 , 1977","CD , CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME MODIFIER TIME,time_range,"Daytime TV Magazine Reader's Poll:  Best Actor (1973, 1976, 1977, and 1978)",0,41,== Awards and nominations ==,654786
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Daytime TV Magazine Reader's Poll:  Best Actor (1973, 1976, 1977, and 1978)",0,41,== Awards and nominations ==,654786
+Afternoon,NNP,DAY_TIME_REGEX,TIME,time_reference,Afternoon TV Magazine:  Best Actor (1974),0,42,== Awards and nominations ==,654786
+1974,CD,YEAR_REGEX_1,TIME,time_reference,Afternoon TV Magazine:  Best Actor (1974),0,42,== Awards and nominations ==,654786
+Daytime,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Photoplay Magazine Gold Medal Award:  Favorite Daytime Male Star (1977 and 1978)In 2016, the Bill Hayes Prize in Musical Theater was created by the National Association of Teachers of Singing.",0,43,== Awards and nominations ==,654786
+1977 and 1978,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Photoplay Magazine Gold Medal Award:  Favorite Daytime Male Star (1977 and 1978)In 2016, the Bill Hayes Prize in Musical Theater was created by the National Association of Teachers of Singing.",0,43,== Awards and nominations ==,654786
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"Photoplay Magazine Gold Medal Award:  Favorite Daytime Male Star (1977 and 1978)In 2016, the Bill Hayes Prize in Musical Theater was created by the National Association of Teachers of Singing.",0,43,== Awards and nominations ==,654786
+"April 29 , 2018","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On April 29, 2018, the National Academy of Television Arts & Sciences presented Bill Hayes and Susan Seaforth Hayes with Lifetime Achievement Awards at the 45th Annual Daytime Emmy Awards.",0,44,== Awards and nominations ==,654786
+Daytime,NNP,TIME_UNIT_REGEX,TIME,time_reference,"On April 29, 2018, the National Academy of Television Arts & Sciences presented Bill Hayes and Susan Seaforth Hayes with Lifetime Achievement Awards at the 45th Annual Daytime Emmy Awards.",0,44,== Awards and nominations ==,654786

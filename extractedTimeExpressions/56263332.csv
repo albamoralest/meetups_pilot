@@ -1,0 +1,10 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 10 , 1941 – January 1 , 2018","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Betty Jane Willis (March 10, 1941 – January 1, 2018) was an American soul singer in the 1960s.",0,0,,56263332
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Betty Jane Willis (March 10, 1941 – January 1, 2018) was an American soul singer in the 1960s.",0,0,,56263332
+the early 1960s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the early 1960s, she moved to Santa Ana and sang in Los Angeles-area nightclubs.",1,2,== Biography ==,56263332
+nightclubs,NN,DAY_TIME_REGEX,TIME,time_reference,"In the early 1960s, she moved to Santa Ana and sang in Los Angeles-area nightclubs.",1,2,== Biography ==,56263332
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"However, her voice and association with the studio drew notice from producers Phil Spector and Leon Russell, who retooled the country song ""Act Naturally"" into a rhythm and blues version for Willis in 1965.",4,2,== Biography ==,56263332
+1968,CD,YEAR_REGEX_1,TIME,time_reference,Her last known recording was in 1968.,6,2,== Biography ==,56263332
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,She briefly worked in a factory before becoming a postal worker in the 1980s and retired after 37 years.,9,2,== Biography ==,56263332
+37 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,She briefly worked in a factory before becoming a postal worker in the 1980s and retired after 37 years.,9,2,== Biography ==,56263332
+"January 1 , 2018","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Early on January 1, 2018, Willis was assaulted by a homeless man who attempted to rape her.",0,6,== Death ==,56263332

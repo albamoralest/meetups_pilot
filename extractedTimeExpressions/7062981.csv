@@ -1,0 +1,64 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"July 19 , 1902 – April 12 , 1967","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"William C. ""Buster"" Bailey (July 19, 1902 – April 12, 1967) was an American jazz clarinetist.",0,0,,7062981
+1917,CD,YEAR_REGEX_1,TIME,time_reference,"Bailey gained his start with W.C. Handy's Orchestra in 1917, when he was just fifteen years old.",1,3,== Career history == | === Early career ===,7062981
+fifteen years old,JJ NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,time_reference,"Bailey gained his start with W.C. Handy's Orchestra in 1917, when he was just fifteen years old.",1,3,== Career history == | === Early career ===,7062981
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"After two years of touring with Handy, Bailey quit the orchestra while the band was in Chicago.",2,3,== Career history == | === Early career ===,7062981
+1919,CD,YEAR_REGEX_1,TIME,time_reference,"In 1919, Bailey joined Erskine Tate's Vendome Orchestra and remained with Tate until 1923 when he joined up with Joe ""King"" Oliver.",3,3,== Career history == | === Early career ===,7062981
+1923,CD,YEAR_REGEX_1,TIME,time_reference,"In 1919, Bailey joined Erskine Tate's Vendome Orchestra and remained with Tate until 1923 when he joined up with Joe ""King"" Oliver.",3,3,== Career history == | === Early career ===,7062981
+1924,CD,YEAR_REGEX_1,TIME,time_reference,"In 1924, Armstrong left King Oliver's Jazz Band to join Fletcher Henderson's Orchestra in New York.",5,3,== Career history == | === Early career ===,7062981
+a month,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Within a month, Armstrong extended an invitation for Buster Bailey to join him as a member of Henderson's band.",6,3,== Career history == | === Early career ===,7062981
+the late 1920s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In New York during the late 1920s, Buster Bailey became a highly respected sideman with Perry Bradford and others, and appeared on numerous recordings playing both the clarinet and the soprano saxophone.",0,5,== Career history == | === Mid-career ===,7062981
+1927,CD,YEAR_REGEX_1,TIME,time_reference,"In 1927, he left Fletcher Henderson and undertook a tour of Europe with Noble Sissle's Orchestra.",2,5,== Career history == | === Mid-career ===,7062981
+1931,CD,YEAR_REGEX_1,TIME,time_reference,He rejoined Sissle's orchestra in 1931 and continued with the group through 1933.,4,5,== Career history == | === Mid-career ===,7062981
+1933,CD,YEAR_REGEX_1,TIME,time_reference,He rejoined Sissle's orchestra in 1931 and continued with the group through 1933.,4,5,== Career history == | === Mid-career ===,7062981
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"In 1934, Bailey briefly returned to Fletcher Henderson, but by the end of the year he had settled down as a member of the John Kirby Band.",5,5,== Career history == | === Mid-career ===,7062981
+the end of the year,DT NN IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"In 1934, Bailey briefly returned to Fletcher Henderson, but by the end of the year he had settled down as a member of the John Kirby Band.",5,5,== Career history == | === Mid-career ===,7062981
+1946,CD,YEAR_REGEX_1,TIME,time_reference,"Bailey remained a member of Kirby's band until 1946, but that did not stop him from performing with other artists.",6,5,== Career history == | === Mid-career ===,7062981
+1934 and 1935,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 1934 and 1935, Bailey was playing with the Mills Blue Rhythm Band and, in 1937, he was a session player for Midge Williams and Her Jazz Jesters.",7,5,== Career history == | === Mid-career ===,7062981
+1937,CD,YEAR_REGEX_1,TIME,time_reference,"In 1934 and 1935, Bailey was playing with the Mills Blue Rhythm Band and, in 1937, he was a session player for Midge Williams and Her Jazz Jesters.",7,5,== Career history == | === Mid-career ===,7062981
+1946,CD,YEAR_REGEX_1,TIME,time_reference,"In 1946, Buster Bailey led his own band, but his group lasted for only the year.",0,7,== Career history == | === Later career ===,7062981
+the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 1946, Buster Bailey led his own band, but his group lasted for only the year.",0,7,== Career history == | === Later career ===,7062981
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"In 1947, he joined Wilbur de Paris and performed with him until 1949.",1,7,== Career history == | === Later career ===,7062981
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"In 1947, he joined Wilbur de Paris and performed with him until 1949.",1,7,== Career history == | === Later career ===,7062981
+the early 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"During the early 1950s, Bailey was with Big Chief Russell Moore, but for most of the decade Bailey played with Henry ""Red"" Allen.",2,7,== Career history == | === Later career ===,7062981
+of the decade,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"During the early 1950s, Bailey was with Big Chief Russell Moore, but for most of the decade Bailey played with Henry ""Red"" Allen.",2,7,== Career history == | === Later career ===,7062981
+1961 to 1963,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1961 to 1963, he performed with Wild Bill Davison.",3,7,== Career history == | === Later career ===,7062981
+1963 to 1964,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Bailey was with the Saints And Sinners from 1963 to 1964, and in 1965 he rejoined Armstrong and became a member of Louis Armstrong and His All-Stars.",4,7,== Career history == | === Later career ===,7062981
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Bailey was with the Saints And Sinners from 1963 to 1964, and in 1965 he rejoined Armstrong and became a member of Louis Armstrong and His All-Stars.",4,7,== Career history == | === Later career ===,7062981
+April 1967,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Buster Bailey died in April 1967 of a heart attack.,5,7,== Career history == | === Later career ===,7062981
+1933,CD,YEAR_REGEX_1,TIME,time_reference,The first was in a film entitled That's the Spirit (1933) in which he played himself as a band member.,1,9,== Screen appearances ==,7062981
+1947,CD,YEAR_REGEX_1,TIME,time_reference,The second was as an uncredited clarinetist in Sepia Cinderella (1947) as part of the John Kirby Sextet.,2,9,== Screen appearances ==,7062981
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"His final film appearance was with Louis Armstrong in When the Boys Meet the Girls (1965), again as a musician.",3,9,== Screen appearances ==,7062981
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"He also appeared in 1958 in the DuMont TV series Jazz Party and in 1961 on the TV program The DuPont Show of the Week in an episode entitled ""America's Music - Chicago and All That Jazz"".",0,10,== Screen appearances ==,7062981
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"He also appeared in 1958 in the DuMont TV series Jazz Party and in 1961 on the TV program The DuPont Show of the Week in an episode entitled ""America's Music - Chicago and All That Jazz"".",0,10,== Screen appearances ==,7062981
+of the Week,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He also appeared in 1958 in the DuMont TV series Jazz Party and in 1961 on the TV program The DuPont Show of the Week in an episode entitled ""America's Music - Chicago and All That Jazz"".",0,10,== Screen appearances ==,7062981
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"All About Memphis (Felsted, 1958)",0,13,== Discography == | === As leader ===,7062981
+1925–1940,CD,YEAR_REGEX_1,TIME,time_reference,1925–1940 (Classics),0,14,== Discography == | === As leader ===,7062981
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Red Allen, Red Allen, Kid Ory & Jack Teagarden at Newport (Verve, 1957)",0,16,== Discography == | === As sideman ===,7062981
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Red Allen, Ride, Red, Ride in Hi-Fi (RCA Victor, 1957)",0,17,== Discography == | === As sideman ===,7062981
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Red Allen, Red Allen Plays King Oliver (Verve, 1961)",0,18,== Discography == | === As sideman ===,7062981
+1929–1946,CD,YEAR_REGEX_1,TIME,time_reference,"Mildred Bailey, Her Greatest Performances 1929–1946 (Columbia, 1962)",0,19,== Discography == | === As sideman ===,7062981
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Mildred Bailey, Her Greatest Performances 1929–1946 (Columbia, 1962)",0,19,== Discography == | === As sideman ===,7062981
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Eubie Blake, The Marches I Played On the Old Ragtime Piano (20th Fox, 1960)",0,20,== Discography == | === As sideman ===,7062981
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Wild Bill Davison, Swingin (Dixie Bear, 1962)",0,21,== Discography == | === As sideman ===,7062981
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Vic Dickenson & Joe Thomas, Mainstream (Atlantic, 1958)",0,22,== Discography == | === As sideman ===,7062981
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Bobby Donaldson, Dixieland New York (World Wide, 1958)",0,23,== Discography == | === As sideman ===,7062981
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Bobby Donaldson, Dixieland Jazz Party (Savoy, 1959)",0,24,== Discography == | === As sideman ===,7062981
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Leonard Gaskin, At the Jazz Band Ball (Prestige Swingville, 1962)",0,25,== Discography == | === As sideman ===,7062981
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"In Hi-Fi: The Legend of Bessie Smith (RCA Victor,, 1958)",1,26,== Discography == | === As sideman ===,7062981
+Presents,NNP,TIMELINE_REGEX,TIME,time_reference,"Jackie Gleason, Jackie Gleason Presents Lazy Lively Love (Capitol, 1960)",0,27,== Discography == | === As sideman ===,7062981
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Jackie Gleason, Jackie Gleason Presents Lazy Lively Love (Capitol, 1960)",0,27,== Discography == | === As sideman ===,7062981
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Juanita Hall, The Original Bloody Mary Sings the Blues (Counterpoint, 1958)",0,28,== Discography == | === As sideman ===,7062981
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Fletcher Henderson, The Big Reunion (Jazztone, 1958)",0,29,== Discography == | === As sideman ===,7062981
+1931–1934,CD,YEAR_REGEX_1,TIME,time_reference,"Fletcher Henderson, Swing's the Thing 1931–1934 (Decca, 1961)",0,30,== Discography == | === As sideman ===,7062981
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Fletcher Henderson, Swing's the Thing 1931–1934 (Decca, 1961)",0,30,== Discography == | === As sideman ===,7062981
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Claude Hopkins, Music of the Early Jazz Dances (20th Fox, 1958)",0,31,== Discography == | === As sideman ===,7062981
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Alberta Hunter & Lucille Hegamin & Victoria Spivey, Songs We Taught Your Mother (Prestige Bluesville, 1962)",0,32,== Discography == | === As sideman ===,7062981
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Henry Jerome, Strings in Dixieland (Decca, 1962)",0,33,== Discography == | === As sideman ===,7062981
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Odetta, Sometimes I Feel Like Cryin (RCA Victor, 1962)",0,34,== Discography == | === As sideman ===,7062981
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy Rushing, Bessie Clara Mamie & Trixie (Columbia, 1961)",0,35,== Discography == | === As sideman ===,7062981
+1935,CD,YEAR_REGEX_1,TIME,time_reference,"Clarence Williams, 1935 (Almac, 1960)",0,36,== Discography == | === As sideman ===,7062981
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Clarence Williams, 1935 (Almac, 1960)",0,36,== Discography == | === As sideman ===,7062981
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"London: Macmillan Publishers, Ltd., 2002.",3,39,== Resources ==,7062981
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"London: Macmillan Reference, Ltd., 1998.",2,40,== Resources ==,7062981
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Panassie-Gautier, Dictionnaire du Jazz, 1972",0,41,== Resources ==,7062981

@@ -1,0 +1,12 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"1913 – April 18 , 1937","CD NNP NNP CD , CD",YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_range,"Julia Nussenbaum (1913 – April 18, 1937)  was a violinist who studied at the Juilliard School in New York.",0,0,,22888524
+night,NN,DAY_TIME_REGEX,TIME,time_reference,"She initially performed professionally as a classical musician, but was persuaded to move to night club playing by Mischa Rosenbaum.",1,0,,22888524
+1937,CD,YEAR_REGEX_1,TIME,time_reference,"She was murdered by  Rosenbaum, 31, who had become her manager/ director in a West 43rd Street, Manhattan, New York rehearsal studio, in 1937.",0,1,,22888524
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Rosenbaum was a married man when he became infatuated with Nussenbaum, although he had been separated from his wife for two years.",0,2,,22888524
+the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"On the day prior to the slaying Rosenbaum telephoned Nussenbaum and arranged a meeting, to which she reluctantly agreed.",1,2,,22888524
+some hours,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Rosenbaum hid her unconscious body behind a soundproof curtain, where she was found some hours later by Moya Engels, a dancer.",0,3,,22888524
+six hours,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"She was taken to hospital, where she died six hours after admittance.",1,3,,22888524
+day,NN,TIME_UNIT_REGEX,TIME,time_reference,"However, Rosenbaum was still annoying her, hence her reluctance to meet with him on the fatal day.",1,4,,22888524
+"June 7 , 1937","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Although initially charged with first degree murder, Rosenbaum pleaded guilty to second degree murder on June 7, 1937.",0,5,,22888524
+"June 21 , 1937","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He intended to become supervisor of prison theatrical productions after his June 21, 1937 sentencing.",1,7,,22888524
+35 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He was sentenced to 35 years to life.,2,7,,22888524

@@ -1,0 +1,57 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"July 20 , 1941 – June 27 , 1992","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Charles Lacy Tyler (July 20, 1941 – June 27, 1992) was an American jazz saxophonist.",0,0,,24735834
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Tyler was born in Cadiz, Kentucky, United States, and spent his childhood years in Indianapolis.",0,2,== Biography ==,24735834
+the summers,DT NNS,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"During the summers, he visited Chicago, Illinois, New York City and Cleveland, Ohio, where he met the young tenor saxophonist Albert Ayler at age 14.",2,2,== Biography ==,24735834
+1957–1959,CD,YEAR_REGEX_1,TIME,time_reference,"After serving in the army from 1957–1959, Tyler relocated to Cleveland in 1960 and began playing with Ayler, commuting between New York and Cleveland.",3,2,== Biography ==,24735834
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"After serving in the army from 1957–1959, Tyler relocated to Cleveland in 1960 and began playing with Ayler, commuting between New York and Cleveland.",3,2,== Biography ==,24735834
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"In 1965, Tyler recorded Bells and Spirits Rejoice with Ayler's group.",5,2,== Biography ==,24735834
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,He recorded his first album as leader the following year for ESP-Disk.,6,2,== Biography ==,24735834
+1967 and 1968,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He returned to Indianapolis to study with David Baker at Indiana University between 1967 and 1968, recording a second album for ESP, Eastern Man Alone.",7,2,== Biography ==,24735834
+Eastern,NNP,HOLIDAY_REGEX,TIME,time_reference,"He returned to Indianapolis to study with David Baker at Indiana University between 1967 and 1968, recording a second album for ESP, Eastern Man Alone.",7,2,== Biography ==,24735834
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"In 1968, he transferred to the University of California, Berkeley to study and teach.",8,2,== Biography ==,24735834
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"He moved back to New York in 1974, leading his own groups with Blythe, trumpeter Earl Cross, drummer Steve Reid and others, recording the album Voyage from Jericho on Tyler's own Akba label.",10,2,== Biography ==,24735834
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"In 1975, Tyler enrolled at Columbia University and made an extensive tour of Scandinavia, releasing his second Akba album Live in Europe.",11,2,== Biography ==,24735834
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976, he performed the piece ""Saga of the Outlaws"" at Sam Rivers's Studio Rivbea, released two years later on Nessa Records.",12,2,== Biography ==,24735834
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1976, he performed the piece ""Saga of the Outlaws"" at Sam Rivers's Studio Rivbea, released two years later on Nessa Records.",12,2,== Biography ==,24735834
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"In 1982, during a European tour with Sun Ra's Orchestra, he relocated to Stockholm, Denmark, and in 1985 he moved to France, recording with other expatriates like Khan Jamal in Copenhagen and Steve Lacy in Paris.",14,2,== Biography ==,24735834
+Sun,NNP,WEEK_ABBR_REGEX,TIME,time_reference,"In 1982, during a European tour with Sun Ra's Orchestra, he relocated to Stockholm, Denmark, and in 1985 he moved to France, recording with other expatriates like Khan Jamal in Copenhagen and Steve Lacy in Paris.",14,2,== Biography ==,24735834
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1982, during a European tour with Sun Ra's Orchestra, he relocated to Stockholm, Denmark, and in 1985 he moved to France, recording with other expatriates like Khan Jamal in Copenhagen and Steve Lacy in Paris.",14,2,== Biography ==,24735834
+June 1992,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Tyler died in Toulon, France, of heart failure in June 1992.",15,2,== Biography ==,24735834
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Charles Tyler Ensemble (ESP Disk, 1966)",0,5,== Discography == | === As leader ===,24735834
+Eastern,NNP,HOLIDAY_REGEX,TIME,time_reference,"Eastern Man Alone (ESP Disk, 1967)",0,6,== Discography == | === As leader ===,24735834
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Eastern Man Alone (ESP Disk, 1967)",0,6,== Discography == | === As leader ===,24735834
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Voyage from Jericho (AK-BA, 1975)",0,7,== Discography == | === As leader ===,24735834
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Live in Europe: Jazz Festival Umea (AK-BA, 1977)",0,8,== Discography == | === As leader ===,24735834
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Saga of the Outlaws (Nessa, 1978)",0,9,== Discography == | === As leader ===,24735834
+Sixty Minute,NNP NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Sixty Minute Man (Adelphi, 1980)",0,10,== Discography == | === As leader ===,24735834
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Sixty Minute Man (Adelphi, 1980)",0,10,== Discography == | === As leader ===,24735834
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Folk and Mystery Stories (Sonet, 1980)",0,11,== Discography == | === As leader ===,24735834
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Definite Volume 1 (Storyville, 1982)",0,12,== Discography == | === As leader ===,24735834
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Definite Volume 2 (Storyville, 1984)",0,13,== Discography == | === As leader ===,24735834
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Live at Green Space with Billy Bang (Anima, 1982)",0,14,== Discography == | === As leader ===,24735834
+Autumn,NNP,SEASON_REGEX,TIME,time_reference,"Autumn in Paris (Silkheart, 1988)",0,15,== Discography == | === As leader ===,24735834
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Autumn in Paris (Silkheart, 1988)",0,15,== Discography == | === As leader ===,24735834
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Folly Fun Music Magic (Bleu Regard, 1992)",0,16,== Discography == | === As leader ===,24735834
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Mid Western Drifter (Bleu Regard, 1992)",0,17,== Discography == | === As leader ===,24735834
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"Live at Sweet Basil Volume 1 (Bleu Regard, 2006)",0,18,== Discography == | === As leader ===,24735834
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"Live at Sweet Basil Volume 2 (Bleu Regard, 2006)",0,19,== Discography == | === As leader ===,24735834
+WKCR,NNP,TIME_UNIT_REGEX,TIME,time_reference,"At WKCR (Sinner Lady Gloria, 2014)",0,20,== Discography == | === As leader ===,24735834
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"At WKCR (Sinner Lady Gloria, 2014)",0,20,== Discography == | === As leader ===,24735834
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Bells (ESP Disk, 1965)",0,23,== Discography == | === As sideman ===,24735834
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Spirits Rejoice (ESP Disk, 1965)",0,24,== Discography == | === As sideman ===,24735834
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Bells Prophecy (ESP Disk, 1997)With Billy Bang",0,25,== Discography == | === As sideman ===,24735834
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Rainbow Gladiator (Soul Note, 1981)",0,26,== Discography == | === As sideman ===,24735834
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Invitation (Soul Note, 1982)",0,27,== Discography == | === As sideman ===,24735834
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Outline No. 12 (Celluloid, 1982)With Steve Reid",0,28,== Discography == | === As sideman ===,24735834
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Rhythmatism (Mustevic Sound, 1976)",0,29,== Discography == | === As sideman ===,24735834
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Odyssey of the Oblong Square (Mustevic Sound, 1977)With others",0,30,== Discography == | === As sideman ===,24735834
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Denis Charles, Remi Charmasson, Bernard Santacruz, A Scream for Charles Tyler (Bleu Regard, 1992)",0,31,== Discography == | === As sideman ===,24735834
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Eugene Chadbourne, Boogie with the Hook (Leo, 1996)",0,32,== Discography == | === As sideman ===,24735834
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Ted Daniel, In the Beginning (Altura Music, 1997)",0,33,== Discography == | === As sideman ===,24735834
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"Richard Dunbar, Running Buddies Vol. 1 (Jahari, 1983)",0,34,== Discography == | === As sideman ===,24735834
+Decade,NNP,TIME_UNIT_REGEX,TIME,time_reference,"John Fischer, 6x1=10 Duos for a New Decade (ReEntry, 1980)",0,35,== Discography == | === As sideman ===,24735834
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"John Fischer, 6x1=10 Duos for a New Decade (ReEntry, 1980)",0,35,== Discography == | === As sideman ===,24735834
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Khan Jamal, Dark Warrior (SteepleChase, 1984)",0,36,== Discography == | === As sideman ===,24735834
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Steve Lacy, One Fell Swoop (Silkheart, 1987)",0,37,== Discography == | === As sideman ===,24735834
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Wilber Morris, Collective Improvisations (Bleu Regard, 1994)",0,38,== Discography == | === As sideman ===,24735834
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Hal Russell, Generation  (Chief, 1989)",0,39,== Discography == | === As sideman ===,24735834

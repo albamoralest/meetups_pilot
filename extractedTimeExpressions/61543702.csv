@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"October 22 , 1929 - January 20 , 2001","NNP CD , CD : NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Candida Donadio (October 22, 1929 - January 20, 2001) was an American literary agent.",0,0,,61543702
+several years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"McCarthy goes on to tell Woolmer, “My agent for several years was Candida Donadio …”",0,2,,61543702
+"October 22 , 1929","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Donadio was born on October 22, 1929, in Brooklyn, New York City.",0,5,== Life ==,61543702
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"In 1984, Donadio sold 120 letters written by Pynchon to herself between 1962 and 1983 to Carter Burden for $45,000 via Santa Barbara book dealer Ralph Sipper.",5,5,== Life ==,61543702
+1962 and 1983,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 1984, Donadio sold 120 letters written by Pynchon to herself between 1962 and 1983 to Carter Burden for $45,000 via Santa Barbara book dealer Ralph Sipper.",5,5,== Life ==,61543702
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"She was diagnosed with cancer in 1995, and she died on January 20, 2001.",7,5,== Life ==,61543702
+"January 20 , 2001","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"She was diagnosed with cancer in 1995, and she died on January 20, 2001.",7,5,== Life ==,61543702

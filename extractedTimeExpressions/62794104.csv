@@ -1,0 +1,49 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"April 13 , 1945 – May 11 , 2017","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Stacy Johnson (April 13, 1945 – May 11, 2017) was an American R&B singer and songwriter best known as a vocalist in the Ike & Tina Turner Revue.",0,0,,62794104
+"April 13 , 1945","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Johnson was born in St. Louis, Missouri on April 13, 1945.",0,2,== Life and career ==,62794104
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"In 1958, he joined the doo-wop group the Superiors.",3,2,== Life and career ==,62794104
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"In 1961, R&B guitarist and bandleader Benny Sharp heard Johnson sing Joe Tex's ""All I Could Do Was Cry.""",11,2,== Life and career ==,62794104
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962, while performing with King at Club Caravan (formerly Early Bird Lounge), Jimmy Thomas introduced Johnson and Guy to bandleader Ike Turner who asked Johnson and Guy to join the Ike & Tina Turner Revue.",15,2,== Life and career ==,62794104
+a few weeks,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Johnson accepted Turner's offer, but he learned that he was being tested for a few weeks, and Turner only intended on keeping only one of them.",17,2,== Life and career ==,62794104
+one night,CD NN,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"Turner chose Guy, but one night when the revue was performing at the Manhattan Club, the crowd chanted for Johnson so he was rehired.",18,2,== Life and career ==,62794104
+eleven months,RB NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,The revue toured throughout the country eleven months out of the year and performed four to seven days of the week.,22,2,== Life and career ==,62794104
+of the year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,The revue toured throughout the country eleven months out of the year and performed four to seven days of the week.,22,2,== Life and career ==,62794104
+four to seven days,CD TO CD NNS,BASIC_NUMBER_REGEX_1 LINKAGE_REGEX BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER NUMERAL TIME,time_range,The revue toured throughout the country eleven months out of the year and performed four to seven days of the week.,22,2,== Life and career ==,62794104
+of the week,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,The revue toured throughout the country eleven months out of the year and performed four to seven days of the week.,22,2,== Life and career ==,62794104
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"In 1963, Johnson released his first record on Turner's label Sony Records.",24,2,== Life and career ==,62794104
+1964,CD,YEAR_REGEX_1,TIME,time_reference,Johnson also released a solo record on the newly revived Modern Records in 1964.,26,2,== Life and career ==,62794104
+a 2000,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"Johnson stated in a 2000 interview that he contributed to the dynamic of Ike & Tina Turner's act: ""There was a minimum amount of dancing being done with the Ike and Tina show, and upon Vernon [Guy] and I going, the whole show changed, because we interjected 90 percent – and I stand convinced of this – 90 percent of the dance routines that they did as a whole group.",27,2,== Life and career ==,62794104
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"""Johnson got married in 1964.",28,2,== Life and career ==,62794104
+now,RB,TIMELINE_REGEX,TIME,time_reference,He moved back to St. Louis and rejoined Sharp's group which was now called the Sharpees.,31,2,== Life and career ==,62794104
+previously,RB,TIMELINE_REGEX,TIME,time_reference,Johnson had previously sang with O'Toole and Reeves in the Arabians.,34,2,== Life and career ==,62794104
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"They released ""Tired of Being Lonely"" on Chicago's One-derful label in 1965, featuring Johnson on lead vocal.",35,2,== Life and career ==,62794104
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Throughout the 1960s and the 1970s, Johnson performed with various bands around St. Louis.",36,2,== Life and career ==,62794104
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Throughout the 1960s and the 1970s, Johnson performed with various bands around St. Louis.",36,2,== Life and career ==,62794104
+the early 1980s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,He retired from singing after his second wife died in the early 1980s.,37,2,== Life and career ==,62794104
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, Johnson and Vernon Guy formed a newly reformed Sharpies.",38,2,== Life and career ==,62794104
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"In 1986, former Ikette Robbie Montgomery reached out to him to tour Europe with several Kings of Rhythm alumni, including Clayton Love, Billy Gayles, Erskine Oglesby, and Oliver Sain as the St. Louis Kings of Rhythm.",39,2,== Life and career ==,62794104
+1987,CD,YEAR_REGEX_1,TIME,time_reference,They toured into 1987 and the band was officially appointed as ambassadors for the City of St. Louis by Mayor Vincent Schoemehl.,40,2,== Life and career ==,62794104
+1987,CD,YEAR_REGEX_1,TIME,time_reference,Johnson contributed vocals to musician's Johnnie Johnson's first solo album Blue Hand Johnnie (1987).,42,2,== Life and career ==,62794104
+the last 10 years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"In the last 10 years of his life, Johnson suffered from three strokes.",1,3,== Life and career ==,62794104
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"One of his last appearances was a fundraiser for him at BB's Jazz, Blues and Soups in 2012.",2,3,== Life and career ==,62794104
+"May 11 , 2017","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Johnson died in St. Louis at the age of 72 from cancer on May 11, 2017.",3,3,== Life and career ==,62794104
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"1963: ""Don't Believe 'Em"" / ""Remove My Doubts"" (Sony 113)",0,6,== Discography == | === Singles ===,62794104
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"1963: ""The Hunter And The Rabbit"" / ""My Life Time Love"" (Sonja 2002) – Vernon & Stacy",0,7,== Discography == | === Singles ===,62794104
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"1963: ""The Hunter And The Rabbit"" / ""My Life Time Love"" (Sonja 2002) – Vernon & Stacy",0,7,== Discography == | === Singles ===,62794104
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"1964: ""Don't Believe Him"" / ""Consider Yourself"" (Modern 1001)",0,8,== Discography == | === Singles ===,62794104
+1001,CD,YEAR_REGEX_1,TIME,time_reference,"1964: ""Don't Believe Him"" / ""Consider Yourself"" (Modern 1001)",0,8,== Discography == | === Singles ===,62794104
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"1966: ""I Stand Alone"" / ""Don't try To Fool Me"" (M-Pac! 7230)",0,9,== Discography == | === Singles ===,62794104
+1964,CD,YEAR_REGEX_1,TIME,time_reference,1964:,0,12,== Discography == | ==== Ike and Tina Turner ====,62794104
+1965,CD,YEAR_REGEX_1,TIME,time_reference,1965:,0,13,== Discography == | ==== Ike and Tina Turner ====,62794104
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1993:,0,14,== Discography == | ==== Ike and Tina Turner ====,62794104
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994:,0,15,== Discography == | ==== Ike and Tina Turner ====,62794104
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012:,0,16,== Discography == | ==== Ike and Tina Turner ====,62794104
+1963–1965,CD,YEAR_REGEX_1,TIME,time_reference,Ike Turner Studio Productions: New Orleans and Los Angeles 1963–1965 (Ace Records),1,16,== Discography == | ==== Ike and Tina Turner ====,62794104
+1986,CD,YEAR_REGEX_1,TIME,time_reference,1986:,0,18,== Discography == | ==== Other appearances ====,62794104
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987:,0,19,== Discography == | ==== Other appearances ====,62794104
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999:,0,20,== Discography == | ==== Other appearances ====,62794104
+1960,CD,YEAR_REGEX_1,TIME,time_reference,West Coast Modern Blues 1960's (P-Vine Records),1,20,== Discography == | ==== Other appearances ====,62794104
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012:,0,21,== Discography == | ==== Other appearances ====,62794104
+1962–1970,CD,YEAR_REGEX_1,TIME,time_reference,Move with the Groove (Hardcore Chicago Soul 1962–1970) (Charly Records),1,21,== Discography == | ==== Other appearances ====,62794104
+2019,CD,YEAR_REGEX_1,TIME,time_reference,2019:,0,22,== Discography == | ==== Other appearances ====,62794104
+1963–1972,CD,YEAR_REGEX_1,TIME,time_reference,Los Angeles Soul Volume 2 (Kent-Modern's Black Music Legacy 1963–1972) (Kent Soul),1,22,== Discography == | ==== Other appearances ====,62794104

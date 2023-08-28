@@ -1,0 +1,17 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"February 14 , 1937 – December 1 , 1969","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Samuel Gene Maghett (February 14, 1937 – December 1, 1969), known as Magic Sam, was an American Chicago blues musician.",0,0,,1439124
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"After moving to Chicago at the age of 19, he was signed by Cobra Records and became well known as a bluesman after the release of his first record, ""All Your Love"", in 1957.",2,0,,1439124
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Maghett moved to Chicago in 1956, where his guitar playing earned him bookings at blues clubs on the West Side.",0,2,== Life and career ==,1439124
+1957 to 1959,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He recorded singles for Cobra Records from 1957 to 1959, including ""All Your Love"" and ""Easy Baby"".",1,2,== Life and career ==,1439124
+six months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He served six months in prison for desertion and received a dishonorable discharge.,6,2,== Life and career ==,1439124
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"In 1963, his single ""Feelin' Good (We're Gonna Boogie)"" gained national attention.",7,2,== Life and career ==,1439124
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"He was signed to Delmark Records in 1967, for which he recorded West Side Soul and Black Magic.",9,2,== Life and career ==,1439124
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Magic Sam's breakthrough performance was at the Ann Arbor Blues Festival in 1969, which won him many bookings in the U.S. and Europe.",11,2,== Life and career ==,1439124
+December 1969,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,His career was cut short when he suddenly died of a heart attack in December 1969.,0,3,== Life and career ==,1439124
+32 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,He was 32 years old.,1,3,== Life and career ==,1439124
+February 1970,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In February 1970, the Butterfield Blues Band played at a benefit concert for Magic Sam, at Fillmore West in San Francisco.",4,3,== Life and career ==,1439124
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"1982, Blues Foundation Blues Music Award for Magic Sam Live in the category Vintage or Reissue Album of the Year (US)",0,5,== Awards and recognition ==,1439124
+of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"1982, Blues Foundation Blues Music Award for Magic Sam Live in the category Vintage or Reissue Album of the Year (US)",0,5,== Awards and recognition ==,1439124
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"1982, Blues Foundation Hall of Fame, induction as Performer",0,6,== Awards and recognition ==,1439124
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"1984, Blues Foundation Hall of Fame, West Side Soul selected in the category Classics of Blues Recordings – Albums",0,7,== Awards and recognition ==,1439124
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"1990, Blues Foundation Hall of Fame, Black Magic selected in the category Classics of Blues Recordings – Albums",0,8,== Awards and recognition ==,1439124

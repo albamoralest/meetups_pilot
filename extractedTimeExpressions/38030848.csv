@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"December 22 , 1913 – July 17 , 1989","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Dudley Brooks (December 22, 1913 – July 17, 1989) was an American jazz pianist, arranger, and composer.",0,0,,38030848
+"December 22 , 1913","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Brooks was born on December 22, 1913, in Los Angeles, California.",0,2,== Biography ==,38030848
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"For many years, Radio Recorders was one of the best known recording studios in the country and hosted performers such as Charlie Parker, Louis Armstrong, and Elvis Presley.",1,3,== Biography ==,38030848
+decades,NNS,TIME_UNIT_REGEX,TIME,time_reference,"As a result, Brooks developed a professional relationship with Presley that spanned decades.",7,3,== Biography ==,38030848
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,Elvis' Christmas Album,0,9,== Biography ==,38030848
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"Among his works is the well-known Christmas song ""(Everybody's Waitin' For)",2,23,== Biography ==,38030848
+1950,CD,YEAR_REGEX_1,TIME,time_reference,"Made popular by Kay Starr in 1950, the song has been covered by many artists to include the Brian Setzer Orchestra and Vonda Shepard.",4,23,== Biography ==,38030848
+1989,CD,YEAR_REGEX_1,TIME,time_reference,Brooks died in his hometown of Los Angeles in 1989.,5,23,== Biography ==,38030848

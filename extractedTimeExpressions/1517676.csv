@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"March 13 , 1881 – March 26 , 1908","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+of the century,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,0,2
+today,NN,TIMELINE_REGEX,TIME,time_reference,0,4
+today,NN,TIMELINE_REGEX,TIME,time_reference,2,4
+1903,CD,YEAR_REGEX_1,TIME,time_reference,0,5
+1906,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+1907,CD,YEAR_REGEX_1,TIME,time_reference,0,7
+1950,CD,YEAR_REGEX_1,TIME,time_reference,1,12
+2002,CD,YEAR_REGEX_1,TIME,time_reference,1,13
+1978,CD,YEAR_REGEX_1,TIME,time_reference,0,14

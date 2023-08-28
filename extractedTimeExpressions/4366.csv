@@ -1,0 +1,59 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"1896 – December 1 , 1934","CD NNP NNP CD , CD",YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_range,"Arthur Blake (1896 – December 1, 1934), known as Blind Blake, was an American blues and ragtime singer and guitarist.",0,0,,4366
+1926 and 1932,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He is known for numerous recordings he made for Paramount Records between 1926 and 1932.,1,0,,4366
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, a group of researchers led by Alex van der Tuuk published various documents regarding Blake's life and death in the journal, Blues & Rhythm.",5,2,== Early life ==,4366
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"One of these documents is his 1934 death certificate, which states he was born in 1896 in Newport News, Virginia, to Winter and Alice Blake (his mother's name is followed by a question mark).",6,2,== Early life ==,4366
+1896,CD,YEAR_REGEX_1,TIME,time_reference,"One of these documents is his 1934 death certificate, which states he was born in 1896 in Newport News, Virginia, to Winter and Alice Blake (his mother's name is followed by a question mark).",6,2,== Early life ==,4366
+Winter,NNP,SEASON_REGEX,TIME,time_reference,"One of these documents is his 1934 death certificate, which states he was born in 1896 in Newport News, Virginia, to Winter and Alice Blake (his mother's name is followed by a question mark).",6,2,== Early life ==,4366
+the 1920s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Nothing else is known of Blake until the 1920s, when he emerged as a recording musician.",7,2,== Early life ==,4366
+1926 to 1932,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Blake recorded about 80 tracks for Paramount Records from 1926 to 1932.,0,4,== Career ==,4366
+the winter,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"According to van der Tuuk et al., he apparently returned to Florida for the winter.",4,4,== Career ==,4366
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,In the 1930s he was reported to be playing in front of a Jacksonville hotel.,5,4,== Career ==,4366
+around 1931,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Blake married Beatrice McGee around 1931.,0,6,== Personal life and death ==,4366
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In the following year he made his final recording at the Paramount headquarters, in Grafton, Wisconsin, just before the label went out of business.",1,6,== Personal life and death ==,4366
+decades,NNS,TIME_UNIT_REGEX,TIME,time_reference,"For decades nothing was known of him after this point, and it was rumored that he met with a violent death; Reverend Gary Davis heard he had been hit by a streetcar in 1934; Big Bill Broonzy thought that he had frozen to death after falling over drunk during a Chicago blizzard and was too overweight to get back up.",2,6,== Personal life and death ==,4366
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"For decades nothing was known of him after this point, and it was rumored that he met with a violent death; Reverend Gary Davis heard he had been hit by a streetcar in 1934; Big Bill Broonzy thought that he had frozen to death after falling over drunk during a Chicago blizzard and was too overweight to get back up.",2,6,== Personal life and death ==,4366
+April 1933,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,In April 1933 he was hospitalized with pneumonia and never fully recovered.,5,6,== Personal life and death ==,4366
+"December 1 , 1934","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On December 1, 1934, after three weeks of decline, Beatrice Blake summoned an ambulance.",6,6,== Personal life and death ==,4366
+three weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"On December 1, 1934, after three weeks of decline, Beatrice Blake summoned an ambulance.",6,6,== Personal life and death ==,4366
+a previously,DT RB,INARTICLE_REGEX TIMELINE_REGEX,MODIFIER TIME,time_reference,"He was buried in Glen Oaks Cemetery, in Glendale, Wisconsin in a previously unmarked grave.",9,6,== Personal life and death ==,4366
+1926,CD,YEAR_REGEX_1,TIME,time_reference,"Blake's first recordings were made in 1926, and his records sold well.",0,8,== Music ==,4366
+Early Morning,JJ NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"His first solo record was ""Early Morning Blues"", with ""West Coast Blues"" on the B-side.",1,8,== Music ==,4366
+1932,CD,YEAR_REGEX_1,TIME,time_reference,Blake made his last recordings in 1932; his career ended with Paramount's bankruptcy.,3,8,== Music ==,4366
+the early 1920s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Big Bill Broonzy, hearing Blake in person the early 1920s, said of his guitar playing ""He made it sound like every instrument in the band- saxophone, trombone, clarinets, bass fiddles, pianos- everything.",1,9,== Music ==,4366
+this day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,and I haven't to this day yet seed no one that could take his natural fingers and pick as much guitar as Blind Blake.,3,9,== Music ==,4366
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"""The track ""You Gonna Quit Me"" from Bob Dylan's 1992 album Good As I Been to You is a cover of Blind Blake's ""You Gonna Quit Me Blues.""",4,9,== Music ==,4366
+the 1999,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The French singer-songwriter Francis Cabrel refers to Blake in the song ""Cent Ans de Plus"", on the 1999 album Hors-Saison.",0,10,== Music ==,4366
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"The Legendary Blind Blake (Ristic, 1958)",0,12,== Compilations ==,4366
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Blues in Chicago (Riverside, 1964)",0,13,== Compilations ==,4366
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Guitar and Vocal (Jazz Collector, 1968)",0,14,== Compilations ==,4366
+1926–1930,CD,YEAR_REGEX_1,TIME,time_reference,"Bootleg Rum Dum Blues 1926–1930 (Biograph, 1968)",0,15,== Compilations ==,4366
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Bootleg Rum Dum Blues 1926–1930 (Biograph, 1968)",0,15,== Compilations ==,4366
+1926–32,CD,YEAR_REGEX_1,TIME,time_reference,"Search Warrant Blues 1926–32 (Biograph, 1970)",0,16,== Compilations ==,4366
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Search Warrant Blues 1926–32 (Biograph, 1970)",0,16,== Compilations ==,4366
+1926–29,CD,YEAR_REGEX_1,TIME,time_reference,"No Dough Blues 1926–29 (Biograph, 1971)",0,17,== Compilations ==,4366
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"No Dough Blues 1926–29 (Biograph, 1971)",0,17,== Compilations ==,4366
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"That Lovin' I Crave (Biograph, 1974)",0,18,== Compilations ==,4366
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Ragtime Guitar's Foremost Fingerpicker (DLP, 1984)",0,19,== Compilations ==,4366
+1926–29,CD,YEAR_REGEX_1,TIME,time_reference,"Blind Blake 1926–29 (Matchbox, 1986)",0,20,== Compilations ==,4366
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Blind Blake 1926–29 (Matchbox, 1986)",0,20,== Compilations ==,4366
+1926-1931,JJ,YEAR_REGEX_1,TIME,time_reference,"The Accompanist (1926-1931) (Wolf, 1989)",0,21,== Compilations ==,4366
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"The Accompanist (1926-1931) (Wolf, 1989)",0,21,== Compilations ==,4366
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"1–4 (Document, 1991)",1,22,== Compilations ==,4366
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"The Master of Ragtime Guitar, The Essential Recordings (Indigo, 1996)",0,23,== Compilations ==,4366
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Georgie Bound (Catfish, 1999)",0,24,== Compilations ==,4366
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"The Best of Blind Blake (Yazoo, 2000)",0,25,== Compilations ==,4366
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"The Essential Blind Blake (Document, 2002)",0,26,== Compilations ==,4366
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"All the Published Sides (JSP, 2003)",0,27,== Compilations ==,4366
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Blind Blake (Black Swan, 2004)",0,28,== Compilations ==,4366
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"The Best of Blind Blake (Collectables, 2006)",0,29,== Compilations ==,4366
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Southern Rag (Snapper, 2008)",0,30,== Compilations ==,4366
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"The Complete Recordings (P-Vine, 2008)",0,31,== Compilations ==,4366
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"The Best of Blind Blake (P-Vine, 2008)",0,32,== Compilations ==,4366
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"No Dough Blues (Pristine, 2009)",0,33,== Compilations ==,4366
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"Back Biting Bee Blues (Monk, 2009)",0,34,== Compilations ==,4366
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"True Revolution (KRG, 2011)",0,35,== Compilations ==,4366
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"The Rough Guide to Blues Legends: Blind Blake (World Music Network, 2013)",0,36,== Compilations ==,4366
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Blake figures in the plot of Lee Child's 1997 Jack Reacher novel, Killing Floor, and there are references to him in Child's 2011 prequel, The Affair.",0,38,== In literature ==,4366
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"Blake figures in the plot of Lee Child's 1997 Jack Reacher novel, Killing Floor, and there are references to him in Child's 2011 prequel, The Affair.",0,38,== In literature ==,4366
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"Another closer in time reference is made in ´The Sentinel’ (2020) when Jack Reacher is on the lookout for venues in Nashville, ‘where Blind Blake could have played’.",0,39,== In literature ==,4366

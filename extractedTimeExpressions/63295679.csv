@@ -1,0 +1,16 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1891,CD,YEAR_REGEX_1,TIME,time_reference,"Cécile Gilly (known on the stage as Cecile Roma, born approximately 1891) was a French mezzo-soprano and singing teacher.",0,0,,63295679
+the 1920s and 1930s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"A well-known pedagogue in the 1920s and 1930s, she is known primarily as being the voice teacher of soprano Marjorie Lawrence.",1,0,,63295679
+20 July 1902,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,She married the baritone Dinh Gilly on 20 July 1902.,1,2,== Biography ==,63295679
+23 October 1909,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Cécile and Dinh Gilly arrived in New York on 23 October 1909.,0,4,== Singing career ==,63295679
+"December 14 , 1909","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Under the stage name Cecile Roma, Cécile made her Met Opera company debut on December 14, 1909 in the role of Amarante of Charles Lecocq's La fille de Madame Angot, the company appearing at the New Theatre.",1,4,== Singing career ==,63295679
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"By the time Marjorie Lawrence became her student in 1928, Cécile Gilly had developed a noted reputation as a singing teacher.",2,6,== Teaching career ==,63295679
+day,NN,TIME_UNIT_REGEX,TIME,time_reference,"This continued for ""day after day for many weeks.""",4,6,== Teaching career ==,63295679
+day,NN,TIME_UNIT_REGEX,TIME,time_reference,"This continued for ""day after day for many weeks.""",4,6,== Teaching career ==,63295679
+many weeks,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"This continued for ""day after day for many weeks.""",4,6,== Teaching career ==,63295679
+recently,RB,TIMELINE_REGEX,TIME,time_reference,"Her son Max was a prisoner of war, and her daughter Yvonne had recently died of blood poisoning, leaving Yvonne's three children (one of whom was only four months old) to be cared for by Cécile.",17,6,== Teaching career ==,63295679
+four months old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Her son Max was a prisoner of war, and her daughter Yvonne had recently died of blood poisoning, leaving Yvonne's three children (one of whom was only four months old) to be cared for by Cécile.",17,6,== Teaching career ==,63295679
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Davis, Richard Michael (2012).",0,24,== Works consulted ==,63295679
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"Lawrence, Marjorie (1949).",0,25,== Works consulted ==,63295679
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Williams, Beth Mary (2002), Lineages of Vocal Pedagogy in Australia, 1850-1950, Melbourne: University of Melbourne",0,26,== Works consulted ==,63295679
+1850-1950,JJ,YEAR_REGEX_1,TIME,time_reference,"Williams, Beth Mary (2002), Lineages of Vocal Pedagogy in Australia, 1850-1950, Melbourne: University of Melbourne",0,26,== Works consulted ==,63295679

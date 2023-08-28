@@ -1,0 +1,17 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+1947,CD,YEAR_REGEX_1,TIME,time_reference,0,0
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1,0
+"March 17 , 1947","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,2
+1938,CD,YEAR_REGEX_1,TIME,time_reference,1,2
+1969,CD,YEAR_REGEX_1,TIME,time_reference,3,2
+now,RB,TIMELINE_REGEX,TIME,time_reference,3,2
+1969,CD,YEAR_REGEX_1,TIME,time_reference,0,3
+1970,CD,YEAR_REGEX_1,TIME,time_reference,2,3
+1977,CD,YEAR_REGEX_1,TIME,time_reference,4,3
+1980,CD,YEAR_REGEX_1,TIME,time_reference,5,3
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,0,4
+1986,CD,YEAR_REGEX_1,TIME,time_reference,1,5
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1,5
+the 90 years,DT CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,2,5
+the 2000s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,6
+2002,CD,YEAR_REGEX_1,TIME,time_reference,1,6

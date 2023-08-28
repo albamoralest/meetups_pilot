@@ -1,0 +1,41 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 11 , 1969 – May 10 , 2006","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Soraya Raquel Lamilla Cuevas (March 11, 1969 – May 10, 2006) was a Colombian-American singer/songwriter, guitarist, arranger and record producer.",0,0,,3888448
+a 2004,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"She won a 2004 Latin Grammy Award for ""Best Album by Songwriter"" for the self-titled album Soraya, which she produced, and received a 2005 Latin Grammy Award nomination for ""Female Pop Vocal Album"" for her album El Otro Lado de Mi (literally ""The Other Side of Me"").",1,1,,3888448
+a 2005,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"She won a 2004 Latin Grammy Award for ""Best Album by Songwriter"" for the self-titled album Soraya, which she produced, and received a 2005 Latin Grammy Award nomination for ""Female Pop Vocal Album"" for her album El Otro Lado de Mi (literally ""The Other Side of Me"").",1,1,,3888448
+the 2005,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,She was the opening act for the 2005 Billboard Latin Music Awards.,2,1,,3888448
+ten years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Her career spanned ten years, and she recorded five albums.",3,1,,3888448
+"May 10 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Soraya died on May 10, 2006 following a long struggle against breast cancer.",0,2,,3888448
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Soraya Raquel Lamilla Cuevas was born in Point Pleasant, New Jersey, a year after her father, mother, and brother moved to the United States from their native Colombia.",0,5,== Biography == | === Early life ===,3888448
+eight years old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"The family moved back to Colombia when she was a baby, but when Soraya was eight years old, they returned to New Jersey.",1,5,== Biography == | === Early life ===,3888448
+12 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Soraya was 12 years old when her mother was first diagnosed with breast cancer, 18 when her mother had a recurrence, and 22 when her mother died in 1992.",12,5,== Biography == | === Early life ===,3888448
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Soraya was 12 years old when her mother was first diagnosed with breast cancer, 18 when her mother had a recurrence, and 22 when her mother died in 1992.",12,5,== Biography == | === Early life ===,3888448
+1994,CD,YEAR_REGEX_1,TIME,time_reference,Soraya obtained a record contract with Polygram Records/Island Records in 1994.,0,7,== Biography == | === Musical career ===,3888448
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Her first album, released two years later simultaneously in both English and Spanish, was titled On nights like this / En esta noche.",1,7,== Biography == | === Musical career ===,3888448
+nights,NNS,DAY_TIME_REGEX,TIME,time_reference,"Her first album, released two years later simultaneously in both English and Spanish, was titled On nights like this / En esta noche.",1,7,== Biography == | === Musical career ===,3888448
+late 1997,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Her second album, Torre de marfil / Wall of smiles, titled after a song co-written with her idol Carole King, was released in late 1997, and helped her attain worldwide recognition.",2,8,== Biography == | === Musical career ===,3888448
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"In 2000, Soraya was diagnosed with Stage III breast cancer, shortly after the release of her third album Cuerpo y alma /",0,9,== Biography == | === Musical career ===,3888448
+days,NNS,TIME_UNIT_REGEX,TIME,time_reference,I'm yours — just days before she was about to tour and promote it.,1,9,== Biography == | === Musical career ===,3888448
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Feeling healthy and in remission, Soraya returned to the music scene in 2003 with the release of her fourth and self-titled album, Soraya.",0,10,== Biography == | === Musical career ===,3888448
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"She created one more successful album, El otro lado de mí, before dying from cancer in 2006.",0,11,== Biography == | === Musical career ===,3888448
+"May 10 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Soraya died of breast cancer in Miami, Florida on May 10, 2006, aged 37.",0,13,== Biography == | === Death ===,3888448
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"She was first diagnosed in 2000, at the age of 31, after finding a lump while conducting a routine self-examination.",1,13,== Biography == | === Death ===,3888448
+September and October,NNP CC NNP,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX,TIME MODIFIER TIME,time_reference,"During September and October, she took a break from her music career to focus on breast cancer awareness.",2,16,== Biography == | === Breast cancer advocate ===,3888448
+Nights,NNS,DAY_TIME_REGEX,TIME,time_reference,On Nights Like This (1996),1,20,== Discography == | === Studio albums ===,3888448
+1996,CD,YEAR_REGEX_1,TIME,time_reference,On Nights Like This (1996),1,20,== Discography == | === Studio albums ===,3888448
+1997,CD,YEAR_REGEX_1,TIME,time_reference,Torre de Marfil / Wall of Smiles (1997),0,21,== Discography == | === Studio albums ===,3888448
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Cuerpo y Alma / I'm Yours (2000),0,22,== Discography == | === Studio albums ===,3888448
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Soraya (2003),0,23,== Discography == | === Studio albums ===,3888448
+2005,CD,YEAR_REGEX_1,TIME,time_reference,El Otro Lado de Mi (2005),0,24,== Discography == | === Studio albums ===,3888448
+1996,CD,YEAR_REGEX_1,TIME,time_reference,(1996),0,26,== Discography == | === Compilations ===,3888448
+1998,CD,YEAR_REGEX_1,TIME,time_reference,(1998),0,27,== Discography == | === Compilations ===,3888448
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"(2001) Desert Roses and Arabian Rhythms, Vol. 1",0,28,== Discography == | === Compilations ===,3888448
+2001,CD,YEAR_REGEX_1,TIME,time_reference,(2001) Serie 32,0,29,== Discography == | === Compilations ===,3888448
+2003,CD,YEAR_REGEX_1,TIME,time_reference,(2003) Essentiales (The Ultimate Collection),0,30,== Discography == | === Compilations ===,3888448
+2005,CD,YEAR_REGEX_1,TIME,time_reference,(2005) Éxitos Eternos,0,31,== Discography == | === Compilations ===,3888448
+2005,CD,YEAR_REGEX_1,TIME,time_reference,(2005),0,32,== Discography == | === Compilations ===,3888448
+20th Century,JJ NNP,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,The Best of Soraya (20th Century Masters - The Millennium Collection),1,32,== Discography == | === Compilations ===,3888448
+The Millennium,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,The Best of Soraya (20th Century Masters - The Millennium Collection),1,32,== Discography == | === Compilations ===,3888448
+2005,CD,YEAR_REGEX_1,TIME,time_reference,(2005),0,33,== Discography == | === Compilations ===,3888448
+2006,CD,YEAR_REGEX_1,TIME,time_reference,(2006) Gold (2-CD best-of),0,34,== Discography == | === Compilations ===,3888448
+2006,CD,YEAR_REGEX_1,TIME,time_reference,(2006),0,35,== Discography == | === Compilations ===,3888448
+2006,CD,YEAR_REGEX_1,TIME,time_reference,(2006) Entre Su Ritmo y El Silencio,0,36,== Discography == | === Compilations ===,3888448

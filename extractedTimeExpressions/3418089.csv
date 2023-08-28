@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+12 November 1921 – 19 December 1991,CD NNP CD NN CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,0,0
+1967,CD,YEAR_REGEX_1,TIME,time_reference,1,0
+Presents,NNP,TIMELINE_REGEX,TIME,time_reference,0,3
+1960,CD,YEAR_REGEX_1,TIME,time_reference,0,3
+the next decade,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1,3
+Century 21,NNP CD,TIME_UNIT_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,2,3
+1962,CD,YEAR_REGEX_1,TIME,time_reference,2,3
+1967,CD,YEAR_REGEX_1,TIME,time_reference,2,3
+1970,CD,YEAR_REGEX_1,TIME,time_reference,3,3
+1989,CD,YEAR_REGEX_1,TIME,time_reference,0,4
+1976,CD,YEAR_REGEX_1,TIME,time_reference,0,4
+1977,CD,YEAR_REGEX_1,TIME,time_reference,0,4

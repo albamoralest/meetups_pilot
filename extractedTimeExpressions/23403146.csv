@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 9 , 1974","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Deborah Ruth Lurie (born March 9, 1974) is an American composer, arranger, and music producer.",0,0,,23403146
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"In 2015, she received the ASCAP Shirley Walker Award to honor her achievements contributing to the diversity of film and television music.",3,0,,23403146
+2016,CD,YEAR_REGEX_1,TIME,time_reference,The Academy of Motion Picture Arts and Sciences extended membership to her in 2016 for her contributions to motion pictures.,5,0,,23403146
+Halloween,JJ,HOLIDAY_REGEX,TIME,time_reference,Halloween H20: 20 Years Later (score by John Ottman),0,18,== Filmography == | === Orchestrations ===,23403146
+20 Years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Halloween H20: 20 Years Later (score by John Ottman),0,18,== Filmography == | === Orchestrations ===,23403146
+The Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,The Day Lincoln Was Shot (score by Mark Snow),0,21,== Filmography == | === Orchestrations ===,23403146
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002,0,24,== String Arranger ==,23403146
+Year,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Cold, Year of the Spider2005",0,29,== String Arranger ==,23403146
+Three Days,CD NNPS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Three Days Grace, One-X",0,37,== String Arranger ==,23403146
+Third Day,JJ NNP,ORDINAL_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Third Day, Revelation",0,41,== String Arranger ==,23403146
+The Twilight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Christina Perri, The Twilight Saga: Breaking Dawn Soundtrack2013",0,57,== String Arranger ==,23403146
+Dawn,NNP,DAY_TIME_REGEX,TIME,time_reference,"Christina Perri, The Twilight Saga: Breaking Dawn Soundtrack2013",0,57,== String Arranger ==,23403146

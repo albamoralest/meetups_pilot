@@ -1,0 +1,56 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"October 10 , 1968","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Scott Ialacci, professionally known as DJ Skribble (born October 10, 1968) is an American DJ, producer, remixer, radio personality and actor.",0,0,,12790770
+the early 1990s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the early 1990s, he teamed up with Kamron, ATA, Firstborn and Tommy Never in Young Black Teenagers, who released two albums before splitting up.",0,1,,12790770
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"In 1996, he worked with Bill Irwin on the musical Hip Hop Wonderland.",1,1,,12790770
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Skribble released several mix albums, including two volumes of Traffic Jams, two volumes of MDMA, Essential Dance 2000 (on Atlantic Records), Essential Spring Break and Skribble's House (both on London-Sire Records) and Perfecto Presents: DJ Skribble (on ThriveDance/Perfecto Records).",3,1,,12790770
+Spring,NN,SEASON_REGEX,TIME,time_reference,"Skribble released several mix albums, including two volumes of Traffic Jams, two volumes of MDMA, Essential Dance 2000 (on Atlantic Records), Essential Spring Break and Skribble's House (both on London-Sire Records) and Perfecto Presents: DJ Skribble (on ThriveDance/Perfecto Records).",3,1,,12790770
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,"Skribble released several mix albums, including two volumes of Traffic Jams, two volumes of MDMA, Essential Dance 2000 (on Atlantic Records), Essential Spring Break and Skribble's House (both on London-Sire Records) and Perfecto Presents: DJ Skribble (on ThriveDance/Perfecto Records).",3,1,,12790770
+Spring,NNP,SEASON_REGEX,TIME,time_reference,"Skribble also worked on MTV's The Grind, Total Request Live, Spring Break, Hip Hop Night and the Millennium Special Live.",0,2,,12790770
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"Skribble also worked on MTV's The Grind, Total Request Live, Spring Break, Hip Hop Night and the Millennium Special Live.",0,2,,12790770
+the Millennium,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Skribble also worked on MTV's The Grind, Total Request Live, Spring Break, Hip Hop Night and the Millennium Special Live.",0,2,,12790770
+the 2000,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He has appeared several times on various radio and television shows, and appeared in the 2000 film Turn It Up, credited as 'DJ'.",1,2,,12790770
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Skribble was also a host for a short time in 2000 along with co-hosts Rebecca Budig, Michael Cole and Tazz for one of the WWF's wrestling television programs, WWF Sunday Night Heat when it premiered on MTV in October of that year in WWF New York.",3,2,,12790770
+Sunday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"Skribble was also a host for a short time in 2000 along with co-hosts Rebecca Budig, Michael Cole and Tazz for one of the WWF's wrestling television programs, WWF Sunday Night Heat when it premiered on MTV in October of that year in WWF New York.",3,2,,12790770
+October,NNP,MONTH_REGEX,TIME,time_reference,"Skribble was also a host for a short time in 2000 along with co-hosts Rebecca Budig, Michael Cole and Tazz for one of the WWF's wrestling television programs, WWF Sunday Night Heat when it premiered on MTV in October of that year in WWF New York.",3,2,,12790770
+of that year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Skribble was also a host for a short time in 2000 along with co-hosts Rebecca Budig, Michael Cole and Tazz for one of the WWF's wrestling television programs, WWF Sunday Night Heat when it premiered on MTV in October of that year in WWF New York.",3,2,,12790770
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,DJ Skribble appeared on New York City radio stations such as Hot 97 for two years and worked for WKTU for over eleven years.,0,3,,12790770
+WKTU,NNP,TIME_UNIT_REGEX,TIME,time_reference,DJ Skribble appeared on New York City radio stations such as Hot 97 for two years and worked for WKTU for over eleven years.,0,3,,12790770
+eleven years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,DJ Skribble appeared on New York City radio stations such as Hot 97 for two years and worked for WKTU for over eleven years.,0,3,,12790770
+currently,RB,TIMELINE_REGEX,TIME,time_reference,He is currently a resident DJ at the MGM Grand Hotel and Casino in Las Vegas.,1,3,,12790770
+1997,CD,YEAR_REGEX_1,TIME,time_reference,Traffic Jams (1997),0,6,== Discography == | === Albums ===,12790770
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"MDMA, Vol. 1 (1998)",0,7,== Discography == | === Albums ===,12790770
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"MDMA, Vol. 2 (1999)",0,8,== Discography == | === Albums ===,12790770
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Traffic Jams 2000 (1999),0,9,== Discography == | === Albums ===,12790770
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Traffic Jams 2000 (1999),0,9,== Discography == | === Albums ===,12790770
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Essential Dance 2000 (2000),0,10,== Discography == | === Albums ===,12790770
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Essential Dance 2000 (2000),0,10,== Discography == | === Albums ===,12790770
+Spring,NN,SEASON_REGEX,TIME,time_reference,Essential Spring Break - Summer 2001 (2001),0,11,== Discography == | === Albums ===,12790770
+Summer 2001,NN CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Essential Spring Break - Summer 2001 (2001),0,11,== Discography == | === Albums ===,12790770
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Essential Spring Break - Summer 2001 (2001),0,11,== Discography == | === Albums ===,12790770
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,Essential Presents: Skribble's House (2001),0,12,== Discography == | === Albums ===,12790770
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Essential Presents: Skribble's House (2001),0,12,== Discography == | === Albums ===,12790770
+2004,CD,YEAR_REGEX_1,TIME,time_reference,MDMA: Reloaded (2004),0,13,== Discography == | === Albums ===,12790770
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,Perfecto Presents: DJ Skribble (2005),0,14,== Discography == | === Albums ===,12790770
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Perfecto Presents: DJ Skribble (2005),0,14,== Discography == | === Albums ===,12790770
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Best of Dance Mix USA, Vol. 1 (1997)",0,16,== Discography == | === Mixed compilations ===,12790770
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"Best of Dance Mix USA, Vol. 2 (1998)",0,17,== Discography == | === Mixed compilations ===,12790770
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"The Real Hip-Hop: Best of D&D Studios, Vol. 1 (1999)",0,18,== Discography == | === Mixed compilations ===,12790770
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Reddlite Continuous Mix (2000),0,19,== Discography == | === Mixed compilations ===,12790770
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Ministry of Sound: American Anthems (2003),0,20,== Discography == | === Mixed compilations ===,12790770
+2007,CD,YEAR_REGEX_1,TIME,time_reference,ThriveMix 03 (2007),0,21,== Discography == | === Mixed compilations ===,12790770
+2007,CD,YEAR_REGEX_1,TIME,time_reference,ThriveMix 04 (2007),0,22,== Discography == | === Mixed compilations ===,12790770
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,ThriveMix Presents: Total Dance 2008 (2007),0,23,== Discography == | === Mixed compilations ===,12790770
+2008,CD,YEAR_REGEX_1,TIME,time_reference,ThriveMix Presents: Total Dance 2008 (2007),0,23,== Discography == | === Mixed compilations ===,12790770
+2007,CD,YEAR_REGEX_1,TIME,time_reference,ThriveMix Presents: Total Dance 2008 (2007),0,23,== Discography == | === Mixed compilations ===,12790770
+2008,CD,YEAR_REGEX_1,TIME,time_reference,Total Club Hits (2008),0,24,== Discography == | === Mixed compilations ===,12790770
+2008,CD,YEAR_REGEX_1,TIME,time_reference,ThriveMix 5 (2008),0,25,== Discography == | === Mixed compilations ===,12790770
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Total Club Hits 2 (2009),0,26,== Discography == | === Mixed compilations ===,12790770
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Total Club Hits 3 (2009),0,27,== Discography == | === Mixed compilations ===,12790770
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,ThriveMix Presents: Dance Nation: The Ultimate Party Mix! (2010),0,28,== Discography == | === Mixed compilations ===,12790770
+2010,CD,YEAR_REGEX_1,TIME,time_reference,ThriveMix Presents: Dance Nation: The Ultimate Party Mix! (2010),0,28,== Discography == | === Mixed compilations ===,12790770
+2013,CD,YEAR_REGEX_1,TIME,time_reference,In the Club (2013),1,29,== Discography == | === Mixed compilations ===,12790770
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"""Everybody Come On"" (1999)",0,31,== Discography == | === Singles/EPs ===,12790770
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"""Slow Down 2000 (No Doubt)"" - Boot Camp Clik",0,35,== Discography == | === Selected remixes ===,12790770
+Springsteen,NNP,SEASON_REGEX,TIME,time_reference,"""Born in the U.S.A."" - Bruce Springsteen",0,37,== Discography == | === Selected remixes ===,12790770
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"""All Night Long"" - Danny P & Fatman Scoop",0,41,== Discography == | === Selected remixes ===,12790770
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"""I'll House You 1998"" - Jungle Brothers",0,49,== Discography == | === Selected remixes ===,12790770

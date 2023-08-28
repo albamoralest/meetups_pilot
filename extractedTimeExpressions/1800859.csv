@@ -1,0 +1,41 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 25 , 1899 or 1900 – June 5 , 1977","NNP CD , CD CC CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"John Adam Estes (January 25, 1899 or 1900 – June 5, 1977), known as Sleepy John Estes, was an American blues guitarist, songwriter and vocalist.",0,0,,1800859
+1899,CD,YEAR_REGEX_1,TIME,time_reference,"Estes was born in Ripley, Tennessee, either in 1899 (the date on his gravestone) or 1900 (the date on his World War I draft card).",0,2,== Life and career ==,1800859
+1900,CD,YEAR_REGEX_1,TIME,time_reference,"Estes was born in Ripley, Tennessee, either in 1899 (the date on his gravestone) or 1900 (the date on his World War I draft card).",0,2,== Life and career ==,1800859
+1915,CD,YEAR_REGEX_1,TIME,time_reference,"In 1915, his father, a sharecropper who played guitar, moved the family to Brownsville, Tennessee.",1,2,== Life and career ==,1800859
+more than fifty years,JJR IN JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,Estes continued to work on and off with both musicians for more than fifty years.,4,2,== Life and career ==,1800859
+1929,CD,YEAR_REGEX_1,TIME,time_reference,"At the suggestion of Jim Jackson, Estes made his debut as a recording artist in Memphis, Tennessee, in 1929, at a session organized by Ralph Peer for Victor Records.",6,2,== Life and career ==,1800859
+1935,CD,YEAR_REGEX_1,TIME,time_reference,"He recorded the tracks ""Drop Down Mama"" and ""Someday Baby Blues"" with Nixon in 1935.",7,2,== Life and career ==,1800859
+1941,CD,YEAR_REGEX_1,TIME,time_reference,"He later recorded for Decca Records and Bluebird Records, with his last prewar recording session taking place in 1941.",0,3,== Life and career ==,1800859
+Sun,NNP,WEEK_ABBR_REGEX,TIME,time_reference,"He made a brief return to recording at Sun Studio in Memphis in 1952, recording ""Runnin' Around"" and ""Rats in My Kitchen"", but otherwise was out of the public eye in the 1940s and 1950s.",1,3,== Life and career ==,1800859
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"He made a brief return to recording at Sun Studio in Memphis in 1952, recording ""Runnin' Around"" and ""Rats in My Kitchen"", but otherwise was out of the public eye in the 1940s and 1950s.",1,3,== Life and career ==,1800859
+the 1940s and 1950s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"He made a brief return to recording at Sun Studio in Memphis in 1952, recording ""Runnin' Around"" and ""Rats in My Kitchen"", but otherwise was out of the public eye in the 1940s and 1950s.",1,3,== Life and career ==,1800859
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"By the time he was tracked down by the blues historians Bob Koester and Samuel Charters in 1962, he was completely blind and living in poverty.",3,4,== Life and career ==,1800859
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Estes, Nixon and Rachell appeared at the Newport Folk Festival in 1964.",5,4,== Life and career ==,1800859
+night,NN,DAY_TIME_REGEX,TIME,time_reference,"""'Every night I was going somewhere.",1,5,== Life and career ==,1800859
+day,NN,TIME_UNIT_REGEX,TIME,time_reference,"I'd work all day, play all night and get back home about sunrise.",2,5,== Life and career ==,1800859
+night,NN,DAY_TIME_REGEX,TIME,time_reference,"I'd work all day, play all night and get back home about sunrise.",2,5,== Life and career ==,1800859
+about sunrise,IN NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"I'd work all day, play all night and get back home about sunrise.",2,5,== Life and career ==,1800859
+"June 5 , 1977","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Estes suffered a stroke while preparing for a European tour and died on June 5, 1977, at his home of 17 years in Brownsville, Haywood County, Tennessee.",0,7,== Death ==,1800859
+of 17 years,IN CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"Estes suffered a stroke while preparing for a European tour and died on June 5, 1977, at his home of 17 years in Brownsville, Haywood County, Tennessee.",0,7,== Death ==,1800859
+"1899June 5 , 1977Blues","CD CD , CD",YEAR_REGEX_1 DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_range,"25, 1899June 5, 1977Blues PioneerGuitarist – Songwriter – Poet",1,9,== Death ==,1800859
+1935,CD,YEAR_REGEX_1,TIME,time_reference,"No More"" was recorded in 1935, and in his song ""Drop Down Mama"", also recorded in 1935, Estes referred to himself as ""Poor John"".",2,10,== Death ==,1800859
+1935,CD,YEAR_REGEX_1,TIME,time_reference,"No More"" was recorded in 1935, and in his song ""Drop Down Mama"", also recorded in 1935, Estes referred to himself as ""Poor John"".",2,10,== Death ==,1800859
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"In 1991, Estes was posthumously inducted into the Blues Hall of Fame.",0,11,== Death ==,1800859
+1965,CD,YEAR_REGEX_1,TIME,time_reference,Bob Dylan mentioned Estes in the sleeve notes for his album Bringing It All Back Home (1965).,1,13,== Legacy ==,1800859
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"In an interview in 1970 published in Lennon Remembers, John Lennon recalled of The Beatles' early days that ""We were all listening to Sleepy John Estes and all that in art school, like everybody else.",2,13,== Legacy ==,1800859
+early days,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In an interview in 1970 published in Lennon Remembers, John Lennon recalled of The Beatles' early days that ""We were all listening to Sleepy John Estes and all that in art school, like everybody else.",2,13,== Legacy ==,1800859
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"The Legend of Sleepy John Estes (Delmark, 1963)",0,16,== Recordings == | === Albums ===,1800859
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Broke and Hungry (Ragged and Dirty, Too) (Delmark, 1964)",0,17,== Recordings == | === Albums ===,1800859
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Electric Sleep (Delmark, 1968)",0,18,== Recordings == | === Albums ===,1800859
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Brownsville Blues (Delmark, 1965)",0,19,== Recordings == | === Albums ===,1800859
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Sleepy John Estes in Europe (Delmark, 1999)",0,21,== Recordings == | === Albums ===,1800859
+1929–1940,CD,YEAR_REGEX_1,TIME,time_reference,"Sleepy John Estes, 1929–1940 (RBF Records)",0,23,== Recordings == | === Compilations ===,1800859
+1929–1941,CD,YEAR_REGEX_1,TIME,time_reference,"Complete Recorded Works 1929–1941, vols.",0,24,== Recordings == | === Compilations ===,1800859
+More 1929–1941,JJR CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,No More 1929–1941 (Yazoo),1,25,== Recordings == | === Compilations ===,1800859
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"""Leaving Trunk"", a cover version of Estes's song ""Milk Cow Blues"", was included on Taj Mahal's self-titled 1968 album.",0,27,== Recordings == | === Songs ===,1800859
+Winter,NNP,SEASON_REGEX,TIME,time_reference,"""Diving Duck Blues"" was recorded by Taj Mahal and Johnny Winter.",0,28,== Recordings == | === Songs ===,1800859
+the 1975,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Led Zeppelin borrowed parts of it for their song ""Custard Pie"", from the 1975 album Physical Graffiti.",1,31,== Recordings == | === Songs ===,1800859
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"""Floating Bridge"" is included on the compilation album The Blues and on Eric Clapton's 1981 album Another Ticket.",0,32,== Recordings == | === Songs ===,1800859
+the 2011,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"It is the opening track on the 2011 album by Gregg Allman, Low Country Blues.",1,32,== Recordings == | === Songs ===,1800859
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"""President Kennedy"" was recorded by Estes for Ry Cooder's 1972 album Boomer's Story.",0,36,== Recordings == | === Songs ===,1800859

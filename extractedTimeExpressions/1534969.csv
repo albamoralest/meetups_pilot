@@ -1,0 +1,51 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 4 , 1923 – February 28 , 1973","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Pablo Rodríguez Lozada (January 4, 1923 – February 28, 1973), better known as Tito Rodríguez, was a Puerto Rican singer and bandleader.",0,0,,1534969
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1940s, both moved to New York, where Tito worked as a percussionist in several popular rhumba ensembles, before directing his own group to great success during the 1950s.",2,0,,1534969
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1940s, both moved to New York, where Tito worked as a percussionist in several popular rhumba ensembles, before directing his own group to great success during the 1950s.",2,0,,1534969
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,His most prolific years coincided with the peak of the mambo and cha-cha-cha dance craze.,3,0,,1534969
+Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years ==,1,2,== Early years ==,1534969
+1936,CD,YEAR_REGEX_1,TIME,time_reference,"In 1936, 13-year-old Rodríguez joined the group of Ladislao (El Maestro Ladí) Martínez, Conjunto de Industrias Nativas, as a singer.",3,3,== Early years ==,1534969
+16 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"When he was 16 years old, he participated in a recording with the renowned Cuarteto Mayarí.",4,3,== Early years ==,1534969
+1940,CD,YEAR_REGEX_1,TIME,time_reference,"In 1940, Rodríguez moved to New York City shortly after his parents, José and Severina, died.",5,3,== Early years ==,1534969
+1935,CD,YEAR_REGEX_1,TIME,time_reference,"He went to live with his brother Johnny, who had been living there since 1935.",6,3,== Early years ==,1534969
+1941,CD,YEAR_REGEX_1,TIME,time_reference,"In 1941, he recorded ""Amor Guajiro"", ""Acércate Más"" (Come Closer) and ""Se Fue la Comparsa"".",1,6,== Musical career == | === Beginnings as a musician ===,1534969
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1942, Rodríguez joined the band of Xavier Cugat, and recorded ""Bim, bam, bum"" and ""Ensalada de congas"" (Conga Salad).",2,6,== Musical career == | === Beginnings as a musician ===,1534969
+one year,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,Rodríguez joined and served in the U.S. Army for one year.,3,6,== Musical career == | === Beginnings as a musician ===,1534969
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"In 1947, Rodríguez made his ""solo"" debut and finally organized his own band, which he named ""Los Diablos del Mambo"" (""the mambo devils"").",0,8,== Musical career == | === Success as a bandleader ===,1534969
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"In 1952, he was honored for having developed his own unique singing style (early in his career he had been heavily influenced, as had so many other singers, such as the Cuban vocalist Miguelito Valdés) by the ""Century Conservatory of Music of New York"".",3,8,== Musical career == | === Success as a bandleader ===,1534969
+Century,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In 1952, he was honored for having developed his own unique singing style (early in his career he had been heavily influenced, as had so many other singers, such as the Cuban vocalist Miguelito Valdés) by the ""Century Conservatory of Music of New York"".",3,8,== Musical career == | === Success as a bandleader ===,1534969
+two consecutive years,CD JJ NNS,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"His orchestra won the ""Gran Trofeo Award"" for two consecutive years.",4,8,== Musical career == | === Success as a bandleader ===,1534969
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"In 1953, Rodríguez heard a percussionist by the name of Cheo Feliciano.",5,8,== Musical career == | === Success as a bandleader ===,1534969
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"At the peak of his popularity during the 1950s, Rodríguez was only rivalled by Tito Puente in New York's Latin music circuit.",0,9,== Musical career == | === Success as a bandleader ===,1534969
+1906,CD,YEAR_REGEX_1,TIME,time_reference,"For example, Rodríguez's version of ""Avísale a mi contrario"" has been often cited as an example of such ""feud"", despite the fact that the song was written by Ignacio Piñeiro in 1906.",2,9,== Musical career == | === Success as a bandleader ===,1534969
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,United Artists years ===,1,10,== Musical career == | === United Artists years ===,1534969
+the beginning of the 1960s,DT NN IN DT NNS,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"In the beginning of the 1960s, the popularity gained by rock music brought changes.",0,11,== Musical career == | === United Artists years ===,1534969
+of the day,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Latin bands began to switch their styles and started playing more salsa and boogaloo, which was more attractive to Latin youth of the day.",1,11,== Musical career == | === United Artists years ===,1534969
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"""Inolvidable"" sold over a million and a half copies world-wide in 1963.",3,11,== Musical career == | === United Artists years ===,1534969
+Later years,RB NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Later years ==,1,12,== Later years ==,1534969
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Rodríguez returned to Puerto Rico in 1966 and built a Japanese-style house in Ocean Park, Santurce, where he lived with his family.",0,13,== Later years ==,1534969
+"February 2 , 1973","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Rodríguez's last public appearance was with Machito and his band on February 2, 1973 at Madison Square Garden in New York City.",0,14,== Later years ==,1534969
+"February 28 , 1973","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Tito Rodríguez died of leukemia on February 28, 1973.",1,14,== Later years ==,1534969
+April 1999,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In April 1999, Tito Rodríguez was represented by his son, Tito Rodríguez Jr., in the induction ceremonies of the International Latin Music Hall of Fame.",0,16,== Legacy ==,1534969
+August 2010,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In August 2010, reggae band Cultura Profética released the song ""Me faltabas tú"" on the album ""La Dulzura"", where the band plays Tito's song in a modern bolero style.",3,16,== Legacy ==,1534969
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Represented by Columbia Records (now Sony International), most of these albums were originally recorded by the Musicor label, which was later sold to West Side Latino records.",0,18,== Selected discography ==,1534969
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"1960 United Artists ""Tito Rodríguez Live at the Palladium""",0,19,== Selected discography ==,1534969
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"1961 WS Latino ""Charanga, Pachanga""",0,20,== Selected discography ==,1534969
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"1961 WS Latino ""Tito Returns to the Palladium – Live""",0,21,== Selected discography ==,1534969
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"1962 WS Latino ""Latin Twist""",0,22,== Selected discography ==,1534969
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"1962 WS Latino ""Tito's Hits""",0,23,== Selected discography ==,1534969
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"1962 WS Latino ""Let's do the Bossanova""",0,24,== Selected discography ==,1534969
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"1963 Palladium Records ""Tito Rodríguez from Hollywood""",0,25,== Selected discography ==,1534969
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"1963 Palladium Records ""Tito Rodríguez Live at Birdland""",0,26,== Selected discography ==,1534969
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"1963 WS Latino ""From Tito With Love""",0,27,== Selected discography ==,1534969
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"1964 WS Latino ""Carnaval de las Américas""",0,28,== Selected discography ==,1534969
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"1967 WS Latino ""En la Oscuridad""",0,29,== Selected discography ==,1534969
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"1968 WS Latino ""Esta es mi Orquesta""",0,30,== Selected discography ==,1534969
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"1969 TR Records ""Inolvidable""",0,31,== Selected discography ==,1534969
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"1971 Fania ""Tito Dice... Sepárala También"" with El Sexteto La Playa",0,32,== Selected discography ==,1534969
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"1972 Tico Records-Fania Legend ""Nostalgia con Tito Rodríguez"" recordings from (1949 a 1958)",0,33,== Selected discography ==,1534969
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"1972 Tico Records-Fania Legend ""Nostalgia con Tito Rodríguez"" recordings from (1949 a 1958)",0,33,== Selected discography ==,1534969
+a 1958,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"1972 Tico Records-Fania Legend ""Nostalgia con Tito Rodríguez"" recordings from (1949 a 1958)",0,33,== Selected discography ==,1534969
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"1993 WS Latino ""Tito Rodríguez con la Rondalla Venezolana: Eternamente""",0,34,== Selected discography ==,1534969
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"1995 TR Records ""Cindy & Tito Rodríguez: Alma con Alma""",0,35,== Selected discography ==,1534969
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"1999 WS Latino ""Tito Rodríguez con la Rondalla Venezolana:",0,36,== Selected discography ==,1534969

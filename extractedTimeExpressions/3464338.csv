@@ -1,0 +1,94 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"November 16 , 1931 – September 28 , 1996","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Samuel Robert Gibson (November 16, 1931 – September 28, 1996) was an American folk singer and a key figure in the folk music revival in the late 1950s and early 1960s.",0,0,,3464338
+the late 1950s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Samuel Robert Gibson (November 16, 1931 – September 28, 1996) was an American folk singer and a key figure in the folk music revival in the late 1950s and early 1960s.",0,0,,3464338
+early 1960s,JJ NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Samuel Robert Gibson (November 16, 1931 – September 28, 1996) was an American folk singer and a key figure in the folk music revival in the late 1950s and early 1960s.",0,0,,3464338
+of 1959,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He introduced a then-unknown Joan Baez at the Newport Folk Festival of 1959.,0,1,,3464338
+the decade,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,He produced a number of LPs in the decade from 1956 to 1965.,1,1,,3464338
+1956 to 1965,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He produced a number of LPs in the decade from 1956 to 1965.,1,1,,3464338
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"His best known album, Gibson & Camp at the Gate of Horn, was released in 1961.",2,1,,3464338
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"After getting sober he attempted a comeback in 1978, but the musical scene had changed and his traditional style of folk music was out of favor with young audiences.",1,2,,3464338
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"In 1993, he was diagnosed with progressive supranuclear palsy (PSP), and died of that disease at the age of 64.",3,2,,3464338
+"November 16 , 1931","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Gibson was born on November 16, 1931, in Brooklyn, New York, United States, between his older sister, Anne, and younger brother, Jim.",0,4,== Biography ==,3464338
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,He left high school in his senior year and hitchhiked around the country.,3,4,== Biography ==,3464338
+the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Back in New York City in the late 1940s, Gibson took a job at a firm that taught speed reading, where he was responsible for sales and public relations.",0,5,== Biography ==,3464338
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"In 1952, he met and married his wife, Rose, who quickly bore three daughters – Barbara (who changed her name to Meridian Green), Pati, and Susan.",1,5,== Biography ==,3464338
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"In 1953, he met Pete Seeger, and helped him rebuild his house.",2,5,== Biography ==,3464338
+the next year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He quit his job, became immersed in the study of folk music, and taught himself to play the banjo over the next year.",4,5,== Biography ==,3464338
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"In 1955, he was booked into the Off-Beat Room in Chicago, where he met Albert Grossman.",0,6,== Biography ==,3464338
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"In 1956, Grossman opened the folk club Gate of Horn on the near north side of Chicago, where Gibson performed for eleven months, starting as an opener for many of the acts, and later becoming the headliner.",1,6,== Biography ==,3464338
+eleven months,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1956, Grossman opened the folk club Gate of Horn on the near north side of Chicago, where Gibson performed for eleven months, starting as an opener for many of the acts, and later becoming the headliner.",1,6,== Biography ==,3464338
+the 1959,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Gibson brought Baez to the 1959 Newport Folk Festival and introduced her, for the first time, to a national audience.",3,6,== Biography ==,3464338
+the early 1960s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Gibson steadily gained recognition in Chicago in the early 1960s, aided by Camp.",4,6,== Biography ==,3464338
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"In 1961 their debut album, Gibson and Camp at the Gate of Horn, was released on Elektra Records.",5,6,== Biography ==,3464338
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Art D'Lugoff opened the iconic Village Gate in New York City in 1958, and Gibson and Camp became regular performers there.",8,6,== Biography ==,3464338
+the next 35 years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Gibson and Silverstein became close friends and writing partners, writing over 200 songs over the next 35 years.",12,6,== Biography ==,3464338
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Their last joint project, in Nashville in 1993, was the Kyle Lhenning album Makin' A Mess at Asylum Records.",13,6,== Biography ==,3464338
+past,NN,TIMELINE_REGEX,TIME,time_reference,"It was written about the relationship of ""the trio from out of our past"", about a girl who always loved a singer, and got together with him several years prior to his death.",15,6,== Biography ==,3464338
+several years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"It was written about the relationship of ""the trio from out of our past"", about a girl who always loved a singer, and got together with him several years prior to his death.",15,6,== Biography ==,3464338
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"Gibson was in and out of jails in Canada, (which led to his hilarious Christmas carol ""Box of Candy and a Piece of Fruit""), Chicago, and Cleveland, for various drug-related charges.",5,8,== Biography == | === Drug abuse ===,3464338
+1969 to 1978,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1969 to 1978, he tried repeatedly to restart his career, but his addictions made it impossible.",7,8,== Biography == | === Drug abuse ===,3464338
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, he attended an Alcoholics Anonymous meeting in Cleveland and eventually regained his sobriety.",8,8,== Biography == | === Drug abuse ===,3464338
+the 1960s—as,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"While he had been a popular and high-profile performer in the 1960s—as well as an important influence on other musicians—by 1978, interest in his purely acoustic folk-styled music had waned significantly.",10,8,== Biography == | === Drug abuse ===,3464338
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"While he had been a popular and high-profile performer in the 1960s—as well as an important influence on other musicians—by 1978, interest in his purely acoustic folk-styled music had waned significantly.",10,8,== Biography == | === Drug abuse ===,3464338
+the next several years,DT JJ JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"Although many remembered Gibson, and he recorded several albums of new music over the next several years, he was never again to capture the mass public appeal of his early 1960s period.",11,8,== Biography == | === Drug abuse ===,3464338
+early 1960s,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Although many remembered Gibson, and he recorded several albums of new music over the next several years, he was never again to capture the mass public appeal of his early 1960s period.",11,8,== Biography == | === Drug abuse ===,3464338
+Around 1990,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Around 1990, Gibson began to experience loss of balance, frequent falls, and other neurological symptoms.",0,10,== Biography == | === Illness and death ===,3464338
+falls,NNS,SEASON_REGEX,TIME,time_reference,"Around 1990, Gibson began to experience loss of balance, frequent falls, and other neurological symptoms.",0,10,== Biography == | === Illness and death ===,3464338
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"In 1994 he entered the Mayo Clinic in Jacksonville, Florida where a diagnosis of progressive supranuclear palsy (PSP) was made.",2,10,== Biography == | === Illness and death ===,3464338
+"September 20 , 1996","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"As his illness advanced, Gibson invited many of his friends to a farewell ""hootenanny"" on September 20, 1996, in Chicago:",5,10,== Biography == | === Illness and death ===,3464338
+am,VBP,HALFDAY_REGEX_1,TIME,,I am finding it increasingly difficult to do the simplest things and traveling is really a challenge.,1,11,== Biography == | === Illness and death ===,3464338
+One week,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"One week later, on September 28, 1996, he died at the home of his daughter, Susan, in Portland.",2,12,== Biography == | === Illness and death ===,3464338
+"September 28 , 1996","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"One week later, on September 28, 1996, he died at the home of his daughter, Susan, in Portland.",2,12,== Biography == | === Illness and death ===,3464338
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"In 1997, Gibson was awarded the Lifetime Achievement Award posthumously by the World Folk Music Association.",0,13,== Biography == | === Illness and death ===,3464338
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Offbeat Folksongs (Riverside, 1956) LP",0,16,== Discography ==,3464338
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"I Come for to Sing (Riverside, 1957) LP",0,17,== Discography ==,3464338
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Carnegie Concert (Riverside, 1957) LP",0,18,== Discography ==,3464338
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Folksongs of Ohio (Stinson Records, 1957) 10"" LP – Note: Released without Bob Gibson's permission",0,19,== Discography ==,3464338
+Tonight,NNP,DAY_TIME_REGEX,TIME,time_reference,"There's A Meetin' Here Tonight (Riverside, 1958) LP",0,20,== Discography ==,3464338
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"There's A Meetin' Here Tonight (Riverside, 1958) LP",0,20,== Discography ==,3464338
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Ski Songs (Elektra, 1959) LP",0,21,== Discography ==,3464338
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Yes I See (Elektra, 1961)",0,22,== Discography ==,3464338
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Bob Gibson and Bob Camp at The Gate of Horn (Elektra, 1961) LP",0,23,== Discography ==,3464338
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Folksongs of Ohio (Stinson Records, 1963 reissue of earlier 10"" LP) LP – Note: Re-released also without Bob Gibson's permission",0,24,== Discography ==,3464338
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Hootenanny at Carnegie (Riverside, 1963 reissue of Carnegie Concert) LP",0,25,== Discography ==,3464338
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Where I'm Bound (Elektra, 1964) LP",0,26,== Discography ==,3464338
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Bob Gibson (Capitol, 1970) LP",0,27,== Discography ==,3464338
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Funky in the Country (Legend Enterprises, 1974) LP – recorded live at Amazingrace Coffeehouse",0,28,== Discography ==,3464338
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Gibson & Camp, Homemade Music (Mountain Railroad Records, 1978) LP",0,29,== Discography ==,3464338
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"The Perfect High (Mountain Railroad Records, 1980) LP",0,30,== Discography ==,3464338
+Saturday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"Uptown Saturday Night (Hogeye Records, 1984) LP",0,31,== Discography ==,3464338
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Uptown Saturday Night (Hogeye Records, 1984) LP",0,31,== Discography ==,3464338
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Best of Friends (1984, on CD, Appleseed Records, 2004), with Tom Paxton and Anne Hills",0,32,== Discography ==,3464338
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Best of Friends (1984, on CD, Appleseed Records, 2004), with Tom Paxton and Anne Hills",0,32,== Discography ==,3464338
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"(B*G Records, 1986)",1,33,== Discography ==,3464338
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"A Child's Happy Birthday Album (B*G Records, 1989)",0,34,== Discography ==,3464338
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Bob Gibson 5/91 – I Hear America Singing (Snapshot Music, 1991)",0,35,== Discography ==,3464338
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Stops Along the Way (B*G Records, 1991)",0,36,== Discography ==,3464338
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"(Folk Era Productions, 1994) CD",1,37,== Discography ==,3464338
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Makin' a Mess, Bob Gibson Sings Shel Silverstein (Asylum Records, 1995) CD",0,38,== Discography ==,3464338
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Joy, Joy!  The Young and Wonderful Bob Gibson (Riverside, 1996) CD",0,39,== Discography ==,3464338
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"Perfect High (re-release of earlier album, 1998) CD",0,40,== Discography ==,3464338
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Bob Gibson and Bob Camp at The Gate of Horn (Collector's Choice, 2002 – re-release of 1961 Elektra LP) CD",0,41,== Discography ==,3464338
+of 1961,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Bob Gibson and Bob Camp at The Gate of Horn (Collector's Choice, 2002 – re-release of 1961 Elektra LP) CD",0,41,== Discography ==,3464338
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Where I'm Bound (Collector's Choice, 2002 – re-release of 1964 Elektra LP) CD",0,42,== Discography ==,3464338
+of 1964,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Where I'm Bound (Collector's Choice, 2002 – re-release of 1964 Elektra LP) CD",0,42,== Discography ==,3464338
+Years,NNP,TIME_UNIT_REGEX,TIME,time_reference,"The Living Legend Years (Bob Gibson Legacy, 2008 – compilation with selections from Funky in the Country, Homemade Music, The Perfect High, Uptown Saturday Night) CD",0,43,== Discography ==,3464338
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"The Living Legend Years (Bob Gibson Legacy, 2008 – compilation with selections from Funky in the Country, Homemade Music, The Perfect High, Uptown Saturday Night) CD",0,43,== Discography ==,3464338
+Saturday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"The Living Legend Years (Bob Gibson Legacy, 2008 – compilation with selections from Funky in the Country, Homemade Music, The Perfect High, Uptown Saturday Night) CD",0,43,== Discography ==,3464338
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Funky in the Country (Bob Gibson Legacy, 2008 – re-issue of 1974 Legend LP) CD",0,44,== Discography ==,3464338
+of 1974,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Funky in the Country (Bob Gibson Legacy, 2008 – re-issue of 1974 Legend LP) CD",0,44,== Discography ==,3464338
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Homemade Music (Bob Gibson Legacy, 2008 – re-issue of 1978 Mountain Railroad LP) CD",0,45,== Discography ==,3464338
+of 1978,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Homemade Music (Bob Gibson Legacy, 2008 – re-issue of 1978 Mountain Railroad LP) CD",0,45,== Discography ==,3464338
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"The Perfect High (Bob Gibson Legacy, 2008 – re-issue of 1980 Mountain Railroad LP) CD",0,46,== Discography ==,3464338
+of 1980,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The Perfect High (Bob Gibson Legacy, 2008 – re-issue of 1980 Mountain Railroad LP) CD",0,46,== Discography ==,3464338
+Saturday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"Uptown Saturday Night (Bob Gibson Legacy, 2008 – re-issue of 1984 Hogeye LP) CD",0,47,== Discography ==,3464338
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Uptown Saturday Night (Bob Gibson Legacy, 2008 – re-issue of 1984 Hogeye LP) CD",0,47,== Discography ==,3464338
+of 1984,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Uptown Saturday Night (Bob Gibson Legacy, 2008 – re-issue of 1984 Hogeye LP) CD",0,47,== Discography ==,3464338
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Ski Songs (Collector's Choice, 2008 – re-issue of 1959 Elektra LP) CD",0,48,== Discography ==,3464338
+of 1959,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Ski Songs (Collector's Choice, 2008 – re-issue of 1959 Elektra LP) CD",0,48,== Discography ==,3464338
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Yes I See (Collector's Choice, 2008 – re-issue of 1961 Elektra LP) CD",0,49,== Discography ==,3464338
+of 1961,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Yes I See (Collector's Choice, 2008 – re-issue of 1961 Elektra LP) CD",0,49,== Discography ==,3464338
+1957,CD,YEAR_REGEX_1,TIME,time_reference,Live at Cornell 1957 (Rediscover Music 2011),0,50,== Discography ==,3464338
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Live at Cornell 1957 (Rediscover Music 2011),0,50,== Discography ==,3464338
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Pelican Publishing Company: Gretna, Louisiana 2001.",3,53,== References ==,3464338
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Lightfoot, Gordon, Gordon Lightfoot Complete Greatest Hits – CD Booklet Page 5, Warner Bros. Records Inc. & Rhino Entertainment Company 2002",0,54,== References ==,3464338

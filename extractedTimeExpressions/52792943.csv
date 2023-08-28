@@ -1,0 +1,12 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"February 19 , 2016","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The album was released by 4AD on February 19, 2016.",1,1,,52792943
+"August 5 , 2016","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On August 5, 2016, the band released ""Green Roses,"" with a running time of 25 minutes.",2,1,,52792943
+of 25 minutes,IN CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"On August 5, 2016, the band released ""Green Roses,"" with a running time of 25 minutes.",2,1,,52792943
+"September 4 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The To a Lake EP was released on September 4, 2020, followed by II on January 29, 2021.",3,1,,52792943
+"January 29 , 2021","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The To a Lake EP was released on September 4, 2020, followed by II on January 29, 2021.",3,1,,52792943
+September 2019,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Both of these were recorded at Public Hi-Fi in Austin, Texas in September 2019 and then pared down by Lanz over the next year.",4,1,,52792943
+the next year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Both of these were recorded at Public Hi-Fi in Austin, Texas in September 2019 and then pared down by Lanz over the next year.",4,1,,52792943
+2016,CD,YEAR_REGEX_1,TIME,time_reference,LNZNDRF (2016),0,3,== Discography ==,52792943
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"""Green Roses""/""Salida"" 12"" (2016)",0,4,== Discography ==,52792943
+2020,CD,YEAR_REGEX_1,TIME,time_reference,To a Lake EP (2020),0,5,== Discography ==,52792943
+2021,CD,YEAR_REGEX_1,TIME,time_reference,II (2021),0,6,== Discography ==,52792943

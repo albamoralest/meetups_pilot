@@ -1,0 +1,125 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"April 16 , 1956 – October 7 , 2010","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Terry ""T"" Lavitz (April 16, 1956 – October 7, 2010) was an American jazz-rock/fusion keyboardist, composer and producer.",0,0,,10214245
+"April 16 , 1956","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Born on April 16, 1956, Lavitz grew up in New Jersey.",0,2,== Biography ==,10214245
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,In his senior year at the UM he was asked to join the Dixie Dregs.,3,2,== Biography ==,10214245
+January 1980,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,He accepted the invitation and played his first show in January 1980.,4,2,== Biography ==,10214245
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"'Dregs of the Earth', released in 1980, was the first Dregs album he could be heard on.",5,2,== Biography ==,10214245
+1981,CD,YEAR_REGEX_1,TIME,time_reference,In 1981 he won the 'Best New Talent' category of Keyboard Magazine's Annual Readers Poll.,6,2,== Biography ==,10214245
+January 1983,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The Dregs broke up in January 1983 and T Lavitz, Rod Morgenstein and Andy West went on tour with former Little Feat guitarist/singer Paul Barrere.",0,3,== Biography ==,10214245
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"'Extended Play', a five song EP, was released in 1984.",1,3,== Biography ==,10214245
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985 Lavitz joined the Bluesbusters, a blues-rock quintet also featuring Paul Barrere, guitarist/singer Catfish Hodge, bass player Freebo (Bonnie Raitt) and drummer Larry Zack.",3,3,== Biography ==,10214245
+1986,CD,YEAR_REGEX_1,TIME,time_reference,His first solo album 'Storytime' was released in 1986.,5,3,== Biography ==,10214245
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"The critically acclaimed 'Players' album with Jeff Berlin, Steve Smith and Scott Henderson was released in 1987.",6,3,== Biography ==,10214245
+1988,CD,YEAR_REGEX_1,TIME,time_reference,The Dregs reunited in 1988 to record two songs as a demonstration CD for the Ensoniq company.,0,4,== Biography ==,10214245
+Later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Later that year T Lavitz joined the reformed Mother's Finest on tour.,2,4,== Biography ==,10214245
+1991,CD,YEAR_REGEX_1,TIME,time_reference,In 1991 T Lavitz was invited to join Widespread Panic after playing keyboards on their first album for the revived Capricorn Records label.,0,5,== Biography ==,10214245
+April 1991,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Lavitz toured with Widespread Panic from April 1991 through the end of that year, but left the band as the Dixie Dregs reunited and re-signed with Capricorn Records in 1992.",1,5,== Biography ==,10214245
+the end of that year,DT NN IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"Lavitz toured with Widespread Panic from April 1991 through the end of that year, but left the band as the Dixie Dregs reunited and re-signed with Capricorn Records in 1992.",1,5,== Biography ==,10214245
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Lavitz toured with Widespread Panic from April 1991 through the end of that year, but left the band as the Dixie Dregs reunited and re-signed with Capricorn Records in 1992.",1,5,== Biography ==,10214245
+February 1992,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,The re-formed Dixie Dregs shared a bill with Widespread Panic at two events in February 1992 with Lavitz performing with both bands; these were his final two appearances as the keyboardist for Widespread Panic.,2,5,== Biography ==,10214245
+February,NNP,MONTH_REGEX,TIME,time_reference,The Dixie Dregs recorded 'Bring 'Em Back Alive' during a tour in February.,3,5,== Biography ==,10214245
+That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,That year T Lavitz won the 'Jazz Keyboardist of the Year' category of Keyboard Magazine's Annual Readers Poll.,5,5,== Biography ==,10214245
+of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,That year T Lavitz won the 'Jazz Keyboardist of the Year' category of Keyboard Magazine's Annual Readers Poll.,5,5,== Biography ==,10214245
+12 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"'Full Circle', the first Dregs studio album in 12 years, was released in 1994.",6,5,== Biography ==,10214245
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"'Full Circle', the first Dregs studio album in 12 years, was released in 1994.",6,5,== Biography ==,10214245
+1996,CD,YEAR_REGEX_1,TIME,time_reference,Another solo album 'Gossip' was recorded before T joined Jefferson Starship in 1996.,7,5,== Biography ==,10214245
+the end of 1997,DT NN IN CD,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER TIME,time_reference,"Jazz Is Dead was formed at the end of 1997 with T Lavitz, Jimmy Herring, Alphonso Johnson and Billy Cobham interpreting the Grateful Dead's music in a jazzy, instrumental vein.",8,5,== Biography ==,10214245
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"""Blue Light Rain"" was recorded during the first tour in 1998.",9,5,== Biography ==,10214245
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"In 2015, a Jazz Is Dead CD called ""Grateful Jazz"" was released (recorded in 2004), five years after T's passing.",0,6,== Biography ==,10214245
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"In 2015, a Jazz Is Dead CD called ""Grateful Jazz"" was released (recorded in 2004), five years after T's passing.",0,6,== Biography ==,10214245
+five years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 2015, a Jazz Is Dead CD called ""Grateful Jazz"" was released (recorded in 2004), five years after T's passing.",0,6,== Biography ==,10214245
+late August 1999,JJ NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,The Dixie Dregs did a short tour in late August 1999.,0,7,== Biography ==,10214245
+millennium,NN,TIME_UNIT_REGEX,TIME,time_reference,In the first part of the new millennium T Lavitz took part in several projects.,0,8,== Biography ==,10214245
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"'Endangered Species', with Jimmy Herring, Richie Hayward and Kenny Gradney was released in 2001, 'Cosmic Farm', with Rob Wasserman, Craig Erickson and Jeff Sipe, was released in 2005 and 'Boston T Party', with Dennis Chambers, Jeff Berlin and Dave Fiuczynski, was released in 2006.",1,8,== Biography ==,10214245
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"'Endangered Species', with Jimmy Herring, Richie Hayward and Kenny Gradney was released in 2001, 'Cosmic Farm', with Rob Wasserman, Craig Erickson and Jeff Sipe, was released in 2005 and 'Boston T Party', with Dennis Chambers, Jeff Berlin and Dave Fiuczynski, was released in 2006.",1,8,== Biography ==,10214245
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"'Endangered Species', with Jimmy Herring, Richie Hayward and Kenny Gradney was released in 2001, 'Cosmic Farm', with Rob Wasserman, Craig Erickson and Jeff Sipe, was released in 2005 and 'Boston T Party', with Dennis Chambers, Jeff Berlin and Dave Fiuczynski, was released in 2006.",1,8,== Biography ==,10214245
+the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"In the summer of 2006 he began teaching at the Summer Performance Program at the Berklee College of Music, Boston, MA.",2,8,== Biography ==,10214245
+of 2006,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the summer of 2006 he began teaching at the Summer Performance Program at the Berklee College of Music, Boston, MA.",2,8,== Biography ==,10214245
+the Summer,DT NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"In the summer of 2006 he began teaching at the Summer Performance Program at the Berklee College of Music, Boston, MA.",2,8,== Biography ==,10214245
+"October 7 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Lavitz died on October 7, 2010.",0,9,== Biography ==,10214245
+1984,CD,YEAR_REGEX_1,TIME,time_reference,1984 Extended Play,0,12,== Discography == | === Solo ===,10214245
+1986,CD,YEAR_REGEX_1,TIME,time_reference,1986 Storytime,0,13,== Discography == | === Solo ===,10214245
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987 From The West,0,14,== Discography == | === Solo ===,10214245
+1989,CD,YEAR_REGEX_1,TIME,time_reference,1989,0,15,== Discography == | === Solo ===,10214245
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991 Mood Swing,0,16,== Discography == | === Solo ===,10214245
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996 Gossip,0,17,== Discography == | === Solo ===,10214245
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009 Electric,0,18,== Discography == | === Solo ===,10214245
+1980,CD,YEAR_REGEX_1,TIME,time_reference,1980 Dregs Of The Earth,0,20,== Discography == | === with Dixie Dregs ===,10214245
+1981,CD,YEAR_REGEX_1,TIME,time_reference,1981 Unsung Heroes,0,21,== Discography == | === with Dixie Dregs ===,10214245
+1982,CD,YEAR_REGEX_1,TIME,time_reference,1982 Industry Standard,0,22,== Discography == | === with Dixie Dregs ===,10214245
+1988,CD,YEAR_REGEX_1,TIME,time_reference,1988,0,23,== Discography == | === with Dixie Dregs ===,10214245
+1989,CD,YEAR_REGEX_1,TIME,time_reference,1989 The Best Of The Dregs – Divided We Stand,0,24,== Discography == | === with Dixie Dregs ===,10214245
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992 Bring 'Em Back Alive,0,25,== Discography == | === with Dixie Dregs ===,10214245
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994 Full Circle,0,26,== Discography == | === with Dixie Dregs ===,10214245
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997 King Biscuit Flower Hour Presents: Dixie Dregs,0,27,== Discography == | === with Dixie Dregs ===,10214245
+Hour Presents,NNP NNS,TIME_UNIT_REGEX TIMELINE_REGEX,TIME TIME,time_reference,1997 King Biscuit Flower Hour Presents: Dixie Dregs,0,27,== Discography == | === with Dixie Dregs ===,10214245
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000 California Screamin',0,28,== Discography == | === with Dixie Dregs ===,10214245
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998 Blue Light Rain,0,30,== Discography == | === with Jazz Is Dead ===,10214245
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999 Laughing Water,0,31,== Discography == | === with Jazz Is Dead ===,10214245
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001 Great Sky River,0,32,== Discography == | === with Jazz Is Dead ===,10214245
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"2015 ""Grateful Jazz""",0,33,== Discography == | === with Jazz Is Dead ===,10214245
+1986,CD,YEAR_REGEX_1,TIME,time_reference,1986 Accept No Substitute,0,35,== Discography == | === with The Bluesbusters ===,10214245
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987,0,36,== Discography == | === with The Bluesbusters ===,10214245
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999 Windows of Heaven,0,38,== Discography == | === with Jefferson Starship ===,10214245
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987 Players – Players,0,40,== Discography == | === Projects ===,10214245
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992 The Connection – Inside Out,0,41,== Discography == | === Projects ===,10214245
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"2001 Jimmy Herring, T Lavitz, Richie Hayward, Kenny Gradney – Endangered Species",0,42,== Discography == | === Projects ===,10214245
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"2005 Rob Wasserman, Craig Erickson, T Lavitz, Jeff Sipe – Cosmic Farm",0,43,== Discography == | === Projects ===,10214245
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"2006 Dennis Chambers, Jeff Berlin, Dave Fiuczynski, T Lavitz – Boston T Party",0,44,== Discography == | === Projects ===,10214245
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"2007 T Lavitz, Dave Weckl, John Patitucci, Frank Gambale, Steve Morse, Jerry Goodman – School of The Arts",0,45,== Discography == | === Projects ===,10214245
+1979,CD,YEAR_REGEX_1,TIME,time_reference,1979 University of Miami Concert Jazz Band – Halcyon Days,0,47,== Discography == | === other appearances ===,10214245
+Days,NNP,TIME_UNIT_REGEX,TIME,time_reference,1979 University of Miami Concert Jazz Band – Halcyon Days,0,47,== Discography == | === other appearances ===,10214245
+1980,CD,YEAR_REGEX_1,TIME,time_reference,1980 Darryl Rhoades and the HaHaVishnu Orchestra – Burgers From Heaven,0,48,== Discography == | === other appearances ===,10214245
+1981,CD,YEAR_REGEX_1,TIME,time_reference,1981 Projections – Projections,0,49,== Discography == | === other appearances ===,10214245
+1983,CD,YEAR_REGEX_1,TIME,time_reference,1983 Art in America – Art In America,0,50,== Discography == | === other appearances ===,10214245
+1983,CD,YEAR_REGEX_1,TIME,time_reference,1983 Paul Barrere – On My Own Two Feet,0,51,== Discography == | === other appearances ===,10214245
+1984,CD,YEAR_REGEX_1,TIME,time_reference,1984 John Macey – Meltdown,0,52,== Discography == | === other appearances ===,10214245
+1984,CD,YEAR_REGEX_1,TIME,time_reference,1984 Steve Morse Band – The Introduction,0,53,== Discography == | === other appearances ===,10214245
+1984,CD,YEAR_REGEX_1,TIME,time_reference,1984 Paul Barrere – Real Lies,0,54,== Discography == | === other appearances ===,10214245
+1984,CD,YEAR_REGEX_1,TIME,time_reference,1984 Stretch – Stretch,0,55,== Discography == | === other appearances ===,10214245
+1985,CD,YEAR_REGEX_1,TIME,time_reference,1985 Steve Morse Band – Stand Up,0,56,== Discography == | === other appearances ===,10214245
+1985,CD,YEAR_REGEX_1,TIME,time_reference,1985 Nils Lofgren – Flip,0,57,== Discography == | === other appearances ===,10214245
+1985,CD,YEAR_REGEX_1,TIME,time_reference,1985 Jeff Berlin & Vox Humana – Champion,0,58,== Discography == | === other appearances ===,10214245
+1985,CD,YEAR_REGEX_1,TIME,time_reference,1985 Electric Tigers – Electric Tigers,0,59,== Discography == | === other appearances ===,10214245
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987 Mark O'Connor – Stone From Which The Arch Was Made,0,60,== Discography == | === other appearances ===,10214245
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987 Col. Bruce Hampton – Arkansas,0,61,== Discography == | === other appearances ===,10214245
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987 Electric Tigers – Here To Stay,0,62,== Discography == | === other appearances ===,10214245
+1988,CD,YEAR_REGEX_1,TIME,time_reference,1988 Widespread Panic – Space Wrangler,0,63,== Discography == | === other appearances ===,10214245
+1989,CD,YEAR_REGEX_1,TIME,time_reference,1989 Steve Morse – High Tension Wires,0,64,== Discography == | === other appearances ===,10214245
+1990,CD,YEAR_REGEX_1,TIME,time_reference,1990 Lonesome Val – Lonesome Val,0,65,== Discography == | === other appearances ===,10214245
+1991David,CD,YEAR_REGEX_1,TIME,time_reference,1991David Becker Tribune – ''In Motion’’,0,66,== Discography == | === other appearances ===,10214245
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991 Widespread Panic – Widespread Panic,0,67,== Discography == | === other appearances ===,10214245
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992 Various Artists – Legacy II: A Collection Of Singer Songwriters,0,68,== Discography == | === other appearances ===,10214245
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992 Kiko – Kiko,0,69,== Discography == | === other appearances ===,10214245
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992 Dave LaRue – Hub City Kid,0,70,== Discography == | === other appearances ===,10214245
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992 Bob Mansueto – Like A Stranger,0,71,== Discography == | === other appearances ===,10214245
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1993 Glenn Alexander – Rainbow's Revenge,0,72,== Discography == | === other appearances ===,10214245
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994 Steve Bailey – Evolution,0,73,== Discography == | === other appearances ===,10214245
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994 Jeff Richman – The Blue Heart,0,74,== Discography == | === other appearances ===,10214245
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995 Catfish Hodge – Like A Big Dog Barkin',0,75,== Discography == | === other appearances ===,10214245
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995 Greg Koch And The Tone Controls – Strat's Got Your Tongue,0,76,== Discography == | === other appearances ===,10214245
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995 Gary Tanin – Sublime Nation,0,77,== Discography == | === other appearances ===,10214245
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996 Kacee – Seeing Red,0,78,== Discography == | === other appearances ===,10214245
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997 Pat Benatar – Innamorata,0,79,== Discography == | === other appearances ===,10214245
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998 Peter Himmelman – Love Thinketh No Evil,0,80,== Discography == | === other appearances ===,10214245
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998 [Soundtrack] – The Souler Opposite,0,81,== Discography == | === other appearances ===,10214245
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998 Robbie Krieger – Cinematix,0,82,== Discography == | === other appearances ===,10214245
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998 Jeff Richman – Sand Dance,0,83,== Discography == | === other appearances ===,10214245
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000 Soulfarm – Live At Wetlands,0,84,== Discography == | === other appearances ===,10214245
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000 Jim Stubblefield – Cities Of Gold,0,85,== Discography == | === other appearances ===,10214245
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000 Inasense – Get Your Shinebox,0,86,== Discography == | === other appearances ===,10214245
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001 C Lanzbom – From This Day On,0,87,== Discography == | === other appearances ===,10214245
+This Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2001 C Lanzbom – From This Day On,0,87,== Discography == | === other appearances ===,10214245
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002 Andy West With Rama – Rama 1,0,88,== Discography == | === other appearances ===,10214245
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002 Candlewyck – Play,0,89,== Discography == | === other appearances ===,10214245
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002 Candlewyck – Once Up,0,90,== Discography == | === other appearances ===,10214245
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003 Bluestrain – Dancing With My Baby,0,91,== Discography == | === other appearances ===,10214245
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003 Widespread Panic – Panic In The Streets,0,92,== Discography == | === other appearances ===,10214245
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003 Peter Himmelman – My Best Friend Is A Salamander,0,93,== Discography == | === other appearances ===,10214245
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003 Roy Vogt – Simplicity,0,94,== Discography == | === other appearances ===,10214245
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003 Zyg – To The Rescue,0,95,== Discography == | === other appearances ===,10214245
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005 Steve Yanek – Across The Landscape,0,96,== Discography == | === other appearances ===,10214245
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007 Woody Moran – Tu-Toned Stranger,0,97,== Discography == | === other appearances ===,10214245
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008 Teresa Storch – Stream Of Concrete,0,98,== Discography == | === other appearances ===,10214245
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009 Laura Siersema – Talon of The Blackwater,0,99,== Discography == | === other appearances ===,10214245
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010 Julien Kasper Band – Trance Groove,0,100,== Discography == | === other appearances ===,10214245

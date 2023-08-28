@@ -1,201 +1,201 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"February 26 , 1916 – June 24 , 1987","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"John Herbert Gleason (February 26, 1916 – June 24, 1987) was an American actor, comedian, writer, composer, and conductor known affectionately as ""The Great One.""",0,0,,143114
-1970,CD,YEAR_REGEX_1,TIME,time_reference,"He also developed The Jackie Gleason Show, which maintained high ratings from the mid-1950s through 1970.",2,0,,143114
-1964,CD,YEAR_REGEX_1,TIME,time_reference,"After originating in New York City, filming moved to Miami Beach, Florida, in 1964 after Gleason took up permanent residence there.",3,0,,143114
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"Among his notable film roles were Minnesota Fats in 1961's The Hustler (co-starring with Paul Newman), and Buford T. Justice in the Smokey and the Bandit series from 1977 to 1983 (co-starring Burt Reynolds).",0,1,,143114
-1977 to 1983,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Among his notable film roles were Minnesota Fats in 1961's The Hustler (co-starring with Paul Newman), and Buford T. Justice in the Smokey and the Bandit series from 1977 to 1983 (co-starring Burt Reynolds).",0,1,,143114
-the 1950s and 1960s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Gleason enjoyed a prominent secondary music career during the 1950s and 1960s, producing a series of best-selling ""mood music"" albums.",0,2,,143114
-153 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"His first album, Music for Lovers Only, still holds the record for the longest stay on the Billboard Top Ten Charts (153 weeks), and his first 10 albums sold over a million copies each.",1,2,,143114
-"February 26 , 1916","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"John Herbert Gleason was born on February 26, 1916, at 364 Chauncey Street in the Stuyvesant Heights, now Bedford-Stuyvesant, section of Brooklyn.",0,4,== Early life ==,143114
-now,RB,TIMELINE_REGEX,TIME,time_reference,"John Herbert Gleason was born on February 26, 1916, at 364 Chauncey Street in the Stuyvesant Heights, now Bedford-Stuyvesant, section of Brooklyn.",0,4,== Early life ==,143114
-1919,CD,YEAR_REGEX_1,TIME,time_reference,Gleason was one of two children; his brother Clement J. died of meningitis at the age of 14 in 1919.,3,4,== Early life ==,143114
-the evenings,DT NNS,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"He used to watch his father work at the family's kitchen table, writing insurance policies in the evenings.",5,4,== Early life ==,143114
-the night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"On the night of December 14, 1925, Gleason's father disposed of any family photos in which he appeared; just after noon on December 15, he collected his hat, coat, and paycheck, and permanently left his family and job at the insurance company.",6,4,== Early life ==,143114
-"of December 14 , 1925","IN NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"On the night of December 14, 1925, Gleason's father disposed of any family photos in which he appeared; just after noon on December 15, he collected his hat, coat, and paycheck, and permanently left his family and job at the insurance company.",6,4,== Early life ==,143114
-noon,NN,DAY_TIME_REGEX,TIME,time_reference,"On the night of December 14, 1925, Gleason's father disposed of any family photos in which he appeared; just after noon on December 15, he collected his hat, coat, and paycheck, and permanently left his family and job at the insurance company.",6,4,== Early life ==,143114
-December 15,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On the night of December 14, 1925, Gleason's father disposed of any family photos in which he appeared; just after noon on December 15, he collected his hat, coat, and paycheck, and permanently left his family and job at the insurance company.",6,4,== Early life ==,143114
-night,NN,DAY_TIME_REGEX,TIME,time_reference,Gleason became interested in performing after being part of a class play; he quit school before graduating and got a job that paid $4 per night as master of ceremonies at a theater.,10,4,== Early life ==,143114
-night,NN,DAY_TIME_REGEX,TIME,time_reference,"Gleason and his friends made the rounds of the local theaters; he put an act together with one of his friends, and the pair performed on amateur night at the Halsey Theater, where Gleason replaced his friend Sammy Birch as master of ceremonies.",12,4,== Early life ==,143114
-a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,He performed the same duties twice a week at the Folly Theater.,13,4,== Early life ==,143114
-1935,CD,YEAR_REGEX_1,TIME,time_reference,Gleason was 19 when his mother died in 1935 of sepsis from a large neck carbuncle that young Jackie had tried to lance.,14,4,== Early life ==,143114
-nowhere,RB,TIMELINE_REGEX,TIME,time_reference,"He had nowhere to go, and thirty-six cents to his name.",15,4,== Early life ==,143114
-of the day,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Gleason worked his way up to a job at New York's Club 18, where insulting its patrons was the order of the day.",0,6,== Career ==,143114
-now,RB,TIMELINE_REGEX,TIME,time_reference,"Gleason greeted noted skater Sonja Henie by handing her an ice cube and saying, ""Okay, now do something.""",1,6,== Career ==,143114
-250 a week,CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"It was here that Jack L. Warner first saw Gleason, signing him to a film contract for $250 a week.",2,6,== Career ==,143114
-1941,CD,YEAR_REGEX_1,TIME,time_reference,"By age 24, Gleason was appearing in movies: first for Warner Brothers (as Jackie C. Gleason) in such films as Navy Blues (1941) with Ann Sheridan and Martha Raye and All Through the Night (1941) with Humphrey Bogart, for Columbia Pictures for the B military comedy Tramp, Tramp, Tramp! (1942) and finally for Twentieth Century-Fox, where Gleason played Glenn Miller Orchestra bassist Ben Beck in Orchestra Wives (1942).",3,6,== Career ==,143114
-the Night,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"By age 24, Gleason was appearing in movies: first for Warner Brothers (as Jackie C. Gleason) in such films as Navy Blues (1941) with Ann Sheridan and Martha Raye and All Through the Night (1941) with Humphrey Bogart, for Columbia Pictures for the B military comedy Tramp, Tramp, Tramp! (1942) and finally for Twentieth Century-Fox, where Gleason played Glenn Miller Orchestra bassist Ben Beck in Orchestra Wives (1942).",3,6,== Career ==,143114
-1941,CD,YEAR_REGEX_1,TIME,time_reference,"By age 24, Gleason was appearing in movies: first for Warner Brothers (as Jackie C. Gleason) in such films as Navy Blues (1941) with Ann Sheridan and Martha Raye and All Through the Night (1941) with Humphrey Bogart, for Columbia Pictures for the B military comedy Tramp, Tramp, Tramp! (1942) and finally for Twentieth Century-Fox, where Gleason played Glenn Miller Orchestra bassist Ben Beck in Orchestra Wives (1942).",3,6,== Career ==,143114
-1942,CD,YEAR_REGEX_1,TIME,time_reference,"By age 24, Gleason was appearing in movies: first for Warner Brothers (as Jackie C. Gleason) in such films as Navy Blues (1941) with Ann Sheridan and Martha Raye and All Through the Night (1941) with Humphrey Bogart, for Columbia Pictures for the B military comedy Tramp, Tramp, Tramp! (1942) and finally for Twentieth Century-Fox, where Gleason played Glenn Miller Orchestra bassist Ben Beck in Orchestra Wives (1942).",3,6,== Career ==,143114
-Century-Fox,NNP,TIME_UNIT_REGEX,TIME,time_reference,"By age 24, Gleason was appearing in movies: first for Warner Brothers (as Jackie C. Gleason) in such films as Navy Blues (1941) with Ann Sheridan and Martha Raye and All Through the Night (1941) with Humphrey Bogart, for Columbia Pictures for the B military comedy Tramp, Tramp, Tramp! (1942) and finally for Twentieth Century-Fox, where Gleason played Glenn Miller Orchestra bassist Ben Beck in Orchestra Wives (1942).",3,6,== Career ==,143114
-1942,CD,YEAR_REGEX_1,TIME,time_reference,"By age 24, Gleason was appearing in movies: first for Warner Brothers (as Jackie C. Gleason) in such films as Navy Blues (1941) with Ann Sheridan and Martha Raye and All Through the Night (1941) with Humphrey Bogart, for Columbia Pictures for the B military comedy Tramp, Tramp, Tramp! (1942) and finally for Twentieth Century-Fox, where Gleason played Glenn Miller Orchestra bassist Ben Beck in Orchestra Wives (1942).",3,6,== Career ==,143114
-1942,CD,YEAR_REGEX_1,TIME,time_reference,"He also had a small part as a soda shop clerk in Larceny, Inc. (1942), with Edward G. Robinson, and a modest part as an actor's agent in the 1942 Betty Grable–Harry James musical Springtime in the Rockies.",4,6,== Career ==,143114
-the 1942,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He also had a small part as a soda shop clerk in Larceny, Inc. (1942), with Edward G. Robinson, and a modest part as an actor's agent in the 1942 Betty Grable–Harry James musical Springtime in the Rockies.",4,6,== Career ==,143114
-Springtime,NNP,SEASON_REGEX,TIME,time_reference,"He also had a small part as a soda shop clerk in Larceny, Inc. (1942), with Edward G. Robinson, and a modest part as an actor's agent in the 1942 Betty Grable–Harry James musical Springtime in the Rockies.",4,6,== Career ==,143114
-1943,CD,YEAR_REGEX_1,TIME,time_reference,"However, in 1943 the US started drafting men with children.",1,7,== Career ==,143114
-a nightclub,DT JJ,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,Gleason did not make a strong impression on Hollywood at first; at the time he developed a nightclub act that included comedy and music.,4,7,== Career ==,143114
-the end of 1942,DT NN IN CD,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER TIME,time_reference,"At the end of 1942, Gleason and Lew Parker led a large cast of entertainers in the road show production of Olsen and Johnson's New 1943 Hellzapoppin.",5,7,== Career ==,143114
-1943,CD,YEAR_REGEX_1,TIME,time_reference,"At the end of 1942, Gleason and Lew Parker led a large cast of entertainers in the road show production of Olsen and Johnson's New 1943 Hellzapoppin.",5,7,== Career ==,143114
-the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"""Anyone who knew Jackie Gleason in the 1940s"", wrote CBS historian Robert Metz, ""would tell you The Fat Man would never make it.",7,7,== Career ==,143114
-the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Rodney Dangerfield wrote that he witnessed Gleason purchasing marijuana in the 1940s.,9,7,== Career ==,143114
-1944,CD,YEAR_REGEX_1,TIME,time_reference,Gleason's first significant recognition as an entertainer came on Broadway when he appeared in the hit musical Follow the Girls (1944).,10,7,== Career ==,143114
-nightclub,NN,DAY_TIME_REGEX,TIME,time_reference,"While working in films in California, Gleason also worked at former boxer Maxie Rosenbloom's nightclub (Slapsy Maxie's, on Wilshire Boulevard).",11,7,== Career ==,143114
-1949,CD,YEAR_REGEX_1,TIME,time_reference,"Gleason's big break occurred in 1949, when he landed the role of blunt but softhearted aircraft worker Chester A. Riley for the first television version of the radio comedy The Life of Riley.",0,9,== Career == | === Early television ===,143114
-one year,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Despite positive reviews, the show received modest ratings and was cancelled after one year.",2,9,== Career == | === Early television ===,143114
-1953,CD,YEAR_REGEX_1,TIME,time_reference,Bendix reprised the role in 1953 for a five-year series.,3,9,== Career == | === Early television ===,143114
-late 1950s,VB CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,The Life of Riley became a television hit for Bendix during the mid- to late 1950s.,4,9,== Career == | === Early television ===,143114
-nightclub,JJ,DAY_TIME_REGEX,TIME,time_reference,"But long before this, Gleason's nightclub act had received attention from New York City's inner circle and the fledgling DuMont Television Network.",0,10,== Career == | === Early television ===,143114
-hour,NN,TIME_UNIT_REGEX,TIME,time_reference,"He was working at Slapsy Maxie's when he was hired to host DuMont's Cavalcade of Stars variety hour in 1950, having been recommended by comedy writer Harry Crane, whom he knew from his days as a stand-up comedian in New York.",1,10,== Career == | === Early television ===,143114
-1950,CD,YEAR_REGEX_1,TIME,time_reference,"He was working at Slapsy Maxie's when he was hired to host DuMont's Cavalcade of Stars variety hour in 1950, having been recommended by comedy writer Harry Crane, whom he knew from his days as a stand-up comedian in New York.",1,10,== Career == | === Early television ===,143114
-days,NNS,TIME_UNIT_REGEX,TIME,time_reference,"He was working at Slapsy Maxie's when he was hired to host DuMont's Cavalcade of Stars variety hour in 1950, having been recommended by comedy writer Harry Crane, whom he knew from his days as a stand-up comedian in New York.",1,10,== Career == | === Early television ===,143114
-first offered two weeks,RB VBN CD NNS,ORDINAL_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER NUMERAL TIME,time_reference,The program initially had rotating hosts; Gleason was first offered two weeks at $750 per week.,2,10,== Career == | === Early television ===,143114
-week,NN,TIME_UNIT_REGEX,TIME,time_reference,The program initially had rotating hosts; Gleason was first offered two weeks at $750 per week.,2,10,== Career == | === Early television ===,143114
-four weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"When he responded it was not worth the train trip to New York, the offer was extended to four weeks.",3,10,== Career == | === Early television ===,143114
-the next decade,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He framed the acts with splashy dance numbers, developed sketch characters he would refine over the next decade, and became enough of a presence that CBS wooed him to its network in 1952.",5,10,== Career == | === Early television ===,143114
-1952,CD,YEAR_REGEX_1,TIME,time_reference,"He framed the acts with splashy dance numbers, developed sketch characters he would refine over the next decade, and became enough of a presence that CBS wooed him to its network in 1952.",5,10,== Career == | === Early television ===,143114
-the 1954–55,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Renamed The Jackie Gleason Show, the program became the country's second-highest-rated television show during the 1954–55 season.",0,11,== Career == | === Early television ===,143114
-June,NNP,MONTH_REGEX,TIME,time_reference,"Gleason amplified the show with even splashier opening dance numbers, inspired by Busby Berkeley screen dance routines and featuring the precision-choreographed June Taylor Dancers.",1,11,== Career == | === Early television ===,143114
-1914,CD,YEAR_REGEX_1,TIME,time_reference,"Then, accompanied by ""a little travelin' music"" (""That's a Plenty"", a Dixieland classic from 1914), he would shuffle toward the wings, clapping his hands and shouting, ""And awaaay we go!""",3,11,== Career == | === Early television ===,143114
-the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Ray Bloch was Gleason's first music director, followed by Sammy Spear, who stayed with Gleason through the 1960s; Gleason often kidded both men during his opening monologues.",7,11,== Career == | === Early television ===,143114
-late night,JJ NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Stanley R. Sogg, a pitchman, who usually appeared on commercials during late night movies and sold items that came with extras bonuses.",0,19,== Career == | === Early television ===,143114
-a 1985,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"wayIn a 1985 interview, Gleason related some of his characters to his youth in Brooklyn.",1,20,== Career == | === Early television ===,143114
-later that day,RB DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"With a photographic memory he read the script once, watched a rehearsal with his co-stars and stand-in, and shot the show later that day.",5,20,== Career == | === Early television ===,143114
-One of these days,CD IN DT NNS,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER MODIFIER TIME,time_range,"Gleason developed catchphrases he used on The Honeymooners, such as threats to Alice: ""One of these days, Alice, pow, right in the kisser"" or ""Bang! Zoom!",0,23,== Career == | ==== The Honeymooners ====,143114
-"October 5 , 1951","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The Honeymooners first was featured on Cavalcade of Stars on October 5, 1951, with Carney in a guest appearance as a cop (Norton did not appear until a few episodes later) and character actress Pert Kelton as Alice.",4,24,== Career == | ==== The Honeymooners ====,143114
-15 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"As Kramden, Gleason played a frustrated bus driver with a battleaxe of a wife in harrowingly realistic arguments; when Meadows (who was 15 years younger than Kelton) took over the role after Kelton was blacklisted, the tone softened considerably.",6,24,== Career == | ==== The Honeymooners ====,143114
-1955,CD,YEAR_REGEX_1,TIME,time_reference,In 1955 Gleason gambled on making it a separate series entirely.,0,26,== Career == | ==== The Honeymooners ====,143114
-A decade,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"A decade later, he aired the half-hour Honeymooners in syndicated reruns that began to build a loyal and growing audience, making the show a television icon.",4,26,== Career == | ==== The Honeymooners ====,143114
-2000,CD,YEAR_REGEX_1,TIME,time_reference,"Its popularity was such that in 2000, a life-size statue of Jackie Gleason, in uniform as bus driver Ralph Kramden, was installed outside the Port Authority Bus Terminal in New York City.",5,26,== Career == | ==== The Honeymooners ====,143114
-1956–7,CD,YEAR_REGEX_1,TIME,time_reference,"Gleason went back to the live format for 1956–7 and short and long versions, including hour-long musicals.",0,27,== Career == | ==== The Honeymooners ====,143114
-presentations,NNS,TIMELINE_REGEX,TIME,time_reference,"These musical presentations were reprised ten years later, in color, with Sheila MacRae and Jane Keane, as Alice and Trixie.",1,27,== Career == | ==== The Honeymooners ====,143114
-ten years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"These musical presentations were reprised ten years later, in color, with Sheila MacRae and Jane Keane, as Alice and Trixie.",1,27,== Career == | ==== The Honeymooners ====,143114
-of the '50s,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER MODIFIER TIME,time_reference,"Audrey Meadows reappeared for one black-and-white remake of the '50s sketch, ""The Adoption"", telecast January 8, 1966.",0,28,== Career == | ==== The Honeymooners ====,143114
-"January 8 , 1966","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Audrey Meadows reappeared for one black-and-white remake of the '50s sketch, ""The Adoption"", telecast January 8, 1966.",0,28,== Career == | ==== The Honeymooners ====,143114
-Ten years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Ten years later she rejoined Gleason and Carney, but without Joyce Randolph, and with Jane Kean, for several TV Specials (one special from 1973 was shelved).",1,28,== Career == | ==== The Honeymooners ====,143114
-1973,CD,YEAR_REGEX_1,TIME,time_reference,"Ten years later she rejoined Gleason and Carney, but without Joyce Randolph, and with Jane Kean, for several TV Specials (one special from 1973 was shelved).",1,28,== Career == | ==== The Honeymooners ====,143114
-June 1957,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,The Jackie Gleason Show ended in June 1957.,0,29,== Career == | ==== The Honeymooners ====,143114
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"In 1959, Jackie discussed the possibility of bringing back The Honeymooners in new episodes.",1,29,== Career == | ==== The Honeymooners ====,143114
-late 1960 and two,JJ CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX BASIC_NUMBER_REGEX_1,MODIFIER TIME MODIFIER NUMERAL,time_reference,"His dream was partially realized with a Kramden-Norton sketch on a CBS variety show in late 1960 and two more sketches on his new hour long CBS show, The American Scene Magazine, in 1962.",2,29,== Career == | ==== The Honeymooners ====,143114
-hour,NN,TIME_UNIT_REGEX,TIME,time_reference,"His dream was partially realized with a Kramden-Norton sketch on a CBS variety show in late 1960 and two more sketches on his new hour long CBS show, The American Scene Magazine, in 1962.",2,29,== Career == | ==== The Honeymooners ====,143114
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"His dream was partially realized with a Kramden-Norton sketch on a CBS variety show in late 1960 and two more sketches on his new hour long CBS show, The American Scene Magazine, in 1962.",2,29,== Career == | ==== The Honeymooners ====,143114
-the 1950s and 1960s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Throughout the 1950s and 1960s Gleason enjoyed a prominent secondary music career, producing a series of best-selling ""mood music"" albums with jazz overtones for Capitol Records.",0,31,== Career == | === Music ===,143114
-153 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Gleason reasoned, ""If Gable needs music, a guy in Brooklyn must be desperate!""Gleason's first album, Music for Lovers Only, still holds the record for the longest stay on the Billboard Top Ten Charts (153 weeks), and his first 10 albums sold over a million copies each.",4,31,== Career == | === Music ===,143114
-the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In spite of period accounts establishing his direct involvement in musical production, varying opinions have appeared over the years as to how much credit Gleason should have received for the finished products.",8,31,== Career == | === Music ===,143114
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"Biographer William A. Henry wrote in his 1992 book, The Great One: The Life and Legend of Jackie Gleason, that beyond the possible conceptualizing of many of the song melodies, Gleason had no direct involvement (such as conducting) in making the recordings.",9,31,== Career == | === Music ===,143114
-years,NNS,TIME_UNIT_REGEX,TIME,time_reference,But years earlier Hackett had glowingly told writer James Bacon:,0,32,== Career == | === Music ===,143114
-of the 1950s and 1960s,IN DT CD CC CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,The composer and arranger George Williams has been cited in various biographies as having served as ghostwriter for the majority of arrangements heard on many of Gleason's albums of the 1950s and 1960s.,0,34,== Career == | === Music ===,143114
-the early 1960s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Williams was not given credit for his work until the early 1960s, albeit only in small print on the backs of album covers.",1,34,== Career == | === Music ===,143114
-1959–60,CD,YEAR_REGEX_1,TIME,time_reference,"Gleason's lead role in the musical, Take Me Along (1959–60), won him a Tony Award for Best Performance by a Leading Actor in a Musical.",0,35,== Career == | === Music ===,143114
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"In 1956 Gleason revived his original variety hour (including The Honeymooners), winning a Peabody Award.",0,37,== Career == | === Return to television ===,143114
-hour,NN,TIME_UNIT_REGEX,TIME,time_reference,"In 1956 Gleason revived his original variety hour (including The Honeymooners), winning a Peabody Award.",0,37,== Career == | === Return to television ===,143114
-1957,CD,YEAR_REGEX_1,TIME,time_reference,"He abandoned the show in 1957 when his ratings for the season came in at No. 29 and the network ""suggested"" he needed a break.",1,37,== Career == | === Return to television ===,143114
-1958,CD,YEAR_REGEX_1,TIME,time_reference,"He returned in 1958 with a half-hour show featuring Buddy Hackett, which did not catch on.",2,37,== Career == | === Return to television ===,143114
-two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,It took Gleason two years to design the house; it was completed in 1959.,2,38,== Career == | === Return to television ===,143114
-1959,CD,YEAR_REGEX_1,TIME,time_reference,It took Gleason two years to design the house; it was completed in 1959.,2,38,== Career == | === Return to television ===,143114
-October 1960,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In October 1960, Gleason and Carney briefly returned, for a Honeymooners sketch, on a TV special.",4,38,== Career == | === Return to television ===,143114
-the next week,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"His next foray into television was the game show You're in the Picture, which was cancelled after a disastrously received premiere episode, but was followed the next week by a broadcast of Gleason's humorous half-hour apology, which was much better appreciated.",5,38,== Career == | === Return to television ===,143114
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962, Gleason resurrected his variety show with more splashiness and a new hook: a fictitious general-interest magazine called The American Scene Magazine, through which Gleason trotted out his old characters in new scenarios; including two new Honeymooners sketches.",0,39,== Career == | === Return to television ===,143114
-the 1963,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He also added another catchphrase to the American vernacular, first uttered in the 1963 film Papa's Delicate Condition: ""How sweet it is!""",1,39,== Career == | === Return to television ===,143114
-several minutes,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Comedian Alice Ghostley occasionally appeared as a downtrodden tenement resident, sitting on her front step and listening to boorish boyfriend Gleason for several minutes.",5,39,== Career == | === Return to television ===,143114
-the 1966,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Gleason revived The Honeymooners—first with Sue Ane Langdon as Alice and Patricia Wilson as Trixie for two episodes of The American Scene Magazine, then with Sheila MacRae as Alice and Jane Kean as Trixie for the 1966 series.",0,41,== Career == | === Return to television ===,143114
-1964,CD,YEAR_REGEX_1,TIME,time_reference,"By 1964 Gleason had moved the production from New York to Miami Beach, Florida, reportedly because he liked year-round access to the golf course at the nearby Inverrary Country Club in Lauderhill (where he built his final home).",1,41,== Career == | === Return to television ===,143114
-1966,CD,YEAR_REGEX_1,TIME,time_reference,"In 1966, he abandoned the American Scene Magazine format and converted the show into a standard variety hour with guest performers.",3,41,== Career == | === Return to television ===,143114
-hour,NN,TIME_UNIT_REGEX,TIME,time_reference,"In 1966, he abandoned the American Scene Magazine format and converted the show into a standard variety hour with guest performers.",3,41,== Career == | === Return to television ===,143114
-off the 1966–1967,RP DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Gleason kicked off the 1966–1967 season with new, color episodes of The Honeymooners.",0,42,== Career == | === Return to television ===,143114
-of the 1957,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"The sketches were remakes of the 1957 world-tour episodes, in which Kramden and Norton win a slogan contest and take their wives to international destinations.",2,42,== Career == | === Return to television ===,143114
-1970,CD,YEAR_REGEX_1,TIME,time_reference,This was the show's format until its cancellation in 1970.,5,42,== Career == | === Return to television ===,143114
-the 1968–1969,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"(The exception was the 1968–1969 season, which had no hour-long Honeymooners episodes; that season, The Honeymooners was presented only in short sketches).",6,42,== Career == | === Return to television ===,143114
-"February 28 , 1970","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"In the last original Honeymooners episode aired on CBS (""Operation Protest"" on February 28, 1970), Ralph encounters the youth-protest movement of the late 1960s, a sign of changing times in both television and society.",9,42,== Career == | === Return to television ===,143114
-of the late 1960s,IN DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER TIME,time_reference,"In the last original Honeymooners episode aired on CBS (""Operation Protest"" on February 28, 1970), Ralph encounters the youth-protest movement of the late 1960s, a sign of changing times in both television and society.",9,42,== Career == | === Return to television ===,143114
-the 1950s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Gleason (who had signed a deal in the 1950s that included a guaranteed $100,000 annual payment for 20 years, even if he never went on the air) wanted The Honeymooners to be just a portion of his format, but CBS wanted another season of only The Honeymooners.",0,43,== Career == | === Return to television ===,143114
-20 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Gleason (who had signed a deal in the 1950s that included a guaranteed $100,000 annual payment for 20 years, even if he never went on the air) wanted The Honeymooners to be just a portion of his format, but CBS wanted another season of only The Honeymooners.",0,43,== Career == | === Return to television ===,143114
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"The network had cancelled a mainstay variety show hosted by Red Skelton and would cancel The Ed Sullivan Show in 1971 because they had become too expensive to produce and attracted, in the executives' opinion, too old an audience.",1,43,== Career == | === Return to television ===,143114
-1970,CD,YEAR_REGEX_1,TIME,time_reference,Gleason simply stopped doing the show in 1970 and left CBS when his contract expired.,2,43,== Career == | === Return to television ===,143114
-the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Gleason did two Jackie Gleason Show specials for CBS after giving up his regular show in the 1970s, including Honeymooners segments and a Reginald Van Gleason III sketch in which the gregarious millionaire was portrayed as a comic drunk.",0,45,== Career == | ==== Honeymooners revival ====,143114
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"Gleason and Carney also made a television movie, Izzy and Moe (1985), about an unusual pair of historic Federal prohibition agents in New York City who achieved an unbeatable arrest record with highly successful techniques including impersonations and humor, which aired on CBS in 1985.",4,45,== Career == | ==== Honeymooners revival ====,143114
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"Gleason and Carney also made a television movie, Izzy and Moe (1985), about an unusual pair of historic Federal prohibition agents in New York City who achieved an unbeatable arrest record with highly successful techniques including impersonations and humor, which aired on CBS in 1985.",4,45,== Career == | ==== Honeymooners revival ====,143114
-April 1974,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In April 1974, Gleason revived several of his classic characters (including Ralph Kramden, Joe the Bartender and Reginald Van Gleason III) in a television special with Julie Andrews.",0,46,== Career == | ==== Honeymooners revival ====,143114
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, three decades after the ""Classic 39"" began filming, Gleason revealed he had carefully preserved kinescopes of his live 1950s programs in a vault for future use (including Honeymooners sketches with Pert Kelton as Alice).",0,47,== Career == | ==== Honeymooners revival ====,143114
-three decades,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1985, three decades after the ""Classic 39"" began filming, Gleason revealed he had carefully preserved kinescopes of his live 1950s programs in a vault for future use (including Honeymooners sketches with Pert Kelton as Alice).",0,47,== Career == | ==== Honeymooners revival ====,143114
-1950s,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, three decades after the ""Classic 39"" began filming, Gleason revealed he had carefully preserved kinescopes of his live 1950s programs in a vault for future use (including Honeymooners sketches with Pert Kelton as Alice).",0,47,== Career == | ==== Honeymooners revival ====,143114
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"These ""lost episodes"" (as they came to be called) were initially previewed at the Museum of Television and Radio in New York City, aired on the Showtime cable network in 1985, and later added to the Honeymooners syndication package.",1,47,== Career == | ==== Honeymooners revival ====,143114
-a Christmas,DT NNP,INARTICLE_REGEX HOLIDAY_REGEX,MODIFIER TIME,time_reference,"One (a Christmas episode duplicated several years later with Meadows as Alice) had all Gleason's best-known characters (Ralph Kramden, the Poor Soul, Rudy the Repairman, Reginald Van Gleason, Fenwick Babbitt and Joe the Bartender) featured in and out of the Kramden apartment.",1,48,== Career == | ==== Honeymooners revival ====,143114
-several years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"One (a Christmas episode duplicated several years later with Meadows as Alice) had all Gleason's best-known characters (Ralph Kramden, the Poor Soul, Rudy the Repairman, Reginald Van Gleason, Fenwick Babbitt and Joe the Bartender) featured in and out of the Kramden apartment.",1,48,== Career == | ==== Honeymooners revival ====,143114
-Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,The storyline involved a wild Christmas party hosted by Reginald Van Gleason up the block from the Kramdens' building at Joe the Bartender's place.,2,48,== Career == | ==== Honeymooners revival ====,143114
-1953,CD,YEAR_REGEX_1,TIME,time_reference,"He had also earned acclaim for live television drama performances in ""The Laugh Maker"" (1953) on CBS's Studio One and William Saroyan's ""The Time of Your Life"" (1958), which was produced as an episode of the anthology series Playhouse 90.",1,50,== Career == | === Film ===,143114
-1958,CD,YEAR_REGEX_1,TIME,time_reference,"He had also earned acclaim for live television drama performances in ""The Laugh Maker"" (1953) on CBS's Studio One and William Saroyan's ""The Time of Your Life"" (1958), which was produced as an episode of the anthology series Playhouse 90.",1,50,== Career == | === Film ===,143114
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"He was nominated for a Best Supporting Actor Academy Award for his portrayal of pool shark Minnesota Fats in The Hustler (1961), starring Paul Newman.",0,51,== Career == | === Film ===,143114
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"(In his 1985 appearance on The Tonight Show, Gleason told Johnny Carson that he had played pool frequently since childhood, and drew from those experiences in The Hustler.)",2,51,== Career == | === Film ===,143114
-The Tonight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"(In his 1985 appearance on The Tonight Show, Gleason told Johnny Carson that he had played pool frequently since childhood, and drew from those experiences in The Hustler.)",2,51,== Career == | === Film ===,143114
-1962,CD,YEAR_REGEX_1,TIME,time_reference,He was extremely well-received as a beleaguered boxing manager in the movie version of Rod Serling's Requiem for a Heavyweight (1962).,3,51,== Career == | === Film ===,143114
-1963,CD,YEAR_REGEX_1,TIME,time_reference,"Gleason played a world-weary army sergeant in Soldier in the Rain (1963), in which he received top billing over Steve McQueen.",4,51,== Career == | === Film ===,143114
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"Gleason wrote, produced and starred in Gigot (1962), in which he played a poor, mute janitor who befriended and rescued a prostitute and her small daughter.",0,52,== Career == | === Film ===,143114
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"But the film's script was adapted and produced as the television film The Wool Cap (2004), starring William H. Macy in the role of the mute janitor; the television film received modestly good reviews.",2,52,== Career == | === Film ===,143114
-1968,CD,YEAR_REGEX_1,TIME,time_reference,"Gleason played the lead in the Otto Preminger-directed Skidoo (1968), considered an all-star failure.",0,53,== Career == | === Film ===,143114
-1969,CD,YEAR_REGEX_1,TIME,time_reference,"In 1969 William Friedkin wanted to cast Gleason as ""Popeye"" Doyle in The French Connection (1971), but because of the poor reception of Gigot and Skidoo, the studio refused to offer Gleason the lead; he wanted it.",1,53,== Career == | === Film ===,143114
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"In 1969 William Friedkin wanted to cast Gleason as ""Popeye"" Doyle in The French Connection (1971), but because of the poor reception of Gigot and Skidoo, the studio refused to offer Gleason the lead; he wanted it.",1,53,== Career == | === Film ===,143114
-1969,CD,YEAR_REGEX_1,TIME,time_reference,"Instead, Gleason wound up in How to Commit Marriage (1969) with Bob Hope, as well as the movie version of Woody Allen's play Don't Drink the Water (1969).",2,53,== Career == | === Film ===,143114
-1969,CD,YEAR_REGEX_1,TIME,time_reference,"Instead, Gleason wound up in How to Commit Marriage (1969) with Bob Hope, as well as the movie version of Woody Allen's play Don't Drink the Water (1969).",2,53,== Career == | === Film ===,143114
-Eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Eight years passed before Gleason had another hit film.,0,54,== Career == | === Film ===,143114
-1977,CD,YEAR_REGEX_1,TIME,time_reference,"This role was the cantankerous and cursing Texas sheriff Buford T. Justice in the films Smokey and the Bandit (1977), Smokey and the Bandit II (1980) and Smokey and the Bandit Part 3 (1983).",1,54,== Career == | === Film ===,143114
-1980,CD,YEAR_REGEX_1,TIME,time_reference,"This role was the cantankerous and cursing Texas sheriff Buford T. Justice in the films Smokey and the Bandit (1977), Smokey and the Bandit II (1980) and Smokey and the Bandit Part 3 (1983).",1,54,== Career == | === Film ===,143114
-1983,CD,YEAR_REGEX_1,TIME,time_reference,"This role was the cantankerous and cursing Texas sheriff Buford T. Justice in the films Smokey and the Bandit (1977), Smokey and the Bandit II (1980) and Smokey and the Bandit Part 3 (1983).",1,54,== Career == | === Film ===,143114
-Years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Years later, when interviewed by Larry King, Reynolds said he agreed to do the movie only if the studio hired Jackie Gleason to play the part of Sheriff Buford T. Justice (the name of a real Florida highway patrolman, who knew Reynolds' father).",0,55,== Career == | === Film ===,143114
-the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1980s, Gleason earned positive reviews playing opposite Laurence Olivier in the HBO dramatic two-man special, Mr. Halpern and Mr. Johnson (1983).",0,56,== Career == | === Film ===,143114
-1983,CD,YEAR_REGEX_1,TIME,time_reference,"During the 1980s, Gleason earned positive reviews playing opposite Laurence Olivier in the HBO dramatic two-man special, Mr. Halpern and Mr. Johnson (1983).",0,56,== Career == | === Film ===,143114
-1982,CD,YEAR_REGEX_1,TIME,time_reference,He also gave a memorable performance as wealthy businessman U.S. Bates in the comedy The Toy (1982) opposite Richard Pryor.,1,56,== Career == | === Film ===,143114
-1986,CD,YEAR_REGEX_1,TIME,time_reference,"His last film performance was opposite Tom Hanks in the Garry Marshall-directed Nothing in Common (1986), a success both critically and financially.",3,56,== Career == | === Film ===,143114
-many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"For many years, Gleason would travel only by train; his fear of flying arose from an incident in his early movie career.",0,59,== Personal life == | === Fear of flying ===,143114
-an hour,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,The two men watched the movie for an hour before Gleason appeared on screen.,11,59,== Personal life == | === Fear of flying ===,143114
-the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1950s, he was a semi-regular guest on a paranormal-themed overnight radio show hosted by John Nebel, and he also wrote the introduction to Donald Bain's biography of Nebel.",1,61,== Personal life == | === Interest in the paranormal ===,143114
-overnight,JJ,DAY_TIME_REGEX,TIME,time_reference,"During the 1950s, he was a semi-regular guest on a paranormal-themed overnight radio show hosted by John Nebel, and he also wrote the introduction to Donald Bain's biography of Nebel.",1,61,== Personal life == | === Interest in the paranormal ===,143114
-One evening,CD NN,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"One evening when Gleason went onstage at the Club Miami in Newark, New Jersey, he saw Halford in the front row with a date.",3,63,== Personal life == | === Marriages and family ===,143114
-"September 20 , 1936","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"They were married on September 20, 1936.",5,63,== Personal life == | === Marriages and family ===,143114
-nights,NNS,DAY_TIME_REGEX,TIME,time_reference,Halford wanted a quiet home life but Gleason fell back into spending his nights out.,6,63,== Personal life == | === Marriages and family ===,143114
-1941,CD,YEAR_REGEX_1,TIME,time_reference,"Separated for the first time in 1941 and reconciled in 1948, the couple had two daughters, Geraldine (b. 1940) and Linda (b. 1942).",7,63,== Personal life == | === Marriages and family ===,143114
-1948,CD,YEAR_REGEX_1,TIME,time_reference,"Separated for the first time in 1941 and reconciled in 1948, the couple had two daughters, Geraldine (b. 1940) and Linda (b. 1942).",7,63,== Personal life == | === Marriages and family ===,143114
-1940,CD,YEAR_REGEX_1,TIME,time_reference,"Separated for the first time in 1941 and reconciled in 1948, the couple had two daughters, Geraldine (b. 1940) and Linda (b. 1942).",7,63,== Personal life == | === Marriages and family ===,143114
-1942,CD,YEAR_REGEX_1,TIME,time_reference,"Separated for the first time in 1941 and reconciled in 1948, the couple had two daughters, Geraldine (b. 1940) and Linda (b. 1942).",7,63,== Personal life == | === Marriages and family ===,143114
-1951,CD,YEAR_REGEX_1,TIME,time_reference,Gleason and his wife informally separated again in 1951.,8,63,== Personal life == | === Marriages and family ===,143114
-early 1954,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In early 1954, Gleason suffered a broken leg and ankle on-air during his television show.",9,63,== Personal life == | === Marriages and family ===,143114
-several weeks,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,His injuries sidelined him for several weeks.,10,63,== Personal life == | === Marriages and family ===,143114
-April 1954,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Halford filed for a legal separation in April 1954.,12,63,== Personal life == | === Marriages and family ===,143114
-1970,CD,YEAR_REGEX_1,TIME,time_reference,"A devout Catholic, Halford did not grant Gleason a divorce until 1970.",13,63,== Personal life == | === Marriages and family ===,143114
-1968,CD,YEAR_REGEX_1,TIME,time_reference,"Gleason met his second wife, Beverly McKittrick, at a country club in 1968, where she worked as a secretary.",14,63,== Personal life == | === Marriages and family ===,143114
-Ten days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Ten days after his divorce from Halford was final, Gleason and McKittrick were married in a registry ceremony in Ashford, England on July 4, 1970.",15,63,== Personal life == | === Marriages and family ===,143114
-"July 4 , 1970","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ten days after his divorce from Halford was final, Gleason and McKittrick were married in a registry ceremony in Ashford, England on July 4, 1970.",15,63,== Personal life == | === Marriages and family ===,143114
-1974,CD,YEAR_REGEX_1,TIME,time_reference,"In 1974, Marilyn Taylor encountered Gleason again when she moved to the Miami area to be near her sister June, whose dancers had starred on Gleason's shows for many years.",16,63,== Personal life == | === Marriages and family ===,143114
-June,NNP,MONTH_REGEX,TIME,time_reference,"In 1974, Marilyn Taylor encountered Gleason again when she moved to the Miami area to be near her sister June, whose dancers had starred on Gleason's shows for many years.",16,63,== Personal life == | === Marriages and family ===,143114
-many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 1974, Marilyn Taylor encountered Gleason again when she moved to the Miami area to be near her sister June, whose dancers had starred on Gleason's shows for many years.",16,63,== Personal life == | === Marriages and family ===,143114
-nearly 20 years,RB CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,She had been out of show business for nearly 20 years.,17,63,== Personal life == | === Marriages and family ===,143114
-September 1974,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In September 1974, Gleason filed for divorce from McKittrick (who contested, asking for a reconciliation).",18,63,== Personal life == | === Marriages and family ===,143114
-"November 19 , 1975","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The divorce was granted on November 19, 1975.",19,63,== Personal life == | === Marriages and family ===,143114
-"December 16 , 1975","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"As a widow with a young son, Marilyn Taylor married Gleason on December 16, 1975; the marriage lasted until his death in 1987.",20,63,== Personal life == | === Marriages and family ===,143114
-1987,CD,YEAR_REGEX_1,TIME,time_reference,"As a widow with a young son, Marilyn Taylor married Gleason on December 16, 1975; the marriage lasted until his death in 1987.",20,63,== Personal life == | === Marriages and family ===,143114
-Later years,RB NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Later years, health issues and death",1,64,"== Personal life == | === Later years, health issues and death ===",143114
-1952,CD,YEAR_REGEX_1,TIME,time_reference,"As early as 1952, when The Jackie Gleason Show captured Saturday night for CBS, Gleason regularly smoked six packs of cigarettes a day, but he never smoked on The Honeymooners.",0,65,"== Personal life == | === Later years, health issues and death ===",143114
-Saturday night,NNP NN,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"As early as 1952, when The Jackie Gleason Show captured Saturday night for CBS, Gleason regularly smoked six packs of cigarettes a day, but he never smoked on The Honeymooners.",0,65,"== Personal life == | === Later years, health issues and death ===",143114
-a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"As early as 1952, when The Jackie Gleason Show captured Saturday night for CBS, Gleason regularly smoked six packs of cigarettes a day, but he never smoked on The Honeymooners.",0,65,"== Personal life == | === Later years, health issues and death ===",143114
-1978,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, he suffered chest pains while touring in the lead role of Larry Gelbart's play Sly Fox; this forced him to leave the show in Chicago and go to the hospital.",0,66,"== Personal life == | === Later years, health issues and death ===",143114
-the following week,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He was treated and released, but after suffering another bout the following week, he returned and underwent triple-bypass surgery.",1,66,"== Personal life == | === Later years, health issues and death ===",143114
-1986,CD,YEAR_REGEX_1,TIME,time_reference,"Gleason delivered a critically acclaimed performance as an infirm, acerbic, and somewhat Archie Bunker-like character in the Tom Hanks comedy-drama Nothing in Common (1986).",2,66,"== Personal life == | === Later years, health issues and death ===",143114
-one evening,CD NN,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"""I won't be around much longer"", he told his daughter at dinner one evening after a day of filming.",6,66,"== Personal life == | === Later years, health issues and death ===",143114
-a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"""I won't be around much longer"", he told his daughter at dinner one evening after a day of filming.",6,66,"== Personal life == | === Later years, health issues and death ===",143114
-A year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"A year later, on June 24, 1987, Gleason died at age 71 at his Florida home.",8,66,"== Personal life == | === Later years, health issues and death ===",143114
-"June 24 , 1987","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"A year later, on June 24, 1987, Gleason died at age 71 at his Florida home.",8,66,"== Personal life == | === Later years, health issues and death ===",143114
-June,NNP,MONTH_REGEX,TIME,time_reference,"Gleason's sister-in-law, June Taylor of the June Taylor Dancers, is buried to the left of the mausoleum, next to her husband.",10,66,"== Personal life == | === Later years, health issues and death ===",143114
-of the June,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 MONTH_REGEX,MODIFIER MODIFIER TIME,time_reference,"Gleason's sister-in-law, June Taylor of the June Taylor Dancers, is buried to the left of the mausoleum, next to her husband.",10,66,"== Personal life == | === Later years, health issues and death ===",143114
-1987,CD,YEAR_REGEX_1,TIME,time_reference,Miami Beach in 1987 renamed the Miami Beach Auditorium as the Jackie Gleason Theater of the Performing Arts.,0,68,== Legacy and honors ==,143114
-of May 2010,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,"As of May 2010, the theater was scheduled to be razed as part of a convention-center remodeling project and replaced by a hotel.",1,68,== Legacy and honors ==,143114
-of October 2017,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,The demolition did not take place and The Fillmore Miami Beach is still in operation as of October 2017.,2,68,== Legacy and honors ==,143114
-1986,CD,YEAR_REGEX_1,TIME,time_reference,Gleason was inducted into the Academy of Television Arts & Sciences Television Hall of Fame in 1986.,0,69,== Legacy and honors ==,143114
-2000,CD,YEAR_REGEX_1,TIME,time_reference,"In 2000 a statue of him as Ralph Kramden in ""And away we go!""",1,69,== Legacy and honors ==,143114
-1976,CD,YEAR_REGEX_1,TIME,time_reference,In 1976 at the Sixth Annual American Guild of Variety Artists (AGVA),0,71,== Legacy and honors ==,143114
-of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"""Entertainer of the Year Awards"", Paul Lynde received an award for being voted the funniest man of the year.",1,71,== Legacy and honors ==,143114
-of the year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"""Entertainer of the Year Awards"", Paul Lynde received an award for being voted the funniest man of the year.",1,71,== Legacy and honors ==,143114
-"June 30 , 1988","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On June 30, 1988, the Sunset Park MTA, NYCT's 5th Avenue Bus Depot in Brooklyn was renamed the Jackie Gleason Depot in honor of the native Brooklynite.",0,72,== Legacy and honors ==,143114
-the Sunset,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"On June 30, 1988, the Sunset Park MTA, NYCT's 5th Avenue Bus Depot in Brooklyn was renamed the Jackie Gleason Depot in honor of the native Brooklynite.",0,72,== Legacy and honors ==,143114
-August 2000,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,A statue of Gleason as Ralph Kramden in his bus driver's uniform was dedicated in August 2000 in New York City in Manhattan at the 40th Street entrance of the Port Authority Bus Terminal (PABT).,0,73,== Legacy and honors ==,143114
-2006,CD,YEAR_REGEX_1,TIME,time_reference,The statue was briefly shown in the film World Trade Center (2006).,1,73,== Legacy and honors ==,143114
-a 2002,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,Gleason was portrayed by Brad Garrett in a 2002 television biopic about his life.,0,77,== Legacy and honors ==,143114
-1949–1959,CD,YEAR_REGEX_1,TIME,time_reference,1949–1959,0,80,== Works == | === Television ===,143114
-1960–1986,CD,YEAR_REGEX_1,TIME,time_reference,1960–1986,0,81,== Works == | === Television ===,143114
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"February 26 , 1916 – June 24 , 1987","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+1970,CD,YEAR_REGEX_1,TIME,time_reference,2,0
+1964,CD,YEAR_REGEX_1,TIME,time_reference,3,0
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,1
+1977 to 1983,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,1
+the 1950s and 1960s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,0,2
+153 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,2
+"February 26 , 1916","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,4
+now,RB,TIMELINE_REGEX,TIME,time_reference,0,4
+1919,CD,YEAR_REGEX_1,TIME,time_reference,3,4
+the evenings,DT NNS,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,5,4
+the night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,6,4
+"of December 14 , 1925","IN NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,6,4
+noon,NN,DAY_TIME_REGEX,TIME,time_reference,6,4
+December 15,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,6,4
+night,NN,DAY_TIME_REGEX,TIME,time_reference,10,4
+night,NN,DAY_TIME_REGEX,TIME,time_reference,12,4
+a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,13,4
+1935,CD,YEAR_REGEX_1,TIME,time_reference,14,4
+nowhere,RB,TIMELINE_REGEX,TIME,time_reference,15,4
+of the day,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,0,6
+now,RB,TIMELINE_REGEX,TIME,time_reference,1,6
+250 a week,CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,2,6
+1941,CD,YEAR_REGEX_1,TIME,time_reference,3,6
+the Night,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,3,6
+1941,CD,YEAR_REGEX_1,TIME,time_reference,3,6
+1942,CD,YEAR_REGEX_1,TIME,time_reference,3,6
+Century-Fox,NNP,TIME_UNIT_REGEX,TIME,time_reference,3,6
+1942,CD,YEAR_REGEX_1,TIME,time_reference,3,6
+1942,CD,YEAR_REGEX_1,TIME,time_reference,4,6
+the 1942,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,4,6
+Springtime,NNP,SEASON_REGEX,TIME,time_reference,4,6
+1943,CD,YEAR_REGEX_1,TIME,time_reference,1,7
+a nightclub,DT JJ,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,4,7
+the end of 1942,DT NN IN CD,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER TIME,time_reference,5,7
+1943,CD,YEAR_REGEX_1,TIME,time_reference,5,7
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,7,7
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,9,7
+1944,CD,YEAR_REGEX_1,TIME,time_reference,10,7
+nightclub,NN,DAY_TIME_REGEX,TIME,time_reference,11,7
+1949,CD,YEAR_REGEX_1,TIME,time_reference,0,9
+one year,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,2,9
+1953,CD,YEAR_REGEX_1,TIME,time_reference,3,9
+late 1950s,VB CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,4,9
+nightclub,JJ,DAY_TIME_REGEX,TIME,time_reference,0,10
+hour,NN,TIME_UNIT_REGEX,TIME,time_reference,1,10
+1950,CD,YEAR_REGEX_1,TIME,time_reference,1,10
+days,NNS,TIME_UNIT_REGEX,TIME,time_reference,1,10
+first offered two weeks,RB VBN CD NNS,ORDINAL_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER NUMERAL TIME,time_reference,2,10
+week,NN,TIME_UNIT_REGEX,TIME,time_reference,2,10
+four weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,3,10
+the next decade,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,5,10
+1952,CD,YEAR_REGEX_1,TIME,time_reference,5,10
+the 1954–55,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,11
+June,NNP,MONTH_REGEX,TIME,time_reference,1,11
+1914,CD,YEAR_REGEX_1,TIME,time_reference,3,11
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,7,11
+late night,JJ NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,0,19
+a 1985,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,1,20
+later that day,RB DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,5,20
+One of these days,CD IN DT NNS,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER MODIFIER TIME,time_range,0,23
+"October 5 , 1951","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,4,24
+15 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,6,24
+1955,CD,YEAR_REGEX_1,TIME,time_reference,0,26
+A decade,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,4,26
+2000,CD,YEAR_REGEX_1,TIME,time_reference,5,26
+1956–7,CD,YEAR_REGEX_1,TIME,time_reference,0,27
+presentations,NNS,TIMELINE_REGEX,TIME,time_reference,1,27
+ten years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,27
+of the '50s,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER MODIFIER TIME,time_reference,0,28
+"January 8 , 1966","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,28
+Ten years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,28
+1973,CD,YEAR_REGEX_1,TIME,time_reference,1,28
+June 1957,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,29
+1959,CD,YEAR_REGEX_1,TIME,time_reference,1,29
+late 1960 and two,JJ CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX BASIC_NUMBER_REGEX_1,MODIFIER TIME MODIFIER NUMERAL,time_reference,2,29
+hour,NN,TIME_UNIT_REGEX,TIME,time_reference,2,29
+1962,CD,YEAR_REGEX_1,TIME,time_reference,2,29
+the 1950s and 1960s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,0,31
+153 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,4,31
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,8,31
+1992,CD,YEAR_REGEX_1,TIME,time_reference,9,31
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,0,32
+of the 1950s and 1960s,IN DT CD CC CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,0,34
+the early 1960s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,1,34
+1959–60,CD,YEAR_REGEX_1,TIME,time_reference,0,35
+1956,CD,YEAR_REGEX_1,TIME,time_reference,0,37
+hour,NN,TIME_UNIT_REGEX,TIME,time_reference,0,37
+1957,CD,YEAR_REGEX_1,TIME,time_reference,1,37
+1958,CD,YEAR_REGEX_1,TIME,time_reference,2,37
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,38
+1959,CD,YEAR_REGEX_1,TIME,time_reference,2,38
+October 1960,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,4,38
+the next week,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,5,38
+1962,CD,YEAR_REGEX_1,TIME,time_reference,0,39
+the 1963,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,1,39
+several minutes,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,5,39
+the 1966,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,41
+1964,CD,YEAR_REGEX_1,TIME,time_reference,1,41
+1966,CD,YEAR_REGEX_1,TIME,time_reference,3,41
+hour,NN,TIME_UNIT_REGEX,TIME,time_reference,3,41
+off the 1966–1967,RP DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,0,42
+of the 1957,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,2,42
+1970,CD,YEAR_REGEX_1,TIME,time_reference,5,42
+the 1968–1969,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,6,42
+"February 28 , 1970","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,9,42
+of the late 1960s,IN DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER TIME,time_reference,9,42
+the 1950s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,43
+20 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,43
+1971,CD,YEAR_REGEX_1,TIME,time_reference,1,43
+1970,CD,YEAR_REGEX_1,TIME,time_reference,2,43
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,45
+1985,CD,YEAR_REGEX_1,TIME,time_reference,4,45
+1985,CD,YEAR_REGEX_1,TIME,time_reference,4,45
+April 1974,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,46
+1985,CD,YEAR_REGEX_1,TIME,time_reference,0,47
+three decades,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,47
+1950s,CD,YEAR_REGEX_1,TIME,time_reference,0,47
+1985,CD,YEAR_REGEX_1,TIME,time_reference,1,47
+a Christmas,DT NNP,INARTICLE_REGEX HOLIDAY_REGEX,MODIFIER TIME,time_reference,1,48
+several years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,1,48
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,2,48
+1953,CD,YEAR_REGEX_1,TIME,time_reference,1,50
+1958,CD,YEAR_REGEX_1,TIME,time_reference,1,50
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,51
+1985,CD,YEAR_REGEX_1,TIME,time_reference,2,51
+The Tonight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,2,51
+1962,CD,YEAR_REGEX_1,TIME,time_reference,3,51
+1963,CD,YEAR_REGEX_1,TIME,time_reference,4,51
+1962,CD,YEAR_REGEX_1,TIME,time_reference,0,52
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2,52
+1968,CD,YEAR_REGEX_1,TIME,time_reference,0,53
+1969,CD,YEAR_REGEX_1,TIME,time_reference,1,53
+1971,CD,YEAR_REGEX_1,TIME,time_reference,1,53
+1969,CD,YEAR_REGEX_1,TIME,time_reference,2,53
+1969,CD,YEAR_REGEX_1,TIME,time_reference,2,53
+Eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,54
+1977,CD,YEAR_REGEX_1,TIME,time_reference,1,54
+1980,CD,YEAR_REGEX_1,TIME,time_reference,1,54
+1983,CD,YEAR_REGEX_1,TIME,time_reference,1,54
+Years,NNS,TIME_UNIT_REGEX,TIME,time_reference,0,55
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,56
+1983,CD,YEAR_REGEX_1,TIME,time_reference,0,56
+1982,CD,YEAR_REGEX_1,TIME,time_reference,1,56
+1986,CD,YEAR_REGEX_1,TIME,time_reference,3,56
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,59
+an hour,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,11,59
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,1,61
+overnight,JJ,DAY_TIME_REGEX,TIME,time_reference,1,61
+One evening,CD NN,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,3,63
+"September 20 , 1936","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,5,63
+nights,NNS,DAY_TIME_REGEX,TIME,time_reference,6,63
+1941,CD,YEAR_REGEX_1,TIME,time_reference,7,63
+1948,CD,YEAR_REGEX_1,TIME,time_reference,7,63
+1940,CD,YEAR_REGEX_1,TIME,time_reference,7,63
+1942,CD,YEAR_REGEX_1,TIME,time_reference,7,63
+1951,CD,YEAR_REGEX_1,TIME,time_reference,8,63
+early 1954,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,9,63
+several weeks,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,10,63
+April 1954,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,12,63
+1970,CD,YEAR_REGEX_1,TIME,time_reference,13,63
+1968,CD,YEAR_REGEX_1,TIME,time_reference,14,63
+Ten days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,15,63
+"July 4 , 1970","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,15,63
+1974,CD,YEAR_REGEX_1,TIME,time_reference,16,63
+June,NNP,MONTH_REGEX,TIME,time_reference,16,63
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,16,63
+nearly 20 years,RB CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,17,63
+September 1974,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,18,63
+"November 19 , 1975","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,19,63
+"December 16 , 1975","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,20,63
+1987,CD,YEAR_REGEX_1,TIME,time_reference,20,63
+Later years,RB NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,1,64
+1952,CD,YEAR_REGEX_1,TIME,time_reference,0,65
+Saturday night,NNP NN,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,0,65
+a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,65
+1978,CD,YEAR_REGEX_1,TIME,time_reference,0,66
+the following week,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1,66
+1986,CD,YEAR_REGEX_1,TIME,time_reference,2,66
+one evening,CD NN,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,6,66
+a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,6,66
+A year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,8,66
+"June 24 , 1987","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,8,66
+June,NNP,MONTH_REGEX,TIME,time_reference,10,66
+of the June,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 MONTH_REGEX,MODIFIER MODIFIER TIME,time_reference,10,66
+1987,CD,YEAR_REGEX_1,TIME,time_reference,0,68
+of May 2010,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,1,68
+of October 2017,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,2,68
+1986,CD,YEAR_REGEX_1,TIME,time_reference,0,69
+2000,CD,YEAR_REGEX_1,TIME,time_reference,1,69
+1976,CD,YEAR_REGEX_1,TIME,time_reference,0,71
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1,71
+of the year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1,71
+"June 30 , 1988","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,72
+the Sunset,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,0,72
+August 2000,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,73
+2006,CD,YEAR_REGEX_1,TIME,time_reference,1,73
+a 2002,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,0,77
+1949–1959,CD,YEAR_REGEX_1,TIME,time_reference,0,80
+1960–1986,CD,YEAR_REGEX_1,TIME,time_reference,0,81

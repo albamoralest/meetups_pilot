@@ -1,0 +1,77 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"December 25 , 1908 – June 9 , 1964","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Alton Delmore (December 25, 1908 – June 9, 1964) and Rabon Delmore (December 3, 1916 – December 4, 1952), billed as The Delmore Brothers, were country music pioneer singer-songwriters and musicians who were stars of the Grand Ole Opry in the 1930s.",0,0,,1220391
+"December 3 , 1916 – December 4 , 1952","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Alton Delmore (December 25, 1908 – June 9, 1964) and Rabon Delmore (December 3, 1916 – December 4, 1952), billed as The Delmore Brothers, were country music pioneer singer-songwriters and musicians who were stars of the Grand Ole Opry in the 1930s.",0,0,,1220391
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Alton Delmore (December 25, 1908 – June 9, 1964) and Rabon Delmore (December 3, 1916 – December 4, 1952), billed as The Delmore Brothers, were country music pioneer singer-songwriters and musicians who were stars of the Grand Ole Opry in the 1930s.",0,0,,1220391
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,The duo performed extensively with Arthur Smith as the Arthur Smith Trio throughout the 1930s.,2,0,,1220391
+previously,RB,TIMELINE_REGEX,TIME,time_reference,"In addition to the regular six-string acoustic guitar, the duo was one of the few to use the rare tenor guitar, a four-string instrument that had primarily been used previously in vaudeville shows.",3,2,== Biography ==,1220391
+1925,CD,YEAR_REGEX_1,TIME,time_reference,"In 1925, 16-year-old Alton wrote his first song (""Bound for the Shore""), which he co-wrote with his mother.",4,2,== Biography ==,1220391
+1930,CD,YEAR_REGEX_1,TIME,time_reference,"In 1930, the brothers entered a contest in Athens, Alabama and won first prize after almost being beaten by a comedy act in multiple rounds of tie breakers.",6,2,== Biography ==,1220391
+1931,CD,YEAR_REGEX_1,TIME,time_reference,"The Brothers did their first recording session for Columbia Records in 1931, recording ""Got The Kansas City Blues"" and ""Alabama Lullaby,"" which became their theme song.",7,2,== Biography ==,1220391
+1933,CD,YEAR_REGEX_1,TIME,time_reference,They signed a contract with Victor's budget label Bluebird in 1933 and became regulars on the Grand Ole Opry.,8,2,== Biography ==,1220391
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Within three years, they had become the most popular act on the show.",9,2,== Biography ==,1220391
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"In 1934, Arthur Smith began touring with The Delmore Brothers.",10,2,== Biography ==,1220391
+the next three years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,The trio recorded together for the next three years and had played together on over 52 sides together under both The Delmore Brothers and The Arthur Smith Trio.,11,2,== Biography ==,1220391
+1935,CD,YEAR_REGEX_1,TIME,time_reference,Their first session together was in 1935 for Bluebird.,12,2,== Biography ==,1220391
+1937,CD,YEAR_REGEX_1,TIME,time_reference,"During a recording session in 1937 for Bluebird, Alton had a cold forcing him to sing lower which ended up damaging his vocal chords.",14,2,== Biography ==,1220391
+1938,CD,YEAR_REGEX_1,TIME,time_reference,Disagreements with Opry management led to the brothers leaving the show in 1938.,0,3,== Biography ==,1220391
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"While they continued to play and record music throughout the 1940s, they never achieved the same level of success they had with the Grand Ole Opry.",2,3,== Biography ==,1220391
+1941,CD,YEAR_REGEX_1,TIME,time_reference,"In 1941, their song ""When It's Time for the Whippoorwill to Sing"" made the Billboard ""Hillbilly"" top three.",3,3,== Biography ==,1220391
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1942, the brothers were officially signed to King Records.",0,4,== Biography ==,1220391
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,The brothers tended to move two to three times a year which meant there were a lot of places that were sites of the recordings.,2,5,== Biography ==,1220391
+1946,CD,YEAR_REGEX_1,TIME,time_reference,"Their ""Freight Train Boogie"" (recorded for the King label in 1946) is regarded by some as the first rock and roll record.",0,6,== Biography ==,1220391
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"Their best-known song, ""Blues Stay Away From Me"" (also on King, 1949), was covered by Johnny Burnette and The Rock and Roll Trio, Gene Vincent and the Blue Caps, The Louvin Brothers, The Browns, Les Paul and Mary Ford, Doc Watson, The Notting Hillbillies, Marshall Chapman, and The Everly Brothers.",1,6,== Biography ==,1220391
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"Rabon died of lung cancer in 1952, a day after his 36th birthday.",4,7,== Biography ==,1220391
+a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Rabon died of lung cancer in 1952, a day after his 36th birthday.",4,7,== Biography ==,1220391
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"He wrote a series of short stories and his autobiography, Truth is Stranger than Publicity, published posthumously in 1977 by the Country Music Foundation.",8,7,== Biography ==,1220391
+October 1971,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The Delmore Brothers were inducted into the Nashville Songwriters Hall of Fame in October 1971, as well as the Alabama Music Hall of Fame in 1989 and the Country Music Hall of Fame in 2001.",0,9,== Legacy ==,1220391
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"The Delmore Brothers were inducted into the Nashville Songwriters Hall of Fame in October 1971, as well as the Alabama Music Hall of Fame in 1989 and the Country Music Hall of Fame in 2001.",0,9,== Legacy ==,1220391
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"The Delmore Brothers were inducted into the Nashville Songwriters Hall of Fame in October 1971, as well as the Alabama Music Hall of Fame in 1989 and the Country Music Hall of Fame in 2001.",0,9,== Legacy ==,1220391
+"November 10 , 1985","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bob Dylan was quoted in the Chicago Tribune, on November 10, 1985 as saying, ""The Delmore Brothers, God, I really loved them!",0,10,== Legacy ==,1220391
+1931,CD,YEAR_REGEX_1,TIME,time_reference,"Got The Kansas City Blues (Columbia, 1931)",0,13,== Singles ==,1220391
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"Lonesome Yodel Blues (Bluebird, 1934)",0,14,== Singles ==,1220391
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"The Frozen Girl (Bluebird, 1934)",0,15,== Singles ==,1220391
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"Brown's Ferry Blues (Bluebird, 1934)",0,16,== Singles ==,1220391
+1935,CD,YEAR_REGEX_1,TIME,time_reference,"Brown's Ferry Blues, Part 2 (Bluebird, 1935)",0,17,== Singles ==,1220391
+1935,CD,YEAR_REGEX_1,TIME,time_reference,"Down South (Bluebird, 1935)",0,18,== Singles ==,1220391
+1936,CD,YEAR_REGEX_1,TIME,time_reference,"I'm Gonna Change My Way (Bluebird, 1936)",0,19,== Singles ==,1220391
+1937,CD,YEAR_REGEX_1,TIME,time_reference,"Till The Roses Bloom Again (Bluebird, 1937)",0,20,== Singles ==,1220391
+1938,CD,YEAR_REGEX_1,TIME,time_reference,"Ain't It Hard To Love (Bluebird, 1938)",0,21,== Singles ==,1220391
+1939,CD,YEAR_REGEX_1,TIME,time_reference,"I'm Alabama Bound (Bluebird, 1939)",0,22,== Singles ==,1220391
+1940,CD,YEAR_REGEX_1,TIME,time_reference,"Silver Dollar (Decca, 1940)",0,23,== Singles ==,1220391
+1944,CD,YEAR_REGEX_1,TIME,time_reference,"Prisoner's Farewell (King, 1944)",0,24,== Singles ==,1220391
+1946,CD,YEAR_REGEX_1,TIME,time_reference,"Freight Train Boogie (King, 1946)",0,25,== Singles ==,1220391
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"Mobile Boogie (King, 1947)",0,26,== Singles ==,1220391
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"Blues Stay Away From Me (King, 1949)",0,27,== Singles ==,1220391
+1950,CD,YEAR_REGEX_1,TIME,time_reference,"Pan American Boogie (King, 1950)",0,28,== Singles ==,1220391
+1951,CD,YEAR_REGEX_1,TIME,time_reference,"I'll Be There (King, 1951)",0,29,== Singles ==,1220391
+Saturday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"Good Time Saturday Night (King, 1952)",0,30,== Singles ==,1220391
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"Good Time Saturday Night (King, 1952)",0,30,== Singles ==,1220391
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"Muddy Water (King, 1952)",0,31,== Singles ==,1220391
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Sacred Songs (King, 1957)",0,33,== Albums ==,1220391
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"In Memory (King, 1964)",0,34,== Albums ==,1220391
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"In Memory, Vol. 2 (King, 1964)",0,35,== Albums ==,1220391
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Wonderful Sacred Songs (King, 1966)",0,36,== Albums ==,1220391
+Fall,NNP,SEASON_REGEX,TIME,time_reference,"When They Let The Hammer Fall (Bear Family, 1984)",0,37,== Albums ==,1220391
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"When They Let The Hammer Fall (Bear Family, 1984)",0,37,== Albums ==,1220391
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"Lonesome Yodel Blues (Old Homestead, 1985)",0,38,== Albums ==,1220391
+1933-1941,JJ,YEAR_REGEX_1,TIME,time_reference,"Classic Cuts: 1933-1941 (JSP, 2003)",0,39,== Albums ==,1220391
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Classic Cuts: 1933-1941 (JSP, 2003)",0,39,== Albums ==,1220391
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Fifty Miles To Travel (Ace, 2005)",0,40,== Albums ==,1220391
+Years 1933-1952,NNP CD,TIME_UNIT_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The Later Years 1933-1952 (JSP, 2007)",1,41,== Albums ==,1220391
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"The Later Years 1933-1952 (JSP, 2007)",1,41,== Albums ==,1220391
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Blues Stay Away From Me (Jasmine, 2008)",0,42,== Albums ==,1220391
+The 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Classic Cuts, Vol. 3: More From The 1930s Plus (JSP, 2008)",0,43,== Albums ==,1220391
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Classic Cuts, Vol. 3: More From The 1930s Plus (JSP, 2008)",0,43,== Albums ==,1220391
+1951,CD,YEAR_REGEX_1,TIME,time_reference,"Citation of Achievement from Broadcast Music Inc. presented to Alton Delmore for ""Beautiful Brown Eyes"", 1951.",0,45,== Awards ==,1220391
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Induction into the Nashville Songwriters Hall of Fame, 1971",0,46,== Awards ==,1220391
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Induction into the Alabama Country Music Hall of Fame, 1987",0,47,== Awards ==,1220391
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Induction into the Alabama Music Hall of Fame, 1989",0,48,== Awards ==,1220391
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Independent Country Music Association-Germany, Induction into the Hall of Fame. 2000",0,49,== Awards ==,1220391
+"of the 20th Century , 2000","IN DT JJ NNP , CD",PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX COMMA_REGEX YEAR_REGEX_1,MODIFIER MODIFIER NUMERAL TIME MODIFIER TIME,time_reference,"Independent Country Music Association-Germany, Artists of the 20th Century, 2000",0,50,== Awards ==,1220391
+"October 4 , 2001","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Inducted into the Country Music Hall of Fame, October 4, 2001",0,51,== Awards ==,1220391
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"""Blues Stay Away From Me"", Delmore Brothers, King, 1949, was inducted into the Grammy Hall of Fame, January 2007",1,52,== Awards ==,1220391
+January 2007,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"""Blues Stay Away From Me"", Delmore Brothers, King, 1949, was inducted into the Grammy Hall of Fame, January 2007",1,52,== Awards ==,1220391
+1920s,CD,YEAR_REGEX_1,TIME,time_reference,"Limestone County Fiddlers Convention, c. 1920s, First Prize, duo awarded one sack of flour and a new pair of socks.",0,53,== Awards ==,1220391
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"<Alton Delmore, 1959>",1,53,== Awards ==,1220391
+180 Years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Delmore Brothers, biography and influences at C.F. Martin & Co. 180 Years of American Music History, archived from the original on 2014-01-16.",0,63,== External links ==,1220391
+2014-01-16,JJ,YEAR_REGEX_1,TIME,time_reference,"Delmore Brothers, biography and influences at C.F. Martin & Co. 180 Years of American Music History, archived from the original on 2014-01-16.",0,63,== External links ==,1220391

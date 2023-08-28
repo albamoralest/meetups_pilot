@@ -1,36 +1,36 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"February 20 , 1920 – April 13 , 1989","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Milton Tasker ""Bill"" Putnam (February 20, 1920 – April 13, 1989) was an American audio engineer, songwriter, producer, studio designer and businessman, who has been described as ""the father of modern recording"".",0,0,,1799252
-today,NN,TIMELINE_REGEX,TIME,time_reference,"""Bill Putnam was the father of recording as we know it today.",0,2,,1799252
-"February 20 , 1920","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bill Putnam was born on February 20, 1920 in Danville, Illinois.",0,4,== Early life and education ==,1799252
-years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"In his early high school years, he worked part time in a friend's radio shop, learning about radio repair and PA systems.",5,4,== Early life and education ==,1799252
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"By his junior year, Putnam was earning $5 per night singing with dance bands, and owned his own ham radio shop where he that also installed car radios on weekends.",7,4,== Early life and education ==,1799252
-night,NN,DAY_TIME_REGEX,TIME,time_reference,"By his junior year, Putnam was earning $5 per night singing with dance bands, and owned his own ham radio shop where he that also installed car radios on weekends.",7,4,== Early life and education ==,1799252
-weekends,NNS,TIME_UNIT_REGEX,TIME,time_reference,"By his junior year, Putnam was earning $5 per night singing with dance bands, and owned his own ham radio shop where he that also installed car radios on weekends.",7,4,== Early life and education ==,1799252
-1941,CD,YEAR_REGEX_1,TIME,time_reference,"In 1941 at the age of 21, Putnam received a draft notice and became a civil service employee working on radio ranges for the United States Army Corps of Engineers under the Sixth Service Command in Chicago.",0,8,== Career == | === Military service ===,1799252
-1946-1957,CD,YEAR_REGEX_1,TIME,time_reference,Illinois (1946-1957),1,9,== Career == | === Illinois (1946-1957) ===,1799252
-1946,CD,YEAR_REGEX_1,TIME,time_reference,"In 1946, Putnam founded Universal Recording Corporation in Evanston, Illinois to pursue both the development of specialized recording equipment and new recording techniques.",0,10,== Career == | === Illinois (1946-1957) ===,1799252
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"In 1947, Putnam moved Universal Recording to the 42nd floor of the Chicago Civic Opera Building, and struck a deal with The Harmonicats to help facilitate a recording session and record release in exchange for a portion of the sales of the record.",2,10,== Career == | === Illinois (1946-1957) ===,1799252
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"That same year, Putnam made the first recording of a single artist singing more than one line on a recording made with Patti Page and George Barnes, who suggested the ""duet.""",5,10,== Career == | === Illinois (1946-1957) ===,1799252
-1955,CD,YEAR_REGEX_1,TIME,time_reference,"In 1955, Putnam built Universal Recording a new 15,000 square foot facility at 46 E. Walton Street.",0,11,== Career == | === Illinois (1946-1957) ===,1799252
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"His period at Universal saw  a number of 'firsts' for the recording industry, including the first use of tape repeat, the first vocal booth, the first multiple voice recording, one of the first to use 8-track recording (preceded by Les Paul and Tom Dowd), the first use of delay lines in the studio, and the first release, in 1956, of half-speed mastered discs (on the Mercury label.)By the mid-1950s, Putnam was one of the most sought-after engineer-producers in the United States.",3,11,== Career == | === Illinois (1946-1957) ===,1799252
-"August , 1955","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Sam Phillips sent Elvis Presley's Mystery Train and I Forgot to Remember to Forget to Putnam in August, 1955 with the instructions: ""Give me 'hot' level on both 78 and 45's and as much presence peak and bass as possible!""",4,11,== Career == | === Illinois (1946-1957) ===,1799252
-1957,CD,YEAR_REGEX_1,TIME,time_reference,"In 1957, with support from Frank Sinatra and Bing Crosby, Putnam sold his interest in Universal Recording and moved to Hollywood, taking over and remodeling a defunct film studio at 6050 Sunset Boulevard to establish a new company, United Recording.",0,13,== Career == | === California ===,1799252
-6050 Sunset,CD NNP,DIGIT_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"In 1957, with support from Frank Sinatra and Bing Crosby, Putnam sold his interest in Universal Recording and moved to Hollywood, taking over and remodeling a defunct film studio at 6050 Sunset Boulevard to establish a new company, United Recording.",0,13,== Career == | === California ===,1799252
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"In 1961, Putnam acquired the neighboring Western Recorders located at 6000 Sunset, remodeled it and incorporated it into the complex, which was renamed United Western Recorders.",0,15,== Career == | === California ===,1799252
-6000 Sunset,CD NNP,DIGIT_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"In 1961, Putnam acquired the neighboring Western Recorders located at 6000 Sunset, remodeled it and incorporated it into the complex, which was renamed United Western Recorders.",0,15,== Career == | === California ===,1799252
-Around 1962,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Around 1962, as consumer demand for stereo recordings was surging, the major labels offered to buy Putnam's stockpile of stereo recordings.",2,16,== Career == | === California ===,1799252
-month,NN,TIME_UNIT_REGEX,TIME,time_reference,"According to Putnam's former associate, Allen Sides, at this time United Recording was bringing in around US$200,000 per month in studio billing (equivalent to US$1.71 million per month today).",4,16,== Career == | === California ===,1799252
-month today,NN NN,TIME_UNIT_REGEX TIMELINE_REGEX,TIME TIME,time_reference,"According to Putnam's former associate, Allen Sides, at this time United Recording was bringing in around US$200,000 per month in studio billing (equivalent to US$1.71 million per month today).",4,16,== Career == | === California ===,1799252
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962, sensing a business opportunity in the Bay Area's commercial jingle industry, Putnam purchased a majority interest in Coast Recorders and moved the studio to a location at 960 Bush Street.",0,18,== Career == | === California ===,1799252
-Less than a year,JJR IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"Less than a year later, on September 15, 1970, Putnam sold majority control of the building to Columbia Records, a division of CBS.",2,18,== Career == | === California ===,1799252
-"September 15 , 1970","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Less than a year later, on September 15, 1970, Putnam sold majority control of the building to Columbia Records, a division of CBS.",2,18,== Career == | === California ===,1799252
-1963,CD,YEAR_REGEX_1,TIME,time_reference,"In 1963, Putnam extended his studio presence to Las Vegas when he established United Recording Corporation of Nevada, or URCON, complete with a fully-equipped remote recording truck.",0,19,== Career == | === California ===,1799252
-1966,CD,YEAR_REGEX_1,TIME,time_reference,"In 1966, Putnam sold URCON to Bill Porter.",1,19,== Career == | === California ===,1799252
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, Putnam sold the original United Recording studio to Allen Sides, who renamed it Ocean Way Recording.",0,20,== Career == | === California ===,1799252
-1958,CD,YEAR_REGEX_1,TIME,time_reference,Putnam developed the first US multi-band audio equalizer and established Universal Audio and later Universal Recording Electronics Industries (UREI) in the second story loft of United Recording in 1958 as a means to develop and manufacture studio equipment.,0,22,== Career == | === Universal Audio and UREI ===,1799252
-1176,CD,YEAR_REGEX_1,TIME,time_reference,"Putnam's companies were also responsible for the vacuum tube based LA-2A and 1176 compressors, and their transistor based successors, the LA-3A and 1176.",2,22,== Career == | === Universal Audio and UREI ===,1799252
-1176,CD,YEAR_REGEX_1,TIME,time_reference,"Putnam's companies were also responsible for the vacuum tube based LA-2A and 1176 compressors, and their transistor based successors, the LA-3A and 1176.",2,22,== Career == | === Universal Audio and UREI ===,1799252
-hours,NNS,TIME_UNIT_REGEX,TIME,time_reference,"But after moving to Hollywood, Putnam's long hours at Universal Recording again led to divorce.",5,25,== Personal life ==,1799252
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"The Audio Engineering Society awarded Putnam a Fellowship Award in 1959, and an Honorary Membership in 1983 ""for lifelong contributions to studio design and to the design and making of audio instruments and equipment.",0,28,== Awards ==,1799252
-1983,CD,YEAR_REGEX_1,TIME,time_reference,"The Audio Engineering Society awarded Putnam a Fellowship Award in 1959, and an Honorary Membership in 1983 ""for lifelong contributions to studio design and to the design and making of audio instruments and equipment.",0,28,== Awards ==,1799252
-2000,CD,YEAR_REGEX_1,TIME,time_reference,"""In 2000, Putnam received a posthumous Special Merit/Technical Grammy Award for his contribution to the music industry.",1,28,== Awards ==,1799252
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"February 20 , 1920 – April 13 , 1989","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+today,NN,TIMELINE_REGEX,TIME,time_reference,0,2
+"February 20 , 1920","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,4
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,5,4
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,7,4
+night,NN,DAY_TIME_REGEX,TIME,time_reference,7,4
+weekends,NNS,TIME_UNIT_REGEX,TIME,time_reference,7,4
+1941,CD,YEAR_REGEX_1,TIME,time_reference,0,8
+1946-1957,CD,YEAR_REGEX_1,TIME,time_reference,1,9
+1946,CD,YEAR_REGEX_1,TIME,time_reference,0,10
+1947,CD,YEAR_REGEX_1,TIME,time_reference,2,10
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,5,10
+1955,CD,YEAR_REGEX_1,TIME,time_reference,0,11
+1956,CD,YEAR_REGEX_1,TIME,time_reference,3,11
+"August , 1955","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,4,11
+1957,CD,YEAR_REGEX_1,TIME,time_reference,0,13
+6050 Sunset,CD NNP,DIGIT_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,0,13
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,15
+6000 Sunset,CD NNP,DIGIT_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,0,15
+Around 1962,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,2,16
+month,NN,TIME_UNIT_REGEX,TIME,time_reference,4,16
+month today,NN NN,TIME_UNIT_REGEX TIMELINE_REGEX,TIME TIME,time_reference,4,16
+1962,CD,YEAR_REGEX_1,TIME,time_reference,0,18
+Less than a year,JJR IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,2,18
+"September 15 , 1970","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,2,18
+1963,CD,YEAR_REGEX_1,TIME,time_reference,0,19
+1966,CD,YEAR_REGEX_1,TIME,time_reference,1,19
+1985,CD,YEAR_REGEX_1,TIME,time_reference,0,20
+1958,CD,YEAR_REGEX_1,TIME,time_reference,0,22
+1176,CD,YEAR_REGEX_1,TIME,time_reference,2,22
+1176,CD,YEAR_REGEX_1,TIME,time_reference,2,22
+hours,NNS,TIME_UNIT_REGEX,TIME,time_reference,5,25
+1959,CD,YEAR_REGEX_1,TIME,time_reference,0,28
+1983,CD,YEAR_REGEX_1,TIME,time_reference,0,28
+2000,CD,YEAR_REGEX_1,TIME,time_reference,1,28

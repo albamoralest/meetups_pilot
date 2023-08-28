@@ -1,195 +1,193 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-25 February 1873 – 2 August 1921,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"Enrico Caruso (, US also , Italian: [enˈriːko kaˈruːzo]; 25 February 1873 – 2 August 1921) was an Italian operatic tenor.",0,0,,67892
-1902 to 1920,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"One of the first major singing talents to be commercially recorded, Caruso made 247 commercially released recordings from 1902 to 1920, which made him an international popular entertainment star.",2,0,,67892
-25 February 1873,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Born in Naples in the via Santi Giovanni e Paolo n° 7 on 25 February 1873, he was baptised the next day in the adjacent Church of San Giovanni e Paolo.",1,3,== Biography == | === Early life ===,67892
-the next day,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Born in Naples in the via Santi Giovanni e Paolo n° 7 on 25 February 1873, he was baptised the next day in the adjacent Church of San Giovanni e Paolo.",1,3,== Biography == | === Early life ===,67892
-now,RB,TIMELINE_REGEX,TIME,time_reference,"His parents originally came from Piedimonte d'Alife (now called Piedimonte Matese), in the Province of Caserta in Campania, Southern Italy.",2,3,== Biography == | === Early life ===,67892
-am,VBP,HALFDAY_REGEX_1,TIME,,I am number nineteen boy.,10,3,== Biography == | === Early life ===,67892
-years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"(Whenever visiting Naples in future years, Caruso liked to point out a fountain that he had helped to install.)",13,3,== Biography == | === Early life ===,67892
-1888,CD,YEAR_REGEX_1,TIME,time_reference,"Caruso was encouraged in his early musical ambitions by his mother, who died in 1888.",0,4,== Biography == | === Early life ===,67892
-45 days,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"His progress as a paid entertainer was interrupted, however, by 45 days of compulsory military service.",3,4,== Biography == | === Early life ===,67892
-1894,CD,YEAR_REGEX_1,TIME,time_reference,"He completed this in 1894, resuming his voice lessons upon discharge from the army.",4,4,== Biography == | === Early life ===,67892
-15 March 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"On 15 March 1895 at the age of 22, Caruso made his professional stage debut at the Teatro Nuovo in Naples in the now-forgotten opera, L'Amico Francesco, by the amateur composer Mario Morelli.",0,6,== Biography == | === Early career ===,67892
-1896,CD,YEAR_REGEX_1,TIME,time_reference,"One of his first publicity photographs, taken on a visit to Sicily in 1896, depicts him wearing a bedspread draped like a toga since his sole dress shirt was away being laundered.",1,7,== Biography == | === Early career ===,67892
-the final few years,DT JJ JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"During the final few years of the 19th century, Caruso performed at a succession of theaters throughout Italy until 1900, when he was rewarded with a contract to sing at La Scala.",0,8,== Biography == | === Early career ===,67892
-of the 19th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"During the final few years of the 19th century, Caruso performed at a succession of theaters throughout Italy until 1900, when he was rewarded with a contract to sing at La Scala.",0,8,== Biography == | === Early career ===,67892
-1900,CD,YEAR_REGEX_1,TIME,time_reference,"During the final few years of the 19th century, Caruso performed at a succession of theaters throughout Italy until 1900, when he was rewarded with a contract to sing at La Scala.",0,8,== Biography == | === Early career ===,67892
-26 December,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,His La Scala debut occurred on 26 December of that year in the part of Rodolfo in Giacomo Puccini's La bohème with Arturo Toscanini conducting.,1,8,== Biography == | === Early career ===,67892
-of that year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,His La Scala debut occurred on 26 December of that year in the part of Rodolfo in Giacomo Puccini's La bohème with Arturo Toscanini conducting.,1,8,== Biography == | === Early career ===,67892
-1899–1900,CD,YEAR_REGEX_1,TIME,time_reference,"Audiences in Monte Carlo, Warsaw and Buenos Aires also heard Caruso sing during this pivotal phase of his career and, in 1899–1900, he appeared before the Tsar and the Russian aristocracy at the Mariinsky Theatre in Saint Petersburg and the Bolshoi Theatre in Moscow as part of a touring company of first-class Italian singers.",2,8,== Biography == | === Early career ===,67892
-1897,CD,YEAR_REGEX_1,TIME,time_reference,"The first major operatic role that Caruso created was Federico in Francesco Cilea's L'arlesiana (1897); then he was Loris in Umberto Giordano's Fedora (1898) at the Teatro Lirico, Milan.",0,9,== Biography == | === Early career ===,67892
-1898,CD,YEAR_REGEX_1,TIME,time_reference,"The first major operatic role that Caruso created was Federico in Francesco Cilea's L'arlesiana (1897); then he was Loris in Umberto Giordano's Fedora (1898) at the Teatro Lirico, Milan.",0,9,== Biography == | === Early career ===,67892
-1902,CD,YEAR_REGEX_1,TIME,time_reference,At that same theater he created the role of Maurizio in Francesco Cilea's Adriana Lecouvreur (1902).,1,9,== Biography == | === Early career ===,67892
-January 1900,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Puccini considered casting the young Caruso in the role of Cavaradossi in Tosca at its premiere in January 1900, but ultimately chose the older, more established Emilio De Marchi instead.",2,9,== Biography == | === Early career ===,67892
-later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Caruso appeared in the role later that year and Puccini stated that Caruso sang the part better.,3,9,== Biography == | === Early career ===,67892
-February 1901,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Caruso took part in a grand concert at La Scala in February 1901 that Toscanini organised to mark the recent death of Giuseppe Verdi.,0,10,== Biography == | === Early career ===,67892
-tenors of the day,NNS IN DT NN,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER MODIFIER TIME,time_reference,"Among those appearing with him at the concert were two other leading Italian tenors of the day, Francesco Tamagno (the creator of the protagonist's role in Verdi's Otello) and Giuseppe Borgatti (the creator of the protagonist's role in Giordano's Andrea Chénier).",1,10,== Biography == | === Early career ===,67892
-December 1901,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In December 1901, Caruso made his debut at the San Carlo Opera House in Naples in L'Elisir d'Amore to a lukewarm reception; two weeks later he appeared as Des Grieux in Massenet's Manon which was even more coolly received.",2,10,== Biography == | === Early career ===,67892
-two weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In December 1901, Caruso made his debut at the San Carlo Opera House in Naples in L'Elisir d'Amore to a lukewarm reception; two weeks later he appeared as Des Grieux in Massenet's Manon which was even more coolly received.",2,10,== Biography == | === Early career ===,67892
-March 1902,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Caruso embarked on his last series of La Scala performances in March 1902, creating the principal tenor part of Federico Loewe in Germania by Alberto Franchetti.",5,10,== Biography == | === Early career ===,67892
-A month,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"A month later, on 11 April, he was engaged by the Gramophone Company to make his first group of acoustic recordings in a Milan hotel room for a fee of 100 pounds sterling.",0,11,== Biography == | === Early career ===,67892
-11 April,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,"A month later, on 11 April, he was engaged by the Gramophone Company to make his first group of acoustic recordings in a Milan hotel room for a fee of 100 pounds sterling.",0,11,== Biography == | === Early career ===,67892
-14 May 1902,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"His successful debut at Covent Garden occurred on 14 May 1902, as the Duke of Mantua in Verdi's Rigoletto.",4,11,== Biography == | === Early career ===,67892
-the early 1900s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,They would sing together often during the early 1900s.,6,11,== Biography == | === Early career ===,67892
-1903,CD,YEAR_REGEX_1,TIME,time_reference,"In 1903, Caruso made his debut with the Metropolitan Opera in New York City.",0,13,== Biography == | === Metropolitan Opera ===,67892
-23 November 1903,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Caruso's debut was in a new production of Rigoletto on 23 November 1903.,3,13,== Biography == | === Metropolitan Opera ===,67892
-A few months,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"A few months later, he began his lifelong association with the Victor Talking Machine Company.",5,13,== Biography == | === Metropolitan Opera ===,67892
-1 February 1904,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"He made his first American records on 1 February 1904, having signed a lucrative financial deal with Victor.",6,13,== Biography == | === Metropolitan Opera ===,67892
-1921,CD,YEAR_REGEX_1,TIME,time_reference,"Thereafter, his recording career ran in tandem with his Met career, both bolstering each other, until his death in 1921.",7,13,== Biography == | === Metropolitan Opera ===,67892
-1904,CD,YEAR_REGEX_1,TIME,time_reference,"Caruso purchased the Villa Bellosguardo, a palatial country house near Florence, in 1904.",0,14,== Biography == | === Metropolitan Opera ===,67892
-1904–07 and 1913–14,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He also continued to sing widely in Europe, appearing again at Covent Garden in 1904–07 and 1913–14, and undertaking a UK tour in 1909.",1,15,== Biography == | === Metropolitan Opera ===,67892
-1909,CD,YEAR_REGEX_1,TIME,time_reference,"He also continued to sing widely in Europe, appearing again at Covent Garden in 1904–07 and 1913–14, and undertaking a UK tour in 1909.",1,15,== Biography == | === Metropolitan Opera ===,67892
-1909,CD,YEAR_REGEX_1,TIME,time_reference,"Audiences in France, Belgium, Monaco, Austria, Hungary and Germany also heard him before the outbreak of World War I. In 1909, Melba asked him to participate in her forthcoming tour of Australia, but he declined because of the significant amount of travel time that such a trip would entail.",2,15,== Biography == | === Metropolitan Opera ===,67892
-April 1906,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Members of the Met's roster of artists, including Caruso, had visited San Francisco in April 1906 for a series of performances.",0,16,== Biography == | === Metropolitan Opera ===,67892
-the morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Following an appearance as Don José in Carmen at the city's Grand Opera House, a strong jolt awakened Caruso at 5:13 on the morning of the 18th in his suite at the Palace Hotel.",1,16,== Biography == | === Metropolitan Opera ===,67892
-November 1906,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In November 1906, Caruso was charged with an indecent act allegedly committed in the monkey house of New York's Central Park Zoo.",9,16,== Biography == | === Metropolitan Opera ===,67892
-10 December 1910,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Caruso created the role of Dick Johnson in the world premiere of Puccini's La fanciulla del West on 10 December 1910.,0,17,== Biography == | === Metropolitan Opera ===,67892
-1916,CD,YEAR_REGEX_1,TIME,time_reference,"Caruso's timbre darkened as he aged and, from 1916 onwards, he began adding heroic parts such as Samson, John of Leyden, and Eléazar to his repertoire.",0,21,== Biography == | === Later career and personal life ===,67892
-1917,CD,YEAR_REGEX_1,TIME,time_reference,"Caruso toured the South American nations of Argentina, Uruguay, and Brazil in 1917, and two years later performed in Mexico City.",1,21,== Biography == | === Later career and personal life ===,67892
-two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Caruso toured the South American nations of Argentina, Uruguay, and Brazil in 1917, and two years later performed in Mexico City.",1,21,== Biography == | === Later career and personal life ===,67892
-1920,CD,YEAR_REGEX_1,TIME,time_reference,"In 1920, he was paid the enormous sum of 10,000 U.S. dollars a night (~$126,000 in 2018) to sing in Havana, Cuba.",2,21,== Biography == | === Later career and personal life ===,67892
-a night,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"In 1920, he was paid the enormous sum of 10,000 U.S. dollars a night (~$126,000 in 2018) to sing in Havana, Cuba.",2,21,== Biography == | === Later career and personal life ===,67892
-2018,CD,YEAR_REGEX_1,TIME,time_reference,"In 1920, he was paid the enormous sum of 10,000 U.S. dollars a night (~$126,000 in 2018) to sing in Havana, Cuba.",2,21,== Biography == | === Later career and personal life ===,67892
-1917,CD,YEAR_REGEX_1,TIME,time_reference,"The United States had entered World War I in 1917, sending troops to Europe.",0,22,== Biography == | === Later career and personal life ===,67892
-1918,CD,YEAR_REGEX_1,TIME,time_reference,"Biographer Michael Scott writes that by the end of the war in 1918, Caruso's annual income tax bill amounted to $154,000.",4,22,== Biography == | === Later career and personal life ===,67892
-a few years older,DT JJ NNS JJR,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER MODIFIER TIME MODIFIER,time_reference,"Prior to World War I, Caruso had been romantically linked to an Italian soprano, Ada Giachetti, who was a few years older than he was.",5,22,== Biography == | === Later career and personal life ===,67892
-1897 to 1908,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Though already married, Giachetti bore Caruso four sons during their liaison, which lasted from 1897 to 1908.",6,22,== Biography == | === Later career and personal life ===,67892
-1898–1951,CD,YEAR_REGEX_1,TIME,time_reference,Two survived infancy: Rodolfo Caruso (1898–1951) and singer/actor Enrico Caruso Jr. (1904–1987).,7,22,== Biography == | === Later career and personal life ===,67892
-1904–1987,CD,YEAR_REGEX_1,TIME,time_reference,Two survived infancy: Rodolfo Caruso (1898–1951) and singer/actor Enrico Caruso Jr. (1904–1987).,7,22,== Biography == | === Later career and personal life ===,67892
-11 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Her relationship with Caruso broke down after 11 years and they separated.,11,22,== Biography == | === Later career and personal life ===,67892
-1893–1955,CD,YEAR_REGEX_1,TIME,time_reference,"Towards the end of the war, Caruso met and courted a 25-year-old socialite, Dorothy Park Benjamin (1893–1955).",0,23,== Biography == | === Later career and personal life ===,67892
-20 August 1918,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"In spite of the disapproval of Dorothy's father, the couple wed on 20 August 1918.",2,23,== Biography == | === Later career and personal life ===,67892
-1919–1999,CD,YEAR_REGEX_1,TIME,time_reference,"They had a daughter, Gloria Caruso (1919–1999).",3,23,== Biography == | === Later career and personal life ===,67892
-1928 and 1945,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Dorothy wrote two biographies of Caruso, published in 1928 and 1945.",4,23,== Biography == | === Later career and personal life ===,67892
-a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"A fastidious dresser, Caruso took at least two baths a day and enjoyed good food and convivial company.",6,23,== Biography == | === Later career and personal life ===,67892
-the last year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"This deleterious habit, combined with a lack of exercise and the punishing schedule of performances that Caruso willingly undertook season after season at the Met, may have contributed to the persistent ill-health which afflicted the last year of his life.",13,23,== Biography == | === Later career and personal life ===,67892
-16 September 1920,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"On 16 September 1920, Caruso concluded three days of recording sessions at Victor's Trinity Church studio in Camden, New Jersey.",0,25,== Biography == | === Illness and death ===,67892
-three days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"On 16 September 1920, Caruso concluded three days of recording sessions at Victor's Trinity Church studio in Camden, New Jersey.",0,25,== Biography == | === Illness and death ===,67892
-late 1920,JJ NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Dorothy Caruso noted that her husband's health began a distinct downward spiral in late 1920 after he returned from a lengthy North American concert tour.,0,26,== Biography == | === Illness and death ===,67892
-3 December,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,"A falling pillar in Samson and Delilah on 3 December had hit him on the back, over the left kidney (and not on the chest as popularly reported).",2,26,== Biography == | === Illness and death ===,67892
-A few days,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"A few days before a performance of Pagliacci at the Met (Pierre Key says it was 4 December, the day after the Samson and Delilah injury) he suffered a chill and developed a cough and a ""dull pain in his side"".",3,26,== Biography == | === Illness and death ===,67892
-4 December,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,"A few days before a performance of Pagliacci at the Met (Pierre Key says it was 4 December, the day after the Samson and Delilah injury) he suffered a chill and developed a cough and a ""dull pain in his side"".",3,26,== Biography == | === Illness and death ===,67892
-the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"A few days before a performance of Pagliacci at the Met (Pierre Key says it was 4 December, the day after the Samson and Delilah injury) he suffered a chill and developed a cough and a ""dull pain in his side"".",3,26,== Biography == | === Illness and death ===,67892
-11 December 1920,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"During a performance of L'elisir d'amore by Donizetti at the Brooklyn Academy of Music on 11 December 1920, he suffered a throat haemorrhage and the performance was canceled at the end of Act 1.",0,27,== Biography == | === Illness and death ===,67892
-24 December 1920,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Following this incident, a clearly unwell Caruso gave only three more performances at the Met, the final one being as Eléazar in Halévy's La Juive, on 24 December 1920.",1,27,== Biography == | === Illness and death ===,67892
-Christmas Day,NNP NNP,HOLIDAY_REGEX TIME_UNIT_REGEX,TIME TIME,time_reference,"By Christmas Day, the pain in his side was so excruciating that he was screaming.",2,27,== Biography == | === Illness and death ===,67892
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"Caruso's health deteriorated further during the new year, lapsing into a coma and nearly dying of heart failure at one point.",5,27,== Biography == | === Illness and death ===,67892
-May 1921,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He slowly began to improve and he returned to Naples in May 1921 to recuperate from the most serious of the operations, during which part of a rib had been removed.",7,27,== Biography == | === Illness and death ===,67892
-overnight,RB,DAY_TIME_REGEX,TIME,time_reference,"He was on his way to Rome to see them but, while staying overnight in the Vesuvio Hotel in Naples, he took an alarming turn for the worse and was given morphine to help him sleep.",10,27,== Biography == | === Illness and death ===,67892
-9:00 a.m.,CD RB,DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME,time_reference,"Caruso died at the hotel shortly after 9:00 a.m. local time, on 2 August 1921.",0,28,== Biography == | === Illness and death ===,67892
-2 August 1921,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Caruso died at the hotel shortly after 9:00 a.m. local time, on 2 August 1921.",0,28,== Biography == | === Illness and death ===,67892
-1929,CD,YEAR_REGEX_1,TIME,time_reference,"In 1929, Dorothy Caruso had his remains sealed permanently in an ornate stone tomb.",5,28,== Biography == | === Illness and death ===,67892
-1895 to 1920,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Caruso's 25-year career, stretching from 1895 to 1920, included 863 appearances with the New York Metropolitan Opera (both at the Met and on tour) before his death in 1921 at the age of 48.",0,30,== Historical and musical significance ==,67892
-1921,CD,YEAR_REGEX_1,TIME,time_reference,"Caruso's 25-year career, stretching from 1895 to 1920, included 863 appearances with the New York Metropolitan Opera (both at the Met and on tour) before his death in 1921 at the age of 48.",0,30,== Historical and musical significance ==,67892
-day,NN,TIME_UNIT_REGEX,TIME,time_reference,"Thanks largely to his tremendously popular phonograph records, Caruso was one of the most famous entertainment personalities of his day, and his fame has continued to endure to the present.",1,30,== Historical and musical significance ==,67892
-of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Beyond records, Caruso's name became familiar to millions throughout the world via newspapers, books, magazines, and the new media technology of the 20th century: cinema, the telephone and telegraph.",3,30,== Historical and musical significance ==,67892
-1904 to 1920,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Caruso made more than 260 extant recordings in America for the Victor Talking Machine Company (later RCA Victor) from 1904 to 1920, and he and his heirs earned millions of dollars in royalties from the retail sales of these records.",11,30,== Historical and musical significance ==,67892
-1910,CD,YEAR_REGEX_1,TIME,time_reference,"He was also heard live from the stage of the Metropolitan Opera House in 1910, when he participated in the first public radio broadcast to be transmitted in the United States.",12,30,== Historical and musical significance ==,67892
-1918,CD,YEAR_REGEX_1,TIME,time_reference,"In 1918, he played a dual role in the American My Cousin (silent film, entirely restored in July 2021) for Paramount Pictures.",1,31,== Historical and musical significance ==,67892
-July 2021,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In 1918, he played a dual role in the American My Cousin (silent film, entirely restored in July 2021) for Paramount Pictures.",1,31,== Historical and musical significance ==,67892
-The following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The following year Caruso played a character called Cosimo in another film, The Splendid Romance.",3,31,== Historical and musical significance ==,67892
-1910,CD,YEAR_REGEX_1,TIME,time_reference,"It was at the Met, in 1910, that he created the role of Dick Johnson in Giacomo Puccini's La fanciulla del West.",1,32,== Historical and musical significance ==,67892
-1899 and 1901,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In the German repertoire, Caruso sang only two roles, Assad (in Karl Goldmark's The Queen of Sheba) and Richard Wagner's Lohengrin, both of which he performed in Italian in Buenos Aires in 1899 and 1901, respectively.",3,33,== Historical and musical significance ==,67892
-1917,CD,YEAR_REGEX_1,TIME,time_reference,"In 1917, he was elected an honorary member of the Phi Mu Alpha Sinfonia, the national fraternity for men involved in music, by the fraternity's Alpha chapter of the New England Conservatory of Music in Boston.",2,35,== Honors ==,67892
-1960,CD,YEAR_REGEX_1,TIME,time_reference,"In 1960, for his contribution to the recording industry, Caruso received a star located at 6625 Hollywood Boulevard on the Hollywood Walk of Fame.",4,35,== Honors ==,67892
-1987,CD,YEAR_REGEX_1,TIME,time_reference,Caruso was posthumously awarded a Grammy Lifetime Achievement Award in 1987.,5,35,== Honors ==,67892
-27 February,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,"On 27 February of that same year, the United States Postal Service issued a 22-cent postage stamp in his honor.",6,35,== Honors ==,67892
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"On 27 February of that same year, the United States Postal Service issued a 22-cent postage stamp in his honor.",6,35,== Honors ==,67892
-2012,CD,YEAR_REGEX_1,TIME,time_reference,He was voted into Gramophone's Hall of Fame in 2012.,7,35,== Honors ==,67892
-15 March 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"L'amico Francesco (Morelli) – Teatro Nuovo, Napoli, 15 March 1895 (debut)**",0,38,== Repertoire ==,67892
-28 March 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Faust – Caserta, 28 March 1895",0,39,== Repertoire ==,67892
-April 1895,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Cavalleria rusticana – Caserta, April 1895",0,40,== Repertoire ==,67892
-May 1895,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Camoens (Musoni) – Caserta, May 1895",0,41,== Repertoire ==,67892
-21 July 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Rigoletto – Napoli, 21 July 1895",0,42,== Repertoire ==,67892
-25 August 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La traviata – Napoli, 25 August 1895",0,43,== Repertoire ==,67892
-30 October 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Lucia di Lammermoor – Cairo, 30 October 1895",0,44,== Repertoire ==,67892
-9 November 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La Gioconda – Cairo, 9 November 1895",0,45,== Repertoire ==,67892
-15 November 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Manon Lescaut – Cairo, 15 November 1895",0,46,== Repertoire ==,67892
-7 December 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"I Capuleti e i Montecchi – Napoli, 7 December 1895",0,47,== Repertoire ==,67892
-21 March 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Malia (Francesco Paolo Frontini) – Trapani, 21 March 1896",0,48,== Repertoire ==,67892
-25 March 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La sonnambula – Trapani, 25 March 1896",0,49,== Repertoire ==,67892
-23 June 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Mariedda (Gianni Bucceri) – Napoli, 23 June 1896",0,50,== Repertoire ==,67892
-10 September 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"I puritani – Salerno, 10 September 1896",0,51,== Repertoire ==,67892
-22 November 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La Favorita – Salerno, 22 November 1896",0,52,== Repertoire ==,67892
-23 November 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"A San Francisco (Sebastiani) – Salerno, 23 November 1896",0,53,== Repertoire ==,67892
-6 December 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Carmen – Salerno, 6 December 1896",0,54,== Repertoire ==,67892
-1 February 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Un Dramma in vendemmia (Fornari) – Napoli, 1 February 1897",0,55,== Repertoire ==,67892
-6 March 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Celeste (Marengo) – Napoli, 6 March 1897**",0,56,== Repertoire ==,67892
-8 April 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Il Profeta Velato (Napolitano) – Salerno, 8 April 1897",0,57,== Repertoire ==,67892
-14 August 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La bohème – Livorno, 14 August 1897",0,58,== Repertoire ==,67892
-3 November 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La Navarrese – Milano, 3 November 1897",0,59,== Repertoire ==,67892
-10 November 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Il Voto (Giordano) – Milano, 10 November 1897**",0,60,== Repertoire ==,67892
-27 November 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"L'arlesiana – Milano, 27 November 1897**",0,61,== Repertoire ==,67892
-31 December 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Pagliacci – Milano, 31 December 1897",0,62,== Repertoire ==,67892
-20 January 1898,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La bohème (Leoncavallo) – Genova, 20 January 1898",0,63,== Repertoire ==,67892
-3 February 1898,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"The Pearl Fishers – Genova, 3 February 1898",0,64,== Repertoire ==,67892
-2 April 1898,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Hedda (Leborne) – Milano, 2 April 1898**",0,65,== Repertoire ==,67892
-4 March 1898,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Mefistofele – Fiume, 4 March 1898",0,66,== Repertoire ==,67892
-3 June,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,"Sapho (Massenet) – Trento, 3 June (?) 1898",0,67,== Repertoire ==,67892
-1898,CD,YEAR_REGEX_1,TIME,time_reference,"Sapho (Massenet) – Trento, 3 June (?) 1898",0,67,== Repertoire ==,67892
-17 November 1898,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Fedora – Milano, 17 November 1898**",0,68,== Repertoire ==,67892
-22 June 1899,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Iris – Buenos Aires, 22 June 1899",0,69,== Repertoire ==,67892
-4 July 1899,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La regina di Saba (Goldmark) – Buenos Aires, 4 July 1899",0,70,== Repertoire ==,67892
-25 July 1899,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Yupanki (Berutti)– Buenos Aires, 25 July 1899**",0,71,== Repertoire ==,67892
-3 January 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Aida – St. Petersburg, 3 January 1900",0,72,== Repertoire ==,67892
-11 January 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Un ballo in maschera – St. Petersburg, 11 January 1900",0,73,== Repertoire ==,67892
-2 March 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Maria di Rohan – St. Petersburg, 2 March 1900",0,74,== Repertoire ==,67892
-28 July 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Manon – Buenos Aires, 28 July 1900",0,75,== Repertoire ==,67892
-23 October 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Tosca – Treviso, 23 October 1900",0,76,== Repertoire ==,67892
-17 January 1901,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Le maschere (Mascagni) – Milano, 17 January 1901**",0,77,== Repertoire ==,67892
-17 February 1901,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"L'elisir d'amore – Milano, 17 February 1901",0,78,== Repertoire ==,67892
-7 July 1901,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Lohengrin – Buenos Aires, 7 July 1901",0,79,== Repertoire ==,67892
-11 March 1902,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Germania – Milano, 11 March 1902**",0,80,== Repertoire ==,67892
-19 July 1902,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Don Giovanni – London, 19 July 1902",0,81,== Repertoire ==,67892
-6 November 1902,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Adriana Lecouvreur – Milano, 6 November 1902**",0,82,== Repertoire ==,67892
-10 March 1903,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Lucrezia Borgia – Lisbon, 10 March 1903",0,83,== Repertoire ==,67892
-3 February 1905,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Les Huguenots – New York, 3 February 1905",0,84,== Repertoire ==,67892
-9 February 1906,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Martha – New York, 9 February 1906",0,85,== Repertoire ==,67892
-26 May 1906,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Madama Butterfly – London, 26 May 1906",0,86,== Repertoire ==,67892
-11 January 1907,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"L'Africana – New York, 11 January 1907",0,87,== Repertoire ==,67892
-20 July 1907,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Andrea Chénier – London, 20 July 1907",0,88,== Repertoire ==,67892
-26 February 1908,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Il trovatore – New York, 26 February 1908",0,89,== Repertoire ==,67892
-14 November 1910,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Armide – New York, 14 November 1910",0,90,== Repertoire ==,67892
-10 December 1910,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La fanciulla del West – New York, 10 December 1910**",0,91,== Repertoire ==,67892
-26 December 1914,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Julien – New York, 26 December 1914",0,92,== Repertoire ==,67892
-24 November 1916,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Samson et Dalila – New York, 24 November 1916",0,93,== Repertoire ==,67892
-29 July 1917,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Lodoletta – Buenos Aires, 29 July 1917",0,94,== Repertoire ==,67892
-7 February 1918,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Le prophète – New York, 7 February 1918",0,95,== Repertoire ==,67892
-14 March 1918,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"L'amore dei tre re – New York, 14 March 1918",0,96,== Repertoire ==,67892
-15 November 1918,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La forza del destino – New York, 15 November 1918",0,97,== Repertoire ==,67892
-22 November 1919Caruso,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"La Juive – New York, 22 November 1919Caruso also had a repertory of more than 500 songs.",0,98,== Repertoire ==,67892
-of the day,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"They ranged from classical compositions to traditional Italian melodies and popular tunes of the day, including a few English-language titles such as George M. Cohan's ""Over There"", Henry Geehl's ""For You Alone"" and Arthur Sullivan's ""The Lost Chord"".",1,98,== Repertoire ==,67892
-the first two decades,DT JJ CD NNS,PREFIX_REGEX_1 ORDINAL_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL NUMERAL TIME,time_reference,"Caruso and the disc phonograph, known in the United Kingdom as the gramophone, did much to promote each other in the first two decades of the 20th century.",2,100,== Recordings ==,67892
-of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Caruso and the disc phonograph, known in the United Kingdom as the gramophone, did much to promote each other in the first two decades of the 20th century.",2,100,== Recordings ==,67892
-a century ago,DT NN RB,INARTICLE_REGEX TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER TIME MODIFIER,time_reference,"Many of Caruso's recordings have remained continuously available since their original issue over a century ago, and all of his surviving recordings (including several unissued takes) have been remastered and reissued several times over the years.",3,100,== Recordings ==,67892
-the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Many of Caruso's recordings have remained continuously available since their original issue over a century ago, and all of his surviving recordings (including several unissued takes) have been remastered and reissued several times over the years.",3,100,== Recordings ==,67892
-the early 1900s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Although recordings of complete operas have been available since the early 1900s, (Carmen in 1908 for example), Caruso never participated in a complete opera recording.",4,100,== Recordings ==,67892
-1908,CD,YEAR_REGEX_1,TIME,time_reference,"Although recordings of complete operas have been available since the early 1900s, (Carmen in 1908 for example), Caruso never participated in a complete opera recording.",4,100,== Recordings ==,67892
-"April , November and December 1902","NNP , NNP CC NNP CD",MONTH_REGEX COMMA_REGEX MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME MODIFIER TIME TIME,time_reference,"Caruso's first recordings were arranged by recording pioneer Fred Gaisberg and cut on disc in three separate sessions in Milan during April, November and December 1902.",5,100,== Recordings ==,67892
-April 1903,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In April 1903, he made seven further recordings, also in Milan, for the Anglo-Italian Commerce Company (AICC).",7,100,== Recordings ==,67892
-October 1903,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Three more Milan recordings for AICC followed in October 1903, released by Pathé Records on cylinders as well as on discs.",9,100,== Recordings ==,67892
-"April , 1904","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"He made one final recording for the Gramophone & Typewriter Ltd in April, 1904.",10,100,== Recordings ==,67892
-1 February 1904,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"On 1 February 1904, Caruso made his first recordings in America for the Victor Talking Machine Company and thereafter recorded exclusively for Victor.",11,100,== Recordings ==,67892
-1917,CD,YEAR_REGEX_1,TIME,time_reference,"in Camden, New Jersey, Caruso later recorded in Camden's Trinity Church, which Victor acquired as a recording studio in 1917 for its acoustical properties and which could accommodate a large band of musicians.",0,101,== Recordings ==,67892
-1904,CD,YEAR_REGEX_1,TIME,time_reference,"Caruso's first recordings for Victor in 1904 were made in Room 826, a small vocal studio at Carnegie Hall in New York.",1,101,== Recordings ==,67892
-16 September 1920,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Caruso's final recording session took place at Victor's Trinity Church studio in Camden on 16 September 1920, with the tenor singing the ""Domine Deus"" and ""Crucifixus"" from Rossini's Petite messe solennelle.",3,101,== Recordings ==,67892
-1904–05,CD,YEAR_REGEX_1,TIME,time_reference,"Caruso's earliest Victor records of operatic arias from 1904–05, like their thirty or so Milan-made predecessors, were all accompanied by piano.",0,102,== Recordings ==,67892
-February 1906,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"From February 1906, however, orchestral accompaniments became the norm, utilizing an ensemble of between eleven and twenty musicians.",1,102,== Recordings ==,67892
-1916,CD,YEAR_REGEX_1,TIME,time_reference,"The regular conductors of these recording sessions with orchestra were Walter B. Rogers and, from 1916, Josef Pasternack.",2,102,== Recordings ==,67892
-Pasternack,NNP,TIMELINE_REGEX,TIME,time_reference,"The regular conductors of these recording sessions with orchestra were Walter B. Rogers and, from 1916, Josef Pasternack.",2,102,== Recordings ==,67892
-1932,CD,YEAR_REGEX_1,TIME,time_reference,"Beginning in 1932, RCA Victor in the US and EMI (HMV) in the UK, reissued several of the Caruso discs with the original accompaniment over-dubbed by a larger electrically recorded orchestra.",3,102,== Recordings ==,67892
-1927,CD,YEAR_REGEX_1,TIME,time_reference,"Earlier experiments using this re-dubbing technique, carried out by Victor in 1927, had been considered unsatisfactory.",4,102,== Recordings ==,67892
-1950,CD,YEAR_REGEX_1,TIME,time_reference,"In 1950, RCA Victor reissued a number of Caruso recordings on 78-rpm discs pressed on red vinylite instead of the usual shellac.",5,102,== Recordings ==,67892
-the early 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,Most Caruso LP collections issued by RCA Victor during the early 1950s were also simultaneously released on their new 45-rpm format.,7,102,== Recordings ==,67892
-the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1970s, Thomas Stockham of the University of Utah developed an early digital reprocessing technique called ""Soundstream"" to remaster Caruso's recordings for RCA.",2,103,== Recordings ==,67892
-1976 to 1985,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1976 to 1985, these early digitised efforts were partially issued on LP (RCA never finished the Complete Caruso series on LP and the pre-1906 recordings were never restored using the Soundstream process) and were finally issued complete by RCA Victor on compact disc (in 1990, again in 2004 and a third time, in 2017).",4,103,== Recordings ==,67892
-1990,CD,YEAR_REGEX_1,TIME,time_reference,"From 1976 to 1985, these early digitised efforts were partially issued on LP (RCA never finished the Complete Caruso series on LP and the pre-1906 recordings were never restored using the Soundstream process) and were finally issued complete by RCA Victor on compact disc (in 1990, again in 2004 and a third time, in 2017).",4,103,== Recordings ==,67892
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"From 1976 to 1985, these early digitised efforts were partially issued on LP (RCA never finished the Complete Caruso series on LP and the pre-1906 recordings were never restored using the Soundstream process) and were finally issued complete by RCA Victor on compact disc (in 1990, again in 2004 and a third time, in 2017).",4,103,== Recordings ==,67892
-2017,CD,YEAR_REGEX_1,TIME,time_reference,"From 1976 to 1985, these early digitised efforts were partially issued on LP (RCA never finished the Complete Caruso series on LP and the pre-1906 recordings were never restored using the Soundstream process) and were finally issued complete by RCA Victor on compact disc (in 1990, again in 2004 and a third time, in 2017).",4,103,== Recordings ==,67892
-2000–2004,CD,YEAR_REGEX_1,TIME,time_reference,Other complete sets of Caruso's recordings in new remasterings were issued on CD on the Pearl label and in 2000–2004 by Naxos.,5,103,== Recordings ==,67892
-1993,CD,YEAR_REGEX_1,TIME,time_reference,"In 1993, Pearl also released a two-CD collection devoted to RCA and EMI's electrically over-dubbed versions of some of Caruso's original acoustic discs, originally issued in the 1930s.",7,103,== Recordings ==,67892
-the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In 1993, Pearl also released a two-CD collection devoted to RCA and EMI's electrically over-dubbed versions of some of Caruso's original acoustic discs, originally issued in the 1930s.",7,103,== Recordings ==,67892
-now,RB,TIMELINE_REGEX,TIME,time_reference,"Since the expiration of their original copyrights, Caruso's records are now in the public domain and have been reissued by several different record labels with varying degrees of sound quality.",9,103,== Recordings ==,67892
-1925,CD,YEAR_REGEX_1,TIME,time_reference,"Caruso died before the introduction of high fidelity, electrical recording technology in 1925.",12,103,== Recordings ==,67892
-present,NN,TIMELINE_REGEX,TIME,time_reference,This process captured only a limited range of the overtones and nuances present in his singing voice.,14,103,== Recordings ==,67892
-of around four and one half minutes,IN IN CD CC CD NN NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 LINKAGE_REGEX BASIC_NUMBER_REGEX_1 PREFIX_REGEX_2 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL MODIFIER NUMERAL MODIFIER TIME,time_reference,Caruso's 12-inch acoustic recordings were limited to a maximum duration of around four and one half minutes.,15,103,== Recordings ==,67892
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+25 February 1873 – 2 August 1921,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,0,0
+1902 to 1920,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,2,0
+25 February 1873,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,1,3
+the next day,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1,3
+now,RB,TIMELINE_REGEX,TIME,time_reference,2,3
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,13,3
+1888,CD,YEAR_REGEX_1,TIME,time_reference,0,4
+45 days,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,3,4
+1894,CD,YEAR_REGEX_1,TIME,time_reference,4,4
+15 March 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,6
+1896,CD,YEAR_REGEX_1,TIME,time_reference,1,7
+the final few years,DT JJ JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,0,8
+of the 19th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,0,8
+1900,CD,YEAR_REGEX_1,TIME,time_reference,0,8
+26 December,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,1,8
+of that year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1,8
+1899–1900,CD,YEAR_REGEX_1,TIME,time_reference,2,8
+1897,CD,YEAR_REGEX_1,TIME,time_reference,0,9
+1898,CD,YEAR_REGEX_1,TIME,time_reference,0,9
+1902,CD,YEAR_REGEX_1,TIME,time_reference,1,9
+January 1900,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,2,9
+later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,3,9
+February 1901,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,10
+tenors of the day,NNS IN DT NN,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER MODIFIER TIME,time_reference,1,10
+December 1901,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,2,10
+two weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,10
+March 1902,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,5,10
+A month,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,11
+11 April,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,0,11
+14 May 1902,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,4,11
+the early 1900s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,6,11
+1903,CD,YEAR_REGEX_1,TIME,time_reference,0,13
+23 November 1903,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,13
+A few months,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,5,13
+1 February 1904,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,6,13
+1921,CD,YEAR_REGEX_1,TIME,time_reference,7,13
+1904,CD,YEAR_REGEX_1,TIME,time_reference,0,14
+1904–07 and 1913–14,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,1,15
+1909,CD,YEAR_REGEX_1,TIME,time_reference,1,15
+1909,CD,YEAR_REGEX_1,TIME,time_reference,2,15
+April 1906,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,16
+the morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,1,16
+November 1906,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,9,16
+10 December 1910,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,17
+1916,CD,YEAR_REGEX_1,TIME,time_reference,0,21
+1917,CD,YEAR_REGEX_1,TIME,time_reference,1,21
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,21
+1920,CD,YEAR_REGEX_1,TIME,time_reference,2,21
+a night,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,2,21
+2018,CD,YEAR_REGEX_1,TIME,time_reference,2,21
+1917,CD,YEAR_REGEX_1,TIME,time_reference,0,22
+1918,CD,YEAR_REGEX_1,TIME,time_reference,4,22
+a few years older,DT JJ NNS JJR,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER MODIFIER TIME MODIFIER,time_reference,5,22
+1897 to 1908,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,6,22
+1898–1951,CD,YEAR_REGEX_1,TIME,time_reference,7,22
+1904–1987,CD,YEAR_REGEX_1,TIME,time_reference,7,22
+11 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,11,22
+1893–1955,CD,YEAR_REGEX_1,TIME,time_reference,0,23
+20 August 1918,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,2,23
+1919–1999,CD,YEAR_REGEX_1,TIME,time_reference,3,23
+1928 and 1945,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,4,23
+a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,6,23
+the last year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,13,23
+16 September 1920,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,25
+three days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,25
+late 1920,JJ NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,26
+3 December,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,2,26
+A few days,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,3,26
+4 December,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,3,26
+the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,3,26
+11 December 1920,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,27
+24 December 1920,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,1,27
+Christmas Day,NNP NNP,HOLIDAY_REGEX TIME_UNIT_REGEX,TIME TIME,time_reference,2,27
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,5,27
+May 1921,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,7,27
+overnight,RB,DAY_TIME_REGEX,TIME,time_reference,10,27
+9:00 a.m.,CD RB,DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME,time_reference,0,28
+2 August 1921,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,28
+1929,CD,YEAR_REGEX_1,TIME,time_reference,5,28
+1895 to 1920,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,30
+1921,CD,YEAR_REGEX_1,TIME,time_reference,0,30
+day,NN,TIME_UNIT_REGEX,TIME,time_reference,1,30
+of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,3,30
+1904 to 1920,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,11,30
+1910,CD,YEAR_REGEX_1,TIME,time_reference,12,30
+1918,CD,YEAR_REGEX_1,TIME,time_reference,1,31
+July 2021,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,31
+The following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,3,31
+1910,CD,YEAR_REGEX_1,TIME,time_reference,1,32
+1899 and 1901,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,3,33
+1917,CD,YEAR_REGEX_1,TIME,time_reference,2,35
+1960,CD,YEAR_REGEX_1,TIME,time_reference,4,35
+1987,CD,YEAR_REGEX_1,TIME,time_reference,5,35
+27 February,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,6,35
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,6,35
+2012,CD,YEAR_REGEX_1,TIME,time_reference,7,35
+15 March 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,38
+28 March 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,39
+April 1895,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,40
+May 1895,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,41
+21 July 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,42
+25 August 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,43
+30 October 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,44
+9 November 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,45
+15 November 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,46
+7 December 1895,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,47
+21 March 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,48
+25 March 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,49
+23 June 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,50
+10 September 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,51
+22 November 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,52
+23 November 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,53
+6 December 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,54
+1 February 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,55
+6 March 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,56
+8 April 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,57
+14 August 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,58
+3 November 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,59
+10 November 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,60
+27 November 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,61
+31 December 1897,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,62
+20 January 1898,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,63
+3 February 1898,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,64
+2 April 1898,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,65
+4 March 1898,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,66
+3 June,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,0,67
+1898,CD,YEAR_REGEX_1,TIME,time_reference,0,67
+17 November 1898,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,68
+22 June 1899,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,69
+4 July 1899,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,70
+25 July 1899,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,71
+3 January 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,72
+11 January 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,73
+2 March 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,74
+28 July 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,75
+23 October 1900,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,76
+17 January 1901,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,77
+17 February 1901,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,78
+7 July 1901,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,79
+11 March 1902,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,80
+19 July 1902,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,81
+6 November 1902,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,82
+10 March 1903,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,83
+3 February 1905,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,84
+9 February 1906,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,85
+26 May 1906,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,86
+11 January 1907,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,87
+20 July 1907,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,88
+26 February 1908,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,89
+14 November 1910,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,90
+10 December 1910,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,91
+26 December 1914,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,92
+24 November 1916,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,93
+29 July 1917,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,94
+7 February 1918,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,95
+14 March 1918,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,96
+15 November 1918,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,97
+22 November 1919Caruso,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,98
+of the day,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1,98
+the first two decades,DT JJ CD NNS,PREFIX_REGEX_1 ORDINAL_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL NUMERAL TIME,time_reference,2,100
+of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,2,100
+a century ago,DT NN RB,INARTICLE_REGEX TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER TIME MODIFIER,time_reference,3,100
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,3,100
+the early 1900s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,4,100
+1908,CD,YEAR_REGEX_1,TIME,time_reference,4,100
+"April , November and December 1902","NNP , NNP CC NNP CD",MONTH_REGEX COMMA_REGEX MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME MODIFIER TIME TIME,time_reference,5,100
+April 1903,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,7,100
+October 1903,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,9,100
+"April , 1904","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,10,100
+1 February 1904,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,11,100
+1917,CD,YEAR_REGEX_1,TIME,time_reference,0,101
+1904,CD,YEAR_REGEX_1,TIME,time_reference,1,101
+16 September 1920,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,101
+1904–05,CD,YEAR_REGEX_1,TIME,time_reference,0,102
+February 1906,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,102
+1916,CD,YEAR_REGEX_1,TIME,time_reference,2,102
+Pasternack,NNP,TIMELINE_REGEX,TIME,time_reference,2,102
+1932,CD,YEAR_REGEX_1,TIME,time_reference,3,102
+1927,CD,YEAR_REGEX_1,TIME,time_reference,4,102
+1950,CD,YEAR_REGEX_1,TIME,time_reference,5,102
+the early 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,7,102
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,2,103
+1976 to 1985,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,4,103
+1990,CD,YEAR_REGEX_1,TIME,time_reference,4,103
+2004,CD,YEAR_REGEX_1,TIME,time_reference,4,103
+2017,CD,YEAR_REGEX_1,TIME,time_reference,4,103
+2000–2004,CD,YEAR_REGEX_1,TIME,time_reference,5,103
+1993,CD,YEAR_REGEX_1,TIME,time_reference,7,103
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,7,103
+now,RB,TIMELINE_REGEX,TIME,time_reference,9,103
+1925,CD,YEAR_REGEX_1,TIME,time_reference,12,103
+of around four and one half minutes,IN IN CD CC CD NN NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 LINKAGE_REGEX BASIC_NUMBER_REGEX_1 PREFIX_REGEX_2 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL MODIFIER NUMERAL MODIFIER TIME,time_reference,15,103

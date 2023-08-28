@@ -1,0 +1,44 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"April 26 , 1915 – April 20 , 1992","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"John Ned ""Johnny"" Shines (April 26, 1915 – April 20, 1992) was an American blues singer and guitarist.",0,0,,431867
+1932,CD,YEAR_REGEX_1,TIME,time_reference,"He moved to Hughes, Arkansas, in 1932 and worked on farms for three years, putting aside his music career.",2,2,== Biography ==,431867
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He moved to Hughes, Arkansas, in 1932 and worked on farms for three years, putting aside his music career.",2,2,== Biography ==,431867
+1935,CD,YEAR_REGEX_1,TIME,time_reference,"In 1935, Shines began traveling with Johnson, touring in the United States and Canada.",4,2,== Biography ==,431867
+1937,CD,YEAR_REGEX_1,TIME,time_reference,"They parted in 1937, one year before Johnson's death.",5,2,== Biography ==,431867
+one year,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"They parted in 1937, one year before Johnson's death.",5,2,== Biography ==,431867
+1941,CD,YEAR_REGEX_1,TIME,time_reference,"Shines played throughout the southern United States until 1941, when he settled in Chicago.",6,2,== Biography ==,431867
+1946,CD,YEAR_REGEX_1,TIME,time_reference,"He made his first recording in 1946 for Columbia Records, but the takes were never released.",8,2,== Biography ==,431867
+1950,CD,YEAR_REGEX_1,TIME,time_reference,"He recorded for Chess Records in 1950, but again no records were released.",9,2,== Biography ==,431867
+several more years,JJ JJR NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,He kept playing with blues musicians in the Chicago area for several more years.,10,2,== Biography ==,431867
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"In 1952, Shines recorded what is considered his best work, for J.O.B. Records.",11,2,== Biography ==,431867
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"In 1966, Vanguard Records found Shines taking photographs in a Chicago blues club, and he recorded tracks for the third volume of Chicago/",13,2,== Biography ==,431867
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Shines moved to Holt, Alabama, in Tuscaloosa County, in 1969.",17,2,== Biography ==,431867
+the late 1960s and 1970s,DT JJ NNS CC CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,"In the late 1960s and 1970s, Shines toured with Robert Lockwood, Jr., Robert Johnson's stepson, one of the last living original Delta blues musicians.",0,3,== Biography ==,431867
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"In 1980, Shines's career was brought to a standstill when he suffered a stroke.",1,3,== Biography ==,431867
+the 1991,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He later appeared and played in the 1991 documentary The Search for Robert Johnson.,2,3,== Biography ==,431867
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"In 1989, Shines met Kent DuChaine, and the two of them toured for the next several years, until Shines's death.",4,3,== Biography ==,431867
+the next several years,DT JJ JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"In 1989, Shines met Kent DuChaine, and the two of them toured for the next several years, until Shines's death.",4,3,== Biography ==,431867
+"April 20 , 1992","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Shines died on April 20, 1992, in Tuscaloosa, Alabama.",5,3,== Biography ==,431867
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,He was inducted into the Blues Hall of Fame later the same year.,6,3,== Biography ==,431867
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"When Shines came back to the blues in 1965 he was 50, yet his voice had the leonine power of a dozen years before, when he made records his reputation was based on.",1,5,== Biography ==,431867
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"When Shines came back to the blues in 1965 he was 50, yet his voice had the leonine power of a dozen years before, when he made records his reputation was based on.",1,5,== Biography ==,431867
+Last Night,JJ NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Last Night's Dream (Warner Bros. Records, 1968)",0,7,== Discography ==,431867
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Last Night's Dream (Warner Bros. Records, 1968)",0,7,== Discography ==,431867
+May 1968,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"(Blue Horizon Records, recorded May 1968)",2,8,== Discography ==,431867
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Johnny Shines with Big Walter Horton (Testament Records, 1969)",0,9,== Discography ==,431867
+Am,VBP,HALFDAY_REGEX_1,TIME,,Willie Dixon: I Am the Blues (November 1969),0,10,== Discography ==,431867
+November 1969,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Willie Dixon: I Am the Blues (November 1969),0,10,== Discography ==,431867
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Standing at the Crossroads (Testament, 1970)",0,11,== Discography ==,431867
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Sittin' on Top of the World (Biograph Records, 1972)",0,12,== Discography ==,431867
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Chicago Blues Festival 1972 (Black and Blue Records, 1973)",0,13,== Discography ==,431867
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Chicago Blues Festival 1972 (Black and Blue Records, 1973)",0,13,== Discography ==,431867
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Johnny Shines & Co. (Biograph, 1973)",0,14,== Discography ==,431867
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Johnny Shines (Advent Records, 1974)",0,15,== Discography ==,431867
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Too Wet to Plow (Blue Labor Records, 1977)",0,16,== Discography ==,431867
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Hey Ba-Ba-Re-Bop (Rounder Records, 1978)",0,17,== Discography ==,431867
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"To Wet To Plow (Tomato Records, 1989)",0,18,== Discography ==,431867
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Traditional Delta Blues (Biograph, 1991)",0,19,== Discography ==,431867
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Mr. Cover Shaker (Biograph, 1992)",0,20,== Discography ==,431867
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Skull & Crossbones Blues (High Tone, 2003)",0,21,== Discography ==,431867
+Falling,NNP,SEASON_REGEX,TIME,time_reference,"Johnny Shines: The Blues Came Falling Down - Live 1973 (Omnivore Recordings, 2019)",0,22,== Discography ==,431867
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Johnny Shines: The Blues Came Falling Down - Live 1973 (Omnivore Recordings, 2019)",0,22,== Discography ==,431867
+2019,CD,YEAR_REGEX_1,TIME,time_reference,"Johnny Shines: The Blues Came Falling Down - Live 1973 (Omnivore Recordings, 2019)",0,22,== Discography ==,431867

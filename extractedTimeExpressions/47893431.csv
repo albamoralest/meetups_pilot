@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+June,NNP,MONTH_REGEX,TIME,time_reference,Kiana June,0,0,,47893431
+"January 14 , 1990","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Weber (born January 14, 1990) is an American violinist, best known as a former member of the Irish band Gaelic Storm.",1,0,,47893431
+2007,CD,YEAR_REGEX_1,TIME,time_reference,In 2007 she graduated from Chelsea High School.,1,2,== Early life and education ==,47893431
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"In 2009 Weber joined the Canadian violin troupe, Barrage.",1,4,== Career ==,47893431
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"She toured with Barrage for three years and appeared in theaters, festival stages, and television specials in North America, Central America, Europe and Asia.",2,4,== Career ==,47893431
+the fall,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"Weber joined Gaelic Storm in the fall of 2012, and played on several albums, including Go Climb a Tree.",3,4,== Career ==,47893431
+of 2012,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Weber joined Gaelic Storm in the fall of 2012, and played on several albums, including Go Climb a Tree.",3,4,== Career ==,47893431
+the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,Weber left the band in the summer of 2017 and was replaced by fiddler Katie Grennan.,4,4,== Career ==,47893431
+of 2017,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Weber left the band in the summer of 2017 and was replaced by fiddler Katie Grennan.,4,4,== Career ==,47893431
+of the 2018-2019,IN DT JJ,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,Weber played fiddle in the band of the 2018-2019 U.S. touring production of Come From Away.,5,4,== Career ==,47893431

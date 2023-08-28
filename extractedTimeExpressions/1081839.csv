@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"June 10 , 1941","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,0
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,1
+Tomorrow,NNP,TIMELINE_REGEX,TIME,time_reference,0,1
+1975,CD,YEAR_REGEX_1,TIME,time_reference,1,1
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,2,1
+1996,CD,YEAR_REGEX_1,TIME,time_reference,3,1
+2000,CD,YEAR_REGEX_1,TIME,time_reference,4,1

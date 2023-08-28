@@ -1,0 +1,14 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"October 4 , 1948","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Michael John ""Duke"" Robillard (born October 4, 1948) is an American guitarist and singer.",0,0,,2765073
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"In 1967, he and Al Copley founded the band Roomful of Blues.",1,2,== Career ==,2765073
+ten years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He spent over ten years with Roomful of Blues before departing in 1979, becoming the guitarist for singer Robert Gordon and then a member of the Legendary Blues Band.",2,2,== Career ==,2765073
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"He spent over ten years with Roomful of Blues before departing in 1979, becoming the guitarist for singer Robert Gordon and then a member of the Legendary Blues Band.",2,2,== Career ==,2765073
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"He started the Duke Robillard Band in 1981, eventually adopting the name Duke Robillard and the Pleasure Kings, with whom he toured throughout the 1980s and recorded for Rounder Records.",3,2,== Career ==,2765073
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He started the Duke Robillard Band in 1981, eventually adopting the name Duke Robillard and the Pleasure Kings, with whom he toured throughout the 1980s and recorded for Rounder Records.",3,2,== Career ==,2765073
+1990,CD,YEAR_REGEX_1,TIME,time_reference,He became a member of the Fabulous Thunderbirds in 1990 to replace Jimmie Vaughan.,4,2,== Career ==,2765073
+Tonight,NNP,DAY_TIME_REGEX,TIME,time_reference,"The Blues Tonight, and covered blues songs from the 1940s and '50s in Low Down and Tore Up.",8,2,== Career ==,2765073
+the 1940s and '50s,DT CD CC NNS,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_2,MODIFIER TIME MODIFIER TIME,time_reference,"The Blues Tonight, and covered blues songs from the 1940s and '50s in Low Down and Tore Up.",8,2,== Career ==,2765073
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"Briefly in 2013, he was the guitarist for Bob Dylan's tour.",9,2,== Career ==,2765073
+"2000 , 2001","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Best Blues Guitarist, W. C. Handy Award, 2000, 2001",0,4,== Awards and honors ==,2765073
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"Grammy nomination, Best Contemporary Blues Album, Guitar Groove-a-Rama, 2007",0,5,== Awards and honors ==,2765073
+"Tonight , 2010","NNP , CD",DAY_TIME_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"The Blues Tonight, 2010",1,6,== Awards and honors ==,2765073

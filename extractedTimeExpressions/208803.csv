@@ -1,12 +1,12 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-1874–1952,CD,YEAR_REGEX_1,TIME,time_reference,"Joseph T. ""Cap"" Shaw (1874–1952) was the editor of Black Mask magazine from 1926 to 1936.",0,0,,208803
-1926 to 1936,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Joseph T. ""Cap"" Shaw (1874–1952) was the editor of Black Mask magazine from 1926 to 1936.",0,0,,208803
-now,RB,TIMELINE_REGEX,TIME,time_reference,"Under his editorship, Black Mask published many works of crime fiction now recognised as classics of the genre, by authors such as Dashiell Hammett, Raymond Chandler,",1,4,,208803
-August 1932,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"""An Interview With Joseph T. Shaw,"" The Author and Composer, August 1932.",1,9,== Further reading ==,208803
-August,NNP,MONTH_REGEX,TIME,time_reference,"Lenniger, August.",0,10,== Further reading ==,208803
-October 1929,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"""Black Mask"" (interview), Writer's Digest, October 1929.",1,10,== Further reading ==,208803
-Now,RB,TIMELINE_REGEX,TIME,time_reference,"""The Way We Live Now: 4-30-00:",1,11,== Further reading ==,208803
-"April 30 , 2000","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On Language; Dirigiste"", New York Times, April 30, 2000.",2,11,== Further reading ==,208803
-May 1934,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"""Do You Want to Become a Writer,"" Writer's Digest, May 1934.",1,12,== Further reading ==,208803
-June 1939,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"""Dialogue,"" Writer's Digest, June 1939.",1,13,== Further reading ==,208803
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"Black Mask, 2019.",2,14,== Further reading ==,208803
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+1874–1952,CD,YEAR_REGEX_1,TIME,time_reference,0,0
+1926 to 1936,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,0
+now,RB,TIMELINE_REGEX,TIME,time_reference,1,4
+August 1932,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,9
+August,NNP,MONTH_REGEX,TIME,time_reference,0,10
+October 1929,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,10
+Now,RB,TIMELINE_REGEX,TIME,time_reference,1,11
+"April 30 , 2000","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,2,11
+May 1934,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,12
+June 1939,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,13
+2019,CD,YEAR_REGEX_1,TIME,time_reference,2,14

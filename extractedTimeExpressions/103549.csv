@@ -1,78 +1,81 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"October 24 , 1930 – February 3 , 1959","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Jiles Perry Richardson Jr. (October 24, 1930 – February 3, 1959), known as The Big Bopper, was an American musician, songwriter and disc jockey.",0,0,,103549
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"His best-known compositions include ""Chantilly Lace"" and ""White Lightning"", the latter of which became George Jones' first number-one hit in 1959.",1,0,,103549
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"Richardson was killed in a plane crash in Clear Lake, Iowa, in 1959, along with fellow musicians Buddy Holly and Ritchie Valens, and the pilot Roger Peterson.",2,0,,103549
-The Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"The accident was famously referred to as ""The Day the Music Died"" in Don McLean's 1971 song ""American Pie"".",3,0,,103549
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"The accident was famously referred to as ""The Day the Music Died"" in Don McLean's 1971 song ""American Pie"".",3,0,,103549
-1905–1984,CD,YEAR_REGEX_1,TIME,time_reference,"J. P. Richardson was born in Sabine Pass, Texas, the oldest son of oil-field worker Jiles Perry Richardson (1905–1984) and his wife Elise (Stalsby) Richardson (1909–1983).",0,2,== Early life ==,103549
-1909–1983,CD,YEAR_REGEX_1,TIME,time_reference,"J. P. Richardson was born in Sabine Pass, Texas, the oldest son of oil-field worker Jiles Perry Richardson (1905–1984) and his wife Elise (Stalsby) Richardson (1909–1983).",0,2,== Early life ==,103549
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"Richardson graduated from Beaumont High School in 1947 and played on the ""Royal Purple"" American football team as a defensive lineman, wearing number 85.",3,2,== Early life ==,103549
-now,RB,TIMELINE_REGEX,TIME,time_reference,"Richardson worked part-time at Beaumont, Texas radio station KTRM (now KZZB).",0,5,== Career == | === Radio ===,103549
-1949,CD,YEAR_REGEX_1,TIME,time_reference,He was hired by the station full-time in 1949 and quit college.,1,5,== Career == | === Radio ===,103549
-"April 18 , 1952","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Richardson married Adrianne Joy Fryou on April 18, 1952, and their daughter Debra Joy was born in December 1953, soon after Richardson was promoted to supervisor of announcers at KTRM.",2,5,== Career == | === Radio ===,103549
-December 1953,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Richardson married Adrianne Joy Fryou on April 18, 1952, and their daughter Debra Joy was born in December 1953, soon after Richardson was promoted to supervisor of announcers at KTRM.",2,5,== Career == | === Radio ===,103549
-March 1955,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In March 1955 he was drafted into the United States Army and did his basic training at Fort Ord, California.",3,5,== Career == | === Radio ===,103549
-March 1957,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Richardson returned to KTRM radio following his discharge as a corporal in March 1957, where he held down the ""Dishwashers' Serenade"" shift from 11 a.m. to 12:30 p.m., Monday through Friday.",5,5,== Career == | === Radio ===,103549
-"11 a.m. to 12:30 p.m. , Monday","CD NN TO CD NN , NNP",DIGIT_REGEX_1 HALFDAY_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 HALFDAY_REGEX_1 COMMA_REGEX WEEK_REGEX,NUMERAL TIME MODIFIER NUMERAL TIME MODIFIER TIME,time_range,"Richardson returned to KTRM radio following his discharge as a corporal in March 1957, where he held down the ""Dishwashers' Serenade"" shift from 11 a.m. to 12:30 p.m., Monday through Friday.",5,5,== Career == | === Radio ===,103549
-Friday,NNP,WEEK_REGEX,TIME,time_reference,"Richardson returned to KTRM radio following his discharge as a corporal in March 1957, where he held down the ""Dishwashers' Serenade"" shift from 11 a.m. to 12:30 p.m., Monday through Friday.",5,5,== Career == | === Radio ===,103549
-3:00 to 6:00 p.m.,CD TO CD NN,DIGIT_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL MODIFIER NUMERAL TIME,time_range,"His new radio show ran from 3:00 to 6:00 p.m., and he soon became the station's program director.",2,6,== Career == | === Radio ===,103549
-May 1957,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,In May 1957 he broke the record for continuous on-air broadcasting by 8 minutes.,3,6,== Career == | === Radio ===,103549
-8 minutes,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,In May 1957 he broke the record for continuous on-air broadcasting by 8 minutes.,3,6,== Career == | === Radio ===,103549
-of five days,IN CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"He performed for a total of five days, two hours, and eight minutes from a remote setup in the lobby of the Jefferson Theatre in downtown Beaumont, playing 1,821 records and taking showers during 5-minute newscasts.",4,6,== Career == | === Radio ===,103549
-two hours,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He performed for a total of five days, two hours, and eight minutes from a remote setup in the lobby of the Jefferson Theatre in downtown Beaumont, playing 1,821 records and taking showers during 5-minute newscasts.",4,6,== Career == | === Radio ===,103549
-eight minutes,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He performed for a total of five days, two hours, and eight minutes from a remote setup in the lobby of the Jefferson Theatre in downtown Beaumont, playing 1,821 records and taking showers during 5-minute newscasts.",4,6,== Career == | === Radio ===,103549
-1958,CD,YEAR_REGEX_1,TIME,time_reference,"Richardson is credited for creating the first music video in 1958, and recorded an early example himself.",5,6,== Career == | === Radio ===,103549
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"George Jones later recorded Richardson's ""White Lightning"", which became Jones' first No. 1 country hit in 1959 (#73 on the pop charts).",1,8,== Career == | === Singer and songwriter ===,103549
-August 1959,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Preston's recording was not released until August 1959, six months after his death.",4,8,== Career == | === Singer and songwriter ===,103549
-six months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Preston's recording was not released until August 1959, six months after his death.",4,8,== Career == | === Singer and songwriter ===,103549
-three weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,The song became a No. 1 hit for three weeks in January 1960.,5,8,== Career == | === Singer and songwriter ===,103549
-January 1960,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,The song became a No. 1 hit for three weeks in January 1960.,5,8,== Career == | === Singer and songwriter ===,103549
-"the end of June , 1958","DT NN IN NNP , CD",PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,"Mercury bought the recording and released it at the end of June, 1958.",1,9,== Career == | === Singer and songwriter ===,103549
-July and August,NNP CC NNP,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX,TIME MODIFIER TIME,time_reference,"It slowly began picking up airplay through July and August, and reached No. 6 on the pop charts spending 22 weeks in the national Top 40.",2,9,== Career == | === Singer and songwriter ===,103549
-22 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"It slowly began picking up airplay through July and August, and reached No. 6 on the pop charts spending 22 weeks in the national Top 40.",2,9,== Career == | === Singer and songwriter ===,103549
-November 1958,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In November 1958 he scored a second hit, a raucous novelty tune entitled ""The Big Bopper's Wedding"", in which Richardson pretends to be getting cold feet at the altar.",4,9,== Career == | === Singer and songwriter ===,103549
-January 1959,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Both ""Chantilly Lace"" and ""Big Bopper's Wedding"" were receiving top 40 radio airplay through January 1959.",5,9,== Career == | === Singer and songwriter ===,103549
-1936–2004,CD,YEAR_REGEX_1,TIME,time_reference,Richardson was survived by his wife Adrienne Joy Wenner (1936–2004) and four-year-old daughter Debra (1955–2010).,0,11,== Personal life ==,103549
-1955–2010,CD,YEAR_REGEX_1,TIME,time_reference,Richardson was survived by his wife Adrienne Joy Wenner (1936–2004) and four-year-old daughter Debra (1955–2010).,0,11,== Personal life ==,103549
-1959–2013,CD,YEAR_REGEX_1,TIME,time_reference,"His son Jay Perry Richardson (1959–2013) was born two months after his death, being born in April 1959.",1,11,== Personal life ==,103549
-two months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"His son Jay Perry Richardson (1959–2013) was born two months after his death, being born in April 1959.",1,11,== Personal life ==,103549
-April 1959,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"His son Jay Perry Richardson (1959–2013) was born two months after his death, being born in April 1959.",1,11,== Personal life ==,103549
-Winter,NNP,SEASON_REGEX,TIME,time_reference,"He toured on the ""Winter Dance Party"" tour with Buddy Holly impersonator John Mueller on some of the same stages where his father had performed.",5,11,== Personal life ==,103549
-January 2007,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 2007, Jay Richardson requested that his father's body be exhumed and an autopsy be performed in response to an internet rumor about guns being fired aboard the aircraft and Richardson initially surviving the crash.",0,12,== Personal life ==,103549
-48 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"""Dad still amazes me 48 years after his death, that he was in remarkable shape,"" Richardson told the Associated Press.",3,12,== Personal life ==,103549
-December 2008,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In December 2008  he announced that he would be placing the old casket up for auction on eBay, donating a share of the proceeds to the Texas Musicians Museum, but he downplayed the suggestion in later interviews.",14,12,== Personal life ==,103549
-2013,CD,YEAR_REGEX_1,TIME,time_reference,He died of heart failure in 2013.,15,12,== Personal life ==,103549
-the morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"After a long hard fight, JP succumbed on the morning of August 21, at the age of 54.",1,14,== Personal life ==,103549
-of August 21,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,"After a long hard fight, JP succumbed on the morning of August 21, at the age of 54.",1,14,== Personal life ==,103549
-Winter,NNP,SEASON_REGEX,TIME,time_reference,"With the success of ""Chantilly Lace"", Richardson took time off from KTRM radio and joined Buddy Holly, Ritchie Valens, and Dion and the Belmonts for a ""Winter Dance Party"" tour starting on January 23, 1959.",0,16,== Death ==,103549
-"January 23 , 1959","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"With the success of ""Chantilly Lace"", Richardson took time off from KTRM radio and joined Buddy Holly, Ritchie Valens, and Dion and the Belmonts for a ""Winter Dance Party"" tour starting on January 23, 1959.",0,16,== Death ==,103549
-the 11th night,DT CD NN,PREFIX_REGEX_1 DIGIT_REGEX_1 DAY_TIME_REGEX,MODIFIER NUMERAL TIME,time_reference,"On the 11th night of the tour (February 2, 1959), they played at the Surf Ballroom in Clear Lake, Iowa.",1,16,== Death ==,103549
-"February 2 , 1959","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On the 11th night of the tour (February 2, 1959), they played at the Surf Ballroom in Clear Lake, Iowa.",1,16,== Death ==,103549
-That night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"That night, Holly chartered an airplane from Dwyer Flying Service in Mason City, Iowa, intending to fly himself and his bandmates Waylon Jennings and Tommy Allsup to their next tour venue in Moorhead, Minnesota.",2,16,== Death ==,103549
-a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"The musicians had been traveling by bus for over a week, and it had already broken down twice.",3,16,== Death ==,103549
-that night,WDT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,,"The weather forecast for the Clear Lake area was 18 °F (−8 °C) that night with moderate gusty winds and light scattered snow, and Peterson was fatigued from a 17-hour workday, but he agreed to fly the trip.",7,16,== Death ==,103549
-around midnight,IN NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"The Clear Lake show ended at around midnight, and Holly, Valens, and Richardson drove to the Mason City Airport, loaded their luggage, and boarded the red and white single-engine Beechcraft Bonanza.",0,18,== Death ==,103549
-around 12.55 a.m.,IN CD NN,PREFIX_REGEX_1 DIGIT_REGEX_1 HALFDAY_REGEX_1,MODIFIER NUMERAL TIME,time_reference,"Peterson received clearance from the control tower around 12.55 a.m. on February 3, 1959, and they took off—but the plane remained airborne for only a few minutes.",1,18,== Death ==,103549
-"February 3 , 1959","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Peterson received clearance from the control tower around 12.55 a.m. on February 3, 1959, and they took off—but the plane remained airborne for only a few minutes.",1,18,== Death ==,103549
-a few minutes,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Peterson received clearance from the control tower around 12.55 a.m. on February 3, 1959, and they took off—but the plane remained airborne for only a few minutes.",1,18,== Death ==,103549
-hour,NN,TIME_UNIT_REGEX,TIME,time_reference,The right wingtip of the Beechcraft Bonanza sliced into the frozen ground and sent the aircraft cartwheeling across a cleared cornfield at approximately 170 miles per hour (270 km/h).,4,18,== Death ==,103549
-28 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,Richardson was 28 years old.,3,19,== Death ==,103549
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"""Beggar to a King"" (recorded under his real name), (later recorded by Hank Snow in 1961, it made it to No. 5 on the country singles chart)",0,29,== Compositions ==,103549
-1988,CD,YEAR_REGEX_1,TIME,time_reference,"In 1988, Ken Paquette, a Wisconsin fan of the 1950s era, erected a stainless steel monument at the crash site depicting a guitar and a set of three records bearing the names of each of the three performers.",0,46,== Tributes ==,103549
-of the 1950s,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In 1988, Ken Paquette, a Wisconsin fan of the 1950s era, erected a stainless steel monument at the crash site depicting a guitar and a set of three records bearing the names of each of the three performers.",0,46,== Tributes ==,103549
-"July 17 , 2003.J.P","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The memorial was unveiled on July 17, 2003.J.P. Richardson's pioneering contribution to the genre has been recognized by the Rockabilly Hall of Fame.",3,46,== Tributes ==,103549
-2010,CD,YEAR_REGEX_1,TIME,time_reference,"In 2010, Richardson was inducted into the Iowa Rock 'n' Roll Hall of Fame.",0,47,== Tributes ==,103549
-a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"It was later recorded by Eddie Cochran, a friend of the three musicians who himself would die prematurely a year later in an automobile crash.",1,49,== Tributes ==,103549
-their 1986,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,"Van Halen's song ""Good Enough"" from their 1986 album 5150 begins with singer Sammy Hagar calling out ""Hello Baby!"", imitating the Big Bopper's hook in ""Chantilly Lace"".",0,50,== Tributes ==,103549
-their 1989,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,"Phil Lewis of L.A. Guns does the same in their song ""17 Crash"" from their 1989 album Cocked & Loaded.",1,50,== Tributes ==,103549
-Springfield,NNP,SEASON_REGEX,TIME,time_reference,"The Simpsons episode ""Sideshow Bob Roberts"" features a gravestone of The Big Bopper in Springfield that Sideshow Bob (Kelsey Grammer) used to help commit voter fraud and become elected for mayor.",0,51,== Tributes ==,103549
-years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"The gravestone is a bust of the Big Bopper holding a telephone receiver, with the epitaph reading ""The Big Bopper"", his birth and death years (1930–1959), then a parody on the memorable hook reading ""Gooooodbye, baby"".",1,51,== Tributes ==,103549
-1930–1959,CD,YEAR_REGEX_1,TIME,time_reference,"The gravestone is a bust of the Big Bopper holding a telephone receiver, with the epitaph reading ""The Big Bopper"", his birth and death years (1930–1959), then a parody on the memorable hook reading ""Gooooodbye, baby"".",1,51,== Tributes ==,103549
-currently,RB,TIMELINE_REGEX,TIME,time_reference,"The Big Bopper's estate is currently owned by his daughter-in-law, Patty Richardson, and managed by C3 Entertainment, a company that specializes in classic brands.",0,53,== Tributes ==,103549
-currently,RB,TIMELINE_REGEX,TIME,time_reference,"C3 Entertainment currently manages an official tribute band featuring a Big Bopper impersonator, touring with the Winter Dance Party.",1,53,== Tributes ==,103549
-the Winter,DT NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"C3 Entertainment currently manages an official tribute band featuring a Big Bopper impersonator, touring with the Winter Dance Party.",1,53,== Tributes ==,103549
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"In 2019, the Winter Dance Party debuted the film Bopper and Me.",2,53,== Tributes ==,103549
-the Winter,DT NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"In 2019, the Winter Dance Party debuted the film Bopper and Me.",2,53,== Tributes ==,103549
-the end of the fifties,DT NN IN DT NNS,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 DECADE_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"In Not Fade Away, a turbulent road novel taking place at the end of the fifties, Jim Dodge narrates an eventful trip to the Big Bopper's grave.",0,55,"== Book, film, and stage ==",103549
-1998,CD,YEAR_REGEX_1,TIME,time_reference,"Escott, Colin (1998).",0,59,== Further reading ==,103549
-The Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Tribute: The Day the Music Died at The Death of Rock: The Archive,0,60,== Further reading ==,103549
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"October 24 , 1930 – February 3 , 1959","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+1959,CD,YEAR_REGEX_1,TIME,time_reference,1,0
+1959,CD,YEAR_REGEX_1,TIME,time_reference,2,0
+The Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,3,0
+1971,CD,YEAR_REGEX_1,TIME,time_reference,3,0
+1905–1984,CD,YEAR_REGEX_1,TIME,time_reference,0,2
+1909–1983,CD,YEAR_REGEX_1,TIME,time_reference,0,2
+1947,CD,YEAR_REGEX_1,TIME,time_reference,3,2
+now,RB,TIMELINE_REGEX,TIME,time_reference,0,5
+1949,CD,YEAR_REGEX_1,TIME,time_reference,1,5
+"April 18 , 1952","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,2,5
+December 1953,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,2,5
+March 1955,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,3,5
+March 1957,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,5,5
+"11 a.m. to 12:30 p.m. , Monday","CD NN TO CD NN , NNP",DIGIT_REGEX_1 HALFDAY_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 HALFDAY_REGEX_1 COMMA_REGEX WEEK_REGEX,NUMERAL TIME MODIFIER NUMERAL TIME MODIFIER TIME,time_range,5,5
+Friday,NNP,WEEK_REGEX,TIME,time_reference,5,5
+3:00 to 6:00 p.m.,CD TO CD NN,DIGIT_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL MODIFIER NUMERAL TIME,time_range,2,6
+May 1957,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,3,6
+8 minutes,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,3,6
+of five days,IN CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,4,6
+two hours,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,4,6
+eight minutes,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,4,6
+1958,CD,YEAR_REGEX_1,TIME,time_reference,5,6
+1959,CD,YEAR_REGEX_1,TIME,time_reference,1,8
+August 1959,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,4,8
+six months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,4,8
+three weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,5,8
+January 1960,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,5,8
+Daily,NNP,PERIOD_REGEX,TIME,time_reference,6,8
+Daily,NNP,PERIOD_REGEX,TIME,time_reference,7,8
+Daily,NNP,PERIOD_REGEX,TIME,time_reference,0,9
+"the end of June , 1958","DT NN IN NNP , CD",PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,1,9
+July and August,NNP CC NNP,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX,TIME MODIFIER TIME,time_reference,2,9
+22 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,9
+November 1958,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,4,9
+January 1959,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,5,9
+1936–2004,CD,YEAR_REGEX_1,TIME,time_reference,0,11
+1955–2010,CD,YEAR_REGEX_1,TIME,time_reference,0,11
+1959–2013,CD,YEAR_REGEX_1,TIME,time_reference,1,11
+two months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,11
+April 1959,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,11
+Winter,NNP,SEASON_REGEX,TIME,time_reference,5,11
+January 2007,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,12
+48 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,3,12
+December 2008,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,14,12
+2013,CD,YEAR_REGEX_1,TIME,time_reference,15,12
+the morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,1,14
+of August 21,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,1,14
+Winter,NNP,SEASON_REGEX,TIME,time_reference,0,16
+"January 23 , 1959","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,16
+the 11th night,DT CD NN,PREFIX_REGEX_1 DIGIT_REGEX_1 DAY_TIME_REGEX,MODIFIER NUMERAL TIME,time_reference,1,16
+"February 2 , 1959","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,1,16
+That night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,2,16
+a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,3,16
+that night,WDT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,,7,16
+around midnight,IN NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,0,18
+around 12.55 a.m.,IN CD NN,PREFIX_REGEX_1 DIGIT_REGEX_1 HALFDAY_REGEX_1,MODIFIER NUMERAL TIME,time_reference,1,18
+"February 3 , 1959","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,1,18
+a few minutes,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1,18
+hour,NN,TIME_UNIT_REGEX,TIME,time_reference,4,18
+28 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,3,19
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,29
+1988,CD,YEAR_REGEX_1,TIME,time_reference,0,46
+of the 1950s,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,0,46
+"July 17 , 2003.J.P","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,3,46
+2010,CD,YEAR_REGEX_1,TIME,time_reference,0,47
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,1,49
+their 1986,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,0,50
+their 1989,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,1,50
+Springfield,NNP,SEASON_REGEX,TIME,time_reference,0,51
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,1,51
+1930–1959,CD,YEAR_REGEX_1,TIME,time_reference,1,51
+currently,RB,TIMELINE_REGEX,TIME,time_reference,0,53
+currently,RB,TIMELINE_REGEX,TIME,time_reference,1,53
+the Winter,DT NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,1,53
+2019,CD,YEAR_REGEX_1,TIME,time_reference,2,53
+the Winter,DT NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,2,53
+the end of the fifties,DT NN IN DT NNS,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 DECADE_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,0,55
+1998,CD,YEAR_REGEX_1,TIME,time_reference,0,59
+The Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,60

@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"September 15 , 1981","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Terrance Michael Boykin (born September 15, 1981), better known as Bump J, is an American rapper from Chicago managed by SAL&CO.",0,0,,56945875
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005, he released ""Move Around"", his only hit single, which received radio play and was included in Madden NFL 06 and Entourage (Season 2, Episode 7) as well as used in commercials for McDonald's.",1,2,== Career ==,56945875
+2007,CD,YEAR_REGEX_1,TIME,time_reference,He worked with Kanye West on his debut album Nothing to Lose but left the label in 2007 before the album was released.,2,2,== Career ==,56945875
+2008,CD,YEAR_REGEX_1,TIME,time_reference,In 2008 he was arrested on bank robbery charges for an armed robbery in January 2007.,3,2,== Career ==,56945875
+January 2007,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,In 2008 he was arrested on bank robbery charges for an armed robbery in January 2007.,3,2,== Career ==,56945875
+seven years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"After accepting a plea deal and serving seven years of a ten year prison sentence, he was released on 12 April 2017.",4,2,== Career ==,56945875
+of a ten year,IN DT JJ NN,PREFIX_REGEX_1 INARTICLE_REGEX BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"After accepting a plea deal and serving seven years of a ten year prison sentence, he was released on 12 April 2017.",4,2,== Career ==,56945875
+12 April 2017,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"After accepting a plea deal and serving seven years of a ten year prison sentence, he was released on 12 April 2017.",4,2,== Career ==,56945875

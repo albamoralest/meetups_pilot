@@ -1,0 +1,80 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 24 , 1935","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Carol Kaye (nee Smith, born March 24, 1935) is an American musician.",0,0,,1153480
+50 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"She is one of the most prolific recorded bass guitarists in rock and pop music, playing on an estimated 10,000 recordings in a career spanning over 50 years.",1,0,,1153480
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"She started session work in 1957, and through a connection at Gold Star Studios began working for producers Phil Spector and Brian Wilson.",3,0,,1153480
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"After a bassist failed to turn up to a session in 1963, she switched to that instrument, quickly making a name for herself as one of the most in-demand session players of the 1960s, playing on numerous hits.",4,0,,1153480
+of the 1960s,IN DT NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"After a bassist failed to turn up to a session in 1963, she switched to that instrument, quickly making a name for herself as one of the most in-demand session players of the 1960s, playing on numerous hits.",4,0,,1153480
+the late 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"She moved into playing on film soundtracks in the late 1960s, particularly for Quincy Jones and Lalo Schifrin, and began to release a series of tutoring books such as How To Play The Electric Bass.",5,0,,1153480
+the end of the 1970s,DT NN IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"Kaye became less active towards the end of the 1970s, but has continued her career and attracted praise from other musicians.",6,0,,1153480
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"During the peak of her years of session work, she became part of a stable of Los Angeles-based musicians which went by a variety of informal names, but has since become known as ""The Wrecking Crew"".",0,1,,1153480
+the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Her work with the group led to her prominent role in the 2008 documentary film titled The Wrecking Crew.,1,1,,1153480
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1942, he sold a piano in order to finance a move to Wilmington, California.",2,3,== Early life ==,1153480
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"At age 13, Kaye received a steel string guitar from her mother, and began teaching professionally the following year.",4,3,== Early life ==,1153480
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1950s, Kaye played bebop jazz guitar with several groups on the Los Angeles club circuit, including Bob Neal's group, Jack Sheldon backing Lenny Bruce, Teddy Edwards and Billy Higgins.",6,3,== Early life ==,1153480
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"In 1957, Kaye was playing a gig at the Beverly Cavern, Hollywood, when producer Robert ""Bumps"" Blackwell invited her to a recording session for Sam Cooke's arrangement of ""Summertime"".",0,6,== Career == | === Pop sessions ===,1153480
+Summertime,NNP,SEASON_REGEX,TIME,time_reference,"In 1957, Kaye was playing a gig at the Beverly Cavern, Hollywood, when producer Robert ""Bumps"" Blackwell invited her to a recording session for Sam Cooke's arrangement of ""Summertime"".",0,6,== Career == | === Pop sessions ===,1153480
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"In 1958, she played acoustic rhythm guitar on Ritchie Valens' ""La Bamba"", recorded at Gold Star Studios, Hollywood.",2,6,== Career == | === Pop sessions ===,1153480
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"In 1963, when a bass player failed to show for a session at Capitol Records in Hollywood, she was asked to fill in on the instrument.",5,6,== Career == | === Pop sessions ===,1153480
+the 1960s and 1970s,DT NNS CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Kaye continued to play guitar on numerous other hit songs in the 1960s and 1970s, including the twelve-string electric guitar on several Sonny & Cher songs.",9,6,== Career == | === Pop sessions ===,1153480
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Kaye was the sole regular female member of The Wrecking Crew (though she has said the group were never known by this name, which was later invented by Hal Blaine), a group of studio musicians who played on a large number of hit records from Los Angeles in the 1960s.",12,6,== Career == | === Pop sessions ===,1153480
+the decade,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Throughout the decade, while at the time unknown to the public, Kaye played bass on a substantial number of records that appeared on the Billboard Hot 100.",13,6,== Career == | === Pop sessions ===,1153480
+the 1960s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Kaye later said that during the 1960s she would sometimes play three or four sessions per day, and was pleased that so many of them created hit records.",18,6,== Career == | === Pop sessions ===,1153480
+day,NN,TIME_UNIT_REGEX,TIME,time_reference,"Kaye later said that during the 1960s she would sometimes play three or four sessions per day, and was pleased that so many of them created hit records.",18,6,== Career == | === Pop sessions ===,1153480
+"Today , Summer Days","NNP , NNP NNP",TIMELINE_REGEX COMMA_REGEX SEASON_REGEX TIME_UNIT_REGEX,TIME MODIFIER TIME TIME,time_reference,"Through her work with Spector, Kaye caught the attention of The Beach Boys' Brian Wilson, who used her on several sessions, including the albums Beach Boys Today, Summer Days (and Summer Nights!!), Pet Sounds and Smile.",19,6,== Career == | === Pop sessions ===,1153480
+Summer Nights,NNP NNP,SEASON_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"Through her work with Spector, Kaye caught the attention of The Beach Boys' Brian Wilson, who used her on several sessions, including the albums Beach Boys Today, Summer Days (and Summer Nights!!), Pet Sounds and Smile.",19,6,== Career == | === Pop sessions ===,1153480
+the night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"By Pet Sounds, Wilson was asking musicians such as Kaye to play far more takes than typical sessions, often running over ten passes of a song, with sessions stretching well into the night.",21,6,== Career == | === Pop sessions ===,1153480
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"By 1969, Kaye was exhausted and had become disillusioned from doing session work, saying that the music had ""started to sound like cardboard"".",0,8,"== Career == | === Soundtracks, tutoring and later work ===",1153480
+the early 1970s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the early 1970s, she toured with Joe Pass and Hampton Hawes, and continued to do sessions.",7,8,"== Career == | === Soundtracks, tutoring and later work ===",1153480
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"In 1973, she played on Barbra Streisand's single ""The Way We Were"", which was cut live, and was told off by producer Marvin Hamlisch for improvising bass lines.",8,8,"== Career == | === Soundtracks, tutoring and later work ===",1153480
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976, she was involved in a car accident, and semi-retired from music.",9,8,"== Career == | === Soundtracks, tutoring and later work ===",1153480
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"She continued to play sporadically, appearing on J.J. Cale's 1981 album Shades.",10,8,"== Career == | === Soundtracks, tutoring and later work ===",1153480
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"In 1994, Kaye underwent corrective surgery to fix injuries stemming from the accident, and resumed playing and recording.",11,8,"== Career == | === Soundtracks, tutoring and later work ===",1153480
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"In 1997, she collaborated with Brian Wilson again, playing on his daughters' album, The Wilsons, while in 2006, Frank Black asked her to play on his album Fast Man Raider Man alongside fellow session stalwart, drummer Jim Keltner.",13,8,"== Career == | === Soundtracks, tutoring and later work ===",1153480
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"In 1997, she collaborated with Brian Wilson again, playing on his daughters' album, The Wilsons, while in 2006, Frank Black asked her to play on his album Fast Man Raider Man alongside fellow session stalwart, drummer Jim Keltner.",13,8,"== Career == | === Soundtracks, tutoring and later work ===",1153480
+the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,She was featured in the 2008 film The Wrecking Crew along with a cast of other studio musicians.,14,8,"== Career == | === Soundtracks, tutoring and later work ===",1153480
+the 1960s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Kaye's main instrument during the 1960s was the Fender Precision Bass, though she also used the Danelectro bass on occasion.",0,10,== Style and equipment ==,1153480
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1970s, she sometimes used the Gibson Ripper Bass, and in the 21st century she has used an Ibanez SRX700 bass.",1,10,== Style and equipment ==,1153480
+the 21st century,DT JJ NN,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"During the 1970s, she sometimes used the Gibson Ripper Bass, and in the 21st century she has used an Ibanez SRX700 bass.",1,10,== Style and equipment ==,1153480
+now,RB,TIMELINE_REGEX,TIME,time_reference,The recording is now in the Grammy Hall of Fame.,5,12,== Legacy ==,1153480
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Quincy Jones said in his 2001 autobiography Q that ""... women like...",6,12,== Legacy ==,1153480
+than ten years,IN CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"At the time of the sessions, most of the players thought pop music would not last longer than ten years, and she is surprised that people still listen to tracks on which she played.",14,12,== Legacy ==,1153480
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"In 2020, Rolling Stone magazine ranked Kaye number five in its list of the 50 greatest bassists of all time.",17,12,== Legacy ==,1153480
+the early 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Kaye was raised a Baptist, but practiced Judaism in the early 1960s.",0,14,== Personal life ==,1153480
+1958,CD,YEAR_REGEX_1,TIME,time_reference,Donna  and La Bamba – Ritchie Valens (1958),0,17,== Selected discography ==,1153480
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Deuces, ""T's,"" Roadsters & Drums – Hal Blaine (1963)",0,18,== Selected discography ==,1153480
+1964,CD,YEAR_REGEX_1,TIME,time_reference,Then He Kissed Me – The Crystals (1964),0,19,== Selected discography ==,1153480
+1964,CD,YEAR_REGEX_1,TIME,time_reference,You've Lost That Lovin' Feelin' – The Righteous Brothers (1964),0,20,== Selected discography ==,1153480
+Today,NN,TIMELINE_REGEX,TIME,time_reference,The Beach Boys Today! -,0,21,== Selected discography ==,1153480
+1965,CD,YEAR_REGEX_1,TIME,time_reference,The Beach Boys (1965),1,21,== Selected discography ==,1153480
+1965,CD,YEAR_REGEX_1,TIME,time_reference,These Boots Are Made for Walkin' – Nancy Sinatra (1965),0,22,== Selected discography ==,1153480
+Summer Days,NNP NNP,SEASON_REGEX TIME_UNIT_REGEX,TIME TIME,time_reference,Summer Days (And Summer Nights!!) -,0,23,== Selected discography ==,1153480
+Summer Nights,NNP NNP,SEASON_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,Summer Days (And Summer Nights!!) -,0,23,== Selected discography ==,1153480
+1965,CD,YEAR_REGEX_1,TIME,time_reference,The Beach Boys (1965),1,23,== Selected discography ==,1153480
+1966,CD,YEAR_REGEX_1,TIME,time_reference,The Very Special World of Lee Hazlewood – Lee Hazlewood (1966),0,24,== Selected discography ==,1153480
+1966,CD,YEAR_REGEX_1,TIME,time_reference,Batman Theme – The Marketts (1966),0,25,== Selected discography ==,1153480
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"River Deep, Mountain High – Ike & Tina Turner (1966)",0,26,== Selected discography ==,1153480
+1966,CD,YEAR_REGEX_1,TIME,time_reference,Pet Sounds – The Beach Boys (1966),0,27,== Selected discography ==,1153480
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Parsley, Sage, Rosemary and Thyme - Simon and Garfunkel (1966)",0,28,== Selected discography ==,1153480
+Springfield,NNP,SEASON_REGEX,TIME,time_reference,Buffalo Springfield  - Buffalo Springfield (1966),0,29,== Selected discography ==,1153480
+Springfield,NNP,SEASON_REGEX,TIME,time_reference,Buffalo Springfield  - Buffalo Springfield (1966),0,29,== Selected discography ==,1153480
+1966,CD,YEAR_REGEX_1,TIME,time_reference,Buffalo Springfield  - Buffalo Springfield (1966),0,29,== Selected discography ==,1153480
+1966,CD,YEAR_REGEX_1,TIME,time_reference,Freak Out! – The Mothers of Invention (1966),0,30,== Selected discography ==,1153480
+1967,CD,YEAR_REGEX_1,TIME,time_reference,The Beat Goes On – Sonny & Cher (1967),0,31,== Selected discography ==,1153480
+1967,CD,YEAR_REGEX_1,TIME,time_reference,The 59th Street Bridge Song (Feelin' Groovy) – Harpers Bizarre (1967),0,32,== Selected discography ==,1153480
+1967,CD,YEAR_REGEX_1,TIME,time_reference,More of the Monkees  - The Monkees (1967),0,33,== Selected discography ==,1153480
+1968,CD,YEAR_REGEX_1,TIME,time_reference,Wichita Lineman – Glen Campbell (1968),0,34,== Selected discography ==,1153480
+1969,CD,YEAR_REGEX_1,TIME,time_reference,Nancy – Nancy Sinatra (1969),0,35,== Selected discography ==,1153480
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Hikky Burr – Quincy Jones & Bill Cosby Smackwater Jack album and the first ""Bill Cosby TV Show"" (1969)",0,36,== Selected discography ==,1153480
+1969,CD,YEAR_REGEX_1,TIME,time_reference,With a Little Help from My Friends  - Joe Cocker (1969),0,37,== Selected discography ==,1153480
+1971,CD,YEAR_REGEX_1,TIME,time_reference,Charles Kynard – Charles Kynard (1971),0,38,== Selected discography ==,1153480
+1976,CD,YEAR_REGEX_1,TIME,time_reference,I Don't Know What's On Your Mind – Spiders Webb (1976),0,39,== Selected discography ==,1153480
+1981,CD,YEAR_REGEX_1,TIME,time_reference,Shades – J. J. Cale (1981),0,40,== Selected discography ==,1153480
+1996,CD,YEAR_REGEX_1,TIME,time_reference,The Wilsons – The Wilsons (1996),0,41,== Selected discography ==,1153480
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Fast Man Raider Man – Frank Black (2006),0,42,== Selected discography ==,1153480
+1965,CD,YEAR_REGEX_1,TIME,time_reference,California Creamin – Carol Kaye Guitars (1965) CD,0,44,== Selected discography == | === Archival recordings ===,1153480
+Days,NNP,TIME_UNIT_REGEX,TIME,time_reference,Better Days (1971) CD,0,45,== Selected discography == | === Archival recordings ===,1153480
+1971,CD,YEAR_REGEX_1,TIME,time_reference,Better Days (1971) CD,0,45,== Selected discography == | === Archival recordings ===,1153480
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"The Wrecking Crew, 2008",0,47,== Selected discography == | === Documentary ===,1153480
+"February 2 , 2002","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"NAMM Oral History Interview February 2, 2002",0,54,== External links ==,1153480
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Carol Kaye about her famous guitar licks for Sam Cooke, Beach Boys and more - Top 2000 a gogo, 2009",0,55,== External links ==,1153480
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"Carol Kaye about her famous guitar licks for Sam Cooke, Beach Boys and more - Top 2000 a gogo, 2009",0,55,== External links ==,1153480

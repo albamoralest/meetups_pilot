@@ -1,0 +1,15 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"November 7 , 1890 – October 11 , 1970","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Phil Spitalny (November 7, 1890 – October 11, 1970) was a Ukrainian-American musician, music critic, composer, and bandleader heard often on radio during the 1930s and 1940s.",0,0,,10433865
+the 1930s and 1940s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Phil Spitalny (November 7, 1890 – October 11, 1970) was a Ukrainian-American musician, music critic, composer, and bandleader heard often on radio during the 1930s and 1940s.",0,0,,10433865
+Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years ==,1,1,== Early years ==,10433865
+1905,CD,YEAR_REGEX_1,TIME,time_reference,"A child prodigy on clarinet, he toured Russia and came to the United States in 1905.",1,2,== Early years ==,10433865
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"For two years, he conducted the orchestra at the Stanley Theatre in Pittsburgh, Pennsylvania.",2,4,== Orchestra ==,10433865
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,"He led orchestras under the name Phil Spitalny and His All-Girl Orchestra, beginning with Hour of Charm Orchestra on his radio program The Hour of Charm in 1934.",3,4,== Orchestra ==,10433865
+The Hour,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He led orchestras under the name Phil Spitalny and His All-Girl Orchestra, beginning with Hour of Charm Orchestra on his radio program The Hour of Charm in 1934.",3,4,== Orchestra ==,10433865
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"He led orchestras under the name Phil Spitalny and His All-Girl Orchestra, beginning with Hour of Charm Orchestra on his radio program The Hour of Charm in 1934.",3,4,== Orchestra ==,10433865
+ten years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,The program lasted for over ten years on radio.,6,4,== Orchestra ==,10433865
+1946,CD,YEAR_REGEX_1,TIME,time_reference,He and Klein married in 1946.,7,4,== Orchestra ==,10433865
+1945,CD,YEAR_REGEX_1,TIME,time_reference,The orchestra made a guest appearance in the Abbott and Costello movie Here Come the Co-Eds in 1945.,8,4,== Orchestra ==,10433865
+1942,CD,YEAR_REGEX_1,TIME,time_reference,Spitalny also appeared in When Johnny Comes Marching Home (1942) and on Ed Sullivan's television program Toast of the Town.,9,4,== Orchestra ==,10433865
+Last years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Last years and death ==,1,7,== Last years and death ==,10433865
+1970,CD,YEAR_REGEX_1,TIME,time_reference,He died of cancer in Miami Beach in 1970 at the age of 79.,1,8,== Last years and death ==,10433865

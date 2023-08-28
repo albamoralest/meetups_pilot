@@ -1,0 +1,83 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"September 9 , 1967","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Christopher Caffery (born September 9, 1967) is an American musician, best known for his work as a member of Savatage and the Trans-Siberian Orchestra.",0,0,,6413101
+Recently,RB,TIMELINE_REGEX,TIME,time_reference,"Recently, Chris has been pursuing a solo career, releasing four albums since 2004.",1,0,,6413101
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Recently, Chris has been pursuing a solo career, releasing four albums since 2004.",1,0,,6413101
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He has cited guitarists such as Ted Nugent, Rik Emmett, Ace Frehley, Randy Rhoads, Michael Schenker as influences throughout the years as well.",3,2,== Biography ==,6413101
+13 months,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"After only 13 months, Chris grew bored with guitar lessons and decided to teach himself.",4,2,== Biography ==,6413101
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Chris graduated from Goshen Central High School in 1984 and went on to become a professional musician, teaching students during the day and playing shows in the night.",7,2,== Biography ==,6413101
+the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Chris graduated from Goshen Central High School in 1984 and went on to become a professional musician, teaching students during the day and playing shows in the night.",7,2,== Biography ==,6413101
+the night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Chris graduated from Goshen Central High School in 1984 and went on to become a professional musician, teaching students during the day and playing shows in the night.",7,2,== Biography ==,6413101
+one night,CD NN,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"Chris was in New York City one night, hanging around in a club in the middle of Times Square, when he met the lead singer of a band called Heaven named Allan Fryar.",1,3,== Biography ==,6413101
+A week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"A week later and Fryar called, and it turned out that the band also needed a drummer, so Chris's brother Phil joined.",3,3,== Biography ==,6413101
+1987-1988,JJ,YEAR_REGEX_1,TIME,time_reference,"But, Chris soon learned that a second guitarist may be needed in Savatage, so he learned all of the Savatage songs he could in time for Savatage's 1987-1988 tour with Dio and Megadeth.",2,4,== Biography ==,6413101
+20 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Chris was only 20 years old and playing arenas and was happy, but miserable.",6,4,== Biography ==,6413101
+a couple of years,DT NN IN NNS,INARTICLE_REGEX PREFIX_REGEX_2 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,Chris bounced between bands for a couple of years until he came into contact with the Oliva brothers once more.,0,5,== Biography ==,6413101
+"October 17 , 1993","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Around this time, Criss Oliva was killed in a car accident by a drunk driver on October 17, 1993.",6,6,== Biography ==,6413101
+1994,CD,YEAR_REGEX_1,TIME,time_reference,Butcher was signed in Europe and their debut was recorded in 1994.,9,6,== Biography ==,6413101
+almost 6 years,RB CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"The two formed a steady partnership for almost 6 years, recording both 1995's Dead Winter Dead and 1998's The Wake of Magellan together.",13,6,== Biography ==,6413101
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"The two formed a steady partnership for almost 6 years, recording both 1995's Dead Winter Dead and 1998's The Wake of Magellan together.",13,6,== Biography ==,6413101
+Winter,NNP,SEASON_REGEX,TIME,time_reference,"The two formed a steady partnership for almost 6 years, recording both 1995's Dead Winter Dead and 1998's The Wake of Magellan together.",13,6,== Biography ==,6413101
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"The two formed a steady partnership for almost 6 years, recording both 1995's Dead Winter Dead and 1998's The Wake of Magellan together.",13,6,== Biography ==,6413101
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"In 1999, Caffery also was a member of the German band Metalium.",5,7,== Biography ==,6413101
+Millennium,NNP,TIME_UNIT_REGEX,TIME,time_reference,"He is featured on their album Millennium Metal: Chapter One, but left after the album and the following tours.",6,7,== Biography ==,6413101
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Al Pitrelli left Savatage in 2000 when he accepted an invitation to replace Marty Friedman in Megadeth.,0,8,== Biography ==,6413101
+ten years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Chris was left as the only guitarist in Savatage and Jon Oliva took up lead vocal duties for the first time in ten years.,2,8,== Biography ==,6413101
+of 2001,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Chris played the lead parts with Jack Frost (ironically, who replaced him in Metalium) playing the rhythm parts on a short tour with Fates Warning and Judas Priest in support of 2001's Poets and Madmen.",3,8,== Biography ==,6413101
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"After Megadeth ""disbanded"" (it later reformed in 2004) in 2002, Al Pitrelli was invited to re-join the band since ""he never left the family anyway"".",4,8,== Biography ==,6413101
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"After Megadeth ""disbanded"" (it later reformed in 2004) in 2002, Al Pitrelli was invited to re-join the band since ""he never left the family anyway"".",4,8,== Biography ==,6413101
+2004 and 2005,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Chris himself released solo EPs and albums in 2004 and 2005, with a follow-up full-length album, Pins and Needles released in 2007.",1,9,== Biography ==,6413101
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"Chris himself released solo EPs and albums in 2004 and 2005, with a follow-up full-length album, Pins and Needles released in 2007.",1,9,== Biography ==,6413101
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"Chris is also worked on TSO's new album Night Castle, released on October 27, 2009.",2,9,== Biography ==,6413101
+"October 27 , 2009","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Chris is also worked on TSO's new album Night Castle, released on October 27, 2009.",2,9,== Biography ==,6413101
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, Chris released his first commercial hot sauce called ""Tears of the Sun"".",0,10,== Biography ==,6413101
+of the Sun,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 2011, Chris released his first commercial hot sauce called ""Tears of the Sun"".",0,10,== Biography ==,6413101
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"The sauce won major awards including ""The Hot Pepper Award"" for best overall Hot  Sauce in 2011.",2,10,== Biography ==,6413101
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"A second release called ""Grapes of Wrath"" was released in 2012.",3,10,== Biography ==,6413101
+Winter,NN,SEASON_REGEX,TIME,time_reference,TSO continues its yearly Winter tours and also performed three tours for its Beethoven's Last Night CD.,0,12,== Biography ==,6413101
+Last Night,JJ NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,TSO continues its yearly Winter tours and also performed three tours for its Beethoven's Last Night CD.,0,12,== Biography ==,6413101
+currently,RB,TIMELINE_REGEX,TIME,time_reference,"Chris is currently writing new material for an upcoming solo release, with songs co-written with Jon Oliva as well as several other musical projects.",0,15,== Biography ==,6413101
+of 2021,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"As of 2021, Caffery was living in Goshen, New York.",0,16,== Biography ==,6413101
+October,NNP,MONTH_REGEX,TIME,time_reference,"Paul LaPlaca – keyboards, guitar (ZO2, October Thorns, Zandelle)",0,21,== Solo band members == | === Current ===,6413101
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"1988 - Quite Not Right (credited on album as 'Lead Guitar, Vocals') played with Big Mouth and recorded on the album release in 1987, but not released until 1988.",0,31,== Discography == | === With Big Mouth ===,6413101
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"1988 - Quite Not Right (credited on album as 'Lead Guitar, Vocals') played with Big Mouth and recorded on the album release in 1987, but not released until 1988.",0,31,== Discography == | === With Big Mouth ===,6413101
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"1988 - Quite Not Right (credited on album as 'Lead Guitar, Vocals') played with Big Mouth and recorded on the album release in 1987, but not released until 1988.",0,31,== Discography == | === With Big Mouth ===,6413101
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"1989 – Gutter Ballet (never actually played on this album, despite being credited as an official member)",0,33,== Discography == | === With Savatage ===,6413101
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995 – Dead Winter Dead,0,34,== Discography == | === With Savatage ===,6413101
+Winter,NNP,SEASON_REGEX,TIME,time_reference,1995 – Dead Winter Dead,0,34,== Discography == | === With Savatage ===,6413101
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995 – Ghost in the Ruins – A Tribute to Criss Oliva,0,35,== Discography == | === With Savatage ===,6413101
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997 –,0,36,== Discography == | === With Savatage ===,6413101
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001 – Poets and Madmen,0,37,== Discography == | === With Savatage ===,6413101
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994 – Doctor Butcher,0,39,== Discography == | === With Doctor Butcher ===,6413101
+1996 – Christmas,CD NNP NNP,YEAR_REGEX_1 LINKAGE_REGEX HOLIDAY_REGEX,TIME MODIFIER TIME,time_point,1996 – Christmas Eve and Other Stories,0,41,== Discography == | === With Trans-Siberian Orchestra ===,6413101
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998 –,0,42,== Discography == | === With Trans-Siberian Orchestra ===,6413101
+The Christmas,DT NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,The Christmas Attic,1,42,== Discography == | === With Trans-Siberian Orchestra ===,6413101
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000 – Beethoven's Last Night,0,43,== Discography == | === With Trans-Siberian Orchestra ===,6413101
+Last Night,JJ NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,2000 – Beethoven's Last Night,0,43,== Discography == | === With Trans-Siberian Orchestra ===,6413101
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004 – The Lost Christmas Eve,0,44,== Discography == | === With Trans-Siberian Orchestra ===,6413101
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,2004 – The Lost Christmas Eve,0,44,== Discography == | === With Trans-Siberian Orchestra ===,6413101
+2009 – Night,CD JJ NNP,YEAR_REGEX_1 LINKAGE_REGEX DAY_TIME_REGEX,TIME MODIFIER TIME,,2009 – Night Castle,0,45,== Discography == | === With Trans-Siberian Orchestra ===,6413101
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012 - Dreams of Fireflies,0,46,== Discography == | === With Trans-Siberian Orchestra ===,6413101
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015 - Letters From the Labyrinth,0,47,== Discography == | === With Trans-Siberian Orchestra ===,6413101
+1999 – Millennium,CD JJ NNP,YEAR_REGEX_1 LINKAGE_REGEX TIME_UNIT_REGEX,TIME MODIFIER TIME,,1999 – Millennium Metal – Chapter One,0,49,== Discography == | === With Metalium ===,6413101
+2019,CD,YEAR_REGEX_1,TIME,time_reference,2019 – Spirits of Fire,0,51,== Discography == | === With Spirits of Fire ===,6413101
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004 – The Mold EP,0,53,== Discography == | === Solo artist ===,6413101
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004 – Music Man EP,0,54,== Discography == | === Solo artist ===,6413101
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005 – Faces,0,55,== Discography == | === Solo artist ===,6413101
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005 – W.A.R.P.E.D.,0,56,== Discography == | === Solo artist ===,6413101
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007 – Pins and Needles,0,57,== Discography == | === Solo artist ===,6413101
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009 – House of Insanity,0,58,== Discography == | === Solo artist ===,6413101
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015 – Your Heaven Is Real,0,59,== Discography == | === Solo artist ===,6413101
+2018,CD,YEAR_REGEX_1,TIME,time_reference,2018 -,0,60,== Discography == | === Solo artist ===,6413101
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"2002 – John West's ""Earthmaker"" album.",0,62,== Discography == | === Guest appearances ===,6413101
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"2002 – Doro's Fight (featured on the tracks ""Salvaje"" and ""Descent"")",0,63,== Discography == | === Guest appearances ===,6413101
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"2003 – Circle II Circle's Watching in Silence (featured on the tracks ""Out of Reach"", ""Sea of White"" and ""Face to Face,"")",0,64,== Discography == | === Guest appearances ===,6413101
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004 – Doro' Classic Diamonds – The DVD,0,65,== Discography == | === Guest appearances ===,6413101
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"2006 – Eidolon's The Parallel Otherworld (featured guitar solo on track ""The Eternal Call"")",0,66,== Discography == | === Guest appearances ===,6413101
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"2008 – KISS MY ANKH: A Tribute To Vinnie Vincent (guitar solo on track ""Ted Poley,"" parody of Kiss song ""Unholy, performed by C.C. Banana"")",0,67,== Discography == | === Guest appearances ===,6413101
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"2008 – Sandalinas's Fly to the Sun (featured on the tracks ""Double Cross"", ""Shadows in the Rain"")",0,68,== Discography == | === Guest appearances ===,6413101
+the Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,"2008 – Sandalinas's Fly to the Sun (featured on the tracks ""Double Cross"", ""Shadows in the Rain"")",0,68,== Discography == | === Guest appearances ===,6413101
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"2009 – Tim ""Ripper"" Owens' Play My Game",0,69,== Discography == | === Guest appearances ===,6413101
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"2011 – Ronnie Munroe – ""Lords of the Edge"" – co  writing and guitar on ""Rock in a Hard Place""",0,70,== Discography == | === Guest appearances ===,6413101
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"2013 – Sandalinas's Power to the People, The Raw E. P (featured on the track ""Power to the People"")",0,71,== Discography == | === Guest appearances ===,6413101
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"2013 – Artlantica's ""Across the Seven Seas"" – Guest guitar solos",0,72,== Discography == | === Guest appearances ===,6413101
+2021,CD,YEAR_REGEX_1,TIME,time_reference,"2021 - Burning Witches's The Witch of the North (featured on the track ""Hall of the Mountain King"")",0,73,== Discography == | === Guest appearances ===,6413101

@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"He was honored for his 2017 book, Athens Potluck,  as  a 2018 Georgia Author of the Year.",1,0,,60331944
+a 2018,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"He was honored for his 2017 book, Athens Potluck,  as  a 2018 Georgia Author of the Year.",1,0,,60331944
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He was honored for his 2017 book, Athens Potluck,  as  a 2018 Georgia Author of the Year.",1,0,,60331944
+Weekly,NNP,TIME_UNIT_REGEX,TIME,time_reference,"His photographs have appeared in Rolling Stone, Spin, Entertainment Weekly and for labels ATO and Warner Brothers.",4,2,== Early life and career ==,60331944
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"The photo essay on  Art Rosenbaum whose album, The Art of Field Recording  won a Grammy Award in 2008 incorporates images of his art and music.",2,5,== Music photography ==,60331944
+21 Years,CD NNP,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Uncovered Perspectives: India 21 Years Later, ”  documents various locations in India before the Internet brought many changes to daily life.",1,7,== India Perspectives ==,60331944
+"October 13 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The exhibit opened October 13, 2019 and included concerts of experimental music.",3,7,== India Perspectives ==,60331944
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Athens Potluck, Deeds Publishing, 2017.",0,9,== Publications ==,60331944

@@ -1,0 +1,50 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 27 , 1959","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Brian Tristan (born March 27, 1959), better known by his  stage name Kid Congo Powers, is an American rock guitarist and singer, best known as a member of The Gun Club, the Cramps and Nick Cave and the Bad Seeds.",0,0,,844235
+of January 2015,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,"As of January 2015, Powers' primary musical project is the band The Pink Monkey Birds.",2,0,,844235
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976, he was president of The Ramones fan club, then ran a fanzine for The Screamers.",2,2,== Early life ==,844235
+1979–1987,CD,YEAR_REGEX_1,TIME,time_reference,=== 1979–1987:,0,4,== Music == | === 1979–1987: The Gun Club and The Cramps ===,844235
+1979,CD,YEAR_REGEX_1,TIME,time_reference,After traveling to London and New York City he returned to L.A. and in 1979 met Jeffrey Lee Pierce.,0,5,== Music == | === 1979–1987: The Gun Club and The Cramps ===,844235
+December 1980,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Powers left that group before their recording debut, instead joining New York-based band The Cramps in December 1980.",2,5,== Music == | === 1979–1987: The Gun Club and The Cramps ===,844235
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"Powers rejoined the Gun Club briefly in 1983, touring with Pierce's band in Australia the following year, and then again between 1985 and 1988.",3,5,== Music == | === 1979–1987: The Gun Club and The Cramps ===,844235
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Powers rejoined the Gun Club briefly in 1983, touring with Pierce's band in Australia the following year, and then again between 1985 and 1988.",3,5,== Music == | === 1979–1987: The Gun Club and The Cramps ===,844235
+1985 and 1988,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Powers rejoined the Gun Club briefly in 1983, touring with Pierce's band in Australia the following year, and then again between 1985 and 1988.",3,5,== Music == | === 1979–1987: The Gun Club and The Cramps ===,844235
+1986–1996,CD,YEAR_REGEX_1,TIME,time_reference,1986–1996:,1,6,"== Music == | === 1986–1996: Nick Cave and The Bad Seeds, and The Gun Club ===",844235
+September 1986,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Powers joined Nick Cave and the Bad Seeds in Berlin, Germany, September 1986 for several albums and corresponding tours.",0,7,"== Music == | === 1986–1996: Nick Cave and The Bad Seeds, and The Gun Club ===",844235
+early 2015,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Powers recorded the Tender Prey and The Good Son albums with Cave and his band, and he said in early 2015 that he ""loved"" the ""primaeval element of rock'n'roll"" that they had a firm grasp of.",1,7,"== Music == | === 1986–1996: Nick Cave and The Bad Seeds, and The Gun Club ===",844235
+April 1990,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"During April 1990, it was amicably decided with Nick Cave that he leave The Bad Seeds and concentrate on The Gun Club, which he had reconvened with Jeffery Lee Pierce during downtime in 1989.",2,7,"== Music == | === 1986–1996: Nick Cave and The Bad Seeds, and The Gun Club ===",844235
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"During April 1990, it was amicably decided with Nick Cave that he leave The Bad Seeds and concentrate on The Gun Club, which he had reconvened with Jeffery Lee Pierce during downtime in 1989.",2,7,"== Music == | === 1986–1996: Nick Cave and The Bad Seeds, and The Gun Club ===",844235
+1997–2009,CD,YEAR_REGEX_1,TIME,time_reference,"=== 1997–2009: JLP tribute albums, The Pink Monkey Birds and Dracula Boots ===",0,8,"== Music == | === 1997–2009: JLP tribute albums, The Pink Monkey Birds and Dracula Boots ===",844235
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"Then, in 2009, Powers recruited Kiki Solis on bass, Ron Miller on drums, and Jesse Roberts on guitar and keyboards.",1,9,"== Music == | === 1997–2009: JLP tribute albums, The Pink Monkey Birds and Dracula Boots ===",844235
+now,RB,TIMELINE_REGEX,TIME,time_reference,"""Dracula Boots was coproduced by Jason Ward and recorded in a former high school gymnasium in Harveyville, Kansas, which is now an artists' retreat called ""The Harveyville Project.""",3,9,"== Music == | === 1997–2009: JLP tribute albums, The Pink Monkey Birds and Dracula Boots ===",844235
+2010–present,CD,YEAR_REGEX_1,TIME,time_reference,=== 2010–present: Gorilla Rose =,0,10,== Music == | === 2010–present: Gorilla Rose ===,844235
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, Kid Congo and The Pink Monkey Birds released their second album, Gorilla Rose, which was also on the In The Red Records label.",0,11,== Music == | === 2010–present: Gorilla Rose ===,844235
+Evening,NNP,DAY_TIME_REGEX,TIME,time_reference,"Eamon Carr of The Dublin Evening Herald said of Gorilla Rose, ""Having a working band is paying off.",1,11,== Music == | === 2010–present: Gorilla Rose ===,844235
+25 years—when,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"""Powers returned to Australia for the first time in 25 years—when he toured with Cave's Bad Seeds project—at the end of January 2015.",3,11,== Music == | === 2010–present: Gorilla Rose ===,844235
+the end of January 2015,DT NN IN NNP CD,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER TIME TIME,time_reference,"""Powers returned to Australia for the first time in 25 years—when he toured with Cave's Bad Seeds project—at the end of January 2015.",3,11,== Music == | === 2010–present: Gorilla Rose ===,844235
+Summersalt,NNP,SEASON_REGEX,TIME,time_reference,"The band played at Melbourne's ""Summersalt Festival"" and the Sydney Festival.",4,11,== Music == | === 2010–present: Gorilla Rose ===,844235
+of 2016,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The Pink Monkey Birds, whose name Kid credits to inspiration from David Bowie, has been an evolving unit since their earliest albums, and as of 2016 the touring members are bassist Kiki Solis, drummer Ron Miller, and guitarist Mark Cisneros.",0,13,== Music == | === 2010–present: Gorilla Rose ===,844235
+late April 2016,JJ NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,"Kid Congo Powers was profiled by Vogue in late April 2016 while promoting their fourth album, where he was noted for his iconic sense of punk style.",0,14,== Music == | === 2010–present: Gorilla Rose ===,844235
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1980s, he was involved with the ACT UP advocacy group.",1,17,== Personal life ==,844235
+1981,CD,YEAR_REGEX_1,TIME,time_reference,1981,0,19,== Selected discography ==,844235
+1983,CD,YEAR_REGEX_1,TIME,time_reference,1983,0,20,== Selected discography ==,844235
+1984,CD,YEAR_REGEX_1,TIME,time_reference,1984,0,21,== Selected discography ==,844235
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987,0,22,== Selected discography ==,844235
+1990,CD,YEAR_REGEX_1,TIME,time_reference,1990,0,23,== Selected discography ==,844235
+Pastoral,NNP,TIMELINE_REGEX,TIME,time_reference,The Gun Club – Pastoral Hide and Seek,1,23,== Selected discography ==,844235
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991,0,24,== Selected discography ==,844235
+1985,CD,YEAR_REGEX_1,TIME,time_reference,1985,0,25,== Selected discography ==,844235
+1988,CD,YEAR_REGEX_1,TIME,time_reference,1988 Nick Cave and the Bad Seeds – Tender Prey,0,26,== Selected discography ==,844235
+1990,CD,YEAR_REGEX_1,TIME,time_reference,1990 Nick Cave and the Bad Seeds – The Good Son,0,27,== Selected discography ==,844235
+1988,CD,YEAR_REGEX_1,TIME,time_reference,1988 Barry Adamson – Moss Side Story,0,28,== Selected discography ==,844235
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994 Congo Norvell – Music to Remember Him By,0,29,== Selected discography ==,844235
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"1998 Mark Eitzel – Caught in a Trap and I Can't Back Out 'Cause I Love You Too Much, Baby",0,30,== Selected discography ==,844235
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005 Kid Congo Powers – Solo Cholo,0,31,== Selected discography ==,844235
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006 Kid Congo and the Pink Monkey Birds – Philosophy and Underwear,0,32,== Selected discography ==,844235
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006 Madrugada – Live at Oslo Spektrum [DVD],0,33,== Selected discography ==,844235
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009 Kid Congo and The Pink Monkey Birds – Dracula Boots,0,34,== Selected discography ==,844235
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011 Kid Congo and The Pink Monkey Birds – Gorilla Rose,0,35,== Selected discography ==,844235
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013 Kid Congo and The Pink Monkey Birds – Haunted Head,0,36,== Selected discography ==,844235
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016 Kid Congo and The Pink Monkey Birds – La Araña Es La Vida,0,37,== Selected discography ==,844235
+2021,CD,YEAR_REGEX_1,TIME,time_reference,2021 Kid Congo and The Pink Monkey Birds – Swing From The Sean DeLear,0,38,== Selected discography ==,844235
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,New York Night Train profile page,0,42,== External links ==,844235
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013 Rocker Magazine interview – video and print,0,43,== External links ==,844235

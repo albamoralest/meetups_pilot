@@ -1,10 +1,10 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"December 3 , 1882 – February 2 , 1946","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Heinrich Jalowetz (December 3, 1882 – February 2, 1946) was an Austrian musicologist and conductor, who settled in the United States.",0,0,,3411455
-"December 3 , 1882","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Heinrich Jalowetz was born on December 3, 1882 in Brno, Bohemia, to Jewish parents Emilie Jalowetz (née Deutsch) and Julius Jalowetz.",0,2,== Biography ==,3411455
-1904–1908,CD,YEAR_REGEX_1,TIME,time_reference,"A musicology pupil of Guido Adler, Jalowetz was among Arnold Schoenberg's first students in Vienna, 1904–1908.",1,2,== Biography ==,3411455
-1908,CD,YEAR_REGEX_1,TIME,time_reference,"He completed his doctorate degree in 1908, with a dissertation on Beethoven's early techniques in melody.",2,2,== Biography ==,3411455
-1908,CD,YEAR_REGEX_1,TIME,time_reference,"In 1908, he married Johanna Groag.",3,2,== Biography ==,3411455
-1909 to 1933,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1909 to 1933, he worked as a conductor in Regensburg, Danzig, Stettin, Prague, Vienna and Cologne (as successor to Otto Klemperer).",4,2,== Biography ==,3411455
-1933,CD,YEAR_REGEX_1,TIME,time_reference,"In 1933, he left Germany and moved to Prague with his wife because of the rise of anti-Semitism in Nazi Germany.",5,2,== Biography ==,3411455
-1938,CD,YEAR_REGEX_1,TIME,time_reference,"After emigrating to the United States in 1938, he taught at Black Mountain College, North Carolina.",6,2,== Biography ==,3411455
-"February 2 , 1946","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jalowetz died on February 2, 1946 in Black Mountain, North Carolina, United States.",0,3,== Biography ==,3411455
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"December 3 , 1882 – February 2 , 1946","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+"December 3 , 1882","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,2
+1904–1908,CD,YEAR_REGEX_1,TIME,time_reference,1,2
+1908,CD,YEAR_REGEX_1,TIME,time_reference,2,2
+1908,CD,YEAR_REGEX_1,TIME,time_reference,3,2
+1909 to 1933,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,4,2
+1933,CD,YEAR_REGEX_1,TIME,time_reference,5,2
+1938,CD,YEAR_REGEX_1,TIME,time_reference,6,2
+"February 2 , 1946","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,3

@@ -1,0 +1,20 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 25 , 1960","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Chad Wackerman (born March 25, 1960) is an American jazz, jazz fusion and rock drummer, who has played with Frank Zappa and Allan Holdsworth.",0,0,,2595496
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Wackerman joined the Bill Watrous band in 1978, and then worked with Frank Zappa from 1981 to 1988.",4,2,== Musical career ==,2595496
+1981 to 1988,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Wackerman joined the Bill Watrous band in 1978, and then worked with Frank Zappa from 1981 to 1988.",4,2,== Musical career ==,2595496
+Mo,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Two pieces of music, ""Mo 'n Herb's Vacation"", and ""The Black Page""  were considered exceptionally difficult.",0,3,== Musical career ==,2595496
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"In addition to appearing on Zappa's rock albums and tours, Wackerman performed with the London Symphony Orchestra in 1983 on a concert and recording session of Zappa's compositions.",0,4,== Musical career ==,2595496
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, Wackerman toured with, but did not record for, Australian rock act Men at Work.",0,6,== Sideman and session musician ==,2595496
+Summers,NNP,SEASON_REGEX,TIME,time_reference,"He has also recorded albums and toured with diverse artists such as Allan Holdsworth, Steve Vai, Andy Summers, Ed Mann, Albert Lee, Colin Hay, Ed Kuepper, Dweezil Zappa and Tom Grant.",2,6,== Sideman and session musician ==,2595496
+late night,RB NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,Wackerman was also the drummer for the house band on the first Dennis Miller late night talk show.,3,6,== Sideman and session musician ==,2595496
+ten years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Wackerman lived in Australia for ten years between 1995 and 2005, but moved back to California in July 2005.",1,7,== Sideman and session musician ==,2595496
+1995 and 2005,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Wackerman lived in Australia for ten years between 1995 and 2005, but moved back to California in July 2005.",1,7,== Sideman and session musician ==,2595496
+July 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Wackerman lived in Australia for ten years between 1995 and 2005, but moved back to California in July 2005.",1,7,== Sideman and session musician ==,2595496
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"Replacing drummer Marco Minnemann, Wackerman toured with Steven Wilson's band through 2013 in support of Wilson's album The Raven That Refused to Sing.",0,8,== Sideman and session musician ==,2595496
+1954–2017,CD,YEAR_REGEX_1,TIME,time_reference,"The current Chad Wackerman Trio consists of Wackerman (drums), Doug Lunn (1954–2017; bass), and Mike Miller (guitar).",0,10,== Chad Wackerman Trio ==,2595496
+1991,CD,YEAR_REGEX_1,TIME,time_reference,Forty Reasons (1991),0,12,== Discography ==,2595496
+1993,CD,YEAR_REGEX_1,TIME,time_reference,The View (1993),0,13,== Discography ==,2595496
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Scream (2000),0,14,== Discography ==,2595496
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Legs Eleven (2004),0,15,== Discography ==,2595496
+Nightmares,NNP,DAY_TIME_REGEX,TIME,time_reference,Dreams Nightmares and Improvisations (2012),0,16,== Discography ==,2595496
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Dreams Nightmares and Improvisations (2012),0,16,== Discography ==,2595496

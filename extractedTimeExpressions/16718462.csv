@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 6 , 1906 – December 29 , 1945","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Bobby Stark (January 6, 1906 – December 29, 1945) was an American jazz trumpeter.",0,0,,16718462
+June,NNP,MONTH_REGEX,TIME,time_reference,"In the mid-1920s he played with June Clark (1925), Edgar Dowell, Leon Abbey, Duncan Mayers, Bobbie Brown, Bobby Lee, Billy Butler, Charles Turner, McKinney's Cotton Pickers, and Chick Webb, the last in 1926-27.",1,1,,16718462
+1925,CD,YEAR_REGEX_1,TIME,time_reference,"In the mid-1920s he played with June Clark (1925), Edgar Dowell, Leon Abbey, Duncan Mayers, Bobbie Brown, Bobby Lee, Billy Butler, Charles Turner, McKinney's Cotton Pickers, and Chick Webb, the last in 1926-27.",1,1,,16718462
+1926-27,JJ,YEAR_REGEX_1,TIME,time_reference,"In the mid-1920s he played with June Clark (1925), Edgar Dowell, Leon Abbey, Duncan Mayers, Bobbie Brown, Bobby Lee, Billy Butler, Charles Turner, McKinney's Cotton Pickers, and Chick Webb, the last in 1926-27.",1,1,,16718462
+1927 to 1933,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1927 to 1933, he played in Fletcher Henderson's Orchestra as a featured soloist.",2,1,,16718462
+1934 to 1939,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He returned to duty under Chick Webb behind Taft Jordan from 1934 to 1939.,3,1,,16718462
+now,RB,TIMELINE_REGEX,TIME,time_reference,"After Webb's death, he remained in the orchestra, now under the direction of Ella Fitzgerald.",4,1,,16718462
+1940,CD,YEAR_REGEX_1,TIME,time_reference,"In 1940, he left the group to freelance.",5,1,,16718462
+1942-43,JJ,YEAR_REGEX_1,TIME,time_reference,"In 1942-43, he served in the Army.",6,1,,16718462
+1944,CD,YEAR_REGEX_1,TIME,time_reference,"Sharp then played with Garvin Bushell (1944) and Benny Morton shortly before his death, in New York, at the age of 39.",7,1,,16718462

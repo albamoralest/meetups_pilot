@@ -1,0 +1,18 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1924–1996,CD,YEAR_REGEX_1,TIME,time_reference,Pandit Amarnath (1924–1996) was an Indian Classical Vocalist and composer.,0,0,,33599262
+1955,CD,YEAR_REGEX_1,TIME,time_reference,He composed music for the film Garam Coat in 1955.,1,0,,33599262
+1940s,CD,YEAR_REGEX_1,TIME,time_reference,"He should not be confused with the very popular composer of the same name, Amarnath,  who was very active in Lahore and Mumbai film industry in 1940s and died around 1947.",2,0,,33599262
+around 1947,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He should not be confused with the very popular composer of the same name, Amarnath,  who was very active in Lahore and Mumbai film industry in 1940s and died around 1947.",2,0,,33599262
+1924,CD,YEAR_REGEX_1,TIME,time_reference,"Amarnath was born in 1924 in Jhang in Punjab, now in Pakistan.",2,1,,33599262
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Amarnath was born in 1924 in Jhang in Punjab, now in Pakistan.",2,1,,33599262
+1942 to 1947,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He received his initial training in music from B.N. Datta of Lahore, from 1942 to 1947, and  moved to Delhi after the partition of India.",3,1,,33599262
+eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Besides devoutly following Amir Khan's style, teaching and demonstrating the style, Amarnath also served at All India Radio for eight years as composer, recruited specially by Ravi Shankar during the latter's tenure at AIR.",0,2,,33599262
+the 1955,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He also provided music for the 1955 film Garam Coat starring Balraj Sahni and Nirupa Roy, with songs by Lata Mangeshkar.",2,2,,33599262
+9 March 1996,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Amarnath died on 9 March 1996.,0,3,,33599262
+the year 2004,DT NN CD,PREFIX_REGEX_1 TIME_UNIT_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,"The book, Conversations with Pandit Amarnath conducted by Bindu Chawla based on conversations with him, was published by Indira Gandhi National Centre for the Arts, Delhi, in the year 2004.",0,5,== Legacy ==,33599262
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"A book on his mémoires of Amir Khan, titled ""Indore ke Masiha/Prophets of Indore, mémoires of my guru, Ustad Amir Khan Saheb"", was published in 2008 by the Pandit Amarnath Memorial Foundation.",1,5,== Legacy ==,33599262
+every year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"The Pandit Amarnath Vaggeyakar Samman, or Composer's Award, is instituted in his memory every year by the Pandit Amarnath Memorial Foundation, whose Chairperson is his daughter, Bindu Chawla.",2,5,== Legacy ==,33599262
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Amarnath, Pandit (1989).",0,7,== Bibliography ==,33599262
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Amarnath, Pandit (1997).",0,8,== Bibliography ==,33599262
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Bindu Chawla (2004).,0,9,== Bibliography ==,33599262
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Amarnath, Pandit (2008).",0,10,== Bibliography ==,33599262

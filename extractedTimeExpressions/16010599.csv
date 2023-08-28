@@ -1,0 +1,53 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"May 21 , 1934 – May 31 , 2020","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Robert Northern (May 21, 1934 – May 31, 2020), known professionally as Brother Ah, was an American jazz French hornist.",0,0,,16010599
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"Born in 1934 in Kinston, North Carolina and raised in The Bronx, Northern studied at the Manhattan School of Music and at the Vienna State Academy in the 1950s.",0,2,== Life and career ==,16010599
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Born in 1934 in Kinston, North Carolina and raised in The Bronx, Northern studied at the Manhattan School of Music and at the Vienna State Academy in the 1950s.",0,2,== Life and career ==,16010599
+the 1950s and 1960s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"He was perhaps best known as a session musician, working extensively in the 1950s and 1960s with musicians such as Donald Byrd, John Coltrane, Gil Evans, Sun Ra, McCoy Tyner, Roland Kirk, and the Jazz Composers Orchestra.",1,2,== Life and career ==,16010599
+Sun,NNP,WEEK_ABBR_REGEX,TIME,time_reference,"He was perhaps best known as a session musician, working extensively in the 1950s and 1960s with musicians such as Donald Byrd, John Coltrane, Gil Evans, Sun Ra, McCoy Tyner, Roland Kirk, and the Jazz Composers Orchestra.",1,2,== Life and career ==,16010599
+1963 to 1971,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He lived in New York City from 1963 to 1971, and after a period of increasing interest in non-Western music, visited and studied in Africa (Ghana, Kenya and Tanzania) during seven consecutive summers (1972 -1977).",0,3,== Life and career ==,16010599
+seven consecutive summers,CD JJ NNS,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 SEASON_REGEX,NUMERAL MODIFIER TIME,,"He lived in New York City from 1963 to 1971, and after a period of increasing interest in non-Western music, visited and studied in Africa (Ghana, Kenya and Tanzania) during seven consecutive summers (1972 -1977).",0,3,== Life and career ==,16010599
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"He lived in New York City from 1963 to 1971, and after a period of increasing interest in non-Western music, visited and studied in Africa (Ghana, Kenya and Tanzania) during seven consecutive summers (1972 -1977).",0,3,== Life and career ==,16010599
+the 1970s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,In the 1970s he released several albums as a bandleader; his 1974 release Sound Awareness featured Max Roach and M'Boom.,1,3,== Life and career ==,16010599
+1974,CD,YEAR_REGEX_1,TIME,time_reference,In the 1970s he released several albums as a bandleader; his 1974 release Sound Awareness featured Max Roach and M'Boom.,1,3,== Life and career ==,16010599
+the 2000s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,These albums were reissued on CD on the Ikef Records label in the 2000s.,2,3,== Life and career ==,16010599
+1970 to 1973,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He taught at Dartmouth College from 1970 to 1973, Brown University from 1973 to 1982 and then at the Levine School of Music in Washington, D.C. from 1982.",4,3,== Life and career ==,16010599
+1973 to 1982,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He taught at Dartmouth College from 1970 to 1973, Brown University from 1973 to 1982 and then at the Levine School of Music in Washington, D.C. from 1982.",4,3,== Life and career ==,16010599
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"He taught at Dartmouth College from 1970 to 1973, Brown University from 1973 to 1982 and then at the Levine School of Music in Washington, D.C. from 1982.",4,3,== Life and career ==,16010599
+"May 31 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bob Northern died in Washington on May 31, 2020, aged 86, of a respiratory illness that he had been battling for the last year.",0,4,== Life and career ==,16010599
+the last year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Bob Northern died in Washington on May 31, 2020, aged 86, of a respiratory illness that he had been battling for the last year.",0,4,== Life and career ==,16010599
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Sound Awareness (Strata-East, 1974)",0,7,== Discography == | === As leader ===,16010599
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Move Ever Onward (Divine, 1975)",0,8,== Discography == | === As leader ===,16010599
+Nowhere,NNP,TIMELINE_REGEX,TIME,time_reference,"Key to Nowhere (Divine, 1983)",0,9,== Discography == | === As leader ===,16010599
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"Key to Nowhere (Divine, 1983)",0,9,== Discography == | === As leader ===,16010599
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Celebration (Mapleshade, 1993)",0,10,== Discography == | === As leader ===,16010599
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Open Sky (Divine, 1986)",0,11,== Discography == | === As leader ===,16010599
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"I'm Tryin' to Get Home (Blue Note, 1964)With",0,14,== Discography == | === As sideman ===,16010599
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Africa/Brass (Impulse!, 1961)",0,15,== Discography == | === As sideman ===,16010599
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"The Africa/Brass Sessions, Volume 2 (Impulse!, 1961)With",0,16,== Discography == | === As sideman ===,16010599
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Great Jazz Standards (World Pacific, 1959)",0,17,== Discography == | === As sideman ===,16010599
+1964,CD,YEAR_REGEX_1,TIME,time_reference,The Individualism of Gil Evans (Verve 1964)With,0,18,== Discography == | === As sideman ===,16010599
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Brass Shout (United Artists, 1959)",0,19,== Discography == | === As sideman ===,16010599
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Listen to Art Farmer and the Orchestra (Mercury, 1962)With Benny Golson",0,20,== Discography == | === As sideman ===,16010599
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Pop + Jazz = Swing (Audio Fidelity, 1961)With Charlie Haden",0,21,== Discography == | === As sideman ===,16010599
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Liberation Music Orchestra (Impulse!, 1969)With Andrew Hill",0,22,== Discography == | === As sideman ===,16010599
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Passing Ships (Blue Note, 1969 [2003])With Freddie Hubbard",0,23,== Discography == | === As sideman ===,16010599
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Passing Ships (Blue Note, 1969 [2003])With Freddie Hubbard",0,23,== Discography == | === As sideman ===,16010599
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"The Body & the Soul (Impulse!, 1963)With",0,24,== Discography == | === As sideman ===,16010599
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"For Someone I Love (Riverside, 1963)With the Jazz Composer's Orchestra",0,25,== Discography == | === As sideman ===,16010599
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"The Jazz Composer's Orchestra (JCOA, 1968)With J. J. Johnson",0,26,== Discography == | === As sideman ===,16010599
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Broadway Express (RCA Victor, 1965)With Quincy Jones",0,27,== Discography == | === As sideman ===,16010599
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Quincy Jones Explores the Music of Henry Mancini (Mercury, 1964)",0,28,== Discography == | === As sideman ===,16010599
+1959-65,JJ,YEAR_REGEX_1,TIME,time_reference,"Quincy Plays for Pussycats (Mercury, 1959-65 [1965])With John Lewis",0,29,== Discography == | === As sideman ===,16010599
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Quincy Plays for Pussycats (Mercury, 1959-65 [1965])With John Lewis",0,29,== Discography == | === As sideman ===,16010599
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Essence (Atlantic, 1962)With Jack McDuff",0,30,== Discography == | === As sideman ===,16010599
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Prelude (Prestige, 1963)With Gary McFarland",0,31,== Discography == | === As sideman ===,16010599
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Profiles (Impulse!, 1966)With Thelonious Monk",0,32,== Discography == | === As sideman ===,16010599
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"The Thelonious Monk Orchestra at Town Hall (Riverside, 1959)With Oliver Nelson",0,33,== Discography == | === As sideman ===,16010599
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Full Nelson (Verve, 1963)With",0,34,== Discography == | === As sideman ===,16010599
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"New Fantasy (Verve, 1964)",0,35,== Discography == | === As sideman ===,16010599
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Once a Thief and Other Themes (Verve, 1965)With Cal Tjader",0,36,== Discography == | === As sideman ===,16010599
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Several Shades of Jade (Verve, 1963)With McCoy Tyner",0,37,== Discography == | === As sideman ===,16010599
+Tender Moments,NN NNS,BASIC_NUMBER_REGEX_1 TIMELINE_REGEX,NUMERAL TIME,time_reference,"Tender Moments (Blue Note, 1967)With Julius Watkins",0,38,== Discography == | === As sideman ===,16010599
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Tender Moments (Blue Note, 1967)With Julius Watkins",0,38,== Discography == | === As sideman ===,16010599
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"French Horns for My Lady (Philips, 1962)",0,39,== Discography == | === As sideman ===,16010599
+2020-06-07,JJ,YEAR_REGEX_1,TIME,time_reference,Official Website Archived 2020-06-07 at the Wayback Machine,0,42,== External links ==,16010599

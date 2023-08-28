@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"June 17 , 1911–August 21 , 1991","NNP CD , CD CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Walter D. Williams, Jr. (June 17, 1911–August 21, 1991), known as Dootsie Williams, was an American record producer and record label owner who released early records by Redd Foxx and The Penguins.",0,0,,29150005
+1911,CD,YEAR_REGEX_1,TIME,time_reference,"Williams was born in Mobile, Alabama, in 1911, and by 1918 had moved with his family to Los Angeles.",0,2,== Life and career ==,29150005
+1918,CD,YEAR_REGEX_1,TIME,time_reference,"Williams was born in Mobile, Alabama, in 1911, and by 1918 had moved with his family to Los Angeles.",0,2,== Life and career ==,29150005
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He was a leader of the Harlem Dukes band in the 1940s.,1,2,== Life and career ==,29150005
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"In 1949, Williams founded the Blue Records label.",3,2,== Life and career ==,29150005
+Two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Two years later he changed the name to Dootone.,4,2,== Life and career ==,29150005
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"One of the first artists he recorded on Dootone was a violinist named Johnny Creach, who years later would become popular as Papa John Creach.",5,2,== Life and career ==,29150005
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"In 1954, he recorded a local group called The Penguins, who would have a huge hit with ""Earth Angel"".",6,2,== Life and career ==,29150005
+nightclub,NN,DAY_TIME_REGEX,TIME,time_reference,"Williams saw the comedian perform at the Brass Rail, a local Los Angeles nightclub, and signed Foxx to a recording contract.",8,2,== Life and career ==,29150005
+"August 21 , 1991","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Williams died in Los Angeles on August 21, 1991.",10,2,== Life and career ==,29150005

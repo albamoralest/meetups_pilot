@@ -1,0 +1,133 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"November 24 , 1941 – May 13 , 2012","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Donald ""Duck"" Dunn (November 24, 1941 – May 13, 2012) was an American bass guitarist, session musician, record producer, and songwriter.",0,0,,1096328
+1960s,CD,YEAR_REGEX_1,TIME,time_reference,Dunn was notable for his 1960s recordings with Booker T. & the M.G.'s and as a session bassist for Stax Records.,1,0,,1096328
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"In 1992, he was inducted in the Rock and Roll Hall of Fame as a member of Booker T. & the M.G.'s.",3,0,,1096328
+one day,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"His father nicknamed him ""Duck"" while watching Disney cartoons with him one day.",1,2,== Early life ==,1096328
+1960s,CD,YEAR_REGEX_1,TIME,time_reference,=== 1960s:,0,4,== Career == | === 1960s: First bands ===,1096328
+Last Night,JJ NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Axton's mother, Estelle, and her brother Jim Stewart owned Satellite Records and signed the band, who had a national hit with ""Last Night"" in 1961 under their new name, the ""Mar-Keys"".",2,6,== Career == | === 1960s: First bands ===,1096328
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Axton's mother, Estelle, and her brother Jim Stewart owned Satellite Records and signed the band, who had a national hit with ""Last Night"" in 1961 under their new name, the ""Mar-Keys"".",2,6,== Career == | === 1960s: First bands ===,1096328
+Mar-Keys,JJ,MONTH_ABBR_REGEX,TIME,time_reference,"Axton's mother, Estelle, and her brother Jim Stewart owned Satellite Records and signed the band, who had a national hit with ""Last Night"" in 1961 under their new name, the ""Mar-Keys"".",2,6,== Career == | === 1960s: First bands ===,1096328
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Booker T. and the M.G.'s was founded by Cropper and Booker T. Jones in 1962, with the drummer Al Jackson, Jr.",3,6,== Career == | === 1960s: First bands ===,1096328
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"The original bassist, on early hits such as ""Green Onions"", was Lewie Steinberg; Dunn replaced him in 1965.",4,6,== Career == | === 1960s: First bands ===,1096328
+Late 1960s–1970s,JJ NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Late 1960s–1970s:,1,7,== Career == | === Late 1960s–1970s: Session musician ===,1096328
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"As an instrumental group, they continued to experiment with the album McLemore Avenue (their reworking of the Beatles' Abbey Road) and on their final album, Melting Pot (1971), which featured basslines that to this day serve as a source of inspiration for hip-hop artists.",0,9,== Career == | === Late 1960s–1970s: Session musician ===,1096328
+this day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"As an instrumental group, they continued to experiment with the album McLemore Avenue (their reworking of the Beatles' Abbey Road) and on their final album, Melting Pot (1971), which featured basslines that to this day serve as a source of inspiration for hip-hop artists.",0,9,== Career == | === Late 1960s–1970s: Session musician ===,1096328
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1970s, Jones and Cropper left Stax, but Dunn and Jackson stayed with the label.",1,9,== Career == | === Late 1960s–1970s: Session musician ===,1096328
+1973,CD,YEAR_REGEX_1,TIME,time_reference,Dunn worked with Elvis Presley on his 1973 RCA Album Raised on Rock.,2,9,== Career == | === Late 1960s–1970s: Session musician ===,1096328
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"In 1971, when the rhythm guitarist Tom Fogerty left Creedence Clearwater Revival (CCR), the remaining members discussed with Dunn the possibility of his joining the group, with their current bassist, Stu Cook, moving to guitar.",0,10,== Career == | === Late 1960s–1970s: Session musician ===,1096328
+the past,DT NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"Booker T. and the MG's had performed in concert and jammed in the studio with CCR in the past, and Dunn in particular had become friends with the band members.",1,10,== Career == | === Late 1960s–1970s: Session musician ===,1096328
+1980s–2000s,CD,YEAR_REGEX_1,TIME,time_reference,1980s–2000s,1,11,== Career == | === 1980s–2000s ===,1096328
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"He was the featured bass player on the single  ""Stop Draggin' My Heart Around"", by Stevie Nicks and Tom Petty, from Nicks's debut solo album Bella Donna (1981), and on other tracks by Petty between 1976 and 1981.",1,12,== Career == | === 1980s–2000s ===,1096328
+1976 and 1981,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He was the featured bass player on the single  ""Stop Draggin' My Heart Around"", by Stevie Nicks and Tom Petty, from Nicks's debut solo album Bella Donna (1981), and on other tracks by Petty between 1976 and 1981.",1,12,== Career == | === 1980s–2000s ===,1096328
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Dunn was the bassist in Eric Clapton's band for Clapton's appearance at Live Aid in 1985.,3,12,== Career == | === 1980s–2000s ===,1096328
+the 1980,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Dunn played himself in the 1980 feature The Blues Brothers, where he famously uttered the line, ""We had a band powerful enough to turn goat piss into gasoline!"" and was frequently shown smoking a pipe whilst playing.",0,13,== Career == | === 1980s–2000s ===,1096328
+the 1998,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He appeared in the 1998 sequel, Blues Brothers 2000, once again playing himself.",1,13,== Career == | === 1980s–2000s ===,1096328
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"He appeared in the 1998 sequel, Blues Brothers 2000, once again playing himself.",1,13,== Career == | === 1980s–2000s ===,1096328
+the 2000s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 2000s, Dunn was in semi-retirement, although he still performed occasionally with Booker T. & the MG's at clubs and music festivals.",0,14,== Career == | === 1980s–2000s ===,1096328
+June 2004,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In June 2004, Dunn, Cropper, and Jones served as the house band for Eric Clapton's Crossroads Guitar Festival.",0,15,== Career == | === 1980s–2000s ===,1096328
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008, Dunn worked with the Australian soul singer Guy Sebastian touring for The Memphis Album.",2,15,== Career == | === 1980s–2000s ===,1096328
+"February 20 , 2008","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Dunn and Cropper arrived in Australia on February 20, 2008, to be Sebastian's backing band for an 18-date concert tour, the Memphis Tour.",3,15,== Career == | === 1980s–2000s ===,1096328
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Dunn is credited with performing on a version of the standard ""I Ain't Got Nobody"" with Jones, Cropper and Michel Gondry in Gondry's 2008 film Be Kind Rewind.",4,15,== Career == | === 1980s–2000s ===,1096328
+June,NNP,MONTH_REGEX,TIME,time_reference,"Dunn was married to his wife, June, until his death.",0,17,== Personal life ==,1096328
+the morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"On the morning of May 13, 2012, Dunn died in his sleep after finishing his fifth double show at the Blue Note nightclub in Tokyo with Cropper the night before.",0,19,== Death ==,1096328
+"of May 13 , 2012","IN NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"On the morning of May 13, 2012, Dunn died in his sleep after finishing his fifth double show at the Blue Note nightclub in Tokyo with Cropper the night before.",0,19,== Death ==,1096328
+nightclub,NN,DAY_TIME_REGEX,TIME,time_reference,"On the morning of May 13, 2012, Dunn died in his sleep after finishing his fifth double show at the Blue Note nightclub in Tokyo with Cropper the night before.",0,19,== Death ==,1096328
+the night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"On the morning of May 13, 2012, Dunn died in his sleep after finishing his fifth double show at the Blue Note nightclub in Tokyo with Cropper the night before.",0,19,== Death ==,1096328
+About a year,IN DT NN,PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"About a year later, he acquired his first Fender Precision Bass, with sunburst body, rosewood neck, and gold anodized pickguard.",1,21,== Musical equipment ==,1096328
+a 1959,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"Dunn's second Fender bass was a 1959 Fender Precision Bass, with sunburst body, one-piece maple neck and gold anodized pickguard; an instrument he owned until his death.",3,21,== Musical equipment ==,1096328
+a 1958,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"Throughout his life, Dunn believed this was a 1958 model, but after his death, his son Jeff had work done on the bass, and the neck was inscribed ""4-59,"" putting the date definitively as 1959.",4,21,== Musical equipment ==,1096328
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Throughout his life, Dunn believed this was a 1958 model, but after his death, his son Jeff had work done on the bass, and the neck was inscribed ""4-59,"" putting the date definitively as 1959.",4,21,== Musical equipment ==,1096328
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1960s, he used a nearly identical 1959 model, but it was outfitted with a rosewood fretboard.",5,21,== Musical equipment ==,1096328
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"During the 1960s, he used a nearly identical 1959 model, but it was outfitted with a rosewood fretboard.",5,21,== Musical equipment ==,1096328
+early '70s,JJ NNS,PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER TIME,time_reference,"While filming ""The Blues Brothers,"" Dunn used a sunburst early '70s",7,21,== Musical equipment ==,1096328
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"He also used a red 1966 Precision in some of the scenes; a bass stamped ""Demo"" on the back, which was later fitted with a late '60s Jazz Bass neck.",9,21,== Musical equipment ==,1096328
+a late '60s,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER MODIFIER TIME,time_reference,"He also used a red 1966 Precision in some of the scenes; a bass stamped ""Demo"" on the back, which was later fitted with a late '60s Jazz Bass neck.",9,21,== Musical equipment ==,1096328
+nearly 20 years,RB CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"This ""Jazzision"" became the basis for a Lakland Skyline Series signature bass made by the Chicago bass company Lakland nearly 20 years later.",11,21,== Musical equipment ==,1096328
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"In 1980, with the popular Blues Brothers Band touring regularly, Fender gave Dunn a new bass to try, the company's first active electronics equipped model, the Precision Bass Special.",12,21,== Musical equipment ==,1096328
+nearly three decades,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"In the mid-1980s, after nearly three decades, Dunn switched from Fender instruments, and became an endorser for Mississippi-based Peavey.",0,22,== Musical equipment ==,1096328
+of years,IN NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He played their ""Dyna Bass"" model – finished in his favorite red – on stage and in the studio for a number of years.",1,22,== Musical equipment ==,1096328
+the decades,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Over the decades, he was given various basses by friends and admirers, which included models by Travis Bean, Rickenbacker, Gibson, custom builders, and others, but his everyday instrument was always his Precision.",2,22,== Musical equipment ==,1096328
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"In 1998, Dunn collaborated with Fender to produce a signature Precision Bass: a candy apple red model based on the late 1950s style, with a gold anodized pickguard, split coil humbucking pickup, maple neck, and vintage hardware.",0,23,== Musical equipment ==,1096328
+the late 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In 1998, Dunn collaborated with Fender to produce a signature Precision Bass: a candy apple red model based on the late 1950s style, with a gold anodized pickguard, split coil humbucking pickup, maple neck, and vintage hardware.",0,23,== Musical equipment ==,1096328
+currently,RB,TIMELINE_REGEX,TIME,time_reference,"#002 is currently on display at the Hard Rock Cafe in Orlando, Florida.",3,23,== Musical equipment ==,1096328
+final moments,JJ NNS,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"It was on one of these basses that Duck played his final shows, and that bass remains with his son Jeff, complete with sweat streaks from his final moments of playing.",1,24,== Musical equipment ==,1096328
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Over the years, Dunn played through an Ampeg Portaflex, or ""Fliptop,"" B-15 combo (so named for its head that flipped over to store in the cabinet), as well as a Kustom 200 stack, and a Fender rig.",0,25,== Musical equipment ==,1096328
+Now,RB,TIMELINE_REGEX,TIME,time_reference,And Now!,0,29,== Collaborations ==,1096328
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"(Stax Records, 1966)",1,29,== Collaborations ==,1096328
+the Christmas,DT NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,"In the Christmas Spirit (Stax Records, 1966)",0,30,== Collaborations ==,1096328
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"In the Christmas Spirit (Stax Records, 1966)",0,30,== Collaborations ==,1096328
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Hip Hug-Her (Stax Records, 1967)",0,31,== Collaborations ==,1096328
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Doin' Our Thing (Stax Records, 1968)",0,32,== Collaborations ==,1096328
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Soul Limbo (Stax Records, 1968)",0,33,== Collaborations ==,1096328
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"UpTight (Stax Records, 1969)",0,34,== Collaborations ==,1096328
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"The Booker T. Set (Stax Records, 1969)",0,35,== Collaborations ==,1096328
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"McLemore Avenue (Stax Records, 1970)",0,36,== Collaborations ==,1096328
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Melting Pot (Stax Records, 1971)",0,37,== Collaborations ==,1096328
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Universal Language (Asylum Records, 1977)",0,38,== Collaborations ==,1096328
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"That's the Way It Should Be (Columbia Records, 1994)With Otis Redding",0,39,== Collaborations ==,1096328
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Pain in My Heart (Atco Records, 1964)",0,40,== Collaborations ==,1096328
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"The Great Otis Redding Sings Soul Ballads (Atco Records, 1965)",0,41,== Collaborations ==,1096328
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Otis Blue: Otis Redding Sings Soul (Stax Records, 1965)",0,42,== Collaborations ==,1096328
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"The Soul Album (Stax Records, 1966)",0,43,== Collaborations ==,1096328
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Complete & Unbelievable: The Otis Redding Dictionary of Soul (Stax Records, 1966)",0,44,== Collaborations ==,1096328
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"King & Queen (Stax Records, 1967)",0,45,== Collaborations ==,1096328
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"The Dock of the Bay (Stax Records, 1968)With Harry Nilsson",0,46,== Collaborations ==,1096328
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Flash Harry (Mercury Records, 1980)With John Fogerty",0,47,== Collaborations ==,1096328
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Blue Moon Swamp (Warner Bros. Records, 1997)With David Porter",0,48,== Collaborations ==,1096328
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"An Opera (Enterprise Records, 1971)With Paul Shaffer",1,49,== Collaborations ==,1096328
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Coast to Coast (Capitol Records, 1989)With",0,50,== Collaborations ==,1096328
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"White Chocolate (Sony Records, 2008)With Rita Coolidge",0,51,== Collaborations ==,1096328
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Rita Coolidge (A&M Records, 1971)With Delaney & Bonnie",0,52,== Collaborations ==,1096328
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Home (Stax Records, 1969)With Tinsley Ellis",0,53,== Collaborations ==,1096328
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Fire It Up (Alligator Records, 1997)With Steve Cropper",0,54,== Collaborations ==,1096328
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Playin' My Thang (MCA Records, 1981)With Mavis Staples",0,55,== Collaborations ==,1096328
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Mavis Staples (Volt Records, 1969)",0,56,== Collaborations ==,1096328
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Only for the Lonely (Volt Records, 1970)With Mickey Thomas",0,57,== Collaborations ==,1096328
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"As Long as You Love Me (MCA Records, 1977)With Elvis Presley",0,58,== Collaborations ==,1096328
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Raised on Rock / For Ol' Times Sake (RCA Records, 1973)With",0,59,== Collaborations ==,1096328
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"The Memphis Album (Sony BMG, 2007)With Eric Clapton",0,60,== Collaborations ==,1096328
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"Money and Cigarettes (Warner Bros. Records, 1983)",0,61,== Collaborations ==,1096328
+the Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,"Behind the Sun (Warner Bros. Records, 1985)With Leo Sayer",0,62,== Collaborations ==,1096328
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"Behind the Sun (Warner Bros. Records, 1985)With Leo Sayer",0,62,== Collaborations ==,1096328
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Here (Chrysalis Records, 1979)With Levon Helm",0,63,== Collaborations ==,1096328
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Levon Helm & the RCO All-Stars (ABC Records, 1977)With Joan Baez",0,64,== Collaborations ==,1096328
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Gulf Winds (A&M Records, 1976)",0,65,== Collaborations ==,1096328
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Blowin' Away (Portrait Records, 1977)With Bill Withers",0,66,== Collaborations ==,1096328
+Am,VBP,HALFDAY_REGEX_1,TIME,,"Just as I Am (Sussex Records, 1971)With Albert King",0,67,== Collaborations ==,1096328
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Just as I Am (Sussex Records, 1971)With Albert King",0,67,== Collaborations ==,1096328
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Born Under a Bad Sign (Stax Records, 1967)",0,68,== Collaborations ==,1096328
+Years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Years Gone By (Stax Records, 1969)",0,69,== Collaborations ==,1096328
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Years Gone By (Stax Records, 1969)",0,69,== Collaborations ==,1096328
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Blues for Elvis – King Does the King's Things (Stax Records, 1970)",0,70,== Collaborations ==,1096328
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Lovejoy (Stax Records, 1971)",0,71,== Collaborations ==,1096328
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"The Blues Don't Change (Stax Records, 1974)With",0,72,== Collaborations ==,1096328
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Lake Placid Blues (Polydor Records, 1995)With Stevie Nicks",0,73,== Collaborations ==,1096328
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Bella Donna (Atco Records, 1981)With William Bell",0,74,== Collaborations ==,1096328
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"The Soul of a Bell (Stax Records, 1967)",0,75,== Collaborations ==,1096328
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Bound to Happen (Stax Records, 1969)",0,76,== Collaborations ==,1096328
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Relating (Stax Records, 1974)With",0,77,== Collaborations ==,1096328
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Blue Country (CBS, 1979)With Bob Dylan",0,78,== Collaborations ==,1096328
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Shot of Love (Columbia Records, 1981)With John Prine",0,79,== Collaborations ==,1096328
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Common Sense (Atlantic Records, 1975)With Eddie Floyd",0,80,== Collaborations ==,1096328
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Knock on Wood (Stax Records, 1967)With Richie Havens",0,81,== Collaborations ==,1096328
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"The End of the Beginning (A&M Records, 1976)With Neil Young",0,82,== Collaborations ==,1096328
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Silver & Gold (Reprise Records, 2000)",0,83,== Collaborations ==,1096328
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"(Reprise Records, 2002)With",1,84,== Collaborations ==,1096328
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Atlantic Crossing (Warner Bros. Records, 1975)",0,85,== Collaborations ==,1096328
+A Night,DT NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"A Night on the Town (Warner Bros. Records, 1976)With Peter Frampton",0,86,== Collaborations ==,1096328
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"A Night on the Town (Warner Bros. Records, 1976)With Peter Frampton",0,86,== Collaborations ==,1096328
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Where I Should Be (A&M Records, 1979)With Carla Thomas",0,87,== Collaborations ==,1096328
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Memphis Queen (Stax Records, 1969)",0,88,== Collaborations ==,1096328
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Love Means... (Stax Records, 1971)With",0,89,== Collaborations ==,1096328
+the Midnight Hour,DT NNP NNP,PREFIX_REGEX_1 DAY_TIME_REGEX TIME_UNIT_REGEX,MODIFIER TIME TIME,time_reference,"In the Midnight Hour (Atlantic Records, 1965)",0,90,== Collaborations ==,1096328
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"In the Midnight Hour (Atlantic Records, 1965)",0,90,== Collaborations ==,1096328
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"The Exciting Wilson Pickett (Atlantic Records, 1966)With Jimmy Buffett",0,91,== Collaborations ==,1096328
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Hot Water (MCA Records, 1988)With Shirley Brown",0,92,== Collaborations ==,1096328
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Woman to Woman (Truth Records, 1974)",0,93,== Collaborations ==,1096328
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Shirley Brown (Arista Records, 1977)With Leon Russell",0,94,== Collaborations ==,1096328
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Will O' the Wisp (Shelter Records, 1975)",0,95,== Collaborations ==,1096328
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"In 1992, Dunn was inducted into the Rock and Roll Hall of Fame as a member of Booker T. & the MG's.",0,97,== Awards ==,1096328
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"In 2007 Dunn and members of Booker T. & the MG's (Booker T. Jones, Steve Cropper and Lewie Steinberg), along with Barbara Jackson, the widow of Al Jackson, Jr., were given a Lifetime Achievement Grammy award for their contributions to popular music.",1,97,== Awards ==,1096328
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"In 2017 Dunn was posthumously awarded a Lifetime Achievement Award by Bass Player Magazine for his contributions to ""the art, craft, and profession of bass playing.""",0,98,== Awards ==,1096328
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Guralnick, Peter (1999).",0,101,== Bibliography ==,1096328
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Rosaci, Nick (2017).",0,102,== Bibliography ==,1096328

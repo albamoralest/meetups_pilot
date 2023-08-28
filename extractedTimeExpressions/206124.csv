@@ -1,0 +1,59 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"December 26 , 1951","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"John Scofield (born December 26, 1951), sometimes referred to as ""Sco"", is an American jazz-rock guitarist and composer whose music includes bebop, jazz fusion, funk, blues, soul, and rock.",0,0,,206124
+Pastorius,NNP,TIMELINE_REGEX,TIME,time_reference,"He has worked with Miles Davis, Eddie Harris, Dave Liebman, Joe Henderson, Charles Mingus, Joey DeFrancesco, Herbie Hancock, Eddie Palmieri, Pat Metheny, Bill Frisell, Joe Lovano, Pat Martino, Mavis Staples, Phil Lesh, Billy Cobham, Medeski Martin & Wood, George Duke, Jaco Pastorius, John Mayer, Robert Glasper, and Gov't Mule.",1,0,,206124
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He joined the Billy Cobham/George Duke Band soon after and spent two years playing, recording, and touring with them.",2,2,== Biography ==,206124
+1976,CD,YEAR_REGEX_1,TIME,time_reference,He recorded with Charles Mingus in 1976 and replaced Pat Metheny in Gary Burton's quartet.,3,2,== Biography ==,206124
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976 Scofield signed with Enja, which released his first album, John Scofield, in 1977.",4,2,== Biography ==,206124
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976 Scofield signed with Enja, which released his first album, John Scofield, in 1977.",4,2,== Biography ==,206124
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"He recorded with pianist Hal Galper on Rough House in 1978 and then on Galper's album Ivory Forest (1980), where he played a solo rendition of ""Monk's Mood"" by Thelonious Monk.",5,2,== Biography ==,206124
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"He recorded with pianist Hal Galper on Rough House in 1978 and then on Galper's album Ivory Forest (1980), where he played a solo rendition of ""Monk's Mood"" by Thelonious Monk.",5,2,== Biography ==,206124
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"In 1979 he formed a trio with his mentor Steve Swallow and Adam Nussbaum which, with drummer Bill Stewart replacing Nussbaum, became the signature group of Scofield's career.",6,2,== Biography ==,206124
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"In 1982, he joined Miles Davis, with whom he remained for three and a half years.",7,2,== Biography ==,206124
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"In 1982, he joined Miles Davis, with whom he remained for three and a half years.",7,2,== Biography ==,206124
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"After he left Davis, he released Electric Outlet (1984) and Still Warm (1985)",9,2,== Biography ==,206124
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"After he left Davis, he released Electric Outlet (1984) and Still Warm (1985)",9,2,== Biography ==,206124
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"This ""most auspicious [pairing] since John McLaughlin and Carlos Santana"" recorded two albums, Bass Desires (1986) and Second Sight (1987).",3,3,== Biography ==,206124
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"This ""most auspicious [pairing] since John McLaughlin and Carlos Santana"" recorded two albums, Bass Desires (1986) and Second Sight (1987).",3,3,== Biography ==,206124
+the beginning of the 1990s,DT NN IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"At the beginning of the 1990s, Scofield formed a quartet that included Joe Lovano with whom he recorded several albums for Blue Note.",0,4,== Biography ==,206124
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Time on My Hands (1990), with Joe Lovano, Charlie Haden, and Jack DeJohnette, showcased Scofield's guitar and Mingus-influenced writing.",1,4,== Biography ==,206124
+1991,CD,YEAR_REGEX_1,TIME,time_reference,Bill Stewart became the group's drummer and played on Meant to Be (1991) and What We Do (1993).,2,4,== Biography ==,206124
+1993,CD,YEAR_REGEX_1,TIME,time_reference,Bill Stewart became the group's drummer and played on Meant to Be (1991) and What We Do (1993).,2,4,== Biography ==,206124
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"In 1992, Scofield released Grace Under Pressure, featuring guitarist Bill Frisell, with Charlie Haden on bass and Joey Baron on drums.",3,4,== Biography ==,206124
+1994 and 1995,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 1994 and 1995, he formed a group with organist/pianist Larry Goldings, bassist Dennis Irwin, and alternately drummers, Bill Stewart and Idris Muhammad.",1,5,== Biography ==,206124
+the 1997,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He recorded the 1997 album A Go Go with avant-garde jazz trio Medeski, Martin & Wood.",3,5,== Biography ==,206124
+September 2002,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,John Patitucci and Peter Erskine performed at the live premiere of Scorched at the Alte Oper in Frankfurt in September 2002  with the Radio-Symphony-Orchestra Frankfurt and the hr-Bigband.,3,6,== Biography ==,206124
+the hr-Bigband,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,John Patitucci and Peter Erskine performed at the live premiere of Scorched at the Alte Oper in Frankfurt in September 2002  with the Radio-Symphony-Orchestra Frankfurt and the hr-Bigband.,3,6,== Biography ==,206124
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Scofield released Überjam in 2002 and Up All Night in 2004, two albums on which he experimented with drum and bass.",5,6,== Biography ==,206124
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"Scofield released Überjam in 2002 and Up All Night in 2004, two albums on which he experimented with drum and bass.",5,6,== Biography ==,206124
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Scofield released Überjam in 2002 and Up All Night in 2004, two albums on which he experimented with drum and bass.",5,6,== Biography ==,206124
+2001–2002 and 2006,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He recorded in Europe with the Bugge Wesseltoft New Conception of Jazz in 2001–2002 and 2006.,6,6,== Biography ==,206124
+2004,CD,YEAR_REGEX_1,TIME,time_reference,In 2004 EnRoute: John Scofield Trio LIVE was released with Steve Swallow on bass and Bill Stewart on drums.,7,6,== Biography ==,206124
+December 2003,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,It was recorded live at the Blue Note Jazz Club in New York City in December 2003.,8,6,== Biography ==,206124
+the next year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,This was followed the next year by That's What I Say: John Scofield Plays the Music of Ray Charles.,9,6,== Biography ==,206124
+December 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"After sitting in for two engagements in December 2005 with Phil Lesh and Friends, Scofield has since played numerous shows with the band.",11,6,== Biography ==,206124
+"September 26 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On September 26, 2006 he released Out Louder, his second collaboration with Medeski, Martin & Wood.",0,7,== Biography ==,206124
+2006 and 2007,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"The group, known collectively as MSMW, toured worldwide in 2006 and 2007.",1,7,== Biography ==,206124
+the 2009,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He recorded music inspired by gospel on the 2009 album Piety Street with Jon Cleary and George Porter Jr.,3,7,== Biography ==,206124
+"September 18 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On September 18, 2007 EmArcy released This Meets That, an album recorded with Steve Swallow, Bill Stewart, and a horn trio.",0,8,== Biography ==,206124
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011 EmArcy released A Moment's Peace, recorded with pianist Larry Goldings, bassist Scott Colley, and drummer Brian Blade.",1,8,== Biography ==,206124
+A Moment,DT NNP,INARTICLE_REGEX TIMELINE_REGEX,MODIFIER TIME,time_reference,"In 2011 EmArcy released A Moment's Peace, recorded with pianist Larry Goldings, bassist Scott Colley, and drummer Brian Blade.",1,8,== Biography ==,206124
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Scofield's 2010 album 54 had its origin in the 1990s when Vince Mendoza asked him to play on his first album.,2,8,== Biography ==,206124
+the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Scofield's 2010 album 54 had its origin in the 1990s when Vince Mendoza asked him to play on his first album.,2,8,== Biography ==,206124
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997:,0,11,== Awards and honors ==,206124
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998:,0,12,== Awards and honors ==,206124
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002:,0,13,== Awards and honors ==,206124
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,14,== Awards and honors ==,206124
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006:,0,15,== Awards and honors ==,206124
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,16,== Awards and honors ==,206124
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,17,== Awards and honors ==,206124
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016:,0,18,== Awards and honors ==,206124
+Present,NNP,TIMELINE_REGEX,TIME,time_reference,"Grammy Award for Best Jazz Instrumental Album: Past Present, and nominated for Best Improvised Jazz Solo: ""Past Present""",1,18,== Awards and honors ==,206124
+Present,NNP,TIMELINE_REGEX,TIME,time_reference,"Grammy Award for Best Jazz Instrumental Album: Past Present, and nominated for Best Improvised Jazz Solo: ""Past Present""",1,18,== Awards and honors ==,206124
+2017,CD,YEAR_REGEX_1,TIME,time_reference,2017:,0,19,== Awards and honors ==,206124
+2017,CD,YEAR_REGEX_1,TIME,time_reference,2017:,0,20,== Awards and honors ==,206124
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Slo Sco: The Best of the Ballads (Gramavision, 1990)",0,24,== Discography == | === Compilations ===,206124
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Liquid Fire: The Best of John Scofield (Gramavision, 1994)",0,25,== Discography == | === Compilations ===,206124
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Best of John Scofield (Blue Note, 1996)",0,26,== Discography == | === Compilations ===,206124
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Steady Groovin': The Blue Note Groove Sides (Blue Note, 2000)",0,27,== Discography == | === Compilations ===,206124
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"Sco-Mule (Evil Teen Records, 2015)",0,28,== Discography == | === Compilations ===,206124
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,Albums listed by year of release.,0,30,== Discography == | === As a sideman ===,206124

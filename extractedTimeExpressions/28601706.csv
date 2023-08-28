@@ -1,0 +1,41 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"November 14 , 1953 – July 5 , 1992","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Paul Wayne Hackman (November 14, 1953 – July 5, 1992) was a Canadian guitarist who performed with the rock band Helix from 1976 until his death in a road accident.",0,0,,28601706
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Paul Wayne Hackman (November 14, 1953 – July 5, 1992) was a Canadian guitarist who performed with the rock band Helix from 1976 until his death in a road accident.",0,0,,28601706
+1976,CD,YEAR_REGEX_1,TIME,time_reference,He joined Helix in 1976 when original keyboardist Don Simmons handed in his resignation.,1,2,== Career with Helix ==,28601706
+an ad,DT NN,INARTICLE_REGEX ERA_REGEX,MODIFIER TIME,time_reference,Hackman saw an ad for a replacement keyboard player in the newspaper and contacted Helix manager William Seip.,2,2,== Career with Helix ==,28601706
+six months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Hackman informed Seip that he too had been searching for a keyboard player for his own band, and hadn't found one in six months.",3,2,== Career with Helix ==,28601706
+1979 and 1981,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"""Helix released two independent albums on their own H&S Records, entitled Breaking Loose and White Lace & Black Leather, in 1979 and 1981 respectively.",6,2,== Career with Helix ==,28601706
+1983,CD,YEAR_REGEX_1,TIME,time_reference,Helix signed with Capitol Records in 1983 and released No Rest for the Wicked.,7,2,== Career with Helix ==,28601706
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"Long Way to Heaven, featuring Hackman's ""Deep Cuts The Knife"", followed in 1985.",9,2,== Career with Helix ==,28601706
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"In 1986, another Hackman co-write, ""It's Too Late"" from the movie soundtrack to Iron Eagle, was released.",10,2,== Career with Helix ==,28601706
+The 1987,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The 1987 album Wild in the Streets was considered a disappointment by Capitol Records, only managing an unexpectedly low #179 on the Billboard 200 in the United States, although the album did go gold in Canada.",11,2,== Career with Helix ==,28601706
+the end of the 1980s,DT NN IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"By the end of the 1980s, Hackman had toured not only all over Canada, United States and England, but even played in Sweden and Trinidad.",12,2,== Career with Helix ==,28601706
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"In 1990, after a short break, Helix released what would turn out to be its final album with Hackman, Back for Another Taste, for which Hackman and Vollmer co-wrote ""Runnin' Wild in the 21st Century"".",13,2,== Career with Helix ==,28601706
+the 21st Century,DT JJ NN,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"In 1990, after a short break, Helix released what would turn out to be its final album with Hackman, Back for Another Taste, for which Hackman and Vollmer co-wrote ""Runnin' Wild in the 21st Century"".",13,2,== Career with Helix ==,28601706
+the 1992 summer,DT CD NN,PREFIX_REGEX_1 YEAR_REGEX_1 SEASON_REGEX,MODIFIER TIME TIME,time_reference,A tour of Western Canada was booked for the 1992 summer touring season.,1,4,== Death and legacy ==,28601706
+July 5,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On July 5, following a concert in Vancouver, the group's van veered off and rolled down a 40-foot embankment and Paul Hackman, asleep in a seat behind the driver, was thrown from the vehicle and died upon being taken to a hospital in the nearby city of Kamloops.",2,4,== Death and legacy ==,28601706
+38 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"He was 38 years old and lived with his wife, Connie in Port Franks, a village in his native Southwestern Ontario.",3,4,== Death and legacy ==,28601706
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"After Hackman's death, Vollmer released the solo album he was working on as the next Helix album, It's a Business Doing Pleasure, in 1993.",4,4,== Death and legacy ==,28601706
+That Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He included the song ""That Day Is Gonna Come"" as a tribute to Hackman, with the song's video featuring unique Super 8 and video footage shot by Vollmer on the road over the years.",5,4,== Death and legacy ==,28601706
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He included the song ""That Day Is Gonna Come"" as a tribute to Hackman, with the song's video featuring unique Super 8 and video footage shot by Vollmer on the road over the years.",5,4,== Death and legacy ==,28601706
+their 2006,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,The then-current version of Helix later re-recorded the song and included it on their 2006 EP Get Up!.,7,4,== Death and legacy ==,28601706
+1979,CD,YEAR_REGEX_1,TIME,time_reference,Breaking Loose (1979),0,7,== Discography == | === Helix albums ===,28601706
+1981,CD,YEAR_REGEX_1,TIME,time_reference,White Lace & Black Leather (1981),0,8,== Discography == | === Helix albums ===,28601706
+1983,CD,YEAR_REGEX_1,TIME,time_reference,No Rest for the Wicked (1983),0,9,== Discography == | === Helix albums ===,28601706
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Walkin' the Razor's Edge (1984),0,10,== Discography == | === Helix albums ===,28601706
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Live at the Marquee (1984) (promotional live EP),0,11,== Discography == | === Helix albums ===,28601706
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Long Way to Heaven (1985),0,12,== Discography == | === Helix albums ===,28601706
+1987,CD,YEAR_REGEX_1,TIME,time_reference,Wild in the Streets (1987),0,13,== Discography == | === Helix albums ===,28601706
+1990,CD,YEAR_REGEX_1,TIME,time_reference,Back for Another Taste (1990),0,14,== Discography == | === Helix albums ===,28601706
+60 minutes,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Over 60 minutes with... (1989),0,16,== Discography == | === Helix compilations ===,28601706
+1989,CD,YEAR_REGEX_1,TIME,time_reference,Over 60 minutes with... (1989),0,16,== Discography == | === Helix compilations ===,28601706
+The Early Years,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,The Early Years (1991) (reissue of first two albums),0,17,== Discography == | === Helix compilations ===,28601706
+1991,CD,YEAR_REGEX_1,TIME,time_reference,The Early Years (1991) (reissue of first two albums),0,17,== Discography == | === Helix compilations ===,28601706
+1998,CD,YEAR_REGEX_1,TIME,time_reference,half-ALIVE (1998),0,19,== Discography == | === Posthumous Helix albums ===,28601706
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Deep Cuts: The Best Of (1999) (compilation),0,20,== Discography == | === Posthumous Helix albums ===,28601706
+1999,CD,YEAR_REGEX_1,TIME,time_reference,B-Sides (1999),0,21,== Discography == | === Posthumous Helix albums ===,28601706
+2001,CD,YEAR_REGEX_1,TIME,time_reference,in Buffalo (2001) (live),1,22,== Discography == | === Posthumous Helix albums ===,28601706
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"S.E.X. Rated (DVD 2001, VHS 1991)",0,24,== Discography == | === DVDs ===,28601706
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"S.E.X. Rated (DVD 2001, VHS 1991)",0,24,== Discography == | === DVDs ===,28601706
+30 Years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,30 Years of Helix: No Rest for the Wicked (DVD 2004),0,25,== Discography == | === DVDs ===,28601706
+2004,CD,YEAR_REGEX_1,TIME,time_reference,30 Years of Helix: No Rest for the Wicked (DVD 2004),0,25,== Discography == | === DVDs ===,28601706

@@ -1,0 +1,71 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1992,CD,YEAR_REGEX_1,TIME,time_reference,The group was founded in Baltimore in 1992 and is still active.,1,0,,1173020
+the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,The group achieved popularity in the 1990s.,4,0,,1173020
+late 1999 to 2002,JJ CD TO CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Signing to Island Records through Haqq Islam's University Records imprint, the group released two successful albums, Dru Hill and Enter the Dru, before separating for a period from late 1999 to 2002, during which time Sisqó and Woody released solo albums.",0,1,,1173020
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"In 2002, by then part of the Def Soul record label, the group reunited and added fifth member Scola to the lineup for their third album, Dru World Order, after that album underperformed the group met with New Label President LA Reid about a follow up .",0,2,,1173020
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"In 2009, the group signed to Kedar Entertainment Group and released their fourth album, InDRUpendence Day, the following year, with new member Tao taking the place of the again departed Woody.",3,2,,1173020
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In 2009, the group signed to Kedar Entertainment Group and released their fourth album, InDRUpendence Day, the following year, with new member Tao taking the place of the again departed Woody.",3,2,,1173020
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 2009, the group signed to Kedar Entertainment Group and released their fourth album, InDRUpendence Day, the following year, with new member Tao taking the place of the again departed Woody.",3,2,,1173020
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Dru Hill and rapper Foxy Brown recorded ""Big Bad Mama"", a remake of Carl Carlton's 1981 hit ""She's a Bad Mama Jama (She's Built, She's Stacked)"", which was the main single for the soundtrack to the 1997 Bill Bellamy film Def Jam's How to Be a Player.",4,6,== History == | === Early career ===,1173020
+the 1997,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Dru Hill and rapper Foxy Brown recorded ""Big Bad Mama"", a remake of Carl Carlton's 1981 hit ""She's a Bad Mama Jama (She's Built, She's Stacked)"", which was the main single for the soundtrack to the 1997 Bill Bellamy film Def Jam's How to Be a Player.",4,6,== History == | === Early career ===,1173020
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"In 1997, Dru Hill filed a lawsuit against Island Records, seeking a release from its contract, after an Island employee hit one of the group's managers, Keith Ingram, over the head with a pool cue.",6,6,== History == | === Early career ===,1173020
+an October 1997,DT NNP CD,INARTICLE_REGEX MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,"At an October 1997 deposition hearing, Eric Kronfeld, president and chief operating officer of Island's parent company PolyGram, was asked why he had hired such an individual.",8,6,== History == | === Early career ===,1173020
+November,NNP,MONTH_REGEX,TIME,time_reference,"""Kronfield's remarks set off a wave of controversy when word of them reached the media in November.",10,6,== History == | === Early career ===,1173020
+the end of the month,DT NN IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"By the end of the month, Dru Hill had settled with Island Records, with the agreement that they would remain on the label.",13,6,== History == | === Early career ===,1173020
+of 1998,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Dru Hill's third Top 20 pop hit came in the form of 1998's ""How Deep Is Your Love"" (Pop #3), which was included on the soundtrack to the Jackie Chan and Chris Tucker film Rush Hour.",0,8,== History == | === Enter the Dru ===,1173020
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Dru Hill's third Top 20 pop hit came in the form of 1998's ""How Deep Is Your Love"" (Pop #3), which was included on the soundtrack to the Jackie Chan and Chris Tucker film Rush Hour.",0,8,== History == | === Enter the Dru ===,1173020
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Enter the Dru eventually sold two million copies by 1999 and peaked at number two on the Billboard 200.,0,9,== History == | === Enter the Dru ===,1173020
+That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"That year, Dru Hill recorded a version of ""Enchantment Passing Through"" for the soundtrack to the Broadway musical Aida, which was also featured on Sisqó's album Unleash the Dragon.",1,9,== History == | === Enter the Dru ===,1173020
+the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"His second single, ""Thong Song"", became a major hit during the spring of 2000, and his third, ""Incomplete"", became a number-one hit during the summer.",1,10,== History == | === Enter the Dru ===,1173020
+of 2000,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"His second single, ""Thong Song"", became a major hit during the spring of 2000, and his third, ""Incomplete"", became a number-one hit during the summer.",1,10,== History == | === Enter the Dru ===,1173020
+the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"His second single, ""Thong Song"", became a major hit during the spring of 2000, and his third, ""Incomplete"", became a number-one hit during the summer.",1,10,== History == | === Enter the Dru ===,1173020
+"November 26 , 2002","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Dru World Order was released on November 26, 2002, two years after its original planned release date.",0,12,== History == | === Dru World Order ===,1173020
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Dru World Order was released on November 26, 2002, two years after its original planned release date.",0,12,== History == | === Dru World Order ===,1173020
+October 11,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Def Soul released a greatest hits compilation, Dru Hill: Hits, on October 11, along with a corresponding DVD collection of the group's music videos.",0,13,== History == | === Dru World Order ===,1173020
+early 2008,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In early 2008, the original quartet version of Dru Hill began touring alongside fellow 1990s acts Tony!",0,15,== History == | === Woody's and Scola's departure ===,1173020
+1990s,CD,YEAR_REGEX_1,TIME,time_reference,"In early 2008, the original quartet version of Dru Hill began touring alongside fellow 1990s acts Tony!",0,15,== History == | === Woody's and Scola's departure ===,1173020
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,InDRUpendence Day =,1,16,== History == | === InDRUpendence Day ===,1173020
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"InDRUpendence Day is Dru Hill's fourth album, released on July 27, 2010.",0,17,== History == | === InDRUpendence Day ===,1173020
+"July 27 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"InDRUpendence Day is Dru Hill's fourth album, released on July 27, 2010.",0,17,== History == | === InDRUpendence Day ===,1173020
+the Future,DT NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"The album has released three singles: ""Love MD"", ""Remain Silent"" and ""Back to the Future"".",2,17,== History == | === InDRUpendence Day ===,1173020
+early 2018,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Jazz left the group in early 2018 to work on his solo album and Tao left in early 2019 to work on a solo project because he did not like the direction Dru Hill was going.,0,19,== History == | === The Second Coming ===,1173020
+early 2019,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Jazz left the group in early 2018 to work on his solo album and Tao left in early 2019 to work on a solo project because he did not like the direction Dru Hill was going.,0,19,== History == | === The Second Coming ===,1173020
+"June 28 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"It debuted June 28, 2010 on Centric.",1,22,== Television appearances ==,1173020
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"It focused on their fourth album, InDRUpendence Day, and how they progressed as a group back on the grind.",2,22,== Television appearances ==,1173020
+"July 14 , 2009","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The show was scheduled to premiere on July 14, 2009 on BET but was postponed.",3,22,== Television appearances ==,1173020
+1992–present,CD,YEAR_REGEX_1,TIME,time_reference,Sisqó – (1992–present),0,25,== Members == | === Current members ===,1173020
+2018–present,CD,YEAR_REGEX_1,TIME,time_reference,Smoke – (2018–present),0,26,== Members == | === Current members ===,1173020
+2018–present,CD,YEAR_REGEX_1,TIME,time_reference,Black – (2018–present),0,27,== Members == | === Current members ===,1173020
+1992–2020,CD,YEAR_REGEX_1,TIME,time_reference,Nokio - (1992–2020; 2021–present),0,28,== Members == | === Current members ===,1173020
+2021–present,CD,YEAR_REGEX_1,TIME,time_reference,Nokio - (1992–2020; 2021–present),0,28,== Members == | === Current members ===,1173020
+1992-2019,JJ,YEAR_REGEX_1,TIME,time_reference,Jazz -  (1992-2019; 2021-present),0,29,== Members == | === Current members ===,1173020
+2021-present,JJ,YEAR_REGEX_1,TIME,time_reference,Jazz -  (1992-2019; 2021-present),0,29,== Members == | === Current members ===,1173020
+"1992–1999 , 2002–2008","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Woody Rock – (1992–1999, 2002–2008)",0,31,== Members == | === Former members ===,1173020
+2001–2008,CD,YEAR_REGEX_1,TIME,time_reference,Scola – (2001–2008),0,32,== Members == | === Former members ===,1173020
+2008–2019,CD,YEAR_REGEX_1,TIME,time_reference,Tao – (2008–2019),0,33,== Members == | === Former members ===,1173020
+1996,CD,YEAR_REGEX_1,TIME,time_reference,Studio albumsDru Hill (1996),0,35,== Discography ==,1173020
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Enter the Dru (1998),0,36,== Discography ==,1173020
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Dru World Order (2002),0,37,== Discography ==,1173020
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,InDRUpendence Day (2010),0,38,== Discography ==,1173020
+2010,CD,YEAR_REGEX_1,TIME,time_reference,InDRUpendence Day (2010),0,38,== Discography ==,1173020
+1997,CD,YEAR_REGEX_1,TIME,time_reference,Moesha (1997),0,41,== Filmography == | === Television ===,1173020
+1997,CD,YEAR_REGEX_1,TIME,time_reference,The Parent 'Hood (1997),0,42,== Filmography == | === Television ===,1173020
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Breaking Out: The Alcatraz Concert (1998),0,44,== Filmography == | === TV specials ===,1173020
+24 hours,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,24 hours with Dru Hill (1999),0,45,== Filmography == | === TV specials ===,1173020
+1999,CD,YEAR_REGEX_1,TIME,time_reference,24 hours with Dru Hill (1999),0,45,== Filmography == | === TV specials ===,1173020
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Keith Sweat's Platinum House (2009),0,46,== Filmography == | === TV specials ===,1173020
+2020,CD,YEAR_REGEX_1,TIME,time_reference,Unsung (2020),0,47,== Filmography == | === TV specials ===,1173020
+1999,CD,YEAR_REGEX_1,TIME,time_reference,HeadliningEnter the Dru Tour (1999)Featured actBudweiser Superfest 97 (1997),0,49,== Tours ==,1173020
+1997,CD,YEAR_REGEX_1,TIME,time_reference,HeadliningEnter the Dru Tour (1999)Featured actBudweiser Superfest 97 (1997),0,49,== Tours ==,1173020
+1998,CD,YEAR_REGEX_1,TIME,time_reference,No Way Out Tour (1998),0,50,== Tours ==,1173020
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Budweiser Superfest 98 (1998),0,51,== Tours ==,1173020
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Keep the Faith Tour (1999),0,52,== Tours ==,1173020
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Luv U Better Tour (2003),0,53,== Tours ==,1173020
+2015,CD,YEAR_REGEX_1,TIME,time_reference,Game Changer Tour (2015),0,54,== Tours ==,1173020
+2017,CD,YEAR_REGEX_1,TIME,time_reference,The 20th Anniversary Tour (2017)As supporting actEvolution Tour (supporting Boyz II Men) (1998),0,55,== Tours ==,1173020
+1998,CD,YEAR_REGEX_1,TIME,time_reference,The 20th Anniversary Tour (2017)As supporting actEvolution Tour (supporting Boyz II Men) (1998),0,55,== Tours ==,1173020
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Furman, Leah (2001).",0,60,== References ==,1173020
+"January 26 , 2001","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Willman, Chris (January 26, 2001).",0,61,== References ==,1173020
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"""Here and Now: This week on the music beat"".",1,61,== References ==,1173020
+This week,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"""Here and Now: This week on the music beat"".",1,61,== References ==,1173020
+Weekly,NNP,TIME_UNIT_REGEX,TIME,time_reference,Entertainment Weekly.,2,61,== References ==,1173020

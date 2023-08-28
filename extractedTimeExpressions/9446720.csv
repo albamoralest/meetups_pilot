@@ -1,0 +1,43 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Slow or DJ Slow (born Vellu Maurola, 1975, in Vantaa, Finland) is a Finnish DJ and music producer.",0,0,,9446720
+the year 1990,DT NN CD,PREFIX_REGEX_1 TIME_UNIT_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,In the year 1990 Slow met fellow DJ JA-Jazz when they worked together in the music department of a department store.,1,2,== Career ==,9446720
+four years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He participated in the Finnish DMC Mixing Championships and won the contest four years in a row: in 1992, 1993, 1994 and 1995, using two Technics SL-1200 direct-drive turntables and a DJ mixer, with musical styles ranging from hip hop to funk and jazz.",0,3,== Career ==,9446720
+"1992 , 1993 , 1994 and 1995","CD , CD , CD CC CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME MODIFIER TIME MODIFIER TIME,time_range,"He participated in the Finnish DMC Mixing Championships and won the contest four years in a row: in 1992, 1993, 1994 and 1995, using two Technics SL-1200 direct-drive turntables and a DJ mixer, with musical styles ranging from hip hop to funk and jazz.",0,3,== Career ==,9446720
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"n 1995 Ja-Jazz introduced Slow to James Spectrum, and the three of them formed a band called Pepe Deluxé, playing a mixture of big beat, trip hop, and hip hop.",0,4,== Career ==,9446720
+a 1998,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"The band's first release was a 1998 EP entitled Three Times a Player, which was chosen as Record of the Month by Muzik magazine.",1,4,== Career ==,9446720
+of the Month,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The band's first release was a 1998 EP entitled Three Times a Player, which was chosen as Record of the Month by Muzik magazine.",1,4,== Career ==,9446720
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Pepe Deluxé's first full-length album, Super Sound, was released in 1999 by UK's Catskills Records.",2,4,== Career ==,9446720
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"One track from the album, ""Woman in Blue"" (later renamed ""Before You Leave""), was chosen to be used for a worldwide advertising campaign for Levi's jeans in 2001.",0,5,== Career ==,9446720
+1999 and 2001,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 1999 and 2001 he worked as Head of A&R at EMI Finland, launching a new dance label called Nozle, which released singles from dance acts such as Campaus, Z-MC, and Jori Hulkkonen's Step Time Orchestra.",0,7,== Career ==,9446720
+2002,CD,YEAR_REGEX_1,TIME,time_reference,In 2002 Slow formed SlowHill with Finnish saxophonist Tapani Rinne of the band RinneRadio.,0,8,== Career ==,9446720
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In the same year, DJ Slow's single ""Got to Funk"" reached #1 in the Finnish dance chart, and peaked at #19 on the Finnish singles chart.",2,8,== Career ==,9446720
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"In 2003 Slow worked on various remixes such as The Crash's track ""Star"", and TV scores for Finnish television.",4,8,== Career ==,9446720
+2004,CD,YEAR_REGEX_1,TIME,time_reference,In 2004 Slow released his debut album,0,9,== Career ==,9446720
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"This Is Now, and began broadcasting a weekly radio show, Burner, on Helsinki's Groove FM with hip-hop artist Paleface.",1,9,== Career ==,9446720
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005 SlowHill released their second album Fennika on Plastinka Records, and remixed BWO's ""Sixteen Tons of Hardware"".",0,10,== Career ==,9446720
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"In 2006, Slow played a set at Midem International Music Market's 40th anniversary opening night in Cannes.",2,10,== Career ==,9446720
+night,NN,DAY_TIME_REGEX,TIME,time_reference,"In 2006, Slow played a set at Midem International Music Market's 40th anniversary opening night in Cannes.",2,10,== Career ==,9446720
+later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He also released his second album Pronto!, and later that year the album was also released in Japan by Columbia Records.",3,10,== Career ==,9446720
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"In 2010 SlowHill returned with their third album, Muzak.",5,10,== Career ==,9446720
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002 Finndisc (as SlowHill; Blue Note),0,13,== Discography == | === Albums ===,9446720
+Yesterday,NN,TIMELINE_REGEX,TIME,time_reference,"""Yesterday Star""",0,20,== Discography == | === Albums ===,9446720
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004,0,24,== Discography == | === Albums ===,9446720
+Now,RB,TIMELINE_REGEX,TIME,time_reference,This Is Now (as DJ Slow; Tiger Helsinki/BMG),1,24,== Discography == | === Albums ===,9446720
+Midnight Sun,NNP NNP,DAY_TIME_REGEX WEEK_ABBR_REGEX,TIME TIME,time_reference,"""Keep Moving"" featuring Midnight Sun",0,33,== Discography == | === Albums ===,9446720
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"""This Is Now"" featuring L.A. Skin and Christa Renwall",0,34,== Discography == | === Albums ===,9446720
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005 Fennika (as SlowHill; Plastinka Records),0,35,== Discography == | === Albums ===,9446720
+Thursday,NNP,WEEK_REGEX,TIME,time_reference,"""Thursday""",0,42,== Discography == | === Albums ===,9446720
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006 Pronto!,0,46,== Discography == | === Albums ===,9446720
+Fall,NNP,SEASON_REGEX,TIME,time_reference,"""Fall Upon Love""",0,52,== Discography == | === Albums ===,9446720
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010 Muzak (as SlowHill; Universal Music),0,56,== Discography == | === Albums ===,9446720
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001 :,0,68,== Discography == | === Singles ===,9446720
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"2003 : Paleface with DJ Slow : ""Wannabe MC"" (BMG)",0,69,== Discography == | === Singles ===,9446720
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"2003 : Paleface with DJ Slow : ""Til The Break Of Dawn"" (BMG)",0,70,== Discography == | === Singles ===,9446720
+Of Dawn,IN NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"2003 : Paleface with DJ Slow : ""Til The Break Of Dawn"" (BMG)",0,70,== Discography == | === Singles ===,9446720
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"2003 : DJ Slow : ""Got To Funk"" (Tiger Helsinki/BMG)",0,71,== Discography == | === Singles ===,9446720
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004 :,0,72,== Discography == | === Singles ===,9446720
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004 :,0,73,== Discography == | === Singles ===,9446720
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004 :,0,74,== Discography == | === Singles ===,9446720
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"2005 Various Artists Eat&Joy vol.1, mixed and compiled by DJ Slow (Plastinka Records)",0,76,== Discography == | === Compilations ===,9446720
+Friday,NNP,WEEK_REGEX,TIME,time_reference,"Quintessence : ""Friday""",0,86,== Discography == | === Compilations ===,9446720
+Tonight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Jazzgangsters : ""Feeling Sad Tonight""",0,87,== Discography == | === Compilations ===,9446720

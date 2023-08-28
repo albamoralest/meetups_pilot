@@ -1,0 +1,60 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1994,CD,YEAR_REGEX_1,TIME,time_reference,Tiles have released several albums on Inside Out Music and toured internationally since the release of their first album in 1994.,1,0,,41213910
+1993,CD,YEAR_REGEX_1,TIME,time_reference,Tiles formed in 1993 and released a self-titled album the following year.,0,2,== History ==,41213910
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Tiles formed in 1993 and released a self-titled album the following year.,0,2,== History ==,41213910
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"This album was an international success, gaining notice in Europe and Japan, and the group signed with Inside Out Music, releasing a second album, Fence the Clear, in 1997.",1,2,== History ==,41213910
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,"Following the release of their third album, Presents of Mind, in 1999, the group toured Europe as the opening act for Dream Theater.",2,2,== History ==,41213910
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Following the release of their third album, Presents of Mind, in 1999, the group toured Europe as the opening act for Dream Theater.",2,2,== History ==,41213910
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Window Dressing, the band's fourth album, followed in 2004, and the 2008 release Fly Paper included guitar work by Rush's Alex Lifeson.",3,2,== History ==,41213910
+the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Window Dressing, the band's fourth album, followed in 2004, and the 2008 release Fly Paper included guitar work by Rush's Alex Lifeson.",3,2,== History ==,41213910
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"The band's first live album, Off the Floor 01, was released in 2012.",4,2,== History ==,41213910
+"June 3 , 2014","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Off the Floor 02 was released June 3, 2014 in a limited edition format which includes a bonus disc from the band's 2005 appearance at the Rites of Spring Festival.",5,2,== History ==,41213910
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Off the Floor 02 was released June 3, 2014 in a limited edition format which includes a bonus disc from the band's 2005 appearance at the Rites of Spring Festival.",5,2,== History ==,41213910
+of Spring,IN NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"Off the Floor 02 was released June 3, 2014 in a limited edition format which includes a bonus disc from the band's 2005 appearance at the Rites of Spring Festival.",5,2,== History ==,41213910
+"April 15 , 2016","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Tiles' sixth studio album, Pretending 2 Run, was released on April 15, 2016 through Laser's Edge, featuring performances by Mike Portnoy and Ian Anderson, among others.",6,2,== History ==,41213910
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Tiles released their first album in 1994, a self-titled 47 minute album under the Dream Circle label.",0,4,== History == | === Tiles ===,41213910
+47 minute,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Tiles released their first album in 1994, a self-titled 47 minute album under the Dream Circle label.",0,4,== History == | === Tiles ===,41213910
+1997,CD,YEAR_REGEX_1,TIME,time_reference,In 1997 they released their second album Fence The Clear.,0,6,== History == | === Fence the Clear ===,41213910
+early 1990s,RB CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Like their first album, it sounded similar to very early 1990s Rush.",2,6,== History == | === Fence the Clear ===,41213910
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,Presents of Mind =,1,7,== History == | === Presents of Mind ===,41213910
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"In 1999, they released their third album Presents of Mind.",0,8,== History == | === Presents of Mind ===,41213910
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,"In 1999, they released their third album Presents of Mind.",0,8,== History == | === Presents of Mind ===,41213910
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"During a tour through Europe (opening for Dream Theater), they released a live bootleg album the following year entitled Presence In Europe, featuring songs from their first three albums.",3,8,== History == | === Presents of Mind ===,41213910
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,Presents of Mind also began an ongoing collaboration with Hugh Syme producing their album cover art.,4,8,== History == | === Presents of Mind ===,41213910
+2004-2008,JJ,YEAR_REGEX_1,TIME,time_reference,2004-2008,1,9,== History == | === 2004-2008 ===,41213910
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Tiles would not release another album until 2004, when they issued their fourth album Window Dressing.",0,10,== History == | === 2004-2008 ===,41213910
+17:11 minutes,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"The album features their longest song ever recorded, clocking in at 17:11 minutes long while the album ran to one hour and 7 minutes long.",1,10,== History == | === 2004-2008 ===,41213910
+one hour and 7 minutes,CD NN CC CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX LINKAGE_REGEX DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME MODIFIER NUMERAL TIME,time_range,"The album features their longest song ever recorded, clocking in at 17:11 minutes long while the album ran to one hour and 7 minutes long.",1,10,== History == | === 2004-2008 ===,41213910
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Continuing with lengthy gaps between releases, they did not release their fifth album until 2008.",2,10,== History == | === 2004-2008 ===,41213910
+53 minutes,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Titled Fly Paper, this album has only 8 songs (plus one hidden bonus track), but still reaches 53 minutes long.",3,10,== History == | === 2004-2008 ===,41213910
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"In 2012, they released their first proper live album, Off The Floor 01, which clocks in at over 77 minutes.",1,12,== History == | === Inactivity ===,41213910
+77 minutes,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 2012, they released their first proper live album, Off The Floor 01, which clocks in at over 77 minutes.",1,12,== History == | === Inactivity ===,41213910
+2014,CD,YEAR_REGEX_1,TIME,time_reference,A second installment titled Off the Floor 02 was released in 2014.,2,12,== History == | === Inactivity ===,41213910
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Also included on the follow-up are some tracks recorded live at 2005's Rites of Spring Festival.,5,12,== History == | === Inactivity ===,41213910
+of Spring,IN NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,Also included on the follow-up are some tracks recorded live at 2005's Rites of Spring Festival.,5,12,== History == | === Inactivity ===,41213910
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016 - present =,1,13,== History == | === 2016 - present ===,41213910
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"2016 saw the release of the most ambitious Tiles project yet, Pretending 2 Run.",0,14,== History == | === 2016 - present ===,41213910
+2017,CD,YEAR_REGEX_1,TIME,time_reference,The band continues to perform live in 2017.,3,14,== History == | === 2016 - present ===,41213910
+"January 19 , 2018","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On January 19, 2018, the band announced that while commemorating their 25th anniversary as a band, singer Paul Rarick would be retiring from the band after their tour in April.",4,14,== History == | === 2016 - present ===,41213910
+April,NNP,MONTH_REGEX,TIME,time_reference,"On January 19, 2018, the band announced that while commemorating their 25th anniversary as a band, singer Paul Rarick would be retiring from the band after their tour in April.",4,14,== History == | === 2016 - present ===,41213910
+"1993–1997 , 2005–present","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Mark Evans – drums (1993–1997, 2005–present)",0,16,== Members ==,41213910
+1994,CD,YEAR_REGEX_1,TIME,time_reference,Kevin Chown - bass (1994),0,21,== Members == | === Former ===,41213910
+1997–2005,CD,YEAR_REGEX_1,TIME,time_reference,Pat De Leon – drums (1997–2005),0,22,== Members == | === Former ===,41213910
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Tiles (Standing Pavement, 1994)",0,24,== Discography ==,41213910
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Tiles re-issue (Polydor, 1995)",0,25,== Discography ==,41213910
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Fence the Clear (Inside Out Music, 1997)",0,26,== Discography ==,41213910
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,"Presents of Mind (Inside Out Music, 1999 Europe)",0,27,== Discography ==,41213910
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Presents of Mind (Inside Out Music, 1999 Europe)",0,27,== Discography ==,41213910
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,"Presents of Mind (Magna Carta Records, 1999 North America)",0,28,== Discography ==,41213910
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Presents of Mind (Magna Carta Records, 1999 North America)",0,28,== Discography ==,41213910
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Tiles Limited Edition (Inside Out Music, 2004)",0,29,== Discography ==,41213910
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Fence the Clear Limited Edition (Inside Out Music, 2004)",0,30,== Discography ==,41213910
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,"Presents of Mind Limited Edition (Inside Out Music, 2004)",0,31,== Discography ==,41213910
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Presents of Mind Limited Edition (Inside Out Music, 2004)",0,31,== Discography ==,41213910
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Window Dressing (Inside Out Music, 2004)",0,32,== Discography ==,41213910
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Fly Paper (Inside Out Music, 2008)",0,33,== Discography ==,41213910
+"April 15 , 2016","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Pretending 2 Run (Laser’s Edge, April 15, 2016)",0,34,== Discography ==,41213910
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Presence In Europe 1999:,0,36,== Discography == | === Live ===,41213910
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Board Tape/Live Bootleg Collection (2000),1,36,== Discography == | === Live ===,41213910
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Off The Floor 01 Live Album (Standing Pavement, 2012)",0,37,== Discography == | === Live ===,41213910
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"Off The Floor 02 Live Album (Standing Pavement, 2014)",0,38,== Discography == | === Live ===,41213910

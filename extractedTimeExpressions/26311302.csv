@@ -1,0 +1,51 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"February 8 , 1928 – December 12 , 2012","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Eddie ""Guitar"" Burns (February 8, 1928 – December 12, 2012) was an American Detroit blues guitarist, harmonica player, singer and songwriter.",0,0,,26311302
+seven decades,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,His career spanned seven decades.,1,0,,26311302
+1948,CD,YEAR_REGEX_1,TIME,time_reference,"He relocated from the Mississippi Delta via Waterloo, Iowa, to Detroit in 1948.",4,2,== Biography ==,26311302
+1948,CD,YEAR_REGEX_1,TIME,time_reference,"Originally Burns excelled at playing the harmonica, and his debut single, ""Notoriety Woman"" (1948), featured this ability accompanied by the guitar playing of John T. Smith.",5,2,== Biography ==,26311302
+Saturday night,NNP NN,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"Burns told of meeting John Lee Hooker there: ""Well see, John T. and me was playing at a house party this particular Saturday night.",6,2,== Biography ==,26311302
+Tuesday,NNP,WEEK_REGEX,TIME,time_reference,"he had a session coming up on Tuesday, this was on a Saturday.",13,2,== Biography ==,26311302
+a Saturday,DT NNP,INARTICLE_REGEX WEEK_REGEX,MODIFIER TIME,time_reference,"he had a session coming up on Tuesday, this was on a Saturday.",13,2,== Biography ==,26311302
+Tuesday,NNP,WEEK_REGEX,TIME,time_reference,"And so then, he wanted to know if I wanted to do this session with him on Tuesday.",14,2,== Biography ==,26311302
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,By the following year Burns was playing guitar accompaniment on recordings by Hooker.,20,2,== Biography ==,26311302
+nightclubs,NN,DAY_TIME_REGEX,TIME,time_reference,"Billed as Big Daddy, Little Eddie, or Big Ed, he performed regularly in Detroit nightclubs but had to supplement his earnings by working as a mechanic.",21,2,== Biography ==,26311302
+those early years,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In those early years Burns's own recording was not prolific, with just a handful of tracks released on several labels.",22,2,== Biography ==,26311302
+the 1960s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"His output veered from Detroit blues to R&B as the 1960s progressed, when he issued a number of singles for Harvey Fuqua's Harvey Records.",23,2,== Biography ==,26311302
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"Now permanently billed as Eddie ""Guitar"" Burns, he appeared on Hooker's album The Real Folk Blues (1966).",24,2,== Biography ==,26311302
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Now permanently billed as Eddie ""Guitar"" Burns, he appeared on Hooker's album The Real Folk Blues (1966).",24,2,== Biography ==,26311302
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"In 1972, Burns undertook a European tour and recorded his debut album, Bottle Up & Go, in London, both organised by Jim Simpson of Big Bear Records, who was the first to insert the epithet ""guitar"" into Burns's name.",25,2,== Biography ==,26311302
+1973,CD,YEAR_REGEX_1,TIME,time_reference,This was followed by an appearance at the Ann Arbor Blues and Jazz Festival in 1973.,26,2,== Biography ==,26311302
+Two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Two years later he toured Europe again, this time as part of Big Bear's American Blues Legends '75 tour, featuring on the album of the same name and cutting the Detroit Blackbottom LP as leader.",27,2,== Biography ==,26311302
+'75,POS,YEAR_REGEX_2,TIME,,"Two years later he toured Europe again, this time as part of Big Bear's American Blues Legends '75 tour, featuring on the album of the same name and cutting the Detroit Blackbottom LP as leader.",27,2,== Biography ==,26311302
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"A song he wrote, ""Orange Driver"", was recorded by the J. Geils Band for its album Hotline (1975).",28,2,== Biography ==,26311302
+August 1976,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In August 1976, Burns performed his song ""Bottle Up & Go"" live on the British television program",29,2,== Biography ==,26311302
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"In 1989 Burns released the album Detroit for Blue Suit Records, in which his abilities on both guitar and harmonica were displayed.",0,3,== Biography ==,26311302
+February 1992,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In February 1992, Burns appeared alongside Jack Owens, Bud Spires, and Lonnie Pitchford at the seventh annual New York Winter Blues Festival.",1,3,== Biography ==,26311302
+Winter,NNP,SEASON_REGEX,TIME,time_reference,"In February 1992, Burns appeared alongside Jack Owens, Bud Spires, and Lonnie Pitchford at the seventh annual New York Winter Blues Festival.",1,3,== Biography ==,26311302
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"By 1994, Burns had been granted the Michigan Heritage Award.",2,3,== Biography ==,26311302
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"In 1998, the Detroit Blues Society presented Burns with its Lifetime Achievement Award.",3,3,== Biography ==,26311302
+2002,CD,YEAR_REGEX_1,TIME,time_reference,His brother Jimmy Burns is a soul blues musician who lives in Chicago and played guitar on Burns's 2002 album Snake Eyes.,0,4,== Biography ==,26311302
+77 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Burns's final record was Second Degree Burns, released when he was 77 years old.",1,4,== Biography ==,26311302
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008, Little Sonny performed with Burns at the Motor City Blues & Boogie Woogie Festival.",2,4,== Biography ==,26311302
+December 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Burns died of heart failure in December 2012, at the age of 84.",4,4,== Biography ==,26311302
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Bottle Up & Go (1972), Action (under licence from Big Bear Records)",0,7,== Discography == | === Studio albums ===,26311302
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Detroit Blackbottom (1975), Big Bear Records",0,8,== Discography == | === Studio albums ===,26311302
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Lonesome Feeling (1986), (Black & Blue Records BB455.2), recorded in the Netherlands",0,9,== Discography == | === Studio albums ===,26311302
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Detroit (1989), Blue Suit",0,10,== Discography == | === Studio albums ===,26311302
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Snake Eyes (2002), Delmark Records",0,11,== Discography == | === Studio albums ===,26311302
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Second Degree Burns (2005), Blue Suit",0,12,== Discography == | === Studio albums ===,26311302
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"Treat Me Like I Treat You (1985), Moonshine",0,14,== Discography == | === Compilations ===,26311302
+1948,CD,YEAR_REGEX_1,TIME,time_reference,"""Notoriety Woman"" (1948), Palda Records",0,16,== Discography == | === Singles ===,26311302
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"""Hello Miss Jessie Lee"" (1953), DeLuxe Records",0,17,== Discography == | === Singles ===,26311302
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"""Biscuit Baking Mama"" (1954), Checker Records",0,18,== Discography == | === Singles ===,26311302
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"""Treat Me Like I Treat You"" (1957), Chess Records",0,19,== Discography == | === Singles ===,26311302
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"""Orange Driver"" (1961), Harvey Records",0,20,== Discography == | === Singles ===,26311302
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"""The Thing to Do"" (1961), Harvey Records",0,21,== Discography == | === Singles ===,26311302
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"""(Don't Be) Messing with My Bread"" (1962), Harvey Records",0,22,== Discography == | === Singles ===,26311302
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"""Wig Wearin' Woman"" (1965), Von Records",0,23,== Discography == | === Singles ===,26311302
+Am,VBP,HALFDAY_REGEX_1,TIME,,"""I Am Leaving"" (1965), Von Records",0,24,== Discography == | === Singles ===,26311302
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"""I Am Leaving"" (1965), Von Records",0,24,== Discography == | === Singles ===,26311302
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"""Don't Even Try It"" (1982), Red Bird Records",0,25,== Discography == | === Singles ===,26311302
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"The Real Folk Blues (Chess, 1966)",0,28,== Discography == | === Appearances ===,26311302
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"More Real Folk Blues: The Missing Album (Chess, 1966 [1991])",0,29,== Discography == | === Appearances ===,26311302
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"More Real Folk Blues: The Missing Album (Chess, 1966 [1991])",0,29,== Discography == | === Appearances ===,26311302

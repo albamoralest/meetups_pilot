@@ -1,45 +1,45 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"December 25 , 1889 – February 18 , 1982","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Nathaniel Shilkret (December 25, 1889 – February 18, 1982) was an American composer, conductor, clarinetist, pianist, business executive, and music director.",0,0,,1178548
-now,RB,TIMELINE_REGEX,TIME,time_reference,"Shilkret (originally named Natan Schüldkraut) was born in New York City, United States, to parents who emigrated from Lemberg (now Lviv in Ukraine).",0,2,== Early career ==,1178548
-June 1914,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In June 1914, he married Anne Finston (née Anna Finston aka Finkelstein; 1895–1958), sister of a fellow musician Nathaniel Finston (né Nathaniel William Finkelstein; 1890–1979).",0,4,== Early career ==,1178548
-1895–1958,CD,YEAR_REGEX_1,TIME,time_reference,"In June 1914, he married Anne Finston (née Anna Finston aka Finkelstein; 1895–1958), sister of a fellow musician Nathaniel Finston (né Nathaniel William Finkelstein; 1890–1979).",0,4,== Early career ==,1178548
-1890–1979,CD,YEAR_REGEX_1,TIME,time_reference,"In June 1914, he married Anne Finston (née Anna Finston aka Finkelstein; 1895–1958), sister of a fellow musician Nathaniel Finston (né Nathaniel William Finkelstein; 1890–1979).",0,4,== Early career ==,1178548
-1915–1982,CD,YEAR_REGEX_1,TIME,time_reference,"Nathaniel Shilkret and Anna Finston had a son, Arthur Shilkret (1915–1982).",1,4,== Early career ==,1178548
-around 1915,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He joined the Foreign Department of the Victor Talking Machine Company (later RCA Victor) around 1915, and soon was made manager of the department.",2,4,== Early career ==,1178548
-1926,CD,YEAR_REGEX_1,TIME,time_reference,"In 1926, Shilkret became ""director of light music"" for Victor.",3,4,== Early career ==,1178548
-1925,CD,YEAR_REGEX_1,TIME,time_reference,"He conducted Victor's first record made by the electrical process in 1925, the first commercial (albeit unsuccessful) Victor Long Playing record in 1931, and was the first conductor to successfully dub an electrically recorded orchestral accompaniment over the acoustically recorded vocals of Enrico Caruso, Victor's star recording artist, who died in 1921, before electrical recording was developed.",8,4,== Early career ==,1178548
-1931,CD,YEAR_REGEX_1,TIME,time_reference,"He conducted Victor's first record made by the electrical process in 1925, the first commercial (albeit unsuccessful) Victor Long Playing record in 1931, and was the first conductor to successfully dub an electrically recorded orchestral accompaniment over the acoustically recorded vocals of Enrico Caruso, Victor's star recording artist, who died in 1921, before electrical recording was developed.",8,4,== Early career ==,1178548
-1921,CD,YEAR_REGEX_1,TIME,time_reference,"He conducted Victor's first record made by the electrical process in 1925, the first commercial (albeit unsuccessful) Victor Long Playing record in 1931, and was the first conductor to successfully dub an electrically recorded orchestral accompaniment over the acoustically recorded vocals of Enrico Caruso, Victor's star recording artist, who died in 1921, before electrical recording was developed.",8,4,== Early career ==,1178548
-1929,CD,YEAR_REGEX_1,TIME,time_reference,"The premiere recording of George Gershwin's symphonic poem An American in Paris, in 1929, was one of five conducted by Shilkret that later earned Grammy Awards.",9,4,== Early career ==,1178548
-1927,CD,YEAR_REGEX_1,TIME,time_reference,Shilkret also conducted Paul Whiteman's Orchestra in the first electrical recording of Gershwin's Rhapsody in Blue in 1927 (after Whiteman refused to conduct following a disagreement with Gershwin).,10,4,== Early career ==,1178548
-1925 and 1941,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He was also one of radio's earliest stars, estimating that he made over 3000 broadcasts between 1925 and 1941, including being the conductor for The Eveready Hour, regarded as the first major commercial broadcast and the first major variety show.",0,6,== Radio and the recording studio ==,1178548
-Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,"He was also one of radio's earliest stars, estimating that he made over 3000 broadcasts between 1925 and 1941, including being the conductor for The Eveready Hour, regarded as the first major commercial broadcast and the first major variety show.",0,6,== Radio and the recording studio ==,1178548
-of the day,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Between his conducting for records and for radio, virtually every musical star of the day performed under the baton of Nathaniel Shilkret.",0,7,== Radio and the recording studio ==,1178548
-Jan,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"Opera stars Rose Bampton, Lucrezia Bori, Feodor Chaliapin, Jon Crain, Richard Crooks, Miguel Fleta, Emilio de Gogorza, Amelita Galli-Curci, Mary Garden, Beniamino Gigli, Helen Jepson, Maria Jeritza, Giovanni Martinelli, Nino Martini, John McCormack, James Melton, Grace Moore, Jan Peerce, Lily Pons, Rosa Ponselle, Elisabeth Rethberg, Gladys Rice, Tito Schipa, Gladys Swarthout, John Charles Thomas, and Lawrence Tibbett were all conducted by Nathaniel Shilkret in their recordings of light-classical and popular songs.",3,7,== Radio and the recording studio ==,1178548
-of the 1929,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"His best-known popular composition was ""The Lonesome Road"", first sung by co-writer Gene Austin, and later by Jules Bledsoe (dubbing Stepin Fetchit) in the final scene of the 1929 part-talkie film version of Show Boat, and recorded by more than two hundred artists, including Louis Armstrong, Bing Crosby, Frank Sinatra and Paul Robeson.",1,9,== Compositions ==,1178548
-1929,CD,YEAR_REGEX_1,TIME,time_reference,"He composed the theme song ""Lady Divine"" for the Academy Award-winning film The Divine Lady in 1929.",2,9,== Compositions ==,1178548
-Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"He also composed the theme song ""Some Sweet Day"" for the film Children of the Ritz in the same year.",3,9,== Compositions ==,1178548
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"He also composed the theme song ""Some Sweet Day"" for the film Children of the Ritz in the same year.",3,9,== Compositions ==,1178548
-1945,CD,YEAR_REGEX_1,TIME,time_reference,"His Concerto for Trombone was premiered in 1945 by Tommy Dorsey, playing with the New York Symphony Orchestra, under the direction of Leopold Stokowski.",0,10,== Compositions ==,1178548
-the beginning of the 21st century,DT NN IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER NUMERAL TIME,time_reference,The piece was unavailable to the public from the mid-1950s until Scottish trombonist Bryan Free rescued it from obscurity at the beginning of the 21st century.,1,10,== Compositions ==,1178548
-October 1946,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,His last recording released on the Victor label was the American Banjo Album (P-218) recorded in October 1946.,1,12,== Later career ==,1178548
-late 1935,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Shilkret moved to Los Angeles in late 1935 and there contributed music scores and musical direction for a string of Hollywood films for RKO (as musical director from 1935 to 1937), Walter Lantz Productions (one of the studio's musical directors during 1937) and Metro-Goldwyn-Mayer (as a musical director from 1942 to 1946).",0,13,== Later career ==,1178548
-1935 to 1937,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Shilkret moved to Los Angeles in late 1935 and there contributed music scores and musical direction for a string of Hollywood films for RKO (as musical director from 1935 to 1937), Walter Lantz Productions (one of the studio's musical directors during 1937) and Metro-Goldwyn-Mayer (as a musical director from 1942 to 1946).",0,13,== Later career ==,1178548
-1937,CD,YEAR_REGEX_1,TIME,time_reference,"Shilkret moved to Los Angeles in late 1935 and there contributed music scores and musical direction for a string of Hollywood films for RKO (as musical director from 1935 to 1937), Walter Lantz Productions (one of the studio's musical directors during 1937) and Metro-Goldwyn-Mayer (as a musical director from 1942 to 1946).",0,13,== Later career ==,1178548
-1942 to 1946,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Shilkret moved to Los Angeles in late 1935 and there contributed music scores and musical direction for a string of Hollywood films for RKO (as musical director from 1935 to 1937), Walter Lantz Productions (one of the studio's musical directors during 1937) and Metro-Goldwyn-Mayer (as a musical director from 1942 to 1946).",0,13,== Later career ==,1178548
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"His films included Mary of Scotland (1936), Swing Time (1936), The Plough and the Stars, and Shall We Dance? (1937) and several films of Laurel and Hardy.",1,13,== Later career ==,1178548
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"His films included Mary of Scotland (1936), Swing Time (1936), The Plough and the Stars, and Shall We Dance? (1937) and several films of Laurel and Hardy.",1,13,== Later career ==,1178548
-1937,CD,YEAR_REGEX_1,TIME,time_reference,"His films included Mary of Scotland (1936), Swing Time (1936), The Plough and the Stars, and Shall We Dance? (1937) and several films of Laurel and Hardy.",1,13,== Later career ==,1178548
-Winterset,NNP,SEASON_REGEX,TIME,time_reference,He also received an Oscar nomination for his work scoring the film version of Maxwell Anderson's stage drama Winterset (1936).,2,13,== Later career ==,1178548
-1936,CD,YEAR_REGEX_1,TIME,time_reference,He also received an Oscar nomination for his work scoring the film version of Maxwell Anderson's stage drama Winterset (1936).,2,13,== Later career ==,1178548
-1939,CD,YEAR_REGEX_1,TIME,time_reference,"In 1939, he conducted a group of soloists (including tenor Jan Peerce) and the Victor Symphony Orchestra for RCA Victor's multi-disc tribute to Victor Herbert, which were recorded following a special NBC radio broadcast, and he recorded a number of other albums in 1939 and 1940.",0,14,== Later career ==,1178548
-tenor Jan,NN NNP,BASIC_NUMBER_REGEX_1 MONTH_ABBR_REGEX,NUMERAL TIME,time_reference,"In 1939, he conducted a group of soloists (including tenor Jan Peerce) and the Victor Symphony Orchestra for RCA Victor's multi-disc tribute to Victor Herbert, which were recorded following a special NBC radio broadcast, and he recorded a number of other albums in 1939 and 1940.",0,14,== Later career ==,1178548
-1939 and 1940,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 1939, he conducted a group of soloists (including tenor Jan Peerce) and the Victor Symphony Orchestra for RCA Victor's multi-disc tribute to Victor Herbert, which were recorded following a special NBC radio broadcast, and he recorded a number of other albums in 1939 and 1940.",0,14,== Later career ==,1178548
-of 1941,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Due to a serious abdominal operation for cancer removal, he did not conduct for most of 1941.",1,14,== Later career ==,1178548
-1944–45,CD,YEAR_REGEX_1,TIME,time_reference,"In 1944–45, Shilkret led the collaborative project that created Genesis Suite, a work for narrator, chorus, and orchestra based on the events in the biblical Book of Genesis.",0,15,== Later career ==,1178548
-1946,CD,YEAR_REGEX_1,TIME,time_reference,"He worked at RKO-Pathe, making short films from 1946 through the mid-1950s.",0,16,== Later career ==,1178548
-'90,CD,YEAR_REGEX_2,TIME,time_reference,He was the pit orchestra conductor for the Broadway show Paris '90 in 1952.,2,16,== Later career ==,1178548
-1952,CD,YEAR_REGEX_1,TIME,time_reference,He was the pit orchestra conductor for the Broadway show Paris '90 in 1952.,2,16,== Later career ==,1178548
-1951,CD,YEAR_REGEX_1,TIME,time_reference,"In 1951, Shilkret wrote the music for a brief documentary titled, The Flying Padre, that was directed by a young Stanley Kubrick.",0,17,== Later career ==,1178548
-1982,CD,YEAR_REGEX_1,TIME,time_reference,"He lived in his son's home in Franklin Square, New York from the mid-1950s, until his death in 1982.",0,18,== Later career ==,1178548
-11-minute 1925,JJ CD,DIGIT_REGEX_1 YEAR_REGEX_1,NUMERAL TIME,time_reference,"Franz Liszt on YouTube, written and directed by James A. Fitzpatrick; fictional 11-minute 1925 film short about Franz Liszt; Nathaniel Shilkret appears, conducting his orchestra.",0,24,== External links ==,1178548
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"December 25 , 1889 – February 18 , 1982","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+now,RB,TIMELINE_REGEX,TIME,time_reference,0,2
+June 1914,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,4
+1895–1958,CD,YEAR_REGEX_1,TIME,time_reference,0,4
+1890–1979,CD,YEAR_REGEX_1,TIME,time_reference,0,4
+1915–1982,CD,YEAR_REGEX_1,TIME,time_reference,1,4
+around 1915,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,2,4
+1926,CD,YEAR_REGEX_1,TIME,time_reference,3,4
+1925,CD,YEAR_REGEX_1,TIME,time_reference,8,4
+1931,CD,YEAR_REGEX_1,TIME,time_reference,8,4
+1921,CD,YEAR_REGEX_1,TIME,time_reference,8,4
+1929,CD,YEAR_REGEX_1,TIME,time_reference,9,4
+1927,CD,YEAR_REGEX_1,TIME,time_reference,10,4
+1925 and 1941,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,6
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,0,6
+of the day,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,0,7
+Jan,NNP,MONTH_ABBR_REGEX,TIME,time_reference,3,7
+of the 1929,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,1,9
+1929,CD,YEAR_REGEX_1,TIME,time_reference,2,9
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,3,9
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,3,9
+1945,CD,YEAR_REGEX_1,TIME,time_reference,0,10
+the beginning of the 21st century,DT NN IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER NUMERAL TIME,time_reference,1,10
+October 1946,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,12
+late 1935,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,13
+1935 to 1937,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,13
+1937,CD,YEAR_REGEX_1,TIME,time_reference,0,13
+1942 to 1946,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,13
+1936,CD,YEAR_REGEX_1,TIME,time_reference,1,13
+1936,CD,YEAR_REGEX_1,TIME,time_reference,1,13
+1937,CD,YEAR_REGEX_1,TIME,time_reference,1,13
+Winterset,NNP,SEASON_REGEX,TIME,time_reference,2,13
+1936,CD,YEAR_REGEX_1,TIME,time_reference,2,13
+1939,CD,YEAR_REGEX_1,TIME,time_reference,0,14
+tenor Jan,NN NNP,BASIC_NUMBER_REGEX_1 MONTH_ABBR_REGEX,NUMERAL TIME,time_reference,0,14
+1939 and 1940,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,14
+of 1941,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,1,14
+1944–45,CD,YEAR_REGEX_1,TIME,time_reference,0,15
+1946,CD,YEAR_REGEX_1,TIME,time_reference,0,16
+'90,CD,YEAR_REGEX_2,TIME,time_reference,2,16
+1952,CD,YEAR_REGEX_1,TIME,time_reference,2,16
+1951,CD,YEAR_REGEX_1,TIME,time_reference,0,17
+1982,CD,YEAR_REGEX_1,TIME,time_reference,0,18
+11-minute 1925,JJ CD,DIGIT_REGEX_1 YEAR_REGEX_1,NUMERAL TIME,time_reference,0,24

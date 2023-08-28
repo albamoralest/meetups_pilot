@@ -1,0 +1,31 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1942,CD,YEAR_REGEX_1,TIME,time_reference,Ted Grossman (born 1942) is an American radio personality.,0,0,,61608587
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Since 1977, he has hosted the weekly jazz and Big band music program Night Train on WLRN-FM in Miami, Florida, one of the longest-running radio programs still broadcast throughout South Florida.",1,0,,61608587
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"Since 1977, he has hosted the weekly jazz and Big band music program Night Train on WLRN-FM in Miami, Florida, one of the longest-running radio programs still broadcast throughout South Florida.",1,0,,61608587
+1942,CD,YEAR_REGEX_1,TIME,time_reference,Theodore Grossman was born in the Brooklyn borough of New York City in 1942.,0,2,== Early life ==,61608587
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"He graduated from North Miami High School in North Miami, Florida, in 1960 and was a speech major at Dade Junior College (now Miami-Dade College).",1,2,== Early life ==,61608587
+now,RB,TIMELINE_REGEX,TIME,time_reference,"He graduated from North Miami High School in North Miami, Florida, in 1960 and was a speech major at Dade Junior College (now Miami-Dade College).",1,2,== Early life ==,61608587
+1967,CD,YEAR_REGEX_1,TIME,time_reference,One of his earliest jobs for which he was paid for his speaking skills was in 1967 when he announced the dolphin shows at the Miami Seaquarium for $90 a week.,0,3,== Early life ==,61608587
+90 a week,CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,One of his earliest jobs for which he was paid for his speaking skills was in 1967 when he announced the dolphin shows at the Miami Seaquarium for $90 a week.,0,3,== Early life ==,61608587
+a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Eventually, he became a postal employee, driving over 100 mi (160 km) a day carrying special delivery letters for the U.S. Postal Service.",2,3,== Early life ==,61608587
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"""The first live jazz I saw,"" Grossman told the Miami Herald in 1983, ""was when my father and a friend of his took me to the Sir John Hotel in Miami, about 1962.",0,4,== Early life ==,61608587
+about 1962,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"""The first live jazz I saw,"" Grossman told the Miami Herald in 1983, ""was when my father and a friend of his took me to the Sir John Hotel in Miami, about 1962.",0,4,== Early life ==,61608587
+an afternoon,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"[Count] Basie's doing an afternoon concert, three bucks.",1,4,== Early life ==,61608587
+ten minutes,VB NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"He did ten minutes, then the guys came back and finished it off with a bang.",4,4,== Early life ==,61608587
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"While still a mail carrier, Grossman approached public radio station WLRN in 1975 when the station expanded its jazz programming.",0,6,== Career ==,61608587
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"As Grossman recounted to the Miami Herald in 1983, ""You don't have any big-band show, I told them.",2,6,== Career ==,61608587
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,Night Train ==,1,7,== Night Train ==,61608587
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"Grossman's program, Night Train, premiered on WLRN in January 1977.",0,8,== Night Train ==,61608587
+January 1977,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Grossman's program, Night Train, premiered on WLRN in January 1977.",0,8,== Night Train ==,61608587
+the late 1970s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1970s, it was a three-hour show that aired on Friday nights.",2,8,== Night Train ==,61608587
+Friday nights,NNP NNS,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"In the late 1970s, it was a three-hour show that aired on Friday nights.",2,8,== Night Train ==,61608587
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1980s, it moved to Sunday nights and expanded to four hours.",3,8,== Night Train ==,61608587
+Sunday nights,NNP NNS,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"In the 1980s, it moved to Sunday nights and expanded to four hours.",3,8,== Night Train ==,61608587
+four hours,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In the 1980s, it moved to Sunday nights and expanded to four hours.",3,8,== Night Train ==,61608587
+Today,NN,TIMELINE_REGEX,TIME,time_reference,"Today, it is simulcast live to the Florida Keys on WLRN's affiliate, WKWM.",4,8,== Night Train ==,61608587
+WKWM,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Today, it is simulcast live to the Florida Keys on WLRN's affiliate, WKWM.",4,8,== Night Train ==,61608587
+past and present,NN CC NN,TIMELINE_REGEX LINKAGE_REGEX TIMELINE_REGEX,TIME MODIFIER TIME,time_reference,"He often peppers his show with mentions of the birthdays, deaths, or other anniversaries of jazz notables, past and present.",1,9,== Night Train ==,61608587
+each week,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In keeping with the show's locomotive-themed title, Grossman is known for donning a train conductor's striped railroad hat as he broadcasts each week.",0,11,== Night Train ==,61608587
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"The Miami Herald once described Night Train as a ""rambling, rumbling three-hour local service with stops at Big Band, Dixieland, The Blues and Crooner City.""",1,11,== Night Train ==,61608587
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,Night Train webpage at WLRN-FM,0,14,== External links ==,61608587
+a Night,DT NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,Brief excerpt of Ted Grossman on-air during a Night Train broadcast (by Paul Leary),0,16,== External links ==,61608587

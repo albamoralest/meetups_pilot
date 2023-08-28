@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"February 11 , 1927","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ilse von Alpenheim (born  February 11, 1927) is an Austrian  pianist.",0,0,,7341524
+1944,CD,YEAR_REGEX_1,TIME,time_reference,"Starting from 1944 she studied with Winfried Wolf in Kitzbühel and, from 1946 to 1949, with Franz Ledwinka at the Mozarteum at Salzburg.",2,2,== Biography ==,7341524
+1946 to 1949,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Starting from 1944 she studied with Winfried Wolf in Kitzbühel and, from 1946 to 1949, with Franz Ledwinka at the Mozarteum at Salzburg.",2,2,== Biography ==,7341524
+1951,CD,YEAR_REGEX_1,TIME,time_reference,In 1951 she moved to Switzerland.,3,2,== Biography ==,7341524
+a decade,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In the mid-1950s she met Sándor Veress, a Hungarian composer, with whom she lived for over a decade.",4,2,== Biography ==,7341524
+1960 and 1968,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Between 1960 and 1968 she was in charge of a concert class at the Conservatory of Berne.,6,2,== Biography ==,7341524
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"In 1971 she became the wife of Antal Doráti, another Hungarian conductor and composer, who wrote several works for her and with whom she developed an intensive international concert activity.",7,2,== Biography ==,7341524
+2015,CD,YEAR_REGEX_1,TIME,time_reference,The sonatas were issued on CD by the Antal Doráti Centenary Society in 2015.,11,2,== Biography ==,7341524

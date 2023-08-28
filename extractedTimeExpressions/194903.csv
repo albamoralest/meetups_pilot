@@ -1,127 +1,127 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-1 November 1847 – 3 April 1930,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"Dame Emma Albani, DBE (born Marie-Louise-Emma-Cécile Lajeunesse; 1 November 1847 – 3 April 1930) was a leading opera soprano of the 19th century and early 20th century, and the first Canadian singer to become an international star.",0,0,,194903
-of the 19th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Dame Emma Albani, DBE (born Marie-Louise-Emma-Cécile Lajeunesse; 1 November 1847 – 3 April 1930) was a leading opera soprano of the 19th century and early 20th century, and the first Canadian singer to become an international star.",0,0,,194903
-early 20th century,JJ JJ NN,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"Dame Emma Albani, DBE (born Marie-Louise-Emma-Cécile Lajeunesse; 1 November 1847 – 3 April 1930) was a leading opera soprano of the 19th century and early 20th century, and the first Canadian singer to become an international star.",0,0,,194903
-1 November 1847,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Her date of birth is usually given as 1 November 1847, but other authors have placed her birth in 1848 or 1850, The Biographical Dictionary of America puts her birth on September 18, 1851, Who's Who in America says November 1, 1851, and Albani's memoir says 1852.",2,2,== Early life ==,194903
-1848 or 1850,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Her date of birth is usually given as 1 November 1847, but other authors have placed her birth in 1848 or 1850, The Biographical Dictionary of America puts her birth on September 18, 1851, Who's Who in America says November 1, 1851, and Albani's memoir says 1852.",2,2,== Early life ==,194903
-"September 18 , 1851","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Her date of birth is usually given as 1 November 1847, but other authors have placed her birth in 1848 or 1850, The Biographical Dictionary of America puts her birth on September 18, 1851, Who's Who in America says November 1, 1851, and Albani's memoir says 1852.",2,2,== Early life ==,194903
-"November 1 , 1851","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Her date of birth is usually given as 1 November 1847, but other authors have placed her birth in 1848 or 1850, The Biographical Dictionary of America puts her birth on September 18, 1851, Who's Who in America says November 1, 1851, and Albani's memoir says 1852.",2,2,== Early life ==,194903
-1852,CD,YEAR_REGEX_1,TIME,time_reference,"Her date of birth is usually given as 1 November 1847, but other authors have placed her birth in 1848 or 1850, The Biographical Dictionary of America puts her birth on September 18, 1851, Who's Who in America says November 1, 1851, and Albani's memoir says 1852.",2,2,== Early life ==,194903
-four hours,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He kept her on a strong practice regimen, with as much as four hours a day of lessons on the harp and piano.",5,2,== Early life ==,194903
-a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He kept her on a strong practice regimen, with as much as four hours a day of lessons on the harp and piano.",5,2,== Early life ==,194903
-1852,CD,YEAR_REGEX_1,TIME,time_reference,"The family moved to Plattsburgh, New York, in 1852.",0,4,== Emigration and tuition ==,194903
-1856,CD,YEAR_REGEX_1,TIME,time_reference,"In 1856 after the death of her mother, she continued her education in a Montreal convent-school, run by the Dames du Sacré-Coeur where her father had obtained the position of Music Master.",1,4,== Emigration and tuition ==,194903
-24 August 1860,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,On 24 August 1860 she and Adelina Patti were soloists in the world premiere of Charles Wugk Sabatier's Cantata in Montreal which was performed in honour of the visit of the Prince of Wales.,3,4,== Emigration and tuition ==,194903
-1865,CD,YEAR_REGEX_1,TIME,time_reference,"However, she was ultimately unable to finance a musical education in Quebec, where singing and acting were considered unsavoury careers for a woman, and her family moved to Albany, New York in 1865.",5,4,== Emigration and tuition ==,194903
-1868,CD,YEAR_REGEX_1,TIME,time_reference,"In 1868, she travelled to Paris, where she studied with Gilbert Duprez at the Conservatoire de Paris.",8,4,== Emigration and tuition ==,194903
-six months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"She spent six months in Paris, training with Duprez.",9,4,== Emigration and tuition ==,194903
-30 March 1870,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"She found a position in Messina, and her operatic debut was on 30 March 1870, in Messina, playing Amina in La sonnambula.",1,7,== Operatic career == | === Development in Italy ===,194903
-presents,NNS,TIMELINE_REGEX,TIME,time_reference,"I was literally loaded with flowers, presents, and poetry, the detached sheets of which were sent fluttering down in every direction on the heads of the audience; and among the numberless bouquets of every shape was a basket in which was concealed a live dove.",0,8,== Operatic career == | === Development in Italy ===,194903
-the winter,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"After spending the winter of 1870–1871 performing in Malta, she auditioned for Frederick Gye, the manager of Covent Garden in London.",4,9,== Operatic career == | === Development in Italy ===,194903
-of 1870–1871,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"After spending the winter of 1870–1871 performing in Malta, she auditioned for Frederick Gye, the manager of Covent Garden in London.",4,9,== Operatic career == | === Development in Italy ===,194903
-the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,She was scheduled to make her London debut in the spring of 1872.,6,9,== Operatic career == | === Development in Italy ===,194903
-of 1872,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,She was scheduled to make her London debut in the spring of 1872.,6,9,== Operatic career == | === Development in Italy ===,194903
-ten days,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Before her London contract began, she returned to Italy to study with Lamperti at Lake Como, and then appeared at the Teatro della Pergola in Florence, giving one last series of nine performances in ten days in the title role of Ambroise Thomas's Mignon, a part she studied with the composer in Paris prior to her making her debut in the role.",7,9,== Operatic career == | === Development in Italy ===,194903
-the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"Albani arrived in London in the spring, and made her professional debut on 2 April 1872 as Amina in La sonnambula.",0,11,== Operatic career == | === Move to London's Covent Garden ===,194903
-2 April 1872,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Albani arrived in London in the spring, and made her professional debut on 2 April 1872 as Amina in La sonnambula.",0,11,== Operatic career == | === Move to London's Covent Garden ===,194903
-October 1872,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Her first opportunity to present a piece came in October 1872, when she performed ""Angels, ever bright and fair"" from Handel's Theodora at the Norwich Festival.",3,11,== Operatic career == | === Move to London's Covent Garden ===,194903
-the 1872–1873 winter,DT CD NN,PREFIX_REGEX_1 YEAR_REGEX_1 SEASON_REGEX,MODIFIER TIME TIME,time_reference,"For the 1872–1873 winter season she performed with the Italian Opera at the Salle Ventadour in Paris, where she made her debut as Amina with Victor Capoul as Elvino.",4,11,== Operatic career == | === Move to London's Covent Garden ===,194903
-July 1874,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"After her third season, Queen Victoria requested a private performance from Albani, who travelled to Windsor Castle in July 1874 to perform the aria ""Caro nome"" from Rigoletto, the folk ballad ""Robin Adair"", the Bach/Gounod ""Ave Maria"", and the popular song ""Home!",2,12,== Operatic career == | === Move to London's Covent Garden ===,194903
-the fall,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"In the fall of 1874, she undertook a tour of the United States, visiting New York, Boston, Philadelphia, Baltimore, Washington, D.C., Chicago and Albany.",5,12,== Operatic career == | === Move to London's Covent Garden ===,194903
-of 1874,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the fall of 1874, she undertook a tour of the United States, visiting New York, Boston, Philadelphia, Baltimore, Washington, D.C., Chicago and Albany.",5,12,== Operatic career == | === Move to London's Covent Garden ===,194903
-two weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"She learned the role of Elsa in Wagner's Lohengrin in two weeks, performing it at the Academy of Music in New York.",8,12,== Operatic career == | === Move to London's Covent Garden ===,194903
-1875,CD,YEAR_REGEX_1,TIME,time_reference,She returned to London for her fourth season at Covent Garden in 1875.,10,12,== Operatic career == | === Move to London's Covent Garden ===,194903
-1876,CD,YEAR_REGEX_1,TIME,time_reference,In her fifth season in London (1876) she performed the role of Elisabeth in the London premiere of Wagner's Tannhäuser.,12,12,== Operatic career == | === Move to London's Covent Garden ===,194903
-6 August 1878,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Albani married Ernest Gye on 6 August 1878.,0,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-4 June 1879,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"She became pregnant, but continued to tour and perform until shortly before the birth of her son, Frederick Ernest Gye on 4 June 1879.",1,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-the fall,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"In the fall of 1879, after singing at the Hereford and Bristol Festivals, she returned to Florence.",3,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-of 1879,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the fall of 1879, after singing at the Hereford and Bristol Festivals, she returned to Florence.",3,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-January 1880,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 1880, she sang in Nice, and from there she went to the Théâtre de la Monnaie in Brussels.",4,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-26 June 1880,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"On 26 June 1880 she performed Isabella in Ferdinand Hérold's Le pré aux clercs at Covent Garden, a production that was mounted especially for her.",5,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-the 1880s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Throughout the 1880s, Albani toured Europe and North America, garnering praise wherever she travelled.",6,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-1881,CD,YEAR_REGEX_1,TIME,time_reference,"In 1881, she was invited to perform in Lohengrin, which was being given at the Berlin Royal Opera.",7,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-previously,RB,TIMELINE_REGEX,TIME,time_reference,"She agreed to appear in the role of Elsa, which she had previously sung in Italian, and relearned the part in German.",8,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-1882,CD,YEAR_REGEX_1,TIME,time_reference,"In 1882, the Kaiser awarded her the title of Hofkammersängerin.",11,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-1883,CD,YEAR_REGEX_1,TIME,time_reference,"In 1883, she gave three recitals in Montreal.",12,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-13 February 1883,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Her first operatic performance in Canada came on 13 February 1883 in Toronto, at the Grand Opera House where she performed in Lucia di Lammermoor.",14,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-15 July 1884,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,On 15 July 1884 in London she sang the role of Brunehild in Ernest Reyer's opera Sigurd and the role of Juliette in Gounod's Roméo et Juliette in the same season.,15,13,== Operatic career == | === Move to London's Covent Garden ===,194903
-20 November 1891,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Albani made her debut with New York's Metropolitan Opera on 20 November 1891 as Valentine in Meyerbeer's Les Huguenots, a performance which took place while the company was on tour in Chicago.",0,15,== Operatic career == | === Performances with New York's Metropolitan Opera ===,194903
-23 November,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,"Her second appearance in Chicago on 23 November was as Desdemona in the company's first ever performance of Verdi's Otello, and she also sang the role there at a gala performance of Act 4 on 9 December.",1,15,== Operatic career == | === Performances with New York's Metropolitan Opera ===,194903
-9 December,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,"Her second appearance in Chicago on 23 November was as Desdemona in the company's first ever performance of Verdi's Otello, and she also sang the role there at a gala performance of Act 4 on 9 December.",1,15,== Operatic career == | === Performances with New York's Metropolitan Opera ===,194903
-23 December,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,Her first appearance with the company in New York was as Gilda in Rigoletto on 23 December.,3,15,== Operatic career == | === Performances with New York's Metropolitan Opera ===,194903
-31 March 1892,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Her final appearance with the Met was in New York on 31 March 1892, as Senta in The Flying Dutchman.",6,15,== Operatic career == | === Performances with New York's Metropolitan Opera ===,194903
-of the evening,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER MODIFIER TIME,time_reference,"She earned a fair share of the honors of the evening.""",13,15,== Operatic career == | === Performances with New York's Metropolitan Opera ===,194903
-1896,CD,YEAR_REGEX_1,TIME,time_reference,"Even in Albani's final season at Covent Garden in 1896, she continued to receive strongly positive reviews.",0,17,== Operatic career == | === Final season at Covent Garden ===,194903
-26 June 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"The greatest triumph of her career came on 26 June 1896, when she sang Isolde in Wagner's Tristan und Isolde, with Jean de Reszke in his first London Tristan, Louise Meisslinger as Brangäne, David Bispham as Kurwenal, Édouard de Reszke as King Marke, and Luigi Mancinelli conducting.",1,17,== Operatic career == | === Final season at Covent Garden ===,194903
-24 July,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,On 24 July she sang Valentine in Les Huguenots.,3,17,== Operatic career == | === Final season at Covent Garden ===,194903
-twenty-four years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Her career at Covent Garden had lasted for twenty-four years.,5,17,== Operatic career == | === Final season at Covent Garden ===,194903
-1896,CD,YEAR_REGEX_1,TIME,time_reference,"After retiring from Covent Garden in 1896, Albani departed for a tour of Canada, performing in venues across the country.",0,19,== Operatic career == | === Post Covent Garden ===,194903
-1898,CD,YEAR_REGEX_1,TIME,time_reference,"In 1898, she toured Australia.",1,19,== Operatic career == | === Post Covent Garden ===,194903
-1901,CD,YEAR_REGEX_1,TIME,time_reference,"On the death of Queen Victoria in 1901, Albani travelled to London and sang the solo role at her final service.",3,19,== Operatic career == | === Post Covent Garden ===,194903
-spring 1908,NN CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In spring 1908, the veteran Albani toured the English provinces as part of a company containing two budding talents: pianist Marie Novello, who two years later would become one of Theodor Leschetizky's last students, and John McCormack, who only months before had made his own Covent Garden debut.",4,19,== Operatic career == | === Post Covent Garden ===,194903
-two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In spring 1908, the veteran Albani toured the English provinces as part of a company containing two budding talents: pianist Marie Novello, who two years later would become one of Theodor Leschetizky's last students, and John McCormack, who only months before had made his own Covent Garden debut.",4,19,== Operatic career == | === Post Covent Garden ===,194903
-months,NNS,TIME_UNIT_REGEX,TIME,time_reference,"In spring 1908, the veteran Albani toured the English provinces as part of a company containing two budding talents: pianist Marie Novello, who two years later would become one of Theodor Leschetizky's last students, and John McCormack, who only months before had made his own Covent Garden debut.",4,19,== Operatic career == | === Post Covent Garden ===,194903
-14 October 1911,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Albani gave her last public performance on 14 October 1911.,5,19,== Operatic career == | === Post Covent Garden ===,194903
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"That same year she released a book, Forty Years of Song.",6,19,== Operatic career == | === Post Covent Garden ===,194903
-Forty Years,NNP NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"That same year she released a book, Forty Years of Song.",6,19,== Operatic career == | === Post Covent Garden ===,194903
-1925,CD,YEAR_REGEX_1,TIME,time_reference,"Her husband died in 1925, compounding the situation, but benefit concerts arranged by friends provided sufficient income for Albani.",10,19,== Operatic career == | === Post Covent Garden ===,194903
-3 April 1930,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"She died on 3 April 1930, aged 82, at her home on Tregunter Road, Kensington and was buried with her husband at Brompton Cemetery.",11,19,== Operatic career == | === Post Covent Garden ===,194903
-1897,CD,YEAR_REGEX_1,TIME,time_reference,"Albani received the gold medal of the Royal Philharmonic Society in 1897, often known as the ""Beethoven Medal"".",0,21,== Honours and legacy ==,194903
-1908,CD,YEAR_REGEX_1,TIME,time_reference,"Madame Selitsky, the prima donna who performs in Lucy Maud Montgomery's Anne of Green Gables (1908) was inspired by Albani.",1,21,== Honours and legacy ==,194903
-1934,CD,YEAR_REGEX_1,TIME,time_reference,"Montgomery later wrote a profile of the singer for Courageous Women (1934), a non-fiction work.",2,21,== Honours and legacy ==,194903
-1925,CD,YEAR_REGEX_1,TIME,time_reference,"In 1925, Albani was made a Dame Commander of the Order of the British Empire.",3,21,== Honours and legacy ==,194903
-1939,CD,YEAR_REGEX_1,TIME,time_reference,The Historic Sites and Monuments Board of Canada mounted a plaque at her birthplace in 1939.,4,21,== Honours and legacy ==,194903
-1977,CD,YEAR_REGEX_1,TIME,time_reference,It was replaced with a stele in 1977.,5,21,== Honours and legacy ==,194903
-1912,CD,YEAR_REGEX_1,TIME,time_reference,"The first, rue Albani, was dedicated in 1912.",8,21,== Honours and legacy ==,194903
-19 March 1969,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"The second, avenue Albani, was named 19 March 1969 by the city's council.",10,21,== Honours and legacy ==,194903
-1980,CD,YEAR_REGEX_1,TIME,time_reference,In 1980 Canada Post commissioned a postage stamp honoring her on the 50th anniversary of her death.,11,21,== Honours and legacy ==,194903
-the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1990s, the former mayor of Chambly, Robert Lebel donated the Emma Albani fund for musical arts to the town.",0,22,== Honours and legacy ==,194903
-16 July 1884,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,16 July 1884.,2,26,== References ==,194903
-16 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 16 July 2015.,3,26,== References ==,194903
-1911,CD,YEAR_REGEX_1,TIME,time_reference,"Albani, Emma (1911).",0,27,== References ==,194903
-Forty Years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Forty Years of Song.,1,27,== References ==,194903
-29 May 2011,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 29 May 2011.,2,28,== References ==,194903
-17 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 17 July 2015.,2,29,== References ==,194903
-October 1911,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,October 1911.,3,30,== References ==,194903
-10 August 2014,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Blythe, Christine (10 August 2014).",0,31,== References ==,194903
-24 February 2014,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 24 February 2014.,3,31,== References ==,194903
-31 March 1892,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,31 March 1892.,2,32,== References ==,194903
-16 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 16 July 2015.,3,32,== References ==,194903
-Summer 1995,NNP CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Dideriksen, Gabriella; Ringel, Matthew (Summer 1995).",0,33,== References ==,194903
-Spring 2005,NNP CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Elliott, Robin (Spring 2005).",0,34,== References ==,194903
-145438501,CD,YEAR_REGEX_1,TIME,time_reference,S2CID 145438501.,5,34,== References ==,194903
-16 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 16 July 2015.,6,34,== References ==,194903
-Dawn,NNP,DAY_TIME_REGEX,TIME,time_reference,Dawn E. Monroe.,2,35,== References ==,194903
-17 January 2012,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 17 January 2012.,3,35,== References ==,194903
-16 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 16 July 2015.,2,36,== References ==,194903
-1847–1930,CD,YEAR_REGEX_1,TIME,time_reference,"""Emma Albani, soprano and voice teacher (1847–1930)"".",0,37,== References ==,194903
-15 July 2010,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,15 July 2010.,3,37,== References ==,194903
-16 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 16 July 2015.,4,37,== References ==,194903
-11 June 2008,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Archived from the original on 11 June 2008.,3,38,== References ==,194903
-8 October 2013,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 8 October 2013.,3,39,== References ==,194903
-June 1942,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Hurst, P. G. (June 1942).",0,40,== References ==,194903
-2 August 2012,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Archived from the original on 2 August 2012.,3,40,== References ==,194903
-May 1921,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Klein, Herman (May 1921).",0,41,== References ==,194903
-1903,CD,YEAR_REGEX_1,TIME,time_reference,"Morgan, Henry James, ed. (1903).",0,42,== References ==,194903
-1047,CD,YEAR_REGEX_1,TIME,time_reference,71 (1047): 463.,2,43,== References ==,194903
-May 1930,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,May 1930.,3,43,== References ==,194903
-Spring 1980,NNP CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Potvin, Gilles (Spring 1980).",0,44,== References ==,194903
-29 July 2007,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Potvin, Gilles (29 July 2007).",0,45,== References ==,194903
-17 January 2012,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 17 January 2012.,4,45,== References ==,194903
-29 January 2008,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Potvin, Gilles (29 January 2008).",0,46,== References ==,194903
-17 January 2012,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 17 January 2012.,4,46,== References ==,194903
-Forty Years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"""Reviewed Work: Forty Years of Song by Emma Albani"".",0,47,== References ==,194903
-November 1911,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,November 1911.,3,47,== References ==,194903
-1958,CD,YEAR_REGEX_1,TIME,time_reference,"Rosenthal, Harold (1958).",0,48,== References ==,194903
-Two Centuries,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Two Centuries of Opera at Covent Garden.,1,48,== References ==,194903
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"Rosselli, John (2004).",0,49,== References ==,194903
-1847–1930,CD,YEAR_REGEX_1,TIME,time_reference,"""Albani [married name Gye], Dame Emma [née Marie Louise Cécile Emma Lajeunesse] (1847–1930), singer"".",1,49,== References ==,194903
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"Sadie, Stanley, ed. (1992).",0,50,== References ==,194903
-2005,CD,YEAR_REGEX_1,TIME,time_reference,"Vachon, Pierre (2005).",0,51,== References ==,194903
-1921–1930,CD,YEAR_REGEX_1,TIME,time_reference,XV (1921–1930) (online ed.).,4,51,== References ==,194903
-17 January 2012,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 17 January 2012.,6,51,== References ==,194903
-now,RB,TIMELINE_REGEX,TIME,time_reference,"This article incorporates text from a publication now in the public domain: Johnson, Rossiter, ed. (1906).",0,52,== References ==,194903
-1906,CD,YEAR_REGEX_1,TIME,time_reference,"This article incorporates text from a publication now in the public domain: Johnson, Rossiter, ed. (1906).",0,52,== References ==,194903
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"Brian Busby, Character Parts: Who's Really Who in CanLit (Toronto: Vintage Canada, 2004).",0,54,== Further reading ==,194903
-1984,CD,YEAR_REGEX_1,TIME,time_reference,"Cheryl MacDonald, Emma Albani: Victorian Diva (Toronto, Dundurn, 1984).",0,55,== Further reading ==,194903
-December 1993,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Stephen Willis, ""Archives of Emma Albani at the National Library of Canada"", National Library News, Vol. 25, no. 12 (December 1993).",0,56,== Further reading ==,194903
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+1 November 1847 – 3 April 1930,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,0,0
+of the 19th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,0,0
+early 20th century,JJ JJ NN,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,0,0
+1 November 1847,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,2,2
+1848 or 1850,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,2,2
+"September 18 , 1851","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,2,2
+"November 1 , 1851","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,2,2
+1852,CD,YEAR_REGEX_1,TIME,time_reference,2,2
+four hours,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,5,2
+a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,5,2
+1852,CD,YEAR_REGEX_1,TIME,time_reference,0,4
+1856,CD,YEAR_REGEX_1,TIME,time_reference,1,4
+24 August 1860,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,4
+1865,CD,YEAR_REGEX_1,TIME,time_reference,5,4
+1868,CD,YEAR_REGEX_1,TIME,time_reference,8,4
+six months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,9,4
+30 March 1870,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,1,7
+presents,NNS,TIMELINE_REGEX,TIME,time_reference,0,8
+the winter,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,4,9
+of 1870–1871,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,4,9
+the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,6,9
+of 1872,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,6,9
+ten days,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,7,9
+the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,0,11
+2 April 1872,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,11
+October 1872,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,3,11
+the 1872–1873 winter,DT CD NN,PREFIX_REGEX_1 YEAR_REGEX_1 SEASON_REGEX,MODIFIER TIME TIME,time_reference,4,11
+July 1874,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,2,12
+the fall,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,5,12
+of 1874,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,5,12
+two weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,8,12
+1875,CD,YEAR_REGEX_1,TIME,time_reference,10,12
+1876,CD,YEAR_REGEX_1,TIME,time_reference,12,12
+6 August 1878,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,13
+4 June 1879,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,1,13
+the fall,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,3,13
+of 1879,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,3,13
+January 1880,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,4,13
+26 June 1880,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,5,13
+the 1880s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,6,13
+1881,CD,YEAR_REGEX_1,TIME,time_reference,7,13
+previously,RB,TIMELINE_REGEX,TIME,time_reference,8,13
+1882,CD,YEAR_REGEX_1,TIME,time_reference,11,13
+1883,CD,YEAR_REGEX_1,TIME,time_reference,12,13
+13 February 1883,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,14,13
+15 July 1884,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,15,13
+20 November 1891,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,15
+23 November,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,1,15
+9 December,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,1,15
+23 December,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,3,15
+31 March 1892,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,6,15
+of the evening,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER MODIFIER TIME,time_reference,13,15
+1896,CD,YEAR_REGEX_1,TIME,time_reference,0,17
+26 June 1896,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,1,17
+24 July,CD NNP,DIGIT_REGEX_1 MONTH_REGEX,NUMERAL TIME,,3,17
+twenty-four years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,5,17
+1896,CD,YEAR_REGEX_1,TIME,time_reference,0,19
+1898,CD,YEAR_REGEX_1,TIME,time_reference,1,19
+1901,CD,YEAR_REGEX_1,TIME,time_reference,3,19
+spring 1908,NN CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,4,19
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,4,19
+months,NNS,TIME_UNIT_REGEX,TIME,time_reference,4,19
+14 October 1911,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,5,19
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,6,19
+Forty Years,NNP NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,6,19
+1925,CD,YEAR_REGEX_1,TIME,time_reference,10,19
+3 April 1930,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,11,19
+1897,CD,YEAR_REGEX_1,TIME,time_reference,0,21
+1908,CD,YEAR_REGEX_1,TIME,time_reference,1,21
+1934,CD,YEAR_REGEX_1,TIME,time_reference,2,21
+1925,CD,YEAR_REGEX_1,TIME,time_reference,3,21
+1939,CD,YEAR_REGEX_1,TIME,time_reference,4,21
+1977,CD,YEAR_REGEX_1,TIME,time_reference,5,21
+1912,CD,YEAR_REGEX_1,TIME,time_reference,8,21
+19 March 1969,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,10,21
+1980,CD,YEAR_REGEX_1,TIME,time_reference,11,21
+the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,22
+16 July 1884,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,2,26
+16 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,26
+1911,CD,YEAR_REGEX_1,TIME,time_reference,0,27
+Forty Years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,27
+29 May 2011,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,2,28
+17 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,2,29
+October 1911,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,3,30
+10 August 2014,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,31
+24 February 2014,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,31
+31 March 1892,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,2,32
+16 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,32
+Summer 1995,NNP CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,33
+Spring 2005,NNP CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,34
+145438501,CD,YEAR_REGEX_1,TIME,time_reference,5,34
+16 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,6,34
+Dawn,NNP,DAY_TIME_REGEX,TIME,time_reference,2,35
+17 January 2012,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,35
+16 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,2,36
+1847–1930,CD,YEAR_REGEX_1,TIME,time_reference,0,37
+15 July 2010,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,37
+16 July 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,4,37
+11 June 2008,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,38
+8 October 2013,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,39
+June 1942,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,40
+2 August 2012,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,3,40
+May 1921,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,41
+1903,CD,YEAR_REGEX_1,TIME,time_reference,0,42
+1047,CD,YEAR_REGEX_1,TIME,time_reference,2,43
+May 1930,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,3,43
+Spring 1980,NNP CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,44
+29 July 2007,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,45
+17 January 2012,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,4,45
+29 January 2008,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,0,46
+17 January 2012,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,4,46
+Forty Years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,47
+November 1911,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,3,47
+1958,CD,YEAR_REGEX_1,TIME,time_reference,0,48
+Two Centuries,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,48
+2004,CD,YEAR_REGEX_1,TIME,time_reference,0,49
+1847–1930,CD,YEAR_REGEX_1,TIME,time_reference,1,49
+1992,CD,YEAR_REGEX_1,TIME,time_reference,0,50
+2005,CD,YEAR_REGEX_1,TIME,time_reference,0,51
+1921–1930,CD,YEAR_REGEX_1,TIME,time_reference,4,51
+17 January 2012,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,6,51
+now,RB,TIMELINE_REGEX,TIME,time_reference,0,52
+1906,CD,YEAR_REGEX_1,TIME,time_reference,0,52
+2004,CD,YEAR_REGEX_1,TIME,time_reference,0,54
+1984,CD,YEAR_REGEX_1,TIME,time_reference,0,55
+December 1993,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,56

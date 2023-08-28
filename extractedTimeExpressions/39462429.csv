@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 2 , 2000","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Maria Isadora Bianca Soler Umali (born March 2, 2000) is a Filipina actress, commercial model and dancer.",0,0,,39462429
+currently,RB,TIMELINE_REGEX,TIME,time_reference,She is currently a contract artist of GMA Network and GMA Artist Center.,1,0,,39462429
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Her mother died of breast cancer in 2005 while her father died of a heart attack five years later.,2,2,== Early life ==,39462429
+five years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Her mother died of breast cancer in 2005 while her father died of a heart attack five years later.,2,2,== Early life ==,39462429
+now,RB,TIMELINE_REGEX,TIME,time_reference,She studied the high school curriculum at Veritas Parochial School (now Veritas Catholic School) in Parañaque City.,4,2,== Early life ==,39462429
+two years old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Commercial model and endorserUmali started her career as a commercial model when she was only two years old, and she was seen in several television commercials such as EQ Diapers' ""Miss Universe"" commercial and a commercial for Nestle Ice Cream.",0,4,== Career ==,39462429
+2021,CD,YEAR_REGEX_1,TIME,time_reference,"In 2021, Umali joined the Bench family (a retail brand of clothing, bags, accessories, footwear and fragrances).",0,5,== Career ==,39462429
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"Hosting and acting stintsIn 2009, when she was 9 years old, Umali became one of the hosts of Tropang Potchi – a children's show – and she signed an exclusive contract under GMA Network.",0,6,== Career ==,39462429
+9 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Hosting and acting stintsIn 2009, when she was 9 years old, Umali became one of the hosts of Tropang Potchi – a children's show – and she signed an exclusive contract under GMA Network.",0,6,== Career ==,39462429
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In the same year, she portrayed the role of young Nancy Rosales on the TV series Kaya Kong Abutin Ang Langit and had a cameo role as an orphan on Darna.",1,6,== Career ==,39462429
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, Umali signed a management contract under GMA Artist Center (GMAAC).",2,6,== Career ==,39462429
+2018,CD,YEAR_REGEX_1,TIME,time_reference,"Recording artistIn 2018, Umali signed a recording contract under GMA Records.",0,7,== Career ==,39462429

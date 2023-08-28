@@ -1,49 +1,49 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"December 12 , 1943 – December 17 , 1999","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Grover Washington Jr. (December 12, 1943 – December 17, 1999) was an American jazz-funk / soul-jazz saxophonist.",0,0,,994118
-the 1970s and 1980s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Throughout the 1970s and 1980s, Washington made some of the genre's most memorable hits, including ""Mister Magic"", ""Reed Seed"", ""Black Frost"", ""Winelight"", ""Inner City Blues"", ""Let it Flow(For Dr. J)"" and ""The Best is Yet to Come"".",0,2,,994118
-1996,CD,YEAR_REGEX_1,TIME,time_reference,"He is also remembered for his take on the Dave Brubeck classic ""Take Five"", and for his 1996 version of ""Soulful Strut"".",2,2,,994118
-"December 12 , 1943","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Washington was born in Buffalo, New York, United States, on December 12, 1943.",0,5,== Early life ==,994118
-1967,CD,YEAR_REGEX_1,TIME,time_reference,"After leaving the Army, Washington freelanced his talents around New York City, eventually landing in Philadelphia in 1967.",3,8,== Career == | === Early career ===,994118
-1970 and 1971,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 1970 and 1971, he appeared on Leon Spencer's first two albums on Prestige Records, together with Idris Muhammad and Melvin Sparks.",4,8,== Career == | === Early career ===,994118
-1974,CD,YEAR_REGEX_1,TIME,time_reference,"While his first three albums established him as a force in jazz and soul music, it was his fourth album in 1974, Mister Magic, that proved a major commercial success.",0,11,== Career == | === Rise to fame ===,994118
-1975,CD,YEAR_REGEX_1,TIME,time_reference,"His follow-up on Kudu in 1975, Feels So Good also made No. 1 on Billboard's R&B album chart and No. 10 on the pop album chart.",4,11,== Career == | === Rise to fame ===,994118
-the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"A string of acclaimed records brought Washington through the 1970s, culminating in the signature piece for everything he would do from then on.",6,11,== Career == | === Rise to fame ===,994118
-1980,CD,YEAR_REGEX_1,TIME,time_reference,"Winelight (1980) was the album that defined everything Washington was then about, having signed for Elektra Records, part of the major Warner Music group.",7,11,== Career == | === Rise to fame ===,994118
-the spring and summer,DT NN CC NN,PREFIX_REGEX_1 SEASON_REGEX LINKAGE_REGEX SEASON_REGEX,MODIFIER TIME MODIFIER TIME,time_reference,"The highlight of the album was his collaboration with soul artist Bill Withers, ""Just the Two of Us,"" a hit on radio during the spring and summer of 1981, peaking at No. 2 on the Billboard Hot 100.",10,11,== Career == | === Rise to fame ===,994118
-of 1981,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The highlight of the album was his collaboration with soul artist Bill Withers, ""Just the Two of Us,"" a hit on radio during the spring and summer of 1981, peaking at No. 2 on the Billboard Hot 100.",10,11,== Career == | === Rise to fame ===,994118
-1981,CD,YEAR_REGEX_1,TIME,time_reference,"The album went platinum in 1981, and also won Grammy Awards in 1982 for Best R&B Song (""Just The Two of Us""), and Best Jazz Fusion Performance (""Winelight"").",11,11,== Career == | === Rise to fame ===,994118
-1982,CD,YEAR_REGEX_1,TIME,time_reference,"The album went platinum in 1981, and also won Grammy Awards in 1982 for Best R&B Song (""Just The Two of Us""), and Best Jazz Fusion Performance (""Winelight"").",11,11,== Career == | === Rise to fame ===,994118
-of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"""Winelight"" was also nominated for Record of the Year and Song of the Year.",12,11,== Career == | === Rise to fame ===,994118
-of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"""Winelight"" was also nominated for Record of the Year and Song of the Year.",12,11,== Career == | === Rise to fame ===,994118
-the late 1980s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the post-Winelight era, Washington is credited for giving rise to a new batch of talent that would make its mark in the late 1980s and early 1990s.",13,11,== Career == | === Rise to fame ===,994118
-early 1990s,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the post-Winelight era, Washington is credited for giving rise to a new batch of talent that would make its mark in the late 1980s and early 1990s.",13,11,== Career == | === Rise to fame ===,994118
-"December 17 , 1999","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On December 17, 1999, five days after his 56th birthday, Washington collapsed while waiting in the green room after performing four songs for The Saturday Early Show, at CBS Studios in New York City.",0,13,== Death ==,994118
-five days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"On December 17, 1999, five days after his 56th birthday, Washington collapsed while waiting in the green room after performing four songs for The Saturday Early Show, at CBS Studios in New York City.",0,13,== Death ==,994118
-The Saturday,DT NNP,PREFIX_REGEX_1 WEEK_REGEX,MODIFIER TIME,time_reference,"On December 17, 1999, five days after his 56th birthday, Washington collapsed while waiting in the green room after performing four songs for The Saturday Early Show, at CBS Studios in New York City.",0,13,== Death ==,994118
-about 7:30 pm,RB CD NN,PREFIX_REGEX_1 DIGIT_REGEX_1 HALFDAY_REGEX_1,MODIFIER NUMERAL TIME,time_reference,"He was taken to St. Luke's-Roosevelt Hospital, where he was pronounced dead at about 7:30 pm.",1,13,== Death ==,994118
-1995,CD,YEAR_REGEX_1,TIME,time_reference,"So Many Stars (Sony, 1995)With Kenny Burrell",0,20,== Discography == | === As sideman ===,994118
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"Togethering (Blue Note, 1985)With Hank Crawford",0,21,== Discography == | === As sideman ===,994118
-the Night,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Help Me Make it Through the Night (Kudu, 1972)With Charles Earland",0,22,== Discography == | === As sideman ===,994118
-1972,CD,YEAR_REGEX_1,TIME,time_reference,"Help Me Make it Through the Night (Kudu, 1972)With Charles Earland",0,22,== Discography == | === As sideman ===,994118
-1970,CD,YEAR_REGEX_1,TIME,time_reference,"(Prestige, 1970)With Dexter Gordon",1,23,== Discography == | === As sideman ===,994118
-1982,CD,YEAR_REGEX_1,TIME,time_reference,"American Classic (Elektra, 1982)With Urbie Green",0,24,== Discography == | === As sideman ===,994118
-1977,CD,YEAR_REGEX_1,TIME,time_reference,"Señor Blues (CTI, 1977)With Eddie Henderson",0,25,== Discography == | === As sideman ===,994118
-1994,CD,YEAR_REGEX_1,TIME,time_reference,"Inspiration (Milestone, 1994)",0,26,== Discography == | === As sideman ===,994118
-1995,CD,YEAR_REGEX_1,TIME,time_reference,"Tribute to Lee Morgan (NYC Music, 1995)With Masaru Imada",0,27,== Discography == | === As sideman ===,994118
-1982,CD,YEAR_REGEX_1,TIME,time_reference,Seaside (1982)With Boogaloo Joe Jones,0,28,== Discography == | === As sideman ===,994118
-1970,CD,YEAR_REGEX_1,TIME,time_reference,"(Prestige, 1970)",1,29,== Discography == | === As sideman ===,994118
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"What It Is (Prestige, 1971)With",0,30,== Discography == | === As sideman ===,994118
-1964,CD,YEAR_REGEX_1,TIME,time_reference,"Let's Ska at the Ski Lodge (Downhill, 1964)With Idris Muhammad",0,31,== Discography == | === As sideman ===,994118
-1974,CD,YEAR_REGEX_1,TIME,time_reference,"Power of Soul (Kudu, 1974)With",0,32,== Discography == | === As sideman ===,994118
-1995,CD,YEAR_REGEX_1,TIME,time_reference,"Dragonfly (Telarc, 1995)With Don Sebesky",0,33,== Discography == | === As sideman ===,994118
-1973,CD,YEAR_REGEX_1,TIME,time_reference,"Giant Box (CTI, 1973)With Johnny ""Hammond"" Smith",0,34,== Discography == | === As sideman ===,994118
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"What's Going On (Prestige, 1971)",0,35,== Discography == | === As sideman ===,994118
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"Breakout (Kudu, 1971)",0,36,== Discography == | === As sideman ===,994118
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"Wild Horses Rock Steady (Kudu, 1971)With Lonnie Smith",0,37,== Discography == | === As sideman ===,994118
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"Mama Wailer (Kudu, 1971)With Melvin Sparks",0,38,== Discography == | === As sideman ===,994118
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"Spark Plug (Prestige, 1971)With Leon Spencer",0,39,== Discography == | === As sideman ===,994118
-1970,CD,YEAR_REGEX_1,TIME,time_reference,"(Prestige, 1970)",1,40,== Discography == | === As sideman ===,994118
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"Louisiana Slim (Prestige, 1971)With",0,41,== Discography == | === As sideman ===,994118
-1990,CD,YEAR_REGEX_1,TIME,time_reference,"My Dear Family (Evidence, 1990)With Randy Weston",0,42,== Discography == | === As sideman ===,994118
-1972,CD,YEAR_REGEX_1,TIME,time_reference,"Blue Moses (CTI, 1972)With",0,43,== Discography == | === As sideman ===,994118
-1981,CD,YEAR_REGEX_1,TIME,time_reference,"Just the Two of Us (Columbia, 1981)",0,44,== Discography == | === As sideman ===,994118
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"December 12 , 1943 – December 17 , 1999","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+the 1970s and 1980s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,0,2
+1996,CD,YEAR_REGEX_1,TIME,time_reference,2,2
+"December 12 , 1943","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,5
+1967,CD,YEAR_REGEX_1,TIME,time_reference,3,8
+1970 and 1971,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,4,8
+1974,CD,YEAR_REGEX_1,TIME,time_reference,0,11
+1975,CD,YEAR_REGEX_1,TIME,time_reference,4,11
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,6,11
+1980,CD,YEAR_REGEX_1,TIME,time_reference,7,11
+the spring and summer,DT NN CC NN,PREFIX_REGEX_1 SEASON_REGEX LINKAGE_REGEX SEASON_REGEX,MODIFIER TIME MODIFIER TIME,time_reference,10,11
+of 1981,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,10,11
+1981,CD,YEAR_REGEX_1,TIME,time_reference,11,11
+1982,CD,YEAR_REGEX_1,TIME,time_reference,11,11
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,12,11
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,12,11
+the late 1980s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,13,11
+early 1990s,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,13,11
+"December 17 , 1999","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,13
+five days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,13
+The Saturday,DT NNP,PREFIX_REGEX_1 WEEK_REGEX,MODIFIER TIME,time_reference,0,13
+about 7:30 pm,RB CD NN,PREFIX_REGEX_1 DIGIT_REGEX_1 HALFDAY_REGEX_1,MODIFIER NUMERAL TIME,time_reference,1,13
+1995,CD,YEAR_REGEX_1,TIME,time_reference,0,20
+1985,CD,YEAR_REGEX_1,TIME,time_reference,0,21
+the Night,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,0,22
+1972,CD,YEAR_REGEX_1,TIME,time_reference,0,22
+1970,CD,YEAR_REGEX_1,TIME,time_reference,1,23
+1982,CD,YEAR_REGEX_1,TIME,time_reference,0,24
+1977,CD,YEAR_REGEX_1,TIME,time_reference,0,25
+1994,CD,YEAR_REGEX_1,TIME,time_reference,0,26
+1995,CD,YEAR_REGEX_1,TIME,time_reference,0,27
+1982,CD,YEAR_REGEX_1,TIME,time_reference,0,28
+1970,CD,YEAR_REGEX_1,TIME,time_reference,1,29
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,30
+1964,CD,YEAR_REGEX_1,TIME,time_reference,0,31
+1974,CD,YEAR_REGEX_1,TIME,time_reference,0,32
+1995,CD,YEAR_REGEX_1,TIME,time_reference,0,33
+1973,CD,YEAR_REGEX_1,TIME,time_reference,0,34
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,35
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,36
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,37
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,38
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,39
+1970,CD,YEAR_REGEX_1,TIME,time_reference,1,40
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,41
+1990,CD,YEAR_REGEX_1,TIME,time_reference,0,42
+1972,CD,YEAR_REGEX_1,TIME,time_reference,0,43
+1981,CD,YEAR_REGEX_1,TIME,time_reference,0,44

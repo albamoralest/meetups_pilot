@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"May 23 , 1897","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Frederick L. Guy (May 23, 1897,  Burkeville, Virginia -  Dec. 22, 1971) was an American jazz banjo player and guitarist.",0,0,,15629165
+"Dec. 22 , 1971","NNP CD , CD",MONTH_ABBR_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Frederick L. Guy (May 23, 1897,  Burkeville, Virginia -  Dec. 22, 1971) was an American jazz banjo player and guitarist.",0,0,,15629165
+the early 1920s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the early 1920s, he joined Duke Ellington's Washingtonians, switching from banjo to guitar in the early 1930s.",2,1,,15629165
+the early 1930s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the early 1920s, he joined Duke Ellington's Washingtonians, switching from banjo to guitar in the early 1930s.",2,1,,15629165
+1949,CD,YEAR_REGEX_1,TIME,time_reference,He remained with Ellington's orchestra until 1949.,3,1,,15629165
+twenty years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He retired, moved to Chicago, and for twenty years ran a ballroom.",4,1,,15629165
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"In 1971, he committed suicide.",5,1,,15629165

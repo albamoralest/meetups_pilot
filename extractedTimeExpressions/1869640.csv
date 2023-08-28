@@ -1,47 +1,47 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"April 20 , 1929 – January 15 , 2001","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Robert E. Braun (April 20, 1929 – January 15, 2001) was an American local television and radio personality, best known for a program originating in Cincinnati, Ohio named The Bob Braun Show.",0,0,,1869640
-1967 to 1984,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"The show, which he hosted from 1967 to 1984, had the highest Arbitron and Nielsen ratings of any live entertainment/information program in the Midwest.",1,0,,1869640
-1967,CD,YEAR_REGEX_1,TIME,time_reference,"The 50-50 Club hostess, Ruth Lyons, retired in 1967 due to declining health.",1,1,,1869640
-1957,CD,YEAR_REGEX_1,TIME,time_reference,"Braun had appeared regularly on The 50-50 Club show since 1957, and frequently had been a fill-in host.",2,1,,1869640
-Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"On his own show, Braun heavily promoted and supported Lyons' charity, ""The Ruth Lyons Christmas Fund,"" each Christmas season.",3,1,,1869640
-each Christmas,DT NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,"On his own show, Braun heavily promoted and supported Lyons' charity, ""The Ruth Lyons Christmas Fund,"" each Christmas season.",3,1,,1869640
-now,RB,TIMELINE_REGEX,TIME,time_reference,"(The charity, now known as ""The Ruth Lyons Children's Fund,"" remains in operation to this day.)",4,1,,1869640
-this day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"(The charity, now known as ""The Ruth Lyons Children's Fund,"" remains in operation to this day.)",4,1,,1869640
-Some years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Some years after Braun took over the show, the title was changed from The 50-50 Club to The Bob Braun Show.",5,1,,1869640
-An ad,DT NN,INARTICLE_REGEX ERA_REGEX,MODIFIER TIME,time_reference,(An ad in a 1969 issue of TV Guide identifies it as Bob Braun's 50-50 Club.),6,1,,1869640
-a 1969,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,(An ad in a 1969 issue of TV Guide identifies it as Bob Braun's 50-50 Club.),6,1,,1869640
-the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Toward the end of its run in the 1980s, it was renamed Braun and Company.",7,1,,1869640
-"of Friday , June 7 , 1968","IN NNP , NNP CD , CD",PREFIX_REGEX_1 WEEK_REGEX COMMA_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Beginning with the telecast on the daytime schedule of Friday, June 7, 1968, an entertainment critic for a Columbus, Ohio newspaper, Ron Pataky, visited Cincinnati every Friday to discuss on Braun's television show which movies were playing in cinemas that weekend.",1,2,,1869640
-every Friday,DT NNP,PREFIX_REGEX_1 WEEK_REGEX,MODIFIER TIME,time_reference,"Beginning with the telecast on the daytime schedule of Friday, June 7, 1968, an entertainment critic for a Columbus, Ohio newspaper, Ron Pataky, visited Cincinnati every Friday to discuss on Braun's television show which movies were playing in cinemas that weekend.",1,2,,1869640
-that weekend,IN NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Beginning with the telecast on the daytime schedule of Friday, June 7, 1968, an entertainment critic for a Columbus, Ohio newspaper, Ron Pataky, visited Cincinnati every Friday to discuss on Braun's television show which movies were playing in cinemas that weekend.",1,2,,1869640
-Friday,NNP,WEEK_REGEX,TIME,time_reference,Pataky continued making his Friday appearances until 1973.,2,2,,1869640
-1973,CD,YEAR_REGEX_1,TIME,time_reference,Pataky continued making his Friday appearances until 1973.,2,2,,1869640
-years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"The longtime director of The 50-50 Club, Bob Braun's 50-50 Club and The Bob Braun Show was Dick Murgatroyd, who years later became the county-judge executive of Kenton County, Kentucky.",3,2,,1869640
-1982,CD,YEAR_REGEX_1,TIME,time_reference,The Department of Photographs and Films at the Cincinnati Museum Center has videotapes of The Bob Braun Show and Braun and Company that were preserved starting in 1982.,0,3,,1869640
-daytime,NN,TIME_UNIT_REGEX,TIME,time_reference,All episodes of Braun's daytime show that were telecast prior to 1982 were lost because of wiping.,1,3,,1869640
-1982,CD,YEAR_REGEX_1,TIME,time_reference,All episodes of Braun's daytime show that were telecast prior to 1982 were lost because of wiping.,1,3,,1869640
-1969,CD,YEAR_REGEX_1,TIME,time_reference,"Evidently, in 1969, Braun did a prime-time special on which Nick Clooney and his young son George were guests.",2,3,,1869640
-a Saturday morning,DT NNP NN,INARTICLE_REGEX WEEK_REGEX DAY_TIME_REGEX,MODIFIER TIME TIME,time_reference,"Bob Braun began his career at the age of thirteen with WSAI Radio, hosting a Saturday morning Knothole Baseball sports show.",0,4,,1869640
-1949,CD,YEAR_REGEX_1,TIME,time_reference,He joined WCPO-TV in 1949.,1,4,,1869640
-1957,CD,YEAR_REGEX_1,TIME,time_reference,"In 1957, after winning the $1,000 top prize on television's Arthur Godfrey's Talent Scouts talent show, Braun was immediately hired by WLWT and WLW-AM.",2,4,,1869640
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"After cutting a handful of unsuccessful pop vocal recordings for labels such as Fraternity and Torch, Braun signed to Decca Records and charted his only Top 40 hit, ""Till Death Do Us Part"", in 1962.",3,4,,1869640
-1982,CD,YEAR_REGEX_1,TIME,time_reference,"Braun recorded his album ""Women of My Dreams"" in 1982 on the ANRO label.",6,4,,1869640
-1984,CD,YEAR_REGEX_1,TIME,time_reference,"Bob Braun was one of Cincinnati's biggest TV stars until 1984, when he moved to California for ten years to do commercials, talk shows and small movie roles.",8,4,,1869640
-ten years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Bob Braun was one of Cincinnati's biggest TV stars until 1984, when he moved to California for ten years to do commercials, talk shows and small movie roles.",8,4,,1869640
-1993,CD,YEAR_REGEX_1,TIME,time_reference,"In 1993, he was inducted into the Cincinnati Radio Hall of Fame.",0,5,,1869640
-March 1994,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In March 1994, Braun left Hollywood and returned to WSAI Radio (by then featuring an adult standards musical format) as one of ""The Sunrise Boys"", working as the morning host alongside his nephew, ""Bucks"" Braun (himself a successful radio personality in nearby Dayton, Ohio) and newsman Don Herman.",1,5,,1869640
-The Sunrise,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"In March 1994, Braun left Hollywood and returned to WSAI Radio (by then featuring an adult standards musical format) as one of ""The Sunrise Boys"", working as the morning host alongside his nephew, ""Bucks"" Braun (himself a successful radio personality in nearby Dayton, Ohio) and newsman Don Herman.",1,5,,1869640
-the morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"In March 1994, Braun left Hollywood and returned to WSAI Radio (by then featuring an adult standards musical format) as one of ""The Sunrise Boys"", working as the morning host alongside his nephew, ""Bucks"" Braun (himself a successful radio personality in nearby Dayton, Ohio) and newsman Don Herman.",1,5,,1869640
-nearby Dayton,JJ NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In March 1994, Braun left Hollywood and returned to WSAI Radio (by then featuring an adult standards musical format) as one of ""The Sunrise Boys"", working as the morning host alongside his nephew, ""Bucks"" Braun (himself a successful radio personality in nearby Dayton, Ohio) and newsman Don Herman.",1,5,,1869640
-June 1997,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In June 1997, Mayor Roxanne Qualls and the entire City Council honored him with ""Bob Braun Day in Cincinnati"".",2,5,,1869640
-Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In June 1997, Mayor Roxanne Qualls and the entire City Council honored him with ""Bob Braun Day in Cincinnati"".",2,5,,1869640
-"November 24 , 1999","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Braun retired on November 24, 1999, after being diagnosed with Parkinson's disease.",0,6,,1869640
-century,NN,TIME_UNIT_REGEX,TIME,time_reference,His show business career had spanned a half century.,1,6,,1869640
-2001,CD,YEAR_REGEX_1,TIME,time_reference,Braun died of Parkinson's and cancer in 2001 and was buried in Cincinnati's Spring Grove Cemetery.,0,7,,1869640
-Spring,NNP,SEASON_REGEX,TIME,time_reference,Braun died of Parkinson's and cancer in 2001 and was buried in Cincinnati's Spring Grove Cemetery.,0,7,,1869640
-WKRC-TV,NNP,TIME_UNIT_REGEX,TIME,time_reference,Rob later worked at WKRC-TV as its primary news anchorman.,3,7,,1869640
-"June 25 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On June 25, 2019, The New York Times Magazine listed Bob Braun among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire.",0,8,,1869640
-the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"On June 25, 2019, The New York Times Magazine listed Bob Braun among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire.",0,8,,1869640
-1981,CD,YEAR_REGEX_1,TIME,time_reference,The Skin (1981) - (uncredited),0,10,== Filmography ==,1869640
-1990,CD,YEAR_REGEX_1,TIME,time_reference,Die Hard 2 (1990) -,0,11,== Filmography ==,1869640
-1991,CD,YEAR_REGEX_1,TIME,time_reference,Defending Your Life (1991) - Talk Show Host,0,12,== Filmography ==,1869640
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"April 20 , 1929 – January 15 , 2001","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+1967 to 1984,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,1,0
+1967,CD,YEAR_REGEX_1,TIME,time_reference,1,1
+1957,CD,YEAR_REGEX_1,TIME,time_reference,2,1
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,3,1
+each Christmas,DT NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,3,1
+now,RB,TIMELINE_REGEX,TIME,time_reference,4,1
+this day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,4,1
+Some years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,5,1
+An ad,DT NN,INARTICLE_REGEX ERA_REGEX,MODIFIER TIME,time_reference,6,1
+a 1969,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,6,1
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,7,1
+"of Friday , June 7 , 1968","IN NNP , NNP CD , CD",PREFIX_REGEX_1 WEEK_REGEX COMMA_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,1,2
+every Friday,DT NNP,PREFIX_REGEX_1 WEEK_REGEX,MODIFIER TIME,time_reference,1,2
+that weekend,IN NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,1,2
+Friday,NNP,WEEK_REGEX,TIME,time_reference,2,2
+1973,CD,YEAR_REGEX_1,TIME,time_reference,2,2
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,3,2
+1982,CD,YEAR_REGEX_1,TIME,time_reference,0,3
+daytime,NN,TIME_UNIT_REGEX,TIME,time_reference,1,3
+1982,CD,YEAR_REGEX_1,TIME,time_reference,1,3
+1969,CD,YEAR_REGEX_1,TIME,time_reference,2,3
+a Saturday morning,DT NNP NN,INARTICLE_REGEX WEEK_REGEX DAY_TIME_REGEX,MODIFIER TIME TIME,time_reference,0,4
+1949,CD,YEAR_REGEX_1,TIME,time_reference,1,4
+1957,CD,YEAR_REGEX_1,TIME,time_reference,2,4
+1962,CD,YEAR_REGEX_1,TIME,time_reference,3,4
+1982,CD,YEAR_REGEX_1,TIME,time_reference,6,4
+1984,CD,YEAR_REGEX_1,TIME,time_reference,8,4
+ten years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,8,4
+1993,CD,YEAR_REGEX_1,TIME,time_reference,0,5
+March 1994,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,5
+The Sunrise,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,1,5
+the morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,1,5
+nearby Dayton,JJ NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,1,5
+June 1997,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,2,5
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,2,5
+"November 24 , 1999","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,6
+century,NN,TIME_UNIT_REGEX,TIME,time_reference,1,6
+2001,CD,YEAR_REGEX_1,TIME,time_reference,0,7
+Spring,NNP,SEASON_REGEX,TIME,time_reference,0,7
+WKRC-TV,NNP,TIME_UNIT_REGEX,TIME,time_reference,3,7
+"June 25 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,8
+the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,8
+1981,CD,YEAR_REGEX_1,TIME,time_reference,0,10
+1990,CD,YEAR_REGEX_1,TIME,time_reference,0,11
+1991,CD,YEAR_REGEX_1,TIME,time_reference,0,12

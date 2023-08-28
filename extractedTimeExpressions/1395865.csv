@@ -1,0 +1,17 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 12 , 1978","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Kim Sa-rang (Korean: 김사랑; born January 12, 1978) is a South Korean actress and model.",0,0,,1395865
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"She is also known for being crowned Miss Korea in 2000 and representing South Korea in Miss Universe 2001, the 50th Miss Universe pageant in Puerto Rico.",2,0,,1395865
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"She is also known for being crowned Miss Korea in 2000 and representing South Korea in Miss Universe 2001, the 50th Miss Universe pageant in Puerto Rico.",2,0,,1395865
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"In 2015, she became a free agent after leaving Brave Entertainment.",4,0,,1395865
+"January 12 , 1978","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Kim Sa-rang was born on January 12, 1978, in South Korea.",0,2,== Early life and education ==,1395865
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Kim Sa-rang made her acting debut in 2000 in the television drama series Anger of Angel, which garnered positive reviews.",0,4,== Career ==,1395865
+2001,CD,YEAR_REGEX_1,TIME,time_reference,In 2001 she was cast in the television drama series How Should I Be.,1,4,== Career ==,1395865
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"That same year, she got her first big role in a television drama series entitled Mina which was again met with positive reviews and she was considered a rising star.",2,4,== Career ==,1395865
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"In 2003, she appeared in Thousand Years of Love.",3,4,== Career ==,1395865
+Thousand Years,NNP NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 2003, she appeared in Thousand Years of Love.",3,4,== Career ==,1395865
+Sun,NNP,WEEK_ABBR_REGEX,TIME,time_reference,"Her other roles in television include appearances in A Love to Kill, The King and I, Tokyo Sun Shower and Secret Garden.",4,4,== Career ==,1395865
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Kim made her first movie debut in 2002 with Man is Born.,6,4,== Career ==,1395865
+Dayz,NNP,TIME_UNIT_REGEX,TIME,time_reference,and Radio Dayz.,8,4,== Career ==,1395865
+"May 28 , 2000","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Kim was crowned Miss Korea on May 28, 2000 at the Sejong Cultural Center, the site of the 1980 Miss Universe Pageant.",0,6,== Career == | === Miss Korea ===,1395865
+of the 1980,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Kim was crowned Miss Korea on May 28, 2000 at the Sejong Cultural Center, the site of the 1980 Miss Universe Pageant.",0,6,== Career == | === Miss Korea ===,1395865
+2001,CD,YEAR_REGEX_1,TIME,time_reference,She represented Korea in the Miss Universe Pageant 2001.,1,6,== Career == | === Miss Korea ===,1395865

@@ -1,38 +1,38 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"October 25 , 1912 – March 4 , 1996","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Sarah Ophelia Colley Cannon (October 25, 1912 – March 4, 1996), known professionally as her stage character Minnie Pearl, was an American country comedian who appeared at the Grand Ole Opry for more than 50 years (from 1940 to 1991) and on the television show Hee Haw from 1969 to 1991.",0,0,,690900
-more than 50 years,JJR IN CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Sarah Ophelia Colley Cannon (October 25, 1912 – March 4, 1996), known professionally as her stage character Minnie Pearl, was an American country comedian who appeared at the Grand Ole Opry for more than 50 years (from 1940 to 1991) and on the television show Hee Haw from 1969 to 1991.",0,0,,690900
-1940 to 1991,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Sarah Ophelia Colley Cannon (October 25, 1912 – March 4, 1996), known professionally as her stage character Minnie Pearl, was an American country comedian who appeared at the Grand Ole Opry for more than 50 years (from 1940 to 1991) and on the television show Hee Haw from 1969 to 1991.",0,0,,690900
-1969 to 1991,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Sarah Ophelia Colley Cannon (October 25, 1912 – March 4, 1996), known professionally as her stage character Minnie Pearl, was an American country comedian who appeared at the Grand Ole Opry for more than 50 years (from 1940 to 1991) and on the television show Hee Haw from 1969 to 1991.",0,0,,690900
-now,RB,TIMELINE_REGEX,TIME,time_reference,"She graduated from Ward-Belmont College (now Belmont University), at the time Nashville's most prestigious school for young ladies, where she majored in theater studies and dance.",2,3,== Biography == | === Early life ===,690900
-the first few years,DT JJ JJ NNS,PREFIX_REGEX_1 ORDINAL_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL MODIFIER TIME,time_reference,She taught dance for the first few years after graduating.,3,3,== Biography == | === Early life ===,690900
-1939,CD,YEAR_REGEX_1,TIME,time_reference,"Her first stage performance as Minnie Pearl was in 1939 in Aiken, South Carolina.",4,5,== Biography == | === Professional career ===,690900
-The following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The following year, executives from Nashville radio station WSM saw her perform at a bankers' convention in Centerville and gave her an opportunity to appear on the Grand Ole Opry on November 30, 1940.",6,5,== Biography == | === Professional career ===,690900
-"November 30 , 1940","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The following year, executives from Nashville radio station WSM saw her perform at a bankers' convention in Centerville and gave her an opportunity to appear on the Grand Ole Opry on November 30, 1940.",6,5,== Biography == | === Professional career ===,690900
-more than 50 years,JJR IN CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,The success of her debut on the show began an association with the Grand Ole Opry that continued for more than 50 years.,7,5,== Biography == | === Professional career ===,690900
-later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Pearl's often self-deprecating humor involved her unsuccessful attempts to attract ""a feller's"" attention and, in later years, her age.",15,5,== Biography == | === Professional career ===,690900
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"In 1956, she made a paid appearance – $3,000, plus expenses – at the kickoff event of the first Alabama gubernatorial candidacy of segregationist George C. Wallace.",0,6,== Biography == | === Professional career ===,690900
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"She also appeared at an event starting his 1962 candidacy for governor; by that time, his segregationist stance had hardened into the No. 1 issue of his campaign.",1,6,== Biography == | === Professional career ===,690900
-Springs,NNP,SEASON_REGEX,TIME,time_reference,"So much traffic resulted from fans and tourists looking for Grinders Switch that the Hickman County Highway Department eventually changed the designation on the ""Grinders Switch"" road sign to ""Hickman Springs Road"".",3,7,== Biography == | === Professional career ===,690900
-many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Cannon portrayed Minnie Pearl for many years on television, first on ABC's Ozark Jubilee in the late 1950s; then on the long-running television series Hee Haw, both on CBS and the subsequent syndicated version.",0,8,== Biography == | === Professional career ===,690900
-the late 1950s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Cannon portrayed Minnie Pearl for many years on television, first on ABC's Ozark Jubilee in the late 1950s; then on the long-running television series Hee Haw, both on CBS and the subsequent syndicated version.",0,8,== Biography == | === Professional career ===,690900
-1977 and 1978,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"She also appeared as a celebrity panelist on game shows such as Match Game in 1977 and 1978, and Hollywood Squares in 1980.",2,8,== Biography == | === Professional career ===,690900
-1980,CD,YEAR_REGEX_1,TIME,time_reference,"She also appeared as a celebrity panelist on game shows such as Match Game in 1977 and 1978, and Hollywood Squares in 1980.",2,8,== Biography == | === Professional career ===,690900
-Now,RB,TIMELINE_REGEX,TIME,time_reference,Her last regular performances on national television were on Ralph Emery's Nashville Now country-music talk show on the former The Nashville Network (TNN) cable channel.,3,8,== Biography == | === Professional career ===,690900
-"February 23 , 1947","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On February 23, 1947, Sarah Colley married Henry R. Cannon, who had been an Army Air Corps fighter pilot during World War II and was then a partner in an air charter service.",0,10,== Biography == | === Family life ===,690900
-1969,CD,YEAR_REGEX_1,TIME,time_reference,In 1969 they purchased a large estate home in Nashville next door to the Tennessee Governor's mansion.,4,10,== Biography == | === Family life ===,690900
-the late 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,In the late 1960s Nashville entrepreneur John Jay Hooker persuaded Cannon and gospel singer Mahalia Jackson to lend their names to a chain of fried chicken restaurants established to compete with Kentucky Fried Chicken.,0,12,== Biography == | === Chicken restaurants ===,690900
-Final years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Final years =,1,15,== Biography == | === Final years ===,690900
-June 1991,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Cannon suffered a debilitating stroke in June 1991, bringing her performing career to an end.",0,16,== Biography == | === Final years ===,690900
-"March 4 , 1996","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Her death on March 4, 1996, at the age of 83 was attributed to complications from another stroke.",2,16,== Biography == | === Final years ===,690900
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"In 1992, she was awarded the National Medal of Arts.",1,18,== Legacy and influence ==,690900
-2002,CD,YEAR_REGEX_1,TIME,time_reference,"In 2002, she was ranked as number 14 on CMT's 40 Greatest Women in Country Music list.",2,18,== Legacy and influence ==,690900
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"In 1992, Reubens made what would be his last appearance as Pee-wee Herman for 15 years at a Minnie Pearl tribute show.",5,18,== Legacy and influence ==,690900
-15 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1992, Reubens made what would be his last appearance as Pee-wee Herman for 15 years at a Minnie Pearl tribute show.",5,18,== Legacy and influence ==,690900
-1997,CD,YEAR_REGEX_1,TIME,time_reference,"A museum dedicated to Minnie Pearl was situated just outside the Grand Ole Opry House at Opryland USA (next to another museum dedicated to Roy Acuff), but the museum closed along with the theme park in 1997.",8,18,== Legacy and influence ==,690900
-the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Minnie Pearl released a number of single records for RCA Victor during the 1950s, including a few duets with Grandpa Jones.",0,25,== Recordings == | === Singles ===,690900
-the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1960s, she moved to Starday Records.",2,25,== Recordings == | === Singles ===,690900
-1974,CD,YEAR_REGEX_1,TIME,time_reference,"Pearl was back on RCA in 1974 when Archie Campbell and she released a parody record of Loretta Lynn and Conway Twitty's hit ""As Soon As I Hang Up the Phone"" which received airplay, but did not chart.",0,26,== Recordings == | === Singles ===,690900
-1977,CD,YEAR_REGEX_1,TIME,time_reference,"In 1977, she appeared with a number of other Opry members on Dolly Parton's New Harvest...",1,26,== Recordings == | === Singles ===,690900
-1986,CD,YEAR_REGEX_1,TIME,time_reference,"In 1986, she was a featured guest vocalist, along with Jerry Clower, on the Ray Stevens comedy single entitled ""Southern Air"".",3,26,== Recordings == | === Singles ===,690900
-1998,CD,YEAR_REGEX_1,TIME,time_reference,"Kingsbury, Paul (1998).",0,29,== References ==,690900
-1980,CD,YEAR_REGEX_1,TIME,time_reference,"Pearl, Minnie with Joan Dew (1980).",0,30,== References ==,690900
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"October 25 , 1912 – March 4 , 1996","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+more than 50 years,JJR IN CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,0,0
+1940 to 1991,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,0
+1969 to 1991,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,0
+now,RB,TIMELINE_REGEX,TIME,time_reference,2,3
+the first few years,DT JJ JJ NNS,PREFIX_REGEX_1 ORDINAL_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL MODIFIER TIME,time_reference,3,3
+1939,CD,YEAR_REGEX_1,TIME,time_reference,4,5
+The following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,6,5
+"November 30 , 1940","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,6,5
+more than 50 years,JJR IN CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,7,5
+later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,15,5
+1956,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+1962,CD,YEAR_REGEX_1,TIME,time_reference,1,6
+Springs,NNP,SEASON_REGEX,TIME,time_reference,3,7
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,8
+the late 1950s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,0,8
+1977 and 1978,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,2,8
+1980,CD,YEAR_REGEX_1,TIME,time_reference,2,8
+Now,RB,TIMELINE_REGEX,TIME,time_reference,3,8
+"February 23 , 1947","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,10
+1969,CD,YEAR_REGEX_1,TIME,time_reference,4,10
+the late 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,0,12
+Final years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,1,15
+June 1991,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,16
+"March 4 , 1996","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,2,16
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1,18
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2,18
+1992,CD,YEAR_REGEX_1,TIME,time_reference,5,18
+15 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,5,18
+1997,CD,YEAR_REGEX_1,TIME,time_reference,8,18
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,25
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,2,25
+1974,CD,YEAR_REGEX_1,TIME,time_reference,0,26
+1977,CD,YEAR_REGEX_1,TIME,time_reference,1,26
+1986,CD,YEAR_REGEX_1,TIME,time_reference,3,26
+1998,CD,YEAR_REGEX_1,TIME,time_reference,0,29
+1980,CD,YEAR_REGEX_1,TIME,time_reference,0,30

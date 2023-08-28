@@ -1,0 +1,50 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"November 23 , 1893 – April 18 , 1973","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"William Henry Joseph Bonaparte Bertholf Smith (November 23, 1893 – April 18, 1973), also known as ""The Lion"", was an American jazz and stride pianist.",0,0,,337311
+1893,CD,YEAR_REGEX_1,TIME,time_reference,"William Henry Joseph Bonaparte Bertholf, known as Willie, was born in 1893 in Goshen, New York.",0,2,== Early life ==,337311
+two years old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,She threw Frank out of the house when their son Willie was two years old.,11,2,== Early life ==,337311
+1901,CD,YEAR_REGEX_1,TIME,time_reference,"After Frank Bertholf died in 1901, his mother married John Smith, a master mechanic from Paterson, New Jersey.",12,2,== Early life ==,337311
+around midnight,IN NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"John Smith worked for C.M. Bailey, Pork Packers, and he would leave the house around midnight to pick up freshly killed pigs and take them to the packing house.",15,2,== Early life ==,337311
+4 am,CD VBP,DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME,,"He was supposed to be home by 4 am, but would usually go to bars after work.",16,2,== Early life ==,337311
+Fridays and Saturdays,NNP CC NNP,WEEK_REGEX LINKAGE_REGEX WEEK_REGEX,TIME MODIFIER TIME,time_reference,"He only worked on Fridays and Saturdays, as his mother did not want him to miss school.",19,2,== Early life ==,337311
+a night,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,The kill sometimes went to as many as four hundred pigs a night.,2,4,== Early life ==,337311
+1907,CD,YEAR_REGEX_1,TIME,time_reference,"In 1907, the family moved to 90 Bloome Street in Newark.",0,5,== Early life ==,337311
+around 1912,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"They moved again around 1912, when his stepfather got a new job at Crucible Steel Company, across the Passaic River in Harrison, New Jersey.",1,5,== Early life ==,337311
+One day,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,One day Willie was in Mrs. Black's fruit store and was caught with his hand in her register.,5,5,== Early life ==,337311
+the night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"They liked to visit the night clubs ... "".",16,5,== Early life ==,337311
+a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Willie got a job at Hauseman's Footwear store shining shoes and running errands, where he was paid five dollars a week.",9,7,== Music career ==,337311
+the next day,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Willie used arithmetic to help guess the number, won, and was delivered an upright piano the next day.",12,7,== Music career ==,337311
+a twelve year old,DT JJ NN JJ,INARTICLE_REGEX BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,"He would play songs he heard in the clubs, including Maple Leaf Rag by Scott Joplin, Cannonball Rag by Joe Northrup, Black and White Rag by George Botsford, and Don't Hit that Lady Dressed in Green, about which he said ""the lyrics to this song were a sex education, especially for a twelve year old boy."".",14,7,== Music career ==,337311
+the early 1910s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"By the early 1910s, he was playing at clubs in New York City and Atlantic City, New Jersey.",16,7,== Music career ==,337311
+Around 1915,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Around 1915, he married Blanche Merrill (née Howard).",0,8,== Music career ==,337311
+1917,CD,YEAR_REGEX_1,TIME,time_reference,"Smith and Merrill are thought to have separated before Smith joined the army in 1917, where he served as a corporal.",1,8,== Music career ==,337311
+the 1920,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"But they were listed in the 1920 census as living together in Newark, New Jersey.",2,8,== Music career ==,337311
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1940s, his music found appreciation with a wider audience.",6,8,== Music career ==,337311
+1971,CD,YEAR_REGEX_1,TIME,time_reference,Smith toured North America and Europe up to 1971.,7,8,== Music career ==,337311
+November 25,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"He went to the Orange County Courthouse and found it, but discovered that the birth certificate said he was born on November 25, in contradiction to his mother telling him he was born on November 23.",9,8,== Music career ==,337311
+November 23,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"He went to the Orange County Courthouse and found it, but discovered that the birth certificate said he was born on November 25, in contradiction to his mother telling him he was born on November 23.",9,8,== Music career ==,337311
+1946,CD,YEAR_REGEX_1,TIME,time_reference,"His other older brother, George, became an officer in Atlantic City, and died in 1946.",2,10,== Personal life ==,337311
+Saturday mornings,NNP NNS,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"As a boy, Smith delivered clean clothes to his mother's clients, who included a prosperous Jewish family who invited him to sit in on Hebrew lessons on Saturday mornings.",9,10,== Personal life ==,337311
+later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In his later years, he received frequent honors for his life's work including a Willie ""The Lion"" Smith Day in Newark, New Jersey.",0,12,== Death ==,337311
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In his later years, he received frequent honors for his life's work including a Willie ""The Lion"" Smith Day in Newark, New Jersey.",0,12,== Death ==,337311
+"April 18 , 1973","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Smith died at the age of 79 on April 18, 1973, in New York.",1,12,== Death ==,337311
+1958,CD,YEAR_REGEX_1,TIME,time_reference,The liner notes his 1958 LP The Legend of Willie,0,14,== Legacy ==,337311
+1939,CD,YEAR_REGEX_1,TIME,time_reference,"Ellington attested to his admiration when he composed and recorded ""Portrait of the Lion"" in 1939.",5,14,== Legacy ==,337311
+September 18,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Orange County (NY) Executive Edward Diana issued a proclamation declaring September 18 Willie ""The Lion"" Smith Day in Orange County, the date of the first Goshen Jazz Festival.",0,15,== Legacy ==,337311
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Orange County (NY) Executive Edward Diana issued a proclamation declaring September 18 Willie ""The Lion"" Smith Day in Orange County, the date of the first Goshen Jazz Festival.",0,15,== Legacy ==,337311
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Accent On Piano (Urania, 1957)",0,17,== Discography ==,337311
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"The Lion Roars (Dot, 1958)",0,18,== Discography ==,337311
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"The Legend of Willie ""the Lion"" Smith (Grand Award, 1959)",0,19,== Discography ==,337311
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Luckey & the Lion: Harlem Piano (Good Time Jazz, 1960)",0,20,== Discography ==,337311
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Memorial (Vogue, 1960)",0,21,== Discography ==,337311
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Piano Solos by Willie Smith, the Lion of the Piano: Original Compositions (Commodore, 1961)",0,22,== Discography ==,337311
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Piano Solos by Willie Smith, the Lion of the Piano: Show Time (Commodore, 1962)",0,23,== Discography ==,337311
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"A Legend (Mainstream, 1965)",0,24,== Discography ==,337311
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Music On My Mind (SABA, 1966)",0,25,== Discography ==,337311
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"The Lion (Vogue, 1966)",0,26,== Discography ==,337311
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Grand Piano: Virtuoso Duets by Willie Smith & Don Ewell (Swaggie, 1966)",0,27,== Discography ==,337311
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Willie the Lion and His Washington Cubs (Fat Cat's Jazz, 1971)",0,28,== Discography ==,337311
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Willie ""the Lion"" Smith (GNP Crescendo, 1972)",0,29,== Discography ==,337311
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Pork and Beans (Polydor, 1972)",0,30,== Discography ==,337311
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Dixieland All Stars (Roulette, 1973)",0,31,== Discography ==,337311
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Live at Blues Alley (Chiaroscuro, 1973)",0,32,== Discography ==,337311
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Relaxing (Chiaroscuro, 1977)",0,33,== Discography ==,337311

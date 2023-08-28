@@ -1,0 +1,112 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"July 11 , 1978","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Kathleen Edwards (born July 11, 1978) is a Canadian singer-songwriter and musician.",0,0,,613570
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Her 2002 debut album, Failer, contained the singles ""Six O'Clock News"" and ""Hockey Skates"".",1,0,,613570
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"In 2012, Edwards' fourth studio album, Voyageur, became Edwards' first album to crack the top 100 and top 40 in the U.S., peaking at #39 on the U.S. Billboard 200 and #2 in Canada.",3,0,,613570
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"In 2012, Edwards' song ""A Soft Place To Land"" won the SOCAN Songwriting Prize, an annual competition that honours the best song written and released by 'emerging' songwriters over the past year, as voted by the public.",4,0,,613570
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In 2012, Edwards' song ""A Soft Place To Land"" won the SOCAN Songwriting Prize, an annual competition that honours the best song written and released by 'emerging' songwriters over the past year, as voted by the public.",4,0,,613570
+the next 12 years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"At age 5, Edwards began classical violin studies that continued for the next 12 years.",2,2,== Early life ==,613570
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"In 1999, Edwards recorded a six-song EP entitled Building 55 and pressed 500 copies.",0,4,== Music career ==,613570
+the fall,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"By the fall of 2000, she was on tour across Canada managing her own gigs.",1,4,== Music career ==,613570
+of 2000,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"By the fall of 2000, she was on tour across Canada managing her own gigs.",1,4,== Music career ==,613570
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, she wrote seven of the ten songs for her 2002 debut release Failer.",2,4,== Music career ==,613570
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, she wrote seven of the ten songs for her 2002 debut release Failer.",2,4,== Music career ==,613570
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Edwards played at SXSW in 2002 and was signed to Rounder Records and MapleMusic shortly after.,0,5,== Music career ==,613570
+the fall,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,Failer was released in Canada in the fall of 2002 on MapleMusic Recordings.,1,5,== Music career ==,613570
+of 2002,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Failer was released in Canada in the fall of 2002 on MapleMusic Recordings.,1,5,== Music career ==,613570
+January 2003,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,In January 2003 Failer was released by Rounder Records in the US and internationally.,2,5,== Music career ==,613570
+one of year,CD IN NN,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"Rolling Stone declared her one of year's most promising new acts and Blender said that Failer's songs possessed ""an indefinable pull that makes you love the characters they describe, no matter how fucked up they are.""",3,5,== Music career ==,613570
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005, Edwards released Back to Me, which also garnered considerable critical acclaim, and led to the release of the singles ""Back to Me"" and ""In State"".",0,6,== Music career ==,613570
+Summerlong,NNP,SEASON_REGEX,TIME,time_reference,"The track ""Summerlong"" was also featured on the soundtrack of the movie Elizabethtown starring Orlando Bloom and Kirsten Dunst.",1,6,== Music career ==,613570
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008, Edwards released her third studio album, Asking for Flowers.",0,7,== Music career ==,613570
+the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"It was described by the San Francisco Bay Guardian as ""her finest album to date"", and was a shortlisted nominee for the 2008 Polaris Music Prize.",1,7,== Music career ==,613570
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In contrast with 2005's Back to Me, on which Edwards relied on her working band, Asking for Flowers predominantly features session musicians.",2,7,== Music career ==,613570
+fall 2010,NN CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In fall 2010, Edwards began working on her fourth studio album in Wisconsin.",0,8,== Music career ==,613570
+January 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Voyageur was released in January 2012.,1,8,== Music career ==,613570
+"January 17 , 2012","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"She appeared on the Late Show with David Letterman on January 17, 2012, singing ""Change the Sheets"" from her new album Voyageur.",3,8,== Music career ==,613570
+November 2019,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In November 2019, Edwards released ""It's Christmastime (Let's Just Survive)"", her first new single since Voyageur, on the Dualtone Records compilation album A Dualtone Christmas.",0,9,== Music career ==,613570
+Christmastime,NNP,HOLIDAY_REGEX,TIME,time_reference,"In November 2019, Edwards released ""It's Christmastime (Let's Just Survive)"", her first new single since Voyageur, on the Dualtone Records compilation album A Dualtone Christmas.",0,9,== Music career ==,613570
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"In November 2019, Edwards released ""It's Christmastime (Let's Just Survive)"", her first new single since Voyageur, on the Dualtone Records compilation album A Dualtone Christmas.",0,9,== Music career ==,613570
+May 2020,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In May 2020, Edwards released the single ""Options Open"" and announced Total Freedom, her first new album in eight years.",1,9,== Music career ==,613570
+eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In May 2020, Edwards released the single ""Options Open"" and announced Total Freedom, her first new album in eight years.",1,9,== Music career ==,613570
+"August 14 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The album was released on August 14, 2020.",2,9,== Music career ==,613570
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005, Edwards lent her vocals to the duet ""The Plan"", recorded with Matt Mays and El Torpedo for their self-titled album.",0,11,== Musical collaborations ==,613570
+Mays,NNP,MONTH_REGEX,TIME,time_reference,"In 2005, Edwards lent her vocals to the duet ""The Plan"", recorded with Matt Mays and El Torpedo for their self-titled album.",0,11,== Musical collaborations ==,613570
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"In 2006, she was nominated for Juno Awards for Songwriter of the Year and Adult Alternative Album of the Year for Back to Me.",1,11,== Musical collaborations ==,613570
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 2006, she was nominated for Juno Awards for Songwriter of the Year and Adult Alternative Album of the Year for Back to Me.",1,11,== Musical collaborations ==,613570
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 2006, she was nominated for Juno Awards for Songwriter of the Year and Adult Alternative Album of the Year for Back to Me.",1,11,== Musical collaborations ==,613570
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"In 2007, Edwards worked with John Doe, of the punk rock band X, on his solo album A Year in the Wilderness.",2,11,== Musical collaborations ==,613570
+A Year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 2007, Edwards worked with John Doe, of the punk rock band X, on his solo album A Year in the Wilderness.",2,11,== Musical collaborations ==,613570
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008 Edwards sang backup vocals on Bryan Adams' album 11, and supported one of his tours.",4,11,== Musical collaborations ==,613570
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"In 2009, she joined Adams on stage to sing one of Adams' songs, ""Walk on By"".",5,11,== Musical collaborations ==,613570
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011 Edwards contributed vocals on Arkells' song ""Agent Zero"", off their second album Michigan Left.",0,12,== Musical collaborations ==,613570
+Winters,NNP,SEASON_REGEX,TIME,time_reference,"""Soft Place to Land"", one of two songs on Edwards' Voyageur album co-written with The Long Winters frontman John Roderick, won the 2012 SOCAN Echo Songwriting Prize.",1,12,== Musical collaborations ==,613570
+the 2012,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"""Soft Place to Land"", one of two songs on Edwards' Voyageur album co-written with The Long Winters frontman John Roderick, won the 2012 SOCAN Echo Songwriting Prize.",1,12,== Musical collaborations ==,613570
+2019,CD,YEAR_REGEX_1,TIME,time_reference,"She co-wrote the song ""Good Woman"", from Maren Morris's 2019 album Girl.",2,12,== Musical collaborations ==,613570
+2004,CD,YEAR_REGEX_1,TIME,time_reference,In 2004 Edwards married guitarist and collaborator Colin Cripps.,0,14,== Personal life ==,613570
+2011,CD,YEAR_REGEX_1,TIME,time_reference,They divorced in 2011.,1,14,== Personal life ==,613570
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Edwards and Vernon separated in 2012.,3,14,== Personal life ==,613570
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"Edwards stepped back from the music scene in 2014, launching a coffee house in Stittsville called Quitters along with Rick Tremblay (who was her manager when she worked in a downtown Starbucks in the 1990s).",4,14,== Personal life ==,613570
+the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Edwards stepped back from the music scene in 2014, launching a coffee house in Stittsville called Quitters along with Rick Tremblay (who was her manager when she worked in a downtown Starbucks in the 1990s).",4,14,== Personal life ==,613570
+of 2018,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"As of 2018, Edwards continued to perform sporadically, including a number of new songs.",0,15,== Personal life ==,613570
+August 2019,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In August 2019, following the suicide of American singer-songwriter Neal Casal, Edwards opened up on Twitter about the struggle with depression that led her to take time away from her music career.",1,15,== Personal life ==,613570
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999:,0,19,== Discography == | === Extended plays ===,613570
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: Live from the Bowery Ballroom,0,20,== Discography == | === Extended plays ===,613570
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008: Live Session EP (iTunes Exclusive),0,21,== Discography == | === Extended plays ===,613570
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: VA - Cities 97 Sampler: Live from the Cities 97's Studio C - 15th Anniversary (KTCZ),0,26,== Discography == | === Contributed as primary artist ===,613570
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"2003: VA - City Folk Live VI: More Exclusive, Live Performances from the Studios of WFUV in New York City.",0,27,== Discography == | === Contributed as primary artist ===,613570
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: VA - Greetings from Area Code: Maine 207 Volume 4 - 98.9 WCLZ (WCLZ),0,28,== Discography == | === Contributed as primary artist ===,613570
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: VA - Madison's Progressive Radio: 105.5 Triple M - Live from Studio M Volume 3 (WMMM),0,29,== Discography == | === Contributed as primary artist ===,613570
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: VA - 92.9 WBOS:,0,30,== Discography == | === Contributed as primary artist ===,613570
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: VA - 107.1 KGSR Radio Austin: Broadcasts Vol. 11 (KGSR),0,31,== Discography == | === Contributed as primary artist ===,613570
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004: VA - Sweetheart: Love Songs - Our Favorite Artists Cover Their Favorite Love Songs.,0,32,== Discography == | === Contributed as primary artist ===,613570
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005: VA - Live At The World Cafe XX: V. Twenty - WXPN 88.5 (WXPN),0,33,== Discography == | === Contributed as primary artist ===,613570
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005: VA - 92.9 WBOS: Studio 7 - Live from the Archives 3 (WBOS),0,34,== Discography == | === Contributed as primary artist ===,613570
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005: VA - 102.1 KPRI:,0,35,== Discography == | === Contributed as primary artist ===,613570
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005: VA - 107.1 KGSR Radio Austin: Broadcasts Vol. 13 (KGSR),0,36,== Discography == | === Contributed as primary artist ===,613570
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006: VA - 107.1 KGSR Radio Austin: Broadcasts Vol.,0,37,== Discography == | === Contributed as primary artist ===,613570
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007: VA - 91.3 FM KXCI Presents: Live from Studio 2A Volume VII (KXCI),0,38,== Discography == | === Contributed as primary artist ===,613570
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,2007: VA - 91.3 FM KXCI Presents: Live from Studio 2A Volume VII (KXCI),0,38,== Discography == | === Contributed as primary artist ===,613570
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"2009: VA - FUV Live 12: More Exclusive, Live Performances from the Studios of WFUV in New York City - 90.7",0,39,== Discography == | === Contributed as primary artist ===,613570
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009: VA - Live & Direct 11: 91.3 FM - WYEP (WYEP),0,40,== Discography == | === Contributed as primary artist ===,613570
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011: VA - National Parks Project: Gwaii Haanas / Wapusk (EP) (FilmCan / Last Gang),0,41,== Discography == | === Contributed as primary artist ===,613570
+Mays,NNP,MONTH_REGEX,TIME,time_reference,"[track D2 - ""Wapusk - MB"" (with Matt Mays & Sam Roberts) & track D5 - ""On the Tundra - MB"" (with Matt Mays & Sam Roberts)]",1,41,== Discography == | === Contributed as primary artist ===,613570
+Mays,NNP,MONTH_REGEX,TIME,time_reference,"[track D2 - ""Wapusk - MB"" (with Matt Mays & Sam Roberts) & track D5 - ""On the Tundra - MB"" (with Matt Mays & Sam Roberts)]",1,41,== Discography == | === Contributed as primary artist ===,613570
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012: VA - KINK Live 15 (KINK),0,42,== Discography == | === Contributed as primary artist ===,613570
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012: VA - Live at the World Cafe Volume 34: WXPN (WXPN),0,43,== Discography == | === Contributed as primary artist ===,613570
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013: VA - The Music Is You: A Tribute to John Denver (ATO),0,44,== Discography == | === Contributed as primary artist ===,613570
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999:,0,46,== Discography == | === Appears on ===,613570
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003:,0,47,== Discography == | === Appears on ===,613570
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,48,== Discography == | === Appears on ===,613570
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,49,== Discography == | === Appears on ===,613570
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005:,0,50,== Discography == | === Appears on ===,613570
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005:,0,51,== Discography == | === Appears on ===,613570
+Mays,NNP,MONTH_REGEX,TIME,time_reference,Matt Mays + El Torpedo - Matt Mays + El Torpedo (Sonic / Warner Music Canada),1,51,== Discography == | === Appears on ===,613570
+Mays,NNP,MONTH_REGEX,TIME,time_reference,Matt Mays + El Torpedo - Matt Mays + El Torpedo (Sonic / Warner Music Canada),1,51,== Discography == | === Appears on ===,613570
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006:,0,52,== Discography == | === Appears on ===,613570
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007: John Doe - A Year,0,53,== Discography == | === Appears on ===,613570
+A Year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2007: John Doe - A Year,0,53,== Discography == | === Appears on ===,613570
+Yr,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In The Wilderness (Yep Roc) [track 3 - ""The Golden State"", track 5 - ""A Little More Time"" & track 8 - ""Lean Out Yr Window""] ""The Golden State"" also appears on {2008:",1,53,== Discography == | === Appears on ===,613570
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In The Wilderness (Yep Roc) [track 3 - ""The Golden State"", track 5 - ""A Little More Time"" & track 8 - ""Lean Out Yr Window""] ""The Golden State"" also appears on {2008:",1,53,== Discography == | === Appears on ===,613570
+2014,CD,YEAR_REGEX_1,TIME,time_reference,John Doe - The Golden State (EP) (Yep Roc)} & {2014: John Doe - The Best of John Doe This Far (Yep Roc)},2,53,== Discography == | === Appears on ===,613570
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008:,0,54,== Discography == | === Appears on ===,613570
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008:,0,55,== Discography == | === Appears on ===,613570
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009:,0,56,== Discography == | === Appears on ===,613570
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"2009: John Doe and The Sadies - Country Club (Yep Roc) [track 4 - ""It Just Dawned on Me"" & track 13 - ""Are the Good Times Really Over for Good""]",0,57,== Discography == | === Appears on ===,613570
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,58,== Discography == | === Appears on ===,613570
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,59,== Discography == | === Appears on ===,613570
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,60,== Discography == | === Appears on ===,613570
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011:,0,61,== Discography == | === Appears on ===,613570
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013:,0,62,== Discography == | === Appears on ===,613570
+Fall,NNP,SEASON_REGEX,TIME,time_reference,What Made Milwaukee Famous - You Can't Fall Off the Floor (self-released),1,62,== Discography == | === Appears on ===,613570
+2014,CD,YEAR_REGEX_1,TIME,time_reference,2014:,0,63,== Discography == | === Appears on ===,613570
+2014,CD,YEAR_REGEX_1,TIME,time_reference,2014:,0,64,== Discography == | === Appears on ===,613570
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"[track 4 - ""Cottonseed"", track 6 - ""Mozart for the Cat"" & track 10 - ""1955""]",2,64,== Discography == | === Appears on ===,613570
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016:,0,65,== Discography == | === Appears on ===,613570
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,67,== Discography == | === DVD ===,613570
+The Morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"[""We'll Sweep Out The Ashes In The Morning"" (with John Doe) (live)]",2,67,== Discography == | === DVD ===,613570
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,68,== Discography == | === DVD ===,613570
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,69,== Discography == | === DVD ===,613570
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005:,0,70,== Discography == | === DVD ===,613570
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010: NPP: National Parks Project (VSC),0,71,== Discography == | === DVD ===,613570
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016:,0,73,== Discography == | === As composer ===,613570
+2019,CD,YEAR_REGEX_1,TIME,time_reference,2019:,0,75,== Discography == | === In TV ===,613570

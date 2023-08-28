@@ -1,0 +1,16 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Decibully was an indie rock band based out of Milwaukee, Wisconsin that formed in 2001 and played their final show early in 2011.",0,0,,2615981
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"Decibully was an indie rock band based out of Milwaukee, Wisconsin that formed in 2001 and played their final show early in 2011.",0,0,,2615981
+August 2003,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,The band signed to Polyvinyl Records in August 2003.,1,0,,2615981
+March and April 2004,NNP CC NNP CD,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME TIME,time_reference,"In March and April 2004, the band went on a West Coast tour with Onelinedrawing, Cardia, and Roy.",2,0,,2615981
+"March 8 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"on March 8, 2005, which was promoted with tours of Europe and North America with the Snake the Cross the Crown and Codeseven.",4,0,,2615981
+the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Later in the year, they toured with Lucero and Blackpool Lights.",5,0,,2615981
+"January , 2002","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"You Might Be A Loser — January, 2002",1,2,== Discography ==,2615981
+"September , 2003","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Decibully (3 Song EP) — September, 2003",0,3,== Discography ==,2615981
+"October , 2003","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"City of Festivals — Polyvinyl Records, October, 2003",0,4,== Discography ==,2615981
+"March , 2005","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Polyvinyl, March, 2005",1,5,== Discography ==,2615981
+'06,MD,YEAR_REGEX_2,TIME,,"""Tour EP '06"" - August, 2006",0,6,== Discography ==,2615981
+"August , 2006","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"""Tour EP '06"" - August, 2006",0,6,== Discography ==,2615981
+"December , 2009","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"World Travels Fast - [Listening Party], December, 2009",0,7,== Discography ==,2615981
+"April , 2011","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"[Listening Party] April, 2011",1,8,== Discography ==,2615981
+Future,NN,TIMELINE_REGEX,TIME,time_reference,Current: No Future),1,12,== Members == | === Final line-up ===,2615981

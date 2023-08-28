@@ -1,0 +1,23 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"August 6 , 1884 – March 29 , 1953","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Arthur Fields (August 6, 1884 – March 29, 1953) was an American singer (baritone) and songwriter.",0,0,,1812481
+Around 1908,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Around 1908, he toured with Guy Brother's Minstrel Show, and helped form a vaudeville act ""Weston, Fields and Carroll"".",0,3,== Biography ==,1812481
+1912,CD,YEAR_REGEX_1,TIME,time_reference,"His first hit as a songwriter was ""On the Mississippi"" (1912), which he wrote the music for with Harry Carroll and Ballard MacDonald supplied the lyrics.",0,4,== Biography ==,1812481
+1914,CD,YEAR_REGEX_1,TIME,time_reference,"In 1914 he wrote the lyrics to ""Aba Daba Honeymoon"", which was revived for the 1950 M.G.M. film Two Weeks With Love and thus got a renewed popularity which brought Fields large royalty incomes during his last two years.",1,4,== Biography ==,1812481
+the 1950,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In 1914 he wrote the lyrics to ""Aba Daba Honeymoon"", which was revived for the 1950 M.G.M. film Two Weeks With Love and thus got a renewed popularity which brought Fields large royalty incomes during his last two years.",1,4,== Biography ==,1812481
+Two Weeks,CD NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"In 1914 he wrote the lyrics to ""Aba Daba Honeymoon"", which was revived for the 1950 M.G.M. film Two Weeks With Love and thus got a renewed popularity which brought Fields large royalty incomes during his last two years.",1,4,== Biography ==,1812481
+last two years,JJ CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"In 1914 he wrote the lyrics to ""Aba Daba Honeymoon"", which was revived for the 1950 M.G.M. film Two Weeks With Love and thus got a renewed popularity which brought Fields large royalty incomes during his last two years.",1,4,== Biography ==,1812481
+1914,CD,YEAR_REGEX_1,TIME,time_reference,"From 1914 onward, he recorded with many bands and for many labels and had a varied career in the recording industry.",0,5,== Biography ==,1812481
+1918,CD,YEAR_REGEX_1,TIME,time_reference,"In 1918, he was popular for his performance of his ""Hunting the Hun"" war song.",1,5,== Biography ==,1812481
+1919,CD,YEAR_REGEX_1,TIME,time_reference,His 1919 recordings with bandleader Ford Dabney may be the very first recordings of a white singer backed by a black band.,2,5,== Biography ==,1812481
+1926,CD,YEAR_REGEX_1,TIME,time_reference,In 1926 he recorded with Oreste Migliaccio & His Queensland Orchestra.,5,5,== Biography ==,1812481
+the early 1940s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,His last records were made in the early 1940s.,6,5,== Biography ==,1812481
+1946,CD,YEAR_REGEX_1,TIME,time_reference,Retiring to Florida in 1946 he also worked in radio on WKAT Miami.,0,7,== Biography ==,1812481
+WKAT,NNP,TIME_UNIT_REGEX,TIME,time_reference,Retiring to Florida in 1946 he also worked in radio on WKAT Miami.,0,7,== Biography ==,1812481
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"He suffered a stroke early in 1953 and was killed in a fire at Littlefield Nursing Home in Largo, Florida a little later the same year.",0,8,== Biography ==,1812481
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"He suffered a stroke early in 1953 and was killed in a fire at Littlefield Nursing Home in Largo, Florida a little later the same year.",0,8,== Biography ==,1812481
+1912,CD,YEAR_REGEX_1,TIME,time_reference,"""On the Mississippi"" (1912)",0,10,== Selected songs ==,1812481
+1914,CD,YEAR_REGEX_1,TIME,time_reference,"""Aba Daba Honeymoon"" (1914)",0,11,== Selected songs ==,1812481
+1917,CD,YEAR_REGEX_1,TIME,time_reference,"""Over There"" (1917)",0,12,== Selected songs ==,1812481
+1918,CD,YEAR_REGEX_1,TIME,time_reference,"""Hunting the Hun"" (1918)",0,14,== Selected songs ==,1812481
+the Morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"How I Hate to Get Up in the Morning""",1,15,== Selected songs ==,1812481
+1919,CD,YEAR_REGEX_1,TIME,time_reference,"""How Ya Gonna Keep'em Down On The Farm"" (1919)",0,19,== Selected songs ==,1812481

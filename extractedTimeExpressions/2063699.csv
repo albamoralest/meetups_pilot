@@ -1,0 +1,84 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"October 31 , 1966","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Barney Kamalani ""Kam"" Lee (born October 31, 1966) is an American death metal vocalist.",0,0,,2063699
+1983 to 1984,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He is best known for his vocal contributions to an early incarnation of Death (called Mantas) from 1983 to 1984, and later joined Massacre in 1985.",1,0,,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"He is best known for his vocal contributions to an early incarnation of Death (called Mantas) from 1983 to 1984, and later joined Massacre in 1985.",1,0,,2063699
+1985 and 1986,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"This led to a reformation and the recording of the album From Beyond on Earache Records, made up mainly of reworking of the songs featured on the original 1985 and 1986 demo tapes.",2,2,== Career ==,2063699
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"In 2006 he joined a band with Terry Butler (Death/Massacre/Six Feet Under), Sam Williams and Curtis Beeson called Denial Fiend of whom released their debut ""They Rise"" on October 16, 2007.",2,3,== Career ==,2063699
+"October 16 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"In 2006 he joined a band with Terry Butler (Death/Massacre/Six Feet Under), Sam Williams and Curtis Beeson called Denial Fiend of whom released their debut ""They Rise"" on October 16, 2007.",2,3,== Career ==,2063699
+month,NN,TIME_UNIT_REGEX,TIME,time_reference,"In that same month, Massacre played their final gig in the United States on October 6, 2007.",3,3,== Career ==,2063699
+"October 6 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"In that same month, Massacre played their final gig in the United States on October 6, 2007.",3,3,== Career ==,2063699
+October 26,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"October 26, Massacre began their final tour dubbed ""Re-Animated"" in Berlin, Germany.",4,3,== Career ==,2063699
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"In 2009, Lee started the death metal band Bone Gnawer, with Rogga Johansson, Morgan Lie, and Ronnie Bjornstrom.",0,4,== Career ==,2063699
+Later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Later that year, Lee and Johansson would form another death metal band called The Grotesquery, along with members Johan Berglund and Brynjar Helgetun.",1,4,== Career ==,2063699
+the 2011,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Lee was cast as a serial killer in the 2011 independent horror film Deep Seeded.,0,5,== Career ==,2063699
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"In 2012, he performed guest vocals on and contributed lyrics to Sigh's ""Far Beneath the In-Between"" on their album In Somniphobia.",1,5,== Career ==,2063699
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"In 2015, he formed the funeral doom band Akatharta, who released their first album Spiritus Immundus on June 23, 2017.",0,6,== Career ==,2063699
+"June 23 , 2017","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"In 2015, he formed the funeral doom band Akatharta, who released their first album Spiritus Immundus on June 23, 2017.",0,6,== Career ==,2063699
+January 2016,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 2016, he also announced a solo album for release later in the year, an EP entitled Reclamation of the Fallen which released on October 30 of that same year, the day before Lee's 50th birthday, which was Halloween.",1,6,== Career ==,2063699
+the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In January 2016, he also announced a solo album for release later in the year, an EP entitled Reclamation of the Fallen which released on October 30 of that same year, the day before Lee's 50th birthday, which was Halloween.",1,6,== Career ==,2063699
+of the Fallen,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 SEASON_REGEX,MODIFIER MODIFIER TIME,time_reference,"In January 2016, he also announced a solo album for release later in the year, an EP entitled Reclamation of the Fallen which released on October 30 of that same year, the day before Lee's 50th birthday, which was Halloween.",1,6,== Career ==,2063699
+October 30,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"In January 2016, he also announced a solo album for release later in the year, an EP entitled Reclamation of the Fallen which released on October 30 of that same year, the day before Lee's 50th birthday, which was Halloween.",1,6,== Career ==,2063699
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In January 2016, he also announced a solo album for release later in the year, an EP entitled Reclamation of the Fallen which released on October 30 of that same year, the day before Lee's 50th birthday, which was Halloween.",1,6,== Career ==,2063699
+the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In January 2016, he also announced a solo album for release later in the year, an EP entitled Reclamation of the Fallen which released on October 30 of that same year, the day before Lee's 50th birthday, which was Halloween.",1,6,== Career ==,2063699
+Halloween,NNP,HOLIDAY_REGEX,TIME,time_reference,"In January 2016, he also announced a solo album for release later in the year, an EP entitled Reclamation of the Fallen which released on October 30 of that same year, the day before Lee's 50th birthday, which was Halloween.",1,6,== Career ==,2063699
+that year,IN NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He also revealed a new death/thrash project named Gigantesque and an Alien-themed deathgrind project entitled Alienanalprobe that year, both of which have demo recordings.",2,6,== Career ==,2063699
+September 2016,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"His latest band is a blackened death metal project called Nattravnen, in collaboration with underground Swedish musician Jonny Pettersson, who premiered a demo track in September 2016, and released their first complete track ""Suicidium, the Seductress of Death"" in January 2018, with their first album Kult of the Raven to release on December 7, 2018.",3,6,== Career ==,2063699
+January 2018,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"His latest band is a blackened death metal project called Nattravnen, in collaboration with underground Swedish musician Jonny Pettersson, who premiered a demo track in September 2016, and released their first complete track ""Suicidium, the Seductress of Death"" in January 2018, with their first album Kult of the Raven to release on December 7, 2018.",3,6,== Career ==,2063699
+"December 7 , 2018","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"His latest band is a blackened death metal project called Nattravnen, in collaboration with underground Swedish musician Jonny Pettersson, who premiered a demo track in September 2016, and released their first complete track ""Suicidium, the Seductress of Death"" in January 2018, with their first album Kult of the Raven to release on December 7, 2018.",3,6,== Career ==,2063699
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal #1 (1984),0,11,== Discography == | === With Death ===,2063699
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal #2 (1984),0,12,== Discography == | === With Death ===,2063699
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal #3 (1984),0,13,== Discography == | === With Death ===,2063699
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Live Tape #1 (1984),0,14,== Discography == | === With Death ===,2063699
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Death by Metal (1984),0,15,== Discography == | === With Death ===,2063699
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Reign of Terror (1984),0,16,== Discography == | === With Death ===,2063699
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Live Tape #3 (1984),0,17,== Discography == | === With Death ===,2063699
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Live tape #2 (1984),0,18,== Discography == | === With Death ===,2063699
+1984,CD,YEAR_REGEX_1,TIME,time_reference,Infernal Live (1984),0,19,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal tape #4 (1985),0,20,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal tape #5 (1985),0,21,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal tape #6 (1985),0,22,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Infernal Death (1985),0,23,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Live tape #6 (1985),0,24,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Rigor Mortis (1985),0,25,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal tape #7 (1985),0,26,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal tape #8 (1985),0,27,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal tape #9 (1985),0,28,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal tape #10 (1985),0,29,== Discography == | === With Death ===,2063699
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Rehearsal tape #11 (1985),0,30,== Discography == | === With Death ===,2063699
+1991,CD,YEAR_REGEX_1,TIME,time_reference,AlbumsFrom Beyond (1991),0,32,== Discography == | === With Massacre ===,2063699
+1996,CD,YEAR_REGEX_1,TIME,time_reference,Promise (1996)EPsInhuman Condition (1992)DemosAggressive Tyrant (1986),0,33,== Discography == | === With Massacre ===,2063699
+1992,CD,YEAR_REGEX_1,TIME,time_reference,Promise (1996)EPsInhuman Condition (1992)DemosAggressive Tyrant (1986),0,33,== Discography == | === With Massacre ===,2063699
+1986,CD,YEAR_REGEX_1,TIME,time_reference,Promise (1996)EPsInhuman Condition (1992)DemosAggressive Tyrant (1986),0,33,== Discography == | === With Massacre ===,2063699
+1986,CD,YEAR_REGEX_1,TIME,time_reference,Chamber of Ages (1986),0,34,== Discography == | === With Massacre ===,2063699
+1990,CD,YEAR_REGEX_1,TIME,time_reference,Second Coming (1990),0,35,== Discography == | === With Massacre ===,2063699
+2007,CD,YEAR_REGEX_1,TIME,time_reference,AlbumsThey Rise (2007)EPsDead Awakening (2007)Demos4.23.06 Rehearsal Tape (2006),0,37,== Discography == | === With Denial Fiend ===,2063699
+2007,CD,YEAR_REGEX_1,TIME,time_reference,AlbumsThey Rise (2007)EPsDead Awakening (2007)Demos4.23.06 Rehearsal Tape (2006),0,37,== Discography == | === With Denial Fiend ===,2063699
+2006,CD,YEAR_REGEX_1,TIME,time_reference,AlbumsThey Rise (2007)EPsDead Awakening (2007)Demos4.23.06 Rehearsal Tape (2006),0,37,== Discography == | === With Denial Fiend ===,2063699
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006 Demos (2006),0,38,== Discography == | === With Denial Fiend ===,2063699
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006 Demos (2006),0,38,== Discography == | === With Denial Fiend ===,2063699
+2010,CD,YEAR_REGEX_1,TIME,time_reference,AlbumsTales of the Coffin Born (2010),0,40,== Discography == | === With The Grotesquery ===,2063699
+2012,CD,YEAR_REGEX_1,TIME,time_reference,The Facts and Terrifying Testament of Mason Hamilton: Tsathoggua Tales (2012),0,41,== Discography == | === With The Grotesquery ===,2063699
+2015,CD,YEAR_REGEX_1,TIME,time_reference,Curse of the Skinless Bride (2015),0,42,== Discography == | === With The Grotesquery ===,2063699
+2018,CD,YEAR_REGEX_1,TIME,time_reference,The Lupine Anathema (2018)EPsCult of Chthulu Calling (2014),0,43,== Discography == | === With The Grotesquery ===,2063699
+2014,CD,YEAR_REGEX_1,TIME,time_reference,The Lupine Anathema (2018)EPsCult of Chthulu Calling (2014),0,43,== Discography == | === With The Grotesquery ===,2063699
+2009,CD,YEAR_REGEX_1,TIME,time_reference,AlbumsFeast of Flesh (2009),0,45,== Discography == | === With Bone Gnawer ===,2063699
+2015,CD,YEAR_REGEX_1,TIME,time_reference,Cannibal Crematorium (2015)EPsScissored (2010),0,46,== Discography == | === With Bone Gnawer ===,2063699
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Cannibal Crematorium (2015)EPsScissored (2010),0,46,== Discography == | === With Bone Gnawer ===,2063699
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Carved (2012),0,47,== Discography == | === With Bone Gnawer ===,2063699
+2015,CD,YEAR_REGEX_1,TIME,time_reference,Canale di carneficina (2015)SplitsBone Gnawer / Bonesaw (2009),0,48,== Discography == | === With Bone Gnawer ===,2063699
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Canale di carneficina (2015)SplitsBone Gnawer / Bonesaw (2009),0,48,== Discography == | === With Bone Gnawer ===,2063699
+2013,CD,YEAR_REGEX_1,TIME,time_reference,Carved / Remains (2013),0,49,== Discography == | === With Bone Gnawer ===,2063699
+2011,CD,YEAR_REGEX_1,TIME,time_reference,EPsLet Sleeping Corpses Lie (2011)DemosBroken Gravestones (2009),0,51,== Discography == | === With Broken Gravestones ===,2063699
+2009,CD,YEAR_REGEX_1,TIME,time_reference,EPsLet Sleeping Corpses Lie (2011)DemosBroken Gravestones (2009),0,51,== Discography == | === With Broken Gravestones ===,2063699
+2011,CD,YEAR_REGEX_1,TIME,time_reference,AlbumsThe Plague Rituals (2011)EPsRemains (2013),0,53,== Discography == | === With The Skeletal ===,2063699
+2013,CD,YEAR_REGEX_1,TIME,time_reference,AlbumsThe Plague Rituals (2011)EPsRemains (2013),0,53,== Discography == | === With The Skeletal ===,2063699
+2017,CD,YEAR_REGEX_1,TIME,time_reference,Spiritus Immundus (2017),0,55,== Discography == | === With Akatharta ===,2063699
+2018,CD,YEAR_REGEX_1,TIME,time_reference,Kult of the Raven (2018),0,57,== Discography == | === With Nattravnen ===,2063699
+2016,CD,YEAR_REGEX_1,TIME,time_reference,Demos7 Deadly Sins (2016)EPsReclamation of the Fallen (2016),0,59,== Discography == | === Solo work ===,2063699
+of the Fallen,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 SEASON_REGEX,MODIFIER MODIFIER TIME,time_reference,Demos7 Deadly Sins (2016)EPsReclamation of the Fallen (2016),0,59,== Discography == | === Solo work ===,2063699
+2016,CD,YEAR_REGEX_1,TIME,time_reference,Demos7 Deadly Sins (2016)EPsReclamation of the Fallen (2016),0,59,== Discography == | === Solo work ===,2063699
+2019,CD,YEAR_REGEX_1,TIME,time_reference,Massacred (2019),0,60,== Discography == | === Solo work ===,2063699
+2011,CD,YEAR_REGEX_1,TIME,time_reference,SplitsPestilent Formation (2011),0,62,== Discography == | === With Grave Wax ===,2063699
+2014,CD,YEAR_REGEX_1,TIME,time_reference,Corpus Obscuria (2014),0,63,== Discography == | === With Grave Wax ===,2063699
+2015,CD,YEAR_REGEX_1,TIME,time_reference,Four Paths to Horror (2015),0,64,== Discography == | === With Grave Wax ===,2063699
+2016,CD,YEAR_REGEX_1,TIME,time_reference,Grave of Souls (2016),0,65,== Discography == | === With Grave Wax ===,2063699

@@ -1,0 +1,12 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"May 5 , 1899 – February 17 , 1969","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Adolphe Paul Barbarin (May 5, 1899 – February 17, 1969) was an American jazz drummer from New Orleans.",0,0,,100122
+1917,CD,YEAR_REGEX_1,TIME,time_reference,He moved to Chicago in 1917 and worked with Freddie Keppard and Jimmie Noone.,2,2,== Career ==,100122
+Noone,NNP,DAY_TIME_REGEX,TIME,time_reference,He moved to Chicago in 1917 and worked with Freddie Keppard and Jimmie Noone.,2,2,== Career ==,100122
+1925–1927,CD,YEAR_REGEX_1,TIME,time_reference,"From 1925–1927, he was a member of King Oliver's band.",3,2,== Career ==,100122
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"During the following year, he moved to New York City and played in Luis Russell's band for about four years.",4,2,== Career ==,100122
+about four years,IN CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"During the following year, he moved to New York City and played in Luis Russell's band for about four years.",4,2,== Career ==,100122
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"For a brief time beginning in 1942, he worked for Red Allen's sextet, with Sidney Bechet in 1944 and Art Hodes in 1953.",6,2,== Career ==,100122
+1944,CD,YEAR_REGEX_1,TIME,time_reference,"For a brief time beginning in 1942, he worked for Red Allen's sextet, with Sidney Bechet in 1944 and Art Hodes in 1953.",6,2,== Career ==,100122
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"For a brief time beginning in 1942, he worked for Red Allen's sextet, with Sidney Bechet in 1944 and Art Hodes in 1953.",6,2,== Career ==,100122
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"In 1955, he founded the Onward Brass Band in New Orleans.",7,2,== Career ==,100122
+"February 17 , 1969","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Barbarin died on February 17, 1969, while playing snare drums during a Mardi Gras parade.",9,2,== Career ==,100122

@@ -1,6 +1,6 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"February 6 , 1946 – August 12 , 2010","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Richard ""Richie"" Hayward (February 6, 1946 – August 12, 2010) was an American drummer best known as a founding member and drummer in the band Little Feat.",0,0,,3204508
-"the February 9 , 1967","DT NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"The Factory portrayed an anachronistic Beatlesque band, the Bedbugs, on the February 9, 1967, episode of the sitcom F Troop.",2,2,== Career ==,3204508
-the 1978,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Hayward's talents were also utilized when he appeared as a member of another group in the 1978 film The Buddy Holly Story.,4,2,== Career ==,3204508
-"August 12 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Richie Hayward died on August 12, 2010 from complications due to liver cancer.",0,4,== Death ==,3204508
-The day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"The day after his death Little Feat played a gig at Fairport's Cropredy Convention festival in Cropredy (UK), and spoke of their sadness performing without Hayward, Paul Barrere starting the gig with the words ""Let's Rock For Richie"".",1,4,== Death ==,3204508
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"February 6 , 1946 – August 12 , 2010","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+"the February 9 , 1967","DT NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,2,2
+the 1978,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,4,2
+"August 12 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,4
+The day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,1,4

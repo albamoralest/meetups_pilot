@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"August 14 , 1978","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Dan Palmer (born August 14, 1978), who is originally from Sheffield, South Yorkshire, England, is an English guitarist and now lives in Whittier, California, United States.",0,0,,48517628
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Dan Palmer (born August 14, 1978), who is originally from Sheffield, South Yorkshire, England, is an English guitarist and now lives in Whittier, California, United States.",0,0,,48517628
+Oct 1999,NNP CD,MONTH_ABBR_REGEX YEAR_REGEX_1,TIME TIME,time_reference,By Stereo (since Oct 1999) and Zebrahead (since 2013).,2,0,,48517628
+2013,CD,YEAR_REGEX_1,TIME,time_reference,By Stereo (since Oct 1999) and Zebrahead (since 2013).,2,0,,48517628
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"He was formerly the guitarist for a hardcore punk band called Eyelid, which was formed in North Hollywood, Los Angeles, California in 1994.",0,2,== Biography ==,48517628
+1996,CD,YEAR_REGEX_1,TIME,time_reference,He joined the band in 1996  but they broke up in 1999.,1,2,== Biography ==,48517628
+1999,CD,YEAR_REGEX_1,TIME,time_reference,He joined the band in 1996  but they broke up in 1999.,1,2,== Biography ==,48517628
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In the same year, Keith Barney, who was the guitarist of a hardcore punk band, Death by Stereo, left the band, so Dan took over Keith's place as the lead guitarist.",2,2,== Biography ==,48517628
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"In 2013, a punk rock band Zebrahead offered him to join them as the lead guitarist after Greg Bergdorf left the band and he accepted it.",3,2,== Biography ==,48517628
+more than 6 years,JJR IN CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"His hobby is growing and grooming his mustache, which has been for more than 6 years.",0,4,== Personal life ==,48517628
+every day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He trims, shampoos and conditions it himself every day, for which he gets up earlier in the morning.",1,4,== Personal life ==,48517628
+the morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"He trims, shampoos and conditions it himself every day, for which he gets up earlier in the morning.",1,4,== Personal life ==,48517628

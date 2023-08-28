@@ -1,0 +1,84 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 16 , 1963","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jimmy DeGrasso (born March 16, 1963) is an American heavy metal drummer.",0,0,,4804219
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"DeGrasso was born in Bethlehem, Pennsylvania and graduated from Liberty High School in Bethlehem, Pennsylvania in 1981 where he was a member of the Grenadier Band.",0,1,,4804219
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Also as session or touring musician for White Lion (1991), Fiona (1992), Suicidal Tendencies (1992-1995), MD.45 (1996), Alice Cooper (1995-1997).",1,2,,4804219
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Also as session or touring musician for White Lion (1991), Fiona (1992), Suicidal Tendencies (1992-1995), MD.45 (1996), Alice Cooper (1995-1997).",1,2,,4804219
+1992-1995,JJ,YEAR_REGEX_1,TIME,time_reference,"Also as session or touring musician for White Lion (1991), Fiona (1992), Suicidal Tendencies (1992-1995), MD.45 (1996), Alice Cooper (1995-1997).",1,2,,4804219
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Also as session or touring musician for White Lion (1991), Fiona (1992), Suicidal Tendencies (1992-1995), MD.45 (1996), Alice Cooper (1995-1997).",1,2,,4804219
+1995-1997,JJ,YEAR_REGEX_1,TIME,time_reference,"Also as session or touring musician for White Lion (1991), Fiona (1992), Suicidal Tendencies (1992-1995), MD.45 (1996), Alice Cooper (1995-1997).",1,2,,4804219
+around 2002,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"After his dismissal from Megadeth around 2002, DeGrasso worked with Dave Ellefson's F5, and toured with David Lee Roth, Ministry, Alice Cooper (briefly replacing Eric Singer), Hail, Dokken, Ratt and was the drummer of Black Star Riders from december 2012 until March 2017.",0,3,,4804219
+december 2012,NN CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"After his dismissal from Megadeth around 2002, DeGrasso worked with Dave Ellefson's F5, and toured with David Lee Roth, Ministry, Alice Cooper (briefly replacing Eric Singer), Hail, Dokken, Ratt and was the drummer of Black Star Riders from december 2012 until March 2017.",0,3,,4804219
+March 2017,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"After his dismissal from Megadeth around 2002, DeGrasso worked with Dave Ellefson's F5, and toured with David Lee Roth, Ministry, Alice Cooper (briefly replacing Eric Singer), Hail, Dokken, Ratt and was the drummer of Black Star Riders from december 2012 until March 2017.",0,3,,4804219
+a fallout,DT NN,INARTICLE_REGEX SEASON_REGEX,MODIFIER TIME,time_reference,DeGrasso originally auditioned for Ozzy Osbourne and played on the demos of The Ultimate Sin before Ozzy and Bob Daisley had a fallout and Ozzy chose to replace the entire band except for Jake E Lee.,0,5,== Career ==,4804219
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"DeGrasso then joined the veteran metal band Y&T in 1986, replacing their original drummer Leonard Haze.",1,5,== Career ==,4804219
+the '90s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER TIME,time_reference,He remained with the group into the '90s.,2,5,== Career ==,4804219
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"In 1991, he briefly filled in as White Lion's touring drummer when Greg D'Angelo left the band.",3,5,== Career ==,4804219
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"He would go on to play on Dave Mustaine's (Megadeth vocalist/guitarist) side project band, MD.45 in 1995.",4,5,== Career ==,4804219
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Mustaine asked him to join Megadeth in 1998 as drummer and continue the band's Cryptic Writings Tour.,5,5,== Career ==,4804219
+five days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He was asked to play with Megadeth five days before the next show.,6,5,== Career ==,4804219
+day,NN,TIME_UNIT_REGEX,TIME,time_reference,He walked around with a walkman all day to memorize the songs.,7,5,== Career ==,4804219
+1999–2000,CD,YEAR_REGEX_1,TIME,time_reference,"DeGrasso recorded and toured behind Megadeth's Risk album in 1999–2000, The World Needs A Hero in 2000–2001 and was featured on Megadeth's first ever live CD and DVD release, Rude Awakening in 2002.",8,5,== Career ==,4804219
+2000–2001,CD,YEAR_REGEX_1,TIME,time_reference,"DeGrasso recorded and toured behind Megadeth's Risk album in 1999–2000, The World Needs A Hero in 2000–2001 and was featured on Megadeth's first ever live CD and DVD release, Rude Awakening in 2002.",8,5,== Career ==,4804219
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"DeGrasso recorded and toured behind Megadeth's Risk album in 1999–2000, The World Needs A Hero in 2000–2001 and was featured on Megadeth's first ever live CD and DVD release, Rude Awakening in 2002.",8,5,== Career ==,4804219
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"DeGrasso has performed at the Modern Drummer Festival in 2002, Ultimate Drummers Weekend in Australia, Drummer Live in the United Kingdom and toured with Stone Sour (Slipknot vocalist Corey Taylor’s side project) and guitar legend Ronnie Montrose.",0,6,== Career ==,4804219
+Weekend,NNP,TIME_UNIT_REGEX,TIME,time_reference,"DeGrasso has performed at the Modern Drummer Festival in 2002, Ultimate Drummers Weekend in Australia, Drummer Live in the United Kingdom and toured with Stone Sour (Slipknot vocalist Corey Taylor’s side project) and guitar legend Ronnie Montrose.",0,6,== Career ==,4804219
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Jimmy played with David Lee Roth Band in 2006 and joined with Ministry on their final tour in 2008.,1,6,== Career ==,4804219
+2008,CD,YEAR_REGEX_1,TIME,time_reference,Jimmy played with David Lee Roth Band in 2006 and joined with Ministry on their final tour in 2008.,1,6,== Career ==,4804219
+late 2008,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,In late 2008 DeGrasso came back to Alice Cooper band to fill in for Eric Singer while Singer played a few KISS shows in the United States.,2,6,== Career ==,4804219
+summer,NN,SEASON_REGEX,TIME,time_reference,"In summer of 2012 DeGrasso toured with Dokken, filling in for Mick Brown who was touring with Ted Nugent.",4,6,== Career ==,4804219
+of 2012,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In summer of 2012 DeGrasso toured with Dokken, filling in for Mick Brown who was touring with Ted Nugent.",4,6,== Career ==,4804219
+December 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In December 2012, DeGrasso was announced as the drummer with Thin Lizzy spin-off band, Black Star Riders.",0,7,== Career ==,4804219
+May 2013,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Black Star Riders' first album All Hell Breaks Loose was released in May 2013.,1,7,== Career ==,4804219
+early 2014,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In early 2014 it was announced that he would temporarily be filling-in for Bobby Blotzer in Ratt, and played with them on the Monsters of Rock cruise.",2,7,== Career ==,4804219
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"He is the first drummer to have filled in for Blotzer, since he joined the band in 1982.",3,7,== Career ==,4804219
+October 2016,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He filled in for Blotzer again on Monsters of Rock Cruise in October 2016 before becoming official touring drummer in 2017 and left the band along DeMartini and Cavazo in June of the same yearHe currently resides in San Jose, California, where he used to run his own drum shop, San Jose Pro Drum, which has now closed.",4,7,== Career ==,4804219
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"He filled in for Blotzer again on Monsters of Rock Cruise in October 2016 before becoming official touring drummer in 2017 and left the band along DeMartini and Cavazo in June of the same yearHe currently resides in San Jose, California, where he used to run his own drum shop, San Jose Pro Drum, which has now closed.",4,7,== Career ==,4804219
+June,NNP,MONTH_REGEX,TIME,time_reference,"He filled in for Blotzer again on Monsters of Rock Cruise in October 2016 before becoming official touring drummer in 2017 and left the band along DeMartini and Cavazo in June of the same yearHe currently resides in San Jose, California, where he used to run his own drum shop, San Jose Pro Drum, which has now closed.",4,7,== Career ==,4804219
+yearHe currently,NNP RB,TIME_UNIT_REGEX TIMELINE_REGEX,TIME TIME,time_reference,"He filled in for Blotzer again on Monsters of Rock Cruise in October 2016 before becoming official touring drummer in 2017 and left the band along DeMartini and Cavazo in June of the same yearHe currently resides in San Jose, California, where he used to run his own drum shop, San Jose Pro Drum, which has now closed.",4,7,== Career ==,4804219
+now,RB,TIMELINE_REGEX,TIME,time_reference,"He filled in for Blotzer again on Monsters of Rock Cruise in October 2016 before becoming official touring drummer in 2017 and left the band along DeMartini and Cavazo in June of the same yearHe currently resides in San Jose, California, where he used to run his own drum shop, San Jose Pro Drum, which has now closed.",4,7,== Career ==,4804219
+1985–1986,CD,YEAR_REGEX_1,TIME,time_reference,Mama's Boys  (1985–1986),0,9,== Bands as drummer ==,4804219
+"1987–1991 , 1995-1997","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Y&T  (1987–1991, 1995-1997)",0,10,== Bands as drummer ==,4804219
+1991,CD,YEAR_REGEX_1,TIME,time_reference,White Lion  (1991),0,11,== Bands as drummer ==,4804219
+1992,CD,YEAR_REGEX_1,TIME,time_reference,Fiona  (1992),0,12,== Bands as drummer ==,4804219
+1992–1995,CD,YEAR_REGEX_1,TIME,time_reference,Suicidal Tendencies  (1992–1995),0,13,== Bands as drummer ==,4804219
+"1994–1998 , 2008–2010","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Alice Cooper  (1994–1998, 2008–2010)",0,14,== Bands as drummer ==,4804219
+1998–2002,CD,YEAR_REGEX_1,TIME,time_reference,Megadeth  (1998–2002),0,15,== Bands as drummer ==,4804219
+2006,CD,YEAR_REGEX_1,TIME,time_reference,O'2L  (2006),0,16,== Bands as drummer ==,4804219
+2006,CD,YEAR_REGEX_1,TIME,time_reference,David Lee Roth  (2006),0,17,== Bands as drummer ==,4804219
+2008,CD,YEAR_REGEX_1,TIME,time_reference,Ministry  (2008),0,18,== Bands as drummer ==,4804219
+2012–2013,CD,YEAR_REGEX_1,TIME,time_reference,Dokken  (2012–2013),0,19,== Bands as drummer ==,4804219
+"2014 , 2016–2018","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Ratt  (2014, 2016–2018)",0,20,== Bands as drummer ==,4804219
+2012–2017,CD,YEAR_REGEX_1,TIME,time_reference,Black Star Riders (2012–2017),0,21,== Bands as drummer ==,4804219
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987 Y&T – Contagious,0,23,== Discography ==,4804219
+1990,CD,YEAR_REGEX_1,TIME,time_reference,1990 Y&T – Ten,0,24,== Discography ==,4804219
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991 Y&T – Yesterday & Today Live,0,25,== Discography ==,4804219
+Yesterday,NN,TIMELINE_REGEX,TIME,time_reference,1991 Y&T – Yesterday & Today Live,0,25,== Discography ==,4804219
+Today,NNP,TIMELINE_REGEX,TIME,time_reference,1991 Y&T – Yesterday & Today Live,0,25,== Discography ==,4804219
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992 Fiona – Squeeze,0,26,== Discography ==,4804219
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994 Suicidal Tendencies – Suicidal for Life,0,27,== Discography ==,4804219
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995 Y&T – Musically Incorrect,0,28,== Discography ==,4804219
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996 MD.45 – The Craving,0,29,== Discography ==,4804219
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997 Alice Cooper – Fistful of Alice,0,30,== Discography ==,4804219
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997 Y&T – Endangered Species,0,31,== Discography ==,4804219
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998 Dave Meniketti – On The Blue Side,0,32,== Discography ==,4804219
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998 A.N.I.M.A.L. – Poder Latino (session drummer),0,33,== Discography ==,4804219
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999 Megadeth – Risk,0,34,== Discography ==,4804219
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000 Megadeth – Capitol Punishment: The Megadeth Years,0,35,== Discography ==,4804219
+Years,NNS,TIME_UNIT_REGEX,TIME,time_reference,2000 Megadeth – Capitol Punishment: The Megadeth Years,0,35,== Discography ==,4804219
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001 Megadeth – The World Needs a Hero,0,36,== Discography ==,4804219
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002 Megadeth – Rude Awakening,0,37,== Discography ==,4804219
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002 Megadeth – Still Alive... and Well?,0,38,== Discography ==,4804219
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006 Megadeth – Arsenal of Megadeth,0,39,== Discography ==,4804219
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006 Sex Machineguns – Made In USA (session drummer),0,40,== Discography ==,4804219
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007 Megadeth – Warchest,0,41,== Discography ==,4804219
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008 F5 – The Reckoning,0,42,== Discography ==,4804219
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008 Megadeth – Anthology: Set the World Afire,0,43,== Discography ==,4804219
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"2010 Alice Cooper – Theatre of Death, Live at Hammersmith 2009",0,44,== Discography ==,4804219
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"2010 Alice Cooper – Theatre of Death, Live at Hammersmith 2009",0,44,== Discography ==,4804219
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011,0,45,== Discography ==,4804219
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011 Alice Cooper -  Welcome 2,0,46,== Discography ==,4804219
+Nightmare,NN,DAY_TIME_REGEX,TIME,time_reference,My Nightmare,1,46,== Discography ==,4804219
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012 Dokken - Broken Bones,0,47,== Discography ==,4804219
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013 Black Star Riders – All Hell Breaks Loose,0,48,== Discography ==,4804219
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015 Black Star Riders – The Killer Instinct,0,49,== Discography ==,4804219
+2017,CD,YEAR_REGEX_1,TIME,time_reference,2017 Black Star Riders – Heavy Fire,0,50,== Discography ==,4804219

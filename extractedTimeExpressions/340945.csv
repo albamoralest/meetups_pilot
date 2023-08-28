@@ -1,110 +1,109 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"November 22 , 1927 – June 14 , 2003","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"James Minter Knepper (November 22, 1927 – June 14, 2003) was an American jazz trombonist.",0,0,,340945
-the late 1950s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In addition to his own recordings as leader, Knepper performed and recorded with Charlie Barnet, Woody Herman, Claude Thornhill, Stan Kenton, Benny Goodman, Gil Evans, Thad Jones and Mel Lewis, Toshiko Akiyoshi and Lew Tabackin, and, most famously, Charles Mingus in the late 1950s and early 1960s.",1,0,,340945
-early 1960s,JJ NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In addition to his own recordings as leader, Knepper performed and recorded with Charlie Barnet, Woody Herman, Claude Thornhill, Stan Kenton, Benny Goodman, Gil Evans, Thad Jones and Mel Lewis, Toshiko Akiyoshi and Lew Tabackin, and, most famously, Charles Mingus in the late 1950s and early 1960s.",1,0,,340945
-2003,CD,YEAR_REGEX_1,TIME,time_reference,Knepper died in 2003 of complications of Parkinson's disease.,2,0,,340945
-"May 8 , 1954","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Knepper married Maxine Helen Fields, a trumpet player with the all-female jazz band the International Sweethearts of Rhythm on May 8, 1954, at a civil ceremony in Tucson, Arizona, while he was on a tour with the Maynard Ferguson Band.",0,3,== Biography ==,340945
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"In 1959, the U.S. State Department funded a trip for bandleader Herbie Mann to visit Africa, after they heard his version of ""African Suite.""",0,4,== Biography ==,340945
-"December 31 1959 to April 5 , 1960","NNP CD CD TO NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"The 14-week tour took place from December 31 1959 to April 5, 1960.",0,5,== Biography ==,340945
-recently,RB,TIMELINE_REGEX,TIME,time_reference,"These letters were recently found carefully preserved in a dusty box in the attic of the family home, and have now been transcribed by his daughter.",1,15,== Biography ==,340945
-now,RB,TIMELINE_REGEX,TIME,time_reference,"These letters were recently found carefully preserved in a dusty box in the attic of the family home, and have now been transcribed by his daughter.",1,15,== Biography ==,340945
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962, Knepper toured the Soviet Union with Benny Goodman's Big Band, as part of a cultural exchange during the Cold War, in which the Bolshoi Ballet also came to the US.",0,16,== Biography ==,340945
-"March 26 , 1964","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"After seventeen previews, the Broadway production opened on March 26, 1964, at the Winter Garden Theatre, subsequently transferring to the Majestic Theatre and the Broadway Theatre to complete its total run of 1,348 performances.",1,17,== Biography ==,340945
-the Winter,DT NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"After seventeen previews, the Broadway production opened on March 26, 1964, at the Winter Garden Theatre, subsequently transferring to the Majestic Theatre and the Broadway Theatre to complete its total run of 1,348 performances.",1,17,== Biography ==,340945
-1967 and 1968,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 1967 and 1968, he played in the pit orchestra at the Mark Hellinger Theater for An Evening with Marlene Dietrich, for which Dietrich received a Tony Award in 1968.",2,17,== Biography ==,340945
-An Evening,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"In 1967 and 1968, he played in the pit orchestra at the Mark Hellinger Theater for An Evening with Marlene Dietrich, for which Dietrich received a Tony Award in 1968.",2,17,== Biography ==,340945
-1968,CD,YEAR_REGEX_1,TIME,time_reference,"In 1967 and 1968, he played in the pit orchestra at the Mark Hellinger Theater for An Evening with Marlene Dietrich, for which Dietrich received a Tony Award in 1968.",2,17,== Biography ==,340945
-around 1965,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"While he was playing Funny Girl, Knepper became a member of the Thad Jones/Mel Lewis Orchestra, a big band formed by trumpeter Thad Jones and drummer Mel Lewis around 1965, which began the 40-year tradition of Monday night jazz shows at the Village Vanguard in New York's Greenwich Village.",0,18,== Biography ==,340945
-of Monday night,IN NNP NN,PREFIX_REGEX_1 WEEK_REGEX DAY_TIME_REGEX,MODIFIER TIME TIME,time_reference,"While he was playing Funny Girl, Knepper became a member of the Thad Jones/Mel Lewis Orchestra, a big band formed by trumpeter Thad Jones and drummer Mel Lewis around 1965, which began the 40-year tradition of Monday night jazz shows at the Village Vanguard in New York's Greenwich Village.",0,18,== Biography ==,340945
-twelve years,NN NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"The band performed for twelve years in its original incarnation, but since the death of Lewis in 1990 it has been known as the Vanguard Jazz Orchestra.",1,18,== Biography ==,340945
-1990,CD,YEAR_REGEX_1,TIME,time_reference,"The band performed for twelve years in its original incarnation, but since the death of Lewis in 1990 it has been known as the Vanguard Jazz Orchestra.",1,18,== Biography ==,340945
-a Monday-night,DT JJ,INARTICLE_REGEX WEEK_REGEX,MODIFIER TIME,time_reference,They have maintained a Monday-night residency at the Village Vanguard for four decades.,2,18,== Biography ==,340945
-four decades,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,They have maintained a Monday-night residency at the Village Vanguard for four decades.,2,18,== Biography ==,340945
-1974,CD,YEAR_REGEX_1,TIME,time_reference,"Knepper again toured the USSR, this time with TJML, as well as Japan and Europe with them, and appeared with them at the Montreux Jazz Festival in 1974.",3,18,== Biography ==,340945
-1969,CD,YEAR_REGEX_1,TIME,time_reference,"In 1969, Knepper toured and recorded You Never Know Who Your Friends Are, with keyboardist Al Kooper, in the jazz period which followed his departure from Blood, Sweat and Tears.",0,19,== Biography ==,340945
-1980,CD,YEAR_REGEX_1,TIME,time_reference,"In 1980, he received a Grammy Award nomination, for ""Best Jazz Instrumentalist Performance, Soloist"", for his album, Cunningbird.",0,20,== Biography ==,340945
-four years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Knepper received ""Best Trombonist"" award from DownBeat Reader's Poll four years running from 1981 to 1984; he also achieved first place in the DownBeat Critics' Poll in 1981, and then five years running from 1983 to 1987.",0,21,== Biography ==,340945
-1981 to 1984,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Knepper received ""Best Trombonist"" award from DownBeat Reader's Poll four years running from 1981 to 1984; he also achieved first place in the DownBeat Critics' Poll in 1981, and then five years running from 1983 to 1987.",0,21,== Biography ==,340945
-1981,CD,YEAR_REGEX_1,TIME,time_reference,"Knepper received ""Best Trombonist"" award from DownBeat Reader's Poll four years running from 1981 to 1984; he also achieved first place in the DownBeat Critics' Poll in 1981, and then five years running from 1983 to 1987.",0,21,== Biography ==,340945
-then five years,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"Knepper received ""Best Trombonist"" award from DownBeat Reader's Poll four years running from 1981 to 1984; he also achieved first place in the DownBeat Critics' Poll in 1981, and then five years running from 1983 to 1987.",0,21,== Biography ==,340945
-1983 to 1987,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Knepper received ""Best Trombonist"" award from DownBeat Reader's Poll four years running from 1981 to 1984; he also achieved first place in the DownBeat Critics' Poll in 1981, and then five years running from 1983 to 1987.",0,21,== Biography ==,340945
-of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Although Knepper worked with some of the most notable jazz musicians of the 20th century, he was perhaps best known for his collaboration and stormy relationship with bassist and composer, Charles Mingus.",0,23,== With Mingus ==,340945
-"October 12 , 1962","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Later, Mingus reportedly punched Knepper in the mouth while the two men were working together at Mingus's apartment on a score for Epitaph, in preparation for what became his disastrous concert at New York Town Hall, on October 12, 1962.",3,23,== With Mingus ==,340945
-almost two years,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"The blow broke one of Knepper's teeth, ruined his embouchure and resulted in the loss of the top octave of his range on the trombone for almost two years.",4,23,== With Mingus ==,340945
-January 1963,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Charged with assault, Mingus appeared in court in January 1963 and was given a suspended sentence.",6,23,== With Mingus ==,340945
-the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Nevertheless, in the 1970s, the two eventually reconciled thoroughly enough to play together in concert and on at least one of Mingus' last albums.",9,23,== With Mingus ==,340945
-1957,CD,YEAR_REGEX_1,TIME,time_reference,"Jazz Workshop Presents: ""Jimmy Knepper"" (Debut, 1957; Danish EP reissued on Mingus Rarities, Volume 1, OJC)",0,27,== Discography == | === As leader ===,340945
-1957,CD,YEAR_REGEX_1,TIME,time_reference,"A Swinging Introduction to Jimmy Knepper (Bethlehem, 1957)",0,28,== Discography == | === As leader ===,340945
-1958,CD,YEAR_REGEX_1,TIME,time_reference,"The Pepper-Knepper Quintet (MetroJazz Records, 1958)",0,29,== Discography == | === As leader ===,340945
-1976,CD,YEAR_REGEX_1,TIME,time_reference,"Cunningbird (Steeplechase, 1976)",0,30,== Discography == | === As leader ===,340945
-1977,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy Knepper in L.A. (Inner City, 1977)",0,31,== Discography == | === As leader ===,340945
-1978,CD,YEAR_REGEX_1,TIME,time_reference,"Just Friends (Hep, 1978) with Joe Temperley",0,32,== Discography == | === As leader ===,340945
-"Daybreak , 1979","NNP , CD",TIME_UNIT_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Tell Me... (Daybreak, 1979)",0,33,== Discography == | === As leader ===,340945
-1980,CD,YEAR_REGEX_1,TIME,time_reference,"Primrose Path (Hep, 1980) with Bobby Wellins",0,34,== Discography == | === As leader ===,340945
-1982,CD,YEAR_REGEX_1,TIME,time_reference,"1st Place (BlackHawk, 1982 [1986])",0,35,== Discography == | === As leader ===,340945
-1986,CD,YEAR_REGEX_1,TIME,time_reference,"1st Place (BlackHawk, 1982 [1986])",0,35,== Discography == | === As leader ===,340945
-1984,CD,YEAR_REGEX_1,TIME,time_reference,"I Dream Too Much (Soul Note, 1984)",0,36,== Discography == | === As leader ===,340945
-1986,CD,YEAR_REGEX_1,TIME,time_reference,"Dream Dancing (Criss Cross Jazz, 1986)",0,37,== Discography == | === As leader ===,340945
-1991,CD,YEAR_REGEX_1,TIME,time_reference,"T-Bop (Soul Note, 1991) with Eric Felten",0,38,== Discography == | === As leader ===,340945
-1957,CD,YEAR_REGEX_1,TIME,time_reference,Tijuana Moods (1957) RCA,0,41,== Discography == | === As sideman ===,340945
-1957,CD,YEAR_REGEX_1,TIME,time_reference,East Coasting (1957) Bethlehem,0,42,== Discography == | === As sideman ===,340945
-1957,CD,YEAR_REGEX_1,TIME,time_reference,A Modern Jazz Symposium of Music and Poetry (1957) Bethlehem,0,43,== Discography == | === As sideman ===,340945
-1957,CD,YEAR_REGEX_1,TIME,time_reference,The Clown (1957) Atlantic,0,44,== Discography == | === As sideman ===,340945
-1959,CD,YEAR_REGEX_1,TIME,time_reference,Mingus Ah Um (1959) Columbia,0,45,== Discography == | === As sideman ===,340945
-1959,CD,YEAR_REGEX_1,TIME,time_reference,Mingus Dynasty (1959) Columbia,0,46,== Discography == | === As sideman ===,340945
-1959,CD,YEAR_REGEX_1,TIME,time_reference,Blues & Roots (1959) Atlantic,0,47,== Discography == | === As sideman ===,340945
-1960,CD,YEAR_REGEX_1,TIME,time_reference,Mingus Revisited (1960),0,48,== Discography == | === As sideman ===,340945
-1960,CD,YEAR_REGEX_1,TIME,time_reference,Reincarnation of a Lovebird (1960) Candid,0,49,== Discography == | === As sideman ===,340945
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"Oh Yeah (1961) Atlantic,",0,50,== Discography == | === As sideman ===,340945
-Tonight,NN,DAY_TIME_REGEX,TIME,time_reference,Tonight at Noon (1957–61) Atlantic,0,51,== Discography == | === As sideman ===,340945
-Noon,NNP,DAY_TIME_REGEX,TIME,time_reference,Tonight at Noon (1957–61) Atlantic,0,51,== Discography == | === As sideman ===,340945
-1957–61,CD,YEAR_REGEX_1,TIME,time_reference,Tonight at Noon (1957–61) Atlantic,0,51,== Discography == | === As sideman ===,340945
-1978,CD,YEAR_REGEX_1,TIME,time_reference,Cumbia & Jazz Fusion (1978),0,52,== Discography == | === As sideman ===,340945
-1963,CD,YEAR_REGEX_1,TIME,time_reference,"Swingin' Machine (Atlantic, 1963)With Joshua Breakstone",0,53,== Discography == | === As sideman ===,340945
-1988,CD,YEAR_REGEX_1,TIME,time_reference,"Evening Star (Contemporary, 1988)With Benny Carter",0,54,== Discography == | === As sideman ===,340945
-1987,CD,YEAR_REGEX_1,TIME,time_reference,"Central City Sketches (MusicMasters, 1987)With Richard Davis",0,55,== Discography == | === As sideman ===,340945
-1969,CD,YEAR_REGEX_1,TIME,time_reference,"Muses for Richard Davis (MPS, 1969)With Gil Evans",0,56,== Discography == | === As sideman ===,340945
-1960,CD,YEAR_REGEX_1,TIME,time_reference,Out of the Cool (1960) Impulse!,0,57,== Discography == | === As sideman ===,340945
-1964,CD,YEAR_REGEX_1,TIME,time_reference,The Individualism of Gil Evans (1964) Verve,0,58,== Discography == | === As sideman ===,340945
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"Blues in Orbit (Enja, 1971)",0,59,== Discography == | === As sideman ===,340945
-1971,CD,YEAR_REGEX_1,TIME,time_reference,Where Flamingos Fly (1971) Artists House,0,60,== Discography == | === As sideman ===,340945
-1987,CD,YEAR_REGEX_1,TIME,time_reference,Collaboration with Helen Merrill (1987) EmArcyWith Ricky Ford,0,61,== Discography == | === As sideman ===,340945
-1984,CD,YEAR_REGEX_1,TIME,time_reference,"Shorter Ideas (Muse, 1984)With Dizzy Gillespie",0,62,== Discography == | === As sideman ===,340945
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"Perceptions (Verve, 1961)With Langston Hughes",0,63,== Discography == | === As sideman ===,340945
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"Weary Blues (MGM, 1959)With Clark Terry",0,64,== Discography == | === As sideman ===,340945
-1960,CD,YEAR_REGEX_1,TIME,time_reference,"Color Changes (Candid, 1960)With",0,65,== Discography == | === As sideman ===,340945
-1960,CD,YEAR_REGEX_1,TIME,time_reference,The Incredible Kai Winding Trombones (1960) Impulse!With Chuck Israels,0,66,== Discography == | === As sideman ===,340945
-1976,CD,YEAR_REGEX_1,TIME,time_reference,"National Jazz Ensemble directed by Chuck Israels (Chiaroscuro, 1976)With Herbie Mann",0,67,== Discography == | === As sideman ===,340945
-1964,CD,YEAR_REGEX_1,TIME,time_reference,"My Kinda Groove (Atlantic, 1964)",0,68,== Discography == | === As sideman ===,340945
-1966,CD,YEAR_REGEX_1,TIME,time_reference,"Our Mann Flute (Atlantic, 1966)With Kenny Burrell",0,69,== Discography == | === As sideman ===,340945
-1965,CD,YEAR_REGEX_1,TIME,time_reference,"Guitar Forms (Verve, 1965)With Gary Burton",0,70,== Discography == | === As sideman ===,340945
-1967,CD,YEAR_REGEX_1,TIME,time_reference,"A Genuine Tong Funeral (RCA, 1967)With",0,71,== Discography == | === As sideman ===,340945
-1968,CD,YEAR_REGEX_1,TIME,time_reference,The Jazz Composer's Orchestra (1968) JCOA,0,72,== Discography == | === As sideman ===,340945
-1971,CD,YEAR_REGEX_1,TIME,time_reference,Escalator over the Hill with Carla Bley (1971) JCOAWith the Thad Jones/Mel Lewis Orchestra,0,73,== Discography == | === As sideman ===,340945
-1968,CD,YEAR_REGEX_1,TIME,time_reference,The Big Band Sound of Thad Jones/Mel Lewis featuring Miss Ruth Brown (1968) Solid State,0,74,== Discography == | === As sideman ===,340945
-Monday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,Monday Night (1968) Solid State,0,75,== Discography == | === As sideman ===,340945
-1968,CD,YEAR_REGEX_1,TIME,time_reference,Monday Night (1968) Solid State,0,75,== Discography == | === As sideman ===,340945
-1969,CD,YEAR_REGEX_1,TIME,time_reference,Central Park North (1969),0,76,== Discography == | === As sideman ===,340945
-1969,CD,YEAR_REGEX_1,TIME,time_reference,"Basle, 1969 (1996) TCB Music – recorded 1969",0,77,== Discography == | === As sideman ===,340945
-1996,CD,YEAR_REGEX_1,TIME,time_reference,"Basle, 1969 (1996) TCB Music – recorded 1969",0,77,== Discography == | === As sideman ===,340945
-1969,CD,YEAR_REGEX_1,TIME,time_reference,"Basle, 1969 (1996) TCB Music – recorded 1969",0,77,== Discography == | === As sideman ===,340945
-1970,CD,YEAR_REGEX_1,TIME,time_reference,Consummation (1970),0,78,== Discography == | === As sideman ===,340945
-1972,CD,YEAR_REGEX_1,TIME,time_reference,Suite for Pops (1972) A&M,0,79,== Discography == | === As sideman ===,340945
-1974,CD,YEAR_REGEX_1,TIME,time_reference,Live in Tokyo (1974) Denon Jazz,0,80,== Discography == | === As sideman ===,340945
-1974,CD,YEAR_REGEX_1,TIME,time_reference,Potpourri (1974) Philadelphia International,0,81,== Discography == | === As sideman ===,340945
-1974,CD,YEAR_REGEX_1,TIME,time_reference,Thad Jones / Mel Lewis and Manuel De Sica (1974),0,82,== Discography == | === As sideman ===,340945
-1984,CD,YEAR_REGEX_1,TIME,time_reference,"In High Profile (Bee Hive, 1984)With Lee KonitzLee Konitz Nonet (Chiaroscuro, 1977)",0,83,== Discography == | === As sideman ===,340945
-1977,CD,YEAR_REGEX_1,TIME,time_reference,"In High Profile (Bee Hive, 1984)With Lee KonitzLee Konitz Nonet (Chiaroscuro, 1977)",0,83,== Discography == | === As sideman ===,340945
-1979,CD,YEAR_REGEX_1,TIME,time_reference,"Yes, Yes, Nonet (SteepleChase, 1979)",0,84,== Discography == | === As sideman ===,340945
-1979,CD,YEAR_REGEX_1,TIME,time_reference,"Live at Laren (Soul Note, 1979 [1984])With Al Kooper",0,85,== Discography == | === As sideman ===,340945
-1984,CD,YEAR_REGEX_1,TIME,time_reference,"Live at Laren (Soul Note, 1979 [1984])With Al Kooper",0,85,== Discography == | === As sideman ===,340945
-1969,CD,YEAR_REGEX_1,TIME,time_reference,You Never Know Who Your Friends Are (1969),0,86,== Discography == | === As sideman ===,340945
-1976,CD,YEAR_REGEX_1,TIME,time_reference,Road Time (1976) RCA/VictorWith George Adams & Dannie Richmond,0,87,== Discography == | === As sideman ===,340945
-1980,CD,YEAR_REGEX_1,TIME,time_reference,Hand to Hand  (1980),0,88,== Discography == | === As sideman ===,340945
-1983,CD,YEAR_REGEX_1,TIME,time_reference,Gentleman's Agreement (1983),0,89,== Discography == | === As sideman ===,340945
-1979,CD,YEAR_REGEX_1,TIME,time_reference,Chair In The Sky (Electra 1979),0,90,== Discography == | === As sideman ===,340945
-1980,CD,YEAR_REGEX_1,TIME,time_reference,Live at Montreux (Atlantic 1980),0,91,== Discography == | === As sideman ===,340945
-1982,CD,YEAR_REGEX_1,TIME,time_reference,Reincarnation (Soul Note 1982),0,92,== Discography == | === As sideman ===,340945
-1987,CD,YEAR_REGEX_1,TIME,time_reference,Mingus' Sounds of Love (Soul Note 1987),0,93,== Discography == | === As sideman ===,340945
-1988,CD,YEAR_REGEX_1,TIME,time_reference,(Soul Note 1988),2,94,== Discography == | === As sideman ===,340945
-1988,CD,YEAR_REGEX_1,TIME,time_reference,(Soul Note 1988),2,95,== Discography == | === As sideman ===,340945
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"November 22 , 1927 – June 14 , 2003","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+the late 1950s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,1,0
+early 1960s,JJ NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,1,0
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2,0
+"May 8 , 1954","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,3
+1959,CD,YEAR_REGEX_1,TIME,time_reference,0,4
+"December 31 1959 to April 5 , 1960","NNP CD CD TO NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,5
+recently,RB,TIMELINE_REGEX,TIME,time_reference,1,15
+now,RB,TIMELINE_REGEX,TIME,time_reference,1,15
+1962,CD,YEAR_REGEX_1,TIME,time_reference,0,16
+"March 26 , 1964","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,1,17
+the Winter,DT NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,1,17
+1967 and 1968,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,2,17
+An Evening,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,2,17
+1968,CD,YEAR_REGEX_1,TIME,time_reference,2,17
+around 1965,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,18
+of Monday night,IN NNP NN,PREFIX_REGEX_1 WEEK_REGEX DAY_TIME_REGEX,MODIFIER TIME TIME,time_reference,0,18
+twelve years,NN NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,18
+1990,CD,YEAR_REGEX_1,TIME,time_reference,1,18
+four decades,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,18
+1974,CD,YEAR_REGEX_1,TIME,time_reference,3,18
+1969,CD,YEAR_REGEX_1,TIME,time_reference,0,19
+1980,CD,YEAR_REGEX_1,TIME,time_reference,0,20
+four years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,21
+1981 to 1984,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,21
+1981,CD,YEAR_REGEX_1,TIME,time_reference,0,21
+then five years,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,0,21
+1983 to 1987,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,21
+of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,0,23
+"October 12 , 1962","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,3,23
+almost two years,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,4,23
+January 1963,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,6,23
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,9,23
+1957,CD,YEAR_REGEX_1,TIME,time_reference,0,27
+1957,CD,YEAR_REGEX_1,TIME,time_reference,0,28
+1958,CD,YEAR_REGEX_1,TIME,time_reference,0,29
+1976,CD,YEAR_REGEX_1,TIME,time_reference,0,30
+1977,CD,YEAR_REGEX_1,TIME,time_reference,0,31
+1978,CD,YEAR_REGEX_1,TIME,time_reference,0,32
+"Daybreak , 1979","NNP , CD",TIME_UNIT_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,0,33
+1980,CD,YEAR_REGEX_1,TIME,time_reference,0,34
+1982,CD,YEAR_REGEX_1,TIME,time_reference,0,35
+1986,CD,YEAR_REGEX_1,TIME,time_reference,0,35
+1984,CD,YEAR_REGEX_1,TIME,time_reference,0,36
+1986,CD,YEAR_REGEX_1,TIME,time_reference,0,37
+1991,CD,YEAR_REGEX_1,TIME,time_reference,0,38
+1957,CD,YEAR_REGEX_1,TIME,time_reference,0,41
+1957,CD,YEAR_REGEX_1,TIME,time_reference,0,42
+1957,CD,YEAR_REGEX_1,TIME,time_reference,0,43
+1957,CD,YEAR_REGEX_1,TIME,time_reference,0,44
+1959,CD,YEAR_REGEX_1,TIME,time_reference,0,45
+1959,CD,YEAR_REGEX_1,TIME,time_reference,0,46
+1959,CD,YEAR_REGEX_1,TIME,time_reference,0,47
+1960,CD,YEAR_REGEX_1,TIME,time_reference,0,48
+1960,CD,YEAR_REGEX_1,TIME,time_reference,0,49
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,50
+Tonight,NN,DAY_TIME_REGEX,TIME,time_reference,0,51
+Noon,NNP,DAY_TIME_REGEX,TIME,time_reference,0,51
+1957–61,CD,YEAR_REGEX_1,TIME,time_reference,0,51
+1978,CD,YEAR_REGEX_1,TIME,time_reference,0,52
+1963,CD,YEAR_REGEX_1,TIME,time_reference,0,53
+1988,CD,YEAR_REGEX_1,TIME,time_reference,0,54
+1987,CD,YEAR_REGEX_1,TIME,time_reference,0,55
+1969,CD,YEAR_REGEX_1,TIME,time_reference,0,56
+1960,CD,YEAR_REGEX_1,TIME,time_reference,0,57
+1964,CD,YEAR_REGEX_1,TIME,time_reference,0,58
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,59
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,60
+1987,CD,YEAR_REGEX_1,TIME,time_reference,0,61
+1984,CD,YEAR_REGEX_1,TIME,time_reference,0,62
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,63
+1959,CD,YEAR_REGEX_1,TIME,time_reference,0,64
+1960,CD,YEAR_REGEX_1,TIME,time_reference,0,65
+1960,CD,YEAR_REGEX_1,TIME,time_reference,0,66
+1976,CD,YEAR_REGEX_1,TIME,time_reference,0,67
+1964,CD,YEAR_REGEX_1,TIME,time_reference,0,68
+1966,CD,YEAR_REGEX_1,TIME,time_reference,0,69
+1965,CD,YEAR_REGEX_1,TIME,time_reference,0,70
+1967,CD,YEAR_REGEX_1,TIME,time_reference,0,71
+1968,CD,YEAR_REGEX_1,TIME,time_reference,0,72
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,73
+1968,CD,YEAR_REGEX_1,TIME,time_reference,0,74
+Monday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,0,75
+1968,CD,YEAR_REGEX_1,TIME,time_reference,0,75
+1969,CD,YEAR_REGEX_1,TIME,time_reference,0,76
+1969,CD,YEAR_REGEX_1,TIME,time_reference,0,77
+1996,CD,YEAR_REGEX_1,TIME,time_reference,0,77
+1969,CD,YEAR_REGEX_1,TIME,time_reference,0,77
+1970,CD,YEAR_REGEX_1,TIME,time_reference,0,78
+1972,CD,YEAR_REGEX_1,TIME,time_reference,0,79
+1974,CD,YEAR_REGEX_1,TIME,time_reference,0,80
+1974,CD,YEAR_REGEX_1,TIME,time_reference,0,81
+1974,CD,YEAR_REGEX_1,TIME,time_reference,0,82
+1984,CD,YEAR_REGEX_1,TIME,time_reference,0,83
+1977,CD,YEAR_REGEX_1,TIME,time_reference,0,83
+1979,CD,YEAR_REGEX_1,TIME,time_reference,0,84
+1979,CD,YEAR_REGEX_1,TIME,time_reference,0,85
+1984,CD,YEAR_REGEX_1,TIME,time_reference,0,85
+1969,CD,YEAR_REGEX_1,TIME,time_reference,0,86
+1976,CD,YEAR_REGEX_1,TIME,time_reference,0,87
+1980,CD,YEAR_REGEX_1,TIME,time_reference,0,88
+1983,CD,YEAR_REGEX_1,TIME,time_reference,0,89
+1979,CD,YEAR_REGEX_1,TIME,time_reference,0,90
+1980,CD,YEAR_REGEX_1,TIME,time_reference,0,91
+1982,CD,YEAR_REGEX_1,TIME,time_reference,0,92
+1987,CD,YEAR_REGEX_1,TIME,time_reference,0,93
+1988,CD,YEAR_REGEX_1,TIME,time_reference,2,94
+1988,CD,YEAR_REGEX_1,TIME,time_reference,2,95

@@ -1,0 +1,15 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"November 19 , 1913 – July 16 , 2005","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Blue Barron (November 19, 1913 – July 16, 2005), born Harry Freidman, was an American orchestra leader in the 1940s and early 1950s during the Big Band  era.",0,0,,4421660
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Blue Barron (November 19, 1913 – July 16, 2005), born Harry Freidman, was an American orchestra leader in the 1940s and early 1950s during the Big Band  era.",0,0,,4421660
+early 1950s,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Blue Barron (November 19, 1913 – July 16, 2005), born Harry Freidman, was an American orchestra leader in the 1940s and early 1950s during the Big Band  era.",0,0,,4421660
+Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years ==,1,1,== Early years ==,4421660
+1940,CD,YEAR_REGEX_1,TIME,time_reference,He adopted the stage name Blue Barron and by 1940 had created his own orchestra.,1,2,== Early years ==,4421660
+October 1936,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"His first group played on the Floating Palace showboat at Troy, New York, in October 1936.",0,4,== Career ==,4421660
+night,NN,DAY_TIME_REGEX,TIME,time_reference,"A newspaper report said the group ""made an over night hit at the Floating Palace and remained there for 22 weeks.""",1,4,== Career ==,4421660
+22 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"A newspaper report said the group ""made an over night hit at the Floating Palace and remained there for 22 weeks.""",1,4,== Career ==,4421660
+another ten years,DT CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,He was able to work in the industry for another ten years until the Big Band era gave way to new musical forms.,1,6,== National Service and honors ==,4421660
+1724,CD,YEAR_REGEX_1,TIME,time_reference,"For his contribution to the recording industry, he has a star on the Hollywood Walk of Fame at 1724 Vine Street.",2,6,== National Service and honors ==,4421660
+two weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Barron hit number 1 for two weeks in 1949 with ""Cruising Down The River"".",3,6,== National Service and honors ==,4421660
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"Barron hit number 1 for two weeks in 1949 with ""Cruising Down The River"".",3,6,== National Service and honors ==,4421660
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Blue Barron died in 2005, at the age of 91, in Baltimore, Maryland, and is interred in Baltimore.",0,8,== Death ==,4421660
+February 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Christopher Popa on Blue Barron (February 2005),0,11,== External links ==,4421660

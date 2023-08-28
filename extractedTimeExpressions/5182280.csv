@@ -1,0 +1,59 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Steve Lawler (born 1973) is a British house music producer and DJ born in Birmingham, England he is a five time DJ Awards winner and has held residences at many popular dance clubs such as Space, The End and Twilo.",0,0,,5182280
+currently,RB,TIMELINE_REGEX,TIME,time_reference,He currently runs the record label VIVa Music.,3,0,,5182280
+the now,DT RB,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,He also founded the now defunct Harlem Records leaving a list of creditors in its wake.,4,0,,5182280
+1990 to 1994,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Beginning at age 17, Lawler staged a series of illegal parties in a tunnel under the M42 motorway from 1990 to 1994.",1,2,== Biography ==,5182280
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Lawler's first break came in 1995, when DJ Jason Bye asked him to play daily at Ibiza's reputed Café Mambo of San Antonio ""Sunset strip"" fame.",3,2,== Biography ==,5182280
+Sunset,NNP,DAY_TIME_REGEX,TIME,time_reference,"Lawler's first break came in 1995, when DJ Jason Bye asked him to play daily at Ibiza's reputed Café Mambo of San Antonio ""Sunset strip"" fame.",3,2,== Biography ==,5182280
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"In 1997 Steve's big break came when he met Darren Hughes of the nightclub Cream, who signed him to a residency at Cream.",4,2,== Biography ==,5182280
+of the nightclub,IN DT JJ,PREFIX_REGEX_1 PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 1997 Steve's big break came when he met Darren Hughes of the nightclub Cream, who signed him to a residency at Cream.",4,2,== Biography ==,5182280
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"In 2000, Steve started his first mix compilation series, titled 'Dark Drums'.",5,2,== Biography ==,5182280
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"This same year Steve started his new residency for Darren Hughes, at the infamous Club Home, where Steve Lawler held his own Friday nights Deep South which he ran until the club shut down 1 year later.",6,2,== Biography ==,5182280
+Friday nights,NNP NNS,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"This same year Steve started his new residency for Darren Hughes, at the infamous Club Home, where Steve Lawler held his own Friday nights Deep South which he ran until the club shut down 1 year later.",6,2,== Biography ==,5182280
+1 year,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"This same year Steve started his new residency for Darren Hughes, at the infamous Club Home, where Steve Lawler held his own Friday nights Deep South which he ran until the club shut down 1 year later.",6,2,== Biography ==,5182280
+previously,RB,TIMELINE_REGEX,TIME,time_reference,"He also released the single ""Rise In"" on Bedrock Records, which featured vocals from the Reef song Mellow (and previously remixed by Prince Quick) and reached No. 50 on the UK Singles Chart and No. 15 on Billboard's Hot Dance Music/Club Play.",7,2,== Biography ==,5182280
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"This same year, he was asked by Boxed to mix the third entry in their Nubreed series, Nubreed 003.",8,2,== Biography ==,5182280
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001 Lawler started a night in his hometown Birmingham called the Midweek Session, this was run for 12 parties only, running monthly on a Thursday night.",10,2,== Biography ==,5182280
+a night,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"In 2001 Lawler started a night in his hometown Birmingham called the Midweek Session, this was run for 12 parties only, running monthly on a Thursday night.",10,2,== Biography ==,5182280
+a Thursday night,DT NNP NN,INARTICLE_REGEX WEEK_REGEX DAY_TIME_REGEX,MODIFIER TIME TIME,time_reference,"In 2001 Lawler started a night in his hometown Birmingham called the Midweek Session, this was run for 12 parties only, running monthly on a Thursday night.",10,2,== Biography ==,5182280
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Lawler returned to London in 2002 with the beginning of his ""Harlem Nights"" event at The End, which was one of The End's most successful nights and ran continuously for 7 years. .",11,2,== Biography ==,5182280
+Nights,NNPS,DAY_TIME_REGEX,TIME,time_reference,"Lawler returned to London in 2002 with the beginning of his ""Harlem Nights"" event at The End, which was one of The End's most successful nights and ran continuously for 7 years. .",11,2,== Biography ==,5182280
+nights,NNS,DAY_TIME_REGEX,TIME,time_reference,"Lawler returned to London in 2002 with the beginning of his ""Harlem Nights"" event at The End, which was one of The End's most successful nights and ran continuously for 7 years. .",11,2,== Biography ==,5182280
+7 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Lawler returned to London in 2002 with the beginning of his ""Harlem Nights"" event at The End, which was one of The End's most successful nights and ran continuously for 7 years. .",11,2,== Biography ==,5182280
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Lawler founded the record label VIVa MUSiC in 2006.,12,2,== Biography ==,5182280
+weekly,NN,TIME_UNIT_REGEX,TIME,time_reference,"Steve Lawler's latest creation is his famed VIVa Warriors parties, which is toured globally and holds a Summer residency weekly on Sundays in Ibiza at the nightclub Sankeys Ibiza.",13,2,== Biography ==,5182280
+Sundays,NNP,WEEK_REGEX,TIME,time_reference,"Steve Lawler's latest creation is his famed VIVa Warriors parties, which is toured globally and holds a Summer residency weekly on Sundays in Ibiza at the nightclub Sankeys Ibiza.",13,2,== Biography ==,5182280
+the nightclub,DT JJ,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Steve Lawler's latest creation is his famed VIVa Warriors parties, which is toured globally and holds a Summer residency weekly on Sundays in Ibiza at the nightclub Sankeys Ibiza.",13,2,== Biography ==,5182280
+22 and 26 November 2010,CD CC CD NNP CD,DIGIT_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL MODIFIER NUMERAL TIME TIME,time_range,Lawler's wife Daniela appeared as a contestant on Come Dine With Me on Channel 4 between 22 and 26 November 2010.,14,2,== Biography ==,5182280
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000:,0,9,== Selected discography ==,5182280
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000:,0,10,== Selected discography ==,5182280
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001: Dark Drums 2 (Tide),0,11,== Selected discography ==,5182280
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002:,0,12,== Selected discography ==,5182280
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: Lights Out 2 (Boxed),0,13,== Selected discography ==,5182280
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005:,0,14,== Selected discography ==,5182280
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006:,0,15,== Selected discography ==,5182280
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"2007: VIVa London (Renaissance Records, Ultra Records)",0,16,== Selected discography ==,5182280
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"2008: VIVa Toronto (Renaissance Records, Ultra Records)",0,17,== Selected discography ==,5182280
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"2011: ""Lights Out Decade"" (VIVa MUSiC)",0,18,== Selected discography ==,5182280
+Decade,NNP,TIME_UNIT_REGEX,TIME,time_reference,"2011: ""Lights Out Decade"" (VIVa MUSiC)",0,18,== Selected discography ==,5182280
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"2012: ""VIVa Warriors"" – Mixed by Steve Lawler & Darius Syrossian (VIVa MUSiC)Singles1999: Novacane – ""Rainmaker"" (Glow Recordings)",0,19,== Selected discography ==,5182280
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"2000: ""Rise In"" (Bedrock) (UK Singles Chart",0,20,== Selected discography ==,5182280
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"2002: ""Andante"" (Bedrock)",0,21,== Selected discography ==,5182280
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"2004: ""Out at Night"" (Subversive)",0,22,== Selected discography ==,5182280
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"2004: ""Out at Night"" (Subversive)",0,22,== Selected discography ==,5182280
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"2005: ""That Sound"" (Beside Music, Joia Records)",0,23,== Selected discography ==,5182280
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"2006: S.L.A.D.L.Y. – ""Unicorn"" (VIVa MUSiC)",0,24,== Selected discography ==,5182280
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"2007: ""Courses For Horses"" (Renaissance Recordings)",0,25,== Selected discography ==,5182280
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"2007: ""Violet"" (Viva Music)",0,26,== Selected discography ==,5182280
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"2007: ""Sleep Walking (Tsuba)",0,27,== Selected discography ==,5182280
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"2008: ""21st Century Ketchup"" (Sci-Tec)",0,28,== Selected discography ==,5182280
+21st Century,JJ NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"2008: ""21st Century Ketchup"" (Sci-Tec)",0,28,== Selected discography ==,5182280
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"2008: ""Femme Fatale"" (Ovum)",0,29,== Selected discography ==,5182280
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"2009: ""Kalimba"" (R&S Records)",0,30,== Selected discography ==,5182280
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"2009: ""Carnival"" (Tanzbar)",0,31,== Selected discography ==,5182280
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"2009: ""Distrait"" (Systematic)",0,32,== Selected discography ==,5182280
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"2009: ""Hocus Pocus"" (VIVa MUSiC)",0,33,== Selected discography ==,5182280
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"2010: ""Almerina"" (Harthouse)",0,34,== Selected discography ==,5182280
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"2010: ""Gimme Some More"" (VIVa MUSiC)",0,35,== Selected discography ==,5182280
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"2013: ""Avaida (The Organ Track)"" (VIVa MUSiC)",0,36,== Selected discography ==,5182280
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"The DJ Awards organizes the annual electronic music DJ awards event it is the only international ceremony for DJs and also the oldest, the awards are held once a year at Pacha club in Ibiza Spain it is one of the most important accolades an artist can win or be honoured by.",0,39,== Awards and nominations == | === DJ Awards ===,5182280

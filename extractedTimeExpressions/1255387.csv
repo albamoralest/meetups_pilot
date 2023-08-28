@@ -1,0 +1,30 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 30 , 1980","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"(born January 30, 1980) is an American singer-songwriter.",1,0,,1255387
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"In 2010, Kelley signed to MCA Nashville and began a country music career.",0,1,,1255387
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Kelley released his independent album, Changing Faces, in 2001 and signed with Hollywood Records in 2002.",0,6,== Music career ==,1255387
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Kelley released his independent album, Changing Faces, in 2001 and signed with Hollywood Records in 2002.",0,6,== Music career ==,1255387
+"June 3 , 2003","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Working with John Alagia as his record producer, Kelley released the album, For the Ride Home, on June 3, 2003.",1,6,== Music career ==,1255387
+"August 23 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Almost Honest was released on August 23, 2005, and featured the hit single, ""Only You.",1,7,== Music career ==,1255387
+"June 6 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The digital version of the album was released through iTunes on June 6, 2006, while the physical album was released in stores in the United States on July 25, 2006.",3,7,== Music career ==,1255387
+"July 25 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The digital version of the album was released through iTunes on June 6, 2006, while the physical album was released in stores in the United States on July 25, 2006.",3,7,== Music career ==,1255387
+"January 14 , 2008","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Kelley's next album, Special Company, was released in the United States on January 14, 2008.",5,7,== Music career ==,1255387
+that summer,IN NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,Kelley also released a digital album that summer titled Backwoods on July 7.,7,7,== Music career ==,1255387
+July 7,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,Kelley also released a digital album that summer titled Backwoods on July 7.,7,7,== Music career ==,1255387
+September 23,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On September 23 of that year, Kelley released the album To Remember exclusively through Target stores.",8,7,== Music career ==,1255387
+23 of that year,CD IN DT NN,DIGIT_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER MODIFIER TIME,time_range,"On September 23 of that year, Kelley released the album To Remember exclusively through Target stores.",8,7,== Music career ==,1255387
+November 2009,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In November 2009, Kelley signed with MCA Nashville and began recording his first country album in 2010.",0,8,== Music career ==,1255387
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"In November 2009, Kelley signed with MCA Nashville and began recording his first country album in 2010.",0,8,== Music career ==,1255387
+August 2010,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The album's first single, ""Georgia Clay"", was released to country radio in August 2010.",1,8,== Music career ==,1255387
+March 2011,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The album, also entitled Georgia Clay, was released in March 2011.",3,8,== Music career ==,1255387
+2016,CD,YEAR_REGEX_1,TIME,time_reference,Kelley released the album New Lane Road in 2016.,4,8,== Music career ==,1255387
+2011,CD,YEAR_REGEX_1,TIME,time_reference,SupportingRevolution Tour  with Miranda Lambert (2011),0,10,== Music career == | === Concert tours ===,1255387
+the Night,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,Own the Night Tour  with Lady A (2011),0,11,== Music career == | === Concert tours ===,1255387
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Own the Night Tour  with Lady A (2011),0,11,== Music career == | === Concert tours ===,1255387
+2016,CD,YEAR_REGEX_1,TIME,time_reference,The Driver Tour  with Charles Kelley (2016),0,12,== Music career == | === Concert tours ===,1255387
+spring 2005,NN CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Kelley met actress Katherine Heigl in spring 2005 when she appeared in his music video ""Only You"".",0,14,== Personal life ==,1255387
+One year,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"One year later, in June 2006, they became engaged.",1,14,== Personal life ==,1255387
+June 2006,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"One year later, in June 2006, they became engaged.",1,14,== Personal life ==,1255387
+"December 23 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The Heigl-Kelley wedding took place on December 23, 2007 at the Stein Eriksen Lodge in Park City, Utah.",3,14,== Personal life ==,1255387
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"""In 2009, the couple adopted a South Korean baby girl, naming her Nancy Leigh, after Heigl's mother and her adopted, Korean-born older sister, respectively.",10,14,== Personal life ==,1255387
+April 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Kelley and Heigl adopted a second daughter, Adalaide Marie Hope, in April 2012.",13,14,== Personal life ==,1255387
+"December 20 , 2016","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"In addition to their two daughters, Josh Kelley and Katherine Heigl have a son, Joshua Bishop Kelley Jr., born December 20, 2016.",14,14,== Personal life ==,1255387

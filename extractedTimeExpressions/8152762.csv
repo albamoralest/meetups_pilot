@@ -1,0 +1,59 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"December 27 , 1921 – April 8 , 1982","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"James Whitney (December 27, 1921 – April 8, 1982), younger brother of John, was a filmmaker regarded as one of the great masters of abstract cinema.",0,1,,8152762
+"December 27 , 1921","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"James Whitney was born December 27, 1921, in Pasadena, California, and lived all his life in the Los Angeles area.",0,3,== Early life ==,8152762
+1940,CD,YEAR_REGEX_1,TIME,time_reference,"In 1940, he returned to Pasadena.",2,3,== Early life ==,8152762
+four decades,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"James completed a number of short films over four decades, two of which required at least five years of work.",0,5,== Career – early works ==,8152762
+five years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"James completed a number of short films over four decades, two of which required at least five years of work.",0,5,== Career – early works ==,8152762
+3 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"James spent 3 years working on Variations on a Circle (1942), which lasts some 20 minutes, and was made with 8mm film.",0,7,== Career – early works ==,8152762
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"James spent 3 years working on Variations on a Circle (1942), which lasts some 20 minutes, and was made with 8mm film.",0,7,== Career – early works ==,8152762
+lasts some 20 minutes,VBZ DT CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,,"James spent 3 years working on Variations on a Circle (1942), which lasts some 20 minutes, and was made with 8mm film.",0,7,== Career – early works ==,8152762
+1943 and 1944,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"James and John created their series of Five Film Exercises (John #1 and #5; James #2, #3 and #4) between 1943 and 1944, for which the brothers won a prize for best sound at the 1949 Brussels Experimental Film Competition.",0,8,== Career – early works ==,8152762
+the 1949,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"James and John created their series of Five Film Exercises (John #1 and #5; James #2, #3 and #4) between 1943 and 1944, for which the brothers won a prize for best sound at the 1949 Brussels Experimental Film Competition.",0,8,== Career – early works ==,8152762
+1946,CD,YEAR_REGEX_1,TIME,time_reference,"In 1946, the brothers travelled to San Francisco Museum of Modern Art to show their films at the first of ten annual ""Art in Cinema"" festivals, organized by Frank Stauffacher.",0,9,== Career – early works ==,8152762
+today,NN,TIMELINE_REGEX,TIME,time_reference,"James was a potter and ceramicist, interested in raku ware, and examples of his pottery still exist today.",0,11,== Career – early works ==,8152762
+1950 and 1955,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 1950 and 1955, James laboured to construct a truly astounding masterpiece, Yantra.",0,13,== Career – later works ==,8152762
+early 1959,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"A very short, black and white, manipulated fragment from an early version of Yantra was shown at one of the historic Vortex Concerts in San Francisco's Morrison planetarium in early 1959.",0,14,== Career – later works ==,8152762
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"This did not occur at the Morrison Planetarium Vortex Concerts, contrary to popular belief (Keefer, 2008).",2,14,== Career – later works ==,8152762
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Analogue computer equipment developed by brother John, allowed James to complete Lapis (1966) in two years, when it might have taken seven years otherwise.",0,15,== Career – later works ==,8152762
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Analogue computer equipment developed by brother John, allowed James to complete Lapis (1966) in two years, when it might have taken seven years otherwise.",0,15,== Career – later works ==,8152762
+seven years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Analogue computer equipment developed by brother John, allowed James to complete Lapis (1966) in two years, when it might have taken seven years otherwise.",0,15,== Career – later works ==,8152762
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Dwija (1973), meaning ""twice-born"" or ""soul"" in Sanskrit, is completely solarized, and much of the imagery is re-photographed by rear-projection to create a constant flow of hardly definable transformations of color and form.",0,16,== Career – later works ==,8152762
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Wu Ming (1977), meaning ""no name"" in Chinese, repeats a single action over and over – a particle disappears into infinity, and returns as a wave.",0,17,== Career – later works ==,8152762
+"April 8 , 1982","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"His two final films, intended to form a quartet with Dwija and Wu Ming, were Kang Jing Xiang and Li, which were left incomplete when James died April 8, 1982, after a brief and unexpected illness.",0,18,== Career – later works ==,8152762
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Several of James' films were preserved by Center for Visual Music, Los Angeles (CVM); HD transfers from their preservation project were seen in major museum exhibitions including Visual Music at MOCA and The Hirshhorn Museum (2005), Sons et Lumieres at Centre Pompidou (2004–05), The Third Mind at The Guggenheim Museum, and other shows.",0,19,== Career – later works ==,8152762
+2004–05,CD,YEAR_REGEX_1,TIME,time_reference,"Several of James' films were preserved by Center for Visual Music, Los Angeles (CVM); HD transfers from their preservation project were seen in major museum exhibitions including Visual Music at MOCA and The Hirshhorn Museum (2005), Sons et Lumieres at Centre Pompidou (2004–05), The Third Mind at The Guggenheim Museum, and other shows.",0,19,== Career – later works ==,8152762
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"As of this writing in 2017, the films are largely not in distribution, and difficult to rent or screen.",3,19,== Career – later works ==,8152762
+1939–1940,CD,YEAR_REGEX_1,TIME,time_reference,"Twenty Four Variations on an Original Theme (with John Whitney) (1939–1940) 5 min, 8mm",0,23,== Filmography ==,8152762
+5 min,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Twenty Four Variations on an Original Theme (with John Whitney) (1939–1940) 5 min, 8mm",0,23,== Filmography ==,8152762
+1940–1942,CD,YEAR_REGEX_1,TIME,time_reference,3 Untitled Films (with John Whitney) (1940–1942) 15 min 8mm,0,24,== Filmography ==,8152762
+1941–1942,CD,YEAR_REGEX_1,TIME,time_reference,"Variations on a Circle (1941–1942) 9 min, 8mm",0,25,== Filmography ==,8152762
+9 min,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Variations on a Circle (1941–1942) 9 min, 8mm",0,25,== Filmography ==,8152762
+1943–1944,CD,YEAR_REGEX_1,TIME,time_reference,"Film Exercises #2, #3 (1943–1944) 3 min, 16mm and #4 (1944) 8 min, 16mm.",0,26,== Filmography ==,8152762
+3 min,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Film Exercises #2, #3 (1943–1944) 3 min, 16mm and #4 (1944) 8 min, 16mm.",0,26,== Filmography ==,8152762
+1944,CD,YEAR_REGEX_1,TIME,time_reference,"Film Exercises #2, #3 (1943–1944) 3 min, 16mm and #4 (1944) 8 min, 16mm.",0,26,== Filmography ==,8152762
+8 min,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Film Exercises #2, #3 (1943–1944) 3 min, 16mm and #4 (1944) 8 min, 16mm.",0,26,== Filmography ==,8152762
+1950–1957,CD,YEAR_REGEX_1,TIME,time_reference,"Yantra (1950–1957) 8 min, 16mm.",0,27,== Filmography ==,8152762
+8 min,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Yantra (1950–1957) 8 min, 16mm.",0,27,== Filmography ==,8152762
+1959,CD,YEAR_REGEX_1,TIME,time_reference,Sound added in 1959.,1,27,== Filmography ==,8152762
+1963–1966,CD,YEAR_REGEX_1,TIME,time_reference,"Lapis (1963–1966) 10 min, 16mm",0,28,== Filmography ==,8152762
+10 min,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Lapis (1963–1966) 10 min, 16mm",0,28,== Filmography ==,8152762
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Dwija (1973), 16mm.",0,29,== Filmography ==,8152762
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Wu Ming (1977) 17 min, 16mm.",0,30,== Filmography ==,8152762
+17 min,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Wu Ming (1977) 17 min, 16mm.",0,30,== Filmography ==,8152762
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Kang Jing Xiang  (1982) 13 min, 16mm.",0,31,== Filmography ==,8152762
+13 min,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Kang Jing Xiang  (1982) 13 min, 16mm.",0,31,== Filmography ==,8152762
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"High Voltage (1959) 3 min, 16mm, constructed by Jordan Belson from James' footage, not directed by James",0,33,== Filmography ==,8152762
+3 min,CD NN,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"High Voltage (1959) 3 min, 16mm, constructed by Jordan Belson from James' footage, not directed by James",0,33,== Filmography ==,8152762
+"Weekly , 2005","NNP , CD",TIME_UNIT_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Willis, Holly: Cinema Du Dots: LA Weekly, 2005",0,35,== Further reading ==,8152762
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Boston: Harvard Film Archives, 1996",3,36,== Further reading ==,8152762
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Paris: Centre Pompidou, 1996",4,37,== Further reading ==,8152762
+May 1996,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Osnabruck Media Art Festival program May 1996.,2,38,== Further reading ==,8152762
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Bloomington and Indianapolis: Indiana University Press, 1995.",2,39,== Further reading ==,8152762
+Winter 1985–86,NNP CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"New York: Educational Film Library Association, Winter 1985–86",1,40,== Further reading ==,8152762
+"April 2 , 1985","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Los Angeles: David B. Goodstein, April 2, 1985.",3,41,== Further reading ==,8152762
+May 1977,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"New Magazine Beyond Baroque Foundation, May 1977",2,42,== Further reading ==,8152762
+1943–1978,CD,YEAR_REGEX_1,TIME,time_reference,The American Avant Garde 1943–1978.,2,43,== Further reading ==,8152762
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Oxford University Press, 1974.",3,43,== Further reading ==,8152762
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Arno Press, 1970",3,44,== Further reading ==,8152762
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Madrid:El Umbral/Santa Cruz de Tenerife:TEA, 2008.",4,45,== Further reading ==,8152762
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Brief excerpt from an Interview with James Whitney, 1974",0,50,== External links ==,8152762

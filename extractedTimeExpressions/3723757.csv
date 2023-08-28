@@ -1,0 +1,29 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"December 8 , 1946","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,0
+1954,CD,YEAR_REGEX_1,TIME,time_reference,3,2
+1964–1967,CD,YEAR_REGEX_1,TIME,time_reference,4,2
+1972,CD,YEAR_REGEX_1,TIME,time_reference,0,4
+1980,CD,YEAR_REGEX_1,TIME,time_reference,1,4
+2014,CD,YEAR_REGEX_1,TIME,time_reference,1,5
+2014–15,CD,YEAR_REGEX_1,TIME,time_reference,1,5
+1987,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+2005,CD,YEAR_REGEX_1,TIME,time_reference,1,6
+alternating nights,VBG NNS,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,0,7
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,0,7
+1985,CD,YEAR_REGEX_1,TIME,time_reference,0,8
+1997,CD,YEAR_REGEX_1,TIME,time_reference,3,8
+18 months,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,5,8
+1965,CD,YEAR_REGEX_1,TIME,time_reference,1,9
+five years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,10
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,10
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,1,10
+1987,CD,YEAR_REGEX_1,TIME,time_reference,2,10
+Nightingale,NNP,DAY_TIME_REGEX,TIME,time_reference,3,10
+1992,CD,YEAR_REGEX_1,TIME,time_reference,0,11
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,0,11
+1990,CD,YEAR_REGEX_1,TIME,time_reference,2,11
+currently,RB,TIMELINE_REGEX,TIME,time_reference,3,11
+their spring,PRP$ NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,,3,11
+2011,CD,YEAR_REGEX_1,TIME,time_reference,4,11
+2013 and 2015,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,5,11
+2016,CD,YEAR_REGEX_1,TIME,time_reference,0,12

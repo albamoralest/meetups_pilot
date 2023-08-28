@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1956–2013,CD,YEAR_REGEX_1,TIME,time_reference,"Mary Ruth Ray (1956–2013) was an internationally known classical musician who received critical acclaim throughout the United States, Europe and Russia.",0,0,,43293975
+1980 to 2013,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Ray was a faculty member at Brandeis University where she taught viola and chamber music from 1980 to 2013.,0,2,== Career ==,43293975
+2005,CD,YEAR_REGEX_1,TIME,time_reference,She was appointed Chair of the Music Department at Brandeis in 2005 and held that position for eight years.,1,2,== Career ==,43293975
+eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,She was appointed Chair of the Music Department at Brandeis in 2005 and held that position for eight years.,1,2,== Career ==,43293975
+a 1984,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"As co-founder and violist of the Lydian String Quartet she was awarded prizes at competitions in France, England and Canada, and was a 1984 winner of the Naumburg Award for Excellence in Chamber Music.",0,3,== Career ==,43293975
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Several of her 30-plus recordings with the Lydian String Quartet were chosen ""Best of the Year"" by The New York Times.",1,6,== Career ==,43293975
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"She was known to friends and colleagues as ""Violet,"" ""Vi"" and ""U.V."" She married violist Leonard Matczynski in 1978 and had a son.",1,9,== Personal life ==,43293975
+"January 29 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"She died from breast cancer at age 56 on January 29, 2013.",0,11,== Death ==,43293975

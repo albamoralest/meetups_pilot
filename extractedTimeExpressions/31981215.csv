@@ -1,0 +1,10 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"September 16 , 1946","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Wood Newton (born September 16, 1946 in Hampton, Arkansas, United States) is an American songwriter and musician based in Nashville, Tennessee.",0,0,,31981215
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Newton was born in Hampton, Arkansas, and graduated from Hampton High School in Hampton, Arkansas in 1964.",1,0,,31981215
+1970,CD,YEAR_REGEX_1,TIME,time_reference,He graduated from the University of Arkansas in 1970.,2,0,,31981215
+1978 and 1979,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 1978 and 1979, Newton recorded for Elektra Records, charting the singles ""Last Exit for Love"", ""Lock, Stock & Barrel"" and ""Julie (Do I Ever Cross Your Mind?)"".",0,1,,31981215
+Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"He later became a songwriter for other artists, with his credits including Razzy Bailey's number one single ""Midnight Hauler"".",1,1,,31981215
+Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Razzy Bailey – ""Midnight Hauler"", ""Blind Faith and the Naked Truth"", ""Twenty Years Ago""",0,10,== Songs written by Wood Newton ==,31981215
+Twenty Years Ago,CD NNS RB,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Razzy Bailey – ""Midnight Hauler"", ""Blind Faith and the Naked Truth"", ""Twenty Years Ago""",0,10,== Songs written by Wood Newton ==,31981215
+Twenty Years Ago,CD NNS NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Kenny Rogers – ""Twenty Years Ago"", ""I'll Be There For You""",0,14,== Songs written by Wood Newton ==,31981215
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"Alabama ""All Together Now""",0,20,== Songs written by Wood Newton ==,31981215

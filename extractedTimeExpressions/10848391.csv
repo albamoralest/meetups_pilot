@@ -1,0 +1,55 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"August 21 , 1974","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"John Kirkland Reid (born August 21, 1974) is a Scottish-Canadian country music artist.",0,0,,10848391
+July 1988,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Reid moved to Canada in July 1988 when he was 13.,1,0,,10848391
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"He graduated from Turner Fenton Secondary School in Brampton, Ontario, in 1992.",3,0,,10848391
+the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He was nominated for the 2008 Juno Award for Country Recording of the Year for Kicking Stones.,6,0,,10848391
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,He was nominated for the 2008 Juno Award for Country Recording of the Year for Kicking Stones.,6,0,,10848391
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Reid was named Male Artist of the Year at both the 2008 and 2009 CCMA Awards.,7,0,,10848391
+the 2008 and 2009,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,Reid was named Male Artist of the Year at both the 2008 and 2009 CCMA Awards.,7,0,,10848391
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"He also performed at the Canada Day celebrations on Parliament Hill on July 1, 2010, which the Queen and Prince Philip attended.",8,0,,10848391
+"July 1 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He also performed at the Canada Day celebrations on Parliament Hill on July 1, 2010, which the Queen and Prince Philip attended.",8,0,,10848391
+Another Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Another Day, Another Dime and Johnny Reid ===",1,2,"== Music career == | === Another Day, Another Dime and Johnny Reid ===",10848391
+Another Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Reid's debut album, Another Day, Another Dime, was released in 1997 on JCD Records.",0,3,"== Music career == | === Another Day, Another Dime and Johnny Reid ===",10848391
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Reid's debut album, Another Day, Another Dime, was released in 1997 on JCD Records.",0,3,"== Music career == | === Another Day, Another Dime and Johnny Reid ===",10848391
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"However, it was his second album, which was self-titled and released in 2000, where he saw minimal chart success.",2,3,"== Music career == | === Another Day, Another Dime and Johnny Reid ===",10848391
+four years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Reid's first single in four years, ""You Still Own Me"", was released in 2004.",0,5,== Music career == | === Born to Roll ===,10848391
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Reid's first single in four years, ""You Still Own Me"", was released in 2004.",0,5,== Music career == | === Born to Roll ===,10848391
+"March 15 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Born to Roll was released on March 15, 2005, via Open Road Recordings, and peaked at No. 5 on the Canadian Top Country Albums chart.",3,5,== Music career == | === Born to Roll ===,10848391
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"In 2007, Canadian music group Emerson Drive covered ""You Still Own Me"".",0,6,== Music career == | === Born to Roll ===,10848391
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"In 2007, a new single entitled ""Love Sweet Love"", would be released and act as the lead-off single to Kicking Stones, which was released on April 10, 2007.",0,8,== Music career == | === Kicking Stones and Dance with Me ===,10848391
+"April 10 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"In 2007, a new single entitled ""Love Sweet Love"", would be released and act as the lead-off single to Kicking Stones, which was released on April 10, 2007.",0,8,== Music career == | === Kicking Stones and Dance with Me ===,10848391
+March 2009,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Reid's fifth studio album, Dance with Me, was released in March 2009, and debuted at No. 1 on the Canadian Top Country Albums chart and No. 3 on the Canadian Albums Chart.",0,9,== Music career == | === Kicking Stones and Dance with Me ===,10848391
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"""A Woman Like You"" was released as the first single from the album and reached No. 4 on the country charts, peaking No. 4 in 2009.",1,9,== Music career == | === Kicking Stones and Dance with Me ===,10848391
+A Christmas,DT NNP,INARTICLE_REGEX HOLIDAY_REGEX,MODIFIER TIME,time_reference,"A Christmas album, entitled Christmas, was released November 10, 2009.",0,10,== Music career == | === Kicking Stones and Dance with Me ===,10848391
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"A Christmas album, entitled Christmas, was released November 10, 2009.",0,10,== Music career == | === Kicking Stones and Dance with Me ===,10848391
+"November 10 , 2009","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"A Christmas album, entitled Christmas, was released November 10, 2009.",0,10,== Music career == | === Kicking Stones and Dance with Me ===,10848391
+"February 9 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Reid's first live DVD, Live at the Jubilee was released on February 9, 2010.",1,10,== Music career == | === Kicking Stones and Dance with Me ===,10848391
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"In 2010, Johnny Reid signed with EMI for the release of his next studio album, A Place Called Love, released August 31, 2010.",0,12,== Music career == | === A Place Called Love ===,10848391
+"August 31 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"In 2010, Johnny Reid signed with EMI for the release of his next studio album, A Place Called Love, released August 31, 2010.",0,12,== Music career == | === A Place Called Love ===,10848391
+Today,NN,TIMELINE_REGEX,TIME,time_reference,"The first single, ""Today I'm Gonna Try and Change the World"" was released on June 7.",1,12,== Music career == | === A Place Called Love ===,10848391
+June 7,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"The first single, ""Today I'm Gonna Try and Change the World"" was released on June 7.",1,12,== Music career == | === A Place Called Love ===,10848391
+"March 29 , 2011","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Reid's second live DVD, Heart & Soul was released on March 29, 2011 in Canada.",2,12,== Music career == | === A Place Called Love ===,10848391
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"2012 marked the release of Johnny Reid's second album for EMI, Fire It Up.",0,14,== Music career == | === Fire It Up ===,10848391
+January 10,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,The title track was released on January 10 to Canadian radio and iTunes.,1,14,== Music career == | === Fire It Up ===,10848391
+Dawn,NNP,DAY_TIME_REGEX,TIME,time_reference,The album features Canadian guest artists Carolyn Dawn Johnson and Serena Ryder.,2,14,== Music career == | === Fire It Up ===,10848391
+second Christmas,JJ NNP,ORDINAL_REGEX_1 HOLIDAY_REGEX,NUMERAL TIME,time_reference,"Reid released his second Christmas album, A Christmas Gift to You, on October 22, 2013.",0,15,== Music career == | === Fire It Up ===,10848391
+A Christmas,NNP NNP,INARTICLE_REGEX HOLIDAY_REGEX,MODIFIER TIME,time_reference,"Reid released his second Christmas album, A Christmas Gift to You, on October 22, 2013.",0,15,== Music career == | === Fire It Up ===,10848391
+"October 22 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Reid released his second Christmas album, A Christmas Gift to You, on October 22, 2013.",0,15,== Music career == | === Fire It Up ===,10848391
+"November 13 , 2015","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Reid's first studio album for Universal Music Canada, What Love Is All About, was released on November 13, 2015.",0,17,== Music career == | === What Love Is All About ===,10848391
+Another Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Another Day, Another Dime (1997)",0,19,== Discography ==,10848391
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Another Day, Another Dime (1997)",0,19,== Discography ==,10848391
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Johnny Reid (2000),0,20,== Discography ==,10848391
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Born to Roll (2005),0,21,== Discography ==,10848391
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Kicking Stones (2007),0,22,== Discography ==,10848391
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Dance with Me (2009),0,23,== Discography ==,10848391
+2010,CD,YEAR_REGEX_1,TIME,time_reference,A Place Called Love (2010),0,24,== Discography ==,10848391
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Fire It Up (2012),0,25,== Discography ==,10848391
+2015,CD,YEAR_REGEX_1,TIME,time_reference,What Love Is All About (2015),0,26,== Discography ==,10848391
+2017,CD,YEAR_REGEX_1,TIME,time_reference,Revival (2017),0,27,== Discography ==,10848391
+2018,CD,YEAR_REGEX_1,TIME,time_reference,Revival Live (2018),0,28,== Discography ==,10848391
+of Christmas,IN NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,My Kind of Christmas (2019),0,29,== Discography ==,10848391
+2019,CD,YEAR_REGEX_1,TIME,time_reference,My Kind of Christmas (2019),0,29,== Discography ==,10848391
+of Christmas,IN NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,My Kind of Christmas - Deluxe Edition (2020),0,30,== Discography ==,10848391
+2020,CD,YEAR_REGEX_1,TIME,time_reference,My Kind of Christmas - Deluxe Edition (2020),0,30,== Discography ==,10848391
+2021,CD,YEAR_REGEX_1,TIME,time_reference,Love Someone (2021),0,31,== Discography ==,10848391
+the 2012,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Crystal Taliefero (Percussion, sax, acoustic guitar, Backup Vocals) on the 2012 Fire It Up tour.",0,47,== Band ==,10848391

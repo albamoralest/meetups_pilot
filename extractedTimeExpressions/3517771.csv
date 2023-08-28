@@ -1,19 +1,19 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"August 10 , 1922 – November 27 , 2009","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Al Alberts (born Al Albertini, August 10, 1922 – November 27, 2009) was an American popular singer and composer.",0,0,,3517771
-Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,"As a teenager, he appeared on the  Horn and Hardart Children's Hour, a radio program.",1,2,== Biography ==,3517771
-1954,CD,YEAR_REGEX_1,TIME,time_reference,"The song hit the No. 1 bestselling record twice in 1954, and won the Academy Award for Best Original Song the same year.",1,4,== Biography ==,3517771
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"The song hit the No. 1 bestselling record twice in 1954, and won the Academy Award for Best Original Song the same year.",1,4,== Biography ==,3517771
-May,NNP,MONTH_REGEX,TIME,time_reference,"Alberts also popularized the song ""On the Way to Cape May"", first through recording it, and then by performing it often on his later television show and specials.",2,4,== Biography ==,3517771
-the 1955,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The Four Aces biggest hit was ""Love Is a Many-Splendored Thing"", which was the theme to the 1955 film starring William Holden and Jennifer Jones.",0,5,== Biography ==,3517771
-four weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"The song was a number one hit for four weeks, and it also won the Academy Award for best song.",1,5,== Biography ==,3517771
-1960,CD,YEAR_REGEX_1,TIME,time_reference,"In 1960 he recorded On The Way To Cape May, a song that has become a Jersey Shore sound summertime anthem for the Philadelphia/Delaware Valley and South Jersey Shore area.",0,6,== Biography ==,3517771
-May,NNP,MONTH_REGEX,TIME,time_reference,"In 1960 he recorded On The Way To Cape May, a song that has become a Jersey Shore sound summertime anthem for the Philadelphia/Delaware Valley and South Jersey Shore area.",0,6,== Biography ==,3517771
-AM,NNP,HALFDAY_REGEX_1,TIME,time_reference,"It has become popular in a variety of 21st-century media, such as XM satellite and internet radio, and also enjoys regular airplay on many Delaware Valley AM and FM stations.",3,6,== Biography ==,3517771
-a one-hour Saturday afternoon,DT JJ NNP NN,INARTICLE_REGEX BASIC_NUMBER_REGEX_1 WEEK_REGEX DAY_TIME_REGEX,MODIFIER NUMERAL TIME TIME,time_reference,"Subsequently, he became a television personality in Philadelphia, where he hosted a one-hour Saturday afternoon talent show, called Al Alberts Showcase, first airing on WKBS-TV, and then on WPVI-TV that featured a panel of local children known as the ""Teeny Boppers"".",0,7,== Biography ==,3517771
-WKBS-TV,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Subsequently, he became a television personality in Philadelphia, where he hosted a one-hour Saturday afternoon talent show, called Al Alberts Showcase, first airing on WKBS-TV, and then on WPVI-TV that featured a panel of local children known as the ""Teeny Boppers"".",0,7,== Biography ==,3517771
-32 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"After 32 years, the show went off the air after Alberts' retirement in 2001.",8,7,== Biography ==,3517771
-2001,CD,YEAR_REGEX_1,TIME,time_reference,"After 32 years, the show went off the air after Alberts' retirement in 2001.",8,7,== Biography ==,3517771
-2010,CD,YEAR_REGEX_1,TIME,time_reference,The Broadcast Pioneers of Philadelphia posthumously inducted Alberts into their Hall of Fame in 2010.,2,9,== Death and legacy ==,3517771
-"November 27 , 2009","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Former 6abc host Al Alberts has died November 27, 2009, last updated 12:11 pm EST",0,13,== External links ==,3517771
-12:11 pm EST,CD NN NN,DIGIT_REGEX_1 HALFDAY_REGEX_1 TIME_ZONE_REGEX,NUMERAL TIME TIME,,"Former 6abc host Al Alberts has died November 27, 2009, last updated 12:11 pm EST",0,13,== External links ==,3517771
-1980s,CD,YEAR_REGEX_1,TIME,time_reference,Anthony J. Biondo Jr. – Al Alberts Showcase Teenie Bopper – 1980s,0,17,== External links ==,3517771
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"August 10 , 1922 – November 27 , 2009","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,1,2
+1954,CD,YEAR_REGEX_1,TIME,time_reference,1,4
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,1,4
+May,NNP,MONTH_REGEX,TIME,time_reference,2,4
+the 1955,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,5
+four weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,5
+1960,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+May,NNP,MONTH_REGEX,TIME,time_reference,0,6
+AM,NNP,HALFDAY_REGEX_1,TIME,time_reference,3,6
+a one-hour Saturday afternoon,DT JJ NNP NN,INARTICLE_REGEX BASIC_NUMBER_REGEX_1 WEEK_REGEX DAY_TIME_REGEX,MODIFIER NUMERAL TIME TIME,time_reference,0,7
+WKBS-TV,NNP,TIME_UNIT_REGEX,TIME,time_reference,0,7
+32 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,8,7
+2001,CD,YEAR_REGEX_1,TIME,time_reference,8,7
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2,9
+"November 27 , 2009","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,13
+12:11 pm EST,CD NN NN,DIGIT_REGEX_1 HALFDAY_REGEX_1 TIME_ZONE_REGEX,NUMERAL TIME TIME,,0,13
+1980s,CD,YEAR_REGEX_1,TIME,time_reference,0,17

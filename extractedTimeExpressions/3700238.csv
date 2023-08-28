@@ -1,0 +1,131 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"October 2 , 1929 – June 28 , 1992","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Howard Mancel Roberts (October 2, 1929 – June 28, 1992) was an American jazz guitarist, educator, and session musician.",0,0,,3700238
+Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years ==,1,1,== Early years ==,3700238
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"Roberts was born in Phoenix, Arizona to Damon and Vesta Roberts, and began playing guitar at the age of 8 - a Gibson manufactured $18 Kalamazoo student model acoustic given to him by his parents at Christmas.",0,2,== Early years ==,3700238
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"In 1992 Roberts was quoted in ""The Independent Newsletter"" by Steve Voce saying he considered that early experience to be “the most valuable” to him in his development as a player.",4,2,== Early years ==,3700238
+their day,PRP$ NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,,"At the time Roberts and his close friend and roommate, guitarist Howard Heitmeyer, would start their day by practicing 3 or 4 hours, catch an afternoon movie, returning to practice until they went to the clubs in the evening.",5,2,== Early years ==,3700238
+3 or 4 hours,CD CC CD NNS,DIGIT_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER NUMERAL TIME,time_range,"At the time Roberts and his close friend and roommate, guitarist Howard Heitmeyer, would start their day by practicing 3 or 4 hours, catch an afternoon movie, returning to practice until they went to the clubs in the evening.",5,2,== Early years ==,3700238
+an afternoon,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"At the time Roberts and his close friend and roommate, guitarist Howard Heitmeyer, would start their day by practicing 3 or 4 hours, catch an afternoon movie, returning to practice until they went to the clubs in the evening.",5,2,== Early years ==,3700238
+the evening,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"At the time Roberts and his close friend and roommate, guitarist Howard Heitmeyer, would start their day by practicing 3 or 4 hours, catch an afternoon movie, returning to practice until they went to the clubs in the evening.",5,2,== Early years ==,3700238
+early 1950,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"By the late ‘40s Roberts was playing with one of his boyhood friends, Pete Jolly - a well known jazz pianist - and they toured Washington and Idaho in early 1950.",11,2,== Early years ==,3700238
+The 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,The 1950s ==,1,3,== The 1950s ==,3700238
+1950,CD,YEAR_REGEX_1,TIME,time_reference,"In 1950, he moved to Los Angeles, California arriving with no place to live and carrying only his guitar and amp.",0,4,== The 1950s ==,3700238
+hours,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Roberts concentrated on the ‘after hours’ scene, jamming with such players as Sonny Stitt, Dexter Gordon and Buddy DeFranco.",1,4,== The 1950s ==,3700238
+one night,CD NN,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"After hearing him play one night, Roberts met Barney Kessel which began an important and lasting friendship.",2,4,== The 1950s ==,3700238
+1963,CD,YEAR_REGEX_1,TIME,time_reference,It was Kessel who introduced the young Roberts to guitarist Jack Marshall who eventually signed him to Capitol Records later on in 1963.,3,4,== The 1950s ==,3700238
+a 10 year old,DT CD NN JJ,INARTICLE_REGEX DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,"Ironically Roberts’ first gig was on The Al Pierce Show, a radio program which, as a 10 year old, Roberts had told his mom",5,4,== The 1950s ==,3700238
+550 a week,CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"It was his first paying job since moving to LA, making $550 a week.",7,4,== The 1950s ==,3700238
+the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"It was around this time that he started teaching guitar at Westlake College.1952 was the year Roberts played on his first record date,",8,4,== The 1950s ==,3700238
+1953,CD,YEAR_REGEX_1,TIME,time_reference,1953 saw him record a Troup album for Capitol Records.,11,4,== The 1950s ==,3700238
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"Following in 1955, Roberts played on the album The Chico Hamilton Trio which was released on the Pacific Jazz label.",12,4,== The 1950s ==,3700238
+Around 1956,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Around 1956, Troup signed him to Verve Records as a solo artist.",14,4,== The 1950s ==,3700238
+the early 1970s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"At this point Roberts decided to concentrate on recording, both as a solo artist and a Wrecking Crew session musician, a direction he would continue until the early 1970s.",17,4,== The 1950s ==,3700238
+of the May 1958,IN DT NNP CD,PREFIX_REGEX_1 PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME TIME,time_reference,One interesting story comes out of the May 1958 Peggy Lee record date he was hired for.,18,4,== The 1950s ==,3700238
+The 1960s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,The 1960s ==,1,5,== The 1960s ==,3700238
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"In 1963, Roberts recorded Color Him Funky and H.R. Is a Dirty Guitar Player, his first two albums after signing with Capitol.",0,6,== The 1960s ==,3700238
+of the day,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"After that, Roberts was referred to as simply H.R. and his albums were among the most anticipated jazz releases of the day.",3,6,== The 1960s ==,3700238
+around 1973,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Being frequently caught on camera with a modified ‘30s Gibson ES-150, known as a Charlie Christian model by collectors - and which he purchased from Herb Ellis in the ‘50s - this guitar was his main guitar in the early ‘60s through to around 1973.",8,6,== The 1960s ==,3700238
+1962,CD,YEAR_REGEX_1,TIME,time_reference,This guitar had started out as an original design in 1962 by Roberts and C.M.I. product designer and clinician Andy Nelson.,10,6,== The 1960s ==,3700238
+3 months,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Unfortunately for him both it and his Benson amp were stolen 3 months after he’d taken delivery on the guitar.,15,6,== The 1960s ==,3700238
+The Twilight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Between these 2 guitars, and a few others that Roberts used, his playing can be heard as the lead guitar on the theme from The Twilight Zone as well as acoustic and electric guitar on I Love Lucy, The Munsters, Bonanza, The Brady Bunch, Gilligan's Island, Green Acres, Get Smart, Batman, Beverly Hillbillies, Andy Griffith, Peter Gunn, Lost in Space, Dragnet, Wild Wild West, Mission: Impossible, The Odd Couple, Dick Van Dyke, I Dream of Jeannie, and the theme for the film Bullitt.",17,6,== The 1960s ==,3700238
+around 1976,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,From the ‘60s through to around 1976 it’s estimated he played on more than 2000 records and would routinely log more than 900 sessions a year for a time.,3,7,== The 1960s ==,3700238
+more than 2000,RBR IN CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,From the ‘60s through to around 1976 it’s estimated he played on more than 2000 records and would routinely log more than 900 sessions a year for a time.,3,7,== The 1960s ==,3700238
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,From the ‘60s through to around 1976 it’s estimated he played on more than 2000 records and would routinely log more than 900 sessions a year for a time.,3,7,== The 1960s ==,3700238
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Roberts, along with one of his former students Ron Benson, was involved in building guitar amplifiers in 1968 through 1970.",4,7,== The 1960s ==,3700238
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Roberts, along with one of his former students Ron Benson, was involved in building guitar amplifiers in 1968 through 1970.",4,7,== The 1960s ==,3700238
+around 2000,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The pair built around 2000 amps before some issues with investors brought a close to Benson Electronics, Inc. as a company.",9,7,== The 1960s ==,3700238
+the late 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"From the late 1960s, Roberts began to focus on teaching rather than recording.",0,9,== Later work ==,3700238
+some years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"For some years he also wrote an acclaimed column called ""Jazz Improvisation"" for Guitar Player magazine.",2,9,== Later work ==,3700238
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"In 1977, he co-founded the Musicians Institute (MI) in Hollywood.",4,9,== Later work ==,3700238
+"June 28 , 1992","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Roberts died of prostate cancer in Seattle, Washington, on June 28, 1992.",1,11,== Personal life ==,3700238
+the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Howard Roberts was among hundreds of artists whose material was destroyed in the 2008 Universal fire.,2,11,== Personal life ==,3700238
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"In 2007, Howard Roberts and other members of the Wrecking Crew were inducted into the Musicians Hall of Fame and Museum in Nashville, Tennessee.",0,13,== Awards and honors ==,3700238
+1962,CD,YEAR_REGEX_1,TIME,time_reference,He designed a guitar with C.M.I. production designer and clinician Andy Nelson in 1962.,1,15,== Guitars ==,3700238
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962, Howard Roberts endorsed Epiphone and later the Epiphone Howard Roberts model was introduced, this guitar being a modified Gibson L-4 based loosely on the design submitted by Roberts and Nelson.",3,15,== Guitars ==,3700238
+1969,CD,YEAR_REGEX_1,TIME,time_reference,In 1969 the model was rebranded as a Gibson.,5,15,== Guitars ==,3700238
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"In 1970, Gibson introduced the Howard Roberts Fusion model, an electric semi-hollow guitar.",6,15,== Guitars ==,3700238
+1988,CD,YEAR_REGEX_1,TIME,time_reference,The model evolved into Howard Roberts Fusion II in 1988 and Howard Roberts Fusion III in 1991.,7,15,== Guitars ==,3700238
+1991,CD,YEAR_REGEX_1,TIME,time_reference,The model evolved into Howard Roberts Fusion II in 1988 and Howard Roberts Fusion III in 1991.,7,15,== Guitars ==,3700238
+now,RB,TIMELINE_REGEX,TIME,time_reference,Both models are now discontinued.,8,15,== Guitars ==,3700238
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Mr. Roberts Plays Guitar (Verve, 1957)",0,18,== Discography == | === As leader ===,3700238
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Good Pickin's (Verve, 1959)",0,19,== Discography == | === As leader ===,3700238
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Color Him Funky (Capitol, 1963)",0,20,== Discography == | === As leader ===,3700238
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"H.R. Is a Dirty Guitar Player (Capitol, 1963)",0,21,== Discography == | === As leader ===,3700238
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Something's Cookin' (Capitol, 1964)",0,22,== Discography == | === As leader ===,3700238
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Goodies (Capitol, 1965)",0,23,== Discography == | === As leader ===,3700238
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"All-Time Great Instrumental Hits (Capitol, 1966)",0,24,== Discography == | === As leader ===,3700238
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"(Capitol, 1966)",1,25,== Discography == | === As leader ===,3700238
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"The Movin' Man (VSP, 1966)",0,26,== Discography == | === As leader ===,3700238
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"The Velvet Groove (Verve, 1966)",0,27,== Discography == | === As leader ===,3700238
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"(Capitol, 1967)",1,28,== Discography == | === As leader ===,3700238
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"(Capitol, 1967)",1,29,== Discography == | === As leader ===,3700238
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Out of Sight (But ""In"" Sound) (Capitol, 1968)",0,30,== Discography == | === As leader ===,3700238
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Spinning Wheel (Capitol, 1969)",0,31,== Discography == | === As leader ===,3700238
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Antelope Freeway (ABC Impulse!, 1971)",0,32,== Discography == | === As leader ===,3700238
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Sounds (Capitol, 1974)",0,33,== Discography == | === As leader ===,3700238
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Equinox Express Elevator (ABC Impulse!, 1975)",0,34,== Discography == | === As leader ===,3700238
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Lord Shango (Bryan, 1975)",0,35,== Discography == | === As leader ===,3700238
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"The Real Howard Roberts (Concord Jazz, 1978)",0,36,== Discography == | === As leader ===,3700238
+Spring,NNP,SEASON_REGEX,TIME,time_reference,"Turning to Spring (Discovery Records, 1981) -",0,37,== Discography == | === As leader ===,3700238
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Turning to Spring (Discovery Records, 1981) -",0,37,== Discography == | === As leader ===,3700238
+Mays,NNP,MONTH_REGEX,TIME,time_reference,Featuring Bill Mays,1,37,== Discography == | === As leader ===,3700238
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"The Magic Band Live at Donte's (V.S.O.P., 1995)",0,38,== Discography == | === As leader ===,3700238
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"The Magic Band II (V.S.O.P., 1998)",0,39,== Discography == | === As leader ===,3700238
+1968,CD,YEAR_REGEX_1,TIME,time_reference,Release of an Oath (1968) (Released under the Electric Prunes),0,42,== Discography == | === As sideman ===,3700238
+1968,CD,YEAR_REGEX_1,TIME,time_reference,Song of Innocence (1968),0,43,== Discography == | === As sideman ===,3700238
+1969,CD,YEAR_REGEX_1,TIME,time_reference,Songs of Experience (1969)With June Christy,0,44,== Discography == | === As sideman ===,3700238
+June,NNP,MONTH_REGEX,TIME,time_reference,Songs of Experience (1969)With June Christy,0,44,== Discography == | === As sideman ===,3700238
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Something Cool (Capitol Records, 1954)With Sonny & Cher",0,45,== Discography == | === As sideman ===,3700238
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Look at Us (Atco Records, 1965)With Buddy Collette",0,46,== Discography == | === As sideman ===,3700238
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Everybody's Buddy (Challenge, 1957)",0,47,== Discography == | === As sideman ===,3700238
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Jazz Loves Paris (Specialty, 1958)With Nancy Sinatra",0,48,== Discography == | === As sideman ===,3700238
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Sugar (Reprise Records, 1966)With Chico Hamilton",0,49,== Discography == | === As sideman ===,3700238
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Chico Hamilton Trio (Pacific Jazz, 1956)With John Lee Hooker",0,50,== Discography == | === As sideman ===,3700238
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Free Beer and Chicken (ABC Records, 1974)With",0,51,== Discography == | === As sideman ===,3700238
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Memphis Jackson (Impulse!, 1969)With Diane Schuur",0,52,== Discography == | === As sideman ===,3700238
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Deedles (GRP, 1984)With Plas Johnson",0,53,== Discography == | === As sideman ===,3700238
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"This Must Be the Plas (Capitol, 1959)With Hank Jones",0,54,== Discography == | === As sideman ===,3700238
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Just for Fun (Galaxy, 1977)With Harry Nilsson",0,55,== Discography == | === As sideman ===,3700238
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Harry (RCA Victor, 1969)With Bette Midler",0,56,== Discography == | === As sideman ===,3700238
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Broken Blossom (Atlantic Records, 1977)With John Klemmer",0,57,== Discography == | === As sideman ===,3700238
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Constant Throb (Impulse!, 1971)With",0,58,== Discography == | === As sideman ===,3700238
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Rosie Swings Softly (Verve Records, 1960)With Charles Kynard",0,59,== Discography == | === As sideman ===,3700238
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"(Pacific Jazz, 1963)With Peggy Lee",1,60,== Discography == | === As sideman ===,3700238
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Things Are Swingin' (Capitol Records, 1959)",0,61,== Discography == | === As sideman ===,3700238
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Blues Cross Country (Capitol Records, 1962)",0,62,== Discography == | === As sideman ===,3700238
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"In the Name of Love (Capitol Records, 1964)With Herbie Mann",0,63,== Discography == | === As sideman ===,3700238
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"The Magic Flute of Herbie Mann (Verve, 1957)With",0,64,== Discography == | === As sideman ===,3700238
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Monk's Blues (Columbia, 1968)With Frank Morgan",0,65,== Discography == | === As sideman ===,3700238
+"Presents , 1955","NNP , CD",TIMELINE_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Frank Morgan (Gene Norman Presents, 1955)With Shorty Rogers",0,66,== Discography == | === As sideman ===,3700238
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Chances Are It Swings (RCA Victor, 1958)With",0,67,== Discography == | === As sideman ===,3700238
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Introducing Pete Rugolo (Columbia, 1954)",0,68,== Discography == | === As sideman ===,3700238
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Adventures in Rhythm (Columbia, 1954)",0,69,== Discography == | === As sideman ===,3700238
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"Rugolomania (Columbia, 1955)",0,70,== Discography == | === As sideman ===,3700238
+1954–1955,CD,YEAR_REGEX_1,TIME,time_reference,"New Sounds by Pete Rugolo (Harmony, 1954–1955, [rel. 1957])",0,71,== Discography == | === As sideman ===,3700238
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"New Sounds by Pete Rugolo (Harmony, 1954–1955, [rel. 1957])",0,71,== Discography == | === As sideman ===,3700238
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Music for Hi-Fi Bugs (EmArcy, 1956)",0,72,== Discography == | === As sideman ===,3700238
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Out on a Limb (EmArcy, 1956)",0,73,== Discography == | === As sideman ===,3700238
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Rugolo Plays Kenton (EmArcy, 1958)",0,74,== Discography == | === As sideman ===,3700238
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Ten Trumpets and 2 Guitars (Mercury, 1961)",0,75,== Discography == | === As sideman ===,3700238
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"10 Saxophones and 2 Basses (Mercury, 1961)With",0,76,== Discography == | === As sideman ===,3700238
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Gone with the Wave (Colpix, 1964)",0,77,== Discography == | === As sideman ===,3700238
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Cool Hand Luke (Dot, 1967)",0,78,== Discography == | === As sideman ===,3700238
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"There's a Whole Lalo Schifrin Goin' On (Dot, 1968)",0,79,== Discography == | === As sideman ===,3700238
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"More Mission: Impossible (Paramount, 1968)",0,80,== Discography == | === As sideman ===,3700238
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Mannix (Themes from the Original Score of the Paramount Television Show) (Paramount, 1968)",0,81,== Discography == | === As sideman ===,3700238
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Bullitt (Warner Bros., 1968)",0,82,== Discography == | === As sideman ===,3700238
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Kelly's Heroes (MGM, 1970)",0,83,== Discography == | === As sideman ===,3700238
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Rock Requiem (Verve, 1971)With",0,84,== Discography == | === As sideman ===,3700238
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Flute 'n Oboe (Pacific Jazz, 1957) with Bob Cooper",0,85,== Discography == | === As sideman ===,3700238
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Blowin' Country (World Pacific, 1959) with Bob Cooper",0,86,== Discography == | === As sideman ===,3700238
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Windmills of Your Mind (Pacific Jazz, 1969)With Gábor Szabó",0,87,== Discography == | === As sideman ===,3700238
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Wind, Sky and Diamonds (Impulse!, 1967)With",0,88,== Discography == | === As sideman ===,3700238
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"Bobby Troup (Capitol, 1953)With Larry Williams",0,89,== Discography == | === As sideman ===,3700238
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Dizzy, Miss Lizzy (Specialty, 1958)",0,90,== Discography == | === As sideman ===,3700238
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Roberts, Howard; Almeida, Laurindo; Heitmeyer, Howard; Hendrickson, Al; Kessel, Barney; Pitman, Bill; Bain, Bob; Marshall, Jack (1961).",0,92,== Bibliography ==,3700238
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Roberts, Howard; Stewart, James (1971).",0,93,== Bibliography ==,3700238
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Roberts, Howard (1972).",0,94,== Bibliography ==,3700238
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Roberts, Howard; Grebb, Bob (1972).",0,95,== Bibliography ==,3700238
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Roberts, Howard; Hagberg, Garry L. (1989).",0,96,== Bibliography ==,3700238
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"Holder, Mitch; Roberts, Patty (2006).",0,99,== References ==,3700238
+1960-69,JJ,YEAR_REGEX_1,TIME,time_reference,"Recordings with Howard Roberts as sideman, 1960-69",0,102,== External links ==,3700238

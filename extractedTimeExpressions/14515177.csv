@@ -1,0 +1,16 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"June 26 , 1914 – August 19 , 1991","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"(June 26, 1914 – August 19, 1991) was an American musician, conductor, arranger and bandleader, most notable for his 1956 recording ""(Themes from)",1,0,,14515177
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"(June 26, 1914 – August 19, 1991) was an American musician, conductor, arranger and bandleader, most notable for his 1956 recording ""(Themes from)",1,0,,14515177
+1940,CD,YEAR_REGEX_1,TIME,time_reference,"In 1940, he took a job as an arranger for the orchestra of the Chicago-based radio station, WBBM, before moving to New York City in 1945 to become an arranger-conductor on network radio, where he worked with Paul Whiteman.",5,0,,14515177
+1945,CD,YEAR_REGEX_1,TIME,time_reference,"In 1940, he took a job as an arranger for the orchestra of the Chicago-based radio station, WBBM, before moving to New York City in 1945 to become an arranger-conductor on network radio, where he worked with Paul Whiteman.",5,0,,14515177
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1942, Benny Goodman recorded his composition ""Six Flats Unfurnished.",6,0,,14515177
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"""During the post-war years, he made several recordings for subsidiary labels of RCA Victor, and in 1954, finally scored a Top 40 hit with ""St. Louis Blues Mambo"".",7,0,,14515177
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"""During the post-war years, he made several recordings for subsidiary labels of RCA Victor, and in 1954, finally scored a Top 40 hit with ""St. Louis Blues Mambo"".",7,0,,14515177
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"In 1955, he began leading his own dance band, with which he had his Top 20 hit, ""(Themes From)",8,0,,14515177
+the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"The Man With the Golden Arm"", in the spring of the following year.",9,0,,14515177
+of the following year,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"The Man With the Golden Arm"", in the spring of the following year.",9,0,,14515177
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"He left RCA for Columbia Records in 1959, then moved to Roulette Records a year later.",10,0,,14515177
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He left RCA for Columbia Records in 1959, then moved to Roulette Records a year later.",10,0,,14515177
+1950 and 1965,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He was also the musical director of SESAC Jazz Classics between 1950 and 1965, and recorded several transcriptions for radio.",0,1,,14515177
+later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"A heart condition in his later years forced him into retirement, and he underwent several operations prior to his death.",2,1,,14515177
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"He died in 1991, aged 77.",3,1,,14515177

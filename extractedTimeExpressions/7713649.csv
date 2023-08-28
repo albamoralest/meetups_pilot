@@ -1,0 +1,42 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"September 15 , 1956 – March 22 , 1998","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"George Howard (September 15, 1956 – March 22, 1998) was an American smooth jazz saxophonist.",0,0,,7713649
+"September 15 , 1956","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Howard was born September 15, 1956 in Philadelphia.",0,2,== Music career ==,7713649
+the late 1970s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1970s, he toured with Grover Washington, Jr., who was one of his idols.",1,2,== Music career ==,7713649
+the early 1980s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the early 1980s, Howard released his first and second studio albums, Asphalt Gardens and Steppin' Out.",2,2,== Music career ==,7713649
+1984,CD,YEAR_REGEX_1,TIME,time_reference,The track was promoted in 1984 in the UK by DJ Robbie Vincent and is now a classic among soul and jazz enthusiasts.,5,2,== Music career ==,7713649
+now,RB,TIMELINE_REGEX,TIME,time_reference,The track was promoted in 1984 in the UK by DJ Robbie Vincent and is now a classic among soul and jazz enthusiasts.,5,2,== Music career ==,7713649
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"By 1985, his third album, Dancing in the Sun, had scaled the Billboard Jazz Album chart to No. 1.",0,3,== Music career ==,7713649
+the Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,"By 1985, his third album, Dancing in the Sun, had scaled the Billboard Jazz Album chart to No. 1.",0,3,== Music career ==,7713649
+the Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,"After the success of Dancing in the Sun, Howard left GRP Records to join MCA Records through the 1988 release of Reflections.",2,3,== Music career ==,7713649
+the 1988,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"After the success of Dancing in the Sun, Howard left GRP Records to join MCA Records through the 1988 release of Reflections.",2,3,== Music career ==,7713649
+1989,CD,YEAR_REGEX_1,TIME,time_reference,His next album Personal was released in 1989.,3,3,== Music career ==,7713649
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"However, he returned to GRP in 1990 and released Love and Understanding in 1991.",0,4,== Music career ==,7713649
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"However, he returned to GRP in 1990 and released Love and Understanding in 1991.",0,4,== Music career ==,7713649
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"(1992), When Summer Comes (1993), A Home Far Away (1994), and Attitude Adjustment (1996).",2,4,== Music career ==,7713649
+Summer,NNP,SEASON_REGEX,TIME,time_reference,"(1992), When Summer Comes (1993), A Home Far Away (1994), and Attitude Adjustment (1996).",2,4,== Music career ==,7713649
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"(1992), When Summer Comes (1993), A Home Far Away (1994), and Attitude Adjustment (1996).",2,4,== Music career ==,7713649
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"(1992), When Summer Comes (1993), A Home Far Away (1994), and Attitude Adjustment (1996).",2,4,== Music career ==,7713649
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"(1992), When Summer Comes (1993), A Home Far Away (1994), and Attitude Adjustment (1996).",2,4,== Music career ==,7713649
+first five years,JJ CD NNS,ORDINAL_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL NUMERAL TIME,time_reference,"His first five years with GRP, plus a selection of his MCA recordings, were summarized on 1997's The Very Best of George Howard and Then Some.",3,4,== Music career ==,7713649
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"His first five years with GRP, plus a selection of his MCA recordings, were summarized on 1997's The Very Best of George Howard and Then Some.",3,4,== Music career ==,7713649
+Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Howard returned to recording with Midnight Mood, which was released in January 1998, his final album before his death two months later.",0,5,== Music career ==,7713649
+January 1998,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Howard returned to recording with Midnight Mood, which was released in January 1998, his final album before his death two months later.",0,5,== Music career ==,7713649
+two months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Howard returned to recording with Midnight Mood, which was released in January 1998, his final album before his death two months later.",0,5,== Music career ==,7713649
+"March 20 , 1998","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He stayed with GRP until his death from colon cancer on March 20, 1998.",1,5,== Music career ==,7713649
+one month,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"His final album, There's a Riot Goin' On was released by Blue Note Records one month after his death.",2,5,== Music career ==,7713649
+1982,CD,YEAR_REGEX_1,TIME,time_reference,1982 Asphalt Gardens (Palo Alto),0,8,== Discography ==,7713649
+1984,CD,YEAR_REGEX_1,TIME,time_reference,1984 Steppin' Out (Palo Alto),0,9,== Discography ==,7713649
+1985,CD,YEAR_REGEX_1,TIME,time_reference,1985 Dancing in the Sun (Palo Alto),0,10,== Discography ==,7713649
+the Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,1985 Dancing in the Sun (Palo Alto),0,10,== Discography ==,7713649
+1986,CD,YEAR_REGEX_1,TIME,time_reference,1986 Love Will Follow (Palo Alto),0,11,== Discography ==,7713649
+1986,CD,YEAR_REGEX_1,TIME,time_reference,1986 A Nice Place to Be (MCA),0,12,== Discography ==,7713649
+1988,CD,YEAR_REGEX_1,TIME,time_reference,1988 Reflections (MCA),0,13,== Discography ==,7713649
+1989,CD,YEAR_REGEX_1,TIME,time_reference,1989 Personal (MCA),0,14,== Discography ==,7713649
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991 Love and Understanding (GRP),0,15,== Discography ==,7713649
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992 Do I Ever Cross Your Mind?,0,16,== Discography ==,7713649
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1993,0,17,== Discography ==,7713649
+Summer,NNP,SEASON_REGEX,TIME,time_reference,When Summer Comes (GRP),1,17,== Discography ==,7713649
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994 A Home Far Away (GRP),0,18,== Discography ==,7713649
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996 Attitude Adjustment (GRP),0,19,== Discography ==,7713649
+1998 Midnight,CD NNP,YEAR_REGEX_1 DAY_TIME_REGEX,TIME TIME,,1998 Midnight Mood (GRP),0,20,== Discography ==,7713649
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998 There's a Riot Goin' On (Blue Note),0,21,== Discography ==,7713649

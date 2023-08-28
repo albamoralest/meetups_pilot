@@ -1,0 +1,55 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 27 , 1903 – April 22 , 1965","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Silvia Șerbescu (January 27, 1903 – April 22, 1965) was a Romanian concert pianist.",0,0,,53721708
+1948,CD,YEAR_REGEX_1,TIME,time_reference,From 1948 until 1965 she was a piano professor at the Bucharest Music Conservatory.,3,0,,53721708
+1965,CD,YEAR_REGEX_1,TIME,time_reference,From 1948 until 1965 she was a piano professor at the Bucharest Music Conservatory.,3,0,,53721708
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"Her debut in Bucharest in 1928, with Liszt's Piano Concerto nr. 1, and a recital one year later, was perceived as sensational.",0,4,== Biography ==,53721708
+one year,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Her debut in Bucharest in 1928, with Liszt's Piano Concerto nr. 1, and a recital one year later, was perceived as sensational.",0,4,== Biography ==,53721708
+1955 and 1957,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 1955 and 1957 she was appointed soloist of the Bucharest “George Enescu” Philharmonic, with which she performed in Czechoslovakia and the Soviet Union.",6,4,== Biography ==,53721708
+the 1962,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"One of the highlights of her career was the 1962 series of recitals commemorating the centennial of Claude Debussy’s birth, playing the two books of the 24 Preludes.",7,4,== Biography ==,53721708
+"of their December 29 , 1942","IN PRP$ NNP CD , CD",PREFIX_REGEX_1 PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"She also collaborated in chamber music recitals with George Enescu, whose autograph on the programme of their December 29, 1942 recital reads: “To my remarkable partner of this evening, with admiration and respect”.",8,4,== Biography ==,53721708
+of this evening,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER MODIFIER TIME,time_reference,"She also collaborated in chamber music recitals with George Enescu, whose autograph on the programme of their December 29, 1942 recital reads: “To my remarkable partner of this evening, with admiration and respect”.",8,4,== Biography ==,53721708
+1948,CD,YEAR_REGEX_1,TIME,time_reference,From 1948 until her untimely death in 1965 she was  piano professor at the Bucharest State Conservatory “Ciprian Porumbescu”.,10,4,== Biography ==,53721708
+1965,CD,YEAR_REGEX_1,TIME,time_reference,From 1948 until her untimely death in 1965 she was  piano professor at the Bucharest State Conservatory “Ciprian Porumbescu”.,10,4,== Biography ==,53721708
+Falla,NNP,SEASON_REGEX,TIME,time_reference,"Silvia Șerbescu's repertoire included works by Bach, Beethoven, Brahms, Liszt, Debussy, Ravel, Busoni, Respighi, Enescu, De Falla, Albeniz and, notably, Rachmaninoff and Prokofiev.",0,6,== Repertoire ==,53721708
+Falla,NNP,SEASON_REGEX,TIME,time_reference,"She performed the Romanian premieres of Rachmaninoff's Rhapsody on a theme by Paganini, Busoni's Indian Fantasy, De Falla's Nights in the Gardens of Spain, Respighi's Toccata for piano and orchestra, Prokofiev's Piano Concertos Nr. 2 and Nr. 3, and Ravel's Piano concerto for the left hand.",1,6,== Repertoire ==,53721708
+Nights,NNS,DAY_TIME_REGEX,TIME,time_reference,"She performed the Romanian premieres of Rachmaninoff's Rhapsody on a theme by Paganini, Busoni's Indian Fantasy, De Falla's Nights in the Gardens of Spain, Respighi's Toccata for piano and orchestra, Prokofiev's Piano Concertos Nr. 2 and Nr. 3, and Ravel's Piano concerto for the left hand.",1,6,== Repertoire ==,53721708
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Electrecord, Bucharest, 1956.",1,9,== Recordings ==,53721708
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Electrecord, Bucharest, 1967.",1,10,== Recordings ==,53721708
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Casa Radio, Bucharest, 2004.",1,11,== Recordings ==,53721708
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Casa Radio, Bucharest, 2012",2,12,== Recordings ==,53721708
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"Electrecord, Bucharest, 2014 (EDC 1108-1109)",2,13,== Recordings ==,53721708
+1108-1109,CD,YEAR_REGEX_1,TIME,time_reference,"Electrecord, Bucharest, 2014 (EDC 1108-1109)",2,13,== Recordings ==,53721708
+1924,CD,YEAR_REGEX_1,TIME,time_reference,"1924 Dini Poenaru-Căplescu and Paul Ciuntu Prizes (awarded by a committee that included George Enescu, Cella Delavrancea, Mihail Jora, Alfred Alessandrescu)",0,15,== Awards ==,53721708
+1943,CD,YEAR_REGEX_1,TIME,time_reference,"1943 Romanian Order “Meritul Cultural”, awarded by King Michael I of Romania",0,16,== Awards ==,53721708
+1955,CD,YEAR_REGEX_1,TIME,time_reference,1955 Romanian State Prize,0,17,== Awards ==,53721708
+1955,CD,YEAR_REGEX_1,TIME,time_reference,1955 Romanian Award “Artistă Emerită”,0,18,== Awards ==,53721708
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"3–4, 2015.",1,21,== Bibliography ==,53721708
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Viorel Cosma: Muzicieni români - Lexicon, Editura Muzicală a Uniunii Compozitorilor, București, 1970.",0,22,== Bibliography ==,53721708
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"I, Editura Muzicală, București, 1989.",1,23,== Bibliography ==,53721708
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"IV, Editura Muzicală, București, 2001.",1,24,== Bibliography ==,53721708
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Iosif Sava and Florian Șerbescu: Silvia Șerbescu: ghid biografic, Editura Muzicală, București, 1976.",0,25,== Bibliography ==,53721708
+2019,CD,YEAR_REGEX_1,TIME,time_reference,"Lavinia Coman: Silvia Șerbescu, Prima noastră pianistă, Editura Muzicală Grafoart, București, 2019.",0,26,== Bibliography ==,53721708
+the past,DT NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"Alexandrescu, Romeo: Spicuiri critice din trecut (…from the past), 193–194, Ed.",0,28,== Further reading ==,53721708
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Muzicală a Uniunii Compozitorilor, Romania, 1970.",1,28,== Further reading ==,53721708
+1939-1958,CD,YEAR_REGEX_1,TIME,time_reference,"Emanoil Ciomac: Pagini de cronica Muzicală 1939-1958,vol.",0,29,== Further reading ==,53721708
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"II, 8, 141, 223–224, 251–252, Editura Muzicală, Bucharest, 1980.",1,29,== Further reading ==,53721708
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Ionescu-Vovu, Constantin: “Silvia Șerbescu – modestia in faţa artei”, in Iosif Sava, Teritorii Muzicale Românesti, Ed. Eminescu, Bucharest, 1980, 72–79.",0,32,== Further reading ==,53721708
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"O viaţă dăruită pianului, Ed. Meronia, Bucharest, 2005, 141–167.",1,33,== Further reading ==,53721708
+1995–96,CD,YEAR_REGEX_1,TIME,time_reference,"Imbert, Catherine: ""L’École Roumaine de Piano"", Piano no. 9, 1995–96, 107, 108, 111.",0,34,== Further reading ==,53721708
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Rădulescu, Liliana: “Permanenţe ale pianisticii româneȘti”, in Școala muzicală românească – 140 de ani de împliniri, U.N.M.B., Bucharest, 2004.",0,35,== Further reading ==,53721708
+June 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Rădulescu, Liliana: ""Evocări"", Melos, Bucharest, June 2005, 26–27.",0,36,== Further reading ==,53721708
+1903-1965,JJ,YEAR_REGEX_1,TIME,time_reference,"Alexandrescu, Liliana: “Ontmoetingen voorbij de tijd – Silvia Șerbescu (1903-1965) op CD”.",0,37,== Further reading ==,53721708
+Oct. 2005,NNP CD,MONTH_ABBR_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Roemenië Bulletin, Oct. 2005 (in Dutch), 41–43.",1,37,== Further reading ==,53721708
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Coman, Lavinia: “Silvia Șerbescu – un model pedagogic”, in Mari interpreţi, mari pedagogi, mari compozitori, U.N.M.B., Bucharest, 2008.",0,38,== Further reading ==,53721708
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"Dumitrescu, Alexandru: “Silvia Șerbescu – pianist și pedagog”, in Personalităţi marcante ale vieţii muzicale românești, U.N.M.B., Bucharest, 2013.",0,39,== Further reading ==,53721708
+March 2015,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Lelie, Christo: “Interview met Liana Șerbescu”, EPTA Bulletin, March 2015, 11–28.",0,40,== Further reading ==,53721708
+1922-1942,JJ,YEAR_REGEX_1,TIME,time_reference,"Orchis, Romulus: 1922-1942, Douăzeci de ani de activitate Muzicală – in lumina programelor „Filarmonicei”.",0,41,== Further reading ==,53721708
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"Bucharest, 1942, 28, 40, 46, 51, 58, 68, 72, 76, 90, 100.",1,41,== Further reading ==,53721708
+1864–1964,CD,YEAR_REGEX_1,TIME,time_reference,*Conservatorul „Ciprian Porumbescu” 1864–1964.,2,41,== Further reading ==,53721708
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Editura Muzicală a Uniunii Compozitorilor din R.P.R., Bucharest, 1964, 165–166.",3,41,== Further reading ==,53721708
+1868-1968,JJ,YEAR_REGEX_1,TIME,time_reference,"Cosma, Viorel: Filarmonica „George Enescu” din București (1868-1968), 76, 155, 162, 165, 172, 177, 180, 182, 185, 187, 193,206, 209, 213, 214, 216, 218, 224, 228, 231, 235, 238, 240, 243, 245, 248, 252, 255, 264, 285, Bucharest,1968.",0,42,== Further reading ==,53721708
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Cosma, Octavian Lazăr: Simfonicele Radiodifuziunii Române, Casa Radio, Bucharest, 1999, 55, 70, 92, 110, 120, 155, 177, 214, 245, 258, 608, 619, 625, 634, 642, 650, 674, 675, 678, 691, 692, 698, 701, 707, 710.",0,43,== Further reading ==,53721708
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Muzicală, Bucharest, 2003.",1,44,== Further reading ==,53721708
+2010–2014,CD,YEAR_REGEX_1,TIME,time_reference,"Cosma, Octavian Lazăr: Universitatea Naţională de Muzică din București la 140 de ani, Ed. U.N.M.B., Bucharest, 2010–2014, vol.",0,45,== Further reading ==,53721708
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Muzicală a Uniunii Compozitorilor, Bucharest, 1974.",1,46,== Further reading ==,53721708
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"Fogg, Angela: ""Maestrii Artei Interpretative; Collectia Maestro in collaboration with SOCIETATEA ROMANA DE REDIODIFUZIUNE Silvia Serbescu plays Albeniz, Debussy, Rachmaninov and Prokofiev"" in Piano Journal 84, London, 2007, 39.",0,47,== Further reading ==,53721708

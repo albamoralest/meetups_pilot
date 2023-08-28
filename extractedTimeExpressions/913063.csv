@@ -1,0 +1,91 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"August 6 , 1965","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ravi Coltrane (born August 6, 1965) is an American jazz saxophonist.",0,0,,913063
+two years old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,Ravi Coltrane was under two years old in 1967 when his father died.,4,2,== Biography ==,913063
+1967,CD,YEAR_REGEX_1,TIME,time_reference,Ravi Coltrane was under two years old in 1967 when his father died.,4,2,== Biography ==,913063
+a 1983,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"He is a 1983 graduate of El Camino Real High School in Woodland Hills, California.",0,3,== Biography ==,913063
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"In 1986, he studied music, concentrating on saxophone at the California Institute of the Arts.",1,3,== Biography ==,913063
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"In 1997, after performing on over thirty recordings as a sideman, Coltrane recorded Moving Pictures, his first album as leader, working with drummer Jeff ""Tain"" Watts, bassist Lonnie Plaxico, and pianist Michael Cain.",0,4,== Biography ==,913063
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Coltrane's second album, From the Round Box (2000), was recorded with pianist Geri Allen, trumpeter Ralph Alessi, bassist James Genus, and drummer Eric Harland.",2,4,== Biography ==,913063
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Mad 6 (2002), Coltrane's first album for Sony, featured drummer Steve Hass, pianist George Colligan, and bassist James Genus.",3,4,== Biography ==,913063
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In Flux (2005) included bassist Drew Gress, pianist Luis Perdomo, and drummer E. J. Strickland.",4,4,== Biography ==,913063
+January 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 2005, Coltrane performed in India for the first time as part of a delegation of American jazz musicians sent on a State Department tour to promote HIV/AIDS awareness.",0,5,== Biography ==,913063
+a January 16,DT NNP CD,INARTICLE_REGEX MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,"Performances included a January 16 concert in Mumbai (Bombay), a tribute to Martin Luther King Jr. in Delhi on January 17, and a music festival in Delhi on January 18 organized by violinist L. Subramaniam.",2,5,== Biography ==,913063
+January 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Performances included a January 16 concert in Mumbai (Bombay), a tribute to Martin Luther King Jr. in Delhi on January 17, and a music festival in Delhi on January 18 organized by violinist L. Subramaniam.",2,5,== Biography ==,913063
+January 18,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Performances included a January 16 concert in Mumbai (Bombay), a tribute to Martin Luther King Jr. in Delhi on January 17, and a music festival in Delhi on January 18 organized by violinist L. Subramaniam.",2,5,== Biography ==,913063
+January 18,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Also on January 18, Coltrane performed at the Coltrane Shankar Centre, where Coltrane met with the man he was named after.",3,5,== Biography ==,913063
+2001 and 2013,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"""The Coltrane Quartet played at the Monterey Jazz Festival in 2001 and 2013, the Montreux Jazz Festival and the Newport Jazz Festival in 2004, and the Vienna Jazz Festival in 2005.",5,5,== Biography ==,913063
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"""The Coltrane Quartet played at the Monterey Jazz Festival in 2001 and 2013, the Montreux Jazz Festival and the Newport Jazz Festival in 2004, and the Vienna Jazz Festival in 2005.",5,5,== Biography ==,913063
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"""The Coltrane Quartet played at the Monterey Jazz Festival in 2001 and 2013, the Montreux Jazz Festival and the Newport Jazz Festival in 2004, and the Vienna Jazz Festival in 2005.",5,5,== Biography ==,913063
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008, Coltrane became part of the Blue Note 7, a septet formed that year in honor of the 70th anniversary of Blue Note Records.",0,6,== Biography ==,913063
+that year,IN NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 2008, Coltrane became part of the Blue Note 7, a septet formed that year in honor of the 70th anniversary of Blue Note Records.",0,6,== Biography ==,913063
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"The group recorded an album in 2008 entitled Mosaic, which was released in 2009 by Blue Note/EMI, and toured the United States to promote the album from January to April 2009.",1,6,== Biography ==,913063
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"The group recorded an album in 2008 entitled Mosaic, which was released in 2009 by Blue Note/EMI, and toured the United States to promote the album from January to April 2009.",1,6,== Biography ==,913063
+January to April 2009,NNP TO NNP CD,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME TIME,time_reference,"The group recorded an album in 2008 entitled Mosaic, which was released in 2009 by Blue Note/EMI, and toured the United States to promote the album from January to April 2009.",1,6,== Biography ==,913063
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"In 2013, he performed at the Village Vanguard.",0,7,== Biography ==,913063
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"In 2016 he traveled to Australia to play at the opening of Bird's Basement, the first international section of Birdland.",1,7,== Biography ==,913063
+The following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,The following year he would return to Australia during September to play at The Basement in Sydney and again at Bird's Basement in Melbourne.,2,7,== Biography ==,913063
+September,NNP,MONTH_REGEX,TIME,time_reference,The following year he would return to Australia during September to play at The Basement in Sydney and again at Bird's Basement in Melbourne.,2,7,== Biography ==,913063
+the 6th of August 1965,DT CD IN NNP CD,PREFIX_REGEX_1 DIGIT_REGEX_1 PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER NUMERAL MODIFIER TIME TIME,time_reference,"Ravi Coltrane was born on the 6th of August 1965 on Long Island, New York and was the second eldest son in the family.",0,9,== Personal life ==,913063
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"After the death of John Coltrane in 1967, Alice Coltrane moved the family to Los Angeles.",1,9,== Personal life ==,913063
+1982,CD,YEAR_REGEX_1,TIME,time_reference,Tragedy struck the family again in 1982 when his older brother John Coltrane Jr. died in a car accident at the age of 17.,0,10,== Personal life ==,913063
+1986,CD,YEAR_REGEX_1,TIME,time_reference,He went on to enroll at the California Institute of the Arts in 1986 where he continued to study music.,3,10,== Personal life ==,913063
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"While struggling to play, he graduated and then moved to an apartment with rehearsal space adjacent to a commercial space in Queens in 1991.",4,10,== Personal life ==,913063
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"In 1991 while playing with Elvin Jones, Coltrane met Kathleen Hennessy, manager of the Regattabar.",0,11,== Personal life ==,913063
+1999,CD,YEAR_REGEX_1,TIME,time_reference,They married in 1999.,1,11,== Personal life ==,913063
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998:,0,16,== Discography == | === As leader ===,913063
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000: From the Round Box (RCA),0,17,== Discography == | === As leader ===,913063
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002:,0,18,== Discography == | === As leader ===,913063
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005:,0,19,== Discography == | === As leader ===,913063
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009:,0,20,== Discography == | === As leader ===,913063
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012:,0,21,== Discography == | === As leader ===,913063
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009: Mosaic: A Celebration of Blue Note Records (Blue Note/EMI)With Grand Central,0,22,== Discography == | === As leader ===,913063
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992: Sax Storm (Evidence),0,23,== Discography == | === As leader ===,913063
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1993:,0,24,== Discography == | === As leader ===,913063
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995:,0,25,== Discography == | === As leader ===,913063
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008: Seraphic Light (Telarc),0,26,== Discography == | === As leader ===,913063
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011:,0,29,== Discography == | === As sideman ===,913063
+2019,CD,YEAR_REGEX_1,TIME,time_reference,2019:,0,30,== Discography == | === As sideman ===,913063
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998:,0,31,== Discography == | === As sideman ===,913063
+the Now,DT RB,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,In the Now (HighNote)With Terence Blanchard,1,31,== Discography == | === As sideman ===,913063
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013:,0,32,== Discography == | === As sideman ===,913063
+2020,CD,YEAR_REGEX_1,TIME,time_reference,2020:,0,33,== Discography == | === As sideman ===,913063
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996:,0,34,== Discography == | === As sideman ===,913063
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994:,0,35,== Discography == | === As sideman ===,913063
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995:,0,36,== Discography == | === As sideman ===,913063
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996:,0,37,== Discography == | === As sideman ===,913063
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998:,0,38,== Discography == | === As sideman ===,913063
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999:,0,39,== Discography == | === As sideman ===,913063
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,40,== Discography == | === As sideman ===,913063
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002:,0,41,== Discography == | === As sideman ===,913063
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,42,== Discography == | === As sideman ===,913063
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996:,0,43,== Discography == | === As sideman ===,913063
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016:,0,44,== Discography == | === As sideman ===,913063
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011:,0,45,== Discography == | === As sideman ===,913063
+Afternoons,NNP,DAY_TIME_REGEX,TIME,time_reference,Orange Afternoons (Greenleaf)With Flying Lotus,1,45,== Discography == | === As sideman ===,913063
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,46,== Discography == | === As sideman ===,913063
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001:,0,47,== Discography == | === As sideman ===,913063
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991:,0,48,== Discography == | === As sideman ===,913063
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992: Going Home (Enja)With Ryan Kisor,0,49,== Discography == | === As sideman ===,913063
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992:,0,50,== Discography == | === As sideman ===,913063
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996:,0,51,== Discography == | === As sideman ===,913063
+of the Sunrise,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER MODIFIER TIME,time_reference,Beauty of the Sunrise (PolyGram)With Tisziji Muñoz,1,51,== Discography == | === As sideman ===,913063
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000:,0,52,== Discography == | === As sideman ===,913063
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003:,0,53,== Discography == | === As sideman ===,913063
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013:,0,54,== Discography == | === As sideman ===,913063
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013: Paul Shaffer Presents: Tisziji Muñoz – Divine Radiance Live!,0,55,== Discography == | === As sideman ===,913063
+Presents,NNS,TIMELINE_REGEX,TIME,time_reference,2013: Paul Shaffer Presents: Tisziji Muñoz – Divine Radiance Live!,0,55,== Discography == | === As sideman ===,913063
+2014,CD,YEAR_REGEX_1,TIME,time_reference,2014: Let The Sound Go Forth!,0,56,== Discography == | === As sideman ===,913063
+2014,CD,YEAR_REGEX_1,TIME,time_reference,2014:,0,57,== Discography == | === As sideman ===,913063
+2014,CD,YEAR_REGEX_1,TIME,time_reference,2014:,0,58,== Discography == | === As sideman ===,913063
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992: MX (Red Baron)With Luis Perdomo,0,59,== Discography == | === As sideman ===,913063
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005:,0,60,== Discography == | === As sideman ===,913063
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Munchin' (Muse, 1993)",0,61,== Discography == | === As sideman ===,913063
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Mistérios (Warner Bros., 1994)",0,62,== Discography == | === As sideman ===,913063
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"No Job Too Big or Small (Savoy, 1999)With Bob Thiele Collective",0,63,== Discography == | === As sideman ===,913063
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1993:,0,64,== Discography == | === As sideman ===,913063
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002: Bar Talk (Columbia)With Yosuke Yamashita,0,65,== Discography == | === As sideman ===,913063
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996:,0,66,== Discography == | === As sideman ===,913063
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997:,0,67,== Discography == | === As sideman ===,913063
+2019,CD,YEAR_REGEX_1,TIME,time_reference,2019:,0,68,== Discography == | === As sideman ===,913063
+2014,CD,YEAR_REGEX_1,TIME,time_reference,2014:,0,69,== Discography == | === As sideman ===,913063
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007:,0,70,== Discography == | === As sideman ===,913063

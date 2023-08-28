@@ -1,0 +1,60 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"July 23 , 1909 or July 4 , 1910 – January 21 , 1992","NNP CD , CD CC NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"William Thomas ""Champion Jack"" Dupree (July 23, 1909 or July 4, 1910 – January 21, 1992) was an American blues and boogie-woogie pianist and singer.",0,0,,188301
+"July 4 , July 10","NNP CD , NNP CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL MODIFIER TIME NUMERAL,time_reference,"His birth date has been given as July 4, July 10, and July 23, 1908, 1909, or 1910; the researchers Bob Eagle and Eric LeBlanc give July 4, 1910.",2,2,== Biography ==,188301
+"July 23 , 1908 , 1909","NNP CD , CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME,time_reference,"His birth date has been given as July 4, July 10, and July 23, 1908, 1909, or 1910; the researchers Bob Eagle and Eric LeBlanc give July 4, 1910.",2,2,== Biography ==,188301
+1910,CD,YEAR_REGEX_1,TIME,time_reference,"His birth date has been given as July 4, July 10, and July 23, 1908, 1909, or 1910; the researchers Bob Eagle and Eric LeBlanc give July 4, 1910.",2,2,== Biography ==,188301
+"July 4 , 1910","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"His birth date has been given as July 4, July 10, and July 23, 1908, 1909, or 1910; the researchers Bob Eagle and Eric LeBlanc give July 4, 1910.",2,2,== Biography ==,188301
+about six years previously,IN CD NNS RB,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX TIMELINE_REGEX,MODIFIER NUMERAL TIME TIME,time_reference,"He was orphaned at the age of eight and sent to the Colored Waifs Home in New Orleans, an institution for orphaned or delinquent boys (about six years previously, Louis Armstrong had also been sent to the Home, after being arrested as a ""dangerous and suspicious character"").",3,2,== Biography ==,188301
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He was a cook in the United States Navy and was held by the Japanese for two years as a prisoner of war.,1,5,== Biography ==,188301
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"In 1959, he played an unofficial (and unpaid) duo gig with Alexis Korner at the London School of Economics.",5,5,== Biography ==,188301
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Dupree moved to Europe in 1960, settling first in Switzerland and then Denmark (in the anarchist-occupied Freetown Christiania in Copenhagen), England, Sweden and, finally, Germany.",0,6,== Biography ==,188301
+"June 17 , 1971","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On June 17, 1971, he played at the Montreux Jazz Festival, in the Casino Kursaal, with King Curtis, backed by Cornell Dupree on guitar, Jerry Jemmott on bass and Oliver Jackson on drums.",1,6,== Biography ==,188301
+1973,CD,YEAR_REGEX_1,TIME,time_reference,The recording of the concert was released in 1973 as the album King Curtis & Champion Jack Dupree:,2,6,== Biography ==,188301
+the 1970s and 1980s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"In the 1970s and 1980s, he lived at Ovenden in Halifax, England, after marrying a Halifax native, Shirley Ann Harrison, whom he met in London.",4,6,== Biography ==,188301
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"He divorced Shirley in 1976 and moved to Copenhagen, where he lived in the Freetown Christiania.",0,7,== Biography ==,188301
+of the 1975,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"This period of his life was the subject of the 1975 film Barrelhouse Blues - Feelings and Situations by the artists Laurie Grundt and Eva Acking which includes several filmed performances, including one where Dupree plays drum set.",1,7,== Biography ==,188301
+"January 21 , 1992","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died of cancer on January 21, 1992, in Hanover.",3,7,== Biography ==,188301
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"On his best-known album, Blues from the Gutter, released by Atlantic Records in 1958, he was accompanied on guitar by Larry Dale, whose playing on that record inspired Brian Jones of the Rolling Stones.",0,12,== Musical style and output ==,188301
+later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In later years Dupree recorded with John Mayall, Mick Taylor, Eric Clapton and The Band.",0,13,== Musical style and output ==,188301
+The 1967,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Although best known as a singer and pianist in the New Orleans style, Dupree occasionally pursued more musically adventurous projects, including Dupree 'N' McPhee: The 1967 Blue Horizon Session, a collaboration with the English guitarist Tony McPhee, recorded for Blue Horizon (record label).",1,13,== Musical style and output ==,188301
+now,RB,TIMELINE_REGEX,TIME,time_reference,His recording of “Shakin’ Mother for You” now features on the playlist of most DJ’s on the UK Lindy Hop scene and it has become the de facto standard track for the ‘Cardiff Stroll’.,3,13,== Musical style and output ==,188301
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Blues from the Gutter (Atlantic, 1958)",0,16,== Discography == | === Studio albums ===,188301
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Champion Jack's Natural & Soulful Blues (Atlantic, 1959)",0,17,== Discography == | === Studio albums ===,188301
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Champion of the Blues (Atlantic, 1961)",0,18,== Discography == | === Studio albums ===,188301
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"The Women Blues of Champion Jack Dupree (Folkways, 1961)",0,19,== Discography == | === Studio albums ===,188301
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Trouble, Trouble (Storyville, 1962)",0,20,== Discography == | === Studio albums ===,188301
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"The Best of the Blues (Storyville, 1963)",0,21,== Discography == | === Studio albums ===,188301
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Champion Jack Dupree Of New Orleans (Storyville, 1965)",0,22,== Discography == | === Studio albums ===,188301
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"From New Orleans to Chicago (Decca, 1966)",0,23,== Discography == | === Studio albums ===,188301
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"When You Feel the Feeling You Was Feeling (Blue Horizon, 1968) with Paul Kossoff, guitar; Duster Bennett, harmonica; Simon Kirke, drums",0,24,== Discography == | === Studio albums ===,188301
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Scoobydoobydoo (Blue Horizon, 1969, UK), also released as Blues Masters, Vol.",0,25,== Discography == | === Studio albums ===,188301
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"10 (Blue Horizon, 1972)",1,25,== Discography == | === Studio albums ===,188301
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"The Heart of the Blues Is Sound (BYG, 1969)",0,26,== Discography == | === Studio albums ===,188301
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"The Incredible Champion Jack Dupree (Sonet, 1970), 12 tracks recorded in Copenhagen in 1960-63.",0,27,== Discography == | === Studio albums ===,188301
+1960-63,CD,YEAR_REGEX_1,TIME,time_reference,"The Incredible Champion Jack Dupree (Sonet, 1970), 12 tracks recorded in Copenhagen in 1960-63.",0,27,== Discography == | === Studio albums ===,188301
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"The Hamburg Session (Happy Bird, 1974)",0,28,== Discography == | === Studio albums ===,188301
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Champion Jack Dupree ""1977"" (Isadora, 1977), also released as Hamhark & Limer Beans",0,29,== Discography == | === Studio albums ===,188301
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Champion Jack Dupree ""1977"" (Isadora, 1977), also released as Hamhark & Limer Beans",0,29,== Discography == | === Studio albums ===,188301
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Back Home in New Orleans (Bullseye Blues, 1990)",0,30,== Discography == | === Studio albums ===,188301
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Forever and Ever (Bullseye Blues, 1991)",0,31,== Discography == | === Studio albums ===,188301
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"One Last Time (Bullseye Blues, 1993)",0,32,== Discography == | === Studio albums ===,188301
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Champion Jack Dupree (Festival, 1971)",0,34,== Discography == | === Live albums ===,188301
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Alive, ""Live"" and Well (Chrischaa, 1976)",0,35,== Discography == | === Live albums ===,188301
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"The Blues Jubilee Album (Pinorrekk, 1984)",0,36,== Discography == | === Live albums ===,188301
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Live at Burnley (JSP, 1989)",0,37,== Discography == | === Live albums ===,188301
+May 1966,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Jivin' with Jack: Live in Manchester, May 1966 (Jasmine, 2002)",0,38,== Discography == | === Live albums ===,188301
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Jivin' with Jack: Live in Manchester, May 1966 (Jasmine, 2002)",0,38,== Discography == | === Live albums ===,188301
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Bad Luck Blues: Live with Freeway 75 (Bad Luck Blues, 2003)",0,39,== Discography == | === Live albums ===,188301
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Champion Jack Dupree And His Blues Band featuring Mickey Baker (Decca, 1967)",0,41,== Discography == | === Collaborations ===,188301
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Tricks, with Mickey Baker (Vogue, 1968), also released as Anthologie du Blues, Vol. 1",0,42,== Discography == | === Collaborations ===,188301
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"(Disques Vogue, 1968, France)",1,42,== Discography == | === Collaborations ===,188301
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"I'm Happy to Be Free, with Mickey Baker and Hal Singer (Vogue, 1971)",0,43,== Discography == | === Collaborations ===,188301
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Blues at Montreux, with King Curtis (Atlantic, 1973)",0,44,== Discography == | === Collaborations ===,188301
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Freedom, with the Monty Sunshine band (Pinorrekk, 1980)",0,45,== Discography == | === Collaborations ===,188301
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Real Combination, with Henry Ojutkangas (Dig It, 1980)",0,46,== Discography == | === Collaborations ===,188301
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"I Had That Dream, with Kenn Lending (Pinorrekk, 1982)",0,47,== Discography == | === Collaborations ===,188301
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Get You An Ol' Man, with Brenda Bell and Louisiana Red (Paris, 1984)",0,48,== Discography == | === Collaborations ===,188301
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Rockin' The Boogie, with Kenn Lending (Blue Moon, 1988)",0,49,== Discography == | === Collaborations ===,188301
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Sings Blues Classics, with Axel Zwingenberger (Vagabond, 1990)",0,50,== Discography == | === Collaborations ===,188301
+1940–2010,CD,YEAR_REGEX_1,TIME,time_reference,"Illustrated Champion Jack Dupree discography (lists 185 separate records, 1940–2010)",0,54,== External links ==,188301
+a 1975,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"Barrelhouse Blues: Feelings and Situations a 1975 film by Jack Dupree, Eva Acking and Laurie Grunt, Dansk Filmcentrum, at vimeo.com",0,55,== External links ==,188301

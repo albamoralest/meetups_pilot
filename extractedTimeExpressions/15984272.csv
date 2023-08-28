@@ -1,0 +1,70 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"September 12 , 1768 – May 24 , 1831","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Benjamin Carr (September 12, 1768 – May 24, 1831) was an American composer, singer, teacher, and music publisher.",0,0,,15984272
+1731–80,CD,YEAR_REGEX_1,TIME,time_reference,"He was also the nephew of his namesake Benjamin Carr (1731–80), who ran an instrument-making and repair shop in London for over 20 years.",1,2,== Biography ==,15984272
+20 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He was also the nephew of his namesake Benjamin Carr (1731–80), who ran an instrument-making and repair shop in London for over 20 years.",1,2,== Biography ==,15984272
+1793,CD,YEAR_REGEX_1,TIME,time_reference,"In 1793 he traveled to Philadelphia with a stage company, and a year later went with the same company to New York, where he stayed until 1797.",3,2,== Biography ==,15984272
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 1793 he traveled to Philadelphia with a stage company, and a year later went with the same company to New York, where he stayed until 1797.",3,2,== Biography ==,15984272
+1797,CD,YEAR_REGEX_1,TIME,time_reference,"In 1793 he traveled to Philadelphia with a stage company, and a year later went with the same company to New York, where he stayed until 1797.",3,2,== Biography ==,15984272
+Later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Later that year he moved to Philadelphia, where he became a prominent member of the city’s musical life.",4,2,== Biography ==,15984272
+the 1790s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He was ""decidedly the most important and prolific music publisher in America during the 1790s (as well as one of its most distinguished composers), conducting, in addition to his Philadelphia business, a New York branch from 1794 to 1797, when it was acquired by James Hewitt"".",0,3,== Biography ==,15984272
+1794 to 1797,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He was ""decidedly the most important and prolific music publisher in America during the 1790s (as well as one of its most distinguished composers), conducting, in addition to his Philadelphia business, a New York branch from 1794 to 1797, when it was acquired by James Hewitt"".",0,3,== Biography ==,15984272
+1794,CD,YEAR_REGEX_1,TIME,time_reference,"In 1794 he began publishing ""a new song every Monday"".",1,3,== Biography ==,15984272
+every Monday,DT NNP,PREFIX_REGEX_1 WEEK_REGEX,MODIFIER TIME,time_reference,"In 1794 he began publishing ""a new song every Monday"".",1,3,== Biography ==,15984272
+each Monday,DT NNP,PREFIX_REGEX_1 WEEK_REGEX,MODIFIER TIME,time_reference,"This particular ""each Monday"" series, however, only lasted 5 weeks.",4,3,== Biography ==,15984272
+lasted 5 weeks,VBD CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,,"This particular ""each Monday"" series, however, only lasted 5 weeks.",4,3,== Biography ==,15984272
+1801–31,CD,YEAR_REGEX_1,TIME,time_reference,"Carr was well-known as a teacher of keyboard and singing, and he served as organist and choirmaster at St Augustine's Catholic Church (1801–31) and at St Peter's Episcopal Church (1816–31).",0,4,== Biography ==,15984272
+1816–31,CD,YEAR_REGEX_1,TIME,time_reference,"Carr was well-known as a teacher of keyboard and singing, and he served as organist and choirmaster at St Augustine's Catholic Church (1801–31) and at St Peter's Episcopal Church (1816–31).",0,4,== Biography ==,15984272
+1820,CD,YEAR_REGEX_1,TIME,time_reference,"In 1820 he was one of the principal founders of the Musical Fund Society of Philadelphia, and he is known as the ""Father of Philadelphia Music"".",1,4,== Biography ==,15984272
+1794,CD,YEAR_REGEX_1,TIME,time_reference,"Carr's best known orchestral work was the Federal Overture (1794), composed for theatrical audiences.",0,6,== Music ==,15984272
+1800–04,CD,YEAR_REGEX_1,TIME,time_reference,"He published many of own 61 art songs in two serial anthologies, the Musical Journal for the Piano Forte (1800–04) and Carr’s Musical Miscellany in Occasional Numbers (1812–25).",0,7,== Music ==,15984272
+1812–25,CD,YEAR_REGEX_1,TIME,time_reference,"He published many of own 61 art songs in two serial anthologies, the Musical Journal for the Piano Forte (1800–04) and Carr’s Musical Miscellany in Occasional Numbers (1812–25).",0,7,== Music ==,15984272
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"Also among his songs are several sets of ballads, including Six Ballads from The Lady of the Lake op.7, published in the same year (1810) as the poem by Sir Walter Scott on which they are based; the set contains the Hymn to the Virgin (""Ave Maria""), which is especially notable for its harp-like arpeggiated accompaniment.",1,7,== Music ==,15984272
+1810,CD,YEAR_REGEX_1,TIME,time_reference,"Also among his songs are several sets of ballads, including Six Ballads from The Lady of the Lake op.7, published in the same year (1810) as the poem by Sir Walter Scott on which they are based; the set contains the Hymn to the Virgin (""Ave Maria""), which is especially notable for its harp-like arpeggiated accompaniment.",1,7,== Music ==,15984272
+1798,CD,YEAR_REGEX_1,TIME,time_reference,Carr’s most popular song was “The Little Sailor Boy” (1798).,2,7,== Music ==,15984272
+1810,CD,YEAR_REGEX_1,TIME,time_reference,"He was perhaps the first American composer to set a Shakespeare text to music, and his Hymn to the Virgin (1810) is generally considered one of the finest early American songs.",3,7,== Music ==,15984272
+1826,CD,YEAR_REGEX_1,TIME,time_reference,"He also wrote several important pedagogical works, including the Lessons and Exercises in Vocal Music (c.1811) and The Analytical Instructor for the Piano Forte (1826).",5,7,== Music ==,15984272
+Oct 1792,NN CD,MONTH_ABBR_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Oct 1792,1,11,== Compositions ==,15984272
+26 Feb 1794,CD NN CD,DIGIT_REGEX_1 MONTH_ABBR_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,,"The Caledonian Frolic (ballet), Philadelphia, New, 26 Feb 1794",0,12,== Compositions ==,15984272
+9 July 1794,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Irish Lili (ballet), Philadelphia, New, 9 July 1794",0,13,== Compositions ==,15984272
+14 Jan 1795,CD NNP CD,DIGIT_REGEX_1 MONTH_ABBR_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Macbeth (incidental music), New York, 14 Jan 1795",0,14,== Compositions ==,15984272
+7 April 1795,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Poor Jack (ballet), New York, 7 April 1795",0,15,== Compositions ==,15984272
+18 April 1796,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"The Archers (opera, W. Dunlap), New York, John Street, 18 April 1796",0,16,== Compositions ==,15984272
+24 Nov 1794,CD NN CD,DIGIT_REGEX_1 MONTH_ABBR_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,,"S. Arnold: The Children in the Wood, Philadelphia, 24 Nov 1794",0,18,== Compositions ==,15984272
+19 May 1795,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"C. Dibdin: The Deserter, New York, 19 May 1795",0,19,== Compositions ==,15984272
+16 Jan 1797,CD NNP CD,DIGIT_REGEX_1 MONTH_ABBR_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Linn: Bourneville Castle, New York, 16 Jan 1797 [music by Arne]",0,20,== Compositions ==,15984272
+1800,CD,YEAR_REGEX_1,TIME,time_reference,"Holcroft: The Spanish Barber, 1800",0,21,== Compositions ==,15984272
+1794,CD,YEAR_REGEX_1,TIME,time_reference,"Four Ballads (W. Shakespeare, J.E. Harwood) (1794)",0,23,== Compositions ==,15984272
+1799,CD,YEAR_REGEX_1,TIME,time_reference,"Three Ballads, op.2 (1799)",0,24,== Compositions ==,15984272
+1810,CD,YEAR_REGEX_1,TIME,time_reference,"Six Ballads from … The Lady of the Lake (W. Scott), op.7 (1810)",0,25,== Compositions ==,15984272
+1811,CD,YEAR_REGEX_1,TIME,time_reference,"Lessons and Exercises in Vocal Music, op.8 (Baltimore, ?1811)",0,26,== Compositions ==,15984272
+1813,CD,YEAR_REGEX_1,TIME,time_reference,"Four Ballads from … Rokeby (Scott), op.10 (Baltimore, 1813)",0,27,== Compositions ==,15984272
+1814,CD,YEAR_REGEX_1,TIME,time_reference,"The History of England, op.11 (Baltimore, ?1814)",0,28,== Compositions ==,15984272
+1824,CD,YEAR_REGEX_1,TIME,time_reference,"Six Canzonets, op.14 (1824)",0,30,== Compositions ==,15984272
+1794,CD,YEAR_REGEX_1,TIME,time_reference,"Federal Overture, piano (1794)",0,32,== Compositions ==,15984272
+1796,CD,YEAR_REGEX_1,TIME,time_reference,"Six sonatas, piano (1796)",0,33,== Compositions ==,15984272
+March,NNP,MONTH_REGEX,TIME,time_reference,"Dead March and Monody for General Washington, piano and vocal score (Baltimore, 1799/1800)",0,34,== Compositions ==,15984272
+1799/1800,CD,YEAR_REGEX_1,TIME,time_reference,"Dead March and Monody for General Washington, piano and vocal score (Baltimore, 1799/1800)",0,34,== Compositions ==,15984272
+1800,CD,YEAR_REGEX_1,TIME,time_reference,"Three divertimentos, in Musical Journal for the Piano Forte, i (1800)",0,35,== Compositions ==,15984272
+1801,CD,YEAR_REGEX_1,TIME,time_reference,"Voluntary, organ (?1801)",0,36,== Compositions ==,15984272
+1804,CD,YEAR_REGEX_1,TIME,time_reference,"The Siege of Tripoli: Historical Naval Sonata, piano, op.4 (1804)",0,37,== Compositions ==,15984272
+1809,CD,YEAR_REGEX_1,TIME,time_reference,"Applicazione adolcita, piano, op.6 (1809)",0,38,== Compositions ==,15984272
+ad,NN,ERA_REGEX,TIME,time_reference,"Six Progressive Sonatinas, piano, violin/flute ad lib, op.9 (Baltimore, ?1812)",0,39,== Compositions ==,15984272
+1812,CD,YEAR_REGEX_1,TIME,time_reference,"Six Progressive Sonatinas, piano, violin/flute ad lib, op.9 (Baltimore, ?1812)",0,39,== Compositions ==,15984272
+1826,CD,YEAR_REGEX_1,TIME,time_reference,"The Analytical Instructor, piano, op.15 (1826)",0,40,== Compositions ==,15984272
+1800–04,CD,YEAR_REGEX_1,TIME,time_reference,Musical Journal for the Piano Forte (1800–04) [piano music and songs],0,42,== Compositions ==,15984272
+1805,CD,YEAR_REGEX_1,TIME,time_reference,"Masses, Vespers, Litanies, Hymns, Psalms, Anthems & Motets (1805)",0,43,== Compositions ==,15984272
+1812–25,CD,YEAR_REGEX_1,TIME,time_reference,Occasional Numbers (1812–25) [pf music and songs],0,45,== Compositions ==,15984272
+1816,CD,YEAR_REGEX_1,TIME,time_reference,A Collection of Chants and Tunes for the Episcopal Churches of Philadelphia (1816),0,46,== Compositions ==,15984272
+1820,CD,YEAR_REGEX_1,TIME,time_reference,The Chorister (1820),0,47,== Compositions ==,15984272
+1825,CD,YEAR_REGEX_1,TIME,time_reference,Lyricks (1825),0,48,== Compositions ==,15984272
+1825,CD,YEAR_REGEX_1,TIME,time_reference,Le clavecin (1825),0,49,== Compositions ==,15984272
+1830,CD,YEAR_REGEX_1,TIME,time_reference,"Sacred Airs, in Six Numbers (1830)",0,50,== Compositions ==,15984272
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"Dickinson, Peter;  et al. (2013), ""Art Song"",  in Garrett, Charles Hiroshi (ed.), The Grove Dictionary of American Music, vol.",0,53,== References ==,15984272
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Meyer, Eve R, ed. (1986), Benjamin Carr: Selected Secular and Sacred Songs, vol.",0,54,== References ==,15984272
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Siek, Stephen (2001).",0,55,== References ==,15984272
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Smith, Ronnie L. (1986), ""Benjamin Carr"",  in Hitchcock, H. Wiley and Stanley Sadie (ed.), The New Grove Dictionary of American Music, vol.",0,56,== References ==,15984272
+1945,CD,YEAR_REGEX_1,TIME,time_reference,"Sonneck, Oscar George Theodore (1945), A Bibliography of Early Secular American Music (18th Century), Washington, D.C.:",0,57,== References ==,15984272
+18th Century,JJ NNP,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Sonneck, Oscar George Theodore (1945), A Bibliography of Early Secular American Music (18th Century), Washington, D.C.:",0,57,== References ==,15984272
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Wolfe, Richard J. (1980), Early American Music Engraving and Printing: A History of Music Publishing in America from 1787 to 1825 with Commentary on Earlier and Later Practices, Urbana, Illinois: University of Illinois Press, ISBN 0-252-00726-3",0,58,== References ==,15984272
+1787 to 1825,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Wolfe, Richard J. (1980), Early American Music Engraving and Printing: A History of Music Publishing in America from 1787 to 1825 with Commentary on Earlier and Later Practices, Urbana, Illinois: University of Illinois Press, ISBN 0-252-00726-3",0,58,== References ==,15984272
+1700s-1900s,JJ,YEAR_REGEX_1,TIME,time_reference,"Finding aid to the Hunt-Berol Sheet Music Collection, 1700s-1900s, at Columbia University.",0,63,== External links ==,15984272

@@ -1,166 +1,167 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"December 25 , 1907 – November 18 , 1994","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Cabell ""Cab"" Calloway III (December 25, 1907 – November 18, 1994) was an American jazz singer, dancer, bandleader and actor.",0,0,,155965
-65 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,His niche of mixing jazz and vaudeville won him acclaim during a career that spanned over 65 years.,2,0,,155965
-the early 1930s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,Calloway was a master of energetic scat singing and led one of the most popular dance bands in the United States from the early 1930s to the late 1940s.,3,0,,155965
-the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,Calloway was a master of energetic scat singing and led one of the most popular dance bands in the United States from the early 1930s to the late 1940s.,3,0,,155965
-the 1930s and 1940s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Calloway had several hit records in the 1930s and 1940s, becoming known as the ""Hi-de-ho"" man of jazz for his most famous song, ""Minnie the Moocher"", originally recorded in 1931.",5,0,,155965
-1931,CD,YEAR_REGEX_1,TIME,time_reference,"Calloway had several hit records in the 1930s and 1940s, becoming known as the ""Hi-de-ho"" man of jazz for his most famous song, ""Minnie the Moocher"", originally recorded in 1931.",5,0,,155965
-five consecutive decades,CD JJ NNS,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,He reached the Billboard charts in five consecutive decades (1930s–1970s).,6,0,,155965
-1930s–1970s,CD,YEAR_REGEX_1,TIME,time_reference,He reached the Billboard charts in five consecutive decades (1930s–1970s).,6,0,,155965
-1994,CD,YEAR_REGEX_1,TIME,time_reference,"Calloway also made several stage, film, and television appearances until his death in 1994 at the age of 86.",7,0,,155965
-1943,CD,YEAR_REGEX_1,TIME,time_reference,"He had roles in Stormy Weather (1943), Porgy and Bess (1953), The Cincinnati Kid (1965), and Hello Dolly! (1967).",8,0,,155965
-1953,CD,YEAR_REGEX_1,TIME,time_reference,"He had roles in Stormy Weather (1943), Porgy and Bess (1953), The Cincinnati Kid (1965), and Hello Dolly! (1967).",8,0,,155965
-1965,CD,YEAR_REGEX_1,TIME,time_reference,"He had roles in Stormy Weather (1943), Porgy and Bess (1953), The Cincinnati Kid (1965), and Hello Dolly! (1967).",8,0,,155965
-1967,CD,YEAR_REGEX_1,TIME,time_reference,"He had roles in Stormy Weather (1943), Porgy and Bess (1953), The Cincinnati Kid (1965), and Hello Dolly! (1967).",8,0,,155965
-the 1980,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,His career saw renewed interest when he appeared in the 1980 film The Blues Brothers.,9,0,,155965
-1993,CD,YEAR_REGEX_1,TIME,time_reference,"In 1993, Calloway received the National Medal of Arts from the United States Congress.",1,1,,155965
-2008,CD,YEAR_REGEX_1,TIME,time_reference,He posthumously received the Grammy Lifetime Achievement Award in 2008.,2,1,,155965
-1999,CD,YEAR_REGEX_1,TIME,time_reference,"His song ""Minnie the Moocher"" was inducted into the Grammy Hall of Fame in 1999, and added to the Library of Congress' National Recording Registry in 2019.",3,1,,155965
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"His song ""Minnie the Moocher"" was inducted into the Grammy Hall of Fame in 1999, and added to the Library of Congress' National Recording Registry in 2019.",3,1,,155965
-Christmas Day,NNP NNP,HOLIDAY_REGEX TIME_UNIT_REGEX,TIME TIME,time_reference,"Calloway was born in Rochester, New York, on Christmas Day in 1907 to an African American family.",0,3,== Early life ==,155965
-1907,CD,YEAR_REGEX_1,TIME,time_reference,"Calloway was born in Rochester, New York, on Christmas Day in 1907 to an African American family.",0,3,== Early life ==,155965
-1898,CD,YEAR_REGEX_1,TIME,time_reference,"His father, Cabell Calloway Jr., graduated from Lincoln University of Pennsylvania in 1898, and worked as a lawyer and in real estate.",2,3,== Early life ==,155965
-1921,CD,YEAR_REGEX_1,TIME,time_reference,"After he was caught playing dice on the church steps, his mother sent him to Downingtown Industrial and Agricultural School in 1921, a reform school run by his mother's uncle in Chester County, Pennsylvania.",7,3,== Early life ==,155965
-1922,CD,YEAR_REGEX_1,TIME,time_reference,"He began private vocal lessons in 1922, and studied music throughout his formal schooling.",9,3,== Early life ==,155965
-nightclubs,NNS,DAY_TIME_REGEX,TIME,time_reference,"Despite his parents' and teachers' disapproval of jazz, he began performing in nightclubs in Baltimore.",10,3,== Early life ==,155965
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"Calloway joined his high school basketball team, and in his senior year he started playing professional basketball with the Baltimore Athenians, a team in the Negro Professional Basketball League.",12,3,== Early life ==,155965
-1925,CD,YEAR_REGEX_1,TIME,time_reference,He graduated from Frederick Douglass High School in 1925.,13,3,== Early life ==,155965
-1927–1929,CD,YEAR_REGEX_1,TIME,time_reference,1927–1929:,1,5,== Music career == | === 1927–1929: Early career ===,155965
-1927,CD,YEAR_REGEX_1,TIME,time_reference,"In 1927, Calloway joined his older sister, Blanche Calloway, on tour for the popular black musical revue Plantation Days.",0,6,== Music career == | === 1927–1929: Early career ===,155965
-Days,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In 1927, Calloway joined his older sister, Blanche Calloway, on tour for the popular black musical revue Plantation Days.",0,6,== Music career == | === 1927–1929: Early career ===,155965
-nights,NNS,DAY_TIME_REGEX,TIME,time_reference,"Calloway spent most of his nights at Chicago's Dreamland Café, Sunset Cafe, and Club Berlin, performing as a singer, drummer, and master of ceremonies.",4,6,== Music career == | === 1927–1929: Early career ===,155965
-Sunset,NNP,DAY_TIME_REGEX,TIME,time_reference,"Calloway spent most of his nights at Chicago's Dreamland Café, Sunset Cafe, and Club Berlin, performing as a singer, drummer, and master of ceremonies.",4,6,== Music career == | === 1927–1929: Early career ===,155965
-Sunset,NNP,DAY_TIME_REGEX,TIME,time_reference,"At Sunset Cafe, he was an understudy for singer Adelaide Hall.",5,6,== Music career == | === 1927–1929: Early career ===,155965
-1929,CD,YEAR_REGEX_1,TIME,time_reference,"In 1929, Calloway relocated to New York with the band.",8,6,== Music career == | === 1927–1929: Early career ===,155965
-"September 20 , 1929","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"They opened at the Savoy Ballroom on September 20, 1929.",9,6,== Music career == | === 1927–1929: Early career ===,155965
-1930–1955,CD,YEAR_REGEX_1,TIME,time_reference,1930–1955:,1,7,== Music career == | === 1930–1955: Success ===,155965
-1930,CD,YEAR_REGEX_1,TIME,time_reference,"In 1930, the Missourians became known as Cab Calloway and His Orchestra.",0,8,== Music career == | === 1930–1955: Success ===,155965
-1931,CD,YEAR_REGEX_1,TIME,time_reference,"At the Cotton Club in Harlem, New York, the band was hired in 1931 to substitute for the Duke Ellington Orchestra while Ellington's band was on tour.",1,8,== Music career == | === 1930–1955: Success ===,155965
-a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,The band also performed twice a week for radio broadcasts on NBC.,3,8,== Music career == | === 1930–1955: Success ===,155965
-"50,000 a year",CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"During the depths of the Great Depression, Calloway was earning $50,000 a year at 23 years old.",5,8,== Music career == | === 1930–1955: Success ===,155965
-23 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"During the depths of the Great Depression, Calloway was earning $50,000 a year at 23 years old.",5,8,== Music career == | === 1930–1955: Success ===,155965
-1931,CD,YEAR_REGEX_1,TIME,time_reference,"In 1931, Calloway recorded his most famous song, ""Minnie the Moocher.""",6,8,== Music career == | === 1930–1955: Success ===,155965
-1932,CD,YEAR_REGEX_1,TIME,time_reference,"Calloway performed the song and two others, ""St. James Infirmary Blues"" and ""The Old Man of the Mountain,"" in the Betty Boop cartoons Minnie the Moocher (1932), Snow-White (1933), and The Old Man of the Mountain (1933).",8,8,== Music career == | === 1930–1955: Success ===,155965
-1933,CD,YEAR_REGEX_1,TIME,time_reference,"Calloway performed the song and two others, ""St. James Infirmary Blues"" and ""The Old Man of the Mountain,"" in the Betty Boop cartoons Minnie the Moocher (1932), Snow-White (1933), and The Old Man of the Mountain (1933).",8,8,== Music career == | === 1930–1955: Success ===,155965
-1933,CD,YEAR_REGEX_1,TIME,time_reference,"Calloway performed the song and two others, ""St. James Infirmary Blues"" and ""The Old Man of the Mountain,"" in the Betty Boop cartoons Minnie the Moocher (1932), Snow-White (1933), and The Old Man of the Mountain (1933).",8,8,== Music career == | === 1930–1955: Success ===,155965
-the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He performed in the 1930s in a series of short films for Paramount.,11,8,== Music career == | === 1930–1955: Success ===,155965
-50 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Calloway said 50 years later, ""it was called The Buzz back then.""",14,8,== Music career == | === 1930–1955: Success ===,155965
-The 1933,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The 1933 film International House featured Calloway performing his classic song, ""Reefer Man"", a tune about a man who smokes marijuana.",15,8,== Music career == | === 1930–1955: Success ===,155965
-1934,CD,YEAR_REGEX_1,TIME,time_reference,Fredi Washington was cast as Calloway's love interest in Cab Calloway's Hi-De-Ho (1934).,16,8,== Music career == | === 1930–1955: Success ===,155965
-1935,CD,YEAR_REGEX_1,TIME,time_reference,Lena Horne made her film debut as a dancer in Cab Calloway's Jitterbug Party (1935).,17,8,== Music career == | === 1930–1955: Success ===,155965
-1936,CD,YEAR_REGEX_1,TIME,time_reference,Calloway made his first Hollywood feature film appearance opposite Al Jolson in The Singing Kid (1936).,18,8,== Music career == | === 1930–1955: Success ===,155965
-1930 to 1932,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"According to film critic Arthur Knight, the creators of the film intended to ""erase and celebrate boundaries and differences, including most emphatically the color line...when Calloway begins singing in his characteristic style – in which the words are tools for exploring rhythm and stretching melody – it becomes clear that American culture is changing around Jolson and with (and through) Calloway"".: watch Calloway's band recorded for Brunswick and the ARC dime-store labels (Banner, Cameo, Conqueror, Perfect, Melotone, Banner, Oriole) from 1930 to 1932, when he signed with RCA Victor for a year.",20,8,== Music career == | === 1930–1955: Success ===,155965
-a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"According to film critic Arthur Knight, the creators of the film intended to ""erase and celebrate boundaries and differences, including most emphatically the color line...when Calloway begins singing in his characteristic style – in which the words are tools for exploring rhythm and stretching melody – it becomes clear that American culture is changing around Jolson and with (and through) Calloway"".: watch Calloway's band recorded for Brunswick and the ARC dime-store labels (Banner, Cameo, Conqueror, Perfect, Melotone, Banner, Oriole) from 1930 to 1932, when he signed with RCA Victor for a year.",20,8,== Music career == | === 1930–1955: Success ===,155965
-late 1934,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He returned to Brunswick in late 1934 through 1936, then moved to Variety, run by his manager, Irving Mills.",21,8,== Music career == | === 1930–1955: Success ===,155965
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"He returned to Brunswick in late 1934 through 1936, then moved to Variety, run by his manager, Irving Mills.",21,8,== Music career == | === 1930–1955: Success ===,155965
-1939,CD,YEAR_REGEX_1,TIME,time_reference,Their sessions were continued by Vocalion through 1939 and OKeh through 1942.,23,8,== Music career == | === 1930–1955: Success ===,155965
-1942,CD,YEAR_REGEX_1,TIME,time_reference,Their sessions were continued by Vocalion through 1939 and OKeh through 1942.,23,8,== Music career == | === 1930–1955: Success ===,155965
-the 1942–44,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"After an AFM recording ban due to the 1942–44 musicians' strike, Calloway continued to record.",24,8,== Music career == | === 1930–1955: Success ===,155965
-1938,CD,YEAR_REGEX_1,TIME,time_reference,"In 1938, Calloway released Cab Calloway's Cat-ologue: A ""Hepster's"" Dictionary, the first dictionary published by an African American.",0,9,== Music career == | === 1930–1955: Success ===,155965
-1939,CD,YEAR_REGEX_1,TIME,time_reference,A revised version of the book was released with Professor Cab Calloway's Swingformation Bureau in 1939.,2,9,== Music career == | === 1930–1955: Success ===,155965
-1944,CD,YEAR_REGEX_1,TIME,time_reference,"He released the last edition, The New Cab Calloway's Hepsters Dictionary: Language of Jive, in 1944.",3,9,== Music career == | === 1930–1955: Success ===,155965
-2014,CD,YEAR_REGEX_1,TIME,time_reference,"On a BBC Radio documentary about the dictionary in 2014, Poet Lemn Sissay stated, ""Cab Calloway was taking ownership of language for a people who, just a few generations before, had their own languages taken away.",4,9,== Music career == | === 1930–1955: Success ===,155965
-the 1930s and 1940s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"""Calloway's band in the 1930s and 1940s included many notable musicians, such as Ben Webster, Illinois Jacquet, Milt Hinton, Danny Barker, Doc Cheatham, Ed Swayze, Cozy Cole, Eddie Barefield, and Dizzy Gillespie.",5,9,== Music career == | === 1930–1955: Success ===,155965
-of the 1940,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"His renown as a talented musician was such that, in the opening scene of the 1940 musical film Strike Up the Band, starring Mickey Rooney and Judy Garland, Rooney's character is admonished by his music teacher, ""You are not Cab Calloway,"" after playing an improvised drum riff in the middle of a band lesson.",9,9,== Music career == | === 1930–1955: Success ===,155965
-1941,CD,YEAR_REGEX_1,TIME,time_reference,"In 1941, Calloway fired Gillespie from his orchestra after an onstage fracas erupted when Calloway was hit with spitballs.",0,10,== Music career == | === 1930–1955: Success ===,155965
-1941 to 1942,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1941 to 1942, Calloway hosted a weekly radio quiz show called The Cab Calloway Quizzicale.",2,10,== Music career == | === 1930–1955: Success ===,155965
-the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"During the years of World War II, Calloway entertained troops in United States before they departed overseas.",4,10,== Music career == | === 1930–1955: Success ===,155965
-Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"The Calloway Orchestra also recorded songs full of social commentary including ""Doing the Reactionary,"" ""The Führer's Got the Jitters,"" ""The Great Lie,"" ""We'll Gather Lilacs,"" and ""My Lament for V Day.",5,10,== Music career == | === 1930–1955: Success ===,155965
-1943,CD,YEAR_REGEX_1,TIME,time_reference,"""In 1943, Calloway appeared in the film Stormy Weather, one of the first mainstream Hollywood films with a black cast.",6,10,== Music career == | === 1930–1955: Success ===,155965
-the May 1946,DT NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,"It was a collection of celebrity snippets, such as the following in the May 1946 issue: ""Benny Goodman was dining at Ciro's steak house in New York when a very homely girl entered.",1,11,== Music career == | === 1930–1955: Success ===,155965
-the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1940s, however, Calloway's bad financial decisions and his gambling caused his band to break up.",3,11,== Music career == | === 1930–1955: Success ===,155965
-1953,CD,YEAR_REGEX_1,TIME,time_reference,"In 1953, he played the prominent role of Sportin' Life in a production of Porgy and Bess with William Warfield and Leontyne Price as the title characters.",0,12,== Music career == | === 1930–1955: Success ===,155965
-1956–1960,CD,YEAR_REGEX_1,TIME,time_reference,1956–1960:,1,13,== Music career == | === 1956–1960: Cotton Club Revue ===,155965
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"Released on ABC-Paramount, the single charted on the Billboard Hot 100 in 1956.",1,14,== Music career == | === 1956–1960: Cotton Club Revue ===,155965
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"In 1956, Clarence Robinson, who produced revues at the original Cotton Club and the Apollo Theater, and choreographed the movie Stormy Weather, cast Calloway as the main attraction for his project in Miami.",2,14,== Music career == | === 1956–1960: Cotton Club Revue ===,155965
-of 1957,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The success of the shows led to the Cotton Club Revue of 1957 which had stops at the Royal Nevada Hotel in Las Vegas, the Theatre Under The Sky in Central Park, Town Casino in Buffalo.",4,14,== Music career == | === 1956–1960: Cotton Club Revue ===,155965
-of 1958,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"For the second season, Lee Sherman was the choreographer of The Cotton Club Revue of 1958, which starred Calloway.",0,15,== Music career == | === 1956–1960: Cotton Club Revue ===,155965
-March 1958,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In March 1958, Calloway released his album Cotton Club Revue of 1958 on Gone Records.",2,15,== Music career == | === 1956–1960: Cotton Club Revue ===,155965
-of 1958,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In March 1958, Calloway released his album Cotton Club Revue of 1958 on Gone Records.",2,15,== Music career == | === 1956–1960: Cotton Club Revue ===,155965
-That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"That year, Calloway appeared in the film St. Louis Blues, the life story of W.C. Handy, featuring Nat King Cole and Eartha Kitt.",4,15,== Music career == | === 1956–1960: Cotton Club Revue ===,155965
-of 1959,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,The Cotton Club Revue of 1959 traveled to South America for engagements in Rio de Janeiro and São Paulo.,5,15,== Music career == | === 1956–1960: Cotton Club Revue ===,155965
-1959 and 1960,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"The revue toured Europe in 1959 and 1960, bringing their act to Madrid, Paris, and London.",8,15,== Music career == | === 1956–1960: Cotton Club Revue ===,155965
-1961–1993,CD,YEAR_REGEX_1,TIME,time_reference,1961–1993:,1,16,== Music career == | === 1961–1993: Later years ===,155965
-Later years,RB NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Later years =,2,16,== Music career == | === 1961–1993: Later years ===,155965
-1961 and 1962,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 1961 and 1962, he toured with the Harlem Globetrotters, providing halftime entertainment during games.",1,17,== Music career == | === 1961–1993: Later years ===,155965
-1965,CD,YEAR_REGEX_1,TIME,time_reference,"Calloway was cast as ""Yeller"" in the film The Cincinnati Kid (1965) with Steve McQueen, Ann-Margret, and Edward G. Robinson.",2,17,== Music career == | === 1961–1993: Later years ===,155965
-"March 19 , 1967","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Calloway appeared on The Ed Sullivan Show on March 19, 1967, with his daughter Chris Calloway.",3,17,== Music career == | === 1961–1993: Later years ===,155965
-1967,CD,YEAR_REGEX_1,TIME,time_reference,"In 1967, he co-starred with Pearl Bailey as Horace Vandergelder in an all-black cast of Hello, Dolly!",4,17,== Music career == | === 1961–1993: Later years ===,155965
-1973–74,CD,YEAR_REGEX_1,TIME,time_reference,"In 1973–74, Calloway was featured in an unsuccessful Broadway revival of The Pajama Game with Hal Linden and Barbara McNair.",8,17,== Music career == | === 1961–1993: Later years ===,155965
-1976,CD,YEAR_REGEX_1,TIME,time_reference,"His autobiography, Of Minnie the Moocher and Me was published in 1976.",0,18,== Music career == | === 1961–1993: Later years ===,155965
-1978,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, Calloway released a disco version of ""Minnie the Moocher"" on RCA which reached the Billboard R&B chart.",2,18,== Music career == | === 1961–1993: Later years ===,155965
-the 1980,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Calloway was introduced to a new generation when he appeared in the 1980 film The Blues Brothers performing ""Minnie the Moocher"".",3,18,== Music career == | === 1961–1993: Later years ===,155965
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, Calloway and his Orchestra appeared at The Ritz London Hotel where he was filmed for a 60-minute BBC TV show called The Cotton Club Comes to the Ritz.",4,18,== Music career == | === 1961–1993: Later years ===,155965
-August 1988,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"A performance with the Cincinnati Pops Orchestra directed by Erich Kunzel in August 1988 was recorded on video and features a classic presentation of ""Minnie the Moocher"", 57 years after he first recorded it.",6,18,== Music career == | === 1961–1993: Later years ===,155965
-presentation,NN,TIMELINE_REGEX,TIME,time_reference,"A performance with the Cincinnati Pops Orchestra directed by Erich Kunzel in August 1988 was recorded on video and features a classic presentation of ""Minnie the Moocher"", 57 years after he first recorded it.",6,18,== Music career == | === 1961–1993: Later years ===,155965
-57 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"A performance with the Cincinnati Pops Orchestra directed by Erich Kunzel in August 1988 was recorded on video and features a classic presentation of ""Minnie the Moocher"", 57 years after he first recorded it.",6,18,== Music career == | === 1961–1993: Later years ===,155965
-January 1990,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 1990, Calloway performed at the Meyerhoff Symphony Hall, with the Baltimore Symphony.",7,18,== Music career == | === 1961–1993: Later years ===,155965
-That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"That year he made a cameo in Janet Jackson's music video ""Alright"".",8,18,== Music career == | === 1961–1993: Later years ===,155965
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"In 1992, he embarked on a month-long tour of European jazz festivals.",10,18,== Music career == | === 1961–1993: Later years ===,155965
-1993,CD,YEAR_REGEX_1,TIME,time_reference,"He was booked to headline ""The Jazz Connection: The Jewish and African-American Relationship,"" at New York City's Avery Fisher Hall in 1993, but he pulled out due to a fall at home.",11,18,== Music career == | === 1961–1993: Later years ===,155965
-a fall,DT NN,INARTICLE_REGEX SEASON_REGEX,MODIFIER TIME,time_reference,"He was booked to headline ""The Jazz Connection: The Jewish and African-American Relationship,"" at New York City's Avery Fisher Hall in 1993, but he pulled out due to a fall at home.",11,18,== Music career == | === 1961–1993: Later years ===,155965
-January 1927,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 1927, Calloway had a daughter named Camay with Zelma Proctor, a fellow student.",0,21,== Personal life == | === Marriages and children ===,155965
-July 1928,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Calloway married his first wife Wenonah ""Betty"" Conacher in July 1928.",2,21,== Personal life == | === Marriages and children ===,155965
-1949,CD,YEAR_REGEX_1,TIME,time_reference,They adopted a daughter named Constance and later divorced in 1949.,3,21,== Personal life == | === Marriages and children ===,155965
-"October 7 , 1949","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Calloway married Zulme ""Nuffie"" MacNeal on October 7, 1949.",4,21,== Personal life == | === Marriages and children ===,155965
-the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1950s, Calloway moved his family to Westchester County, New York, where he and Nuffie raised their daughters Chris Calloway (1945–2008), Cecilia ""Lael"" Eulalia Calloway, and Cabella Calloway (b. 1952).",6,21,== Personal life == | === Marriages and children ===,155965
-1945–2008,CD,YEAR_REGEX_1,TIME,time_reference,"In the 1950s, Calloway moved his family to Westchester County, New York, where he and Nuffie raised their daughters Chris Calloway (1945–2008), Cecilia ""Lael"" Eulalia Calloway, and Cabella Calloway (b. 1952).",6,21,== Personal life == | === Marriages and children ===,155965
-1952,CD,YEAR_REGEX_1,TIME,time_reference,"In the 1950s, Calloway moved his family to Westchester County, New York, where he and Nuffie raised their daughters Chris Calloway (1945–2008), Cecilia ""Lael"" Eulalia Calloway, and Cabella Calloway (b. 1952).",6,21,== Personal life == | === Marriages and children ===,155965
-December 1945,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In December 1945, Calloway and his friend Felix H. Payne Jr. were beaten by a police officer, William E. Todd, and arrested in Kansas City, Missouri after attempting to visit bandleader Lionel Hampton at the whites-only Pla-Mor Ballroom.",0,23,== Personal life == | === Legal issues ===,155965
-February 1946,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In February 1946, six civil rights organizations, including the NAACP, demanded that Todd be fired, but he had already resigned after a pay cut.",6,23,== Personal life == | === Legal issues ===,155965
-1952,CD,YEAR_REGEX_1,TIME,time_reference,"In 1952, Calloway was arrested in Leesburg, Virginia on his way to the race track in Charles Town, West Virginia.",7,23,== Personal life == | === Legal issues ===,155965
-"June 12 , 1994","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On June 12, 1994, Calloway suffered a stroke at his home in Westchester County, New York.",0,25,== Death ==,155965
-five months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He died five months later from pneumonia on November 18, 1994, at age 86, at a nursing home in Hockessin, Delaware.",1,25,== Death ==,155965
-"November 18 , 1994","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died five months later from pneumonia on November 18, 1994, at age 86, at a nursing home in Hockessin, Delaware.",1,25,== Death ==,155965
-the 1980,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"John Landis, who directed Calloway in the 1980 film The Blues Brothers, stated, ""Cab Calloway is hip-hop.""",1,27,== Legacy ==,155965
-"August 14 , 1993","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Journalist Timothy White noted in Billboard (August 14, 1993): ""No living pathfinder in American popular music or its jazz and rock 'n' roll capillaries is so frequently emulated yet so seldom acknowledged as Cabell ""Cab"" Calloway.",2,27,== Legacy ==,155965
-1998,CD,YEAR_REGEX_1,TIME,time_reference,"""In 1998, the Cab Calloway Orchestra directed by Calloway's grandson Chris ""CB"" Calloway Brooks was formed.",4,27,== Legacy ==,155965
-2009,CD,YEAR_REGEX_1,TIME,time_reference,"In 2009, Big Bad Voodoo Daddy released an album covering Calloway's music titled How Big Can You Get?:",5,27,== Legacy ==,155965
-2012,CD,YEAR_REGEX_1,TIME,time_reference,"In 2012, Calloway's legacy was celebrated in an episode of PBS's American Masters titled ""Cab Calloway: Sketches"".",7,27,== Legacy ==,155965
-the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Cab Calloway was among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire.,8,27,== Legacy ==,155965
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"In 2019, plans were announced to demolish Calloway's boyhood home at 2216 Druid Hill Avenue in Baltimore, replacing the abandoned structure and the rest of that block with a park to be named Cab Calloway Legends Park in his honor.",0,28,== Legacy ==,155965
-2216,CD,YEAR_REGEX_1,TIME,time_reference,"In 2019, plans were announced to demolish Calloway's boyhood home at 2216 Druid Hill Avenue in Baltimore, replacing the abandoned structure and the rest of that block with a park to be named Cab Calloway Legends Park in his honor.",0,28,== Legacy ==,155965
-"July 9 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Although the block is designated ""historically significant"" on the National Register of Historic Places, Baltimore City officials said at a hearing on July 9, 2019, that there is ""extensive structural damage"" to the Calloway house as well as adjacent ones.",2,28,== Legacy ==,155965
-"September 5 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Despite the objections, the house was razed on September 5, 2020.",6,28,== Legacy ==,155965
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, Town Supervisor Anthony F. Veteran issued a proclamation, declaring a ''Cab Calloway Day'' in Greenburgh, New York.",0,30,== Legacy == | === Awards and honors ===,155965
-Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In 1985, Town Supervisor Anthony F. Veteran issued a proclamation, declaring a ''Cab Calloway Day'' in Greenburgh, New York.",0,30,== Legacy == | === Awards and honors ===,155965
-1990,CD,YEAR_REGEX_1,TIME,time_reference,"In 1990, Calloway was presented with the Beacons in Jazz Award from The New School in New York City.",1,30,== Legacy == | === Awards and honors ===,155965
-the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"New York City Mayor David Dinkins proclaimed the day ""Cab Calloway Day"".",2,30,== Legacy == | === Awards and honors ===,155965
-Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"New York City Mayor David Dinkins proclaimed the day ""Cab Calloway Day"".",2,30,== Legacy == | === Awards and honors ===,155965
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"In 1992, the Cab Calloway School of the Arts was founded in Wilmington, Delaware.",3,30,== Legacy == | === Awards and honors ===,155965
-1994,CD,YEAR_REGEX_1,TIME,time_reference,"In 1994, Calloway's daughter Camay Calloway Murphy founded the Cab Calloway Museum at Coppin State College in Baltimore, Maryland.",0,31,== Legacy == | === Awards and honors ===,155965
-2003,CD,YEAR_REGEX_1,TIME,time_reference,"First run in 2003, The Calloway has since undergone various distance and surface changes.",2,31,== Legacy == | === Awards and honors ===,155965
-currently,RB,TIMELINE_REGEX,TIME,time_reference,"The race is currently run at Saratoga Racecourse, Saratoga Springs, NY, one of America's most popular, premier racetracks.",3,31,== Legacy == | === Awards and honors ===,155965
-Springs,NNP,SEASON_REGEX,TIME,time_reference,"The race is currently run at Saratoga Racecourse, Saratoga Springs, NY, one of America's most popular, premier racetracks.",3,31,== Legacy == | === Awards and honors ===,155965
-"July 24 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The Cab Calloway Stakes celebrated its 13th renewal on July 24, 2019, and was won by Rinaldi.",4,31,== Legacy == | === Awards and honors ===,155965
-1967,CD,YEAR_REGEX_1,TIME,time_reference,1967:,0,33,== Legacy == | === Awards and honors ===,155965
-1987,CD,YEAR_REGEX_1,TIME,time_reference,1987: Inducted into Big Band and Jazz Hall of Fame,0,34,== Legacy == | === Awards and honors ===,155965
-1990,CD,YEAR_REGEX_1,TIME,time_reference,1990:,0,35,== Legacy == | === Awards and honors ===,155965
-1993,CD,YEAR_REGEX_1,TIME,time_reference,1993:,0,36,== Legacy == | === Awards and honors ===,155965
-1993,CD,YEAR_REGEX_1,TIME,time_reference,1993:,0,37,== Legacy == | === Awards and honors ===,155965
-1993,CD,YEAR_REGEX_1,TIME,time_reference,1993:,0,38,== Legacy == | === Awards and honors ===,155965
-1995,CD,YEAR_REGEX_1,TIME,time_reference,1995: Inducted into International Jazz Hall of Fame,0,39,== Legacy == | === Awards and honors ===,155965
-1999,CD,YEAR_REGEX_1,TIME,time_reference,1999:,0,40,== Legacy == | === Awards and honors ===,155965
-2008,CD,YEAR_REGEX_1,TIME,time_reference,2008:,0,41,== Legacy == | === Awards and honors ===,155965
-2019,CD,YEAR_REGEX_1,TIME,time_reference,"2019: ""Minnie the Moocher"" added to the Library of Congress National Recording Registry",0,42,== Legacy == | === Awards and honors ===,155965
-1943,CD,YEAR_REGEX_1,TIME,time_reference,1943:,0,45,== Discography == | === Albums ===,155965
-1956,CD,YEAR_REGEX_1,TIME,time_reference,1956:,0,46,== Discography == | === Albums ===,155965
-1958,CD,YEAR_REGEX_1,TIME,time_reference,1958:,0,47,== Discography == | === Albums ===,155965
-1958,CD,YEAR_REGEX_1,TIME,time_reference,Cotton Club Revue 1958 (Gone Records),1,47,== Discography == | === Albums ===,155965
-1959,CD,YEAR_REGEX_1,TIME,time_reference,1959:,0,48,== Discography == | === Albums ===,155965
-1962,CD,YEAR_REGEX_1,TIME,time_reference,1962:,0,49,== Discography == | === Albums ===,155965
-1968,CD,YEAR_REGEX_1,TIME,time_reference,1968:,0,50,== Discography == | === Albums ===,155965
-'68,NNP,YEAR_REGEX_2,TIME,time_reference,Cab Calloway '68 (Pickwick International),1,50,== Discography == | === Albums ===,155965
-1974,CD,YEAR_REGEX_1,TIME,time_reference,1974:,0,52,== Discography == | === Select compilations ===,155965
-1983,CD,YEAR_REGEX_1,TIME,time_reference,1983:,0,53,== Discography == | === Select compilations ===,155965
-1930–1931,CD,YEAR_REGEX_1,TIME,time_reference,1930–1931 (MCA),4,53,== Discography == | === Select compilations ===,155965
-1990,CD,YEAR_REGEX_1,TIME,time_reference,1990:,0,54,== Discography == | === Select compilations ===,155965
-1992,CD,YEAR_REGEX_1,TIME,time_reference,1992:,0,55,== Discography == | === Select compilations ===,155965
-1934–1947,CD,YEAR_REGEX_1,TIME,time_reference,The King Of Hi-De-Ho 1934–1947 (Giants of Jazz),1,55,== Discography == | === Select compilations ===,155965
-1998,CD,YEAR_REGEX_1,TIME,time_reference,1998:,0,56,== Discography == | === Select compilations ===,155965
-2001,CD,YEAR_REGEX_1,TIME,time_reference,2001:,0,57,== Discography == | === Select compilations ===,155965
-The Early Years 1930–1934,DT JJ NNS CD,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME TIME,time_reference,Cab Calloway and His Orchestra Volume 1: The Early Years 1930–1934 (JSP),1,57,== Discography == | === Select compilations ===,155965
-2003,CD,YEAR_REGEX_1,TIME,time_reference,2003:,0,58,== Discography == | === Select compilations ===,155965
-1935–1940,CD,YEAR_REGEX_1,TIME,time_reference,Cab Calloway & His Orchestra Volume 2: 1935–1940 (JSP),1,58,== Discography == | === Select compilations ===,155965
-1976,CD,YEAR_REGEX_1,TIME,time_reference,"Calloway, Cab and Rollins, Bryant (1976).",0,64,== Further reading ==,155965
-1993,CD,YEAR_REGEX_1,TIME,time_reference,NAMM Oral History Interview (1993),0,67,== External links ==,155965
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"December 25 , 1907 – November 18 , 1994","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+65 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,0
+the early 1930s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,3,0
+the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,3,0
+the 1930s and 1940s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,5,0
+1931,CD,YEAR_REGEX_1,TIME,time_reference,5,0
+five consecutive decades,CD JJ NNS,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,6,0
+1930s–1970s,CD,YEAR_REGEX_1,TIME,time_reference,6,0
+1994,CD,YEAR_REGEX_1,TIME,time_reference,7,0
+1943,CD,YEAR_REGEX_1,TIME,time_reference,8,0
+1953,CD,YEAR_REGEX_1,TIME,time_reference,8,0
+1965,CD,YEAR_REGEX_1,TIME,time_reference,8,0
+1967,CD,YEAR_REGEX_1,TIME,time_reference,8,0
+the 1980,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,9,0
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1,1
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2,1
+1999,CD,YEAR_REGEX_1,TIME,time_reference,3,1
+2019,CD,YEAR_REGEX_1,TIME,time_reference,3,1
+Christmas Day,NNP NNP,HOLIDAY_REGEX TIME_UNIT_REGEX,TIME TIME,time_reference,0,3
+1907,CD,YEAR_REGEX_1,TIME,time_reference,0,3
+1898,CD,YEAR_REGEX_1,TIME,time_reference,2,3
+1921,CD,YEAR_REGEX_1,TIME,time_reference,7,3
+1922,CD,YEAR_REGEX_1,TIME,time_reference,9,3
+nightclubs,NNS,DAY_TIME_REGEX,TIME,time_reference,10,3
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,12,3
+1925,CD,YEAR_REGEX_1,TIME,time_reference,13,3
+1927–1929,CD,YEAR_REGEX_1,TIME,time_reference,1,5
+1927,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+Days,NNP,TIME_UNIT_REGEX,TIME,time_reference,0,6
+nights,NNS,DAY_TIME_REGEX,TIME,time_reference,4,6
+Sunset,NNP,DAY_TIME_REGEX,TIME,time_reference,4,6
+Sunset,NNP,DAY_TIME_REGEX,TIME,time_reference,5,6
+1929,CD,YEAR_REGEX_1,TIME,time_reference,8,6
+"September 20 , 1929","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,9,6
+1930–1955,CD,YEAR_REGEX_1,TIME,time_reference,1,7
+1930,CD,YEAR_REGEX_1,TIME,time_reference,0,8
+1931,CD,YEAR_REGEX_1,TIME,time_reference,1,8
+a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,3,8
+"50,000 a year",CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,5,8
+23 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,5,8
+1931,CD,YEAR_REGEX_1,TIME,time_reference,6,8
+1932,CD,YEAR_REGEX_1,TIME,time_reference,8,8
+1933,CD,YEAR_REGEX_1,TIME,time_reference,8,8
+1933,CD,YEAR_REGEX_1,TIME,time_reference,8,8
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,11,8
+50 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,14,8
+The 1933,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,15,8
+1934,CD,YEAR_REGEX_1,TIME,time_reference,16,8
+1935,CD,YEAR_REGEX_1,TIME,time_reference,17,8
+1936,CD,YEAR_REGEX_1,TIME,time_reference,18,8
+1930 to 1932,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,20,8
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,20,8
+late 1934,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,21,8
+1936,CD,YEAR_REGEX_1,TIME,time_reference,21,8
+1939,CD,YEAR_REGEX_1,TIME,time_reference,23,8
+1942,CD,YEAR_REGEX_1,TIME,time_reference,23,8
+the 1942–44,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,24,8
+1938,CD,YEAR_REGEX_1,TIME,time_reference,0,9
+1939,CD,YEAR_REGEX_1,TIME,time_reference,2,9
+1944,CD,YEAR_REGEX_1,TIME,time_reference,3,9
+2014,CD,YEAR_REGEX_1,TIME,time_reference,4,9
+the 1930s and 1940s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,5,9
+of the 1940,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,9,9
+1941,CD,YEAR_REGEX_1,TIME,time_reference,0,10
+1941 to 1942,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,2,10
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,4,10
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,5,10
+1943,CD,YEAR_REGEX_1,TIME,time_reference,6,10
+the May 1946,DT NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,1,11
+the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,3,11
+1953,CD,YEAR_REGEX_1,TIME,time_reference,0,12
+1956–1960,CD,YEAR_REGEX_1,TIME,time_reference,1,13
+1956,CD,YEAR_REGEX_1,TIME,time_reference,1,14
+1956,CD,YEAR_REGEX_1,TIME,time_reference,2,14
+of 1957,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,4,14
+of 1958,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,15
+March 1958,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,2,15
+of 1958,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,2,15
+That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,4,15
+of 1959,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,5,15
+1959 and 1960,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,8,15
+1961–1993,CD,YEAR_REGEX_1,TIME,time_reference,1,16
+Later years,RB NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2,16
+1961 and 1962,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,1,17
+1965,CD,YEAR_REGEX_1,TIME,time_reference,2,17
+"March 19 , 1967","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,3,17
+1967,CD,YEAR_REGEX_1,TIME,time_reference,4,17
+1973–74,CD,YEAR_REGEX_1,TIME,time_reference,8,17
+1976,CD,YEAR_REGEX_1,TIME,time_reference,0,18
+1978,CD,YEAR_REGEX_1,TIME,time_reference,2,18
+the 1980,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,3,18
+1985,CD,YEAR_REGEX_1,TIME,time_reference,4,18
+August 1988,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,6,18
+presentation,NN,TIMELINE_REGEX,TIME,time_reference,6,18
+57 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,6,18
+January 1990,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,7,18
+That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,8,18
+1992,CD,YEAR_REGEX_1,TIME,time_reference,10,18
+1993,CD,YEAR_REGEX_1,TIME,time_reference,11,18
+a fall,DT NN,INARTICLE_REGEX SEASON_REGEX,MODIFIER TIME,time_reference,11,18
+January 1927,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,21
+July 1928,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,2,21
+1949,CD,YEAR_REGEX_1,TIME,time_reference,3,21
+"October 7 , 1949","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,4,21
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,6,21
+1945–2008,CD,YEAR_REGEX_1,TIME,time_reference,6,21
+1952,CD,YEAR_REGEX_1,TIME,time_reference,6,21
+December 1945,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,23
+February 1946,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,6,23
+1952,CD,YEAR_REGEX_1,TIME,time_reference,7,23
+"June 12 , 1994","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,25
+five months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,25
+"November 18 , 1994","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,1,25
+the 1980,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,1,27
+"August 14 , 1993","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,2,27
+1998,CD,YEAR_REGEX_1,TIME,time_reference,4,27
+2009,CD,YEAR_REGEX_1,TIME,time_reference,5,27
+2012,CD,YEAR_REGEX_1,TIME,time_reference,7,27
+the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,8,27
+2019,CD,YEAR_REGEX_1,TIME,time_reference,0,28
+2216,CD,YEAR_REGEX_1,TIME,time_reference,0,28
+"July 9 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,2,28
+"September 5 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,6,28
+1985,CD,YEAR_REGEX_1,TIME,time_reference,0,30
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,0,30
+1990,CD,YEAR_REGEX_1,TIME,time_reference,1,30
+the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2,30
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,2,30
+1992,CD,YEAR_REGEX_1,TIME,time_reference,3,30
+1994,CD,YEAR_REGEX_1,TIME,time_reference,0,31
+annually,RB,PERIOD_REGEX,TIME,time_reference,1,31
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2,31
+currently,RB,TIMELINE_REGEX,TIME,time_reference,3,31
+Springs,NNP,SEASON_REGEX,TIME,time_reference,3,31
+"July 24 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,4,31
+1967,CD,YEAR_REGEX_1,TIME,time_reference,0,33
+1987,CD,YEAR_REGEX_1,TIME,time_reference,0,34
+1990,CD,YEAR_REGEX_1,TIME,time_reference,0,35
+1993,CD,YEAR_REGEX_1,TIME,time_reference,0,36
+1993,CD,YEAR_REGEX_1,TIME,time_reference,0,37
+1993,CD,YEAR_REGEX_1,TIME,time_reference,0,38
+1995,CD,YEAR_REGEX_1,TIME,time_reference,0,39
+1999,CD,YEAR_REGEX_1,TIME,time_reference,0,40
+2008,CD,YEAR_REGEX_1,TIME,time_reference,0,41
+2019,CD,YEAR_REGEX_1,TIME,time_reference,0,42
+1943,CD,YEAR_REGEX_1,TIME,time_reference,0,45
+1956,CD,YEAR_REGEX_1,TIME,time_reference,0,46
+1958,CD,YEAR_REGEX_1,TIME,time_reference,0,47
+1958,CD,YEAR_REGEX_1,TIME,time_reference,1,47
+1959,CD,YEAR_REGEX_1,TIME,time_reference,0,48
+1962,CD,YEAR_REGEX_1,TIME,time_reference,0,49
+1968,CD,YEAR_REGEX_1,TIME,time_reference,0,50
+'68,NNP,YEAR_REGEX_2,TIME,time_reference,1,50
+1974,CD,YEAR_REGEX_1,TIME,time_reference,0,52
+1983,CD,YEAR_REGEX_1,TIME,time_reference,0,53
+1930–1931,CD,YEAR_REGEX_1,TIME,time_reference,4,53
+1990,CD,YEAR_REGEX_1,TIME,time_reference,0,54
+1992,CD,YEAR_REGEX_1,TIME,time_reference,0,55
+1934–1947,CD,YEAR_REGEX_1,TIME,time_reference,1,55
+1998,CD,YEAR_REGEX_1,TIME,time_reference,0,56
+2001,CD,YEAR_REGEX_1,TIME,time_reference,0,57
+The Early Years 1930–1934,DT JJ NNS CD,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME TIME,time_reference,1,57
+2003,CD,YEAR_REGEX_1,TIME,time_reference,0,58
+1935–1940,CD,YEAR_REGEX_1,TIME,time_reference,1,58
+1976,CD,YEAR_REGEX_1,TIME,time_reference,0,64
+1993,CD,YEAR_REGEX_1,TIME,time_reference,0,67

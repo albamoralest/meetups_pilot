@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"October 3 , 1939","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Larry Michael Smith (born October 3, 1939) and lived in various small towns in Kansas before moving to Hollywood in 1958.",0,0,,6057077
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Larry Michael Smith (born October 3, 1939) and lived in various small towns in Kansas before moving to Hollywood in 1958.",0,0,,6057077
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Smith first appeared on Decca Records in 1960 with a rockabilly backbeat song, ""Sara Ruth"" which was written as a joke for a high school friend.",0,1,,6057077
+Week,NNP,TIME_UNIT_REGEX,TIME,time_reference,"The other side of the record, ""Week of Loneliness,"" had a limited success in the Bay Area of California and in his adopted home town of Stockton, it was number one.",1,1,,6057077
+"April , 1959","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"In April, 1959, Billboard chose the record as a Billboard Pick.",2,1,,6057077
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962, Smith had a release on Era Records of ""By the Time You Read This Letter"" b/w ""That's What I'd Do"", which were recorded in the Gold Star Studios of Hollywood, the inventors of flanging and phasing.",3,1,,6057077
+1980 one,CD CD,YEAR_REGEX_1 BASIC_NUMBER_REGEX_1,TIME NUMERAL,,"In 1980 one of his compositions, ""We Have So  Much To Give"", was the California State Theme Song for The Council on Aging.",1,5,,6057077
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Smith now lives in Coffeyville, Kansas and continues to write and record.",3,5,,6057077

@@ -1,17 +1,17 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"May 9 , 1923 – December 18 , 1990","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Connie Russell (May 9, 1923 – December 18, 1990) was an American singer and movie actress.",0,0,,2307312
-the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Born in New York City, she appeared in seven films from the 1930s through the 1950s.",1,0,,2307312
-the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Born in New York City, she appeared in seven films from the 1930s through the 1950s.",1,0,,2307312
-Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years ==,1,1,== Early years ==,2307312
-"late December , 1952","JJ NNP , CD",PREFIX_REGEX_1 MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"In late December, 1952, she appeared, along with Danny Thomas, Lou Wills, Jr., and Ray Sinatra and his orchestra, at the opening night gala of the Copa Room at the Sands Hotel and Casino in Las Vegas.",1,4,== Personal appearances ==,2307312
-night,NN,DAY_TIME_REGEX,TIME,time_reference,"In late December, 1952, she appeared, along with Danny Thomas, Lou Wills, Jr., and Ray Sinatra and his orchestra, at the opening night gala of the Copa Room at the Sands Hotel and Casino in Las Vegas.",1,4,== Personal appearances ==,2307312
-1953,CD,YEAR_REGEX_1,TIME,time_reference,Her film debut came in Cruisin' Down the River (1953).,1,6,== Film ==,2307312
-1941,CD,YEAR_REGEX_1,TIME,time_reference,"(Another source says that her ""first socko movie appearance was in Lady Be Good"" in 1941.)",2,6,== Film ==,2307312
-the 1956,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,She played a lead role in the 1956 movie Nightmare.,3,6,== Film ==,2307312
-Nightmare,NNP,DAY_TIME_REGEX,TIME,time_reference,She played a lead role in the 1956 movie Nightmare.,3,6,== Film ==,2307312
-1944-1945,JJ,YEAR_REGEX_1,TIME,time_reference,"On radio, Russell was the featured female singer on Let Yourself Go on CBS (1944-1945).",0,8,== Radio ==,2307312
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"She also appeared frequently on the syndicated Naval Air Reserve Show.: 475  In 1947, she became a network staff singer on NBC, joining Manor House Summer Party for an eight-week stint as the program's featured singer.",1,8,== Radio ==,2307312
-Summer,NNP,SEASON_REGEX,TIME,time_reference,"She also appeared frequently on the syndicated Naval Air Reserve Show.: 475  In 1947, she became a network staff singer on NBC, joining Manor House Summer Party for an eight-week stint as the program's featured singer.",1,8,== Radio ==,2307312
-1949-1951,JJ,YEAR_REGEX_1,TIME,time_reference,"On television, she was a regular singer on Club Embassy, Garroway at Large (1949-1951): 379  and on The Buick-Berle Show on NBC (1953-1955).",0,10,== Television ==,2307312
-1953-1955,JJ,YEAR_REGEX_1,TIME,time_reference,"On television, she was a regular singer on Club Embassy, Garroway at Large (1949-1951): 379  and on The Buick-Berle Show on NBC (1953-1955).",0,10,== Television ==,2307312
-1954,CD,YEAR_REGEX_1,TIME,time_reference,This Is My Love (1954),0,12,== Selected filmography ==,2307312
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"May 9 , 1923 – December 18 , 1990","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,1,0
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,1,0
+Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,1,1
+"late December , 1952","JJ NNP , CD",PREFIX_REGEX_1 MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,1,4
+night,NN,DAY_TIME_REGEX,TIME,time_reference,1,4
+1953,CD,YEAR_REGEX_1,TIME,time_reference,1,6
+1941,CD,YEAR_REGEX_1,TIME,time_reference,2,6
+the 1956,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,3,6
+Nightmare,NNP,DAY_TIME_REGEX,TIME,time_reference,3,6
+1944-1945,JJ,YEAR_REGEX_1,TIME,time_reference,0,8
+1947,CD,YEAR_REGEX_1,TIME,time_reference,1,8
+Summer,NNP,SEASON_REGEX,TIME,time_reference,1,8
+1949-1951,JJ,YEAR_REGEX_1,TIME,time_reference,0,10
+1953-1955,JJ,YEAR_REGEX_1,TIME,time_reference,0,10
+1954,CD,YEAR_REGEX_1,TIME,time_reference,0,12

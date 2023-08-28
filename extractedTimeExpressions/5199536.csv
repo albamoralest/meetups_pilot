@@ -1,0 +1,48 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"October 23 , 1974 – November 10 , 2020","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Chris Sullivan (October 23, 1974 – November 10, 2020), known professionally as DJ Spinbad, was a DJ, producer, and remixer on New York City's radio station WHTZ.",0,0,,5199536
+a.m.,NN,HALFDAY_REGEX_1,TIME,time_reference,Spinbad was also formerly heard on WWPR at 10:00 p.m.–12:00 a.m. on Fridays.,0,3,== Career ==,5199536
+Fridays,NNS,WEEK_REGEX,TIME,time_reference,Spinbad was also formerly heard on WWPR at 10:00 p.m.–12:00 a.m. on Fridays.,0,3,== Career ==,5199536
+7:00 p.m. and 12:00 a.m.,CD NN CC CD NN,DIGIT_REGEX_1 HALFDAY_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME MODIFIER NUMERAL TIME,time_range,"He was also heard on WHTZ in twenty-minute sets at 7:00 p.m. and 12:00 a.m. on weekdays, Fridays at 5:00 p.m., and Saturdays and Sundays at 7:00 p.m.",1,3,== Career ==,5199536
+"weekdays , Fridays","NNS , NNS",TIME_UNIT_REGEX COMMA_REGEX WEEK_REGEX,TIME MODIFIER TIME,time_reference,"He was also heard on WHTZ in twenty-minute sets at 7:00 p.m. and 12:00 a.m. on weekdays, Fridays at 5:00 p.m., and Saturdays and Sundays at 7:00 p.m.",1,3,== Career ==,5199536
+5:00 p.m.,CD NN,DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME,,"He was also heard on WHTZ in twenty-minute sets at 7:00 p.m. and 12:00 a.m. on weekdays, Fridays at 5:00 p.m., and Saturdays and Sundays at 7:00 p.m.",1,3,== Career ==,5199536
+Saturdays and Sundays,NNP CC NNP,WEEK_REGEX LINKAGE_REGEX WEEK_REGEX,TIME MODIFIER TIME,time_reference,"He was also heard on WHTZ in twenty-minute sets at 7:00 p.m. and 12:00 a.m. on weekdays, Fridays at 5:00 p.m., and Saturdays and Sundays at 7:00 p.m.",1,3,== Career ==,5199536
+7:00 p.m,CD NN,DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME,,"He was also heard on WHTZ in twenty-minute sets at 7:00 p.m. and 12:00 a.m. on weekdays, Fridays at 5:00 p.m., and Saturdays and Sundays at 7:00 p.m.",1,3,== Career ==,5199536
+Saturdays,NNP,WEEK_REGEX,TIME,time_reference,He was also heard on WHTZ on Saturdays from 11:00 p.m.–2:00 a.m. live from Webster Hall in New York City.,2,3,== Career ==,5199536
+a.m.,RB,HALFDAY_REGEX_1,TIME,time_reference,He was also heard on WHTZ on Saturdays from 11:00 p.m.–2:00 a.m. live from Webster Hall in New York City.,2,3,== Career ==,5199536
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, Spinbad returned to WHTZ as a part of the Saturday Night Online staff, which is also simulcast in other various radio markets around the country through syndication by Premiere Radio Networks.",0,4,== Career ==,5199536
+of the Saturday Night,IN DT NNP NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 WEEK_REGEX DAY_TIME_REGEX,MODIFIER MODIFIER TIME TIME,time_reference,"In 2011, Spinbad returned to WHTZ as a part of the Saturday Night Online staff, which is also simulcast in other various radio markets around the country through syndication by Premiere Radio Networks.",0,4,== Career ==,5199536
+the 2001,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Spinbad also mixed the 2001 collection Underground Airplay Version 1.0.,1,5,== Career ==,5199536
+The '80s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER TIME,time_reference,He also is credited with having the most bootlegged mix CD titled Rocks the Casbah (The '80s Megamix).,2,5,== Career ==,5199536
+"November 10 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On November 10, 2020, DJ Spinbad died in New York City.",0,7,== Career ==,5199536
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001:,0,10,== Discography == | === Albums ===,5199536
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"2004: FabricLive.14, Fabric",0,11,== Discography == | === Albums ===,5199536
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995:,0,13,== Discography == | === Mixtapes ===,5199536
+The '80s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER TIME,time_reference,Rock the Cashbah (The '80s Megamix),1,13,== Discography == | === Mixtapes ===,5199536
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997:,0,14,== Discography == | === Mixtapes ===,5199536
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998:,0,15,== Discography == | === Mixtapes ===,5199536
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000:,0,16,== Discography == | === Mixtapes ===,5199536
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000:,0,17,== Discography == | === Mixtapes ===,5199536
+The '80s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER TIME,time_reference,The '80s,1,17,== Discography == | === Mixtapes ===,5199536
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001:,0,18,== Discography == | === Mixtapes ===,5199536
+'90s,CD,YEAR_REGEX_2,TIME,time_reference,You Know My Steez: '90s Hip-Hop,1,18,== Discography == | === Mixtapes ===,5199536
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001:,0,19,== Discography == | === Mixtapes ===,5199536
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002:,0,20,== Discography == | === Mixtapes ===,5199536
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: '90s Hip-Hop Megamix,0,21,== Discography == | === Mixtapes ===,5199536
+'90s,CD,YEAR_REGEX_2,TIME,time_reference,2003: '90s Hip-Hop Megamix,0,21,== Discography == | === Mixtapes ===,5199536
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003:,0,22,== Discography == | === Mixtapes ===,5199536
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: The Problem Solver (Hosted By: Big Tigger),0,23,== Discography == | === Mixtapes ===,5199536
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,24,== Discography == | === Mixtapes ===,5199536
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,25,== Discography == | === Mixtapes ===,5199536
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005:,0,26,== Discography == | === Mixtapes ===,5199536
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007:,0,27,== Discography == | === Mixtapes ===,5199536
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007:,0,28,== Discography == | === Mixtapes ===,5199536
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009:,0,29,== Discography == | === Mixtapes ===,5199536
+The '90s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_2,MODIFIER TIME,time_reference,The '90s Megamix,1,29,== Discography == | === Mixtapes ===,5199536
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009: Live in Japan,0,30,== Discography == | === Mixtapes ===,5199536
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,31,== Discography == | === Mixtapes ===,5199536
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010: Needle to the Groove 2,0,32,== Discography == | === Mixtapes ===,5199536
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011: Live in Japan 2011,0,33,== Discography == | === Mixtapes ===,5199536
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011: Live in Japan 2011,0,33,== Discography == | === Mixtapes ===,5199536
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012: Live in South Africa,0,34,== Discography == | === Mixtapes ===,5199536
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012:,0,35,== Discography == | === Mixtapes ===,5199536
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013: Live in India,0,36,== Discography == | === Mixtapes ===,5199536

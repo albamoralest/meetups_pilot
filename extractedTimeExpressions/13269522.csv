@@ -1,0 +1,55 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+Jan,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"Jan Garber (born Jacob Charles Garber, November 5, 1894 – October 5, 1977) was an American violinist and jazz bandleader.",0,0,,13269522
+"November 5 , 1894 – October 5 , 1977","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Jan Garber (born Jacob Charles Garber, November 5, 1894 – October 5, 1977) was an American violinist and jazz bandleader.",0,0,,13269522
+of the 1920s and 1930s,IN DT CD CC CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,"He became known as ""The Idol of the Airwaves"" in his heyday of the 1920s and 1930s, playing jazz in the vein of contemporaries such as Guy Lombardo.",2,2,== Biography ==,13269522
+1921 to 1924,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Garber played violin with the Philadelphia Symphony Orchestra after World War I and formed the Garber-Davis Orchestra with pianist Milton Davis from 1921 to 1924.,3,2,== Biography ==,13269522
+1920s,CD,YEAR_REGEX_1,TIME,time_reference,"After parting with Davis, he formed his own orchestra, playing both ""sweet"" and ""hot"" 1920s dance music.",4,2,== Biography ==,13269522
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He was hit hard by the Great Depression, and in the 1930s he refashioned his ensemble into a big band and recorded a string of successful records for Victor.",5,2,== Biography ==,13269522
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"The recording restrictions in America during the war eventually made his ensemble unfeasible, and he returned to ""sweet"" music after the war, continuing to lead ensembles until 1971.",7,2,== Biography ==,13269522
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Garber died in Shreveport, Louisiana in 1977.",9,2,== Biography ==,13269522
+1918,CD,YEAR_REGEX_1,TIME,time_reference,"He started his first band, a quartet, in 1918, and played violin in it.",10,2,== Biography ==,13269522
+the 1920s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1920s he formed the Garber-Davis Orchestra in Atlanta with pianist Milton Davis, playing mostly in the southern U.S.",11,2,== Biography ==,13269522
+1927,CD,YEAR_REGEX_1,TIME,time_reference,In 1927 he moved the band to Chicago and met Canadian bandleader and saxophonist Freddie Large.,12,2,== Biography ==,13269522
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1942, he departed from Guy Lombardo–type music and began a swing band, but after three years the band was an expensive failure and he retired for a short time.",17,2,== Biography ==,13269522
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1942, he departed from Guy Lombardo–type music and began a swing band, but after three years the band was an expensive failure and he retired for a short time.",17,2,== Biography ==,13269522
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1950s, he and his wife Dorothy moved to Shreveport, Louisiana, where she was born.",19,2,== Biography ==,13269522
+1959,CD,YEAR_REGEX_1,TIME,time_reference,His band was voted No. 1 Dance Band in 1959 by the Ballroom Operators of America.,20,2,== Biography ==,13269522
+"October 5 , 1977","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He retired in his seventies and died in a hospital in Shreveport on October 5, 1977.",21,2,== Biography ==,13269522
+the 1920s and 1930s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Called the ""Idol of the Airwaves,"" Garber was active on radio in the 1920s and 1930s.",0,4,== Radio ==,13269522
+the Jan,DT NNP,PREFIX_REGEX_1 MONTH_ABBR_REGEX,MODIFIER TIME,time_reference,"Garber also had a 15-minute, five-days-a-week radio program, the Jan Garber Show.",0,5,== Radio ==,13269522
+1932,CD,YEAR_REGEX_1,TIME,time_reference,"Freddie Large (saxophone, from 1932)",0,19,== Band members ==,13269522
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"Frank Macauley (bass, from 1934)",0,20,== Band members ==,13269522
+three months old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Garber moved with his family from Indianapolis to Louisville, Kentucky, when he was three months old, and lived there until he was 13.",0,25,== Family ==,13269522
+1956,CD,YEAR_REGEX_1,TIME,time_reference,1956 Satin Touch (Ridgeway),0,27,== Discography ==,13269522
+1957,CD,YEAR_REGEX_1,TIME,time_reference,1957 Dance at Home (Decca),0,28,== Discography ==,13269522
+1959,CD,YEAR_REGEX_1,TIME,time_reference,1959 Music from the Blue Room (Decca),0,29,== Discography ==,13269522
+1960 Christmas,CD NNP,YEAR_REGEX_1 HOLIDAY_REGEX,TIME TIME,,1960 Christmas Dance Party (Decca),0,30,== Discography ==,13269522
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961 Dance Program (Decca),0,31,== Discography ==,13269522
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961 Dance to the Songs Everybody Knows (Decca),0,32,== Discography ==,13269522
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961 Street of Dreams (Decca),0,33,== Discography ==,13269522
+1961 Jan,CD NNP,YEAR_REGEX_1 MONTH_ABBR_REGEX,TIME TIME,,1961 Jan Garber in Danceland (Decca),0,34,== Discography ==,13269522
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961 Everybody Dance (Decca),0,35,== Discography ==,13269522
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961,0,36,== Discography ==,13269522
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961 College Medleys (Capitol),0,37,== Discography ==,13269522
+1962,CD,YEAR_REGEX_1,TIME,time_reference,1962 Golden Waltzes from the Blue Room (MCA),0,38,== Discography ==,13269522
+1962,CD,YEAR_REGEX_1,TIME,time_reference,1962 College Songs Everybody Knows (Decca),0,39,== Discography ==,13269522
+1962,CD,YEAR_REGEX_1,TIME,time_reference,1962 Melodies and Memories (Decca),0,40,== Discography ==,13269522
+1964,CD,YEAR_REGEX_1,TIME,time_reference,1964,0,41,== Discography ==,13269522
+1965,CD,YEAR_REGEX_1,TIME,time_reference,1965 Dance to the Country Hits (Decca),0,42,== Discography ==,13269522
+1966,CD,YEAR_REGEX_1,TIME,time_reference,1966,0,43,== Discography ==,13269522
+1968,CD,YEAR_REGEX_1,TIME,time_reference,1968 Dancing Happy (Decca),0,44,== Discography ==,13269522
+1973,CD,YEAR_REGEX_1,TIME,time_reference,1973 Moods (Coral),0,45,== Discography ==,13269522
+1978,CD,YEAR_REGEX_1,TIME,time_reference,1978,0,46,== Discography ==,13269522
+Jan,NNP,MONTH_ABBR_REGEX,TIME,time_reference,The Uncollected Jan Garber and His Orchestra 1939–1941 (Hindsight),1,46,== Discography ==,13269522
+1939–1941,CD,YEAR_REGEX_1,TIME,time_reference,The Uncollected Jan Garber and His Orchestra 1939–1941 (Hindsight),1,46,== Discography ==,13269522
+1980,CD,YEAR_REGEX_1,TIME,time_reference,1980,0,47,== Discography ==,13269522
+2 1946–1947,CD CD,DIGIT_REGEX_1 YEAR_REGEX_1,NUMERAL TIME,,The Uncollected Vol. 2 1946–1947 (Hindsight),1,47,== Discography ==,13269522
+1981,CD,YEAR_REGEX_1,TIME,time_reference,1981,0,48,== Discography ==,13269522
+1984,CD,YEAR_REGEX_1,TIME,time_reference,1984,0,49,== Discography ==,13269522
+Jan,NNP,MONTH_ABBR_REGEX,TIME,time_reference,The Uncollected Jan Garber and His Orchestra Vol.,1,49,== Discography ==,13269522
+3 1946–1947,CD CD,DIGIT_REGEX_1 YEAR_REGEX_1,NUMERAL TIME,,3 1946–1947 (Hindsight),2,49,== Discography ==,13269522
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987,0,50,== Discography ==,13269522
+1946-1947,JJ,YEAR_REGEX_1,TIME,time_reference,The Uncollected 1946-1947 Volume 4,1,50,== Discography ==,13269522
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"1947 ""Dinah"" (Capitol)",0,52,== Discography == | === Singles ===,13269522
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"1947 ""Confidentially"" (Capitol)",0,53,== Discography == | === Singles ===,13269522
+Jan,NNP,MONTH_ABBR_REGEX,TIME,time_reference,Jan Garber recordings at the Discography of American Historical Recordings.,0,57,== External links ==,13269522

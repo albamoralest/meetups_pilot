@@ -1,0 +1,25 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 1 , 1947 – February 14 , 1994","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Gary B.B. Coleman (January 1, 1947 – February 14, 1994) was an American soul blues guitarist, singer, songwriter and record producer.",0,0,,25740783
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Originally a local musician turned blues promoter and session musician, Coleman recorded his debut album in 1986, which was re-released by Ichiban Records.",0,1,,25740783
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"He issued several other albums and produced most of Ichiban's blues catalogue until his death, in 1994.",1,1,,25740783
+nightclubs,NNS,DAY_TIME_REGEX,TIME,time_reference,"At this time he started simultaneously booking acts into nightclubs across three states, Texas, Oklahoma, and Colorado.",3,3,== Biography ==,25740783
+nearly twenty years,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,This dual lifestyle in the Southwest continued for nearly twenty years.,4,3,== Biography ==,25740783
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, he created his own independent record label, Mr. B's Records, and issued a single, ""One Eyed Woman"", and his debut album, Nothin' but the Blues, the following year.",5,3,== Biography ==,25740783
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 1985, he created his own independent record label, Mr. B's Records, and issued a single, ""One Eyed Woman"", and his debut album, Nothin' but the Blues, the following year.",5,3,== Biography ==,25740783
+1987,CD,YEAR_REGEX_1,TIME,time_reference,Ichiban Records signed Coleman to a recording contract and duly re-released Nothin' but the Blues on its label in 1987.,7,3,== Biography ==,25740783
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"If You Can Beat Me Rockin' (1988) followed, and in the same year Coleman's duties with Ichiban expanded to include record production for other acts, songwriting, and acting as an A&R scout.",8,3,== Biography ==,25740783
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"If You Can Beat Me Rockin' (1988) followed, and in the same year Coleman's duties with Ichiban expanded to include record production for other acts, songwriting, and acting as an A&R scout.",8,3,== Biography ==,25740783
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"He released six more albums up to 1992 and was responsible for production duties on albums by Blues Boy Willie, Chick Willis, Little Johnny Taylor, and Buster Benton (Money's the Name of the Game, 1989).",9,3,== Biography ==,25740783
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"He released six more albums up to 1992 and was responsible for production duties on albums by Blues Boy Willie, Chick Willis, Little Johnny Taylor, and Buster Benton (Money's the Name of the Game, 1989).",9,3,== Biography ==,25740783
+a One Night,DT CD NNP,INARTICLE_REGEX BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,MODIFIER NUMERAL TIME,time_reference,"His own albums featured songs he wrote, such as ""I Fell in Love on a One Night Stand"" and ""If You Can Beat Me Rockin' (You Can Have My Chair)"".",11,3,== Biography ==,25740783
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Coleman continued to combine various roles successfully until his early death, in 1994.",12,3,== Biography ==,25740783
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Nothin' but the Blues (1987), Ichiban (number 74, Billboard R&B chart)",0,5,== Discography ==,25740783
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"If You Can Beat Me Rockin'... (1988), Ichiban",0,6,== Discography ==,25740783
+One Night,CD NNP,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"One Night Stand (1989), Ichiban",0,7,== Discography ==,25740783
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"One Night Stand (1989), Ichiban",0,7,== Discography ==,25740783
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Dancin' My Blues Away (1990), Ichiban",0,8,== Discography ==,25740783
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Romance Without Finance Is a Nuisance (1991), Ichiban",0,9,== Discography ==,25740783
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"The Best of Gary B.B. Coleman (1991), Ichiban",0,10,== Discography ==,25740783
+Weekend,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Too Much Weekend (1992), Ichiban",0,11,== Discography ==,25740783
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Too Much Weekend (1992), Ichiban",0,11,== Discography ==,25740783
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Cocaine Annie (1994), Icehouse Records",0,12,== Discography ==,25740783

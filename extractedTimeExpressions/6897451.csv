@@ -1,0 +1,55 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"June 18 , 1966","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"John Michael Dexter ""Dex"" Romweber (born June 18, 1966) is an American rockabilly/roots rock musician (primarily playing electric guitar) from Chapel Hill, North Carolina.",0,0,,6897451
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Romweber's first band, Crash Landon and The Kamikazes, was started at the age of 11 while attending Culbreth Junior High, with stand-up bassist Tony Mayer (since of the Good Old Chicken Wire Gang Boys Band) and drummer Hunter Landon (now of the Bad Checks).",2,2,== Early life and education ==,6897451
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"The Flat Duo Jets' first release, In Stereo, was recorded live in the studio in 1985 and originally released on cassette by Dolphin Records.",0,6,== Career == | === The Flat Duo Jets ===,6897451
+Dayton,NNP,TIME_UNIT_REGEX,TIME,time_reference,"The band was also featured around this time on MTV's The Cutting Edge, in a segment directed by Jonathan Dayton and Valerie Faris (who later went on to direct Little Miss Sunshine).",1,6,== Career == | === The Flat Duo Jets ===,6897451
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Though recorded live to two tracks in a garage in the late 80s, the band's full-length debut LP, the self-titled Flat Duo Jets, was not released until 1990.",3,6,== Career == | === The Flat Duo Jets ===,6897451
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"1990 also saw the band make an appearance on Late Night with David Letterman, where they performed a high-energy cover of Benny Joy's ""Wild Wild Lover"".",5,6,== Career == | === The Flat Duo Jets ===,6897451
+Late Night,JJ NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"1990 also saw the band make an appearance on Late Night with David Letterman, where they performed a high-energy cover of Benny Joy's ""Wild Wild Lover"".",5,6,== Career == | === The Flat Duo Jets ===,6897451
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Their second LP, Go Go Harlem Baby, was produced by Jim Dickinson in 1992, and has been acknowledged as a huge influence on Jack White of The White Stripes, not least in the documentary It Might Get Loud.",6,6,== Career == | === The Flat Duo Jets ===,6897451
+the late 1990s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1990s, The Flat Duo Jets signed a major label contract with Outpost Records, a now defunct imprint of Geffen Records.",9,6,== Career == | === The Flat Duo Jets ===,6897451
+a now,DT RB,INARTICLE_REGEX TIMELINE_REGEX,MODIFIER TIME,time_reference,"In the late 1990s, The Flat Duo Jets signed a major label contract with Outpost Records, a now defunct imprint of Geffen Records.",9,6,== Career == | === The Flat Duo Jets ===,6897451
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"The result was 1998's Lucky Eye, produced by Scott Litt and Chris Stamey, which demonstrated a markedly different approach from their previous lo-fi efforts.",10,6,== Career == | === The Flat Duo Jets ===,6897451
+nearly 15 years,RB CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"Poor album sales were met with disappointment by the band, and it was shortly after the release that, after nearly 15 years as a band, Dexter and Crow went separate ways.",12,6,== Career == | === The Flat Duo Jets ===,6897451
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, Dexter finally resurfaced with a new solo album, Chased By Martians, followed by Blues That Defy My Soul in 2004.",0,8,== Career == | === Solo projects ===,6897451
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, Dexter finally resurfaced with a new solo album, Chased By Martians, followed by Blues That Defy My Soul in 2004.",0,8,== Career == | === Solo projects ===,6897451
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Dexter has described his reaction to this influence as like being ""locked away in a Gothic castle for many years"" and ""living in such isolation that I haven't even noticed.""",2,8,== Career == | === Solo projects ===,6897451
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"In 2006, Dexter released the album Piano, which consisted of 13 original classical piano compositions in the style of Chopin.",3,8,== Career == | === Solo projects ===,6897451
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"Also in 2006, a documentary about Dex and The Flat Duo Jets began playing at film festivals.",0,9,== Career == | === Solo projects ===,6897451
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Upon completion of Athens, GA: Inside/Out in 1987, director Tony Gayton began filming an untitled documentary of the Flat Duo Jets' national tour.",1,9,== Career == | === Solo projects ===,6897451
+sixteen years,NN NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Funding the rest of the film himself, Gayton met up with Dexter in Los Angeles sixteen years later, and filmed new interviews with the intention of completing the film.",3,9,== Career == | === Solo projects ===,6897451
+of 2009,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"As of 2009, the film has yet to be picked up for distribution, though it had a brief run on DOC: The Documentary Channel.",5,9,== Career == | === Solo projects ===,6897451
+1995 to 2007,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Dexter's current band, The Dex Romweber Duo, began as Dexter and drummer Crash LaResh, who performed with Dexter from 1995 to 2007.",0,10,== Career == | === Solo projects ===,6897451
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"Crash LaResh left the band in 2007 and was replaced by Dexter's sister, Sara Romweber.",2,10,== Career == | === Solo projects ===,6897451
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"In 2009, the pair released their debut album, Ruins of Berlin, on Bloodshot Records.",3,10,== Career == | === Solo projects ===,6897451
+"the April 29 and 30 , 2009","DT NNP CD CC CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER NUMERAL MODIFIER TIME,time_reference,"On the April 29 and 30, 2009, Dex and Sara were invited to record at Jack White's Third Man Records in Nashville, Tennessee, and they put out a 7-inch vinyl as part of Third Man Records' new ""Blue Series"".",0,11,== Career == | === Solo projects ===,6897451
+of 1930s,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The sessions resulted in the Romweber original ""The Wind Did Move"", featuring Jack White on bass, background vocals and the saw, while the record's b-side was a cover of 1930s blues woman Geeshie Wiley's ""Last Kind Word Blues"", on which Dex and Jack share guitar and vocal duties.",1,11,== Career == | === Solo projects ===,6897451
+"June 9 , 2009","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"It was released on vinyl on June 9, 2009, and on iTunes shortly after.",2,11,== Career == | === Solo projects ===,6897451
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Dexter and Sara also returned to Nashville in 2010 to play a show at Jack White's live venue.,3,11,== Career == | === Solo projects ===,6897451
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011 the Dex Romweber Duo released their second album on Bloodshot Records, titled Is That You in the Blue?.",0,12,== Career == | === Solo projects ===,6897451
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"Romweber also fronts Dexter Romweber and The New Romans, an ensemble of 7 musicians and 3 female backing vocalists that began in 2006.",1,12,== Career == | === Solo projects ===,6897451
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"They have released one limited CD called ""Night Tide"" and mainly play shows in their home state of North Carolina, more specifically in The Research Triangle area of Chapel Hill, Raleigh, and Durham.",2,12,== Career == | === Solo projects ===,6897451
+every Thursday night,DT NNP NN,PREFIX_REGEX_1 WEEK_REGEX DAY_TIME_REGEX,MODIFIER TIME TIME,time_reference,The band continues to rehearse and experiment every Thursday night in Romweber's garage.,4,12,== Career == | === Solo projects ===,6897451
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"In 2016, Romweber released the record Carrboro on Bloodshot Records.",0,13,== Career == | === Solo projects ===,6897451
+1448,CD,YEAR_REGEX_1,TIME,time_reference,Romweber plays the Silvertone 1448.,0,15,== Equipment ==,6897451
+1985,CD,YEAR_REGEX_1,TIME,time_reference,In Stereo (1985),0,18,== Discography ==,6897451
+1990,CD,YEAR_REGEX_1,TIME,time_reference,Flat Duo Jets (1990),0,19,== Discography ==,6897451
+1992,CD,YEAR_REGEX_1,TIME,time_reference,Go Go Harlem Baby (1992),0,20,== Discography ==,6897451
+1993,CD,YEAR_REGEX_1,TIME,time_reference,Safari (1993),0,21,== Discography ==,6897451
+1993,CD,YEAR_REGEX_1,TIME,time_reference,White Trees (1993),0,22,== Discography ==,6897451
+1995,CD,YEAR_REGEX_1,TIME,time_reference,Introducing the Flat Duo Jets (1995),0,23,== Discography ==,6897451
+1996,CD,YEAR_REGEX_1,TIME,time_reference,Red Tango (1996),0,24,== Discography ==,6897451
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Wild Blue Yonder (1998),0,25,== Discography ==,6897451
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Lucky Eye (1998),0,26,== Discography ==,6897451
+2008,CD,YEAR_REGEX_1,TIME,time_reference,Two Headed Cow (2008)Dex Romweber Duo:,0,27,== Discography ==,6897451
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"and the Mysterians; part of Norton's ""Rolling Stones Cover"" series) (2003)",1,28,== Discography ==,6897451
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Ruins of Berlin (2009),0,29,== Discography ==,6897451
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Live at Third Man (2010),0,30,== Discography ==,6897451
+2011,CD,YEAR_REGEX_1,TIME,time_reference,(2011),1,31,== Discography ==,6897451
+2014,CD,YEAR_REGEX_1,TIME,time_reference,Images 13 (2014)Solo discography:,0,32,== Discography ==,6897451
+1996,CD,YEAR_REGEX_1,TIME,time_reference,Folk Songs: Solo Collection (1996),0,33,== Discography ==,6897451
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Chased by Martians (2001) with Crash LaResh on drums,0,34,== Discography ==,6897451
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Blues That Defy My Soul (2004) with Crash LaResh on drums,0,35,== Discography ==,6897451
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Dexter Romweber Duo and Throw Rag – Twelve Bad Studs (a 12-inch split release) with Crash LaResh on Drums (Demonbeach, released c. 2004)",0,36,== Discography ==,6897451
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Piano (2006),0,37,== Discography ==,6897451
+2016,CD,YEAR_REGEX_1,TIME,time_reference,Carrboro (2016),0,38,== Discography ==,6897451

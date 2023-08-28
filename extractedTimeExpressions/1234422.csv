@@ -1,0 +1,14 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"November 9 , 1947","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,0
+1971,CD,YEAR_REGEX_1,TIME,time_reference,0,2
+several years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2,2
+1978,CD,YEAR_REGEX_1,TIME,time_reference,5,2
+now,RB,TIMELINE_REGEX,TIME,time_reference,7,2
+Currently,RB,TIMELINE_REGEX,TIME,time_reference,2,4
+1969,CD,YEAR_REGEX_1,TIME,time_reference,0,5
+1974,CD,YEAR_REGEX_1,TIME,time_reference,0,5
+1979,CD,YEAR_REGEX_1,TIME,time_reference,0,5
+1987,CD,YEAR_REGEX_1,TIME,time_reference,0,5
+1999,CD,YEAR_REGEX_1,TIME,time_reference,2,5
+2010,CD,YEAR_REGEX_1,TIME,time_reference,0,12
+Tonight,NNP,DAY_TIME_REGEX,TIME,time_reference,0,20

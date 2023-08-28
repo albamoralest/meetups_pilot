@@ -1,0 +1,15 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+currently,RB,TIMELINE_REGEX,TIME,time_reference,She is currently the Co-President at Capitol Records in the UK.,1,0,,48638434
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Her industry career began at London Records in 1992 as a marketing assistant before moving to Virgin Records in the International Department, then BMG working for the President Jeremy Marsh.",2,0,,48638434
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Charrington left her job at BMG in 1996 to put together and manage the RnB boyband Another Level, alongside John Reid (Elton John/Queen).",0,2,== Career ==,48638434
+5 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"After 5 years in management she was approached by her old London Records colleague and Northwestside Records founder Nick Raphael to join him at Epic Records, a division of Sony Music.",4,2,== Career ==,48638434
+14 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"The duo have worked together for 14 years, 10 of which at Sony, before moving to Universal to restart London Records, now Capitol UK.",5,2,== Career ==,48638434
+now,RB,TIMELINE_REGEX,TIME,time_reference,"The duo have worked together for 14 years, 10 of which at Sony, before moving to Universal to restart London Records, now Capitol UK.",5,2,== Career ==,48638434
+of Summer,IN NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,5 Seconds of Summer at Capitol.,0,5,== Artists discovered or signed by Jo Charrington ==,48638434
+Week,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Charrington, along with Raphael, was awarded the Music Week A&R Award in both 2010 and 2015.",1,21,== Awards and nominations ==,48638434
+2010 and 2015,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Charrington, along with Raphael, was awarded the Music Week A&R Award in both 2010 and 2015.",1,21,== Awards and nominations ==,48638434
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"In 2015, she was named Business Woman of the Year at the 2015 Music Week’s Women in Music awards.",3,21,== Awards and nominations ==,48638434
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 2015, she was named Business Woman of the Year at the 2015 Music Week’s Women in Music awards.",3,21,== Awards and nominations ==,48638434
+the 2015,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In 2015, she was named Business Woman of the Year at the 2015 Music Week’s Women in Music awards.",3,21,== Awards and nominations ==,48638434
+Week,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In 2015, she was named Business Woman of the Year at the 2015 Music Week’s Women in Music awards.",3,21,== Awards and nominations ==,48638434
+1 January 2016,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Charrington was appointed a Governor of the Brit School on 1 January 2016,4,21,== Awards and nominations ==,48638434

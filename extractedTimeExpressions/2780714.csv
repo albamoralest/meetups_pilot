@@ -1,0 +1,38 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"May 9 , 1929 – November 29 , 1999","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+the 1960s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,1,0
+1965,CD,YEAR_REGEX_1,TIME,time_reference,2,0
+1966,CD,YEAR_REGEX_1,TIME,time_reference,3,0
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,4,0
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,5,0
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,5,0
+1974,CD,YEAR_REGEX_1,TIME,time_reference,0,1
+1992,CD,YEAR_REGEX_1,TIME,time_reference,2,1
+November 1999,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,2,1
+2003,CD,YEAR_REGEX_1,TIME,time_reference,0,5
+currently,RB,TIMELINE_REGEX,TIME,time_reference,1,5
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+1962,CD,YEAR_REGEX_1,TIME,time_reference,0,7
+1965,CD,YEAR_REGEX_1,TIME,time_reference,0,8
+1965,CD,YEAR_REGEX_1,TIME,time_reference,0,9
+1966,CD,YEAR_REGEX_1,TIME,time_reference,0,10
+1967,CD,YEAR_REGEX_1,TIME,time_reference,0,11
+Now,RB,TIMELINE_REGEX,TIME,time_reference,0,12
+1967,CD,YEAR_REGEX_1,TIME,time_reference,0,12
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,0,13
+1967,CD,YEAR_REGEX_1,TIME,time_reference,0,13
+Monday,NNP,WEEK_REGEX,TIME,time_reference,0,14
+1970,CD,YEAR_REGEX_1,TIME,time_reference,0,14
+1967,CD,YEAR_REGEX_1,TIME,time_reference,0,15
+1968,CD,YEAR_REGEX_1,TIME,time_reference,1,16
+1972,CD,YEAR_REGEX_1,TIME,time_reference,0,17
+2015,CD,YEAR_REGEX_1,TIME,time_reference,0,18
+20 1965,CD CD,DIGIT_REGEX_1 YEAR_REGEX_1,NUMERAL TIME,,0,19
+1966,CD,YEAR_REGEX_1,TIME,time_reference,0,19
+2017,CD,YEAR_REGEX_1,TIME,time_reference,0,19
+2020,CD,YEAR_REGEX_1,TIME,time_reference,0,20
+2010,CD,YEAR_REGEX_1,TIME,time_reference,0,24
+2015,CD,YEAR_REGEX_1,TIME,time_reference,0,25
+2002,CD,YEAR_REGEX_1,TIME,time_reference,0,26
+2010,CD,YEAR_REGEX_1,TIME,time_reference,0,27
+1990,CD,YEAR_REGEX_1,TIME,time_reference,0,28

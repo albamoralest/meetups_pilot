@@ -1,0 +1,35 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+August,NNP,MONTH_REGEX,TIME,time_reference,"August Winding (24 March 1835 – 16 June 1899) was a Danish pianist, teacher and composer.",0,0,,22617716
+24 March 1835 – 16 June 1899,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"August Winding (24 March 1835 – 16 June 1899) was a Danish pianist, teacher and composer.",0,0,,22617716
+August,NNP,MONTH_REGEX,TIME,time_reference,"August Henrik Winding was born in Tårs, near Sandby on the island of Lolland.",0,3,== Life == | === Early life and education ===,22617716
+August,NNP,MONTH_REGEX,TIME,time_reference,"August’s three brothers were equally highly musical, most of all his brother Peter Buonaventura who, despite his early death at the age of 16, had some of his works published.",2,3,== Life == | === Early life and education ===,22617716
+"1847 , August","CD , NNP",YEAR_REGEX_1 COMMA_REGEX MONTH_REGEX,TIME MODIFIER TIME,,"In 1847, August’s parents sent the 12 year old to Copenhagen for musical education.",3,3,== Life == | === Early life and education ===,22617716
+the 12 year old,DT CD NN JJ,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,"In 1847, August’s parents sent the 12 year old to Copenhagen for musical education.",3,3,== Life == | === Early life and education ===,22617716
+1848,CD,YEAR_REGEX_1,TIME,time_reference,"He stayed there at the house of J.P.E. Hartmann and was given piano lessons by Carl Reinecke until the latter’s departure for Paris in 1848, and then by Anton Rée (1820-1886), who had been an acquaintance of Frédéric Chopin.",4,3,== Life == | === Early life and education ===,22617716
+1820-1886,JJ,YEAR_REGEX_1,TIME,time_reference,"He stayed there at the house of J.P.E. Hartmann and was given piano lessons by Carl Reinecke until the latter’s departure for Paris in 1848, and then by Anton Rée (1820-1886), who had been an acquaintance of Frédéric Chopin.",4,3,== Life == | === Early life and education ===,22617716
+1856,CD,YEAR_REGEX_1,TIME,time_reference,"In 1856 he went to Leipzig for further studies, and then had  lessons with Alexander Dreyschock in Prague.",6,3,== Life == | === Early life and education ===,22617716
+days,NNS,TIME_UNIT_REGEX,TIME,time_reference,"His public career was originally as a pianist; he became rapidly the leading pianist of his days in Denmark, but also played in many countries of Europe, specialising in Beethoven and Mozart.",0,5,== Life == | === Pianist ===,22617716
+1864,CD,YEAR_REGEX_1,TIME,time_reference,In 1864 he married J. P. E. Hartmann's daughter Clara (Niels Gade married another daughter).,2,5,== Life == | === Pianist ===,22617716
+1867,CD,YEAR_REGEX_1,TIME,time_reference,In 1867 he became a teacher at the Royal Danish Conservatory in Copenhagen and also privately.,3,5,== Life == | === Pianist ===,22617716
+August,NNP,MONTH_REGEX,TIME,time_reference,August Winding was one of Edvard Grieg's closest friends.,4,5,== Life == | === Pianist ===,22617716
+1867,CD,YEAR_REGEX_1,TIME,time_reference,"In 1867 he injured his arm through overwork, which forced his retirement as a performer but also enabled him to devote himself to composing.",0,7,== Life == | === Arm injury and career as a composer ===,22617716
+1881,CD,YEAR_REGEX_1,TIME,time_reference,"In 1881, he resumed his pedagogical activity at the conservatorium.",1,7,== Life == | === Arm injury and career as a composer ===,22617716
+1888,CD,YEAR_REGEX_1,TIME,time_reference,Between 1888 and his death he gave some further concerts.,2,7,== Life == | === Arm injury and career as a composer ===,22617716
+August,NNP,MONTH_REGEX,TIME,time_reference,"August Winding died in 1899 in Copenhagen, aged 64.",0,9,== Life == | === Death and legacy ===,22617716
+1899,CD,YEAR_REGEX_1,TIME,time_reference,"August Winding died in 1899 in Copenhagen, aged 64.",0,9,== Life == | === Death and legacy ===,22617716
+1871-1908,JJ,YEAR_REGEX_1,TIME,time_reference,"He was survived by a daughter, Ingeborg Winding (1871-1908), a painter and the mother of architects and designers  Mogens and Flemming Lassen,  and a son,  Poul Andreas Winding (1877-1966), a violinist.",2,9,== Life == | === Death and legacy ===,22617716
+1877-1966,JJ,YEAR_REGEX_1,TIME,time_reference,"He was survived by a daughter, Ingeborg Winding (1871-1908), a painter and the mother of architects and designers  Mogens and Flemming Lassen,  and a son,  Poul Andreas Winding (1877-1966), a violinist.",2,9,== Life == | === Death and legacy ===,22617716
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"His music was for many years virtually forgotten, apart from some hymn tunes, but attention is now being paid to his major works.",0,11,== Style and legacy ==,22617716
+now,RB,TIMELINE_REGEX,TIME,time_reference,"His music was for many years virtually forgotten, apart from some hymn tunes, but attention is now being paid to his major works.",0,11,== Style and legacy ==,22617716
+1864,CD,YEAR_REGEX_1,TIME,time_reference,7 (1864),1,14,== Compositions ==,22617716
+1885,CD,YEAR_REGEX_1,TIME,time_reference,"Concert Overture (published in 1885), Op.",0,15,== Compositions ==,22617716
+1858-59,CD,YEAR_REGEX_1,TIME,time_reference,Symphony (1858-59),0,17,== Compositions ==,22617716
+Twenty Years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Ballet Fjeldstuen (The Mountain Hut, or Twenty Years; 1859; co-written with his brother-in law Emil Hartmann).",0,18,== Compositions ==,22617716
+1859,CD,YEAR_REGEX_1,TIME,time_reference,"Ballet Fjeldstuen (The Mountain Hut, or Twenty Years; 1859; co-written with his brother-in law Emil Hartmann).",0,18,== Compositions ==,22617716
+Springdands,NNS,SEASON_REGEX,TIME,time_reference,"""Springdands""",0,21,== Compositions ==,22617716
+2 March 1867,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,11 (created by Wilhelmine Neruda on 2 March 1867 in Copenhagen),1,23,== Compositions ==,22617716
+1854,CD,YEAR_REGEX_1,TIME,time_reference,"10 (1854, manuscript, dedicated to J.P.E. Hartmann)",1,28,== Compositions ==,22617716
+1872,CD,YEAR_REGEX_1,TIME,time_reference,"19, for clarinet or violin and piano (1872)",1,30,== Compositions ==,22617716
+Winter,NNP,SEASON_REGEX,TIME,time_reference,"30 (Four Pieces, Im Winter, Im Mai, Herbstlied, Sommergruss, dedicated to Theodor Kirchner)",1,76,== Compositions ==,22617716
+August,NNP,MONTH_REGEX,TIME,time_reference,Free scores by August Winding at the International Music Score Library Project (IMSLP),0,106,== External links ==,22617716
+August,NNP,MONTH_REGEX,TIME,time_reference,August Winding at geni.com,0,107,== External links ==,22617716

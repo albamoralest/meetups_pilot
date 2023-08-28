@@ -1,0 +1,40 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"June 30 , 1958 – November 22 , 2017","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Tommy Keene (born Thomas Clay Keene; June 30, 1958 – November 22, 2017) was an American singer-songwriter, best known for releasing critically acclaimed rock & roll/power pop songs in the 1980s.",0,0,,3018482
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Tommy Keene (born Thomas Clay Keene; June 30, 1958 – November 22, 2017) was an American singer-songwriter, best known for releasing critically acclaimed rock & roll/power pop songs in the 1980s.",0,0,,3018482
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"He graduated in 1976 from Walter Johnson High School in Bethesda, which was also the alma mater of fellow musician Nils Lofgren, who went on to play and record with Neil Young and Bruce Springsteen.",1,2,== Education ==,3018482
+Springsteen,NNP,SEASON_REGEX,TIME,time_reference,"He graduated in 1976 from Walter Johnson High School in Bethesda, which was also the alma mater of fellow musician Nils Lofgren, who went on to play and record with Neil Young and Bruce Springsteen.",1,2,== Education ==,3018482
+1984,CD,YEAR_REGEX_1,TIME,time_reference,His 1984 EP Places That Are Gone became one of the year's top selling independent releases.,1,4,== Musical career ==,3018482
+one of the year,CD IN DT NN,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER MODIFIER TIME,time_range,His 1984 EP Places That Are Gone became one of the year's top selling independent releases.,1,4,== Musical career ==,3018482
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"That same year, Washington City Paper dubbed Keene ""one of the best pop songwriters anywhere.""",2,4,== Musical career ==,3018482
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Places That Are Gone garnered a four-star review in Rolling Stone, and was voted the No. 1 EP in the following year's Village Voice Pazz & Jop Poll.",3,4,== Musical career ==,3018482
+their 1998,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,"Keene also played guitar on the Goo Goo Dolls' hit song, ""Broadway"", on their 1998 album, Dizzy Up The Girl.",9,4,== Musical career ==,3018482
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, Keene released his ninth original studio album, Behind The Parade on Second Motion Records.",10,4,== Musical career ==,3018482
+2010 two-disc,CD JJ,YEAR_REGEX_1 BASIC_NUMBER_REGEX_1,TIME NUMERAL,,"Judge had released Keene's 2010 two-disc retrospective Tommy Keene: You Hear Me and his previous release, Crashing The Ether.",12,4,== Musical career ==,3018482
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Keene's 2006 release Eleven Thirty Records was released while Judge was A&R Director and general manager at Redeye Distribution.,13,4,== Musical career ==,3018482
+"November 22 , 2017","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Keene died in his sleep on November 22, 2017, at the age of 59 due to cardiac arrest.",0,6,== Death ==,3018482
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Strange Alliance (1982, Avenue)",0,9,== Discography == | === Albums ===,3018482
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Songs from the Film (1986, Geffen) U.S.",0,10,== Discography == | === Albums ===,3018482
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Based on Happy Times (1989, Geffen)",0,11,== Discography == | === Albums ===,3018482
+Ten Years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Ten Years After (1996, Matador)",0,12,== Discography == | === Albums ===,3018482
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Ten Years After (1996, Matador)",0,12,== Discography == | === Albums ===,3018482
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"Isolation Party (1998, Matador)",0,13,== Discography == | === Albums ===,3018482
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"The Merry-Go-Round Broke Down (2002, spinART)",0,14,== Discography == | === Albums ===,3018482
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"Crashing the Ether (2006, Eleven Thirty)",0,15,== Discography == | === Albums ===,3018482
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"In the Late Bright (2009, Second Motion Records)",0,16,== Discography == | === Albums ===,3018482
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"Behind the Parade (2011, Second Motion Records)",0,17,== Discography == | === Albums ===,3018482
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"Excitement at Your Feet (2013, Second Motion Records)",0,18,== Discography == | === Albums ===,3018482
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"Laugh in the Dark (2015, Second Motion Records)",0,19,== Discography == | === Albums ===,3018482
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"The Real Underground (1993, Alias)",0,21,== Discography == | === Compilations and live albums ===,3018482
+the Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,"Driving into the Sun (1994, Alias)",0,22,== Discography == | === Compilations and live albums ===,3018482
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Driving into the Sun (1994, Alias)",0,22,== Discography == | === Compilations and live albums ===,3018482
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Showtunes (2001, Self Released)",0,23,== Discography == | === Compilations and live albums ===,3018482
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Drowning—A Tommy Keene Miscellany (2004, Not Lame)",0,24,== Discography == | === Compilations and live albums ===,3018482
+1983-2009,CD,YEAR_REGEX_1,TIME,time_reference,"You Hear Me: A Retrospective - 1983-2009 (2010, Second Motion Records)",1,25,== Discography == | === Compilations and live albums ===,3018482
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"You Hear Me: A Retrospective - 1983-2009 (2010, Second Motion Records)",1,25,== Discography == | === Compilations and live albums ===,3018482
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"Showtunes II (2016, Self Released)",0,26,== Discography == | === Compilations and live albums ===,3018482
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Places That Are Gone (1984, Dolphin)",0,28,== Discography == | === EPs ===,3018482
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"(1984, Dolphin)",1,29,== Discography == | === EPs ===,3018482
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"Run Now (1986, Geffen)",0,30,== Discography == | === EPs ===,3018482
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Run Now (1986, Geffen)",0,30,== Discography == | === EPs ===,3018482
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Sleeping on a Roller Coaster (1992, Matador)",0,31,== Discography == | === EPs ===,3018482
+"May 9 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"and as a Bonus, He Comes Out"" by Reighley, Kurt B. – The Advocate (The national gay & lesbian newsmagazine), May 9, 2006",1,37,== External links ==,3018482

@@ -1,0 +1,20 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"October 11 , 1952","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Paulette Tenae Carlson (born October 11, 1952) is an American country singer-songwriter, who rose to fame in the 1980s as the founder and lead vocalist for the country band Highway 101.",0,0,,3846285
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Paulette Tenae Carlson (born October 11, 1952) is an American country singer-songwriter, who rose to fame in the 1980s as the founder and lead vocalist for the country band Highway 101.",0,0,,3846285
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Her most successful solo single is ""I'll Start with You"", which peaked at number 21 in 1991.",3,0,,3846285
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Paulette Carlson began professionally singing in the dance bars in Fargo, ND and in the Minneapolis, MN area and built a large local following before heading to Nashville in 1978.",0,2,== Beginnings ==,3846285
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Carlson founded Highway 101 in 1986 with session musicians Jack Daniels, Scott ""Cactus"" Moser, and Curtis Stone.",0,4,== Highway 101 ==,3846285
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Carlson recorded three albums, a Greatest Hits package, and 12 singles for the group before leaving in 1991.",2,4,== Highway 101 ==,3846285
+that year,IN NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Nikki Nelson replaced her as lead vocalist that year.,3,4,== Highway 101 ==,3846285
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Carlson signed with Capitol Nashville in 1991 and released Love Goes On, which she produced with Jimmy Bowen.",0,6,== Solo ==,3846285
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"Christmas Is For You, a Christmas album, was released in 1993 under a small independent label.",0,7,== Solo ==,3846285
+a Christmas,DT NNP,INARTICLE_REGEX HOLIDAY_REGEX,MODIFIER TIME,time_reference,"Christmas Is For You, a Christmas album, was released in 1993 under a small independent label.",0,7,== Solo ==,3846285
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Christmas Is For You, a Christmas album, was released in 1993 under a small independent label.",0,7,== Solo ==,3846285
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"Carlson produced this album and wrote two songs for the project, ""Christmas is for You"" and ""Mrs. Santa Claus.""",1,7,== Solo ==,3846285
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"Both songs were made into music videos, one where her daughter, Cali, appeared in the ""Christmas Is For You"" video.",2,7,== Solo ==,3846285
+Tenth Year,JJ NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Marking Highway 101's Tenth Year Anniversary, Carlson reunited with original members, Curtis Stone and Jack Daniels.",0,9,== Reunited with Highway 101 ==,3846285
+1996 and 1997,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"""Where’d You Get Your Cheatin’ From"", ""It Must be Love"" and ""I Just Don't Love the Man"" were released as singles (1996 and 1997).",2,9,== Reunited with Highway 101 ==,3846285
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"In 2004, when her brother Gary, a Vietnam War veteran, was in the hospital, Carlson was inspired to write a song called (""Thank You Vets"").",0,11,== Present ==,3846285
+2005,CD,YEAR_REGEX_1,TIME,time_reference,It's About Time (2005) was released under Pandean Records.,2,11,== Present ==,3846285
+Today,NN,TIMELINE_REGEX,TIME,time_reference,"Today, Carlson has returned to performing and tours with a backing band called Montana Rising.",0,12,== Present ==,3846285
+currently,RB,TIMELINE_REGEX,TIME,time_reference,"She is currently represented by Gerald Murray Music, an independent agency which specialize in artist management, booking, tour management and the development of performing artists.",1,12,== Present ==,3846285

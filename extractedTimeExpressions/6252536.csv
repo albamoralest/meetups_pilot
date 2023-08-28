@@ -1,0 +1,17 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"July 16 , 1923 – February 14 , 1987","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Bola Sete (born Djalma de Andrade; July 16, 1923 – February 14, 1987) was a Brazilian guitarist who played jazz with Vince Guaraldi and Dizzy Gillespie.",0,0,,6252536
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"For Christmas in 1932, he was gifted his first guitar.",8,2,== History ==,6252536
+1932,CD,YEAR_REGEX_1,TIME,time_reference,"For Christmas in 1932, he was gifted his first guitar.",8,2,== History ==,6252536
+1952 and '58,CD CC POS,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_2,TIME MODIFIER TIME,time_range,His career broadened between 1952 and '58 when he played clubs and hotels in Italy.,0,3,== History ==,6252536
+every day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Dizzy Gillespie was staying there at the time and heard Sete playing every day.,3,3,== History ==,6252536
+the fall,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"In the fall of 1962, Gillespie took Sete to the Monterey Jazz Festival, where he enjoyed a huge reception.",6,3,== History ==,6252536
+of 1962,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the fall of 1962, Gillespie took Sete to the Monterey Jazz Festival, where he enjoyed a huge reception.",6,3,== History ==,6252536
+a couple of years,DT NN IN NNS,INARTICLE_REGEX PREFIX_REGEX_2 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"After staying for a couple of years with Guaraldi, Sete formed his own trio with Sebastião Neto on bass and Paulinho da Costa on drums.",9,3,== History ==,6252536
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"He appeared at the Monterey Jazz Festival in 1966 with this trio and released an album of his performance, Bola Sete at the Monterey Jazz Festival, which peaked at No. 20 on the Billboard Jazz chart.",10,3,== History ==,6252536
+a two year,DT CD NN,INARTICLE_REGEX BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"After a two year retirement, Sete returned to music in 1971.",11,3,== History ==,6252536
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"After a two year retirement, Sete returned to music in 1971.",11,3,== History ==,6252536
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1970s, Sete became friends with guitarist John Fahey, who had been an admirer.",15,3,== History ==,6252536
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"In 1975, Sete's album Ocean was released on Fahey's label, Takoma Records.",16,3,== History ==,6252536
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1980s, Sete suffered from lung cancer, which he attempted to improve with yoga and meditation.",0,5,== Death ==,6252536
+"February 14 , 1987","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On February 14, 1987, he died at Marin General Hospital in Greenbrae, California of complications caused by pneumonia and cancer.",1,5,== Death ==,6252536
+2008,CD,YEAR_REGEX_1,TIME,time_reference,The compositions he recorded shortly before his death were compiled and released as Windspell in 2008.,2,5,== Death ==,6252536

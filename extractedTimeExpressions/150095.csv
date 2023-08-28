@@ -1,80 +1,80 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"November 23 , 1888 – September 28 , 1964","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Arthur ""Harpo"" Marx (born Adolph Marx; November 23, 1888 – September 28, 1964) was an American comedian, actor, mime artist, and musician, and the second-oldest of the Marx Brothers.",0,0,,150095
-"November 23 , 1888","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Harpo was born on November 23, 1888, in Manhattan, New York City.",0,2,== Early life ==,150095
-now,RB,TIMELINE_REGEX,TIME,time_reference,"He grew up in a neighborhood now known as Carnegie Hill (known at the time as Yorkville) on the Upper East Side of Manhattan, on East 93rd Street off Lexington Avenue.",1,2,== Early life ==,150095
-now,RB,TIMELINE_REGEX,TIME,time_reference,"The neighborhood hosted many historical homes and other buildings, such as the William Goadby Loew House (now the Spence School), the Congregation Shaare Zedek, and the Virginia Graham Fair Vanderbilt house.",3,2,== Early life ==,150095
-January 1910,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 1910, Harpo joined two of his brothers, Julius (later ""Groucho"") and Milton (later ""Gummo""), to form ""The Three Nightingales"", which would later be renamed ""The Marx Brothers"".",0,5,== Career == | === On stage ===,150095
-The Three Nightingales,DT NNP NNP,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,MODIFIER NUMERAL TIME,time_reference,"In January 1910, Harpo joined two of his brothers, Julius (later ""Groucho"") and Milton (later ""Gummo""), to form ""The Three Nightingales"", which would later be renamed ""The Marx Brothers"".",0,5,== Career == | === On stage ===,150095
-that night,WDT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,,"In this version of the story, Marx was referred to by Art Fisher, the dealer that night, as ""Harpo"" because he played harp.",5,5,== Career == | === On stage ===,150095
-late 1916,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"However, this version of events is disputed, at least partially because the Orpheum Theatre was not constructed until late 1916, wheareas Harpo later remembered acquiring the name in 1914.",6,5,== Career == | === On stage ===,150095
-1914,CD,YEAR_REGEX_1,TIME,time_reference,"However, this version of events is disputed, at least partially because the Orpheum Theatre was not constructed until late 1916, wheareas Harpo later remembered acquiring the name in 1914.",6,5,== Career == | === On stage ===,150095
-Three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Three years later, he found out he had tuned it incorrectly, but that his method placed much less tension on the strings.",11,5,== Career == | === On stage ===,150095
-A Day,DT NNP,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He was also seen playing a portion of Rachmaninoff's ""Prelude in C# minor"" in A Day at the Races, and played piano in A Night at the Opera.",19,5,== Career == | === On stage ===,150095
-A Night,NNP NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"He was also seen playing a portion of Rachmaninoff's ""Prelude in C# minor"" in A Day at the Races, and played piano in A Night at the Opera.",19,5,== Career == | === On stage ===,150095
-1935,CD,YEAR_REGEX_1,TIME,time_reference,"Ultimately, he relinquished the piano to Chico in favor of his trademark harp, upon which he performed Nacio Herb Brown's 1935 song Alone, which was sung in the film by Kitty Carlisle and Allan Jones.",20,5,== Career == | === On stage ===,150095
-1911,CD,YEAR_REGEX_1,TIME,time_reference,"Harpo had changed his name from ""Adolph"", a name he disliked (as a child, he was routinely called ""Ahdie"" instead),  to ""Arthur"" by 1911.",21,5,== Career == | === On stage ===,150095
-1921,CD,YEAR_REGEX_1,TIME,time_reference,"His first screen appearance was in the film Humor Risk (1921), with his brothers, although according to Groucho it was screened only once and then lost.",0,7,== Career == | === On film ===,150095
-Four years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Four years later, Harpo appeared without his brothers as the ""Village Peter Pan"" in Too Many Kisses which predated the brothers' first collaborative film, The Cocoanuts, by 4 years.",1,7,== Career == | === On film ===,150095
-4 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Four years later, Harpo appeared without his brothers as the ""Village Peter Pan"" in Too Many Kisses which predated the brothers' first collaborative film, The Cocoanuts, by 4 years.",1,7,== Career == | === On film ===,150095
-5 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Not only is The Cocoanuts historical by virtue of being the first of the Marx's many talkies, but also for being the first film to feature an overhead camera shot, at least 5 years before Busby Berkeley's renowned first use of the technique in his 1936 film Lullaby of Broadway to film a kaleidoscopic women's dance routine.",2,7,== Career == | === On film ===,150095
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"Not only is The Cocoanuts historical by virtue of being the first of the Marx's many talkies, but also for being the first film to feature an overhead camera shot, at least 5 years before Busby Berkeley's renowned first use of the technique in his 1936 film Lullaby of Broadway to film a kaleidoscopic women's dance routine.",2,7,== Career == | === On film ===,150095
-1932,CD,YEAR_REGEX_1,TIME,time_reference,"In the film Horse Feathers (1932), Groucho, referring to an impossible situation, tells Harpo that he cannot ""burn the candle at both ends"".",1,8,== Career == | === On film ===,150095
-A Night,DT NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Over time, he darkened the pink to more of a reddish color, which films again alluded to with character names, such as the name of his character in A Night in Casablanca, ""Rusty"".",13,8,== Career == | === On film ===,150095
-1939,CD,YEAR_REGEX_1,TIME,time_reference,"The Marxes' film At the Circus (1939) contains a unique scene where Harpo is heard saying ""A-choo!""",0,12,== Career == | === On film ===,150095
-1933,CD,YEAR_REGEX_1,TIME,time_reference,"In 1933, following U.S. diplomatic recognition of the Soviet Union, Harpo spent six weeks in Moscow as a performer and goodwill ambassador.",0,14,== Career == | === Tour in the Soviet Union ===,150095
-six weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1933, following U.S. diplomatic recognition of the Soviet Union, Harpo spent six weeks in Moscow as a performer and goodwill ambassador.",0,14,== Career == | === Tour in the Soviet Union ===,150095
-six weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"His tour was a huge success, and the show ran for six weeks.",1,14,== Career == | === Tour in the Soviet Union ===,150095
-ten days,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Marx recounted his relief at his voyage's end: ""I pulled up my pants, ripped off the tape, unwound the straps, handed over the dispatches from Ambassador Bullitt, and gave my leg its first scratch in ten days.",6,14,== Career == | === Tour in the Soviet Union ===,150095
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"In 1936, he rode an ostrich on a team of polo-playing film stars who appeared as caricatures in the Walt Disney Production's Mickey's Polo Team, alongside Charlie Chaplin and Laurel and Hardy.",0,16,== In other media ==,150095
-1934,CD,YEAR_REGEX_1,TIME,time_reference,"Harpo was also caricatured in Fleischer Studios' Popeye cartoon Sock-A-Bye Baby (1934), in which Harpo's harp playing awakens Popeye's baby  resulting in Popeye punching Marx, apparently fatally (as suggested when Harpo develops a halo and ascends to the heavens).",0,17,== In other media ==,150095
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"Friz Freleng's 1936 Merrie Melodies cartoon The Coo-Coo Nut Grove caricatured Harpo, one of multiple celebrities appearing as an animal, as a bird with a red beak who chases a ""woman"" who is later revealed to be Groucho.",1,17,== In other media ==,150095
-1952,CD,YEAR_REGEX_1,TIME,time_reference,"Harpo recorded an album of harp music for RCA Victor (Harp by Harpo, 1952) and two for Mercury Records (Harpo in Hi-Fi, 1957; Harpo at Work, 1958).",7,17,== In other media ==,150095
-1957,CD,YEAR_REGEX_1,TIME,time_reference,"Harpo recorded an album of harp music for RCA Victor (Harp by Harpo, 1952) and two for Mercury Records (Harpo in Hi-Fi, 1957; Harpo at Work, 1958).",7,17,== In other media ==,150095
-1958,CD,YEAR_REGEX_1,TIME,time_reference,"Harpo recorded an album of harp music for RCA Victor (Harp by Harpo, 1952) and two for Mercury Records (Harpo in Hi-Fi, 1957; Harpo at Work, 1958).",7,17,== In other media ==,150095
-the 1950s and 60s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1,MODIFIER TIME MODIFIER NUMERAL,time_reference,"Harpo made television appearances through the 1950s and 60s, including a 1955 episode of I Love Lucy, in which he and Lucille Ball re-enacted the famous mirror scene from Duck Soup.",8,17,== In other media ==,150095
-a 1955,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"Harpo made television appearances through the 1950s and 60s, including a 1955 episode of I Love Lucy, in which he and Lucille Ball re-enacted the famous mirror scene from Duck Soup.",8,17,== In other media ==,150095
-1950,CD,YEAR_REGEX_1,TIME,time_reference,He also appeared on NBC's The Martha Raye Show circa 1950.,10,17,== In other media ==,150095
-"the May 8 , 1959","DT NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Harpo and Chico appeared in the May 8, 1959 episode of General Electric Theater entitled ""The Incredible Jewelry Robbery"" entirely in pantomime.",11,17,== In other media ==,150095
-1960,CD,YEAR_REGEX_1,TIME,time_reference,"In 1960, Marx appeared in his first dramatic role, the A Silent Panic episode of The DuPont Show with June Allyson.",13,17,== In other media ==,150095
-June,NNP,MONTH_REGEX,TIME,time_reference,"In 1960, Marx appeared in his first dramatic role, the A Silent Panic episode of The DuPont Show with June Allyson.",13,17,== In other media ==,150095
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"In 1961, to publicize his autobiography Harpo Speaks!, he appeared on The Today Show, Play Your Hunch, Candid Camera, I've Got a Secret, Here's Hollywood, Art Linkletter's House Party, Groucho's You Bet",15,17,== In other media ==,150095
-The Today,DT NNP,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"In 1961, to publicize his autobiography Harpo Speaks!, he appeared on The Today Show, Play Your Hunch, Candid Camera, I've Got a Secret, Here's Hollywood, Art Linkletter's House Party, Groucho's You Bet",15,17,== In other media ==,150095
-November 1961,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In November 1961, he guest-starred with Carol Burnett in an installment of The DuPont Show of the Week entitled ""The Wonderful World of Toys"".",17,17,== In other media ==,150095
-of the Week,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In November 1961, he guest-starred with Carol Burnett in an installment of The DuPont Show of the Week entitled ""The Wonderful World of Toys"".",17,17,== In other media ==,150095
-Autumn,NNP,SEASON_REGEX,TIME,time_reference,"The show was filmed in Central Park and featured Marx playing ""Autumn Leaves"" on the harp.",18,17,== In other media ==,150095
-Late 1962,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Late 1962 brought Harpo's final pair of television appearances, which aired within less than a month of each other.",21,17,== In other media ==,150095
-less than a month,JJR IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"Late 1962 brought Harpo's final pair of television appearances, which aired within less than a month of each other.",21,17,== In other media ==,150095
-the September 25,DT NNP CD,PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,He portrayed a guardian angel on the September 25 episode of CBS's The Red Skelton Hour.,22,17,== In other media ==,150095
-Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,He portrayed a guardian angel on the September 25 episode of CBS's The Red Skelton Hour.,22,17,== In other media ==,150095
-the October 20th,DT NNP JJ,PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,"His final role, opposite show star Fess Parker, was as himself on the October 20th episode Musicale of ABC's sitcom Mr. Smith Goes to Washington (based on Frank Capra's film of the same name) .",23,17,== In other media ==,150095
-"September 28 , 1936","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Harpo's September 28, 1936, marriage to actress Susan Fleming became public knowledge the next month due to a congratulatory telegram sent by President Franklin D. Roosevelt.",0,19,== Personal life ==,150095
-the next month,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Harpo's September 28, 1936, marriage to actress Susan Fleming became public knowledge the next month due to a congratulatory telegram sent by President Franklin D. Roosevelt.",0,19,== Personal life ==,150095
-1948,CD,YEAR_REGEX_1,TIME,time_reference,"When he was asked by George Burns in 1948 how many children he planned to adopt, he answered, ""I’d like to adopt as many children as I have windows in my house.",3,19,== Personal life ==,150095
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"In 1961, Harpo published his autobiography, Harpo Speaks!",0,21,== Personal life ==,150095
-the early 1930s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"A reporter who interviewed him in the early 1930s wrote that ""he [Harpo] ... had a deep and distinguished voice, like a professional announcer"", and like his brothers, spoke with a New York accent his entire life.",3,21,== Personal life ==,150095
-"January 19 , 1963","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Harpo's final public appearance came on January 19, 1963, when he announced his retirement, causing singer/comedian Allan Sherman to burst into tears.",6,21,== Personal life ==,150095
-several minutes,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Comedian Steve Allen, who was in the audience, remembered that Harpo spoke for several minutes about his career, and how he would miss it all, and repeatedly interrupted Sherman when he tried to speak.",7,21,== Personal life ==,150095
-1979,CD,YEAR_REGEX_1,TIME,time_reference,"Harpo, an avid croquet player, was inducted into the Croquet Hall of Fame in 1979.",9,21,== Personal life ==,150095
-"September 28 , 1964","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Harpo Marx died on September 28, 1964 (his 28th wedding anniversary), at age 75 in a West Los Angeles hospital, one day after undergoing heart surgery.",0,23,== Death ==,150095
-one day,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Harpo Marx died on September 28, 1964 (his 28th wedding anniversary), at age 75 in a West Los Angeles hospital, one day after undergoing heart surgery.",0,23,== Death ==,150095
-2002,CD,YEAR_REGEX_1,TIME,time_reference,"In 2002, a Golden Palm Star on the Palm Springs, California, Walk of Stars, located at 190 E. Tahquitz Way, was dedicated to Harpo's memory.",4,25,== Legacy ==,150095
-Springs,NNP,SEASON_REGEX,TIME,time_reference,"In 2002, a Golden Palm Star on the Palm Springs, California, Walk of Stars, located at 190 E. Tahquitz Way, was dedicated to Harpo's memory.",4,25,== Legacy ==,150095
-the 1994,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Marx was portrayed by the actor J. M. Henry in the 1994 film Mrs. Parker and the Vicious Circle.,0,27,== Legacy == | === Media portrayals ===,150095
-March to May 1970,NNP TO NNP CD,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME TIME,time_reference,"Marx was portrayed by actor Daniel Fortus in the Broadway production of Minnie's Boys, a Broadway musical that ran for 64 performances at the Imperial Theatre from March to May 1970.",1,27,== Legacy == | === Media portrayals ===,150095
-the early days,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,The show focused on the early days of the Marx Brothers' act and the importance of their mother Minnie's strong hand in guiding and molding them into a successful vaudeville and film comedy team.,2,27,== Legacy == | === Media portrayals ===,150095
-1980,CD,YEAR_REGEX_1,TIME,time_reference,"Actress Priscilla Lopez played Gino, a character based on Harpo, in 1980's Broadway send-up of Hollywood filmmaking A Day in Hollywood/A Night in the Ukraine.",3,27,== Legacy == | === Media portrayals ===,150095
-A Day,DT NNP,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Actress Priscilla Lopez played Gino, a character based on Harpo, in 1980's Broadway send-up of Hollywood filmmaking A Day in Hollywood/A Night in the Ukraine.",3,27,== Legacy == | === Media portrayals ===,150095
-Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"Actress Priscilla Lopez played Gino, a character based on Harpo, in 1980's Broadway send-up of Hollywood filmmaking A Day in Hollywood/A Night in the Ukraine.",3,27,== Legacy == | === Media portrayals ===,150095
-"September 8 , 1986","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The play, held at the off-Broadway Lucille Lortel Theatre, boasted a 264 show run from September 8, 1986, to May 3, 1987.",6,27,== Legacy == | === Media portrayals ===,150095
-"May 3 , 1987","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The play, held at the off-Broadway Lucille Lortel Theatre, boasted a 264 show run from September 8, 1986, to May 3, 1987.",6,27,== Legacy == | === Media portrayals ===,150095
-1952,CD,YEAR_REGEX_1,TIME,time_reference,1952 Harp By Harpo,0,33,== Discography ==,150095
-1957,CD,YEAR_REGEX_1,TIME,time_reference,1957 Harpo in Hi-Fi,0,34,== Discography ==,150095
-1958,CD,YEAR_REGEX_1,TIME,time_reference,1958 Harpo At Work!,0,35,== Discography ==,150095
-1961,CD,YEAR_REGEX_1,TIME,time_reference,1961 Harpo Speaks!,0,37,== Bibliography ==,150095
-2000,CD,YEAR_REGEX_1,TIME,time_reference,2000 Harpo Speaks ...,0,38,== Bibliography ==,150095
-1973,CD,YEAR_REGEX_1,TIME,time_reference,"Adamson, Joe (1973).",0,41,== References ==,150095
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"Marx, Harpo (1961).",0,42,== References ==,150095
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"New York: B. Geis Associates; New York: Limelight Editions, 1985.",2,42,== References ==,150095
-1996,CD,YEAR_REGEX_1,TIME,time_reference,"Mitchell, Glenn (1996).",0,43,== References ==,150095
-2012,CD,YEAR_REGEX_1,TIME,time_reference,"Koestenbaum, Wayne (2012).",0,44,== References ==,150095
-2013,CD,YEAR_REGEX_1,TIME,time_reference,"Fix, Charlene (2013) Harpo Marx asTrickster.",0,45,== References ==,150095
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"November 23 , 1888 – September 28 , 1964","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+"November 23 , 1888","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,2
+now,RB,TIMELINE_REGEX,TIME,time_reference,1,2
+now,RB,TIMELINE_REGEX,TIME,time_reference,3,2
+January 1910,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,5
+The Three Nightingales,DT NNP NNP,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,MODIFIER NUMERAL TIME,time_reference,0,5
+that night,WDT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,,5,5
+late 1916,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,6,5
+1914,CD,YEAR_REGEX_1,TIME,time_reference,6,5
+Three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,11,5
+A Day,DT NNP,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,19,5
+A Night,NNP NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,19,5
+1935,CD,YEAR_REGEX_1,TIME,time_reference,20,5
+1911,CD,YEAR_REGEX_1,TIME,time_reference,21,5
+1921,CD,YEAR_REGEX_1,TIME,time_reference,0,7
+Four years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,7
+4 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,7
+5 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,7
+1936,CD,YEAR_REGEX_1,TIME,time_reference,2,7
+1932,CD,YEAR_REGEX_1,TIME,time_reference,1,8
+A Night,DT NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,13,8
+1939,CD,YEAR_REGEX_1,TIME,time_reference,0,12
+1933,CD,YEAR_REGEX_1,TIME,time_reference,0,14
+six weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,14
+six weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,14
+ten days,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,6,14
+1936,CD,YEAR_REGEX_1,TIME,time_reference,0,16
+1934,CD,YEAR_REGEX_1,TIME,time_reference,0,17
+1936,CD,YEAR_REGEX_1,TIME,time_reference,1,17
+1952,CD,YEAR_REGEX_1,TIME,time_reference,7,17
+1957,CD,YEAR_REGEX_1,TIME,time_reference,7,17
+1958,CD,YEAR_REGEX_1,TIME,time_reference,7,17
+the 1950s and 60s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1,MODIFIER TIME MODIFIER NUMERAL,time_reference,8,17
+a 1955,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,8,17
+1950,CD,YEAR_REGEX_1,TIME,time_reference,10,17
+"the May 8 , 1959","DT NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,11,17
+1960,CD,YEAR_REGEX_1,TIME,time_reference,13,17
+June,NNP,MONTH_REGEX,TIME,time_reference,13,17
+1961,CD,YEAR_REGEX_1,TIME,time_reference,15,17
+The Today,DT NNP,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,15,17
+November 1961,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,17,17
+of the Week,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,17,17
+Autumn,NNP,SEASON_REGEX,TIME,time_reference,18,17
+Late 1962,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,21,17
+less than a month,JJR IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,21,17
+the September 25,DT NNP CD,PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,22,17
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,22,17
+the October 20th,DT NNP JJ,PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,23,17
+"September 28 , 1936","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,19
+the next month,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,0,19
+1948,CD,YEAR_REGEX_1,TIME,time_reference,3,19
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,21
+the early 1930s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,3,21
+"January 19 , 1963","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,6,21
+several minutes,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,7,21
+1979,CD,YEAR_REGEX_1,TIME,time_reference,9,21
+"September 28 , 1964","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,23
+one day,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,0,23
+2002,CD,YEAR_REGEX_1,TIME,time_reference,4,25
+Springs,NNP,SEASON_REGEX,TIME,time_reference,4,25
+the 1994,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,27
+March to May 1970,NNP TO NNP CD,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME TIME,time_reference,1,27
+the early days,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,2,27
+1980,CD,YEAR_REGEX_1,TIME,time_reference,3,27
+A Day,DT NNP,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,3,27
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,3,27
+"September 8 , 1986","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,6,27
+"May 3 , 1987","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,6,27
+1952,CD,YEAR_REGEX_1,TIME,time_reference,0,33
+1957,CD,YEAR_REGEX_1,TIME,time_reference,0,34
+1958,CD,YEAR_REGEX_1,TIME,time_reference,0,35
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,37
+2000,CD,YEAR_REGEX_1,TIME,time_reference,0,38
+1973,CD,YEAR_REGEX_1,TIME,time_reference,0,41
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,42
+1985,CD,YEAR_REGEX_1,TIME,time_reference,2,42
+1996,CD,YEAR_REGEX_1,TIME,time_reference,0,43
+2012,CD,YEAR_REGEX_1,TIME,time_reference,0,44
+2013,CD,YEAR_REGEX_1,TIME,time_reference,0,45

@@ -1,0 +1,103 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"May 13 , 1964","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"John Louis Richardson (born May 13, 1964) is an American drummer who has worked in rock and alt-country with such artists as Gin Blossoms, Badfinger, Wilco guitarist Jay Bennett, and 2012 CMA Song of the Year nominee Will Hoge.",0,0,,31076081
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"John Louis Richardson (born May 13, 1964) is an American drummer who has worked in rock and alt-country with such artists as Gin Blossoms, Badfinger, Wilco guitarist Jay Bennett, and 2012 CMA Song of the Year nominee Will Hoge.",0,0,,31076081
+of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"John Louis Richardson (born May 13, 1964) is an American drummer who has worked in rock and alt-country with such artists as Gin Blossoms, Badfinger, Wilco guitarist Jay Bennett, and 2012 CMA Song of the Year nominee Will Hoge.",0,0,,31076081
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Born in Champaign, Illinois, John Louis Richardson started his professional career in 1980 with seminal Champaign-Urbana band The Martyrs.",0,3,== Career == | === Early career ===,31076081
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"The Martyrs reunited in 2010 for the re-release of their eponymous first album (originally released in 1983) and two live shows at the High Dive in Champaign, Illinois, on January 21 and 22, 2011.",2,3,== Career == | === Early career ===,31076081
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"The Martyrs reunited in 2010 for the re-release of their eponymous first album (originally released in 1983) and two live shows at the High Dive in Champaign, Illinois, on January 21 and 22, 2011.",2,3,== Career == | === Early career ===,31076081
+"January 21 and 22 , 2011","NNP CD CC CD , CD",MONTH_REGEX DIGIT_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER NUMERAL MODIFIER TIME,time_reference,"The Martyrs reunited in 2010 for the re-release of their eponymous first album (originally released in 1983) and two live shows at the High Dive in Champaign, Illinois, on January 21 and 22, 2011.",2,3,== Career == | === Early career ===,31076081
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"On the release of Tommy Keene's Based on Happy Times in 1989, Richardson was recruited to play drums for the subsequent tour (along with Brad Quinn on bass) opening for The Replacements.",0,5,== Career == | === Tommy Keene ===,31076081
+1992 to 2009,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He played on all Tommy Keene's following albums and tours from 1992 to 2009.,1,5,== Career == | === Tommy Keene ===,31076081
+1990,CD,YEAR_REGEX_1,TIME,time_reference,Richardson was tagged to play drums for Joey Molland (Badfinger) in 1990.,0,7,== Career == | === Joey Molland of Badfinger ===,31076081
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"He has toured the US, Canada and Europe with Molland/Badfinger and played drums on Molland's solo album, The Pilgrim, released in 1992.",1,7,== Career == | === Joey Molland of Badfinger ===,31076081
+2008 to 2012,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 2008 to 2012, Richardson played drums for the Gin Blossoms, touring all over the world and recording on their 2010 album, No Chocolate Cake.",0,9,== Career == | === Gin Blossoms ===,31076081
+their 2010,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,"From 2008 to 2012, Richardson played drums for the Gin Blossoms, touring all over the world and recording on their 2010 album, No Chocolate Cake.",0,9,== Career == | === Gin Blossoms ===,31076081
+"March 4 , 2012","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The band announced on its website on March 4, 2012, that Richardson had left the band to pursue other recording and performing projects.",1,9,== Career == | === Gin Blossoms ===,31076081
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Richardson played with Will Hoge in 2012, touring across the US and playing the venerable Ryman Auditorium for the Grand Ole Opry.",0,11,== Career == | === Will Hoge ===,31076081
+Three Hour,NNP NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Richardson has toured with many artists, including Will Hoge, Gin Blossoms, Badfinger, Tommy Keene, Shoes, Catchpenny, Adam Schmitt, Garrison Starr, Tim Easton, The Bad Examples, Ralph's World, Three Hour Tour, Weird Summer and the Bay City Rollers.",0,14,== Associations == | === Touring ===,31076081
+Summer,NNP,SEASON_REGEX,TIME,time_reference,"Richardson has toured with many artists, including Will Hoge, Gin Blossoms, Badfinger, Tommy Keene, Shoes, Catchpenny, Adam Schmitt, Garrison Starr, Tim Easton, The Bad Examples, Ralph's World, Three Hour Tour, Weird Summer and the Bay City Rollers.",0,14,== Associations == | === Touring ===,31076081
+Three Hour,NNP NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In the studio, he has played drums for Gin Blossoms, Joey Molland (Badfinger), Paul Chastain (Velvet Crush, Matthew Sweet), Tommy Keene, Shoes, Adam Schmitt, Keene Brothers (Robert Pollard and Tommy Keene), Garrison Starr, Robynn Ragland, The Bad Examples, Three Hour Tour, Weird Summer, Jay Bennett (Wilco), Billy Davis (Foghat), Randy Forte & the Reconstruction, Raymond Maclean, and The Dygmies.",0,16,== Associations == | === Recording ===,31076081
+Summer,NNP,SEASON_REGEX,TIME,time_reference,"In the studio, he has played drums for Gin Blossoms, Joey Molland (Badfinger), Paul Chastain (Velvet Crush, Matthew Sweet), Tommy Keene, Shoes, Adam Schmitt, Keene Brothers (Robert Pollard and Tommy Keene), Garrison Starr, Robynn Ragland, The Bad Examples, Three Hour Tour, Weird Summer, Jay Bennett (Wilco), Billy Davis (Foghat), Randy Forte & the Reconstruction, Raymond Maclean, and The Dygmies.",0,16,== Associations == | === Recording ===,31076081
+Year,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Richardson has performed on Fox News All-American New Year's Eve and Twelve News Phoenix – Downtown Goes Live (with Gin Blossoms), Late Night with Conan O'Brien (with Tommy Keene), WGN News (with Shoes and WGN Morning News) and with Ralph's World).",0,22,== Media == | === Television appearances ===,31076081
+Late Night,JJ NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Richardson has performed on Fox News All-American New Year's Eve and Twelve News Phoenix – Downtown Goes Live (with Gin Blossoms), Late Night with Conan O'Brien (with Tommy Keene), WGN News (with Shoes and WGN Morning News) and with Ralph's World).",0,22,== Media == | === Television appearances ===,31076081
+Morning,NNP,DAY_TIME_REGEX,TIME,time_reference,"Richardson has performed on Fox News All-American New Year's Eve and Twelve News Phoenix – Downtown Goes Live (with Gin Blossoms), Late Night with Conan O'Brien (with Tommy Keene), WGN News (with Shoes and WGN Morning News) and with Ralph's World).",0,22,== Media == | === Television appearances ===,31076081
+currently,RB,TIMELINE_REGEX,TIME,time_reference,"Richardson is currently sponsored by Maple Works Drums, Evans Drumheads, Paiste Cymbals, Vic Firth, Groove Juice, Slug Percussion, Heritage Cajon and  Alclair In-Ear Monitors.",0,24,== Equipment ==,31076081
+2018,CD,YEAR_REGEX_1,TIME,time_reference,2018:,0,27,== Discography == | === Albums and EPs ===,31076081
+2018,CD,YEAR_REGEX_1,TIME,time_reference,2018:,0,28,== Discography == | === Albums and EPs ===,31076081
+2017,CD,YEAR_REGEX_1,TIME,time_reference,2017:,0,29,== Discography == | === Albums and EPs ===,31076081
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"2017: Dawn Marie EP, Dawn Marie",0,30,== Discography == | === Albums and EPs ===,31076081
+Dawn,NNP,DAY_TIME_REGEX,TIME,time_reference,"2017: Dawn Marie EP, Dawn Marie",0,30,== Discography == | === Albums and EPs ===,31076081
+Dawn,NNP,DAY_TIME_REGEX,TIME,time_reference,"2017: Dawn Marie EP, Dawn Marie",0,30,== Discography == | === Albums and EPs ===,31076081
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"2016: After All This Time/Young and Bittersweet (singles), The Surly Bells",0,31,== Discography == | === Albums and EPs ===,31076081
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016:,0,32,== Discography == | === Albums and EPs ===,31076081
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016:,0,33,== Discography == | === Albums and EPs ===,31076081
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"2016: I Am Enough, Tera Hinzman",0,34,== Discography == | === Albums and EPs ===,31076081
+Am,VBP,HALFDAY_REGEX_1,TIME,,"2016: I Am Enough, Tera Hinzman",0,34,== Discography == | === Albums and EPs ===,31076081
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"2016: Fish Out of Water, Diver Ida",0,35,== Discography == | === Albums and EPs ===,31076081
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015:,0,36,== Discography == | === Albums and EPs ===,31076081
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"2015: Searching for the American Dream, War Poets",0,37,== Discography == | === Albums and EPs ===,31076081
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015:,0,38,== Discography == | === Albums and EPs ===,31076081
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015:,0,39,== Discography == | === Albums and EPs ===,31076081
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015:,0,40,== Discography == | === Albums and EPs ===,31076081
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015:,0,41,== Discography == | === Albums and EPs ===,31076081
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015:,0,42,== Discography == | === Albums and EPs ===,31076081
+Three Hour,NNP NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Action and Heroes, Three Hour Tour",1,42,== Discography == | === Albums and EPs ===,31076081
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015:,0,43,== Discography == | === Albums and EPs ===,31076081
+2015,CD,YEAR_REGEX_1,TIME,time_reference,2015:,0,44,== Discography == | === Albums and EPs ===,31076081
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"2014: Paint the Fence, John Lynch",0,45,== Discography == | === Albums and EPs ===,31076081
+2014,CD,YEAR_REGEX_1,TIME,time_reference,2014:,0,46,== Discography == | === Albums and EPs ===,31076081
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013:,0,47,== Discography == | === Albums and EPs ===,31076081
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013:,0,48,== Discography == | === Albums and EPs ===,31076081
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012:,0,49,== Discography == | === Albums and EPs ===,31076081
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011:,0,50,== Discography == | === Albums and EPs ===,31076081
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"2011: Three, Catchpenny",0,51,== Discography == | === Albums and EPs ===,31076081
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011:,0,52,== Discography == | === Albums and EPs ===,31076081
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,53,== Discography == | === Albums and EPs ===,31076081
+1983-2009,CD,YEAR_REGEX_1,TIME,time_reference,"Tommy Keene You Hear Me: A Retrospective 1983-2009, Tommy Keene",1,53,== Discography == | === Albums and EPs ===,31076081
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,54,== Discography == | === Albums and EPs ===,31076081
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,55,== Discography == | === Albums and EPs ===,31076081
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,56,== Discography == | === Albums and EPs ===,31076081
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"2010: Looking For Tomorrow, Three Hour Tour",0,57,== Discography == | === Albums and EPs ===,31076081
+Tomorrow,NNP,TIMELINE_REGEX,TIME,time_reference,"2010: Looking For Tomorrow, Three Hour Tour",0,57,== Discography == | === Albums and EPs ===,31076081
+Three Hour,NNP NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"2010: Looking For Tomorrow, Three Hour Tour",0,57,== Discography == | === Albums and EPs ===,31076081
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009:,0,58,== Discography == | === Albums and EPs ===,31076081
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"2008: I.S.O. (In Search Of), Weird Summer",0,59,== Discography == | === Albums and EPs ===,31076081
+Summer,NNP,SEASON_REGEX,TIME,time_reference,"2008: I.S.O. (In Search Of), Weird Summer",0,59,== Discography == | === Albums and EPs ===,31076081
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"2007: B Side Oblivion, Three Hour Tour",0,60,== Discography == | === Albums and EPs ===,31076081
+Three Hour,NNP NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"2007: B Side Oblivion, Three Hour Tour",0,60,== Discography == | === Albums and EPs ===,31076081
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"2006: Blues & Boogie Shoes, The Keene Brothers (Robert Pollard and Tommy Keene)",0,61,== Discography == | === Albums and EPs ===,31076081
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006:,0,62,== Discography == | === Albums and EPs ===,31076081
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,63,== Discography == | === Albums and EPs ===,31076081
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003:,0,64,== Discography == | === Albums and EPs ===,31076081
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002:,0,65,== Discography == | === Albums and EPs ===,31076081
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002:,0,66,== Discography == | === Albums and EPs ===,31076081
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001:,0,67,== Discography == | === Albums and EPs ===,31076081
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001:,0,68,== Discography == | === Albums and EPs ===,31076081
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001:,0,69,== Discography == | === Albums and EPs ===,31076081
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000:,0,70,== Discography == | === Albums and EPs ===,31076081
+2000,CD,YEAR_REGEX_1,TIME,time_reference,2000:,0,71,== Discography == | === Albums and EPs ===,31076081
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999:,0,72,== Discography == | === Albums and EPs ===,31076081
+Summer,NNP,SEASON_REGEX,TIME,time_reference,"Incarnata Mysterica, Weird Summer",1,72,== Discography == | === Albums and EPs ===,31076081
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998:,0,73,== Discography == | === Albums and EPs ===,31076081
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"1997: Race to Mars, The Dygmies",0,74,== Discography == | === Albums and EPs ===,31076081
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997:,0,75,== Discography == | === Albums and EPs ===,31076081
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996:,0,76,== Discography == | === Albums and EPs ===,31076081
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996:,0,77,== Discography == | === Albums and EPs ===,31076081
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996:,0,78,== Discography == | === Albums and EPs ===,31076081
+Ten Years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Ten Years After, Tommy Keene",1,78,== Discography == | === Albums and EPs ===,31076081
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"1996: 1969, Three Hour Tour",0,79,== Discography == | === Albums and EPs ===,31076081
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"1996: 1969, Three Hour Tour",0,79,== Discography == | === Albums and EPs ===,31076081
+Three Hour,CD NNP,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"1996: 1969, Three Hour Tour",0,79,== Discography == | === Albums and EPs ===,31076081
+1996,CD,YEAR_REGEX_1,TIME,time_reference,1996:,0,80,== Discography == | === Albums and EPs ===,31076081
+Day One,NNP CD,TIME_UNIT_REGEX BASIC_NUMBER_REGEX_1,TIME NUMERAL,time_reference,"Day One, Figurehead",1,80,== Discography == | === Albums and EPs ===,31076081
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"1995: Tore a Hole, Shoes",0,81,== Discography == | === Albums and EPs ===,31076081
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995:,0,82,== Discography == | === Albums and EPs ===,31076081
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994:,0,83,== Discography == | === Albums and EPs ===,31076081
+The Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,"Driving Into The Sun, Tommy Keene",1,83,== Discography == | === Albums and EPs ===,31076081
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1993:,0,84,== Discography == | === Albums and EPs ===,31076081
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1993:,0,85,== Discography == | === Albums and EPs ===,31076081
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1993:,0,86,== Discography == | === Albums and EPs ===,31076081
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992:,0,87,== Discography == | === Albums and EPs ===,31076081
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992:,0,88,== Discography == | === Albums and EPs ===,31076081
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991:,0,89,== Discography == | === Albums and EPs ===,31076081
+1983,CD,YEAR_REGEX_1,TIME,time_reference,1983:,0,90,== Discography == | === Albums and EPs ===,31076081

@@ -1,0 +1,22 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"October 20 , 1969","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Dan Naturman (born October 20, 1969) is an American stand-up comedian, who has made numerous appearances on television.",0,0,,8710868
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"Naturman has appeared on Late Show with David Letterman and Late Night with Conan O'Brien, as well as his own Comedy Central Presents special.",0,4,== Television and film ==,8710868
+Presents,NNP,TIMELINE_REGEX,TIME,time_reference,"Naturman has appeared on Late Show with David Letterman and Late Night with Conan O'Brien, as well as his own Comedy Central Presents special.",0,4,== Television and film ==,8710868
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"In 2004 Naturman was a contestant on Last Comic Standing where he was the favorite of celebrity judges Drew Carey and Brett Butler, but he was not selected as one of the final 10 contestants.",1,4,== Television and film ==,8710868
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008 he was again a contestant where he was subsequently advanced to the New York City showcase of season 6, and won a ticket to the semi-finals.",2,4,== Television and film ==,8710868
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"In 2014, he was a contestant on America's Got Talent and was eliminated in the semi-final round.",3,4,== Television and film ==,8710868
+Springs,NNP,SEASON_REGEX,TIME,time_reference,Bedford Springs as Hardware Store Clerk (2002),0,6,== Television and film ==,8710868
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Bedford Springs as Hardware Store Clerk (2002),0,6,== Television and film ==,8710868
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Tough Crowd with Colin Quinn (2003),0,7,== Television and film ==,8710868
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Noise as Nervous Young Man (2004),0,8,== Television and film ==,8710868
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Last Call with Carson Daly (2004),0,9,== Television and film ==,8710868
+2004 and 2006,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Jimmy Kimmel Live! (2004 and 2006),0,10,== Television and film ==,8710868
+2004 and 2008,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Last Comic Standing (2004 and 2008),0,11,== Television and film ==,8710868
+Presents,NNP,TIMELINE_REGEX,TIME,time_reference,Comedy Central Presents (2005),0,12,== Television and film ==,8710868
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Comedy Central Presents (2005),0,12,== Television and film ==,8710868
+Late Night,JJ NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,Late Night with Conan O'Brien (2005 and 2007),0,13,== Television and film ==,8710868
+2005 and 2007,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Late Night with Conan O'Brien (2005 and 2007),0,13,== Television and film ==,8710868
+2006 and 2007,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,The Late Late Show with Craig Ferguson (2006 and 2007),0,14,== Television and film ==,8710868
+The Tonight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,The Tonight Show with Conan O'Brien (2009),0,15,== Television and film ==,8710868
+2009,CD,YEAR_REGEX_1,TIME,time_reference,The Tonight Show with Conan O'Brien (2009),0,15,== Television and film ==,8710868
+2014,CD,YEAR_REGEX_1,TIME,time_reference,America's Got Talent (2014),0,16,== Television and film ==,8710868

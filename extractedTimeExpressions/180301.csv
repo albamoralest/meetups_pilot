@@ -1,0 +1,47 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"June 6 , 1916 – April 3 , 1984","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"John Francis Mehegan (June 6, 1916 – April 3, 1984) was an American jazz pianist, lecturer and critic.",0,0,,180301
+"June 6 , 1916","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Mehegan was born in Hartford, Connecticut, on June 6, 1916, although he sometimes gave the year as 1920.",0,2,== Early life ==,180301
+the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Mehegan was born in Hartford, Connecticut, on June 6, 1916, although he sometimes gave the year as 1920.",0,2,== Early life ==,180301
+1920,CD,YEAR_REGEX_1,TIME,time_reference,"Mehegan was born in Hartford, Connecticut, on June 6, 1916, although he sometimes gave the year as 1920.",0,2,== Early life ==,180301
+1926,CD,YEAR_REGEX_1,TIME,time_reference,He began playing the violin in 1926 and played for seven years without enjoying it.,1,2,== Early life ==,180301
+seven years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He began playing the violin in 1926 and played for seven years without enjoying it.,1,2,== Early life ==,180301
+1941,CD,YEAR_REGEX_1,TIME,time_reference,"He had gigs in the Massachusetts area, and then moved to New York in 1941.",4,2,== Early life ==,180301
+1945,CD,YEAR_REGEX_1,TIME,time_reference,He recorded four quartet tracks as a leader for Savoy Records in 1945.,1,4,== Later life and career ==,180301
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In the same year, he became teaching assistant to pianist Teddy Wilson in the jazz department at the Metropolitan Music School, and became the head of its jazz department in 1946; a position he held for around a decade.",2,4,== Later life and career ==,180301
+1946,CD,YEAR_REGEX_1,TIME,time_reference,"In the same year, he became teaching assistant to pianist Teddy Wilson in the jazz department at the Metropolitan Music School, and became the head of its jazz department in 1946; a position he held for around a decade.",2,4,== Later life and career ==,180301
+around a decade,IN DT NN,PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In the same year, he became teaching assistant to pianist Teddy Wilson in the jazz department at the Metropolitan Music School, and became the head of its jazz department in 1946; a position he held for around a decade.",2,4,== Later life and career ==,180301
+the early 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the early 1950s, his From Barrelhouse to Bop album was the first release by Perspective Records; it consisted of spoken introductions followed by performances in the style of other jazz pianists.",3,4,== Later life and career ==,180301
+1947–64,CD,YEAR_REGEX_1,TIME,time_reference,"He also taught at the Juilliard School of Music (1947–64), Columbia University Teachers College (1958 to 1961 or 1962), the University of Bridgeport (1968–77) and Yale University (1974–83).",4,4,== Later life and career ==,180301
+1958 to 1961 or 1962,CD TO CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME MODIFIER TIME,time_range,"He also taught at the Juilliard School of Music (1947–64), Columbia University Teachers College (1958 to 1961 or 1962), the University of Bridgeport (1968–77) and Yale University (1974–83).",4,4,== Later life and career ==,180301
+1968–77,CD,YEAR_REGEX_1,TIME,time_reference,"He also taught at the Juilliard School of Music (1947–64), Columbia University Teachers College (1958 to 1961 or 1962), the University of Bridgeport (1968–77) and Yale University (1974–83).",4,4,== Later life and career ==,180301
+1974–83,CD,YEAR_REGEX_1,TIME,time_reference,"He also taught at the Juilliard School of Music (1947–64), Columbia University Teachers College (1958 to 1961 or 1962), the University of Bridgeport (1968–77) and Yale University (1974–83).",4,4,== Later life and career ==,180301
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He wrote the incidental music for A Streetcar Named Desire which he performed on Broadway for two years.,5,4,== Later life and career ==,180301
+1957 to 1960,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He was the jazz critic for the New York Herald Tribune from 1957 to 1960.,7,4,== Later life and career ==,180301
+A summer,DT NN,INARTICLE_REGEX SEASON_REGEX,MODIFIER TIME,time_reference,"""A summer concert, lecture, and research tour of South Africa in 1959 was cut short because he encouraged black musicians, but while there he recorded with the group which was about to become the Jazz Epistles"".",8,4,== Later life and career ==,180301
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"""A summer concert, lecture, and research tour of South Africa in 1959 was cut short because he encouraged black musicians, but while there he recorded with the group which was about to become the Jazz Epistles"".",8,4,== Later life and career ==,180301
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"His final recordings, as a trio, were made in 1960.",9,4,== Later life and career ==,180301
+1959 and 1965,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He wrote numerous books on jazz, including the Jazz Improvisation series, which sets out the basic principles of jazz, and was published between 1959 and 1965.",10,4,== Later life and career ==,180301
+1948,CD,YEAR_REGEX_1,TIME,time_reference,The American composer Leonard Bernstein dedicated a piano composition to Mehegan in his 1948 collection Four Anniversaries.,11,4,== Later life and career ==,180301
+"April 3 , 1984","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Mehegan died in New Canaan, Connecticut, on April 3, 1984.",12,4,== Later life and career ==,180301
+1952,CD,YEAR_REGEX_1,TIME,time_reference,1952,0,6,== Discography ==,180301
+1954,CD,YEAR_REGEX_1,TIME,time_reference,1954,0,7,== Discography ==,180301
+1955,CD,YEAR_REGEX_1,TIME,time_reference,1955,0,8,== Discography ==,180301
+1955,CD,YEAR_REGEX_1,TIME,time_reference,1955 A Pair of Pianos (Savoy)- with Eddie Costa & Vinnie Burke,0,9,== Discography ==,180301
+1956,CD,YEAR_REGEX_1,TIME,time_reference,1956 How I Play Jazz Piano (Savoy),0,10,== Discography ==,180301
+1959,CD,YEAR_REGEX_1,TIME,time_reference,1959 Casual Affair (T.J. Records)With Chuck Wayne,0,11,== Discography ==,180301
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"The Jazz Guitarist (Savoy, 1954 [1956])",0,12,== Discography ==,180301
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"The Jazz Guitarist (Savoy, 1954 [1956])",0,12,== Discography ==,180301
+1964–70,CD,YEAR_REGEX_1,TIME,time_reference,"Contemporary Styles for the Jazz Pianist, in 3 books (1964–70)",0,14,"== Techniques, studies & etudes for piano ==",180301
+1958,CD,YEAR_REGEX_1,TIME,time_reference,Famous Jazz Style Piano Folio - with instruction on how to play jazz piano (1958),0,15,"== Techniques, studies & etudes for piano ==",180301
+1959-65,CD,YEAR_REGEX_1,TIME,time_reference,Jazz Improvisation (1959-65),0,16,"== Techniques, studies & etudes for piano ==",180301
+1959,CD,YEAR_REGEX_1,TIME,time_reference,1: Tonal and rhythmic principles (1959),1,17,"== Techniques, studies & etudes for piano ==",180301
+1962,CD,YEAR_REGEX_1,TIME,time_reference,2: Jazz rhythm and the improvised line (1962),1,18,"== Techniques, studies & etudes for piano ==",180301
+1964,CD,YEAR_REGEX_1,TIME,time_reference,3: Swing and early progressive piano styles (1964),1,19,"== Techniques, studies & etudes for piano ==",180301
+1965,CD,YEAR_REGEX_1,TIME,time_reference,Contemporary piano styles (1965),2,20,"== Techniques, studies & etudes for piano ==",180301
+1960–61,CD,YEAR_REGEX_1,TIME,time_reference,"The Jazz Pianist, in 3 books: Studies in the art and practice of jazz improvisation (1960–61)",0,21,"== Techniques, studies & etudes for piano ==",180301
+1962–63,CD,YEAR_REGEX_1,TIME,time_reference,"Styles for the Jazz Pianist, in 3 books (1962–63)",0,22,"== Techniques, studies & etudes for piano ==",180301
+1962,CD,YEAR_REGEX_1,TIME,time_reference,Studies in Jazz Harmony (1962),0,23,"== Techniques, studies & etudes for piano ==",180301
+1960,CD,YEAR_REGEX_1,TIME,time_reference,Jazz Bourree (1960),0,25,== Original compositions for piano ==,180301
+1962,CD,YEAR_REGEX_1,TIME,time_reference,Jazz Preludes (1962),0,26,== Original compositions for piano ==,180301
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Vienna Woodshed, a jazz waltz for piano 4-hands (1965)",0,27,== Original compositions for piano ==,180301
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Jazz Caper, jazz originals for piano 4-hands (1965)",0,28,== Original compositions for piano ==,180301

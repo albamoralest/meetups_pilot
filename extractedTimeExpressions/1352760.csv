@@ -1,0 +1,46 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"August 17 , 1943 – November 28 , 2002","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Dave ""Snaker"" Ray (August 17, 1943 – November 28, 2002) was an American blues singer and guitarist from St. Paul, Minnesota, United States, who was most notably associated with Spider John Koerner and Tony ""Little Sun"" Glover in the early Sixties folk revival.",0,0,,1352760
+Sun,NNP,WEEK_ABBR_REGEX,TIME,time_reference,"Dave ""Snaker"" Ray (August 17, 1943 – November 28, 2002) was an American blues singer and guitarist from St. Paul, Minnesota, United States, who was most notably associated with Spider John Koerner and Tony ""Little Sun"" Glover in the early Sixties folk revival.",0,0,,1352760
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"They gained notice with their album Blues, Rags and Hollers, originally released by Audiophile in 1963 and re-released by Elektra Records later that year.",2,0,,1352760
+later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"They gained notice with their album Blues, Rags and Hollers, originally released by Audiophile in 1963 and re-released by Elektra Records later that year.",2,0,,1352760
+about a year,IN DT NN,PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,He and his brother Tom took classical guitar lessons for about a year.,2,2,== Biography ==,1352760
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"In 1967, Ray was in a motorcycle accident and broke his wrist.",0,3,== Biography ==,1352760
+The years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"The years from 1963 to 1971 were prolific for Koerner, Ray and Glover.",2,3,== Biography ==,1352760
+1963 to 1971,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"The years from 1963 to 1971 were prolific for Koerner, Ray and Glover.",2,3,== Biography ==,1352760
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Either solo or in some combination of the trio, they released at least one album a year.",3,3,== Biography ==,1352760
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"In 1969, Ray teamed up with Will Donicht as the band Bamboo, to record an electric folk-rock album in New York for Elektra Records.",6,3,== Biography ==,1352760
+the early 1970s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Sweet Jane built a recording studio outside of Cushing, Minnesota in the early 1970s.",11,3,== Biography ==,1352760
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Ray released his own solo album, Kidman, on SJL in 1977.",14,3,== Biography ==,1352760
+the late 1970s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1970s, playing and recording music became a less viable option for Ray.",0,4,== Biography ==,1352760
+hours,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Determined to continue playing music, Ray lined up steady gigs at local bars and restaurants for after hours.",2,4,== Biography ==,1352760
+almost a decade,RB DT NN,PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"For almost a decade, Ray led this double life of insurance agent and blues musician.",4,4,== Biography ==,1352760
+the late 1980s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1980s, Ray sold the insurance business to a large underwriter.",6,4,== Biography ==,1352760
+many hours,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Ray devoted many hours to diligent practice, running through the paces of guitar greats like Charlie Christian and Freddie Green.",9,4,== Biography ==,1352760
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"In 1998, Ray and Glover joined with Camile Baudoin and Reggie Scanlan of the Radiators to form a short-lived band, the Back Porch Rockers, which released the album By the Water in 2000.",0,5,== Biography ==,1352760
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"In 1998, Ray and Glover joined with Camile Baudoin and Reggie Scanlan of the Radiators to form a short-lived band, the Back Porch Rockers, which released the album By the Water in 2000.",0,5,== Biography ==,1352760
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"The 6L6 CD was released in 2002, the year Dave Ray died.",3,5,== Biography ==,1352760
+the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"The 6L6 CD was released in 2002, the year Dave Ray died.",3,5,== Biography ==,1352760
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"Fittingly, the last track was ""It's All Over Now.""",4,5,== Biography ==,1352760
+May 2002,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Ray was diagnosed with lung cancer in May 2002.,0,7,== Death ==,1352760
+"day , November 28","NN , NNP CD",TIME_UNIT_REGEX COMMA_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_reference,"He died on Thanksgiving day, November 28, at his home in Minneapolis, Minnesota.",1,7,== Death ==,1352760
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"In 1983 the Minnesota Music Academy named Koerner, Ray and Glover ""Best Folk Group"" and in 1985 inducted them into the MMA Hall of Fame.",0,9,== Awards and honors ==,1352760
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1983 the Minnesota Music Academy named Koerner, Ray and Glover ""Best Folk Group"" and in 1985 inducted them into the MMA Hall of Fame.",0,9,== Awards and honors ==,1352760
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008, Koerner, Ray & Glover were inducted into the Minnesota Blues Hall of Fame under the category Blues Recordings for Blues, Rags and Hollers.",1,9,== Awards and honors ==,1352760
+October 2014,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In October 2014, a segment of Franklin Avenue near his father's insurance office was named Dave Ray Avenue.",2,9,== Awards and honors ==,1352760
+nightclub,NN,DAY_TIME_REGEX,TIME,time_reference,"Koerner, Ray & Glover has been honored with a star on the outside mural of the Minneapolis nightclub First Avenue, recognizing performers that have played sold-out shows or have otherwise demonstrated a major contribution to the culture at the iconic venue.",3,9,== Awards and honors ==,1352760
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Blues, Rags and Hollers (1963)",0,12,== Discography ==,1352760
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Lots More Blues, Rags and Hollers (1964)",0,13,== Discography ==,1352760
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"The Return of Koerner, Ray & Glover (1965)",0,14,== Discography ==,1352760
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Good Old Koerner, Ray & Glover (1972)",0,15,== Discography ==,1352760
+1996,CD,YEAR_REGEX_1,TIME,time_reference,One Foot in the Groove (1996),0,16,== Discography ==,1352760
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Keep What Makes You Feel Nice (Elektra, 1969)",0,18,== Discography ==,1352760
+1965,CD,YEAR_REGEX_1,TIME,time_reference,Snaker's Here (1965),0,20,== Discography ==,1352760
+1967,CD,YEAR_REGEX_1,TIME,time_reference,Fine Soft Land (1967),0,21,== Discography ==,1352760
+1977,CD,YEAR_REGEX_1,TIME,time_reference,Kid-Man (1977),0,22,== Discography ==,1352760
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Snake Eyes (1998),0,23,== Discography ==,1352760
+1987,CD,YEAR_REGEX_1,TIME,time_reference,Legends in Their Spare Time (1987),0,25,== Discography ==,1352760
+1990,CD,YEAR_REGEX_1,TIME,time_reference,Ashes in My Whiskey (1990),0,26,== Discography ==,1352760
+1993,CD,YEAR_REGEX_1,TIME,time_reference,Picture Has Faded (1993),0,27,== Discography ==,1352760
+1995,CD,YEAR_REGEX_1,TIME,time_reference,(1995),1,29,== Discography ==,1352760
+1999,CD,YEAR_REGEX_1,TIME,time_reference,By the Water (1999),0,31,== Discography ==,1352760
+2002,CD,YEAR_REGEX_1,TIME,time_reference,A Hollowbody Experience (2002),0,33,== Discography ==,1352760

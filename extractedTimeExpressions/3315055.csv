@@ -1,0 +1,6 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"May 1 , 1964","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bruno Ravel (born May 1, 1964) is a bassist and guitarist, best known for playing in the band Danger Danger in which he is the main composer.",0,0,,3315055
+the Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,He also guested on TNT's All the Way to the Sun and My Religion.,0,4,,3315055
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"In 1998, Ravel played in the 1998 tour with German singer Nena.",1,4,,3315055
+the 1998,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In 1998, Ravel played in the 1998 tour with German singer Nena.",1,4,,3315055
+1998 and 2002,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Ravel had a side band, Westworld which released four albums between 1998 and 2002.",0,5,,3315055

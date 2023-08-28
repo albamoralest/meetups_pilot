@@ -1,0 +1,60 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 5 , 1898 – July 15 , 1980","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Benjamin Bernard Selvin (March 5, 1898 – July 15, 1980) was an American musician, bandleader, and record producer.",0,0,,1043212
+night,NN,DAY_TIME_REGEX,TIME,time_reference,He started his professional life at age 15 as a fiddle player in New York City night clubs.,1,1,,1043212
+Six years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Six years later, as leader of his own dance band, the Novelty Orchestra, he released what was later alleged to be the biggest-selling popular song in the first quarter-century of recorded music.",2,1,,1043212
+the first quarter-century,DT JJ NN,PREFIX_REGEX_1 ORDINAL_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"Six years later, as leader of his own dance band, the Novelty Orchestra, he released what was later alleged to be the biggest-selling popular song in the first quarter-century of recorded music.",2,1,,1043212
+the 1920s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"""Dardanella"" allegedly sold more than six million copies and an additional million pieces of sheet music—although in a joint interview with Gustave Haenschen, founding director of popular-music releases at Brunswick Records, Selvin described the alleged record-sales total as “nonsensical” and said the actual sales of “Dardanella” and other purported “million-sellers” in the 1920s was 150,000 discs.",3,1,,1043212
+"March 14 , 1963","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He was awarded a gold disc by the Recording Industry Association of America (RIAA) that was presented to Selvin on his retirement on March 14, 1963.",4,1,,1043212
+1919–1927,CD,YEAR_REGEX_1,TIME,time_reference,1919–1927,1,2,== 1919–1927 ==,1043212
+1919,CD,YEAR_REGEX_1,TIME,time_reference,Selvin started recording for Victor in 1919.,0,3,== 1919–1927 ==,1043212
+1922 to 1925,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1922 to 1925, over half of his records were on Vocalion, but he apparently did not have an exclusive contract with any of these labels until he signed with Columbia in 1927.",2,3,== 1919–1927 ==,1043212
+1927,CD,YEAR_REGEX_1,TIME,time_reference,"From 1922 to 1925, over half of his records were on Vocalion, but he apparently did not have an exclusive contract with any of these labels until he signed with Columbia in 1927.",2,3,== 1919–1927 ==,1043212
+1927 to 1934,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1927 to 1934 Selvin was artists and repertoire (A&R) director for Columbia Records, where his many productions included musicians Mannie Klein, Benny Goodman, Tommy Dorsey, Jimmy Dorsey, Joe Venuti, Eddie Lang, and Bunny Berigan.",0,5,== Columbia ==,1043212
+1931–1934,CD,YEAR_REGEX_1,TIME,time_reference,Many of these recordings are collectable and prized (especially those recorded in 1931–1934).,1,5,== Columbia ==,1043212
+1934,CD,YEAR_REGEX_1,TIME,time_reference,In 1934 he was named Vice President of programming at Muzak in New York City.,1,7,== After Columbia ==,1043212
+1947,CD,YEAR_REGEX_1,TIME,time_reference,He was musical director of Majestic Records beginning in 1947.,2,7,== After Columbia ==,1043212
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"He was a vice-president and A&R director (artists and repertoire) at Columbia Records in charge of the recordings of Frank Sinatra, Doris Day, Dinah Shore and Buddy Clark in the late 1940s and early 1950s.",3,7,== After Columbia ==,1043212
+the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"He was a vice-president and A&R director (artists and repertoire) at Columbia Records in charge of the recordings of Frank Sinatra, Doris Day, Dinah Shore and Buddy Clark in the late 1940s and early 1950s.",3,7,== After Columbia ==,1043212
+early 1950s,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He was a vice-president and A&R director (artists and repertoire) at Columbia Records in charge of the recordings of Frank Sinatra, Doris Day, Dinah Shore and Buddy Clark in the late 1940s and early 1950s.",3,7,== After Columbia ==,1043212
+1953,CD,YEAR_REGEX_1,TIME,time_reference,He was an A&R director in 1953 at RCA Victor in charge of the company's popular Camden Records label,4,7,== After Columbia ==,1043212
+1954,CD,YEAR_REGEX_1,TIME,time_reference,and served as the musical director for a recording in 1954 with John Serry Sr.,0,8,== After Columbia ==,1043212
+1956,CD,YEAR_REGEX_1,TIME,time_reference,In 1956 he served once again as musical director with Serry for another swing jazz album at Dot Records (See Squeeze Play),2,8,== After Columbia ==,1043212
+Apr,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"NYC – Apr. 10th, 1925",0,13,== Selected discography ==,1043212
+1925,CD,YEAR_REGEX_1,TIME,time_reference,"NYC – Apr. 10th, 1925",0,13,== Selected discography ==,1043212
+"Nov. , 1920","NNP , CD",MONTH_ABBR_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"NYC – Nov., 1920",0,16,== Selected discography ==,1043212
+"Dec. , 1923","NNP , CD",MONTH_ABBR_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"NYC – Dec., 1923",0,19,== Selected discography ==,1043212
+"May 26th , 1925","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"NYC – May 26th, 1925",0,22,== Selected discography ==,1043212
+the Morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Columbia 391–D, mx. W–140623–2""We'll Have a New Home (In the Morning)""Ben Selvin & His Orchestra",0,23,== Selected discography ==,1043212
+"Dec. 28th , 1927","NNP CD , CD",MONTH_ABBR_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"NYC – Dec. 28th, 1927",0,24,== Selected discography ==,1043212
+1274–D,CD,YEAR_REGEX_1,TIME,time_reference,"Columbia 1274–D, mx.",0,26,== Selected discography ==,1043212
+Days,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Days Are Here Again""Annette Hanshaw",2,26,== Selected discography ==,1043212
+"Feb. 11th , 1930","NNP CD , CD",MONTH_ABBR_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"NYC – Feb. 11th, 1930",0,28,== Selected discography ==,1043212
+1106–H,CD,YEAR_REGEX_1,TIME,time_reference,"Diva Records 3106–G; Harmony 1106–H; Velvet Tone 2106–V""Dardanella""(Felix Bernard – Johnny S. Black)",0,29,== Selected discography ==,1043212
+2106–V,CD,YEAR_REGEX_1,TIME,time_reference,"Diva Records 3106–G; Harmony 1106–H; Velvet Tone 2106–V""Dardanella""(Felix Bernard – Johnny S. Black)",0,29,== Selected discography ==,1043212
+13 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"(Six-million seller – No. 1 hit for 13 weeks, 24 in charts)",0,30,== Selected discography ==,1043212
+"Nov. 20th , 1919","NNP CD , CD",MONTH_ABBR_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"NYC – Nov. 20th, 1919",0,32,== Selected discography ==,1043212
+18633–A,CD,YEAR_REGEX_1,TIME,time_reference,"Victor 18633–A, mx.23344–3""I'm Forever Blowing Bubbles""(John Kellette – Jaan Kenbrovin)",0,33,== Selected discography ==,1043212
+4 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,(No. 1 hit for 4 weeks),0,34,== Selected discography ==,1043212
+Jul,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"NYC – Jul. 31st, 1919",0,36,== Selected discography ==,1043212
+1919,CD,YEAR_REGEX_1,TIME,time_reference,"NYC – Jul. 31st, 1919",0,36,== Selected discography ==,1043212
+18603–A,CD,YEAR_REGEX_1,TIME,time_reference,"Victor 18603–A, mx.",0,37,== Selected discography ==,1043212
+4 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,(No. 1 hit for 4 weeks),0,38,== Selected discography ==,1043212
+Jul,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"NYC – Jul. 15th, 1925",0,40,== Selected discography ==,1043212
+1925,CD,YEAR_REGEX_1,TIME,time_reference,"NYC – Jul. 15th, 1925",0,40,== Selected discography ==,1043212
+Jul,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"NYC – Jul. 15th, 1925",0,44,== Selected discography ==,1043212
+1925,CD,YEAR_REGEX_1,TIME,time_reference,"NYC – Jul. 15th, 1925",0,44,== Selected discography ==,1043212
+Jun,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"NYC – Jun. 1st, 1928",0,49,== Selected discography ==,1043212
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"NYC – Jun. 1st, 1928",0,49,== Selected discography ==,1043212
+1424–D,CD,YEAR_REGEX_1,TIME,time_reference,"Columbia 1424–D, mx. W–146380""You're the Cream in My Coffee""(Ray Henderson – Buddy DeSylva – Lew Brown)",0,50,== Selected discography ==,1043212
+Nitelites,NNP,DAY_TIME_REGEX,TIME,time_reference,Eddie Thomas' Collegians (and/or) The Broadway Nitelites (Ben Selvin & His Orch.),0,52,== Selected discography ==,1043212
+"Oct. 19th , 1928","NNP CD , CD",MONTH_ABBR_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"NYC – Oct. 19th, 1928",0,54,== Selected discography ==,1043212
+1604–D,CD,YEAR_REGEX_1,TIME,time_reference,"Columbia 1604–D, mx.",0,55,== Selected discography ==,1043212
+Jun,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"NYC – Jun. 28th, 1934",0,59,== Selected discography ==,1043212
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"NYC – Jun. 28th, 1934",0,59,== Selected discography ==,1043212
+2936–D,CD,YEAR_REGEX_1,TIME,time_reference,"Columbia 2936–D, mx.152766",0,60,== Selected discography ==,1043212
+July 1980,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Ben Selvin died in July 1980, and was buried at the Mount Hebron Cemetery in New York City.",0,62,== Death ==,1043212
+1915–1942,CD,YEAR_REGEX_1,TIME,time_reference,"Johnson, Richard J., and  Shirley, Bernard H. American Dance Bands on Record and Film 1915–1942.",0,64,== Bibliography ==,1043212
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"Rustbooks, 2010.",1,64,== Bibliography ==,1043212
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Arlington House, 1975.",2,65,== Bibliography ==,1043212
+1920,CD,YEAR_REGEX_1,TIME,time_reference,Ben Selvin and his Orchestra (1920's) performing on archive.org,0,68,== External links ==,1043212
+1919-1920,JJ,YEAR_REGEX_1,TIME,time_reference,The Library of Congress - National Jukebox - Ben Selvin's Novelty Orchestra performing on records (1919-1920) on www.loc.gov,0,69,== External links ==,1043212

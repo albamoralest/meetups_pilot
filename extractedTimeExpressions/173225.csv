@@ -1,206 +1,207 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"January 31 , 1915 – July 19 , 2002","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Alan Lomax (; January 31, 1915 – July 19, 2002) was an American ethnomusicologist, best known for his numerous field recordings of folk music of the 20th century.",0,0,,173225
-of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Alan Lomax (; January 31, 1915 – July 19, 2002) was an American ethnomusicologist, best known for his numerous field recordings of folk music of the 20th century.",0,0,,173225
-"of the 1940s , 1950s","IN DT CD , CD",PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,"Lomax produced recordings, concerts, and radio shows in the US and in England, which played an important role in preserving folk music traditions in both countries, and helped start both the American and British folk revivals of the 1940s, 1950s, and early 1960s.",2,0,,173225
-early 1960s,RB NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Lomax produced recordings, concerts, and radio shows in the US and in England, which played an important role in preserving folk music traditions in both countries, and helped start both the American and British folk revivals of the 1940s, 1950s, and early 1960s.",2,0,,173225
-1942,CD,YEAR_REGEX_1,TIME,time_reference,"After 1942, when Congress cut off the Library of Congress's funding for folk song collecting, Lomax continued to collect independently in Britain, Ireland, the Caribbean, Italy, and Spain, as well as the United States, using the latest recording technology, assembling an enormous collection of American and international culture.",0,1,,173225
-March 2004,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In March 2004, the material captured and produced without Library of Congress funding was acquired by the Library, which ""brings the entire seventy years of Alan Lomax's work together under one roof at the Library of Congress, where it has found a permanent home.""",1,1,,173225
-seventy years,NN NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In March 2004, the material captured and produced without Library of Congress funding was acquired by the Library, which ""brings the entire seventy years of Alan Lomax's work together under one roof at the Library of Congress, where it has found a permanent home.""",1,1,,173225
-the 1970s and 1980s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"In the 1970s and 1980s, Lomax advised the Smithsonian Institution's Folklife Festival and produced a series of films about folk music, American Patchwork, which aired on PBS in 1991.",4,1,,173225
-1991,CD,YEAR_REGEX_1,TIME,time_reference,"In the 1970s and 1980s, Lomax advised the Smithsonian Institution's Folklife Festival and produced a series of films about folk music, American Patchwork, which aired on PBS in 1991.",4,1,,173225
-1995,CD,YEAR_REGEX_1,TIME,time_reference,"In his late seventies, Lomax completed a long-deferred memoir, The Land Where the Blues Began (1995), linking the birth of the blues to debt peonage, segregation, and forced labor in the American South.",5,1,,173225
-1915,CD,YEAR_REGEX_1,TIME,time_reference,"Lomax was born in Austin, Texas, in 1915, the third of four children born to Bess Brown and pioneering folklorist and author John A. Lomax.",0,5,== Biography == | === Early life ===,173225
-now,RB,TIMELINE_REGEX,TIME,time_reference,"Lomax excelled at Terrill and then transferred to the Choate School (now Choate Rosemary Hall) in Connecticut for a year, graduating eighth in his class at age 15 in 1930.",3,6,== Biography == | === Early life ===,173225
-a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Lomax excelled at Terrill and then transferred to the Choate School (now Choate Rosemary Hall) in Connecticut for a year, graduating eighth in his class at age 15 in 1930.",3,6,== Biography == | === Early life ===,173225
-1930,CD,YEAR_REGEX_1,TIME,time_reference,"Lomax excelled at Terrill and then transferred to the Choate School (now Choate Rosemary Hall) in Connecticut for a year, graduating eighth in his class at age 15 in 1930.",3,6,== Biography == | === Early life ===,173225
-one night,CD NN,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"A roommate, future anthropologist Walter Goldschmidt, recalled Lomax as ""frighteningly smart, probably classifiable as a genius"", though Goldschmidt remembers Lomax exploding one night while studying: ""Damn it!",5,6,== Biography == | === Early life ===,173225
-night,NN,DAY_TIME_REGEX,TIME,time_reference,"At this time he also he began collecting ""race"" records and taking his dates to black-owned night clubs, at the risk of expulsion.",9,6,== Biography == | === Early life ===,173225
-the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"During the spring term his mother died, and his youngest sister Bess, age 10, was sent to live with an aunt.",10,6,== Biography == | === Early life ===,173225
-second year,JJ NN,ORDINAL_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Although the Great Depression was rapidly causing his family's resources to plummet, Harvard came up with enough financial aid for the 16-year-old Lomax to spend his second year there.",11,6,== Biography == | === Early life ===,173225
-now 17,RB CD,TIMELINE_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Lomax, now 17, therefore took a break from studying to join his father's folk song collecting field trips for the Library of Congress, co-authoring American Ballads and Folk Songs (1934) and Negro Folk Songs as Sung by Lead Belly (1936).",15,6,== Biography == | === Early life ===,173225
-1934,CD,YEAR_REGEX_1,TIME,time_reference,"Lomax, now 17, therefore took a break from studying to join his father's folk song collecting field trips for the Library of Congress, co-authoring American Ballads and Folk Songs (1934) and Negro Folk Songs as Sung by Lead Belly (1936).",15,6,== Biography == | === Early life ===,173225
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"Lomax, now 17, therefore took a break from studying to join his father's folk song collecting field trips for the Library of Congress, co-authoring American Ballads and Folk Songs (1934) and Negro Folk Songs as Sung by Lead Belly (1936).",15,6,== Biography == | === Early life ===,173225
-the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,His first field collecting without his father was done with Zora Neale Hurston and Mary Elizabeth Barnicle in the summer of 1935.,16,6,== Biography == | === Early life ===,173225
-of 1935,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,His first field collecting without his father was done with Zora Neale Hurston and Mary Elizabeth Barnicle in the summer of 1935.,16,6,== Biography == | === Early life ===,173225
-that fall,IN NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"He returned to the University of Texas that fall and was awarded a BA in Philosophy, summa cum laude, and membership in Phi Beta Kappa in May 1936.",17,6,== Biography == | === Early life ===,173225
-May 1936,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He returned to the University of Texas that fall and was awarded a BA in Philosophy, summa cum laude, and membership in Phi Beta Kappa in May 1936.",17,6,== Biography == | === Early life ===,173225
-February 1937,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Alan Lomax married Elizabeth Harold Goodman, then a student at the University of Texas, in February 1937.",0,7,== Biography == | === Early life ===,173225
-12 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"They were married for 12 years and had a daughter, Anne (later known as Anna).",1,7,== Biography == | === Early life ===,173225
-the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1950s, after she and Lomax divorced, she conducted lengthy interviews for Lomax with folk music personalities, including Vera Ward Hall and the Reverend Gary Davis.",0,8,== Biography == | === Early life ===,173225
-1935,CD,YEAR_REGEX_1,TIME,time_reference,Lomax also did important field work with Elizabeth Barnicle and Zora Neale Hurston in Florida and the Bahamas (1935); with John Wesley Work III and Lewis Jones in Mississippi (1941 and 42); with folksingers Robin Roberts and Jean Ritchie in Ireland (1950); with his second wife Antoinette Marchand in the Caribbean (1961); with Shirley Collins in Great Britain and the Southeastern US (1959); with Joan Halifax in Morocco; and with his daughter.,1,8,== Biography == | === Early life ===,173225
-1941 and 42,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1,TIME MODIFIER NUMERAL,time_range,Lomax also did important field work with Elizabeth Barnicle and Zora Neale Hurston in Florida and the Bahamas (1935); with John Wesley Work III and Lewis Jones in Mississippi (1941 and 42); with folksingers Robin Roberts and Jean Ritchie in Ireland (1950); with his second wife Antoinette Marchand in the Caribbean (1961); with Shirley Collins in Great Britain and the Southeastern US (1959); with Joan Halifax in Morocco; and with his daughter.,1,8,== Biography == | === Early life ===,173225
-1950,CD,YEAR_REGEX_1,TIME,time_reference,Lomax also did important field work with Elizabeth Barnicle and Zora Neale Hurston in Florida and the Bahamas (1935); with John Wesley Work III and Lewis Jones in Mississippi (1941 and 42); with folksingers Robin Roberts and Jean Ritchie in Ireland (1950); with his second wife Antoinette Marchand in the Caribbean (1961); with Shirley Collins in Great Britain and the Southeastern US (1959); with Joan Halifax in Morocco; and with his daughter.,1,8,== Biography == | === Early life ===,173225
-1961,CD,YEAR_REGEX_1,TIME,time_reference,Lomax also did important field work with Elizabeth Barnicle and Zora Neale Hurston in Florida and the Bahamas (1935); with John Wesley Work III and Lewis Jones in Mississippi (1941 and 42); with folksingers Robin Roberts and Jean Ritchie in Ireland (1950); with his second wife Antoinette Marchand in the Caribbean (1961); with Shirley Collins in Great Britain and the Southeastern US (1959); with Joan Halifax in Morocco; and with his daughter.,1,8,== Biography == | === Early life ===,173225
-1959,CD,YEAR_REGEX_1,TIME,time_reference,Lomax also did important field work with Elizabeth Barnicle and Zora Neale Hurston in Florida and the Bahamas (1935); with John Wesley Work III and Lewis Jones in Mississippi (1941 and 42); with folksingers Robin Roberts and Jean Ritchie in Ireland (1950); with his second wife Antoinette Marchand in the Caribbean (1961); with Shirley Collins in Great Britain and the Southeastern US (1959); with Joan Halifax in Morocco; and with his daughter.,1,8,== Biography == | === Early life ===,173225
-1937 to 1942,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1937 to 1942, Lomax was Assistant in Charge of the Archive of Folk Song of the Library of Congress to which he and his father and numerous collaborators contributed more than ten thousand field recordings.",0,10,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-1941,CD,YEAR_REGEX_1,TIME,time_reference,"On one of his trips in 1941, he went to Clarksdale, Mississippi, hoping to record the music of Robert Johnson.",2,10,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-1938,CD,YEAR_REGEX_1,TIME,time_reference,"As part of this work, Lomax traveled through Michigan and Wisconsin in 1938 to record and document the traditional music of that region.",5,10,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-now,RB,TIMELINE_REGEX,TIME,time_reference,Over four hundred recordings from this collection are now available at the Library of Congress.,6,10,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-a 1935,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"""He traveled in a 1935 Plymouth sedan, toting a Presto instantaneous disc recorder and a movie camera.",7,10,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-nearly three months,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"And when he returned nearly three months later, having driven thousands of miles on barely paved roads, it was with a cache of 250 discs and 8 reels of film, documents of the incredible range of ethnic diversity, expressive traditions, and occupational folklife in Michigan.",8,10,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-late 1939,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"""In late 1939, Lomax hosted two series on CBS's nationally broadcast American School of the Air, called American Folk Song and Wellsprings of Music, both music appreciation courses that aired daily in the schools and were supposed to highlight links between American folk and classical orchestral music.",9,10,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-1940,CD,YEAR_REGEX_1,TIME,time_reference,"In 1940 under Lomax's supervision, RCA made two groundbreaking suites of commercial folk music recordings: Woody Guthrie's Dust Bowl Ballads and Lead Belly's The Midnight Special and Other Southern Prison Songs.",0,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-The Midnight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"In 1940 under Lomax's supervision, RCA made two groundbreaking suites of commercial folk music recordings: Woody Guthrie's Dust Bowl Ballads and Lead Belly's The Midnight Special and Other Southern Prison Songs.",0,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-1940,CD,YEAR_REGEX_1,TIME,time_reference,"""In 1940, Lomax and his close friend Nicholas Ray went on to write and produce a fifteen-minute program, Back Where I Came From, which aired three nights a week on CBS and featured folk tales, proverbs, prose, and sermons, as well as songs, organized thematically.",2,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-three nights,CD NNS,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,time_reference,"""In 1940, Lomax and his close friend Nicholas Ray went on to write and produce a fifteen-minute program, Back Where I Came From, which aired three nights a week on CBS and featured folk tales, proverbs, prose, and sermons, as well as songs, organized thematically.",2,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"""In 1940, Lomax and his close friend Nicholas Ray went on to write and produce a fifteen-minute program, Back Where I Came From, which aired three nights a week on CBS and featured folk tales, proverbs, prose, and sermons, as well as songs, organized thematically.",2,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-February 1941,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In February 1941, Lomax spoke and gave a demonstration of his program along with talks by Nelson A. Rockefeller from the Pan American Union, and the president of the American Museum of Natural History, at a global conference in Mexico of a thousand broadcasters CBS had sponsored to launch its worldwide programming initiative.",4,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-twenty-one weeks,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,The show ran for only twenty-one weeks before it was suddenly canceled in February 1941.,7,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-February 1941,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,The show ran for only twenty-one weeks before it was suddenly canceled in February 1941.,7,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-"December 8 , 1941","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"""On December 8, 1941, as ""Assistant in Charge at the Library of Congress"", he sent telegrams to fieldworkers in ten different localities across the United States, asking them to collect reactions of ordinary Americans to the bombing of Pearl Harbor and the subsequent declaration of war by the United States.",13,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-January and February 1942,NNP CC NNP CD,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME TIME,time_reference,"A second series of interviews, called ""Dear Mr. President"", was recorded in January and February 1942.",14,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-The 1944,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The 1944 ""ballad opera"", The Martins and the Coys, broadcast in Britain (but not the USA) by the BBC, featuring Burl Ives, Woody Guthrie, Will Geer, Sonny Terry, Pete Seeger, and Fiddlin' Arthur Smith, among others, was released on Rounder Records in 2000.",16,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-2000,CD,YEAR_REGEX_1,TIME,time_reference,"The 1944 ""ballad opera"", The Martins and the Coys, broadcast in Britain (but not the USA) by the BBC, featuring Burl Ives, Woody Guthrie, Will Geer, Sonny Terry, Pete Seeger, and Fiddlin' Arthur Smith, among others, was released on Rounder Records in 2000.",16,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the late 1940s, Lomax produced a series of commercial folk music albums for Decca Records and organized a series of concerts at New York's Town Hall and Carnegie Hall, featuring blues, calypso, and flamenco music.",17,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-1949,CD,YEAR_REGEX_1,TIME,time_reference,"He also hosted a radio show, Your Ballad Man, in 1949 that was broadcast nationwide on the Mutual Radio Network and featured a highly eclectic program, from gamelan music, to Django Reinhardt, to klezmer music, to Sidney Bechet and Wild Bill Davison, to jazzy pop songs by Maxine Sullivan and Jo Stafford, to readings of the poetry of Carl Sandburg, to hillbilly music with electric guitars, to Finnish brass bands – to name a few.",18,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-1949,CD,YEAR_REGEX_1,TIME,time_reference,"He also was a key participant in the V. D. Radio Project in 1949, creating a number of ""ballad dramas"" featuring country and gospel superstars, including Roy Acuff, Woody Guthrie, Hank Williams, and Sister Rosetta Tharpe (among others), that aimed to convince men and women suffering from syphilis to seek treatment.",19,11,== Biography == | === Assistant in Charge and Commercial Records and Radio Broadcasts ===,173225
-December 1949,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In December 1949 a newspaper printed a story, ""Red Convictions Scare 'Travelers'"", that mentioned a dinner given by the Civil Rights Association to honor five lawyers who had defended people accused of being Communists.",0,13,== Biography == | === Move to Europe and later life ===,173225
-1948,CD,YEAR_REGEX_1,TIME,time_reference,"The article mentioned Alan Lomax as one of the sponsors of the dinner, along with C. B. Baldwin, campaign manager for Henry A. Wallace in 1948; music critic Olin Downes of The New York Times; and W. E. B. Du Bois, all of whom it accused of being members of Communist front groups.",1,13,== Biography == | === Move to Europe and later life ===,173225
-The following June,DT JJ NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 MONTH_REGEX,MODIFIER MODIFIER TIME,time_reference,"The following June, Red Channels, a pamphlet edited by former F.B.I. agents which became the basis for the entertainment industry blacklist of the 1950s, listed Lomax as an artist or broadcast journalist sympathetic to Communism.",2,13,== Biography == | === Move to Europe and later life ===,173225
-of the 1950s,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"The following June, Red Channels, a pamphlet edited by former F.B.I. agents which became the basis for the entertainment industry blacklist of the 1950s, listed Lomax as an artist or broadcast journalist sympathetic to Communism.",2,13,== Biography == | === Move to Europe and later life ===,173225
-That summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"That summer, Congress was debating the McCarran Act, which would require the registration and fingerprinting of all ""subversives"" in the United States, restrictions of their right to travel, and detention in case of ""emergencies"", while the House Un-American Activities Committee was broadening its hearings.",4,13,== Biography == | === Move to Europe and later life ===,173225
-January,NNP,MONTH_REGEX,TIME,time_reference,"Feeling sure that the Act would pass and realizing that his career in broadcasting was in jeopardy, Lomax, who was newly divorced and already had an agreement with Goddard Lieberson of Columbia Records to record in Europe, hastened to renew his passport, cancel his speaking engagements, and plan for his departure, telling his agent he hoped to return in January ""if things cleared up.""",5,13,== Biography == | === Move to Europe and later life ===,173225
-"September 24 , 1950","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He set sail on September 24, 1950, on board the steamer RMS Mauretania.",6,13,== Biography == | === Move to Europe and later life ===,173225
-October,NNP,MONTH_REGEX,TIME,time_reference,"Sure enough, in October, FBI agents were interviewing Lomax's friends and acquaintances.",7,13,== Biography == | === Move to Europe and later life ===,173225
-the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Lomax spent the 1950s based in London, from where he edited the 18-volume Columbia World Library of Folk and Primitive Music, an anthology issued on newly invented LP records.",11,13,== Biography == | === Move to Europe and later life ===,173225
-seven months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He spent seven months in Spain, where, in addition to recording three thousand items from most of the regions of Spain, he made copious notes and took hundreds of photos of ""not only singers and musicians but anything that interested him – empty streets, old buildings, and country roads"", bringing to these photos, ""a concern for form and composition that went beyond the ethnographic to the artistic"".",12,13,== Biography == | === Move to Europe and later life ===,173225
-the 1960,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"When Columbia Records producer George Avakian gave jazz arranger Gil Evans a copy of the Spanish World Library LP, Miles Davis and Evans were ""struck by the beauty of pieces such as the 'Saeta', recorded in Seville, and a panpiper's tune ('Alborada de Vigo') from Galicia, and worked them into the 1960 album, Sketches of Spain.",0,15,== Biography == | === Move to Europe and later life ===,173225
-1953,CD,YEAR_REGEX_1,TIME,time_reference,"In 1953 a young David Attenborough commissioned Lomax to host six 20-minute episodes of a BBC TV series, The Song Hunter, which featured performances by a wide range of traditional musicians from all over Britain and Ireland, as well as Lomax himself.",2,15,== Biography == | === Move to Europe and later life ===,173225
-1957,CD,YEAR_REGEX_1,TIME,time_reference,"In 1957 Lomax hosted a folk music show on BBC's Home Service called 'A Ballad Hunter' and organized a skiffle group, Alan Lomax and the Ramblers (who included Ewan MacColl, Peggy Seeger, and Shirley Collins, among others), which appeared on British television.",3,15,== Biography == | === Move to Europe and later life ===,173225
-December 1955,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"His ballad opera, Big Rock Candy Mountain, premiered December 1955 at Joan Littlewood's Theatre Workshop and featured Ramblin' Jack Elliot.",4,15,== Biography == | === Move to Europe and later life ===,173225
-1951,CD,YEAR_REGEX_1,TIME,time_reference,"In Scotland, Lomax is credited with being an inspiration for the School of Scottish Studies, founded in 1951, the year of his first visit there.",5,15,== Biography == | === Move to Europe and later life ===,173225
-the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In Scotland, Lomax is credited with being an inspiration for the School of Scottish Studies, founded in 1951, the year of his first visit there.",5,15,== Biography == | === Move to Europe and later life ===,173225
-1953 and 1954,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Lomax and Diego Carpitella's survey of Italian folk music for the Columbia World Library, conducted in 1953 and 1954, with the cooperation of the BBC and the Accademia Nazionale di Santa Cecilia in Rome, helped capture a snapshot of a multitude of important traditional folk styles shortly before they disappeared.",6,15,== Biography == | === Move to Europe and later life ===,173225
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"Upon his return to New York in 1959, Lomax produced a concert, Folksong '59, in Carnegie Hall, featuring Arkansas singer Jimmy Driftwood; the Selah Jubilee Singers and Drexel Singers (gospel groups); Muddy Waters and Memphis Slim (blues); Earl Taylor and the Stoney Mountain Boys (bluegrass); Pete Seeger, Mike Seeger (urban folk revival); and The Cadillacs (a rock and roll group).",0,17,== Return to the United States ==,173225
-'59,CD,YEAR_REGEX_2,TIME,time_reference,"Upon his return to New York in 1959, Lomax produced a concert, Folksong '59, in Carnegie Hall, featuring Arkansas singer Jimmy Driftwood; the Selah Jubilee Singers and Drexel Singers (gospel groups); Muddy Waters and Memphis Slim (blues); Earl Taylor and the Stoney Mountain Boys (bluegrass); Pete Seeger, Mike Seeger (urban folk revival); and The Cadillacs (a rock and roll group).",0,17,== Return to the United States ==,173225
-some years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,The two were romantically involved and lived together for some years.,7,17,== Return to the United States ==,173225
-the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"When Lomax obtained a contract from Atlantic Records to re-record some of the American musicians first recorded in the 1940s, using improved equipment, Collins accompanied him.",8,17,== Return to the United States ==,173225
-July to November 1959,NNP TO NNP CD,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME TIME,time_reference,"Their folk song collecting trip to the Southern states, known colloquially as the Southern Journey, lasted from July to November 1959 and resulted in many hours of recordings, featuring performers such as Almeda Riddle, Hobart Smith, Wade Ward, Charlie Higgins and Bessie Jones and culminated in the discovery of Fred McDowell.",9,17,== Return to the United States ==,173225
-many hours,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Their folk song collecting trip to the Southern states, known colloquially as the Southern Journey, lasted from July to November 1959 and resulted in many hours of recordings, featuring performers such as Almeda Riddle, Hobart Smith, Wade Ward, Charlie Higgins and Bessie Jones and culminated in the discovery of Fred McDowell.",9,17,== Return to the United States ==,173225
-2000,CD,YEAR_REGEX_1,TIME,time_reference,"Recordings from this trip were issued under the title Sounds of the South and some were also featured in the Coen brothers' 2000 film O Brother,",10,17,== Return to the United States ==,173225
-1993,CD,YEAR_REGEX_1,TIME,time_reference,"In an interview in The Guardian newspaper, Collins expressed irritation that Alan Lomax's 1993 account of the journey, The Land Where The Blues Began, barely mentioned her.",13,17,== Return to the United States ==,173225
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"Collins addressed the perceived omission in her memoir, America Over the Water, published in 2004.",18,17,== Return to the United States ==,173225
-"August 26 , 1961","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Lomax married Antoinette Marchand on August 26, 1961.",19,17,== Return to the United States ==,173225
-the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,They separated the following year and were divorced in 1967.,20,17,== Return to the United States ==,173225
-1967,CD,YEAR_REGEX_1,TIME,time_reference,They separated the following year and were divorced in 1967.,20,17,== Return to the United States ==,173225
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962, Lomax and singer and Civil Rights Activist Guy Carawan, music director at the Highlander Folk School in Monteagle, Tennessee, produced the album, Freedom in the Air: Albany Georgia, 1961–62, on Vanguard Records for the Student Nonviolent Coordinating Committee.",21,17,== Return to the United States ==,173225
-1961–62,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962, Lomax and singer and Civil Rights Activist Guy Carawan, music director at the Highlander Folk School in Monteagle, Tennessee, produced the album, Freedom in the Air: Albany Georgia, 1961–62, on Vanguard Records for the Student Nonviolent Coordinating Committee.",21,17,== Return to the United States ==,173225
-the 1977,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Lomax was a consultant to Carl Sagan for the Voyager Golden Record sent into space on the 1977 Voyager Spacecraft to represent the music of the earth.,0,18,== Return to the United States ==,173225
-"July 19 , 2002","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Lomax died in Safety Harbor, Florida on July 19, 2002 at the age of 87.",6,18,== Return to the United States ==,173225
-the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"As a member of the Popular Front and People's Songs in the 1940s, Alan Lomax promoted what was then known as ""One World"" and today is called multiculturalism.",0,22,== Cultural equity ==,173225
-today,NN,TIMELINE_REGEX,TIME,time_reference,"As a member of the Popular Front and People's Songs in the 1940s, Alan Lomax promoted what was then known as ""One World"" and today is called multiculturalism.",0,22,== Cultural equity ==,173225
-the late forties,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DECADE_REGEX,MODIFIER MODIFIER TIME,time_reference,"In the late forties he produced a series of concerts at Town Hall and Carnegie Hall that presented flamenco guitar and calypso, along with country blues, Appalachian music, Andean music, and jazz.",1,22,== Cultural equity ==,173225
-of the 1940s and 1950s,IN DT CD CC CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,His radio shows of the 1940s and 1950s explored musics of all the world's peoples.,2,22,== Cultural equity ==,173225
-1950,CD,YEAR_REGEX_1,TIME,time_reference,"In 1950 he echoed anthropologist Bronisław Malinowski (1884–1942), who believed the role of the ethnologist should be that of advocate for primitive man (as indigenous people were then called), when he urged folklorists to similarly advocate for the folk.",2,23,== Cultural equity ==,173225
-1884–1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1950 he echoed anthropologist Bronisław Malinowski (1884–1942), who believed the role of the ethnologist should be that of advocate for primitive man (as indigenous people were then called), when he urged folklorists to similarly advocate for the folk.",2,23,== Cultural equity ==,173225
-1967,CD,YEAR_REGEX_1,TIME,time_reference,They have been realized in the annual (since 1967),1,24,== Cultural equity ==,173225
-1983,CD,YEAR_REGEX_1,TIME,time_reference,"In 1983, Lomax founded The Association for Cultural Equity (ACE).",3,24,== Cultural equity ==,173225
-the 2009,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In an article first published in the 2009 Louisiana Folklore Miscellany, Barry Jean Ancelet, folklorist and chair of the Modern Languages Department at University of Louisiana at Lafayette, wrote:",7,24,== Cultural equity ==,173225
-of about ten years,IN RB CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Every time [Lomax] called me over a span of about ten years, he never failed to ask if we were teaching Cajun French in the schools yet.",0,25,== Cultural equity ==,173225
-1994,CD,YEAR_REGEX_1,TIME,time_reference,"His notions about the importance of cultural and linguistic diversity have been affirmed by many contemporary scholars, including Nobel Prize-winning physicist Murray Gell-Mann who concluded his recent book, The Quark and the Jaguar, with a discussion of these very same issues, insisting on the importance of ""cultural DNA"" (1994: 338–343).",1,25,== Cultural equity ==,173225
-1994,CD,YEAR_REGEX_1,TIME,time_reference,"His cautions about ""universal popular culture"" (1994: 342) sound remarkably like Alan's warning in his ""Appeal for Cultural Equity"" that the ""cultural grey-out"" must be checked or there would soon be ""no place worth visiting and no place worth staying"" (1972).",2,25,== Cultural equity ==,173225
-1972,CD,YEAR_REGEX_1,TIME,time_reference,"His cautions about ""universal popular culture"" (1994: 342) sound remarkably like Alan's warning in his ""Appeal for Cultural Equity"" that the ""cultural grey-out"" must be checked or there would soon be ""no place worth visiting and no place worth staying"" (1972).",2,25,== Cultural equity ==,173225
-a few decades,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Just as it is crazy to squander in a few decades much of the rich biological diversity that has evolved over billions of years, so is it equally crazy to permit the disappearance of much of human cultural diversity, which has evolved in a somewhat analogous way over many tens of thousands of years…",0,26,== Cultural equity ==,173225
-of years,IN NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Just as it is crazy to squander in a few decades much of the rich biological diversity that has evolved over billions of years, so is it equally crazy to permit the disappearance of much of human cultural diversity, which has evolved in a somewhat analogous way over many tens of thousands of years…",0,26,== Cultural equity ==,173225
-many tens of thousands of years…,JJ NNS IN NNS IN NN,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL MODIFIER NUMERAL MODIFIER TIME,time_reference,"Just as it is crazy to squander in a few decades much of the rich biological diversity that has evolved over billions of years, so is it equally crazy to permit the disappearance of much of human cultural diversity, which has evolved in a somewhat analogous way over many tens of thousands of years…",0,26,== Cultural equity ==,173225
-years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Blue jeans, fast food, rock music, and American television serials have been sweeping the world for years.",3,26,== Cultural equity ==,173225
-1994,CD,YEAR_REGEX_1,TIME,time_reference,(1994: 338–343),4,26,== Cultural equity ==,173225
-the future,DT NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"Scientific study of cultures, notably of their languages and their musics, shows that all are equally expressive and equally communicative, even though they may symbolize technologies of different levels… With the disappearance of each of these systems, the human species not only loses a way of viewing, thinking, and feeling but also a way of adjusting to some zone on the planet which fits it and makes it livable; not only that, but we throw away a system of interaction, of fantasy and symbolizing which, in the future, the human race may sorely need.",2,28,== Cultural equity ==,173225
-2003,CD,YEAR_REGEX_1,TIME,time_reference,(2003 [1972]: 286),4,28,== Cultural equity ==,173225
-1972,CD,YEAR_REGEX_1,TIME,time_reference,(2003 [1972]: 286),4,28,== Cultural equity ==,173225
-2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, in the wake of the attacks in New York and Washington of September 11, UNESCO's Universal Declaration of Cultural Diversity declared the safeguarding of languages and intangible culture on a par with protection of individual human rights and as essential for human survival as biodiversity is for nature, ideas remarkably similar to those forcefully articulated by Alan Lomax many years before.",0,29,== Cultural equity ==,173225
-of September 11,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,"In 2001, in the wake of the attacks in New York and Washington of September 11, UNESCO's Universal Declaration of Cultural Diversity declared the safeguarding of languages and intangible culture on a par with protection of individual human rights and as essential for human survival as biodiversity is for nature, ideas remarkably similar to those forcefully articulated by Alan Lomax many years before.",0,29,== Cultural equity ==,173225
-many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 2001, in the wake of the attacks in New York and Washington of September 11, UNESCO's Universal Declaration of Cultural Diversity declared the safeguarding of languages and intangible culture on a par with protection of individual human rights and as essential for human survival as biodiversity is for nature, ideas remarkably similar to those forcefully articulated by Alan Lomax many years before.",0,29,== Cultural equity ==,173225
-1942 to 1979,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1942 to 1979 Lomax was repeatedly investigated and interviewed by the Federal Bureau of Investigation (FBI), although nothing incriminating was ever discovered and the investigation was eventually abandoned.",0,31,== FBI investigations ==,173225
-1941,CD,YEAR_REGEX_1,TIME,time_reference,The investigation appears to have started when an anonymous informant reported overhearing Lomax's father telling guests in 1941 about what he considered his son's communist sympathies.,2,31,== FBI investigations ==,173225
-1932,CD,YEAR_REGEX_1,TIME,time_reference,"Looking for leads, the FBI seized on the fact that, at the age of 17 in 1932 while attending Harvard for a year, Lomax had been arrested in Boston, Massachusetts, in connection with a political demonstration.",3,31,== FBI investigations ==,173225
-a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Looking for leads, the FBI seized on the fact that, at the age of 17 in 1932 while attending Harvard for a year, Lomax had been arrested in Boston, Massachusetts, in connection with a political demonstration.",3,31,== FBI investigations ==,173225
-1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1942 the FBI sent agents to interview students at Harvard's freshman dormitory about Lomax's participation in a demonstration that had occurred at Harvard ten years earlier in support of the immigration rights of one Edith Berkman, a Jewish woman, dubbed the ""red flame"" for her labor organizing activities among the textile workers of Lawrence, Massachusetts, and threatened with deportation as an alleged ""Communist agitator"".",4,31,== FBI investigations ==,173225
-ten years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1942 the FBI sent agents to interview students at Harvard's freshman dormitory about Lomax's participation in a demonstration that had occurred at Harvard ten years earlier in support of the immigration rights of one Edith Berkman, a Jewish woman, dubbed the ""red flame"" for her labor organizing activities among the textile workers of Lawrence, Massachusetts, and threatened with deportation as an alleged ""Communist agitator"".",4,31,== FBI investigations ==,173225
-1932,CD,YEAR_REGEX_1,TIME,time_reference,"Nevertheless, the bureau continued trying vainly to show that in 1932 Lomax had either distributed Communist literature or made public speeches in support of the Communist Party.",8,31,== FBI investigations ==,173225
-"April 3 , 1942","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He gave a sworn statement to an FBI agent on April 3, 1942, denying both of these charges.",1,33,== FBI investigations ==,173225
-the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Lomax transferred to the University of Texas the following year.,8,33,== FBI investigations ==,173225
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"Lomax left Harvard, after having spent his sophomore year there, to join John A. Lomax and John Lomax, Jr. in collecting folk songs for the Library of Congress and to assist his father in writing his books.",0,34,== FBI investigations ==,173225
-first year,JJ NN,ORDINAL_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"But Alan had also not been happy there and probably also wanted to be nearer his bereaved father and young sister, Bess, and to return to the close friends he had made during his first year at the University of Texas.",2,34,== FBI investigations ==,173225
-June 1942,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In June 1942 the FBI approached the Librarian of Congress, Archibald McLeish, in an attempt to have Lomax fired as Assistant in Charge of the Library's Archive of American Folk Song.",0,35,== FBI investigations ==,173225
-am,VBP,HALFDAY_REGEX_1,TIME,,"I do not find positive evidence that Mr. Lomax has been engaged in subversive activities and I am therefore taking no disciplinary action toward him.""",3,35,== FBI investigations ==,173225
-"July 23 , 1943","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"An FBI report dated July 23, 1943, describes Lomax as possessing ""an erratic, artistic temperament"" and a ""bohemian attitude.""",1,36,== FBI investigations ==,173225
-1948,CD,YEAR_REGEX_1,TIME,time_reference,"Lomax, who was a founding member of People's Songs, was in charge of campaign music for Henry A. Wallace's 1948 Presidential run on the Progressive Party ticket on a platform opposing the arms race and supporting civil rights for Jews and African Americans.",0,37,== FBI investigations ==,173225
-A 2007,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"A 2007 BBC news article revealed that in the early 1950s, the British MI5 placed Alan Lomax under surveillance as a suspected Communist.",0,38,== FBI investigations ==,173225
-the early 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"A 2007 BBC news article revealed that in the early 1950s, the British MI5 placed Alan Lomax under surveillance as a suspected Communist.",0,38,== FBI investigations ==,173225
-"September 4 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Released September 4, 2007 (File ref KV 2/2701), a summary of his MI5 file reads as follows:",2,38,== FBI investigations ==,173225
-1952,CD,YEAR_REGEX_1,TIME,time_reference,Noted American folk music archivist and collector Alan Lomax first attracted the attention of the Security Service when it was noted that he had made contact with the Romanian press attaché in London while he was working on a series of folk music broadcasts for the BBC in 1952.,0,39,== FBI investigations ==,173225
-December 1953,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The file contains a partial record of Lomax' movements, contacts and activities while in Britain, and includes for example a police report of the ""Songs of the Iron Road"" concert at St Pancras in December 1953.",0,40,== FBI investigations ==,173225
-1956,CD,YEAR_REGEX_1,TIME,time_reference,The FBI again investigated Lomax in 1956 and sent a 68-page report to the CIA and the Attorney General's office.,0,41,== FBI investigations ==,173225
-1979,CD,YEAR_REGEX_1,TIME,time_reference,"Then, as late as 1979, an FBI report suggested that Lomax had recently impersonated an FBI agent.",0,42,== FBI investigations ==,173225
-recently,RB,TIMELINE_REGEX,TIME,time_reference,"Then, as late as 1979, an FBI report suggested that Lomax had recently impersonated an FBI agent.",0,42,== FBI investigations ==,173225
-November 1979,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Lomax resisted the FBI's attempts to interview him about the impersonation charges, but he finally met with agents at his home in November 1979.",0,43,== FBI investigations ==,173225
-July 1979,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He denied that he'd been involved in the matter but did note that he'd been in New Hampshire in July 1979, visiting a film editor about a documentary.",1,43,== FBI investigations ==,173225
-the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The FBI investigation was concluded the following year, shortly after Lomax's 65th birthday.",0,44,== FBI investigations ==,173225
-1986,CD,YEAR_REGEX_1,TIME,time_reference,Alan Lomax received the National Medal of Arts from President Ronald Reagan in 1986; a Library of Congress Living Legend Award in 2000; and was awarded an Honorary Doctorate in Philosophy from Tulane University in 2001.,0,46,== Awards ==,173225
-2000,CD,YEAR_REGEX_1,TIME,time_reference,Alan Lomax received the National Medal of Arts from President Ronald Reagan in 1986; a Library of Congress Living Legend Award in 2000; and was awarded an Honorary Doctorate in Philosophy from Tulane University in 2001.,0,46,== Awards ==,173225
-2001,CD,YEAR_REGEX_1,TIME,time_reference,Alan Lomax received the National Medal of Arts from President Ronald Reagan in 1986; a Library of Congress Living Legend Award in 2000; and was awarded an Honorary Doctorate in Philosophy from Tulane University in 2001.,0,46,== Awards ==,173225
-1993,CD,YEAR_REGEX_1,TIME,time_reference,"He won the National Book Critics Circle Award and the Ralph J. Gleason Music Book Award in 1993 for his book The Land Where the Blues Began, connecting the story of the origins of blues music with the prevalence of forced labor in the pre-World War II South (especially on the Mississippi levees).",1,46,== Awards ==,173225
-2003,CD,YEAR_REGEX_1,TIME,time_reference,Lomax also received a posthumous Grammy Trustees Award for his lifetime achievements in 2003.,2,46,== Awards ==,173225
-"February 8 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jelly Roll Morton: The Complete Library of Congress Recordings by Alan Lomax (Rounder Records, 8 CDs boxed set) won in two categories at the 48th annual Grammy Awards ceremony held on February 8, 2006 Alan Lomax in Haiti: Recordings For The Library Of Congress, 1936–1937, issued by Harte Records and made with the support and major funding from Kimberley Green and the Green foundation, and featuring 10 CDs of recorded music and film footage (shot by Elizabeth Lomax, then nineteen), a bound book of Lomax's selected letters and field journals, and notes by musicologist Gage Averill, was nominated for two Grammy Awards in 2011.",3,46,== Awards ==,173225
-1936–1937,CD,YEAR_REGEX_1,TIME,time_reference,"Jelly Roll Morton: The Complete Library of Congress Recordings by Alan Lomax (Rounder Records, 8 CDs boxed set) won in two categories at the 48th annual Grammy Awards ceremony held on February 8, 2006 Alan Lomax in Haiti: Recordings For The Library Of Congress, 1936–1937, issued by Harte Records and made with the support and major funding from Kimberley Green and the Green foundation, and featuring 10 CDs of recorded music and film footage (shot by Elizabeth Lomax, then nineteen), a bound book of Lomax's selected letters and field journals, and notes by musicologist Gage Averill, was nominated for two Grammy Awards in 2011.",3,46,== Awards ==,173225
-2011,CD,YEAR_REGEX_1,TIME,time_reference,"Jelly Roll Morton: The Complete Library of Congress Recordings by Alan Lomax (Rounder Records, 8 CDs boxed set) won in two categories at the 48th annual Grammy Awards ceremony held on February 8, 2006 Alan Lomax in Haiti: Recordings For The Library Of Congress, 1936–1937, issued by Harte Records and made with the support and major funding from Kimberley Green and the Green foundation, and featuring 10 CDs of recorded music and film footage (shot by Elizabeth Lomax, then nineteen), a bound book of Lomax's selected letters and field journals, and notes by musicologist Gage Averill, was nominated for two Grammy Awards in 2011.",3,46,== Awards ==,173225
-previously,RB,TIMELINE_REGEX,TIME,time_reference,"[He later] turned his intelligent attentions to music from many other parts of the world, securing for them a dignity and status they had not previously been accorded.",0,49,== World music and digital legacy ==,173225
-January 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 2012, the American Folklife Center at the Library of Congress, with the Association for Cultural Equity, announced that they would release Lomax's vast archive in digital form.",0,50,== World music and digital legacy ==,173225
-the last 20 years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Lomax spent the last 20 years of his life working on an interactive multimedia educational computer project he called the Global Jukebox, which included 5,000 hours of sound recordings, 400,000 feet of film, 3,000 videotapes, and 5,000 photographs.",1,50,== World music and digital legacy ==,173225
-"5,000 hours",CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Lomax spent the last 20 years of his life working on an interactive multimedia educational computer project he called the Global Jukebox, which included 5,000 hours of sound recordings, 400,000 feet of film, 3,000 videotapes, and 5,000 photographs.",1,50,== World music and digital legacy ==,173225
-February 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"By February 2012, 17,000 music tracks from his archived collection were expected to be made available for free streaming, and later some of that music may be for sale as CDs or digital downloads.",2,50,== World music and digital legacy ==,173225
-of March 2012,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,As of March 2012 this has been accomplished.,0,51,== World music and digital legacy ==,173225
-1946,CD,YEAR_REGEX_1,TIME,time_reference,"Approximately 17,400 of Lomax's recordings from 1946 and later have been made available free online.",1,51,== World music and digital legacy ==,173225
-1946,CD,YEAR_REGEX_1,TIME,time_reference,"This is material from Alan Lomax's independent archive, begun in 1946, which has been digitized and offered by the Association for Cultural Equity.",2,51,== World music and digital legacy ==,173225
-1933 to 1942,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"This is ""distinct from the thousands of earlier recordings on acetate and aluminum discs he made from 1933 to 1942 under the auspices of the Library of Congress.",3,51,== World music and digital legacy ==,173225
-Eastern,NNP,HOLIDAY_REGEX,TIME,time_reference,"This earlier collection – which includes the famous Jelly Roll Morton, Woody Guthrie, Lead Belly, and Muddy Waters sessions, as well as Lomax's prodigious collections made in Haiti and Eastern Kentucky (1937) – is the provenance of the American Folklife Center"" at the Library of Congress.",4,51,== World music and digital legacy ==,173225
-1937,CD,YEAR_REGEX_1,TIME,time_reference,"This earlier collection – which includes the famous Jelly Roll Morton, Woody Guthrie, Lead Belly, and Muddy Waters sessions, as well as Lomax's prodigious collections made in Haiti and Eastern Kentucky (1937) – is the provenance of the American Folklife Center"" at the Library of Congress.",4,51,== World music and digital legacy ==,173225
-"August 24 , 1997","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On August 24, 1997, at a concert at Wolf Trap, Vienna, Virginia, Bob Dylan had this to say about Lomax, who had helped introduce him to folk music and whom he had known as a young man in Greenwich Village:",5,51,== World music and digital legacy ==,173225
-years ago,NNS RB,TIME_UNIT_REGEX SUFFIX_REGEX,TIME MODIFIER,time_reference,I used to know him years ago.,5,52,== World music and digital legacy ==,173225
-1999,CD,YEAR_REGEX_1,TIME,time_reference,In 1999 electronica musician Moby released his fifth album Play.,0,53,== World music and digital legacy ==,173225
-the 1993,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,It extensively used samples from field recordings collected by Lomax on the 1993 box set Sounds of the South: A Musical Journey from the Georgia Sea Islands to the Mississippi Delta.,1,53,== World music and digital legacy ==,173225
-a 1961,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"In his autobiographical, “Chronicles, Part One,” Dylan recollects a 1961 scene: “There was an art movie house in the Village on 12th Street that showed foreign movies—French, Italian, German.",3,53,== World music and digital legacy ==,173225
-Year,NN,TIME_UNIT_REGEX,TIME,time_reference,"L'Anno piu' felice della mia vita (The Happiest Year of My Life), a book of ethnographic photos by Alan Lomax from his 1954–55 fieldwork in Italy, edited by Goffredo Plastino, preface by Martin Scorsese.",0,56,== Bibliography ==,173225
-1954–55,CD,YEAR_REGEX_1,TIME,time_reference,"L'Anno piu' felice della mia vita (The Happiest Year of My Life), a book of ethnographic photos by Alan Lomax from his 1954–55 fieldwork in Italy, edited by Goffredo Plastino, preface by Martin Scorsese.",0,56,== Bibliography ==,173225
-2006,CD,YEAR_REGEX_1,TIME,time_reference,"by Antoni Pizà (Barcelona:  Lunwerg / Fundacio Sa Nostra, 2006) ISBN 84-9785-271-0",2,57,== Bibliography ==,173225
-1934–1997,CD,YEAR_REGEX_1,TIME,time_reference,Alan Lomax: Selected Writings 1934–1997.,0,58,== Bibliography ==,173225
-2003,CD,YEAR_REGEX_1,TIME,time_reference,New York: Routledge: 2003.,2,58,== Bibliography ==,173225
-the Eastern,DT JJ,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,"Brown Girl in the Ring: An Anthology of Song Games from the Eastern Caribbean Compiler, with J. D. Elder and Bess Lomax Hawes.",0,59,== Bibliography ==,173225
-1997,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Pantheon Books, 1997 (Cloth, ISBN 0-679-40453-8); New York: Random House, 1998 (Cloth).",1,59,== Bibliography ==,173225
-1998,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Pantheon Books, 1997 (Cloth, ISBN 0-679-40453-8); New York: Random House, 1998 (Cloth).",1,59,== Bibliography ==,173225
-1993,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Pantheon, 1993.",1,60,== Bibliography ==,173225
-1976,CD,YEAR_REGEX_1,TIME,time_reference,"Berkeley: University of California Media Extension Center, 1976.",1,61,== Bibliography ==,173225
-1968,CD,YEAR_REGEX_1,TIME,time_reference,"Washington, D.C.: Colonial Press Inc, American Association for the Advancement of Science, Publication no. 88, 1968.",2,62,== Bibliography ==,173225
-1968,CD,YEAR_REGEX_1,TIME,time_reference,Penguin Book of American Folk Songs (1968),0,63,== Bibliography ==,173225
-3000 Years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,3000 Years of Black Poetry.,0,64,== Bibliography ==,173225
-1969,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Dodd Mead Company, 1969.",2,64,== Bibliography ==,173225
-1971,CD,YEAR_REGEX_1,TIME,time_reference,"Paperback edition, Fawcett Publications, 1971.",3,64,== Bibliography ==,173225
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Oak Publications, 1962.",4,65,== Bibliography ==,173225
-1960,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Doubleday, 1960.",2,66,== Bibliography ==,173225
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Duell, Sloan and Pierce, 1959.",1,67,== Bibliography ==,173225
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"Folkways Music Publishers Company, 1959.",5,68,== Bibliography ==,173225
-1955,CD,YEAR_REGEX_1,TIME,time_reference,"London: Faber and Faber, 1955.",3,69,== Bibliography ==,173225
-1950,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Duell, Sloan and Pierce, 1950.",2,70,== Bibliography ==,173225
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"Republished as Best Loved American Folk Songs, New York: Grosset and Dunlap, 1947 (Cloth).",4,71,== Bibliography ==,173225
-1943,CD,YEAR_REGEX_1,TIME,time_reference,"Washington, D.C.: Office of War Information, 1943.",2,72,== Bibliography ==,173225
-1941,CD,YEAR_REGEX_1,TIME,time_reference,"New York: MacMillan, 1941.",2,73,== Bibliography ==,173225
-July 1940,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Check-list of Recorded Songs in the English Language in the Archive of American Folk Song in July 1940.,0,74,== Bibliography ==,173225
-1942,CD,YEAR_REGEX_1,TIME,time_reference,"Washington, D.C.: Music Division, Library of Congress, 1942.",1,74,== Bibliography ==,173225
-1942,CD,YEAR_REGEX_1,TIME,time_reference,"New York, Progressive Education Association, 1942.",2,75,== Bibliography ==,173225
-1988,CD,YEAR_REGEX_1,TIME,time_reference,"Reprint, Temecula, California: Reprint Services Corp., 1988 (62 pp.",3,75,== Bibliography ==,173225
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"New York: Macmillan, 1936.",2,76,== Bibliography ==,173225
-1934,CD,YEAR_REGEX_1,TIME,time_reference,"Macmillan, 1934.",2,77,== Bibliography ==,173225
-2004,CD,YEAR_REGEX_1,TIME,time_reference,"Lomax the Songhunter, documentary directed by Rogier Kappers, 2004 (issued on DVD 2007).",0,79,== Film ==,173225
-2007,CD,YEAR_REGEX_1,TIME,time_reference,"Lomax the Songhunter, documentary directed by Rogier Kappers, 2004 (issued on DVD 2007).",0,79,== Film ==,173225
-1990,CD,YEAR_REGEX_1,TIME,time_reference,"American Patchwork television series, 1990 (five DVDs).",0,80,== Film ==,173225
-1951,CD,YEAR_REGEX_1,TIME,time_reference,Oss Oss Wee Oss 1951 (on a DVD with other films related to the Padstow May Day).,0,81,== Film ==,173225
-May Day,NNP NNP,MONTH_REGEX TIME_UNIT_REGEX,TIME TIME,time_reference,Oss Oss Wee Oss 1951 (on a DVD with other films related to the Padstow May Day).,0,81,== Film ==,173225
-1974–1984,CD,YEAR_REGEX_1,TIME,time_reference,"Four films (Dance & Human History, Step Style, Palm Play, and The Longest Trail) made by Lomax (1974–1984) about his Choreometric cross-cultural analysis of dance and movement style.",1,82,== Film ==,173225
-Two-and-a-half hours,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Two-and-a-half hours, plus one-and-a-half hours of interviews and 177 pages of text.",2,82,== Film ==,173225
-one-and-a-half hours,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Two-and-a-half hours, plus one-and-a-half hours of interviews and 177 pages of text.",2,82,== Film ==,173225
-of the 1979,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"The Land Where The Blues Began, expanded, thirtieth-anniversary edition of the 1979 documentary by Alan Lomax, filmmaker John Melville Bishop, and ethnomusicologist and civil rights activist Worth Long, with 3.5 hours of additional music and video.",0,83,== Film ==,173225
-3.5 hours,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"The Land Where The Blues Began, expanded, thirtieth-anniversary edition of the 1979 documentary by Alan Lomax, filmmaker John Melville Bishop, and ethnomusicologist and civil rights activist Worth Long, with 3.5 hours of additional music and video.",0,83,== Film ==,173225
-2012,CD,YEAR_REGEX_1,TIME,time_reference,"Ballads, Blues and Bluegrass, an Alan Lomax documentary released in 2012.",0,84,== Film ==,173225
-this 2020,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Southern Journey (Revisited), this 2020 documentary retraces the route of an iconic song-collecting trip from the late 1950s - Alan Lomax's so-called ""Southern Journey"".",0,85,== Film ==,173225
-the late 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Southern Journey (Revisited), this 2020 documentary retraces the route of an iconic song-collecting trip from the late 1950s - Alan Lomax's so-called ""Southern Journey"".",0,85,== Film ==,173225
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"January 31 , 1915 – July 19 , 2002","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,0,0
+"of the 1940s , 1950s","IN DT CD , CD",PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,2,0
+early 1960s,RB NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,2,0
+1942,CD,YEAR_REGEX_1,TIME,time_reference,0,1
+March 2004,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,1
+seventy years,NN NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,1
+the 1970s and 1980s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,4,1
+1991,CD,YEAR_REGEX_1,TIME,time_reference,4,1
+1995,CD,YEAR_REGEX_1,TIME,time_reference,5,1
+1915,CD,YEAR_REGEX_1,TIME,time_reference,0,5
+now,RB,TIMELINE_REGEX,TIME,time_reference,3,6
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,3,6
+1930,CD,YEAR_REGEX_1,TIME,time_reference,3,6
+one night,CD NN,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,5,6
+Daily,NNP,PERIOD_REGEX,TIME,time_reference,8,6
+night,NN,DAY_TIME_REGEX,TIME,time_reference,9,6
+the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,10,6
+second year,JJ NN,ORDINAL_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,11,6
+now 17,RB CD,TIMELINE_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,15,6
+1934,CD,YEAR_REGEX_1,TIME,time_reference,15,6
+1936,CD,YEAR_REGEX_1,TIME,time_reference,15,6
+the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,16,6
+of 1935,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,16,6
+that fall,IN NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,17,6
+May 1936,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,17,6
+February 1937,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,7
+12 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,7
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,8
+1935,CD,YEAR_REGEX_1,TIME,time_reference,1,8
+1941 and 42,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1,TIME MODIFIER NUMERAL,time_range,1,8
+1950,CD,YEAR_REGEX_1,TIME,time_reference,1,8
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1,8
+1959,CD,YEAR_REGEX_1,TIME,time_reference,1,8
+1937 to 1942,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,10
+1941,CD,YEAR_REGEX_1,TIME,time_reference,2,10
+1938,CD,YEAR_REGEX_1,TIME,time_reference,5,10
+now,RB,TIMELINE_REGEX,TIME,time_reference,6,10
+a 1935,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,7,10
+nearly three months,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,8,10
+late 1939,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,9,10
+daily,RB,PERIOD_REGEX,TIME,time_reference,9,10
+1940,CD,YEAR_REGEX_1,TIME,time_reference,0,11
+The Midnight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,0,11
+1940,CD,YEAR_REGEX_1,TIME,time_reference,2,11
+three nights,CD NNS,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,time_reference,2,11
+a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2,11
+February 1941,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,4,11
+twenty-one weeks,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,7,11
+February 1941,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,7,11
+"December 8 , 1941","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,13,11
+January and February 1942,NNP CC NNP CD,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME TIME,time_reference,14,11
+The 1944,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,16,11
+2000,CD,YEAR_REGEX_1,TIME,time_reference,16,11
+the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,17,11
+1949,CD,YEAR_REGEX_1,TIME,time_reference,18,11
+1949,CD,YEAR_REGEX_1,TIME,time_reference,19,11
+December 1949,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,13
+1948,CD,YEAR_REGEX_1,TIME,time_reference,1,13
+The following June,DT JJ NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 MONTH_REGEX,MODIFIER MODIFIER TIME,time_reference,2,13
+of the 1950s,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,2,13
+That summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,4,13
+January,NNP,MONTH_REGEX,TIME,time_reference,5,13
+"September 24 , 1950","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,6,13
+October,NNP,MONTH_REGEX,TIME,time_reference,7,13
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,11,13
+seven months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,12,13
+the 1960,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,15
+1953,CD,YEAR_REGEX_1,TIME,time_reference,2,15
+1957,CD,YEAR_REGEX_1,TIME,time_reference,3,15
+December 1955,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,4,15
+1951,CD,YEAR_REGEX_1,TIME,time_reference,5,15
+the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,5,15
+1953 and 1954,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,6,15
+1959,CD,YEAR_REGEX_1,TIME,time_reference,0,17
+'59,CD,YEAR_REGEX_2,TIME,time_reference,0,17
+some years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,7,17
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,8,17
+July to November 1959,NNP TO NNP CD,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME TIME,time_reference,9,17
+many hours,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,9,17
+2000,CD,YEAR_REGEX_1,TIME,time_reference,10,17
+1993,CD,YEAR_REGEX_1,TIME,time_reference,13,17
+2004,CD,YEAR_REGEX_1,TIME,time_reference,18,17
+"August 26 , 1961","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,19,17
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,20,17
+1967,CD,YEAR_REGEX_1,TIME,time_reference,20,17
+1962,CD,YEAR_REGEX_1,TIME,time_reference,21,17
+1961–62,CD,YEAR_REGEX_1,TIME,time_reference,21,17
+the 1977,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,18
+"July 19 , 2002","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,6,18
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,22
+today,NN,TIMELINE_REGEX,TIME,time_reference,0,22
+the late forties,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DECADE_REGEX,MODIFIER MODIFIER TIME,time_reference,1,22
+of the 1940s and 1950s,IN DT CD CC CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME MODIFIER TIME,time_reference,2,22
+1950,CD,YEAR_REGEX_1,TIME,time_reference,2,23
+1884–1942,CD,YEAR_REGEX_1,TIME,time_reference,2,23
+1967,CD,YEAR_REGEX_1,TIME,time_reference,1,24
+1983,CD,YEAR_REGEX_1,TIME,time_reference,3,24
+the 2009,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,7,24
+of about ten years,IN RB CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,0,25
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1,25
+1994,CD,YEAR_REGEX_1,TIME,time_reference,2,25
+1972,CD,YEAR_REGEX_1,TIME,time_reference,2,25
+a few decades,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,0,26
+of years,IN NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,26
+many tens of thousands of years…,JJ NNS IN NNS IN NN,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL MODIFIER NUMERAL MODIFIER TIME,time_reference,0,26
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,3,26
+1994,CD,YEAR_REGEX_1,TIME,time_reference,4,26
+the future,DT NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,2,28
+2003,CD,YEAR_REGEX_1,TIME,time_reference,4,28
+1972,CD,YEAR_REGEX_1,TIME,time_reference,4,28
+2001,CD,YEAR_REGEX_1,TIME,time_reference,0,29
+of September 11,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,0,29
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,29
+1942 to 1979,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,31
+1941,CD,YEAR_REGEX_1,TIME,time_reference,2,31
+1932,CD,YEAR_REGEX_1,TIME,time_reference,3,31
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,3,31
+1942,CD,YEAR_REGEX_1,TIME,time_reference,4,31
+ten years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,4,31
+1932,CD,YEAR_REGEX_1,TIME,time_reference,8,31
+"April 3 , 1942","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,1,33
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,8,33
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,0,34
+first year,JJ NN,ORDINAL_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,34
+June 1942,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,35
+"July 23 , 1943","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,1,36
+1948,CD,YEAR_REGEX_1,TIME,time_reference,0,37
+A 2007,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,0,38
+the early 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,0,38
+"September 4 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,2,38
+1952,CD,YEAR_REGEX_1,TIME,time_reference,0,39
+December 1953,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,40
+1956,CD,YEAR_REGEX_1,TIME,time_reference,0,41
+1979,CD,YEAR_REGEX_1,TIME,time_reference,0,42
+recently,RB,TIMELINE_REGEX,TIME,time_reference,0,42
+November 1979,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,43
+July 1979,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,1,43
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,0,44
+1986,CD,YEAR_REGEX_1,TIME,time_reference,0,46
+2000,CD,YEAR_REGEX_1,TIME,time_reference,0,46
+2001,CD,YEAR_REGEX_1,TIME,time_reference,0,46
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1,46
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2,46
+"February 8 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,3,46
+1936–1937,CD,YEAR_REGEX_1,TIME,time_reference,3,46
+2011,CD,YEAR_REGEX_1,TIME,time_reference,3,46
+previously,RB,TIMELINE_REGEX,TIME,time_reference,0,49
+January 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,50
+the last 20 years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,1,50
+"5,000 hours",CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,50
+February 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,2,50
+of March 2012,IN NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,0,51
+1946,CD,YEAR_REGEX_1,TIME,time_reference,1,51
+1946,CD,YEAR_REGEX_1,TIME,time_reference,2,51
+1933 to 1942,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,3,51
+Eastern,NNP,HOLIDAY_REGEX,TIME,time_reference,4,51
+1937,CD,YEAR_REGEX_1,TIME,time_reference,4,51
+"August 24 , 1997","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,5,51
+years ago,NNS RB,TIME_UNIT_REGEX SUFFIX_REGEX,TIME MODIFIER,time_reference,5,52
+1999,CD,YEAR_REGEX_1,TIME,time_reference,0,53
+the 1993,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,1,53
+a 1961,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,3,53
+Year,NN,TIME_UNIT_REGEX,TIME,time_reference,0,56
+1954–55,CD,YEAR_REGEX_1,TIME,time_reference,0,56
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2,57
+1934–1997,CD,YEAR_REGEX_1,TIME,time_reference,0,58
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2,58
+the Eastern,DT JJ,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,0,59
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1,59
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1,59
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1,60
+1976,CD,YEAR_REGEX_1,TIME,time_reference,1,61
+1968,CD,YEAR_REGEX_1,TIME,time_reference,2,62
+1968,CD,YEAR_REGEX_1,TIME,time_reference,0,63
+3000 Years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,64
+1969,CD,YEAR_REGEX_1,TIME,time_reference,2,64
+1971,CD,YEAR_REGEX_1,TIME,time_reference,3,64
+1962,CD,YEAR_REGEX_1,TIME,time_reference,4,65
+1960,CD,YEAR_REGEX_1,TIME,time_reference,2,66
+1959,CD,YEAR_REGEX_1,TIME,time_reference,1,67
+1959,CD,YEAR_REGEX_1,TIME,time_reference,5,68
+1955,CD,YEAR_REGEX_1,TIME,time_reference,3,69
+1950,CD,YEAR_REGEX_1,TIME,time_reference,2,70
+1947,CD,YEAR_REGEX_1,TIME,time_reference,4,71
+1943,CD,YEAR_REGEX_1,TIME,time_reference,2,72
+1941,CD,YEAR_REGEX_1,TIME,time_reference,2,73
+July 1940,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,74
+1942,CD,YEAR_REGEX_1,TIME,time_reference,1,74
+1942,CD,YEAR_REGEX_1,TIME,time_reference,2,75
+1988,CD,YEAR_REGEX_1,TIME,time_reference,3,75
+1936,CD,YEAR_REGEX_1,TIME,time_reference,2,76
+1934,CD,YEAR_REGEX_1,TIME,time_reference,2,77
+2004,CD,YEAR_REGEX_1,TIME,time_reference,0,79
+2007,CD,YEAR_REGEX_1,TIME,time_reference,0,79
+1990,CD,YEAR_REGEX_1,TIME,time_reference,0,80
+1951,CD,YEAR_REGEX_1,TIME,time_reference,0,81
+May Day,NNP NNP,MONTH_REGEX TIME_UNIT_REGEX,TIME TIME,time_reference,0,81
+1974–1984,CD,YEAR_REGEX_1,TIME,time_reference,1,82
+Two-and-a-half hours,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,82
+one-and-a-half hours,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,82
+of the 1979,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,0,83
+3.5 hours,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,0,83
+2012,CD,YEAR_REGEX_1,TIME,time_reference,0,84
+this 2020,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,85
+the late 1950s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,0,85

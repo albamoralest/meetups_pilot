@@ -1,0 +1,19 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1598,CD,YEAR_REGEX_1,TIME,time_reference,"William Barton (1598?–1678), was an English hymnologist.",0,0,,32569214
+about 1598,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Barton must have been born ""about 1598"" from his recorded age at death (eighty).",0,2,== Life ==,32569214
+19 June 1643,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"He is probably to be identified with the William Barton who was vicar of Mayfield, Staffordshire, at the opening of the civil wars, and who is described in a certificate presented to the House of Lords 19 June 1643 as ""a man of godly life, and able and orthodox in his ministry"", and as ""having been forced to desert his flock and family by the plundering cavaliers of Staffordshire"".",2,2,== Life ==,32569214
+1678,CD,YEAR_REGEX_1,TIME,time_reference,"From Oliver Heywood's ""Obituaries"" we learn the time of his death: ""1678.",5,2,== Life ==,32569214
+May,NNP,MONTH_REGEX,TIME,time_reference,"Mr. William Barton of St. Martin's in Leicester died in May, aged 80"".",6,2,== Life ==,32569214
+1644,CD,YEAR_REGEX_1,TIME,time_reference,His verse-translation of the Psalms was first published in 1644.,0,4,== Works ==,32569214
+"1645 , 1646 , 1651 , 1654","CD , CD , CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME MODIFIER TIME MODIFIER TIME,time_range,"It was reprinted and altered in 1645, 1646, 1651, 1654, and later.",1,4,== Works ==,32569214
+1682,CD,YEAR_REGEX_1,TIME,time_reference,"The text having been revised for ""the last time"" by its author, it was posthumously republished in 1682.",2,4,== Works ==,32569214
+am,VBP,HALFDAY_REGEX_1,TIME,,"But whether they were printed there or no I am in doubt; for I am sure that 1,500 of my books were heretofore printed by stealth in England and carried over to Ireland"".",5,4,== Works ==,32569214
+am,VBP,HALFDAY_REGEX_1,TIME,,"But whether they were printed there or no I am in doubt; for I am sure that 1,500 of my books were heretofore printed by stealth in England and carried over to Ireland"".",5,4,== Works ==,32569214
+1654,CD,YEAR_REGEX_1,TIME,time_reference,In 1654 he had prepared the way for his enlarged and improved Psalms by publishing A View of the many Errors and some gross Absurdities in the old Translations of the Psalms in English Metre (Douce's copy in Bodleian).,6,4,== Works ==,32569214
+1659,CD,YEAR_REGEX_1,TIME,time_reference,In 1659 he published A Century of Select Hymns.,7,4,== Works ==,32569214
+A Century,NNP NNP,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,In 1659 he published A Century of Select Hymns.,7,4,== Works ==,32569214
+1668 to Four Centuries,CD TO NNP NNP,YEAR_REGEX_1 LINKAGE_REGEX BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,TIME MODIFIER NUMERAL TIME,time_range,"This was enlarged in 1668 to Four Centuries, and in 1688 to Six Centuries, the last being edited by his son, Edward Barton, minister of Welford in Northamptonshire.",8,4,== Works ==,32569214
+1688 to Six Centuries,CD TO NNP NNP,YEAR_REGEX_1 LINKAGE_REGEX BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,TIME MODIFIER NUMERAL TIME,time_range,"This was enlarged in 1668 to Four Centuries, and in 1688 to Six Centuries, the last being edited by his son, Edward Barton, minister of Welford in Northamptonshire.",8,4,== Works ==,32569214
+Centuries,NNS,TIME_UNIT_REGEX,TIME,time_reference,His Centuries were dedicated to Sir Matthew Hale.,9,4,== Works ==,32569214
+now,RB,TIMELINE_REGEX,TIME,time_reference,"This article incorporates text from a publication now in the public domain: ""Barton, William"".",0,6,== References ==,32569214
+1885–1900,CD,YEAR_REGEX_1,TIME,time_reference,"London: Smith, Elder & Co. 1885–1900.",2,6,== References ==,32569214

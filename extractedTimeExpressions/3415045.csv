@@ -1,0 +1,54 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"September 16 , 1970","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Mark Mitchell Schultz (born September 16, 1970) is a contemporary Christian music artist.",0,0,,3415045
+the 2006,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He has been nominated for numerous Dove Awards, winning his first at the 2006 Dove Awards when the CD/DVD Mark Schultz Live: A Night of Stories & Songs was named Long Form Music Video of the Year.",1,0,,3415045
+A Night,DT NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"He has been nominated for numerous Dove Awards, winning his first at the 2006 Dove Awards when the CD/DVD Mark Schultz Live: A Night of Stories & Songs was named Long Form Music Video of the Year.",1,0,,3415045
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He has been nominated for numerous Dove Awards, winning his first at the 2006 Dove Awards when the CD/DVD Mark Schultz Live: A Night of Stories & Songs was named Long Form Music Video of the Year.",1,0,,3415045
+two weeks old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Mark Schultz was adopted at two weeks old by his parents Gary and Ronita Schultz in Kansas City, Kansas.",0,2,== Background ==,3415045
+about eight years old,RB CD NNS JJ,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,"When he was about eight years old, Schultz began to teach himself piano by ear.",3,2,== Background ==,3415045
+the quarterback,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He was also very involved in athletics as a basketball player, a track runner, a pitcher in baseball, and the quarterback of the football team.",5,2,== Background ==,3415045
+1989,CD,YEAR_REGEX_1,TIME,time_reference,He graduated from Colby High School in 1989 and was elected to be the graduation speaker for his class.,6,2,== Background ==,3415045
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Schultz attended two years at Colby Community College where he played baseball.,0,3,== Background ==,3415045
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Next he transferred to Kansas State University where he finished his college career, graduating in 1994 with a BA in marketing.",1,3,== Background ==,3415045
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"He traveled with the Singers during his college years, and it was in this group, led by director Gerald Polich, that Schultz honed his singing voice.",4,3,== Background ==,3415045
+night,NN,DAY_TIME_REGEX,TIME,time_reference,Late at night he would sneak into the music building at K-State to play the piano and write songs.,5,3,== Background ==,3415045
+one day,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"When Schultz's parents came to visit him for the first time in Nashville, his dad told him that he would one day listen to his son doing a concert on that stage.",4,4,== Background ==,3415045
+pastor,NN,TIMELINE_REGEX,TIME,time_reference,One of the other interns who was leaving gave Schultz a name and number of a youth pastor in town and told Schultz to contact him for a job.,1,5,== Background ==,3415045
+That pastor,DT NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,That pastor's name was Mark DeVries.,2,5,== Background ==,3415045
+Almost a year,RB DT NN,PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Almost a year later Schultz was struggling to make ends meet as a waiter and was not getting any time to write songs or perform.,0,6,== Background ==,3415045
+Late one night,RB NN NN,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,MODIFIER NUMERAL TIME,time_reference,Late one night as he was closing the restaurant a couple came in through the front door.,2,6,== Background ==,3415045
+a night,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,They explained that they had been given a gift by their church members to spend a night out at the hotel and have dinner.,3,6,== Background ==,3415045
+pastor,NN,TIMELINE_REGEX,TIME,time_reference,This was the youth pastor that Schultz was supposed to call a year before.,5,6,== Background ==,3415045
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,This was the youth pastor that Schultz was supposed to call a year before.,5,6,== Background ==,3415045
+eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He worked there alongside Mark DeVries for eight years, and it is at FPC where his music career was born.",8,6,== Background ==,3415045
+About a year,IN DT NN,PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"About a year after he started working at FPC, Schultz was offered a part in the group Up With People to travel the world performing concerts.",0,7,== Background ==,3415045
+that year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"During that year he visited France, Italy, Germany, Switzerland, and other countries performing concerts and community service.",2,7,== Background ==,3415045
+Am,VBP,HALFDAY_REGEX_1,TIME,,"He wrote personal songs of people's struggles (He's My Son, Cloud of Witnesses, etc.) as well as songs for certain church events (Remember Me, I Am the Way).",1,9,== Career ==,3415045
+2000,CD,YEAR_REGEX_1,TIME,time_reference,The members of the church and specifically the mothers of the youth group helped Schultz organize a concert at the Ryman auditorium which was held in 2000.,2,9,== Career ==,3415045
+that night,IN NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,The auditorium was full that night and Schultz's parents were in the front row.,4,9,== Career ==,3415045
+48 Hours,CD NNP,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Schultz has landed the top spot on Billboard's Christian Adult Contemporary Songwriter list and has been featured on 48 Hours, CNN and Extreme Makeover: Home Edition.",8,9,== Career ==,3415045
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, Schultz released his first instrumental album, Renaissance and his first novella, Letters From War, based on his hit song through {Howard Books} a division of {Simon and Schuster}.",9,9,== Career ==,3415045
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"His 2005 release, Mark Schultz Live: A Night of Stories & Songs, was certified Platinum by the R.I.A.A. and earned Schultz his first GMA Dove Award.",10,9,== Career ==,3415045
+A Night,DT NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"His 2005 release, Mark Schultz Live: A Night of Stories & Songs, was certified Platinum by the R.I.A.A. and earned Schultz his first GMA Dove Award.",10,9,== Career ==,3415045
+"May 6 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On May 6, 2007, Schultz began bicycling from California to Maine in an attempt to raise money for widows and orphans.",0,10,== Career ==,3415045
+"September 4 , 2012","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Schultz's album, All Things Possible, was released on September 4, 2012.",0,11,== Career ==,3415045
+"July 17 , 2012","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The album's lead single, ""All Things Possible"" was released on July 17, 2012 and the next single, ""I Gave Up"" is scheduled to release in mid-2013.",1,11,== Career ==,3415045
+early 2013,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In early 2013 Mark headlined the ""All Things Possible"" tour with Aaron Shust and Jonny Diaz, playing over 20 shows in 15 states.",2,11,== Career ==,3415045
+"March 25 , 2014","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Schultz's latest album, Hymns was released on March 25, 2014 and includes eleven hymns, some of which include additional verses written by Schultz.",0,12,== Career ==,3415045
+More recently,RBR RB,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"More recently, Schultz has been participating in mission trips to serve orphans in Mexico with the group Good Goers.",3,14,== Activism ==,3415045
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, Schultz and his wife started the Remember Me Mission, which is a non-profit dedicated to helping orphans all over the world.",0,15,== Activism ==,3415045
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Mark Schultz (2000),0,17,== Discography ==,3415045
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Song Cinema (2001),0,18,== Discography ==,3415045
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Stories & Songs (2003),0,19,== Discography ==,3415045
+A Night,DT NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,Live: A Night of Stories and Songs (2005),0,20,== Discography ==,3415045
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Live: A Night of Stories and Songs (2005),0,20,== Discography ==,3415045
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Broken & Beautiful (2006),0,21,== Discography ==,3415045
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Come Alive (2009),0,22,== Discography ==,3415045
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Renaissance (2011),0,23,== Discography ==,3415045
+2012,CD,YEAR_REGEX_1,TIME,time_reference,All Things Possible (2012),0,24,== Discography ==,3415045
+2014,CD,YEAR_REGEX_1,TIME,time_reference,Hymns (2014),0,25,== Discography ==,3415045
+2015,CD,YEAR_REGEX_1,TIME,time_reference,Before You Call Me Home -  EP (2015),0,26,== Discography ==,3415045
+2018,CD,YEAR_REGEX_1,TIME,time_reference,Follow (Live) (2018),0,27,== Discography ==,3415045
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,Christmas (2018),0,28,== Discography ==,3415045
+2018,CD,YEAR_REGEX_1,TIME,time_reference,Christmas (2018),0,28,== Discography ==,3415045
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Mark Schultz; J.L. Bibb (2005).,0,31,== References ==,3415045
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Mark Schultz; Travis Thrasher (2011).,0,32,== References ==,3415045

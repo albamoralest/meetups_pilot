@@ -1,0 +1,74 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"July 22 , 1934 – February 3 , 1992","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Herman Junior Cook (July 22, 1934 – February 3, 1992) was an American hard bop tenor saxophone player.",0,0,,4204840
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"After playing with Dizzy Gillespie in 1958, Cook was a member of the Horace Silver Quintet (1958–1964); when Silver left the group in the hands of Blue Mitchell Cook stayed in the quintet for five more years (1964–1969).",1,2,== Biography ==,4204840
+1958–1964,CD,YEAR_REGEX_1,TIME,time_reference,"After playing with Dizzy Gillespie in 1958, Cook was a member of the Horace Silver Quintet (1958–1964); when Silver left the group in the hands of Blue Mitchell Cook stayed in the quintet for five more years (1964–1969).",1,2,== Biography ==,4204840
+five more years,CD JJR NNS,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"After playing with Dizzy Gillespie in 1958, Cook was a member of the Horace Silver Quintet (1958–1964); when Silver left the group in the hands of Blue Mitchell Cook stayed in the quintet for five more years (1964–1969).",1,2,== Biography ==,4204840
+1964–1969,CD,YEAR_REGEX_1,TIME,time_reference,"After playing with Dizzy Gillespie in 1958, Cook was a member of the Horace Silver Quintet (1958–1964); when Silver left the group in the hands of Blue Mitchell Cook stayed in the quintet for five more years (1964–1969).",1,2,== Biography ==,4204840
+1975–1976,CD,YEAR_REGEX_1,TIME,time_reference,"Later associations included Freddie Hubbard, Elvin Jones, George Coleman, Louis Hayes (1975–1976), Bill Hardman (1979–1989), and the McCoy Tyner big band.",2,2,== Biography ==,4204840
+1979–1989,CD,YEAR_REGEX_1,TIME,time_reference,"Later associations included Freddie Hubbard, Elvin Jones, George Coleman, Louis Hayes (1975–1976), Bill Hardman (1979–1989), and the McCoy Tyner big band.",2,2,== Biography ==,4204840
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"In addition to many appearances as a sideman, Junior Cook recorded as a leader for Jazzland (1961), Catalyst (1977), Muse, and SteepleChase.",3,2,== Biography ==,4204840
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"In addition to many appearances as a sideman, Junior Cook recorded as a leader for Jazzland (1961), Catalyst (1977), Muse, and SteepleChase.",3,2,== Biography ==,4204840
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,He also taught at Berklee School of Music for a year during the 1970s.,0,3,== Biography ==,4204840
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He also taught at Berklee School of Music for a year during the 1970s.,0,3,== Biography ==,4204840
+the early 1990s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In the early 1990s, Cook was playing with Clifford Jordan, and also leading his own group.",1,3,== Biography ==,4204840
+February 1992,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He died in February 1992, in his apartment in New York City, aged 57.",2,3,== Biography ==,4204840
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Junior's Cookin' (Jazzland, 1961)",0,6,== Discography == | === As leader/co-leader ===,4204840
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Ichi-Ban (Timeless, 1976) with Louis Hayes",0,7,== Discography == | === As leader/co-leader ===,4204840
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Pressure Cooker (Catalyst, 1977)",0,8,== Discography == | === As leader/co-leader ===,4204840
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Good Cookin'  (Muse, 1979)",0,9,== Discography == | === As leader/co-leader ===,4204840
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Somethin's Cookin'  (Muse, 1981)",0,10,== Discography == | === As leader/co-leader ===,4204840
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"The Place to Be (Steeplechase, 1988)",0,11,== Discography == | === As leader/co-leader ===,4204840
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"On a Misty Night (Steeplechase, 1989)",0,12,== Discography == | === As leader/co-leader ===,4204840
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"On a Misty Night (Steeplechase, 1989)",0,12,== Discography == | === As leader/co-leader ===,4204840
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"You Leave Me Breathless (Steeplechase, 1991)",0,13,== Discography == | === As leader/co-leader ===,4204840
+'58,NNP,YEAR_REGEX_2,TIME,time_reference,"Live at Newport '58 (Blue Note, 1958 [2008])",0,16,== Discography == | === As sideman ===,4204840
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Live at Newport '58 (Blue Note, 1958 [2008])",0,16,== Discography == | === As sideman ===,4204840
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Live at Newport '58 (Blue Note, 1958 [2008])",0,16,== Discography == | === As sideman ===,4204840
+1956–58,CD,YEAR_REGEX_1,TIME,time_reference,"6 Pieces of Silver (Blue Note, 1956–58)",0,17,== Discography == | === As sideman ===,4204840
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Finger Poppin' (Blue Note, 1959)",0,18,== Discography == | === As sideman ===,4204840
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Blowin' the Blues Away (Blue Note, 1959)",0,19,== Discography == | === As sideman ===,4204840
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Horace-Scope (Blue Note, 1960)",0,20,== Discography == | === As sideman ===,4204840
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Doin' the Thing (Blue Note, 1961)",0,21,== Discography == | === As sideman ===,4204840
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Paris Blues (Pablo, 1962, [2002])",0,22,== Discography == | === As sideman ===,4204840
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Paris Blues (Pablo, 1962, [2002])",0,22,== Discography == | === As sideman ===,4204840
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"The Tokyo Blues (Blue Note, 1962)",0,23,== Discography == | === As sideman ===,4204840
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Silver's Serenade (Blue Note, 1963)",0,24,== Discography == | === As sideman ===,4204840
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Song for My Father (Blue Note, 1964)",0,25,== Discography == | === As sideman ===,4204840
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Music to Ease Your Disease (Silverto, 1988)With Barry Harris",0,26,== Discography == | === As sideman ===,4204840
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"(Prestige, 1967)With Bill Hardman",1,27,== Discography == | === As sideman ===,4204840
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Home (Muse, 1978)",0,28,== Discography == | === As sideman ===,4204840
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Politely (Muse, 1981 [1982])",0,29,== Discography == | === As sideman ===,4204840
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Politely (Muse, 1981 [1982])",0,29,== Discography == | === As sideman ===,4204840
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Focus (Muse, 1982)",0,30,== Discography == | === As sideman ===,4204840
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"What's Up (SteepleChase, 1989)With Freddie Hubbard",0,31,== Discography == | === As sideman ===,4204840
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Sing Me a Song of Songmy (Atlantic, 1971) – co-led with İlhan Mimaroğlu",0,32,== Discography == | === As sideman ===,4204840
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Keep Your Soul Together (CTI, 1973)",0,33,== Discography == | === As sideman ===,4204840
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"High Energy (Columbia, 1974)",0,34,== Discography == | === As sideman ===,4204840
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Polar AC (CTI, 1974)With",0,35,== Discography == | === As sideman ===,4204840
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Two Tenor Winner (Criss Cross, 1984)",0,36,== Discography == | === As sideman ===,4204840
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Play What You Feel (Mapleshade, 1990 [1997])With Blue Mitchell",0,37,== Discography == | === As sideman ===,4204840
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Play What You Feel (Mapleshade, 1990 [1997])With Blue Mitchell",0,37,== Discography == | === As sideman ===,4204840
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"The Cup Bearers (Riverside, 1962)",0,38,== Discography == | === As sideman ===,4204840
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"The Thing to Do (Blue Note, 1964)",0,39,== Discography == | === As sideman ===,4204840
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"(Blue Note, 1965)",1,40,== Discography == | === As sideman ===,4204840
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Bring It Home to Me (Blue Note, 1966)",0,41,== Discography == | === As sideman ===,4204840
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Boss Horn (Blue Note, 1966)",0,42,== Discography == | === As sideman ===,4204840
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"(Blue Note, 1967)With others",1,43,== Discography == | === As sideman ===,4204840
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Kenny Burrell: Swingin' (Blue Note, 1956 [rel. 1980])",0,44,== Discography == | === As sideman ===,4204840
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Kenny Burrell: Swingin' (Blue Note, 1956 [rel. 1980])",0,44,== Discography == | === As sideman ===,4204840
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Kenny Burrell: Blue Lights (Blue Note, 1958)",0,45,== Discography == | === As sideman ===,4204840
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Dave Bailey Sextet: One Foot in the Gutter (Epic, 1960)",0,46,== Discography == | === As sideman ===,4204840
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Roy Brooks: Beat (Jazz Workshop, 1964)",0,47,== Discography == | === As sideman ===,4204840
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"(Prestige, 1967)",1,48,== Discography == | === As sideman ===,4204840
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"(Prestige, 1967)",1,49,== Discography == | === As sideman ===,4204840
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"John Patton: That Certain Feeling (Blue Note, 1968; Mosaic Select, 2003)",0,50,== Discography == | === As sideman ===,4204840
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"John Patton: That Certain Feeling (Blue Note, 1968; Mosaic Select, 2003)",0,50,== Discography == | === As sideman ===,4204840
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Don Patterson: Opus De Don (Prestige, 1968)",0,51,== Discography == | === As sideman ===,4204840
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Louis Smith: Prancin' (SteepleChase, 1979)",0,52,== Discography == | === As sideman ===,4204840
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Mickey Tucker: Sojourn (Xanadu, 1977)",0,53,== Discography == | === As sideman ===,4204840
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"McCoy Tyner: Uptown/Downtown (Milestone, 1988)",0,54,== Discography == | === As sideman ===,4204840
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Hot House (Muse, 1979)",1,55,== Discography == | === As sideman ===,4204840
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Louis Hayes: Ichi-Ban (Timeless, 1979)",0,56,== Discography == | === As sideman ===,4204840
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Vibration Society Hilton Ruiz Steve Turre  The Music of Rahsaan Roland Kirk (Stash, 1986)",0,57,== Discography == | === As sideman ===,4204840
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Larry Gales Sextet: A Message from Monk (Candid, 1990)",0,58,== Discography == | === As sideman ===,4204840
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Bertha Hope: Elmo's Fire (Steeplechase, 1991)",0,59,== Discography == | === As sideman ===,4204840

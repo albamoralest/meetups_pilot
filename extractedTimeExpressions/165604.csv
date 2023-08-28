@@ -1,0 +1,214 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"May 4 , 1928 – August 23 , 2006","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Walter Maynard Ferguson CM (May 4, 1928 – August 23, 2006) was a Canadian jazz trumpeter and bandleader.",0,0,,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,He came to prominence in Stan Kenton's orchestra before forming his own big band in 1957.,1,0,,165604
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Ferguson was born in Verdun (now part of Montreal), Quebec, Canada.",0,3,== Biography == | === Early life and education ===,165604
+nine years old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"At nine years old, he heard a cornet for the first time in his local church and asked his parents to buy one for him.",2,3,== Biography == | === Early life and education ===,165604
+1943 to 1948,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He won a scholarship to the Conservatoire de musique du Québec à Montréal where he studied from 1943 to 1948 with Bernard Baker.,5,3,== Biography == | === Early life and education ===,165604
+1948,CD,YEAR_REGEX_1,TIME,time_reference,"In 1948, Ferguson moved to the United States, intending to join Stan Kenton's band, but it no longer existed, so Ferguson played with the bands of Boyd Raeburn, Jimmy Dorsey, and Charlie Barnet.",0,5,== Biography == | === Early life and education ===,165604
+January 1950,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 1950, Kenton formed the Innovations Orchestra, a 40-piece jazz orchestra with strings.",0,7,== Biography == | === Kenton and Hollywood ===,165604
+January 1,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"After the folding of the Barnet band, Ferguson was available for the first rehearsal on January 1.",1,7,== Biography == | === Kenton and Hollywood ===,165604
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"In 1953, Ferguson left Kenton and spent the next three years as principal trumpet for Paramount Pictures.",0,8,== Biography == | === Kenton and Hollywood ===,165604
+the next three years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"In 1953, Ferguson left Kenton and spent the next three years as principal trumpet for Paramount Pictures.",0,8,== Biography == | === Kenton and Hollywood ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Although he enjoyed the steady income, he was unhappy with the lack of live performance opportunities and left Paramount in 1956.",6,8,== Biography == | === Kenton and Hollywood ===,165604
+3 A.M.,CD NNP,DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME,,"Ferguson played with the Pérez Prado Orchestra on the LP Havana 3 A.M., recorded in February and March 1956.",0,10,== Biography == | === The Birdland Dream Band ===,165604
+February and March 1956,NNP CC NNP CD,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME TIME,time_reference,"Ferguson played with the Pérez Prado Orchestra on the LP Havana 3 A.M., recorded in February and March 1956.",0,10,== Biography == | === The Birdland Dream Band ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"In 1956, he joined the Birdland Dream Band, a 14-piece big band formed by Morris Levy as an ""all-star"" line-up, to play at Levy's Birdland jazz club in New York City.",1,10,== Biography == | === The Birdland Dream Band ===,165604
+of a year,IN DT NN,PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Although the name ""Birdland Dream Band"" was short-lived and is represented by only two albums over the course of a year, this band became the core of Ferguson's performing band for the next nine years.",2,10,== Biography == | === The Birdland Dream Band ===,165604
+the next nine years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Although the name ""Birdland Dream Band"" was short-lived and is represented by only two albums over the course of a year, this band became the core of Ferguson's performing band for the next nine years.",2,10,== Biography == | === The Birdland Dream Band ===,165604
+Dusko,NNP,DAY_TIME_REGEX,TIME,time_reference,"The band included Mike Abene, Jaki Byard, Bill Chase, Ronnie Cuber, Frankie Dunlop, Don Ellis, Joe Farrell, Dusko Goykovich, Tony Inzalaco, Rufus Jones, Willie Maiden, Ron McClure, Rob McConnell, Don Menza, Lanny Morgan, Wayne Shorter, and Joe Zawinul.",0,11,== Biography == | === The Birdland Dream Band ===,165604
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"In 1959, Ferguson was a guest with the New York Philharmonic Orchestra under the direction of Leonard Bernstein, performing Symphony No. 2 in C ""Titans"" by William Russo.",2,11,== Biography == | === The Birdland Dream Band ===,165604
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"In 1961, Ferguson composed the theme music for the 1961–1962 ABC adventure drama television series Straightaway.",0,12,== Biography == | === The Birdland Dream Band ===,165604
+the 1961–1962,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In 1961, Ferguson composed the theme music for the 1961–1962 ABC adventure drama television series Straightaway.",0,12,== Biography == | === The Birdland Dream Band ===,165604
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"His 1961 album ""Straightaway"" Jazz Themes contained the music he composed for the series.",1,12,== Biography == | === The Birdland Dream Band ===,165604
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"As big bands declined in popularity and economic viability in the 1960s, Ferguson's band performed less frequently.",0,13,== Biography == | === The Birdland Dream Band ===,165604
+1966,CD,YEAR_REGEX_1,TIME,time_reference,He began performing with a sextet before shutting down his big band in 1966.,3,13,== Biography == | === The Birdland Dream Band ===,165604
+November 1963,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"After leaving his long-time recording contract and the end of his main club gig, Ferguson moved his family to the Hitchcock Estate in Millbrook, New York in November 1963 to live with Timothy Leary, Ram Dass, and their community from Harvard University.",0,15,"== Biography == | === Millbrook, India, and psychedelics ===",165604
+about three years,IN CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"They lived at Millbrook for about three years, playing clubs and recording several albums.",2,15,"== Biography == | === Millbrook, India, and psychedelics ===",165604
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"In 1967, as the Millbrook experiment was ending, Ferguson moved his family to India and taught at the Krishnamurti-based Rishi Valley School near Madras.",0,16,"== Biography == | === Millbrook, India, and psychedelics ===",165604
+several years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He was associated with the Sri Sathya Sai Institute of Higher Learning's Boys Brass Band, which he founded and helped teach for several years.",1,16,"== Biography == | === Millbrook, India, and psychedelics ===",165604
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"In 1969, he moved to Oakley Green, a hamlet on the outskirts of Windsor, near London.",1,18,== Biography == | === England and jazz rock ===,165604
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"That same year, Ferguson signed with CBS Records.",3,18,== Biography == | === England and jazz rock ===,165604
+1971,CD,YEAR_REGEX_1,TIME,time_reference,Ferguson's band made its North American debut in 1971.,2,19,== Biography == | === England and jazz rock ===,165604
+1970,CD,YEAR_REGEX_1,TIME,time_reference,In 1970 he led the band on The Simon Dee Show from London Weekend Television.,3,19,== Biography == | === England and jazz rock ===,165604
+Weekend,NNP,TIME_UNIT_REGEX,TIME,time_reference,In 1970 he led the band on The Simon Dee Show from London Weekend Television.,3,19,== Biography == | === England and jazz rock ===,165604
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Ferguson moved to New York City in 1973, then relocated to Ojai, California less than two years later.",0,21,== Biography == | === Return to the U.S. ===,165604
+less than two years,JJR IN CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Ferguson moved to New York City in 1973, then relocated to Ojai, California less than two years later.",0,21,== Biography == | === Return to the U.S. ===,165604
+1973 and 1974,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Albums from this period include M.F. Horn 4&5: Live At Jimmy's and Chameleon, recorded in 1973 and 1974 in New York.",2,21,== Biography == | === Return to the U.S. ===,165604
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"In 1975, Ferguson began working with Bob James on a series of commercially successful albums with large groups of session musicians, including strings, vocalists, and guest soloists.",6,21,== Biography == | === Return to the U.S. ===,165604
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"The second, Conquistador (1976) yielded a No. 22 pop single, ""Gonna Fly Now"" from the movie Rocky, earning him a gold album.",8,21,== Biography == | === Return to the U.S. ===,165604
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"The second, Conquistador (1976) yielded a No. 22 pop single, ""Gonna Fly Now"" from the movie Rocky, earning him a gold album.",8,21,== Biography == | === Return to the U.S. ===,165604
+of the Summer,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 SEASON_REGEX,MODIFIER MODIFIER TIME,time_reference,"In mid-1976, Ferguson performed a solo trumpet piece for the closing ceremonies of the Summer Olympics in Montreal, symbolically ""blowing out the flame"".",11,21,== Biography == | === Return to the U.S. ===,165604
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"His contract with Columbia ended after the release of the album Hollywood (1982), produced by bassist Stanley Clarke.",1,22,== Biography == | === Return to the U.S. ===,165604
+1983 and 2019,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"During that time, he recorded an instrumental version of the Michael Jackson song ""Don't Stop 'Til You Get Enough""; the song would later be used by Rede Globo as the theme song of Vídeo Show, which ran on the network between 1983 and 2019.",2,22,== Biography == | === Return to the U.S. ===,165604
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Ferguson recorded three big band albums with smaller labels before forming High Voltage, a fusion septet, in 1986.",0,23,== Biography == | === Return to the U.S. ===,165604
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"To mark his 60th birthday in 1988, Maynard Ferguson returned to a large band format and to more mainstream jazz.",0,25,== Biography == | === Big Bop Nouveau ===,165604
+1970s,CD,YEAR_REGEX_1,TIME,time_reference,"The band's repertoire included original jazz compositions and modern arrangements of jazz standards, with occasional pieces from his 1970s book and even modified charts from the Birdland Dream Band era; this format proved to be successful with audiences and critics.",3,25,== Biography == | === Big Bop Nouveau ===,165604
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Big Bop Nouveau toured the world extensively; in 2005 it embarked on a tour of eight months playing an average of two hundred shows a year.,0,26,== Biography == | === Big Bop Nouveau ===,165604
+of eight months,IN CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,Big Bop Nouveau toured the world extensively; in 2005 it embarked on a tour of eight months playing an average of two hundred shows a year.,0,26,== Biography == | === Big Bop Nouveau ===,165604
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Big Bop Nouveau toured the world extensively; in 2005 it embarked on a tour of eight months playing an average of two hundred shows a year.,0,26,== Biography == | === Big Bop Nouveau ===,165604
+later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Although in later years Ferguson's playing occasionally lost some of the range and phenomenal accuracy of his youth, he always remained an exciting performer, touring an average of nine months a year with Big Bop Nouveau for the remainder of his life.",2,26,== Biography == | === Big Bop Nouveau ===,165604
+of nine months,IN CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"Although in later years Ferguson's playing occasionally lost some of the range and phenomenal accuracy of his youth, he always remained an exciting performer, touring an average of nine months a year with Big Bop Nouveau for the remainder of his life.",2,26,== Biography == | === Big Bop Nouveau ===,165604
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Although in later years Ferguson's playing occasionally lost some of the range and phenomenal accuracy of his youth, he always remained an exciting performer, touring an average of nine months a year with Big Bop Nouveau for the remainder of his life.",2,26,== Biography == | === Big Bop Nouveau ===,165604
+"August 23 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ferguson died on August 23, 2006.",3,26,== Biography == | === Big Bop Nouveau ===,165604
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"In 1973, Ferguson settled in Ojai, California, where he lived to the end of his life.",0,28,== Personal life ==,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"His marriage to Flo Ferguson (in 1956) lasted until her death on February 27, 2005.",2,28,== Personal life ==,165604
+"February 27 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"His marriage to Flo Ferguson (in 1956) lasted until her death on February 27, 2005.",2,28,== Personal life ==,165604
+"August 23 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ferguson died as a result of kidney and liver failure, on August 23, 2006, at the Community Memorial Hospital in Ventura, California.",0,29,== Personal life ==,165604
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Publicity shots and album covers from the 1950s showed Ferguson with his 'quartet' of trumpet, valve trombone, baritone horn, and French horn.",2,31,== Versatility ==,165604
+later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Recordings of the latter two are rare; the French horn vanished in later years, but the baritone horn appeared on the 1974 album Chameleon.",3,31,== Versatility ==,165604
+the 1974,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Recordings of the latter two are rare; the French horn vanished in later years, but the baritone horn appeared on the 1974 album Chameleon.",3,31,== Versatility ==,165604
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Trumpeter Rajesh Mehta bought this trumpet while living in Amsterdam and played the Firebird from 1998 until 2011 when he had American trumpet maker George Schlub create the Orka-M Naga Phoenix trumpet for him.,2,32,== Versatility ==,165604
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Trumpeter Rajesh Mehta bought this trumpet while living in Amsterdam and played the Firebird from 1998 until 2011 when he had American trumpet maker George Schlub create the Orka-M Naga Phoenix trumpet for him.,2,32,== Versatility ==,165604
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Ferguson was appointed a Member of the Order of Canada in 2003.,0,37,== Awards and honors ==,165604
+"1950 , 1951","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"In 1950, 1951, and 1952, Ferguson won the Down Beat Readers' Poll for best trumpeter.",1,37,== Awards and honors ==,165604
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"In 1950, 1951, and 1952, Ferguson won the Down Beat Readers' Poll for best trumpeter.",1,37,== Awards and honors ==,165604
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"In 1992, he was inducted into the Down Beat Jazz Hall of Fame.",2,37,== Awards and honors ==,165604
+the Summer,DT NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"Maynard Ferguson plays a special solo trumpet piece as part of the closing ceremonies for the Summer Olympics in Montreal, Canada, the XXI Olympiad, 1976.",0,38,== Awards and honors ==,165604
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Maynard Ferguson plays a special solo trumpet piece as part of the closing ceremonies for the Summer Olympics in Montreal, Canada, the XXI Olympiad, 1976.",0,38,== Awards and honors ==,165604
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"In 2000, Ferguson was initiated as a brother of Kappa Kappa Psi at the Gamma Xi Chapter (University of Maryland at College Park).",0,39,== Awards and honors ==,165604
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"In 2006, he was presented with Phi Mu Alpha Sinfonia music fraternity's Charles E. Lutton Man of Music Award at its national convention in Cleveland, Ohio.",1,39,== Awards and honors ==,165604
+1976,CD,YEAR_REGEX_1,TIME,time_reference,He had been initiated as an honorary member of the Fraternity's Xi Chi Chapter at Tennessee Tech University in 1976.,2,39,== Awards and honors ==,165604
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"The 'Maynard Ferguson Institute of Jazz Studies' at Rowan University was created in 2000, the same year Rowan bestowed Ferguson with his only Honorary Doctorate degree.",0,40,== Awards and honors ==,165604
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"The 'Maynard Ferguson Institute of Jazz Studies' at Rowan University was created in 2000, the same year Rowan bestowed Ferguson with his only Honorary Doctorate degree.",0,40,== Awards and honors ==,165604
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"In 2000, he was given an Honorary Doctorate Degree by Rowan University in Glassboro, New Jersey, and created the Maynard Ferguson Institute of Jazz Studies under the direction of Denis DiBlasio in their College of Performing Arts.",3,40,== Awards and honors ==,165604
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"The Sherman Jazz Museum in Sherman, Texas opened in 2010 and houses the extensive memorabilia of Ferguson's estate.",4,40,== Awards and honors ==,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,1955 – Jam Session featuring Maynard Ferguson (EmArcy),0,44,== Discography == | === As leader ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,1956 – Maynard Ferguson's Hollywood Party (EmArcy),0,45,== Discography == | === As leader ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,1956 – Around the Horn with Maynard Ferguson (EmArcy),0,46,== Discography == | === As leader ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,1956 – Dimensions (EmArcy),0,47,== Discography == | === As leader ===,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,1955 – Maynard Ferguson Octet (EmArcy),0,48,== Discography == | === As leader ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,1957 – Maynard Ferguson and His Birdland Dream Band,0,49,== Discography == | === As leader ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"1957 – The Birdland Dream Band, Vol. 2",0,50,== Discography == | === As leader ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,1957 –,0,51,== Discography == | === As leader ===,165604
+1958,CD,YEAR_REGEX_1,TIME,time_reference,1958 – Swingin' My Way Through College (Roulette),0,52,== Discography == | === As leader ===,165604
+1958,CD,YEAR_REGEX_1,TIME,time_reference,1958 – A Message from Newport (Roulette),0,53,== Discography == | === As leader ===,165604
+1959,CD,YEAR_REGEX_1,TIME,time_reference,1959 – A Message from Birdland (Roulette),0,54,== Discography == | === As leader ===,165604
+1959,CD,YEAR_REGEX_1,TIME,time_reference,1959 – Maynard Ferguson Plays Jazz for Dancing (Roulette),0,55,== Discography == | === As leader ===,165604
+1960,CD,YEAR_REGEX_1,TIME,time_reference,1960 – Newport Suite (Roulette),0,56,== Discography == | === As leader ===,165604
+1960,CD,YEAR_REGEX_1,TIME,time_reference,1960 – Let's Face the Music and Dance (Roulette),0,57,== Discography == | === As leader ===,165604
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961 – Maynard '61 (Roulette),0,58,== Discography == | === As leader ===,165604
+'61,NNP,YEAR_REGEX_2,TIME,time_reference,1961 – Maynard '61 (Roulette),0,58,== Discography == | === As leader ===,165604
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961 – Double Exposure  with Chris Connor (Atlantic),0,59,== Discography == | === As leader ===,165604
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"1961 – ""Straightaway"" Jazz Themes (Roulette)",0,60,== Discography == | === As leader ===,165604
+1961 – Two,CD NNP CD,YEAR_REGEX_1 LINKAGE_REGEX BASIC_NUMBER_REGEX_1,TIME MODIFIER NUMERAL,time_point,1961 – Two's Company  with Chris Connor (Roulette),0,61,== Discography == | === As leader ===,165604
+1962,CD,YEAR_REGEX_1,TIME,time_reference,1962 –,0,62,== Discography == | === As leader ===,165604
+'62,NNP,YEAR_REGEX_2,TIME,time_reference,Maynard '62 (Roulette),1,62,== Discography == | === As leader ===,165604
+1962,CD,YEAR_REGEX_1,TIME,time_reference,1962 –,0,63,== Discography == | === As leader ===,165604
+1963,CD,YEAR_REGEX_1,TIME,time_reference,1963 –,0,64,== Discography == | === As leader ===,165604
+1963,CD,YEAR_REGEX_1,TIME,time_reference,1963 – Message from Maynard (Roulette),0,65,== Discography == | === As leader ===,165604
+1963,CD,YEAR_REGEX_1,TIME,time_reference,1963 –,0,66,== Discography == | === As leader ===,165604
+'63,NNP,YEAR_REGEX_2,TIME,time_reference,Maynard '63 (Roulette),1,66,== Discography == | === As leader ===,165604
+1964,CD,YEAR_REGEX_1,TIME,time_reference,1964 –,0,67,== Discography == | === As leader ===,165604
+'64,NNP,YEAR_REGEX_2,TIME,time_reference,Maynard '64 (Roulette),1,67,== Discography == | === As leader ===,165604
+1964,CD,YEAR_REGEX_1,TIME,time_reference,1964 – Come Blow Your Horn (Cameo),0,68,== Discography == | === As leader ===,165604
+1964,CD,YEAR_REGEX_1,TIME,time_reference,1964 – Color Him Wild (Mainstream) – Reissued as Dues,0,69,== Discography == | === As leader ===,165604
+1964,CD,YEAR_REGEX_1,TIME,time_reference,1964 –,0,70,== Discography == | === As leader ===,165604
+1965,CD,YEAR_REGEX_1,TIME,time_reference,1965 –,0,71,== Discography == | === As leader ===,165604
+1966,CD,YEAR_REGEX_1,TIME,time_reference,1966 – Ridin' High (Enterprise),0,72,== Discography == | === As leader ===,165604
+1967,CD,YEAR_REGEX_1,TIME,time_reference,1967 – Trumpet Rhapsody (MPS) – Reissued as Maynard Ferguson 1969,0,73,== Discography == | === As leader ===,165604
+1969,CD,YEAR_REGEX_1,TIME,time_reference,1967 – Trumpet Rhapsody (MPS) – Reissued as Maynard Ferguson 1969,0,73,== Discography == | === As leader ===,165604
+1968,CD,YEAR_REGEX_1,TIME,time_reference,1968 – The Ballad Style of Maynard Ferguson (CBS),0,74,== Discography == | === As leader ===,165604
+1968,CD,YEAR_REGEX_1,TIME,time_reference,1968 – Maynard and Gustav (Supraphon),0,75,== Discography == | === As leader ===,165604
+1970,CD,YEAR_REGEX_1,TIME,time_reference,1970 – M.F. Horn (Columbia) – also released as The World of Maynard Ferguson,0,76,== Discography == | === As leader ===,165604
+1971,CD,YEAR_REGEX_1,TIME,time_reference,1971 –,0,77,== Discography == | === As leader ===,165604
+1972,CD,YEAR_REGEX_1,TIME,time_reference,1972 – M.F. Horn Two (Columbia),0,78,== Discography == | === As leader ===,165604
+1973,CD,YEAR_REGEX_1,TIME,time_reference,1973 – M.F. Horn 3 (Columbia),0,79,== Discography == | === As leader ===,165604
+1974,CD,YEAR_REGEX_1,TIME,time_reference,1974 – M.F. Horn 4&5: Live At Jimmy's (Columbia),0,80,== Discography == | === As leader ===,165604
+1974,CD,YEAR_REGEX_1,TIME,time_reference,1974 – Chameleon (Columbia),0,81,== Discography == | === As leader ===,165604
+1976,CD,YEAR_REGEX_1,TIME,time_reference,1976 – Primal Scream (Columbia),0,82,== Discography == | === As leader ===,165604
+1977,CD,YEAR_REGEX_1,TIME,time_reference,1977 – Conquistador (Columbia),0,83,== Discography == | === As leader ===,165604
+1977,CD,YEAR_REGEX_1,TIME,time_reference,1977 – New Vintage (Columbia),0,84,== Discography == | === As leader ===,165604
+1978,CD,YEAR_REGEX_1,TIME,time_reference,1978 – Carnival (Columbia),0,85,== Discography == | === As leader ===,165604
+1979,CD,YEAR_REGEX_1,TIME,time_reference,1979 – Hot (Columbia),0,86,== Discography == | === As leader ===,165604
+1980,CD,YEAR_REGEX_1,TIME,time_reference,1980 – It's My Time (Columbia),0,87,== Discography == | === As leader ===,165604
+1981,CD,YEAR_REGEX_1,TIME,time_reference,1981 – Hollywood (Columbia),0,88,== Discography == | === As leader ===,165604
+1983,CD,YEAR_REGEX_1,TIME,time_reference,1983 – Storm (Palo Alto),0,89,== Discography == | === As leader ===,165604
+1983,CD,YEAR_REGEX_1,TIME,time_reference,1983 – Live from San Francisco from the Great American Music Hall (Palo Alto),0,90,== Discography == | === As leader ===,165604
+1986,CD,YEAR_REGEX_1,TIME,time_reference,1986 – Body and Soul,0,91,== Discography == | === As leader ===,165604
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987 – High Voltage (Intima),0,92,== Discography == | === As leader ===,165604
+1988,CD,YEAR_REGEX_1,TIME,time_reference,1988 –,0,93,== Discography == | === As leader ===,165604
+1990,CD,YEAR_REGEX_1,TIME,time_reference,1990 – Big Bop Nouveau (Intima),0,94,== Discography == | === As leader ===,165604
+1992,CD,YEAR_REGEX_1,TIME,time_reference,1992 – Footpath Cafe (Avion),0,95,== Discography == | === As leader ===,165604
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994 – Live from London,0,96,== Discography == | === As leader ===,165604
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994 – Live at Peacock Lane Hollywood 1957 (Jazz Hour),0,97,== Discography == | === As leader ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,1994 – Live at Peacock Lane Hollywood 1957 (Jazz Hour),0,97,== Discography == | === As leader ===,165604
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,1994 – Live at Peacock Lane Hollywood 1957 (Jazz Hour),0,97,== Discography == | === As leader ===,165604
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994 – These Cats Can Swing (Concord),0,98,== Discography == | === As leader ===,165604
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995 – Live at the Great American Music Hall Part 2 (Status),0,99,== Discography == | === As leader ===,165604
+1996 – One,CD VBZ CD,YEAR_REGEX_1 LINKAGE_REGEX BASIC_NUMBER_REGEX_1,TIME MODIFIER NUMERAL,,1996 – One More Trip to Birdland (Concord),0,100,== Discography == | === As leader ===,165604
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998 – Brass Attitude (Concord),0,101,== Discography == | === As leader ===,165604
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999 –,0,102,== Discography == | === As leader ===,165604
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001 – Swingin' for Schuur with Diane Schuur (Concord),0,103,== Discography == | === As leader ===,165604
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006 – M.F. Horn VI: Live at Ronnie's,0,104,== Discography == | === As leader ===,165604
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007 –,0,106,== Discography == | === Posthumous releases ===,165604
+1953,CD,YEAR_REGEX_1,TIME,time_reference,The Wild One (1953),0,108,== Discography == | === Selected film soundtracks ===,165604
+1954,CD,YEAR_REGEX_1,TIME,time_reference,Living It Up (1954),0,109,== Discography == | === Selected film soundtracks ===,165604
+1954,CD,YEAR_REGEX_1,TIME,time_reference,Rear Window (1954),0,110,== Discography == | === Selected film soundtracks ===,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,You're Never Too Young (1955),0,111,== Discography == | === Selected film soundtracks ===,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,Oreste (short) (1955),0,112,== Discography == | === Selected film soundtracks ===,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,The Man With The Golden Arm (1955),0,113,== Discography == | === Selected film soundtracks ===,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,Blackboard Jungle (1955),0,114,== Discography == | === Selected film soundtracks ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,The Ten Commandments (1956),0,115,== Discography == | === Selected film soundtracks ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,Crime in the Streets (1956),0,116,== Discography == | === Selected film soundtracks ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,The Proud and Profane (1956),0,117,== Discography == | === Selected film soundtracks ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,Hot Rod Girl (1956),0,118,== Discography == | === Selected film soundtracks ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,Dino (film) (1957),0,119,== Discography == | === Selected film soundtracks ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,The Delicate Delinquent (1957),0,120,== Discography == | === Selected film soundtracks ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,Hot Rod Rumble (1957),0,121,== Discography == | === Selected film soundtracks ===,165604
+1961,CD,YEAR_REGEX_1,TIME,time_reference,Singin' and Swingin'  (short) (1961),0,122,== Discography == | === Selected film soundtracks ===,165604
+1966,CD,YEAR_REGEX_1,TIME,time_reference,Urbanissimo (short) (1966),0,123,== Discography == | === Selected film soundtracks ===,165604
+Summer,NNP,SEASON_REGEX,TIME,time_reference,La prima notte di quiete (aka Indian Summer) (1972),0,124,== Discography == | === Selected film soundtracks ===,165604
+1972,CD,YEAR_REGEX_1,TIME,time_reference,La prima notte di quiete (aka Indian Summer) (1972),0,124,== Discography == | === Selected film soundtracks ===,165604
+1978,CD,YEAR_REGEX_1,TIME,time_reference,Uncle Joe Shannon (1978),0,125,== Discography == | === Selected film soundtracks ===,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,Belafonte (1955),0,128,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,Calypso (1956)With Buddy Bregman,0,129,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Bing Sings Whilst Bregman Swings (Verve, 1956)",0,130,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Ella Fitzgerald Sings The Cole Porter Songbook, (Verve, 1956)",0,131,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Ella Fitzgerald Sings The Rodgers and Hart Songbook (Verve, 1956)",0,132,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Jerry Lewis Just Sings (Capitol, 1956)",0,133,== Discography == | === As sideman ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Swinging Kicks (Verve, 1957)",0,134,== Discography == | === As sideman ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Boy Meets Girl (Verve, 1957)With",0,135,== Discography == | === As sideman ===,165604
+1950,CD,YEAR_REGEX_1,TIME,time_reference,"Innovations in Modern Music (Capitol, 1950)",0,138,== Discography == | === As sideman ===,165604
+Presents,NNP,TIMELINE_REGEX,TIME,time_reference,"Stan Kenton Presents (Capitol, 1950)",0,139,== Discography == | === As sideman ===,165604
+1950,CD,YEAR_REGEX_1,TIME,time_reference,"Stan Kenton Presents (Capitol, 1950)",0,139,== Discography == | === As sideman ===,165604
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"New Concepts of Artistry in Rhythm (Capitol, 1953)",0,140,== Discography == | === As sideman ===,165604
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"Popular Favorites by Stan Kenton (Capitol, 1953)",0,141,== Discography == | === As sideman ===,165604
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"Sketches on Standards (Capitol, 1953)",0,142,== Discography == | === As sideman ===,165604
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"This Modern World (Capitol, 1953)",0,143,== Discography == | === As sideman ===,165604
+1940–54,CD,YEAR_REGEX_1,TIME,time_reference,"The Kenton Era (Capitol, 1940–54, [1955])",0,144,== Discography == | === As sideman ===,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"The Kenton Era (Capitol, 1940–54, [1955])",0,144,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Kenton in Hi-Fi (Capitol, 1956)",0,145,== Discography == | === As sideman ===,165604
+1950–51,CD,YEAR_REGEX_1,TIME,time_reference,"The Innovations Orchestra (Capitol, 1950–51",0,146,== Discography == | === As sideman ===,165604
+1997,CD,YEAR_REGEX_1,TIME,time_reference,[1997])With Perez Prado,1,146,== Discography == | === As sideman ===,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,Voodoo Suite (1955),0,147,== Discography == | === As sideman ===,165604
+3 A.M.,CD NNP,DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME,,Havanna 3 A.M. (1956)With Shorty Rogers,0,148,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,Havanna 3 A.M. (1956)With Shorty Rogers,0,148,== Discography == | === As sideman ===,165604
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"Cool and Crazy (RCA Victor, 1953)",0,149,== Discography == | === As sideman ===,165604
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Shorty Rogers Courts the Count (RCA Victor, 1954)",0,150,== Discography == | === As sideman ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Shorty Rogers Plays Richard Rodgers (RCA Victor, 1957)With",0,151,== Discography == | === As sideman ===,165604
+June,NNP,MONTH_REGEX,TIME,time_reference,Something Cool (Mono) with June Christy (1954),0,152,== Discography == | === As sideman ===,165604
+1954,CD,YEAR_REGEX_1,TIME,time_reference,Something Cool (Mono) with June Christy (1954),0,152,== Discography == | === As sideman ===,165604
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Introducing Pete Rugolo (Columbia, 1954)",0,153,== Discography == | === As sideman ===,165604
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Adventures in Rhythm (Columbia, 1954)",0,154,== Discography == | === As sideman ===,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"Rugolomania (Columbia, 1955)",0,155,== Discography == | === As sideman ===,165604
+1954–55,CD,YEAR_REGEX_1,TIME,time_reference,"New Sounds by Pete Rugolo (Harmony, 1954–55, [1957])",0,156,== Discography == | === As sideman ===,165604
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"New Sounds by Pete Rugolo (Harmony, 1954–55, [1957])",0,156,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Music for Hi-Fi Bugs (EmArcy, 1956)",0,157,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Out on a Limb (EmArcy, 1956)",0,158,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"An Adventure in Sound: Brass in Hi-Fi (Mercury, 1956 [1958])With others",0,159,== Discography == | === As sideman ===,165604
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"An Adventure in Sound: Brass in Hi-Fi (Mercury, 1956 [1958])With others",0,159,== Discography == | === As sideman ===,165604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"In the Land of Hi-Fi with Georgie Auld and His Orchestra, Georgie Auld (EmArcy, 1955)",0,160,== Discography == | === As sideman ===,165604
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"Skin Deep,  Louis Bellson (Norgran, 1953)",0,161,== Discography == | === As sideman ===,165604
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"Plays Well with Others,  Wayne Bergeron (Concord, 2007)",0,162,== Discography == | === As sideman ===,165604
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Jam Session with Clifford Brown and Clark Terry (EmArcy, 1954)",0,163,== Discography == | === As sideman ===,165604
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Chicago 13, Chicago (Columbia, 1979)",0,164,== Discography == | === As sideman ===,165604
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Spanish Fever, Fania All-Stars (1978)",0,165,== Discography == | === As sideman ===,165604
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"BeBop Your Best, Red Grammer (Red Note, 2005)",0,166,== Discography == | === As sideman ===,165604
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"The Swingin'st, Vido Musso (Crown, 1956)",0,167,== Discography == | === As sideman ===,165604
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Special Delivery Featuring Maynard Ferguson, Tito Puente (Concord, 1996)",0,168,== Discography == | === As sideman ===,165604
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Indian Express/Mani & Co, L. Subramaniam (Milestone, 1999)",0,169,== Discography == | === As sideman ===,165604
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Dinah Jams, Dinah Washington (1954)",0,170,== Discography == | === As sideman ===,165604
+Presents,NNP,TIMELINE_REGEX,TIME,time_reference,"Maynard Ferguson Presents Christian Jacob (Concord, 1997)",0,172,== Discography == | === As producer ===,165604
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Maynard Ferguson Presents Christian Jacob (Concord, 1997)",0,172,== Discography == | === As producer ===,165604
+Presents,NNP,TIMELINE_REGEX,TIME,time_reference,"Maynard Ferguson Presents Tom Garling (Concord, 1997)",0,173,== Discography == | === As producer ===,165604
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Maynard Ferguson Presents Tom Garling (Concord, 1997)",0,173,== Discography == | === As producer ===,165604

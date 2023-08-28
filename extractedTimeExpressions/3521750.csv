@@ -1,0 +1,15 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"March 8 , 1943","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,0
+1948,CD,YEAR_REGEX_1,TIME,time_reference,1,0
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,2,0
+1953,CD,YEAR_REGEX_1,TIME,time_reference,2,0
+10 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,3,0
+1960,CD,YEAR_REGEX_1,TIME,time_reference,0,1
+15 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,3
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,0,5
+2020,CD,YEAR_REGEX_1,TIME,time_reference,1,5
+1953,CD,YEAR_REGEX_1,TIME,time_reference,1,5
+45 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,5
+1998,CD,YEAR_REGEX_1,TIME,time_reference,2,5
+Tonight,NNP,DAY_TIME_REGEX,TIME,time_reference,3,5
+their 1997,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,3,5

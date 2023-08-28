@@ -1,17 +1,17 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"March 18 , 1893 – March 24 , 1962","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"John Jean Goldkette (March 18, 1893 – March 24, 1962) was a jazz pianist and bandleader.",0,0,,267627
-"March 18 , 1893","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Goldkette was reportedly born on March 18, 1893 in Valenciennes, France, but there is evidence that he was born in Patras, Greece.",0,2,== Life ==,267627
-1911,CD,YEAR_REGEX_1,TIME,time_reference,The family emigrated to the United States in 1911.,4,2,== Life ==,267627
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"In 1936, he filed for bankruptcy; however, over the next three decades, he built up business again as a musician, conductor, and promoter.",7,2,== Life ==,267627
-the next three decades,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"In 1936, he filed for bankruptcy; however, over the next three decades, he built up business again as a musician, conductor, and promoter.",7,2,== Life ==,267627
-"March 4 , 1939","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He married Lee McQuillen, a newspaperwoman, on March 4, 1939.",8,2,== Life ==,267627
-of 1924–1929,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He led many jazz and dance bands, of which the most popular was his Victor Recording Orchestra of 1924–1929.",0,4,== Music career ==,267627
-20 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"""Goldkette was music director for the Detroit Athletic Club for over 20 years and co-owned the Graystone Ballroom in Detroit with Charles Horvath, who performed with the Goldkette Victor Band in its early years.",5,4,== Music career ==,267627
-early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"""Goldkette was music director for the Detroit Athletic Club for over 20 years and co-owned the Graystone Ballroom in Detroit with Charles Horvath, who performed with the Goldkette Victor Band in its early years.",5,4,== Music career ==,267627
-the 1926,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He also wrote the words to the 1926 song ""New Steps"".",8,4,== Music career ==,267627
-1927,CD,YEAR_REGEX_1,TIME,time_reference,"In 1927, Paul Whiteman hired most of Goldkette's better players due to Goldkette's inability to meet payroll for his top-notch musicians.",9,4,== Music career ==,267627
-the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1930s, he left jazz to work as a booking agent and classical pianist.",11,4,== Music career ==,267627
-1939,CD,YEAR_REGEX_1,TIME,time_reference,"In 1939, he organized the American Symphony Orchestra which debuted at Carnegie Hall.",12,4,== Music career ==,267627
-1961,CD,YEAR_REGEX_1,TIME,time_reference,"He moved to California in 1961 and the following year died in Santa Barbara, California, of a heart attack at the age of 69.",0,6,== Death ==,267627
-the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He moved to California in 1961 and the following year died in Santa Barbara, California, of a heart attack at the age of 69.",0,6,== Death ==,267627
-day,NN,TIME_UNIT_REGEX,TIME,time_reference,He took a taxi to the hospital by himself and died that same day.,1,6,== Death ==,267627
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"March 18 , 1893 – March 24 , 1962","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+"March 18 , 1893","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,2
+1911,CD,YEAR_REGEX_1,TIME,time_reference,4,2
+1936,CD,YEAR_REGEX_1,TIME,time_reference,7,2
+the next three decades,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,7,2
+"March 4 , 1939","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,8,2
+of 1924–1929,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,4
+20 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,5,4
+early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,5,4
+the 1926,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,8,4
+1927,CD,YEAR_REGEX_1,TIME,time_reference,9,4
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,11,4
+1939,CD,YEAR_REGEX_1,TIME,time_reference,12,4
+1961,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,0,6
+day,NN,TIME_UNIT_REGEX,TIME,time_reference,1,6

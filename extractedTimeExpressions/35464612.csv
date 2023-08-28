@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"He is best known for his cover of the Checkmates, Ltd. song, ""Black Pearl"", which reached number 13 in the UK Singles Chart in 1970.",1,0,,35464612
+ten weeks,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Released by Trojan Records (TR 7790), ""Black Pearl"" spent ten weeks in the UK Singles Chart in the latter half of 1970, peaking at number 13 in October that year.",2,0,,35464612
+the latter half of 1970,DT JJ NN IN CD,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"Released by Trojan Records (TR 7790), ""Black Pearl"" spent ten weeks in the UK Singles Chart in the latter half of 1970, peaking at number 13 in October that year.",2,0,,35464612
+October,NNP,MONTH_REGEX,TIME,time_reference,"Released by Trojan Records (TR 7790), ""Black Pearl"" spent ten weeks in the UK Singles Chart in the latter half of 1970, peaking at number 13 in October that year.",2,0,,35464612
+that year,IN NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Released by Trojan Records (TR 7790), ""Black Pearl"" spent ten weeks in the UK Singles Chart in the latter half of 1970, peaking at number 13 in October that year.",2,0,,35464612
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Coincidentally, the original version of the song by Checkmates, Ltd., peaked at number 13 in the US Billboard Hot 100 in 1969.",3,0,,35464612
+7 March 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Faith died on 7 March 2015.,9,0,,35464612

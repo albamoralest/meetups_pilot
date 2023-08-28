@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 25 , 1932 – April 28 , 1984","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Moses ""Whispering"" Smith (January 25, 1932 – April 28, 1984) was an American blues harmonicist and singer.",0,0,,29217891
+Nowhere,NNP,TIMELINE_REGEX,TIME,time_reference,"He recorded tracks including ""A Thousand Miles from Nowhere"" and ""Texas Flood"" and worked with Lightnin' Slim and with Silas Hogan.",1,0,,29217891
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1960s, Smith played harmonica on recordings by the swamp blues notables Lightnin' Slim and Silas Hogan, before he was able to record some tracks of his own.",1,2,== Biography ==,29217891
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"He recorded his final solo album for Excello, Over Easy, in 1971.",5,2,== Biography ==,29217891
+Two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Two years later, he toured Europe as part of American Blues Legends '73, contributing two tracks to the Big Bear Records album of the same name.",6,2,== Biography ==,29217891
+'73,NNP,YEAR_REGEX_2,TIME,time_reference,"Two years later, he toured Europe as part of American Blues Legends '73, contributing two tracks to the Big Bear Records album of the same name.",6,2,== Biography ==,29217891
+April 1984,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Smith died in April 1984 in Baton Rouge, Louisiana, at the age of 52.",7,2,== Biography ==,29217891

@@ -1,0 +1,17 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"July 7 , 1921 – May 31 , 1998","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Stanisław Wisłocki (July 7, 1921 – May 31, 1998) was a Polish conductor of classical music who performed and recorded with many internationally renowned orchestras, ensembles and virtuoso musicians and is highly regarded for his interpretations of Beethoven, Mozart, Prokofiev, Rachmaninoff, Schumann and Tchaikovsky.",0,0,,30560604
+1945,CD,YEAR_REGEX_1,TIME,time_reference,"After returning to Poland in 1945, Wisłocki founded the chamber orchestra ""Polish Society for the Promotion of Folk Music"".",0,4,== Career ==,30560604
+Two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Two years later he started the Poznan Philharmonic Orchestra, where he was artistic director and conductor for 11 years.",1,4,== Career ==,30560604
+11 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Two years later he started the Poznan Philharmonic Orchestra, where he was artistic director and conductor for 11 years.",1,4,== Career ==,30560604
+1961 to 1967,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1961 to 1967 he was director of the Warsaw Philharmonic Orchestra, and from 1978-1982 director and artistic director of Symphony Orchestra of Radio and Television in Katowice.",2,4,== Career ==,30560604
+1978-1982,JJ,YEAR_REGEX_1,TIME,time_reference,"From 1961 to 1967 he was director of the Warsaw Philharmonic Orchestra, and from 1978-1982 director and artistic director of Symphony Orchestra of Radio and Television in Katowice.",2,4,== Career ==,30560604
+1948,CD,YEAR_REGEX_1,TIME,time_reference,"In 1948 he began teaching, and in 1951 he led classes in conducting at the Academy of Music in Poznań.",4,4,== Career ==,30560604
+1951,CD,YEAR_REGEX_1,TIME,time_reference,"In 1948 he began teaching, and in 1951 he led classes in conducting at the Academy of Music in Poznań.",4,4,== Career ==,30560604
+1955,CD,YEAR_REGEX_1,TIME,time_reference,In 1955 he became a professor at the National Academy of Music in Warsaw and from 1958 was Head of the Department of Conducting.,5,4,== Career ==,30560604
+1958,CD,YEAR_REGEX_1,TIME,time_reference,In 1955 he became a professor at the National Academy of Music in Warsaw and from 1958 was Head of the Department of Conducting.,5,4,== Career ==,30560604
+of the 1990s,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,At the turn of the 1990s he was appointed Music Director of the National Philharmonic Orchestra of Venezuela.,0,5,== Career ==,30560604
+1965,CD,YEAR_REGEX_1,TIME,time_reference,Trzy kroki po ziemi - 1965,0,12,== Film work ==,30560604
+1967,CD,YEAR_REGEX_1,TIME,time_reference,Dziadek do orzechów  - 1967,0,13,== Film work ==,30560604
+1974,CD,YEAR_REGEX_1,TIME,time_reference,The Deluge - 1974,0,14,== Film work ==,30560604
+1980,CD,YEAR_REGEX_1,TIME,time_reference,The Conductor - 1980,0,15,== Film work ==,30560604
+1998,CD,YEAR_REGEX_1,TIME,time_reference,The Polish Bride - 1998,0,16,== Film work ==,30560604

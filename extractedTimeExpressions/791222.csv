@@ -1,0 +1,86 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 25 , 1966 – March 2 , 2008","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Norman Jeffrey Healey (March 25, 1966 – March 2, 2008) was a Canadian blues, rock and jazz singer, guitarist, and songwriter who attained popularity in the 1980s and 1990s.",0,0,,791222
+the 1980s and 1990s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Norman Jeffrey Healey (March 25, 1966 – March 2, 2008) was a Canadian blues, rock and jazz singer, guitarist, and songwriter who attained popularity in the 1980s and 1990s.",0,0,,791222
+almost one year old,RB CD NN JJ,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,"When he was almost one year old, Healey lost his sight due to retinoblastoma, a rare cancer of the eyes.",2,2,== Early life ==,791222
+nine years old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"At nine years old, his musical talents were showcased in an interview on the TVOntario children's programme Cucumber.",1,4,== Early career and success ==,791222
+NOW,NNP,TIMELINE_REGEX,TIME,time_reference,"They received a write-up in Toronto's NOW magazine, and soon were playing almost nightly in local clubs, such as Grossman's Tavern and the famed blues club Albert's Hall (where Jeff Healey was discovered by guitarists Stevie Ray Vaughan and Albert Collins).",3,5,== Early career and success ==,791222
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"After being signed to Arista Records in 1988, the band released the album See the Light, which appeared on the RPM Top 100 chart in 1989.",4,5,== Early career and success ==,791222
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"After being signed to Arista Records in 1988, the band released the album See the Light, which appeared on the RPM Top 100 chart in 1989.",4,5,== Early career and success ==,791222
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"In 1990, the band won the Juno Award for Canadian Entertainer of the Year.",8,5,== Early career and success ==,791222
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 1990, the band won the Juno Award for Canadian Entertainer of the Year.",8,5,== Early career and success ==,791222
+1990 and 1994,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"The albums Hell to Pay and Feel This gave Healey 10 charting singles in Canada between 1990 and 1994, including a cover of The Beatles' ""While My Guitar Gently Weeps"", which featured George Harrison and Jeff Lynne on backing vocals and acoustic guitar.",9,5,== Early career and success ==,791222
+of the 2000,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"By the release of the 2000 album Get Me Some, Healey began to concentrate on jazz.",0,7,== Later work and life ==,791222
+the 1920s and 1930s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,He went on to release three CDs of music of traditional American jazz from the 1920s and 1930s.,0,8,== Later work and life ==,791222
+1990,CD,YEAR_REGEX_1,TIME,time_reference,Starting in 1990 he hosted a radio program of very early jazz on CIUT at the University of Toronto with Colin Bray.,1,9,== Later work and life ==,791222
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He moved the show two years later to Jazz FM - CJRT; as a part of ongoing celebrations for what would have been Healey's 50th birthday in 2016, the latter program began to air in repeats Wednesdays 9pm on jazz.fm.",3,9,== Later work and life ==,791222
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"He moved the show two years later to Jazz FM - CJRT; as a part of ongoing celebrations for what would have been Healey's 50th birthday in 2016, the latter program began to air in repeats Wednesdays 9pm on jazz.fm.",3,9,== Later work and life ==,791222
+Wednesdays 9pm,VBP CD,WEEK_REGEX DIGIT_REGEX_1,TIME NUMERAL,,"He moved the show two years later to Jazz FM - CJRT; as a part of ongoing celebrations for what would have been Healey's 50th birthday in 2016, the latter program began to air in repeats Wednesdays 9pm on jazz.fm.",3,9,== Later work and life ==,791222
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"For many years, Healey toured throughout North America and Europe and performed at his club, ""Healey's"" on Bathurst Street in Toronto, where he played with his blues band on Thursday nights and also with his jazz group on Saturday afternoons.",4,9,== Later work and life ==,791222
+Thursday nights,NNP NNS,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"For many years, Healey toured throughout North America and Europe and performed at his club, ""Healey's"" on Bathurst Street in Toronto, where he played with his blues band on Thursday nights and also with his jazz group on Saturday afternoons.",4,9,== Later work and life ==,791222
+Saturday afternoons,NNP NNS,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"For many years, Healey toured throughout North America and Europe and performed at his club, ""Healey's"" on Bathurst Street in Toronto, where he played with his blues band on Thursday nights and also with his jazz group on Saturday afternoons.",4,9,== Later work and life ==,791222
+the 1989,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"(The name came from the 1989 film, Road House, in which Healey appeared.)",7,9,== Later work and life ==,791222
+April 2008,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"At the time of his death, he had been planning to perform a series of shows in the United Kingdom, Germany, and the Netherlands, with his other band, the Jeff Healey Blues Band (aka the ""Healey's House Band"") in April 2008.",0,10,== Later work and life ==,791222
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Over the years, Healey toured and sat in with many well-known performers, including The Allman Brothers, Bonnie Raitt, Stevie Ray Vaughan, Buddy Guy, BB King, ZZ Top, Steve Lukather, Eric Clapton and many more.",0,11,== Later work and life ==,791222
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"In 2006, Healey appeared on Deep Purple vocalist Ian Gillan's CD/DVD Gillan's Inn.",1,11,== Later work and life ==,791222
+early 2009,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Healey discovered and helped develop the careers of other musical artists, including Terra Hazelton, Amanda Marshall, Shannon Curfman, and Philip SayceIn early 2009, Healey's album Mess of Blues won in The 8th Annual Independent Music Awards for Best Blues Album.",0,12,== Later work and life ==,791222
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"In 2009, Healey was inducted into the Terry Fox Hall of Fame.",1,12,== Later work and life ==,791222
+June 2011,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In June 2011, Woodford Park in Toronto was renamed Jeff Healey Park in his honour.",0,13,== Later work and life ==,791222
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"In 2014, Healey was inducted into Canada's Walk of Fame.",1,13,== Later work and life ==,791222
+September 2016,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In September 2016, Jeff Healey was inducted into the Mississauga Music Walk of Fame.",2,13,== Later work and life ==,791222
+March 2016,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In March 2016 the posthumous album Heal My Soul was released, followed by the companion album Holding On in December of the same year.",3,13,== Later work and life ==,791222
+December,NNP,MONTH_REGEX,TIME,time_reference,"In March 2016 the posthumous album Heal My Soul was released, followed by the companion album Holding On in December of the same year.",3,13,== Later work and life ==,791222
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In March 2016 the posthumous album Heal My Soul was released, followed by the companion album Holding On in December of the same year.",3,13,== Later work and life ==,791222
+1999,CD,YEAR_REGEX_1,TIME,time_reference,The 15 track Holding On album contains ten live tracks recorded in 1999 at the Rockefeller Music Hall in Norway and five studio tracks.,6,13,== Later work and life ==,791222
+"January 11 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On January 11, 2007, Healey underwent surgery to remove metastatic tissue from both lungs.",0,15,== Illness and death ==,791222
+the previous 18 months,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"In the previous 18 months, he had two sarcomas removed from his legs.",1,15,== Illness and death ==,791222
+"March 2 , 2008","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On March 2, 2008, Healey died of sarcoma in his home town of Toronto at the age of 41.",2,15,== Illness and death ==,791222
+a month,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Healey's death came a month before the release of Mess of Blues, which was his first rock/blues album in eight years.",4,15,== Illness and death ==,791222
+eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Healey's death came a month before the release of Mess of Blues, which was his first rock/blues album in eight years.",4,15,== Illness and death ==,791222
+1992,CD,YEAR_REGEX_1,TIME,time_reference,Healey married Krista Miller in 1992; they had a daughter and were divorced in 1998.,0,17,== Personal life ==,791222
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Healey married Krista Miller in 1992; they had a daughter and were divorced in 1998.,0,17,== Personal life ==,791222
+2003,CD,YEAR_REGEX_1,TIME,time_reference,He married Cristie Hall in 2003 and had a son with her.,1,17,== Personal life ==,791222
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002:,0,22,== Discography == | === Jeff Healey solo ===,791222
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: Live at Healey's (Bolder),0,23,== Discography == | === Jeff Healey solo ===,791222
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004: Adventures in Jazzland (Healeyophonic),0,24,== Discography == | === Jeff Healey solo ===,791222
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006:,0,25,== Discography == | === Jeff Healey solo ===,791222
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008:,0,26,== Discography == | === Jeff Healey solo ===,791222
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009:,0,27,== Discography == | === Jeff Healey solo ===,791222
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010:,0,28,== Discography == | === Jeff Healey solo ===,791222
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016:,0,29,== Discography == | === Jeff Healey solo ===,791222
+2020,CD,YEAR_REGEX_1,TIME,time_reference,2020:,0,30,== Discography == | === Jeff Healey solo ===,791222
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1993:,0,32,== Discography == | === Live albums ===,791222
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: Live at Healey's (Bolder),0,33,== Discography == | === Live albums ===,791222
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005:,0,34,== Discography == | === Live albums ===,791222
+1999,CD,YEAR_REGEX_1,TIME,time_reference,The Jeff Healey Band Live at Montreux 1999 (Eagle),1,34,== Discography == | === Live albums ===,791222
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011: Live at Grossman's 1994 (Eagle Rock North/Convexe),0,35,== Discography == | === Live albums ===,791222
+1994,CD,YEAR_REGEX_1,TIME,time_reference,2011: Live at Grossman's 1994 (Eagle Rock North/Convexe),0,35,== Discography == | === Live albums ===,791222
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013:,0,36,== Discography == | === Live albums ===,791222
+The Years,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,As The Years Go Passing By: Live in Germany 1989-1995-2000 (in-akustik) -,1,36,== Discography == | === Live albums ===,791222
+1989-1995-2000,CD,YEAR_REGEX_1,TIME,time_reference,As The Years Go Passing By: Live in Germany 1989-1995-2000 (in-akustik) -,1,36,== Discography == | === Live albums ===,791222
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013:,0,37,== Discography == | === Live albums ===,791222
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"2014: Live at the Legendary Horseshoe Tavern, 1993 (Eagle / Eagle Records / Eagle Rock)",0,38,== Discography == | === Live albums ===,791222
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"2014: Live at the Legendary Horseshoe Tavern, 1993 (Eagle / Eagle Records / Eagle Rock)",0,38,== Discography == | === Live albums ===,791222
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998,0,40,== Discography == | === Compilations ===,791222
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998,0,41,== Discography == | === Compilations ===,791222
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999 Master Hits (Arista),0,42,== Discography == | === Compilations ===,791222
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004,0,43,== Discography == | === Compilations ===,791222
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008 Super Hits (Sony),0,44,== Discography == | === Compilations ===,791222
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"2008 Legacy: Volume One (Ear Music, Arbor Records Ltd)",0,45,== Discography == | === Compilations ===,791222
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013 House on Fire – Demos & Rarities (Eagle Rock North),0,46,== Discography == | === Compilations ===,791222
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016 Holding On: A Heal My Soul Companion (Convexe Entertainment),0,47,== Discography == | === Compilations ===,791222
+1988,CD,YEAR_REGEX_1,TIME,time_reference,1988,0,49,== Discography == | === Appearances On Other Albums ===,791222
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"1995 Let It Rock (Quality Records) Ronnie Hawkins' 60th Birthday Bash, Live at Massey Hall, featuring members of The Hawks, The Band, Mr. Jerry Lee Lewis, Carl Perkins, Larry Gowan, & more.",0,50,== Discography == | === Appearances On Other Albums ===,791222
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999 Blues Blues Blues by The Jimmy Rogers All-Stars (Atlantic Records),0,51,== Discography == | === Appearances On Other Albums ===,791222
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003 Live At Last by Matt Minglewood Band ft.,0,52,== Discography == | === Appearances On Other Albums ===,791222
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004 What's Love?,0,53,== Discography == | === Appearances On Other Albums ===,791222
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"2006 Full Circle by Walter Trout"" (Ruf Records)",0,54,== Discography == | === Appearances On Other Albums ===,791222
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997 Hits of the 80's,0,56,== Discography == | === Compilation inclusions ===,791222
+2002,CD,YEAR_REGEX_1,TIME,time_reference,2002,0,57,== Discography == | === Compilation inclusions ===,791222
+2006 Saturday Night,CD NNP NNP,YEAR_REGEX_1 WEEK_REGEX DAY_TIME_REGEX,TIME TIME TIME,time_point,2006 Saturday Night Blues: 20 Years (CBC),0,58,== Discography == | === Compilation inclusions ===,791222
+20 Years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2006 Saturday Night Blues: 20 Years (CBC),0,58,== Discography == | === Compilation inclusions ===,791222
+1989,CD,YEAR_REGEX_1,TIME,time_reference,1989:,0,61,== Filmography ==,791222
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999: Live at Montreux,0,62,== Filmography ==,791222
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,63,== Filmography ==,791222
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013:,0,64,== Filmography ==,791222
+The Years,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,As The Years Go Passing By: Live in Germany 1989-1995-2000 (in-akustik),1,64,== Filmography ==,791222
+1989-1995-2000,CD,YEAR_REGEX_1,TIME,time_reference,As The Years Go Passing By: Live in Germany 1989-1995-2000 (in-akustik),1,64,== Filmography ==,791222

@@ -1,17 +1,17 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"October 20 , 1925 – October 27 , 2002","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Thomas John Dowd (October 20, 1925 – October 27, 2002) was an American recording engineer and producer for Atlantic Records.",0,0,,1320240
-Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years =,1,2,== Career == | === Early years ===,1320240
-June 1942,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Dowd graduated from Stuyvesant High School in June 1942 at the age of 16.,0,4,== Career == | === Early years ===,1320240
-1945,CD,YEAR_REGEX_1,TIME,time_reference,The purpose of the work was unclear until 1945.,3,6,== Career == | === Military work ===,1320240
-the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Dowd worked as an engineer and producer from the 1940s until the beginning of the 21st century.,0,9,== Career == | === Music ===,1320240
-the beginning of the 21st century,DT NN IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER NUMERAL TIME,time_reference,Dowd worked as an engineer and producer from the 1940s until the beginning of the 21st century.,0,9,== Career == | === Music ===,1320240
-Springfield,NNP,SEASON_REGEX,TIME,time_reference,"He recorded albums by many artists including Eddie Money, Bee Gees, Eric Clapton, Lynyrd Skynyrd, Black Oak Arkansas, Derek and the Dominos, Rod Stewart, Wishbone Ash, New Model Army, Cream, Lulu, Chicago, the Allman Brothers Band, Joe Bonamassa, the J. Geils Band, Meat Loaf, Sonny & Cher, the Rascals, the Spinners, Willie Nelson, Diana Ross, Eagles, the Four Seasons, Kenny Loggins, James Gang, Dusty Springfield, Eddie Harris, Charles Mingus, Herbie Mann, Booker T. & the M.G.'s, Otis Redding, Aretha Franklin, Ronnie Earl, Joe Castro and Primal Scream.",2,9,== Career == | === Music ===,1320240
-the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He was also an employee of Apex Studios in the 1950s.,3,9,== Career == | === Music ===,1320240
-February 2002,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Dowd received a Grammy Trustees Award for his lifetime achievements in February 2002.,4,9,== Career == | === Music ===,1320240
-"October 27 , 2002","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died of emphysema on October 27, 2002, in Florida, where he had been living and working at Criteria Studios for many years, a week after his 77th birthday.",0,10,== Career == | === Music ===,1320240
-many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He died of emphysema on October 27, 2002, in Florida, where he had been living and working at Criteria Studios for many years, a week after his 77th birthday.",0,10,== Career == | === Music ===,1320240
-a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He died of emphysema on October 27, 2002, in Florida, where he had been living and working at Criteria Studios for many years, a week after his 77th birthday.",0,10,== Career == | === Music ===,1320240
-of the second half of the 20th century,IN DT JJ NN IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 ORDINAL_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL MODIFIER MODIFIER MODIFIER NUMERAL TIME,time_reference,"Dowd helped to shape the artists that he worked with, and because he worked with an array of great artists on some of the world's greatest recordings, Dowd was highly influential in creating the sound of the second half of the 20th century.",0,12,== Legacy ==,1320240
-2003,CD,YEAR_REGEX_1,TIME,time_reference,"In 2003, director Mark Moormann premiered an award-winning documentary about his life entitled Tom Dowd and the Language of Music.",5,12,== Legacy ==,1320240
-the 2004,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 2004 biopic Ray, Tom Dowd was portrayed by actor Rick Gomez.",6,12,== Legacy ==,1320240
-2012,CD,YEAR_REGEX_1,TIME,time_reference,Dowd was posthumously inducted into the Rock and Roll Hall of Fame in 2012.,0,13,== Legacy ==,1320240
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"October 20 , 1925 – October 27 , 2002","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,1,2
+June 1942,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,4
+1945,CD,YEAR_REGEX_1,TIME,time_reference,3,6
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,9
+the beginning of the 21st century,DT NN IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER NUMERAL TIME,time_reference,0,9
+Springfield,NNP,SEASON_REGEX,TIME,time_reference,2,9
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,3,9
+February 2002,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,4,9
+"October 27 , 2002","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,10
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,10
+a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,10
+of the second half of the 20th century,IN DT JJ NN IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 ORDINAL_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL MODIFIER MODIFIER MODIFIER NUMERAL TIME,time_reference,0,12
+2003,CD,YEAR_REGEX_1,TIME,time_reference,5,12
+the 2004,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,6,12
+2012,CD,YEAR_REGEX_1,TIME,time_reference,0,13

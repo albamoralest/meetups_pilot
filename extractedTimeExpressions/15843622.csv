@@ -1,0 +1,52 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 6 , 1942 – October 26 , 2004","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Robin Kenyatta (March 6, 1942 – October 26, 2004) was an American jazz alto saxophonist.",0,0,,15843622
+1962,CD,YEAR_REGEX_1,TIME,time_reference,He joined the Army in 1962 and played in a military band for two years.,2,2,== Music career ==,15843622
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He joined the Army in 1962 and played in a military band for two years.,2,2,== Music career ==,15843622
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"In 1964, Bill Dixon heard Kenyatta and invited him to participate in the October Revolution in Jazz.",4,2,== Music career ==,15843622
+the October,DT NNP,PREFIX_REGEX_1 MONTH_REGEX,MODIFIER TIME,time_reference,"In 1964, Bill Dixon heard Kenyatta and invited him to participate in the October Revolution in Jazz.",4,2,== Music career ==,15843622
+December 28,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On December 28 of that year, Kenyatta played as a member of the Bill Dixon Quintet as part of the Four Days in December concert series at Judson Hall, substituting for Giuseppi Logan, who was injured.",5,2,== Music career ==,15843622
+28 of that year,CD IN DT NN,DIGIT_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER MODIFIER TIME,time_range,"On December 28 of that year, Kenyatta played as a member of the Bill Dixon Quintet as part of the Four Days in December concert series at Judson Hall, substituting for Giuseppi Logan, who was injured.",5,2,== Music career ==,15843622
+of the Four Days,IN DT NNP NNPS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"On December 28 of that year, Kenyatta played as a member of the Bill Dixon Quintet as part of the Four Days in December concert series at Judson Hall, substituting for Giuseppi Logan, who was injured.",5,2,== Music career ==,15843622
+December,NNP,MONTH_REGEX,TIME,time_reference,"On December 28 of that year, Kenyatta played as a member of the Bill Dixon Quintet as part of the Four Days in December concert series at Judson Hall, substituting for Giuseppi Logan, who was injured.",5,2,== Music career ==,15843622
+"March 19–20 , 1965","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Kenyatta performed with Dixon's group again at the Contemporary Center from March 19–20, 1965, and with the Jazz Composer's Orchestra at the same location from April 9–11 of that year.",8,2,== Music career ==,15843622
+April 9–11,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Kenyatta performed with Dixon's group again at the Contemporary Center from March 19–20, 1965, and with the Jazz Composer's Orchestra at the same location from April 9–11 of that year.",8,2,== Music career ==,15843622
+9–11 of that year,CD IN DT NN,DIGIT_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER MODIFIER TIME,time_range,"Kenyatta performed with Dixon's group again at the Contemporary Center from March 19–20, 1965, and with the Jazz Composer's Orchestra at the same location from April 9–11 of that year.",8,2,== Music career ==,15843622
+April 10,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"He also appeared on the Jazz Composer's Orchestra album Communication, recorded on April 10.",9,2,== Music career ==,15843622
+Later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Later that year, Kenyatta made his first recorded appearance on the album Portrait In Soul by pianist and composer Valerie Capers.",0,3,== Music career ==,15843622
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"In 1966, he appeared on Sonny Stitt's album Deuces Wild, as well as Roswell Rudd's Everywhere and Dixon's Intents and Purposes.",1,3,== Music career ==,15843622
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He released Until, his first album as a leader, the following year.",2,3,== Music career ==,15843622
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"In 1969, Kenyatta moved to Paris, France, where he continued to perform and record, releasing Beggars & Stealers and Girl from Martinique under his own name.",3,3,== Music career ==,15843622
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"In 1972, he moved back to New York, and recorded three albums that were more mainstream than his previous releases, Gypsy Man, Terra Nova, and Stompin' at the Savoy, for Atlantic Records.",4,3,== Music career ==,15843622
+the 1970s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Throughout the 1970s, he recorded as a sideman for Alan Silva, Andrew Hill, Oscar Brown, Ted Curson, Sam Rivers, and Archie Shepp.",7,3,== Music career ==,15843622
+the 1980s and 90s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1,MODIFIER TIME MODIFIER NUMERAL,time_reference,"During the 1980s and 90s, Kenyatta performed at major jazz festivals with Dizzy Gillespie, Paul Simon, George Benson, B. B. King, The Isley Brothers, and other major artists.",0,4,== Music career ==,15843622
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"""In 2001, Kenyatta moved back to New York, and commuted to a teaching position at Bentley College in Massachusetts.",2,4,== Music career ==,15843622
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"In 2003, he released a funk and blues-influenced album titled Cool Blue.",3,4,== Music career ==,15843622
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"In 2004, he flew to Lausanne for a performance, but died in his sleep on October 26.",4,4,== Music career ==,15843622
+October 26,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"In 2004, he flew to Lausanne for a performance, but died in his sleep on October 26.",4,4,== Music career ==,15843622
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"1967: Until (Vortex, reissued on Wounded Bird)",0,7,== Discography == | === As leader ===,15843622
+1969,CD,YEAR_REGEX_1,TIME,time_reference,1969:,0,8,== Discography == | === As leader ===,15843622
+1970,CD,YEAR_REGEX_1,TIME,time_reference,1970:,0,9,== Discography == | === As leader ===,15843622
+1972,CD,YEAR_REGEX_1,TIME,time_reference,1972:,0,10,== Discography == | === As leader ===,15843622
+1972,CD,YEAR_REGEX_1,TIME,time_reference,1972:,0,11,== Discography == | === As leader ===,15843622
+1973,CD,YEAR_REGEX_1,TIME,time_reference,1973:,0,12,== Discography == | === As leader ===,15843622
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"1974: Stompin' at the Savoy (Atlantic) with Dr. John, Ron Carter, Lew Soloff, Bernard Purdie, Chuck Rainey",0,13,== Discography == | === As leader ===,15843622
+1975,CD,YEAR_REGEX_1,TIME,time_reference,1975:,0,14,== Discography == | === As leader ===,15843622
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"1976: Encourage the People (Wolf) with Arthur Jenkins, Richard Tee, Ralph MacDonald, Hugh McCracken",0,15,== Discography == | === As leader ===,15843622
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"1979: Take the Heat off Me (ITM) with Lew Soloff, Dom Salvador, Peter Solomon, David Eubanks, Sal Cuevas, Cornell Dupree",0,16,== Discography == | === As leader ===,15843622
+1987,CD,YEAR_REGEX_1,TIME,time_reference,1987: Live at Cully: Blues for Mama Doll (Jazz Dance),0,17,== Discography == | === As leader ===,15843622
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991:,0,18,== Discography == | === As leader ===,15843622
+2003,CD,YEAR_REGEX_1,TIME,time_reference,2003: Cool Blue (Jazz Dance),0,19,== Discography == | === As leader ===,15843622
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Brother Where Are You (Atlantic, 1974)With Valerie Capers",0,22,== Discography == | === As sideman ===,15843622
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Portrait in Soul (Atlantic, 1966)With Ted Curson",0,23,== Discography == | === As sideman ===,15843622
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Quicksand (Atlantic, 1974)With Bill Dixon",0,24,== Discography == | === As sideman ===,15843622
+1967,CD,YEAR_REGEX_1,TIME,time_reference,Intents and Purposes (1967)With Andrew Hill,0,25,== Discography == | === As sideman ===,15843622
+1975,CD,YEAR_REGEX_1,TIME,time_reference,Spiral (1975)With Jazz Composer's Orchestra,0,26,== Discography == | === As sideman ===,15843622
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Communication (JCO, 1965)With Sam Rivers",0,27,== Discography == | === As sideman ===,15843622
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Crystals (Impulse!, 1974)With",0,28,== Discography == | === As sideman ===,15843622
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Everywhere (Impulse!, 1966) also released as part of Mixed in 1998With Archie Shepp",0,29,== Discography == | === As sideman ===,15843622
+1998With,CD,YEAR_REGEX_1,TIME,time_reference,"Everywhere (Impulse!, 1966) also released as part of Mixed in 1998With Archie Shepp",0,29,== Discography == | === As sideman ===,15843622
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"For Losers (Impulse!, 1971)",0,30,== Discography == | === As sideman ===,15843622
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Kwanza (Impulse!, 1974)With Alan Silva",0,31,== Discography == | === As sideman ===,15843622
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Seasons (BYG Actuel, 1971)",0,32,== Discography == | === As sideman ===,15843622
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"My Country (Leo, 1989)With",0,33,== Discography == | === As sideman ===,15843622
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Deuces Wild (Atlantic, 1966)",0,34,== Discography == | === As sideman ===,15843622

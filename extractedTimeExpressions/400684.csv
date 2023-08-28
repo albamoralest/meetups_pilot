@@ -1,0 +1,164 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"December 8 , 1925 or 1928 – February 8 , 2005","NNP CD , CD CC CD JJ NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"James Oscar Smith (December 8, 1925 or 1928 – February 8, 2005) was an American jazz musician whose albums often appeared on Billboard magazine charts.",0,0,,400684
+1960s,CD,YEAR_REGEX_1,TIME,time_reference,"He helped popularize the Hammond B-3 organ, creating a link between jazz and 1960s soul music.",1,0,,400684
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005, Smith was awarded the NEA Jazz Masters Award from the National Endowment for the Arts, the highest honor that America bestows upon jazz musicians.",0,1,,400684
+Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years ==,1,2,== Early years ==,400684
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"There is confusion about Smith's birth year, with sources citing either 1925 or 1928.",0,3,== Early years ==,400684
+1925 or 1928,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"There is confusion about Smith's birth year, with sources citing either 1925 or 1928.",0,3,== Early years ==,400684
+1948,CD,YEAR_REGEX_1,TIME,time_reference,"After a period in the U.S. Navy, he began furthering his musical education in 1948, with a year at Royal Hamilton College of Music, then the Leo Ornstein School of Music in Philadelphia in 1949.",4,3,== Early years ==,400684
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"After a period in the U.S. Navy, he began furthering his musical education in 1948, with a year at Royal Hamilton College of Music, then the Leo Ornstein School of Music in Philadelphia in 1949.",4,3,== Early years ==,400684
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"After a period in the U.S. Navy, he began furthering his musical education in 1948, with a year at Royal Hamilton College of Music, then the Leo Ornstein School of Music in Philadelphia in 1949.",4,3,== Early years ==,400684
+1951,CD,YEAR_REGEX_1,TIME,time_reference,He began exploring the Hammond organ in 1951.,5,3,== Early years ==,400684
+1951 to 1954,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1951 to 1954, he played piano, then organ in Philly R&B bands like Don Gardner and the Sonotones.",6,3,== Early years ==,400684
+1954,CD,YEAR_REGEX_1,TIME,time_reference,He switched to organ permanently in 1954 after hearing Wild Bill Davis.,7,3,== Early years ==,400684
+more than a year,JJR IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"He purchased his first Hammond organ, rented a warehouse to practice in and emerged after little more than a year.",0,5,== Career ==,400684
+eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He was a prolific recording artist and, as a leader, dubbed The Incredible Jimmy Smith, he recorded around forty sessions for Blue Note in just eight years beginning in 1956.",2,5,== Career ==,400684
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"He was a prolific recording artist and, as a leader, dubbed The Incredible Jimmy Smith, he recorded around forty sessions for Blue Note in just eight years beginning in 1956.",2,5,== Career ==,400684
+Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Albums from this period include The Sermon!, House Party, Home Cookin', Midnight Special, Back at the Chicken Shack and Prayer Meetin'.",3,5,== Career ==,400684
+1962,CD,YEAR_REGEX_1,TIME,time_reference,Smith signed to the Verve label in 1962.,4,5,== Career ==,400684
+the 1950s and 1960s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"During the 1950s and 1960s, Smith almost always performed live, in a trio, consisting of organ, guitar and drums.",0,6,== Career ==,400684
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"The Jimmy Smith Trio performed ""When Johnny Comes Marching Home"" and ""The Sermon"" in the film Get Yourself a College Girl (1964).",1,6,== Career ==,400684
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1970s, Smith opened his own supper club in the North Hollywood neighborhood of Los Angeles, California, at 12910 Victory Boulevard and played there regularly with Kenny Dixon on drums, Herman Riley and John F. Phillips on saxophone; also included in the band was harmonica/flute player Stanley Behrens.",0,7,== Career ==,400684
+12910,CD,YEAR_REGEX_1,TIME,time_reference,"In the 1970s, Smith opened his own supper club in the North Hollywood neighborhood of Los Angeles, California, at 12910 Victory Boulevard and played there regularly with Kenny Dixon on drums, Herman Riley and John F. Phillips on saxophone; also included in the band was harmonica/flute player Stanley Behrens.",0,7,== Career ==,400684
+The 1972,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The 1972 album Root Down, considered a seminal influence on later generations of funk and hip-hop musicians, was recorded live at the club, albeit with a different group of backing musicians.",1,7,== Career ==,400684
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Holle Thee Maxwell, then known as Holly Maxwell, was Smith's vocalist for two years in the late 1970s.",0,9,== Later career ==,400684
+the late 1970s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Holle Thee Maxwell, then known as Holly Maxwell, was Smith's vocalist for two years in the late 1970s.",0,9,== Later career ==,400684
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"During a South African tour, they recorded the album Jimmy Smith Plays for the People in 1978.",1,9,== Later career ==,400684
+the 1980s and 1990s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Smith had a career revival in the 1980s and 1990s, again recording for Blue Note and Verve, and for Elektra and Milestone.",2,9,== Later career ==,400684
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"His last album, Dot Com Blues (Blue Thumb/Verve, 2000) was recorded with B. B. King, Dr. John, and Etta James.",4,9,== Later career ==,400684
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Smith and his wife moved to Scottsdale, Arizona, in 2004.",0,10,== Later career ==,400684
+a few months,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,She died of cancer a few months later.,1,10,== Later career ==,400684
+"February 8 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"However, before the tour began, Smith died on February 8, 2005 at his Scottsdale home where he was found by his manager, Robert Clayton.",3,10,== Later career ==,400684
+the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1990s, Smith went to Nashville, taking a break from his ongoing gigs at his Sacramento restaurant which he owned and, in Music City, Nashville, he produced, with the help of a webmaster, Dot Com Blues, his last Verve album.",4,13,== Musical style ==,400684
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"In 1999, Smith guested on two tracks of a live album, Incredible!",5,13,== Musical style ==,400684
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"(Smith's nickname during the 1960s) with his protégé, Joey DeFrancesco, a then 28-year-old organist.",6,13,== Musical style ==,400684
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Smith and DeFrancesco's collaborative album Legacy was released in 2005 shortly after Smith's death.,7,13,== Musical style ==,400684
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy Smith at the Organ, Volume 1 (Blue Note, 1956)",1,16,== Discography == | === As leader ===,400684
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"A New Sound A New Star: Jimmy Smith at the Organ Volume 2 (Blue Note, 1956)",0,17,== Discography == | === As leader ===,400684
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"The Incredible Jimmy Smith at the Organ Volume 3 (Blue Note, 1956)",0,18,== Discography == | === As leader ===,400684
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"At Club Baby Grand, Volume One (Blue Note, 1956)",0,19,== Discography == | === As leader ===,400684
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"At Club Baby Grand, Volume Two (Blue Note, 1956)",0,20,== Discography == | === As leader ===,400684
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"A Date with Jimmy Smith Volume One (Blue Note, 1957)",0,21,== Discography == | === As leader ===,400684
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"A Date with Jimmy Smith Volume Two (Blue Note, 1957)",0,22,== Discography == | === As leader ===,400684
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy Smith at the Organ, Volume 1 (Blue Note, 1957)",0,23,== Discography == | === As leader ===,400684
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy Smith at the Organ, Volume 2 (Blue Note, 1957)",0,24,== Discography == | === As leader ===,400684
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"The Sounds of Jimmy Smith (Blue Note, 1957)",0,25,== Discography == | === As leader ===,400684
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Plays Pretty Just for You (Blue Note, 1957)",0,26,== Discography == | === As leader ===,400684
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Groovin' at Smalls' Paradise, Volume One (Blue Note, 1958)",0,27,== Discography == | === As leader ===,400684
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Groovin' at Smalls' Paradise, Volume Two (Blue Note, 1958)",0,28,== Discography == | === As leader ===,400684
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"House Party (Blue Note, 1958)",0,29,== Discography == | === As leader ===,400684
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"(Blue Note, 1959)",1,30,== Discography == | === As leader ===,400684
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Home Cookin' (Blue Note, 1960)",0,31,== Discography == | === As leader ===,400684
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Baby (Blue Note, 1960)",1,32,== Discography == | === As leader ===,400684
+Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Midnight Special (Blue Note, 1961)",0,33,== Discography == | === As leader ===,400684
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Midnight Special (Blue Note, 1961)",0,33,== Discography == | === As leader ===,400684
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Plays Fats Waller (Blue Note, 1962)",0,34,== Discography == | === As leader ===,400684
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Bashin': The Unpredictable Jimmy Smith (Verve, 1962)",0,35,== Discography == | === As leader ===,400684
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Back at the Chicken Shack (Blue Note, 1963)",0,36,== Discography == | === As leader ===,400684
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Hobo Flats (Verve, 1963)",0,37,== Discography == | === As leader ===,400684
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Rockin' the Boat (Blue Note, 1963)",0,38,== Discography == | === As leader ===,400684
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Any Number Can Win (Verve, 1963)",0,39,== Discography == | === As leader ===,400684
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"(Verve, 1963) with Kenny Burrell",1,40,== Discography == | === As leader ===,400684
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"(Verve, 1964)",1,41,== Discography == | === As leader ===,400684
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"The Cat (Verve, 1964)",0,42,== Discography == | === As leader ===,400684
+Christmas '64,NNP NNP,HOLIDAY_REGEX YEAR_REGEX_2,TIME TIME,time_reference,"Christmas '64 (Verve, 1964)",0,43,== Discography == | === As leader ===,400684
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Christmas '64 (Verve, 1964)",0,43,== Discography == | === As leader ===,400684
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Prayer Meetin' (Blue Note, 1964)",0,44,== Discography == | === As leader ===,400684
+a Summer,DT NNP,INARTICLE_REGEX SEASON_REGEX,MODIFIER TIME,time_reference,"Softly as a Summer Breeze (Blue Note, 1965)",0,45,== Discography == | === As leader ===,400684
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Softly as a Summer Breeze (Blue Note, 1965)",0,45,== Discography == | === As leader ===,400684
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Monster (Verve, 1965)",0,46,== Discography == | === As leader ===,400684
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Organ Grinder Swing (Verve, 1965)",0,47,== Discography == | === As leader ===,400684
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Got My Mojo Workin'  (Verve, 1965)",0,48,== Discography == | === As leader ===,400684
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"La Metamorphose Des Cloportes (Verve, 1965)",0,49,== Discography == | === As leader ===,400684
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Live at the Village Gate (Metro, 1965)",0,50,== Discography == | === As leader ===,400684
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"(Blue Note, 1966)",1,51,== Discography == | === As leader ===,400684
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Swings Along with Stranger in Paradise (Pickwick, 1966) early recordings",0,52,== Discography == | === As leader ===,400684
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Live in Concert (Metro, 1966)",0,53,== Discography == | === As leader ===,400684
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Peter & the Wolf (Verve, 1966)",0,54,== Discography == | === As leader ===,400684
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Hoochie Coochie Man (Verve, 1966)",0,55,== Discography == | === As leader ===,400684
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy & Wes: The Dynamic Duo (Verve, 1966) with Wes Montgomery",0,56,== Discography == | === As leader ===,400684
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"I'm Movin' On (Blue Note, 1967)",0,57,== Discography == | === As leader ===,400684
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"(Metro, 1967)",1,58,== Discography == | === As leader ===,400684
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Respect (Verve, 1967)",0,59,== Discography == | === As leader ===,400684
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Open House  (Blue Note, 1968)",0,60,== Discography == | === As leader ===,400684
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Stay Loose (Verve, 1968)",0,61,== Discography == | === As leader ===,400684
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Plain Talk (Blue Note, 1968)",0,62,== Discography == | === As leader ===,400684
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"(Verve, 1968)",1,63,== Discography == | === As leader ===,400684
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"The Fantastic Jimmy Smith (Upfront, 1969) early recordings",0,64,== Discography == | === As leader ===,400684
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"The Boss [live] (Verve, 1969)",0,65,== Discography == | === As leader ===,400684
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Groove Drops (Verve, 1969)",0,66,== Discography == | === As leader ===,400684
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Further Adventures of Jimmy and Wes (Verve, 1969) with Wes Montgomery",0,67,== Discography == | === As leader ===,400684
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"The Other Side of Jimmy Smith (MGM, 1970)",0,68,== Discography == | === As leader ===,400684
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"I'm Goin' Git Myself Together (MGM, 1971)",0,69,== Discography == | === As leader ===,400684
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"In a Plain Brown Wrapper (Verve, 1971)",0,70,== Discography == | === As leader ===,400684
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Root Down [live] (Verve, 1972)",0,71,== Discography == | === As leader ===,400684
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Bluesmith (Verve, 1972)",0,72,== Discography == | === As leader ===,400684
+'72,NNP,YEAR_REGEX_2,TIME,time_reference,"Newport In New York '72 (The Jimmy Smith Jam, Vol. 5) (Cobblestone, 1972)",0,73,== Discography == | === As leader ===,400684
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Newport In New York '72 (The Jimmy Smith Jam, Vol. 5) (Cobblestone, 1972)",0,73,== Discography == | === As leader ===,400684
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Portuguese Soul (Verve, 1973)",0,74,== Discography == | === As leader ===,400684
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Black Smith (Pride/Atlantic, 1974)",0,75,== Discography == | === As leader ===,400684
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Live In Israel (Isradisc, 1974) Israel only release",0,76,== Discography == | === As leader ===,400684
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Paid in Full (Mojo, 1974)",0,77,== Discography == | === As leader ===,400684
+'75,NNP,YEAR_REGEX_2,TIME,time_reference,"Jimmy Smith '75 (Mojo, 1975)",0,78,== Discography == | === As leader ===,400684
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy Smith '75 (Mojo, 1975)",0,78,== Discography == | === As leader ===,400684
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"(Mercury, 1977)",1,79,== Discography == | === As leader ===,400684
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"It's Necessary [live]  (Mercury, 1977)",0,80,== Discography == | === As leader ===,400684
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Unfinished Business (Mercury, 1978)",0,81,== Discography == | === As leader ===,400684
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy Smith Plays For The People (Polydor, 1978) South Africa only release",0,82,== Discography == | === As leader ===,400684
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"Confirmation (Blue Note, 1979)",0,83,== Discography == | === As leader ===,400684
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"Cool Blues [live] (Blue Note, 1980)",0,84,== Discography == | === As leader ===,400684
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"The Cat Strikes Again (Inner City, 1981)",0,85,== Discography == | === As leader ===,400684
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"On the Sunny Side (Blue Note, 1981)",0,86,== Discography == | === As leader ===,400684
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Second Coming (Mojo, 1981)",0,87,== Discography == | === As leader ===,400684
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Off the Top (Elektra Musician, 1982)",0,88,== Discography == | === As leader ===,400684
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"Keep On Comin'  [live] (Elektra Musician, 1983)",0,89,== Discography == | === As leader ===,400684
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Special Guests (Blue Note, 1984)",0,90,== Discography == | === As leader ===,400684
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"Go for Whatcha Know (Blue Note, 1985)",0,91,== Discography == | === As leader ===,400684
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy Smith Trio + LD (Blue Note, 1985) with Lou Donaldson",0,92,== Discography == | === As leader ===,400684
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Prime Time (Milestone, 1989)",0,93,== Discography == | === As leader ===,400684
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Fourmost [live] (Milestone, 1991)",0,94,== Discography == | === As leader ===,400684
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Sum Serious Blues (Milestone, 1993)",0,95,== Discography == | === As leader ===,400684
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"The Master [live] (Blue Note, 1994)",0,96,== Discography == | === As leader ===,400684
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"[live] (Blue Note, 1994)",1,97,== Discography == | === As leader ===,400684
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"(Verve, 1995)",1,98,== Discography == | === As leader ===,400684
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Angel Eyes: Ballads & Slow Jams (Verve, 1996)",0,99,== Discography == | === As leader ===,400684
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"All the Way Live (Milestone, 1996) with Eddie Harris",0,100,== Discography == | === As leader ===,400684
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Cherokee (Blue Note, 1996)",0,101,== Discography == | === As leader ===,400684
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Lonesome Road (Blue Note, 1996)",0,102,== Discography == | === As leader ===,400684
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"Standards (Blue Note, 1998)",0,103,== Discography == | === As leader ===,400684
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Six Views of the Blues (Blue Note, 1999)",0,104,== Discography == | === As leader ===,400684
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Dot Com Blues (Blue Thumb, 2000)",0,105,== Discography == | === As leader ===,400684
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Fourmost Return [live] (Milestone, 2001)",0,106,== Discography == | === As leader ===,400684
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Black Cat (Castle Pie, 2001)",0,107,== Discography == | === As leader ===,400684
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"Straight Life (Blue Note, 2007)",0,108,== Discography == | === As leader ===,400684
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Beastie Boys, Ill Communication (Capitol, 1994)",0,110,== Discography == | === As sideman ===,400684
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"George Benson, George Benson: Compact Jazz (Verve, 1987)",0,111,== Discography == | === As sideman ===,400684
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Jean-Michel Bernard, Cash (Naive, 2008)",0,112,== Discography == | === As sideman ===,400684
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Dee Dee Bridgewater,  Love and Peace: A Tribute to Horace Silver  (Verve, 1995)",0,113,== Discography == | === As sideman ===,400684
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Kenny Burrell, Ellington Is Forever (Fantasy, 1975)",0,114,== Discography == | === As sideman ===,400684
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"King Curtis, Get Ready (Atco, 1970)",0,115,== Discography == | === As sideman ===,400684
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"King Curtis, Everybody's Talkin (Atco, 1972)",0,116,== Discography == | === As sideman ===,400684
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"(Concord Jazz, 2000)",1,117,== Discography == | === As sideman ===,400684
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Joey DeFrancesco with Jimmy Smith, Legacy (Concord Jazz, 2005)",0,118,== Discography == | === As sideman ===,400684
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Cornell Dupree, Shadow Dancing (Versatile, 1978)",0,119,== Discography == | === As sideman ===,400684
+2019,CD,YEAR_REGEX_1,TIME,time_reference,"Stu Gardner, The Italian Heist (Super Disco Edits 2019)",0,120,== Discography == | === As sideman ===,400684
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Jon Hendricks, Love (Muse, 1982)",0,121,== Discography == | === As sideman ===,400684
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"James Ingram, It's Your Night (Qwest/WB, 1983)",0,122,== Discography == | === As sideman ===,400684
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"James Ingram, It's Your Night (Qwest/WB, 1983)",0,122,== Discography == | === As sideman ===,400684
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Michael Jackson, Bad  (Epic, 1987)",0,123,== Discography == | === As sideman ===,400684
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Quincy Jones, Smackwater Jack (A&M, 1971)",0,124,== Discography == | === As sideman ===,400684
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Quincy Jones & Bill Cosby, The Original Jam Sessions 1969 (Concord Jazz, 2004)",0,125,== Discography == | === As sideman ===,400684
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Quincy Jones & Bill Cosby, The Original Jam Sessions 1969 (Concord Jazz, 2004)",0,125,== Discography == | === As sideman ===,400684
+Quarter,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Toshihiko Kankawa with Jimmy Smith, Quarter Run (Paddlewheel, 1984)",0,126,== Discography == | === As sideman ===,400684
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Toshihiko Kankawa with Jimmy Smith, Quarter Run (Paddlewheel, 1984)",0,126,== Discography == | === As sideman ===,400684
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Robbie Krieger, Robbie Krieger & Friends (Blue Note, 1977)",0,127,== Discography == | === As sideman ===,400684
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Yoshiaki Miyanoue with special guest Jimmy Smith, Touch Of Love (Vap, 1981)",0,128,== Discography == | === As sideman ===,400684
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Frank Sinatra, L.A. Is My Lady (Qwest/WB, 1984)",0,129,== Discography == | === As sideman ===,400684
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Candi Staton, Stand Up and Be a Witness (Beracah 1989)",0,130,== Discography == | === As sideman ===,400684
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Stanley Turrentine, Straight Ahead (Blue Note, 1984)",0,131,== Discography == | === As sideman ===,400684
+Summer,NNP,SEASON_REGEX,TIME,time_reference,"Lenny White, Venusian Summer (Nemperor, 1975)",0,132,== Discography == | === As sideman ===,400684
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Lenny White, Venusian Summer (Nemperor, 1975)",0,132,== Discography == | === As sideman ===,400684
+'72,NNP,YEAR_REGEX_2,TIME,time_reference,"Various, Newport In New York '72 (The Jam Sessions, Vol. 4) (Cobblestone, 1972)",0,133,== Discography == | === As sideman ===,400684
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Various, Newport In New York '72 (The Jam Sessions, Vol. 4) (Cobblestone, 1972)",0,133,== Discography == | === As sideman ===,400684
+One Night,CD NNP,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"Various, One Night With Blue Note, Volume 3 (Blue Note, 1985)",0,134,== Discography == | === As sideman ===,400684
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"Various, One Night With Blue Note, Volume 3 (Blue Note, 1985)",0,134,== Discography == | === As sideman ===,400684

@@ -1,0 +1,16 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"September 16 , 1952","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Tom Leadon (pronounced led-un; born September 16, 1952) is an American musician.",0,0,,6144709
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"He is one of the founding members of Tom Petty's original band, Mudcrutch, and remained its lead guitarist following its revival in 2007.",1,0,,6144709
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Leadon left Mudcrutch in 1972 and moved to Los Angeles, following in the footsteps of his older brother Bernie, who had recently formed the Eagles with Randy Meisner, Glenn Frey, and Don Henley.",0,3,== Biography ==,6144709
+recently,RB,TIMELINE_REGEX,TIME,time_reference,"Leadon left Mudcrutch in 1972 and moved to Los Angeles, following in the footsteps of his older brother Bernie, who had recently formed the Eagles with Randy Meisner, Glenn Frey, and Don Henley.",0,3,== Biography ==,6144709
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Leadon also played bass in Linda Ronstadt's band, and in 1976 joined the country-rock band Silver, who had a top 40 hit the same year with ""Wham-Bam"".",1,3,== Biography ==,6144709
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"Leadon also played bass in Linda Ronstadt's band, and in 1976 joined the country-rock band Silver, who had a top 40 hit the same year with ""Wham-Bam"".",1,3,== Biography ==,6144709
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"In 1975, the Eagles recorded one of Leadon's original songs, ""Hollywood Waltz"", and released it on their One of These Nights LP.",0,4,== Biography ==,6144709
+their One of These Nights,PRP$ CD IN DT NNP,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER NUMERAL MODIFIER MODIFIER TIME,,"In 1975, the Eagles recorded one of Leadon's original songs, ""Hollywood Waltz"", and released it on their One of These Nights LP.",0,4,== Biography ==,6144709
+Later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Later that year Buck Owens released his own version.,2,4,== Biography ==,6144709
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"In 2007, Petty reformed Mudcrutch, which had broken up in 1975.",1,5,== Biography ==,6144709
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"In 2007, Petty reformed Mudcrutch, which had broken up in 1975.",1,5,== Biography ==,6144709
+2008,CD,YEAR_REGEX_1,TIME,time_reference,The band recorded a self-titled debut album in 2008.,2,5,== Biography ==,6144709
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Also in this version of Mudcrutch was Benmont Tench, who had been originally brought into the band when Leadon left in 1972.",4,5,== Biography ==,6144709
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"The band went on to continue being intermittently active with touring, recording a live album, and a follow-up to their debut with Mudcrutch 2, in 2016.",5,5,== Biography ==,6144709
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Petty died in 2017, bringing Mudcrutch's operations to a close.",6,5,== Biography ==,6144709

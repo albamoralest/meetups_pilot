@@ -1,0 +1,65 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"July 12 , 1935 – March 19 , 2002","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"John Patton (July 12, 1935 – March 19, 2002) was an American jazz, blues and R&B pianist and organist often known by his nickname, Big John Patton.",0,0,,739785
+1963 and 1970,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Patton was one of the most in-demand organists during the golden era of the Hammond B-3 organs between 1963 and 1970.,0,1,,739785
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Patton had a lower profile in the 1970s but enjoyed a comeback in the 1980s and 1990s, often in collaboration with saxophonist John Zorn.",2,1,,739785
+the 1980s and 1990s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Patton had a lower profile in the 1970s but enjoyed a comeback in the 1980s and 1990s, often in collaboration with saxophonist John Zorn.",2,1,,739785
+now,RB,TIMELINE_REGEX,TIME,time_reference,but I love it now.,5,3,== Biography ==,739785
+about 13 years old,IN CD NNS JJ,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,"When he was about 13 years old, in 1948, he began to teach himself.",7,3,== Biography ==,739785
+1948,CD,YEAR_REGEX_1,TIME,time_reference,"When he was about 13 years old, in 1948, he began to teach himself.",7,3,== Biography ==,739785
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"In 1954 in Washington, D.C., he found out that R&B star Lloyd Price was playing at the Howard Theater, and that Price had just fired his pianist and needed a new player.",10,3,== Biography ==,739785
+1959,CD,YEAR_REGEX_1,TIME,time_reference,It was a relationship that would last until 1959.,13,3,== Biography ==,739785
+late 1959,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"When he moved to New York in late 1959, and began playing gigs around town, Herman Green, a friend who played with Lionel Hampton's band, took him to a Hammond in Asbury Park, New Jersey, and helped him learn how to play it.",20,3,== Biography ==,739785
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"""Patton set up his own Hammond organ trio in 1959.",26,3,== Biography ==,739785
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"I didn't care; I sho' learned!""He worked as a sideman for Lou Donaldson for three and a half years, until 1964.",34,3,== Biography ==,739785
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"I didn't care; I sho' learned!""He worked as a sideman for Lou Donaldson for three and a half years, until 1964.",34,3,== Biography ==,739785
+am,VBP,HALFDAY_REGEX_1,TIME,,"I am very fortunate that I got a chance to spend that much time with him and I can't thank him enough.""",37,3,== Biography ==,739785
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"""The acid jazz movement in the 1980s caused a resurgence in interest in Patton's music in the UK.",42,3,== Biography ==,739785
+previously,RB,TIMELINE_REGEX,TIME,time_reference,"Blue Note released many sessions that had not previously been released, including Blue John with Grant Green and George Braith (listed as Braithwaite on the LP).",43,3,== Biography ==,739785
+the late 1990s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,Patton continued recording until the late 1990s.,45,3,== Biography ==,739785
+these later years,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In these later years he developed a following in both Japan and Europe, both of which he toured in addition to his dates in the United States.",46,3,== Biography ==,739785
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, Patton performed ""Money Jungle"" with Ron Carter and Black Star for the Red Hot Organization's compilation album Red Hot + Indigo, a tribute to Duke Ellington, which raised money for various charities devoted to increasing AIDS awareness and fighting the disease.",47,3,== Biography ==,739785
+"March 19 , 2002","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Patton died from complications arising from diabetes, in Montclair, New Jersey, on March 19, 2002.",0,4,== Biography ==,739785
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Along Came John (Blue Note, 1963)",0,7,== Discography == | === As leader ===,739785
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Blue John (Blue Note, 1963)",0,8,== Discography == | === As leader ===,739785
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"The Way I Feel (Blue Note, 1964)",0,9,== Discography == | === As leader ===,739785
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"(Blue Note, 1965)",1,10,== Discography == | === As leader ===,739785
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Let 'Em Roll (Blue Note, 1965)",0,11,== Discography == | === As leader ===,739785
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Got a Good Thing Goin' (Blue Note, 1966)",0,12,== Discography == | === As leader ===,739785
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"That Certain Feeling (Blue Note, 1968)",0,13,== Discography == | === As leader ===,739785
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Boogaloo (Blue Note, 1968 [1995])",0,14,== Discography == | === As leader ===,739785
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Boogaloo (Blue Note, 1968 [1995])",0,14,== Discography == | === As leader ===,739785
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Understanding (Blue Note, 1968)",0,15,== Discography == | === As leader ===,739785
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Accent on the Blues (Blue Note, 1969)",0,16,== Discography == | === As leader ===,739785
+1969-70,JJ,YEAR_REGEX_1,TIME,time_reference,"Memphis to New York Spirit (Blue Note, 1969-70 [1996])",0,17,== Discography == | === As leader ===,739785
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Memphis to New York Spirit (Blue Note, 1969-70 [1996])",0,17,== Discography == | === As leader ===,739785
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"Soul Connection (Nilva, 1983)",0,18,== Discography == | === As leader ===,739785
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Blue Planet Man (Evidence, 1993)",0,19,== Discography == | === As leader ===,739785
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Minor Swing (DIW, 1994)",0,20,== Discography == | === As leader ===,739785
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"This One's for Ja (DIW, 1996 [1998])",0,21,== Discography == | === As leader ===,739785
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"This One's for Ja (DIW, 1996 [1998])",0,21,== Discography == | === As leader ===,739785
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Eagle Eye Blues [live] (Excellence, 2001 [2006])",0,22,== Discography == | === As leader ===,739785
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"Eagle Eye Blues [live] (Excellence, 2001 [2006])",0,22,== Discography == | === As leader ===,739785
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"The Natural Soul (Blue Note, 1962)",0,25,== Discography == | === As sideman ===,739785
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"(Blue Note, 1963)",1,26,== Discography == | === As sideman ===,739785
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Signifyin' (Argo, 1963)",0,27,== Discography == | === As sideman ===,739785
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Possum Head (Argo, 1964)",0,28,== Discography == | === As sideman ===,739785
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Ha' Mercy (Cadet, 1971)",0,29,== Discography == | === As sideman ===,739785
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"A Man with a Horn (Blue Note, 1999)With Grant Green",0,30,== Discography == | === As sideman ===,739785
+Am,NNP,HALFDAY_REGEX_1,TIME,time_reference,"Am I Blue (Blue Note, 1964)",0,31,== Discography == | === As sideman ===,739785
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Am I Blue (Blue Note, 1964)",0,31,== Discography == | === As sideman ===,739785
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Iron City (Cobblestone, 1972)",0,32,== Discography == | === As sideman ===,739785
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Blues for Lou (Blue Note, 1999)With others",0,33,== Discography == | === As sideman ===,739785
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"George Braith, Laughing Soul (Prestige, 1966)",0,34,== Discography == | === As sideman ===,739785
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Ed Cherry, Second Look (Groovin' High, 1994)",0,35,== Discography == | === As sideman ===,739785
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Johnny Griffin & Matthew Gee, Soul Groove (Atlantic, 1963)",0,36,== Discography == | === As sideman ===,739785
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Red Holloway, The Burner (Prestige, 1964)",0,37,== Discography == | === As sideman ===,739785
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Clifford Jordan, Soul Fountain (Vortex, 1970)",0,38,== Discography == | === As sideman ===,739785
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Johnny Lytle, Everything Must Change (Muse, 1978)",0,39,== Discography == | === As sideman ===,739785
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Grassella Oliphant, The Grass Is Greener (Atlantic, 1967)",0,40,== Discography == | === As sideman ===,739785
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy Ponder, Mean Streets – No Bridges  (Muse, 1987)",0,41,== Discography == | === As sideman ===,739785
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Jimmy Ponder, Jump  (Muse, 1989)",0,42,== Discography == | === As sideman ===,739785
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Lloyd Price, The Exciting Lloyd Price (ABC-Paramount, 1959)",0,43,== Discography == | === As sideman ===,739785
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"(Blue Note, 1963)",1,44,== Discography == | === As sideman ===,739785
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Don Wilkerson, Shoutin' (Blue Note, 1963)",0,45,== Discography == | === As sideman ===,739785
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"John Zorn, The Big Gundown (Elektra Nonesuch, 1986)",0,46,== Discography == | === As sideman ===,739785
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"John Zorn, Spillane (Elektra Nonesuch, 1987)",0,47,== Discography == | === As sideman ===,739785

@@ -1,0 +1,44 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"April 15 , 1971","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Lara St. John  (born April 15, 1971) is a Canadian violinist.",0,0,,760781
+of two and the following year,IN CD CC DT JJ NN,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 LINKAGE_REGEX PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL MODIFIER MODIFIER MODIFIER TIME,time_reference,St. John began playing the violin at the age of two and the following year she began her first lessons with the instructor Richard Lawrence.,2,2,== Early life ==,760781
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976, at the age of five, she began making frequent trips with her mother and brother to Cleveland, Ohio, where the young St. John worked under the instruction of Linda Cerone.",4,2,== Early life ==,760781
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"In 1979, she spent a year in Paris studying with Gérard Jarry.",5,2,== Early life ==,760781
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 1979, she spent a year in Paris studying with Gérard Jarry.",5,2,== Early life ==,760781
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"In 1980, at the age of 9, she won grand prize at the Canadian Music Competition.",6,2,== Early life ==,760781
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"At age 10, St. John made her European debut with the Gulbenkian Orchestra in Lisbon, after which she spent three years touring the continent, including Spain, France, and Hungary.",7,2,== Early life ==,760781
+14 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"St. John has stated that, during her studies at the Curtis Institute of Music, she was sexually assaulted by one of her instructors, Jascha Brodsky, when she was 14 years old.",10,2,== Early life ==,760781
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"In 1988, when she was sixteen, she moved on her own to the former Soviet Union, becoming the youngest post-graduate student at the Moscow Conservatory.",13,2,== Early life ==,760781
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In that same year, St. John traveled throughout the Soviet Union and Eastern Europe, where she encountered the Romani people, a cultural experience that would later influence her musical performance projects.",14,2,== Early life ==,760781
+Eastern,NNP,HOLIDAY_REGEX,TIME,time_reference,"In that same year, St. John traveled throughout the Soviet Union and Eastern Europe, where she encountered the Romani people, a cultural experience that would later influence her musical performance projects.",14,2,== Early life ==,760781
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"In 2012, she produced and performed in the 25th anniversary concert of Astor Piazzolla’s ""Four Seasons of Buenos Aires"" in New York's Central Park.",0,9,== Career == | === Notable performances ===,760781
+2002 to 2007,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 2002 to 2007, St. John performed with the Canadian music ensemble Bowfire.",0,11,== Career == | === Groups ===,760781
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"In 1997, upon winning the Canada Council Stradivarius Prize, St. John was given the two-year use of a Lyall Stradivarius built in 1702.",0,13,== Instruments ==,760781
+1702,CD,YEAR_REGEX_1,TIME,time_reference,"In 1997, upon winning the Canada Council Stradivarius Prize, St. John was given the two-year use of a Lyall Stradivarius built in 1702.",0,13,== Instruments ==,760781
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"In 1999, an anonymous donor made a permanent loan to St. John of the 1779 ""Salabue"" Guadagnini.",1,13,== Instruments ==,760781
+of the 1779,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In 1999, an anonymous donor made a permanent loan to St. John of the 1779 ""Salabue"" Guadagnini.",1,13,== Instruments ==,760781
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"In 1999, St. John founded the artist-owned record company, Ancalagon LLC.",0,15,== Ancalagon Records ==,760781
+of 2007,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Her Bach: The Six Sonatas and Partitas for Violin Solo was iTunes' best-selling double album of 2007.,1,17,== Internet presence ==,760781
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Her previous recording, Bach: The Concerto Album, rose to number one in the iTunes' classical category in 2005, shortly after appearing in the ""strongly recommended"" section of Gramophone.",2,17,== Internet presence ==,760781
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"Apolkalypse Now, featuring St. John as a member of the group Polkastra, was released on iTunes in July 2009.",3,17,== Internet presence ==,760781
+July 2009,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Apolkalypse Now, featuring St. John as a member of the group Polkastra, was released on iTunes in July 2009.",3,17,== Internet presence ==,760781
+Today,NNP,TIMELINE_REGEX,TIME,time_reference,"St. John's work has been featured on NPR's All Things Considered, CNN's Showbiz Today, Fox News, the CBC, and the Bravo! special series, Live At the Rehearsal Hall.",0,21,"== Recognition, notable reviews and awards ==",760781
+the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"At the 2008 Beijing Olympics, gold medalist Nastia Liukin performed her floor routine to ""Variations on Dark Eyes (Occhi Chornye)"", from St. John's Gypsy album.",0,22,"== Recognition, notable reviews and awards ==",760781
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Winner 2011 Juno Classical Album of the Year – Large Ensemble or Soloist(s) with Large Ensemble Accompaniment,0,24,"== Recognition, notable reviews and awards ==",760781
+of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Winner 2011 Juno Classical Album of the Year – Large Ensemble or Soloist(s) with Large Ensemble Accompaniment,0,24,"== Recognition, notable reviews and awards ==",760781
+2018,CD,YEAR_REGEX_1,TIME,time_reference,In 2018 she served as artistic curator for Wolf Trap Chamber Music at the Barns.,0,25,"== Recognition, notable reviews and awards ==",760781
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"At the time of its release, St. John received attention for her then-controversial photo on the cover of her debut album, Bach Works for Violin Solo (1996).",1,25,"== Recognition, notable reviews and awards ==",760781
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"1996 – Bach Works for Violin Solo, released by Well Tempered Productions",0,31,== Discography ==,760781
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"1997 – Gypsy, released by Well Tempered Productions",0,32,== Discography ==,760781
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"2002 – Bach: The Concerto Album, released by Ancalagon Records",0,33,== Discography ==,760781
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"2003 – Re: Bach, released by Sony Classical",0,34,== Discography ==,760781
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"2007 – Bach: The Six Sonatas & Partitas for Violin Solo, released by Ancalagon Records",0,35,== Discography ==,760781
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008 –,0,36,== Discography ==,760781
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009 – Vivaldi: The Four Seasons / Piazzolla: The Four Seasons of Buenos Aires released by Ancalagon Records,0,37,== Discography ==,760781
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010 – Mozart: Scott & Lara St. John /,0,38,== Discography ==,760781
+2011,CD,YEAR_REGEX_1,TIME,time_reference,The Knights released by Ancalagon Records Winner 2011,1,38,== Discography ==,760781
+of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Juno Classical Album of the Year – Large Ensemble or Soloist(s) with Large Ensemble Accompaniment,2,38,== Discography ==,760781
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"2012 – Bach Sonatas: Lara St. John, Violin & Marie-Pierre Langlamet, Harp released by Ancalagon Records",0,39,== Discography ==,760781
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"2013 – Bach: The Violin Concertos, released by Ancalagon Records",0,40,== Discography ==,760781
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"2014 – Schubert, released by Ancalagon Records",0,41,== Discography ==,760781
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"2015 – Shiksa, released by Ancalagon Records",0,42,== Discography ==,760781
+2019,CD,YEAR_REGEX_1,TIME,time_reference,"2019 (in development) – Key of A - Beethoven Sonata No. 9, Opus 47 ""Kreutzer"", and Franck Sonata in A major, with Matt Herskowitz, Piano, to be released by Ancalagon Records",0,43,== Discography ==,760781

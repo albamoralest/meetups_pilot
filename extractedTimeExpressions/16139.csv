@@ -1,0 +1,35 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"January 13 , 1929 – May 23 , 1994","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Joe Pass (born Joseph Anthony Jacobi Passalaqua; January 13, 1929 – May 23, 1994) was an American jazz guitarist.",0,0,,16139
+"January 13 , 1929","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Pass was born in New Brunswick, New Jersey, on January 13, 1929.",0,2,== Early life ==,16139
+Pastor,NNP,TIMELINE_REGEX,TIME,time_reference,"He played with bands led by Tony Pastor and Charlie Barnet, honing his guitar skills while learning the ropes to the music industry.",1,3,== Early life ==,16139
+a few years,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Within a few years he had developed an addiction to heroin.,3,3,== Early life ==,16139
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,He moved to New Orleans for a year and played bebop for strippers.,4,3,== Early life ==,16139
+days,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Pass revealed to Robert Palmer of Rolling Stone that he had suffered a ""nervous breakdown"" in New Orleans ""because [he] had access to every kind of drug there and was up for days [...]",5,3,== Early life ==,16139
+of the 1950s,IN DT NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"""Pass spent much of the 1950s in and out of prison for drug-related convictions.",7,3,== Early life ==,16139
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Pass recorded a series of albums during the 1960s for Pacific Jazz Records, including Catch Me, 12-String Guitar, For Django, and Simplicity.",0,5,== Discovery and career ==,16139
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"In 1963, he received Downbeat magazine's New Star Award.",1,5,== Discovery and career ==,16139
+1965,CD,YEAR_REGEX_1,TIME,time_reference,He toured with George Shearing in 1965.,1,6,== Discovery and career ==,16139
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1960s, he did mostly TV and recording session work in Los Angeles.",2,6,== Discovery and career ==,16139
+December 1973,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Norman Granz, the producer of Jazz at the Philharmonic and the founder of Verve Records, signed Pass to Pablo Records in December 1973.",3,6,== Discovery and career ==,16139
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"In 1974, Pass released his solo album Virtuoso on Pablo.",4,6,== Discovery and career ==,16139
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Also in 1974, Pablo released the album The Trio with Pass, Oscar Peterson, and Niels-Henning Ørsted Pedersen.",5,6,== Discovery and career ==,16139
+the 1970s and 1980s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,He performed with them on many occasions throughout the 1970s and 1980s.,6,6,== Discovery and career ==,16139
+of 1975,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"At the Grammy Awards of 1975, The Trio won the Grammy Award for Best Jazz Performance by a Group.",7,6,== Discovery and career ==,16139
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Pass and Ella Fitzgerald recorded six albums together on Pablo toward the end of Fitzgerald's career: Take Love Easy (1973), Fitzgerald and Pass...",9,6,== Discovery and career ==,16139
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Again (1976), Hamburg Duets - 1976 (1976), Sophisticated Lady (1975, 1983), Speak Love (1983), and Easy Living (1986).",10,6,== Discovery and career ==,16139
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Again (1976), Hamburg Duets - 1976 (1976), Sophisticated Lady (1975, 1983), Speak Love (1983), and Easy Living (1986).",10,6,== Discovery and career ==,16139
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"Again (1976), Hamburg Duets - 1976 (1976), Sophisticated Lady (1975, 1983), Speak Love (1983), and Easy Living (1986).",10,6,== Discovery and career ==,16139
+"1975 , 1983","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Again (1976), Hamburg Duets - 1976 (1976), Sophisticated Lady (1975, 1983), Speak Love (1983), and Easy Living (1986).",10,6,== Discovery and career ==,16139
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"Again (1976), Hamburg Duets - 1976 (1976), Sophisticated Lady (1975, 1983), Speak Love (1983), and Easy Living (1986).",10,6,== Discovery and career ==,16139
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Again (1976), Hamburg Duets - 1976 (1976), Sophisticated Lady (1975, 1983), Speak Love (1983), and Easy Living (1986).",10,6,== Discovery and career ==,16139
+1992,CD,YEAR_REGEX_1,TIME,time_reference,Pass was diagnosed with liver cancer in  1992.,0,8,== Later life and death ==,16139
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Although he was initially responsive to treatment and continued to play into 1993, his health eventually declined, forcing him to cancel his tour with Pepe Romero, Paco Peña, and Leo Kottke.",1,8,== Later life and death ==,16139
+"May 7 , 1994","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Pass performed for the final time on May 7, 1994, with fellow guitarist John Pisano at a nightclub in Los Angeles.",2,8,== Later life and death ==,16139
+a nightclub,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Pass performed for the final time on May 7, 1994, with fellow guitarist John Pisano at a nightclub in Los Angeles.",2,8,== Later life and death ==,16139
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"""In 1994, Joe Pass died from liver cancer in Los Angeles, California at the age of 65.",4,8,== Later life and death ==,16139
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"The follow up to 1993's Joe Pass & Co. Live at Yoshi's, this release was colored by sad circumstances: both bassist Monty Budwig and Pass were stricken with fatal illnesses.",0,9,== Later life and death ==,16139
+of years,IN NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Slight moustached, fairly balding, he frowns over his fretwork like a worried head waiter with more guests than tables but the sound that comes out could only be the confident product of years of devotion to the instrument...",1,12,== Legacy ==,16139
+Presents,NNP,TIMELINE_REGEX,TIME,time_reference,"Mel Bay Presents Joe Pass ""Off the Record.""",0,15,== Bibliography ==,16139
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Mel Bay, 1993.",1,15,== Bibliography ==,16139
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Mel Bay, 2003.",1,16,== Bibliography ==,16139
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Tokyo: Seiunsha, 2000.",2,17,== Bibliography ==,16139

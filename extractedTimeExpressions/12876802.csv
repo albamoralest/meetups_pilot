@@ -1,0 +1,58 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"August 14 , 1929 – May 22 , 2001","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Lorez Alexandria, born Dolorez Alexandria Turner (August 14, 1929 – May 22, 2001) was an American jazz singer, described as ""one of the most gifted and underrated jazz singers of the twentieth century"".",0,0,,12876802
+of the twentieth century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 ORDINAL_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Lorez Alexandria, born Dolorez Alexandria Turner (August 14, 1929 – May 22, 2001) was an American jazz singer, described as ""one of the most gifted and underrated jazz singers of the twentieth century"".",0,0,,12876802
+"August 14 , 1929","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Dolorez Alexandria Turner was born on August 14, 1929, in Chicago, Illinois.",0,2,== Early life ==,12876802
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"In 1957, Alexandria was signed to King Records.",0,5,== Career == | === King records ===,12876802
+That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"That year saw the release of her first album This is Lorez with the King Fleming Quartet, followed by Lorez Sings Pres: A Tribute to Lester Young, which was an homage to the tenor saxophonist.",1,5,== Career == | === King records ===,12876802
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"She recorded two more albums for King Records in 1959, releasing the LPs The Band Swings – Lorez Sings and Singing Songs That Everyone Knows back to back.",5,5,== Career == | === King records ===,12876802
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Alexandria collaborated with pianist Ramsey Lewis, with whom she had performed in 1958, and some of Count Basie's sidemen; the LP Early in the Morning was released on Argo in 1960.",0,7,== Career == | === Argo records ===,12876802
+the Morning,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Alexandria collaborated with pianist Ramsey Lewis, with whom she had performed in 1958, and some of Count Basie's sidemen; the LP Early in the Morning was released on Argo in 1960.",0,7,== Career == | === Argo records ===,12876802
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Alexandria collaborated with pianist Ramsey Lewis, with whom she had performed in 1958, and some of Count Basie's sidemen; the LP Early in the Morning was released on Argo in 1960.",0,7,== Career == | === Argo records ===,12876802
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"She recorded three more LPs for the label – including Sing No Sad Songs for Me in 1961 which featured a full-string section, and Deep Roots in 1962, which featured trumpeter Howard McGhee.",0,8,== Career == | === Argo records ===,12876802
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"She recorded three more LPs for the label – including Sing No Sad Songs for Me in 1961 which featured a full-string section, and Deep Roots in 1962, which featured trumpeter Howard McGhee.",0,8,== Career == | === Argo records ===,12876802
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Her last album for Argo, and the last album that she made in Chicago, For Swingers Only, came out in 1963 before she left the midwest for California.",1,8,== Career == | === Argo records ===,12876802
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"In 1964 Alexandria moved to Los Angeles in pursuit of further opportunities to perform in clubs and record, quickly becoming a featured vocalist at venues including the Parisian Room and Marla's Memory Lane.",0,10,== Career == | === Impulse! Records ===,12876802
+seven years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"She signed to Impulse!, a jazz label, was anticipated to be her jump onto the national stage after seven years of working with independent labels at King and Argo.",1,10,== Career == | === Impulse! Records ===,12876802
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Alexandria's 1964 album Alexandria the Great, her first on Impulse!, was produced by Bob Thiele.",2,10,== Career == | === Impulse! Records ===,12876802
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Her second album on Impulse!, More of the Great Lorez Alexandria, was released later in 1964 and produced by Tutti Camarata.",0,11,== Career == | === Impulse! Records ===,12876802
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Some people listen to a song for years and don't know what the lyric is.""",1,14,== Musical style ==,12876802
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"In 1965 while listening to ""Violets For Your Furs"" by Billie Holiday, Alexandria said:""There's not too much left to say about Billie Holiday, how is it possible for a woman to be this great?",2,14,== Musical style ==,12876802
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Beginning in 1978 and continuing until 1993, Alexandria resumed recording, releasing several albums with a number of record labels, including Discovery, Trend, and Muse.",0,16,== Later recordings ==,12876802
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Beginning in 1978 and continuing until 1993, Alexandria resumed recording, releasing several albums with a number of record labels, including Discovery, Trend, and Muse.",0,16,== Later recordings ==,12876802
+1980 and 1984,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 1980 and 1984, she released a three-volume tribute to the composer Johnny Mercer, Sings the Songs of Johnny Mercer, Vol. 1, Sings the Songs of Johnny Mercer, Vol.",1,16,== Later recordings ==,12876802
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"On Harlem Butterfly and Tangerine, which later received a Grammy nomination in 1984, Alexandria was supported by Los Angeles pianist Gildo Mahones and his quartet featuring Herman Riley on saxophone, Andy Simpkins on bass, and Carl Burnett on drums.",5,16,== Later recordings ==,12876802
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Gordon Brisker, the tenor saxophonist, contributed many of the arrangements for Alexandria's 1987 album Dear to My Heart, released by Trend Records.",0,17,== Later recordings ==,12876802
+spring 1992,NN CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"I'll Never Stop Loving You, her second album released on Muse Records in spring 1992 featured Herman Riley on tenor saxophone and flute and pianist Gildo Mahones, with whom she had collaborated in 1984.",2,17,== Later recordings ==,12876802
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"I'll Never Stop Loving You, her second album released on Muse Records in spring 1992 featured Herman Riley on tenor saxophone and flute and pianist Gildo Mahones, with whom she had collaborated in 1984.",2,17,== Later recordings ==,12876802
+June 1993,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"On her last album, Star Eyes, released in June 1993, Alexandria was joined by tenor saxophonist Houston Person, guitarist Bruce Forman, pianist Stan Hope, bassist Peter Weiss and drummer Michael Carvin.",3,17,== Later recordings ==,12876802
+day,NN,TIME_UNIT_REGEX,TIME,time_reference,"After retiring in Gardena, California, she told a friend: ""I'm tired – I've had my day.""",1,18,== Later recordings ==,12876802
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"In 1989, Impulse! reissued Alexandria the Great and More of the Great Lorez Alexandria on a single CD.",2,18,== Later recordings ==,12876802
+2004 and 2005,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 2004 and 2005, Verve Records also re-released both records separately.",3,18,== Later recordings ==,12876802
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, at the age of 71, Alexandria died, remembered by some as one of the most under-appreciated jazz vocalists of the 20th century.",0,19,== Later recordings ==,12876802
+of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"In 2001, at the age of 71, Alexandria died, remembered by some as one of the most under-appreciated jazz vocalists of the 20th century.",0,19,== Later recordings ==,12876802
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"(King, 1957)",1,21,== Discography ==,12876802
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Lorez Sings Pres (Federal, 1958)",0,22,== Discography ==,12876802
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"The Band Swings - Lorez Sings (King, 1959)",0,23,== Discography ==,12876802
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Standards with a Slight Touch of Jazz [AKA Singing Songs Everybody Knows] (King, 1960)",0,24,== Discography ==,12876802
+the Morning,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Early in the Morning (Argo, 1960) -with Ramsey Lewis Trio",0,25,== Discography ==,12876802
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Early in the Morning (Argo, 1960) -with Ramsey Lewis Trio",0,25,== Discography ==,12876802
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Sing No Sad Songs for Me (Argo, 1961)",0,26,== Discography ==,12876802
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Deep Roots (Argo, 1962)",0,27,== Discography ==,12876802
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"For Swingers Only (Argo, 1963)",0,28,== Discography ==,12876802
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Alexandria the Great (Impulse!, 1964)",0,29,== Discography ==,12876802
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"More of the Great Lorez Alexandria (Impulse!, 1964)",0,30,== Discography ==,12876802
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Didn't We (Pzazz, 1968)",0,31,== Discography ==,12876802
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"In a Different Bag (Pzazz, 1969)",0,32,== Discography ==,12876802
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"From Broadway to Hollywood (Trio [Japan], 1977)",0,33,== Discography ==,12876802
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"(Discovery, 1978)",1,34,== Discography ==,12876802
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"A Woman Knows (Trend, 1979)",0,35,== Discography ==,12876802
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Sings the Songs of Johnny Mercer, Vol. 1 (Discovery, 1981)",0,36,== Discography ==,12876802
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Harlem Butterfly (Discovery, 1984) -with",2,37,== Discography ==,12876802
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"III: Tangerine (Trend, 1985) -with",1,38,== Discography ==,12876802
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Dear to My Heart (Trend, 1987)",0,39,== Discography ==,12876802
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"My One and Only Love (CBS/Sony [Japan], 1987)",0,40,== Discography ==,12876802
+May,NNP,MONTH_REGEX,TIME,time_reference,"May I Come in (Muse, 1991)",0,41,== Discography ==,12876802
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"May I Come in (Muse, 1991)",0,41,== Discography ==,12876802
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"I'll Never Stop Loving You (Muse, 1993)",0,42,== Discography ==,12876802
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Talk About Cozy (Hindsight, 1995)",0,43,== Discography ==,12876802
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Star Eyes (Muse, 1996)",0,44,== Discography ==,12876802

@@ -1,0 +1,16 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"July 3 , 1846","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,0
+"December 27 , 1919","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,0
+now,RB,TIMELINE_REGEX,TIME,time_reference,1,2
+1870,CD,YEAR_REGEX_1,TIME,time_reference,2,3
+1873,CD,YEAR_REGEX_1,TIME,time_reference,3,3
+the 1880s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,4,3
+1888,CD,YEAR_REGEX_1,TIME,time_reference,4,3
+1891,CD,YEAR_REGEX_1,TIME,time_reference,5,3
+1919,CD,YEAR_REGEX_1,TIME,time_reference,0,4
+1880,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+1883,CD,YEAR_REGEX_1,TIME,time_reference,4,6
+1880,CD,YEAR_REGEX_1,TIME,time_reference,1,10
+now,RB,TIMELINE_REGEX,TIME,time_reference,3,10
+some hundred years ago,DT CD NNS RB,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,4,10
+2008,CD,YEAR_REGEX_1,TIME,time_reference,1,14

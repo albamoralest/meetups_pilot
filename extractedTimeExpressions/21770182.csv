@@ -1,0 +1,40 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"May 28 , 1949 – February 2 , 2015","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Joseph Alfidi (May 28, 1949 – February 2, 2015) was an American pianist, composer, and conductor and initially a child prodigy.",0,0,,21770182
+"November 18 , 1956","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On November 18, 1956, the seven-year-old appeared in Carnegie Hall, conducting the Symphony of the Air.",1,2,== Biography ==,21770182
+"November 14th , 1956","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On November 14th, 1956 he was a guest on ""I've Got a Secret"" starring Garry Moore where he performed on four different instruments.",4,2,== Biography ==,21770182
+"November 17 , 1957","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On November 17, 1957, at the age of eight, he was a guest on the panel show What's My Line?.",5,2,== Biography ==,21770182
+"1957 , 1958","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Further appearances in New York with the Symphony of the Air followed in 1957, 1958, and 1960, and Joey conducted in many other American cities and toured Europe.",6,2,== Biography ==,21770182
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Further appearances in New York with the Symphony of the Air followed in 1957, 1958, and 1960, and Joey conducted in many other American cities and toured Europe.",6,2,== Biography ==,21770182
+late November 1960,JJ NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,"In late November 1960, the 11-year-old appeared with the Antwerp Philharmonic and was hailed as ""the greatest child prodigy since Mozart"".",10,2,== Biography ==,21770182
+"December 1 , 1960","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On December 1, 1960, he gave a royal command performance at the Palais des Beaux-Arts in Brussels before the Dowager Queen Elisabeth of Belgium, appearing in his multiple roles as pianist, conductor, and composer.",11,2,== Biography ==,21770182
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"In 1965, he received his Diplôme Supérieur for the piano and joined the Chapelle Musicale Reine Elisabeth for a three-year term of study.",1,3,== Biography ==,21770182
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"In 1972, Alfidi entered the prestigious Queen Elisabeth Competition in Brussels and won 3rd prize in a tightly contested field, placing ahead of the Polish-American Emanuel Ax and Frenchman Cyprien Katsaris, highly celebrated pianists in their own right.",2,3,== Biography ==,21770182
+The following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The following year, he took First Prize at the 1973 Concours Complet International in Ourense, Spain.",3,3,== Biography ==,21770182
+the 1973,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The following year, he took First Prize at the 1973 Concours Complet International in Ourense, Spain.",3,3,== Biography ==,21770182
+the 1972,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Several of Alfidi's performances from the 1972 Queen Elisabeth Competition were issued on LP, including his live Rachmaninov 3rd Concerto from the final round with the Belgian National Orchestra (on the Deutsche Grammophon label), and various solo and duo pieces including works of Samuel Barber ; Frédéric Chopin (Ballade No 1, Barcarolle, Scherzo Nos 2 & 4); Beethoven (Moonlight, Pathétique, Appassionata Sonatas);",4,3,== Biography ==,21770182
+one of the 20th century,CD IN DT JJ NN,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER MODIFIER NUMERAL TIME,time_range,"Arthur Rubinstein, one of the 20th century's greatest pianists, heard Alfidi's LP recording of the Rachmaninov 3rd Concerto and was very impressed by it.",7,3,== Biography ==,21770182
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"In 1979, the French film maker François Reichenbach produced for Televisa-Mexico a series of documentaries, including one entitled Arthur Rubinstein and the Young - Joe Alfidi & Arthur Rubinstein in which Alfidi is invited to Rubinstein's Paris apartment, and is shown performing excerpts from Liszt Sonata in B minor, Chopin Scherzo",8,3,== Biography ==,21770182
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"In 1982, Alfidi appeared on European television, performing Rachmaninoff's Piano Concerto No 4 with the RTBF Nouvel Orchestra (of Belgium) under Meir Minsky.",1,4,== Biography ==,21770182
+November 1983,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,A concert featuring Alfidi as soloist with the Lorraine Philharmonic Orchestra was televised on French television FR3 in November 1983.,2,4,== Biography ==,21770182
+2 February 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"He died on 2 February 2015, at the age of 65.",4,4,== Biography ==,21770182
+1956,CD,YEAR_REGEX_1,TIME,time_reference,(1956).,0,7,== Further reading ==,21770182
+November 19,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,November 19.,3,7,== Further reading ==,21770182
+1957,CD,YEAR_REGEX_1,TIME,time_reference,(1957).,0,8,== Further reading ==,21770182
+November 25,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,November 25.,3,8,== Further reading ==,21770182
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Briggs, John (1958).",0,9,== Further reading ==,21770182
+September 29,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,September 29.,3,9,== Further reading ==,21770182
+1960,CD,YEAR_REGEX_1,TIME,time_reference,(1960).,0,10,== Further reading ==,21770182
+May 14,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,May 14.,3,10,== Further reading ==,21770182
+1960,CD,YEAR_REGEX_1,TIME,time_reference,(1960).,0,11,== Further reading ==,21770182
+November 29,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,November 29.,3,11,== Further reading ==,21770182
+1960,CD,YEAR_REGEX_1,TIME,time_reference,(1960).,0,12,== Further reading ==,21770182
+December 2,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,December 2.,3,12,== Further reading ==,21770182
+1962,CD,YEAR_REGEX_1,TIME,time_reference,(1962).,0,13,== Further reading ==,21770182
+October 8,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,October 8.,3,13,== Further reading ==,21770182
+1964,CD,YEAR_REGEX_1,TIME,time_reference,(1964).,0,14,== Further reading ==,21770182
+January 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,January 17.,3,14,== Further reading ==,21770182
+1969,CD,YEAR_REGEX_1,TIME,time_reference,(1969).,0,15,== Further reading ==,21770182
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"""Joey Is Now Joseph"".",1,15,== Further reading ==,21770182
+September 28,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,September 28.,3,15,== Further reading ==,21770182
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Henahan, Donal (1969).",0,16,== Further reading ==,21770182
+October 6,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,October 6.,3,16,== Further reading ==,21770182

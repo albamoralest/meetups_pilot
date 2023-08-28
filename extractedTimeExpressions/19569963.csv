@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"June 23 , 1957 – June 13 , 1996","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Keith Palmer (June 23, 1957 – June 13, 1996) was an American country music artist.",0,0,,19569963
+"June 23 , 1957","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He was born Bryon Keith Palmer on June 23, 1957, in Hayti, Missouri, United States, and was raised in Corning, Arkansas.",1,0,,19569963
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"He began his music career in 1975 as pianist for the Dixie Echoes, where he remained for three years.",0,1,,19569963
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He began his music career in 1975 as pianist for the Dixie Echoes, where he remained for three years.",0,1,,19569963
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"In 1991, Palmer released an album for Epic Records which produced two singles: ""Don't Throw Me in the Briarpatch"" and ""Forgotten but Not Gone"", both of which entered the U.S. Hot Country Singles & Tracks chart (now Hot Country Songs).",1,1,,19569963
+now,RB,TIMELINE_REGEX,TIME,time_reference,"In 1991, Palmer released an album for Epic Records which produced two singles: ""Don't Throw Me in the Briarpatch"" and ""Forgotten but Not Gone"", both of which entered the U.S. Hot Country Singles & Tracks chart (now Hot Country Songs).",1,1,,19569963
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"He also co-wrote Reba McEntire's 1991 single ""For My Broken Heart"".",2,1,,19569963
+"June 13 , 1996","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Palmer died of cancer on June 13, 1996, in White House, Tennessee, at age 38.",3,1,,19569963
+1991,CD,YEAR_REGEX_1,TIME,time_reference,Keith Palmer (1991),1,2,== Keith Palmer (1991) ==,19569963
+Tonight,NNP,DAY_TIME_REGEX,TIME,time_reference,"""My Arms Tonight"" (Jeff Tweel, Larry Shell) – 2:47",0,8,== Keith Palmer (1991) == | === Track listing ===,19569963
+Yesterday,NN,TIMELINE_REGEX,TIME,time_reference,"""She Left Me Yesterday"" (Gary Harrison, Patrick Finch, Tim Mensy) – 3:31",0,10,== Keith Palmer (1991) == | === Track listing ===,19569963
+Springer,NNP,SEASON_REGEX,TIME,time_reference,"""When I Close My Eyes"" (Nettie Musick, Mark Alan Springer) – 3:37",0,12,== Keith Palmer (1991) == | === Track listing ===,19569963

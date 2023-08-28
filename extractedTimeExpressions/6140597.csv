@@ -1,0 +1,24 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+Sunday,NNP,WEEK_REGEX,TIME,time_reference,"at the Disco, Ariana Grande, Demi Lovato, Selena Gomez, Kesha, One Direction, Bea Miller, Krewella, Sum 41, Simple Plan, All Time Low, Good Charlotte, 3OH!3, Boys Like Girls, The Used, and Taking Back Sunday.",2,0,,6140597
+Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years ==,1,1,== Early years ==,6140597
+"May 7 , 1976","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Matt Squire was born in Washington, D.C. on May 7, 1976 to John Squire and Lynn Zwerin.",0,2,== Early years ==,6140597
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,Squire attended high school at Georgetown Day School and graduated in 1994.,3,2,== Early years ==,6140597
+1994,CD,YEAR_REGEX_1,TIME,time_reference,Squire attended high school at Georgetown Day School and graduated in 1994.,3,2,== Early years ==,6140597
+1999,CD,YEAR_REGEX_1,TIME,time_reference,He went on to attend Boston University and graduated in 1999.,4,2,== Early years ==,6140597
+late 2004,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In late 2004, Squire moved to the Washington, D.C. area to open up SOMD studio in College Park, Maryland.",4,3,== Early years ==,6140597
+May 2007,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Prior to his May 2007 marriage, Squire moved into a new home down the road from College Park and reopened SOMD studio in his home.",7,3,== Early years ==,6140597
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"After years of success in Maryland, Squire moved to Los Angeles.",8,3,== Early years ==,6140597
+Currently,RB,TIMELINE_REGEX,TIME,time_reference,"Currently, Squire maintains SOMD studio in Maryland and also works out of Los Angeles.",9,3,== Early years ==,6140597
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"In 2015, Matt Squire joined the judging panel for The 14th Annual Independent Music Awards.",0,7,== Career ==,6140597
+More recently,RBR RB,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"More recently, he's worked with Tampa-based post-hardcore act, Underøath, on their first effort in eight years, Erase Me and Australian metalcore band, The Amity Affliction, on their album Misery.",2,8,== Career ==,6140597
+eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"More recently, he's worked with Tampa-based post-hardcore act, Underøath, on their first effort in eight years, Erase Me and Australian metalcore band, The Amity Affliction, on their album Misery.",2,8,== Career ==,6140597
+2018,CD,YEAR_REGEX_1,TIME,time_reference,"In 2018, Squire entered the studio with The Maine, to record the band's follow up to Lovely, Little, Lonely and first collaboration with Squire in ten years.",0,9,== Career ==,6140597
+ten years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 2018, Squire entered the studio with The Maine, to record the band's follow up to Lovely, Little, Lonely and first collaboration with Squire in ten years.",0,9,== Career ==,6140597
+The Weekend,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Forever The Sickest Kids - The Weekend: Friday (p),0,25,== Selected discography == | === Albums ===,6140597
+Friday,NNP,WEEK_REGEX,TIME,time_reference,Forever The Sickest Kids - The Weekend: Friday (p),0,25,== Selected discography == | === Albums ===,6140597
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,Hollywood Undead - Day of the Dead (w/p)*,0,29,== Selected discography == | === Albums ===,6140597
+Sunday,NNP,WEEK_REGEX,TIME,time_reference,Taking Back Sunday - New Again (p/e)*,0,41,== Selected discography == | === Albums ===,6140597
+Nights,NNP,DAY_TIME_REGEX,TIME,time_reference,The Static Age - Neon Nights Electric Lives (p/m/e),0,52,== Selected discography == | === Albums ===,6140597
+AM,VBP,HALFDAY_REGEX_1,TIME,,Toothgrinder - I AM (w/p/m/e),0,54,== Selected discography == | === Albums ===,6140597
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"One Direction - ""Up All Night"" and ""Na Na Na"" (w/p)",0,74,== Selected discography == | === Singles ===,6140597
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Nominated for Boston Music Award 2007,0,85,== Awards ==,6140597

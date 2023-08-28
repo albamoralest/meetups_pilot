@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"December 2 , 1950","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"John Wesley Ryles (born December 2, 1950) is an American country music artist.",0,0,,16667611
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Ryles recorded a string of hit country songs, beginning in 1968 when he was still a teenager, and continuing through the 1980s.",1,0,,16667611
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Ryles recorded a string of hit country songs, beginning in 1968 when he was still a teenager, and continuing through the 1980s.",1,0,,16667611
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"At age 17, he made his debut in 1968 with the single ""Kay"", a Top Ten hit on the Billboard Hot Country Singles (now Hot Country Songs) charts, and the title track to his debut album for Columbia Records.",0,2,== Biography ==,16667611
+now,RB,TIMELINE_REGEX,TIME,time_reference,"At age 17, he made his debut in 1968 with the single ""Kay"", a Top Ten hit on the Billboard Hot Country Singles (now Hot Country Songs) charts, and the title track to his debut album for Columbia Records.",0,2,== Biography ==,16667611
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"It was followed by two non-album singles, ""Tell It Like It Is"" and ""When a Man Loves a Woman,"" both on the Music Mill label in 1976.",2,2,== Biography ==,16667611
+the Night,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"When that label merged with MCA Records, he issued the album Let the Night Begin there.",5,2,== Biography ==,16667611
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Two more singles followed on the Primero label: ""We've Got to Start Meeting Like This"" and ""Just Once,"" followed by ""She Took It Too Well"" on 16th Avenue Records in 1984.",0,3,== Biography ==,16667611
+1987 and 1988,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,The last label for which he recorded was Warner Bros. Records between 1987 and 1988.,1,3,== Biography ==,16667611
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Since the release of his last single in 1988, Ryles has served primarily as a background vocalist.",3,3,== Biography ==,16667611

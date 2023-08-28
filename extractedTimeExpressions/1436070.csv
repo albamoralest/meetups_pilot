@@ -1,0 +1,64 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"December 25 , 1966","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Mauro Picotto (born December 25, 1966) is an Italian electronic music producer and DJ, and previously a member of the Italian Euro house group ""R.A.F."".",0,0,,1436070
+previously,RB,TIMELINE_REGEX,TIME,time_reference,"Mauro Picotto (born December 25, 1966) is an Italian electronic music producer and DJ, and previously a member of the Italian Euro house group ""R.A.F."".",0,0,,1436070
+now,RB,TIMELINE_REGEX,TIME,time_reference,"He now promotes his own club night, Meganite (named after an early 21st-century track of his), which has run for consecutive years annually since 2004 at Privilege Ibiza.",0,1,,1436070
+night,NN,DAY_TIME_REGEX,TIME,time_reference,"He now promotes his own club night, Meganite (named after an early 21st-century track of his), which has run for consecutive years annually since 2004 at Privilege Ibiza.",0,1,,1436070
+consecutive years annually,JJ NNS RB,PREFIX_REGEX_1 TIME_UNIT_REGEX PERIOD_REGEX,MODIFIER TIME TIME,time_reference,"He now promotes his own club night, Meganite (named after an early 21st-century track of his), which has run for consecutive years annually since 2004 at Privilege Ibiza.",0,1,,1436070
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"He now promotes his own club night, Meganite (named after an early 21st-century track of his), which has run for consecutive years annually since 2004 at Privilege Ibiza.",0,1,,1436070
+now,RB,TIMELINE_REGEX,TIME,time_reference,"He now produces under his own record label, Bakerloo.",1,1,,1436070
+1992 and 1996,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 1992 and 1996, R.A.F. would release a number of dance hits, as well as achieving a Top 40 Singles Chart hit in the United Kingdom with ""We've Got To Live Together"".",3,4,== Biography ==,1436070
+a couple of years,DT NN IN NNS,INARTICLE_REGEX PREFIX_REGEX_2 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"Picotto and Bortolotti would see greater success a couple of years later together when another of their co-writes, ""Light My Fire"", became a big Eurodance hit when remixed by Bortolotti's Cappella, with the song (once licensed to Pete Waterman's PWL Records) becoming a number 7 hit in the United Kingdom in the spring of 1994.",0,5,== Biography ==,1436070
+the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"Picotto and Bortolotti would see greater success a couple of years later together when another of their co-writes, ""Light My Fire"", became a big Eurodance hit when remixed by Bortolotti's Cappella, with the song (once licensed to Pete Waterman's PWL Records) becoming a number 7 hit in the United Kingdom in the spring of 1994.",0,5,== Biography ==,1436070
+of 1994,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Picotto and Bortolotti would see greater success a couple of years later together when another of their co-writes, ""Light My Fire"", became a big Eurodance hit when remixed by Bortolotti's Cappella, with the song (once licensed to Pete Waterman's PWL Records) becoming a number 7 hit in the United Kingdom in the spring of 1994.",0,5,== Biography ==,1436070
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"In 1996, Bortolotti decided to make Picotto a partner in Media Records alongside him, while a track released under Picotto's own name, ""Bakerloo Symphony"", ended up being a number 1 in Italy for eight weeks.1998 saw the release of the Gatecrasher anthem ""Lizard (Gonna Get You)"".",0,6,== Biography ==,1436070
+eight weeks.1998,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1996, Bortolotti decided to make Picotto a partner in Media Records alongside him, while a track released under Picotto's own name, ""Bakerloo Symphony"", ended up being a number 1 in Italy for eight weeks.1998 saw the release of the Gatecrasher anthem ""Lizard (Gonna Get You)"".",0,6,== Biography ==,1436070
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"""I Feel Love"" – released under the pseudonym CRW – reached number 15 in 2000, whilst ""Communication (Somebody Answer The Phone)"" – which he produced alongside Mario Più – reached the UK Top 5 at the end of 1999.",5,6,== Biography ==,1436070
+the end of 1999,DT NN IN CD,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER TIME,time_reference,"""I Feel Love"" – released under the pseudonym CRW – reached number 15 in 2000, whilst ""Communication (Somebody Answer The Phone)"" – which he produced alongside Mario Più – reached the UK Top 5 at the end of 1999.",5,6,== Biography ==,1436070
+spring 2000,NN CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"His remix of ""On The Beach"" by York also helped to propel that song into the UK Top Five in spring 2000, when it was selected by the record company – Manifesto – to be used as the official radio edit.",6,6,== Biography ==,1436070
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Two solo albums, The Double Album (2000) and The Others (2002), followed, as well as remixes and productions for Freddie Mercury, Jimmy Somerville, the Pet Shop Boys and U2.",7,6,== Biography ==,1436070
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Two solo albums, The Double Album (2000) and The Others (2002), followed, as well as remixes and productions for Freddie Mercury, Jimmy Somerville, the Pet Shop Boys and U2.",7,6,== Biography ==,1436070
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Upon leaving Media Records in 2002, Picotto formed Bakerloo Music, as well as a new label Alchemy, releasing several club tracks, including ""New Time New Place"" and the ""Alchemy EP"".",8,6,== Biography ==,1436070
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,That same year he launched his Meganite party at the Miami Winter Music Conference.,9,6,== Biography ==,1436070
+Winter,NNP,SEASON_REGEX,TIME,time_reference,That same year he launched his Meganite party at the Miami Winter Music Conference.,9,6,== Biography ==,1436070
+May 2017,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In May 2017 he released another album ""A Call In The Club"".",10,6,== Biography ==,1436070
+Saturday 7 May 2005,NNP CD NNP CD,WEEK_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,TIME NUMERAL TIME TIME,time_reference,"On Saturday 7 May 2005, Picotto headlined the dance stage at BBC Radio 1's Big Weekend in Sunderland, in front of thousands of people.",0,7,== Biography ==,1436070
+Weekend,NN,TIME_UNIT_REGEX,TIME,time_reference,"On Saturday 7 May 2005, Picotto headlined the dance stage at BBC Radio 1's Big Weekend in Sunderland, in front of thousands of people.",0,7,== Biography ==,1436070
+every Wednesday,DT NNP,PREFIX_REGEX_1 WEEK_REGEX,MODIFIER TIME,time_reference,Picotto's 'Meganite' party is held every Wednesday at Ibiza's Privilege club.,0,9,== Biography ==,1436070
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Zicky – Franchino) (1999),1,12,== Discography == | === Albums ===,1436070
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Tranceformer 2000 (With Lange) (1999),0,13,== Discography == | === Albums ===,1436070
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Tranceformer 2000 (With Lange) (1999),0,13,== Discography == | === Albums ===,1436070
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Megamind & Mario Più & R.A.F.) (1999),1,14,== Discography == | === Albums ===,1436070
+2000,CD,YEAR_REGEX_1,TIME,time_reference,The Album (2000),0,15,== Discography == | === Albums ===,1436070
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Make Yourself Heard @ Homelands (2000),0,16,== Discography == | === Albums ===,1436070
+2000,CD,YEAR_REGEX_1,TIME,time_reference,The Double Album (2000),0,17,== Discography == | === Albums ===,1436070
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Zicky & Franchino) (2000),1,18,== Discography == | === Albums ===,1436070
+2000,CD,YEAR_REGEX_1,TIME,time_reference,The Sound of BXR (2000),0,19,== Discography == | === Albums ===,1436070
+2000,CD,YEAR_REGEX_1,TIME,time_reference,The Lizard Man (2000),0,20,== Discography == | === Albums ===,1436070
+2001,CD,YEAR_REGEX_1,TIME,time_reference,VIP Lounge (2001),0,21,== Discography == | === Albums ===,1436070
+2001,CD,YEAR_REGEX_1,TIME,time_reference,In The Mix – Metamorphose (2001),0,22,== Discography == | === Albums ===,1436070
+2001,CD,YEAR_REGEX_1,TIME,time_reference,The Triple Album (Special Edition) (2001),0,23,== Discography == | === Albums ===,1436070
+2001,CD,YEAR_REGEX_1,TIME,time_reference,FM Compilation Vol. 2 (2001),1,24,== Discography == | === Albums ===,1436070
+2001,CD,YEAR_REGEX_1,TIME,time_reference,In The Mix (2001),1,25,== Discography == | === Albums ===,1436070
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,Rush Hour (2001),0,26,== Discography == | === Albums ===,1436070
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Rush Hour (2001),0,26,== Discography == | === Albums ===,1436070
+2002,CD,YEAR_REGEX_1,TIME,time_reference,(2002),1,27,== Discography == | === Albums ===,1436070
+2002,CD,YEAR_REGEX_1,TIME,time_reference,The Others (2002),0,28,== Discography == | === Albums ===,1436070
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Live in Ibiza – Essential Selection (2002),0,29,== Discography == | === Albums ===,1436070
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Italian Techno Master (2002),0,30,== Discography == | === Albums ===,1436070
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Meganite Compilation (2004),0,31,== Discography == | === Albums ===,1436070
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Superclub (2006),0,32,== Discography == | === Albums ===,1436070
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Meganite Compilation Volume 2 (2006),0,33,== Discography == | === Albums ===,1436070
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Meganite³ (2007),0,34,== Discography == | === Albums ===,1436070
+Now,RB,TIMELINE_REGEX,TIME,time_reference,Now & Then (2007),0,35,== Discography == | === Albums ===,1436070
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Now & Then (2007),0,35,== Discography == | === Albums ===,1436070
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Meganite Ibiza 2007 (2007),0,36,== Discography == | === Albums ===,1436070
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Meganite Ibiza 2007 (2007),0,36,== Discography == | === Albums ===,1436070
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Meganite – Privilege, Ibiza (2008)",0,37,== Discography == | === Albums ===,1436070
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Meganite (2009),0,38,== Discography == | === Albums ===,1436070
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Best of Mauro Picotto (2010),0,39,== Discography == | === Albums ===,1436070
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010 (2010),0,40,== Discography == | === Albums ===,1436070
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010 (2010),0,40,== Discography == | === Albums ===,1436070
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Raveline Mix Sessions 036 (2011),0,41,== Discography == | === Albums ===,1436070
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Twentyeleven (Unmixed & Mixed) (2011),0,42,== Discography == | === Albums ===,1436070
+2017,CD,YEAR_REGEX_1,TIME,time_reference,A Call In The Club (2017),0,43,== Discography == | === Albums ===,1436070
+2005,CD,YEAR_REGEX_1,TIME,time_reference,DJ Awards 2005,0,53,== Awards and nominations ==,1436070

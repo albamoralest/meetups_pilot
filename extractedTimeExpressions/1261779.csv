@@ -1,10 +1,10 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-5 May 1911 – 27 February 1986,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Gholām-Hossein Banān (Persian: غلامحسين بنان‎; 5 May 1911 – 27 February 1986) was an Iranian musician and singer.,0,0,,1261779
-of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"One of the most prominent Iranian singers of the 20th century, he was renowned for the quality of his voice.",1,0,,1261779
-1848–1896,CD,YEAR_REGEX_1,TIME,time_reference,"His mother was related to the ruling Qajar dynasty of Iran; she was the daughter of Mohammad Taqi Mirza Rokn ed-Dowleh, a brother of Naser al-Din Shah Qajar (r. 1848–1896).",2,2,== Biography ==,1261779
-1942,CD,YEAR_REGEX_1,TIME,time_reference,"Banān joined the Iranian National Music Association in 1942, and appeared on Iranian National Radio that same year.",0,3,== Biography ==,1261779
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"Banān joined the Iranian National Music Association in 1942, and appeared on Iranian National Radio that same year.",0,3,== Biography ==,1261779
-1957 or 1958,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 1957 or 1958, Banān became blind in his right eye following a car accident.",0,4,== Biography ==,1261779
-7:00 pm,CD NN,DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME,,"Banān died 7:00 pm on Thursday 27 February 1986 in Iranmehr Hospital in Gholhak, Tehran.",1,4,== Biography ==,1261779
-Thursday 27 February 1986,NNP CD NNP CD,WEEK_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,TIME NUMERAL TIME TIME,time_reference,"Banān died 7:00 pm on Thursday 27 February 1986 in Iranmehr Hospital in Gholhak, Tehran.",1,4,== Biography ==,1261779
-1988,CD,YEAR_REGEX_1,TIME,time_reference,"Caton, M. (1988).",0,7,== Sources ==,1261779
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+5 May 1911 – 27 February 1986,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,0,0
+of the 20th century,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,1,0
+1848–1896,CD,YEAR_REGEX_1,TIME,time_reference,2,2
+1942,CD,YEAR_REGEX_1,TIME,time_reference,0,3
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,0,3
+1957 or 1958,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,0,4
+7:00 pm,CD NN,DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME,,1,4
+Thursday 27 February 1986,NNP CD NNP CD,WEEK_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,TIME NUMERAL TIME TIME,time_reference,1,4
+1988,CD,YEAR_REGEX_1,TIME,time_reference,0,7

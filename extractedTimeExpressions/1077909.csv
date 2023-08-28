@@ -1,0 +1,73 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"November 27 , 1935 – October 1 , 1975","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Albert J. Jackson Jr. (November 27, 1935 – October 1, 1975) was an American drummer, producer, and songwriter.",0,0,,1077909
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"He was inducted into the Memphis Music Hall of Fame in 2015, and the Rock and Roll Hall of Fame as a member of Booker T. & the M.G.'s in 1992.",3,0,,1077909
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"He was inducted into the Memphis Music Hall of Fame in 2015, and the Rock and Roll Hall of Fame as a member of Booker T. & the M.G.'s in 1992.",3,0,,1077909
+1940,CD,YEAR_REGEX_1,TIME,time_reference,"The young Jackson started drumming at an early age and began playing on stage with his father's band in 1940, at the age of five.",1,2,== Early life ==,1077909
+about 14 years old,IN CD NNS JJ,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER NUMERAL TIME MODIFIER,time_reference,Al Junior was about 14 years old then.,0,4,== Early life ==,1077909
+an hour,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"And by the time Al Senior came in an hour later, at 8:00 o'clock, Al Jackson Jr. was swinging that damn band like a pro.",1,5,== Early life ==,1077909
+Future,NNP,TIMELINE_REGEX,TIME,time_reference,"Future bandmates Steve Cropper and Donald ""Duck"" Dunn first heard Jackson playing in Mitchell's band at the Flamingo Room, and the all-white Manhattan Club.",0,6,== Early life ==,1077909
+the morning,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Dunn said that Jackson almost caused his wife to divorce him, because after finishing his own gig at one o'clock, he would stop by a club to hear Jackson and would get home at four or five in the morning; ""He was that good!"" said Dunn.",4,6,== Early life ==,1077909
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1970s, he co-wrote and played on several hits by Al Green, including ""Let's Stay Together"" and ""I'm Still in Love with You"", at Hi, and he was also a session drummer for many artists, such as Elvis Presley, Bill Withers, Wilson Pickett, Leon Russell, Jerry Lee Lewis, Eric Clapton, Jean Knight, Aretha Franklin, Major Lance, Ann Peebles, Rod Stewart, Shirley Brown, Donny Hathaway and Herbie Mann.",2,8,== Career ==,1077909
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"In 1975, four years after the release of their last album, Melting Pot, the members of Booker T. & the M.G.'s decided to wrap up their individual projects and devote three years to a reunion of the band.",0,9,== Career ==,1077909
+four years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1975, four years after the release of their last album, Melting Pot, the members of Booker T. & the M.G.'s decided to wrap up their individual projects and devote three years to a reunion of the band.",0,9,== Career ==,1077909
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1975, four years after the release of their last album, Melting Pot, the members of Booker T. & the M.G.'s decided to wrap up their individual projects and devote three years to a reunion of the band.",0,9,== Career ==,1077909
+A few months,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"A few months later, Jackson was murdered in his home.",1,9,== Career ==,1077909
+"September 30 , 1975","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On September 30, 1975, Jackson was scheduled to fly from Memphis to Detroit, to produce a Major Lance session, when he supposedly heard a reminder on the radio about the Joe Frazier–Muhammad Ali fight that night.",0,11,== Death ==,1077909
+that night,IN NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"On September 30, 1975, Jackson was scheduled to fly from Memphis to Detroit, to produce a Major Lance session, when he supposedly heard a reminder on the radio about the Joe Frazier–Muhammad Ali fight that night.",0,11,== Death ==,1077909
+July 1975,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In July 1975, his wife had shot him in the chest, but he decided to not press charges.",1,12,== Death ==,1077909
+Around 3 A.M.,IN CD NNP,PREFIX_REGEX_1 DIGIT_REGEX_1 HALFDAY_REGEX_1,MODIFIER NUMERAL TIME,time_reference,"Around 3 A.M. on October 1, Barbara Jackson ran out in the street, yelling for help.",6,12,== Death ==,1077909
+October 1,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Around 3 A.M. on October 1, Barbara Jackson ran out in the street, yelling for help.",6,12,== Death ==,1077909
+"July 15 , 1976","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Tracked through Florida, to Memphis, and to Seattle, Washington, the suspected murderer, the boyfriend of Barbara Jackson's friend Denise LaSalle, was killed by a police officer on July 15, 1976, after an unrelated gun battle.",2,13,== Death ==,1077909
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Green Onions (Stax Records, 1962)",0,19,== Collaborations ==,1077909
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Soul Dressing (Stax Records, 1965)",0,20,== Collaborations ==,1077909
+Now,RB,TIMELINE_REGEX,TIME,time_reference,And Now!,0,21,== Collaborations ==,1077909
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"(Stax Records, 1966)",1,21,== Collaborations ==,1077909
+the Christmas,DT NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,"In the Christmas Spirit (Stax Records, 1966)",0,22,== Collaborations ==,1077909
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"In the Christmas Spirit (Stax Records, 1966)",0,22,== Collaborations ==,1077909
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Hip Hug-Her (Stax Records, 1967)",0,23,== Collaborations ==,1077909
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Doin' Our Thing (Stax Records, 1968)",0,24,== Collaborations ==,1077909
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Soul Limbo (Stax Records, 1968)",0,25,== Collaborations ==,1077909
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"UpTight (Stax Records, 1969)",0,26,== Collaborations ==,1077909
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"The Booker T. Set (Stax Records, 1969)",0,27,== Collaborations ==,1077909
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"McLemore Avenue (Stax Records, 1970)",0,28,== Collaborations ==,1077909
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Melting Pot (Stax Records, 1971)With Otis Redding",0,29,== Collaborations ==,1077909
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Pain in My Heart (Atco Records, 1964)",0,30,== Collaborations ==,1077909
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"The Great Otis Redding Sings Soul Ballads (Atco Records, 1965)",0,31,== Collaborations ==,1077909
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Otis Blue: Otis Redding Sings Soul (Stax Records, 1965)",0,32,== Collaborations ==,1077909
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"The Soul Album (Stax Records, 1966)",0,33,== Collaborations ==,1077909
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"Complete & Unbelievable: The Otis Redding Dictionary of Soul (Stax Records, 1966)",0,34,== Collaborations ==,1077909
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"King & Queen (Stax Records, 1967)",0,35,== Collaborations ==,1077909
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"The Dock of the Bay (Stax Records, 1968)With Donny Hathaway",0,36,== Collaborations ==,1077909
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Donny Hathaway (Atco Records, 1971)With",0,37,== Collaborations ==,1077909
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Let's Stay Together (Hi Records, 1972)",0,38,== Collaborations ==,1077909
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"I'm Still in Love with You (Hi Records, 1972)",0,39,== Collaborations ==,1077909
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Call Me (Hi Records, 1973)",0,40,== Collaborations ==,1077909
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Livin' for You (Hi Records, 1973)With",0,41,== Collaborations ==,1077909
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Woman to Woman (Truth Records, 1974)With",0,42,== Collaborations ==,1077909
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"An Opera (Enterprise Records, 1971)With Rod Stewart",1,43,== Collaborations ==,1077909
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Atlantic Crossing (Warner Bros. Records, 1975)",0,44,== Collaborations ==,1077909
+A Night,DT NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"A Night on the Town (Warner Bros. Records, 1976)With Bill Withers",0,45,== Collaborations ==,1077909
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"A Night on the Town (Warner Bros. Records, 1976)With Bill Withers",0,45,== Collaborations ==,1077909
+Am,VBP,HALFDAY_REGEX_1,TIME,,"Just as I Am (Sussex Records, 1971)With Delaney & Bonnie",0,46,== Collaborations ==,1077909
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Just as I Am (Sussex Records, 1971)With Delaney & Bonnie",0,46,== Collaborations ==,1077909
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Home (Stax Records, 1969)With William Bell",0,47,== Collaborations ==,1077909
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"The Soul of a Bell (Stax Records, 1967)",0,48,== Collaborations ==,1077909
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Bound to Happen (Stax Records, 1969)",0,49,== Collaborations ==,1077909
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Relating (Stax Records, 1974)With",0,50,== Collaborations ==,1077909
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Mavis Staples (Volt Records, 1969)",0,51,== Collaborations ==,1077909
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Only for the Lonely (Volt Records, 1970)With Aretha Franklin",0,52,== Collaborations ==,1077909
+1972,CD,YEAR_REGEX_1,TIME,time_reference,"Young, Gifted and Black (Atlantic Records, 1972)With Albert King",0,53,== Collaborations ==,1077909
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Born Under a Bad Sign (Stax Records, 1967)",0,54,== Collaborations ==,1077909
+Years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Years Gone By (Stax Records, 1969)",0,55,== Collaborations ==,1077909
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Years Gone By (Stax Records, 1969)",0,55,== Collaborations ==,1077909
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"The Blues Don't Change (Stax Records, 1974)With",0,56,== Collaborations ==,1077909
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"461 Ocean Boulevard (RSO Records, 1974)With Wilson Pickett",0,57,== Collaborations ==,1077909
+the Midnight Hour,DT NNP NNP,PREFIX_REGEX_1 DAY_TIME_REGEX TIME_UNIT_REGEX,MODIFIER TIME TIME,time_reference,"In the Midnight Hour (Atlantic Records, 1965)",0,58,== Collaborations ==,1077909
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"In the Midnight Hour (Atlantic Records, 1965)",0,58,== Collaborations ==,1077909
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"The Exciting Wilson Pickett (Atlantic Records, 1966)With Eddie Floyd",0,59,== Collaborations ==,1077909
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Knock on Wood (Stax Records, 1967)With Elvis Presley",0,60,== Collaborations ==,1077909
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Raised on Rock / For Ol' Times Sake (RCA Records, 1973)With Carla Thomas",0,61,== Collaborations ==,1077909
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Memphis Queen (Stax Records, 1969)",0,62,== Collaborations ==,1077909
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Love Means... (Stax Records, 1971)With Leon Russell",0,63,== Collaborations ==,1077909
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Will O' the Wisp (Shelter Records, 1975)",0,64,== Collaborations ==,1077909
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Bowman, Rob (1997).",0,68,== References == | === Cited sources ===,1077909

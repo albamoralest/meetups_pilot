@@ -1,0 +1,10 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 22 , 1865 - February 18 , 1944","NNP CD , CD : NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Alfredo Javaloyes López (March 22, 1865 - February 18, 1944 ) was a Spanish musician.",0,0,,34117556
+march,NN,MONTH_REGEX,TIME,time_reference,"His best known work is the military march El Abanico (""The Fan""), composed in the year 1910.",1,0,,34117556
+the year 1910,DT NN CD,PREFIX_REGEX_1 TIME_UNIT_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,"His best known work is the military march El Abanico (""The Fan""), composed in the year 1910.",1,0,,34117556
+1865,CD,YEAR_REGEX_1,TIME,time_reference,"Javaloyes Lopez was born in 1865 in the town of Elche, Province of Alicante, Spain.",0,1,,34117556
+now,RB,TIMELINE_REGEX,TIME,time_reference,The street where he was born now bears his name.,1,1,,34117556
+1880,CD,YEAR_REGEX_1,TIME,time_reference,He studied music in Barcelona in 1880 with the composers Fabio Campano and Felip Pedrell.,2,1,,34117556
+1901,CD,YEAR_REGEX_1,TIME,time_reference,"In 1901, he became Music Director to the Sevilla Regiment 33 in Cartagena.",5,1,,34117556
+1918,CD,YEAR_REGEX_1,TIME,time_reference,"He remained in that city until 1918, when he became director of Música del Batallón de Cazadores of Barbastro.",6,1,,34117556
+1944,CD,YEAR_REGEX_1,TIME,time_reference,before his death in 1944.,8,1,,34117556

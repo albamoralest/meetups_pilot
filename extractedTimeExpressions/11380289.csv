@@ -1,0 +1,44 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"October 30 , 1955 – March 15 , 2016","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Daryl Lynn Coley (October 30, 1955 – March 15, 2016) was an American Christian singer.",0,0,,11380289
+"October 30 , 1955","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Coley was born in Berkeley, California on October 30, 1955.",0,2,== Early life ==,11380289
+five years old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"His parents separated when he was five years old, with he and his two siblings being raised by his mother in a solid Christian home.",2,2,== Early life ==,11380289
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"In 1968, when Edwin Hawkins released ""Oh Happy Day"", the contemporary arrangement caught Coley's ear.",7,2,== Early life ==,11380289
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In 1968, when Edwin Hawkins released ""Oh Happy Day"", the contemporary arrangement caught Coley's ear.",7,2,== Early life ==,11380289
+December 1969,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In December 1969, at the age of 13, Coley first heard Helen Stephens And The Voices Of Christ, and by February of the next year had become a member of the nationally acclaimed ensemble.",8,2,== Early life ==,11380289
+February,NNP,MONTH_REGEX,TIME,time_reference,"In December 1969, at the age of 13, Coley first heard Helen Stephens And The Voices Of Christ, and by February of the next year had become a member of the nationally acclaimed ensemble.",8,2,== Early life ==,11380289
+of the next year,IN DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"In December 1969, at the age of 13, Coley first heard Helen Stephens And The Voices Of Christ, and by February of the next year had become a member of the nationally acclaimed ensemble.",8,2,== Early life ==,11380289
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"During his high school years, Coley was a student of Phillip Reeder, Castleers choir director at Castlemont High School.",9,2,== Early life ==,11380289
+1977,CD,YEAR_REGEX_1,TIME,time_reference,He played keyboards for The Hawkins Family from 1977 until he left to collaborate with James Cleveland in 1983.,1,4,== Career ==,11380289
+1983,CD,YEAR_REGEX_1,TIME,time_reference,He played keyboards for The Hawkins Family from 1977 until he left to collaborate with James Cleveland in 1983.,1,4,== Career ==,11380289
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"In 1986, Coley released his solo debut album Just Daryl, originally released in 1986 on First Epistle/Plumline Records.",0,5,== Career ==,11380289
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"In 1986, Coley released his solo debut album Just Daryl, originally released in 1986 on First Epistle/Plumline Records.",0,5,== Career ==,11380289
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"The album was nominated for a Grammy award, and was later re-released in 2006.",1,5,== Career ==,11380289
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"In 1990, Coley released He's",3,5,== Career ==,11380289
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"His following album When The Music Stops, released in 1992, reached #1 on the gospel charts.",6,5,== Career ==,11380289
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"In 1991, when his albums released under Sparrow Records were achieving national success, Coley fell sick, experiencing flu-like symptoms.",7,5,== Career ==,11380289
+more than two weeks,JJR IN CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"When he visited his doctor (more than two weeks later), he was diagnosed with juvenile diabetes, which caused him temporary blindness.",8,5,== Career ==,11380289
+"March 15 , 2016","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On March 15, 2016, Daryl Coley succumbed to diabetes and died in hospice care from renal failure.",0,7,== Death ==,11380289
+1986,CD,YEAR_REGEX_1,TIME,time_reference,Just Daryl (1986),1,9,== Discography == | === Just Daryl (1986) ===,11380289
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Unless otherwise indicated, Information is taken from Allmusic.comReleased in 1986 under the Alliant label, Just Daryl is Coley's debut solo album.",0,10,== Discography == | === Just Daryl (1986) ===,11380289
+Dawn,NNP,DAY_TIME_REGEX,TIME,time_reference,Dawn Pewitt- Alto Vocals,0,99,== Discography == | === Just Daryl (1986) ===,11380289
+1988,CD,YEAR_REGEX_1,TIME,time_reference,I'll Be With You (1988),1,130,== Discography == | === I'll Be With You (1988) ===,11380289
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Information taken from Allmusic.comColey's second studio album, I'll Be With You, was released in 1988, originally under the Light Records label and later issued under the CGI label.",0,131,== Discography == | === I'll Be With You (1988) ===,11380289
+Dayna,NNP,TIME_UNIT_REGEX,TIME,time_reference,Dayna Stockard- Alto Vocals,0,173,== Discography == | === I'll Be With You (1988) ===,11380289
+1990,CD,YEAR_REGEX_1,TIME,time_reference,On Time: Live from Los Angeles (1990),2,182,== Discography == | === He's Right On Time: Live from Los Angeles (1990) ===,11380289
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,Roosevelt Christmas III- Tenor Vocals,0,206,== Discography == | === He's Right On Time: Live from Los Angeles (1990) ===,11380289
+1992,CD,YEAR_REGEX_1,TIME,time_reference,When the Music Stops (1992) ===,1,255,== Discography == | === When the Music Stops (1992) ===,11380289
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Released in 1992, it is also Coley's second album under Sparrow Records:",1,256,== Discography == | === When the Music Stops (1992) ===,11380289
+1994,CD,YEAR_REGEX_1,TIME,time_reference,In My Dreams (1994) ===,1,293,== Discography == | === In My Dreams (1994) ===,11380289
+1994,CD,YEAR_REGEX_1,TIME,time_reference,Released under Sparrow Records in 1994:,1,294,== Discography == | === In My Dreams (1994) ===,11380289
+1996,CD,YEAR_REGEX_1,TIME,time_reference,Beyond the Veil: Live at the Bobby Jones Gospel Explosions XIII (1996),1,306,== Discography == | === Beyond the Veil: Live at the Bobby Jones Gospel Explosions XIII (1996) ===,11380289
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"It was released in 1996 under Sparrow Records, and contains songs such as ""Sweet Communion"", ""Lamb of God"", and ""Wonderful"".",2,307,== Discography == | === Beyond the Veil: Live at the Bobby Jones Gospel Explosions XIII (1996) ===,11380289
+1997,CD,YEAR_REGEX_1,TIME,time_reference,Live in Oakland-Home Again (1997),1,350,== Discography == | === Live in Oakland-Home Again (1997) ===,11380289
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,Christmas is Here (1999),1,421,== Discography == | === Christmas is Here (1999) ===,11380289
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Christmas is Here (1999),1,421,== Discography == | === Christmas is Here (1999) ===,11380289
+a Midnight,DT NNP,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"""It Came Upon a Midnight Clear/Angels We Have Heard on High""",0,423,== Discography == | === Christmas is Here (1999) ===,11380289
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"""Christmas Is Here"" (Daryl Coley)",0,431,== Discography == | === Christmas is Here (1999) ===,11380289
+A Decade,DT NNP,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Compositions: A Decade of Song (2000),1,444,== Discography == | === Compositions: A Decade of Song (2000) ===,11380289
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Compositions: A Decade of Song (2000),1,444,== Discography == | === Compositions: A Decade of Song (2000) ===,11380289
+Sunday,NNP,WEEK_REGEX,TIME,time_reference,When Sunday Comes,0,449,== Discography == | === Compositions: A Decade of Song (2000) ===,11380289
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Oh, The Lamb (2001)",1,454,"== Discography == | === Oh, The Lamb (2001) ===",11380289
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Praise & Worship (2006),1,478,== Discography == | === Praise & Worship (2006) ===,11380289

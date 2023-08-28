@@ -1,0 +1,150 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"November 25 , 1965","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Timothy Ross Armstrong (born November 25, 1965) is an American musician, singer, songwriter and producer.",0,0,,355002
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"In 1997, along with Brett Gurewitz of the band Bad Religion and owner of Epitaph Records, Armstrong founded Hellcat Records.",0,1,,355002
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"In 2012, through his website, Armstrong started releasing music that influenced him, along with stripped-down cover songs of his own work under the name Tim Timebomb.",1,1,,355002
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Freeman and Armstrong formed bands many years later based on their shared love of bands such as The Clash and the Ramones.,2,3,== Personal life ==,355002
+1997 to 2003,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Armstrong was married to musician Brody Dalle from 1997 to 2003.,4,3,== Personal life ==,355002
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"They met in 1995, when Dalle was 16 and Armstrong was 30, after Rancid and Dalle's band Sourpuss both played Summersault Festival in Australia.",5,3,== Personal life ==,355002
+Summersault,NNP,SEASON_REGEX,TIME,time_reference,"They met in 1995, when Dalle was 16 and Armstrong was 30, after Rancid and Dalle's band Sourpuss both played Summersault Festival in Australia.",5,3,== Personal life ==,355002
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"In 1997, when Dalle was 18, she moved to Los Angeles to live with Armstrong, and she formed the band The Distillers.",6,3,== Personal life ==,355002
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"The couple separated in 2003, after Armstrong saw a picture of Dalle kissing Queens of the Stone Age frontman Josh Homme in an issue of Rolling Stone magazine; she and Homme would later marry.",7,3,== Personal life ==,355002
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Dalle claimed Armstrong was very controlling of her and it took her three years to leave him.,9,3,== Personal life ==,355002
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"Some of Rancid's songs on 1998's Life Won't Wait (""Who Would've Thought"", ""Corazón de Oro"") detail Armstrong and Dalle's relationship and songs on 2003's Indestructible (""Fall Back Down"", ""Ghost Band"", ""Tropical London"") deal with Armstrong's feelings about his divorce.",10,3,== Personal life ==,355002
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Some of Rancid's songs on 1998's Life Won't Wait (""Who Would've Thought"", ""Corazón de Oro"") detail Armstrong and Dalle's relationship and songs on 2003's Indestructible (""Fall Back Down"", ""Ghost Band"", ""Tropical London"") deal with Armstrong's feelings about his divorce.",10,3,== Personal life ==,355002
+Fall,NNP,SEASON_REGEX,TIME,time_reference,"Some of Rancid's songs on 1998's Life Won't Wait (""Who Would've Thought"", ""Corazón de Oro"") detail Armstrong and Dalle's relationship and songs on 2003's Indestructible (""Fall Back Down"", ""Ghost Band"", ""Tropical London"") deal with Armstrong's feelings about his divorce.",10,3,== Personal life ==,355002
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Armstrong's cousin, Scott, was the guitarist for Canadian punk band Desperate Minds, but they did not know each other until they were introduced at a show in Chicago in 1988 by John Jughead of Screeching Weasel.",11,3,== Personal life ==,355002
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Basic Radio was founded in 1985 and included Matt Freeman and Tim Armstrong.,0,6,== Music career == | === Basic Radio ===,355002
+Two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Two years later they broke up and Operation Ivy was founded shortly after.,2,6,== Music career == | === Basic Radio ===,355002
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"In 1987, along with singer Jesse Michaels, bassist Matt Freeman and drummer Dave Mello, Armstrong formed the ska punk band Operation Ivy and enjoyed modest success before the group disbanded in 1989, the same night the album was released.",0,8,== Music career == | === Operation Ivy ===,355002
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"In 1987, along with singer Jesse Michaels, bassist Matt Freeman and drummer Dave Mello, Armstrong formed the ska punk band Operation Ivy and enjoyed modest success before the group disbanded in 1989, the same night the album was released.",0,8,== Music career == | === Operation Ivy ===,355002
+night,NN,DAY_TIME_REGEX,TIME,time_reference,"In 1987, along with singer Jesse Michaels, bassist Matt Freeman and drummer Dave Mello, Armstrong formed the ska punk band Operation Ivy and enjoyed modest success before the group disbanded in 1989, the same night the album was released.",0,8,== Music career == | === Operation Ivy ===,355002
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,The band would go on to achieve worldwide cult success in the years following its break-up.,1,8,== Music career == | === Operation Ivy ===,355002
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Dance Hall Crashers (named after the Alton Ellis song ""Dance Crasher"") was formed in 1989 by Armstrong and Matt Freeman after both musicians expressed an interest in starting a band rooted in more traditional ska and rocksteady than what they had been playing with Operation Ivy.",0,10,== Music career == | === Dance Hall Crashers ===,355002
+1989,CD,YEAR_REGEX_1,TIME,time_reference,The band played their first show at 924 Gilman Street in Berkeley in 1989.,2,10,== Music career == | === Dance Hall Crashers ===,355002
+They lasted three months,PRP VBD CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,,"They lasted three months (December 1989 to March 1990), playing only at a few parties and twice at Gilman St. They released one song on Maximumrocknroll's They Don't Get Paid, They Don't Get Laid, but Boy, Do They Work Hard!",2,12,== Music career == | === Downfall ===,355002
+December 1989 to March 1990,NNP CD TO NNP CD,MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME TIME MODIFIER TIME TIME,time_reference,"They lasted three months (December 1989 to March 1990), playing only at a few parties and twice at Gilman St. They released one song on Maximumrocknroll's They Don't Get Paid, They Don't Get Laid, but Boy, Do They Work Hard!",2,12,== Music career == | === Downfall ===,355002
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"In 1999, Armstrong invited roadie Rob Aston (""Skinhead Rob"") to add lyrics to some solo material that Armstrong had been creating in his basement, and the two worked together writing and recording music.",0,16,== Music career == | === The Transplants ===,355002
+"October 22 , 2002","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"They formed the group Transplants with drummer Travis Barker, of Blink-182, and released their self-titled debut album on October 22, 2002.",1,16,== Music career == | === The Transplants ===,355002
+"June 21 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"A second Transplants album, Haunted Cities, was released on June 21, 2005.",2,16,== Music career == | === The Transplants ===,355002
+"January 16 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The Transplants break-up was confirmed by Rob Aston on January 16, 2006, when he told a reporter that the group had split.",3,16,== Music career == | === The Transplants ===,355002
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"They played their first show since 2006 on Conan to promote Barker's new solo album, on which the song ""Saturday Night"" is featured.",5,16,== Music career == | === The Transplants ===,355002
+Saturday Night,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,"They played their first show since 2006 on Conan to promote Barker's new solo album, on which the song ""Saturday Night"" is featured.",5,16,== Music career == | === The Transplants ===,355002
+November 2011,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"It was announced in November 2011 on the Transplants official Facebook page that their new album would be ""finished"" in December 2011.",6,16,== Music career == | === The Transplants ===,355002
+December 2011,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"It was announced in November 2011 on the Transplants official Facebook page that their new album would be ""finished"" in December 2011.",6,16,== Music career == | === The Transplants ===,355002
+"June 25 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The latest album entitled ""In A Warzone"" was released June 25, 2013, on Epitaph Records.",7,16,== Music career == | === The Transplants ===,355002
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"In 2007, he released his first solo album entitled A Poet's Life with The Aggrolites as his backing band.",0,18,== Music career == | === Solo albums/Tim Timebomb ===,355002
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"The track from that album ""Into Action"" was reported as the number one most played and requested in 2007 on then XM Satellite Radio channel Fungus 53.",1,18,== Music career == | === Solo albums/Tim Timebomb ===,355002
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"In 2012, he launched a side project under the name Tim Timebomb, initially releasing a download only album, entitled ""Tim Timebomb Sings Songs from RocknNRoll Theater"", containing songs from his musical film series.",2,18,== Music career == | === Solo albums/Tim Timebomb ===,355002
+"October 29 , 2012","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Since October 29, 2012, he has released a series of songs via YouTube, at a rate of one track each day starting on October 29, 2012.",3,18,== Music career == | === Solo albums/Tim Timebomb ===,355002
+each day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Since October 29, 2012, he has released a series of songs via YouTube, at a rate of one track each day starting on October 29, 2012.",3,18,== Music career == | === Solo albums/Tim Timebomb ===,355002
+"October 29 , 2012","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Since October 29, 2012, he has released a series of songs via YouTube, at a rate of one track each day starting on October 29, 2012.",3,18,== Music career == | === Solo albums/Tim Timebomb ===,355002
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Armstrong produced and co-wrote eight songs with Pink for her 2003 album Try This.,0,20,== Music career == | === Other projects ===,355002
+a 2003,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"Her song, ""Trouble"", a 2003 Rancid outtake, went on to win her a Grammy Award.",1,20,== Music career == | === Other projects ===,355002
+"August 12 , 2011","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"It was announced on August 12, 2011, that Tim Armstrong was working on an album with reggae artist Jimmy Cliff.",0,21,== Music career == | === Other projects ===,355002
+"October 4 , 2011","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Their first single, a cover of The Clash song ""The Guns of Brixton"", was released on October 4, 2011.",1,21,== Music career == | === Other projects ===,355002
+late November 2011,JJ NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,Sacred Fire EP was released late November 2011.,2,21,== Music career == | === Other projects ===,355002
+July 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Rebirth was released in July 2012 and won the Grammy Award for Best Reggae Album.,3,21,== Music career == | === Other projects ===,355002
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"And in 2012, Armstrong wrote and performed on Joe Walsh's song ""Hi-Roller Baby"" from his solo album Analog Man.",4,21,== Music career == | === Other projects ===,355002
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Though they share a last name and frequently collaborate, Armstrong and Green Day frontman Billie Joe Armstrong are not related.",6,21,== Music career == | === Other projects ===,355002
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Green Day has covered Operation Ivy songs on their past albums, Billie Joe Armstrong co-wrote and performed on Rancid's song ""Radio"", and was invited by Tim Armstrong to join Rancid as a second guitarist in 1993.",7,21,== Music career == | === Other projects ===,355002
+their past,PRP$ NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,,"Green Day has covered Operation Ivy songs on their past albums, Billie Joe Armstrong co-wrote and performed on Rancid's song ""Radio"", and was invited by Tim Armstrong to join Rancid as a second guitarist in 1993.",7,21,== Music career == | === Other projects ===,355002
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Green Day has covered Operation Ivy songs on their past albums, Billie Joe Armstrong co-wrote and performed on Rancid's song ""Radio"", and was invited by Tim Armstrong to join Rancid as a second guitarist in 1993.",7,21,== Music career == | === Other projects ===,355002
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Tim directed the music video for Green Day's 2016 single ""Bang Bang"".",9,21,== Music career == | === Other projects ===,355002
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"Tim directed the music video for Green Day's 2016 single ""Bang Bang"".",9,21,== Music career == | === Other projects ===,355002
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"In 2017, Tim Armstrong and Billie Joe Armstrong, together with Tim's nephew Rey Armstrong and Billie Joe's son Joey Armstrong formed the band The Armstrongs and released their first single ""If There Was Ever a Time"".",11,21,== Music career == | === Other projects ===,355002
+May 2021,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In May 2021, Armstrong along with fellow Rancid bandmate Matt Freeman, Fletcher Dragge (Pennywise), Byron McCracken (Pennywise), and Mike Muir (Suicidal Tendencies) formed a punk rock supergroup called The Crew.",12,21,== Music career == | === Other projects ===,355002
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Armstrong started Hellcat Records in 1997 as a sub-label of Epitaph, owned by Armstrong's friend and Bad Religion member Brett Gurewitz.",0,23,== Hellcat Records ==,355002
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"In 2010, Gretsch Guitars introduced the G5191BK Tim Armstrong Electromatic guitar.",0,25,== Signature model guitars ==,355002
+1971,CD,YEAR_REGEX_1,TIME,time_reference,Armstrong's signature model is based on his 1971 Baldwin-era Gretsch Country Club which he spray-painted black and flipped to accommodate his left-handed playing.,3,25,== Signature model guitars ==,355002
+1960s,CD,YEAR_REGEX_1,TIME,time_reference,Fender also put out a signature acoustic model based on Armstrong's favorite 1960s era Fender acoustic guitar.,5,25,== Signature model guitars ==,355002
+2007,CD,YEAR_REGEX_1,TIME,time_reference,A Poet's Life (2007),0,28,== Discography == | === Solo ===,355002
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Tim Timebomb Sings Songs from RocknNRoll Theater (2012),0,29,== Discography == | === Solo ===,355002
+2012-ongoing,JJ,YEAR_REGEX_1,TIME,time_reference,Tim Timebomb singles series (2012-ongoing),0,30,== Discography == | === Solo ===,355002
+1988,CD,YEAR_REGEX_1,TIME,time_reference,Hectic (1988),0,32,== Discography == | === with Operation Ivy ===,355002
+1989,CD,YEAR_REGEX_1,TIME,time_reference,Energy (1989),0,33,== Discography == | === with Operation Ivy ===,355002
+1992,CD,YEAR_REGEX_1,TIME,time_reference,Plea for Peace (1992),0,34,== Discography == | === with Operation Ivy ===,355002
+'69,CD,YEAR_REGEX_2,TIME,time_reference,'69 Newport (1993),0,35,== Discography == | === with Operation Ivy ===,355002
+1993,CD,YEAR_REGEX_1,TIME,time_reference,'69 Newport (1993),0,35,== Discography == | === with Operation Ivy ===,355002
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"""Long Way to Go"" (They Don't Get Paid, They Don't Get Laid, But Boy Do They Work Hard!, 1989)",0,37,== Discography == | === with Downfall ===,355002
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"""New Regulations"" (Very Small World, 1991)",0,38,== Discography == | === with Downfall ===,355002
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"""North Berkeley"" (Can of Pork, 1992)",0,39,== Discography == | === with Downfall ===,355002
+"Year , 1992","NNP , CD",TIME_UNIT_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"""My City"" (Later That Same Year, 1992)",0,40,== Discography == | === with Downfall ===,355002
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"""Red White and Blue"" (1991)",0,42,== Discography == | === with Special Forces ===,355002
+1992,CD,YEAR_REGEX_1,TIME,time_reference,Rancid (1992),0,44,== Discography == | === with Rancid ===,355002
+1993,CD,YEAR_REGEX_1,TIME,time_reference,Rancid (1993),0,45,== Discography == | === with Rancid ===,355002
+1993,CD,YEAR_REGEX_1,TIME,time_reference,Radio Radio Radio (1993),0,46,== Discography == | === with Rancid ===,355002
+1994,CD,YEAR_REGEX_1,TIME,time_reference,Let's Go (1994),0,47,== Discography == | === with Rancid ===,355002
+1995,CD,YEAR_REGEX_1,TIME,time_reference,...And Out Come the Wolves (1995),0,48,== Discography == | === with Rancid ===,355002
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Life Won't Wait (1998),0,49,== Discography == | === with Rancid ===,355002
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Rancid (2000),0,50,== Discography == | === with Rancid ===,355002
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Indestructible (2003),0,51,== Discography == | === with Rancid ===,355002
+2008,CD,YEAR_REGEX_1,TIME,time_reference,B Sides and C Sides (2008),0,52,== Discography == | === with Rancid ===,355002
+Fall,NNP,SEASON_REGEX,TIME,time_reference,Let the Dominoes Fall (2009),0,53,== Discography == | === with Rancid ===,355002
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Let the Dominoes Fall (2009),0,53,== Discography == | === with Rancid ===,355002
+2014,CD,YEAR_REGEX_1,TIME,time_reference,Honor Is All We Know (2014),0,54,== Discography == | === with Rancid ===,355002
+2017,CD,YEAR_REGEX_1,TIME,time_reference,Trouble Maker (2017),0,55,== Discography == | === with Rancid ===,355002
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"""Rudy Rudy"" (A Slice of Lemon, 1995)",0,57,== Discography == | === with Shaken 69 ===,355002
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"""Policeman"" (Give 'Em the Boot, 1997)",0,59,== Discography == | === with The Silencers ===,355002
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"""Tell Me What You're Feeling"" (Give 'Em the Boot II, 1999)",0,61,== Discography == | === with Nocturnal ===,355002
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Lars Frederiksen and the Bastards (2001),0,63,== Discography == | === with Lars Frederiksen and the Bastards ===,355002
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Viking (2004),0,64,== Discography == | === with Lars Frederiksen and the Bastards ===,355002
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Transplants (2002),0,66,== Discography == | === with Transplants ===,355002
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Haunted Cities (2005),0,67,== Discography == | === with Transplants ===,355002
+2013,CD,YEAR_REGEX_1,TIME,time_reference,In a Warzone (2013),0,68,== Discography == | === with Transplants ===,355002
+2017,CD,YEAR_REGEX_1,TIME,time_reference,Take Cover (2017),0,69,== Discography == | === with Transplants ===,355002
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"""Stalingrad"" / ""Psychos All Around Me"" (2003)",0,71,== Discography == | === with Devils Brigade ===,355002
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"""What Have You Done Lately"" / ""Ride Harley Ride"" (2005)",1,72,== Discography == | === with Devils Brigade ===,355002
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Devils Brigade (2010),0,73,== Discography == | === with Devils Brigade ===,355002
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"""If There Was Ever a Time"" (2017)",0,75,== Discography == | === with Armstrongs ===,355002
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"""Television"" by Bad Religion (Stranger than Fiction, 1994) – vocals",0,77,== Discography == | === Guest appearances ===,355002
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"""Cat Like Thief"" by Box Car Racer (Box Car Racer, 2002) – vocals",0,78,== Discography == | === Guest appearances ===,355002
+"Decadence , 2004","NNP , CD",TIME_UNIT_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"""Dance Party Plus"" by Head Automatica (Decadence, 2004) – vocals",0,79,== Discography == | === Guest appearances ===,355002
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"""The Stories Are True"" by Time Again (The Stories Are True, 2006) – vocals",0,80,== Discography == | === Guest appearances ===,355002
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"by Skye Sweetnam (Sound Soldier, 2007) – backing vocals, songwriting, production",2,81,== Discography == | === Guest appearances ===,355002
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"""Sex And Violence"" by Danny Diablo (International Hardcore Superstar, 2009) – vocals, production",0,82,== Discography == | === Guest appearances ===,355002
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"""6 Feet Underground"" and ""Push Em"" by Yelawolf & Travis Barker (Psycho White, 2012) – vocals",0,83,== Discography == | === Guest appearances ===,355002
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"""Hi-Roller Baby"" by Joe Walsh (Analog Man, 2012) – songwriting, guitar",0,84,== Discography == | === Guest appearances ===,355002
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"""Booted out of Hell"" by The King Blues (Long Live the Struggle, 2012) – vocals",0,85,== Discography == | === Guest appearances ===,355002
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"""Family"" by The Interrupters (The Interrupters, 2014) – vocals",0,86,== Discography == | === Guest appearances ===,355002
+"Spring , 2015","NN , CD",SEASON_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"""Brandenburg Gate"" by Anti-Flag (American Spring, 2015) – vocals",0,87,== Discography == | === Guest appearances ===,355002
+2018,CD,YEAR_REGEX_1,TIME,time_reference,"""Discovery"" by Adil Omar (Transcendence, 2018) – songwriting, guitar",0,88,== Discography == | === Guest appearances ===,355002
+2019,CD,YEAR_REGEX_1,TIME,time_reference,"""No Peace No Justice"" by RAT BOY (Internationally Unknown, 2019) – vocals, production",0,89,== Discography == | === Guest appearances ===,355002
+"the Nightmare , 2021","DT NNP , CD",PREFIX_REGEX_1 DAY_TIME_REGEX COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"""Streetsweeper"" by SECTION H8 (Welcome to the Nightmare, 2021) – vocals",0,90,== Discography == | === Guest appearances ===,355002
+2021,CD,YEAR_REGEX_1,TIME,time_reference,"""The Final Parade"" by The Mighty Mighty BossTones (When God Was Great, 2021) – vocals",0,91,== Discography == | === Guest appearances ===,355002
+2021,CD,YEAR_REGEX_1,TIME,time_reference,"""Dancing On The Radio"" by Angel Du$t (""YAK"": A Collection Of Truck Songs, 2021) – vocals",0,92,== Discography == | === Guest appearances ===,355002
+1995,CD,YEAR_REGEX_1,TIME,time_reference,...And Out Come the Wolves (1995) by Rancid,0,94,== Production discography ==,355002
+1995,CD,YEAR_REGEX_1,TIME,time_reference,Answer That and Stay Fashionable (1995) by AFI,0,95,== Production discography ==,355002
+Presents,NNP,TIMELINE_REGEX,TIME,time_reference,East Los Presents (1997) by Union 13,0,96,== Production discography ==,355002
+1997,CD,YEAR_REGEX_1,TIME,time_reference,East Los Presents (1997) by Union 13,0,96,== Production discography ==,355002
+1997,CD,YEAR_REGEX_1,TIME,time_reference,At Ease (1997) by The Gadjits,0,97,== Production discography ==,355002
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Life Won't Wait (1998) by Rancid,0,98,== Production discography ==,355002
+2000,CD,YEAR_REGEX_1,TIME,time_reference,F-Minus (2000) by F-Minus,0,99,== Production discography ==,355002
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Lars Frederiksen and the Bastards (2001) by Lars Frederiksen and the Bastards,0,100,== Production discography ==,355002
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Mediocre Generica (2001) by Leftöver Crack,0,101,== Production discography ==,355002
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Transplants (2002) by Transplants,0,102,== Production discography ==,355002
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Try This (2003) by Pink,0,103,== Production discography ==,355002
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Viking (2004) by Lars Frederiksen and the Bastards,0,104,== Production discography ==,355002
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Haunted Cities (2005) by Transplants,0,105,== Production discography ==,355002
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Hardcore 4 Life (2005) by Danny Diablo,0,106,== Production discography ==,355002
+2006,CD,YEAR_REGEX_1,TIME,time_reference,The Stories Are True (2006) by Time Again,0,107,== Production discography ==,355002
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Decomposer (2006) by The Matches,0,108,== Production discography ==,355002
+2006,CD,YEAR_REGEX_1,TIME,time_reference,(2006),2,109,== Production discography ==,355002
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Sound Soldier (2007) by Skye Sweetnam,0,110,== Production discography ==,355002
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Thugcore 4 Life (2007) by Danny Diablo,0,111,== Production discography ==,355002
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Devil's Brigade (2010) by Devil's Brigade,0,112,== Production discography ==,355002
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Sacred Fire EP (2011) by Jimmy Cliff,0,113,== Production discography ==,355002
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Rebirth (2012) by Jimmy Cliff – Won Grammy Award for Best Reggae Album,0,114,== Production discography ==,355002
+2014,CD,YEAR_REGEX_1,TIME,time_reference,The Interrupters (2014) by The Interrupters,0,115,== Production discography ==,355002
+2016,CD,YEAR_REGEX_1,TIME,time_reference,Say It Out Loud (2016) by The Interrupters,0,116,== Production discography ==,355002
+2018,CD,YEAR_REGEX_1,TIME,time_reference,Fight the Good Fight (2018) by The Interrupters,0,117,== Production discography ==,355002
+2019,CD,YEAR_REGEX_1,TIME,time_reference,Internationally Unknown (2019) by RAT BOY,0,118,== Production discography ==,355002
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Larry Is Dead (1995) – director, actor, producer",0,120,== Filmography ==,355002
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"(2003) – producer, narrator",2,121,== Filmography ==,355002
+2004,CD,YEAR_REGEX_1,TIME,time_reference,The Heart Is Deceitful Above All Things (2004) – actor,0,122,== Filmography ==,355002
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Give 'Em the Boot (2005) – producer,0,123,== Filmography ==,355002
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Punk's Not Dead (2007) – producer,0,124,== Filmography ==,355002
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"""Rock N Roll Theater"" (2011) – actor, producer, writer",0,125,== Filmography ==,355002
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"The X-Files (2016) – actor in episode ""Home Again"" (The X-Files)",0,126,== Filmography ==,355002
+The Twilight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"The Twilight Zone (2020) – actor in episode ""8"" (The Twilight Zone)",0,127,== Filmography ==,355002
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"The Twilight Zone (2020) – actor in episode ""8"" (The Twilight Zone)",0,127,== Filmography ==,355002
+The Twilight,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"The Twilight Zone (2020) – actor in episode ""8"" (The Twilight Zone)",0,127,== Filmography ==,355002

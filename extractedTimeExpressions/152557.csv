@@ -1,142 +1,143 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"October 13 , 1909 – November 5 , 1956","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Arthur Tatum Jr. (, October 13, 1909 – November 5, 1956) was an American jazz pianist who is widely regarded as one of the greatest in his field.",0,0,,152557
-1932,CD,YEAR_REGEX_1,TIME,time_reference,"He left Toledo in 1932 and had residencies as a solo pianist at clubs in major urban centers including New York, Chicago, and Los Angeles.",1,1,,152557
-that decade,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In that decade, he settled into a pattern that he followed for most of his career – paid performances followed by long after-hours playing, all accompanied by prodigious consumption of alcohol.",2,1,,152557
-the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1940s, Tatum led a commercially successful trio for a short time and began playing in more formal jazz concert settings, including at Norman Granz-produced Jazz at the Philharmonic events.",0,2,,152557
-the end of the decade,DT NN IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"His popularity diminished towards the end of the decade, as he continued to play in his own style, ignoring the rise of bebop.",1,2,,152557
-two months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Granz recorded Tatum extensively in solo and small group formats in the mid-1950s, with the last session occurring only two months before the pianist's death from uremia at the age of 47.",2,2,,152557
-around 1890,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Tatum's mother, Mildred Hoskins, was born in Martinsville, Virginia, around 1890, and was a domestic worker.",0,4,== Early life ==,152557
-1909,CD,YEAR_REGEX_1,TIME,time_reference,"In 1909, they made their way from North Carolina to begin a new life in Toledo, Ohio.",2,4,== Early life ==,152557
-"October 13 , 1909","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The couple had four children; Art was the oldest to survive, and was born in Toledo on October 13, 1909.",3,4,== Early life ==,152557
-nine years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He was followed by Arline nine years later and by Karl after another two years.,4,4,== Early life ==,152557
-another two years,DT CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,He was followed by Arline nine years later and by Karl after another two years.,4,4,== Early life ==,152557
-early twenties,JJ NNS,PREFIX_REGEX_1 DECADE_REGEX,MODIFIER TIME,time_reference,"Any benefits from these procedures were reversed, however, when he was assaulted, probably in his early twenties.",3,5,== Early life ==,152557
-1924,CD,YEAR_REGEX_1,TIME,time_reference,"Tatum first attended Jefferson School in Toledo, then moved to the School for the Blind in Columbus, Ohio, late in 1924.",13,5,== Early life ==,152557
-less than a year,JJR IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"After probably less than a year there, he transferred to the Toledo School of Music.",14,5,== Early life ==,152557
-around 1924–25,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"By the time he was a teenager, Tatum was asked to play at various social events, and he was probably being paid to play in Toledo clubs from around 1924–25.",17,5,== Early life ==,152557
-six years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Growing up, Tatum drew inspiration principally from Fats Waller and James P. Johnson, who exemplified the stride piano style, and to some extent from the more modern Earl Hines, six years Tatum's senior.",18,5,== Early life ==,152557
-1927–1937,CD,YEAR_REGEX_1,TIME,time_reference,1927–1937,1,7,== Later life and career == | === 1927–1937 ===,152557
-1927,CD,YEAR_REGEX_1,TIME,time_reference,"In 1927, after winning an amateur competition, Tatum began playing on Toledo radio station WSPD during interludes in a morning shopping program and soon had his own daily program.",0,8,== Later life and career == | === 1927–1937 ===,152557
-a morning,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"In 1927, after winning an amateur competition, Tatum began playing on Toledo radio station WSPD during interludes in a morning shopping program and soon had his own daily program.",0,8,== Later life and career == | === 1927–1937 ===,152557
-hours,NNS,TIME_UNIT_REGEX,TIME,time_reference,"He frequently played for hours on end into the dawn; his radio show was scheduled for noon, allowing him time to rest before evening performances.",2,8,== Later life and career == | === 1927–1937 ===,152557
-the dawn,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"He frequently played for hours on end into the dawn; his radio show was scheduled for noon, allowing him time to rest before evening performances.",2,8,== Later life and career == | === 1927–1937 ===,152557
-noon,NN,DAY_TIME_REGEX,TIME,time_reference,"He frequently played for hours on end into the dawn; his radio show was scheduled for noon, allowing him time to rest before evening performances.",2,8,== Later life and career == | === 1927–1937 ===,152557
-1928–29,CD,YEAR_REGEX_1,TIME,time_reference,"During 1928–29, the radio program was re-broadcast nationwide by the Blue Network.",3,8,== Later life and career == | === 1927–1937 ===,152557
-the late 1920s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Although Tatum was encouraged by comments from these and other established musicians, he felt that he was not yet, in the late 1920s, musically ready to relocate to New York City, which was the center of the jazz world and was home to many of the pianists he had listened to while growing up.",8,8,== Later life and career == | === 1927–1937 ===,152557
-1932,CD,YEAR_REGEX_1,TIME,time_reference,"This had changed by the time that vocalist Adelaide Hall, touring the United States with two pianists, heard Tatum play in Toledo in 1932 and recruited him: he took the opportunity to go to New York as part of her band.",9,8,== Later life and career == | === 1927–1937 ===,152557
-August 5,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"On August 5 that year, Hall and her band recorded two sides (""I'll Never Be the Same"" and ""Strange as It Seems"") that were Tatum's first studio recordings.",10,8,== Later life and career == | === 1927–1937 ===,152557
-5 that year,CD IN NN,DIGIT_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"On August 5 that year, Hall and her band recorded two sides (""I'll Never Be the Same"" and ""Strange as It Seems"") that were Tatum's first studio recordings.",10,8,== Later life and career == | === 1927–1937 ===,152557
-five days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Two more sides with Hall followed five days later, as did a solo piano test-pressing of ""Tea for Two"" that was not released for several decades.",11,8,== Later life and career == | === 1927–1937 ===,152557
-several decades,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Two more sides with Hall followed five days later, as did a solo piano test-pressing of ""Tea for Two"" that was not released for several decades.",11,8,== Later life and career == | === 1927–1937 ===,152557
-that night,IN NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Reminiscing about Tatum's debut, Johnson said, ""When Tatum played 'Tea for Two' that night I guess that was the first time I ever heard it really played.""",15,8,== Later life and career == | === 1927–1937 ===,152557
-45 a week,CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"Tatum's first solo piano job in New York was at the Onyx Club, which was later reported to have paid him ""$45 a week and free whiskey"".",0,9,== Later life and career == | === 1927–1937 ===,152557
-more than a decade,JJR IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"The Onyx was one of the first jazz clubs to open on 52nd Street, which became the city's focal point for public jazz performance for more than a decade.",1,9,== Later life and career == | === 1927–1937 ===,152557
-March 1933,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He recorded his first four released solo sides, for Brunswick Records, in March 1933: ""St. Louis Blues"", ""Sophisticated Lady"", ""Tea for Two"", and ""Tiger Rag"".",2,9,== Later life and career == | === 1927–1937 ===,152557
-quarter,NN,TIME_UNIT_REGEX,TIME,time_reference,"The last of these was a minor hit, impressing the public with its startling tempo of approximately 376 (quarter note) beats per minute, and with right-hand eighth notes adding to the technical feat.",3,9,== Later life and career == | === 1927–1937 ===,152557
-minute,NN,TIME_UNIT_REGEX,TIME,time_reference,"The last of these was a minor hit, impressing the public with its startling tempo of approximately 376 (quarter note) beats per minute, and with right-hand eighth notes adding to the technical feat.",3,9,== Later life and career == | === 1927–1937 ===,152557
-1933,CD,YEAR_REGEX_1,TIME,time_reference,"Tatum's only known child, Orlando, was born in 1933, when Tatum was twenty-four.",4,9,== Later life and career == | === 1927–1937 ===,152557
-the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"It is likely that neither parent had a major role in raising their son, who pursued a military career and died in the 1980s.",6,9,== Later life and career == | === 1927–1937 ===,152557
-of 1934 and 1935,IN CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"During the hard economic times of 1934 and 1935, Tatum mostly played in clubs in Cleveland, but also recorded in New York four times in 1934 and once in the following year.",7,9,== Later life and career == | === 1927–1937 ===,152557
-1934,CD,YEAR_REGEX_1,TIME,time_reference,"During the hard economic times of 1934 and 1935, Tatum mostly played in clubs in Cleveland, but also recorded in New York four times in 1934 and once in the following year.",7,9,== Later life and career == | === 1927–1937 ===,152557
-the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"During the hard economic times of 1934 and 1935, Tatum mostly played in clubs in Cleveland, but also recorded in New York four times in 1934 and once in the following year.",7,9,== Later life and career == | === 1927–1937 ===,152557
-Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,"He also performed on national radio, including for the Fleischman Hour broadcast hosted by Rudy Vallee in 1935.",8,9,== Later life and career == | === 1927–1937 ===,152557
-1935,CD,YEAR_REGEX_1,TIME,time_reference,"He also performed on national radio, including for the Fleischman Hour broadcast hosted by Rudy Vallee in 1935.",8,9,== Later life and career == | === 1927–1937 ===,152557
-August,NNP,MONTH_REGEX,TIME,time_reference,"In August of the same year, he married Ruby Arnold, who was from Cleveland.",9,9,== Later life and career == | === 1927–1937 ===,152557
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In August of the same year, he married Ruby Arnold, who was from Cleveland.",9,9,== Later life and career == | === 1927–1937 ===,152557
-The following month,DT VBG NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The following month, he began a residence of about a year at the Three Deuces in Chicago, initially as a soloist and then in a quartet of alto saxophone, guitar, and drums.",10,9,== Later life and career == | === 1927–1937 ===,152557
-of about a year,IN IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"The following month, he began a residence of about a year at the Three Deuces in Chicago, initially as a soloist and then in a quartet of alto saxophone, guitar, and drums.",10,9,== Later life and career == | === 1927–1937 ===,152557
-early days,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,A friend from his early days in California observed that Tatum drank Pabst Blue Ribbon beer by the case.,13,9,== Later life and career == | === 1927–1937 ===,152557
-the night-life,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"This lifestyle contributed to the effects of the diabetes that Tatum probably developed as an adult, but, as highlighted by his biographer, James Lester, the pianist would have faced a conflict if he wanted to address the diabetes problem: ""concessions – drastically less beer, a controlled diet, more rest – would have taken away exactly the things that mattered most to him, and would have removed him from the night-life that he seemed to love more than almost anything (afternoon baseball or football games would probably come next)"".",14,9,== Later life and career == | === 1927–1937 ===,152557
-afternoon,NN,DAY_TIME_REGEX,TIME,time_reference,"This lifestyle contributed to the effects of the diabetes that Tatum probably developed as an adult, but, as highlighted by his biographer, James Lester, the pianist would have faced a conflict if he wanted to address the diabetes problem: ""concessions – drastically less beer, a controlled diet, more rest – would have taken away exactly the things that mattered most to him, and would have removed him from the night-life that he seemed to love more than almost anything (afternoon baseball or football games would probably come next)"".",14,9,== Later life and career == | === 1927–1937 ===,152557
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"In California, Tatum also played for Hollywood parties and appeared on Bing Crosby's radio program late in 1936.",15,9,== Later life and career == | === 1927–1937 ===,152557
-early the following year – four,JJ DT JJ NN RB CD,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX LINKAGE_REGEX BASIC_NUMBER_REGEX_1,MODIFIER MODIFIER MODIFIER TIME MODIFIER NUMERAL,time_reference,"He recorded in Los Angeles for the first time early the following year – four tracks as the sextet named Art Tatum and His Swingsters, for Decca Records.",16,9,== Later life and career == | === 1927–1937 ===,152557
-1937,CD,YEAR_REGEX_1,TIME,time_reference,"Thus, in 1937 he left Los Angeles for another residence at the Three Deuces in Chicago, and then went on to the Famous Door club in New York, where he opened for Louis Prima.",18,9,== Later life and career == | === 1927–1937 ===,152557
-near the end of that year,IN DT NN IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,Tatum recorded for Brunswick again near the end of that year.,19,9,== Later life and career == | === 1927–1937 ===,152557
-1938–1949,CD,YEAR_REGEX_1,TIME,time_reference,1938–1949,1,10,== Later life and career == | === 1938–1949 ===,152557
-March 1938,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In March 1938, Tatum and his wife embarked on the Queen Mary for England.",0,11,== Later life and career == | === 1938–1949 ===,152557
-three months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He performed there for three months, and enjoyed the quiet listeners who, unlike some American audiences, did not talk over his playing.",1,11,== Later life and career == | === 1938–1949 ===,152557
-several weeks,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"The overseas trip appeared to have boosted his reputation, particularly with the white public, and he was able to have club residencies of at least several weeks at a time in New York over the following few years, sometimes with stipulations that no food or drink would be served while he was playing.",5,11,== Later life and career == | === 1938–1949 ===,152557
-the following few years,DT JJ JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"The overseas trip appeared to have boosted his reputation, particularly with the white public, and he was able to have club residencies of at least several weeks at a time in New York over the following few years, sometimes with stipulations that no food or drink would be served while he was playing.",5,11,== Later life and career == | === 1938–1949 ===,152557
-August 1938,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Tatum recorded 16 sides in August 1938, but they were not released for at least a decade.",0,12,== Later life and career == | === 1938–1949 ===,152557
-a decade,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Tatum recorded 16 sides in August 1938, but they were not released for at least a decade.",0,12,== Later life and career == | === 1938–1949 ===,152557
-the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"A similar thing happened the following year: of the 18 sides he recorded, only two were issued as 78s.",1,12,== Later life and career == | === 1938–1949 ===,152557
-1986,CD,YEAR_REGEX_1,TIME,time_reference,"One of the releases, a version of ""Tea for Two"", was added to the Grammy Hall of Fame in 1986.",3,12,== Later life and career == | === 1938–1949 ===,152557
-1941,CD,YEAR_REGEX_1,TIME,time_reference,"One recording from early in 1941, however, was commercially successful, with sales of perhaps 500,000.",4,12,== Later life and career == | === 1938–1949 ===,152557
-1940 and 1941,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Informal performances of Tatum's playing in 1940 and 1941 were released decades later on the album God Is in the House, for which he was posthumously awarded the 1973 Grammy for Best Jazz Performance by a Soloist.",6,12,== Later life and career == | === 1938–1949 ===,152557
-decades,NNS,TIME_UNIT_REGEX,TIME,time_reference,"Informal performances of Tatum's playing in 1940 and 1941 were released decades later on the album God Is in the House, for which he was posthumously awarded the 1973 Grammy for Best Jazz Performance by a Soloist.",6,12,== Later life and career == | === 1938–1949 ===,152557
-the 1973,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Informal performances of Tatum's playing in 1940 and 1941 were released decades later on the album God Is in the House, for which he was posthumously awarded the 1973 Grammy for Best Jazz Performance by a Soloist.",6,12,== Later life and career == | === 1938–1949 ===,152557
-tonight,JJ,DAY_TIME_REGEX,TIME,time_reference,"The album title came from Waller's reaction when he saw Tatum enter the club where Waller was performing: ""I only play the piano, but tonight God is in the house.",7,12,== Later life and career == | === 1938–1949 ===,152557
-300 a week,CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"Billboard magazine suggested that he could make at least $300 a week as a soloist in 1943; when he formed a trio later that year, it was advertised by booking agents at $750 a week.",9,12,== Later life and career == | === 1938–1949 ===,152557
-1943,CD,YEAR_REGEX_1,TIME,time_reference,"Billboard magazine suggested that he could make at least $300 a week as a soloist in 1943; when he formed a trio later that year, it was advertised by booking agents at $750 a week.",9,12,== Later life and career == | === 1938–1949 ===,152557
-later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Billboard magazine suggested that he could make at least $300 a week as a soloist in 1943; when he formed a trio later that year, it was advertised by booking agents at $750 a week.",9,12,== Later life and career == | === 1938–1949 ===,152557
-750 a week,CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"Billboard magazine suggested that he could make at least $300 a week as a soloist in 1943; when he formed a trio later that year, it was advertised by booking agents at $750 a week.",9,12,== Later life and career == | === 1938–1949 ===,152557
-of The March,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 MONTH_REGEX,MODIFIER MODIFIER TIME,time_reference,"They were a commercial success on 52nd Street, attracting more customers than any other musician, with the possible exception of vocalist Billie Holiday, and they also appeared briefly on film, in an episode of The March of Time.",11,12,== Later life and career == | === 1938–1949 ===,152557
-1944,CD,YEAR_REGEX_1,TIME,time_reference,"Nevertheless, Tatum was awarded Esquire magazine's prize for pianists in its 1944 critics' poll, which led to his playing alongside other winners at the Metropolitan Opera House in New York.",13,12,== Later life and career == | === 1938–1949 ===,152557
-1944,CD,YEAR_REGEX_1,TIME,time_reference,"All of Tatum's studio recordings in 1944 were with the trio, and radio appearances continued.",14,12,== Later life and career == | === 1938–1949 ===,152557
-1944,CD,YEAR_REGEX_1,TIME,time_reference,"He abandoned the trio in 1944, possibly at an agent's behest, and did not record with one again for eight years.",15,12,== Later life and career == | === 1938–1949 ===,152557
-eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He abandoned the trio in 1944, possibly at an agent's behest, and did not record with one again for eight years.",15,12,== Later life and career == | === 1938–1949 ===,152557
-1945,CD,YEAR_REGEX_1,TIME,time_reference,"Early in 1945, Billboard reported that Tatum was being paid $1,150 a week as a soloist by the Downbeat Club on 52nd Street to play four sets of twenty minutes each per night.",16,12,== Later life and career == | === 1938–1949 ===,152557
-"1,150 a week",CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"Early in 1945, Billboard reported that Tatum was being paid $1,150 a week as a soloist by the Downbeat Club on 52nd Street to play four sets of twenty minutes each per night.",16,12,== Later life and career == | === 1938–1949 ===,152557
-of twenty minutes,IN NN NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"Early in 1945, Billboard reported that Tatum was being paid $1,150 a week as a soloist by the Downbeat Club on 52nd Street to play four sets of twenty minutes each per night.",16,12,== Later life and career == | === 1938–1949 ===,152557
-night,NN,DAY_TIME_REGEX,TIME,time_reference,"Early in 1945, Billboard reported that Tatum was being paid $1,150 a week as a soloist by the Downbeat Club on 52nd Street to play four sets of twenty minutes each per night.",16,12,== Later life and career == | === 1938–1949 ===,152557
-1944,CD,YEAR_REGEX_1,TIME,time_reference,"Aided by name recognition from his record sales and reduced entertainer availability because of the World War II draft, Tatum began to play in more formal jazz concert settings from 1944 – appearing at concert halls in towns and universities all around the United States.",0,13,== Later life and career == | === 1938–1949 ===,152557
-1945,CD,YEAR_REGEX_1,TIME,time_reference,He recorded with the Barney Bigard Sextet and cut nine solo tracks in 1945.,3,13,== Later life and career == | === 1938–1949 ===,152557
-the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,A fellow pianist from the years after World War II estimated that Tatum routinely drank two quarts (1.9 L) of whiskey and a case of beer over the course of 24 hours.,4,13,== Later life and career == | === 1938–1949 ===,152557
-of 24 hours,IN CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,A fellow pianist from the years after World War II estimated that Tatum routinely drank two quarts (1.9 L) of whiskey and a case of beer over the course of 24 hours.,4,13,== Later life and career == | === 1938–1949 ===,152557
-the second half of the 1940s,DT JJ NN IN DT CD,PREFIX_REGEX_1 ORDINAL_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER NUMERAL MODIFIER MODIFIER MODIFIER TIME,time_reference,"Performances at concert settings continued in the second half of the 1940s, including participation in Norman Granz-produced Jazz at the Philharmonic events.",7,13,== Later life and career == | === 1938–1949 ===,152557
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"In 1947, Tatum again appeared on film, this time in The Fabulous Dorseys.",8,13,== Later life and career == | === 1938–1949 ===,152557
-A 1949,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,A 1949 concert at the Shrine Auditorium in Los Angeles was recorded and released by Columbia Records as Gene Norman Presents an Art Tatum Concert.,9,13,== Later life and career == | === 1938–1949 ===,152557
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In the same year, he signed to Capitol Records and recorded 26 pieces for them.",10,13,== Later life and career == | === 1938–1949 ===,152557
-the following few years,DT JJ JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"The owner subsequently advertised that black customers were welcome, and Tatum went on to play there frequently in the following few years.",12,13,== Later life and career == | === 1938–1949 ===,152557
-late 1940s,VB CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,"Although Tatum remained an admired figure, his popularity waned in the mid- to late 1940s.",13,13,== Later life and career == | === 1938–1949 ===,152557
-1950–1956,CD,YEAR_REGEX_1,TIME,time_reference,1950–1956,1,14,== Later life and career == | === 1950–1956 ===,152557
-1951,CD,YEAR_REGEX_1,TIME,time_reference,Tatum began working with a trio again in 1951.,0,15,== Later life and career == | === 1950–1956 ===,152557
-1952,CD,YEAR_REGEX_1,TIME,time_reference,The trio – this time with bassist Stewart and guitarist Everett Barksdale – recorded in 1952.,1,15,== Later life and career == | === 1950–1956 ===,152557
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In the same year, Tatum toured the United States with fellow pianists Erroll Garner, Pete Johnson, and Meade Lux Lewis, for concerts billed as ""Piano Parade"".",2,15,== Later life and career == | === 1950–1956 ===,152557
-1953,CD,YEAR_REGEX_1,TIME,time_reference,"Over several sessions starting late in 1953, Tatum recorded 124 solo tracks, all but three of which were released, spread over a total of 14 LPs.",2,16,== Later life and career == | === 1950–1956 ===,152557
-1978,CD,YEAR_REGEX_1,TIME,time_reference,"The solo pieces were released by Clef as The Genius of Art Tatum, and were added to the Grammy Hall of Fame in 1978.",4,16,== Later life and career == | === 1950–1956 ===,152557
-three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Nevertheless, the releases renewed attention on the pianist, including for a newer generation; he won DownBeat magazine's critics' poll for pianists three years in a row from 1954 (he never won a DownBeat readers' poll).",8,16,== Later life and career == | === 1950–1956 ===,152557
-1954,CD,YEAR_REGEX_1,TIME,time_reference,"Nevertheless, the releases renewed attention on the pianist, including for a newer generation; he won DownBeat magazine's critics' poll for pianists three years in a row from 1954 (he never won a DownBeat readers' poll).",8,16,== Later life and career == | === 1950–1956 ===,152557
-1954,CD,YEAR_REGEX_1,TIME,time_reference,"Following a deterioration in his health, Tatum stopped drinking in 1954 and tried to control his weight.",9,16,== Later life and career == | === 1950–1956 ===,152557
-That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"That year, his trio was part of bandleader Stan Kenton's 10-week tour named ""Festival of Modern American Jazz"".",10,16,== Later life and career == | === 1950–1956 ===,152557
-overnight,JJ,DAY_TIME_REGEX,TIME,time_reference,"The trio did not play with Kenton's orchestra on the tour, but they had the same performance schedule, meaning Tatum sometimes travelled long distances by overnight train while the others stayed in a hotel and then took a morning flight.",11,16,== Later life and career == | === 1950–1956 ===,152557
-a morning,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"The trio did not play with Kenton's orchestra on the tour, but they had the same performance schedule, meaning Tatum sometimes travelled long distances by overnight train while the others stayed in a hotel and then took a morning flight.",11,16,== Later life and career == | === 1950–1956 ===,152557
-April 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"He also appeared on television in The Spike Jones Show on April 17, to promote the then imminent release of The Genius of Art Tatum.",12,16,== Later life and career == | === 1950–1956 ===,152557
-Yesterdays,NNS,TIMELINE_REGEX,TIME,time_reference,"Black American musicians were not often filmed at this time, so very few visual recordings of Tatum exist, but his solo performance of ""Yesterdays"" on the show has survived as a video recording.",13,16,== Later life and career == | === 1950–1956 ===,152557
-1955,CD,YEAR_REGEX_1,TIME,time_reference,Tatum and Ruby divorced early in 1955.,14,16,== Later life and career == | === 1950–1956 ===,152557
-later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He married again later that year – Geraldine Williamson, with whom he had probably already been living.",16,16,== Later life and career == | === 1950–1956 ===,152557
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"By 1956, Tatum's health had deteriorated due to advanced uremia.",18,16,== Later life and career == | === 1950–1956 ===,152557
-August,NNP,MONTH_REGEX,TIME,time_reference,"Nevertheless, in August of that year he played to the largest audience of his career: 19,000 gathered at the Hollywood Bowl for another Granz-led event.",19,16,== Later life and career == | === 1950–1956 ===,152557
-of that year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Nevertheless, in August of that year he played to the largest audience of his career: 19,000 gathered at the Hollywood Bowl for another Granz-led event.",19,16,== Later life and career == | === 1950–1956 ===,152557
-The following month,DT VBG NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The following month, he had the last of the Granz group recording sessions, with saxophonist Ben Webster, and then played at least two concerts in October.",20,16,== Later life and career == | === 1950–1956 ===,152557
-October,NNP,MONTH_REGEX,TIME,time_reference,"The following month, he had the last of the Granz group recording sessions, with saxophonist Ben Webster, and then played at least two concerts in October.",20,16,== Later life and career == | === 1950–1956 ===,152557
-November 4,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Musicians visited him on November 4, and other pianists played for him as he lay in bed.",22,16,== Later life and career == | === 1950–1956 ===,152557
-the following day,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Tatum died the following day, at Queen of Angels Medical Center in Los Angeles, from uremia.",23,16,== Later life and career == | === 1950–1956 ===,152557
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"He was buried at Rosedale Cemetery in Los Angeles, but was moved to the Forest Lawn cemetery in Glendale, California, in 1992 by his second wife, so she could be buried next to him.",24,16,== Later life and career == | === 1950–1956 ===,152557
-1964,CD,YEAR_REGEX_1,TIME,time_reference,Tatum was inducted into the DownBeat Jazz Hall of Fame in 1964 and was given a Grammy Lifetime Achievement Award in 1989.,25,16,== Later life and career == | === 1950–1956 ===,152557
-1989,CD,YEAR_REGEX_1,TIME,time_reference,Tatum was inducted into the DownBeat Jazz Hall of Fame in 1964 and was given a Grammy Lifetime Achievement Award in 1989.,25,16,== Later life and career == | === 1950–1956 ===,152557
-hours,NNS,TIME_UNIT_REGEX,TIME,time_reference,After hours and repertoire ==,1,19,== After hours and repertoire ==,152557
-a night-weary,DT JJ,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Composer and historian Gunther Schuller describes ""a night-weary, sleepy, slurry voice, of lost love and sexual innuendos which would have shocked (and repelled) those 'fans' who admired Tatum for his musical discipline and 'classical' [piano] propriety"".",3,20,== After hours and repertoire ==,152557
-the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Over time, he added to his repertoire – by the late 1940s, most of the new pieces were medium-tempo ballads but also included compositions that presented him with harmonic challenges, such as the simplicity of ""Caravan"" and complexity of ""Have You Met Miss Jones?""",6,20,== After hours and repertoire ==,152557
-1934,CD,YEAR_REGEX_1,TIME,time_reference,"There are examples on record of the last of these going back to 1934, making Tatum the furthest harmonically out of jazz musicians until Lennie Tristano.",1,23,== Style and technique ==,152557
-moments,NNS,TIMELINE_REGEX,TIME,time_reference,"""The harmonic lines may be altered, reworked or rhythmically rephrased for moments at a time, but they are still the base underneath Tatum's superstructures.",2,24,== Style and technique ==,152557
-the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"""Prior to the 1940s, Tatum's style was based on popular song form, which often meant two bars of melodic development followed by two more melodically static bars, which he filled with rapid runs or arpeggios.",8,24,== Style and technique ==,152557
-the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"From the 1940s, he progressively lengthened the runs to eight or more bars, sometimes continuing them across the natural eight-bar boundaries within a composition's structure, and began to use a harder, more aggressive attack.",9,24,== Style and technique ==,152557
-1935,CD,YEAR_REGEX_1,TIME,time_reference,"Tatum's relatively straight-fingered technique, compared to the curvature taught in classical training, contributed to this visual impression: a critic wrote in 1935 that, when playing, ""Tatum's hand is almost perfectly horizontal, and his fingers seem to actuate around a horizontal line drawn from wrist to finger tip.",2,25,== Style and technique ==,152557
-early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Pianist Chick Corea commented that ""Tatum is the only pianist I know of before Bill [Evans]  that also had that feather-light touch – even though he probably spent his early years playing on really bad instruments.",4,26,== Style and technique ==,152557
-the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He made jazz musicians more aware of harmonic possibilities by changing the chords that he used with great frequency; this helped lay the foundations for the emergence of bebop in the 1940s.,7,28,== Influence ==,152557
-three months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"When newly arrived in New York, saxophonist Charlie Parker worked for three months as a dishwasher in a restaurant where Tatum was performing and often listened to the pianist.",10,28,== Influence ==,152557
-the 1920s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Saxophonist Coleman Hawkins changed his playing style after hearing Tatum play in Toledo in the 1920s:,15,28,== Influence ==,152557
-1994,CD,YEAR_REGEX_1,TIME,time_reference,"One full-length biography has been published – Too Marvelous for Words (1994), written by James Lester.",1,30,== Critical standing ==,152557
-1989,CD,YEAR_REGEX_1,TIME,time_reference,"In 1989, Tatum's hometown of Toledo established the Art Tatum African American Resource Center in its Kent Branch Library.",0,32,== Other forms of recognition ==,152557
-1993,CD,YEAR_REGEX_1,TIME,time_reference,"In 1993, Jeff Bilmes, an MIT student in the field of computational musicology coined the term ""tatum"", which was named in recognition of the pianist's speed.",2,32,== Other forms of recognition ==,152557
-present,NN,TIMELINE_REGEX,TIME,time_reference,"It has been defined as ""the smallest time interval between successive notes in a rhythmic phrase"", and ""the fastest pulse present in a piece of music"".",3,32,== Other forms of recognition ==,152557
-2003,CD,YEAR_REGEX_1,TIME,time_reference,"In 2003, a historical marker was placed outside Tatum's childhood home at 1123 City Park Avenue in Toledo, but by 2017 the unoccupied property was in a state of disrepair.",4,32,== Other forms of recognition ==,152557
-1123,CD,YEAR_REGEX_1,TIME,time_reference,"In 2003, a historical marker was placed outside Tatum's childhood home at 1123 City Park Avenue in Toledo, but by 2017 the unoccupied property was in a state of disrepair.",4,32,== Other forms of recognition ==,152557
-2017,CD,YEAR_REGEX_1,TIME,time_reference,"In 2003, a historical marker was placed outside Tatum's childhood home at 1123 City Park Avenue in Toledo, but by 2017 the unoccupied property was in a state of disrepair.",4,32,== Other forms of recognition ==,152557
-2021,CD,YEAR_REGEX_1,TIME,time_reference,"In 2021, Art Tatum Zone, a non-profit organization, was awarded grants to restore the house and improve the neighborhood.",5,32,== Other forms of recognition ==,152557
-2009,CD,YEAR_REGEX_1,TIME,time_reference,"Also in Toledo, the Lucas County Arena unveiled a 27-feet-high sculpture, the ""Art Tatum Celebration Column"", in 2009.",6,32,== Other forms of recognition ==,152557
-1978,CD,YEAR_REGEX_1,TIME,time_reference,"Howard, Joseph (1978).",0,38,== Further reading ==,152557
-1998,CD,YEAR_REGEX_1,TIME,time_reference,"Scivales, Ricardo (1998).",0,39,== Further reading ==,152557
-Years,NNP,TIME_UNIT_REGEX,TIME,time_reference,Underneath a Harlem Moon: The Harlem to Paris Years of Adelaide Hall.,1,40,== Further reading ==,152557
-1955,CD,YEAR_REGEX_1,TIME,time_reference,"1955 radio broadcast by Voice of America, in which Willis Conover interviews Tatum",0,43,== External links ==,152557
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"October 13 , 1909 – November 5 , 1956","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+1932,CD,YEAR_REGEX_1,TIME,time_reference,1,1
+that decade,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2,1
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,2
+the end of the decade,DT NN IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,1,2
+two months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,2
+around 1890,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,4
+1909,CD,YEAR_REGEX_1,TIME,time_reference,2,4
+"October 13 , 1909","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,3,4
+nine years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,4,4
+another two years,DT CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,4,4
+early twenties,JJ NNS,PREFIX_REGEX_1 DECADE_REGEX,MODIFIER TIME,time_reference,3,5
+1924,CD,YEAR_REGEX_1,TIME,time_reference,13,5
+less than a year,JJR IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,14,5
+around 1924–25,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,17,5
+six years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,18,5
+1927–1937,CD,YEAR_REGEX_1,TIME,time_reference,1,7
+1927,CD,YEAR_REGEX_1,TIME,time_reference,0,8
+a morning,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,0,8
+daily,JJ,PERIOD_REGEX,TIME,time_reference,0,8
+hours,NNS,TIME_UNIT_REGEX,TIME,time_reference,2,8
+the dawn,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,2,8
+noon,NN,DAY_TIME_REGEX,TIME,time_reference,2,8
+1928–29,CD,YEAR_REGEX_1,TIME,time_reference,3,8
+the late 1920s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,8,8
+1932,CD,YEAR_REGEX_1,TIME,time_reference,9,8
+August 5,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,10,8
+5 that year,CD IN NN,DIGIT_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,10,8
+five days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,11,8
+several decades,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,11,8
+that night,IN NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,15,8
+45 a week,CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,0,9
+more than a decade,JJR IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,1,9
+March 1933,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,2,9
+quarter,NN,TIME_UNIT_REGEX,TIME,time_reference,3,9
+minute,NN,TIME_UNIT_REGEX,TIME,time_reference,3,9
+1933,CD,YEAR_REGEX_1,TIME,time_reference,4,9
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,6,9
+of 1934 and 1935,IN CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,7,9
+1934,CD,YEAR_REGEX_1,TIME,time_reference,7,9
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,7,9
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,8,9
+1935,CD,YEAR_REGEX_1,TIME,time_reference,8,9
+August,NNP,MONTH_REGEX,TIME,time_reference,9,9
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,9,9
+The following month,DT VBG NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,10,9
+of about a year,IN IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,10,9
+early days,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,13,9
+the night-life,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,14,9
+afternoon,NN,DAY_TIME_REGEX,TIME,time_reference,14,9
+1936,CD,YEAR_REGEX_1,TIME,time_reference,15,9
+early the following year – four,JJ DT JJ NN RB CD,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX LINKAGE_REGEX BASIC_NUMBER_REGEX_1,MODIFIER MODIFIER MODIFIER TIME MODIFIER NUMERAL,time_reference,16,9
+1937,CD,YEAR_REGEX_1,TIME,time_reference,18,9
+near the end of that year,IN DT NN IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,19,9
+1938–1949,CD,YEAR_REGEX_1,TIME,time_reference,1,10
+March 1938,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,11
+three months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,11
+several weeks,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,5,11
+the following few years,DT JJ JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,5,11
+August 1938,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,12
+a decade,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,12
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1,12
+1986,CD,YEAR_REGEX_1,TIME,time_reference,3,12
+1941,CD,YEAR_REGEX_1,TIME,time_reference,4,12
+1940 and 1941,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,6,12
+decades,NNS,TIME_UNIT_REGEX,TIME,time_reference,6,12
+the 1973,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,6,12
+tonight,JJ,DAY_TIME_REGEX,TIME,time_reference,7,12
+300 a week,CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,9,12
+1943,CD,YEAR_REGEX_1,TIME,time_reference,9,12
+later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,9,12
+750 a week,CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,9,12
+of The March,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 MONTH_REGEX,MODIFIER MODIFIER TIME,time_reference,11,12
+1944,CD,YEAR_REGEX_1,TIME,time_reference,13,12
+1944,CD,YEAR_REGEX_1,TIME,time_reference,14,12
+1944,CD,YEAR_REGEX_1,TIME,time_reference,15,12
+eight years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,15,12
+1945,CD,YEAR_REGEX_1,TIME,time_reference,16,12
+"1,150 a week",CD DT NN,DIGIT_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,16,12
+of twenty minutes,IN NN NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,16,12
+night,NN,DAY_TIME_REGEX,TIME,time_reference,16,12
+1944,CD,YEAR_REGEX_1,TIME,time_reference,0,13
+1945,CD,YEAR_REGEX_1,TIME,time_reference,3,13
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,4,13
+of 24 hours,IN CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,4,13
+the second half of the 1940s,DT JJ NN IN DT CD,PREFIX_REGEX_1 ORDINAL_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER NUMERAL MODIFIER MODIFIER MODIFIER TIME,time_reference,7,13
+1947,CD,YEAR_REGEX_1,TIME,time_reference,8,13
+A 1949,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,9,13
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,10,13
+the following few years,DT JJ JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,12,13
+late 1940s,VB CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,13,13
+1950–1956,CD,YEAR_REGEX_1,TIME,time_reference,1,14
+1951,CD,YEAR_REGEX_1,TIME,time_reference,0,15
+1952,CD,YEAR_REGEX_1,TIME,time_reference,1,15
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,2,15
+1953,CD,YEAR_REGEX_1,TIME,time_reference,2,16
+1978,CD,YEAR_REGEX_1,TIME,time_reference,4,16
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,8,16
+1954,CD,YEAR_REGEX_1,TIME,time_reference,8,16
+1954,CD,YEAR_REGEX_1,TIME,time_reference,9,16
+That year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,10,16
+overnight,JJ,DAY_TIME_REGEX,TIME,time_reference,11,16
+a morning,DT NN,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,11,16
+April 17,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,12,16
+Yesterdays,NNS,TIMELINE_REGEX,TIME,time_reference,13,16
+1955,CD,YEAR_REGEX_1,TIME,time_reference,14,16
+later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,16,16
+1956,CD,YEAR_REGEX_1,TIME,time_reference,18,16
+August,NNP,MONTH_REGEX,TIME,time_reference,19,16
+of that year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,19,16
+The following month,DT VBG NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,20,16
+October,NNP,MONTH_REGEX,TIME,time_reference,20,16
+November 4,NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,22,16
+the following day,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,23,16
+1992,CD,YEAR_REGEX_1,TIME,time_reference,24,16
+1964,CD,YEAR_REGEX_1,TIME,time_reference,25,16
+1989,CD,YEAR_REGEX_1,TIME,time_reference,25,16
+hours,NNS,TIME_UNIT_REGEX,TIME,time_reference,1,19
+a night-weary,DT JJ,INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER TIME,time_reference,3,20
+the late 1940s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,6,20
+1934,CD,YEAR_REGEX_1,TIME,time_reference,1,23
+moments,NNS,TIMELINE_REGEX,TIME,time_reference,2,24
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,8,24
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,9,24
+1935,CD,YEAR_REGEX_1,TIME,time_reference,2,25
+early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,4,26
+the 1940s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,7,28
+three months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,10,28
+daily,JJ,PERIOD_REGEX,TIME,time_reference,13,28
+the 1920s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,15,28
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1,30
+1989,CD,YEAR_REGEX_1,TIME,time_reference,0,32
+1993,CD,YEAR_REGEX_1,TIME,time_reference,2,32
+2003,CD,YEAR_REGEX_1,TIME,time_reference,4,32
+1123,CD,YEAR_REGEX_1,TIME,time_reference,4,32
+2017,CD,YEAR_REGEX_1,TIME,time_reference,4,32
+2021,CD,YEAR_REGEX_1,TIME,time_reference,5,32
+2009,CD,YEAR_REGEX_1,TIME,time_reference,6,32
+1978,CD,YEAR_REGEX_1,TIME,time_reference,0,38
+1998,CD,YEAR_REGEX_1,TIME,time_reference,0,39
+Years,NNP,TIME_UNIT_REGEX,TIME,time_reference,1,40
+1955,CD,YEAR_REGEX_1,TIME,time_reference,0,43

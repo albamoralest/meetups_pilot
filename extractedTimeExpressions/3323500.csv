@@ -1,0 +1,47 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"June 29,1959",NNP CD,MONTH_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Robert Rock (born June 29,1959) is an American heavy metal singer-songwriter who is best known as the longtime frontman of Impellitteri, a position he has held from 1987 to 1988, 1992 to 2000, and now from 2008 to the present day.",0,0,,3323500
+"1987 to 1988 , 1992 to 2000","CD TO CD , CD TO CD",YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME MODIFIER TIME MODIFIER TIME,time_range,"Robert Rock (born June 29,1959) is an American heavy metal singer-songwriter who is best known as the longtime frontman of Impellitteri, a position he has held from 1987 to 1988, 1992 to 2000, and now from 2008 to the present day.",0,0,,3323500
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Robert Rock (born June 29,1959) is an American heavy metal singer-songwriter who is best known as the longtime frontman of Impellitteri, a position he has held from 1987 to 1988, 1992 to 2000, and now from 2008 to the present day.",0,0,,3323500
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Robert Rock (born June 29,1959) is an American heavy metal singer-songwriter who is best known as the longtime frontman of Impellitteri, a position he has held from 1987 to 1988, 1992 to 2000, and now from 2008 to the present day.",0,0,,3323500
+day,NN,TIME_UNIT_REGEX,TIME,time_reference,"Robert Rock (born June 29,1959) is an American heavy metal singer-songwriter who is best known as the longtime frontman of Impellitteri, a position he has held from 1987 to 1988, 1992 to 2000, and now from 2008 to the present day.",0,0,,3323500
+1983,CD,YEAR_REGEX_1,TIME,time_reference,Rob Rock started his music career in 1983 when he and Chris Impellitteri joined a cover band called VICE.,0,2,== Biography ==,3323500
+1985,CD,YEAR_REGEX_1,TIME,time_reference,They released a demo and were together until 1985.,1,2,== Biography ==,3323500
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"In 1986, he joined musicians Tony MacAlpine (guitar), Tommy Aldridge (drums), and Rudy Sarzo (bass guitar) in a project called M.A.R.S.",2,2,== Biography ==,3323500
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"The group released a lone album entitled Project: Driver in 1986, which received much critical praise, but the next year each member went a different way.",3,2,== Biography ==,3323500
+the next year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The group released a lone album entitled Project: Driver in 1986, which received much critical praise, but the next year each member went a different way.",3,2,== Biography ==,3323500
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"After leaving Joshua in 1988, Rock formed M.A.R.S. offshoot Driver with two other former Joshua members, bassist Emil Lech-Brando and keyboardist Greg Shultz, former Jag Panzer drummer Reynold 'Butch' Carlson, and guitarist Roy Z; Z, Carlson and Lech-Brando had previously played together in Gypsy Moreno.",0,3,== Biography ==,3323500
+previously,RB,TIMELINE_REGEX,TIME,time_reference,"After leaving Joshua in 1988, Rock formed M.A.R.S. offshoot Driver with two other former Joshua members, bassist Emil Lech-Brando and keyboardist Greg Shultz, former Jag Panzer drummer Reynold 'Butch' Carlson, and guitarist Roy Z; Z, Carlson and Lech-Brando had previously played together in Gypsy Moreno.",0,3,== Biography ==,3323500
+1990,CD,YEAR_REGEX_1,TIME,time_reference,Driver would release a 5-song cassette-only EP in 1990 but broke up the following year when Rock got a call from Chris Impellitteri and decided to once again join his band.,1,3,== Biography ==,3323500
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Driver would release a 5-song cassette-only EP in 1990 but broke up the following year when Rock got a call from Chris Impellitteri and decided to once again join his band.,1,3,== Biography ==,3323500
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Rock would stay on as lead singer until 2000 during which time Impellitteri released five successful albums.,2,3,== Biography ==,3323500
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"In 2000, Rock decided to pursue his own solo career and parted ways with Impellitteri amicably.",0,4,== Biography ==,3323500
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"That same year, he released his first solo album called Rage of Creation.",1,4,== Biography ==,3323500
+2001,CD,YEAR_REGEX_1,TIME,time_reference,They released 'The Code of Life' in 2001.,2,5,== Biography ==,3323500
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Eventually, Rock would reform Driver with Roy Z and Reynold Carlson and release the Sons of Thunder album in 2008, which consisted of re-recordings of their 1990 EP along with other unreleased songs written at the time.",0,6,== Biography ==,3323500
+of their 1990,IN PRP$ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"Eventually, Rock would reform Driver with Roy Z and Reynold Carlson and release the Sons of Thunder album in 2008, which consisted of re-recordings of their 1990 EP along with other unreleased songs written at the time.",0,6,== Biography ==,3323500
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"A second Driver album, Countdown, was released in 2012.",1,6,== Biography ==,3323500
+May 2008,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,In May 2008 it was announced that Rock reunited once more with Impellitteri.,0,7,== Biography ==,3323500
+April 2009,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Their new album, Wicked Maiden, was released in April 2009.",1,7,== Biography ==,3323500
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Rock has also lent his voice to the Randy Rhoads tribute released in 2000 and to countless other projects through his career like Avantasia and Axel Rudi Pell.,2,7,== Biography ==,3323500
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"In 2013, Rob Rock made part of former Stratovarius guitarist Timo Tolkki's new project called Avalon, a metal opera featuring Rock as one of the main characters.",3,7,== Biography ==,3323500
+"January 5 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Alexander was born January 5, 2006.",1,9,== Personal life ==,3323500
+2000–present,CD,YEAR_REGEX_1,TIME,time_reference,Current membersRob Rock – vocals (2000–present),0,11,== Band members ==,3323500
+2004–present,CD,YEAR_REGEX_1,TIME,time_reference,Carl Johan Grimmark – guitars (2004–present),0,12,== Band members ==,3323500
+2004–present,CD,YEAR_REGEX_1,TIME,time_reference,Daniel Hall – guitars (2004–present),0,13,== Band members ==,3323500
+2004–present,CD,YEAR_REGEX_1,TIME,time_reference,Andreas Olsson – bass guitar (2004–present),0,14,== Band members ==,3323500
+2004–present,CD,YEAR_REGEX_1,TIME,time_reference,Anders Johansson – drums (2004–present),0,15,== Band members ==,3323500
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Roy Z – guitars, bass, keyboard  (full-time member from 2000 till 2003, is now only a studio member)",0,16,== Band members ==,3323500
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Roy Z – guitars, bass, keyboard  (full-time member from 2000 till 2003, is now only a studio member)",0,16,== Band members ==,3323500
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Roy Z – guitars, bass, keyboard  (full-time member from 2000 till 2003, is now only a studio member)",0,16,== Band members ==,3323500
+2001–2004,CD,YEAR_REGEX_1,TIME,time_reference,Rick Renstrom – guitars (2001–2004),0,18,== Band members ==,3323500
+2003–2004,CD,YEAR_REGEX_1,TIME,time_reference,Bob Rossi – guitars (2003–2004),0,19,== Band members ==,3323500
+2001–2002,CD,YEAR_REGEX_1,TIME,time_reference,Hank Coffey – guitars (2001–2002),0,20,== Band members ==,3323500
+2000–2003,CD,YEAR_REGEX_1,TIME,time_reference,"Ray ""Geezer"" Burke – bass (2000–2003, session member)",0,21,== Band members ==,3323500
+2000–2004,CD,YEAR_REGEX_1,TIME,time_reference,"Stephen Elder – bass (2000–2004, live member)",0,22,== Band members ==,3323500
+2000–2003,CD,YEAR_REGEX_1,TIME,time_reference,Reynold Carlsson – drums (2000–2003),0,23,== Band members ==,3323500
+2000–2010,CD,YEAR_REGEX_1,TIME,time_reference,Tracy Shell – drums (2000–2010),0,24,== Band members ==,3323500
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Rage of Creation (2000),0,27,== Solo discography ==,3323500
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Eyes of Eternity (2003),0,28,== Solo discography ==,3323500
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Holy Hell (2005),0,29,== Solo discography ==,3323500
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Garden of Chaos (2007),0,30,== Solo discography ==,3323500
+2009,CD,YEAR_REGEX_1,TIME,time_reference,The Voice of Melodic Metal – Live in Atlanta (2009),0,31,== Solo discography ==,3323500

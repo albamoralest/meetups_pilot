@@ -1,0 +1,38 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"June 19 , 1990","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jason James Desiata Dy (born June 19, 1990) is a Filipino singer, songwriter and occasional actor.",0,0,,45547110
+"August 18 , 2015","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Dy was invited onstage by David Foster to perform with him during his HitMan tour at the Smart Araneta Coliseum, Manila, August 18, 2015.",2,0,,45547110
+"September 4 , 2015","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Dy's eponymous album, Jason Dy, was released by MCA Universal on September 4, 2015.",4,0,,45547110
+October 2016,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,A deluxe edition with additional original compositions was released October 2016.,6,0,,45547110
+March 2017,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"March 2017, Dy received a gold record award from MCA Music for his Jason Dy album at a celebration at Robinson's Galleria.",7,0,,45547110
+May 2017,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In May 2017, Dy went on a Malaysian promo tour for his latest single ""Nothing Like Cinta Ini"" with Malaysian singer Fazura.",9,0,,45547110
+currently,RB,TIMELINE_REGEX,TIME,time_reference,Dy is currently a regular performer at ABS-CBN's Sunday variety show ASAP.,0,1,,45547110
+Sunday,NNP,WEEK_REGEX,TIME,time_reference,Dy is currently a regular performer at ABS-CBN's Sunday variety show ASAP.,0,1,,45547110
+"June 19 , 1990","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jason Dy was born on June 19, 1990, in Cebu City, Philippines but was raised by his parents in Butuan City.",0,4,== Biography == | === Early life and education ===,45547110
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"In 2003, his parents separated; they were granted an annulment in 2014.",1,4,== Biography == | === Early life and education ===,45547110
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"In 2003, his parents separated; they were granted an annulment in 2014.",1,4,== Biography == | === Early life and education ===,45547110
+of the 2013,IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"He also recorded demo tracks, including the original soundtrack of the 2013 film Bakit Hindi Ka Crush ng Crush Mo?, which was re-recorded by Xian Lim for his XL2 album, as well as ""Kontrabida"" and ""Nasa 'Yo Na Ang Lahat"" by Sam Concepcion and Daniel Padilla, respectively.",6,4,== Biography == | === Early life and education ===,45547110
+Mo,NNP,TIME_UNIT_REGEX,TIME,time_reference,"He also recorded demo tracks, including the original soundtrack of the 2013 film Bakit Hindi Ka Crush ng Crush Mo?, which was re-recorded by Xian Lim for his XL2 album, as well as ""Kontrabida"" and ""Nasa 'Yo Na Ang Lahat"" by Sam Concepcion and Daniel Padilla, respectively.",6,4,== Biography == | === Early life and education ===,45547110
+2014–present,CD,YEAR_REGEX_1,TIME,time_reference,2014–present: The Voice of the Philippines =,1,6,== Biography == | ==== 2014–present: The Voice of the Philippines ====,45547110
+"November 9 , 2014","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"During the second season auditions for ABS-CBN's The Voice of the Philippines, which aired on November 9, 2014, Dy performed Sam Smith's ""Stay with Me"".",0,7,== Biography == | ==== 2014–present: The Voice of the Philippines ====,45547110
+night,NN,DAY_TIME_REGEX,TIME,time_reference,"He then performed a duet with Charice during the first set of the finals night, singing the song ""Wrecking Ball"", and later sang ""With You"" for his solo performance.",6,7,== Biography == | ==== 2014–present: The Voice of the Philippines ====,45547110
+the second night,DT JJ NN,PREFIX_REGEX_1 ORDINAL_REGEX_1 DAY_TIME_REGEX,MODIFIER NUMERAL TIME,time_reference,"Along with Alisah Bonaobra, Dy advanced to the second round on the second night of the finale after garnering one of the two highest votes from the public.",11,7,== Biography == | ==== 2014–present: The Voice of the Philippines ====,45547110
+of today,IN NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"He is the voice of today, he is a world-class talent, and his voice deserves to be heard all over the world"".",15,7,== Biography == | ==== 2014–present: The Voice of the Philippines ====,45547110
+"day , March 1","NN , NNP CD",TIME_UNIT_REGEX COMMA_REGEX MONTH_REGEX DIGIT_REGEX_1,TIME MODIFIER TIME NUMERAL,time_reference,"Coincidentally, both Dy and Geronimo became champions on the same day, March 1.",16,7,== Biography == | ==== 2014–present: The Voice of the Philippines ====,45547110
+Mo,NNP,TIME_UNIT_REGEX,TIME,time_reference,Bakit Hindi Ka Crush ng Crush Mo?,0,12,== Discography == | === As a demo artist ===,45547110
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"OST, 2013 (recorded by Xian Lim)",1,12,== Discography == | === As a demo artist ===,45547110
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"""Kontrabida"", 2013 (recorded by Sam Concepcion)",0,13,== Discography == | === As a demo artist ===,45547110
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"""Nasa 'Yo Na Ang Lahat"", 2013 (recorded by Daniel Padilla)",0,14,== Discography == | === As a demo artist ===,45547110
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"""Ikaw Na"", 2014 (recorded by Jed Madela)",0,15,== Discography == | === As a demo artist ===,45547110
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"All About Me, 2013",0,18,== Discography == | ==== Studio albums ====,45547110
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"Jason Dy, 2015",0,19,== Discography == | ==== Studio albums ====,45547110
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"Jason Dy (Deluxe), 2016",0,20,== Discography == | ==== Studio albums ====,45547110
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"Caught in that Feeling, 2015",0,22,== Discography == | ==== Singles ====,45547110
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"Milagro, 2015",0,23,== Discography == | ==== Singles ====,45547110
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"Walang Iwanan, 2016",0,24,== Discography == | ==== Singles ====,45547110
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Nothing Like Pag-ibig, 2017",0,25,== Discography == | ==== Singles ====,45547110
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Nothing Like Cinta Ini with Fazura, 2017",0,26,== Discography == | ==== Singles ====,45547110
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Pano Na Lang Ako, 2017",0,27,== Discography == | ==== Singles ====,45547110
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Tayo Na Lang Kasi with Kyla, 2017",0,28,== Discography == | ==== Singles ====,45547110
+2019,CD,YEAR_REGEX_1,TIME,time_reference,"Diyan Ba Sa Langit with Morissette and KIKX, 2019",0,29,== Discography == | ==== Singles ====,45547110
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"Gusto Ko Pa with Jay R, 2020",0,30,== Discography == | ==== Singles ====,45547110
+2021,CD,YEAR_REGEX_1,TIME,time_reference,"Piliin ang Pag-ibig with Soc Villanueva, 2021",0,31,== Discography == | ==== Singles ====,45547110

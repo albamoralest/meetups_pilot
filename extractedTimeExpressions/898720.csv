@@ -1,0 +1,15 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"May 1 , 1965","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Thomas Wayne Hancock III (born May 1, 1965, in Dallas, Texas) better known as Wayne ""The Train"" Hancock, is an American singer-songwriter.",0,0,,898720
+eighteen years old,JJ NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,time_reference,"At eighteen years old, Hancock won the Wrangler Country Showdown contest.",6,0,,898720
+four years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Hancock served in the military for four years.,8,0,,898720
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"In 1990, Hancock moved to Austin, Texas.",10,0,,898720
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"In 1994, he met Lubbock, Texas native Joe Ely, a member of the Flatlanders at the Continental Club in, Austin, Texas.",11,0,,898720
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Maines has produced all of Hancock's albums, dating back to his 1995 debut, Thunderstorms and Neon Signs, released on Deja Disc Records.",18,0,,898720
+the first year,DT JJ NN,PREFIX_REGEX_1 ORDINAL_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"The album sold 22,000 copies in the first year.",19,0,,898720
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"The follow up was Hancock's sophomore 1997 album, That's What Daddy Wants released on Ark 21.",20,0,,898720
+5 hours,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Hancock gained the nickname The Train because of his marathon length shows, going on for 3, 4, even 5 hours long.""",21,0,,898720
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"On his debut 1999 album, Risin' Outlaw, Hank Williams III, grandson of Hank Williams Sr., covered two songs from Thunderstorms and Neon Signs, the title track, and ""Why Don't You Leave Me Alone.""",0,1,,898720
+April 2014,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In April 2014, Hancock was involved in a serious motorcycle accident, which left him with a fractured elbow and a collapsed lung.",2,1,,898720
+several months,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He was forced to cancel several months' worth of tour dates due to the wreck, but by the end of the year he was fully recovered and back on the road.",3,1,,898720
+the end of the year,DT NN IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,"He was forced to cancel several months' worth of tour dates due to the wreck, but by the end of the year he was fully recovered and back on the road.",3,1,,898720
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"In 2016, Hancock returned to the studio with producer Lloyd Maines to cut his eighth studio album Slingin' Rhythm.",4,1,,898720

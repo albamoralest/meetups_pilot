@@ -1,0 +1,67 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"February 21 , 1951 – June 2 , 2006","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Vincent Leo Welnick (February 21, 1951 – June 2, 2006) was an American keyboardist, best known for playing with the band the Tubes during the 1970s and 1980s and with the Grateful Dead in the 1990s.",0,0,,1777106
+the 1970s and 1980s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Vincent Leo Welnick (February 21, 1951 – June 2, 2006) was an American keyboardist, best known for playing with the band the Tubes during the 1970s and 1980s and with the Grateful Dead in the 1990s.",0,0,,1777106
+the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Vincent Leo Welnick (February 21, 1951 – June 2, 2006) was an American keyboardist, best known for playing with the band the Tubes during the 1970s and 1980s and with the Grateful Dead in the 1990s.",0,0,,1777106
+the late 1970s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"He joined a band, the Beans, which eventually morphed into the Tubes, a San Francisco-based theater rock band popular in the late 1970s and early 1980s and noted for early live performances that combined lewd quasi-pornography with wild satires of media, consumerism and politics.",1,2,== Music career ==,1777106
+early 1980s,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He joined a band, the Beans, which eventually morphed into the Tubes, a San Francisco-based theater rock band popular in the late 1970s and early 1980s and noted for early live performances that combined lewd quasi-pornography with wild satires of media, consumerism and politics.",1,2,== Music career ==,1777106
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,The Tubes in the 1980s were a major commercial rock act with substantial MTV success.,0,3,== Music career ==,1777106
+"July 26 , 1990","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"When Grateful Dead keyboardist Brent Mydland died of a drug overdose on July 26, 1990, the band began auditioning players to replace him, including Ian McLagan, Pete Sears and T Lavitz.",0,4,== Music career ==,1777106
+"September 7 , 1990","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Welnick's first show with the Grateful Dead was on September 7, 1990, at the Richfield Coliseum in Richfield, Ohio.",2,4,== Music career ==,1777106
+first years,JJ NNS,ORDINAL_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Bruce Hornsby also supplemented Welnick on grand piano for over 100 shows in Welnick's first years in the Dead.,5,4,== Music career ==,1777106
+August 1995,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Welnick remained as a member of the Grateful Dead and the band's keyboard player until Jerry Garcia's death in August 1995, when the group disbanded.",6,4,== Music career ==,1777106
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"In 1994, he was inducted into the Rock and Roll Hall of Fame as a member of the Grateful Dead.",0,5,== Music career ==,1777106
+the summer 1995,DT NN CD,PREFIX_REGEX_1 SEASON_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,He decided to do the summer 1995 Grateful Dead tour and wait to have surgery after it ended.,2,5,== Music career ==,1777106
+About six months,IN CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"Welnick joined Bob Weir's new group, Ratdog, as the keyboard player, touring with them around the U.S. About six months after Garcia's death, Welnick attempted suicide on the tour bus to Monterey, California.",4,5,== Music career ==,1777106
+Days,NNPS,TIME_UNIT_REGEX,TIME,time_reference,"He worked with the band Second Sight, with Bob Bralove, and with Missing Man Formation, which released an album that included the song ""Golden Days"", a tribute to Garcia.",6,5,== Music career ==,1777106
+March 1998,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He participated in the  second Phil Lesh and Friends show in March 1998, and he toured the U.S. with the Mickey Hart Band later that year.",7,5,== Music career ==,1777106
+later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He participated in the  second Phil Lesh and Friends show in March 1998, and he toured the U.S. with the Mickey Hart Band later that year.",7,5,== Music career ==,1777106
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"In 1998, Bob Weir, Phil Lesh, and Mickey Hart regrouped under the name the Other Ones.",0,6,== Music career ==,1777106
+am,VBP,HALFDAY_REGEX_1,TIME,,"He voiced frustration to Rolling Stone, saying, ""I am and always will be a member of the Grateful Dead.",2,6,== Music career ==,1777106
+hundreds of hours,NNS IN NNS,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,time_reference,"He left behind hundreds of hours of unreleased materials, both personal and professional recordings.",6,6,== Music career ==,1777106
+final years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"During his final years, he worked closely with Gent Treadly.",7,6,== Music career ==,1777106
+the 1981,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Welnick played a small part in the 1981 film Ladies and Gentlemen, The Fabulous Stains.",0,8,== Film ==,1777106
+"June 2 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On June 2, 2006, at the age of 55, Welnick committed suicide after battling depression for ten years.",0,11,== Death ==,1777106
+ten years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"On June 2, 2006, at the age of 55, Welnick committed suicide after battling depression for ten years.",0,11,== Death ==,1777106
+1975,CD,YEAR_REGEX_1,TIME,time_reference,The Tubes (1975),0,14,== Discography ==,1777106
+1976,CD,YEAR_REGEX_1,TIME,time_reference,Young and Rich (1976),0,15,== Discography ==,1777106
+Now,RB,TIMELINE_REGEX,TIME,time_reference,Now (1977),0,16,== Discography ==,1777106
+1977,CD,YEAR_REGEX_1,TIME,time_reference,Now (1977),0,16,== Discography ==,1777106
+1978,CD,YEAR_REGEX_1,TIME,time_reference,What Do You Want from Live (1978),0,17,== Discography ==,1777106
+1979,CD,YEAR_REGEX_1,TIME,time_reference,Remote Control (1979),0,18,== Discography ==,1777106
+1981,CD,YEAR_REGEX_1,TIME,time_reference,The Completion Backward Principle (1981),0,19,== Discography ==,1777106
+1983,CD,YEAR_REGEX_1,TIME,time_reference,Outside Inside (1983),0,20,== Discography ==,1777106
+1985,CD,YEAR_REGEX_1,TIME,time_reference,Love Bomb (1985),0,21,== Discography ==,1777106
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Infomercial: How to Become Tubular (2000),0,22,== Discography ==,1777106
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Mondo Birthmark (2009)With Todd Rundgren,0,23,== Discography ==,1777106
+1989,CD,YEAR_REGEX_1,TIME,time_reference,Nearly Human (1989),0,24,== Discography ==,1777106
+1991,CD,YEAR_REGEX_1,TIME,time_reference,2nd Wind (1991)With Grateful Dead,0,25,== Discography ==,1777106
+1991,CD,YEAR_REGEX_1,TIME,time_reference,Infrared Roses (1991),0,26,== Discography ==,1777106
+1997,CD,YEAR_REGEX_1,TIME,time_reference,Fallout from the Phil Zone (1997),0,27,== Discography ==,1777106
+1997,CD,YEAR_REGEX_1,TIME,time_reference,Dick's Picks Volume 9 (1997),0,28,== Discography ==,1777106
+1965-1995,JJ,YEAR_REGEX_1,TIME,time_reference,So Many Roads (1965-1995) (1999),0,29,== Discography ==,1777106
+1999,CD,YEAR_REGEX_1,TIME,time_reference,So Many Roads (1965-1995) (1999),0,29,== Discography ==,1777106
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Dick's Picks Volume 17 (2000),0,30,== Discography ==,1777106
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"View from the Vault, Volume Two (2001)",0,31,== Discography ==,1777106
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Dick's Picks Volume 27 (2003),0,32,== Discography ==,1777106
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Grateful Dead Download Series Volume 11 (2006),0,33,== Discography ==,1777106
+2008,CD,YEAR_REGEX_1,TIME,time_reference,Road Trips Volume 2 Number 1 (2008),0,34,== Discography ==,1777106
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Road Trips Volume 2 Number 4 (2009),0,35,== Discography ==,1777106
+Around the Sun,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER MODIFIER TIME,time_reference,30 Trips Around the Sun (2015),0,36,== Discography ==,1777106
+2015,CD,YEAR_REGEX_1,TIME,time_reference,30 Trips Around the Sun (2015),0,36,== Discography ==,1777106
+Around the Sun,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER MODIFIER TIME,time_reference,30 Trips Around the Sun: The Definitive Live Story 1965–1995 (2015),0,37,== Discography ==,1777106
+1965–1995,CD,YEAR_REGEX_1,TIME,time_reference,30 Trips Around the Sun: The Definitive Live Story 1965–1995 (2015),0,37,== Discography ==,1777106
+2015,CD,YEAR_REGEX_1,TIME,time_reference,30 Trips Around the Sun: The Definitive Live Story 1965–1995 (2015),0,37,== Discography ==,1777106
+"1987 , 1989 , 1991","CD , CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME MODIFIER TIME,time_range,"Giants Stadium 1987, 1989, 1991 (2019)",0,38,== Discography ==,1777106
+2019,CD,YEAR_REGEX_1,TIME,time_reference,"Giants Stadium 1987, 1989, 1991 (2019)",0,38,== Discography ==,1777106
+2019,CD,YEAR_REGEX_1,TIME,time_reference,Saint of Circumstance (2019),0,39,== Discography ==,1777106
+2019,CD,YEAR_REGEX_1,TIME,time_reference,Ready or Not (2019)With others,0,40,== Discography ==,1777106
+1994,CD,YEAR_REGEX_1,TIME,time_reference,Chance in a Million (1994) – Zero,0,41,== Discography ==,1777106
+1996,CD,YEAR_REGEX_1,TIME,time_reference,Calling Up Spirits (1996) – Dick Dale,0,42,== Discography ==,1777106
+1996,CD,YEAR_REGEX_1,TIME,time_reference,Second Sight (1996) – Second Sight,0,43,== Discography ==,1777106
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Fiesta Amazonica (1998) – Merl Saunders,0,44,== Discography ==,1777106
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Missing Man Formation (1998) – Missing Man Formation,0,45,== Discography ==,1777106
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Might as Well... (2000) – The Persuasions,0,46,== Discography ==,1777106
+2000,CD,YEAR_REGEX_1,TIME,time_reference,Smallstone (2000) – Smallstone,0,47,== Discography ==,1777106
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Uh-Oh! (2001) – Tipsy,0,48,== Discography ==,1777106
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Texistentialism (2007) – Jerry Lightfoot's Band of Wonder,0,49,== Discography ==,1777106
+a 1993,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"The National Anthem by Garcia, Weir, and Welnick before a 1993 San Francisco Giants game at Candlestick Park, boingboing.com.",0,55,== External links ==,1777106

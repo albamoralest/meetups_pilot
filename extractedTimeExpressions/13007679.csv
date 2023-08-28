@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"September 4 , 1920 – January 24 , 1991","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Harold Bradley ""Shot"" Jackson (September 4, 1920 – January 24, 1991) was an American country guitarist best known for playing Dobro and pedal steel guitar.",0,0,,13007679
+1944,CD,YEAR_REGEX_1,TIME,time_reference,"Jackson moved to Nashville in 1944 to play on the Grand Ole Opry, in Cousin Wilbur Westbrooks' band.",0,2,== Biography ==,13007679
+1951–57,CD,YEAR_REGEX_1,TIME,time_reference,"From 1951–57, Jackson joined Johnnie Wright and Jack Anglin's Tennessee Mountain Boys, as their Dobro player.",0,3,== Biography ==,13007679
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"In 1962 he released a solo album, Singing Strings of Steel Guitar and Dobro, on Starday Records.",3,4,== Biography ==,13007679
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"From 1964 until mid-1965, Jackson was back playing with Roy Acuff, but was badly injured (along with Acuff) in a serious car crash.",0,5,== Biography ==,13007679
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"He sold Sho-Bud to Baldwin-Gretsch in 1980, selling his instrument repair business three years later.",1,7,== Biography ==,13007679
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He sold Sho-Bud to Baldwin-Gretsch in 1980, selling his instrument repair business three years later.",1,7,== Biography ==,13007679
+1986,CD,YEAR_REGEX_1,TIME,time_reference,He was inducted into the Steel Guitar Hall of Fame in 1986.,2,7,== Biography ==,13007679
+less than ten years,JJR IN CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Not long after suffering a stroke (his second in less than ten years), he died on January 24, 1991.",3,7,== Biography ==,13007679
+"January 24 , 1991","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Not long after suffering a stroke (his second in less than ten years), he died on January 24, 1991.",3,7,== Biography ==,13007679
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Singing Strings of Steel Guitar and Dobro (1962, Starday)",0,9,== Discography ==,13007679
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"Bluegrass Dobro (1965, Cumberland)",0,10,== Discography ==,13007679

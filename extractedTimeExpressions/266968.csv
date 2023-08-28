@@ -1,0 +1,86 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"August 8 , 1907 – July 12 , 2003","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Bennett Lester Carter (August 8, 1907 – July 12, 2003) was an American jazz saxophonist, clarinetist, trumpeter, composer, arranger, and bandleader.",0,0,,266968
+the 1920s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"From the beginning of his career in the 1920s, he worked as an arranger including written charts for Fletcher Henderson's big band that shaped the swing style.",2,0,,266968
+the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He had an unusually long career that lasted into the 1990s.,3,0,,266968
+the 1980s and '90s,DT CD CC NNS,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_2,MODIFIER TIME MODIFIER TIME,time_reference,"During the 1980s and '90s, he was nominated for eight Grammy Awards, which included receiving a Lifetime Achievement Award.",4,0,,266968
+1907,CD,YEAR_REGEX_1,TIME,time_reference,"Born in New York City in 1907, Carter was given piano lessons by his mother and others in the neighborhood.",0,2,== Career ==,266968
+the 1920s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1920s, he performed with June Clark, Billy Paige, and Earl Hines, then toured as a member of the Wilberforce Collegians led by Horace Henderson.",2,2,== Career ==,266968
+June,NNP,MONTH_REGEX,TIME,time_reference,"In the 1920s, he performed with June Clark, Billy Paige, and Earl Hines, then toured as a member of the Wilberforce Collegians led by Horace Henderson.",2,2,== Career ==,266968
+1927,CD,YEAR_REGEX_1,TIME,time_reference,He appeared on record for the first time in 1927 as a member of the Paradise Ten led by Charlie Johnson.,0,3,== Career ==,266968
+1929,CD,YEAR_REGEX_1,TIME,time_reference,"He returned to the Collegians and became their bandleader through 1929, including a performance at the Savoy Ballroom in New York City.",1,3,== Career ==,266968
+1932,CD,YEAR_REGEX_1,TIME,time_reference,"In 1932, he formed a band in New York City that included Chu Berry, Sid Catlett, Cozy Cole, Bill Coleman, Ben Webster, Dicky Wells, and Teddy Wilson.",6,3,== Career ==,266968
+1930,CD,YEAR_REGEX_1,TIME,time_reference,"Among the most significant were ""Keep a Song in Your Soul"", written for Henderson in 1930, and ""Lonesome Nights"" and ""Symphony in Riffs"" from 1933, both of which show Carter's writing for saxophones.",8,3,== Career ==,266968
+Nights,NNP,DAY_TIME_REGEX,TIME,time_reference,"Among the most significant were ""Keep a Song in Your Soul"", written for Henderson in 1930, and ""Lonesome Nights"" and ""Symphony in Riffs"" from 1933, both of which show Carter's writing for saxophones.",8,3,== Career ==,266968
+1933,CD,YEAR_REGEX_1,TIME,time_reference,"Among the most significant were ""Keep a Song in Your Soul"", written for Henderson in 1930, and ""Lonesome Nights"" and ""Symphony in Riffs"" from 1933, both of which show Carter's writing for saxophones.",8,3,== Career ==,266968
+the early 1930s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"By the early 1930s, Carter and Johnny Hodges were considered the leading alto saxophonists.",9,3,== Career ==,266968
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He recorded extensively on trumpet in the 1930s.,11,3,== Career ==,266968
+1933,CD,YEAR_REGEX_1,TIME,time_reference,"In 1933, Carter participated in sessions with British composer/musician Spike Hughes, who visited New York City to organize recordings with prominent African American musicians.",0,4,== Career ==,266968
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Carter moved to London and spent two years as arranger for the BBC Big Band.,3,4,== Career ==,266968
+1938,CD,YEAR_REGEX_1,TIME,time_reference,"In 1938, he returned to America.",6,4,== Career ==,266968
+1941,CD,YEAR_REGEX_1,TIME,time_reference,He found regular work leading his band at the Savoy Ballroom in Harlem through 1941.,7,4,== Career ==,266968
+the decades,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Los Angeles provided him many opportunities for studio work, and these dominated his time during the decades.",3,5,== Career ==,266968
+1943,CD,YEAR_REGEX_1,TIME,time_reference,"He wrote music and arrangements for films, such as Stormy Weather in 1943.",4,5,== Career ==,266968
+the 1950s and '60s,DT CD CC NNS,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_2,MODIFIER TIME MODIFIER TIME,time_reference,"During the 1950s and '60s, he wrote arrangements for vocalists such as Louis Armstrong, Ray Charles, Ella Fitzgerald, Peggy Lee, and Sarah Vaughan.",5,5,== Career ==,266968
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"On something of a comeback in the 1970s, Carter returned to playing saxophone again and toured the Middle East courtesy of the U.S. State Department.",6,5,== Career ==,266968
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"In 1969, Carter was persuaded to spend a weekend at Princeton University by Morroe Berger, a sociology professor at Princeton who wrote about jazz.",0,6,== Career ==,266968
+a weekend,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 1969, Carter was persuaded to spend a weekend at Princeton University by Morroe Berger, a sociology professor at Princeton who wrote about jazz.",0,6,== Career ==,266968
+the next nine years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"For the next nine years he visited Princeton five times, most of them brief stays except for one in 1973 when he spent a semester there as a visiting professor.",2,6,== Career ==,266968
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"For the next nine years he visited Princeton five times, most of them brief stays except for one in 1973 when he spent a semester there as a visiting professor.",2,6,== Career ==,266968
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"In 1974, Princeton gave him an honorary doctorate.",3,6,== Career ==,266968
+a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,He conducted teaching at workshops and seminars at several other universities and was a visiting lecturer at Harvard for a week in 1987.,4,6,== Career ==,266968
+1987,CD,YEAR_REGEX_1,TIME,time_reference,He conducted teaching at workshops and seminars at several other universities and was a visiting lecturer at Harvard for a week in 1987.,4,6,== Career ==,266968
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Morroe Berger wrote Benny Carter – A Life in American Music (1982), a two-volume work about Carter's career.",5,6,== Career ==,266968
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1980s, he wrote the long composition Central City Sketches which was performed at Cooper Union by the American Jazz Orchestra.",7,6,== Career ==,266968
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Lincoln Center commissioned him to write ""Good Vibes"" in 1990.",9,6,== Career ==,266968
+Sun,NNP,WEEK_ABBR_REGEX,TIME,time_reference,The National Endowment for the Arts gave him a grant that led Tales of the Rising Sun Suite and Harlem Renaissance Suite.,10,6,== Career ==,266968
+1992,CD,YEAR_REGEX_1,TIME,time_reference,This music was performed in 1992 when he was 85 years old.,11,6,== Career ==,266968
+85 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,This music was performed in 1992 when he was 85 years old.,11,6,== Career ==,266968
+decades,NNS,TIME_UNIT_REGEX,TIME,time_reference,He was perhaps the only musician to have recorded in eight different decades.,13,6,== Career ==,266968
+1930,CD,YEAR_REGEX_1,TIME,time_reference,"He helped establish a foundation for arranging as far back as 1930 when he arranged ""Keep a Song in Your Soul"" for Fletcher Henderson's big band.",16,6,== Career ==,266968
+80 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"His compositions include the novelty hit ""Cow-Cow Boogie"" recorded by Ella Mae Morse, and the expansive Central City Sketches, written when he was 80 years old and recorded with the American Jazz Orchestra.",17,6,== Career ==,266968
+"July 12 , 2003","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Carter died at the age of 95 in Los Angeles at Cedars-Sinai Medical Center on July 12, 2003 from complications of bronchitis.",18,6,== Career ==,266968
+"June 25 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On June 25, 2019, The New York Times Magazine listed Benny Carter among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire.",19,6,== Career ==,266968
+the 2008,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"On June 25, 2019, The New York Times Magazine listed Benny Carter among hundreds of artists whose material was reportedly destroyed in the 2008 Universal fire.",19,6,== Career ==,266968
+1977,CD,YEAR_REGEX_1,TIME,time_reference,He was inducted into the DownBeat Jazz Hall of Fame in 1977.,0,8,== Awards and honors ==,266968
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"In 1978, he was inducted into the Black Filmmakers Hall of Fame.",1,8,== Awards and honors ==,266968
+1980,CD,YEAR_REGEX_1,TIME,time_reference,"In 1980, he received the Golden Score award of the American Society of Music Arrangers and Composers.",2,8,== Awards and honors ==,266968
+a week,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,His 75th birthday was commemorated by a radio station in New York that played his music nonstop for over a week.,3,8,== Awards and honors ==,266968
+1986,CD,YEAR_REGEX_1,TIME,time_reference,The National Endowment for the Arts gave him the NEA Jazz Masters Award for 1986.,4,8,== Awards and honors ==,266968
+1987,CD,YEAR_REGEX_1,TIME,time_reference,He was given a Grammy Lifetime Achievement Award in 1987.,5,8,== Awards and honors ==,266968
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"In 1994 he won a Grammy Award for his solo on ""Prelude to a Kiss"" and received a star on the Hollywood Walk of Fame.",6,8,== Awards and honors ==,266968
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"In 1989, Lincoln Center celebrated Carter's 82nd birthday with a set of his songs sung by Ernestine Anderson and Sylvia Syms.",0,9,== Awards and honors ==,266968
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"In 1990, he was named Jazz Artist of the Year in the DownBeat and JazzTimes polls.",1,9,== Awards and honors ==,266968
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 1990, he was named Jazz Artist of the Year in the DownBeat and JazzTimes polls.",1,9,== Awards and honors ==,266968
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"He was a Kennedy Center Honoree in 1996 and received honorary doctorates from Princeton (1974), Rutgers (1991), Harvard (1994), and the New England Conservatory of Music (1998).",2,9,== Awards and honors ==,266968
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"He was a Kennedy Center Honoree in 1996 and received honorary doctorates from Princeton (1974), Rutgers (1991), Harvard (1994), and the New England Conservatory of Music (1998).",2,9,== Awards and honors ==,266968
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"He was a Kennedy Center Honoree in 1996 and received honorary doctorates from Princeton (1974), Rutgers (1991), Harvard (1994), and the New England Conservatory of Music (1998).",2,9,== Awards and honors ==,266968
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"He was a Kennedy Center Honoree in 1996 and received honorary doctorates from Princeton (1974), Rutgers (1991), Harvard (1994), and the New England Conservatory of Music (1998).",2,9,== Awards and honors ==,266968
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"He was a Kennedy Center Honoree in 1996 and received honorary doctorates from Princeton (1974), Rutgers (1991), Harvard (1994), and the New England Conservatory of Music (1998).",2,9,== Awards and honors ==,266968
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"In 2016, the National Museum of American History made Carter the subject of its Jazz Appreciation Month poster.",3,9,== Awards and honors ==,266968
+Month,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In 2016, the National Museum of American History made Carter the subject of its Jazz Appreciation Month poster.",3,9,== Awards and honors ==,266968
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"In 2000, he was given the National Medal of Arts by President Bill Clinton.",4,9,== Awards and honors ==,266968
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"Skin Deep (Norgran, 1953)With Dizzy Gillespie",0,18,== Discography == | === As sideman ===,266968
+1937–1949,CD,YEAR_REGEX_1,TIME,time_reference,"The Complete RCA Victor Recordings (Bluebird, 1937–1949, [1995])With Jazz at the Philharmonic",0,19,== Discography == | === As sideman ===,266968
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"The Complete RCA Victor Recordings (Bluebird, 1937–1949, [1995])With Jazz at the Philharmonic",0,19,== Discography == | === As sideman ===,266968
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"The Drum Battle (Verve, 1952 [1960])With Peggy Lee",0,20,== Discography == | === As sideman ===,266968
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"The Drum Battle (Verve, 1952 [1960])With Peggy Lee",0,20,== Discography == | === As sideman ===,266968
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Blues Cross Country (Capitol, 1962) -- also some arrangementsWith Dave Pell",0,21,== Discography == | === As sideman ===,266968
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"I Remember John Kirby (Capitol, 1961)With",0,22,== Discography == | === As sideman ===,266968
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"The Sound of Nancy Wilson (Capitol, 1968)",0,23,== Discography == | === As sideman ===,266968
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"Nancy (Capitol, 1969)",0,24,== Discography == | === As sideman ===,266968
+1931,CD,YEAR_REGEX_1,TIME,time_reference,"""Blues in My Heart"" (1931) with Irving Mills",0,26,== Discography == | === Songs composed by Carter ===,266968
+1936,CD,YEAR_REGEX_1,TIME,time_reference,"""When Lights Are Low"" (1936) with Spencer Williams",0,27,== Discography == | === Songs composed by Carter ===,266968
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"""Cow-Cow Boogie (Cuma-Ti-Yi-Yi-Ay)""  (1942) with Don Raye and Gene De Paul",0,28,== Discography == | === Songs composed by Carter ===,266968
+1948,CD,YEAR_REGEX_1,TIME,time_reference,"""Key Largo"" (1948) with Karl Suessdorf, Leah Worth",0,29,== Discography == | === Songs composed by Carter ===,266968
+1950,CD,YEAR_REGEX_1,TIME,time_reference,"""Rock Me to Sleep"" (1950) with Paul Vandervoort II",0,30,== Discography == | === Songs composed by Carter ===,266968
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"""A Kiss from You"" (1964) with Johnny Mercer",0,31,== Discography == | === Songs composed by Carter ===,266968
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"""Only Trust Your Heart"" (1964) with Sammy Cahn",0,32,== Discography == | === Songs composed by Carter ===,266968
+1943,CD,YEAR_REGEX_1,TIME,time_reference,Thousands Cheer (1943),0,34,== Film and video ==,266968
+1951,CD,YEAR_REGEX_1,TIME,time_reference,An American in Paris (1951),0,35,== Film and video ==,266968
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,Clash by Night (1952),0,36,== Film and video ==,266968
+1952,CD,YEAR_REGEX_1,TIME,time_reference,Clash by Night (1952),0,36,== Film and video ==,266968
+1952,CD,YEAR_REGEX_1,TIME,time_reference,The Snows of Kilimanjaro (1952),0,37,== Film and video ==,266968
+1982,CD,YEAR_REGEX_1,TIME,time_reference,Jazz at the Smithsonian: Benny Carter (1982),0,38,== Film and video ==,266968
+1986,CD,YEAR_REGEX_1,TIME,time_reference,Benny Carter in Japan (1986),0,39,== Film and video ==,266968
+1988,CD,YEAR_REGEX_1,TIME,time_reference,Wolf Trap Salutes Dizzy Gillespie (1988),0,40,== Film and video ==,266968
+1989,CD,YEAR_REGEX_1,TIME,time_reference,Benny Carter: Symphony in Riffs (1989),0,41,== Film and video ==,266968

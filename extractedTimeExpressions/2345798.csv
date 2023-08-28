@@ -1,8 +1,8 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"September 9 , 1906 – June 2 , 1926","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Hersal Thomas (September 9, 1906 – June 2, 1926) was an American blues pianist and composer.",0,0,,2345798
-1925 and 1926,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He recorded a number of sides for Okeh Records in 1925 and 1926.,1,0,,2345798
-1992,CD,YEAR_REGEX_1,TIME,time_reference,"His most famous track was ""Suitcase Blues"" (8958-A Okeh 8227), which was issued on CD in 1992 as part of the box set, Roots 'N Blues: The Retrospective.",5,1,,2345798
-1926,CD,YEAR_REGEX_1,TIME,time_reference,"In 1926, he recorded a session with Hociel Thomas and Louis Armstrong.",8,1,,2345798
-Hours,NNP,TIME_UNIT_REGEX,TIME,time_reference,"The songs recorded on that occasion were ""Deep Water Blues"" (9519-A Okeh 8297), ""Lonesome Hours"" (9522-A Okeh 8297), ""Listen To Ma"" (9521-A Okeh 8346), and ""G'wan, I Told You"" (9520-A Okeh 8346).",9,1,,2345798
-Every Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Sippie Wallace recorded seven of his compositions: ""A Jealous Woman Like Me"", ""A Man for Every Day of the Week"", ""Dead Drunk Blues"", ""Have You Ever Been Down?"", ""I Feel Good"", ""Shorty George Blues"" and ""Trouble Everywhere I Roam"".",12,1,,2345798
-of the Week,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Sippie Wallace recorded seven of his compositions: ""A Jealous Woman Like Me"", ""A Man for Every Day of the Week"", ""Dead Drunk Blues"", ""Have You Ever Been Down?"", ""I Feel Good"", ""Shorty George Blues"" and ""Trouble Everywhere I Roam"".",12,1,,2345798
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"September 9 , 1906 – June 2 , 1926","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+1925 and 1926,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,1,0
+1992,CD,YEAR_REGEX_1,TIME,time_reference,5,1
+1926,CD,YEAR_REGEX_1,TIME,time_reference,8,1
+Hours,NNP,TIME_UNIT_REGEX,TIME,time_reference,9,1
+Every Day,DT NNP,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,12,1
+of the Week,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,12,1

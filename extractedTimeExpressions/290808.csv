@@ -1,39 +1,39 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"March 2 , 1940","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Hermes Davide Fastino Croatto Martinis, better known as Tony Croatto (March 2, 1940, some sources state his year of birth as 1939 – April 3, 2005) was an Italian singer and composer best known for his interpretations of Spanish folkloric songs and music from Puerto Rico.",0,0,,290808
-year,NN,TIME_UNIT_REGEX,TIME,time_reference,"Hermes Davide Fastino Croatto Martinis, better known as Tony Croatto (March 2, 1940, some sources state his year of birth as 1939 – April 3, 2005) was an Italian singer and composer best known for his interpretations of Spanish folkloric songs and music from Puerto Rico.",0,0,,290808
-"1939 – April 3 , 2005","CD NNP NNP CD , CD",YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_range,"Hermes Davide Fastino Croatto Martinis, better known as Tony Croatto (March 2, 1940, some sources state his year of birth as 1939 – April 3, 2005) was an Italian singer and composer best known for his interpretations of Spanish folkloric songs and music from Puerto Rico.",0,0,,290808
-the early days,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Originally his popular songs in the early days in Puerto Rico, with his sister Nelly, had a religious theme.",1,0,,290808
-presenter,NN,TIMELINE_REGEX,TIME,time_reference,He was also a television presenter.,2,0,,290808
-9 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Croatto's family moved to the border town of La Paz, Uruguay when he was 9 years old.",1,2,== Biography ==,290808
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"In 1959, at 19, he created his first pop music group with his brother Edelweiss (nicknamed ""Tim"") and his sister Argentina (nicknamed ""Nelly"") which was named ""TNT"".",3,2,== Biography ==,290808
-15 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"The group came about at Nelly's insistence; since their mother frowned upon the idea of Nelly (who was 15 years old at the time and adamantly wanted to become a singer) touring solo, she would only allow her to sing in public with her brothers as a backup group.",4,2,== Biography ==,290808
-Years,NNP,TIME_UNIT_REGEX,TIME,time_reference,The TNT Years ===,1,3,== Biography == | === The TNT Years ===,290808
-1960,CD,YEAR_REGEX_1,TIME,time_reference,"In 1960, TNT recorded a song, ""Eso, eso, eso"", written by tango composers Virgilio and Homero Expósito, for RCA Records, which sold more than 100,000 copies in that country alone.",0,5,== Biography == | === The TNT Years ===,290808
-1962,CD,YEAR_REGEX_1,TIME,time_reference,"They even appeared in a movie, ""Fiebre de Juventud"", along with Mexican pop idol Enrique Guzmán, in 1962.",4,5,== Biography == | === The TNT Years ===,290808
-1963,CD,YEAR_REGEX_1,TIME,time_reference,"After attaining some success in Spain, TNT moved there in 1963.",0,6,== Biography == | === The TNT Years ===,290808
-1964,CD,YEAR_REGEX_1,TIME,time_reference,"They went as far as representing the country in the Eurovision Song Contest 1964 in Copenhagen, billed as ""Nelly, Tim and Tony"".",1,6,== Biography == | === The TNT Years ===,290808
-that year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Tony stated once that the group was handpicked by the powers that be behind TVE, the Spanish state television, to substitute that year's winners in the Spanish classification round, Michel and Teresa María, popular Spanish singers of the time.",2,6,== Biography == | === The TNT Years ===,290808
-1965,CD,YEAR_REGEX_1,TIME,time_reference,They moved back to Argentina in 1965.,6,6,== Biography == | === The TNT Years ===,290808
-1966,CD,YEAR_REGEX_1,TIME,time_reference,Tim eventually left the group in 1966 and returned to his native Italy to become a concert promoter.,7,6,== Biography == | === The TNT Years ===,290808
-1968,CD,YEAR_REGEX_1,TIME,time_reference,"In 1968, after travelling across South America and spending two years in Venezuela (his then-wife Raquel Montero was an Argentine-born telenovela actress, whose good looks and dramatic talent were popular in the country; their mutual children Mara and Alejandro Croatto were born there).",1,8,== Biography == | === Nelly and Tony's move to Puerto Rico ===,290808
-two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1968, after travelling across South America and spending two years in Venezuela (his then-wife Raquel Montero was an Argentine-born telenovela actress, whose good looks and dramatic talent were popular in the country; their mutual children Mara and Alejandro Croatto were born there).",1,8,== Biography == | === Nelly and Tony's move to Puerto Rico ===,290808
-1974,CD,YEAR_REGEX_1,TIME,time_reference,"""Nelly y Tony"" would perform together until 1974, when Nelly married a Puerto Rican surgeon.",3,8,== Biography == | === Nelly and Tony's move to Puerto Rico ===,290808
-currently,RB,TIMELINE_REGEX,TIME,time_reference,"She retired from pop music and eventually moved to the United States (she currently lives in Redlands, California).",4,8,== Biography == | === Nelly and Tony's move to Puerto Rico ===,290808
-1973,CD,YEAR_REGEX_1,TIME,time_reference,"While performing with his sister Nelly in New York's Teatro Puerto Rico in 1973, Tony was introduced to New York-bred but Puerto Rico-born vocalist Roberto Tirado who suggested that he compose a hit song for his idol Lucecita Benítez, who was going through hard times in her career.",0,9,== Biography == | === Nelly and Tony's move to Puerto Rico ===,290808
-many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,That would be the only song that Lucecita Benítez would claim as her opening song for many years later on.,2,9,== Biography == | === Nelly and Tony's move to Puerto Rico ===,290808
-first night,JJ NN,ORDINAL_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,time_reference,"He was also well impressed by the Puerto Rican people, who — he claimed — treated him better on his first night on the island than what he had experienced touring extensively in a country or two.",3,10,== Biography == | === Nelly and Tony's move to Puerto Rico ===,290808
-years,NNS,TIME_UNIT_REGEX,TIME,time_reference,The Haciendo Punto years =,1,11,== Biography == | === The Haciendo Punto years ===,290808
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, Croatto recorded El Niñito Jesús (aka ""Se llama Jesús""), released during the Christmas season, which told about a poor and hungry child, named Jesús (a thinly-veiled reference to the Christ child), with wornout pants and no shoes, who walked into a house of well-doers begging for attention, while the people in the household rejected him, first euphemistically, then rather openly.",0,16,== Biography == | === Tony goes solo ===,290808
-the Christmas,DT NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,"In 1985, Croatto recorded El Niñito Jesús (aka ""Se llama Jesús""), released during the Christmas season, which told about a poor and hungry child, named Jesús (a thinly-veiled reference to the Christ child), with wornout pants and no shoes, who walked into a house of well-doers begging for attention, while the people in the household rejected him, first euphemistically, then rather openly.",0,16,== Biography == | === Tony goes solo ===,290808
-1979,CD,YEAR_REGEX_1,TIME,time_reference,Glorivee (Gloria Esther Viera Pantojas) in 1979.,1,17,== Biography == | === Tony goes solo ===,290808
-later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,He eventually moved to Carolina where he spent his later years.,2,19,== Biography == | === Tony goes solo ===,290808
-a presenter,DT NN,INARTICLE_REGEX TIMELINE_REGEX,MODIFIER TIME,time_reference,"Parallel to his singing career, Croatto also became a presenter on ""Desde mi pueblo"" (""From My Town""), a variety show / weekly documentary that aired weekly on WIPR-TV.",0,21,"== Biography == | === ""Desde Mi Pueblo"" ===",290808
-1985,CD,YEAR_REGEX_1,TIME,time_reference,"His co-hosts were local comedian Luis Antonio Rivera (Yoyo Boing), the former  Miss Universe 1985, Deborah Carthy Deu and María Falcón.",1,21,"== Biography == | === ""Desde Mi Pueblo"" ===",290808
-every week,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,The program's concept involved traveling to a different municipality of Puerto Rico every week and highlighting all cultural aspects found in each town.,2,21,"== Biography == | === ""Desde Mi Pueblo"" ===",290808
-1983,CD,YEAR_REGEX_1,TIME,time_reference,In 1983 Croatto had also a kind of TV cultural show on Telemundo (Puerto Rico) called Tony Croatto Y Tu Pueblo (Tony Croatto And Your Town]].,6,21,"== Biography == | === ""Desde Mi Pueblo"" ===",290808
-2000,CD,YEAR_REGEX_1,TIME,time_reference,"In 2000, the City of San Juan, Puerto Rico proclaimed him as its adoptive son.",0,24,== Biography == | === Achievements ===,290808
-March 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Croatto, a lifelong smoker, was diagnosed in March 2005 with lung and brain cancer.",0,26,== Biography == | === Death and legacy ===,290808
-three weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He expected his health to eventually improve, but probably was not aware of how sick he was, since his death came just three weeks after the announcement.",2,26,== Biography == | === Death and legacy ===,290808
-last days,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"After requesting to be released from the hospital to spend his last days with his family, Croatto died on April 3, 2005.",0,27,== Biography == | === Death and legacy ===,290808
-"April 3 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"After requesting to be released from the hospital to spend his last days with his family, Croatto died on April 3, 2005.",0,27,== Biography == | === Death and legacy ===,290808
-the night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"His fellow former Haciendo Punto bandmates had staged a benefit concert for him the night before, which was filmed for later release on a DVD.",1,27,== Biography == | === Death and legacy ===,290808
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"March 2 , 1940","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,0
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,0,0
+"1939 – April 3 , 2005","CD NNP NNP CD , CD",YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_range,0,0
+the early days,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1,0
+presenter,NN,TIMELINE_REGEX,TIME,time_reference,2,0
+9 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,1,2
+1959,CD,YEAR_REGEX_1,TIME,time_reference,3,2
+15 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,4,2
+Years,NNP,TIME_UNIT_REGEX,TIME,time_reference,1,3
+1960,CD,YEAR_REGEX_1,TIME,time_reference,0,5
+1962,CD,YEAR_REGEX_1,TIME,time_reference,4,5
+1963,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+1964,CD,YEAR_REGEX_1,TIME,time_reference,1,6
+that year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2,6
+1965,CD,YEAR_REGEX_1,TIME,time_reference,6,6
+1966,CD,YEAR_REGEX_1,TIME,time_reference,7,6
+1968,CD,YEAR_REGEX_1,TIME,time_reference,1,8
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,1,8
+1974,CD,YEAR_REGEX_1,TIME,time_reference,3,8
+currently,RB,TIMELINE_REGEX,TIME,time_reference,4,8
+1973,CD,YEAR_REGEX_1,TIME,time_reference,0,9
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2,9
+first night,JJ NN,ORDINAL_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,time_reference,3,10
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,1,11
+1985,CD,YEAR_REGEX_1,TIME,time_reference,0,16
+the Christmas,DT NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,0,16
+1979,CD,YEAR_REGEX_1,TIME,time_reference,1,17
+later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2,19
+a presenter,DT NN,INARTICLE_REGEX TIMELINE_REGEX,MODIFIER TIME,time_reference,0,21
+1985,CD,YEAR_REGEX_1,TIME,time_reference,1,21
+every week,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,2,21
+1983,CD,YEAR_REGEX_1,TIME,time_reference,6,21
+2000,CD,YEAR_REGEX_1,TIME,time_reference,0,24
+March 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,0,26
+three weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,26
+last days,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,0,27
+"April 3 , 2005","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,27
+the night,DT NN,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,1,27

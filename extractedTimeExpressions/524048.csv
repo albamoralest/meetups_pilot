@@ -1,32 +1,32 @@
-time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
-"May 1 , 1924 – January 23 , 1972","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Mabel Louise Smith (May 1, 1924 – January 23, 1972), known professionally as Big Maybelle, was an American R&B singer.",0,0,,524048
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"Her 1956 hit single ""Candy"" received the Grammy Hall of Fame Award in 1999.",1,0,,524048
-1999,CD,YEAR_REGEX_1,TIME,time_reference,"Her 1956 hit single ""Candy"" received the Grammy Hall of Fame Award in 1999.",1,0,,524048
-"May 1 , 1924","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Born in Jackson, Tennessee, on May 1, 1924, Big Maybelle sang gospel as a child; by her teens, she had switched to rhythm and blues.",0,2,== Childhood and musical background ==,524048
-1936,CD,YEAR_REGEX_1,TIME,time_reference,"She began her professional career with Dave Clark's Memphis Band in 1936, and also toured with the all-female International Sweethearts of Rhythm.",1,2,== Childhood and musical background ==,524048
-1944,CD,YEAR_REGEX_1,TIME,time_reference,"She then joined Christine Chatman's Orchestra, and made her first recordings with Chatman in 1944, before recording with the Tiny Bradshaw's Orchestra from 1947 to 1950.",2,2,== Childhood and musical background ==,524048
-1947 to 1950,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"She then joined Christine Chatman's Orchestra, and made her first recordings with Chatman in 1944, before recording with the Tiny Bradshaw's Orchestra from 1947 to 1950.",2,2,== Childhood and musical background ==,524048
-1947,CD,YEAR_REGEX_1,TIME,time_reference,"Her debut solo recordings, recorded as Mabel Smith, were for King Records in 1947.",3,2,== Childhood and musical background ==,524048
-1952,CD,YEAR_REGEX_1,TIME,time_reference,"In 1952, she was signed by Okeh Records, whose record producer Fred Mendelsohn gave her the stage name 'Big Maybelle' because of her loud yet well-toned voice.",0,4,== Okeh Records ==,524048
-1953,CD,YEAR_REGEX_1,TIME,time_reference,"Her first recording for Okeh, ""Gabbin' Blues"", was a number 3 hit on the Billboard R&B chart, and was followed up by both ""Way Back Home"" and ""My Country Man"" in 1953.",1,4,== Okeh Records ==,524048
-1955,CD,YEAR_REGEX_1,TIME,time_reference,"In 1955, she recorded the song ""Whole Lotta Shakin' Goin' On"", produced by up-and-coming producer Quincy Jones, a full two years before rockabilly then rock and roll singer Jerry Lee Lewis's version.",2,4,== Okeh Records ==,524048
-two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1955, she recorded the song ""Whole Lotta Shakin' Goin' On"", produced by up-and-coming producer Quincy Jones, a full two years before rockabilly then rock and roll singer Jerry Lee Lewis's version.",2,4,== Okeh Records ==,524048
-the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"More hits followed throughout the 1950s, particularly after signing with Savoy Records later in 1955, including ""Candy"" (1956), one of her biggest sellers.",0,6,== Savoy Records ==,524048
-1955,CD,YEAR_REGEX_1,TIME,time_reference,"More hits followed throughout the 1950s, particularly after signing with Savoy Records later in 1955, including ""Candy"" (1956), one of her biggest sellers.",0,6,== Savoy Records ==,524048
-1956,CD,YEAR_REGEX_1,TIME,time_reference,"More hits followed throughout the 1950s, particularly after signing with Savoy Records later in 1955, including ""Candy"" (1956), one of her biggest sellers.",0,6,== Savoy Records ==,524048
-1957,CD,YEAR_REGEX_1,TIME,time_reference,"During this time, she also appeared on stage at the Apollo Theater in New York City in 1957, and at the 1958 Newport Jazz Festival she sang ""All Night Long/I Ain't Mad at You"", as seen in Bert Stern's film of the festival, Jazz on a Summer's Day, in which Mahalia Jackson and Dinah Washington also performed.",1,6,== Savoy Records ==,524048
-the 1958,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During this time, she also appeared on stage at the Apollo Theater in New York City in 1957, and at the 1958 Newport Jazz Festival she sang ""All Night Long/I Ain't Mad at You"", as seen in Bert Stern's film of the festival, Jazz on a Summer's Day, in which Mahalia Jackson and Dinah Washington also performed.",1,6,== Savoy Records ==,524048
-Night,NNP,DAY_TIME_REGEX,TIME,time_reference,"During this time, she also appeared on stage at the Apollo Theater in New York City in 1957, and at the 1958 Newport Jazz Festival she sang ""All Night Long/I Ain't Mad at You"", as seen in Bert Stern's film of the festival, Jazz on a Summer's Day, in which Mahalia Jackson and Dinah Washington also performed.",1,6,== Savoy Records ==,524048
-a Summer,DT NNP,INARTICLE_REGEX SEASON_REGEX,MODIFIER TIME,time_reference,"During this time, she also appeared on stage at the Apollo Theater in New York City in 1957, and at the 1958 Newport Jazz Festival she sang ""All Night Long/I Ain't Mad at You"", as seen in Bert Stern's film of the festival, Jazz on a Summer's Day, in which Mahalia Jackson and Dinah Washington also performed.",1,6,== Savoy Records ==,524048
-Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"During this time, she also appeared on stage at the Apollo Theater in New York City in 1957, and at the 1958 Newport Jazz Festival she sang ""All Night Long/I Ain't Mad at You"", as seen in Bert Stern's film of the festival, Jazz on a Summer's Day, in which Mahalia Jackson and Dinah Washington also performed.",1,6,== Savoy Records ==,524048
-1959,CD,YEAR_REGEX_1,TIME,time_reference,"After 1959, she recorded for a variety of labels, but the hits largely dried up.",0,8,== Career decline ==,524048
-the early 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,She continued to perform into the early 1960s.,1,8,== Career decline ==,524048
-1967,CD,YEAR_REGEX_1,TIME,time_reference,"Her last hit single was in 1967, a cover of ""96 Tears"" by Question Mark & the Mysterians.",2,8,== Career decline ==,524048
-the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"By the 1960s, Maybelle's drug use began detrimentally impacting her career.",3,8,== Career decline ==,524048
-"January 23 , 1972","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Smith died of a diabetic coma on January 23, 1972, in Cleveland, Ohio.",0,10,== Death ==,524048
-the previous 18 months,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,She had been frequently ill for the previous 18 months.,1,10,== Death ==,524048
-1973,CD,YEAR_REGEX_1,TIME,time_reference,"Her final album, Last of Big Maybelle, was released posthumously in 1973.",3,10,== Death ==,524048
-the 1983,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The album The Okeh Sessions, released on the Epic label, won the 1983 W.C. Handy Award for ""Vintage or Reissue Album of the Year (U.S.).""",0,12,== Legacy ==,524048
-of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The album The Okeh Sessions, released on the Epic label, won the 1983 W.C. Handy Award for ""Vintage or Reissue Album of the Year (U.S.).""",0,12,== Legacy ==,524048
-2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, she was inducted to the Blues Hall of Fame.",0,13,== Legacy ==,524048
-Fallout 4,NNP CD,SEASON_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,"Her version of ""Whole Lotta Shakin' Goin' On"" was included in the soundtrack for Fallout 4 as part of the Diamond City Radio playlist.",1,13,== Legacy ==,524048
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentenceIndex,paragraphIndex
+"May 1 , 1924 – January 23 , 1972","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,0,0
+1956,CD,YEAR_REGEX_1,TIME,time_reference,1,0
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1,0
+"May 1 , 1924","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,2
+1936,CD,YEAR_REGEX_1,TIME,time_reference,1,2
+1944,CD,YEAR_REGEX_1,TIME,time_reference,2,2
+1947 to 1950,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,2,2
+1947,CD,YEAR_REGEX_1,TIME,time_reference,3,2
+1952,CD,YEAR_REGEX_1,TIME,time_reference,0,4
+1953,CD,YEAR_REGEX_1,TIME,time_reference,1,4
+1955,CD,YEAR_REGEX_1,TIME,time_reference,2,4
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,2,4
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,6
+1955,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+1956,CD,YEAR_REGEX_1,TIME,time_reference,0,6
+1957,CD,YEAR_REGEX_1,TIME,time_reference,1,6
+the 1958,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,1,6
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,1,6
+a Summer,DT NNP,INARTICLE_REGEX SEASON_REGEX,MODIFIER TIME,time_reference,1,6
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,1,6
+1959,CD,YEAR_REGEX_1,TIME,time_reference,0,8
+the early 1960s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,1,8
+1967,CD,YEAR_REGEX_1,TIME,time_reference,2,8
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,3,8
+"January 23 , 1972","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,0,10
+the previous 18 months,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,1,10
+1973,CD,YEAR_REGEX_1,TIME,time_reference,3,10
+the 1983,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,0,12
+of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,0,12
+2011,CD,YEAR_REGEX_1,TIME,time_reference,0,13
+Fallout 4,NNP CD,SEASON_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,1,13

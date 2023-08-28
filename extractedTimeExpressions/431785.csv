@@ -1,0 +1,29 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+"March 30 , 1955 – January 12 , 2004","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Randy VanWarmer (also written as Vanwarmer, Van Warmer; March 30, 1955 – January 12, 2004) was an American singer-songwriter and guitarist.",0,0,,431785
+September 1979,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,It reached No. 8 on the UK Singles Chart in September 1979 after peaking at No. 4 on the Billboard Hot 100 and No. 1 on Billboard Hot Adult Contemporary Tracks earlier that year.,2,0,,431785
+that year,IN NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,It reached No. 8 on the UK Singles Chart in September 1979 after peaking at No. 4 on the Billboard Hot 100 and No. 1 on Billboard Hot Adult Contemporary Tracks earlier that year.,2,0,,431785
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"The song appeared on his 1981 album Beat of Love, which also included the pop tune ""Suzi Found a Weapon"", which hit No. 55 on the Billboard Hot 100.",1,1,,431785
+1919-1967,JJ,YEAR_REGEX_1,TIME,time_reference,"He was born Randall Van Wormer, in Indian Hills, Colorado, United States, the son of Roger Van Wormer (1919-1967) and Betsy (née Harry; 1919–2006).",0,3,== Career ==,431785
+1919–2006,CD,YEAR_REGEX_1,TIME,time_reference,"He was born Randall Van Wormer, in Indian Hills, Colorado, United States, the son of Roger Van Wormer (1919-1967) and Betsy (née Harry; 1919–2006).",0,3,== Career ==,431785
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"At 15, three years after the death of his father in an automobile accident, he moved with his mother to Cornwall, England.",1,3,== Career ==,431785
+a 1989,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"In a 1989 interview with Release, a now-defunct independent paper from Stanford, California, Van Warmer said that Albert Grossman, the head of Bearsville, would not let him do television or tour the United States, a strategy that did not prove successful.",3,3,== Career ==,431785
+future,NN,TIMELINE_REGEX,TIME,time_reference,"But Grossman died soon thereafter, and VanWarmer's future was in doubt.",5,4,== Career ==,431785
+a few days,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The notes also indicate that he completed work on the record a few days after learning he had leukemia; he died at 48, one day before the anniversary of Foster's death.",2,6,== Career ==,431785
+one day,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"The notes also indicate that he completed work on the record a few days after learning he had leukemia; he died at 48, one day before the anniversary of Foster's death.",2,6,== Career ==,431785
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"In line with one of his greatest loves, some of his cremated remains were sent into space in 2007 and then again in 2012 aboard the first successful private space flight to the International Space Station, the SpaceX Dragon vehicle.",0,7,== Career ==,431785
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"In line with one of his greatest loves, some of his cremated remains were sent into space in 2007 and then again in 2012 aboard the first successful private space flight to the International Space Station, the SpaceX Dragon vehicle.",0,7,== Career ==,431785
+"January 12 , 2004","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"VanWarmer died on January 12, 2004, in Seattle.",0,9,== Death ==,431785
+the previous year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,He had been suffering from leukemia for the previous year.,1,9,== Death ==,431785
+1979,CD,YEAR_REGEX_1,TIME,time_reference,Warmer – 1979,0,11,== Albums ==,431785
+1980,CD,YEAR_REGEX_1,TIME,time_reference,Terraform – 1980,0,12,== Albums ==,431785
+1981,CD,YEAR_REGEX_1,TIME,time_reference,Beat of Love – 1981,0,13,== Albums ==,431785
+1983,CD,YEAR_REGEX_1,TIME,time_reference,The Things That You Dream – 1983,0,14,== Albums ==,431785
+Am – 1988,VBP JJ CD,HALFDAY_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,I Am – 1988,0,15,== Albums ==,431785
+Every Now,DT RB,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,Every Now and Then – 1990,0,16,== Albums ==,431785
+1990,CD,YEAR_REGEX_1,TIME,time_reference,Every Now and Then – 1990,0,16,== Albums ==,431785
+1994,CD,YEAR_REGEX_1,TIME,time_reference,The Third Child – 1994,0,17,== Albums ==,431785
+1994,CD,YEAR_REGEX_1,TIME,time_reference,The Vital Spark – 1994 (Alternate title: I Will Whisper Your Name),0,18,== Albums ==,431785
+Sun,NNP,WEEK_ABBR_REGEX,TIME,time_reference,"Sun, Moon and Stars – 1996",0,19,== Albums ==,431785
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Sun, Moon and Stars – 1996",0,19,== Albums ==,431785
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Sings Stephen Foster – 2005,0,20,== Albums ==,431785
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Songwriter – 2006,0,21,== Albums ==,431785

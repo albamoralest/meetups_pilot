@@ -1,0 +1,18 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Danielle (born 1991) plays keyboard, cajon, ukulele, vocals.",1,0,,38551581
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Jennifer (born 1995) plays guitar, cajon, ukulele, vocals.",2,0,,38551581
+Early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Early years ==,1,1,== Early years ==,38551581
+7 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,Danielle's talent was soon recognized and she secured a role on Broadway in Les Miserables at the age of just 7 years old.,3,2,== Early years ==,38551581
+the 2003,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Danielle has performed in the 2003 Off-Broadway musical ""The Alchemists"".",8,2,== Early years ==,38551581
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Danielle and Jennifer formed the music duo ""Danielle and Jennifer"" in 2008 and performed at festivals and special events.",0,4,== Music career ==,38551581
+Day 2012,NNP CD,TIME_UNIT_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"They recorded and released their first single ""Radical Love"" along with their first official music video on Valentine's Day 2012.",1,4,== Music career ==,38551581
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Danielle and Jennifer were also chosen to be a Supercuts Rock the cut artist for two years in a row and have their song, ""Radical Love"" and ""The First Time You See Me"" played in their stores and available for download on their website.",5,4,== Music career ==,38551581
+May,NNP,MONTH_REGEX,TIME,time_reference,"Cape May Singer Songwriter Frozen Harbor music fest in Baltimore, MD Launch Music Conference in Lancaster, PA Millennium Music Conference.",11,4,== Music career ==,38551581
+Millennium,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Cape May Singer Songwriter Frozen Harbor music fest in Baltimore, MD Launch Music Conference in Lancaster, PA Millennium Music Conference.",11,4,== Music career ==,38551581
+of The Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Hello Sunshine won for Track of The Year at the 2016 Elephant Talk Indie awards and took home a Homey award for Best Pop Song at the 2017 93.7 WSTW Homey Awards.,13,4,== Music career ==,38551581
+the 2016,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Hello Sunshine won for Track of The Year at the 2016 Elephant Talk Indie awards and took home a Homey award for Best Pop Song at the 2017 93.7 WSTW Homey Awards.,13,4,== Music career ==,38551581
+the 2017 93.7,DT CD CD,PREFIX_REGEX_1 YEAR_REGEX_1 DIGIT_REGEX_1,MODIFIER TIME NUMERAL,time_reference,Hello Sunshine won for Track of The Year at the 2016 Elephant Talk Indie awards and took home a Homey award for Best Pop Song at the 2017 93.7 WSTW Homey Awards.,13,4,== Music career ==,38551581
+Another Christmas,DT NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,"""Not Just Another Christmas CD"" Compilation by The Philadelphia Music Scene",0,10,== Discography ==,38551581
+April,NNP,MONTH_REGEX,TIME,time_reference,"""April Fools""",0,12,== Discography ==,38551581
+night,NN,DAY_TIME_REGEX,TIME,time_reference,They work with Ronald McDonald House Charities and Rotation Records to put on the opening night concert at RMC (Ronald McDonald Camp) for hundreds of children with childhood cancer.,1,16,== Charity ==,38551581
+currently,RB,TIMELINE_REGEX,TIME,time_reference,"Their most recent single, ""Hello Sunshine"" was written about their experience at RMC and is currently in post production.",2,16,== Charity ==,38551581
