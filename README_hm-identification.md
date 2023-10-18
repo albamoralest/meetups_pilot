@@ -12,7 +12,7 @@ resource: https://github.com/polifonia-project/meetups_pilot/blob/main/06_Corefe
 release-date: 31/08/2023
 release-number: v0.1
 release-link: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
-doi: https://zenodo.org/badge/latestdoi/436452967
+doi: 10.5281/zenodo.7875353
 changelog: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.3
 licence: 
 - Apache-2.0
