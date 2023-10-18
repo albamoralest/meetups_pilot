@@ -20,7 +20,7 @@ copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
 contributors:
 - Alba Morales Tirado <https://github.com/albamoralest>
 - Enrico Daga <https://github.com/enridaga>
-related-component:
+related-components:
 - persona:
   - Ortenz
   - David

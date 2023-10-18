@@ -2,7 +2,7 @@
 component-id: meetups-entity-recognition
 type: Software
 name: MEETUPS identification of people and places
-brief-description: "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies. It uses DBpedia Spotlight to identify and annotate possible entity mentions from input text. This is an essential process to identify two of the four main elements that define a meetup: people (who participated) and place (where). Along with data of time (when) the meeting happened and the event that took place (what) complete a historical meetup data point."
+description: "This tool is part of the MEETUPS pilot and processes text from music personalities' biographies. It uses DBpedia Spotlight to identify and annotate possible entity mentions from input text. This is an essential process to identify two of the four main elements that define a meetup: people (who participated) and place (where). Along with data of time (when) the meeting happened and the event that took place (what) complete a historical meetup data point."
 work-package:
 - WP4
 pilot:
@@ -20,7 +20,7 @@ copyright: "Copyright (c) 2023 MEETUPS @ The Open University"
 contributors:
 - Alba Morales Tirado <https://github.com/albamoralest>
 - Enrico Daga <https://github.com/enridaga>
-related-component:
+related-components:
 - informed-by: 
   - meetups-data-cleaning
   - meetups-corpus-collection
