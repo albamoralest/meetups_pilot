@@ -10,7 +10,7 @@ pilot:
 project: polifonia-project
 resource: https://github.com/polifonia-project/meetups_pilot/blob/main/MeetupType_applyClassifier.ipynb
 release-date: 20/07/2022
-release-number: v0.1
+release-number: v0.2
 release-link: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
 doi: https://zenodo.org/badge/latestdoi/436452967
 changelog: https://github.com/polifonia-project/meetups_pilot/releases/tag/v0.2
