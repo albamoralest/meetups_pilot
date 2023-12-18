@@ -1,0 +1,10 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+3 May 1957,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"John Sachs (born 3 May 1957) is a British television presenter, voiceover and commentator.",0,0,,10534353,1957-05-03,1957-05-03,ML
+1993,CD,YEAR_REGEX_1,TIME,time_reference,"Sachs founded Talking Heads Productions in 1993, making television and radio commercials.",2,2,,10534353,1993-01-01,1993-12-31,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"He has been the voice of Disney Videos UK – voicing most of the previews from the company until the early 2000s, along with HIT Entertainment from 1997 to early 2000.",3,2,,10534353,1997-01-01,1997-12-31,ML
+early 2000,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He has been the voice of Disney Videos UK – voicing most of the previews from the company until the early 2000s, along with HIT Entertainment from 1997 to early 2000.",3,2,,10534353,2000-01-01,2000-12-31,ML
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"In 2020, he became the voiceover for Alan Carr's Epic Gameshow on ITV.",5,2,,10534353,2020-01-01,2020-12-31,ML
+presenter,NN,TIMELINE_REGEX,TIME,time_reference,"John Sachs (born 3 May 1957) is a British television presenter, voiceover and commentator.",0,0,,10534353,,,ML
+12 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Sachs spent 12 years on Capital FM, where he won Variety Club ILR Presenter of the Year and Silver at the World Radio awards in New York.",0,1,,10534353,,,ML
+a presenter,DT NN,INARTICLE_REGEX TIMELINE_REGEX,MODIFIER TIME,time_reference,"He was also a presenter on Swansea Sound in Swansea, Wales.",1,2,,10534353,,,ML
+the early 2000s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"He has been the voice of Disney Videos UK – voicing most of the previews from the company until the early 2000s, along with HIT Entertainment from 1997 to early 2000.",3,2,,10534353,,,ML

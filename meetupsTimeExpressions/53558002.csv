@@ -1,0 +1,6 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Nix grew up in Jacksonville, Florida and graduated from Paxon Senior High School in 1962.",0,1,,53558002,1962-01-01,1962-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Sept 2008 ""Bands of Dixie"" article by Robert Nix",0,3,== External links ==,53558002,2008-01-01,2008-12-31,ML
+1971-1979,JJ,YEAR_REGEX_1,TIME,time_reference,"A member of ARS from 1971-1979, he co-wrote several of their songs including the top-ten hits ""So Into You"" and ""Imaginary Lover"".",1,0,,53558002,1971-01-01,1979-12-31,LLM
+"November 8 , 1944 – May 20 , 2012","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Robert Nix (November 8, 1944 – May 20, 2012) was an American drummer best known as a founding member of the band Atlanta Rhythm Section (ARS).",0,0,,53558002,1944-11-08,2012-05-20,LLM
+Nov 2008,NN CD,MONTH_ABBR_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Nov 2008 ""Bands of Dixie"" interview with Robert Nix",0,4,== External links ==,53558002,,,ML

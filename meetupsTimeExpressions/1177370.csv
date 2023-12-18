@@ -1,0 +1,14 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"John Hawkins, Jerry Page, and Richard Smith formed the group in 1987.",0,2,== History ==,1177370,1987-01-01,1987-12-31,ML
+December 1989,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,The band embarked on a concert tour of the West Coast in December 1989.,4,2,== History ==,1177370,1989-12-01,1989-12-31,ML
+"Friday , 1990","NNP , CD",WEEK_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"On Good Friday, 1990, Trance Syndicate released Crust's first EP, Sacred Heart of Crust; it was the first release from the record label.",6,2,== History ==,1177370,1990-11-16,1990-11-16,ML
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Trance Syndicate released the band's first full-length album, Crust in 1991, followed by a second album, Crusty Love in 1994.",8,2,== History ==,1177370,1991-01-01,1991-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Trance Syndicate released the band's first full-length album, Crust in 1991, followed by a second album, Crusty Love in 1994.",8,2,== History ==,1177370,1994-01-01,1994-12-31,ML
+the 1997,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The band continued to tour, but scaled back its live performances following a series of mishaps (including one in which John Hawkins was stabbed), finally disbanding after an appearance at the 1997 SXSW festival.",9,2,== History ==,1177370,1997-01-01,1997-12-31,ML
+"May 22 , 2004","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The band performed a reunion show to a sold-out crowd at Room 710 on May 22, 2004 in Austin.",10,2,== History ==,1177370,2004-05-22,2004-05-22,ML
+1990,CD,YEAR_REGEX_1,TIME,time_reference,1990:,0,4,== Discography ==,1177370,1990-01-01,1990-12-31,ML
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991:,0,5,== Discography ==,1177370,1991-01-01,1991-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994:,0,6,== Discography ==,1177370,1994-01-01,1994-12-31,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999:,0,7,== Discography ==,1177370,1999-01-01,1999-12-31,ML
+1990s,CD,YEAR_REGEX_1,TIME,time_reference,"Crust was a musical group from Austin, Texas that was active during the late-1980s and 1990s and was featured on Trance Syndicate Records, a record label run by King Coffey from the Butthole Surfers.",0,0,,1177370,1990-01-01,1999-12-31,LLM
+spring,NN,SEASON_REGEX,TIME,time_reference,"The band's early instrumentation included tape loops, feedback devices, spring reverberators, and drum machines, but later incorporated traditional rock instruments such as drum kit, electric guitar, bass and keyboard.",3,2,== History ==,1177370,,,ML

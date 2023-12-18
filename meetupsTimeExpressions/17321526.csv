@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"Natalie Wheen (born 1947) is an English writer and radio presenter, having broadcast on the BBC and on Classic FM.",0,0,,17321526,1947-01-01,1947-12-31,ML
+1999 and 2012,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,She broadcast on Classic FM between 1999 and 2012.,3,0,,17321526,1999-01-01,2012-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"In 1994, Wheen was one of thirty-five members of the UK arts scene who signed a letter calling for the resignation of art critic Brian Sewell.",8,0,,17321526,1994-01-01,1994-12-31,ML
+2000 and 2004,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"""Wheen was nominated for a Sony Award in 2000 and 2004.",11,0,,17321526,2000-01-01,2004-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"She was placed third in a poll of ""most attractive radio voices"" by readers of the Radio Times magazine in 2002.",0,1,,17321526,2002-01-01,2002-12-31,ML
+presenter,NN,TIMELINE_REGEX,TIME,time_reference,"Natalie Wheen (born 1947) is an English writer and radio presenter, having broadcast on the BBC and on Classic FM.",0,0,,17321526,,,ML
+a presenter,DT NN,INARTICLE_REGEX TIMELINE_REGEX,MODIFIER TIME,time_reference,"Wheen, born in Shanghai, was a presenter of BBC Radio 4's arts programme Kaleidoscope and Radio 3's evening sequence Mainly for Pleasure (subsequently In Tune).",1,0,,17321526,,,ML
+One Sunday,CD NNP,BASIC_NUMBER_REGEX_1 WEEK_REGEX,NUMERAL TIME,,"One Sunday Times journalist described her as ""breathy and bubbly""; another described her as ""posher than a dowager duchess"", and considered her axing ""inexplicable"".",7,0,,17321526,,,ML
+The Nightmare,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"Sewell responded by placing on the cover of his book The Reviews That Caused The Rumpus: And Other Pieces a version of the painting The Nightmare, in which he himself was shown sitting naked on a sleeping woman.",9,0,,17321526,,,ML
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Wheen now co-owns an olive oil business along with artist Deborah MacMillan, widow of choreographer Kenneth MacMillan.",1,1,,17321526,,,ML

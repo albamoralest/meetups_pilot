@@ -1,0 +1,10 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"May 5 , 1984","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Alih Jey (born May 5, 1984) is a Dominican rock music singer and songwriter.",0,0,,1889849,1984-05-05,1984-05-05,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Alih Jey released her debut album, Alih Jey, in 2001.",2,2,,1889849,2001-01-01,2001-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Her second album Gotas De Piel was released to great critical acclaim in 2005.,0,3,,1889849,2005-01-01,2005-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005, Alih Jey toured alongside Mexican star Paulina Rubio during Rubio's Pau-Latina tour across the United States.",0,4,,1889849,2005-01-01,2005-12-31,ML
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"In 2006, she severed ties with record label Universal Music Latino and proceeded to work on a new independent record, Necia, released the following year.",0,5,,1889849,2006-01-01,2006-12-31,ML
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"In 2006, she severed ties with record label Universal Music Latino and proceeded to work on a new independent record, Necia, released the following year.",0,5,,1889849,,,ML
+September 2008,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In September 2008, Necia garnered a Latin Grammy nomination for Best Solo Rock Album.",0,6,,1889849,2008-09-01,2008-09-30,ML
+the 2011,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,She also sang the theme song to the 2011 show,0,8,,1889849,2011-01-01,2011-12-31,ML
+Nightmare,NNP,DAY_TIME_REGEX,TIME,time_reference,"Suburgatory called ""Pleasant Nightmare"".",1,8,,1889849,,,ML

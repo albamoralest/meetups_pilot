@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2017,CD,YEAR_REGEX_1,TIME,time_reference,He won the Bangladesh National Film Award for Best Music Director for his music direction in the film Tumi Robe Nirobe (2017).,1,0,,62296855,2017-01-01,2017-12-31,ML
+of 2010,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"As of 2010, he had over 250 scores for television serials and almost 2,000 scores for short television plays to his credit.",2,0,,62296855,2010-01-01,2010-12-31,ML
+3 October 1960,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Ahmed was born on 3 October 1960 in the Kalabagan neighborhood in Dhaka.,0,2,== Career ==,62296855,1960-10-03,1960-10-03,ML
+1983,CD,YEAR_REGEX_1,TIME,time_reference,He played bass for film in 1983.,1,2,== Career ==,62296855,1983-01-01,1983-12-31,ML
+1987,CD,YEAR_REGEX_1,TIME,time_reference,Ahmed debuted his career in music direction with Nur Hossain Bolai's film Nishpotti in 1987.,3,2,== Career ==,62296855,1987-01-01,1987-12-31,ML
+13 April 2021,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Ahmed died from COVID-19 on 13 April 2021, during the COVID-19 pandemic in Bangladesh after suffering 20 days from the virus.",7,2,== Career ==,62296855,2021-04-13,2021-04-13,ML
+3 October 1960 – 13 April 2021,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,M Farid Ahmed Hazra (known as Farid Ahmed; 3 October 1960 – 13 April 2021) was a Bangladeshi composer and music director.,0,0,,62296855,1960-10-03,2021-04-13,LLM
+Hridoye,NNP,TIME_UNIT_REGEX,TIME,time_reference,"The theme songs of Jolkona and Hridoye Mati o Manush by Sabina Yasmin, Ferari Siren by Runa Laila, Griho Bibad by Momtaz Begum, Gohine Shobdo by Rezwana Chowdhury Bonna are composed by Ahmed.",5,2,== Career ==,62296855,,,ML
+20 days,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Ahmed died from COVID-19 on 13 April 2021, during the COVID-19 pandemic in Bangladesh after suffering 20 days from the virus.",7,2,== Career ==,62296855,,,ML
+Mon,NNP,WEEK_ABBR_REGEX,TIME,time_reference,Projapoti Mon,0,6,== Works ==,62296855,,,ML

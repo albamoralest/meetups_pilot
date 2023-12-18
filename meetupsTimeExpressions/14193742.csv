@@ -1,0 +1,20 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+14 June 1974,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Mercedes Trujillo Callealta (born 14 June 1974 in Cádiz, Spain), best known as Merche, is a Spanish singer.",0,0,,14193742,1974-06-14,1974-06-14,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, she participated as Luna in the Spanish national final for the Eurovision Song Contest with the song ""No Pidas Mas Amor"".",0,4,== Rise to stardom ==,14193742,2001-01-01,2001-12-31,ML
+spring 2002,NN CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"From spring 2002 to the end of summer, the single ""No Pidas Mas Amor"" was a national hit in Spain, with TV appearances supporting the single and album, and was also the title track of the Spanish version of Big Brother.",2,4,== Rise to stardom ==,14193742,2002-01-01,2002-12-31,ML
+fall 2002,NN CD,SEASON_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In fall 2002 the third single, ""Le Deseo"" was released, and the album became a hit, up to No. 12 some weeks, and certificated gold, and a months later, platinum.",1,5,== Rise to stardom ==,14193742,2002-01-01,2002-12-31,ML
+of 2003,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the summer of 2003, the fourth single was released, ""Mi Sueño"", also with supporting appearances in TV.",0,6,== Rise to stardom ==,14193742,2003-01-01,2003-12-31,ML
+2002 and 2003,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 2002 and 2003, Merche toured with her first album, in the Mi Sueño Tour, where she sang all songs from the album and two covers of other artists, Alaska's ""A Quien Le Importa"" and Ray Heredia's ""Alegria de Vivir"".",0,7,== Rise to stardom ==,14193742,2002-01-01,2003-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Mi sueño (2002) (Platinum),0,11,== Discography ==,14193742,2002-01-01,2002-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Auténtica (2004) (Platinum),0,12,== Discography ==,14193742,2004-01-01,2004-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Necesito libertad (2005) (2xPlatinum),0,13,== Discography ==,14193742,2005-01-01,2005-12-31,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Cal y arena (2007) (2xPlatinum),0,14,== Discography ==,14193742,2007-01-01,2007-12-31,ML
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Acordes de mi diario (2010) (Gold),0,15,== Discography ==,14193742,2010-01-01,2010-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Un mundo de colores (2012) (Gold),0,16,== Discography ==,14193742,2012-01-01,2012-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,Quiero contarte (2014) (Gold),0,17,== Discography ==,14193742,2014-01-01,2014-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"""De otra manera"" (2017)",0,18,== Discography ==,14193742,2017-01-01,2017-12-31,ML
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"""Es Ahora"" (2020)",0,19,== Discography ==,14193742,2020-01-01,2020-12-31,ML
+the end of summer,DT NN IN NN,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 SEASON_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"From spring 2002 to the end of summer, the single ""No Pidas Mas Amor"" was a national hit in Spain, with TV appearances supporting the single and album, and was also the title track of the Spanish version of Big Brother.",2,4,== Rise to stardom ==,14193742,,,ML
+12 some weeks,CD DT NNS,DIGIT_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,NUMERAL MODIFIER TIME,,"In fall 2002 the third single, ""Le Deseo"" was released, and the album became a hit, up to No. 12 some weeks, and certificated gold, and a months later, platinum.",1,5,== Rise to stardom ==,14193742,,,ML
+the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"In the summer of 2003, the fourth single was released, ""Mi Sueño"", also with supporting appearances in TV.",0,6,== Rise to stardom ==,14193742,,,ML
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Her father, Pedro also was a singer in Carnavales de Cadiz, now retired.",0,9,== Personal life ==,14193742,,,ML

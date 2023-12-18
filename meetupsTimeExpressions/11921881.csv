@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Many of the songs he has written have become Top-10 hits, the first of which was ""Love's Been A Little Bit Hard On Me"" released by Juice Newton (#7 on Billboard's Hot 100) in 1982.",1,0,,11921881,1982-01-01,1982-12-31,ML
+1982 to 1985,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He became a member of the group Pure Prairie League (1982 to 1985), taking over after Vince Gill departed the group.",2,0,,11921881,1982-01-01,1985-12-31,ML
+November 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Burr gave Testimony to the U.S. Senate as a major American songwriter in November 2005 concerning audio/video piracy (specifically from China) on behalf of himself and the RIAA.,0,66,== U.S. Senate Testimony ==,11921881,2005-11-01,2005-11-30,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Burr is a member of Blue Sky Riders, a country music trio also featuring Kenny Loggins and Georgia Middleman (whom he married in 2012).",0,69,== Blue Sky Riders ==,11921881,2012-01-01,2012-12-31,ML
+"January 29 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"They released their debut album, Finally Home, on January 29, 2013.",1,69,== Blue Sky Riders ==,11921881,2013-01-29,2013-01-29,ML
+2019,CD,YEAR_REGEX_1,TIME,time_reference,Gary Burr Interview NAMM Oral History Library (2019),0,75,== External links ==,11921881,2019-01-01,2019-12-31,ML
+currently,RB,TIMELINE_REGEX,TIME,time_reference,"Burr later moved to Nashville to focus on his songwriting career, though he has continued performing and is currently a member of the Blue Sky Riders.",3,0,,11921881,,,ML
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"""Rainy Day Man"" – Joey Molland",0,2,== Songs written/co-written by Gary Burr ==,11921881,,,ML
+a Day,DT NNP,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"""A Thousand Times a Day"" – Patty Loveless",0,9,== Songs written/co-written by Gary Burr ==,11921881,,,ML
+One Night,CD NNP,BASIC_NUMBER_REGEX_1 DAY_TIME_REGEX,NUMERAL TIME,,"""One Night a Day"" – Garth Brooks",0,27,== Songs written/co-written by Gary Burr ==,11921881,,,ML
+the Night,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"""This Is the Night"" – Clay Aiken",0,43,== Songs written/co-written by Gary Burr ==,11921881,,,ML
+Tomorrow,NN,TIMELINE_REGEX,TIME,time_reference,"""Tomorrow's Goodbye"" – Lynyrd Skynyrd",0,46,== Songs written/co-written by Gary Burr ==,11921881,,,ML

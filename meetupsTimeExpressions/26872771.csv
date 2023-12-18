@@ -1,0 +1,14 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"December 11 , 1960","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jon Card (born December 11, 1960) is a German-Canadian drummer.",0,0,,26872771,1960-12-11,1960-12-11,ML
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"In 1981 he joined the Winnipeg-based band Personality Crisis, with whom he played with for three years before their 1984 breakup.",2,2,== Career ==,26872771,1981-01-01,1981-12-31,ML
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"In 1988, he also contributed to Vancouver-based NoMeansNo's Small Parts Isolated and Destroyed album as a guest musician.",5,2,== Career ==,26872771,1988-01-01,1988-12-31,ML
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Card next joined D.O.A. for several years and records, departing in 1991.",0,3,== Career ==,26872771,1991-01-01,1991-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Card played with alternative country artist Linda McRae on her 2002 album Cryin' Out Loud, and later played in Ani Kyd's band.",0,4,== Career ==,26872771,2002-01-01,2002-12-31,ML
+2010,CD,YEAR_REGEX_1,TIME,time_reference,"In 2010, Card also rejoined SNFU, marking his third stint with the band.",3,4,== Career ==,26872771,2010-01-01,2010-12-31,ML
+their 2005,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,He joined the long-standing Canadian punk band The Subhumans for their 2005 reunion.,1,4,== Career ==,26872771,2005-01-01,2005-12-31,LLM
+a 1991,DT CD,INARTICLE_REGEX YEAR_REGEX_1,MODIFIER TIME,time_reference,"He thereafter joined the reunited SNFU for a 1991 tour, but did not stay with the band as they proceeded to sign with Epitaph Records and tour extensively.",1,3,== Career ==,26872771,1991-01-01,1991-12-31,LLM
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1981 he joined the Winnipeg-based band Personality Crisis, with whom he played with for three years before their 1984 breakup.",2,2,== Career ==,26872771,,,ML
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He then played in the popular Canadian punk band SNFU for two years, who were at that time based in Edmonton.",3,2,== Career ==,26872771,,,ML
+several years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Card next joined D.O.A. for several years and records, departing in 1991.",0,3,== Career ==,26872771,,,ML
+the next year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,They signed with the Alternative Tentacles and G7 Welcoming Committee record labels and released the New Dark Age Parade LP the next year.,2,4,== Career ==,26872771,,,ML
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,You album three years later.,5,4,== Career ==,26872771,,,ML

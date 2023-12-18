@@ -1,0 +1,14 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1970,CD,YEAR_REGEX_1,TIME,time_reference,He started his musical career in the school years and won a first prize as composer at the Milliyet High School Music Contest in 1970.,1,3,== Biography ==,1705867,1970-01-01,1970-12-31,ML
+1975,CD,YEAR_REGEX_1,TIME,time_reference,Until 1975 he worked with Timur Selçuk.,2,3,== Biography ==,1705867,1975-01-01,1975-12-31,ML
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"Since 1975, he composed 273 tunes, 9 musicals and 32 film musicals in cooperation with various artists, in particular with lyricist Çiğdem Talu.",4,3,== Biography ==,1705867,1975-01-01,1975-12-31,ML
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976, he received the Golden Orange prize for the soundtrack of the film ""Hababam Sınıfı"".",5,3,== Biography ==,1705867,1976-01-01,1976-12-31,ML
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"At the Eurovision Song Contest 1986 held in Bergen, Norway, his song ""Halley"" and at the Eurovision Song Contest 1995 held in Dublin, Ireland, his another song ""Sev!"" represented Turkey.",7,3,== Biography ==,1705867,1986-01-01,1986-12-31,ML
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"At the Eurovision Song Contest 1986 held in Bergen, Norway, his song ""Halley"" and at the Eurovision Song Contest 1995 held in Dublin, Ireland, his another song ""Sev!"" represented Turkey.",7,3,== Biography ==,1705867,1995-01-01,1995-12-31,ML
+7 April 2005,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Melih Kibar died of skin cancer on 7 April 2005 at a hospital in Istanbul.,8,3,== Biography ==,1705867,2005-04-07,2005-04-07,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Yadigar, 2001",0,5,== Discography ==,1705867,2001-01-01,2001-12-31,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Saat Sabahın Dokuzu, 2003",0,6,== Discography ==,1705867,2003-01-01,2003-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Hababam Sınıfı-Merhaba, 2004",0,7,== Discography ==,1705867,2004-01-01,2004-12-31,ML
+6 September 1951 – 7 April 2005,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Melih Kibar (6 September 1951 – 7 April 2005) was a Turkish composer.,0,0,,1705867,1951-09-06,2005-04-07,LLM
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,He started his musical career in the school years and won a first prize as composer at the Milliyet High School Music Contest in 1970.,1,3,== Biography ==,1705867,,,ML
+there two days,RB CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,He was taken there two days before his death.,9,3,== Biography ==,1705867,,,ML

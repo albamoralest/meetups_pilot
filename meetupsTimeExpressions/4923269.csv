@@ -1,0 +1,16 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"April 23 , 1971","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Mike Riggs is a heavy-metal guitarist born April 23, 1971 in Ozark, Arkansas.",0,0,,4923269,1971-04-23,1971-04-23,ML
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"Riggs' career as a musician started at the age of 19 in 1990 when he started the band Demiltry in Austin, Texas for whom he played the rhythm guitar and sang lead vocals.",0,2,== Career history ==,4923269,1990-01-01,1990-12-31,ML
+"October 26 , 2004","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Blah...Love Songs for the New Millennium on October 26, 2004 produced by famed producer Ben Burkhardt at Belt of Orion Recording in Los Angeles, California.",5,3,== Career history ==,4923269,2004-10-26,2004-10-26,ML
+1998,CD,YEAR_REGEX_1,TIME,time_reference,1998:,0,7,== Discography == | === with Rob Zombie ===,4923269,1998-01-01,1998-12-31,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999:,0,8,== Discography == | === with Rob Zombie ===,4923269,1999-01-01,1999-12-31,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001:,0,9,== Discography == | === with Rob Zombie ===,4923269,2001-01-01,2001-12-31,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"2003: Past, Present & Future",0,10,== Discography == | === with Rob Zombie ===,4923269,2003-01-01,2003-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,2004:,0,12,== Discography == | === with Scum of the Earth ===,4923269,2004-01-01,2004-12-31,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007:,0,13,== Discography == | === with Scum of the Earth ===,4923269,2007-01-01,2007-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012:,0,14,== Discography == | === with Scum of the Earth ===,4923269,2012-01-01,2012-12-31,ML
+"Past , Present","NNP , NNP",TIMELINE_REGEX COMMA_REGEX TIMELINE_REGEX,TIME MODIFIER TIME,time_reference,"By, Hellbilly Super Deluxe, Past, Present & Future) and currently his skills as a guitarist, vocalist, and producer for Scum of the Earth.",2,0,,4923269,,,ML
+several years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"After playing with Skrew for several years, Riggs joined Prong after the release of their studio album Rude Awakening and toured with them for some time.",5,2,== Career history ==,4923269,,,ML
+Millennium,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Blah...Love Songs for the New Millennium on October 26, 2004 produced by famed producer Ben Burkhardt at Belt of Orion Recording in Los Angeles, California.",5,3,== Career history ==,4923269,,,ML
+"Past , Present","NNP , NNP",TIMELINE_REGEX COMMA_REGEX TIMELINE_REGEX,TIME MODIFIER TIME,time_reference,"2003: Past, Present & Future",0,10,== Discography == | === with Rob Zombie ===,4923269,,,ML
+Millennium,NNP,TIME_UNIT_REGEX,TIME,time_reference,Blah...Love Songs for the New Millennium,2,12,== Discography == | === with Scum of the Earth ===,4923269,,,ML

@@ -1,0 +1,16 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"July 3 , 1965","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Oren Bloedow (born July 3, 1965) is an American singer, guitarist, and composer.",0,0,,988041,1965-07-03,1965-07-03,ML
+1995,CD,YEAR_REGEX_1,TIME,time_reference,He founded the band Elysian Fields in 1995 with Jennifer Charles.,1,0,,988041,1995-01-01,1995-12-31,ML
+the 1980s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Bloedow's first musical affiliations were with Phillip Johnston, Bobby Previte, and Wayne Horvitz, all of whom worked with him in Bobby Radcliff's blues band in the 1980s.",0,2,== Career ==,988041,1980-01-01,1989-12-31,ML
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985 a friend of Anderson's introduced Bloedow to 101 Crustaceans, whose leader, Ed Pastorini, is Bloedow's oldest continuing musical associate and was a member of Elysian Fields.",3,2,== Career ==,988041,1985-01-01,1985-12-31,ML
+1987–88,CD,YEAR_REGEX_1,TIME,time_reference,He attended New England Conservatory in 1987–88.,0,3,== Career ==,988041,1987-01-01,1988-12-31,ML
+1990,CD,YEAR_REGEX_1,TIME,time_reference,In 1990 he began working with Jennifer Charles.,2,3,== Career ==,988041,1990-01-01,1990-12-31,ML
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Oren Bloedow (Knitting Factory, 1992)",0,5,== Discography ==,988041,1992-01-01,1992-12-31,ML
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"Luckiest Boy in the World (Knitting Factory, 1998)",0,6,== Discography ==,988041,1998-01-01,1998-12-31,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"La Mar Enfortuna (Tzadik, 2001)",0,7,== Discography ==,988041,2001-01-01,2001-12-31,ML
+the 1950s and 1960s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"His father, Jerry Bloedow is a playwright, poet, and film editor whose theater, the Hardware Poet's Playhouse, participated in the New York avant-garde scene in the 1950s and 1960s.",2,0,,988041,1950-01-01,1969-12-31,LLM
+Pastorini,NNP,TIMELINE_REGEX,TIME,time_reference,"In 1985 a friend of Anderson's introduced Bloedow to 101 Crustaceans, whose leader, Ed Pastorini, is Bloedow's oldest continuing musical associate and was a member of Elysian Fields.",3,2,== Career ==,988041,,,ML
+Pastorini,NNP,TIMELINE_REGEX,TIME,time_reference,Bloedow names Pastorini as his favorite musician.,4,2,== Career ==,988041,,,ML
+Pastorini,NNP,TIMELINE_REGEX,TIME,time_reference,"As a solo act he has worked with Elysian Fields, Ed Pastorini, and 101 Crustaceans.",5,3,== Career ==,988041,,,ML
+Mar,NNP,MONTH_ABBR_REGEX,TIME,time_reference,He performed with  La Mar Enfortuna at the Jewish Culture Festival in Kraków.,6,3,== Career ==,988041,,,ML
+Mar,NNP,MONTH_ABBR_REGEX,TIME,time_reference,"La Mar Enfortuna (Tzadik, 2001)",0,7,== Discography ==,988041,,,ML

@@ -1,0 +1,19 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"February 13 , 1974","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Reuben Phillips (died February 13, 1974 in San Juan, Puerto Rico) was an American jazz saxophonist, arranger and bandleader, born in Providence, Kentucky.",0,0,,17208567,1974-02-13,1974-02-13,ML
+1950,CD,YEAR_REGEX_1,TIME,time_reference,"After five years as an alto saxophonist with Andy Kirk and his Clouds of Joy, he played with Willis Jackson (1950) then Josephine Baker and Louis Jordan (1951).",0,1,,17208567,1950-01-01,1950-12-31,ML
+1951,CD,YEAR_REGEX_1,TIME,time_reference,"After five years as an alto saxophonist with Andy Kirk and his Clouds of Joy, he played with Willis Jackson (1950) then Josephine Baker and Louis Jordan (1951).",0,1,,17208567,1951-01-01,1951-12-31,ML
+1952,CD,YEAR_REGEX_1,TIME,time_reference,"From 1952, Phillips has been a freelance arranger, musician and band leader in the New York area.",1,1,,17208567,1952-01-01,1952-12-31,ML
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"He also played and recorded with Gene Redd, Sammy Lowe, George Rhodes, Dud Bascomb, and later recorded with Willis Jackson (1970) and Erskine Hawkins (1971).",0,2,,17208567,1970-01-01,1970-12-31,ML
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"He also played and recorded with Gene Redd, Sammy Lowe, George Rhodes, Dud Bascomb, and later recorded with Willis Jackson (1970) and Erskine Hawkins (1971).",0,2,,17208567,1971-01-01,1971-12-31,ML
+1960,CD,YEAR_REGEX_1,TIME,time_reference,1960:,0,7,== Discography ==,17208567,1960-01-01,1960-12-31,ML
+1003,CD,YEAR_REGEX_1,TIME,time_reference,Manhattan...3:00 A.M. (Poplar 1003),1,7,== Discography ==,17208567,1003-01-01,1003-12-31,ML
+1961,CD,YEAR_REGEX_1,TIME,time_reference,1961:,0,8,== Discography ==,17208567,1961-01-01,1961-12-31,ML
+1944–47,CD,YEAR_REGEX_1,TIME,time_reference,"Andy Kirk, Live at the Apollo, 1944–47",0,9,== Discography ==,17208567,1944-01-01,2047-12-31,ML
+1951,CD,YEAR_REGEX_1,TIME,time_reference,"Louis Jordan And his orchestra, 1951",0,10,== Discography ==,17208567,1951-01-01,1951-12-31,ML
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"George Rhodes, Plays Porgy and Bess, 1958",0,11,== Discography ==,17208567,1958-01-01,1958-12-31,ML
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"Willis Jackson, Recording session, 1970",0,12,== Discography ==,17208567,1970-01-01,1970-12-31,ML
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"Erskine Hawkins, Live at Club Soul Sound, 1971",0,13,== Discography ==,17208567,1971-01-01,1971-12-31,ML
+five years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"After five years as an alto saxophonist with Andy Kirk and his Clouds of Joy, he played with Willis Jackson (1950) then Josephine Baker and Louis Jordan (1951).",0,1,,17208567,1945-01-01,1950-01-01,LLM
+the 1960s and 70s,DT NNS CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1,MODIFIER TIME MODIFIER NUMERAL,time_reference,"He recorded two albums with his own big band, the house band at the Apollo Theatre on 125th Street in Harlem in the 1960s and 70s.",0,3,,17208567,,,ML
+3:00 A.M.,CD NNP,DIGIT_REGEX_1 HALFDAY_REGEX_1,NUMERAL TIME,,Manhattan...3:00 A.M. (Poplar 1003),1,7,== Discography ==,17208567,,,ML
+16004,CD,YEAR_REGEX_1,TIME,time_reference,Big band at the Apollo (Ascot 16004)As a sideman,1,8,== Discography ==,17208567,,,ML

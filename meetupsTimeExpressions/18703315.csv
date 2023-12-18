@@ -1,0 +1,5 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"In 1999, he performed the world's first concerto for maraca soloist with symphony orchestra, which was written for him by Ricardo Lorenz, at Chicago's Orchestra Hall.",2,0,,18703315,1999-01-01,1999-12-31,ML
+1983,CD,YEAR_REGEX_1,TIME,time_reference,He attended the Tanglewood Music Center on a Leonard Bernstein Fellowship in 1983 and was invited to return the following year by the Artistic Directors.,11,0,,18703315,1983-01-01,1983-12-31,ML
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,He attended the Tanglewood Music Center on a Leonard Bernstein Fellowship in 1983 and was invited to return the following year by the Artistic Directors.,11,0,,18703315,,,ML
+1994 to 1998,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Harrison was a principal percussionist with the Chicago Sinfonietta from 1994 to 1998.,12,0,,18703315,1994-01-01,1998-12-31,ML

@@ -1,0 +1,10 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+April 1933,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Her father was an appellate court lawyer, a role he lost in April 1933 with the rise of the Nazis.",2,0,,41675980,1933-04-01,1933-04-30,ML
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"She fled to London in 1934 and taught German and violin lessons, as well as performing with the pianist Peter Gellhorn and her housemate, cellist Eva Heinitz.",4,0,,41675980,1934-01-01,1934-12-31,ML
+1939,CD,YEAR_REGEX_1,TIME,time_reference,"In 1939, she played at London's Wigmore Hall.",5,0,,41675980,1939-01-01,1939-12-31,ML
+1941,CD,YEAR_REGEX_1,TIME,time_reference,"In 1941, she joined the Czech Trio alongside Walter Susskind and Karel Horitz.",6,0,,41675980,1941-01-01,1941-12-31,ML
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"In 1955, she married Walter May, a Jewish emigrant businessman from Cologne with which she had two sons.",2,1,,41675980,1955-01-01,1955-12-31,ML
+1963,CD,YEAR_REGEX_1,TIME,time_reference,Walter died in 1963.,4,1,,41675980,1963-01-01,1963-12-31,ML
+1963 to 1985,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Lidka became Professor of Violin at the Royal College of Music in London, a role she served in from 1963 to 1985.",5,1,,41675980,1963-01-01,1985-12-31,ML
+27 May 1914–12 December 2013,CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME TIME TIME,time_range,Maria Lidka (27 May 1914–12 December 2013) was a German-born classical violinist.,0,0,,41675980,1914-05-27,2013-12-12,LLM
+May,NNP,MONTH_REGEX,TIME,time_reference,"In 1955, she married Walter May, a Jewish emigrant businessman from Cologne with which she had two sons.",2,1,,41675980,,,ML

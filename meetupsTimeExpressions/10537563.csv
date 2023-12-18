@@ -1,0 +1,19 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"January 11 , 1938","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Randall was born Franklin Joseph Lisbona in Passaic, New Jersey on January 11, 1938.",0,2,== Biography ==,10537563,1938-01-11,1938-01-11,ML
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"In 1964, he starred in Wild on the Beach.",1,2,== Biography ==,10537563,1964-01-01,1964-12-31,ML
+the 1960s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He released dozens of RCA singles and albums from the 1960s onwards.,3,2,== Biography ==,10537563,1960-01-01,1969-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Starting in 2008, Randall hosted The Music Of Your Life, a syndicated radio show.",5,2,== Biography ==,10537563,2008-01-01,2008-12-31,ML
+"December 28 , 2014","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On December 28, 2014, Randall died of lung cancer in Indio, California at the age of 76.",0,4,== Biography ==,10537563,2014-12-28,2014-12-28,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, a Golden Palm Star on the Palm Springs, California, Walk of Stars was dedicated to him.",0,6,== Accolades ==,10537563,2001-01-01,2001-12-31,ML
+October 2002,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Inducted into the Las Vegas Casino Legends Hall of Fame in October 2002.,1,6,== Accolades ==,10537563,2002-10-01,2002-10-31,ML
+"Jan 11 , 2013","NNP CD , CD",MONTH_ABBR_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Presented the Amadeus Award by the Desert Symphony on Jan 11, 2013.",2,6,== Accolades ==,10537563,2013-01-11,2013-01-11,ML
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Relax'n With Chico Randall (Roulette, 1960)",0,8,== Discography ==,10537563,1960-01-01,1960-12-31,ML
+1964,CD,YEAR_REGEX_1,TIME,time_reference,"Frankie Randall Sings & Swings (RCA Victor, 1964)",0,9,== Discography ==,10537563,1964-01-01,1964-12-31,ML
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"(RCA Victor, 1965)",1,10,== Discography ==,10537563,1965-01-01,1965-12-31,ML
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"(RCA Victor, 1966)",1,11,== Discography ==,10537563,1966-01-01,1966-12-31,ML
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"I Remember You (RCA Victor, 1966)",0,12,== Discography ==,10537563,1966-01-01,1966-12-31,ML
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"The Mods & The Pops (RCA Victor, 1968)",0,13,== Discography ==,10537563,1968-01-01,1968-12-31,ML
+"January 11 , 1938 – December 28 , 2014","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Frankie Randall (born Franklin Joseph ""Frank"" Lisbona; January 11, 1938 – December 28, 2014) was an American singer, dancer, songwriter, vocalist, actor, and comedian.",0,0,,10537563,1938-01-11,2014-12-28,LLM
+Summer,NNP,SEASON_REGEX,TIME,time_reference,His acting credits include The Dean Martin Summer Show and Day of the Wolves.,1,0,,10537563,,,ML
+the summer,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"He also appeared many times on the Dean Martin TV show, and hosted the summer version of the show when Martin was not available.",2,2,== Biography ==,10537563,,,ML
+Springs,NNP,SEASON_REGEX,TIME,time_reference,"In 2001, a Golden Palm Star on the Palm Springs, California, Walk of Stars was dedicated to him.",0,6,== Accolades ==,10537563,,,ML

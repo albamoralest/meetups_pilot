@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1948,CD,YEAR_REGEX_1,TIME,time_reference,"In 1948, he immigrated to Israel and joined the  IDF Orchestra as a trumpet player.",1,2,== Biography ==,267257,1948-01-01,1948-12-31,ML
+1952,CD,YEAR_REGEX_1,TIME,time_reference,Graziani played with the orchestra until 1952.,0,4,== Music career ==,267257,1952-01-01,1952-12-31,ML
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"In 1960, after the retirement of conductor Shalom Ronli-Riklis, Graziani took his place.",1,4,== Music career ==,267257,1960-01-01,1960-12-31,ML
+1979,CD,YEAR_REGEX_1,TIME,time_reference,Graziani was also Music Director of the Eurovision Song Contest 1979.,0,5,== Music career ==,267257,1979-01-01,1979-12-31,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Graziani retired in 2003 and died three months later.,0,6,== Music career ==,267257,2003-01-01,2003-12-31,ML
+"August 4 , 1924 - July 7 , 2003","NNP CD , CD : NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Izhak  Graziani (Hebrew: יצחק גרציאני (August 4, 1924 - July 7, 2003) was an Israeli music conductor.",0,0,,267257,1924-08-04,2003-07-07,LLM
+three months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Graziani retired in 2003 and died three months later.,0,6,== Music career ==,267257,,,ML

@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"January 21 , 2011","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On January 21, 2011, Irisarri and Pioulard released a cover version of Broadcast's ""Until Then"" (from the band's 2000 album The Noise Made By People), as a tribute to the late Trish Keenan.",0,1,,38085860,2011-01-21,2011-01-21,ML
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"On January 21, 2011, Irisarri and Pioulard released a cover version of Broadcast's ""Until Then"" (from the band's 2000 album The Noise Made By People), as a tribute to the late Trish Keenan.",0,1,,38085860,2000-01-01,2000-12-31,ML
+April 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,The duo's self-titled debut LP was released in April 2012 on Germany's Morr Music imprint.,2,1,,38085860,2012-04-01,2012-04-30,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Orcas toured throughout 2012 in Europe and in select cities in North America.,5,1,,38085860,2012-01-01,2012-12-31,ML
+January 2014,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Morr Music announced in January 2014 that Orcas will release their second album entitled Yearling later in April.,10,1,,38085860,2014-01-01,2014-01-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Orcas (2012),0,3,== Discography ==,38085860,2012-01-01,2012-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,Yearling (2014),0,4,== Discography ==,38085860,2014-01-01,2014-12-31,ML
+one of 2012,CD IN CD,BASIC_NUMBER_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,NUMERAL MODIFIER TIME,,Their debut self-titled album was listed as one of 2012's best records by numerous blogs and websites.,9,1,,38085860,2012-01-01,2012-12-31,LLM
+Later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Later that year, the collaboration spawned into a full, new project, called Orcas.",1,1,,38085860,,,ML
+April,NNP,MONTH_REGEX,TIME,time_reference,Morr Music announced in January 2014 that Orcas will release their second album entitled Yearling later in April.,10,1,,38085860,,,ML

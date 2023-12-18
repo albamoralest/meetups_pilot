@@ -1,0 +1,22 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Greg MacPherson (born 1973) is a Canadian singer-songwriter based in Winnipeg, Manitoba.",0,0,,2222131,1973-01-01,1973-12-31,ML
+"March 30 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"MacPherson's sixth album, Mr. Invitation, was released on March 30, 2010, and was longlisted for the 2010 Polaris Music Prize.",2,0,,2222131,2010-03-30,2010-03-30,ML
+the 2010,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"MacPherson's sixth album, Mr. Invitation, was released on March 30, 2010, and was longlisted for the 2010 Polaris Music Prize.",2,0,,2222131,2010-01-01,2010-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"His two most recent albums, Disintegration Blues in 2011 and Fireball in 2013, were released on his own Disintegration Records following the demise of both G7 Welcoming Committee Records and Smallman Records.",3,1,,2222131,2011-01-01,2011-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"His two most recent albums, Disintegration Blues in 2011 and Fireball in 2013, were released on his own Disintegration Records following the demise of both G7 Welcoming Committee Records and Smallman Records.",3,1,,2222131,2013-01-01,2013-12-31,ML
+the 2014,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Fireball was a longlisted nominee for the 2014 Polaris Music Prize.,4,1,,2222131,2014-01-01,2014-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"In 2017 MacPherson collaborated with Rob Gardiner in the project Figure Walking, whose debut album The Big Other was a longlisted nominee for the 2017 Polaris Music Prize.",5,1,,2222131,2017-01-01,2017-12-31,ML
+the 2017,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In 2017 MacPherson collaborated with Rob Gardiner in the project Figure Walking, whose debut album The Big Other was a longlisted nominee for the 2017 Polaris Music Prize.",5,1,,2222131,2017-01-01,2017-12-31,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,The Year of The Record Break (1997),0,3,== Discography ==,2222131,1997-01-01,1997-12-31,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Balanced on a Pin (1999),0,4,== Discography ==,2222131,1999-01-01,1999-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Good Times Coming Back Again (2002),0,5,== Discography ==,2222131,2002-01-01,2002-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Maintenance (2004),0,6,== Discography ==,2222131,2004-01-01,2004-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,Night Flares (2005),0,7,== Discography ==,2222131,2005-01-01,2005-12-31,ML
+2006,CD,YEAR_REGEX_1,TIME,time_reference,The Sun Beats Down (2006),0,8,== Discography ==,2222131,2006-01-01,2006-12-31,ML
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Mr. Invitation (2010),0,9,== Discography ==,2222131,2010-01-01,2010-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Disintegration Blues (2011),0,10,== Discography ==,2222131,2011-01-01,2011-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,Fireball (2013),0,11,== Discography ==,2222131,2013-01-01,2013-12-31,ML
+previously,RB,TIMELINE_REGEX,TIME,time_reference,"He has previously released albums on G7 Welcoming Committee Records, and more recently Smallman Records.",1,1,,2222131,,,ML
+The Year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,The Year of The Record Break (1997),0,3,== Discography ==,2222131,,,ML
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,Night Flares (2005),0,7,== Discography ==,2222131,,,ML
+The Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,The Sun Beats Down (2006),0,8,== Discography ==,2222131,,,ML

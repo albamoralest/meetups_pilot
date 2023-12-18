@@ -1,0 +1,16 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1906,CD,YEAR_REGEX_1,TIME,time_reference,"In 1906, she moved to New York City, where she studied with Rafael Joseffy and Rubin Goldmark.",0,1,,49078728,1906-01-01,1906-12-31,ML
+March 1910,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In March 1910, she gave her debut concert there, performing with the New York Symphony.",1,1,,49078728,1910-03-01,1910-03-31,ML
+1914,CD,YEAR_REGEX_1,TIME,time_reference,"She went to Switzerland in 1914, where she studied with Josef Hofmann.",3,1,,49078728,1914-01-01,1914-12-31,ML
+1916,CD,YEAR_REGEX_1,TIME,time_reference,"Because of World War I, she returned to New York in 1916.",4,1,,49078728,1916-01-01,1916-12-31,ML
+1927,CD,YEAR_REGEX_1,TIME,time_reference,Ballon toured Europe in 1927 and Canada in 1928.,1,2,,49078728,1927-01-01,1927-12-31,ML
+1928,CD,YEAR_REGEX_1,TIME,time_reference,Ballon toured Europe in 1927 and Canada in 1928.,1,2,,49078728,1928-01-01,1928-12-31,ML
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"In 1934, she settled in London.",2,2,,49078728,1934-01-01,1934-12-31,ML
+1938,CD,YEAR_REGEX_1,TIME,time_reference,She stopped performing for two years after she broke an ankle getting out of a cab in 1938.,3,2,,49078728,1938-01-01,1938-12-31,ML
+1945,CD,YEAR_REGEX_1,TIME,time_reference,"In 1945, she commissioned a concerto from the Brazilian composer Heitor Villa-Lobos.",4,2,,49078728,1945-01-01,1945-12-31,ML
+1946,CD,YEAR_REGEX_1,TIME,time_reference,"She gave the premier performance in Rio de Janeiro in 1946, followed by the American and Canadian premiers in 1947.",5,2,,49078728,1946-01-01,1946-12-31,ML
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"She gave the premier performance in Rio de Janeiro in 1946, followed by the American and Canadian premiers in 1947.",5,2,,49078728,1947-01-01,1947-12-31,ML
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"For a short time, she taught at the Faculty of Music at McGill University, where she had established a music scholarship in her own name in 1928.",6,2,,49078728,1928-01-01,1928-12-31,ML
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"In 1954, she married Colonel Théodore-Lafleur Bullock.",8,2,,49078728,1954-01-01,1954-12-31,ML
+"October 6 , 1898 – December 21 , 1969","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Ellen Ballon (October 6, 1898 – December 21, 1969) was a Canadian pianist.",0,0,,49078728,1898-10-06,1969-12-21,LLM
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,She stopped performing for two years after she broke an ankle getting out of a cab in 1938.,3,2,,49078728,,,ML

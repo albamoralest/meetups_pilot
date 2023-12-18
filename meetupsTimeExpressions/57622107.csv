@@ -1,0 +1,17 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"July 4 , 1991","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Tina Pinnock, (born July 4, 1991) known professionally as HoodCelebrityy, is a Jamaican dancehall singer and songwriter.",0,0,,57622107,1991-07-04,1991-07-04,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Currently signed to Epic Records, she released two mixtapes in 2017, Can't Believe It's Just a Girl and Trap Vs.",2,0,,57622107,2017-01-01,2017-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Her 2017 single, ""Walking Trophy,"" peaked at number 22 on the R&B/Hip-Hop Airplay chart.",5,0,,57622107,2017-01-01,2017-12-31,ML
+2015,CD,YEAR_REGEX_1,TIME,time_reference,"HoodCelebrityy's breakout came in 2015 when friend and future collaborator, Cardi B, posted about her song, ""Wine Pon It"".",0,4,== Career ==,57622107,2015-01-01,2015-12-31,ML
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"In 2016, HoodCelebrityy was featured on the Jubilee song, ""Wine Up.""",2,4,== Career ==,57622107,2016-01-01,2016-12-31,ML
+January 2017,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 2017, she appeared on Cardi B's mixtape, Gangsta Bitch Music, Vol. 2, on the song ""Back It Up"" which also featured Konshens.",4,4,== Career ==,57622107,2017-01-01,2017-01-31,ML
+August 2017,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In August 2017, HoodCelebrityy released her second mixtape, Trap Vs.",7,4,== Career ==,57622107,2017-08-01,2017-08-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Later in 2017, she released the single, ""Walking Trophy.""",10,4,== Career ==,57622107,2017-01-01,2017-12-31,ML
+February 2018,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The video for ""Walking Trophy"" was directed by Mazi O and released in February 2018.",12,4,== Career ==,57622107,2018-02-01,2018-02-28,ML
+May 2018,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In May 2018, HoodCelebrityy was signed to Epic Records.",14,4,== Career ==,57622107,2018-05-01,2018-05-31,ML
+"August 30 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On August 30, 2019 HoodCelebrityy released a single called ""Bum Pon It"" on her Official Youtube page.",17,4,== Career ==,57622107,2019-08-30,2019-08-30,ML
+the 2018 Summer,DT CD NNP,PREFIX_REGEX_1 YEAR_REGEX_1 SEASON_REGEX,MODIFIER TIME TIME,time_reference,She performed at the 2018 Summer Jam.,16,4,== Career ==,57622107,2018-06-01,2018-08-31,LLM
+Currently,RB,TIMELINE_REGEX,TIME,time_reference,"Currently signed to Epic Records, she released two mixtapes in 2017, Can't Believe It's Just a Girl and Trap Vs.",2,0,,57622107,,,ML
+month,NN,TIME_UNIT_REGEX,TIME,time_reference,"That same month, she released the lead single, ""The Takeover"", off of her debut mixtape, Can't Believe It's Just a Girl.",5,4,== Career ==,57622107,,,ML
+the spring,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,The mixtape was released in the spring of that year.,6,4,== Career ==,57622107,,,ML
+Later that month,RB DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Later that month, she and Tory Lanez were featured on the Megan Ryte track, ""On & On.""",15,4,== Career ==,57622107,,,ML

@@ -1,0 +1,21 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"With his brother John Clayton he founded The Clayton Brothers in 1977, and later formed the Clayton-Hamilton Jazz Orchestra with Jeff Hamilton.",2,1,,16022301,1977-01-01,1977-12-31,ML
+1989 to 1991,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,From 1989 to 1991 he was a member of the Philip Morris Superband.,4,1,,16022301,1989-01-01,1991-12-31,ML
+"December 16 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Clayton died on December 16, 2020, after suffering from kidney cancer.",0,2,,16022301,2020-12-16,2020-12-16,ML
+December 2009,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In December 2009, Brother to Brother by The Clayton Brothers received a Grammy Award nomination in the Best Jazz Instrumental Album, Individual or Group category.",0,4,== Awards and recognition ==,16022301,2009-12-01,2009-12-31,ML
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Boogie-Down, Ernestine Anderson and the Clayton-Hamilton Jazz Orchestra, 1989",0,6,== Discography ==,16022301,1989-01-01,1989-12-31,ML
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Groove Shop, Clayton-Hamilton Jazz Orchestra, 1989",0,7,== Discography ==,16022301,1989-01-01,1989-12-31,ML
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Heart and Soul, Clayton-Hamilton Jazz Orchestra, 1991",0,8,== Discography ==,16022301,1991-01-01,1991-12-31,ML
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Music, The Clayton Brothers, 1991",0,9,== Discography ==,16022301,1991-01-01,1991-12-31,ML
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Absolutely, Clayton-Hamilton Jazz Orchestra, 1995",0,10,== Discography ==,16022301,1995-01-01,1995-12-31,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Expressions, The Clayton Brothers, 1997",0,11,== Discography ==,16022301,1997-01-01,1997-12-31,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Explosive!, Milt Jackson and the Clayton-Hamilton Jazz Orchestra, 1999",0,12,== Discography ==,16022301,1999-01-01,1999-12-31,ML
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Siblingity, The Clayton Brothers, 2000",0,13,== Discography ==,16022301,2000-01-01,2000-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Back in the Swing of Things, The Clayton Brothers, 2005",0,14,== Discography ==,16022301,2005-01-01,2005-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Christmas Songs, Diana Krall and the Clayton-Hamilton Jazz Orchestra, 2005",0,15,== Discography ==,16022301,2005-01-01,2005-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Clayton-Hamilton Jazz Orchestra: Live at MCG, 2005",0,16,== Discography ==,16022301,2005-01-01,2005-12-31,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Flirting With Twilight, Kurt Elling, 2001",0,17,== Discography ==,16022301,2001-01-01,2001-12-31,ML
+"February 16 , 1954 – December 16 , 2020","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Jeff Clayton (February 16, 1954 – December 16, 2020) was an American jazz alto saxophonist and flautist.",0,0,,16022301,1954-02-16,2020-12-16,LLM
+66 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,He was 66 years old.,1,2,,16022301,,,ML
+Christmas,NNP,HOLIDAY_REGEX,TIME,time_reference,"Christmas Songs, Diana Krall and the Clayton-Hamilton Jazz Orchestra, 2005",0,15,== Discography ==,16022301,,,ML
+Twilight,NNP,DAY_TIME_REGEX,TIME,time_reference,"Flirting With Twilight, Kurt Elling, 2001",0,17,== Discography ==,16022301,,,ML

@@ -1,0 +1,5 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1922,CD,YEAR_REGEX_1,TIME,time_reference,"1922 in Tampico, Tamaulipas, Mexico.",1,1,,57215197,1922-01-01,1922-12-31,ML
+the 1950s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,She was most famous in the 1950s when she achieved popularity as a radio performer and was one of RCA Victor Records' best-selling Mexican artists.,4,1,,57215197,1950-01-01,1959-12-31,ML
+16 January 1996,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"She died of pneumonia at the age of 74 on 16 January 1996 in Tlalpan, Mexico City.",8,1,,57215197,1996-01-16,1996-01-16,ML
+1922 – 16 January 1996,CD NN CD NNP CD,YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER NUMERAL TIME TIME,time_range,"Enriqueta García Escoto (c. 1922 – 16 January 1996), known as María Enriqueta, was a Mexican bolero singer.",0,0,,57215197,1922-01-01,1996-01-16,LLM

@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1960 to 1982,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,She was a soloist of the Bolshoi Theater of USSR from 1960 to 1982.,1,0,,57750596,1960-01-01,1982-12-31,ML
+1969,CD,YEAR_REGEX_1,TIME,time_reference,"In 1969, she was awarded the People's Artist of the RSFSR.",2,0,,57750596,1969-01-01,1969-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"In 2002, she was awarded the Order of Honour for many years of fruitful activity in the field of culture and art.",0,1,,57750596,2002-01-01,2002-12-31,ML
+14 August 2018,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"She died on 14 August 2018, the day after her 92nd birthday, after a long serious illness.",1,1,,57750596,2018-08-14,2018-08-14,ML
+13 August 1926 – 14 August 2018,CD NNP CD NN CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"Valentina Nikolaevna Levko (Russian: Валенти́на Никола́евна Левко́; 13 August 1926 – 14 August 2018) was a Russian opera and chamber singer (contralto, mezzo-soprano), teacher, professor.",0,0,,57750596,1926-08-13,2018-08-14,LLM
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 2002, she was awarded the Order of Honour for many years of fruitful activity in the field of culture and art.",0,1,,57750596,,,ML
+the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"She died on 14 August 2018, the day after her 92nd birthday, after a long serious illness.",1,1,,57750596,,,ML

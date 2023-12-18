@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"She trained in Calgary and Austria and won the 3rd prize at the ARD International Music Competition, Munich, for duo with her brother Andrew Dawes in 1963.",2,0,,41138462,1963-01-01,1963-12-31,ML
+July 1973,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Marylou and Andrew played a concert for Queen Elizabeth II and The Duke of Edinburgh during their Royal visit to Regina in July 1973.,3,0,,41138462,1973-07-01,1973-07-31,ML
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"As well, Chatelaine Magazine did a feature on Marylou during their ""Women of Canada"" centennial series in 1967.",6,4,== Biography ==,41138462,1967-01-01,1967-12-31,ML
+1960 to 1974,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"She was married from 1960 to 1974, and had three children.",0,6,== Personal life ==,41138462,1960-01-01,1974-12-31,ML
+1980,CD,YEAR_REGEX_1,TIME,time_reference,Festival music for trumpet 1980,0,9,== Recordings ==,41138462,1980-01-01,1980-12-31,ML
+1981,CD,YEAR_REGEX_1,TIME,time_reference,Things the clouds tell me 1981,0,10,== Recordings ==,41138462,1981-01-01,1981-12-31,ML
+"January 6 , 2000","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Sonata for violin and piano January 6, 2000",0,11,== Recordings ==,41138462,2000-01-06,2000-01-06,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Beethoven Sonata op.27 2007,0,12,== Recordings ==,41138462,2007-01-01,2007-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,The Kabalevsky Preludes 2011,0,13,== Recordings ==,41138462,2011-01-01,2011-12-31,ML
+"June 14 , 1933 – October 22 , 2013","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Marylou Dawes (June 14, 1933 – October 22, 2013) or Mary Lou Dawes, was a Canadian concert pianist.",0,0,,41138462,1933-06-14,2013-10-22,LLM
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,After many years of studying and performing the chamber works of Beethoven written for piano and various instruments she had time to explore his vast repertoire for solo piano.,2,1,,41138462,,,ML
+the 1950s to 2011,DT CD TO CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"Dawes made many recordings from the 1950s to 2011, many on vinyl and recorded for CBC radio.",0,8,== Recordings ==,41138462,,,ML

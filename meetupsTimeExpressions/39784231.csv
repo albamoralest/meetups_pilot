@@ -1,0 +1,12 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"Jacqueline Richard (March 8, 1928 - August 2, 2015) was a Québécois Canadian pianist and conductor who is perhaps best known for resigning from the Order of Canada in 2009.",0,0,,39784231,2009-01-01,2009-12-31,ML
+"March 8 , 1928","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jacqueline Richard was born March 8, 1928 in Montreal.",0,2,== Biography ==,39784231,1928-03-08,1928-03-08,ML
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"In 1963, she founded the Boutique d'opéra.",1,3,== Biography ==,39784231,1963-01-01,1963-12-31,ML
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"In 1984, she co-founded the Atelier lyrique de l'Opéra de Montréal.",3,3,== Biography ==,39784231,1984-01-01,1984-12-31,ML
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"In 1985, she retired to coach singers privately.",0,4,== Biography ==,39784231,1985-01-01,1985-12-31,ML
+2 August 2015,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,She died on 2 August 2015 in Montreal.,0,5,== Biography ==,39784231,2015-08-02,2015-08-02,ML
+1953,CD,YEAR_REGEX_1,TIME,time_reference,Jacqueline Richard was awarded the Quebec Lieutenant-Governor's medal in 1953.,0,7,== Accolades ==,39784231,1953-01-01,1953-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,She was awarded the Order of Canada in 2004.,0,8,== Accolades ==,39784231,2004-01-01,2004-12-31,ML
+"March 8 , 1928 - August 2 , 2015","NNP CD , CD : NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Jacqueline Richard (March 8, 1928 - August 2, 2015) was a Québécois Canadian pianist and conductor who is perhaps best known for resigning from the Order of Canada in 2009.",0,0,,39784231,,,ML
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Richard performed with Jeunesses Musicales Canada, during the years of 1950-1951, 1954-1955, and every year between 1957-1961.",0,3,== Biography ==,39784231,,,ML
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"She presented 75 performances, in two years, of various operatic works including L'Oca del Cairo by Mozart.",2,3,== Biography ==,39784231,,,ML

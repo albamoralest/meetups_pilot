@@ -1,0 +1,5 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"May 24 , 1959","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ryo Okumoto (奥本亮, born May 24, 1959) is a Japanese rock keyboardist, best known for his work with progressive rock group Spock's Beard.",0,0,,1652820,1959-05-24,1959-05-24,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,He joined the band in 1996 and has been a member ever since.,1,0,,1652820,1996-01-01,1996-12-31,ML
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"For three weeks in 1998, Okumoto was a member of Eric Burdon & the New Animals, before being replaced by Martin Gerschwitz.",1,1,,1652820,1998-01-01,1998-12-31,ML
+three weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"For three weeks in 1998, Okumoto was a member of Eric Burdon & the New Animals, before being replaced by Martin Gerschwitz.",1,1,,1652820,1998-01-01,1998-01-21,LLM

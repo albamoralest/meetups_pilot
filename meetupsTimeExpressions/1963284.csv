@@ -1,0 +1,12 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1864,CD,YEAR_REGEX_1,TIME,time_reference,"Härma was born Miina Hermann in 1864 in Kõrveküla, Livonia, Russian Empire to a local teacher and his wife.",0,4,== Biography ==,1963284,1864-01-01,1864-12-31,ML
+1883,CD,YEAR_REGEX_1,TIME,time_reference,"In 1883, Härma entered the Saint Petersburg Conservatory as its only organ student that year.",2,5,== Biography ==,1963284,1883-01-01,1883-12-31,ML
+1890,CD,YEAR_REGEX_1,TIME,time_reference,"She graduated in 1890, but continued to live in Saint Petersburg because it was very hard to find work in the Baltic governorates.",3,5,== Biography ==,1963284,1890-01-01,1890-12-31,ML
+1894,CD,YEAR_REGEX_1,TIME,time_reference,"In 1894, the fifth Estonian Song Festival took place, which led to the formation of Härma's own choir.",4,5,== Biography ==,1963284,1894-01-01,1894-12-31,ML
+1903,CD,YEAR_REGEX_1,TIME,time_reference,"In 1903, as financial problems overwhelmed her, Härma moved to Kronstadt, Governorate of Saint Petersburg.",0,6,== Biography ==,1963284,1903-01-01,1903-12-31,ML
+1915,CD,YEAR_REGEX_1,TIME,time_reference,"She had to leave the city in 1915 because of the beginning of the First World War, as no civilians were allowed to stay there.",1,6,== Biography ==,1963284,1915-01-01,1915-12-31,ML
+1917,CD,YEAR_REGEX_1,TIME,time_reference,"In 1917, Härma became a music teacher in a school that is now the Miina Härma Gymnasium.",1,7,== Biography ==,1963284,1917-01-01,1917-12-31,ML
+"November 16 , 1941","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Härma died on November 16, 1941, in Tartu.",0,8,== Biography ==,1963284,1941-11-16,1941-11-16,ML
+9 February 1864 – 16 November 1941,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Miina Härma (born Miina Hermann; 9 February 1864 – 16 November 1941) was an Estonian composer.,0,0,,1963284,1864-02-09,1941-11-16,LLM
+that year,IN NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 1883, Härma entered the Saint Petersburg Conservatory as its only organ student that year.",2,5,== Biography ==,1963284,,,ML
+now,RB,TIMELINE_REGEX,TIME,time_reference,"In 1917, Härma became a music teacher in a school that is now the Miina Härma Gymnasium.",1,7,== Biography ==,1963284,,,ML

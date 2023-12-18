@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1927,CD,YEAR_REGEX_1,TIME,time_reference,"He was born Vernon Harrison in Rayville, Louisiana, and moved to Detroit in 1927.",0,2,== Biography ==,26151202,1927-01-01,1927-12-31,ML
+1974 and 1977,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He recorded his own albums in 1974 and 1977 and toured Europe in that decade.,3,2,== Biography ==,26151202,1974-01-01,1977-12-31,ML
+May 1973,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Red appeared on BBC Television's Old Grey Whistle Test in May 1973.,4,2,== Biography ==,26151202,1973-05-01,1973-05-31,ML
+July 1992,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He died in July 1992, at the age of 66, in Detroit.",5,2,== Biography ==,26151202,1992-07-01,1992-07-31,ML
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Live at the Blind Pig (1974), Blind Pig Records",0,4,== Discography ==,26151202,1974-01-01,1974-12-31,ML
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"Red Hot (1977), Blind Pig Records",0,5,== Discography ==,26151202,1977-01-01,1977-12-31,ML
+that decade,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,He recorded his own albums in 1974 and 1977 and toured Europe in that decade.,3,2,== Biography ==,26151202,1970-01-01,1979-12-31,LLM
+"October 18 , 1925 – July 2 , 1992","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Boogie Woogie Red (October 18, 1925 – July 2, 1992) was an American Detroit blues, boogie-woogie and jazz pianist, singer and songwriter.",0,0,,26151202,1925-10-18,1992-07-02,LLM

@@ -1,0 +1,15 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1969,CD,YEAR_REGEX_1,TIME,time_reference,She moved to London in 1969 to attend Webber-Douglas Academy of Dramatic Art.,2,2,== Biography ==,18021305,1969-01-01,1969-12-31,ML
+the 1970s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,She returned to New York City and took music lessons intermittently during the 1970s with Lennie Tristano and Warne Marsh.,3,2,== Biography ==,18021305,1970-01-01,1979-12-31,ML
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"In 1979 she met trumpet Manny Duran, who became her mentor.",4,2,== Biography ==,18021305,1979-01-01,1979-12-31,ML
+"May 9 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"White died from cancer on May 9, 2007 in New York.",6,2,== Biography ==,18021305,2007-05-09,2007-05-09,ML
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"Andruline with Manny Duran (Stash, 1984)",0,4,== Discography ==,18021305,1984-01-01,1984-12-31,ML
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Orient Express (Milestone, 1987)",0,5,== Discography ==,18021305,1987-01-01,1987-12-31,ML
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Mood Swings (Milestone, 1988)",0,6,== Discography ==,18021305,1988-01-01,1988-12-31,ML
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"Listen Here (Evidence, 1995)",0,7,== Discography ==,18021305,1995-01-01,1995-12-31,ML
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Live at Vartan Jazz (Vartan Jazz 1998),0,8,== Discography ==,18021305,1998-01-01,1998-12-31,ML
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"The Sweetest Sounds (DIW, 2000)",0,9,== Discography ==,18021305,2000-01-01,2000-12-31,ML
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"In Mexico (Jazz Cat, 2000)",0,10,== Discography ==,18021305,2000-01-01,2000-12-31,ML
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"A Voice in the Night (Bright Moon, 2006)",0,11,== Discography ==,18021305,2006-01-01,2006-12-31,ML
+"September 15 , 1951 – May 9 , 2007","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Carla Ruth White (September 15, 1951 – May 9, 2007) was an American jazz vocalist.",0,0,,18021305,1951-09-15,2007-05-09,LLM
+the Night,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,"A Voice in the Night (Bright Moon, 2006)",0,11,== Discography ==,18021305,,,ML

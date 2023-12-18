@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"June 4 , 1973","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Berry died of an overdose of heroin and cocaine on June 4, 1973, just a few months after Whitten met the same fate.",2,3,,13405210,1973-06-04,1973-06-04,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"McDonough, Jimmy (2002).",0,5,== References ==,13405210,2002-01-01,2002-12-31,ML
+"August 3 , 1950 – June 4 , 1973","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Bruce Anthony Berry (August 3, 1950 – June 4, 1973) was a professional roadie for the members of Crosby, Stills, Nash & Young, both as a group and individually.",0,0,,13405210,1950-08-03,1973-06-04,LLM
+Jan,NNP,MONTH_ABBR_REGEX,TIME,time_reference,His brother was Jan Berry of the musical duo Jan and Dean.,0,1,,13405210,,,ML
+now,RB,TIMELINE_REGEX,TIME,time_reference,Danny Whitten of Crazy Horse had introduced him to heroin and it now controlled his life.,1,3,,13405210,,,ML
+a few months,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Berry died of an overdose of heroin and cocaine on June 4, 1973, just a few months after Whitten met the same fate.",2,3,,13405210,,,ML
+Tonight,NNP,DAY_TIME_REGEX,TIME,time_reference,Berry's story was later used as the theme of the lyrics of the title track from Tonight's the Night by Neil Young.,3,3,,13405210,,,ML

@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2008,CD,YEAR_REGEX_1,TIME,time_reference,It was founded in 2008 by producers Mike Zaplatosch and Andy Garcia (formerly Zapp & Vice) and Billboard Reporting DJ Jeremy Martorano.,1,0,,25269177,2008-01-01,2008-12-31,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"Rihanna ""Breakin Dishes 2009"" (Island) PROMO #4 Billboard Club Chart",0,12,== Remixography == | === Released ===,25269177,2009-01-01,2009-12-31,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"Dare 2B Dif'rnt ""Running Up That Hill 2009 (Sirenia)",0,25,== Remixography == | === To be released ===,25269177,2009-01-01,2009-12-31,ML
+17 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Jeremy has been DJing for 17 years and retouches much of what he plays to give it a hi-NRG, ""hands in the air"" sound.",1,1,,25269177,2004-01-01,2021-01-01,LLM
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Georgie Porgie ""Brand New Day"" (Music Plant 8/09) #20 Billboard Club Chart",0,8,== Remixography == | === Released ===,25269177,,,ML
+Saturdays 2am,VBZ CD,WEEK_REGEX DIGIT_REGEX_1,TIME NUMERAL,,iPartyRadio.com / Saturdays 2am (Central),0,29,== Mixshows ==,25269177,,,ML
+Saturdays 8pm,VBZ CD,WEEK_REGEX DIGIT_REGEX_1,TIME NUMERAL,,iDanceRadio.fm / Saturdays 8pm (EST),0,30,== Mixshows ==,25269177,,,ML
+"Tues 8-10pm , Thur 11pm-1am , Sat 2-4pm","NNS CD , NNP CD , NNP CD",WEEK_ABBR_REGEX DIGIT_REGEX_1 COMMA_REGEX WEEK_ABBR_REGEX DIGIT_REGEX_1 COMMA_REGEX WEEK_ABBR_REGEX DIGIT_REGEX_1,TIME NUMERAL MODIFIER TIME NUMERAL MODIFIER TIME NUMERAL,time_reference,"Tues 8-10pm, Thur 11pm-1am, Sat 2-4pm (EST)",1,31,== Mixshows ==,25269177,,,ML
+Mondays 3pm,$ CD,WEEK_REGEX DIGIT_REGEX_1,TIME NUMERAL,,1Club.fm (Ibiza Channel) / Mondays 3pm,0,32,== Mixshows ==,25269177,,,ML
+Saturdays 7pm,NNP CD,WEEK_REGEX DIGIT_REGEX_1,TIME NUMERAL,time_reference,ZFM Australia/ Saturdays 7pm (AEST),0,33,== Mixshows ==,25269177,,,ML

@@ -1,0 +1,23 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"She moved to Philadelphia, Pennsylvania, in 2004.",2,0,,24464298,2004-01-01,2004-12-31,ML
+"September 15 , 2009","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"The single ""Supposed to Be"" from Every Second in Between was listed in USA Today's Playlist on September 15, 2009, by Steve Jones.",4,0,,24464298,2009-09-15,2009-09-15,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"She continued performing, building a following which eventually took her to recording her first CD, Laughed Last in 1994 on Palmetto Records.",7,1,,24464298,1994-01-01,1994-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"In 1994, Añel signed with Palmetto Records, which released her debut CD, Laughed Last.",0,3,== Recordings ==,24464298,1994-01-01,1994-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"In 2002, Añel recorded Hi-Octane Coffee, which was produced by J.B. Moore and featured Drew Zingg (Steely Dan, Alana Davis, Gladys Knight), Frank Vilardi (Donny Osmond, Jill Sobule, The Bacon Brothers), Seth Glassman (James Brown, Paul McCartney, Maceo Parker, Carol King) and Johnny Gale (co-producer Ryan Shaw ""This is Ryan Shaw"").",0,4,== Recordings ==,24464298,2002-01-01,2002-12-31,ML
+January 2007,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In January 2007, Añel released her third CD entitled Dream Again (Wall-I Records/Quarry Hill Studios).",0,5,== Recordings ==,24464298,2007-01-01,2007-01-31,ML
+"of September 15 , 2009","IN NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"USA Today 's music critic Steve Jones highlights Añel's song ""Supposed to Be"" as one of 10 interesting songs he found during the week of September 15, 2009.",1,7,== Recordings ==,24464298,2009-09-15,2009-09-15,ML
+"September 17 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On her sixth CD release I Can See Bliss From Here (Wall-I Records), released September 17, 2013, Añel donned yet another hat, as co-producer and teamed up with Dale Melton, a friend and fellow musician who'd played in her rhythm section for over a year.",0,8,== Recordings ==,24464298,2013-09-17,2013-09-17,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,1994: Laughed Last,0,10,== Discography ==,24464298,1994-01-01,1994-12-31,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,2001:,0,11,== Discography ==,24464298,2001-01-01,2001-12-31,ML
+2006,CD,YEAR_REGEX_1,TIME,time_reference,2006: Laughed Last (Reissue with bonus tracks) (Palmetto),0,12,== Discography ==,24464298,2006-01-01,2006-12-31,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007: Dream Again,0,13,== Discography ==,24464298,2007-01-01,2007-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,2008:,0,14,== Discography ==,24464298,2008-01-01,2008-12-31,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009:,0,15,== Discography ==,24464298,2009-01-01,2009-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013:,0,16,== Discography ==,24464298,2013-01-01,2013-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"2017: Another Place, Another Time",0,17,== Discography ==,24464298,2017-01-01,2017-12-31,ML
+2018,CD,YEAR_REGEX_1,TIME,time_reference,2018:,0,18,== Discography ==,24464298,2018-01-01,2018-12-31,ML
+Today,NNP,TIMELINE_REGEX,TIME,time_reference,"The single ""Supposed to Be"" from Every Second in Between was listed in USA Today's Playlist on September 15, 2009, by Steve Jones.",4,0,,24464298,,,ML
+one year,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,She later studied with legendary jazz singer Shelia Jordan for one year in her vocal performance workshop.,1,1,,24464298,,,ML
+nights,NNS,DAY_TIME_REGEX,TIME,time_reference,"During her time at Guitar Study Center, she attended open-mike nights in Greenwich Village.",5,1,,24464298,,,ML
+Today,NNP,TIMELINE_REGEX,TIME,time_reference,"USA Today 's music critic Steve Jones highlights Añel's song ""Supposed to Be"" as one of 10 interesting songs he found during the week of September 15, 2009.",1,7,== Recordings ==,24464298,,,ML
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"On her sixth CD release I Can See Bliss From Here (Wall-I Records), released September 17, 2013, Añel donned yet another hat, as co-producer and teamed up with Dale Melton, a friend and fellow musician who'd played in her rhythm section for over a year.",0,8,== Recordings ==,24464298,,,ML

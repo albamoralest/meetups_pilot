@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"April 15 , 1980","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jessica Riddle (born April 15, 1980, in Los Angeles, California) is an American singer-songwriter.",0,0,,4748002,1980-04-15,1980-04-15,ML
+Fall,NNP,SEASON_REGEX,TIME,time_reference,"Riddle attained minor fame with the hit ""Even Angels Fall"" on her debut album Key of a Minor, which was featured in the 1999 movie 10 Things I Hate about You and on its soundtrack.",1,0,,4748002,,,ML
+the 1999,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Riddle attained minor fame with the hit ""Even Angels Fall"" on her debut album Key of a Minor, which was featured in the 1999 movie 10 Things I Hate about You and on its soundtrack.",1,0,,4748002,1999-01-01,1999-12-31,ML
+Fall,NNP,SEASON_REGEX,TIME,time_reference,"""Even Angels Fall"" charted on the Billboard Adult Top 40 chart, topping out at No. 27 on April 8, 2000.",2,0,,4748002,,,ML
+"April 8 , 2000","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"""Even Angels Fall"" charted on the Billboard Adult Top 40 chart, topping out at No. 27 on April 8, 2000.",2,0,,4748002,2000-04-08,2000-04-08,ML
+12 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,It was on the chart for 12 weeks.,3,0,,4748002,,,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"In 2003, she released her second album, called Chapter 2.",1,2,,4748002,2003-01-01,2003-12-31,ML

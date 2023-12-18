@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1869,CD,YEAR_REGEX_1,TIME,time_reference,"He also tried as an actor, when in 1869 he successfully played the role of the playwright Jean de France.",1,1,,22022598,1869-01-01,1869-12-31,ML
+1917,CD,YEAR_REGEX_1,TIME,time_reference,In 1917 he became a Knight of the Dannebrog and in 1919 he published his memoirs.,6,2,,22022598,1917-01-01,1917-12-31,ML
+1919,CD,YEAR_REGEX_1,TIME,time_reference,In 1917 he became a Knight of the Dannebrog and in 1919 he published his memoirs.,6,2,,22022598,1919-01-01,1919-12-31,ML
+1932,CD,YEAR_REGEX_1,TIME,time_reference,He died in 1932.,0,3,,22022598,1932-01-01,1932-12-31,ML
+9 March 1847 - 11 February 1932,CD NNP CD : CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Axel Carl William Grandjean (9 March 1847 - 11 February 1932) was a Danish composer and conductor.,0,0,,22022598,1847-03-09,1932-02-11,LLM
+August,NNP,MONTH_REGEX,TIME,time_reference,"He was one of the first students at the Royal Danish Academy of Music with dignified teachers such  as Niels Gade, Johann Peter Emilius Hartmann, August Winding and Johann Christian Gebauer.",0,1,,22022598,,,ML
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,That same year he took on a study trip to Germany and Paris.,0,2,,22022598,,,ML
+now,RB,TIMELINE_REGEX,TIME,time_reference,After his return he worked as a music teacher and now as a conductor.,1,2,,22022598,,,ML
+1899-1918,JJ,YEAR_REGEX_1,TIME,time_reference,In 1899-1918 he was at the Danish Royal Theater.,2,2,,22022598,,,ML
+the 19th century,DT JJ NN,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"He also composed many songs and piano arrangements, including a 3 volume work of a variety of songs from the 19th century Vaudeville.",5,2,,22022598,,,ML

@@ -1,0 +1,5 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+15 June 1937,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Karl Leister (born 15 June 1937) is a classical clarinet player from Wilhelmshaven, Germany.",0,0,,8601641,1937-06-15,1937-06-15,ML
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"In 1959, Leister joined the Berlin Philharmonic Orchestra under the baton of Herbert von Karajan; this eminently productive musical association was to last for thirty years.",0,1,,8601641,1959-01-01,1959-12-31,ML
+thirty years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1959, Leister joined the Berlin Philharmonic Orchestra under the baton of Herbert von Karajan; this eminently productive musical association was to last for thirty years.",0,1,,8601641,,,ML
+1993 to 2002,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1993 to 2002, Leister held the position of Professor at the Hochschule für Musik ""Hanns Eisler"" in Berlin.",1,2,,8601641,1993-01-01,2002-12-31,ML

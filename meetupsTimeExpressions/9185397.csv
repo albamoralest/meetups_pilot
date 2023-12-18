@@ -1,0 +1,15 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"April 30 , 1958","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ronaldo Folegatti (April 30, 1958, Rio de Janeiro  – August 1, 2007, Teresópolis) was a Brazilian composer, guitarist, and record producer.",0,0,,9185397,1958-04-30,1958-04-30,ML
+"August 1 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ronaldo Folegatti (April 30, 1958, Rio de Janeiro  – August 1, 2007, Teresópolis) was a Brazilian composer, guitarist, and record producer.",0,0,,9185397,2007-08-01,2007-08-01,ML
+1990,CD,YEAR_REGEX_1,TIME,time_reference,"He released his first album, Sound of Watercolors, in Germany in 1990.",1,2,,9185397,1990-01-01,1990-12-31,ML
+1995,CD,YEAR_REGEX_1,TIME,time_reference,In 1995 he moved to Brazil.,4,2,,9185397,1995-01-01,1995-12-31,ML
+Five years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Five years later two more albums came out, Mazy Tales and Anjos & Estrellas.",5,2,,9185397,,,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"In 2005 he released Jamming!, with guest appearances by Randy Brecker, Will Lee, Joel Rosenblatt  Zé Canuto, Teo Lima, Marcelo Martins, and Ada Rovatti.",6,2,,9185397,2005-01-01,2005-12-31,ML
+the next two years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,During the next two years he was treated for cancer.,7,2,,9185397,,,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"He died in 2007, leaving four albums unfinished and unreleased.",8,2,,9185397,2007-01-01,2007-12-31,ML
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"Sounds of Watercolors (Blue Orchid, 1991)",0,4,== Discography ==,9185397,1991-01-01,1991-12-31,ML
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"Lust, Comics & Some Other Dreams (Blue Orchid, 1992)",0,5,== Discography ==,9185397,1992-01-01,1992-12-31,ML
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Mazy Tales (Folegatti, 2000)",0,6,== Discography ==,9185397,2000-01-01,2000-12-31,ML
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Anjos & Estrellas (Folegatti, 2000)",0,7,== Discography ==,9185397,2000-01-01,2000-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Histórias de Beijos (Folegatti, 2002)",0,8,== Discography ==,9185397,2002-01-01,2002-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Jamming! (Apria, 2005)",0,9,== Discography ==,9185397,2005-01-01,2005-12-31,ML

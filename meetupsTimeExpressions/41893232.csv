@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1987,CD,YEAR_REGEX_1,TIME,time_reference,"Wallace moved to Nashville in 1987, where he found work as a demo singer.",0,2,== Career ==,41893232,1987-01-01,1987-12-31,ML
+1993,CD,YEAR_REGEX_1,TIME,time_reference,He sang background vocals on Faith Hill's 1993 album Take Me as I Am and Ty Herndon's 1995 debut,1,2,== Career ==,41893232,1993-01-01,1993-12-31,ML
+1995,CD,YEAR_REGEX_1,TIME,time_reference,He sang background vocals on Faith Hill's 1993 album Take Me as I Am and Ty Herndon's 1995 debut,1,2,== Career ==,41893232,1995-01-01,1995-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"In 1994, Wallace signed to Columbia Records.",3,2,== Career ==,41893232,1994-01-01,1994-12-31,ML
+August 1995,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"His debut single, ""I'm Listening Now"", was released in August 1995.",4,2,== Career ==,41893232,1995-08-01,1995-08-31,ML
+"October 17 , 1995","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Columbia released Wallace's album, Bound and Determined, on October 17, 1995.",7,2,== Career ==,41893232,1995-10-17,1995-10-17,ML
+late March 2015,JJ NNP CD,PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER TIME TIME,time_reference,"He released an EP, It Must Be Love, independently in late March 2015.",2,0,,41893232,2015-03-20,2015-03-31,LLM
+Am,VBP,HALFDAY_REGEX_1,TIME,,He sang background vocals on Faith Hill's 1993 album Take Me as I Am and Ty Herndon's 1995 debut,1,2,== Career ==,41893232,,,ML
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"His debut single, ""I'm Listening Now"", was released in August 1995.",4,2,== Career ==,41893232,,,ML
+the following month,DT VBG NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"A second single, ""Left Hand of God"", was issued the following month.",8,2,== Career ==,41893232,,,ML

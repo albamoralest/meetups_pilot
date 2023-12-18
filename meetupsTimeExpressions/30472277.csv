@@ -1,0 +1,4 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"March 29 , 1947","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died in Tegucigalpa, Honduras on March 29, 1947.",5,0,,30472277,1947-03-29,1947-03-29,ML
+"February 8 , 1872 – March 29 , 1947","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Manuel de Adalid y Gamero (February 8, 1872 – March 29, 1947) was a Honduran composer.",0,0,,30472277,1872-02-08,1947-03-29,LLM
+today,NN,TIMELINE_REGEX,TIME,time_reference,"His papers, including much music in autograph score, may today be found at Tulane University.",4,0,,30472277,,,ML

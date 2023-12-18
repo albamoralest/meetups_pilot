@@ -1,0 +1,17 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"In 1960, the first professional band he played in was named The Bel-Airs and in late 1962 he co-founded The Challengers.",3,2,== Overview ==,60711492,1960-01-01,1960-12-31,ML
+late 1962,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In 1960, the first professional band he played in was named The Bel-Airs and in late 1962 he co-founded The Challengers.",3,2,== Overview ==,60711492,1962-01-01,1962-12-31,ML
+January 1963,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,They produced a smash hit album titled “Surfbeat” released in January 1963.,4,2,== Overview ==,60711492,1963-01-01,1963-01-31,ML
+"February 7 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Randy Nauert died on February 7, 2019, of a heart attack.",0,4,== Death and legacy ==,60711492,2019-02-07,2019-02-07,ML
+1963,CD,YEAR_REGEX_1,TIME,time_reference,The 6.25 Show 1963 TV,0,15,== Credits (incomplete) == | === TV and film ===,60711492,1963-01-01,1963-12-31,ML
+1963,CD,YEAR_REGEX_1,TIME,time_reference,Celebrity Party 1963 TV,0,16,== Credits (incomplete) == | === TV and film ===,60711492,1963-01-01,1963-12-31,ML
+1964,CD,YEAR_REGEX_1,TIME,time_reference,Thank Your Lucky Stars 1964 TV,0,17,== Credits (incomplete) == | === TV and film ===,60711492,1964-01-01,1964-12-31,ML
+1965,CD,YEAR_REGEX_1,TIME,time_reference,The Lloyd Thaxton Show 1965 TV,0,18,== Credits (incomplete) == | === TV and film ===,60711492,1965-01-01,1965-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,The Shack 2012 Film,0,21,== Credits (incomplete) == | === TV and film ===,60711492,2012-01-01,2012-12-31,ML
+2018,CD,YEAR_REGEX_1,TIME,time_reference,New Dimensions 2018 Film,0,22,== Credits (incomplete) == | === TV and film ===,60711492,2018-01-01,2018-12-31,ML
+"January 1 , 1945 – February 7 , 2019","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Randy Nauert (pronounced ""Nort"") (January 1, 1945 – February 7, 2019) was an American surf music and culture entrepreneur.",0,0,,60711492,1945-01-01,2019-02-07,LLM
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,He enjoyed surfing and playing his bass guitar in bands during his school years.,1,2,== Overview ==,60711492,,,ML
+the decades,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,Nauert continued in the music and film industry throughout the decades that followed.,10,2,== Overview ==,60711492,,,ML
+two months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He endured prolonged suffering from his fire recovery efforts in the area that he lived in for over two months prior to his death.,1,4,== Death and legacy ==,60711492,,,ML
+1965-1966,JJ,YEAR_REGEX_1,TIME,time_reference,Hollywood A Go Go 1965-1966 TV,0,19,== Credits (incomplete) == | === TV and film ===,60711492,,,ML
+1965-1966,JJ,YEAR_REGEX_1,TIME,time_reference,American Bandstand 1965-1966 TV,0,20,== Credits (incomplete) == | === TV and film ===,60711492,,,ML

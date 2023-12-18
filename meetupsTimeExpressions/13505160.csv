@@ -1,0 +1,21 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"July 21 , 1933","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bobby Hicks (born July 21, 1933) is a Grammy Award winning American bluegrass fiddler and a professional musician with more than fifty years of experience.",0,0,,13505160,1933-07-21,1933-07-21,ML
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"In 1953, he was, through the bluegrass festivals arranger Carlton Haney, hired as a bass player in Bill Monroe's Bluegrass Boys.",0,3,== Career ==,13505160,1953-01-01,1953-12-31,ML
+"December 31 , 1954","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He did not record with the Bluegrass Boys until December 31, 1954, by then he had switched to fiddle.",1,3,== Career ==,13505160,1954-12-31,1954-12-31,ML
+1956,CD,YEAR_REGEX_1,TIME,time_reference,He recorded seven tunes with Monroe but had to quit in 1956 to join the army.,4,3,== Career ==,13505160,1956-01-01,1956-12-31,ML
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"In 1958, after his discharge, he rejoined the Bluegrass Boys, recording ten more songs.",5,3,== Career ==,13505160,1958-01-01,1958-12-31,ML
+1959,CD,YEAR_REGEX_1,TIME,time_reference,He left in 1959 to join Porter Wagoner.,6,3,== Career ==,13505160,1959-01-01,1959-12-31,ML
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"Later in 1963, he moved to Las Vegas, Nevada and became a fixture on the Judy Lynn Show for the next seven years.",7,3,== Career ==,13505160,1963-01-01,1963-12-31,ML
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"In 1981, he joined Ricky Skaggs, a stint that would last for 23 years.",8,3,== Career ==,13505160,1981-01-01,1981-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"He was inducted into the ""Fiddlers Hall of Fame"" in 2002.",1,4,== Career ==,13505160,2002-01-01,2002-12-31,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"He appeared as a member of ""Jesse McReynolds and the Virginia Boys"" in 2003.",2,4,== Career ==,13505160,2003-01-01,2003-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"In 2004, he celebrated 50 years at the Grand Ole Opry.",0,5,== Career ==,13505160,2004-01-01,2004-12-31,ML
+1989,CD,YEAR_REGEX_1,TIME,time_reference,"Neil V. Rosenberg, Charles K. Wolfe, Bluegrass, Bill Monroe, Bear Family Publication, 1989.",0,7,== References ==,13505160,1989-01-01,1989-12-31,ML
+late 1980s,JJ NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the mid and late 1980s, he frequently performed with Bill Monroe on stage and on records.",0,4,== Career ==,13505160,1985-01-01,1989-12-31,LLM
+the early fifties,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DECADE_REGEX,MODIFIER MODIFIER TIME,time_reference,He joined Jim Eanes band in the early fifties.,2,2,== Career ==,13505160,1950-01-01,1959-12-31,LLM
+more than fifty years,JJR IN JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Bobby Hicks (born July 21, 1933) is a Grammy Award winning American bluegrass fiddler and a professional musician with more than fifty years of experience.",0,0,,13505160,,,ML
+9 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Hicks was born in Newton, North Carolina and learned to play the fiddle before he was 9 years old.",0,2,== Career ==,13505160,,,ML
+the next seven years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,"Later in 1963, he moved to Las Vegas, Nevada and became a fixture on the Judy Lynn Show for the next seven years.",7,3,== Career ==,13505160,,,ML
+23 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1981, he joined Ricky Skaggs, a stint that would last for 23 years.",8,3,== Career ==,13505160,,,ML
+The next year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The next year, he performed with ""Hazel Creek"".",3,4,== Career ==,13505160,,,ML
+50 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 2004, he celebrated 50 years at the Grand Ole Opry.",0,5,== Career ==,13505160,,,ML

@@ -1,0 +1,18 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"20 Dead Flower Children were an American metal band from Detroit, Michigan, which formed in 1994.",0,0,,63378008,1994-01-01,1994-12-31,ML
+1996–1997,CD,YEAR_REGEX_1,TIME,time_reference,"They released two records during 1996–1997, before breaking up in the early 2000s.",1,0,,63378008,1996-01-01,1997-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Formed during 1994, the band released their sef-titled debut 20",0,2,== History ==,63378008,1994-01-01,1994-12-31,ML
+February 1996,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Dead Flower Children through local label Overture Records in February 1996.,1,2,== History ==,63378008,1996-02-01,1996-02-29,ML
+"June 24 , 1997","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Their second album, titled Candy Toy Guns and Television, was released by the label on June 24, 1997.",4,2,== History ==,63378008,1997-06-24,1997-06-24,ML
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"In 1998, the band replaced their bassist and relocated to Huntington Beach, California.",5,2,== History ==,63378008,1998-01-01,1998-12-31,ML
+of 2000,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,The label would reissue Candy Toy Guns and Television on Halloween of 2000.,7,2,== History ==,63378008,2000-01-01,2000-12-31,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, 20 Dead Flower Children split up.",9,2,== History ==,63378008,2001-01-01,2001-12-31,ML
+"June 3 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On June 3, 2006, a one-off reunion show occurred at The Brigg in Huntington Beach.",10,2,== History ==,63378008,2006-06-03,2006-06-03,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,20 Dead Flower Children (1996),0,16,== Discography == | === Albums ===,63378008,1996-01-01,1996-12-31,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,Candy Toy Guns and Television (1997),0,17,== Discography == | === Albums ===,63378008,1997-01-01,1997-12-31,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"""Here I Am"" (1996)",0,19,== Discography == | === Singles ===,63378008,1996-01-01,1996-12-31,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Garage Demos (2001),0,21,== Discography == | === Demos ===,63378008,2001-01-01,2001-12-31,ML
+the early 2000s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"They released two records during 1996–1997, before breaking up in the early 2000s.",1,0,,63378008,,,ML
+future,NN,TIMELINE_REGEX,TIME,time_reference,"While his departure placed 20 Dead Flower Children's future in doubt, they would eventually find a new vocalist,  Dennis ""D-Hauz"" Hogan, and signed to rapper Esham's Overcore Records.",3,2,== History ==,63378008,,,ML
+Halloween,NNP,HOLIDAY_REGEX,TIME,time_reference,The label would reissue Candy Toy Guns and Television on Halloween of 2000.,7,2,== History ==,63378008,,,ML
+Am,VBP,HALFDAY_REGEX_1,TIME,,"""Here I Am"" (1996)",0,19,== Discography == | === Singles ===,63378008,,,ML

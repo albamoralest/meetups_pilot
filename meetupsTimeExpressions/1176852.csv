@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"May 21 , 1913","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Gina Bachauer (Greek: Τζίνα Μπαχάουερ; May 21, 1913, Athens – August 22, 1976, Athens), was a Greek classical pianist who toured extensively in the United States and Europe.",0,0,,1176852,1913-05-21,1913-05-21,ML
+"August 22 , 1976","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Gina Bachauer (Greek: Τζίνα Μπαχάουερ; May 21, 1913, Athens – August 22, 1976, Athens), was a Greek classical pianist who toured extensively in the United States and Europe.",0,0,,1176852,1976-08-22,1976-08-22,ML
+1929,CD,YEAR_REGEX_1,TIME,time_reference,She graduated from the Athens Conservatory in 1929.,3,1,,1176852,1929-01-01,1929-12-31,ML
+1932,CD,YEAR_REGEX_1,TIME,time_reference,"Her first concert with an orchestra was in 1932, when she was 19 years old.",0,2,,1176852,1932-01-01,1932-12-31,ML
+19 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Her first concert with an orchestra was in 1932, when she was 19 years old.",0,2,,1176852,,,ML
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"She died in 1976 of a heart attack at the Athens Festival, on the day she was to appear as soloist with the National Symphony Orchestra of Washington, D.C.",0,4,,1176852,1976-01-01,1976-12-31,ML
+the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"She died in 1976 of a heart attack at the Athens Festival, on the day she was to appear as soloist with the National Symphony Orchestra of Washington, D.C.",0,4,,1176852,,,ML
+1976,CD,YEAR_REGEX_1,TIME,time_reference,The Gina Bachauer International Piano Competition was established in 1976 in her honour.,0,6,== Legacy ==,1176852,1976-01-01,1976-12-31,ML
+each year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,It attracts young pianists from all over the world to Salt Lake City each year.,1,6,== Legacy ==,1176852,,,ML
+1981,CD,YEAR_REGEX_1,TIME,time_reference,In 1981 the Greek Post honored Bachauer by issuing a stamp in her honour.,0,7,== Legacy ==,1176852,1981-01-01,1981-12-31,ML

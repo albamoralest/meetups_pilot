@@ -1,0 +1,12 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2013,CD,YEAR_REGEX_1,TIME,time_reference,Shanga released her EP titled Embracing Vulnerability in 2013.,0,4,== Career ==,63649496,2013-01-01,2013-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"In 2014, she received good critique for her unique body of work and was praised on Swiss Der Bund newspaper for her artistic work and musical style.",1,4,== Career ==,63649496,2014-01-01,2014-12-31,ML
+2018 and 2019,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 2018 and 2019, she released Chuchichäschtli, Sweeter Than Wine and Show Me.",2,4,== Career ==,63649496,2018-01-01,2019-12-31,ML
+April 2020,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In April 2020, she released her first single titled Certified from her debut album Bold.",3,4,== Career ==,63649496,2020-04-01,2020-04-30,ML
+July 2020,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In July 2020, her second single Kelele was released.",5,4,== Career ==,63649496,2020-07-01,2020-07-31,ML
+7 August 2020,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,The song peaked at No.1 on iTunes Swiss Charts (7 August 2020) and No. 4 on Billboard Swiss Digital Sales Charts in the week of 15 August 2020.,6,4,== Career ==,63649496,2020-08-07,2020-08-07,ML
+the week,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,The song peaked at No.1 on iTunes Swiss Charts (7 August 2020) and No. 4 on Billboard Swiss Digital Sales Charts in the week of 15 August 2020.,6,4,== Career ==,63649496,,,ML
+of 15 August 2020,IN CD NNP CD,PREFIX_REGEX_1 DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER NUMERAL TIME TIME,time_reference,The song peaked at No.1 on iTunes Swiss Charts (7 August 2020) and No. 4 on Billboard Swiss Digital Sales Charts in the week of 15 August 2020.,6,4,== Career ==,63649496,,,ML
+October 2020,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In October 2020, Shanga released her debut album Bold.",0,5,== Career ==,63649496,2020-10-01,2020-10-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,Embracing Vulnerability (2013),0,8,== Discography == | === EP ===,63649496,2013-01-01,2013-12-31,ML
+2020,CD,YEAR_REGEX_1,TIME,time_reference,Bold (2020),0,10,== Discography == | === Album ===,63649496,2020-01-01,2020-12-31,ML

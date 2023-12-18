@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2017,CD,YEAR_REGEX_1,TIME,time_reference,He appeared on the second season of the Seeso streaming series The Guest List in 2017.,7,3,== Career ==,63779120,2017-01-01,2017-12-31,ML
+2011 to 2014,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 2011 to 2014, he co-hosted the podcast Delicious Mediocrity with fellow Seattle comic Douglas Gale.",8,3,== Career ==,63779120,2011-01-01,2014-12-31,ML
+"April 24 , 2020","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"""Sheen's newest album, Macho Caballero, was released April 24, 2020, on Stand Up!",11,3,== Career ==,63779120,2020-04-24,2020-04-24,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Holy Drivel (Rooftop Comedy, 2012; re-released  on Stand Up!",0,5,== Discography ==,63779120,2012-01-01,2012-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Records, 2017)",1,5,== Discography ==,63779120,2017-01-01,2017-12-31,ML
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"Records, 2016)",1,6,== Discography ==,63779120,2016-01-01,2016-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"Records, 2017)",1,7,== Discography ==,63779120,2017-01-01,2017-12-31,ML
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"Records, 2020)",1,8,== Discography ==,63779120,2020-01-01,2020-12-31,ML
+15 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He played music professionally for 15 years before returning to standup at age 35.,3,3,== Career ==,63779120,2000-01-01,2015-12-31,LLM
+recently 2020,RB CD,TIMELINE_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Records, most recently 2020's Macho Caballero.",2,0,,63779120,,,ML

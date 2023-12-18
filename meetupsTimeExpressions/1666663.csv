@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"March 21 , 1945","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Rose Stone (born Rosemary Stewart, March 21, 1945, Dallas, Texas) is an American singer and keyboardist.",0,0,,1666663,1945-03-21,1945-03-21,ML
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"After the band's dissolution in 1975, ""Sister Rose"" (as she was also known) married Sly Stone's former manager/co-producer, Bubba Banks.",0,1,,1666663,1975-01-01,1975-12-31,ML
+1983,CD,YEAR_REGEX_1,TIME,time_reference,"She returned to her gospel roots in 1983 when she sang on Sandra Crouch's Grammy Award-winning album We Sing Praises, soloing on the old hymn ""Power in the Blood"".",2,2,,1666663,1983-01-01,1983-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"She also sang backing vocals on the gospel-influenced tracks ""You R Loved"" and ""Get Away"" from Victoria Williams' 1994 album Loose.",4,2,,1666663,1994-01-01,1994-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Also in 1994, she sang backing vocals on two songs on psychedelic rock band Phish's fifth album Hoist.",5,2,,1666663,1994-01-01,1994-12-31,ML
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"In 2006, Stone reunited with the original Family Stone.",10,2,,1666663,2006-01-01,2006-12-31,ML
+2011 and 2012,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 2011 and 2012, Stone and her daughter Lisa toured with Elton John as members of his vocal backing group.",11,2,,1666663,2011-01-01,2012-12-31,ML
+1976,CD,YEAR_REGEX_1,TIME,time_reference,Rose (1976),0,5,== Discography ==,1666663,1976-01-01,1976-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,Already Motivated (2008),0,6,== Discography ==,1666663,2008-01-01,2008-12-31,ML
+the 1980s and 1990s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"During the 1980s and 1990s, Stone worked as a backing session singer, appearing on recordings by Michael Jackson, Phish, Ringo Starr, Reef and Bobbysocks!.",0,2,,1666663,1980-01-01,1999-12-31,LLM
+today,NN,TIMELINE_REGEX,TIME,time_reference,Stone is today part of the musical department at her brother Freddie's church.,1,2,,1666663,,,ML
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,She has been associated with the Crouch family and the music department of Christ Memorial COGIC in California for many years.,3,2,,1666663,,,ML

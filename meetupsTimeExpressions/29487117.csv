@@ -1,0 +1,15 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1824,CD,YEAR_REGEX_1,TIME,time_reference,"Jane Savage (born 1752/1753, died 1824) was an English harpsichordist and composer.",0,0,,29487117,1824-01-01,1824-12-31,ML
+1720–1789,CD,YEAR_REGEX_1,TIME,time_reference,She was the daughter of English musician and composer William Savage (c. 1720–1789) and his wife Mary Bolt Savage.,1,0,,29487117,1720-01-01,1789-12-31,ML
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"In 2020, Hymn for Christmas Day, an anthem setting the text ""While shepherds watched their flocks by night"", composed in around 1785 and performed by the Asylum for Female Orphans in London, was rediscovered and published by the Church Music Society.",7,0,,29487117,2020-01-01,2020-12-31,ML
+around 1785,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In 2020, Hymn for Christmas Day, an anthem setting the text ""While shepherds watched their flocks by night"", composed in around 1785 and performed by the Asylum for Female Orphans in London, was rediscovered and published by the Church Music Society.",7,0,,29487117,1785-01-01,1785-12-31,ML
+about 1790,RB CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"After her father and mother died, Savage married merchant R. Rolleston in about 1790.",9,0,,29487117,1790-01-01,1790-12-31,ML
+1783,CD,YEAR_REGEX_1,TIME,time_reference,Six Sonatas for Harpsichord or Piano (1783),0,3,== Works ==,29487117,1783-01-01,1783-12-31,ML
+1786,CD,YEAR_REGEX_1,TIME,time_reference,"Six Rondos for the Harpsichord or Pianoforte, Opus 3 (1786)",0,4,== Works ==,29487117,1786-01-01,1786-12-31,ML
+1786,CD,YEAR_REGEX_1,TIME,time_reference,"Strephan and Flavia, A Favourite Cantata (voice and keyboard instrument) (1786)",0,5,== Works ==,29487117,1786-01-01,1786-12-31,ML
+1789,CD,YEAR_REGEX_1,TIME,time_reference,A Favourite Duet (keyboard) (1789),0,6,== Works ==,29487117,1789-01-01,1789-12-31,ML
+1789,CD,YEAR_REGEX_1,TIME,time_reference,Two Duets for Voices (1789),0,7,== Works ==,29487117,1789-01-01,1789-12-31,ML
+1789,CD,YEAR_REGEX_1,TIME,time_reference,"God Save the King, adapted as a Double Lesson (keyboard) (1789)",0,8,== Works ==,29487117,1789-01-01,1789-12-31,ML
+1780 or 1781,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"It is likely that Jane Savage accompanied her father from his estate near Tenterden in Kent to London in 1780 or 1781 and lived in Red Lion Square, Holborn.",2,0,,29487117,1780-01-01,1781-12-31,LLM
+1752/1753,CD,YEAR_REGEX_1,TIME,time_reference,"Jane Savage (born 1752/1753, died 1824) was an English harpsichordist and composer.",0,0,,29487117,,,ML
+Christmas Day,NNP NNP,HOLIDAY_REGEX TIME_UNIT_REGEX,TIME TIME,time_reference,"In 2020, Hymn for Christmas Day, an anthem setting the text ""While shepherds watched their flocks by night"", composed in around 1785 and performed by the Asylum for Female Orphans in London, was rediscovered and published by the Church Music Society.",7,0,,29487117,,,ML

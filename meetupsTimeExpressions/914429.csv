@@ -1,0 +1,12 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1970,CD,YEAR_REGEX_1,TIME,time_reference,1970:,0,12,== Discography == | === Collaborations ===,914429,1970-01-01,1970-12-31,ML
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991:,0,13,== Discography == | === Collaborations ===,914429,1991-01-01,1991-12-31,ML
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Stan GetzImported from Europe (Verve, 1958)",2,13,== Discography == | === Collaborations ===,914429,1958-01-01,1958-12-31,ML
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"Stan Getz at Large (Verve, 1960)",0,14,== Discography == | === Collaborations ===,914429,1960-01-01,1960-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011:,0,15,== Discography == | === Collaborations ===,914429,2011-01-01,2011-12-31,ML
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"My Little Cello (Debut, 1960)",0,16,== Discography == | === Collaborations ===,914429,1960-01-01,1960-12-31,ML
+"November 1968 , Jan","NNP CD , NNP",MONTH_REGEX YEAR_REGEX_1 COMMA_REGEX MONTH_ABBR_REGEX,TIME TIME MODIFIER TIME,time_reference,"In November 1968, Jan Johansson died in a car crash on his way to a concert in a church in Jönköping, Sweden.",2,5,== Biography ==,914429,1968-11-01,1968-11-30,LLM
+Jan,NNP,MONTH_ABBR_REGEX,TIME,time_reference,Jan Johansson (16 September 1931 – 9 November 1968) was a Swedish jazz pianist.,0,0,,914429,1931-09-16,1968-11-09,LLM
+a quarter,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,His album Jazz på svenska (Jazz in Swedish) is the best selling jazz release ever in Sweden; it has sold over a quarter of a million copies and has been streamed more than 10 million times on Spotify.,1,0,,914429,,,ML
+The years 1961 to 1968,DT NNS CD TO CD,PREFIX_REGEX_1 TIME_UNIT_REGEX YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME TIME MODIFIER TIME,time_reference,"The years 1961 to 1968, produced a string of classic albums, which would help define his style of re-imagining traditional European folk tunes via jazz and the avant garde.",0,3,== Biography ==,914429,,,ML
+four centuries,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"The Grammy award winning albums Musik genom fyra sekler (Music from the past four centuries) builds on traditional Swedish melodies, but this time uses larger groups of musicians.",0,4,== Biography ==,914429,,,ML

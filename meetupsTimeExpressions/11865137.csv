@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1886,CD,YEAR_REGEX_1,TIME,time_reference,"In 1886, Benedicts married fellow Dutch musician Henri Bosmans (1856-1896), principal cellist of the Royal Concertgebouw Orchestra.",3,1,,11865137,1886-01-01,1886-12-31,ML
+1895,CD,YEAR_REGEX_1,TIME,time_reference,"Their daughter, composer Henriëtte Bosmans, was born in 1895, six months before Bosmans died.",4,1,,11865137,1895-01-01,1895-12-31,ML
+1944,CD,YEAR_REGEX_1,TIME,time_reference,"Benedicts, in her eighties, was arrested and deported by the Nazi occupation in 1944, but her daughter and others intervened to prevent her further detention.",8,1,,11865137,1944-01-01,1944-12-31,ML
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"Sara Bosmans-Benedicts died in 1949, and her grave is in Zorgvlied Cemetery in Amsterdam.",10,1,,11865137,1949-01-01,1949-12-31,ML
+23 October 1861 – 12 November 1949,CD NNP CD VBD CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Sara Bosmans-Benedicts (23 October 1861 – 12 November 1949) was a Dutch pianist and piano pedagogue.,0,0,,11865137,1861-10-23,1949-11-12,LLM
+1856-1896,JJ,YEAR_REGEX_1,TIME,time_reference,"In 1886, Benedicts married fellow Dutch musician Henri Bosmans (1856-1896), principal cellist of the Royal Concertgebouw Orchestra.",3,1,,11865137,,,ML
+six months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Their daughter, composer Henriëtte Bosmans, was born in 1895, six months before Bosmans died.",4,1,,11865137,,,ML
+thirties,NNS,DECADE_REGEX,TIME,time_reference,"Widowed in her thirties, with a young child to raise, Sarah Benedicts taught at the Conservatoire of Amsterdam.",5,1,,11865137,,,ML

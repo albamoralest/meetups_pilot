@@ -1,0 +1,17 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1811–1888,CD,YEAR_REGEX_1,TIME,time_reference,Childe Seguin (1811–1888) was a British and American opera singer who was part of the Seguin Troupe in America.,1,0,,46705869,1811-01-01,1888-12-31,ML
+20 April 1811,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Ann Childe was born in London on 20 April 1811.,0,2,== Life ==,46705869,1811-04-20,1811-04-20,ML
+1830,CD,YEAR_REGEX_1,TIME,time_reference,Childe was taking the lead in as Catherine in Lord Burghersh's opera of the same name in 1830.,4,2,== Life ==,46705869,1830-01-01,1830-12-31,ML
+1809–1852,CD,YEAR_REGEX_1,TIME,time_reference,"Her future husband, Arthur Seguin (1809–1852) sang in support as Ismael.",5,2,== Life ==,46705869,1809-01-01,1852-12-31,ML
+1834,CD,YEAR_REGEX_1,TIME,time_reference,They were married in 1834 which was the same year as she sang at the Westminster Abbey festival.,6,2,== Life ==,46705869,1834-01-01,1834-12-31,ML
+1839,CD,YEAR_REGEX_1,TIME,time_reference,Her début was in the Barber of Seville at the National Theatre in New York in 1839.,1,3,== Life ==,46705869,1839-01-01,1839-12-31,ML
+1839,CD,YEAR_REGEX_1,TIME,time_reference,Their troupe visited both Montreal and Toronto in Canada with W. H. Latham of the Theatre Royal in Drury Lane starting in 1839 and continuing over the next ten years.,4,3,== Life ==,46705869,1839-01-01,1839-12-31,ML
+1867,CD,YEAR_REGEX_1,TIME,time_reference,They married in 1867 and had a son before Edward died in 1879.,13,3,== Life ==,46705869,1867-01-01,1867-12-31,ML
+1879,CD,YEAR_REGEX_1,TIME,time_reference,They married in 1867 and had a son before Edward died in 1879.,13,3,== Life ==,46705869,1879-01-01,1879-12-31,ML
+1852,CD,YEAR_REGEX_1,TIME,time_reference,Seguin made her last appearance in an opera in 1852 at the Broadway Theatre in New York.,15,3,== Life ==,46705869,1852-01-01,1852-12-31,ML
+August 1888,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,She died in New York in August 1888.,17,3,== Life ==,46705869,1888-08-01,1888-08-31,ML
+the late 1840s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,The Seguin operatic troupe which had initially consisted of four to six singers went out of fashion in the late 1840s when audiences wanted their operas not in English but in the original language.,14,3,== Life ==,46705869,1845-01-01,1850-12-31,LLM
+future,NN,TIMELINE_REGEX,TIME,time_reference,"Her future husband, Arthur Seguin (1809–1852) sang in support as Ismael.",5,2,== Life ==,46705869,,,ML
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,They were married in 1834 which was the same year as she sang at the Westminster Abbey festival.,6,2,== Life ==,46705869,,,ML
+the following year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Her début at Covent Garden was playing Marcellina in Fidelio the following year.,7,2,== Life ==,46705869,,,ML
+the next ten years,DT JJ NN NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,Their troupe visited both Montreal and Toronto in Canada with W. H. Latham of the Theatre Royal in Drury Lane starting in 1839 and continuing over the next ten years.,4,3,== Life ==,46705869,,,ML

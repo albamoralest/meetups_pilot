@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"October 18 , 1907","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"George Washington (born October 18, 1907) was an American jazz trombonist.",0,0,,16553939,1907-10-18,1907-10-18,ML
+1925,CD,YEAR_REGEX_1,TIME,time_reference,He relocated to Philadelphia in 1925 and played with J.W. Pepper before moving to New York City shortly thereafter.,2,1,,16553939,1925-01-01,1925-12-31,ML
+1931,CD,YEAR_REGEX_1,TIME,time_reference,"In 1931, he began playing with Don Redman, and gigged with Benny Carter in 1932 and Spike Hughes in 1933.",4,1,,16553939,1931-01-01,1931-12-31,ML
+1932,CD,YEAR_REGEX_1,TIME,time_reference,"In 1931, he began playing with Don Redman, and gigged with Benny Carter in 1932 and Spike Hughes in 1933.",4,1,,16553939,1932-01-01,1932-12-31,ML
+1933,CD,YEAR_REGEX_1,TIME,time_reference,"In 1931, he began playing with Don Redman, and gigged with Benny Carter in 1932 and Spike Hughes in 1933.",4,1,,16553939,1933-01-01,1933-12-31,ML
+1937 to 1943,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1937 to 1943, he played in Louis Armstrong's orchestra.",6,1,,16553939,1937-01-01,1943-12-31,ML
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"From 1947 he led his own ensemble, playing in California and the Las Vegas Strip.",8,1,,16553939,1947-01-01,1947-12-31,ML
+1960,CD,YEAR_REGEX_1,TIME,time_reference,"He and drummer Johnny Otis collaborated often, and in 1960 Washington worked with Joe Darensbourg.",9,1,,16553939,1960-01-01,1960-12-31,ML
+late 1930s,JJ NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"While not a path-breaking major figure, Washington was a consistently inventive soloist whose fine work can be heard not only with the Blue Rhythm Band but with Armstrong's late 1930s' band and Count Basie.",1,2,,16553939,1937-01-01,1939-12-31,LLM
+the late 1920s,DT JJ NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"In New York, Washington studied under Walter Damrosch at the New York Conservatory, playing with various ensembles in the late 1920s.",3,1,,16553939,1927-01-01,1929-12-31,LLM
+the early 1920s,DT JJ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER TIME,time_reference,"He began playing trombone at age ten, and attended Edward Waters College in the early 1920s.",1,1,,16553939,,,ML
+Midnight,NNP,DAY_TIME_REGEX,TIME,time_reference,"The range of his talent can be assessed on, for example, Kokey Joe (hot and growly, rangey) or Harlem After Midnight.",2,2,,16553939,,,ML

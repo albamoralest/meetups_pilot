@@ -1,0 +1,18 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"Abe dropped out of highschool in 1967, at 17 years of age, to focus on perfecting his playing, and in 1968, he did his first performance, at a jazz spot named Oreo.",0,2,== Personal life ==,9364697,1967-01-01,1967-12-31,ML
+1968,CD,YEAR_REGEX_1,TIME,time_reference,"Abe dropped out of highschool in 1967, at 17 years of age, to focus on perfecting his playing, and in 1968, he did his first performance, at a jazz spot named Oreo.",0,2,== Personal life ==,9364697,1968-01-01,1968-12-31,ML
+1970,CD,YEAR_REGEX_1,TIME,time_reference,"In 1970, he met Masayuki Takayanagi.",1,2,== Personal life ==,9364697,1970-01-01,1970-12-31,ML
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"in 1971, he met Izumi Suzuki, and in 1973, they married.",2,2,== Personal life ==,9364697,1971-01-01,1971-12-31,ML
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"in 1971, he met Izumi Suzuki, and in 1973, they married.",2,2,== Personal life ==,9364697,1973-01-01,1973-12-31,ML
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976, they had a daughter.",3,2,== Personal life ==,9364697,1976-01-01,1976-12-31,ML
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"However, in 1977, they divorced.",4,2,== Personal life ==,9364697,1977-01-01,1977-12-31,ML
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Abe died from Bromisoval overdose in 1978, causing an acute gastric perforation.",0,7,== Death ==,9364697,1978-01-01,1978-12-31,ML
+march 1980,NN CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Abe Kaoru march 1980.,1,9,== References ==,9364697,1980-03-01,1980-03-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"Tokyo: Bunyusha, 1994 (Japanese)",2,9,== References ==,9364697,1994-01-01,1994-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Tokyo: Seidosha, 2002 (Japanese)",2,10,== References ==,9364697,2002-01-01,2002-12-31,ML
+1976-1978,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976-1978 to be specific, were his years of most exploration.",1,5,== Career ==,9364697,1976-01-01,1978-12-31,LLM
+1970-1971,JJ,YEAR_REGEX_1,TIME,time_reference,"However, there have been instances of him playing harmonica in 1970-1971.",2,5,== Career ==,9364697,1970-01-01,1971-12-31,LLM
+"May 5 , 1949 – September 9 , 1978","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Kaoru Abe (阿部 薫, Abe Kaoru) (May 5, 1949 – September 9, 1978) was a Japanese avant-garde alto saxophonist.",0,0,,9364697,1949-05-05,1978-09-09,LLM
+17 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Abe dropped out of highschool in 1967, at 17 years of age, to focus on perfecting his playing, and in 1968, he did his first performance, at a jazz spot named Oreo.",0,2,== Personal life ==,9364697,,,ML
+almost every day,RB DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Abe was prolific, appearing almost every day to jazz spots and concerts.",0,4,== Career ==,9364697,,,ML
+later years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In his later years, Abe would begin playing different instruments.",0,5,== Career ==,9364697,,,ML

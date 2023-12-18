@@ -1,0 +1,30 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"March 29 , 1979","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Loney Dear is the pseudonym of Swedish singer-songwriter and multi-instrumentalist Emil Svanängen (born March 29, 1979).",0,0,,9094387,1979-03-29,1979-03-29,ML
+"February , 2007","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"His first major release came in February, 2007 in the U.S. when Sub Pop re-issued his album Loney, Noir.",2,0,,9094387,2007-02-16,2007-02-16,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Emil Svanängen self-released his first album, The Year of River Fontana, in 2003.",0,2,== History ==,9094387,2003-01-01,2003-12-31,ML
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"Loney, Dear appeared on the song ""This Boy"" from I'm From Barcelona's 2006 album Let Me Introduce My Friends.",4,2,== History ==,9094387,2006-01-01,2006-12-31,ML
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"In 2006, Loney, Dear was signed by U.S. record label Sub Pop.",0,3,== History ==,9094387,2006-01-01,2006-12-31,ML
+"February 6 , 2007","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Sub Pop released Loney, Dear's fourth album, Loney, Noir, on February 6, 2007.",1,3,== History ==,9094387,2007-02-06,2007-02-06,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"In 2009, Loney, Dear joined Andrew Bird as he toured to support Bird's January release of Noble Beast.",0,4,== History ==,9094387,2009-01-01,2009-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"In 2017, Svanängen was signed to Peter Gabriel's Real World Records.",1,5,== History ==,9094387,2017-01-01,2017-12-31,ML
+2021,CD,YEAR_REGEX_1,TIME,time_reference,"In 2021, Loney Dear released the album 'A Lantern and a Bell' on Real World Records.",0,6,== History ==,9094387,2021-01-01,2021-12-31,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"The Year of River Fontana (2003, self-released)",0,9,== Discography == | === Albums ===,9094387,2003-01-01,2003-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Citadel Band (2004, self-released)",0,10,== Discography == | === Albums ===,9094387,2004-01-01,2004-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"Loney, Noir (2005, self-released)",0,11,== Discography == | === Albums ===,9094387,2005-01-01,2005-12-31,ML
+2006,CD,YEAR_REGEX_1,TIME,time_reference,"Sologne (2006, self-released, Something in Construction (SICNOTE 025))",0,12,== Discography == | === Albums ===,9094387,2006-01-01,2006-12-31,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"Loney, Noir (re-issue) (2007, Sub Pop USA/Australia/New Zealand.",0,13,== Discography == | === Albums ===,9094387,2007-01-01,2007-12-31,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"Dear John (2009, Polyvinyl Record Co.)",0,14,== Discography == | === Albums ===,9094387,2009-01-01,2009-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Hall Music (2011 Polyvinyl Record Co.),0,15,== Discography == | === Albums ===,9094387,2011-01-01,2011-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,Loney Dear (2017 Real World Records),0,16,== Discography == | === Albums ===,9094387,2017-01-01,2017-12-31,ML
+2021,CD,YEAR_REGEX_1,TIME,time_reference,A Lantern and a Bell (2021 Real World Records),0,17,== Discography == | === Albums ===,9094387,2021-01-01,2021-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"""Hulls"" (2017, Real World Records)",0,19,== Discography == | === Singles ===,9094387,2017-01-01,2017-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"""Sum"" (2017, Real World Records)",0,20,== Discography == | === Singles ===,9094387,2017-01-01,2017-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"""December Lilies"" (2017 Woah Dad!)",0,21,== Discography == | === Singles ===,9094387,2017-01-01,2017-12-31,ML
+The Year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Emil Svanängen self-released his first album, The Year of River Fontana, in 2003.",0,2,== History ==,9094387,,,ML
+The next two years,DT JJ CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,The next two years saw Svanängen record and release three more albums.,3,2,== History ==,9094387,,,ML
+January,NNP,MONTH_REGEX,TIME,time_reference,"In 2009, Loney, Dear joined Andrew Bird as he toured to support Bird's January release of Noble Beast.",0,4,== History ==,9094387,,,ML
+of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,His album Loney dear was nominated for IMPALA's European Album of the Year Award.,0,5,== History ==,9094387,,,ML
+am,VBP,HALFDAY_REGEX_1,TIME,,"“I am delighted that we are able to work with Loney dear, who I heard Jennie Abrahamson playing while we were on tour.",2,5,== History ==,9094387,,,ML
+September,NNP,MONTH_REGEX,TIME,time_reference,A self-titled album was released in September of that year.,5,5,== History ==,9094387,,,ML
+The Year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"The Year of River Fontana (2003, self-released)",0,9,== Discography == | === Albums ===,9094387,,,ML
+December,NNP,MONTH_REGEX,TIME,time_reference,"""December Lilies"" (2017 Woah Dad!)",0,21,== Discography == | === Singles ===,9094387,,,ML

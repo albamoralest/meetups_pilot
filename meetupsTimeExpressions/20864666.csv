@@ -1,0 +1,21 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1887,CD,YEAR_REGEX_1,TIME,time_reference,"Laurence Rex D'Orsay was born Leopold Alexander Thalmayer in Vienna, Austria, in 1887, the son of an Austrian father and an English mother.",0,1,,20864666,1887-01-01,1887-12-31,ML
+1916,CD,YEAR_REGEX_1,TIME,time_reference,"He arrived in the US in 1916, where he changed his name to Laurence Thalmore.",1,1,,20864666,1916-01-01,1916-12-31,ML
+1902–1969,CD,YEAR_REGEX_1,TIME,time_reference,"Laurence D'Orsay was married to Nordica Abbott (1902–1969); they had a son, Kenneth Edward D'Orsay (1923–1972).",0,2,,20864666,1902-01-01,1969-12-31,ML
+1923–1972,CD,YEAR_REGEX_1,TIME,time_reference,"Laurence D'Orsay was married to Nordica Abbott (1902–1969); they had a son, Kenneth Edward D'Orsay (1923–1972).",0,2,,20864666,1923-01-01,1972-12-31,ML
+1947,CD,YEAR_REGEX_1,TIME,time_reference,He died in Los Angeles in 1947.,1,2,,20864666,1947-01-01,1947-12-31,ML
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"Kansas City, MO: Burton Publishing Co., 1928.",1,6,== Partial bibliography ==,20864666,1928-01-01,1928-12-31,ML
+1930,CD,YEAR_REGEX_1,TIME,time_reference,"Cincinnati, OH, 1930.",1,7,== Partial bibliography ==,20864666,1930-01-01,1930-12-31,ML
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"Los Angeles, CA: Parker, Stone & Baird Co., 1934 (several editions).",1,8,== Partial bibliography ==,20864666,1934-01-01,1934-12-31,ML
+1935,CD,YEAR_REGEX_1,TIME,time_reference,"Los Angeles, Parker, Stone & Baird Co., 1935 (several editions).",1,9,== Partial bibliography ==,20864666,1935-01-01,1935-12-31,ML
+January 1925,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"""Phantoms"", in: Weird Tales, January 1925.",0,10,== Partial bibliography ==,20864666,1925-01-01,1925-01-31,ML
+25 January 1925,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"""The Spirit of It"", in: Short Stories, 25 January 1925.",0,11,== Partial bibliography ==,20864666,1925-01-25,1925-01-25,ML
+"June , 1925","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"""Marble"", in: Weird Tales, June, 1925.",0,12,== Partial bibliography ==,20864666,1925-06-16,1925-06-16,ML
+October 1926,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"""The Stamp of Courtesy"", in: Clues, October 1926.",0,13,== Partial bibliography ==,20864666,1926-10-01,1926-10-31,ML
+"December , 1926","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"""Jewels for Two"" (with F. L. Grant), in: Clues, December, 1926.",0,14,== Partial bibliography ==,20864666,1926-12-16,1926-12-16,ML
+"May , 1932","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"""The Price of Empire"", in: Soldiers of Fortune, May, 1932.",0,15,== Partial bibliography ==,20864666,1932-05-16,1932-05-16,ML
+1930,CD,YEAR_REGEX_1,TIME,time_reference,"Kansas City, MO: Burton, 1930.",1,16,== Partial bibliography ==,20864666,1930-01-01,1930-12-31,ML
+Monthly,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Since the mid-1920s he published his fiction and non-fiction in diverse magazines under the pen name Laurence R. D'Orsay, e.g., in Weird Tales, The Writer's Monthly, Writer's Digest.",2,1,,20864666,1925-07-01,1925-07-31,LLM
+8 November 1887 – 21 November 1947,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"Laurence R. D'Orsay (8 November 1887 – 21 November 1947) was a US author of several instruction books for writers, a critic and literary agent in Los Angeles, California.",0,0,,20864666,1887-11-08,1947-11-21,LLM
+MO,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Kansas City, MO: Burton Publishing Co., 1928.",1,6,== Partial bibliography ==,20864666,,,ML
+MO,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Kansas City, MO: Burton, 1930.",1,16,== Partial bibliography ==,20864666,,,ML

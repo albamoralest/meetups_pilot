@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1866,CD,YEAR_REGEX_1,TIME,time_reference,"She made her concert debut in 1866 in Berlin, and played in Scandinavia, Germany, the Netherlands, Switzerland and Paris.",3,1,,21536149,1866-01-01,1866-12-31,ML
+1894,CD,YEAR_REGEX_1,TIME,time_reference,In 1894 she was granted an artist's scholarship by the Norwegian state.,5,1,,21536149,1894-01-01,1894-12-31,ML
+1874,CD,YEAR_REGEX_1,TIME,time_reference,In 1874 she married politician Oscar Nissen.,7,1,,21536149,1874-01-01,1874-12-31,ML
+February 1895,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Their marriage was dissolved in February 1895, after many years of unhappy marriage.",9,1,,21536149,1895-02-01,1895-02-28,ML
+1892 to 1894,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,From 1892 to 1894 she had an affair with Bjørnstjerne Bjørnson.,10,1,,21536149,1892-01-01,1894-12-31,ML
+17 January 1845 – 27 October 1903,CD NNP CD VBD CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"Erika Nissen, née Lie (17 January 1845 – 27 October 1903), also known as Erika Røring Møinichen Lie Nissen, was a Norwegian pianist.",0,0,,21536149,1845-01-17,1903-10-27,LLM
+the end of the 1870s,DT NN IN DT CD,PREFIX_REGEX_1 PREFIX_REGEX_2 PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER MODIFIER TIME,time_reference,She retired at the end of the 1870s to work as a music teacher.,4,1,,21536149,,,ML
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Their marriage was dissolved in February 1895, after many years of unhappy marriage.",9,1,,21536149,,,ML

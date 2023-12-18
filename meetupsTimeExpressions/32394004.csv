@@ -1,0 +1,6 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1926,CD,YEAR_REGEX_1,TIME,time_reference,"De Freitas studied at the National Conservatory, winning the Composition Prize in 1926 for his Nocturno for cello and piano.",0,1,,32394004,1926-01-01,1926-12-31,ML
+1940,CD,YEAR_REGEX_1,TIME,time_reference,"In 1940 he created the Lisbon Choral Society, and from 1949 to 1953 he led the Oporto Symphony.",2,1,,32394004,1940-01-01,1940-12-31,ML
+1949 to 1953,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"In 1940 he created the Lisbon Choral Society, and from 1949 to 1953 he led the Oporto Symphony.",2,1,,32394004,1949-01-01,1953-12-31,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"Randel, Don Michael (2003).",0,3,== References ==,32394004,2003-01-01,2003-12-31,ML
+15 November 1902 – 12 January 1980,CD NNP CD NN CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"Frederico Guedes de Freitas (born Lisbon, Portugal; 15 November 1902 – 12 January 1980) was a Portuguese composer, conductor, musicologist, and pedagogue.",0,0,,32394004,1902-11-15,1980-01-12,LLM

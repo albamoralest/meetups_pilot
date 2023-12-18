@@ -1,0 +1,19 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Hot as a Whorehouse on Nickel Night (2010),0,6,== Discography == | === Sawbones ===,19344323,2010-01-01,2010-12-31,ML
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Everyday Ninjas (1998),0,8,== Discography == | === 3 Minute Hero ===,19344323,1998-01-01,1998-12-31,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Operation Brownstar (1999),0,9,== Discography == | === 3 Minute Hero ===,19344323,1999-01-01,1999-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,My Fever Broke (2002),0,11,== Discography == | === Rasputina ===,19344323,2002-01-01,2002-12-31,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"The Lost and Found, 2nd Edition (2003)",0,12,== Discography == | === Rasputina ===,19344323,2003-01-01,2003-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Frustration Plantation (2004),0,13,== Discography == | === Rasputina ===,19344323,2004-01-01,2004-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,A Radical Recital (2005),0,14,== Discography == | === Rasputina ===,19344323,2005-01-01,2005-12-31,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Oh Perilous World (2007),0,15,== Discography == | === Rasputina ===,19344323,2007-01-01,2007-12-31,ML
+2002 to 2008 and previously,CD TO CD CC RB,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1 LINKAGE_REGEX TIMELINE_REGEX,TIME MODIFIER TIME MODIFIER TIME,time_range,"He was a member of the band from 2002 to 2008 and previously been associated with the act 3 Minute Hero where he garnered the nickname ""ATHENS-manservant"".",1,0,,19344323,2002-01-01,2008-12-31,LLM
+now,RB,TIMELINE_REGEX,TIME,time_reference,"Jonathon now fronts his band, Sawbones.",2,0,,19344323,,,ML
+recently,RB,TIMELINE_REGEX,TIME,time_reference,"TeBeest was raised in the Midwest, and recently moved back to Minnesota after a stint in New York City.",0,3,== Background ==,19344323,,,ML
+3 Minute,CD NNP,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"TeBeest started his professional career with the intense horn-driven party band, 3 Minute Hero in his homeland of Minnesota.",4,3,== Background ==,19344323,,,ML
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,That band started his love of performing live as the boys were playing about 250 shows per year during its existence.,5,3,== Background ==,19344323,,,ML
+the recently,DT RB,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"He has since appeared on five of the group's albums, including the recently released Oh, Perilous World!, and has also toured the nation with Rasputina.",7,3,== Background ==,19344323,,,ML
+the past,DT NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"In the past, he has worked with many other bands including New Professionals, Mink, Gravity, THIS, Strangelove, Goodfinger and Dirty Excuse.",8,3,== Background ==,19344323,,,ML
+now,RB,TIMELINE_REGEX,TIME,time_reference,"TeBeest is a songwriter and now fronts the Minneapolis band, Sawbones.",9,3,== Background ==,19344323,,,ML
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,Hot as a Whorehouse on Nickel Night (2010),0,6,== Discography == | === Sawbones ===,19344323,,,ML
+3 Minute,CD NNP,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,=== 3 Minute Hero =,0,7,== Discography == | === 3 Minute Hero ===,19344323,,,ML

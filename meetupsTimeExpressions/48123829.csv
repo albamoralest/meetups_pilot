@@ -1,0 +1,7 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"November 29 , 1952","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"John Martin Feierabend (born November 29, 1952) is an American music education researcher, pedagogue and author.",0,0,,48123829,1952-11-29,1952-11-29,ML
+currently,RB,TIMELINE_REGEX,TIME,time_reference,He is currently the Director of Music Education at the Hartt School of the University of Hartford.,3,0,,48123829,,,ML
+five minutes,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,This test lasted for five minutes over the series of seven weeks.,3,2,== Research ==,48123829,,,ML
+previously,RB,TIMELINE_REGEX,TIME,time_reference,The study found that preschool children more accurately recognized songs performed without texts when they had heard them performed previously with texts.,9,2,== Research ==,48123829,,,ML
+22 minutes,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"The show, approximately 22 minutes in length, presented a dog puppet, named Lomax (for Alan Lomax), who travels the country searching for folk songs.",1,4,"== Lomax, the Hound of Music ==",48123829,,,ML
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,Connecticut Music Educators Association: University Educator of the Year,0,7,== Honors and awards ==,48123829,,,ML

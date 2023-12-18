@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"He was the lead singer of The Orioles, a vocal group from Baltimore, Maryland, inducted into the Rock and Roll Hall of Fame in 1995.",1,0,,567293,1995-01-01,1995-12-31,ML
+1960,CD,YEAR_REGEX_1,TIME,time_reference,By 1960 Til was the only original member left.,0,1,,567293,1960-01-01,1960-12-31,ML
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"He led the Orioles from its establishment until his death in 1981 of heart failure, complicated by diabetes.",1,1,,567293,1981-01-01,1981-12-31,ML
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Today (Dobre Records DR1016, 1978)",0,4,== Discography == | === With the Orioles ===,567293,1978-01-01,1978-12-31,ML
+1971,CD,YEAR_REGEX_1,TIME,time_reference,"""Old Gold / New Gold"" (RCA LSP-4538, 1971)",0,5,== Discography == | === With the Orioles ===,567293,1971-01-01,1971-12-31,ML
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Back to the Chapel (Dobre Records DR1026, 1978)",0,7,== Discography == | === With Band ===,567293,1978-01-01,1978-12-31,ML
+"August 18 , 1928 – December 9 , 1981","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Earlington Carl Tilghman, known as Sonny Til (August 18, 1928 – December 9, 1981), was an American singer.",0,0,,567293,1928-08-18,1981-12-09,LLM
+Today,NN,TIMELINE_REGEX,TIME,time_reference,"Today (Dobre Records DR1016, 1978)",0,4,== Discography == | === With the Orioles ===,567293,,,ML

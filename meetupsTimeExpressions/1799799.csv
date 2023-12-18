@@ -1,0 +1,12 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+4 September 1978,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Christian Walz (born 4 September 1978, Stockholm) is a Swedish artist, songwriter, and producer.",0,0,,1799799,1978-09-04,1978-09-04,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"He released his self-titled debut album in 1999, aged 20.",3,0,,1799799,1999-01-01,1999-12-31,ML
+five years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,It took five years for the next album to be released.,4,0,,1799799,,,ML
+May 2004,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"""Paint By Numbers"" was released in May 2004, became a Swedish Grammy winner and a big hit.",5,0,,1799799,2004-05-01,2004-05-31,ML
+26 November 2008,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"His third album, ""The Corner"", was released on 26 November 2008 in Sweden.",8,0,,1799799,2008-11-26,2008-11-26,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Christian Walz (1999),0,2,== Discography ==,1799799,1999-01-01,1999-12-31,ML
+The Night,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,Spend The Night Together,0,6,== Discography ==,1799799,,,ML
+"Midday , Friday","NNP , NNP",DAY_TIME_REGEX COMMA_REGEX WEEK_REGEX,TIME MODIFIER TIME,time_reference,"Midday, Friday, Payday...",0,7,== Discography ==,1799799,,,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Paint By Numbers (2004),0,16,== Discography ==,1799799,2004-01-01,2004-12-31,ML
+Sunday Morning,NNP NNP,WEEK_REGEX DAY_TIME_REGEX,TIME TIME,time_reference,Sunday Morning Breakup,0,21,== Discography ==,1799799,,,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,The Corner (2008),0,28,== Discography ==,1799799,2008-01-01,2008-12-31,ML

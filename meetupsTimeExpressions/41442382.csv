@@ -1,0 +1,16 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+18 September 1965,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Roisin Dunne Ross (born 18 September 1965) is an Irish musician.,0,0,,41442382,1965-09-18,1965-09-18,ML
+June 1992,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"She is best known for being the replacement guitarist of 7 Year Bitch, after their guitarist Stefanie Sargent died in June 1992.",1,0,,41442382,1992-06-01,1992-06-30,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"(C/Z Records, 1994).",1,4,== Discography == | === Albums ===,41442382,1994-01-01,1994-12-31,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Gato Negro (Atlantic Records, 1996).",0,5,== Discography == | === Albums ===,41442382,1996-01-01,1996-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"""Rock-A-Bye Baby"" b/w ""Wide Open Trap"" (C/Z Records, 1994).",0,7,== Discography == | === Singles ===,41442382,1994-01-01,1994-12-31,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"""The History of My Future"" b/w ""24,900 Miles Per Hour"" (promo only) (Atlantic Records, 1996).",0,8,== Discography == | === Singles ===,41442382,1996-01-01,1996-12-31,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"(Man's Ruin, 1996).",1,9,== Discography == | === Singles ===,41442382,1996-01-01,1996-12-31,ML
+1992,CD,YEAR_REGEX_1,TIME,time_reference,"""In Lust You Trust""  (1992)",0,11,== Discography == | === Music Videos ===,41442382,1992-01-01,1992-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"""Hip Like Junk"" (1994)",0,12,== Discography == | === Music Videos ===,41442382,1994-01-01,1994-12-31,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"""24,900 Miles Per Hour"" (1996)",0,13,== Discography == | === Music Videos ===,41442382,1996-01-01,1996-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,The Gits: Movie (2005),0,15,== Discography == | === Films ===,41442382,2005-01-01,2005-12-31,ML
+of 7 Year,IN CD NN,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"She is best known for being the replacement guitarist of 7 Year Bitch, after their guitarist Stefanie Sargent died in June 1992.",1,0,,41442382,,,ML
+the 7 Year,DT CD NN,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,Ross played on the 7 Year Bitch albums ¡Viva Zapata!,0,1,,41442382,,,ML
+Future,NNP,TIMELINE_REGEX,TIME,time_reference,"""The History of My Future"" b/w ""24,900 Miles Per Hour"" (promo only) (Atlantic Records, 1996).",0,8,== Discography == | === Singles ===,41442382,,,ML
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,"""24,900 Miles Per Hour"" (1996)",0,13,== Discography == | === Music Videos ===,41442382,,,ML

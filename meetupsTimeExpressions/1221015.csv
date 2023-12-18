@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1926,CD,YEAR_REGEX_1,TIME,time_reference,"Sooliman Ernest Rogers was born in 1926 in the town of Fonikoh, Pujehun District in southern Province Sierra Leone.",0,2,== Biography ==,1221015,1926-01-01,1926-12-31,ML
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1960s, he became a professional musician, singing in four languages.",2,2,== Biography ==,1221015,1960-01-01,1969-12-31,ML
+1965,CD,YEAR_REGEX_1,TIME,time_reference,He formed a band called The Morningstars in 1965.,4,2,== Biography ==,1221015,1965-01-01,1965-12-31,ML
+1973,CD,YEAR_REGEX_1,TIME,time_reference,In 1973 Rogie left Africa and travelled to the United States.,5,2,== Biography ==,1221015,1973-01-01,1973-12-31,ML
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"In 1988, after being invited by British disc jockey Andy Kershaw, Rogie moved to England, where he bought a home in Finchley.",0,3,== Biography ==,1221015,1988-01-01,1988-12-31,ML
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"In 1991, he put together a band, The Palm-Wine Tappers, and toured the UK.",1,3,== Biography ==,1221015,1991-01-01,1991-12-31,ML
+4 July 1994,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"He died on 4 July 1994 at the age of 68, shortly after recording his last album, Dead Men Don't Smoke Marijuana.",2,3,== Biography ==,1221015,1994-07-04,1994-07-04,ML
+February,NNP,MONTH_REGEX,TIME,time_reference,"He had undergone heart bypass surgery in February but against medical advice travelled to perform in Russia, where he lost consciousness while performing onstage.",3,3,== Biography ==,1221015,2022-02-01,2022-02-28,LLM
+1926 – 4 July 1994,CD $ CD NNP CD,YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER NUMERAL TIME TIME,time_range,"Sooliman Ernest ""Rogie"" or S. E. Rogie (1926 – 4 July 1994) was a highlife and palm wine guitarist and singer from Sierra Leone.",0,0,,1221015,,,ML
+The Morningstars,DT NNP,PREFIX_REGEX_1 DAY_TIME_REGEX,MODIFIER TIME,time_reference,He formed a band called The Morningstars in 1965.,4,2,== Biography ==,1221015,,,ML

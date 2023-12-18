@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Halman, Johannes; Rojer, Robert (2008).",0,7,== References ==,19301636,2008-01-01,2008-12-31,ML
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Palm, Edgar (1978).",0,8,== References ==,19301636,1978-01-01,1978-12-31,ML
+1958,CD,YEAR_REGEX_1,TIME,time_reference,"Boskaljon, Rudolph (1958).",0,9,== References ==,19301636,1958-01-01,1958-12-31,ML
+13 June 1885 – 24 February 1925,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,John Palm (13 June 1885 – 24 February 1925) was a Curaçao-born composer.,0,0,,19301636,1885-06-13,1925-02-24,LLM
+of Jan,IN NNP,PREFIX_REGEX_1 MONTH_ABBR_REGEX,MODIFIER TIME,time_reference,"Johan Antoine Palm—better known as John Palm—was a grandson of Jan Gerard Palm (1831-1906), who is often referred to as the ""father of Curaçao classical music"".",0,2,== Biography ==,19301636,1831-01-01,1906-12-31,LLM
+Jan,NNP,MONTH_ABBR_REGEX,TIME,time_reference,Jan Gerard Palm: Life and Work of a Musical Patriarch (In Dutch language).,1,7,== References ==,19301636,,,ML
+Hundred years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Hundred years of music life in Curacao (In Dutch language).,1,9,== References ==,19301636,,,ML

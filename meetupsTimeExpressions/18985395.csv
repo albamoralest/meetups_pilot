@@ -1,0 +1,24 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"In 1976, Willie Dixon hired him to play in the Chicago Blues All-Stars.",3,2,== Biography ==,18985395,1976-01-01,1976-12-31,ML
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"In 1979, Campbell participated in the American Blues Legends '79 album and tour of Europe, both organised by UK based label Big Bear Records.",5,2,== Biography ==,18985395,1979-01-01,1979-12-31,ML
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"In 1984, Campbell left Chicago for Europe, living first in the Netherlands and later in Duisburg, Germany, where he remained for ten years before returning to Chicago.",6,2,== Biography ==,18985395,1984-01-01,1984-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Campbell's last album was Spider Eating Preacher (Delmark, 2012).",7,2,== Biography ==,18985395,2012-01-01,2012-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,It was nominated for a Blues Music Award in 2013 in the category Traditional Blues Album.,8,2,== Biography ==,18985395,2013-01-01,2013-12-31,ML
+February 2013,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In February 2013, Campbell suffered a stroke and a heart attack while on tour in Germany, leaving him paralyzed on the right side of his body.",9,2,== Biography ==,18985395,2013-02-01,2013-02-28,ML
+"November 20 , 2018","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died in Oak Park, Illinois on November 20, 2018, aged 79.",11,2,== Biography ==,18985395,2018-11-20,2018-11-20,ML
+1977,CD,YEAR_REGEX_1,TIME,time_reference,"King of the Jungle (Mr. Blues, 1977; reissued by Rooster Blues)",0,4,== Discography ==,18985395,1977-01-01,1977-12-31,ML
+1984,CD,YEAR_REGEX_1,TIME,time_reference,"(Black Magic Records, 1984; reissued by Evidence Records)",1,5,== Discography ==,18985395,1984-01-01,1984-12-31,ML
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"The Baddest Cat on the Block (JSP Records, 1985)",0,6,== Discography ==,18985395,1985-01-01,1985-12-31,ML
+1988,CD,YEAR_REGEX_1,TIME,time_reference,"Mind Trouble (Double Trouble, 1988)",0,7,== Discography ==,18985395,1988-01-01,1988-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"That's When I Know (Blind Pig Records, 1994)",0,8,== Discography ==,18985395,1994-01-01,1994-12-31,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Hopes and Dreams (Rooster Blues, 1997)",0,9,== Discography ==,18985395,1997-01-01,1997-12-31,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,"Gonna Be Alright (Icehouse Records, 1999)",0,10,== Discography ==,18985395,1999-01-01,1999-12-31,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"Tear This World Up (Delmark Records, 2009)",0,11,== Discography ==,18985395,2009-01-01,2009-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Spider Eating Preacher (Delmark Records, 2012)",0,12,== Discography ==,18985395,2012-01-01,2012-12-31,ML
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"American Blues Legends '79 (Big Bear Records, 1979)",0,14,== Discography == | === Appears on ===,18985395,1979-01-01,1979-12-31,ML
+"May 6 , 1939 – November 20 , 2018","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Eddie C. Campbell (May 6, 1939 – November 20, 2018) was an American blues guitarist and singer in the Chicago blues scene.",0,0,,18985395,1939-05-06,2018-11-20,LLM
+early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In his early years as a professional musician, he played as a sideman with Howlin' Wolf, Little Walter, Little Johnny Taylor, and Jimmy Reed.",2,2,== Biography ==,18985395,,,ML
+the next year,DT JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Campbell's debut album, King of the Jungle, featuring Carey Bell on harmonica and Lafayette Leake on piano, was released the next year.",4,2,== Biography ==,18985395,,,ML
+'79,POS,YEAR_REGEX_2,TIME,,"In 1979, Campbell participated in the American Blues Legends '79 album and tour of Europe, both organised by UK based label Big Bear Records.",5,2,== Biography ==,18985395,,,ML
+ten years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"In 1984, Campbell left Chicago for Europe, living first in the Netherlands and later in Duisburg, Germany, where he remained for ten years before returning to Chicago.",6,2,== Biography ==,18985395,,,ML
+'79,NNP,YEAR_REGEX_2,TIME,time_reference,"American Blues Legends '79 (Big Bear Records, 1979)",0,14,== Discography == | === Appears on ===,18985395,,,ML

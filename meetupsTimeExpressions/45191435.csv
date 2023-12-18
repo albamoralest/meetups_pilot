@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+30 May 1987,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Yama Buddha was born on 30 May 1987 in Salakpur, Morang, Nepal to politician Ambika Kumari Adhikari and Urmila Adhikari as Anil Adhikari.",0,2,== Early life ==,45191435,1987-05-30,1987-05-30,ML
+14 January 2017,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,He was found dead in his bathroom on 14 January 2017.,1,4,== Personal life ==,45191435,2017-01-14,2017-01-14,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Yama Buddha (2011),0,7,== Discography == | === Mixtapes ===,45191435,2011-01-01,2011-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,Yama Buddha II (2013),0,29,== Discography == | === Mixtapes ===,45191435,2013-01-01,2013-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Ekadesh (2012),0,44,== Discography == | === Albums ===,45191435,2012-01-01,2012-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,Khatra (Album by Yama Buddha) (2017),0,57,== Discography == | === Albums ===,45191435,2017-01-01,2017-12-31,ML
+14 January 2017,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Yama Buddha died on 14 January 2017 in London.,0,102,== Death ==,45191435,2017-01-14,2017-01-14,ML
+30 May 1987 – 14 January 2017,CD NNP CD NN CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Anil Adhikari (Nepali: अनिल अधिकारी; 30 May 1987 – 14 January 2017) professionally known as Yama Buddha (Nepali: यमबुद्ध) was a Nepalese rapper.,0,0,,45191435,1987-05-30,2017-01-14,LLM
+the presenter,DT NN,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,He was the creator and the presenter of the Popular Rap Battle show Raw Barz.,2,0,,45191435,,,ML
+some years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He lived in Salakpur, Morang for some years and moved to Kathmandu with his parents.",2,2,== Early life ==,45191435,,,ML
+about 2 years,RB CD NNS,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,He went back to stay with his grandparents in Salakpur for about 2 years and studied grades 4 and 5 at Pathibhara Boarding school in Itahari.,3,2,== Early life ==,45191435,,,ML
+around 6 AM,IN CD NNP,PREFIX_REGEX_1 DIGIT_REGEX_1 HALFDAY_REGEX_1,MODIFIER NUMERAL TIME,time_reference,The singer was found dead in his bathroom at around 6 AM.,1,102,== Death ==,45191435,,,ML

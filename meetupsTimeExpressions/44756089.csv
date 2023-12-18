@@ -1,0 +1,15 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"June 21 , 1978","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Natalia Contesse Bamon (born June 21, 1978 in New Orleans) is a Chilean folk musician and historian.",0,0,,44756089,1978-06-21,1978-06-21,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"She began her musical career in 2002 in Santiago, Chile, and throughout her career has sought to integrate Chilean folk music traditions into her work.",1,0,,44756089,2002-01-01,2002-12-31,ML
+1978,CD,YEAR_REGEX_1,TIME,time_reference,"Born in New Orleans in 1978, Natalia returned to Chile at a young age.",0,2,== Biography ==,44756089,1978-01-01,1978-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"In 2002, she began performing with groups such as Los Obreros del Ritmo and Detucunaatutumba.",1,2,== Biography ==,44756089,2002-01-01,2002-12-31,ML
+2006 and 2009,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"'Between 2006 and 2009, Contesse fronted the folk group Vena Raíz, a group with Andean, Afro-Peruvian, Mapuche and Cueca influences.",3,2,== Biography ==,44756089,2006-01-01,2009-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, Contesse released her first solo album, ""Puñado de Tierra"" (English: ""Handful of Earth""), after having won a national competition to create an album under the Sello Azul label run every two years.",4,2,== Biography ==,44756089,2011-01-01,2011-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"Contesse also opened a cycle of ""surprise"" concerts held in the Santiago Metro in 2011.",7,2,== Biography ==,44756089,2011-01-01,2011-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"In 2013, Contesse released her second album, ""Corra la Voz"" (English: ""Spread the Word""), which incorporated woodwind instruments.",8,2,== Biography ==,44756089,2013-01-01,2013-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,Vena Raíz (2008; self-titled album of her then band),0,4,== Discography ==,44756089,2008-01-01,2008-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Puñado de Tierra (2011),0,5,== Discography ==,44756089,2011-01-01,2011-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,Corra la Voz (2013),0,6,== Discography ==,44756089,2013-01-01,2013-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,Diluvio (2017),0,7,== Discography ==,44756089,2017-01-01,2017-12-31,ML
+this year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"It was in this year too that she attended a workshop by Chilean folk singer-songwriter Manuel Sánchez, beginning an interest in traditional Chilean music.",2,2,== Biography ==,44756089,,,ML
+every two years,DT CD NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"In 2011, Contesse released her first solo album, ""Puñado de Tierra"" (English: ""Handful of Earth""), after having won a national competition to create an album under the Sello Azul label run every two years.",4,2,== Biography ==,44756089,,,ML

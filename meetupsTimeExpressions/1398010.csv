@@ -1,0 +1,10 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"August 29 , 1981","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Andre Levins, also known as A+ (born August 29, 1981,Hempstead, New York) is an American rapper.",0,0,,1398010,1981-08-29,1981-08-29,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,As a teenager he released albums in 1996 and in 1999.,1,0,,1398010,1996-01-01,1996-12-31,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,As a teenager he released albums in 1996 and in 1999.,1,0,,1398010,1999-01-01,1999-12-31,ML
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"A+ began his music career in 1995, after winning a national talent competition sponsored by Def Jam Records.",0,2,== History ==,1398010,1995-01-01,1995-12-31,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"In 1996, at the age of 14, A+ released his first album, The Latch-Key Child, which featured contributions from Prodigy and Q-Tip.",2,3,== History ==,1398010,1996-01-01,1996-12-31,ML
+14 weeks,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"""All I See"" was chosen as the lead single, and it peaked at number 66 on the Billboard Hot 100 chart, staying for 14 weeks.",0,4,== History ==,1398010,,,ML
+February 1999,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"His second album, Hempstead High, was released in February 1999.",1,4,== History ==,1398010,1999-02-01,1999-02-28,ML
+the 1976,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"The single ""Enjoy Yourself"", which sampled the 1976 Walter Murphy song ""A Fifth of Beethoven"",",0,6,== History ==,1398010,1976-01-01,1976-12-31,ML
+three weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"reached the top five of the UK Singles Chart, number 63 of the US Hot 100 for three weeks,) and was also commercially successful in Germany and Japan.",0,7,== History ==,1398010,,,ML

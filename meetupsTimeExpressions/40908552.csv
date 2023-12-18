@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"June 23 , 1945","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Ana Chumachenco was born in Padova, Italy, on June 23, 1945.",0,2,== Biography ==,40908552,1945-06-23,1945-06-23,ML
+1963,CD,YEAR_REGEX_1,TIME,time_reference,"In 1963 at the age of 18, Ana moved to Europe where she would continue her violin studies and, in the same year, won the gold medal of the Carl Flesch Competition in London.",3,2,== Biography ==,40908552,1963-01-01,1963-12-31,ML
+1989,CD,YEAR_REGEX_1,TIME,time_reference,1989 Merit Diploma Konex Award,0,4,== Awards ==,40908552,1989-01-01,1989-12-31,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,1999 Platinum Konex Award as the best Bow Instrument Performer of the decade in Argentina,0,5,== Awards ==,40908552,1999-01-01,1999-12-31,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,2007 Cross of the Order of Merit of the Federal Republic of Germany,0,6,== Awards ==,40908552,2007-01-01,2007-12-31,ML
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,"In 1963 at the age of 18, Ana moved to Europe where she would continue her violin studies and, in the same year, won the gold medal of the Carl Flesch Competition in London.",3,2,== Biography ==,40908552,,,ML
+Currently,RB,TIMELINE_REGEX,TIME,time_reference,"Currently, Chumachenco plays with Oscar Lysy and Walter Notas and is a violin professor at the Kronberg Academy, the Hochschule für Musik und Theater München and she holds master classes at the Music Academy Accademia Lorenzo Perosi in Biella.",5,2,== Biography ==,40908552,,,ML
+of the decade,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,1999 Platinum Konex Award as the best Bow Instrument Performer of the decade in Argentina,0,5,== Awards ==,40908552,,,ML

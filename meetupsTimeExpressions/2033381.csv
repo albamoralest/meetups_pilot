@@ -1,0 +1,6 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"September 27 , 1978","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Bradley Kirk Arnold (born September 27, 1978) is an American musician, best known as the lead singer and drummer (and only remaining original member) of the rock band 3 Doors Down.",0,0,,2033381,1978-09-27,1978-09-27,ML
+2016,CD,YEAR_REGEX_1,TIME,time_reference,Arnold is a recovering alcoholic who stopped drinking in 2016.,0,7,== Personal life ==,2033381,2016-01-01,2016-12-31,ML
+2001 to 2007,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He was married to his first wife Terika Roberts from 2001 to 2007.,1,7,== Personal life ==,2033381,2001-01-01,2007-12-31,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"He married his second wife, Jennifer Sanderford, in 2009.",2,7,== Personal life ==,2033381,2009-01-01,2009-12-31,ML
+16 years old,CD NNS JJ,DIGIT_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Arnold is a founding member of 3 Doors Down, and was 16 years old at the time of the band's formation.",0,4,== Career ==,2033381,,,ML

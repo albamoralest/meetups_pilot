@@ -1,0 +1,5 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Atul Gautam (Nepali: अतुल गौतम) (1973 – 16 January 2005) was a talented Tabla Maestro of Nepal, born in 1973.",0,0,,31691634,1973-01-01,1973-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,"He died leaving his disciples Parsuram Poudel, Ananta Prajapati, Nabin Neupane, Santosh Verma, Madhusudan and others during 2005 due to a brain haemmorhage in Kathmandu.",6,0,,31691634,2005-01-01,2005-12-31,ML
+24 hours,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He was a representative of the Kavi Prasad Gautam family who started endless 24 hours HARERAMA KIRTAN in Nepal 1929 AD.,1,0,,31691634,1929-01-01,1929-12-31,LLM
+1973 – 16 January 2005,CD $ CD NNP CD,YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER NUMERAL TIME TIME,time_range,"Atul Gautam (Nepali: अतुल गौतम) (1973 – 16 January 2005) was a talented Tabla Maestro of Nepal, born in 1973.",0,0,,31691634,,,ML

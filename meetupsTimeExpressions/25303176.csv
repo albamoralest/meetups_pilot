@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1947,CD,YEAR_REGEX_1,TIME,time_reference,She studied at the Folkwangschule in Essen and made her first public appearance as a singer in 1947.,2,0,,25303176,1947-01-01,1947-12-31,ML
+the 1990s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Her career lasted until the 1990s during which she established a wide-ranging discography.,3,0,,25303176,1990-01-01,1999-12-31,ML
+24 April 2017,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,She died in Cologne on 24 April 2017.,0,3,,25303176,2017-04-24,2017-04-24,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Kurtz, Michael (2008).",0,6,== References == | === Sources ===,25303176,2008-01-01,2008-12-31,ML
+15 December 2021,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Retrieved 15 December 2021.,2,7,== References == | === Sources ===,25303176,2021-12-15,2021-12-15,ML
+10 August 1921 – 24 April 2017,CD NNP CD NN CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Agnes Giebel (10 August 1921 – 24 April 2017) was a German classical soprano.,0,0,,25303176,1921-08-10,2017-04-24,LLM
+the first years,DT JJ NNS,PREFIX_REGEX_1 ORDINAL_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"She was born in Heerlen, in the Netherlands, where she lived the first years of her life.",1,0,,25303176,,,ML
+237882801,CD,YEAR_REGEX_1,TIME,time_reference,OCLC 237882801.,4,6,== References == | === Sources ===,25303176,,,ML

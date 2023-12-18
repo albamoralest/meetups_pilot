@@ -1,0 +1,7 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"May 31 , 1967","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Anne Wolf (born May 31, 1967) is a Belgian jazz pianist.",0,0,,2051323,1967-05-31,1967-05-31,ML
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"She studied classical piano for ten years before entering the conservatory in 1985, where she was taught by Michel Petrucciani, Eric Legnini, and Charles Loos.",1,0,,2051323,1985-01-01,1985-12-31,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"In 2001, she released her first trio album.",1,1,,2051323,2001-01-01,2001-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,She won the Golden Django for best new talent in 2002 (although she had already appeared on several recordings).,2,1,,2051323,2002-01-01,2002-12-31,ML
+ten years,JJ NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"She studied classical piano for ten years before entering the conservatory in 1985, where she was taught by Michel Petrucciani, Eric Legnini, and Charles Loos.",1,0,,2051323,,,ML
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"Wolf has recorded with Sttellla, Frédéric Ruymen, Citizen Jane, Kendigo, Manu Hermia, Ben N'Gabo, Cheiro de Choro, and The Big Day.",0,2,,2051323,,,ML

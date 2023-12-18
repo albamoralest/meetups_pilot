@@ -1,0 +1,17 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"August 11 , 1995","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Priscilla Block (born August 11, 1995) is an American country music singer–songwriter.",0,0,,66749861,1995-08-11,1995-08-11,ML
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"In 2020, Block wrote and recorded a song that appeared on her Tik Tok account.",2,0,,66749861,2020-01-01,2020-12-31,ML
+2021,CD,YEAR_REGEX_1,TIME,time_reference,"Released as a single, ""Just About Over You"" became a charting song on the American country chart in 2021.",5,0,,66749861,2021-01-01,2021-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"In 2014, she moved to Nashville, Tennessee to pursue her goals in the country music industry.",7,2,== Early life ==,66749861,2014-01-01,2014-12-31,ML
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"In 2016, Block released her debut extended play (EP) titled Different Route.",3,4,== Career ==,66749861,2016-01-01,2016-12-31,ML
+2016 and 2020,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 2016 and 2020, Block released several songs focused around self-love and acceptance.",5,4,== Career ==,66749861,2016-01-01,2020-12-31,ML
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"After running into an ex-lover in 2020, Block composed the song ""Just About Over You"".",11,4,== Career ==,66749861,2020-01-01,2020-12-31,ML
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"The label issued ""Just About Over You"" shortly after her 2020 signing.",18,4,== Career ==,66749861,2020-01-01,2020-12-31,ML
+early 2021,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In early 2021, ""Just About Over You"" reached the top 40 of the Country Airplay charts.",21,4,== Career ==,66749861,2021-01-01,2021-12-31,ML
+October 2021,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"It subsequently debuted at number 95 on the Billboard Hot 100 in October 2021, later peaking at number 81.",22,4,== Career ==,66749861,2021-10-01,2021-10-31,ML
+early years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"During her early years in Nashville, Block was unhappy and considered moving home.",9,2,== Early life ==,66749861,,,ML
+One day,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"One day, she had a chance encounter with Taylor Swift while walking down a Nashville road.",10,2,== Early life ==,66749861,,,ML
+the day,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"""That was truly the day that I decided that I really needed to give music a fair shot and do this thing,"" she commented.",12,2,== Early life ==,66749861,,,ML
+hours,NNS,TIME_UNIT_REGEX,TIME,time_reference,"She also would ""sit for hours"" watching Nashville artists perform.",1,4,== Career ==,66749861,,,ML
+Three weeks,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Three weeks after its composition, Block cut the song in a studio.",14,4,== Career ==,66749861,,,ML
+months,NNS,TIME_UNIT_REGEX,TIME,time_reference,"months later, Block filmed a music video for the song, directed by Logen Christopher.",20,4,== Career ==,66749861,,,ML

@@ -1,0 +1,19 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"Edward presented the long-running BBC Radio Four musical quiz Counterpoint for one year in 2007, after the death of Ned Sherrin.",6,0,,21309640,2007-01-01,2007-12-31,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"Presenter of Counterpoint on BBC Radio 4, 2007,",0,27,== Broadcaster == | === BBC Radio 4 ===,21309640,2007-01-01,2007-12-31,ML
+1977,CD,YEAR_REGEX_1,TIME,time_reference,A Bridge Too Far (1977) - British Padre (Last appearance),0,57,== Acting == | === Film ===,21309640,1977-01-01,1977-12-31,ML
+1977,CD,YEAR_REGEX_1,TIME,time_reference,Get Some In! (1977) - LAC driver,0,61,== Acting == | === Television ===,21309640,1977-01-01,1977-12-31,ML
+presenter,NN,TIMELINE_REGEX,TIME,time_reference,Edward Seckerson is a British music journalist and radio presenter specialising in musical theatre.,0,0,,21309640,,,ML
+many years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"He has published books on Mahler and the conductor Michael Tilson Thomas, and has been on Gramophone Magazine’s review panel for many years.",5,0,,21309640,,,ML
+one year,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"Edward presented the long-running BBC Radio Four musical quiz Counterpoint for one year in 2007, after the death of Ned Sherrin.",6,0,,21309640,,,ML
+The Sunday,DT NNP,PREFIX_REGEX_1 WEEK_REGEX,MODIFIER TIME,time_reference,Chief Music Critic for The Sunday Correspondent,0,5,== Journalist and critic ==,21309640,,,ML
+The Sunday,DT NNP,PREFIX_REGEX_1 WEEK_REGEX,MODIFIER TIME,time_reference,Has written also for The Times and The Sunday Times,0,11,== Journalist and critic ==,21309640,,,ML
+presenter,NN,TIMELINE_REGEX,TIME,time_reference,"A wide range of programmes on BBC Radio 3 and Radio 4 as writer, presenter, commentator and critic, including:",0,13,== Broadcaster ==,21309640,,,ML
+Presenter,NN,TIMELINE_REGEX,TIME,time_reference,Stage & Screen - Writer and Presenter,0,15,== Broadcaster == | === BBC Radio 3 ===,21309640,,,ML
+Presenter Weekend Morning,NNP NNP NNP,TIMELINE_REGEX TIME_UNIT_REGEX DAY_TIME_REGEX,TIME TIME TIME,time_reference,Presenter Weekend Morning on 3,0,17,== Broadcaster == | === BBC Radio 3 ===,21309640,,,ML
+Presenter,NN,TIMELINE_REGEX,TIME,time_reference,Presenter of The BBC Proms,0,18,== Broadcaster == | === BBC Radio 3 ===,21309640,,,ML
+Afternoon,NNP,DAY_TIME_REGEX,TIME,time_reference,Afternoon Performance,0,19,== Broadcaster == | === BBC Radio 3 ===,21309640,,,ML
+Nightwaves,NNS,DAY_TIME_REGEX,TIME,time_reference,Nightwaves,0,21,== Broadcaster == | === BBC Radio 3 ===,21309640,,,ML
+Presenter,NN,TIMELINE_REGEX,TIME,time_reference,"Presenter of Counterpoint on BBC Radio 4, 2007,",0,27,== Broadcaster == | === BBC Radio 4 ===,21309640,,,ML
+Hour,NNP,TIME_UNIT_REGEX,TIME,time_reference,Woman's Hour with Elaine Paige,0,29,== Broadcaster == | === BBC Radio 4 ===,21309640,,,ML
+Evenings,NNS,DAY_TIME_REGEX,TIME,time_reference,Wigmore Hall: Evenings with Anja Silja and Margaret Price,0,50,== Public appearances ==,21309640,,,ML

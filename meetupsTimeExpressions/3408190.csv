@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+7 March 1984,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Kevin McDaid (born 7 March 1984) is a British singer.,0,0,,3408190,1984-03-07,1984-03-07,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,"He was best known as member of the British boy band V, which he joined in 2003 along with four other boys.",2,0,,3408190,2003-01-01,2003-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"The band had three fairly successful chart hits during 2004, before splitting up in February 2005, less than a year after their first single was released.",3,0,,3408190,2004-01-01,2004-12-31,ML
+February 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The band had three fairly successful chart hits during 2004, before splitting up in February 2005, less than a year after their first single was released.",3,0,,3408190,2005-02-01,2005-02-28,ML
+less than a year,JJR IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER TIME,time_reference,"The band had three fairly successful chart hits during 2004, before splitting up in February 2005, less than a year after their first single was released.",3,0,,3408190,,,ML
+now,RB,TIMELINE_REGEX,TIME,time_reference,He now works as a personal trainer.,0,1,,3408190,,,ML
+August 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In August 2005, he was announced in The Sun as the long-term boyfriend of Westlife member Mark Feehily.",0,3,== Personal life ==,3408190,2005-08-01,2005-08-31,ML
+The Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,"In August 2005, he was announced in The Sun as the long-term boyfriend of Westlife member Mark Feehily.",0,3,== Personal life ==,3408190,,,ML
+of the December 2007,IN DT NNP CD,PREFIX_REGEX_1 PREFIX_REGEX_1 MONTH_REGEX YEAR_REGEX_1,MODIFIER MODIFIER TIME TIME,time_reference,The couple appeared on the cover of the December 2007 issue of Attitude.,1,3,== Personal life ==,3408190,,,ML
+28 January 2010,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,They got engaged on 28 January 2010 but have since split up.,2,3,== Personal life ==,3408190,2010-01-28,2010-01-28,ML

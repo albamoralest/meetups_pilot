@@ -1,0 +1,6 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1985,CD,YEAR_REGEX_1,TIME,time_reference,"He was a member of Kreator in 1985, joining Sodom later that year.",1,0,,59851352,1985-01-01,1985-12-31,ML
+1986,CD,YEAR_REGEX_1,TIME,time_reference,Wulf played guitar on Sodom's 1986 debut album Obsessed by Cruelty and left the band shortly after.,2,0,,59851352,1986-01-01,1986-12-31,ML
+21 July 1993,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,Wulf was killed in a motorcycle accident on 21 July 1993 at the age of 29.,3,0,,59851352,1993-07-21,1993-07-21,ML
+6 December 1963 – 21 July 1993,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Michael Wulf (6 December 1963 – 21 July 1993) (also known by the stage name Destructor) was a German heavy metal musician who was a member of Kreator and Sodom.,0,0,,59851352,1963-12-06,1993-07-21,LLM
+later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He was a member of Kreator in 1985, joining Sodom later that year.",1,0,,59851352,,,ML

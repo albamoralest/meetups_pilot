@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"March 11 , 1955","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jimmy Fortune (born March 11, 1955) is an American country music singer from Nelson County, Virginia.",0,0,,13396434,1955-03-11,1955-03-11,ML
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"Fortune started performing with the Statler Brothers in 1982, and joined the group permanently later in the year when DeWitt was unable to return to the stage.",3,2,== Biography ==,13396434,1982-01-01,1982-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"In 2002, Don, Harold and Phil of the Statler Brothers retired.",0,3,== Biography ==,13396434,2002-01-01,2002-12-31,ML
+2015,CD,YEAR_REGEX_1,TIME,time_reference,In 2015 he released Hits & Hymns produced by Ben Isaacs.,3,3,== Biography ==,13396434,2015-01-01,2015-12-31,ML
+21 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Fortune sang tenor for The Statler Brothers for 21 years, and wrote the song ""Elizabeth"" for the group.",1,0,,13396434,1972-01-01,1993-12-31,LLM
+the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Fortune started performing with the Statler Brothers in 1982, and joined the group permanently later in the year when DeWitt was unable to return to the stage.",3,2,== Biography ==,13396434,,,ML
+recently,RB,TIMELINE_REGEX,TIME,time_reference,"""Elizabeth"" recently was a top bluegrass release for Dailey & Vincent.",6,2,== Biography ==,13396434,,,ML
+21 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He spent 21 years touring, singing, and performing with the Statler Brothers.",7,2,== Biography ==,13396434,,,ML

@@ -1,0 +1,10 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1906,CD,YEAR_REGEX_1,TIME,time_reference,"Roberton was born in Glasgow, where, in 1906, he founded the Glasgow Orpheus Choir.",0,1,,17740835,1906-01-01,1906-12-31,ML
+1951,CD,YEAR_REGEX_1,TIME,time_reference,"For almost fifty years, until it disbanded in 1951 on the retirement of its founder, the Glasgow Orpheus Choir had no equal in Britain and toured widely enjoying world acclaim.",5,1,,17740835,1951-01-01,1951-12-31,ML
+the 1931,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Roberton was knighted in the 1931 New Year's Honours.,0,3,,17740835,1931-01-01,1931-12-31,ML
+1963,CD,YEAR_REGEX_1,TIME,time_reference,Orpheus with his Lute - A Glasgow Orpheus Choir Anthology published in 1963,0,9,== Sources ==,17740835,1963-01-01,1963-12-31,ML
+23 February 1874 – 7 October 1952,CD NNP CD VBD CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Sir Hugh Stevenson Roberton (23 February 1874 – 7 October 1952) was a Scottish composer and Britain's leading choral-master.,0,0,,17740835,1874-02-23,1952-10-07,LLM
+five years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,For five years before that it was the Toynbee Musical Association.,1,1,,17740835,,,ML
+almost fifty years,RB JJ NNS,PREFIX_REGEX_1 BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,"For almost fifty years, until it disbanded in 1951 on the retirement of its founder, the Glasgow Orpheus Choir had no equal in Britain and toured widely enjoying world acclaim.",5,1,,17740835,,,ML
+the April Evening,DT NNP NNP,PREFIX_REGEX_1 MONTH_REGEX DAY_TIME_REGEX,MODIFIER TIME TIME,time_reference,He wrote the choral work  All in the April Evening (words by Katharine Tynan) and the popular songs Westering Home and Mairi's Wedding.,0,2,,17740835,,,ML
+Year,NNP,TIME_UNIT_REGEX,TIME,time_reference,Roberton was knighted in the 1931 New Year's Honours.,0,3,,17740835,,,ML

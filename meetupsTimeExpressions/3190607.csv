@@ -1,0 +1,7 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"April 10 , 1962","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Rick Florian (born April 10, 1962) is a musician, songwriter and producer, most known for being the lead singer of contemporary Christian music rock band White Heart since 1986.",0,0,,3190607,1962-04-10,1962-04-10,ML
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"Rick Florian (born April 10, 1962) is a musician, songwriter and producer, most known for being the lead singer of contemporary Christian music rock band White Heart since 1986.",0,0,,3190607,1986-01-01,1986-12-31,ML
+1962,CD,YEAR_REGEX_1,TIME,time_reference,"Florian was born in South Bend, Indiana, in 1962.",0,2,== Early life ==,3190607,1962-01-01,1962-12-31,ML
+1984,CD,YEAR_REGEX_1,TIME,time_reference,He graduated from Taylor University in 1984.,1,2,== Early life ==,3190607,1984-01-01,1984-12-31,ML
+several years ago,JJ NNS RB,PREFIX_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,MODIFIER TIME MODIFIER,time_reference,"Florian issued a statement several years ago that the band was only at ""a dormant stage"".",3,5,== Whiteheart ==,3190607,2017-01-01,2021-12-31,LLM
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Florian works as a real estate agent, though he has sung on several music projects over the years.",2,0,,3190607,,,ML

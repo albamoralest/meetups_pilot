@@ -1,0 +1,18 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"June 23 , 1987","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Caitlin Rose (born June 23, 1987) is a country singer from Nashville, Tennessee.",0,0,,29825529,1987-06-23,1987-06-23,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"Rose was previously the lead singer of Nashville indie band Save Macaulay, on local label Theory 8 until 2007.",0,2,== Career ==,29825529,2007-01-01,2007-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"As a solo artist, she signed to BMI in 2008.",1,2,== Career ==,29825529,2008-01-01,2008-12-31,ML
+August 2010,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Her first album, Own Side Now, was released by Names Records in August 2010.",0,3,== Career ==,29825529,2010-08-01,2010-08-31,ML
+of 2011,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Now one of the Top 10 Albums of 2011, ranking it at No. 7.",3,3,== Career ==,29825529,2011-01-01,2011-12-31,ML
+"February 25 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Her studio album The Stand-In was released on February 25, 2013.",4,3,== Career ==,29825529,2013-02-25,2013-02-25,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Coming UpPiledriver Waltz; 7-inch, 2012 (covers of two Arctic Monkeys songs, limited edition vinyl release for Record Store Day 2012)Piledriver Waltz",0,22,== Discography == | === Track listings ===,29825529,2012-01-01,2012-12-31,ML
+"February 25 , 2013","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Love Is a LaserquestThe Stand-In; album, February 25, 2013""No One to Call""",0,23,== Discography == | === Track listings ===,29825529,2013-02-25,2013-02-25,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,"She was born in Dallas, Texas, and her family moved to Nashville in 1994.",1,37,== Personal life ==,29825529,1994-01-01,1994-12-31,ML
+seven-track 2008,JJ CD,BASIC_NUMBER_REGEX_1 YEAR_REGEX_1,NUMERAL TIME,time_reference,"The title track of her seven-track 2008 EP, Dead Flowers, is a cover of a Rolling Stones song.",2,2,== Career ==,29825529,2008-01-01,2008-12-31,LLM
+previously,RB,TIMELINE_REGEX,TIME,time_reference,"Rose was previously the lead singer of Nashville indie band Save Macaulay, on local label Theory 8 until 2007.",0,2,== Career ==,29825529,,,ML
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"Her first album, Own Side Now, was released by Names Records in August 2010.",0,3,== Career ==,29825529,,,ML
+Now one,RB CD,TIMELINE_REGEX BASIC_NUMBER_REGEX_1,TIME NUMERAL,time_reference,"Now one of the Top 10 Albums of 2011, ranking it at No. 7.",3,3,== Career ==,29825529,,,ML
+2008Shotgun,CD,YEAR_REGEX_1,TIME,time_reference,"Dead Flowers; EP, 2008Shotgun Wedding",0,7,== Discography == | === Track listings ===,29825529,,,ML
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"T-shirtOwn Side Now; album, 2010Learning to Ride",0,13,== Discography == | === Track listings ===,29825529,,,ML
+Day 2012,NNP CD,TIME_UNIT_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Coming UpPiledriver Waltz; 7-inch, 2012 (covers of two Arctic Monkeys songs, limited edition vinyl release for Record Store Day 2012)Piledriver Waltz",0,22,== Discography == | === Track listings ===,29825529,,,ML
+a year,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,She attended community college in Nashville for a year before leaving to focus on music.,2,37,== Personal life ==,29825529,,,ML

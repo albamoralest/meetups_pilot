@@ -1,0 +1,21 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+the 1968,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,His acting credits include the 1968 stage musical Hair and the 1972 Doctor Who serial Day of the Daleks.,0,1,,2208633,1968-01-01,1968-12-31,ML
+the 1972,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,His acting credits include the 1968 stage musical Hair and the 1972 Doctor Who serial Day of the Daleks.,0,1,,2208633,1972-01-01,1972-12-31,ML
+early 1965,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In early 1965, Winston, along with his acquaintance Steve Marriott, formed Small Faces with Ronnie Lane and Kenney Jones.",0,3,== Small Faces ==,2208633,1965-01-01,1965-12-31,ML
+1965,CD,YEAR_REGEX_1,TIME,time_reference,The group including Winston performed the song in Dateline Diamonds (1965).,6,3,== Small Faces ==,2208633,1965-01-01,1965-12-31,ML
+26 September 2020,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Winston died on 26 September 2020, at the age of 75.",0,7,== Death ==,2208633,2020-09-26,2020-09-26,ML
+1976,CD,YEAR_REGEX_1,TIME,time_reference,"""Sun In the Morning"" / ""Just Wanna Smile"" (1976)",0,10,== Discography == | === Solo ===,2208633,1976-01-01,1976-12-31,ML
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"""Whatcha Gonna Do About It"" / ""What's A Matter Baby"" (1965)",0,13,== Discography == | === with Small Faces ===,2208633,1965-01-01,1965-12-31,ML
+1965,CD,YEAR_REGEX_1,TIME,time_reference,"""I've Got Mine"" / ""It's Too Late"" (1965)",0,14,== Discography == | === with Small Faces ===,2208633,1965-01-01,1965-12-31,ML
+1966,CD,YEAR_REGEX_1,TIME,time_reference,Small Faces (1966),0,15,== Discography == | === with Small Faces ===,2208633,1966-01-01,1966-12-31,ML
+1967,CD,YEAR_REGEX_1,TIME,time_reference,From the Beginning (1967),0,16,== Discography == | === with Small Faces ===,2208633,1967-01-01,1967-12-31,ML
+1969,CD,YEAR_REGEX_1,TIME,time_reference,The Autumn Stone (1969),0,17,== Discography == | === with Small Faces ===,2208633,1969-01-01,1969-12-31,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,The BBC Sessions (1999),0,18,== Discography == | === with Small Faces ===,2208633,1999-01-01,1999-12-31,ML
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"""Sorry She's Mine"" / ""It's Not What You Do (But the Way That You Do It)"" (1966)",0,20,== Discography == | === with Jimmy Winston and His Reflections ===,2208633,1966-01-01,1966-12-31,ML
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"""Real Crazy Apartment"" / ""Snow White"" (1967)",0,22,== Discography == | === with Winston's Fumbs ===,2208633,1967-01-01,1967-12-31,ML
+20 April 1945 – 26 September 2020,CD NNP CD VBD CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"James Edward Winston Langwith (20 April 1945 – 26 September 2020), known professionally as Jimmy Winston, was an English musician and actor.",0,0,,2208633,1945-04-20,2020-09-26,LLM
+previously,RB,TIMELINE_REGEX,TIME,time_reference,Winston had apparently previously worked under the stage name James Moody.,2,0,,2208633,,,ML
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,His acting credits include the 1968 stage musical Hair and the 1972 Doctor Who serial Day of the Daleks.,0,1,,2208633,,,ML
+later that year,RB IN NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"The band released their debut single ""Whatcha Gonna Do About It"" later that year, peaking at number 14.",4,3,== Small Faces ==,2208633,,,ML
+Sun,NNP,WEEK_ABBR_REGEX,TIME,time_reference,"""Sun In the Morning"" / ""Just Wanna Smile"" (1976)",0,10,== Discography == | === Solo ===,2208633,,,ML
+The Autumn,DT NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,The Autumn Stone (1969),0,17,== Discography == | === with Small Faces ===,2208633,,,ML

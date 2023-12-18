@@ -1,0 +1,10 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"May 8 , 1998","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died in a car accident in Nevada on May 8, 1998.",1,0,,43503399,1998-05-08,1998-05-08,ML
+1991,CD,YEAR_REGEX_1,TIME,time_reference,1991,1,2,== Videography == | === 1991 ===,43503399,1991-01-01,1991-12-31,ML
+1993,CD,YEAR_REGEX_1,TIME,time_reference,1993,1,5,== Videography == | === 1993 ===,43503399,1993-01-01,1993-12-31,ML
+1994,CD,YEAR_REGEX_1,TIME,time_reference,=== 1994,0,13,== Videography == | === 1994 ===,43503399,1994-01-01,1994-12-31,ML
+1995,CD,YEAR_REGEX_1,TIME,time_reference,1995,1,23,== Videography == | === 1995 ===,43503399,1995-01-01,1995-12-31,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,=== 1996,0,26,== Videography == | === 1996 ===,43503399,1996-01-01,1996-12-31,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,1997,1,36,== Videography == | === 1997 ===,43503399,1997-01-01,1997-12-31,ML
+"September 26 , 1963 – May 8 , 1998","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Michael John Lucero (September 26, 1963 – May 8, 1998) was an American music video director.",0,0,,43503399,1963-09-26,1998-05-08,LLM
+am,VBP,HALFDAY_REGEX_1,TIME,,"Private Investigators - ""Who am I?",0,7,== Videography == | === 1993 ===,43503399,,,ML

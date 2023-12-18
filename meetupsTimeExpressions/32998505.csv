@@ -1,0 +1,19 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"He wrote and recorded the song ""A Hell of a Night"", which was first issued on his 1982 album Gainelining.",1,0,,32998505,1982-01-01,1982-12-31,ML
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"In 1955, Gaines played as a backing musician on recordings by Bobby Bland, Junior Parker and Big Mama Thornton.",5,2,== Biography ==,32998505,1955-01-01,1955-12-31,ML
+1956,CD,YEAR_REGEX_1,TIME,time_reference,He released two low-key albums in 1956 and a couple more in the 1960s for small record companies.,7,2,== Biography ==,32998505,1956-01-01,1956-12-31,ML
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He released two low-key albums in 1956 and a couple more in the 1960s for small record companies.,7,2,== Biography ==,32998505,1960-01-01,1969-12-31,ML
+1966,CD,YEAR_REGEX_1,TIME,time_reference,"In 1966, Gaines became part of Ray Charles's backing band.",8,2,== Biography ==,32998505,1966-01-01,1966-12-31,ML
+1982,CD,YEAR_REGEX_1,TIME,time_reference,"He worked primarily as a sideman, but he released a solo album, Gainelining, in 1982.",10,2,== Biography ==,32998505,1982-01-01,1982-12-31,ML
+the 1985,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He also had a small part in the 1985 film The Color Purple.,11,2,== Biography ==,32998505,1985-01-01,1985-12-31,ML
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Another album, New Frontier Lover, was released in 2000.",12,2,== Biography ==,32998505,2000-01-01,2000-12-31,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"It was followed by Tuxedo Blues, featuring a big band billed as Roy Gaines & His Orchestra, released in 2009.",13,2,== Biography ==,32998505,2009-01-01,2009-12-31,ML
+"August 11 , 2021","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Gaines died on August 11, 2021, a day before his 84th birthday.",0,3,== Biography ==,32998505,2021-08-11,2021-08-11,ML
+1961,CD,YEAR_REGEX_1,TIME,time_reference,"Freedom Sound (Pacific Jazz, 1961)With Les McCann",0,7,== Discography == | === Albums ===,32998505,1961-01-01,1961-12-31,ML
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Another Beginning (Atlantic, 1974)",0,8,== Discography == | === Albums ===,32998505,1974-01-01,1974-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,Roy Gaines Interview NAMM Oral History Library (2017),0,11,== External links ==,32998505,2017-01-01,2017-12-31,ML
+"August 12 , 1937 – August 11 , 2021","NNP CD , CD NN NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Roy James Gaines (August 12, 1937 – August 11, 2021) was an American Texas blues and electric blues guitarist, singer and songwriter.",0,0,,32998505,1937-08-12,2021-08-11,LLM
+of a Night,IN DT NNP,PREFIX_REGEX_1 INARTICLE_REGEX DAY_TIME_REGEX,MODIFIER MODIFIER TIME,time_reference,"He wrote and recorded the song ""A Hell of a Night"", which was first issued on his 1982 album Gainelining.",1,0,,32998505,,,ML
+six years old,CD NNS JJ,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX SUFFIX_REGEX,NUMERAL TIME MODIFIER,,"Gaines was born in Waskom, Texas, and relocated with his family to Houston when he was six years old.",0,2,== Biography ==,32998505,,,ML
+nightclubs,NNS,DAY_TIME_REGEX,TIME,time_reference,"By the age of 14 he had performed onstage backing his hero, T-Bone Walker, and played in Houston nightclubs.",3,2,== Biography ==,32998505,,,ML
+a day,DT NN,INARTICLE_REGEX TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Gaines died on August 11, 2021, a day before his 84th birthday.",0,3,== Biography ==,32998505,,,ML

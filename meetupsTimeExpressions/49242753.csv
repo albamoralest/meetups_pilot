@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1924,CD,YEAR_REGEX_1,TIME,time_reference,"She was born in Timișoara, Romania in 1924 and debuted at 13.",0,1,,49242753,1924-01-01,1924-12-31,ML
+1979,CD,YEAR_REGEX_1,TIME,time_reference,"After that decade her renown in North America, at least, declined and her death from cancer, in Glarus in 1979, was not well noted.",2,1,,49242753,1979-01-01,1979-12-31,ML
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"""She won 1st prize at Geneva competition in 1947.",1,2,,49242753,1947-01-01,1947-12-31,ML
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"She was married to conductor Béla de Csillery during much of her period of renown in the 1940s and 1950s, but the marriage was dissolved in 1959.",3,2,,49242753,1959-01-01,1959-12-31,ML
+26 October 1924 – 13 August 1979,CD NNP CD VBD CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Johanna Martzy (26 October 1924 – 13 August 1979) was a Hungarian violinist.,0,0,,49242753,1924-10-26,1979-08-13,LLM
+the 1940s and 1950s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,She toured in the 1940s and 1950s.,1,1,,49242753,,,ML
+that decade,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"After that decade her renown in North America, at least, declined and her death from cancer, in Glarus in 1979, was not well noted.",2,1,,49242753,,,ML
+the 1940s and 1950s,DT CD CC CD,PREFIX_REGEX_1 YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,MODIFIER TIME MODIFIER TIME,time_reference,"She was married to conductor Béla de Csillery during much of her period of renown in the 1940s and 1950s, but the marriage was dissolved in 1959.",3,2,,49242753,,,ML

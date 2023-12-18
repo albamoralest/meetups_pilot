@@ -1,0 +1,6 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1808,CD,YEAR_REGEX_1,TIME,time_reference,"He was student in 1808 and studied theology, but from 1816 to 1831, a secretary in the consulate in Algiers.",0,1,,22150266,1808-01-01,1808-12-31,ML
+1816 to 1831,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"He was student in 1808 and studied theology, but from 1816 to 1831, a secretary in the consulate in Algiers.",0,1,,22150266,1816-01-01,1831-12-31,ML
+1817,CD,YEAR_REGEX_1,TIME,time_reference,"During his stay in Algiers, he composed the melody Vift stolt paa Kodans Bølge (1817) which is the best known of his songs.",1,1,,22150266,1817-01-01,1817-12-31,ML
+1819–1820,CD,YEAR_REGEX_1,TIME,time_reference,"In 1819–1820 he traveled in Italy, where he received training in singing in Rome.",2,1,,22150266,1819-01-01,1820-12-31,ML
+9 July 1791 – 15 May 1856,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"David Rudolph Vilhelm Bay   (9 July 1791 – 15 May 1856) was a Danish composer, singer and violinist.",0,0,,22150266,1791-07-09,1856-05-15,LLM

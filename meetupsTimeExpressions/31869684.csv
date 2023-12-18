@@ -1,0 +1,14 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, he signed a recording contract with American label Partisan Records.",0,1,,31869684,2011-01-01,2011-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"In 2008, he recorded songs in a church studio in Hudson, New York.",3,3,== Beginnings ==,31869684,2008-01-01,2008-12-31,ML
+of 2011,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"As of 2011, he lived in Brooklyn, New York; Los Angeles; and in New York State.",3,4,== Beginnings ==,31869684,2011-01-01,2011-12-31,ML
+of 2010,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Steven Mansmith in Slowcoustic described the album as ""a fantastic album"" of 2010 and noted that the video by Brody Baker accompanying JBM's song Not Even in July, with ""images of strewn lawn chairs, sunsets and searching through a dark forest"" was a ""great video for a great song.""",5,6,== Reviews ==,31869684,2010-01-01,2010-12-31,ML
+2018,CD,YEAR_REGEX_1,TIME,time_reference,"Illusion of Love, 2018",0,8,== Discography ==,31869684,2018-01-01,2018-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"Jesse Marchant, 2014",0,9,== Discography ==,31869684,2014-01-01,2014-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Stray Ashes, 2012",0,10,== Discography ==,31869684,2012-01-01,2012-12-31,ML
+"July , 2010","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Not Even in July, 2010, Partisan Records",0,11,== Discography ==,31869684,2010-07-16,2010-07-16,ML
+"July , 2008","NNP , CD",MONTH_REGEX COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_reference,"Not Even in July, 2008, vinyl format",0,12,== Discography ==,31869684,2008-07-16,2008-07-16,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"Top singer-songwriter 2009, iTunes",0,14,== Awards ==,31869684,2009-01-01,2009-12-31,ML
+three years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"According to one account, as a young man Marchant lived in his family's home in the American Adirondack Mountains for three years, living mostly in seclusion, to realize songs that he had written earlier in Los Angeles, California.",2,3,== Beginnings ==,31869684,,,ML
+Future,NNP,TIMELINE_REGEX,TIME,time_reference,"JBM's song ""Ambitions & War"" was described as a ""honey-of-a-song"" in Future Sounds magazine, with lyrics about a person who is losing their mind in Los Angeles.",2,6,== Reviews ==,31869684,,,ML
+July,NNP,MONTH_REGEX,TIME,time_reference,"Steven Mansmith in Slowcoustic described the album as ""a fantastic album"" of 2010 and noted that the video by Brody Baker accompanying JBM's song Not Even in July, with ""images of strewn lawn chairs, sunsets and searching through a dark forest"" was a ""great video for a great song.""",5,6,== Reviews ==,31869684,,,ML

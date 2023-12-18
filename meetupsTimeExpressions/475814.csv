@@ -1,0 +1,6 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"July 12 , 1972","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Brett Reed (born July 12, 1972) is an American musician, best known as the original drummer for the punk rock bands Rancid and Devils Brigade.",0,0,,475814,1972-07-12,1972-07-12,ML
+November 1991,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,He joined Rancid in November 1991 and left 15 years later.,1,0,,475814,1991-11-01,1991-11-30,ML
+"November 3 , 2006","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On November 3, 2006, his announcement of leaving Rancid was made public and he was replaced by Branden Steineckert.",3,0,,475814,2006-11-03,2006-11-03,ML
+their 2003,PRP$ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,,He played on every Rancid release up to their 2003 album Indestructible.,2,0,,475814,2003-01-01,2003-12-31,LLM
+15 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,He joined Rancid in November 1991 and left 15 years later.,1,0,,475814,,,ML

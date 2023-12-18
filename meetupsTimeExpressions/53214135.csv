@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"April 3 , 2001","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Matthew Whitaker (born April 3, 2001) is an American jazz pianist.",0,0,,53214135,2001-04-03,2001-04-03,ML
+"March 6 , 2017","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On March 6, 2017, he released his first album, Outta the Box.",0,4,== Career ==,53214135,2017-03-06,2017-03-06,ML
+April 2017,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In April 2017, Whitaker performed on the Ellen Degeneres Show and competed on Fox's Showtime at the Apollo, winning first place.",2,4,== Career ==,53214135,2017-04-01,2017-04-30,ML
+May,NNP,MONTH_REGEX,TIME,time_reference,"Whitaker was born in Hackensack, New Jersey to May and Moses Whitaker.",0,2,== Early life and education ==,53214135,,,ML
+three months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Born three months prematurely, he weighed less than two pounds, and was given a less than 50 percent chance of survival.",1,2,== Early life and education ==,53214135,,,ML
+present,NN,TIMELINE_REGEX,TIME,time_reference,"On his third birthday, he played ""Twinkle, Twinkle Little Star"" on a toy Yamaha keyboard he had received as a birthday present.",3,2,== Early life and education ==,53214135,,,ML
+"60 Minutes , February 2020","CD NNPS , NNP CD",DIGIT_REGEX_1 TIME_UNIT_REGEX COMMA_REGEX MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME MODIFIER TIME TIME,time_range,"60 Minutes, February 2020",0,8,== External links ==,53214135,,,ML

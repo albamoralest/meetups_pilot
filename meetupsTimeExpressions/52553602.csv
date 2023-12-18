@@ -1,0 +1,27 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"November 10 , 1989","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Tim Wu (born November 10, 1989), better known by his stage name Elephante, is an American musician, DJ and music producer based in Los Angeles.",0,0,,52553602,1989-11-10,1989-11-10,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"In 2011, he graduated and wanted to involve himself in the music industry as an acoustic singer-songwriter before he moved on to electronic dance music.",5,2,== Early life ==,52553602,2011-01-01,2011-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,2014:,1,6,== Career == | === 2014: SERC Fall Concert ===,52553602,2014-01-01,2014-12-31,ML
+October 2014,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In October 2014, Wu performed at SERC Fall Concert alongside Sage the Gemini.",0,7,== Career == | === 2014: SERC Fall Concert ===,52553602,2014-10-01,2014-10-31,ML
+2015,CD,YEAR_REGEX_1,TIME,time_reference,=== 2015:,0,8,== Career == | === 2015: Beginnings ===,52553602,2015-01-01,2015-12-31,ML
+the 2015,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,He opened for headliners Deorro and MAKJ at the 2015 Echostage in June.,3,9,== Career == | === 2015: Beginnings ===,52553602,2015-01-01,2015-12-31,ML
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016:,1,10,== Career == | === 2016: Debut extended play ===,52553602,2016-01-01,2016-12-31,ML
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"In 2016, he released his debut extended play titled ""I Am the Elephante"".",0,11,== Career == | === 2016: Debut extended play ===,52553602,2016-01-01,2016-12-31,ML
+15 June 2018,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"On 15 June 2018, Wu released his second EP, titled Glass Mansion.",0,13,== Career == | === 2018 - present: Glass Mansion ===,52553602,2018-06-15,2018-06-15,ML
+October 2019,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"In October 2019, he announced a live tour titled the ""Diamond Days Tour"", which is based on his single of the same name and dubbed the ""natural evolution"" of his evolving live shows.",7,13,== Career == | === 2018 - present: Glass Mansion ===,52553602,2019-10-01,2019-10-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013,1,19,== Discography == | ==== 2013 ====,52553602,2013-01-01,2013-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,2014,1,22,== Discography == | ==== 2014 ====,52553602,2014-01-01,2014-12-31,ML
+2015,CD,YEAR_REGEX_1,TIME,time_reference,==== 2015,0,36,== Discography == | ==== 2015 ====,52553602,2015-01-01,2015-12-31,ML
+2016,CD,YEAR_REGEX_1,TIME,time_reference,2016,1,47,== Discography == | ==== 2016 ====,52553602,2016-01-01,2016-12-31,ML
+2018,CD,YEAR_REGEX_1,TIME,time_reference,2018,1,51,== Discography == | ==== 2018 ====,52553602,2018-01-01,2018-12-31,ML
+previously,RB,TIMELINE_REGEX,TIME,time_reference,"Wu uses Ableton Live as his digital audio workstation and previously used GarageBand, FruityLoops and Pro Tools.",5,4,== Musical style ==,52553602,,,ML
+Fall,NNP,SEASON_REGEX,TIME,time_reference,SERC Fall Concert ===,2,6,== Career == | === 2014: SERC Fall Concert ===,52553602,,,ML
+Fall,NNP,SEASON_REGEX,TIME,time_reference,"In October 2014, Wu performed at SERC Fall Concert alongside Sage the Gemini.",0,7,== Career == | === 2014: SERC Fall Concert ===,52553602,,,ML
+June,NNP,MONTH_REGEX,TIME,time_reference,He opened for headliners Deorro and MAKJ at the 2015 Echostage in June.,3,9,== Career == | === 2015: Beginnings ===,52553602,,,ML
+Am,VBP,HALFDAY_REGEX_1,TIME,,"In 2016, he released his debut extended play titled ""I Am the Elephante"".",0,11,== Career == | === 2016: Debut extended play ===,52553602,,,ML
+2018 - present,CD : NN,YEAR_REGEX_1 LINKAGE_REGEX TIMELINE_REGEX,TIME MODIFIER TIME,,2018 - present:,1,12,== Career == | === 2018 - present: Glass Mansion ===,52553602,,,ML
+the previously,DT RB,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,"The nine-track extended play includes the previously released singles ""Troubled"", ""Come Back for You"", ""The In Between"" and ""Have It All"".",1,13,== Career == | === 2018 - present: Glass Mansion ===,52553602,,,ML
+Days,NNP,TIME_UNIT_REGEX,TIME,time_reference,"In October 2019, he announced a live tour titled the ""Diamond Days Tour"", which is based on his single of the same name and dubbed the ""natural evolution"" of his evolving live shows.",7,13,== Career == | === 2018 - present: Glass Mansion ===,52553602,,,ML
+Summer,NNP,SEASON_REGEX,TIME,time_reference,"Calvin Harris – ""Summer"" (Elephante Remix)",0,28,== Discography == | ==== 2014 ====,52553602,,,ML
+Years,NNP,TIME_UNIT_REGEX,TIME,time_reference,"The Magician featuring Years & Years – ""Sunlight"" (Elephante Remix)",0,37,== Discography == | ==== 2015 ====,52553602,,,ML
+Now,RB,TIMELINE_REGEX,TIME,time_reference,"Jack Ü featuring Justin Bieber – ""Where Are Ü Now"" (Elephante Remix)",0,38,== Discography == | ==== 2015 ====,52553602,,,ML

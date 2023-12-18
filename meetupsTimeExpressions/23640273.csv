@@ -1,0 +1,20 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"December 14 , 1984","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Michael Christopher ""Mike"" Fuentes (born December 14, 1984) is an American musician.",0,0,,23640273,1984-12-14,1984-12-14,ML
+March 2012,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Fuentes signed to Velocity Records in March 2012.,4,0,,23640273,2012-03-01,2012-03-31,ML
+of 2003,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Mike graduated with the Class of 2003, where he was also voted ""Most Likely To Be Famous"" in the yearbook that year.",6,0,,23640273,2003-01-01,2003-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,A Celebration of an Ending (2004),0,3,== Discography == | === Before Today ===,23640273,2004-01-01,2004-12-31,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,A Flair for the Dramatic (2007),0,5,== Discography == | === Pierce the Veil ===,23640273,2007-01-01,2007-12-31,ML
+2010,CD,YEAR_REGEX_1,TIME,time_reference,Selfish Machines (2010),0,6,== Discography == | === Pierce the Veil ===,23640273,2010-01-01,2010-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Collide with the Sky (2012),0,7,== Discography == | === Pierce the Veil ===,23640273,2012-01-01,2012-12-31,ML
+2016,CD,YEAR_REGEX_1,TIME,time_reference,Misadventures (2016),0,8,== Discography == | === Pierce the Veil ===,23640273,2016-01-01,2016-12-31,ML
+2010,CD,YEAR_REGEX_1,TIME,time_reference,The Hearts of Lonely People EP – (2010),0,10,== Discography == | === Isles and Glaciers ===,23640273,2010-01-01,2010-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"Get Your Mind Right (2012), Velocity Records",0,18,== Discography == | === MikeyWhiskeyHands! ===,23640273,2012-01-01,2012-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,In mid-November 2017 Fuentes was accused of statutory rape and soliciting nude photos via AOL Instant Messenger by a young woman.,0,23,== Allegations of misconduct ==,23640273,2017-01-01,2017-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"The 23-year-old opened up, first meeting Fuentes at Warped Tour 2008.",5,23,== Allegations of misconduct ==,23640273,2008-01-01,2008-12-31,ML
+"December 16 , 2017","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On December 16, 2017, Fuentes responded to the allegations and stated that he is taking a break from Pierce the Veil.",9,23,== Allegations of misconduct ==,23640273,2017-12-16,2017-12-16,ML
+more recently,RBR RB,PREFIX_REGEX_1 TIMELINE_REGEX,MODIFIER TIME,time_reference,He has more recently began a hip hop solo project under the stage name MikeyWhiskeyHands in which he raps on instrumentals produced by Pierce the Veil's bassist Jaime Preciado.,3,0,,23640273,,,ML
+the yearbook,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Mike graduated with the Class of 2003, where he was also voted ""Most Likely To Be Famous"" in the yearbook that year.",6,0,,23640273,,,ML
+Today,NNP,TIMELINE_REGEX,TIME,time_reference,Before Today ===,1,2,== Discography == | === Before Today ===,23640273,,,ML
+Tonight,NNP,DAY_TIME_REGEX,TIME,time_reference,"""Tonight (Living the Life)""",0,14,== Discography == | === MikeyWhiskeyHands! ===,23640273,,,ML
+several years,JJ NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"The incidents have alleged to occur over several years roughly a decade prior; the pair initiated contact on MySpace before meeting for the first time at a Pierce the Veil Concert at Chain Reaction club in Anaheim, California, when Fuentes was 24 and the woman was a minor of 16.",1,23,== Allegations of misconduct ==,23640273,,,ML
+mid December,JJ NNP,PREFIX_REGEX_1 MONTH_REGEX,MODIFIER TIME,time_reference,The band replied to these accusations in mid December.,8,23,== Allegations of misconduct ==,23640273,,,ML

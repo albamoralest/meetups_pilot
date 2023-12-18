@@ -1,0 +1,12 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1908,CD,YEAR_REGEX_1,TIME,time_reference,"By 1908, he was playing in Storyville, the red-light district of New Orleans.",7,0,,241441,1908-01-01,1908-12-31,ML
+1918,CD,YEAR_REGEX_1,TIME,time_reference,"In 1918, Jones moved to Chicago, Illinois.",0,1,,241441,1918-01-01,1918-12-31,ML
+1923,CD,YEAR_REGEX_1,TIME,time_reference,"Jones began recording in 1923, making gramophone records as a piano soloist, accompanist to vocalists, and with his bands The Jazz Wizards and The Chicago Cosmopolitans.",2,1,,241441,1923-01-01,1923-12-31,ML
+the 1920s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He recorded for Gennett, OKeh, Victor, and Paramount Records in the 1920s.",3,1,,241441,1920-01-01,1929-12-31,ML
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1930s, Jones performed a similar management role for Decca.",7,1,,241441,1930-01-01,1939-12-31,ML
+December 1945,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"Richard M. Jones worked for Mercury Records until his death in December 1945 in Chicago, at the age of 53.",0,2,,241441,1945-12-01,1945-12-31,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Doran, James M.; Kernfeld, Barry (2001).",0,5,== Other sources ==,241441,2001-01-01,2001-12-31,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"London: Cygnet Productions, 1997.",2,6,== Other sources ==,241441,1997-01-01,1997-12-31,ML
+"June 13 , 1892 – December 8 , 1945","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Richard M. Jones, born Richard Marigny Jones (sometimes written Richard Mariney Jones), (June 13, 1892 – December 8, 1945) was an American jazz pianist, composer, band leader, and record producer.",0,0,,241441,1892-06-13,1945-12-08,LLM
+A few years,DT JJ NNS,INARTICLE_REGEX PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"A few years later, he often led a small band which sometimes included Joe Oliver.",8,0,,241441,,,ML
+of the decade,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"He also worked for OKeh Records as Chicago supervisor of the company's ""Race"" (African-American) Records for most of the decade.",4,1,,241441,,,ML

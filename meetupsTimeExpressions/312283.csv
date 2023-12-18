@@ -1,0 +1,14 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1896,CD,YEAR_REGEX_1,TIME,time_reference,In 1896 he jointly won the conservatory's violin prize with Pierre Monteux (who later became a famous conductor).,1,2,== Biography ==,312283,1896-01-01,1896-12-31,ML
+1943,CD,YEAR_REGEX_1,TIME,time_reference,"In 1943 he and Marguerite Long established the Marguerite Long-Jacques Thibaud International Competition for violinists and pianists, which takes place each year in Paris.",3,2,== Biography ==,312283,1943-01-01,1943-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"From 2011, it has included singers and is now known as the Long-Thibaud-Crespin Competition, in honour of the soprano Régine Crespin.",4,2,== Biography ==,312283,2011-01-01,2011-12-31,ML
+1 September 1953,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"On 1 September 1953, Thibaud and 41 others died in the crash of Air France Flight 178.",0,3,== Biography ==,312283,1953-09-01,1953-09-01,ML
+1720,CD,YEAR_REGEX_1,TIME,time_reference,His 1720 Stradivarius violin was destroyed in the crash.,2,3,== Biography ==,312283,1720-01-01,1720-12-31,ML
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"Blé qui lève, Paris, Lausanne, Montréal, 1947 ;",1,6,== Bibliography ==,312283,1947-01-01,1947-12-31,ML
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"del Duca, Paris, 1953).",3,6,== Bibliography ==,312283,1953-01-01,1953-12-31,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"Roth, Henry (1997).",0,7,== Bibliography ==,312283,1997-01-01,1997-12-31,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,"Schirmer, 2001",2,8,== Bibliography ==,312283,2001-01-01,2001-12-31,ML
+27 September 1880 – 1 September 1953,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Jacques Thibaud (French pronunciation: ​[ʒak tibo]; 27 September 1880 – 1 September 1953) was a French violinist.,0,0,,312283,1880-09-27,1953-09-01,LLM
+each year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"In 1943 he and Marguerite Long established the Marguerite Long-Jacques Thibaud International Competition for violinists and pianists, which takes place each year in Paris.",3,2,== Biography ==,312283,,,ML
+now,RB,TIMELINE_REGEX,TIME,time_reference,"From 2011, it has included singers and is now known as the Long-Thibaud-Crespin Competition, in honour of the soprano Régine Crespin.",4,2,== Biography ==,312283,,,ML
+the 21st Century,DT JJ NNP,PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER NUMERAL TIME,time_reference,Violin Virtuosos: From Paganini to the 21st Century.,1,7,== Bibliography ==,312283,,,ML

@@ -1,0 +1,8 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2008,CD,YEAR_REGEX_1,TIME,time_reference,Wise signed to Equity Music Group in 2008 at age nineteen.,2,2,== Biography ==,29806672,2008-01-01,2008-12-31,ML
+September 2009,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The label closed soon afterward, and he signed to Broken Bow Records in September 2009.",3,2,== Biography ==,29806672,2009-09-01,2009-09-30,ML
+"December 11 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"This song debuted at number 59 on the Billboard Hot Country Songs chart dated for the week ending December 11, 2010.",5,2,== Biography ==,29806672,2010-12-11,2010-12-11,ML
+September 2011,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"A third single, ""Can't Live Without,"" was released in September 2011.",6,2,== Biography ==,29806672,2011-09-01,2011-09-30,ML
+the year,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"Broken Bow released his single ""Cornfields"" in mid-2010, followed by ""I've Got This Feeling"" later in the year.",4,2,== Biography ==,29806672,2010-01-01,2010-12-31,LLM
+Two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"Two years later, a record label manager encouraged Wise to move to Nashville, Tennessee once Wise had turned eighteen.",1,2,== Biography ==,29806672,,,ML
+the week,DT NN,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"This song debuted at number 59 on the Billboard Hot Country Songs chart dated for the week ending December 11, 2010.",5,2,== Biography ==,29806672,,,ML

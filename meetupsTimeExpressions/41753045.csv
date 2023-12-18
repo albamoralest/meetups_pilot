@@ -1,0 +1,21 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1974,CD,YEAR_REGEX_1,TIME,time_reference,"Jennifer Gasoi (born c. 1974) is a Canadian children's musician, noted for her albums Songs For You and Throw a Penny in the Wishing Well.",0,0,,41753045,1974-01-01,1974-12-31,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"Born and raised in Vancouver, British Columbia, Gasoi graduated from McGill University with a Bachelor of Arts in Social Work in 1996.",0,2,== Early life ==,41753045,1996-01-01,1996-12-31,ML
+1999 to 2001,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,She appeared at the Vancouver International Jazz Festival from 1999 to 2001.,1,4,== Career ==,41753045,1999-01-01,2001-12-31,ML
+late 2012,JJ CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In late 2012, she released her second children's album, Throw a Penny in the Wishing Well.",3,4,== Career ==,41753045,2012-01-01,2012-12-31,ML
+the 2013,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,The album was nominated for the Children's Album of the Year at the 2013 Juno Awards.,4,4,== Career ==,41753045,2013-01-01,2013-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"It was also nominated for the 56th Annual Grammy Awards in 2014, winning the award for Best Children's Album.",5,4,== Career ==,41753045,2014-01-01,2014-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,Songs for You (2004),0,6,== Discography ==,41753045,2004-01-01,2004-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Throw a Penny in the Wishing Well (2012),0,7,== Discography ==,41753045,2012-01-01,2012-12-31,ML
+2005,CD,YEAR_REGEX_1,TIME,time_reference,2005:,0,9,== Awards and recognition ==,41753045,2005-01-01,2005-12-31,ML
+of 2005,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"Juno Awards of 2005, nominee, Children's Album of the Year, Songs",1,9,== Awards and recognition ==,41753045,2005-01-01,2005-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,"2013: Juno Awards of 2013, nominee, Children's Album of the Year, Throw a Penny in the Wishing Well",0,10,== Awards and recognition ==,41753045,2013-01-01,2013-12-31,ML
+of 2013,IN CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"2013: Juno Awards of 2013, nominee, Children's Album of the Year, Throw a Penny in the Wishing Well",0,10,== Awards and recognition ==,41753045,2013-01-01,2013-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013:,0,11,== Awards and recognition ==,41753045,2013-01-01,2013-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"2014: Grammy Award for Best Children's Album, winner",0,12,== Awards and recognition ==,41753045,2014-01-01,2014-12-31,ML
+2002 and two years,CD CC CD NNS,YEAR_REGEX_1 LINKAGE_REGEX BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,TIME MODIFIER NUMERAL TIME,time_range,"She moved to Montreal in 2002 and two years afterwards released her first children's album, Songs For You.",2,4,== Career ==,41753045,2002-01-01,2004-12-31,LLM
+years,NNS,TIME_UNIT_REGEX,TIME,time_reference,"During her post-graduate years in Vancouver, Gasoi sung in local jazz concerts with Linton Garner.",0,4,== Career ==,41753045,,,ML
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,The album was nominated for the Children's Album of the Year at the 2013 Juno Awards.,4,4,== Career ==,41753045,,,ML
+of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"Juno Awards of 2005, nominee, Children's Album of the Year, Songs",1,9,== Awards and recognition ==,41753045,,,ML
+of the Year,IN DT NNP,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"2013: Juno Awards of 2013, nominee, Children's Album of the Year, Throw a Penny in the Wishing Well",0,10,== Awards and recognition ==,41753045,,,ML
+of the Year,IN DT NN,PREFIX_REGEX_1 PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER TIME,time_reference,"9th Canadian Folk Music Awards, nominee, Children's Album of the Year",1,11,== Awards and recognition ==,41753045,,,ML

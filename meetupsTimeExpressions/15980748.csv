@@ -1,0 +1,30 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1925,CD,YEAR_REGEX_1,TIME,time_reference,He studied from 1925 in Freiburg with Wilibald Gurlitt and Heinrich Besseler.,1,2,== Biography ==,15980748,1925-01-01,1925-12-31,ML
+1931 to 1934,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1931 to 1934, Dietrich took a music assistantship in Heidelberg, whilst training to teach at university level.",0,3,== Biography ==,15980748,1931-01-01,1934-12-31,ML
+1935,CD,YEAR_REGEX_1,TIME,time_reference,"This he did in 1935, but with the Nazi regime strengthening its grip on the German society, working opportunities for music teachers dwindled.",1,3,== Biography ==,15980748,1935-01-01,1935-12-31,ML
+1935 and 1944,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Between 1935 and 1944  Dietrich worked for the Bärenreiter publishing house in Kassel, and himself published a collection of small notebooks with music for laymen.",0,4,== Biography ==,15980748,1935-01-01,1944-12-31,ML
+January 1945,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"He was conscripted into the army, and in January 1945 went missing on the Eastern front in the area around Heiligenbeil (now Mamonovo in Kaliningrad Oblast, Russia) at the start of the East Prussian Offensive by the Red Army.",1,4,== Biography ==,15980748,1945-01-01,1945-01-31,ML
+1035,CD,YEAR_REGEX_1,TIME,time_reference,BA 1035.,1,12,== Works ==,15980748,1035-01-01,1035-12-31,ML
+1254,CD,YEAR_REGEX_1,TIME,time_reference,BA 1254.,1,13,== Works ==,15980748,1254-01-01,1254-12-31,ML
+1255,CD,YEAR_REGEX_1,TIME,time_reference,BA 1255.,1,14,== Works ==,15980748,1255-01-01,1255-12-31,ML
+1932,CD,YEAR_REGEX_1,TIME,time_reference,Jahrhundert (1932),1,17,== Works ==,15980748,1932-01-01,1932-12-31,ML
+1933,CD,YEAR_REGEX_1,TIME,time_reference,Musik und Zeit (1933),0,18,== Works ==,15980748,1933-01-01,1933-12-31,ML
+1931,CD,YEAR_REGEX_1,TIME,time_reference,Bach-Jahrbuch (1931) 51–71Collections edited by Dietrich for Bärenreiter publishing house:,1,19,== Works ==,15980748,1931-01-01,1931-12-31,ML
+1932,CD,YEAR_REGEX_1,TIME,time_reference,In Auswahl herausgegeben (1932).,2,20,== Works ==,15980748,1932-01-01,1932-12-31,ML
+1001,CD,YEAR_REGEX_1,TIME,time_reference,BA 1001.,1,21,== Works ==,15980748,1001-01-01,1001-12-31,ML
+1003,CD,YEAR_REGEX_1,TIME,time_reference,BA 1003.,1,22,== Works ==,15980748,1003-01-01,1003-12-31,ML
+1004,CD,YEAR_REGEX_1,TIME,time_reference,BA 1004.,1,23,== Works ==,15980748,1004-01-01,1004-12-31,ML
+1598,CD,YEAR_REGEX_1,TIME,time_reference,Altdeutsche Tanzmusik aus Nörmigers Tabulatur 1598 eingerichtet für c-Flöte (oder ein anderes Melodieinstrument) und Klavier.,0,24,== Works ==,15980748,1598-01-01,1598-12-31,ML
+1937,CD,YEAR_REGEX_1,TIME,time_reference,(1937) BA 1010.,1,24,== Works ==,15980748,1937-01-01,1937-12-31,ML
+1010,CD,YEAR_REGEX_1,TIME,time_reference,(1937) BA 1010.,1,24,== Works ==,15980748,1010-01-01,1010-12-31,ML
+1937,CD,YEAR_REGEX_1,TIME,time_reference,(1937) BA 1106.,1,25,== Works ==,15980748,1937-01-01,1937-12-31,ML
+1106,CD,YEAR_REGEX_1,TIME,time_reference,(1937) BA 1106.,1,25,== Works ==,15980748,1106-01-01,1106-12-31,ML
+1141,CD,YEAR_REGEX_1,TIME,time_reference,BA 1141.,2,26,== Works ==,15980748,1141-01-01,1141-12-31,ML
+1953,CD,YEAR_REGEX_1,TIME,time_reference,Musik & Kirche (1953) 237.,1,28,== References ==,15980748,1953-01-01,1953-12-31,ML
+1955,CD,YEAR_REGEX_1,TIME,time_reference,Musik & Kirche (1955) 81.,1,29,== References ==,15980748,1955-01-01,1955-12-31,ML
+1991,CD,YEAR_REGEX_1,TIME,time_reference,"In Die Freiburger Universität in der Zeit des Nationalsozialismus, Ploetz (1991).",1,30,== References ==,15980748,1991-01-01,1991-12-31,ML
+13 or 23 February 1905 – January 1945,CD CC CD NNP CD NNP NNP CD,DIGIT_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,NUMERAL MODIFIER NUMERAL TIME TIME MODIFIER TIME TIME,time_range,Fritz Dietrich (13 or 23 February 1905 – January 1945) was a German musicologist and composer.,0,0,,15980748,1905-02-13,1945-01-31,LLM
+the Eastern,DT NNP,PREFIX_REGEX_1 HOLIDAY_REGEX,MODIFIER TIME,time_reference,"He was conscripted into the army, and in January 1945 went missing on the Eastern front in the area around Heiligenbeil (now Mamonovo in Kaliningrad Oblast, Russia) at the start of the East Prussian Offensive by the Red Army.",1,4,== Biography ==,15980748,,,ML
+am,VBP,HALFDAY_REGEX_1,TIME,,"Unsere Weihnachtslieder zum Singen am Klavier, mit einem Melodieinstrument (Flöte, Geige) nach Belieben.",0,23,== Works ==,15980748,,,ML
+am,VBP,HALFDAY_REGEX_1,TIME,,"Zum Singen am Klavier, mit einem Melodieinstrument (Flöte, Geige) nach Belieben.",1,26,== Works ==,15980748,,,ML
+Hrsg,NNP,TIME_UNIT_REGEX,TIME,time_reference,Hrsg.,2,30,== References ==,15980748,,,ML

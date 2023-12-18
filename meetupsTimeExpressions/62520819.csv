@@ -1,0 +1,12 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1945,CD,YEAR_REGEX_1,TIME,time_reference,Smith joined the United States Army after graduating high school in 1945 and served with the occupation forces in Okinawa.,2,2,== Early life ==,62520819,1945-01-01,1945-12-31,ML
+1961,CD,YEAR_REGEX_1,TIME,time_reference,Smith was hired as national promotion manager at Warner Bros. in 1961 and later served as the label's general manager.,2,4,== Career ==,62520819,1961-01-01,1961-12-31,ML
+1972,CD,YEAR_REGEX_1,TIME,time_reference,He was named President of Warner Bros. in 1972.,3,4,== Career ==,62520819,1972-01-01,1972-12-31,ML
+1975,CD,YEAR_REGEX_1,TIME,time_reference,"In 1975, he became chairman of Warner's sister company, Elektra/Asylum.",4,4,== Career ==,62520819,1975-01-01,1975-12-31,ML
+1986,CD,YEAR_REGEX_1,TIME,time_reference,Smith briefly served as president of the National Academy of Recording Arts and Sciences in 1986.,5,4,== Career ==,62520819,1986-01-01,1986-12-31,ML
+1988,CD,YEAR_REGEX_1,TIME,time_reference,Excerpts from his recordings were included in his 1988 book Off the Record: An Oral History of Popular Music.,8,4,== Career ==,62520819,1988-01-01,1988-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,"In 2012, Smith donated these recordings to the Library of Congress.",9,4,== Career ==,62520819,2012-01-01,2012-12-31,ML
+"December 2 , 2019","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Smith died December 2, 2019 at the age of 91.",0,6,== Death ==,62520819,2019-12-02,2019-12-02,ML
+"January 26 , 1928 – December 2 , 2019","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Joseph Benjamin Smith (January 26, 1928 – December 2, 2019) was an American music industry executive.",0,0,,62520819,1928-01-26,2019-12-02,LLM
+year,NN,TIME_UNIT_REGEX,TIME,time_reference,He became vice chairman and chief executive of Capitol-EMI that same year.,6,4,== Career ==,62520819,,,ML
+238 hours,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"While at Capitol Records, Smith compiled 238 hours of recorded interviews with artists and executives.",7,4,== Career ==,62520819,,,ML

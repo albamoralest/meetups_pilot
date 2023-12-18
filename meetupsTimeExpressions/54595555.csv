@@ -1,0 +1,13 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"March 15 , 1947","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Jean Rosenberg Feldman (born March 15, 1947 in Milan, Tennessee), better known as Dr. Jean, is an American teacher, author, and musical artist.",0,0,,54595555,1947-03-15,1947-03-15,ML
+"April 30 , 2010","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"On April 30, 2010, Dr. Jean released a music video for her song, ""Dr. Jean's Banana Dance.""",0,1,,54595555,2010-04-30,2010-04-30,ML
+October and November 2015,NNP CC NNP CD,MONTH_REGEX LINKAGE_REGEX MONTH_REGEX YEAR_REGEX_1,TIME MODIFIER TIME TIME,time_reference,"""Guacamole Song"", the incorrect but more well known name for ""Dr. Jean's Banana Dance,"" rose rapidly in October and November 2015.",1,1,,54595555,2015-10-01,2015-11-30,ML
+"of November 27 , 2019","IN NNP CD , CD",PREFIX_REGEX_1 MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Since then, Dr. Jean has uploaded more music videos of her songs which has earned her over 71.2 million views and 138,000 subscribers on YouTube as of November 27, 2019.",4,1,,54595555,2019-11-27,2019-11-27,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,Nursery Rhymes and Good Ol' Times (2002),0,3,== Discography ==,54595555,2002-01-01,2002-12-31,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,All Day Long (2004),0,4,== Discography ==,54595555,2004-01-01,2004-12-31,ML
+2006,CD,YEAR_REGEX_1,TIME,time_reference,Totally Math (2006),0,5,== Discography ==,54595555,2006-01-01,2006-12-31,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,(2007),1,6,== Discography ==,54595555,2007-01-01,2007-12-31,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,Dr. Jean and Friends (2007),0,7,== Discography ==,54595555,2007-01-01,2007-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,Just for Fun (2011),0,8,== Discography ==,54595555,2011-01-01,2011-12-31,ML
+40 years,CD NNS,DIGIT_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,Dr. Jean has been educating for over 40 years and has created many resources for teachers in the classroom with their students.,3,0,,54595555,1981-01-01,2021-01-01,LLM
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,All Day Long (2004),0,4,== Discography ==,54595555,,,ML

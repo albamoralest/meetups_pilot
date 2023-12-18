@@ -1,0 +1,63 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+19 May 1975,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Jonas Petter Renkse (born 19 May 1975) is a Swedish musician in the bands Katatonia(1991–) as lead vocalist, founder, songwriter (1991–1994, 1997–) and formerly as drummer (1991–1994, 1996–1998); in Bloodbath(1998–) as bassist, founder, songwriter; and in Wisdom of Crowds (2013–) as co-vocalist.",0,0,,2880344,1975-05-19,1975-05-19,ML
+1991–,CD,YEAR_REGEX_1,TIME,time_reference,"Jonas Petter Renkse (born 19 May 1975) is a Swedish musician in the bands Katatonia(1991–) as lead vocalist, founder, songwriter (1991–1994, 1997–) and formerly as drummer (1991–1994, 1996–1998); in Bloodbath(1998–) as bassist, founder, songwriter; and in Wisdom of Crowds (2013–) as co-vocalist.",0,0,,2880344,1991-01-01,,ML
+"1991–1994 , 1997–","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Jonas Petter Renkse (born 19 May 1975) is a Swedish musician in the bands Katatonia(1991–) as lead vocalist, founder, songwriter (1991–1994, 1997–) and formerly as drummer (1991–1994, 1996–1998); in Bloodbath(1998–) as bassist, founder, songwriter; and in Wisdom of Crowds (2013–) as co-vocalist.",0,0,,2880344,,,ML
+"1991–1994 , 1996–1998","CD , CD",YEAR_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,,"Jonas Petter Renkse (born 19 May 1975) is a Swedish musician in the bands Katatonia(1991–) as lead vocalist, founder, songwriter (1991–1994, 1997–) and formerly as drummer (1991–1994, 1996–1998); in Bloodbath(1998–) as bassist, founder, songwriter; and in Wisdom of Crowds (2013–) as co-vocalist.",0,0,,2880344,,,ML
+1998–,CD,YEAR_REGEX_1,TIME,time_reference,"Jonas Petter Renkse (born 19 May 1975) is a Swedish musician in the bands Katatonia(1991–) as lead vocalist, founder, songwriter (1991–1994, 1997–) and formerly as drummer (1991–1994, 1996–1998); in Bloodbath(1998–) as bassist, founder, songwriter; and in Wisdom of Crowds (2013–) as co-vocalist.",0,0,,2880344,1998-01-01,,ML
+2013–,CD,YEAR_REGEX_1,TIME,time_reference,"Jonas Petter Renkse (born 19 May 1975) is a Swedish musician in the bands Katatonia(1991–) as lead vocalist, founder, songwriter (1991–1994, 1997–) and formerly as drummer (1991–1994, 1996–1998); in Bloodbath(1998–) as bassist, founder, songwriter; and in Wisdom of Crowds (2013–) as co-vocalist.",0,0,,2880344,2013-01-01,,ML
+October,NNP,MONTH_REGEX,TIME,time_reference,"He was also the founding member, drummer, vocalist, guitarist & songwriter of the band October Tide.",0,1,,2880344,,,ML
+1995,CD,YEAR_REGEX_1,TIME,time_reference,"In 1995 Katatonia was put on a halt due to not having a suitable lineup, and Renkse subsequently decided to form October Tide.",0,3,== History ==,2880344,1995-01-01,1995-12-31,ML
+October,NNP,MONTH_REGEX,TIME,time_reference,"In 1995 Katatonia was put on a halt due to not having a suitable lineup, and Renkse subsequently decided to form October Tide.",0,3,== History ==,2880344,,,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,"In 1996, Jonas' performance of death vocals had taken such a toll that by 1997 he would only sing cleanly.",0,4,== History ==,2880344,1996-01-01,1996-12-31,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"In 1996, Jonas' performance of death vocals had taken such a toll that by 1997 he would only sing cleanly.",0,4,== History ==,2880344,1997-01-01,1997-12-31,ML
+1998,CD,YEAR_REGEX_1,TIME,time_reference,"By 1998, Renkse decided he would focus strictly on vocals and abandon drums.",1,4,== History ==,2880344,1998-01-01,1998-12-31,ML
+off of their 2018,IN IN PRP$ CD,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER MODIFIER MODIFIER TIME,time_reference,"He would later appear on the track ""Devonian: Nascent"" off of their 2018 release Phanerozoic I: Paleozoic, as well as ""Jurassic | Cretaceous"" from the 2020 release Phanerozoic II: Mesozoic & Cenozoic.",1,5,== History ==,2880344,,,ML
+the 2020,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He would later appear on the track ""Devonian: Nascent"" off of their 2018 release Phanerozoic I: Paleozoic, as well as ""Jurassic | Cretaceous"" from the 2020 release Phanerozoic II: Mesozoic & Cenozoic.",1,5,== History ==,2880344,2020-01-01,2020-12-31,ML
+of December,IN NNP,PREFIX_REGEX_1 MONTH_REGEX,MODIFIER TIME,time_reference,Dance of December Souls (1993),0,10,== Discography == | === With Katatonia ===,2880344,,,ML
+1993,CD,YEAR_REGEX_1,TIME,time_reference,Dance of December Souls (1993),0,10,== Discography == | === With Katatonia ===,2880344,1993-01-01,1993-12-31,ML
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,Brave Murder Day (1996),0,11,== Discography == | === With Katatonia ===,2880344,,,ML
+1996,CD,YEAR_REGEX_1,TIME,time_reference,Brave Murder Day (1996),0,11,== Discography == | === With Katatonia ===,2880344,1996-01-01,1996-12-31,ML
+1998,CD,YEAR_REGEX_1,TIME,time_reference,Discouraged Ones (1998),0,12,== Discography == | === With Katatonia ===,2880344,1998-01-01,1998-12-31,ML
+Tonight,NNP,DAY_TIME_REGEX,TIME,time_reference,Tonight's Decision (1999),0,13,== Discography == | === With Katatonia ===,2880344,,,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Tonight's Decision (1999),0,13,== Discography == | === With Katatonia ===,2880344,1999-01-01,1999-12-31,ML
+2001,CD,YEAR_REGEX_1,TIME,time_reference,Last Fair Deal Gone Down (2001),0,14,== Discography == | === With Katatonia ===,2880344,2001-01-01,2001-12-31,ML
+2003,CD,YEAR_REGEX_1,TIME,time_reference,Viva Emptiness (2003),0,15,== Discography == | === With Katatonia ===,2880344,2003-01-01,2003-12-31,ML
+2006,CD,YEAR_REGEX_1,TIME,time_reference,The Great Cold Distance (2006),0,16,== Discography == | === With Katatonia ===,2880344,2006-01-01,2006-12-31,ML
+Night,NNP,DAY_TIME_REGEX,TIME,time_reference,Night Is the New Day (2009),0,17,== Discography == | === With Katatonia ===,2880344,,,ML
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,Night Is the New Day (2009),0,17,== Discography == | === With Katatonia ===,2880344,,,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,Night Is the New Day (2009),0,17,== Discography == | === With Katatonia ===,2880344,2009-01-01,2009-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,Dead End Kings (2012),0,18,== Discography == | === With Katatonia ===,2880344,2012-01-01,2012-12-31,ML
+The Fall,DT NN,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,The Fall of Hearts (2016),0,19,== Discography == | === With Katatonia ===,2880344,,,ML
+2016,CD,YEAR_REGEX_1,TIME,time_reference,The Fall of Hearts (2016),0,19,== Discography == | === With Katatonia ===,2880344,2016-01-01,2016-12-31,ML
+2020,CD,YEAR_REGEX_1,TIME,time_reference,City Burials (2020),0,20,== Discography == | === With Katatonia ===,2880344,2020-01-01,2020-12-31,ML
+2000,CD,YEAR_REGEX_1,TIME,time_reference,"Breeding Death (2000) – bass, songwriting & backing vocals",0,22,== Discography == | === With Bloodbath ===,2880344,2000-01-01,2000-12-31,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"Resurrection Through Carnage (2002) – bass, songwriting, backing vocals, production, engineering & photography",0,23,== Discography == | === With Bloodbath ===,2880344,2002-01-01,2002-12-31,ML
+Nightmares,NNS,DAY_TIME_REGEX,TIME,time_reference,"Nightmares Made Flesh (2004) – bass, songwriting, backing vocals & guitar",0,24,== Discography == | === With Bloodbath ===,2880344,,,ML
+2004,CD,YEAR_REGEX_1,TIME,time_reference,"Nightmares Made Flesh (2004) – bass, songwriting, backing vocals & guitar",0,24,== Discography == | === With Bloodbath ===,2880344,2004-01-01,2004-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"Unblessing the Purity (2008) – bass, songwriting & art direction",0,25,== Discography == | === With Bloodbath ===,2880344,2008-01-01,2008-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"The Fathomless Mastery (2008) – bass, songwriting (2, 3, 6, 8 & 11)",0,26,== Discography == | === With Bloodbath ===,2880344,2008-01-01,2008-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"The Wacken Carnage (2008, CD/DVD) – bass, songwriting",0,27,== Discography == | === With Bloodbath ===,2880344,2008-01-01,2008-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,"Bloodbath over Bloodstock (2011, DVD) – bass, songwriting (1–8, 10–12, 14–18)",0,28,== Discography == | === With Bloodbath ===,2880344,2011-01-01,2011-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,"Grand Morbid Funeral (2014, CD) – bass, songwriting",0,29,== Discography == | === With Bloodbath ===,2880344,2014-01-01,2014-12-31,ML
+2018,CD,YEAR_REGEX_1,TIME,time_reference,"The Arrow of Satan Is Drawn (2018) – bass, songwriting",0,30,== Discography == | === With Bloodbath ===,2880344,2018-01-01,2018-12-31,ML
+October,NNP,MONTH_REGEX,TIME,time_reference,With October Tide ===,1,31,== Discography == | === With October Tide ===,2880344,,,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,Rain Without End (1997),0,32,== Discography == | === With October Tide ===,2880344,1997-01-01,1997-12-31,ML
+Dawn,NNP,DAY_TIME_REGEX,TIME,time_reference,Grey Dawn (1999),0,33,== Discography == | === With October Tide ===,2880344,,,ML
+1999,CD,YEAR_REGEX_1,TIME,time_reference,Grey Dawn (1999),0,33,== Discography == | === With October Tide ===,2880344,1999-01-01,1999-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,Tunnel of No Light (2013) – Lyrics,0,34,== Discography == | === With October Tide ===,2880344,2013-01-01,2013-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,Wisdom of Crowds (2013),0,36,== Discography == | === Bruce Soord with Jonas Renkse ===,2880344,2013-01-01,2013-12-31,ML
+1997,CD,YEAR_REGEX_1,TIME,time_reference,"""Losing Myself"" from Infernal by Edge of Sanity (1997)",0,38,== Discography == | === Lyrics ===,2880344,1997-01-01,1997-12-31,ML
+Day,NNP,TIME_UNIT_REGEX,TIME,time_reference,"""Still Day Beneath the Sun"" by Opeth (2002)",0,40,== Discography == | === Producer ===,2880344,,,ML
+the Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,"""Still Day Beneath the Sun"" by Opeth (2002)",0,40,== Discography == | === Producer ===,2880344,,,ML
+2002,CD,YEAR_REGEX_1,TIME,time_reference,"""Still Day Beneath the Sun"" by Opeth (2002)",0,40,== Discography == | === Producer ===,2880344,2002-01-01,2002-12-31,ML
+the Sun,DT NNP,PREFIX_REGEX_1 WEEK_ABBR_REGEX,MODIFIER TIME,time_reference,"""The Justice of Suffering"" from Hope by Swallow the Sun (2007)",0,42,== Discography == | === Guest vocals ===,2880344,,,ML
+2007,CD,YEAR_REGEX_1,TIME,time_reference,"""The Justice of Suffering"" from Hope by Swallow the Sun (2007)",0,42,== Discography == | === Guest vocals ===,2880344,2007-01-01,2007-12-31,ML
+2008,CD,YEAR_REGEX_1,TIME,time_reference,"""01011001"" by Ayreon (2008)",0,43,== Discography == | === Guest vocals ===,2880344,2008-01-01,2008-12-31,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"""Nearing Grave"" from Avoid the Light by Long Distance Calling (2009)",0,44,== Discography == | === Guest vocals ===,2880344,2009-01-01,2009-12-31,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,"""Ascending"" from Worlds I Create by Pantheon I (2009)",0,45,== Discography == | === Guest vocals ===,2880344,2009-01-01,2009-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"""Waking Dreams"" on ""Ayreon Universe – The Best of Ayreon Live"" tour and album by Ayreon (2017)",0,46,== Discography == | === Guest vocals ===,2880344,2017-01-01,2017-12-31,ML
+2017,CD,YEAR_REGEX_1,TIME,time_reference,"""Comatose"" on ""Ayreon Universe – The Best of Ayreon Live"" tour and album by Ayreon (2017)",0,47,== Discography == | === Guest vocals ===,2880344,2017-01-01,2017-12-31,ML
+2018,CD,YEAR_REGEX_1,TIME,time_reference,"""The Silence"" on ""Off The Cross – ERA EP"" album by Off The Cross (2018)",0,48,== Discography == | === Guest vocals ===,2880344,2018-01-01,2018-12-31,ML
+2018,CD,YEAR_REGEX_1,TIME,time_reference,"""Devonian: Nascent"" on ""Phanerozoic I: Palaeozoic"" album by The Ocean Collective (2018)",0,49,== Discography == | === Guest vocals ===,2880344,2018-01-01,2018-12-31,ML
+2020,CD,YEAR_REGEX_1,TIME,time_reference,"""Jurassic | Cretaceous"" on ""Phanerozoic II: Mesozoic & Cenozoic"" album by The Ocean Collective (2020)",0,50,== Discography == | === Guest vocals ===,2880344,2020-01-01,2020-12-31,ML
+1975,CD,YEAR_REGEX_1,TIME,time_reference,Ibanez 1975 Cherry (Electric),0,58,== Equipment == | === Guitars ===,2880344,1975-01-01,1975-12-31,ML

@@ -1,0 +1,20 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1931,CD,YEAR_REGEX_1,TIME,time_reference,"He is particularly known for his colossal work, Die Musik des Mittelalters und der Renaissance (1931), which provided a new perspective on historical musicology by taking a history-of-ideas approach to music history.",1,0,,29197208,1931-01-01,1931-12-31,ML
+1923,CD,YEAR_REGEX_1,TIME,time_reference,In 1923 he obtained a doctoral degree in musicology from the University of Freiburg.,2,2,== Life ==,29197208,1923-01-01,1923-12-31,ML
+1250 and 1350,CD CC CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"After further studies at the University of Göttingen, he wrote a professorial thesis on medieval music, spanning the years between 1250 and 1350.",4,2,== Life ==,29197208,1250-01-01,1350-12-31,ML
+1928,CD,YEAR_REGEX_1,TIME,time_reference,From 1928 he taught at the University of Heidelberg.,5,2,== Life ==,29197208,1928-01-01,1928-12-31,ML
+1934,CD,YEAR_REGEX_1,TIME,time_reference,"In 1934, Besseler became a member of the Sturmabteilung.",6,2,== Life ==,29197208,1934-01-01,1934-12-31,ML
+1949 to 1956,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1949 to 1956 he taught at the University of Jena, and from 1957 to 1965 at the University of Leipzig.",8,2,== Life ==,29197208,1949-01-01,1956-12-31,ML
+1957 to 1965,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1949 to 1956 he taught at the University of Jena, and from 1957 to 1965 at the University of Leipzig.",8,2,== Life ==,29197208,1957-01-01,1965-12-31,ML
+1967,CD,YEAR_REGEX_1,TIME,time_reference,"He was awarded an honorary doctorate at the University of Chicago in 1967, and died in Leipzig two years later.",9,2,== Life ==,29197208,1967-01-01,1967-12-31,ML
+1923,CD,YEAR_REGEX_1,TIME,time_reference,"Jahrhundert (doctoral thesis, 1923)",1,4,== Books ==,29197208,1923-01-01,1923-12-31,ML
+1925,CD,YEAR_REGEX_1,TIME,time_reference,"Die Die Motettenkomposition von Petrus de Cruce bis Philipp von Vitry (professorial thesis, 1925)",0,5,== Books ==,29197208,1925-01-01,1925-12-31,ML
+1931,CD,YEAR_REGEX_1,TIME,time_reference,"Die Musik des Mittelalters und der Renaissance (Potsdam: Akademische Verlagsgesellschaft Athenaion, 1931)",0,6,== Books ==,29197208,1931-01-01,1931-12-31,ML
+1949,CD,YEAR_REGEX_1,TIME,time_reference,"Zum Problem der Tenorgeige, Musikalische Gegenwartsfragen I, 1949",0,7,== Books ==,29197208,1949-01-01,1949-12-31,ML
+1950,CD,YEAR_REGEX_1,TIME,time_reference,"Bourdon und Fauxbourdon – Studien zum Ursprung der niederländischen Musik, 1950",0,8,== Books ==,29197208,1950-01-01,1950-12-31,ML
+1956,CD,YEAR_REGEX_1,TIME,time_reference,"Fünf echte Bildnisse Johann Sebastian Bachs, 1956",0,9,== Books ==,29197208,1956-01-01,1956-12-31,ML
+1959,CD,YEAR_REGEX_1,TIME,time_reference,"Das musikalische Hören der Neuzeit, 1959",0,10,== Books ==,29197208,1959-01-01,1959-12-31,ML
+1973,CD,YEAR_REGEX_1,TIME,time_reference,"Das Schriftbild der mehrstimmigen Musik, 1973 (co-authored with Peter Gülke).",0,11,== Books ==,29197208,1973-01-01,1973-12-31,ML
+"April 2 , 1900 – July 25 , 1969","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Heinrich Besseler (April 2, 1900 – July 25, 1969) was a German musicologist born in Hörde.",0,0,,29197208,1900-04-02,1969-07-25,LLM
+the years,DT NNS,PREFIX_REGEX_1 TIME_UNIT_REGEX,MODIFIER TIME,time_reference,"After further studies at the University of Göttingen, he wrote a professorial thesis on medieval music, spanning the years between 1250 and 1350.",4,2,== Life ==,29197208,,,ML
+two years,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He was awarded an honorary doctorate at the University of Chicago in 1967, and died in Leipzig two years later.",9,2,== Life ==,29197208,,,ML

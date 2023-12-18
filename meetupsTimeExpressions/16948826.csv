@@ -1,0 +1,16 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1929,CD,YEAR_REGEX_1,TIME,time_reference,"His nickname was Little T. Born in Vernon, Texas, United States, Teagarden worked locally in Oklahoma before he and Jack joined Ben Pollack's Orchestra in 1929.",2,0,,16948826,1929-01-01,1929-12-31,ML
+1931,CD,YEAR_REGEX_1,TIME,time_reference,He then worked with Red Nichols (1931) and Roger Wolfe Kahn (1932) before doing an extended run in Paul Whiteman's orchestra (1933–40).,4,0,,16948826,1931-01-01,1931-12-31,ML
+1932,CD,YEAR_REGEX_1,TIME,time_reference,He then worked with Red Nichols (1931) and Roger Wolfe Kahn (1932) before doing an extended run in Paul Whiteman's orchestra (1933–40).,4,0,,16948826,1932-01-01,1932-12-31,ML
+1933–40,CD,YEAR_REGEX_1,TIME,time_reference,He then worked with Red Nichols (1931) and Roger Wolfe Kahn (1932) before doing an extended run in Paul Whiteman's orchestra (1933–40).,4,0,,16948826,1933-01-01,2040-12-31,ML
+1936,CD,YEAR_REGEX_1,TIME,time_reference,"In 1936 he, Jack, and Frankie Trumbauer played together in the ensemble The Three T's.",5,0,,16948826,1936-01-01,1936-12-31,ML
+1940,CD,YEAR_REGEX_1,TIME,time_reference,"Teagarden played in his brother's big band in 1940, but soon branched off to lead his own ensembles.",0,1,,16948826,1940-01-01,1940-12-31,ML
+1954–58,CD,YEAR_REGEX_1,TIME,time_reference,"He played with Jimmy Dorsey in 1948-50 and Bob Crosby from 1954–58, as well as working with Pete Fountain in the 1960s.",1,1,,16948826,1954-01-01,2058-12-31,ML
+the 1960s,DT NNS,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"He played with Jimmy Dorsey in 1948-50 and Bob Crosby from 1954–58, as well as working with Pete Fountain in the 1960s.",1,1,,16948826,1960-01-01,1969-12-31,ML
+1959,CD,YEAR_REGEX_1,TIME,time_reference,He worked steadily in Las Vegas after 1959.,2,1,,16948826,1959-01-01,1959-12-31,ML
+1962,CD,YEAR_REGEX_1,TIME,time_reference,His only release as a leader was issued in 1962 on Coral Records.,3,1,,16948826,1962-01-01,1962-12-31,ML
+the 1963,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"At the 1963 Monterey Jazz Festival, he performed with Jack, sister Norma, and mother Helen.",4,1,,16948826,1963-01-01,1963-12-31,ML
+the 1970s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Teagarden went into semi-retirement in the 1970s.,5,1,,16948826,1970-01-01,1979-12-31,ML
+"December 10 , 1984","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"Teagarden died on December 10, 1984 in Las Vegas, Nevada.",0,2,,16948826,1984-12-10,1984-12-10,ML
+"July 19 , 1913 – December 10 , 1984","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Charlie Teagarden (July 19, 1913 – December 10, 1984), known as 'Smokey Joe', was an American jazz trumpeter.",0,0,,16948826,1913-07-19,1984-12-10,LLM
+1948-50,JJ,YEAR_REGEX_1,TIME,time_reference,"He played with Jimmy Dorsey in 1948-50 and Bob Crosby from 1954–58, as well as working with Pete Fountain in the 1960s.",1,1,,16948826,,,ML

@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2016,CD,YEAR_REGEX_1,TIME,time_reference,"He died at the age of 90 in 2016 in Freiburg im Breisgau, Germany.",0,3,,23206517,2016-01-01,2016-12-31,ML
+1948 to 1950,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He was a flautist in orchestras in Winterthur and Zurich from 1948 to 1950.,0,5,== Career ==,23206517,1948-01-01,1950-12-31,ML
+1950 to 1959,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He was solo flautist for the Berlin Philharmonic Orchestra from 1950 to 1959.,0,6,== Career ==,23206517,1950-01-01,1959-12-31,ML
+1952 to 1965,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He was a professor in the Academy for Music in Berlin from 1952 to 1965.,0,7,== Career ==,23206517,1952-01-01,1965-12-31,ML
+1965 to 1981,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,He was head of the Master Class at Freiburg Conservatory from 1965 to 1981.,0,8,== Career ==,23206517,1965-01-01,1981-12-31,ML
+1947,CD,YEAR_REGEX_1,TIME,time_reference,"In 1947, at the age of 21, he was awarded First Prize for flute from Paris Conservatory.",0,10,== Awards and prizes ==,23206517,1947-01-01,1947-12-31,ML
+1948,CD,YEAR_REGEX_1,TIME,time_reference,In 1948 he won First Prize at Geneva International Music Competition.,0,11,== Awards and prizes ==,23206517,1948-01-01,1948-12-31,ML
+of the late twentieth century,IN DT JJ JJ NN,PREFIX_REGEX_1 PREFIX_REGEX_1 PREFIX_REGEX_1 ORDINAL_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER MODIFIER NUMERAL TIME,time_reference,He was considered one of the world's best flute players of the late twentieth century.,1,0,,23206517,1970-01-01,1999-12-31,LLM
+22 January 1926 – 29 January 2016,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,Aurèle Nicolet (22 January 1926 – 29 January 2016) was a Swiss flautist.,0,0,,23206517,1926-01-22,2016-01-29,LLM
+Winterthur,NNP,SEASON_REGEX,TIME,time_reference,He was a flautist in orchestras in Winterthur and Zurich from 1948 to 1950.,0,5,== Career ==,23206517,,,ML

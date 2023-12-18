@@ -1,0 +1,6 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+"October 5 , 1964","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"David Dederer (born October 5, 1964) is an American guitarist and singer.",0,0,,33643323,1964-10-05,1964-10-05,ML
+2007 to 2010,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"Dederer worked for Seattle web/mobile media company Melodeo from 2007 to 2010 as Vice President, Business Development.",0,2,,33643323,2007-01-01,2010-12-31,ML
+June 2010,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Melodeo was acquired by Hewlett Packard in June 2010.,1,2,,33643323,2010-06-01,2010-06-30,ML
+currently,RB,TIMELINE_REGEX,TIME,time_reference,Dederer currently heads programming and editorial at Amazon Music and manages The Presidents' ongoing business interests.,0,1,,33643323,,,ML
+previously,RB,TIMELINE_REGEX,TIME,time_reference,He previously worked for four years as a public affairs consultant at Seattle firm Pyramid Communications.,2,2,,33643323,,,ML

@@ -1,0 +1,9 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+the 1920s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"In the 1920s a U.S. tour by Berger, who was traveling with her parents, was suspended when Kurt Berger fell ill in Tulsa, Oklahoma.",4,1,,7880660,1920-01-01,1929-12-31,ML
+1961,CD,YEAR_REGEX_1,TIME,time_reference,(1961),2,6,== Discography ==,7880660,1961-01-01,1961-12-31,ML
+16 October 1971,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Dallas Morning News, 16 October 1971.",1,10,== Sources ==,7880660,1971-10-16,1971-10-16,ML
+January 1990,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,"The Strad, January 1990.",2,11,== Sources ==,7880660,1990-01-01,1990-01-31,ML
+30 March 1957,CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME,time_point,"Tulsa Tribune, 30 March 1957.",1,13,== Sources ==,7880660,1957-03-30,1957-03-30,ML
+"June 17 , 1903 – December 27 , 1976","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Tosca Berger Kramer (June 17, 1903 – December 27, 1976) was a New Zealand-born American violinist and violist.",0,0,,7880660,1903-06-17,1976-12-27,LLM
+five months,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,She was also survived by her mother (Lucy Emma Berger) who was five months from her 100th birthday.,1,3,,7880660,,,ML
+Morning,NNP,DAY_TIME_REGEX,TIME,time_reference,"Dallas Morning News, 16 October 1971.",1,10,== Sources ==,7880660,,,ML

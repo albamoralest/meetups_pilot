@@ -1,0 +1,18 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1928,CD,YEAR_REGEX_1,TIME,time_reference,"In 1928, he moved to New York City and became a member of bands such as Red Nichols & His Five Pennies.",1,2,== Career ==,268246,1928-01-01,1928-12-31,ML
+the 1930s,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,"During the 1930s, he was a studio musician for CBS except for one year with the Ray Noble orchestra.",2,2,== Career ==,268246,1930-01-01,1939-12-31,ML
+1939,CD,YEAR_REGEX_1,TIME,time_reference,"In 1939, he started a big band with Ray McKinley, a swing drummer and vocalist from Texas, and changed his name from Schwichtenberg to Will Bradley.",3,2,== Career ==,268246,1939-01-01,1939-12-31,ML
+1942,CD,YEAR_REGEX_1,TIME,time_reference,"In 1942, McKinley departed to form his own band.",0,3,== Career ==,268246,1942-01-01,1942-12-31,ML
+"July 15 , 1989","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died on July 15, 1989, in Flemington, New Jersey, three days after his 77th birthday.",0,5,== Death ==,268246,1989-07-15,1989-07-15,ML
+1941,CD,YEAR_REGEX_1,TIME,time_reference,"Bradley was the band leader for the Summer Silver Theater on CBS in 1941, with Ed Sullivan as the show's host.",0,7,== Radio ==,268246,1941-01-01,1941-12-31,ML
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Boogie-Woogie (Epic, 1954)",0,9,== Discography ==,268246,1954-01-01,1954-12-31,ML
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"Jazz Encounter (Waldorf Music Hall, 1955)",0,10,== Discography ==,268246,1955-01-01,1955-12-31,ML
+1955,CD,YEAR_REGEX_1,TIME,time_reference,"Jazz – Dixieland and Chicago Style  (Waldorf Music Hall, 1955)",0,11,== Discography ==,268246,1955-01-01,1955-12-31,ML
+1941,CD,YEAR_REGEX_1,TIME,time_reference,"1941 (Circle, 1986)With Ruth Brown",0,12,== Discography ==,268246,1941-01-01,1941-12-31,ML
+1986,CD,YEAR_REGEX_1,TIME,time_reference,"1941 (Circle, 1986)With Ruth Brown",0,12,== Discography ==,268246,1986-01-01,1986-12-31,ML
+1957,CD,YEAR_REGEX_1,TIME,time_reference,"Ruth Brown (Atlantic, 1957)With Charlie Parker",0,13,== Discography ==,268246,1957-01-01,1957-12-31,ML
+1954,CD,YEAR_REGEX_1,TIME,time_reference,"Big Band (Clef, 1954)",0,14,== Discography ==,268246,1954-01-01,1954-12-31,ML
+"July 12 , 1912 – July 15 , 1989","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Wilbur Schwichtenberg (July 12, 1912 – July 15, 1989), known professionally as Will Bradley, was an American trombonist and bandleader during the 1930s and 1940s.",0,0,,268246,1912-07-12,1989-07-15,LLM
+one year,CD NN,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,,"During the 1930s, he was a studio musician for CBS except for one year with the Ray Noble orchestra.",2,2,== Career ==,268246,,,ML
+three days,CD NNS,BASIC_NUMBER_REGEX_1 TIME_UNIT_REGEX,NUMERAL TIME,time_reference,"He died on July 15, 1989, in Flemington, New Jersey, three days after his 77th birthday.",0,5,== Death ==,268246,,,ML
+the Summer,DT NNP,PREFIX_REGEX_1 SEASON_REGEX,MODIFIER TIME,time_reference,"Bradley was the band leader for the Summer Silver Theater on CBS in 1941, with Ed Sullivan as the show's host.",0,7,== Radio ==,268246,,,ML

@@ -1,0 +1,11 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+1981,CD,YEAR_REGEX_1,TIME,time_reference,"Following his death in 1981, he was eulogised as ""an austere perfectionist with a strong feeling for the big occasion.""",1,5,== Church musician ==,26271221,1981-01-01,1981-12-31,ML
+1953,CD,YEAR_REGEX_1,TIME,time_reference,"In 1953, he toured North America with the St Paul's choir and conducted a concert at the White House before President Dwight D. Eisenhower.",4,5,== Church musician ==,26271221,1953-01-01,1953-12-31,ML
+1936 to 1969,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,"From 1936 to 1969, Bower also served as organ professor at the Royal College of Music and was associate director of the Royal School of Church Music.",5,5,== Church musician ==,26271221,1936-01-01,1969-12-31,ML
+1950,CD,YEAR_REGEX_1,TIME,time_reference,"Together with G.H. Knight, he co-edited the ""revised edition"" of Hymns Ancient and Modern, which was published in 1950.",6,5,== Church musician ==,26271221,1950-01-01,1950-12-31,ML
+1926–1929,CD,YEAR_REGEX_1,TIME,time_reference,"Truro Cathedral, 1926–1929",0,8,== Career ==,26271221,1926-01-01,1929-12-31,ML
+1929–1933,CD,YEAR_REGEX_1,TIME,time_reference,"New College, Oxford, 1929–1933",0,9,== Career ==,26271221,1929-01-01,1933-12-31,ML
+1933–1936,CD,YEAR_REGEX_1,TIME,time_reference,"Durham Cathedral, 1933–1936",0,10,== Career ==,26271221,1933-01-01,1936-12-31,ML
+1936–1968,CD,YEAR_REGEX_1,TIME,time_reference,"St Paul's Cathedral, 1936–1968",0,11,== Career ==,26271221,1936-01-01,1968-12-31,ML
+13 August 1905 – 29 May 1981,CD NNP CD NNP CD NNP CD,DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1 LINKAGE_REGEX DIGIT_REGEX_1 MONTH_REGEX YEAR_REGEX_1,NUMERAL TIME TIME MODIFIER NUMERAL TIME TIME,time_range,"Sir John Dykes Bower  (13 August 1905 – 29 May 1981) was an English cathedral organist who served in Truro Cathedral, Durham Cathedral and St Paul's Cathedral.",0,0,,26271221,1905-08-13,1981-05-29,LLM
+more than 30 years,JJR IN CD NNS,PREFIX_REGEX_1 PREFIX_REGEX_1 DIGIT_REGEX_1 TIME_UNIT_REGEX,MODIFIER MODIFIER NUMERAL TIME,time_reference,Bower was the organist at  St Paul's Cathedral for more than 30 years.,0,5,== Church musician ==,26271221,,,ML

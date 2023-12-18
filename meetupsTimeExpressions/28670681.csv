@@ -1,0 +1,14 @@
+time_expression,POST_tag,time_token,type_token,time_expression_type,sentences,sentenceIndex,paragraphIndex,section,wikiId,normalised_value_start,normalised_value_end,source
+2012,CD,YEAR_REGEX_1,TIME,time_reference,== 2012 presidential campaign ==,0,4,== 2012 presidential campaign ==,28670681,2012-01-01,2012-12-31,ML
+the 2012,DT CD,PREFIX_REGEX_1 YEAR_REGEX_1,MODIFIER TIME,time_reference,Abramson ran for President of the United States as an independent candidate in the 2012 election.,0,5,== 2012 presidential campaign ==,28670681,2012-01-01,2012-12-31,ML
+1998 to 2000,CD TO CD,YEAR_REGEX_1 LINKAGE_REGEX YEAR_REGEX_1,TIME MODIFIER TIME,time_range,Abramson sold pork rinds on the internet from 1998 to 2000.,0,10,== Other ventures ==,28670681,1998-01-01,2000-12-31,ML
+February 2005,NNP CD,MONTH_REGEX YEAR_REGEX_1,TIME TIME,time_reference,Abramson was diagnosed with amyotrophic lateral sclerosis in February 2005.,0,12,== Death ==,28670681,2005-02-01,2005-02-28,ML
+"January 20 , 2016","NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME,time_reference,"He died on January 20, 2016, at the age of 45.",1,12,== Death ==,28670681,2016-01-20,2016-01-20,ML
+2009,CD,YEAR_REGEX_1,TIME,time_reference,2009 – Rumi Music,0,14,== Discography ==,28670681,2009-01-01,2009-12-31,ML
+2010,CD,YEAR_REGEX_1,TIME,time_reference,2010 –,0,15,== Discography ==,28670681,2010-01-01,2010-12-31,ML
+2011,CD,YEAR_REGEX_1,TIME,time_reference,2011 – Spices,0,16,== Discography ==,28670681,2011-01-01,2011-12-31,ML
+2012,CD,YEAR_REGEX_1,TIME,time_reference,2012 – Abramsonium Review,0,17,== Discography ==,28670681,2012-01-01,2012-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013 – The Antarctic Wars,0,18,== Discography ==,28670681,2013-01-01,2013-12-31,ML
+2013,CD,YEAR_REGEX_1,TIME,time_reference,2013 – Maize And Bluebeard,0,19,== Discography ==,28670681,2013-01-01,2013-12-31,ML
+2014,CD,YEAR_REGEX_1,TIME,time_reference,2014 - The Bionic Mouth,0,20,== Discography ==,28670681,2014-01-01,2014-12-31,ML
+"September 13 , 1970 – January 20 , 2016","NNP CD , CD NNP NNP CD , CD",MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1 LINKAGE_REGEX MONTH_REGEX DIGIT_REGEX_1 COMMA_REGEX YEAR_REGEX_1,TIME NUMERAL MODIFIER TIME MODIFIER TIME NUMERAL MODIFIER TIME,time_reference,"Lee Abramson (September 13, 1970 – January 20, 2016) was an American composer and musician.",0,0,,28670681,1970-09-13,2016-01-20,LLM
