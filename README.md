@@ -51,4 +51,4 @@ The folder extractedEntities contains the final result of the extraction pipelin
 
 Here you will find a csv named by the wikipedia id of the authors. In the file "infoBiographies.csv" you will find the name of the person related with the wikipedia page, the date of birth
 
-![MEETUPS software-tools](https://github.com/polifonia-project/meetups-knowledge-graph/blob/main/meetups-software_tools.png?raw=true)
+![MEETUPS software-tools]([https://github.com/polifonia-project/meetups-knowledge-graph/blob/main/meetups-software_tools.png?raw=true](https://github.com/polifonia-project/meetups-knowledge-graph/blob/b993d1650df723723801673d0fa220de0d962b22/diagrams/meetups-software_tools.png)https://github.com/polifonia-project/meetups-knowledge-graph/blob/b993d1650df723723801673d0fa220de0d962b22/diagrams/meetups-software_tools.png)
