@@ -40,9 +40,9 @@ This pilot focuses on supporting music historians and teachers by providing a We
 In this pilot, we extract people, places, events and time entities from 33.309 Wikipedia pages.
 
 Components related to the KG.
-1. Meetups Ontology. The framework to build the Musical Meetups Knowledge Graph [Meetups Ontology](https://github.com/polifonia-project/meetups-ontology)
-2. Meetups Knowledge Graph. It contains the structured data extracted using a knowledge extraction pipeline to obtain evidence of artists' encounters throughout history. [Musical Meetups Knowledge Graph](https://github.com/polifonia-project/meetups-knowledge-graph)
-3. Meetups Corpus. The repository of the Meetups corpus, Wikipedia pages collected in text format of a list of musical artist. [Meetups Corpus Collection](https://github.com/polifonia-project/meetups_corpus_collection)
+1. [Meetups Ontology](https://github.com/polifonia-project/meetups-ontology). The framework to build the Musical Meetups Knowledge Graph 
+2. [Musical Meetups Knowledge Graph](https://github.com/polifonia-project/meetups-knowledge-graph). It contains the structured data extracted using a knowledge extraction pipeline to obtain evidence of artists' encounters throughout history. 
+3. [Meetups Corpus Collection](https://github.com/polifonia-project/meetups_corpus_collection). The repository of the Meetups corpus, Wikipedia pages collected in text format of a list of musical artists.
 
 ## Meetups Ontology description
 
