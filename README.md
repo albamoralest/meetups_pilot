@@ -31,11 +31,24 @@ has-part:
 
 [![DOI](https://zenodo.org/badge/436452967.svg)](https://zenodo.org/badge/latestdoi/436452967)
 
-Extracting information of musical artist from Wikipedia pages.
+## People and music: exploring their encounters over centuries
 
-The initial collection of Wikipedia pages can be found here: https://github.com/albamoralest/scrappingWikipediaMusicBiographies
+This pilot focuses on supporting music historians and teachers by providing a Web tool that enables the exploration and visualisation of encounters between people in the musical world in Europe from c.1800 to c.1945, relying on information extracted from public domain books such as biographies, memoirs and travel writing, and open-access databases. These encounters will be explored in a timeline and map interface and may reveal unexpected connections and relationships that cast new light on aspects of European music history. The tool will provide persistent, citable identifiers in order to support referencing in scholarship outputs.
 
-In this pilot we extract people, places, events and time entities from 1002 wikipedia pages.
+## Description
+
+In this pilot, we extract people, places, events and time entities from 33.309 Wikipedia pages.
+
+Components related to the KG.
+1. Meetups Ontology. The framework to build the Musical Meetups Knowledge Graph [Meetups Ontology](https://github.com/polifonia-project/meetups-ontology)
+2. Meetups Knowledge Graph. It contains the structured data extracted using a knowledge extraction pipeline to obtain evidence of artists' encounters throughout history. [Musical Meetups Knowledge Graph](https://github.com/polifonia-project/meetups-knowledge-graph)
+3. Meetups Corpus. The repository of the Meetups corpus, Wikipedia pages collected in text format of a list of musical artist. [Meetups Corpus Collection](https://github.com/polifonia-project/meetups_corpus_collection)
+
+## Meetups Ontology description
+
+## Meetups Knowledge Extraction description
+
+![KG extraction pipeline](https://github.com/polifonia-project/meetups-knowledge-graph/blob/17bbb79cf1ee3f7c04ab9a60a339b350cf6fe1b7/diagrams/meetups-pipeline.png "KG extraction pipeline")
 
 Step 1: cleaning and organising information by sentences
 
@@ -45,7 +58,7 @@ Step 2:
   
   2.2 extracting time expressions using nltk
   
-The dataset is organised by folders:
+Folders organise the dataset:
 
 The folder extractedEntities contains the final result of the extraction pipeline
 
