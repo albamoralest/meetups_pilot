@@ -42,7 +42,7 @@ In this pilot, we extract people, places, events and time entities from 33.309 W
 Components related to the KG.
 1. [Meetups Ontology](https://github.com/polifonia-project/meetups-ontology). The framework to build the Musical Meetups Knowledge Graph. The Meetups Pilot focuses on extracting data related to collaborations between people in the musical world. The main aim is to facilitate the exploring and discovering of these connections between people by characterising evidence (usually found in textual resources) with dimensions that are relevant to the scholarly enquiry such as the actual participants, the place they met, the nature of the event and the date it took place.
 The Meetups Ontology describes the concept of `historical meetup` to represent the collaborations between personalities of European musical history and formalises its constituent parts as an ontology.  
-2. [Musical Meetups Knowledge Graph](https://github.com/polifonia-project/meetups-knowledge-graph). It contains the structured data extracted using a knowledge extraction pipeline to obtain evidence of artists' encounters throughout history. 
+2. [Musical Meetups Knowledge Graph (MMKG)](https://github.com/polifonia-project/meetups-knowledge-graph). It contains the structured data extracted using a knowledge extraction pipeline to obtain evidence of artists' encounters throughout history. 
 3. [Meetups Corpus Collection](https://github.com/polifonia-project/meetups_corpus_collection). Corpus containing Wikipedia pages collected in text format, a total of 33.309 personalities of the music world.
 
 ## Meetups Knowledge Extraction description
@@ -69,6 +69,17 @@ to increase the accuracy of the automatic classification. We followed a zero-sho
 4. Knowledge Graph Construction. The KG was constructed using the CSV files resulting from the process described so far and applying the Meetups ontology. We use SPARQL Anything and design CONSTRUCT mappings, to create triples from each biography.
 
 ![MEETUPS software-tools](https://github.com/polifonia-project/meetups-knowledge-graph/blob/b993d1650df723723801673d0fa220de0d962b22/diagrams/meetups-software_tools.png)
+
+## Pilot resources
+
+### MMKG SPARQL Endpoint
+```
+https://polifonia.kmi.open.ac.uk/meetups/sparql/
+```
+### Web Interface for exploration of historical meetups
+```
+https://polifonia.kmi.open.ac.uk/MEETUPS/index.php
+```
 
 ## Repository organisation
 
