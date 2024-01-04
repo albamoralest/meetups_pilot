@@ -88,3 +88,6 @@ The folder extractedEntities contains the final result of the extraction pipelin
 Here you will find a csv named by the wikipedia id of the authors. In the file "infoBiographies.csv" you will find the name of the person related with the wikipedia page, the date of birth
 
 
+## Acknowledgements
+
+This work was supported by the EU’s Horizon Europe research and innovation programme within the Polifonia project (grant agreement N. 101004746).
