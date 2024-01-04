@@ -52,14 +52,19 @@ The Meetups Ontology describes the concept of `historical meetup` to represent t
 1. Data collection & preparation. The biographies of 33.309 personalities were collected from Wikipedia. The text was cleaned by removing empty spaces, redundant line breaks and special characters. The corpus is organised in indexed sentences for each biography.
 
 2. Entity recognition
+
    2.1. Identification of people and place entities. We use the DBpedia Spotlight5 tool to automatically annotate mentions of people and places linking them to DBpedia resources. We filter entities using the following types: `wikidata:Q41176`, `wikidata:Q486972`, `dbo:Place`, `dbo:Location` or `wikidata:Q6256`. For people, types should be one of `dbo:Person`, `wikidata:Q215627` or `dbo:MusicalArtist`.
+
    2.2. Identification and normalisation of temporal expressions. This task is divided into two parts: (a) identification of temporal expressions and (b) normalisation. To (a) extract temporal expressions from text, we use a rule-based tagger, established on the implementation of SynTime. To (b) normalise temporal expressions into an XSD date time compliant format we consider time as ranges, with a start and end time point. We follow the ISO86017 format (YYYY-MM-DD) using two Python libraries (dateutil and approx-dates). To cope with cases where normalisation could not be done using Python libraries we we make use of ChatGPT to increase the number of temporal expressions parsed.
+
    2.3. Identification of meeting purpose. Our pipeline included a Machine Learning approach that follows a semi-supervised classification process, annotating each sentence in the corpus and assigning them one of the meetup types. We use of the LLM tool ChatGPT
 to increase the accuracy of the automatic classification. We followed a zero-shot learning approach meaning we provided as input the piece of text to analyse, and the list of classes. We ask the tool to return the two classes that better describe the meetup type. 
 
 3. Harmonisation.
-  3.1. Coreference. We use the Python library fastcoref. The library receives as input a paragraph text, then it identifies the entities’ mentions (person or a place) and groups them into chains of mentions. New entities are added when implicit mentions are found in the text.
-  3.2. Identification of historical meetups. At this stage, we have a dataset of sentences, each of them including zero or more entity types (people, place, temporal expressions and meetup type). However, a historical meetup can be described in consecutive sentences, having complementary information. We harmonise the data by joining adjacent sentences representing the same social interaction.
+
+   3.1. Coreference. We use the Python library fastcoref. The library receives as input a paragraph text, then it identifies the entities’ mentions (person or a place) and groups them into chains of mentions. New entities are added when implicit mentions are found in the text.
+
+   3.2. Identification of historical meetups. At this stage, we have a dataset of sentences, each of them including zero or more entity types (people, place, temporal expressions and meetup type). However, a historical meetup can be described in consecutive sentences, having complementary information. We harmonise the data by joining adjacent sentences representing the same social interaction.
 
 4. Knowledge Graph Construction. The KG was constructed using the CSV files resulting from the process described so far and applying the Meetups ontology. We use SPARQL Anything and design CONSTRUCT mappings, to create triples from each biography.
 
